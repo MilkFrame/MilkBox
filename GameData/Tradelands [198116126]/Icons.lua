@@ -199,6 +199,7 @@ data = {
     ["Glowsaber"] = "http://www.roblox.com/asset/?id=424517530",
     ["Glowsteel"] = "http://www.roblox.com/asset/?id=268516803",
     ["Gold"] = "http://www.roblox.com/asset/?id=198624844",
+    ["Gourd"] = "rbxassetid://1553435861",
     ["Greatsword"] = "http://www.roblox.com/asset/?id=422620795",
     ["Grimewood"] = "http://www.roblox.com/asset/?id=205997161",
     ["Gunpowder"] = "http://www.roblox.com/asset/?id=422697203",
@@ -479,3 +480,7 @@ data = {
     ["Yew"] = "http://www.roblox.com/asset/?id=13547209386",
     ["_Test"] = "http://www.roblox.com/asset/?id=12796105435"
 }
+a="" aa=game.ReplicatedStorage.Icons:GetChildren()
+table.sort(aa,function(x,b) return x.Name<b.Name end)
+for i,v in pairs(aa) do if v.ClassName=="Decal" then a=a.."[\""..v.Name.."\"] = \""..v.Texture.."\"," end end
+setclipboard(a)
