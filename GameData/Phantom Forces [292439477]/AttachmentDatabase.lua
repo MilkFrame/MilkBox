@@ -938,3 +938,15 @@ Press T to toggle between your optics and these sights.]],["attachmentModifiers"
 
 Press T to toggle between your optics and these sights.]],["attachmentModifiers"]={["setters"]={},["trueMultipliers"]={{["value"]=1,["indexPath"]={"recoil","aimRotation","x",1,3}},{["value"]=1,["indexPath"]={"recoil","aimRotation","y",1,3}},{["value"]=-1,["indexPath"]={"recoil","aimRotation","z",1,3}},{["value"]=1,["indexPath"]={"recoil","aimRotation","x",1,4}},{["value"]=1,["indexPath"]={"recoil","aimRotation","y",1,4}},{["value"]=2,["indexPath"]={"recoil","aimRotation","z",1,4}}},["tableInserters"]={{["value"]={["zoom"]=4,["blackscope"]=false,["aimwalkspeedmult"]=0.5,["reliefdistance"]=0.1111111111111111,["imgres"]="1024, 1024",["lenspart"]="LensCanted",["midscope"]=true,["sight"]="SightMark2",["aperturescope"]=true,["aimzdist"]=0.9,["reliefradius"]=0.08333333333333333},["indexPath"]={"altaimdata"},["insertIndex"]=-1}}}},
 },}
+out="{"
+for i,v in pairs(game:GetService("ReplicatedStorage").Content.ProductionContent.AttachmentDatabase.Categories:GetChildren()) do
+       out=out.."[\""..v.Name.."\"] = {"
+       for x,y in pairs(v:GetChildren()) do
+           if y:FindFirstChild("AttachmentData") then
+    line1 = require(y.AttachmentData)
+    out=out.."[\""..y.Name.."\"] = "..table_to_string(line1)..",\n" else
+    print(y.Name.." has no AttachmentData") end
+        end out=out.."},"
+end out=out.."}"
+wait(1)
+setclipboard(out) print("Done")
