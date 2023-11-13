@@ -1,0 +1,6036 @@
+{
+  "timestamp": "12 October 2023 6:00pm",
+  "comment": "GlobalLeaderboards",
+  "day": {
+    "kills": {
+      "1": {
+        "UserId": 2938460465,
+        "Name": "rose_ghoul09",
+        "Value": 1
+      },
+      "2": {
+        "UserId": 220,
+        "Name": "cham",
+        "Value": 0
+      },
+      "3": {
+        "UserId": 480,
+        "Name": "williamtrevor_mare",
+        "Value": 0
+      },
+      "4": {
+        "UserId": 633,
+        "Name": "d ted",
+        "Value": 0
+      },
+      "5": {
+        "UserId": 906,
+        "Name": "god333",
+        "Value": 0
+      },
+      "6": {
+        "UserId": 1068,
+        "Name": "kraenaux",
+        "Value": 0
+      },
+      "7": {
+        "UserId": 1404,
+        "Name": "naky",
+        "Value": 0
+      },
+      "8": {
+        "UserId": 1905,
+        "Name": "kaycee_kagome",
+        "Value": 0
+      },
+      "9": {
+        "UserId": 2253,
+        "Name": "barney",
+        "Value": 0
+      },
+      "10": {
+        "UserId": 2536,
+        "Name": "will",
+        "Value": 0
+      },
+      "11": {
+        "UserId": 2976,
+        "Name": "avalinity",
+        "Value": 0
+      },
+      "12": {
+        "UserId": 4901,
+        "Name": "druitherme",
+        "Value": 0
+      },
+      "13": {
+        "UserId": 5444,
+        "Name": "calxn",
+        "Value": 0
+      },
+      "14": {
+        "UserId": 5514,
+        "Name": "darius curry",
+        "Value": 0
+      },
+      "15": {
+        "UserId": 5719,
+        "Name": "builderboy12",
+        "Value": 0
+      },
+      "16": {
+        "UserId": 6029,
+        "Name": "bj94",
+        "Value": 0
+      },
+      "17": {
+        "UserId": 6912,
+        "Name": "enclosured",
+        "Value": 0
+      },
+      "18": {
+        "UserId": 7636,
+        "Name": "jokester",
+        "Value": 0
+      },
+      "19": {
+        "UserId": 7781,
+        "Name": "comedybobbie",
+        "Value": 0
+      },
+      "20": {
+        "UserId": 7841,
+        "Name": "rainbowshaggy_god",
+        "Value": 0
+      },
+      "21": {
+        "UserId": 8108,
+        "Name": "faruh123",
+        "Value": 0
+      },
+      "22": {
+        "UserId": 8247,
+        "Name": "rygle",
+        "Value": 0
+      },
+      "23": {
+        "UserId": 8966,
+        "Name": "1george",
+        "Value": 0
+      },
+      "24": {
+        "UserId": 9235,
+        "Name": "vincentantonicci",
+        "Value": 0
+      },
+      "25": {
+        "UserId": 9651,
+        "Name": "winterwonderland",
+        "Value": 0
+      },
+      "26": {
+        "UserId": 11440,
+        "Name": "genuinemeister",
+        "Value": 0
+      },
+      "27": {
+        "UserId": 11568,
+        "Name": "loner574",
+        "Value": 0
+      },
+      "28": {
+        "UserId": 11643,
+        "Name": "starwars",
+        "Value": 0
+      },
+      "29": {
+        "UserId": 11692,
+        "Name": "phenomenon",
+        "Value": 0
+      },
+      "30": {
+        "UserId": 12864,
+        "Name": "youngblood",
+        "Value": 0
+      },
+      "31": {
+        "UserId": 13951,
+        "Name": "cyrexfatality",
+        "Value": 0
+      },
+      "32": {
+        "UserId": 14065,
+        "Name": "kaiokaris",
+        "Value": 0
+      },
+      "33": {
+        "UserId": 14157,
+        "Name": "partyperson",
+        "Value": 0
+      },
+      "34": {
+        "UserId": 15707,
+        "Name": "torchlad",
+        "Value": 0
+      },
+      "35": {
+        "UserId": 15893,
+        "Name": "brill",
+        "Value": 0
+      },
+      "36": {
+        "UserId": 16743,
+        "Name": "blockchick",
+        "Value": 0
+      },
+      "37": {
+        "UserId": 17197,
+        "Name": "pokemonking",
+        "Value": 0
+      },
+      "38": {
+        "UserId": 18611,
+        "Name": "n0tvalor",
+        "Value": 0
+      },
+      "39": {
+        "UserId": 19034,
+        "Name": "afrolemon",
+        "Value": 0
+      },
+      "40": {
+        "UserId": 19252,
+        "Name": "sumner",
+        "Value": 0
+      },
+      "41": {
+        "UserId": 19274,
+        "Name": "superro",
+        "Value": 0
+      },
+      "42": {
+        "UserId": 19623,
+        "Name": "zone99",
+        "Value": 0
+      },
+      "43": {
+        "UserId": 19802,
+        "Name": "axel407",
+        "Value": 0
+      },
+      "44": {
+        "UserId": 19860,
+        "Name": "kade",
+        "Value": 0
+      },
+      "45": {
+        "UserId": 20320,
+        "Name": "maskedstranger",
+        "Value": 0
+      },
+      "46": {
+        "UserId": 20896,
+        "Name": "gavineo",
+        "Value": 0
+      },
+      "47": {
+        "UserId": 21091,
+        "Name": "jegan",
+        "Value": 0
+      },
+      "48": {
+        "UserId": 21420,
+        "Name": "bela",
+        "Value": 0
+      },
+      "49": {
+        "UserId": 22920,
+        "Name": "slack",
+        "Value": 0
+      },
+      "50": {
+        "UserId": 23126,
+        "Name": "jervan",
+        "Value": 0
+      },
+      "51": {
+        "UserId": 23300,
+        "Name": "outlaw",
+        "Value": 0
+      },
+      "52": {
+        "UserId": 23406,
+        "Name": "justthewolf621",
+        "Value": 0
+      },
+      "53": {
+        "UserId": 24086,
+        "Name": "mickys_dee",
+        "Value": 0
+      },
+      "54": {
+        "UserId": 25693,
+        "Name": "fycaddily",
+        "Value": 0
+      },
+      "55": {
+        "UserId": 26132,
+        "Name": "denitowave",
+        "Value": 0
+      },
+      "56": {
+        "UserId": 26808,
+        "Name": "thephoenix",
+        "Value": 0
+      },
+      "57": {
+        "UserId": 27666,
+        "Name": "drpixel",
+        "Value": 0
+      },
+      "58": {
+        "UserId": 28169,
+        "Name": "friek",
+        "Value": 0
+      },
+      "59": {
+        "UserId": 30074,
+        "Name": "azertyuiop",
+        "Value": 0
+      },
+      "60": {
+        "UserId": 30197,
+        "Name": "xena",
+        "Value": 0
+      },
+      "61": {
+        "UserId": 30554,
+        "Name": "2n6i",
+        "Value": 0
+      },
+      "62": {
+        "UserId": 30938,
+        "Name": "nooob",
+        "Value": 0
+      },
+      "63": {
+        "UserId": 31111,
+        "Name": "dotsy",
+        "Value": 0
+      },
+      "64": {
+        "UserId": 33904,
+        "Name": "iflarg",
+        "Value": 0
+      },
+      "65": {
+        "UserId": 33952,
+        "Name": "princeyoshi",
+        "Value": 0
+      },
+      "66": {
+        "UserId": 34529,
+        "Name": "roboninja",
+        "Value": 0
+      },
+      "67": {
+        "UserId": 35451,
+        "Name": "blockyliebe",
+        "Value": 0
+      },
+      "68": {
+        "UserId": 36387,
+        "Name": "seongwon",
+        "Value": 0
+      },
+      "69": {
+        "UserId": 36472,
+        "Name": "reaiitystone",
+        "Value": 0
+      },
+      "70": {
+        "UserId": 36493,
+        "Name": "keaka",
+        "Value": 0
+      },
+      "71": {
+        "UserId": 36932,
+        "Name": "ntegrim",
+        "Value": 0
+      },
+      "72": {
+        "UserId": 38603,
+        "Name": "warfeel",
+        "Value": 0
+      },
+      "73": {
+        "UserId": 38622,
+        "Name": "danthespam",
+        "Value": 0
+      },
+      "74": {
+        "UserId": 38871,
+        "Name": "oreo332",
+        "Value": 0
+      },
+      "75": {
+        "UserId": 38948,
+        "Name": "sycoticmonkeyking",
+        "Value": 0
+      },
+      "76": {
+        "UserId": 39078,
+        "Name": "vampyre",
+        "Value": 0
+      },
+      "77": {
+        "UserId": 39178,
+        "Name": "perphectionist",
+        "Value": 0
+      },
+      "78": {
+        "UserId": 39325,
+        "Name": "fujin",
+        "Value": 0
+      },
+      "79": {
+        "UserId": 39467,
+        "Name": "bouncer",
+        "Value": 0
+      },
+      "80": {
+        "UserId": 41671,
+        "Name": "jaws",
+        "Value": 0
+      },
+      "81": {
+        "UserId": 42184,
+        "Name": "bloxtoz",
+        "Value": 0
+      },
+      "82": {
+        "UserId": 42655,
+        "Name": "kingaust609",
+        "Value": 0
+      },
+      "83": {
+        "UserId": 43587,
+        "Name": "sportychic",
+        "Value": 0
+      },
+      "84": {
+        "UserId": 43843,
+        "Name": "truly_terrible",
+        "Value": 0
+      },
+      "85": {
+        "UserId": 44812,
+        "Name": "georgie",
+        "Value": 0
+      },
+      "86": {
+        "UserId": 45464,
+        "Name": "unblaz0ned",
+        "Value": 0
+      },
+      "87": {
+        "UserId": 45715,
+        "Name": "piepie",
+        "Value": 0
+      },
+      "88": {
+        "UserId": 46000,
+        "Name": "marktk",
+        "Value": 0
+      },
+      "89": {
+        "UserId": 46135,
+        "Name": "chidlet",
+        "Value": 0
+      },
+      "90": {
+        "UserId": 46260,
+        "Name": "vudism",
+        "Value": 0
+      },
+      "91": {
+        "UserId": 46275,
+        "Name": "dox",
+        "Value": 0
+      },
+      "92": {
+        "UserId": 46296,
+        "Name": "rolodox",
+        "Value": 0
+      },
+      "93": {
+        "UserId": 47356,
+        "Name": "fruitman",
+        "Value": 0
+      },
+      "94": {
+        "UserId": 47398,
+        "Name": "sonicthemetal",
+        "Value": 0
+      },
+      "95": {
+        "UserId": 5115513638,
+        "Name": "darth_thrasher120",
+        "Value": 0
+      },
+      "96": {
+        "UserId": 52906,
+        "Name": "roblox8",
+        "Value": 0
+      },
+      "97": {
+        "UserId": 53602,
+        "Name": "matty114",
+        "Value": 0
+      },
+      "98": {
+        "UserId": 54531,
+        "Name": "archadion",
+        "Value": 0
+      },
+      "99": {
+        "UserId": 55976,
+        "Name": "ghostkenzo",
+        "Value": 0
+      },
+      "100": {
+        "UserId": 58233,
+        "Name": "ralsei_overheaven",
+        "Value": 0
+      }
+    },
+    "time": {
+      "1": {
+        "UserId": 2938460465,
+        "Name": "rose_ghoul09",
+        "Value": 3180
+      },
+      "2": {
+        "UserId": 3964490775,
+        "Name": "temty47",
+        "Value": 120
+      },
+      "3": {
+        "UserId": 24814215,
+        "Name": "aegontargaryen_alive",
+        "Value": 120
+      },
+      "4": {
+        "UserId": 5115195949,
+        "Name": "s9eedangel",
+        "Value": 60
+      },
+      "5": {
+        "UserId": 220,
+        "Name": "cham",
+        "Value": 0
+      },
+      "6": {
+        "UserId": 480,
+        "Name": "williamtrevor_mare",
+        "Value": 0
+      },
+      "7": {
+        "UserId": 633,
+        "Name": "d ted",
+        "Value": 0
+      },
+      "8": {
+        "UserId": 906,
+        "Name": "god333",
+        "Value": 0
+      },
+      "9": {
+        "UserId": 1068,
+        "Name": "kraenaux",
+        "Value": 0
+      },
+      "10": {
+        "UserId": 1404,
+        "Name": "naky",
+        "Value": 0
+      },
+      "11": {
+        "UserId": 1905,
+        "Name": "kaycee_kagome",
+        "Value": 0
+      },
+      "12": {
+        "UserId": 2253,
+        "Name": "barney",
+        "Value": 0
+      },
+      "13": {
+        "UserId": 2536,
+        "Name": "will",
+        "Value": 0
+      },
+      "14": {
+        "UserId": 2976,
+        "Name": "avalinity",
+        "Value": 0
+      },
+      "15": {
+        "UserId": 4901,
+        "Name": "druitherme",
+        "Value": 0
+      },
+      "16": {
+        "UserId": 5444,
+        "Name": "calxn",
+        "Value": 0
+      },
+      "17": {
+        "UserId": 5514,
+        "Name": "darius curry",
+        "Value": 0
+      },
+      "18": {
+        "UserId": 5719,
+        "Name": "builderboy12",
+        "Value": 0
+      },
+      "19": {
+        "UserId": 6029,
+        "Name": "bj94",
+        "Value": 0
+      },
+      "20": {
+        "UserId": 6912,
+        "Name": "enclosured",
+        "Value": 0
+      },
+      "21": {
+        "UserId": 7636,
+        "Name": "jokester",
+        "Value": 0
+      },
+      "22": {
+        "UserId": 7781,
+        "Name": "comedybobbie",
+        "Value": 0
+      },
+      "23": {
+        "UserId": 7841,
+        "Name": "rainbowshaggy_god",
+        "Value": 0
+      },
+      "24": {
+        "UserId": 8108,
+        "Name": "faruh123",
+        "Value": 0
+      },
+      "25": {
+        "UserId": 8247,
+        "Name": "rygle",
+        "Value": 0
+      },
+      "26": {
+        "UserId": 8966,
+        "Name": "1george",
+        "Value": 0
+      },
+      "27": {
+        "UserId": 9235,
+        "Name": "vincentantonicci",
+        "Value": 0
+      },
+      "28": {
+        "UserId": 9651,
+        "Name": "winterwonderland",
+        "Value": 0
+      },
+      "29": {
+        "UserId": 11440,
+        "Name": "genuinemeister",
+        "Value": 0
+      },
+      "30": {
+        "UserId": 11568,
+        "Name": "loner574",
+        "Value": 0
+      },
+      "31": {
+        "UserId": 11643,
+        "Name": "starwars",
+        "Value": 0
+      },
+      "32": {
+        "UserId": 11692,
+        "Name": "phenomenon",
+        "Value": 0
+      },
+      "33": {
+        "UserId": 12864,
+        "Name": "youngblood",
+        "Value": 0
+      },
+      "34": {
+        "UserId": 13951,
+        "Name": "cyrexfatality",
+        "Value": 0
+      },
+      "35": {
+        "UserId": 14065,
+        "Name": "kaiokaris",
+        "Value": 0
+      },
+      "36": {
+        "UserId": 14157,
+        "Name": "partyperson",
+        "Value": 0
+      },
+      "37": {
+        "UserId": 15707,
+        "Name": "torchlad",
+        "Value": 0
+      },
+      "38": {
+        "UserId": 15893,
+        "Name": "brill",
+        "Value": 0
+      },
+      "39": {
+        "UserId": 16743,
+        "Name": "blockchick",
+        "Value": 0
+      },
+      "40": {
+        "UserId": 17197,
+        "Name": "pokemonking",
+        "Value": 0
+      },
+      "41": {
+        "UserId": 18611,
+        "Name": "n0tvalor",
+        "Value": 0
+      },
+      "42": {
+        "UserId": 19034,
+        "Name": "afrolemon",
+        "Value": 0
+      },
+      "43": {
+        "UserId": 19252,
+        "Name": "sumner",
+        "Value": 0
+      },
+      "44": {
+        "UserId": 19274,
+        "Name": "superro",
+        "Value": 0
+      },
+      "45": {
+        "UserId": 19623,
+        "Name": "zone99",
+        "Value": 0
+      },
+      "46": {
+        "UserId": 19802,
+        "Name": "axel407",
+        "Value": 0
+      },
+      "47": {
+        "UserId": 19860,
+        "Name": "kade",
+        "Value": 0
+      },
+      "48": {
+        "UserId": 20320,
+        "Name": "maskedstranger",
+        "Value": 0
+      },
+      "49": {
+        "UserId": 20896,
+        "Name": "gavineo",
+        "Value": 0
+      },
+      "50": {
+        "UserId": 21091,
+        "Name": "jegan",
+        "Value": 0
+      },
+      "51": {
+        "UserId": 21420,
+        "Name": "bela",
+        "Value": 0
+      },
+      "52": {
+        "UserId": 22920,
+        "Name": "slack",
+        "Value": 0
+      },
+      "53": {
+        "UserId": 23126,
+        "Name": "jervan",
+        "Value": 0
+      },
+      "54": {
+        "UserId": 23300,
+        "Name": "outlaw",
+        "Value": 0
+      },
+      "55": {
+        "UserId": 23406,
+        "Name": "justthewolf621",
+        "Value": 0
+      },
+      "56": {
+        "UserId": 24086,
+        "Name": "mickys_dee",
+        "Value": 0
+      },
+      "57": {
+        "UserId": 25693,
+        "Name": "fycaddily",
+        "Value": 0
+      },
+      "58": {
+        "UserId": 26132,
+        "Name": "denitowave",
+        "Value": 0
+      },
+      "59": {
+        "UserId": 26808,
+        "Name": "thephoenix",
+        "Value": 0
+      },
+      "60": {
+        "UserId": 27666,
+        "Name": "drpixel",
+        "Value": 0
+      },
+      "61": {
+        "UserId": 28169,
+        "Name": "friek",
+        "Value": 0
+      },
+      "62": {
+        "UserId": 30074,
+        "Name": "azertyuiop",
+        "Value": 0
+      },
+      "63": {
+        "UserId": 30197,
+        "Name": "xena",
+        "Value": 0
+      },
+      "64": {
+        "UserId": 30554,
+        "Name": "2n6i",
+        "Value": 0
+      },
+      "65": {
+        "UserId": 30938,
+        "Name": "nooob",
+        "Value": 0
+      },
+      "66": {
+        "UserId": 31111,
+        "Name": "dotsy",
+        "Value": 0
+      },
+      "67": {
+        "UserId": 5115513638,
+        "Name": "darth_thrasher120",
+        "Value": 0
+      },
+      "68": {
+        "UserId": 33952,
+        "Name": "princeyoshi",
+        "Value": 0
+      },
+      "69": {
+        "UserId": 34529,
+        "Name": "roboninja",
+        "Value": 0
+      },
+      "70": {
+        "UserId": 35451,
+        "Name": "blockyliebe",
+        "Value": 0
+      },
+      "71": {
+        "UserId": 36387,
+        "Name": "seongwon",
+        "Value": 0
+      },
+      "72": {
+        "UserId": 36493,
+        "Name": "keaka",
+        "Value": 0
+      },
+      "73": {
+        "UserId": 36932,
+        "Name": "ntegrim",
+        "Value": 0
+      },
+      "74": {
+        "UserId": 38603,
+        "Name": "warfeel",
+        "Value": 0
+      },
+      "75": {
+        "UserId": 38622,
+        "Name": "danthespam",
+        "Value": 0
+      },
+      "76": {
+        "UserId": 38871,
+        "Name": "oreo332",
+        "Value": 0
+      },
+      "77": {
+        "UserId": 38948,
+        "Name": "sycoticmonkeyking",
+        "Value": 0
+      },
+      "78": {
+        "UserId": 39078,
+        "Name": "vampyre",
+        "Value": 0
+      },
+      "79": {
+        "UserId": 39178,
+        "Name": "perphectionist",
+        "Value": 0
+      },
+      "80": {
+        "UserId": 39467,
+        "Name": "bouncer",
+        "Value": 0
+      },
+      "81": {
+        "UserId": 41671,
+        "Name": "jaws",
+        "Value": 0
+      },
+      "82": {
+        "UserId": 42184,
+        "Name": "bloxtoz",
+        "Value": 0
+      },
+      "83": {
+        "UserId": 42655,
+        "Name": "kingaust609",
+        "Value": 0
+      },
+      "84": {
+        "UserId": 43587,
+        "Name": "sportychic",
+        "Value": 0
+      },
+      "85": {
+        "UserId": 43843,
+        "Name": "truly_terrible",
+        "Value": 0
+      },
+      "86": {
+        "UserId": 44812,
+        "Name": "georgie",
+        "Value": 0
+      },
+      "87": {
+        "UserId": 45464,
+        "Name": "unblaz0ned",
+        "Value": 0
+      },
+      "88": {
+        "UserId": 45715,
+        "Name": "piepie",
+        "Value": 0
+      },
+      "89": {
+        "UserId": 46000,
+        "Name": "marktk",
+        "Value": 0
+      },
+      "90": {
+        "UserId": 46135,
+        "Name": "chidlet",
+        "Value": 0
+      },
+      "91": {
+        "UserId": 46260,
+        "Name": "vudism",
+        "Value": 0
+      },
+      "92": {
+        "UserId": 46275,
+        "Name": "dox",
+        "Value": 0
+      },
+      "93": {
+        "UserId": 46296,
+        "Name": "rolodox",
+        "Value": 0
+      },
+      "94": {
+        "UserId": 47356,
+        "Name": "fruitman",
+        "Value": 0
+      },
+      "95": {
+        "UserId": 47398,
+        "Name": "sonicthemetal",
+        "Value": 0
+      },
+      "96": {
+        "UserId": 52906,
+        "Name": "roblox8",
+        "Value": 0
+      },
+      "97": {
+        "UserId": 53602,
+        "Name": "matty114",
+        "Value": 0
+      },
+      "98": {
+        "UserId": 54531,
+        "Name": "archadion",
+        "Value": 0
+      },
+      "99": {
+        "UserId": 55976,
+        "Name": "ghostkenzo",
+        "Value": 0
+      },
+      "100": {
+        "UserId": 58233,
+        "Name": "ralsei_overheaven",
+        "Value": 0
+      }
+    },
+    "robux": {
+      "1": {
+        "UserId": 220,
+        "Name": "cham",
+        "Value": 0
+      },
+      "2": {
+        "UserId": 480,
+        "Name": "williamtrevor_mare",
+        "Value": 0
+      },
+      "3": {
+        "UserId": 633,
+        "Name": "d ted",
+        "Value": 0
+      },
+      "4": {
+        "UserId": 906,
+        "Name": "god333",
+        "Value": 0
+      },
+      "5": {
+        "UserId": 1068,
+        "Name": "kraenaux",
+        "Value": 0
+      },
+      "6": {
+        "UserId": 1404,
+        "Name": "naky",
+        "Value": 0
+      },
+      "7": {
+        "UserId": 1905,
+        "Name": "kaycee_kagome",
+        "Value": 0
+      },
+      "8": {
+        "UserId": 2253,
+        "Name": "barney",
+        "Value": 0
+      },
+      "9": {
+        "UserId": 2536,
+        "Name": "will",
+        "Value": 0
+      },
+      "10": {
+        "UserId": 2976,
+        "Name": "avalinity",
+        "Value": 0
+      },
+      "11": {
+        "UserId": 4901,
+        "Name": "druitherme",
+        "Value": 0
+      },
+      "12": {
+        "UserId": 5444,
+        "Name": "calxn",
+        "Value": 0
+      },
+      "13": {
+        "UserId": 5514,
+        "Name": "darius curry",
+        "Value": 0
+      },
+      "14": {
+        "UserId": 5719,
+        "Name": "builderboy12",
+        "Value": 0
+      },
+      "15": {
+        "UserId": 6029,
+        "Name": "bj94",
+        "Value": 0
+      },
+      "16": {
+        "UserId": 6912,
+        "Name": "enclosured",
+        "Value": 0
+      },
+      "17": {
+        "UserId": 7636,
+        "Name": "jokester",
+        "Value": 0
+      },
+      "18": {
+        "UserId": 7781,
+        "Name": "comedybobbie",
+        "Value": 0
+      },
+      "19": {
+        "UserId": 7841,
+        "Name": "rainbowshaggy_god",
+        "Value": 0
+      },
+      "20": {
+        "UserId": 8108,
+        "Name": "faruh123",
+        "Value": 0
+      },
+      "21": {
+        "UserId": 8247,
+        "Name": "rygle",
+        "Value": 0
+      },
+      "22": {
+        "UserId": 8966,
+        "Name": "1george",
+        "Value": 0
+      },
+      "23": {
+        "UserId": 9235,
+        "Name": "vincentantonicci",
+        "Value": 0
+      },
+      "24": {
+        "UserId": 9651,
+        "Name": "winterwonderland",
+        "Value": 0
+      },
+      "25": {
+        "UserId": 11440,
+        "Name": "genuinemeister",
+        "Value": 0
+      },
+      "26": {
+        "UserId": 11568,
+        "Name": "loner574",
+        "Value": 0
+      },
+      "27": {
+        "UserId": 11643,
+        "Name": "starwars",
+        "Value": 0
+      },
+      "28": {
+        "UserId": 11692,
+        "Name": "phenomenon",
+        "Value": 0
+      },
+      "29": {
+        "UserId": 12864,
+        "Name": "youngblood",
+        "Value": 0
+      },
+      "30": {
+        "UserId": 13951,
+        "Name": "cyrexfatality",
+        "Value": 0
+      },
+      "31": {
+        "UserId": 14065,
+        "Name": "kaiokaris",
+        "Value": 0
+      },
+      "32": {
+        "UserId": 14157,
+        "Name": "partyperson",
+        "Value": 0
+      },
+      "33": {
+        "UserId": 15707,
+        "Name": "torchlad",
+        "Value": 0
+      },
+      "34": {
+        "UserId": 15893,
+        "Name": "brill",
+        "Value": 0
+      },
+      "35": {
+        "UserId": 16743,
+        "Name": "blockchick",
+        "Value": 0
+      },
+      "36": {
+        "UserId": 17197,
+        "Name": "pokemonking",
+        "Value": 0
+      },
+      "37": {
+        "UserId": 18611,
+        "Name": "n0tvalor",
+        "Value": 0
+      },
+      "38": {
+        "UserId": 19034,
+        "Name": "afrolemon",
+        "Value": 0
+      },
+      "39": {
+        "UserId": 19252,
+        "Name": "sumner",
+        "Value": 0
+      },
+      "40": {
+        "UserId": 19274,
+        "Name": "superro",
+        "Value": 0
+      },
+      "41": {
+        "UserId": 19623,
+        "Name": "zone99",
+        "Value": 0
+      },
+      "42": {
+        "UserId": 19802,
+        "Name": "axel407",
+        "Value": 0
+      },
+      "43": {
+        "UserId": 19860,
+        "Name": "kade",
+        "Value": 0
+      },
+      "44": {
+        "UserId": 20320,
+        "Name": "maskedstranger",
+        "Value": 0
+      },
+      "45": {
+        "UserId": 20896,
+        "Name": "gavineo",
+        "Value": 0
+      },
+      "46": {
+        "UserId": 21091,
+        "Name": "jegan",
+        "Value": 0
+      },
+      "47": {
+        "UserId": 21420,
+        "Name": "bela",
+        "Value": 0
+      },
+      "48": {
+        "UserId": 22920,
+        "Name": "slack",
+        "Value": 0
+      },
+      "49": {
+        "UserId": 23126,
+        "Name": "jervan",
+        "Value": 0
+      },
+      "50": {
+        "UserId": 23300,
+        "Name": "outlaw",
+        "Value": 0
+      },
+      "51": {
+        "UserId": 23406,
+        "Name": "justthewolf621",
+        "Value": 0
+      },
+      "52": {
+        "UserId": 24086,
+        "Name": "mickys_dee",
+        "Value": 0
+      },
+      "53": {
+        "UserId": 25693,
+        "Name": "fycaddily",
+        "Value": 0
+      },
+      "54": {
+        "UserId": 26132,
+        "Name": "denitowave",
+        "Value": 0
+      },
+      "55": {
+        "UserId": 26808,
+        "Name": "thephoenix",
+        "Value": 0
+      },
+      "56": {
+        "UserId": 27666,
+        "Name": "drpixel",
+        "Value": 0
+      },
+      "57": {
+        "UserId": 28169,
+        "Name": "friek",
+        "Value": 0
+      },
+      "58": {
+        "UserId": 30074,
+        "Name": "azertyuiop",
+        "Value": 0
+      },
+      "59": {
+        "UserId": 30197,
+        "Name": "xena",
+        "Value": 0
+      },
+      "60": {
+        "UserId": 30554,
+        "Name": "2n6i",
+        "Value": 0
+      },
+      "61": {
+        "UserId": 30938,
+        "Name": "nooob",
+        "Value": 0
+      },
+      "62": {
+        "UserId": 31111,
+        "Name": "dotsy",
+        "Value": 0
+      },
+      "63": {
+        "UserId": 33904,
+        "Name": "iflarg",
+        "Value": 0
+      },
+      "64": {
+        "UserId": 33952,
+        "Name": "princeyoshi",
+        "Value": 0
+      },
+      "65": {
+        "UserId": 34529,
+        "Name": "roboninja",
+        "Value": 0
+      },
+      "66": {
+        "UserId": 35451,
+        "Name": "blockyliebe",
+        "Value": 0
+      },
+      "67": {
+        "UserId": 36387,
+        "Name": "seongwon",
+        "Value": 0
+      },
+      "68": {
+        "UserId": 36472,
+        "Name": "reaiitystone",
+        "Value": 0
+      },
+      "69": {
+        "UserId": 36493,
+        "Name": "keaka",
+        "Value": 0
+      },
+      "70": {
+        "UserId": 36932,
+        "Name": "ntegrim",
+        "Value": 0
+      },
+      "71": {
+        "UserId": 38603,
+        "Name": "warfeel",
+        "Value": 0
+      },
+      "72": {
+        "UserId": 38622,
+        "Name": "danthespam",
+        "Value": 0
+      },
+      "73": {
+        "UserId": 38871,
+        "Name": "oreo332",
+        "Value": 0
+      },
+      "74": {
+        "UserId": 38948,
+        "Name": "sycoticmonkeyking",
+        "Value": 0
+      },
+      "75": {
+        "UserId": 39078,
+        "Name": "vampyre",
+        "Value": 0
+      },
+      "76": {
+        "UserId": 39178,
+        "Name": "perphectionist",
+        "Value": 0
+      },
+      "77": {
+        "UserId": 39325,
+        "Name": "fujin",
+        "Value": 0
+      },
+      "78": {
+        "UserId": 39467,
+        "Name": "bouncer",
+        "Value": 0
+      },
+      "79": {
+        "UserId": 41671,
+        "Name": "jaws",
+        "Value": 0
+      },
+      "80": {
+        "UserId": 42184,
+        "Name": "bloxtoz",
+        "Value": 0
+      },
+      "81": {
+        "UserId": 42655,
+        "Name": "kingaust609",
+        "Value": 0
+      },
+      "82": {
+        "UserId": 43587,
+        "Name": "sportychic",
+        "Value": 0
+      },
+      "83": {
+        "UserId": 43843,
+        "Name": "truly_terrible",
+        "Value": 0
+      },
+      "84": {
+        "UserId": 44812,
+        "Name": "georgie",
+        "Value": 0
+      },
+      "85": {
+        "UserId": 45464,
+        "Name": "unblaz0ned",
+        "Value": 0
+      },
+      "86": {
+        "UserId": 45715,
+        "Name": "piepie",
+        "Value": 0
+      },
+      "87": {
+        "UserId": 46000,
+        "Name": "marktk",
+        "Value": 0
+      },
+      "88": {
+        "UserId": 46135,
+        "Name": "chidlet",
+        "Value": 0
+      },
+      "89": {
+        "UserId": 46260,
+        "Name": "vudism",
+        "Value": 0
+      },
+      "90": {
+        "UserId": 46275,
+        "Name": "dox",
+        "Value": 0
+      },
+      "91": {
+        "UserId": 46296,
+        "Name": "rolodox",
+        "Value": 0
+      },
+      "92": {
+        "UserId": 47356,
+        "Name": "fruitman",
+        "Value": 0
+      },
+      "93": {
+        "UserId": 47398,
+        "Name": "sonicthemetal",
+        "Value": 0
+      },
+      "94": {
+        "UserId": 50115,
+        "Name": "doomm",
+        "Value": 0
+      },
+      "95": {
+        "UserId": 52906,
+        "Name": "roblox8",
+        "Value": 0
+      },
+      "96": {
+        "UserId": 53602,
+        "Name": "matty114",
+        "Value": 0
+      },
+      "97": {
+        "UserId": 54531,
+        "Name": "archadion",
+        "Value": 0
+      },
+      "98": {
+        "UserId": 55976,
+        "Name": "ghostkenzo",
+        "Value": 0
+      },
+      "99": {
+        "UserId": 58233,
+        "Name": "ralsei_overheaven",
+        "Value": 0
+      },
+      "100": {
+        "UserId": 58266,
+        "Name": "fabio8",
+        "Value": 0
+      }
+    }
+  },
+  "week": {
+    "kills": {
+      "1": {
+        "UserId": 5111961452,
+        "Name": "kingsize_raccoon",
+        "Value": 100
+      },
+      "2": {
+        "UserId": 5112420206,
+        "Name": "scr07010",
+        "Value": 100
+      },
+      "3": {
+        "UserId": 687924704,
+        "Name": "martin091239",
+        "Value": 80
+      },
+      "4": {
+        "UserId": 24814215,
+        "Name": "aegontargaryen_alive",
+        "Value": 24
+      },
+      "5": {
+        "UserId": 88564188,
+        "Name": "august135rush",
+        "Value": 18
+      },
+      "6": {
+        "UserId": 5024086911,
+        "Name": "test_thrasher1210",
+        "Value": 14
+      },
+      "7": {
+        "UserId": 5111807215,
+        "Name": "captain_falconer",
+        "Value": 11
+      },
+      "8": {
+        "UserId": 74014092,
+        "Name": "shadowprince14",
+        "Value": 10
+      },
+      "9": {
+        "UserId": 112663732,
+        "Name": "icepea_11",
+        "Value": 9
+      },
+      "10": {
+        "UserId": 30059519,
+        "Name": "unscwood",
+        "Value": 7
+      },
+      "11": {
+        "UserId": 1508110675,
+        "Name": "boosrooooblox",
+        "Value": 6
+      },
+      "12": {
+        "UserId": 172481041,
+        "Name": "eromero0181",
+        "Value": 6
+      },
+      "13": {
+        "UserId": 1084764549,
+        "Name": "mixmixzaa_th",
+        "Value": 6
+      },
+      "14": {
+        "UserId": 340161512,
+        "Name": "spinalteacher28",
+        "Value": 5
+      },
+      "15": {
+        "UserId": 1646426746,
+        "Name": "jeronimoouuuu",
+        "Value": 5
+      },
+      "16": {
+        "UserId": 52138175,
+        "Name": "colegrocks123",
+        "Value": 4
+      },
+      "17": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 4
+      },
+      "18": {
+        "UserId": 1311904229,
+        "Name": "xn0tz",
+        "Value": 4
+      },
+      "19": {
+        "UserId": 5112240971,
+        "Name": "cagefamily153",
+        "Value": 4
+      },
+      "20": {
+        "UserId": 4375456739,
+        "Name": "kaidod333",
+        "Value": 3
+      },
+      "21": {
+        "UserId": 350307700,
+        "Name": "landenkillers",
+        "Value": 3
+      },
+      "22": {
+        "UserId": 763293457,
+        "Name": "alex155xd",
+        "Value": 3
+      },
+      "23": {
+        "UserId": 392208646,
+        "Name": "santyrey_34",
+        "Value": 3
+      },
+      "24": {
+        "UserId": 436412462,
+        "Name": "mattboolin",
+        "Value": 2
+      },
+      "25": {
+        "UserId": 1240128557,
+        "Name": "hdhdhdhdhdhdhrey",
+        "Value": 2
+      },
+      "26": {
+        "UserId": 636235690,
+        "Name": "xxhyperrexxx",
+        "Value": 2
+      },
+      "27": {
+        "UserId": 1620690956,
+        "Name": "skate46138",
+        "Value": 2
+      },
+      "28": {
+        "UserId": 1118666824,
+        "Name": "theking90877",
+        "Value": 2
+      },
+      "29": {
+        "UserId": 64654002,
+        "Name": "im_awesomes",
+        "Value": 2
+      },
+      "30": {
+        "UserId": 32626458,
+        "Name": "matteov5",
+        "Value": 2
+      },
+      "31": {
+        "UserId": 30428863,
+        "Name": "thunzine",
+        "Value": 2
+      },
+      "32": {
+        "UserId": 588206592,
+        "Name": "ti2tg",
+        "Value": 2
+      },
+      "33": {
+        "UserId": 229235219,
+        "Name": "xxpantspooperxx",
+        "Value": 2
+      },
+      "34": {
+        "UserId": 1757663458,
+        "Name": "idontlikeroblox2130",
+        "Value": 2
+      },
+      "35": {
+        "UserId": 905325058,
+        "Name": "xxshadowninja17xx",
+        "Value": 2
+      },
+      "36": {
+        "UserId": 4450848172,
+        "Name": "eptarn",
+        "Value": 2
+      },
+      "37": {
+        "UserId": 1186516434,
+        "Name": "veridiansumo914",
+        "Value": 1
+      },
+      "38": {
+        "UserId": 134342549,
+        "Name": "lamasiita",
+        "Value": 1
+      },
+      "39": {
+        "UserId": 64861578,
+        "Name": "luckytyger",
+        "Value": 1
+      },
+      "40": {
+        "UserId": 636234921,
+        "Name": "shark2thegamess33",
+        "Value": 1
+      },
+      "41": {
+        "UserId": 58727535,
+        "Name": "lilo307",
+        "Value": 1
+      },
+      "42": {
+        "UserId": 5111482557,
+        "Name": "teekee03",
+        "Value": 1
+      },
+      "43": {
+        "UserId": 1191724237,
+        "Name": "zirmat11",
+        "Value": 1
+      },
+      "44": {
+        "UserId": 144255417,
+        "Name": "sebasss10",
+        "Value": 1
+      },
+      "45": {
+        "UserId": 39680587,
+        "Name": "paulwest1012",
+        "Value": 1
+      },
+      "46": {
+        "UserId": 335679380,
+        "Name": "awesomexldsc",
+        "Value": 1
+      },
+      "47": {
+        "UserId": 2787024560,
+        "Name": "coldsoda0959",
+        "Value": 1
+      },
+      "48": {
+        "UserId": 5111495141,
+        "Name": "xisnakyx",
+        "Value": 1
+      },
+      "49": {
+        "UserId": 1978182261,
+        "Name": "malmal091231",
+        "Value": 1
+      },
+      "50": {
+        "UserId": 1256455351,
+        "Name": "voidoflife123",
+        "Value": 1
+      },
+      "51": {
+        "UserId": 221012507,
+        "Name": "tommyfivetone",
+        "Value": 1
+      },
+      "52": {
+        "UserId": 167470421,
+        "Name": "uioljhg",
+        "Value": 1
+      },
+      "53": {
+        "UserId": 459808362,
+        "Name": "kiyjr3",
+        "Value": 1
+      },
+      "54": {
+        "UserId": 253020615,
+        "Name": "jake21_66",
+        "Value": 1
+      },
+      "55": {
+        "UserId": 793310023,
+        "Name": "darkergear",
+        "Value": 1
+      },
+      "56": {
+        "UserId": 485391885,
+        "Name": "undignifiedcircle",
+        "Value": 1
+      },
+      "57": {
+        "UserId": 1196782976,
+        "Name": "ihateps4somuch",
+        "Value": 1
+      },
+      "58": {
+        "UserId": 1460510275,
+        "Name": "guygamer6410",
+        "Value": 1
+      },
+      "59": {
+        "UserId": 1641159776,
+        "Name": "neonukraine",
+        "Value": 1
+      },
+      "60": {
+        "UserId": 2938460465,
+        "Name": "rose_ghoul09",
+        "Value": 1
+      },
+      "61": {
+        "UserId": 1942443230,
+        "Name": "30kbandszay",
+        "Value": 1
+      },
+      "62": {
+        "UserId": 4947445323,
+        "Name": "leorelyks25",
+        "Value": 1
+      },
+      "63": {
+        "UserId": 1864436389,
+        "Name": "animepsychoxd",
+        "Value": 1
+      },
+      "64": {
+        "UserId": 861568781,
+        "Name": "mrle_epicboi24",
+        "Value": 1
+      },
+      "65": {
+        "UserId": 28664527,
+        "Name": "slowgoodlooking",
+        "Value": 1
+      },
+      "66": {
+        "UserId": 5112313490,
+        "Name": "rabidsquirrel524",
+        "Value": 1
+      },
+      "67": {
+        "UserId": 480,
+        "Name": "williamtrevor_mare",
+        "Value": 0
+      },
+      "68": {
+        "UserId": 1068,
+        "Name": "kraenaux",
+        "Value": 0
+      },
+      "69": {
+        "UserId": 1404,
+        "Name": "naky",
+        "Value": 0
+      },
+      "70": {
+        "UserId": 4901,
+        "Name": "druitherme",
+        "Value": 0
+      },
+      "71": {
+        "UserId": 5444,
+        "Name": "calxn",
+        "Value": 0
+      },
+      "72": {
+        "UserId": 5514,
+        "Name": "darius curry",
+        "Value": 0
+      },
+      "73": {
+        "UserId": 5719,
+        "Name": "builderboy12",
+        "Value": 0
+      },
+      "74": {
+        "UserId": 9235,
+        "Name": "vincentantonicci",
+        "Value": 0
+      },
+      "75": {
+        "UserId": 9651,
+        "Name": "winterwonderland",
+        "Value": 0
+      },
+      "76": {
+        "UserId": 11440,
+        "Name": "genuinemeister",
+        "Value": 0
+      },
+      "77": {
+        "UserId": 11568,
+        "Name": "loner574",
+        "Value": 0
+      },
+      "78": {
+        "UserId": 11643,
+        "Name": "starwars",
+        "Value": 0
+      },
+      "79": {
+        "UserId": 11692,
+        "Name": "phenomenon",
+        "Value": 0
+      },
+      "80": {
+        "UserId": 12864,
+        "Name": "youngblood",
+        "Value": 0
+      },
+      "81": {
+        "UserId": 13951,
+        "Name": "cyrexfatality",
+        "Value": 0
+      },
+      "82": {
+        "UserId": 21420,
+        "Name": "bela",
+        "Value": 0
+      },
+      "83": {
+        "UserId": 22920,
+        "Name": "slack",
+        "Value": 0
+      },
+      "84": {
+        "UserId": 23126,
+        "Name": "jervan",
+        "Value": 0
+      },
+      "85": {
+        "UserId": 23300,
+        "Name": "outlaw",
+        "Value": 0
+      },
+      "86": {
+        "UserId": 23406,
+        "Name": "justthewolf621",
+        "Value": 0
+      },
+      "87": {
+        "UserId": 24086,
+        "Name": "mickys_dee",
+        "Value": 0
+      },
+      "88": {
+        "UserId": 25693,
+        "Name": "fycaddily",
+        "Value": 0
+      },
+      "89": {
+        "UserId": 26132,
+        "Name": "denitowave",
+        "Value": 0
+      },
+      "90": {
+        "UserId": 26808,
+        "Name": "thephoenix",
+        "Value": 0
+      },
+      "91": {
+        "UserId": 27666,
+        "Name": "drpixel",
+        "Value": 0
+      },
+      "92": {
+        "UserId": 28169,
+        "Name": "friek",
+        "Value": 0
+      },
+      "93": {
+        "UserId": 30074,
+        "Name": "azertyuiop",
+        "Value": 0
+      },
+      "94": {
+        "UserId": 30197,
+        "Name": "xena",
+        "Value": 0
+      },
+      "95": {
+        "UserId": 30554,
+        "Name": "2n6i",
+        "Value": 0
+      },
+      "96": {
+        "UserId": 30938,
+        "Name": "nooob",
+        "Value": 0
+      },
+      "97": {
+        "UserId": 31111,
+        "Name": "dotsy",
+        "Value": 0
+      },
+      "98": {
+        "UserId": 52906,
+        "Name": "roblox8",
+        "Value": 0
+      },
+      "99": {
+        "UserId": 53602,
+        "Name": "matty114",
+        "Value": 0
+      },
+      "100": {
+        "UserId": 54531,
+        "Name": "archadion",
+        "Value": 0
+      }
+    },
+    "time": {
+      "1": {
+        "UserId": 5024086911,
+        "Name": "test_thrasher1210",
+        "Value": 28740
+      },
+      "2": {
+        "UserId": 5111961452,
+        "Name": "kingsize_raccoon",
+        "Value": 20220
+      },
+      "3": {
+        "UserId": 5112420206,
+        "Name": "scr07010",
+        "Value": 18720
+      },
+      "4": {
+        "UserId": 793310023,
+        "Name": "darkergear",
+        "Value": 13080
+      },
+      "5": {
+        "UserId": 687924704,
+        "Name": "martin091239",
+        "Value": 12660
+      },
+      "6": {
+        "UserId": 24814215,
+        "Name": "aegontargaryen_alive",
+        "Value": 11040
+      },
+      "7": {
+        "UserId": 4375456739,
+        "Name": "kaidod333",
+        "Value": 9660
+      },
+      "8": {
+        "UserId": 1646426746,
+        "Name": "jeronimoouuuu",
+        "Value": 8940
+      },
+      "9": {
+        "UserId": 112663732,
+        "Name": "icepea_11",
+        "Value": 7980
+      },
+      "10": {
+        "UserId": 30059519,
+        "Name": "unscwood",
+        "Value": 7920
+      },
+      "11": {
+        "UserId": 172481041,
+        "Name": "eromero0181",
+        "Value": 6480
+      },
+      "12": {
+        "UserId": 5110145402,
+        "Name": "shuacy",
+        "Value": 5700
+      },
+      "13": {
+        "UserId": 557722558,
+        "Name": "husseinazaz9",
+        "Value": 4860
+      },
+      "14": {
+        "UserId": 1240128557,
+        "Name": "hdhdhdhdhdhdhrey",
+        "Value": 4440
+      },
+      "15": {
+        "UserId": 1620690956,
+        "Name": "skate46138",
+        "Value": 4320
+      },
+      "16": {
+        "UserId": 88564188,
+        "Name": "august135rush",
+        "Value": 4200
+      },
+      "17": {
+        "UserId": 555575329,
+        "Name": "goddestrucion",
+        "Value": 3900
+      },
+      "18": {
+        "UserId": 229235219,
+        "Name": "xxpantspooperxx",
+        "Value": 3540
+      },
+      "19": {
+        "UserId": 5112313490,
+        "Name": "rabidsquirrel524",
+        "Value": 3480
+      },
+      "20": {
+        "UserId": 5111807215,
+        "Name": "captain_falconer",
+        "Value": 3480
+      },
+      "21": {
+        "UserId": 2938460465,
+        "Name": "rose_ghoul09",
+        "Value": 3300
+      },
+      "22": {
+        "UserId": 222869639,
+        "Name": "itzmrkingo",
+        "Value": 3240
+      },
+      "23": {
+        "UserId": 1311904229,
+        "Name": "xn0tz",
+        "Value": 2820
+      },
+      "24": {
+        "UserId": 763293457,
+        "Name": "alex155xd",
+        "Value": 2700
+      },
+      "25": {
+        "UserId": 2508793173,
+        "Name": "itzrob_guill",
+        "Value": 2640
+      },
+      "26": {
+        "UserId": 1084764549,
+        "Name": "mixmixzaa_th",
+        "Value": 2640
+      },
+      "27": {
+        "UserId": 28664527,
+        "Name": "slowgoodlooking",
+        "Value": 2580
+      },
+      "28": {
+        "UserId": 905325058,
+        "Name": "xxshadowninja17xx",
+        "Value": 2520
+      },
+      "29": {
+        "UserId": 54981246,
+        "Name": "jonpatpat",
+        "Value": 2400
+      },
+      "30": {
+        "UserId": 1000425012,
+        "Name": "pro58314",
+        "Value": 2280
+      },
+      "31": {
+        "UserId": 79067326,
+        "Name": "mythicaidove",
+        "Value": 2160
+      },
+      "32": {
+        "UserId": 5112240971,
+        "Name": "cagefamily153",
+        "Value": 2100
+      },
+      "33": {
+        "UserId": 4450848172,
+        "Name": "eptarn",
+        "Value": 1980
+      },
+      "34": {
+        "UserId": 335679380,
+        "Name": "awesomexldsc",
+        "Value": 1920
+      },
+      "35": {
+        "UserId": 195045921,
+        "Name": "pttss",
+        "Value": 1860
+      },
+      "36": {
+        "UserId": 278832167,
+        "Name": "mc1133",
+        "Value": 1860
+      },
+      "37": {
+        "UserId": 1118666824,
+        "Name": "theking90877",
+        "Value": 1860
+      },
+      "38": {
+        "UserId": 1199537527,
+        "Name": "daze2980",
+        "Value": 1860
+      },
+      "39": {
+        "UserId": 156636264,
+        "Name": "astrofallout",
+        "Value": 1860
+      },
+      "40": {
+        "UserId": 4729611110,
+        "Name": "gamer104_12",
+        "Value": 1860
+      },
+      "41": {
+        "UserId": 5111961065,
+        "Name": "darkalephx",
+        "Value": 1800
+      },
+      "42": {
+        "UserId": 1320772389,
+        "Name": "dogsukker123",
+        "Value": 1740
+      },
+      "43": {
+        "UserId": 1508110675,
+        "Name": "boosrooooblox",
+        "Value": 1740
+      },
+      "44": {
+        "UserId": 221012507,
+        "Name": "tommyfivetone",
+        "Value": 1620
+      },
+      "45": {
+        "UserId": 162973025,
+        "Name": "kesi5",
+        "Value": 1560
+      },
+      "46": {
+        "UserId": 412795639,
+        "Name": "xxwolfieundercoverxx",
+        "Value": 1560
+      },
+      "47": {
+        "UserId": 3503136863,
+        "Name": "mr9ender1mineblocks",
+        "Value": 1500
+      },
+      "48": {
+        "UserId": 5112087737,
+        "Name": "kingtiger460",
+        "Value": 1500
+      },
+      "49": {
+        "UserId": 1460510275,
+        "Name": "guygamer6410",
+        "Value": 1500
+      },
+      "50": {
+        "UserId": 314632214,
+        "Name": "recsybartolo900",
+        "Value": 1440
+      },
+      "51": {
+        "UserId": 52138175,
+        "Name": "colegrocks123",
+        "Value": 1440
+      },
+      "52": {
+        "UserId": 144255417,
+        "Name": "sebasss10",
+        "Value": 1440
+      },
+      "53": {
+        "UserId": 182300283,
+        "Name": "masterluckboy",
+        "Value": 1440
+      },
+      "54": {
+        "UserId": 134342549,
+        "Name": "lamasiita",
+        "Value": 1380
+      },
+      "55": {
+        "UserId": 436412462,
+        "Name": "mattboolin",
+        "Value": 1380
+      },
+      "56": {
+        "UserId": 350307700,
+        "Name": "landenkillers",
+        "Value": 1320
+      },
+      "57": {
+        "UserId": 622040606,
+        "Name": "carkloganpopyaky",
+        "Value": 1320
+      },
+      "58": {
+        "UserId": 37524364,
+        "Name": "thanatos786k",
+        "Value": 1320
+      },
+      "59": {
+        "UserId": 74014092,
+        "Name": "shadowprince14",
+        "Value": 1320
+      },
+      "60": {
+        "UserId": 39680587,
+        "Name": "paulwest1012",
+        "Value": 1260
+      },
+      "61": {
+        "UserId": 71953908,
+        "Name": "mradventur",
+        "Value": 1260
+      },
+      "62": {
+        "UserId": 1942443230,
+        "Name": "30kbandszay",
+        "Value": 1260
+      },
+      "63": {
+        "UserId": 5115513638,
+        "Name": "darth_thrasher120",
+        "Value": 1260
+      },
+      "64": {
+        "UserId": 1970118307,
+        "Name": "nmaeuesr",
+        "Value": 1200
+      },
+      "65": {
+        "UserId": 1256455351,
+        "Name": "voidoflife123",
+        "Value": 1200
+      },
+      "66": {
+        "UserId": 64861578,
+        "Name": "luckytyger",
+        "Value": 1140
+      },
+      "67": {
+        "UserId": 1003605064,
+        "Name": "bethov01",
+        "Value": 1140
+      },
+      "68": {
+        "UserId": 1523579731,
+        "Name": "lnwtru3",
+        "Value": 1140
+      },
+      "69": {
+        "UserId": 195315036,
+        "Name": "robloxdudeslenderman",
+        "Value": 1080
+      },
+      "70": {
+        "UserId": 340161512,
+        "Name": "spinalteacher28",
+        "Value": 1080
+      },
+      "71": {
+        "UserId": 30428863,
+        "Name": "thunzine",
+        "Value": 1020
+      },
+      "72": {
+        "UserId": 988315791,
+        "Name": "blacaetheboss",
+        "Value": 1020
+      },
+      "73": {
+        "UserId": 58727535,
+        "Name": "lilo307",
+        "Value": 1020
+      },
+      "74": {
+        "UserId": 392208646,
+        "Name": "santyrey_34",
+        "Value": 1020
+      },
+      "75": {
+        "UserId": 1186516434,
+        "Name": "veridiansumo914",
+        "Value": 960
+      },
+      "76": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 960
+      },
+      "77": {
+        "UserId": 65744531,
+        "Name": "jjaila",
+        "Value": 960
+      },
+      "78": {
+        "UserId": 368217680,
+        "Name": "rabbitcake33",
+        "Value": 960
+      },
+      "79": {
+        "UserId": 55604862,
+        "Name": "montaymccoybb",
+        "Value": 960
+      },
+      "80": {
+        "UserId": 64654002,
+        "Name": "im_awesomes",
+        "Value": 900
+      },
+      "81": {
+        "UserId": 32626458,
+        "Name": "matteov5",
+        "Value": 900
+      },
+      "82": {
+        "UserId": 355089627,
+        "Name": "hungryalien2017",
+        "Value": 900
+      },
+      "83": {
+        "UserId": 167470421,
+        "Name": "uioljhg",
+        "Value": 900
+      },
+      "84": {
+        "UserId": 2685578343,
+        "Name": "shikitilla8",
+        "Value": 900
+      },
+      "85": {
+        "UserId": 5112981841,
+        "Name": "ikexvr",
+        "Value": 900
+      },
+      "86": {
+        "UserId": 368943759,
+        "Name": "prowolfboy17",
+        "Value": 900
+      },
+      "87": {
+        "UserId": 3198779418,
+        "Name": "ethantakenover11",
+        "Value": 900
+      },
+      "88": {
+        "UserId": 275831306,
+        "Name": "anthodragon500",
+        "Value": 840
+      },
+      "89": {
+        "UserId": 119677272,
+        "Name": "terronrodg",
+        "Value": 840
+      },
+      "90": {
+        "UserId": 1864436389,
+        "Name": "animepsychoxd",
+        "Value": 840
+      },
+      "91": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 840
+      },
+      "92": {
+        "UserId": 4772622939,
+        "Name": "taras1337e",
+        "Value": 840
+      },
+      "93": {
+        "UserId": 861568781,
+        "Name": "mrle_epicboi24",
+        "Value": 840
+      },
+      "94": {
+        "UserId": 485391885,
+        "Name": "undignifiedcircle",
+        "Value": 840
+      },
+      "95": {
+        "UserId": 2898603746,
+        "Name": "12terrymalachi",
+        "Value": 840
+      },
+      "96": {
+        "UserId": 3517505566,
+        "Name": "hoopzfan214",
+        "Value": 780
+      },
+      "97": {
+        "UserId": 1757663458,
+        "Name": "idontlikeroblox2130",
+        "Value": 780
+      },
+      "98": {
+        "UserId": 292412370,
+        "Name": "mini30300",
+        "Value": 780
+      },
+      "99": {
+        "UserId": 193255080,
+        "Name": "nammi23",
+        "Value": 780
+      },
+      "100": {
+        "UserId": 483562261,
+        "Name": "drallerdyr",
+        "Value": 720
+      }
+    },
+    "robux": {
+      "1": {
+        "UserId": 5112240971,
+        "Name": "cagefamily153",
+        "Value": 1200
+      },
+      "2": {
+        "UserId": 5111404391,
+        "Name": "jabeen707",
+        "Value": 450
+      },
+      "3": {
+        "UserId": 5112420206,
+        "Name": "scr07010",
+        "Value": 400
+      },
+      "4": {
+        "UserId": 1186516434,
+        "Name": "veridiansumo914",
+        "Value": 50
+      },
+      "5": {
+        "UserId": 39680587,
+        "Name": "paulwest1012",
+        "Value": 35
+      },
+      "6": {
+        "UserId": 54981246,
+        "Name": "jonpatpat",
+        "Value": 30
+      },
+      "7": {
+        "UserId": 1118666824,
+        "Name": "theking90877",
+        "Value": 5
+      },
+      "8": {
+        "UserId": 480,
+        "Name": "williamtrevor_mare",
+        "Value": 0
+      },
+      "9": {
+        "UserId": 633,
+        "Name": "d ted",
+        "Value": 0
+      },
+      "10": {
+        "UserId": 906,
+        "Name": "god333",
+        "Value": 0
+      },
+      "11": {
+        "UserId": 1068,
+        "Name": "kraenaux",
+        "Value": 0
+      },
+      "12": {
+        "UserId": 1404,
+        "Name": "naky",
+        "Value": 0
+      },
+      "13": {
+        "UserId": 1905,
+        "Name": "kaycee_kagome",
+        "Value": 0
+      },
+      "14": {
+        "UserId": 2253,
+        "Name": "barney",
+        "Value": 0
+      },
+      "15": {
+        "UserId": 2536,
+        "Name": "will",
+        "Value": 0
+      },
+      "16": {
+        "UserId": 2976,
+        "Name": "avalinity",
+        "Value": 0
+      },
+      "17": {
+        "UserId": 4901,
+        "Name": "druitherme",
+        "Value": 0
+      },
+      "18": {
+        "UserId": 5444,
+        "Name": "calxn",
+        "Value": 0
+      },
+      "19": {
+        "UserId": 5514,
+        "Name": "darius curry",
+        "Value": 0
+      },
+      "20": {
+        "UserId": 5719,
+        "Name": "builderboy12",
+        "Value": 0
+      },
+      "21": {
+        "UserId": 6029,
+        "Name": "bj94",
+        "Value": 0
+      },
+      "22": {
+        "UserId": 6912,
+        "Name": "enclosured",
+        "Value": 0
+      },
+      "23": {
+        "UserId": 5115513638,
+        "Name": "darth_thrasher120",
+        "Value": 0
+      },
+      "24": {
+        "UserId": 7781,
+        "Name": "comedybobbie",
+        "Value": 0
+      },
+      "25": {
+        "UserId": 7841,
+        "Name": "rainbowshaggy_god",
+        "Value": 0
+      },
+      "26": {
+        "UserId": 8108,
+        "Name": "faruh123",
+        "Value": 0
+      },
+      "27": {
+        "UserId": 8247,
+        "Name": "rygle",
+        "Value": 0
+      },
+      "28": {
+        "UserId": 8966,
+        "Name": "1george",
+        "Value": 0
+      },
+      "29": {
+        "UserId": 9235,
+        "Name": "vincentantonicci",
+        "Value": 0
+      },
+      "30": {
+        "UserId": 9651,
+        "Name": "winterwonderland",
+        "Value": 0
+      },
+      "31": {
+        "UserId": 11440,
+        "Name": "genuinemeister",
+        "Value": 0
+      },
+      "32": {
+        "UserId": 11568,
+        "Name": "loner574",
+        "Value": 0
+      },
+      "33": {
+        "UserId": 11643,
+        "Name": "starwars",
+        "Value": 0
+      },
+      "34": {
+        "UserId": 11692,
+        "Name": "phenomenon",
+        "Value": 0
+      },
+      "35": {
+        "UserId": 12864,
+        "Name": "youngblood",
+        "Value": 0
+      },
+      "36": {
+        "UserId": 13951,
+        "Name": "cyrexfatality",
+        "Value": 0
+      },
+      "37": {
+        "UserId": 14065,
+        "Name": "kaiokaris",
+        "Value": 0
+      },
+      "38": {
+        "UserId": 15707,
+        "Name": "torchlad",
+        "Value": 0
+      },
+      "39": {
+        "UserId": 15893,
+        "Name": "brill",
+        "Value": 0
+      },
+      "40": {
+        "UserId": 16743,
+        "Name": "blockchick",
+        "Value": 0
+      },
+      "41": {
+        "UserId": 17197,
+        "Name": "pokemonking",
+        "Value": 0
+      },
+      "42": {
+        "UserId": 18611,
+        "Name": "n0tvalor",
+        "Value": 0
+      },
+      "43": {
+        "UserId": 19034,
+        "Name": "afrolemon",
+        "Value": 0
+      },
+      "44": {
+        "UserId": 19252,
+        "Name": "sumner",
+        "Value": 0
+      },
+      "45": {
+        "UserId": 19274,
+        "Name": "superro",
+        "Value": 0
+      },
+      "46": {
+        "UserId": 19623,
+        "Name": "zone99",
+        "Value": 0
+      },
+      "47": {
+        "UserId": 19802,
+        "Name": "axel407",
+        "Value": 0
+      },
+      "48": {
+        "UserId": 19860,
+        "Name": "kade",
+        "Value": 0
+      },
+      "49": {
+        "UserId": 20320,
+        "Name": "maskedstranger",
+        "Value": 0
+      },
+      "50": {
+        "UserId": 20896,
+        "Name": "gavineo",
+        "Value": 0
+      },
+      "51": {
+        "UserId": 21091,
+        "Name": "jegan",
+        "Value": 0
+      },
+      "52": {
+        "UserId": 21420,
+        "Name": "bela",
+        "Value": 0
+      },
+      "53": {
+        "UserId": 22920,
+        "Name": "slack",
+        "Value": 0
+      },
+      "54": {
+        "UserId": 23126,
+        "Name": "jervan",
+        "Value": 0
+      },
+      "55": {
+        "UserId": 23300,
+        "Name": "outlaw",
+        "Value": 0
+      },
+      "56": {
+        "UserId": 23406,
+        "Name": "justthewolf621",
+        "Value": 0
+      },
+      "57": {
+        "UserId": 24086,
+        "Name": "mickys_dee",
+        "Value": 0
+      },
+      "58": {
+        "UserId": 25693,
+        "Name": "fycaddily",
+        "Value": 0
+      },
+      "59": {
+        "UserId": 26132,
+        "Name": "denitowave",
+        "Value": 0
+      },
+      "60": {
+        "UserId": 26808,
+        "Name": "thephoenix",
+        "Value": 0
+      },
+      "61": {
+        "UserId": 27666,
+        "Name": "drpixel",
+        "Value": 0
+      },
+      "62": {
+        "UserId": 28169,
+        "Name": "friek",
+        "Value": 0
+      },
+      "63": {
+        "UserId": 30074,
+        "Name": "azertyuiop",
+        "Value": 0
+      },
+      "64": {
+        "UserId": 30197,
+        "Name": "xena",
+        "Value": 0
+      },
+      "65": {
+        "UserId": 30554,
+        "Name": "2n6i",
+        "Value": 0
+      },
+      "66": {
+        "UserId": 30938,
+        "Name": "nooob",
+        "Value": 0
+      },
+      "67": {
+        "UserId": 31111,
+        "Name": "dotsy",
+        "Value": 0
+      },
+      "68": {
+        "UserId": 33952,
+        "Name": "princeyoshi",
+        "Value": 0
+      },
+      "69": {
+        "UserId": 34529,
+        "Name": "roboninja",
+        "Value": 0
+      },
+      "70": {
+        "UserId": 35451,
+        "Name": "blockyliebe",
+        "Value": 0
+      },
+      "71": {
+        "UserId": 36387,
+        "Name": "seongwon",
+        "Value": 0
+      },
+      "72": {
+        "UserId": 36493,
+        "Name": "keaka",
+        "Value": 0
+      },
+      "73": {
+        "UserId": 36932,
+        "Name": "ntegrim",
+        "Value": 0
+      },
+      "74": {
+        "UserId": 38603,
+        "Name": "warfeel",
+        "Value": 0
+      },
+      "75": {
+        "UserId": 38622,
+        "Name": "danthespam",
+        "Value": 0
+      },
+      "76": {
+        "UserId": 38871,
+        "Name": "oreo332",
+        "Value": 0
+      },
+      "77": {
+        "UserId": 38948,
+        "Name": "sycoticmonkeyking",
+        "Value": 0
+      },
+      "78": {
+        "UserId": 39078,
+        "Name": "vampyre",
+        "Value": 0
+      },
+      "79": {
+        "UserId": 39178,
+        "Name": "perphectionist",
+        "Value": 0
+      },
+      "80": {
+        "UserId": 39467,
+        "Name": "bouncer",
+        "Value": 0
+      },
+      "81": {
+        "UserId": 41671,
+        "Name": "jaws",
+        "Value": 0
+      },
+      "82": {
+        "UserId": 42184,
+        "Name": "bloxtoz",
+        "Value": 0
+      },
+      "83": {
+        "UserId": 42655,
+        "Name": "kingaust609",
+        "Value": 0
+      },
+      "84": {
+        "UserId": 43587,
+        "Name": "sportychic",
+        "Value": 0
+      },
+      "85": {
+        "UserId": 43843,
+        "Name": "truly_terrible",
+        "Value": 0
+      },
+      "86": {
+        "UserId": 44812,
+        "Name": "georgie",
+        "Value": 0
+      },
+      "87": {
+        "UserId": 45464,
+        "Name": "unblaz0ned",
+        "Value": 0
+      },
+      "88": {
+        "UserId": 45715,
+        "Name": "piepie",
+        "Value": 0
+      },
+      "89": {
+        "UserId": 46000,
+        "Name": "marktk",
+        "Value": 0
+      },
+      "90": {
+        "UserId": 46135,
+        "Name": "chidlet",
+        "Value": 0
+      },
+      "91": {
+        "UserId": 46260,
+        "Name": "vudism",
+        "Value": 0
+      },
+      "92": {
+        "UserId": 46275,
+        "Name": "dox",
+        "Value": 0
+      },
+      "93": {
+        "UserId": 46296,
+        "Name": "rolodox",
+        "Value": 0
+      },
+      "94": {
+        "UserId": 47356,
+        "Name": "fruitman",
+        "Value": 0
+      },
+      "95": {
+        "UserId": 47398,
+        "Name": "sonicthemetal",
+        "Value": 0
+      },
+      "96": {
+        "UserId": 52906,
+        "Name": "roblox8",
+        "Value": 0
+      },
+      "97": {
+        "UserId": 53602,
+        "Name": "matty114",
+        "Value": 0
+      },
+      "98": {
+        "UserId": 54531,
+        "Name": "archadion",
+        "Value": 0
+      },
+      "99": {
+        "UserId": 55976,
+        "Name": "ghostkenzo",
+        "Value": 0
+      },
+      "100": {
+        "UserId": 58233,
+        "Name": "ralsei_overheaven",
+        "Value": 0
+      }
+    }
+  },
+  "month": {
+    "kills": {
+      "1": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 1004899
+      },
+      "2": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 629934
+      },
+      "3": {
+        "UserId": 3830200175,
+        "Name": "demonisatiion",
+        "Value": 411138
+      },
+      "4": {
+        "UserId": 1968520850,
+        "Name": "abyss_knight666",
+        "Value": 309082
+      },
+      "5": {
+        "UserId": 1061633,
+        "Name": "mahirtheeternal",
+        "Value": 245177
+      },
+      "6": {
+        "UserId": 3111798970,
+        "Name": "meniceified",
+        "Value": 191393
+      },
+      "7": {
+        "UserId": 3114175494,
+        "Name": "immortal_xxd",
+        "Value": 159112
+      },
+      "8": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 157894
+      },
+      "9": {
+        "UserId": 2587836385,
+        "Name": "vearsias",
+        "Value": 113618
+      },
+      "10": {
+        "UserId": 573100329,
+        "Name": "penutbutterwithapen",
+        "Value": 109373
+      },
+      "11": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 87388
+      },
+      "12": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 80771
+      },
+      "13": {
+        "UserId": 80991370,
+        "Name": "schwohz",
+        "Value": 78148
+      },
+      "14": {
+        "UserId": 1354837779,
+        "Name": "lostazylia",
+        "Value": 73964
+      },
+      "15": {
+        "UserId": 216714292,
+        "Name": "zonateelol",
+        "Value": 73775
+      },
+      "16": {
+        "UserId": 539689718,
+        "Name": "phenomenalscy",
+        "Value": 68737
+      },
+      "17": {
+        "UserId": 3243303369,
+        "Name": "codytrashdev",
+        "Value": 66290
+      },
+      "18": {
+        "UserId": 1259628710,
+        "Name": "quazela",
+        "Value": 61778
+      },
+      "19": {
+        "UserId": 711630792,
+        "Name": "dxmonizaation",
+        "Value": 61428
+      },
+      "20": {
+        "UserId": 4040948278,
+        "Name": "wepastdeathw1sh",
+        "Value": 55091
+      },
+      "21": {
+        "UserId": 297255867,
+        "Name": "harrymaster417",
+        "Value": 50684
+      },
+      "22": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 50505
+      },
+      "23": {
+        "UserId": 865901030,
+        "Name": "vearsiogames",
+        "Value": 46924
+      },
+      "24": {
+        "UserId": 3184051418,
+        "Name": "friespaul6",
+        "Value": 44762
+      },
+      "25": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 41757
+      },
+      "26": {
+        "UserId": 205130942,
+        "Name": "qizexa",
+        "Value": 40016
+      },
+      "27": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 39231
+      },
+      "28": {
+        "UserId": 496820178,
+        "Name": "wastedketchup45",
+        "Value": 38403
+      },
+      "29": {
+        "UserId": 2699694807,
+        "Name": "immortal_xvv",
+        "Value": 37699
+      },
+      "30": {
+        "UserId": 3160705066,
+        "Name": "ghxzth20",
+        "Value": 36742
+      },
+      "31": {
+        "UserId": 1276757767,
+        "Name": "xeedyy",
+        "Value": 36241
+      },
+      "32": {
+        "UserId": 3200917057,
+        "Name": "wetwipe789",
+        "Value": 27152
+      },
+      "33": {
+        "UserId": 2341495459,
+        "Name": "asmaden_129",
+        "Value": 26726
+      },
+      "34": {
+        "UserId": 3187474113,
+        "Name": "infin1te_destruction",
+        "Value": 26100
+      },
+      "35": {
+        "UserId": 4064900995,
+        "Name": "herstdev",
+        "Value": 25377
+      },
+      "36": {
+        "UserId": 3453081445,
+        "Name": "hoagzy",
+        "Value": 25065
+      },
+      "37": {
+        "UserId": 3619873144,
+        "Name": "ciumsyarakawa",
+        "Value": 24919
+      },
+      "38": {
+        "UserId": 3582332496,
+        "Name": "immortal_vvi",
+        "Value": 24873
+      },
+      "39": {
+        "UserId": 110523752,
+        "Name": "hurtsillyboyz246",
+        "Value": 24079
+      },
+      "40": {
+        "UserId": 326499544,
+        "Name": "onogamenollfe",
+        "Value": 23897
+      },
+      "41": {
+        "UserId": 2344653186,
+        "Name": "alexmagie1",
+        "Value": 23232
+      },
+      "42": {
+        "UserId": 3665226880,
+        "Name": "i3ootmeplease",
+        "Value": 23153
+      },
+      "43": {
+        "UserId": 1838118559,
+        "Name": "teronaxe",
+        "Value": 21759
+      },
+      "44": {
+        "UserId": 1163599697,
+        "Name": "superpugh321sbackup",
+        "Value": 20898
+      },
+      "45": {
+        "UserId": 2925240920,
+        "Name": "zonatemother",
+        "Value": 20292
+      },
+      "46": {
+        "UserId": 2814601234,
+        "Name": "xxixdark_shadowxixx",
+        "Value": 20240
+      },
+      "47": {
+        "UserId": 1057061926,
+        "Name": "kilasd6",
+        "Value": 19866
+      },
+      "48": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 19587
+      },
+      "49": {
+        "UserId": 2870898327,
+        "Name": "tetsuya_lxl",
+        "Value": 18680
+      },
+      "50": {
+        "UserId": 54083179,
+        "Name": "quominx",
+        "Value": 18662
+      },
+      "51": {
+        "UserId": 96499271,
+        "Name": "albinotigermorgan",
+        "Value": 18071
+      },
+      "52": {
+        "UserId": 505007978,
+        "Name": "dearflounder10",
+        "Value": 18004
+      },
+      "53": {
+        "UserId": 445903101,
+        "Name": "closestbasilisk57",
+        "Value": 17889
+      },
+      "54": {
+        "UserId": 97121789,
+        "Name": "tritoide",
+        "Value": 17691
+      },
+      "55": {
+        "UserId": 3185442901,
+        "Name": "friespaul8",
+        "Value": 17449
+      },
+      "56": {
+        "UserId": 3303712646,
+        "Name": "ezkills1212",
+        "Value": 17219
+      },
+      "57": {
+        "UserId": 42735876,
+        "Name": "phenomenaldex",
+        "Value": 17054
+      },
+      "58": {
+        "UserId": 718345577,
+        "Name": "jeffy9624",
+        "Value": 16901
+      },
+      "59": {
+        "UserId": 3184052364,
+        "Name": "friespaul7",
+        "Value": 16852
+      },
+      "60": {
+        "UserId": 157128976,
+        "Name": "19987655",
+        "Value": 16786
+      },
+      "61": {
+        "UserId": 3839503228,
+        "Name": "unityh20",
+        "Value": 16605
+      },
+      "62": {
+        "UserId": 3839511639,
+        "Name": "combath20",
+        "Value": 16473
+      },
+      "63": {
+        "UserId": 101406721,
+        "Name": "moltavius",
+        "Value": 16404
+      },
+      "64": {
+        "UserId": 1429065175,
+        "Name": "1bubbyboy1",
+        "Value": 16105
+      },
+      "65": {
+        "UserId": 627746843,
+        "Name": "evilthekiller38",
+        "Value": 15783
+      },
+      "66": {
+        "UserId": 144878222,
+        "Name": "vearsiosproperty",
+        "Value": 15708
+      },
+      "67": {
+        "UserId": 2001201832,
+        "Name": "the_norritor",
+        "Value": 15584
+      },
+      "68": {
+        "UserId": 384037630,
+        "Name": "noob219909",
+        "Value": 15434
+      },
+      "69": {
+        "UserId": 1379758435,
+        "Name": "boruyoisthebest",
+        "Value": 15428
+      },
+      "70": {
+        "UserId": 1347400879,
+        "Name": "immortal_vvx",
+        "Value": 15384
+      },
+      "71": {
+        "UserId": 2751609289,
+        "Name": "traintokill22",
+        "Value": 15211
+      },
+      "72": {
+        "UserId": 1207868183,
+        "Name": "lazorlazor2006",
+        "Value": 14997
+      },
+      "73": {
+        "UserId": 3607198626,
+        "Name": "v_zsr",
+        "Value": 14647
+      },
+      "74": {
+        "UserId": 1046525747,
+        "Name": "zrylx",
+        "Value": 14615
+      },
+      "75": {
+        "UserId": 257273763,
+        "Name": "deniselowery4",
+        "Value": 14387
+      },
+      "76": {
+        "UserId": 393269361,
+        "Name": "g3t_funky",
+        "Value": 14306
+      },
+      "77": {
+        "UserId": 3741555959,
+        "Name": "shouxz1",
+        "Value": 14219
+      },
+      "78": {
+        "UserId": 2294806222,
+        "Name": "tid_d",
+        "Value": 14208
+      },
+      "79": {
+        "UserId": 3172065696,
+        "Name": "astronomicalzep",
+        "Value": 14163
+      },
+      "80": {
+        "UserId": 3917122961,
+        "Name": "cinovrasbot2",
+        "Value": 14135
+      },
+      "81": {
+        "UserId": 4064899234,
+        "Name": "madebyblueshade",
+        "Value": 14012
+      },
+      "82": {
+        "UserId": 3916989176,
+        "Name": "cinovrasbot1",
+        "Value": 13956
+      },
+      "83": {
+        "UserId": 3185443997,
+        "Name": "friespaul9",
+        "Value": 13888
+      },
+      "84": {
+        "UserId": 3761081217,
+        "Name": "rawnull",
+        "Value": 13827
+      },
+      "85": {
+        "UserId": 3350435999,
+        "Name": "transfernatesdataplz",
+        "Value": 13576
+      },
+      "86": {
+        "UserId": 1641137662,
+        "Name": "svs_thunder",
+        "Value": 13431
+      },
+      "87": {
+        "UserId": 242211046,
+        "Name": "hanyung12",
+        "Value": 13418
+      },
+      "88": {
+        "UserId": 3483139607,
+        "Name": "3_3x0",
+        "Value": 13380
+      },
+      "89": {
+        "UserId": 1839517920,
+        "Name": "revflxyt",
+        "Value": 13334
+      },
+      "90": {
+        "UserId": 41135012,
+        "Name": "yaherme",
+        "Value": 13253
+      },
+      "91": {
+        "UserId": 2891807128,
+        "Name": "simplyplatinum",
+        "Value": 13082
+      },
+      "92": {
+        "UserId": 1279247385,
+        "Name": "godlyzballer_222",
+        "Value": 13029
+      },
+      "93": {
+        "UserId": 2560052716,
+        "Name": "dividedicon",
+        "Value": 12706
+      },
+      "94": {
+        "UserId": 3397475600,
+        "Name": "hungryhippohitta",
+        "Value": 12523
+      },
+      "95": {
+        "UserId": 3185445000,
+        "Name": "friespaul10",
+        "Value": 12505
+      },
+      "96": {
+        "UserId": 1937919303,
+        "Name": "cl2a4",
+        "Value": 12241
+      },
+      "97": {
+        "UserId": 640845265,
+        "Name": "kittyrobocop",
+        "Value": 12178
+      },
+      "98": {
+        "UserId": 411502059,
+        "Name": "leslelie",
+        "Value": 12149
+      },
+      "99": {
+        "UserId": 407745528,
+        "Name": "kizzydudeboi",
+        "Value": 12135
+      },
+      "100": {
+        "UserId": 3759874055,
+        "Name": "yaxiran",
+        "Value": 12029
+      }
+    },
+    "time": {
+      "1": {
+        "UserId": 3114175494,
+        "Name": "immortal_xxd",
+        "Value": 6065640
+      },
+      "2": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 3785460
+      },
+      "3": {
+        "UserId": 297255867,
+        "Name": "harrymaster417",
+        "Value": 3687300
+      },
+      "4": {
+        "UserId": 1379758435,
+        "Name": "boruyoisthebest",
+        "Value": 3683880
+      },
+      "5": {
+        "UserId": 243662079,
+        "Name": "dejwideq",
+        "Value": 3617280
+      },
+      "6": {
+        "UserId": 88564188,
+        "Name": "august135rush",
+        "Value": 3582060
+      },
+      "7": {
+        "UserId": 496820178,
+        "Name": "wastedketchup45",
+        "Value": 3582000
+      },
+      "8": {
+        "UserId": 110523752,
+        "Name": "hurtsillyboyz246",
+        "Value": 3485940
+      },
+      "9": {
+        "UserId": 96499271,
+        "Name": "albinotigermorgan",
+        "Value": 3286740
+      },
+      "10": {
+        "UserId": 3111798970,
+        "Name": "meniceified",
+        "Value": 3197040
+      },
+      "11": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 3124260
+      },
+      "12": {
+        "UserId": 445903101,
+        "Name": "closestbasilisk57",
+        "Value": 3095940
+      },
+      "13": {
+        "UserId": 2344653186,
+        "Name": "alexmagie1",
+        "Value": 3015180
+      },
+      "14": {
+        "UserId": 3200917057,
+        "Name": "wetwipe789",
+        "Value": 2962920
+      },
+      "15": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 2924880
+      },
+      "16": {
+        "UserId": 205130942,
+        "Name": "qizexa",
+        "Value": 2871300
+      },
+      "17": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 2728140
+      },
+      "18": {
+        "UserId": 518177749,
+        "Name": "mahir7123",
+        "Value": 2698740
+      },
+      "19": {
+        "UserId": 1259628710,
+        "Name": "quazela",
+        "Value": 2661960
+      },
+      "20": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 2382900
+      },
+      "21": {
+        "UserId": 640845265,
+        "Name": "kittyrobocop",
+        "Value": 2326020
+      },
+      "22": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 2295240
+      },
+      "23": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 2290800
+      },
+      "24": {
+        "UserId": 97121789,
+        "Name": "tritoide",
+        "Value": 2235000
+      },
+      "25": {
+        "UserId": 539689718,
+        "Name": "phenomenalscy",
+        "Value": 2208000
+      },
+      "26": {
+        "UserId": 881606287,
+        "Name": "venom_reaper1080",
+        "Value": 2142360
+      },
+      "27": {
+        "UserId": 689164622,
+        "Name": "off_quebec",
+        "Value": 2052060
+      },
+      "28": {
+        "UserId": 573100329,
+        "Name": "penutbutterwithapen",
+        "Value": 2048640
+      },
+      "29": {
+        "UserId": 1349905329,
+        "Name": "kevinhart123497",
+        "Value": 1945140
+      },
+      "30": {
+        "UserId": 627746843,
+        "Name": "evilthekiller38",
+        "Value": 1932960
+      },
+      "31": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 1919760
+      },
+      "32": {
+        "UserId": 3830200175,
+        "Name": "demonisatiion",
+        "Value": 1919100
+      },
+      "33": {
+        "UserId": 2341495459,
+        "Name": "asmaden_129",
+        "Value": 1807380
+      },
+      "34": {
+        "UserId": 2699694807,
+        "Name": "immortal_xvv",
+        "Value": 1769280
+      },
+      "35": {
+        "UserId": 489706093,
+        "Name": "limzster",
+        "Value": 1751880
+      },
+      "36": {
+        "UserId": 2911800856,
+        "Name": "ains_og",
+        "Value": 1730100
+      },
+      "37": {
+        "UserId": 41135012,
+        "Name": "yaherme",
+        "Value": 1651740
+      },
+      "38": {
+        "UserId": 1429065175,
+        "Name": "1bubbyboy1",
+        "Value": 1613280
+      },
+      "39": {
+        "UserId": 1791676246,
+        "Name": "loobz2012",
+        "Value": 1605000
+      },
+      "40": {
+        "UserId": 1057061926,
+        "Name": "kilasd6",
+        "Value": 1527240
+      },
+      "41": {
+        "UserId": 393269361,
+        "Name": "g3t_funky",
+        "Value": 1509240
+      },
+      "42": {
+        "UserId": 226030208,
+        "Name": "davidl4452",
+        "Value": 1491900
+      },
+      "43": {
+        "UserId": 1415562658,
+        "Name": "cocojolton",
+        "Value": 1476840
+      },
+      "44": {
+        "UserId": 505007978,
+        "Name": "dearflounder10",
+        "Value": 1447500
+      },
+      "45": {
+        "UserId": 586722993,
+        "Name": "stuipedjdudhsh",
+        "Value": 1443420
+      },
+      "46": {
+        "UserId": 3129620353,
+        "Name": "acronymin",
+        "Value": 1397700
+      },
+      "47": {
+        "UserId": 226050553,
+        "Name": "lalataya2929",
+        "Value": 1395300
+      },
+      "48": {
+        "UserId": 1276757767,
+        "Name": "xeedyy",
+        "Value": 1391280
+      },
+      "49": {
+        "UserId": 3155841811,
+        "Name": "scrappymarlin7",
+        "Value": 1375380
+      },
+      "50": {
+        "UserId": 326499544,
+        "Name": "onogamenollfe",
+        "Value": 1371000
+      },
+      "51": {
+        "UserId": 485224141,
+        "Name": "lmmortal_xlx",
+        "Value": 1353840
+      },
+      "52": {
+        "UserId": 1859101311,
+        "Name": "deadshot307110",
+        "Value": 1351440
+      },
+      "53": {
+        "UserId": 83683363,
+        "Name": "sefa2828",
+        "Value": 1323960
+      },
+      "54": {
+        "UserId": 257273763,
+        "Name": "deniselowery4",
+        "Value": 1319760
+      },
+      "55": {
+        "UserId": 1207868183,
+        "Name": "lazorlazor2006",
+        "Value": 1318440
+      },
+      "56": {
+        "UserId": 3160705066,
+        "Name": "ghxzth20",
+        "Value": 1317120
+      },
+      "57": {
+        "UserId": 1207889395,
+        "Name": "goatlife2424",
+        "Value": 1305780
+      },
+      "58": {
+        "UserId": 1163599697,
+        "Name": "superpugh321sbackup",
+        "Value": 1305240
+      },
+      "59": {
+        "UserId": 384037630,
+        "Name": "noob219909",
+        "Value": 1255140
+      },
+      "60": {
+        "UserId": 239954346,
+        "Name": "samacuel",
+        "Value": 1248660
+      },
+      "61": {
+        "UserId": 1937919303,
+        "Name": "cl2a4",
+        "Value": 1242000
+      },
+      "62": {
+        "UserId": 3839511639,
+        "Name": "combath20",
+        "Value": 1237800
+      },
+      "63": {
+        "UserId": 92692631,
+        "Name": "bkbk12321",
+        "Value": 1229280
+      },
+      "64": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 1204680
+      },
+      "65": {
+        "UserId": 247512410,
+        "Name": "moniquemunoz9",
+        "Value": 1200720
+      },
+      "66": {
+        "UserId": 1838118559,
+        "Name": "teronaxe",
+        "Value": 1146180
+      },
+      "67": {
+        "UserId": 1496073869,
+        "Name": "dracko1234567890",
+        "Value": 1144020
+      },
+      "68": {
+        "UserId": 1144992625,
+        "Name": "newycookie",
+        "Value": 1137180
+      },
+      "69": {
+        "UserId": 157128976,
+        "Name": "19987655",
+        "Value": 1123620
+      },
+      "70": {
+        "UserId": 2698504307,
+        "Name": "grxndexecutioner",
+        "Value": 1120800
+      },
+      "71": {
+        "UserId": 233486760,
+        "Name": "titanbbboy05",
+        "Value": 1111440
+      },
+      "72": {
+        "UserId": 101406721,
+        "Name": "moltavius",
+        "Value": 1100100
+      },
+      "73": {
+        "UserId": 77126130,
+        "Name": "tyroneacus",
+        "Value": 1093320
+      },
+      "74": {
+        "UserId": 1354837779,
+        "Name": "lostazylia",
+        "Value": 1089120
+      },
+      "75": {
+        "UserId": 1892290217,
+        "Name": "leonforever19",
+        "Value": 1084980
+      },
+      "76": {
+        "UserId": 2528153598,
+        "Name": "blazingcoder0402",
+        "Value": 1084560
+      },
+      "77": {
+        "UserId": 3665226880,
+        "Name": "i3ootmeplease",
+        "Value": 1067040
+      },
+      "78": {
+        "UserId": 474288718,
+        "Name": "loxplayer22",
+        "Value": 1063320
+      },
+      "79": {
+        "UserId": 1641137662,
+        "Name": "svs_thunder",
+        "Value": 1062780
+      },
+      "80": {
+        "UserId": 242211046,
+        "Name": "hanyung12",
+        "Value": 1011480
+      },
+      "81": {
+        "UserId": 2840027027,
+        "Name": "quickfingers452",
+        "Value": 1002120
+      },
+      "82": {
+        "UserId": 2906568556,
+        "Name": "xrecon_rblx",
+        "Value": 1001160
+      },
+      "83": {
+        "UserId": 2536144458,
+        "Name": "jdhballer_222",
+        "Value": 1000380
+      },
+      "84": {
+        "UserId": 2035896485,
+        "Name": "mr_keniyon2020",
+        "Value": 987300
+      },
+      "85": {
+        "UserId": 3159519873,
+        "Name": "lil_dan200",
+        "Value": 982980
+      },
+      "86": {
+        "UserId": 125931388,
+        "Name": "ekins12",
+        "Value": 981360
+      },
+      "87": {
+        "UserId": 54083179,
+        "Name": "quominx",
+        "Value": 959220
+      },
+      "88": {
+        "UserId": 86530763,
+        "Name": "cioudgamer43",
+        "Value": 958980
+      },
+      "89": {
+        "UserId": 4450848172,
+        "Name": "eptarn",
+        "Value": 941640
+      },
+      "90": {
+        "UserId": 127065487,
+        "Name": "bjunior8",
+        "Value": 941220
+      },
+      "91": {
+        "UserId": 70312460,
+        "Name": "reset14654165",
+        "Value": 937320
+      },
+      "92": {
+        "UserId": 85033019,
+        "Name": "scoober752",
+        "Value": 926880
+      },
+      "93": {
+        "UserId": 4312863810,
+        "Name": "xlx_death",
+        "Value": 919980
+      },
+      "94": {
+        "UserId": 1459988029,
+        "Name": "kennison6",
+        "Value": 892860
+      },
+      "95": {
+        "UserId": 1623698684,
+        "Name": "rapiidlazer",
+        "Value": 887400
+      },
+      "96": {
+        "UserId": 3184051418,
+        "Name": "friespaul6",
+        "Value": 873360
+      },
+      "97": {
+        "UserId": 158760788,
+        "Name": "stixwha",
+        "Value": 864780
+      },
+      "98": {
+        "UserId": 1175507587,
+        "Name": "nicholasamad21",
+        "Value": 861360
+      },
+      "99": {
+        "UserId": 32294392,
+        "Name": "iinighthawkxx",
+        "Value": 849300
+      },
+      "100": {
+        "UserId": 94542937,
+        "Name": "youdeadbro31",
+        "Value": 843660
+      }
+    },
+    "robux": {
+      "1": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 116690
+      },
+      "2": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 104597
+      },
+      "3": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 89690
+      },
+      "4": {
+        "UserId": 881606287,
+        "Name": "venom_reaper1080",
+        "Value": 72880
+      },
+      "5": {
+        "UserId": 43067841,
+        "Name": "localrun",
+        "Value": 60260
+      },
+      "6": {
+        "UserId": 711630792,
+        "Name": "dxmonizaation",
+        "Value": 59630
+      },
+      "7": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 58930
+      },
+      "8": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 45975
+      },
+      "9": {
+        "UserId": 2814601234,
+        "Name": "xxixdark_shadowxixx",
+        "Value": 40620
+      },
+      "10": {
+        "UserId": 3111798970,
+        "Name": "meniceified",
+        "Value": 36850
+      },
+      "11": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 36495
+      },
+      "12": {
+        "UserId": 518177749,
+        "Name": "mahir7123",
+        "Value": 36275
+      },
+      "13": {
+        "UserId": 3114175494,
+        "Name": "immortal_xxd",
+        "Value": 31280
+      },
+      "14": {
+        "UserId": 1061633,
+        "Name": "mahirtheeternal",
+        "Value": 30030
+      },
+      "15": {
+        "UserId": 269179832,
+        "Name": "kovaar",
+        "Value": 26745
+      },
+      "16": {
+        "UserId": 145427118,
+        "Name": "whit_eman",
+        "Value": 26375
+      },
+      "17": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 24605
+      },
+      "18": {
+        "UserId": 144878222,
+        "Name": "vearsiosproperty",
+        "Value": 24560
+      },
+      "19": {
+        "UserId": 1420257397,
+        "Name": "noobklng0o",
+        "Value": 23950
+      },
+      "20": {
+        "UserId": 865901030,
+        "Name": "vearsiogames",
+        "Value": 22675
+      },
+      "21": {
+        "UserId": 55622054,
+        "Name": "beauhids",
+        "Value": 21640
+      },
+      "22": {
+        "UserId": 2253212454,
+        "Name": "ratty_fun",
+        "Value": 21060
+      },
+      "23": {
+        "UserId": 220510251,
+        "Name": "eonseternity",
+        "Value": 20050
+      },
+      "24": {
+        "UserId": 640845265,
+        "Name": "kittyrobocop",
+        "Value": 19525
+      },
+      "25": {
+        "UserId": 73031136,
+        "Name": "eyrietellendir",
+        "Value": 19490
+      },
+      "26": {
+        "UserId": 100907469,
+        "Name": "misdre4vus",
+        "Value": 19230
+      },
+      "27": {
+        "UserId": 46682999,
+        "Name": "foukas123",
+        "Value": 18545
+      },
+      "28": {
+        "UserId": 272256008,
+        "Name": "siegesquad",
+        "Value": 17535
+      },
+      "29": {
+        "UserId": 9221415,
+        "Name": "azutreo",
+        "Value": 15975
+      },
+      "30": {
+        "UserId": 3254901100,
+        "Name": "djsplytyme",
+        "Value": 15335
+      },
+      "31": {
+        "UserId": 621719721,
+        "Name": "reversflash021",
+        "Value": 15225
+      },
+      "32": {
+        "UserId": 3830200175,
+        "Name": "demonisatiion",
+        "Value": 14550
+      },
+      "33": {
+        "UserId": 1259628710,
+        "Name": "quazela",
+        "Value": 14495
+      },
+      "34": {
+        "UserId": 24266025,
+        "Name": "casdy4k",
+        "Value": 14270
+      },
+      "35": {
+        "UserId": 1352405058,
+        "Name": "darkdragon_195",
+        "Value": 13015
+      },
+      "36": {
+        "UserId": 1276757767,
+        "Name": "xeedyy",
+        "Value": 12975
+      },
+      "37": {
+        "UserId": 221105540,
+        "Name": "scopes2445",
+        "Value": 12585
+      },
+      "38": {
+        "UserId": 3155841811,
+        "Name": "scrappymarlin7",
+        "Value": 12500
+      },
+      "39": {
+        "UserId": 1791676246,
+        "Name": "loobz2012",
+        "Value": 12070
+      },
+      "40": {
+        "UserId": 1339021549,
+        "Name": "vearsieo",
+        "Value": 11910
+      },
+      "41": {
+        "UserId": 248049843,
+        "Name": "thetestscientist",
+        "Value": 11430
+      },
+      "42": {
+        "UserId": 1347661354,
+        "Name": "nfisfutureboi",
+        "Value": 11230
+      },
+      "43": {
+        "UserId": 101406721,
+        "Name": "moltavius",
+        "Value": 11185
+      },
+      "44": {
+        "UserId": 45317631,
+        "Name": "dramonx",
+        "Value": 11105
+      },
+      "45": {
+        "UserId": 95168156,
+        "Name": "alextheanimai",
+        "Value": 10765
+      },
+      "46": {
+        "UserId": 445903101,
+        "Name": "closestbasilisk57",
+        "Value": 10625
+      },
+      "47": {
+        "UserId": 4249712591,
+        "Name": "ziggyzack21",
+        "Value": 10535
+      },
+      "48": {
+        "UserId": 2241491523,
+        "Name": "magicjayzon15",
+        "Value": 10530
+      },
+      "49": {
+        "UserId": 3181371918,
+        "Name": "esefesfse",
+        "Value": 10440
+      },
+      "50": {
+        "UserId": 69326238,
+        "Name": "emberapi",
+        "Value": 10405
+      },
+      "51": {
+        "UserId": 443989948,
+        "Name": "darkdemon98666",
+        "Value": 10370
+      },
+      "52": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 10225
+      },
+      "53": {
+        "UserId": 1347400879,
+        "Name": "immortal_vvx",
+        "Value": 9865
+      },
+      "54": {
+        "UserId": 3187474113,
+        "Name": "infin1te_destruction",
+        "Value": 9730
+      },
+      "55": {
+        "UserId": 453385302,
+        "Name": "technoturbo",
+        "Value": 9725
+      },
+      "56": {
+        "UserId": 3068576943,
+        "Name": "shadow_revenant515",
+        "Value": 9700
+      },
+      "57": {
+        "UserId": 70198080,
+        "Name": "polyzulf",
+        "Value": 9675
+      },
+      "58": {
+        "UserId": 41937088,
+        "Name": "skiller22034",
+        "Value": 9595
+      },
+      "59": {
+        "UserId": 3070845088,
+        "Name": "bi0thraxjr",
+        "Value": 9500
+      },
+      "60": {
+        "UserId": 527114208,
+        "Name": "josedecaprio",
+        "Value": 9335
+      },
+      "61": {
+        "UserId": 432942725,
+        "Name": "s0ymejor",
+        "Value": 9320
+      },
+      "62": {
+        "UserId": 1349905329,
+        "Name": "kevinhart123497",
+        "Value": 9300
+      },
+      "63": {
+        "UserId": 489706093,
+        "Name": "limzster",
+        "Value": 9222
+      },
+      "64": {
+        "UserId": 2489543427,
+        "Name": "jos11978",
+        "Value": 9200
+      },
+      "65": {
+        "UserId": 474288718,
+        "Name": "loxplayer22",
+        "Value": 9075
+      },
+      "66": {
+        "UserId": 415539634,
+        "Name": "verifiednetwork",
+        "Value": 9055
+      },
+      "67": {
+        "UserId": 67086942,
+        "Name": "imatruegamer",
+        "Value": 8955
+      },
+      "68": {
+        "UserId": 411502059,
+        "Name": "leslelie",
+        "Value": 8785
+      },
+      "69": {
+        "UserId": 1301428374,
+        "Name": "kingtrev43",
+        "Value": 8780
+      },
+      "70": {
+        "UserId": 96499271,
+        "Name": "albinotigermorgan",
+        "Value": 8775
+      },
+      "71": {
+        "UserId": 4286168,
+        "Name": "mattice",
+        "Value": 8685
+      },
+      "72": {
+        "UserId": 34505769,
+        "Name": "vueru",
+        "Value": 8625
+      },
+      "73": {
+        "UserId": 2481241456,
+        "Name": "arkicev",
+        "Value": 8565
+      },
+      "74": {
+        "UserId": 1061748766,
+        "Name": "vfelku",
+        "Value": 8500
+      },
+      "75": {
+        "UserId": 8592901,
+        "Name": "freakyitachi",
+        "Value": 8460
+      },
+      "76": {
+        "UserId": 354231379,
+        "Name": "astra1ls",
+        "Value": 8450
+      },
+      "77": {
+        "UserId": 1313804791,
+        "Name": "renownedport3",
+        "Value": 8320
+      },
+      "78": {
+        "UserId": 655627508,
+        "Name": "leomightywinner",
+        "Value": 8185
+      },
+      "79": {
+        "UserId": 117270254,
+        "Name": "herb765",
+        "Value": 8105
+      },
+      "80": {
+        "UserId": 125931388,
+        "Name": "ekins12",
+        "Value": 8030
+      },
+      "81": {
+        "UserId": 69776096,
+        "Name": "pr0catgamer",
+        "Value": 7940
+      },
+      "82": {
+        "UserId": 2258784009,
+        "Name": "c_kingl",
+        "Value": 7750
+      },
+      "83": {
+        "UserId": 539689718,
+        "Name": "phenomenalscy",
+        "Value": 7650
+      },
+      "84": {
+        "UserId": 92867748,
+        "Name": "imatruegameralt",
+        "Value": 7600
+      },
+      "85": {
+        "UserId": 3668054446,
+        "Name": "halo_madan",
+        "Value": 7580
+      },
+      "86": {
+        "UserId": 2773657891,
+        "Name": "thewhitevanretailer",
+        "Value": 7560
+      },
+      "87": {
+        "UserId": 91347389,
+        "Name": "blueysflow",
+        "Value": 7555
+      },
+      "88": {
+        "UserId": 1870945635,
+        "Name": "dylandude6222",
+        "Value": 7500
+      },
+      "89": {
+        "UserId": 266198933,
+        "Name": "lmhighh",
+        "Value": 7405
+      },
+      "90": {
+        "UserId": 186225116,
+        "Name": "veshlobo",
+        "Value": 7380
+      },
+      "91": {
+        "UserId": 829196461,
+        "Name": "granttheman06",
+        "Value": 7370
+      },
+      "92": {
+        "UserId": 2699694807,
+        "Name": "immortal_xvv",
+        "Value": 7325
+      },
+      "93": {
+        "UserId": 2744750512,
+        "Name": "x9kyz",
+        "Value": 7325
+      },
+      "94": {
+        "UserId": 478834212,
+        "Name": "flailium",
+        "Value": 7300
+      },
+      "95": {
+        "UserId": 316309514,
+        "Name": "connorcooper365",
+        "Value": 7285
+      },
+      "96": {
+        "UserId": 47718772,
+        "Name": "messiahbplayn00",
+        "Value": 7235
+      },
+      "97": {
+        "UserId": 3116522,
+        "Name": "chad876",
+        "Value": 7200
+      },
+      "98": {
+        "UserId": 73161659,
+        "Name": "haai45",
+        "Value": 7195
+      },
+      "99": {
+        "UserId": 62347346,
+        "Name": "gamerbroxyz",
+        "Value": 7170
+      },
+      "100": {
+        "UserId": 103514381,
+        "Name": "tigerbocks",
+        "Value": 7158
+      }
+    }
+  },
+  "all": {
+    "kills": {
+      "1": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 1017433
+      },
+      "2": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 644317
+      },
+      "3": {
+        "UserId": 49538597,
+        "Name": "nateelol",
+        "Value": 422242
+      },
+      "4": {
+        "UserId": 3830200175,
+        "Name": "demonisatiion",
+        "Value": 411164
+      },
+      "5": {
+        "UserId": 1968520850,
+        "Name": "abyss_knight666",
+        "Value": 367674
+      },
+      "6": {
+        "UserId": 10558055,
+        "Name": "rranchh",
+        "Value": 345524
+      },
+      "7": {
+        "UserId": 336395346,
+        "Name": "c0rruptedw1sh",
+        "Value": 260452
+      },
+      "8": {
+        "UserId": 77126130,
+        "Name": "tyroneacus",
+        "Value": 253384
+      },
+      "9": {
+        "UserId": 1061633,
+        "Name": "mahirtheeternal",
+        "Value": 245177
+      },
+      "10": {
+        "UserId": 82258200,
+        "Name": "demonizaation",
+        "Value": 242540
+      },
+      "11": {
+        "UserId": 16185540,
+        "Name": "therealdjthistime",
+        "Value": 235467
+      },
+      "12": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 219695
+      },
+      "13": {
+        "UserId": 3111798970,
+        "Name": "meniceified",
+        "Value": 191411
+      },
+      "14": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 172971
+      },
+      "15": {
+        "UserId": 1354837779,
+        "Name": "lostazylia",
+        "Value": 168281
+      },
+      "16": {
+        "UserId": 24579412,
+        "Name": "llpeter_griffinll",
+        "Value": 168251
+      },
+      "17": {
+        "UserId": 3114175494,
+        "Name": "immortal_xxd",
+        "Value": 159254
+      },
+      "18": {
+        "UserId": 51534439,
+        "Name": "decoydoa999",
+        "Value": 155097
+      },
+      "19": {
+        "UserId": 725262,
+        "Name": "frankiethedino",
+        "Value": 149860
+      },
+      "20": {
+        "UserId": 51462545,
+        "Name": "tyrxny",
+        "Value": 147314
+      },
+      "21": {
+        "UserId": 1471702047,
+        "Name": "minecraftguy12390",
+        "Value": 147188
+      },
+      "22": {
+        "UserId": 42735876,
+        "Name": "phenomenaldex",
+        "Value": 147154
+      },
+      "23": {
+        "UserId": 261237466,
+        "Name": "outmantee",
+        "Value": 146644
+      },
+      "24": {
+        "UserId": 80991370,
+        "Name": "schwohz",
+        "Value": 146602
+      },
+      "25": {
+        "UserId": 34903950,
+        "Name": "quanova",
+        "Value": 146484
+      },
+      "26": {
+        "UserId": 74407854,
+        "Name": "noobking0o",
+        "Value": 146166
+      },
+      "27": {
+        "UserId": 292044823,
+        "Name": "cruxuh",
+        "Value": 145184
+      },
+      "28": {
+        "UserId": 39497371,
+        "Name": "immortal_xii",
+        "Value": 142075
+      },
+      "29": {
+        "UserId": 1473820275,
+        "Name": "ghostkiller8524",
+        "Value": 132237
+      },
+      "30": {
+        "UserId": 326499544,
+        "Name": "onogamenollfe",
+        "Value": 131629
+      },
+      "31": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 128708
+      },
+      "32": {
+        "UserId": 573100329,
+        "Name": "penutbutterwithapen",
+        "Value": 128493
+      },
+      "33": {
+        "UserId": 25160470,
+        "Name": "runmon",
+        "Value": 127731
+      },
+      "34": {
+        "UserId": 23265270,
+        "Name": "robo4blox",
+        "Value": 124410
+      },
+      "35": {
+        "UserId": 2587836385,
+        "Name": "vearsias",
+        "Value": 122135
+      },
+      "36": {
+        "UserId": 416132798,
+        "Name": "silentwolfgamingytx",
+        "Value": 120867
+      },
+      "37": {
+        "UserId": 449311936,
+        "Name": "immortal_xix",
+        "Value": 113858
+      },
+      "38": {
+        "UserId": 16254789,
+        "Name": "rblxgameplay",
+        "Value": 112220
+      },
+      "39": {
+        "UserId": 33810087,
+        "Name": "youdeadbro32",
+        "Value": 110978
+      },
+      "40": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 110719
+      },
+      "41": {
+        "UserId": 505007978,
+        "Name": "dearflounder10",
+        "Value": 110261
+      },
+      "42": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 109576
+      },
+      "43": {
+        "UserId": 20309558,
+        "Name": "quickflame77",
+        "Value": 108033
+      },
+      "44": {
+        "UserId": 1259628710,
+        "Name": "quazela",
+        "Value": 106391
+      },
+      "45": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 105141
+      },
+      "46": {
+        "UserId": 57886280,
+        "Name": "born2kili",
+        "Value": 103166
+      },
+      "47": {
+        "UserId": 253328177,
+        "Name": "hailhet_lir",
+        "Value": 102723
+      },
+      "48": {
+        "UserId": 216714292,
+        "Name": "zonateelol",
+        "Value": 100725
+      },
+      "49": {
+        "UserId": 3116522,
+        "Name": "chad876",
+        "Value": 95815
+      },
+      "50": {
+        "UserId": 539689718,
+        "Name": "phenomenalscy",
+        "Value": 93569
+      },
+      "51": {
+        "UserId": 205130942,
+        "Name": "qizexa",
+        "Value": 93291
+      },
+      "52": {
+        "UserId": 107355545,
+        "Name": "alvinsolence",
+        "Value": 92746
+      },
+      "53": {
+        "UserId": 242211046,
+        "Name": "hanyung12",
+        "Value": 89842
+      },
+      "54": {
+        "UserId": 39490599,
+        "Name": "fishface46",
+        "Value": 87200
+      },
+      "55": {
+        "UserId": 144878222,
+        "Name": "vearsiosproperty",
+        "Value": 82995
+      },
+      "56": {
+        "UserId": 151530683,
+        "Name": "sagiao16",
+        "Value": 77644
+      },
+      "57": {
+        "UserId": 103514381,
+        "Name": "tigerbocks",
+        "Value": 77503
+      },
+      "58": {
+        "UserId": 1097804958,
+        "Name": "antihaxremover",
+        "Value": 77046
+      },
+      "59": {
+        "UserId": 230404066,
+        "Name": "redpandagravage",
+        "Value": 75194
+      },
+      "60": {
+        "UserId": 2699694807,
+        "Name": "immortal_xvv",
+        "Value": 72540
+      },
+      "61": {
+        "UserId": 393992844,
+        "Name": "noahw044",
+        "Value": 71864
+      },
+      "62": {
+        "UserId": 409528795,
+        "Name": "thewizardman19",
+        "Value": 71435
+      },
+      "63": {
+        "UserId": 485224141,
+        "Name": "lmmortal_xlx",
+        "Value": 71193
+      },
+      "64": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 70920
+      },
+      "65": {
+        "UserId": 33534995,
+        "Name": "batman1232479",
+        "Value": 69420
+      },
+      "66": {
+        "UserId": 470471219,
+        "Name": "fizzlepop1990",
+        "Value": 69325
+      },
+      "67": {
+        "UserId": 46824969,
+        "Name": "iblingblingboy",
+        "Value": 67304
+      },
+      "68": {
+        "UserId": 3243303369,
+        "Name": "codytrashdev",
+        "Value": 66290
+      },
+      "69": {
+        "UserId": 92692631,
+        "Name": "bkbk12321",
+        "Value": 66046
+      },
+      "70": {
+        "UserId": 271203505,
+        "Name": "polkton31",
+        "Value": 65833
+      },
+      "71": {
+        "UserId": 155430396,
+        "Name": "djteal00",
+        "Value": 65813
+      },
+      "72": {
+        "UserId": 87869877,
+        "Name": "smash6101",
+        "Value": 64713
+      },
+      "73": {
+        "UserId": 1057061926,
+        "Name": "kilasd6",
+        "Value": 64659
+      },
+      "74": {
+        "UserId": 109771029,
+        "Name": "dripish",
+        "Value": 64631
+      },
+      "75": {
+        "UserId": 146760584,
+        "Name": "poopoopooo196",
+        "Value": 63625
+      },
+      "76": {
+        "UserId": 352820128,
+        "Name": "aceyrus",
+        "Value": 63078
+      },
+      "77": {
+        "UserId": 70312460,
+        "Name": "reset14654165",
+        "Value": 62330
+      },
+      "78": {
+        "UserId": 711630792,
+        "Name": "dxmonizaation",
+        "Value": 61428
+      },
+      "79": {
+        "UserId": 75036233,
+        "Name": "trocrom",
+        "Value": 61157
+      },
+      "80": {
+        "UserId": 60589273,
+        "Name": "diabiix",
+        "Value": 60351
+      },
+      "81": {
+        "UserId": 116581178,
+        "Name": "darkentity999",
+        "Value": 58920
+      },
+      "82": {
+        "UserId": 64591749,
+        "Name": "dutchoven007228",
+        "Value": 58904
+      },
+      "83": {
+        "UserId": 148713955,
+        "Name": "hypad",
+        "Value": 57196
+      },
+      "84": {
+        "UserId": 474229209,
+        "Name": "fabchoko",
+        "Value": 57171
+      },
+      "85": {
+        "UserId": 41453107,
+        "Name": "zombiekillerman33",
+        "Value": 56493
+      },
+      "86": {
+        "UserId": 290976148,
+        "Name": "caly25304",
+        "Value": 55830
+      },
+      "87": {
+        "UserId": 63758514,
+        "Name": "zelst5",
+        "Value": 55508
+      },
+      "88": {
+        "UserId": 4040948278,
+        "Name": "wepastdeathw1sh",
+        "Value": 55091
+      },
+      "89": {
+        "UserId": 22966357,
+        "Name": "realmhopping",
+        "Value": 54382
+      },
+      "90": {
+        "UserId": 45437950,
+        "Name": "ademarcoldbane",
+        "Value": 54240
+      },
+      "91": {
+        "UserId": 54083179,
+        "Name": "quominx",
+        "Value": 53194
+      },
+      "92": {
+        "UserId": 79358852,
+        "Name": "hidude78101156",
+        "Value": 53163
+      },
+      "93": {
+        "UserId": 134917385,
+        "Name": "bdawg14214",
+        "Value": 52814
+      },
+      "94": {
+        "UserId": 74488170,
+        "Name": "prydrex",
+        "Value": 52648
+      },
+      "95": {
+        "UserId": 297255867,
+        "Name": "harrymaster417",
+        "Value": 52260
+      },
+      "96": {
+        "UserId": 70272356,
+        "Name": "marcusrongved",
+        "Value": 51422
+      },
+      "97": {
+        "UserId": 61752010,
+        "Name": "tokyohorror",
+        "Value": 51252
+      },
+      "98": {
+        "UserId": 80865197,
+        "Name": "afriendlytallbox",
+        "Value": 51124
+      },
+      "99": {
+        "UserId": 161391982,
+        "Name": "clu3siv",
+        "Value": 50606
+      },
+      "100": {
+        "UserId": 68903439,
+        "Name": "xnight_hawkx",
+        "Value": 50256
+      }
+    },
+    "time": {
+      "1": {
+        "UserId": 243662079,
+        "Name": "dejwideq",
+        "Value": 17754420
+      },
+      "2": {
+        "UserId": 16185540,
+        "Name": "therealdjthistime",
+        "Value": 15176940
+      },
+      "3": {
+        "UserId": 23265270,
+        "Name": "robo4blox",
+        "Value": 13583760
+      },
+      "4": {
+        "UserId": 77126130,
+        "Name": "tyroneacus",
+        "Value": 12036840
+      },
+      "5": {
+        "UserId": 34903950,
+        "Name": "quanova",
+        "Value": 11443050
+      },
+      "6": {
+        "UserId": 49538597,
+        "Name": "nateelol",
+        "Value": 10694670
+      },
+      "7": {
+        "UserId": 326499544,
+        "Name": "onogamenollfe",
+        "Value": 10607790
+      },
+      "8": {
+        "UserId": 88564188,
+        "Name": "august135rush",
+        "Value": 9923700
+      },
+      "9": {
+        "UserId": 261237466,
+        "Name": "outmantee",
+        "Value": 9658470
+      },
+      "10": {
+        "UserId": 336395346,
+        "Name": "c0rruptedw1sh",
+        "Value": 9636960
+      },
+      "11": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 9436440
+      },
+      "12": {
+        "UserId": 505007978,
+        "Name": "dearflounder10",
+        "Value": 9405540
+      },
+      "13": {
+        "UserId": 82258200,
+        "Name": "demonizaation",
+        "Value": 9244920
+      },
+      "14": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 9041580
+      },
+      "15": {
+        "UserId": 33810087,
+        "Name": "youdeadbro32",
+        "Value": 9015330
+      },
+      "16": {
+        "UserId": 253328177,
+        "Name": "hailhet_lir",
+        "Value": 8114730
+      },
+      "17": {
+        "UserId": 292044823,
+        "Name": "cruxuh",
+        "Value": 7985700
+      },
+      "18": {
+        "UserId": 881606287,
+        "Name": "venom_reaper1080",
+        "Value": 7516920
+      },
+      "19": {
+        "UserId": 25160470,
+        "Name": "runmon",
+        "Value": 7367940
+      },
+      "20": {
+        "UserId": 445903101,
+        "Name": "closestbasilisk57",
+        "Value": 7320180
+      },
+      "21": {
+        "UserId": 689164622,
+        "Name": "off_quebec",
+        "Value": 7295520
+      },
+      "22": {
+        "UserId": 10558055,
+        "Name": "rranchh",
+        "Value": 6975780
+      },
+      "23": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 6935760
+      },
+      "24": {
+        "UserId": 640845265,
+        "Name": "kittyrobocop",
+        "Value": 6866940
+      },
+      "25": {
+        "UserId": 109771029,
+        "Name": "dripish",
+        "Value": 6789420
+      },
+      "26": {
+        "UserId": 485224141,
+        "Name": "lmmortal_xlx",
+        "Value": 6774900
+      },
+      "27": {
+        "UserId": 51462545,
+        "Name": "tyrxny",
+        "Value": 6770040
+      },
+      "28": {
+        "UserId": 449311936,
+        "Name": "immortal_xix",
+        "Value": 6716760
+      },
+      "29": {
+        "UserId": 92692631,
+        "Name": "bkbk12321",
+        "Value": 6701730
+      },
+      "30": {
+        "UserId": 518177749,
+        "Name": "mahir7123",
+        "Value": 6646860
+      },
+      "31": {
+        "UserId": 70312460,
+        "Name": "reset14654165",
+        "Value": 6602280
+      },
+      "32": {
+        "UserId": 366258163,
+        "Name": "minekraft_king",
+        "Value": 6591780
+      },
+      "33": {
+        "UserId": 1207889395,
+        "Name": "goatlife2424",
+        "Value": 6441420
+      },
+      "34": {
+        "UserId": 42735876,
+        "Name": "phenomenaldex",
+        "Value": 6347820
+      },
+      "35": {
+        "UserId": 573100329,
+        "Name": "penutbutterwithapen",
+        "Value": 6327240
+      },
+      "36": {
+        "UserId": 205130942,
+        "Name": "qizexa",
+        "Value": 6233910
+      },
+      "37": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 6169380
+      },
+      "38": {
+        "UserId": 1259628710,
+        "Name": "quazela",
+        "Value": 6149880
+      },
+      "39": {
+        "UserId": 1379758435,
+        "Name": "boruyoisthebest",
+        "Value": 6127260
+      },
+      "40": {
+        "UserId": 148713955,
+        "Name": "hypad",
+        "Value": 6124770
+      },
+      "41": {
+        "UserId": 3114175494,
+        "Name": "immortal_xxd",
+        "Value": 6081660
+      },
+      "42": {
+        "UserId": 54083179,
+        "Name": "quominx",
+        "Value": 6048000
+      },
+      "43": {
+        "UserId": 775777005,
+        "Name": "hashhlm",
+        "Value": 5920500
+      },
+      "44": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 5917530
+      },
+      "45": {
+        "UserId": 465742187,
+        "Name": "svs_power",
+        "Value": 5866440
+      },
+      "46": {
+        "UserId": 474229209,
+        "Name": "fabchoko",
+        "Value": 5851860
+      },
+      "47": {
+        "UserId": 242211046,
+        "Name": "hanyung12",
+        "Value": 5737200
+      },
+      "48": {
+        "UserId": 144878222,
+        "Name": "vearsiosproperty",
+        "Value": 5678490
+      },
+      "49": {
+        "UserId": 1059469262,
+        "Name": "xlmath",
+        "Value": 5607480
+      },
+      "50": {
+        "UserId": 146760584,
+        "Name": "poopoopooo196",
+        "Value": 5586630
+      },
+      "51": {
+        "UserId": 39490599,
+        "Name": "fishface46",
+        "Value": 5493240
+      },
+      "52": {
+        "UserId": 1354837779,
+        "Name": "lostazylia",
+        "Value": 5474340
+      },
+      "53": {
+        "UserId": 489706093,
+        "Name": "limzster",
+        "Value": 5342220
+      },
+      "54": {
+        "UserId": 74407854,
+        "Name": "noobking0o",
+        "Value": 5319720
+      },
+      "55": {
+        "UserId": 1175507587,
+        "Name": "nicholasamad21",
+        "Value": 5252940
+      },
+      "56": {
+        "UserId": 182062217,
+        "Name": "nightshadows00",
+        "Value": 5231460
+      },
+      "57": {
+        "UserId": 24579412,
+        "Name": "llpeter_griffinll",
+        "Value": 5103840
+      },
+      "58": {
+        "UserId": 41453107,
+        "Name": "zombiekillerman33",
+        "Value": 5043360
+      },
+      "59": {
+        "UserId": 107355545,
+        "Name": "alvinsolence",
+        "Value": 5022630
+      },
+      "60": {
+        "UserId": 161491901,
+        "Name": "coda1o1",
+        "Value": 4983240
+      },
+      "61": {
+        "UserId": 627746843,
+        "Name": "evilthekiller38",
+        "Value": 4969020
+      },
+      "62": {
+        "UserId": 75036233,
+        "Name": "trocrom",
+        "Value": 4942920
+      },
+      "63": {
+        "UserId": 161391982,
+        "Name": "clu3siv",
+        "Value": 4939410
+      },
+      "64": {
+        "UserId": 528815284,
+        "Name": "blacktail302",
+        "Value": 4914000
+      },
+      "65": {
+        "UserId": 1057061926,
+        "Name": "kilasd6",
+        "Value": 4908360
+      },
+      "66": {
+        "UserId": 100951770,
+        "Name": "ubica16",
+        "Value": 4848480
+      },
+      "67": {
+        "UserId": 155430396,
+        "Name": "djteal00",
+        "Value": 4844490
+      },
+      "68": {
+        "UserId": 220531716,
+        "Name": "stinky762",
+        "Value": 4811400
+      },
+      "69": {
+        "UserId": 567125402,
+        "Name": "porthosvalk",
+        "Value": 4810620
+      },
+      "70": {
+        "UserId": 216714292,
+        "Name": "zonateelol",
+        "Value": 4763640
+      },
+      "71": {
+        "UserId": 176142200,
+        "Name": "renzaravera",
+        "Value": 4741350
+      },
+      "72": {
+        "UserId": 447330191,
+        "Name": "jagwuns",
+        "Value": 4716270
+      },
+      "73": {
+        "UserId": 539689718,
+        "Name": "phenomenalscy",
+        "Value": 4716180
+      },
+      "74": {
+        "UserId": 75955016,
+        "Name": "superpugh123",
+        "Value": 4691640
+      },
+      "75": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 4665360
+      },
+      "76": {
+        "UserId": 393992844,
+        "Name": "noahw044",
+        "Value": 4656690
+      },
+      "77": {
+        "UserId": 1641137662,
+        "Name": "svs_thunder",
+        "Value": 4640280
+      },
+      "78": {
+        "UserId": 496820178,
+        "Name": "wastedketchup45",
+        "Value": 4627410
+      },
+      "79": {
+        "UserId": 397585675,
+        "Name": "relbeats87",
+        "Value": 4620150
+      },
+      "80": {
+        "UserId": 42268887,
+        "Name": "kantonen99",
+        "Value": 4617480
+      },
+      "81": {
+        "UserId": 71437429,
+        "Name": "xxxpixel_slayerxxx",
+        "Value": 4574220
+      },
+      "82": {
+        "UserId": 316509495,
+        "Name": "dexterswaving17",
+        "Value": 4530090
+      },
+      "83": {
+        "UserId": 20309558,
+        "Name": "quickflame77",
+        "Value": 4520490
+      },
+      "84": {
+        "UserId": 110523752,
+        "Name": "hurtsillyboyz246",
+        "Value": 4506870
+      },
+      "85": {
+        "UserId": 63758514,
+        "Name": "zelst5",
+        "Value": 4497060
+      },
+      "86": {
+        "UserId": 1429065175,
+        "Name": "1bubbyboy1",
+        "Value": 4483740
+      },
+      "87": {
+        "UserId": 2599091723,
+        "Name": "c0rruptedw1sh_v2",
+        "Value": 4455000
+      },
+      "88": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 4451010
+      },
+      "89": {
+        "UserId": 127065487,
+        "Name": "bjunior8",
+        "Value": 4384170
+      },
+      "90": {
+        "UserId": 416132798,
+        "Name": "silentwolfgamingytx",
+        "Value": 4350600
+      },
+      "91": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 4343340
+      },
+      "92": {
+        "UserId": 395137062,
+        "Name": "oliverrykens",
+        "Value": 4265700
+      },
+      "93": {
+        "UserId": 425665933,
+        "Name": "a1heatwave360",
+        "Value": 4227690
+      },
+      "94": {
+        "UserId": 652515650,
+        "Name": "drifter0507",
+        "Value": 4200180
+      },
+      "95": {
+        "UserId": 86530763,
+        "Name": "cioudgamer43",
+        "Value": 4169970
+      },
+      "96": {
+        "UserId": 231277531,
+        "Name": "mystlcish",
+        "Value": 4134540
+      },
+      "97": {
+        "UserId": 7826470,
+        "Name": "samuel890",
+        "Value": 4132170
+      },
+      "98": {
+        "UserId": 82984449,
+        "Name": "svs_dragon",
+        "Value": 4126860
+      },
+      "99": {
+        "UserId": 9975572,
+        "Name": "geno5x",
+        "Value": 4120530
+      },
+      "100": {
+        "UserId": 134917385,
+        "Name": "bdawg14214",
+        "Value": 4118550
+      }
+    },
+    "robux": {
+      "1": {
+        "UserId": 1166430886,
+        "Name": "xxdememxx",
+        "Value": 578155
+      },
+      "2": {
+        "UserId": 3116522,
+        "Name": "chad876",
+        "Value": 403190
+      },
+      "3": {
+        "UserId": 725262,
+        "Name": "frankiethedino",
+        "Value": 259055
+      },
+      "4": {
+        "UserId": 292044823,
+        "Name": "cruxuh",
+        "Value": 244475
+      },
+      "5": {
+        "UserId": 881606287,
+        "Name": "venom_reaper1080",
+        "Value": 196700
+      },
+      "6": {
+        "UserId": 39497371,
+        "Name": "immortal_xii",
+        "Value": 158725
+      },
+      "7": {
+        "UserId": 80933789,
+        "Name": "andrew86536",
+        "Value": 133855
+      },
+      "8": {
+        "UserId": 113568454,
+        "Name": "vearsio",
+        "Value": 132144
+      },
+      "9": {
+        "UserId": 76472282,
+        "Name": "iuvtrenton",
+        "Value": 124585
+      },
+      "10": {
+        "UserId": 149389163,
+        "Name": "symorebutz",
+        "Value": 118185
+      },
+      "11": {
+        "UserId": 116060042,
+        "Name": "ernesto_218",
+        "Value": 104930
+      },
+      "12": {
+        "UserId": 34903950,
+        "Name": "quanova",
+        "Value": 94660
+      },
+      "13": {
+        "UserId": 24452687,
+        "Name": "marcomonopoly",
+        "Value": 92065
+      },
+      "14": {
+        "UserId": 312566775,
+        "Name": "mydogfar3ed",
+        "Value": 90565
+      },
+      "15": {
+        "UserId": 19923830,
+        "Name": "cinxaz",
+        "Value": 87590
+      },
+      "16": {
+        "UserId": 2217574014,
+        "Name": "exchelix",
+        "Value": 87370
+      },
+      "17": {
+        "UserId": 67819707,
+        "Name": "felku",
+        "Value": 85745
+      },
+      "18": {
+        "UserId": 2757221600,
+        "Name": "chewpapy2006",
+        "Value": 80440
+      },
+      "19": {
+        "UserId": 51534439,
+        "Name": "decoydoa999",
+        "Value": 74945
+      },
+      "20": {
+        "UserId": 16999836,
+        "Name": "nox_vistresian",
+        "Value": 74075
+      },
+      "21": {
+        "UserId": 561653641,
+        "Name": "louhew2009",
+        "Value": 73910
+      },
+      "22": {
+        "UserId": 575432344,
+        "Name": "zombiedestroyer647",
+        "Value": 73225
+      },
+      "23": {
+        "UserId": 16185540,
+        "Name": "therealdjthistime",
+        "Value": 70650
+      },
+      "24": {
+        "UserId": 132131978,
+        "Name": "lizardgamer405",
+        "Value": 65535
+      },
+      "25": {
+        "UserId": 43067841,
+        "Name": "localrun",
+        "Value": 65165
+      },
+      "26": {
+        "UserId": 49538597,
+        "Name": "nateelol",
+        "Value": 63550
+      },
+      "27": {
+        "UserId": 31971217,
+        "Name": "cantaaloupe",
+        "Value": 62615
+      },
+      "28": {
+        "UserId": 409528795,
+        "Name": "thewizardman19",
+        "Value": 61975
+      },
+      "29": {
+        "UserId": 711630792,
+        "Name": "dxmonizaation",
+        "Value": 59645
+      },
+      "30": {
+        "UserId": 1080316990,
+        "Name": "blackthesmith",
+        "Value": 58725
+      },
+      "31": {
+        "UserId": 45437950,
+        "Name": "ademarcoldbane",
+        "Value": 56010
+      },
+      "32": {
+        "UserId": 55719352,
+        "Name": "omqxxitz_cookieszxx",
+        "Value": 55900
+      },
+      "33": {
+        "UserId": 450659803,
+        "Name": "le3rxz",
+        "Value": 55855
+      },
+      "34": {
+        "UserId": 216184526,
+        "Name": "xmysterymeatx",
+        "Value": 55635
+      },
+      "35": {
+        "UserId": 198813960,
+        "Name": "tdmac04",
+        "Value": 55575
+      },
+      "36": {
+        "UserId": 1347400879,
+        "Name": "immortal_vvx",
+        "Value": 55502
+      },
+      "37": {
+        "UserId": 1010931841,
+        "Name": "deathdestoyer65",
+        "Value": 55170
+      },
+      "38": {
+        "UserId": 32276141,
+        "Name": "trevorthenub",
+        "Value": 54495
+      },
+      "39": {
+        "UserId": 1748563,
+        "Name": "lottaluke",
+        "Value": 53240
+      },
+      "40": {
+        "UserId": 142435301,
+        "Name": "marcus201474",
+        "Value": 53205
+      },
+      "41": {
+        "UserId": 336395346,
+        "Name": "c0rruptedw1sh",
+        "Value": 53020
+      },
+      "42": {
+        "UserId": 13525277,
+        "Name": "sonicdudman",
+        "Value": 52030
+      },
+      "43": {
+        "UserId": 518177749,
+        "Name": "mahir7123",
+        "Value": 51475
+      },
+      "44": {
+        "UserId": 82258200,
+        "Name": "demonizaation",
+        "Value": 51095
+      },
+      "45": {
+        "UserId": 144878222,
+        "Name": "vearsiosproperty",
+        "Value": 49005
+      },
+      "46": {
+        "UserId": 640845265,
+        "Name": "kittyrobocop",
+        "Value": 47935
+      },
+      "47": {
+        "UserId": 88324279,
+        "Name": "zynkuru",
+        "Value": 47075
+      },
+      "48": {
+        "UserId": 1135595681,
+        "Name": "xroockysvenningsen",
+        "Value": 46425
+      },
+      "49": {
+        "UserId": 40807418,
+        "Name": "l_0",
+        "Value": 45150
+      },
+      "50": {
+        "UserId": 9931110,
+        "Name": "richardsteel",
+        "Value": 44880
+      },
+      "51": {
+        "UserId": 205130942,
+        "Name": "qizexa",
+        "Value": 44823
+      },
+      "52": {
+        "UserId": 172611569,
+        "Name": "tntguy80",
+        "Value": 43495
+      },
+      "53": {
+        "UserId": 392418771,
+        "Name": "nutbu_ster",
+        "Value": 42880
+      },
+      "54": {
+        "UserId": 2870898327,
+        "Name": "tetsuya_lxl",
+        "Value": 42670
+      },
+      "55": {
+        "UserId": 1352405058,
+        "Name": "darkdragon_195",
+        "Value": 42305
+      },
+      "56": {
+        "UserId": 9221415,
+        "Name": "azutreo",
+        "Value": 42240
+      },
+      "57": {
+        "UserId": 445903101,
+        "Name": "closestbasilisk57",
+        "Value": 42180
+      },
+      "58": {
+        "UserId": 120987669,
+        "Name": "blu_ediamond",
+        "Value": 42000
+      },
+      "59": {
+        "UserId": 20309558,
+        "Name": "quickflame77",
+        "Value": 41645
+      },
+      "60": {
+        "UserId": 627746843,
+        "Name": "evilthekiller38",
+        "Value": 41290
+      },
+      "61": {
+        "UserId": 1505756025,
+        "Name": "stormoshadow",
+        "Value": 40725
+      },
+      "62": {
+        "UserId": 2814601234,
+        "Name": "xxixdark_shadowxixx",
+        "Value": 40620
+      },
+      "63": {
+        "UserId": 95918918,
+        "Name": "blackworm15",
+        "Value": 40275
+      },
+      "64": {
+        "UserId": 103514381,
+        "Name": "tigerbocks",
+        "Value": 39478
+      },
+      "65": {
+        "UserId": 46772066,
+        "Name": "cinnabonninja",
+        "Value": 38945
+      },
+      "66": {
+        "UserId": 1262716,
+        "Name": "mrgladious",
+        "Value": 38885
+      },
+      "67": {
+        "UserId": 130171885,
+        "Name": "vindictivexz",
+        "Value": 38865
+      },
+      "68": {
+        "UserId": 528815284,
+        "Name": "blacktail302",
+        "Value": 38715
+      },
+      "69": {
+        "UserId": 141093232,
+        "Name": "plzmake",
+        "Value": 38470
+      },
+      "70": {
+        "UserId": 494633121,
+        "Name": "teylerlikesmen",
+        "Value": 38340
+      },
+      "71": {
+        "UserId": 20887656,
+        "Name": "6a2",
+        "Value": 38200
+      },
+      "72": {
+        "UserId": 242762547,
+        "Name": "instinctiveviolence",
+        "Value": 38045
+      },
+      "73": {
+        "UserId": 440047014,
+        "Name": "fickdichpendejo",
+        "Value": 37980
+      },
+      "74": {
+        "UserId": 747710272,
+        "Name": "yungboiwrecker",
+        "Value": 37505
+      },
+      "75": {
+        "UserId": 201081379,
+        "Name": "weskereggplant",
+        "Value": 37380
+      },
+      "76": {
+        "UserId": 269179832,
+        "Name": "kovaar",
+        "Value": 37285
+      },
+      "77": {
+        "UserId": 374277069,
+        "Name": "snakeking398",
+        "Value": 36915
+      },
+      "78": {
+        "UserId": 829196461,
+        "Name": "granttheman06",
+        "Value": 36885
+      },
+      "79": {
+        "UserId": 3111798970,
+        "Name": "meniceified",
+        "Value": 36850
+      },
+      "80": {
+        "UserId": 2684686238,
+        "Name": "immortal_xxv",
+        "Value": 36600
+      },
+      "81": {
+        "UserId": 119459762,
+        "Name": "lizzyeatsranch",
+        "Value": 36380
+      },
+      "82": {
+        "UserId": 1571998645,
+        "Name": "whynot5621",
+        "Value": 36310
+      },
+      "83": {
+        "UserId": 53313790,
+        "Name": "lqw123",
+        "Value": 36060
+      },
+      "84": {
+        "UserId": 33134733,
+        "Name": "vigilantestarz",
+        "Value": 36030
+      },
+      "85": {
+        "UserId": 1276757767,
+        "Name": "xeedyy",
+        "Value": 35880
+      },
+      "86": {
+        "UserId": 99149854,
+        "Name": "anknes",
+        "Value": 35705
+      },
+      "87": {
+        "UserId": 37559607,
+        "Name": "jamittycarlson",
+        "Value": 35690
+      },
+      "88": {
+        "UserId": 75036233,
+        "Name": "trocrom",
+        "Value": 34745
+      },
+      "89": {
+        "UserId": 215126938,
+        "Name": "ideltavoxi",
+        "Value": 34470
+      },
+      "90": {
+        "UserId": 410207617,
+        "Name": "bernkastael",
+        "Value": 33245
+      },
+      "91": {
+        "UserId": 45332731,
+        "Name": "agncooldude",
+        "Value": 33190
+      },
+      "92": {
+        "UserId": 41453107,
+        "Name": "zombiekillerman33",
+        "Value": 32965
+      },
+      "93": {
+        "UserId": 352820128,
+        "Name": "aceyrus",
+        "Value": 32895
+      },
+      "94": {
+        "UserId": 145632821,
+        "Name": "gamerdudejj",
+        "Value": 32880
+      },
+      "95": {
+        "UserId": 109689501,
+        "Name": "vonkickingzeeass",
+        "Value": 32855
+      },
+      "96": {
+        "UserId": 209255371,
+        "Name": "nicksleftovrskittles",
+        "Value": 32250
+      },
+      "97": {
+        "UserId": 445375085,
+        "Name": "connr44433322",
+        "Value": 32150
+      },
+      "98": {
+        "UserId": 101406721,
+        "Name": "moltavius",
+        "Value": 32150
+      },
+      "99": {
+        "UserId": 338234746,
+        "Name": "sengokunobunaga",
+        "Value": 32135
+      },
+      "100": {
+        "UserId": 1198030930,
+        "Name": "raylewase",
+        "Value": 31980
+      }
+    }
+  }
+}
