@@ -102,3 +102,9 @@ data = {
     {99, "ChilleyPepper92", "169h 35m 21s"},
     {100, "js051204", "166h 27m 11s"}
 }
+p={} for i,v in pairs(workspace.Leaderboards.Playtime.Holder.SurfaceGui.MainFrame.List:GetChildren()) do
+if v.ClassName=="Frame" then d=string.sub(v.Number.Text,string.find(v.Number.Text,"%d+"))
+table.insert(p,{tonumber(d),v.PlayerName.Text,v.Value.Text}) end
+end table.sort(p,function(a,b) return a[1]<b[1] end)
+local copy = table_to_string(p) wait(1)
+setclipboard(copy) print("Done")
