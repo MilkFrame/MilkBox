@@ -1,0 +1,342 @@
+data = {
+    ["ProjectileDefaultMaxDistance"] = {["PLAYER"] = 40, ["NPC"] = 70},
+    ["getProjectileMeta"] = "function: 0x0000000006d287ee",
+    ["PierceType"] = {
+        ["PierceWalls"] = 4,
+        ["TreatAsHit"] = 1,
+        ["AllowMultipleHits"] = 8,
+        ["PierceEntities"] = 2,
+        ["None"] = 0
+    },
+    ["ProjectileMeta"] = {
+        ["IRON_LONG_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "longArrow2",
+            ["baseDamage"] = 15,
+            ["velocityMultiplier"] = 1.1,
+            ["breakChance"] = 0.8,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["spell_wizard_lizard"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 30,
+            ["velocity"] = 30,
+            ["impactSound"] = "spell_explode",
+            ["distanceMax"] = 40,
+            ["baseSize"] = 1,
+            ["impactParticles"] = "explosion",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballFire"
+        },
+        ["STEEL_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "arrow3",
+            ["baseDamage"] = 18,
+            ["velocityMultiplier"] = 1.2,
+            ["breakChance"] = 0.7,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["GLITTERBALL"] = {
+            ["type"] = "Throwable",
+            ["radius"] = 2.5,
+            ["dragMultiplier"] = 1,
+            ["baseDamage"] = 0,
+            ["impactSound"] = "GLITTER_EXPLODE",
+            ["impactParticles"] = "explosionGlitter",
+            ["baseSize"] = 2,
+            ["projectileModel"] = "glitterball"
+        },
+        ["spell_wizard_boss"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 40,
+            ["velocity"] = 35,
+            ["impactSound"] = "spell_explode",
+            ["distanceMax"] = 65,
+            ["baseSize"] = 1.3,
+            ["impactParticles"] = "electricExplosion",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "electricball"
+        },
+        ["IRON_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "arrow2",
+            ["baseDamage"] = 13,
+            ["velocityMultiplier"] = 1.1,
+            ["breakChance"] = 0.8,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["STEEL_LONG_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "longArrow3",
+            ["baseDamage"] = 20,
+            ["velocityMultiplier"] = 1.2,
+            ["breakChance"] = 0.7,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["spell_godzilla"] = {
+            ["splashDamage"] = 10,
+            ["type"] = "Spell",
+            ["baseDamage"] = 20,
+            ["velocity"] = 25,
+            ["disableParticlesOnImpact"] = true,
+            ["impactSound"] = "water_spell_explode",
+            ["baseSize"] = 0.6,
+            ["impactParticles"] = "explosionWater",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballWater"
+        },
+        ["POISON_LONG_ARROW"] = {
+            ["combatType"] = {["magical"] = "TOXIN", ["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "longArrow4",
+            ["baseDamage"] = 17,
+            ["velocityMultiplier"] = 1.2,
+            ["breakChance"] = 0.7,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["ARC_STAFF"] = {
+            ["impactSound"] = "BOW_HIT",
+            ["baseDamage"] = 6,
+            ["maxPierceCount"] = 2,
+            ["pierceFlags"] = 11,
+            ["type"] = "Electric"
+        },
+        ["arrow1"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "arrow1",
+            ["baseDamage"] = 8,
+            ["velocityMultiplier"] = 1,
+            ["breakChance"] = 0.9,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["NOXIOUS_SPIT"] = {
+            ["combatType"] = {["magical"] = "TOXIN"},
+            ["impactSound"] = "ICE_PROJECTILE_HIT",
+            ["type"] = "Spell",
+            ["baseDamage"] = 30,
+            ["impactParticles"] = "explosionSpiritSpellGreen",
+            ["velocity"] = 100,
+            ["baseSize"] = 1,
+            ["projectileModel"] = "poisonSpit"
+        },
+        ["spell_fireball"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 22,
+            ["velocity"] = 25,
+            ["impactSound"] = "spell_explode",
+            ["baseSize"] = 0.6,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosion",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballFire"
+        },
+        ["spell_spirit_pink"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 42,
+            ["velocity"] = 28,
+            ["baseHeal"] = 15,
+            ["impactSound"] = "SPIRIT_SPELL_EXPLOSION_1",
+            ["baseSize"] = 0.6,
+            ["disableParticlesOnImpact"] = true,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionSpiritSpellPink",
+            ["launchSound"] = "SPIRIT_SPELL_CAST_1",
+            ["projectileModel"] = "spellSpiritPink"
+        },
+        ["SNOWBALL"] = {
+            ["type"] = "Throwable",
+            ["radius"] = 1.5,
+            ["dragMultiplier"] = 0.9,
+            ["baseDamage"] = 5,
+            ["impactSound"] = "ICE_PROJECTILE_HIT",
+            ["impactParticles"] = "explosionSnow",
+            ["baseSize"] = 1,
+            ["projectileModel"] = "snowball"
+        },
+        ["spell_frost"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 38,
+            ["velocity"] = 32,
+            ["disableParticlesOnImpact"] = true,
+            ["impactSound"] = "ICE_PROJECTILE_HIT",
+            ["baseSize"] = 0.6,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionSnow",
+            ["launchSound"] = "SLIME_QUEEN_SLIME_BALL",
+            ["projectileModel"] = "iceBall"
+        },
+        ["STONE_LONG_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "longArrow1",
+            ["baseDamage"] = 13,
+            ["velocityMultiplier"] = 1,
+            ["breakChance"] = 0.9,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["spell_tidal"] = {
+            ["splashDamage"] = 20,
+            ["type"] = "Spell",
+            ["baseDamage"] = 36,
+            ["velocity"] = 25,
+            ["disableParticlesOnImpact"] = true,
+            ["impactSound"] = "water_spell_explode",
+            ["baseSize"] = 0.6,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionWater",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballWater"
+        },
+        ["pink_slime_ball"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 15,
+            ["velocity"] = 35,
+            ["impactSound"] = "SLIME_QUEEN_IMPACT",
+            ["distanceMax"] = 70,
+            ["baseSize"] = 5,
+            ["potionEffect"] = {
+                {["potion"] = "stun", ["duration"] = 5},
+                {["potion"] = "attack_speed_reduced_1", ["duration"] = 7}
+            },
+            ["impactParticles"] = "explosionSlimeBallPink",
+            ["launchSound"] = "SLIME_QUEEN_SLIME_BALL",
+            ["projectileModel"] = "slimeBallPink"
+        },
+        ["NOXIOUS_STINGER_JAVELIN"] = {
+            ["rotation"] = Vector3.new(5156.6201171875, 0, 0),
+            ["radius"] = 1.5,
+            ["type"] = "Throwable",
+            ["baseDamage"] = 0,
+            ["impactParticles"] = "explosionSpiritSpellGreen",
+            ["impactSound"] = "ICE_PROJECTILE_HIT",
+            ["baseSize"] = 1,
+            ["projectileModel"] = "noxiousStinger"
+        },
+        ["spell_spirit_green"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 46,
+            ["velocity"] = 28,
+            ["baseHeal"] = 20,
+            ["impactSound"] = "SPIRIT_SPELL_EXPLOSION_2",
+            ["baseSize"] = 0.6,
+            ["disableParticlesOnImpact"] = true,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionSpiritSpellGreen",
+            ["launchSound"] = "SPIRIT_SPELL_CAST_2",
+            ["projectileModel"] = "spellSpiritGreen"
+        },
+        ["spell_spirit_blue"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 37,
+            ["velocity"] = 28,
+            ["baseHeal"] = 10,
+            ["impactSound"] = "SPIRIT_SPELL_EXPLOSION_1",
+            ["baseSize"] = 0.6,
+            ["disableParticlesOnImpact"] = true,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionSpiritSpellBlue",
+            ["launchSound"] = "SPIRIT_SPELL_CAST_1",
+            ["projectileModel"] = "spellSpiritBlue"
+        },
+        ["SPELL_WIZARD_BOSS_ALT"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 40,
+            ["velocity"] = 35,
+            ["impactSound"] = "spell_explode",
+            ["distanceMax"] = 65,
+            ["baseSize"] = 1.3,
+            ["impactParticles"] = "explosion",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballFire"
+        },
+        ["BOLT_ARROW"] = {
+            ["combatType"] = {["physical"] = "PIERCING"},
+            ["type"] = "Arrow",
+            ["itemType"] = "crossbowBolt",
+            ["baseDamage"] = 25,
+            ["velocityMultiplier"] = 2,
+            ["breakChance"] = 0.6,
+            ["impactSound"] = "BOW_HIT"
+        },
+        ["spell_spirit_white"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 30,
+            ["velocity"] = 28,
+            ["baseHeal"] = 5,
+            ["impactSound"] = "SPIRIT_SPELL_EXPLOSION_0",
+            ["baseSize"] = 0.6,
+            ["disableParticlesOnImpact"] = true,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionSpiritSpellWhite",
+            ["launchSound"] = "SPIRIT_SPELL_CAST_0",
+            ["projectileModel"] = "spellSpiritWhite"
+        },
+        ["spell_ruby"] = {
+            ["type"] = "Spell",
+            ["baseDamage"] = 36,
+            ["velocity"] = 25,
+            ["baseHeal"] = 15,
+            ["impactSound"] = "spell_explode",
+            ["baseSize"] = 0.6,
+            ["chargeSize"] = true,
+            ["impactParticles"] = "explosionRuby",
+            ["launchSound"] = "cast_spell",
+            ["projectileModel"] = "fireballRuby"
+        },
+        ["PINK_SLIME_BALL_SCEPTER"] = {
+            ["type"] = "LegacyQueenSceptre",
+            ["baseDamage"] = 46,
+            ["velocity"] = 25,
+            ["healAmount"] = 4,
+            ["impactSound"] = "SLIME_QUEEN_IMPACT",
+            ["chargeSize"] = true,
+            ["knockbackMultiplier"] = 2,
+            ["baseSize"] = 1,
+            ["impactParticles"] = "explosionSlimeBallPink",
+            ["launchSound"] = "SLIME_QUEEN_SLIME_BALL",
+            ["projectileModel"] = "slimeBallPinkScepter"
+        }
+    },
+    ["ProjectileType"] = {
+        ["IRON_LONG_ARROW"] = "IRON_LONG_ARROW",
+        ["STEEL_ARROW"] = "STEEL_ARROW",
+        ["GLITTERBALL"] = "GLITTERBALL",
+        ["SPELL_FROST"] = "spell_frost",
+        ["SPELL_WIZARD_LIZARD"] = "spell_wizard_lizard",
+        ["PINK_SLIME_BALL"] = "pink_slime_ball",
+        ["STONE_ARROW"] = "arrow1",
+        ["SPELL_SPIRIT_BLUE"] = "spell_spirit_blue",
+        ["SPELL_TIDAL"] = "spell_tidal",
+        ["SPELL_SPIRIT_PINK"] = "spell_spirit_pink",
+        ["NOXIOUS_SPIT"] = "NOXIOUS_SPIT",
+        ["IRON_ARROW"] = "IRON_ARROW",
+        ["SNOWBALL"] = "SNOWBALL",
+        ["SPELL_WIZARD_BOSS_ALT"] = "SPELL_WIZARD_BOSS_ALT",
+        ["ARC_STAFF"] = "ARC_STAFF",
+        ["PINK_SLIME_BALL_SCEPTER"] = "PINK_SLIME_BALL_SCEPTER",
+        ["STONE_LONG_ARROW"] = "STONE_LONG_ARROW",
+        ["POISON_LONG_ARROW"] = "POISON_LONG_ARROW",
+        ["STEEL_LONG_ARROW"] = "STEEL_LONG_ARROW",
+        ["NOXIOUS_STINGER_JAVELIN"] = "NOXIOUS_STINGER_JAVELIN",
+        ["SPELL_RUBY"] = "spell_ruby",
+        ["SPELL_FIREBALL"] = "spell_fireball",
+        ["SPELL_SPIRIT_WHITE"] = "spell_spirit_white",
+        ["BOLT_ARROW"] = "BOLT_ARROW",
+        ["SPELL_GODZILLA"] = "spell_godzilla",
+        ["SPELL_WIZARD_BOSS"] = "spell_wizard_boss",
+        ["SPELL_SPIRIT_GREEN"] = "spell_spirit_green"
+    },
+    ["ProjectileChargeType"] = {["INSTANT"] = 0, ["CHARGED"] = 1},
+    ["ProjectileMetadata"] = {
+        ["Spell"] = {["key"] = "type", ["type"] = "Spell"},
+        ["LegacyQueenSceptre"] = {["key"] = "type", ["type"] = "LegacyQueenSceptre"},
+        ["Electric"] = {["key"] = "type", ["type"] = "Electric"},
+        ["Throwable"] = {["key"] = "type", ["type"] = "Throwable"},
+        ["Arrow"] = {["key"] = "type", ["type"] = "Arrow"}
+    }
+}
