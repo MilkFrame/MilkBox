@@ -2063,31 +2063,32 @@ data = {
         ["Turning_Max"] = 13
     },
     ["Tyrant"] = {
-        ["PaintCost"] = 120,
-        ["WindResist"] = 9,
-        ["Turning_Max"] = 10,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "130,28000,100"},
-            ["ColorMod_Details"] = {["Cost"] = "65,14000,250"}
-        },
-        ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 1050, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cargo"] = {["CrateMarker"] = {}},
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_FAA"] = 8,
-        ["Power_Square"] = 8,
         ["Cannons"] = {
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
+        ["WindResist"] = 9,
+        ["Power_Square"] = 8,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "130,28000,100"},
+            ["ColorMod_Details"] = {["Cost"] = "65,14000,250"},
+            ["ColorMod_Roof"] = {["Cost"] = "65,14000,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "100,24500,400"}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Base"] = {["Health"] = 1050, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["PaintCost"] = 120,
+        ["Power_FAA"] = 8,
+        ["WaveResist"] = 14,
+        ["Turning_Max"] = 10,
         ["Gunners"] = 4,
-        ["Magazine"] = {["Ammo"] = 0}
+        ["CargoHold"] = {["Cargo"] = 0}
     },
     ["War Koi"] = {
         ["Cannons"] = {["Cannon_1"] = {["Restriction"] = "A", ["MaxSize"] = 3}},
