@@ -1,131 +1,4 @@
 data = {
-    ["Hind"] = {
-        ["Brawler"] = {
-            ["Cannons"] = {
-                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_23"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_24"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_22"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_21"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-            },
-            ["Heading"] = 0,
-            ["Health"] = 3000,
-            ["Cost"] = 0,
-            ["Acceleration"] = 0,
-            ["Steering"] = 0,
-            ["Sailing"] = false
-        },
-        ["Hauler"] = {
-            ["Cannons"] = {
-                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-            },
-            ["Acceleration"] = 0,
-            ["Cargo"] = 0,
-            ["Cost"] = 0,
-            ["Health"] = 3000,
-            ["Heading"] = 0,
-            ["Steering"] = 0,
-            ["Sailing"] = false
-        },
-        ["Base"] = {["Cost"] = 0}
-    },
-    ["Kirin"] = {
-        ["Brawler"] = {
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-            },
-            ["Cost"] = 0
-        },
-        ["Base"] = {["Cost"] = 0}
-    },
-    ["Atlas"] = {
-        ["Brawler"] = {
-            ["MaxAmmo"] = 150,
-            ["Cargo"] = 0,
-            ["Cost"] = 0,
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-            },
-            ["RP_Power_FAA"] = 4,
-            ["Health"] = 2200,
-            ["RP_Turning_Max"] = 8
-        },
-        ["Base"] = {["MaxAmmo"] = 150, ["Cost"] = 0},
-        ["Sentinel"] = {
-            ["MaxAmmo"] = 150,
-            ["Cargo"] = 0,
-            ["Cost"] = 0,
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-            },
-            ["RP_Power_FAA"] = 4,
-            ["Health"] = 2200,
-            ["RP_Turning_Max"] = 8
-        }
-    },
     ["Fox"] = {
         ["Classic"] = {
             ["Cannons"] = {
@@ -206,57 +79,24 @@ data = {
         },
         ["Base"] = {["Cost"] = 0}
     },
-    ["Ibis"] = {
-        ["Racer"] = {
-            ["CarroBonus"] = false,
-            ["Cargo"] = 0,
-            ["RP_Power_Lateen"] = 9,
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-            },
-            ["RP_Power_FAA"] = 8,
-            ["Cost"] = 0,
-            ["Health"] = 1050
-        },
-        ["Hauler"] = {
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-            },
-            ["Cargo"] = 0,
-            ["Health"] = 1000,
-            ["Cost"] = 0
-        },
-        ["Base"] = {["Cost"] = 0},
-        ["Carronade Brawler"] = {
-            ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_2"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_7"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_6"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_4"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_8"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_3"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_1"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-                ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
-            },
-            ["Description"] = "Replaces guns with 8 medium carronade-only slots.",
-            ["Cost"] = 0
-        }
-    },
     ["Beaver"] = {
+        ["Raider"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+            },
+            ["Raider"] = true,
+            ["Health"] = 900,
+            ["Cost"] = 0
+        },
         ["Base"] = {["Cost"] = 0},
         ["Sentinel"] = {
             ["Cannons"] = {
@@ -271,6 +111,32 @@ data = {
                 ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
                 ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
             },
+            ["Cost"] = 0
+        }
+    },
+    ["Camel"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_16"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+            },
+            ["Raider"] = true,
+            ["Health"] = 2160,
             ["Cost"] = 0
         }
     },
@@ -347,6 +213,192 @@ data = {
             ["Cost"] = 0
         }
     },
+    ["Sigil"] = {
+        ["Brawler"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_2"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            },
+            ["Cost"] = 0
+        },
+        ["Base"] = {["Cost"] = 0}
+    },
+    ["Hind"] = {
+        ["Brawler"] = {
+            ["Cannons"] = {
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_23"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_24"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_22"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_21"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            },
+            ["Cost"] = 0
+        },
+        ["Hauler"] = {
+            ["Cannons"] = {
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            },
+            ["Cargo"] = 0,
+            ["Health"] = 2400,
+            ["Cost"] = 0
+        },
+        ["Base"] = {["Cost"] = 0}
+    },
+    ["Kirin"] = {
+        ["Brawler"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            },
+            ["Cost"] = 0
+        },
+        ["Base"] = {["Cost"] = 0}
+    },
+    ["Atlas"] = {
+        ["Brawler"] = {
+            ["MaxAmmo"] = 150,
+            ["Cargo"] = 0,
+            ["Cost"] = 0,
+            ["RP_Power_FAA"] = 4,
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            },
+            ["RP_Turning_Max"] = 8
+        },
+        ["Base"] = {["MaxAmmo"] = 150, ["Cost"] = 0},
+        ["Sentinel"] = {
+            ["MaxAmmo"] = 150,
+            ["Cargo"] = 0,
+            ["Cost"] = 0,
+            ["RP_Power_FAA"] = 4,
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            },
+            ["RP_Turning_Max"] = 8
+        }
+    },
+    ["Corsair"] = {["Base"] = {["Cost"] = 0}, ["Raider"] = {["Cost"] = 0, ["Raider"] = true}},
+    ["Marauder"] = {["Base"] = {["Cost"] = 0}, ["Raider"] = {["Cost"] = 0, ["Raider"] = true}},
+    ["Alliance"] = {
+        ["Brawler"] = {
+            ["Cannons"] = {
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+            },
+            ["Cost"] = 0
+        },
+        ["Base"] = {["Cost"] = 0}
+    },
+    ["Albatross"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+            },
+            ["Raider"] = true,
+            ["Health"] = 1350,
+            ["Cost"] = 0
+        }
+    },
     ["Badger"] = {
         ["Interceptor"] = {
             ["Cannons"] = {
@@ -410,6 +462,27 @@ data = {
             ["Cost"] = 0,
             ["RP_Gunners"] = 7
         },
+        ["Interceptor"] = {
+            ["Cannons"] = {
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_16"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            },
+            ["Cost"] = 0
+        },
         ["Elite Brawler"] = {
             ["Cannons"] = {
                 ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
@@ -433,26 +506,26 @@ data = {
             ["RP_Gunners"] = 7
         },
         ["Base"] = {["Cost"] = 0},
-        ["Interceptor"] = {
+        ["Raider"] = {
             ["Cannons"] = {
-                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-                ["Cannon_16"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
             },
-            ["Cost"] = 0
+            ["Cargo"] = 0,
+            ["Cost"] = 0,
+            ["Health"] = 1440,
+            ["Raider"] = true,
+            ["RP_Gunners"] = 4
         }
     },
     ["Phoenix"] = {
@@ -475,53 +548,77 @@ data = {
         },
         ["Base"] = {["Cost"] = 0}
     },
-    ["Alliance"] = {
-        ["Brawler"] = {
+    ["Demeter"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {
             ["Cannons"] = {
-                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
                 ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
                 ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
             },
+            ["RP_Power_Steam"] = 5,
+            ["Raider"] = true,
             ["Cost"] = 0
-        },
-        ["Base"] = {["Cost"] = 0}
+        }
     },
-    ["Sigil"] = {
-        ["Brawler"] = {
+    ["Ibis"] = {
+        ["Racer"] = {
+            ["CarroBonus"] = false,
+            ["Cargo"] = 0,
+            ["RP_Power_Lateen"] = 9,
             ["Cannons"] = {
-                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_1"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_2"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-                ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+                ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
             },
+            ["RP_Power_FAA"] = 8,
+            ["Cost"] = 0,
+            ["Health"] = 1050
+        },
+        ["Hauler"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            },
+            ["Cargo"] = 0,
+            ["Health"] = 1000,
             ["Cost"] = 0
         },
-        ["Base"] = {["Cost"] = 0}
+        ["Base"] = {["Cost"] = 0},
+        ["Carronade Brawler"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_2"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_7"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_6"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_4"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_8"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_3"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+                ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+            },
+            ["Description"] = "Replaces guns with 8 medium carronade-only slots.",
+            ["Cost"] = 0
+        }
     }
 }
 a = {}
