@@ -1,0 +1,42 @@
+data = {
+    ["AbilitiesToIds"] = {
+        ["Telekenisis"] = 14,
+        ["Thunder Dash"] = 15,
+        ["Rapture"] = 10,
+        ["Reaper"] = 18,
+        ["Infinity"] = 4,
+        ["Super Jump"] = 12,
+        ["Freeze"] = 3,
+        ["Swap"] = 13,
+        ["Wind Cloak"] = 17,
+        ["Waypoint"] = 16,
+        ["Platform"] = 7,
+        ["Raging Deflection"] = 9,
+        ["Forcefield"] = 2,
+        ["Phase Bypass"] = 6,
+        ["Dash"] = 1,
+        ["Pull"] = 8,
+        ["Shadow Step"] = 11,
+        ["Invisibility"] = 5
+    },
+    ["IdsToAbilities"] = {
+        "Dash",
+        "Forcefield",
+        "Freeze",
+        "Infinity",
+        "Invisibility",
+        "Phase Bypass",
+        "Platform",
+        "Pull",
+        "Raging Deflection",
+        "Rapture",
+        "Shadow Step",
+        "Super Jump",
+        "Swap",
+        "Telekenisis",
+        "Thunder Dash",
+        "Waypoint",
+        "Wind Cloak",
+        "Reaper"
+    }
+}
