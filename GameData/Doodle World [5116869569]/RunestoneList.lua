@@ -1,0 +1,31 @@
+data = {
+    ["Runic"] = {
+        "Mawthra Rune",
+        "Thornet Rune",
+        "Groato Rune",
+        "Hattrix Rune",
+        "Cacmeow Rune",
+        "Cryotera Rune",
+        "Mourveil Rune",
+        "Partybug Rune",
+        "Archopos Rune",
+        "Tulenna Rune",
+        "Tufflaze Rune",
+        "Maskomedy Rune",
+        "Theaterror Rune",
+        "Cerebopod Rune",
+        "Voltenchant Rune",
+        "Grufflin Rune",
+        "Somberock Rune",
+        "Bubbull Rune",
+        "Skadean Rune",
+        "Malotrick Rune",
+        "Staligant Rune",
+        "Spectatik Rune",
+        "Suomous Rune",
+        "VigimantÃ¨ Rune",
+        "Bionotic Rune",
+        "Lumiline Rune"
+    },
+    ["Artificial"] = {}
+}
