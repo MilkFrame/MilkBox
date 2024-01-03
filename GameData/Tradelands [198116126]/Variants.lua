@@ -136,7 +136,7 @@ data = {
                 ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
             },
             ["Raider"] = true,
-            ["Health"] = 2160,
+            ["Health"] = 2070,
             ["Cost"] = 0
         }
     },
@@ -351,8 +351,58 @@ data = {
             ["RP_Turning_Max"] = 8
         }
     },
-    ["Corsair"] = {["Base"] = {["Cost"] = 0}, ["Raider"] = {["Cost"] = 0, ["Raider"] = true}},
-    ["Marauder"] = {["Base"] = {["Cost"] = 0}, ["Raider"] = {["Cost"] = 0, ["Raider"] = true}},
+    ["Corsair"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {["Cost"] = 0, ["Description"] = "Cannot buy cargo: must steal it!", ["Raider"] = true}
+    },
+    ["Nautilus"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {
+            ["Cannons"] = {
+                ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+                ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+            },
+            ["Cargo"] = 0,
+            ["Cost"] = 0,
+            ["Description"] = "Reduced cannon size. Added cargo hold. Cannot buy cargo: must steal it!",
+            ["Raider"] = true
+        }
+    },
+    ["Marauder"] = {
+        ["Base"] = {["Cost"] = 0},
+        ["Raider"] = {["Cost"] = 0, ["Description"] = "Cannot buy cargo: must steal it!", ["Raider"] = true}
+    },
+    ["Poseidon"] = {
+        ["Sails (Old)"] = {
+            ["Cannons"] = {
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4, ["SlowedEffectAll"] = true}
+            },
+            ["Description"] = [[We finally figured out these newfangled "Sails" everyone's been talking about.]],
+            ["Power_FAA"] = 3,
+            ["Cost"] = 0,
+            ["Power_Square"] = 4
+        },
+        ["Base"] = {["Cost"] = 0},
+        ["Sails"] = {
+            ["Cannons"] = {
+                ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+                ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4, ["SlowedEffectAll"] = true}
+            },
+            ["Description"] = [[We finally figured out these newfangled "Sails" everyone's been talking about.]],
+            ["Power_FAA"] = 3,
+            ["Power_Square"] = 4,
+            ["Cost"] = 0
+        }
+    },
     ["Alliance"] = {
         ["Brawler"] = {
             ["Cannons"] = {
