@@ -826,13 +826,13 @@ data = {
         }
     },
     {
-        {"Kirin", "Kirin", "Junk", 2150, "All", 10},
+        {"Kirin", "Kirin", "Junk", 1900, "All", 10},
         {{"ANY_WOOD", 1100}, {"Iron", 200}, {"Doubloons", 120000}},
         {
             "The Kirin's wide hull gives it plenty of room for cannons and cargo. Designed by Saireyx as part of the 2022 ship contest.",
             "Type: Junk",
             "Role: Multi-Purpose",
-            "Hull Strength: 20500",
+            "Hull Strength: 19000",
             "Max Armament:",
             "		10 x Medium Cannon",
             "		2 x Light Cannon (Bow)",
@@ -906,7 +906,8 @@ data = {
             "Max Cargo: 0",
             "Speed: 5",
             "Speed with Engine: 7",
-            "Storage for 200 Cannon Balls"
+            "Storage for 200 Cannon Balls",
+            "Variants available."
         }
     },
     {
@@ -979,13 +980,13 @@ data = {
         }
     },
     {
-        {"Sigil", "Sigil", "Brig", 1850, "All", 12},
+        {"Sigil", "Sigil", "Brig", 1950, "All", 12},
         {{"ANY_WOOD", 1200}, {"Iron", 260}, {"Doubloons", 500000}, {"Premium Token", 400}},
         {
             "The Sigil's immpressive firepower and small size make it an excellent warship.",
             "Type: Brig",
             "Role: Combat",
-            "Hull Strength: 18500",
+            "Hull Strength: 19500",
             "Max Armament:",
             "		12 x Medium Cannon",
             "		2 x Light Cannon (Bow)",
@@ -997,13 +998,13 @@ data = {
         }
     },
     {
-        {"Brigand", "Brigand", "Xebec", 1700, "All", 12},
+        {"Brigand", "Brigand", "Xebec", 1600, "All", 12},
         {{"ANY_WOOD", 1300}, {"Iron", 250}, {"Doubloons", 650000}, {"Premium Token", 500}},
         {
             "The Brigand's low profile makes it hard to hit, and its hefty firepower make it a fearsome foe for any navy patrol.",
             "Type: Xebec",
             "Role: Combat",
-            "Hull Strength: 17000",
+            "Hull Strength: 16000",
             "Max Armament:",
             "		12 x Heavy Cannon",
             "		2 x Swivel Guns",
@@ -1050,13 +1051,13 @@ data = {
         }
     },
     {
-        {"Camel", "Camel", "Indiaman", 2400, "All", 16},
+        {"Camel", "Camel", "Indiaman", 2300, "All", 16},
         {{"ANY_WOOD", 1350}, {"Iron", 270}, {"Doubloons", 650000}, {"Premium Token", 200}},
         {
             "The Camel's size and firepower make it great for traders and pirates alike.",
             "Type: Indiaman",
             "Role: Multi-Purpose",
-            "Hull Strength: 24000",
+            "Hull Strength: 23000",
             "Max Armament:",
             "		12 x Medium Cannon",
             "		2 x Light Cannon (Stern)",
@@ -1112,6 +1113,22 @@ data = {
             "Speed: 7",
             "Speed with Engine: 7",
             "Storage for 100 Cannon Balls"
+        }
+    },
+    {
+        {"Nautilus", "Nautilus", "Ironclad", 2700, "All", 10},
+        {{"ANY_WOOD", 500}, {"Iron", 2500}, {"Doubloons", 1500000}, {"Advanced Engine", 1}, {"Nautilus Blueprint", 1}},
+        {
+            "The Nautilus has a very unusual design, allowing her to reach higher speeds than your average ironclad.  Press E to toggle steam engine on and off.  Requires coal to run. *HAS NO SAILS*",
+            "Type: Ironclad",
+            "Role: Combat",
+            "Hull Strength: 27000",
+            "Max Armament:",
+            "		10 x Medium Cannon",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Speed with Engine: 8",
+            "Storage for 200 Cannon Balls"
         }
     }
 }
