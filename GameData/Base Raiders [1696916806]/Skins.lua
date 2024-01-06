@@ -1,0 +1,50 @@
+data = {
+    ["Cards"] = {["Id"] = 16, ["Rarity"] = "RARE", ["Thumbnail"] = 2560443832, ["Texture"] = 2556066496},
+    ["Snowman"] = {["Id"] = 36, ["CashPrice"] = 5500, ["Thumbnail"] = 4501302832, ["Texture"] = 4501302832},
+    ["Snowflake"] = {["Id"] = 35, ["CashPrice"] = 5000, ["Thumbnail"] = 4501302625, ["Texture"] = 4501302625},
+    ["Black"] = {["Id"] = 12, ["CashPrice"] = 3000, ["Thumbnail"] = 2560439060, ["Texture"] = 2556021272},
+    ["Yum"] = {["Id"] = 27, ["Rarity"] = "COMMON", ["Thumbnail"] = 2560462222, ["Texture"] = 2557018179},
+    ["Zebra"] = {["Id"] = 31, ["CashPrice"] = 4200, ["Thumbnail"] = 2565316769, ["Texture"] = 2565317000},
+    ["Paws"] = {["Id"] = 30, ["CashPrice"] = 5500, ["Thumbnail"] = 2560448896, ["Texture"] = 2556999504},
+    ["Purple"] = {["Id"] = 13, ["CashPrice"] = 3000, ["Thumbnail"] = 2560452673, ["Texture"] = 2560452673},
+    ["Pumpkin"] = {["Id"] = 24, ["Rarity"] = "RARE", ["Thumbnail"] = 2560452525, ["Texture"] = 2556999921},
+    ["Lightning"] = {["Id"] = 20, ["Rarity"] = "VERY RARE", ["Thumbnail"] = 2560448646, ["Texture"] = 2556998989},
+    ["Hearts"] = {["Id"] = 18, ["CashPrice"] = 5000, ["Thumbnail"] = 2560444477, ["Texture"] = 2556067950},
+    ["Gold"] = {["Id"] = 33, ["Rarity"] = "EXTRAORDINARY", ["Thumbnail"] = 2565329941, ["Texture"] = 2565329477},
+    ["Lava"] = {["Id"] = 19, ["Rarity"] = "VERY RARE", ["Thumbnail"] = 2560448482, ["Texture"] = 2556068100},
+    ["Blue"] = {["Id"] = 11, ["CashPrice"] = 3000, ["Thumbnail"] = 2560439209, ["Texture"] = 2556021506},
+    ["Orange"] = {["Id"] = 7, ["CashPrice"] = 3000, ["Thumbnail"] = 2560448757, ["Texture"] = 2556999280},
+    ["Red"] = {["Id"] = 1, ["CashPrice"] = 3000, ["Thumbnail"] = 2560453119, ["Texture"] = 2557009402},
+    ["Rainbow"] = {["Id"] = 32, ["Rarity"] = "UNKNOWN", ["Thumbnail"] = 2565316443, ["Texture"] = 2565317146},
+    ["Tiger"] = {["Id"] = 23, ["CashPrice"] = 4500, ["Thumbnail"] = 2560458346, ["Texture"] = 2557017827},
+    ["Camo"] = {["Id"] = 15, ["CashPrice"] = 4500, ["Thumbnail"] = 2560439728, ["Texture"] = 2556022074},
+    ["Red Camo"] = {["Id"] = 22, ["Rarity"] = "RARE", ["Thumbnail"] = 2560452980, ["Texture"] = 2557009568},
+    ["Smileys"] = {["Id"] = 26, ["Rarity"] = "COMMON", ["Thumbnail"] = 2560457952, ["Texture"] = 2557017260},
+    ["Teal"] = {["Id"] = 10, ["CashPrice"] = 3000, ["Thumbnail"] = 2560458122, ["Texture"] = 2557017570},
+    ["Rainbow Dragon Scale"] = {
+        ["Id"] = 21,
+        ["Rarity"] = "UNKNOWN",
+        ["Thumbnail"] = 2560452853,
+        ["Texture"] = 2557009194
+    },
+    ["Pink"] = {["Id"] = 8, ["CashPrice"] = 3000, ["Thumbnail"] = 2560449015, ["Texture"] = 2556999673},
+    ["Hazard Stripes"] = {["Id"] = 17, ["CashPrice"] = 6000, ["Thumbnail"] = 2560444320, ["Texture"] = 2556067737},
+    ["Bubbles"] = {["Id"] = 14, ["CashPrice"] = 4000, ["Thumbnail"] = 2560439586, ["Texture"] = 2556021907},
+    ["Bricks"] = {["Id"] = 28, ["CashPrice"] = 5000, ["Thumbnail"] = 2560439392, ["Texture"] = 2556021716},
+    ["Green"] = {["Id"] = 6, ["CashPrice"] = 3000, ["Thumbnail"] = 2560444170, ["Texture"] = 2556067086},
+    ["Candy Cane"] = {
+        ["CandyCaneUnlock"] = 125,
+        ["CashPrice"] = 10,
+        ["Id"] = 34,
+        ["Thumbnail"] = 4501302405,
+        ["Texture"] = 4501302405
+    },
+    ["Yellow"] = {["Id"] = 9, ["CashPrice"] = 3000, ["Thumbnail"] = 2560458501, ["Texture"] = 2557018012},
+    ["Skulls and Crossbones"] = {
+        ["Id"] = 29,
+        ["CashPrice"] = 6000,
+        ["Thumbnail"] = 2560457796,
+        ["Texture"] = 2557010601
+    },
+    ["None"] = {["Id"] = 0, ["Thumbnail"] = 3016725784, ["Texture"] = 70992356}
+}
