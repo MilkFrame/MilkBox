@@ -1,0 +1,86 @@
+data = {
+    Primary = {
+        "rbxassetid://15570397091",
+        "rbxassetid://15694298701",
+        "rbxassetid://15694858992",
+        "rbxassetid://15686749666",
+        "rbxassetid://15043392535",
+        "rbxassetid://14831804966",
+        "rbxassetid://14831806195",
+        "rbxassetid://15043389776",
+        "rbxassetid://14831810513",
+        "rbxassetid://14831809868",
+        "rbxassetid://15043394047",
+        "rbxassetid://15043393701",
+        "rbxassetid://14831806114",
+        "rbxassetid://14831808563",
+        "rbxassetid://14831809010",
+        "rbxassetid://15043395690",
+        "rbxassetid://15043395086",
+        "rbxassetid://14831810679",
+        "rbxassetid://15043393543",
+        "rbxassetid://15043393404",
+        "rbxassetid://15043389546",
+        "rbxassetid://15051916878",
+        "rbxassetid://15043390214",
+        "rbxassetid://15052884902",
+        "rbxassetid://15378995534",
+        "rbxassetid://15043391547",
+        "rbxassetid://15043391695",
+        "rbxassetid://15043389329",
+        "rbxassetid://15043388814",
+        "rbxassetid://15043390041",
+        "rbxassetid://15043392745",
+        "rbxassetid://15043392360",
+        "rbxassetid://15043391822",
+        "rbxassetid://15253214387",
+        "rbxassetid://14831804582",
+        "rbxassetid://15043388971",
+        "rbxassetid://15043388481",
+        "rbxassetid://15043388346",
+        "rbxassetid://14980075116",
+        "rbxassetid://15043395904",
+        "rbxassetid://15043391249",
+        "rbxassetid://15043389166",
+        "rbxassetid://15043393860",
+        "rbxassetid://15043391415",
+        "rbxassetid://15318306525",
+        "rbxassetid://15043394482",
+        "rbxassetid://15304049355",
+        "rbxassetid://15295003059",
+        "rbxassetid://15309484119",
+        "rbxassetid://14831807930",
+        "rbxassetid://15043392909",
+        "rbxassetid://15043392143",
+        "rbxassetid://15043394714",
+        "rbxassetid://14831810374",
+        "rbxassetid://14831810182",
+        "rbxassetid://15043391981",
+        "rbxassetid://15120139840",
+        "rbxassetid://15043388656",
+        "rbxassetid://15043395462"
+    },
+    Secondary = {
+        "rbxassetid://15698605698",
+        "rbxassetid://15679846565",
+        "rbxassetid://14831804111",
+        "rbxassetid://14831806036",
+        "rbxassetid://14831805719",
+        "rbxassetid://14831806417",
+        "rbxassetid://14834756846",
+        "rbxassetid://15510083534",
+        "rbxassetid://14831805437",
+        "rbxassetid://15043390568",
+        "rbxassetid://14831808374"
+    }
+}
+x = "{"
+for i, v in pairs(game.Players.LocalPlayer.PlayerGui.Menu.Main.Main.Secondary:GetChildren()) do
+    pcall(
+        function()
+            x = x .. '"' .. v.WPN.Image .. '",'
+        end
+    )
+end
+x = x .. "}\n"
+setclipboard(x)
