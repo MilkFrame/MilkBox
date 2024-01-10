@@ -1,0 +1,311 @@
+1.7.4 (2/10/2023):
+- Valentines Day event ￢ﾝﾤ
+	- Gather 50 candy hearts around the map to unlock some holiday decorations
+	- Added limited time Valentines Day sellables
+	- Ends Feb 20
+- Added some new player-made posters
+
+1.7.3.1 (12/17/2022):
+- Fixed christmas tree customers sometimes wanting halloween things too
+- Fixed some delete tool errors
+
+1.7.3 (12/15/2022):
+- Winter holiday event ￰ﾟﾎﾅ
+	- Gather 50 presents around the map to unlock some holiday decorations
+	- Added limited time sellable: Christmas Tree
+	- Ends Jan 5
+- Added electric car charger parking spots
+	- EV customers bring in a bit more money on average
+- Probably fixed customers sometimes leaving their cars behind
+
+1.7.2.1 (11/7/2022):
+- More Movember: Collect 50 Philips coins around the map to unlock the Chevron moustache for your avatar (This month only)
+
+1.7.2 (10/20/2022):
+- Halloween event is back ￰ﾟﾎﾃ
+	- Smash 50 pumpkins around the map to unlock some Halloween themed decorations
+	- Decorations: Spooky fence, cobwebs, jack o lanterns, + more
+- Added new sellables: Halloween decorations (*Limited time - This month only*)
+- Added new sellables: Pumpkins (vegetables)
+- Watermelons can fit in large produce bins now
+
+1.7.1.1 (10/13/2022):
+- Fixed some UI issues caused by localization service errors
+
+1.7.1 (10/13/2022):
+- Philips Norelco event
+	- Added new sellable: Philips OneBlade
+	- Added portal to Philips hub in the park (limited-time)
+- Fixed managers sometimes ordering items for shelves that were removed
+- Fixed some elevator teleportation weirdness
+
+1.7 (9/22/2022):
+- Added shopping carts, baskets, mobility scooters
+	- Customers are more likely to buy cheaper items in bulk but need one of the above to carry more items (carts hold the most, but some customers have a preference)
+	- Place dispensers from the amenities tab
+- Added children
+- Added elevators
+- Raised loan acceptance chance a bit
+
+1.6.11 (9/8/2022):
+- Added snack vending machine
+	- Can stock chips or candy
+
+1.6.10.2 (9/1/2022):
+- Maybe fixed build camera being shakey sometimes
+- Maybe fixed vehicle enter prompt not appearing sometimes
+
+1.6.10.1 (8/26/2022):
+- Raised vending machine capacity to 16
+- Fixed vending machines not counting sales stats
+
+1.6.10 (8/25/2022):
+- Added drink vending machines
+	- Stocked like regular shelves
+	- Soda only, more coming soon
+
+1.6.9 (8/11/2022):
+- Added new sellables: Pianos (Keyboard, Upright Piano, Grand Piano)
+
+1.6.8 (7/28/2022):
+- Added new sellables: Vacuum Cleaners (3 variants)
+- Fixed some rare loading bugs
+
+1.6.7 (7/14/2022):
+- Added tiny recreational plane
+
+1.6.6 (7/7/2022):
+- Added new sellable: Canned chips (snacks)
+- Fixed issues deleting ceiling objects
+- Fixed some odd tutorial UI placement on small screens
+- Fixed some pathfinding errors
+- Fixed some queue bugs
+
+1.6.5.1 (7/5/2022):
+- Fixed UI issue from recent roblox update (again)
+
+1.6.5 (6/30/2022):
+- Added new sellables: Chips (snacks), Foosball table (game tables)
+- Maybe fixed some customer freezing bugs
+- Some efficiency improvements for server things
+
+1.6.4 (6/23/2022):
+- Added a toggle in settings to offload pathfinding calculations onto your own device
+	- Can lessen server load
+	- Beta feature, maybe buggy blah blah
+- Fixed objects losing color palettes when moved
+- Fixed register pathing issues on the hilltop plot
+- Maybe fixed cars not despawning sometimes
+
+1.6.3 (6/16/2022):
+- Added new sellables: Game Tables (air hockey, pool, ping pong)
+- Fixed move tool sometimes marking tiles as blocked when they should not have been
+- Fixed customers getting stuck sometimes when moving/deleting registers
+- Fixed build gui issues with deleting color palettes sometimes
+
+1.6.2.2 (6/15/2022):
+- Fixed UI issue from recent roblox update
+
+1.6.2.1 (6/10/2022):
+- Fixed some bugs with the new queue stuff
+
+1.6.2 (6/9/2022):
+- Testing more dynamic queueing at cash registers (required for shopping carts etc later on)
+	- You can add railings to control where queues go
+	- Might be a lil buggy
+- Added line dividers (those retractible barrier things)
+- Added queue sizes rating
+
+1.6.1 (6/2/2022):
+- Added new sellables: Shorts, T-Shirts, Hats (Clothing)
+- Added hat rack
+- Remade existing clothing models
+- Fixed restockers not ignoring blocked shelves
+- Fixed build camera getting shakey sometimes
+
+1.6.0.1 (5/27/2022):
+- Added trash can coverage heatmap
+- Increased trash can coverage area
+- Reduced littering rate due to skill issues
+- Janitors move faster as they level up
+- Fixed trash can emptying prompt showing up in build mode
+- Fixed a couple weird janitor behaviors 
+
+1.6 (5/26/2022):
+- Added janitors and trash cans
+	- Place trash cans to prevent customers from littering
+	- Janitors clean up garbage and empty trash cans, but need a dumpster to empty their inventory
+- Added cleanliness rating
+
+1.5.12 (5/12/2022):
+- Added sellable: Cereal (boxed food)
+- Added one-way stairs variants
+- Stairs are recolorable
+- Fixed npc aircraft not initially being visible when loading stores sometimes
+- Fixed some vehicle shop bugs
+
+1.5.11 (5/5/2022):
+- Added cargo helicopter
+- Added strafing to aircraft
+- Added control tooltips to aircraft
+- Added small landing pad buildable
+- Hid rooftop NPC-controlled vehicles when using the build camera
+- Made delivery driver vehicle animations clientside (smoother)
+- Fixed some cases of guards slacking off (this fix also lowers server load which is nice)
+- Fixed delivery drivers getting stuck sometimes when reassigning
+- Fixed some issues if a player managed to put a non-sign in the sign spot (how??)
+- Fixed tile edges taking on the color of railings below
+- Maybe fixed touchscreen build buttons not registering and moving things around sometimes
+- Maybe fixed parking spots getting stuck as 'in use' sometimes
+- Maybe fixed build mode freezing up with co-op sometimes
+
+1.5.10.1 (4/29/2022):
+- Fixed tutorial bug
+- Fixed load/unload vehicle button sometimes not appearing
+
+1.5.10 (4/28/2022):
+- Added cargo airship
+	- Smaller and cheaper options coming later
+- Added large landing pad buildable
+- Added landing pads at the loading dock
+
+1.5.9 (4/21/2022):
+- Added 5 new double doors
+- Added 27 new window variants
+- Added sellable: tuba (brass instruments)
+- Fixed employee door coloring issues
+- Fixed overly bright LED store signs
+
+1.5.8.1 (4/18/2022):
+- typo
+
+1.5.8 (4/14/2022):
+- Added bus stops (same concept as trams but cheaper)
+- Fixed some customer car transparency bugs
+- Added a warning when buying something too big for your vehicles
+- 100M visits sale ￰ﾟﾥﾳ
+
+1.5.7.1 (4/8/2022):
+- Fixed tram station escalators sometimes not escalating
+- Fixed some wall building bugs
+
+1.5.7 (4/7/2022):
+- Added underground tram stations
+	- Expensive end game option to reduce space used by parking lots
+- Added sellables: Garden tools (wheelbarrow, rake, shovel, pitchfork, hoe)
+
+1.5.6 (3/31/2022):
+- Added revolving doors
+- Added 5 new decorative pillars
+- Fixed some pathing issues after altering 2nd floor tiles
+- Fixed some color palette related building issues
+- Fixed some store loading issues
+- Fixed door timing being off sometimes
+
+1.5.5 (3/24/2022):
+- Walls are now 100% colorable
+	- Some custom wall/door palettes may have changed sorry
+	- Added some preset color palettes to walls/windows/doors
+- Added sellable: Skateboard (Personal transport)
+- Fixed vehicles visually having boxes when joining sometimes when they shouldnt
+- Fixed some ui bugs
+
+1.5.4.1 (3/17/2022):
+- Fixed items piling up at checkout counters
+
+1.5.4 (3/17/2022):
+- Added new sellables: Soda, Jelly
+- Increased pathfinding efficiency 20-25%
+- Increased efficiency of some moving parts (cars, checkout items)
+- Fixed chat bubbles being way too high sometimes
+- Fixed build menu bugs when changing variants and colors at the same time
+
+1.5.3 (3/10/2022):
+- Added new sellable: Peanut butter
+- Fixed some odd player walking animations
+
+1.5.2 (3/3/2022):
+- Added new sellable: Ice cream
+- Added new buildable: Posters (3 variants)
+- Fixed auto-generated tiles at the top of escalators not initially being marked as traversable
+- Fixed a bug with moving things not updating security values properly
+- Fixed permissions menu not reflecting if someone is black/whitelisted if they rejoin
+- Fixed some other bugs I forgot to write down
+
+1.5.1 (2/24/2022):
+- Beautified the whitelisting/permissions menu
+- Fixed managers sometimes ordering things based on the wrong store
+- Fixed several cases of NPC breakage
+- Fixed bought land not visually unlocking for whitelisted players
+- Fixed decoration and other camera overlays not always depicting the right store
+- Fixed vehicle gui not updating correctly when a whitelisted player buys/sells a truck
+- Fixed vehicles not always recoloring along with the store
+
+1.5.0.2 (2/18/2022):
+- Allowed to respawn a vehicle someone else is using unless theyre actively driving it
+- Fixed being locked out of a vehicle if the player using it left
+
+1.5.0.1 (2/17/2022):
+- Fixed some stats and costs being assigned to the wrong store when doing co-op
+- Fixed tiny permissions menu on some screen sizes
+
+1.5 (2/17/2022):
+- Added co-op, invite friends to work on your store with you
+	- Beta feature, expect some bugs
+	- Whitelisted players can do literally everything the owner can
+	- Manage permissions through a new tab in the store options menu
+	- Gamepass/badge access is tied to the owner of the store
+- Added the option to blacklist players, preventing them from entering your store
+
+1.4.4 (2/10/2022):
+- Added new shelf: Wall rack
+- Added new sellables: Lumber (2x4, plywood)
+- Added shoebox texture
+
+1.4.3 (1/27/2022):
+- Added new sellables: Shoes (sneakers), Office Electronics (shredder, laminator)
+
+1.4.2.1 (1/22/2022):
+- Fixed some pathfinding issues
+
+1.4.2 (1/20/2022):
+- Added a custom floors gamepass
+	- Use any decal ID to make your own floor textures
+	- Added a setting to disable seeing custom floors
+- Added new sellables: PC Peripherals (Keyboard, Headphones, Microphone)
+- Added a leaderboard at the gokart track
+- Added gokart for sale at Alans Auto
+- Fixed NPCs walking on roofing tiles (also pathfinding is slightly faster)
+
+1.4.1.1 (1/17/2022):
+- Fixed robbers sometimes robbing for a few seconds after theyre arrested
+
+1.4.1 (1/14/2022):
+- Added a gokart track down by the windmill
+- Added many new flooring options and most floors can now be recolored
+- Added new sellables: School Supplies (notebook, binder, looseleaf), Luggage (suitcase, backpack, duffel bag)
+- Added sound volume setting (camera beeps etc)
+- Made guards smarter
+- Fixed guards being afraid of the 2nd floor
+- Fixed restocking issues with gamepads
+
+1.4.0.2 (1/8/2022):
+- Fixed building issues with gamepads
+- Permitted guards to cheat a little bit if server load is high (temporary fix)
+- Disabled furniture render distance setting for the time being because bugs
+
+1.4.0.1 (1/7/2022):
+- Limited robbers to one valuable item each
+- Robbers will walk slowly after stealing something bulky
+- Made camera and security gate beeps clientside so they might make more sense
+- Fixed a bug loading decoration/security values
+
+1.4 (1/7/2022):
+- Added guards and robbers
+	- Shady customers show up every now and then with no intention of paying
+	- You can arrest robbers manually or hire a guard
+	- Level 3+ guards get a segway
+- Added security cameras and security gates
+	- Security items decrease decoration but have a chance to alert guards to robbers in their area of effect (lower chance if they haven't stolen anything yet)
+- Added stats for robbers arrested, items stolen, value stolen
+- Added new camera mode toolbar
