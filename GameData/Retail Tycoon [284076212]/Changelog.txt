@@ -1,0 +1,199 @@
+1.2.6 (7/27/2020):
+- Added cash gui
+- That's it
+
+1.2.5 (10/21/19):
+- Halloween pumpkin smashing is back by popular demand. Smash pumpkins to get the cash inside and earn a badge
+
+1.2.4.1 (3/23/19):
+- St Patricks day event ends
+
+1.2.4 (3/17/10):
+- St Patricks day map
+
+1.2.3.1 (2/22/19):
+- Valentines day event ends
+
+1.2.3 (2/12/19):
+- Valentines day event
+- Candy is heart themed and sells for a 25% markup
+- Get a badge for selling 100 candy
+- Map is all snowy and decorated
+
+1.2.2.1 (11/2/18):
+- Back to the regular map
+
+1.2.2 (10/25/18):
+- Spooky halloween map
+- Smash pumpkins to get cash and a badge
+
+1.2.1.3 (9/18/18):
+- Fixed tycoons sometimes not resetting when the owner leaves
+
+1.2.1.2 (7/10/18):
+- Fixed tiny NPCs having detatched limbs
+
+1.2.1.1 (6/28/18):
+- Fixed tycoons not initializing on some servers
+
+1.2.1 (5/12/18):
+- Added display scaling option to settings menu
+	- Scaling will default to 75% or 125% on certain screen sizes
+- Smartphone compatibility
+- Moved mobile controls over so theyre not overlapping things
+- Fixed mobile controls disappearing after resetting
+
+1.2.0.7 (4/14/18):
+- Fixed customers ignoring registers sometimes again
+- Fixed registers sometimes loading rotated the wrong way
+- Patched things
+
+1.2.0.6 (3/30/18):
+- Fixed NPCs disappearing sometimes
+- Fixed store signs not updating when a plot is claimed
+- Map additions
+- April fools day preparations
+
+1.2.0.5 (3/18/18):
+- Rent-a-Cop toy owners get free guards
+- Patched things
+
+1.2.0.4 (2/7/18):
+- Fixed register and self checkout blocking tiles after being moved
+
+1.2.0.3 (2/3/18):
+- Fixed customers ignoring registers that have been moved sometimes
+- Fixed gamepasses not purchasable ingame
+- Fixed customers getting stuck on the edges of parking lots
+- Fixed menus opening before you claimed a tycoon
+
+1.2.0.2 (1/27/18):
+- Kinda fixed fog obscuring land-purchase mode on low graphics settings
+- Fixed skydive respawn breaking after death
+- Map tweaks
+
+1.2.0.1 (1/27/18):
+- Fixed customers sometimes ignoring registers that have been moved
+- Fixed honest customers sometimes disguised as robbers
+- Fixed storage racks and plants blocking pathways
+- Fixed help section not centered on screen
+- Fixed uptime reporting client not server
+
+1.2 (1/26/18):
+- Overhauled NPCs
+	- Customers won't walk slower if the server is stressed out
+	- NPCs are displayed locally
+	- Hopefully fixed some bugs like customers spinning
+	- Customer logic changed a bit so that might need balancing
+	- More animations and variations coming soon
+- New map by microk
+- Ceiling placement makes sense now
+- Replaced clientside pathfinding slider with NPC movement quality slider
+- Register line size reduced from 7 to 6 due to clipping
+
+1.1.8.4 (1/3/18):
+- Enabled new PSG physics solver
+
+1.1.8.3 (7/27/17):
+- Fixed a bug that made tycoons sometimes not reset
+
+1.1.8.2 (7/26/17):
+- Patched thing I accidentally unpatched
+
+1.1.8.1 (7/13/17):
+- Patched things
+
+1.1.8 (7/11/17):
+- Respectable performance improvements on servers with many customers
+- Autosave won't save anything the first few minutes after you join
+
+1.1.7.6 (5/30/17):
+- Fidget spinners (sorry)
+- Patched things
+
+1.1.7.5 (3/30/17):
+- Fixed containers loading with less items than saved with
+- Maybe fixed ghost shoes again
+- Patched things
+
+1.1.7.4 (3/21/17):
+- Innovation Tycoon event ends
+
+1.1.7.3 (3/11/17):
+- Fixed some instances of janitors freezing
+- Fixed shoe decals staying visible when removed from shelves (maybe? couldn't replicate)
+- Capped Decoration to a 2 star bonus
+- Patched some exploits
+
+1.1.7.2 (3/8/17):
+- Fixed money tree and money tree badge not being awarded (No loss of progress)
+
+1.1.7.1 (3/8/17):
+- Fixed bug where tabs wouldn't work if the player died
+
+1.1.7 (3/8/17):
+- Innovation Tycoon Event begins
+- Added decorations: Tree, Fountain, Money Tree
+- Money Tree can be earned by selling 10 of every item. More trees are earned at 20, 50, 100, etc.
+- Added sellable: CompyChyp chips
+- Added counters for how many of each item is sold
+- Changed potted plant model to match new stuff
+
+1.1.6.4 (1/21/17):
+- Fixed managers not resupplying instruments
+
+1.1.6.3 (1/20/17):
+- Fixed store audio not playing for R15 characters
+
+1.1.6.2 (1/20/17):
+- Fixed pets selling for the wrong price
+
+1.1.6.1 (1/20/17):
+- Fixed registers not noticing R15 characters
+
+1.1.6 (1/19/17):
+- Fixed beta statue and added package support
+- Added sellables: Pets, Jewelry, Shoes, Instruments
+- Added furniture: Display Case
+- Added indoor signs (ceiling type)
+- Added lag meter in settings
+
+1.1.5.2 (11/19/16):
+- Fixed server warning/message system
+(Actual updates on the way)
+
+1.1.5.1 (10/13/16):
+- Fixed super star badge sometimes not working
+
+1.1.5 (10/8/16):
+- Added Halloween event badge
+- Added player points for revenue
+
+1.1.4 (8/30/16):
+- Added some badges
+- Added new audio track
+- Added some neon and lighting stuff
+- Fixed multiple audio bug
+
+1.1.3 (7/30/16):
+- Added whitelist function so your friends can help you out (Build/Furnish/Restocking only)
+
+1.1.2.1 (7/28/16):
+- Fixed crashing issue when placing and demolishing things
+
+1.1.2 (7/4/16):
+- Made customers waste less time in large stores (more likely to walk to nearby shelves)
+- Fixed notifications sometimes not disappearing
+
+1.1.1 (6/25/16):
+- Made customer comments and spills less common
+- Made janitors spread out more
+- Increased customer vocabulary
+- Fixed janitors sometimes freezing
+
+1.1 (6/24/16):
+- Added store rating system
+- Added janitors and spills
+- Added help section
+- Fixed registers preventing ceiling/floor building
+- Made guards less stupid
