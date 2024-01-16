@@ -157,7 +157,7 @@ data = {
         ["Angry"] = "😡"
     },
     ["PizzaPlaceVoiceChatTestId"] = 8080188707,
-    ["Translate"] = "function: 0x000000003a838f2b",
+    ["Translate"] = "function: 0x0000000059634a1f",
     ["AddressImages"] = {
         ["X2"] = 8090471424,
         ["X3"] = 8090471360,
@@ -195,54 +195,54 @@ data = {
     ["Moneyz"] = {
         ["CoinsLarge"] = {
             ["Sale"] = 10,
-            ["Index"] = 1,
-            ["Name"] = "4000",
+            ["AssetId"] = "CoinsLarge",
+            ["Name"] = "3600",
             ["ProductId"] = 45123967,
-            ["Price"] = 80,
+            ["Index"] = 1,
             ["Category"] = "Moneyz",
             ["ImageId"] = 1684427805,
-            ["Amount"] = 4000
+            ["Amount"] = 3600
         },
         ["CoinsChest"] = {
             ["Sale"] = 10,
-            ["Index"] = 3,
-            ["Name"] = "50000",
+            ["AssetId"] = "CoinsChest",
+            ["Name"] = "45000",
             ["ProductId"] = 45124061,
-            ["Price"] = 800,
+            ["Index"] = 3,
             ["Category"] = "Moneyz",
             ["ImageId"] = 1684428476,
-            ["Amount"] = 50000
+            ["Amount"] = 45000
         },
         ["CoinsXL"] = {
             ["Sale"] = 10,
-            ["Index"] = 2,
-            ["Name"] = "22000",
+            ["AssetId"] = "CoinsXL",
+            ["Name"] = "19800",
             ["ProductId"] = 45124003,
-            ["Price"] = 400,
+            ["Index"] = 2,
             ["Category"] = "Moneyz",
             ["ImageId"] = 1684440624,
-            ["Amount"] = 22000
+            ["Amount"] = 19800
         },
         ["MoneyBag"] = {
             ["Index"] = 5,
-            ["Price"] = 80,
             ["GearAssetId"] = 495315981,
             ["ImageId"] = 495323030,
             ["Sale"] = 10,
-            ["Name"] = "4000",
-            ["ProductId"] = 45123732,
+            ["AssetId"] = "MoneyBag",
+            ["Name"] = "3600",
+            ["Amount"] = 3600,
             ["Category"] = "Moneyz",
-            ["Amount"] = 4000
+            ["ProductId"] = 45123732
         },
         ["CoinsDoubleChest"] = {
             ["Sale"] = 10,
-            ["Index"] = 4,
-            ["Name"] = "200000",
+            ["AssetId"] = "CoinsDoubleChest",
+            ["Name"] = "180000",
             ["ProductId"] = 23491618,
-            ["Price"] = 3000,
+            ["Index"] = 4,
             ["Category"] = "Moneyz",
             ["ImageId"] = 1684440910,
-            ["Amount"] = 200000
+            ["Amount"] = 180000
         }
     },
     ["TrickOrTreatTestId"] = 4201882723,
@@ -310,7 +310,7 @@ data = {
     ["BrickColorToTeamName"] = {"Supplier", "Pizza Boxer", "Delivery", "Cook", "Cashier", "Manager", "On Break"},
     ["StoryId"] = 5777826766,
     ["BuffIconColors"] = {Color3.fromRGB(1, 132, 255), Color3.fromRGB(36, 171, 58), Color3.fromRGB(104, 38, 203)},
-    ["GetNextUpgradeInfo"] = "function: 0x000000009ba7d16b",
+    ["GetNextUpgradeInfo"] = "function: 0x00000000ecbbc2cf",
     ["ContributorsIcons"] = {
         "rbxassetid://2098468482",
         "rbxasset://textures/ui/icon_placeowner.png",
@@ -343,196 +343,218 @@ data = {
         ["Stickers"] = {}
     },
     ["MaxNumPetSlots"] = 3,
+    ["ShortFormNumber"] = "function: 0x0000000037ccb457",
     ["CapsuleTypeToColor"] = {
         ["Legendary"] = Color3.fromRGB(255, 0, 191),
         ["Common"] = Color3.fromRGB(0, 0, 255),
         ["Mythic"] = Color3.fromRGB(0, 255, 255),
+        ["Limited"] = Color3.fromRGB(73, 179, 49),
         ["Uncommon"] = Color3.fromRGB(0, 255, 0),
         ["Rare"] = Color3.fromRGB(255, 255, 0)
     },
+    ["IngredientImages"] = {
+        ["Pepperoni"] = "http://www.roblox.com/asset/?id=167850850",
+        ["TomatoSauce"] = "http://www.roblox.com/asset/?id=167850867",
+        ["Sausage"] = "http://www.roblox.com/asset/?id=167850856",
+        ["Dough"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260912",
+        ["MountainDew"] = "rbxassetid://2512571151",
+        ["Cheese"] = "http://www.roblox.com/asset/?id=167850840",
+        ["Box"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260735"
+    },
     ["ModelBaseURL"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=",
-    ["StarRating"] = {{11, 30}, {31, 80}, {81, 100}, {0, 10}},
+    ["Dragables"] = {
+        ["Dew"] = true,
+        ["CutObject"] = true,
+        ["MountainDew"] = true,
+        ["Pizza"] = true,
+        ["BoxClosed"] = true,
+        ["Dough"] = true,
+        ["SupplyBox"] = true
+    },
     ["ErrorLogTableName"] = "main_error_log",
+    ["RobloxLocaleId"] = "en-us",
     ["DeathMeterStart"] = 300,
+    ["FormatNumber"] = "function: 0x00000000fcd39c57",
     ["NeonTimeProductId"] = 1287809900,
+    ["IsEnglish"] = "function: 0x00000000e655fa37",
+    ["Localization"] = {
+        ["Translate"] = "function: 0x0000000059634a1f",
+        ["FormatNumber"] = "function: 0x00000000fcd39c57",
+        ["GetLanguageId"] = "function: 0x00000000f771cd1f",
+        ["IsEnglish"] = "function: 0x00000000e655fa37"
+    },
     ["CandyTypes"] = {
         {["Name"] = "Lollypop", ["ImageId"] = 2505565107},
         {["Name"] = "CandyCorn", ["ImageId"] = 2505566251},
         {["Name"] = "Roll", ["ImageId"] = 2505568058}
     },
     ["IsVoiceChatServer"] = false,
+    ["IsMobile"] = true,
     ["PizzaPlaceChinaId"] = 7783264186,
-    ["ShortFormNumber"] = "function: 0x00000000f9b5fd93",
+    ["GamepassDescriptions"] = {
+        ["PontoonBoat"] = "Take your friends out to the high seas and visit different islands. Features a music player and seats up to 11 people.",
+        ["Radio"] = "Play music from your car",
+        ["EmotePack"] = [[Express yourself with this emote expansion pack!\n * Disgust\n * Pass out\n * Shocked\n * Evil Laugh]],
+        ["ManagerTeleport"] = "Teleports you to the manager's chair as soon as the manager quits their job.",
+        ["VictorianUnlimitedSet"] = "Place an unlimited number of Victorian style pieces in your house.",
+        ["FullyUpgradedHouse"] = "Basement + Backyard + Three Story House",
+        ["GarageUpgrade"] = "Adds a garage to your house and your own personal car that no one can steal. The colors you paint your car save.",
+        ["VIP"] = [[ * 50% more coins per paycheck\n * X2 more coins in daily checks\n * Unlocks new paint materials\n * Able to invite players to teleport to your house to have a party.\n * Able to teleport back to your house at any time.\n * Crown Icon + Yellow chat text\n	]],
+        ["Mansion"] = [[ * Tons of space\n * 2 more rooms!\n * You can put stuff in your front yard!\n * Second balcony!\n * Custom ceiling colors, stair colors, and much more]],
+        ["DeliveryBike"] = "Deliver pizzas in a timley manner with this speedy bike",
+        ["AnimalMorph"] = "Become a dog or rat!",
+        ["X3Stickers"] = "Put up to 3 stickers on a wall!",
+        ["HangGlider"] = "Get a bird's eye view of all the islands.",
+        ["PizzaSlicer"] = "Pizzas that are sliced will earn 10% more coins when delivered.",
+        ["Estate"] = [[ * Free Jeep vehicle included\n * Nearly 2X the floor space!\n * New attic!\n * Giant garage! (Garage gamepass required)\n * Able to place furniture in the garage! (Garage gamepass required)\n * Able to place furniture on the side of your house\n	]]
+    },
     ["CandyImages"] = {["CandyCorn"] = 2505566251, ["Roll"] = 2505568058, ["Lollypop"] = 2505565107},
     ["ChristmasRewards"] = {
         500,
-        715754356,
+        736209484,
         100,
         300,
-        173574928,
+        946453536,
         100,
         300,
-        289356756,
-        100,
-        300,
-        500,
-        924676675,
+        945675566,
         100,
         300,
         500,
-        754895696,
+        394567456,
         100,
         300,
         500,
-        965916002,
+        935464576,
+        100,
+        300,
+        500,
+        678456323,
         100,
         300,
         500,
         800,
-        289677564
+        4098350989
     },
     ["TrickOrTreatId"] = 4203320911,
     ["GamePasses"] = {
         ["PontoonBoat"] = {
-            ["NameId"] = "PontoonBoat",
-            ["Price"] = 650,
+            ["Index"] = 5,
             ["ImageId"] = 2308549290,
             ["Sale"] = 0,
+            ["AssetId"] = "PontoonBoat",
             ["Name"] = "Pontoon Boat",
-            ["ProductId"] = 850355,
+            ["Category"] = "GamePasses",
             ["Description"] = "PontoonBoatDescription",
-            ["Index"] = 5,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "PontoonBoat",
+            ["ProductId"] = 850355
         },
         ["Radio"] = {
-            ["NameId"] = "Radio",
-            ["Price"] = 300,
+            ["Index"] = 7,
             ["ImageId"] = 2481091745,
             ["Sale"] = 50,
+            ["AssetId"] = "Radio",
             ["Name"] = "Radio",
-            ["ProductId"] = 5260189,
+            ["Category"] = "GamePasses",
             ["Description"] = "RadioDescription",
-            ["Index"] = 7,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "Radio",
+            ["ProductId"] = 5260189
         },
         ["EmotePack"] = {
             ["NameId"] = "EmotePack",
-            ["Price"] = 75,
             ["ImageId"] = 2647783368,
             ["Sale"] = 25,
+            ["AssetId"] = "EmotePack",
             ["Name"] = "Emoji Pack",
             ["ProductId"] = 4347329,
             ["Description"] = "EmotePackDescription",
             ["IsEmotePack"] = true,
-            ["Index"] = 13,
+            ["Index"] = 14,
             ["Category"] = "GamePasses"
         },
         ["ManagerTeleport"] = {
-            ["NameId"] = "ManagerTeleport",
-            ["Price"] = 80,
-            ["ImageId"] = 2308549313,
-            ["Sale"] = 5,
-            ["Name"] = "Manager Teleport",
-            ["ProductId"] = 86893,
-            ["Description"] = "ManagerTeleportDescription",
             ["Index"] = 12,
-            ["Category"] = "GamePasses"
+            ["ImageId"] = 2308549313,
+            ["Sale"] = 0,
+            ["AssetId"] = "ManagerTeleport",
+            ["Name"] = "Manager Teleport",
+            ["Category"] = "GamePasses",
+            ["Description"] = "ManagerTeleportDescription",
+            ["NameId"] = "ManagerTeleport",
+            ["ProductId"] = 86893
         },
         ["VictorianUnlimitedSet"] = {
-            ["NameId"] = "VictorianUnlimitedSet",
-            ["Price"] = 400,
+            ["Index"] = 6,
             ["ImageId"] = 4509912207,
             ["Sale"] = 50,
+            ["AssetId"] = "VictorianUnlimitedSet",
             ["Name"] = "Victorian Unlimited Set",
-            ["ProductId"] = 7744290,
+            ["Category"] = "GamePasses",
             ["Description"] = "VictorianUnlimitedSetDescription",
-            ["Index"] = 6,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "VictorianUnlimitedSet",
+            ["ProductId"] = 7744290
         },
         ["FullyUpgradedHouse"] = {
-            ["NameId"] = "FullyUpgradedHouse",
-            ["Price"] = 960,
+            ["Index"] = 4,
             ["ImageId"] = 620781798,
             ["Sale"] = 0,
+            ["AssetId"] = "FullyUpgradedHouse",
             ["Name"] = "Basement",
-            ["ProductId"] = 649461,
+            ["Category"] = "GamePasses",
             ["Description"] = "FullyUpgradedHouseDescription",
-            ["Index"] = 4,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "FullyUpgradedHouse",
+            ["ProductId"] = 649461
         },
         ["GarageUpgrade"] = {
-            ["NameId"] = "GarageUpgrade",
-            ["Price"] = 145,
+            ["Index"] = 10,
             ["ImageId"] = 2308549367,
             ["Sale"] = 0,
+            ["AssetId"] = "GarageUpgrade",
             ["Name"] = "Garage Upgrade",
-            ["ProductId"] = 953263,
+            ["Category"] = "GamePasses",
             ["Description"] = "GarageDescription",
-            ["Index"] = 10,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "GarageUpgrade",
+            ["ProductId"] = 953263
+        },
+        ["Mansion"] = {
+            ["Index"] = 2,
+            ["ImageId"] = 1836057218,
+            ["Sale"] = 50,
+            ["AssetId"] = "Mansion",
+            ["Name"] = "Mansion",
+            ["Category"] = "GamePasses",
+            ["Description"] = "MansionDescription",
+            ["NameId"] = "Mansion",
+            ["ProductId"] = 4428831
         },
         ["VIP"] = {
-            ["NameId"] = "VIP",
-            ["Price"] = 990,
+            ["Index"] = 3,
             ["ImageId"] = 2308548834,
             ["Sale"] = 10,
+            ["AssetId"] = "VIP",
             ["Name"] = "VIP",
-            ["ProductId"] = 58000,
+            ["Category"] = "GamePasses",
             ["Description"] = "VIPDescription",
-            ["Index"] = 3,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "VIP",
+            ["ProductId"] = 58000
         },
         ["DeliveryBike"] = {
             ["NameId"] = "DeliveryBike",
-            ["Price"] = 225,
             ["GearAssetId"] = 497502431,
             ["ImageId"] = 2308549298,
             ["Sale"] = 33,
+            ["AssetId"] = "DeliveryBike",
             ["Name"] = "Delivery Bike",
             ["ProductId"] = 809502,
             ["Description"] = "DeliveryBikeDescription",
             ["Index"] = 8,
             ["Category"] = "GamePasses"
         },
-        ["Mansion"] = {
-            ["NameId"] = "Mansion",
-            ["Price"] = 2300,
-            ["ImageId"] = 1836057218,
-            ["Sale"] = 50,
-            ["Name"] = "Mansion",
-            ["ProductId"] = 4428831,
-            ["Description"] = "MansionDescription",
-            ["Index"] = 2,
-            ["Category"] = "GamePasses"
-        },
-        ["X3Stickers"] = {
-            ["NameId"] = "X3Stickers",
-            ["Price"] = 25,
-            ["ImageId"] = 2308549325,
-            ["Sale"] = 25,
-            ["Name"] = "X3 Stickers",
-            ["ProductId"] = 5086663,
-            ["Description"] = "StickersDescription",
-            ["Index"] = 14,
-            ["Category"] = "GamePasses"
-        },
-        ["HangGlider"] = {
-            ["NameId"] = "HangGlider",
-            ["Price"] = 80,
-            ["GearAssetId"] = 497501382,
-            ["ImageId"] = 2308549085,
-            ["Sale"] = 0,
-            ["Name"] = "Hang Glider",
-            ["ProductId"] = 87344,
-            ["Description"] = "HangGliderDescription",
-            ["Index"] = 11,
-            ["Category"] = "GamePasses"
-        },
         ["AnimalMorph"] = {
             ["NameId"] = "AnimalMorph",
-            ["Price"] = 200,
             ["ImageId"] = 10047173379,
             ["Sale"] = 50,
+            ["AssetId"] = "AnimalMorph",
             ["Name"] = "Animal Morph",
             ["ProductId"] = 52086936,
             ["Description"] = "AnimalMorphDescription",
@@ -540,16 +562,50 @@ data = {
             ["Index"] = 9,
             ["Category"] = "GamePasses"
         },
+        ["X3Stickers"] = {
+            ["Index"] = 15,
+            ["ImageId"] = 2308549325,
+            ["Sale"] = 25,
+            ["AssetId"] = "X3Stickers",
+            ["Name"] = "X3 Stickers",
+            ["Category"] = "GamePasses",
+            ["Description"] = "StickersDescription",
+            ["NameId"] = "X3Stickers",
+            ["ProductId"] = 5086663
+        },
+        ["HangGlider"] = {
+            ["NameId"] = "HangGlider",
+            ["GearAssetId"] = 497501382,
+            ["ImageId"] = 2308549085,
+            ["Sale"] = 0,
+            ["AssetId"] = "HangGlider",
+            ["Name"] = "Hang Glider",
+            ["ProductId"] = 87344,
+            ["Description"] = "HangGliderDescription",
+            ["Index"] = 11,
+            ["Category"] = "GamePasses"
+        },
+        ["PizzaSlicer"] = {
+            ["Index"] = 13,
+            ["ImageId"] = 15834881580,
+            ["Sale"] = 0,
+            ["AssetId"] = "PizzaSlicer",
+            ["Name"] = "Pizza Slicer",
+            ["Category"] = "GamePasses",
+            ["Description"] = "PizzaSlicerDescription",
+            ["NameId"] = "PizzaSlicer",
+            ["ProductId"] = 681022199
+        },
         ["Estate"] = {
-            ["NameId"] = "Estate",
-            ["Price"] = 4200,
+            ["Index"] = 1,
             ["ImageId"] = 4509912552,
             ["Sale"] = 50,
+            ["AssetId"] = "Estate",
             ["Name"] = "Estate",
-            ["ProductId"] = 7698167,
+            ["Category"] = "GamePasses",
             ["Description"] = "EstateDescription",
-            ["Index"] = 1,
-            ["Category"] = "GamePasses"
+            ["NameId"] = "Estate",
+            ["ProductId"] = 7698167
         }
     },
     ["GamepadEnabled"] = false,
@@ -582,34 +638,37 @@ data = {
         ["WallsFloors"] = {"Walls", "Floors"}
     },
     ["ChristmasRewardIdToModelId"] = {
-        11703144600,
-        11703143466,
-        11703141230,
-        11703142899,
-        11703142470,
-        11703141758,
-        11703143967
+        15475644018,
+        15475630405,
+        15475674024,
+        15475624094,
+        15475649611,
+        15475633930,
+        15475619675
     },
     ["DarkThemeDialog"] = false,
     ["CategoryToType"] = {
         ["PetHats"] = "PetHats",
         ["Hats"] = "Clothing",
         ["Packages"] = "Clothing",
+        ["Trucks"] = "Vehicles",
         ["Floors"] = "WallsFloors",
-        ["Gear"] = "Gear",
+        ["Boats"] = "Vehicles",
         ["Holiday"] = "Furniture",
         ["Stickers"] = "Stickers",
         ["Lights"] = "Furniture",
         ["Entertainment"] = "Furniture",
         ["Tables"] = "Furniture",
         ["Seats"] = "Furniture",
-        ["Walls"] = "WallsFloors",
-        ["Decoration"] = "Furniture",
         ["Customization"] = "Furniture",
+        ["Walls"] = "WallsFloors",
+        ["Gear"] = "Gear",
+        ["Decoration"] = "Furniture",
+        ["Cars"] = "Vehicles",
         ["Shirts"] = "Clothing",
-        ["Pants"] = "Clothing",
-        ["All"] = "Furniture",
         ["Beds"] = "Furniture",
+        ["All"] = "Furniture",
+        ["Pants"] = "Clothing",
         ["Kitchen/Bath"] = "Furniture"
     },
     ["AvatarCategories"] = {
@@ -627,9 +686,15 @@ data = {
         "Heads"
     },
     ["PetNameLength"] = 13,
-    ["Lanes"] = {["Right"] = "Right", ["Left"] = "Left", ["DriveThrough"] = "DriveThrough"},
-    ["RobloxLocaleId"] = "en-us",
-    ["FormatNumber"] = "function: 0x00000000b1f92743",
+    ["CoolDownTimes"] = {["BackToWork"] = 4, ["GiveBonus"] = 10, ["NominateForBan"] = 11, ["EmployeeOfTheDay"] = 15},
+    ["LastChristmasUnwrapTick"] = 1577295000,
+    ["DoCutsceneForTraits"] = {
+        ["Hatch"] = true,
+        ["SkinColor"] = true,
+        ["EyeColor"] = true,
+        ["Teen"] = true,
+        ["Adult"] = true
+    },
     ["PizzaPlaceTestId"] = 142872308,
     ["EyeColors"] = {
         ["glowing_gold"] = {["Name"] = "Glowing Gold", ["Rarity"] = "Rare"},
@@ -648,36 +713,19 @@ data = {
         ["cinder_violet"] = {["Rarity"] = "Undead1", ["Name"] = "Cinder Violet", ["NextEyes"] = "void_violet"},
         ["green"] = {["Name"] = "Green", ["Rarity"] = "Common"},
         ["aura_pink"] = {["Name"] = "Aura Pink", ["Rarity"] = "Mythic"},
-        ["light_green"] = {["Name"] = "Light Blue", ["Rarity"] = "Uncommon"},
+        ["light_green"] = {["Name"] = "Light Green", ["Rarity"] = "Uncommon"},
         ["ander"] = {["Name"] = "Ander", ["Rarity"] = "Uncommon"},
         ["hypervoid_violet"] = {["Name"] = "Hypervoid Violet", ["Rarity"] = "Undead3"}
     },
-    ["IsEnglish"] = "function: 0x00000000b7484af3",
-    ["Localization"] = {
-        ["Translate"] = "function: 0x000000003a838f2b",
-        ["FormatNumber"] = "function: 0x00000000b1f92743",
-        ["GetLanguageId"] = "function: 0x0000000033adfb9b",
-        ["IsEnglish"] = "function: 0x00000000b7484af3"
-    },
-    ["IsMobile"] = true,
-    ["PresentIdToItemId"] = {4532074010, 4525515040, 4527786585, 4521620501, 4531584703, 4537885522, 4537881197},
-    ["CapsuleDuplicateAmount"] = {["Rare"] = 100, ["Legendary"] = 200, ["Uncommon"] = 50, ["Common"] = 25},
-    ["DoCutsceneForTraits"] = {
-        ["Hatch"] = true,
-        ["SkinColor"] = true,
-        ["EyeColor"] = true,
-        ["Teen"] = true,
-        ["Adult"] = true
-    },
-    ["LastChristmasUnwrapTick"] = 1577295000,
-    ["MenuItemImages"] = {
-        ["Pepperoni"] = "rbxassetid://3540529917",
-        ["MountainDew"] = "rbxassetid://2512571151",
-        ["Cheese"] = "rbxassetid://3540529228",
-        ["Sausage"] = "rbxassetid://3540530535"
-    },
-    ["ShopPriceReductionTime"] = 72000,
     ["InventorySlotPrices"] = {0, 12000, 40000},
+    ["Cutables"] = {["BoxOpen"] = true, ["Dew"] = true, ["MountainDew"] = true, ["Dough"] = true, ["SupplyBox"] = true},
+    ["OutsideDisplayProductId1"] = 1710142941,
+    ["PresentIdToItemId"] = {4532074010, 4525515040, 4527786585, 4521620501, 4531584703, 4537885522, 4537881197},
+    ["Horns"] = {
+        ["Car"] = "http://www.roblox.com/asset/?id=272190708",
+        ["Truck"] = "http://www.roblox.com/asset/?id=272187203",
+        ["Boat"] = "rbxassetid://1195916770"
+    },
     ["ShopPrices"] = {
         ["Pepperoni"] = {200, 2600, 8500, 12000, 15000, 30000},
         ["Sausage"] = {200, 2600, 8500, 12000, 15000, 30000},
@@ -686,54 +734,17 @@ data = {
         ["PetHat"] = {-2},
         ["Cheese"] = {200, 2600, 8500, 12000, 15000, 30000}
     },
-    ["PaintableParts"] = {
-        ["Outline"] = true,
-        ["Stairs2"] = true,
-        ["CeilingThirdFloor"] = true,
-        ["Window"] = true,
-        ["HandRail"] = true,
-        ["CeilingThirdFloor3"] = true,
-        ["CeilingSecondFloor2"] = true,
-        ["Pillar"] = true,
-        ["OutdoorTrim"] = true,
-        ["CeilingBasement"] = true,
-        ["Stairs4"] = true,
-        ["Door"] = true,
-        ["Stairs"] = true,
-        ["HandRail2"] = true,
-        ["Shutter"] = true,
-        ["CeilingThirdFloor2"] = true,
-        ["DoorTouch"] = true,
-        ["CeilingSecondFloor"] = true,
-        ["Stairs3"] = true,
-        ["Ceiling"] = true,
-        ["TrimThirdFloor2"] = true,
-        ["Roof"] = true,
-        ["TrimThirdFloor"] = true,
-        ["TrimSecondFloor2"] = true,
-        ["Wall"] = true,
-        ["Frame"] = true,
-        ["TrimSecondFloor"] = true,
-        ["Trim"] = true
+    ["OutsideDisplayProductId2"] = 1710143686,
+    ["MenuItemImages"] = {
+        ["Pepperoni"] = "rbxassetid://3540529917",
+        ["MountainDew"] = "rbxassetid://2512571151",
+        ["Cheese"] = "rbxassetid://3540529228",
+        ["Sausage"] = "rbxassetid://3540530535"
     },
-    ["CoolDownTimes"] = {["BackToWork"] = 4, ["GiveBonus"] = 10, ["NominateForBan"] = 11, ["EmployeeOfTheDay"] = 15},
-    ["OrderIndexToName"] = {"CheesePizza", "PepperoniPizza", "SausagePizza", "MountainDew"},
+    ["ShopPriceReductionTime"] = 72000,
     ["Sale"] = false,
-    ["Admins"] = {
-        ["Dued1"] = 3,
-        ["Player2"] = 10,
-        ["iStratix"] = 17,
-        ["Dert41"] = 4,
-        ["MrJesseh"] = 16,
-        ["jack123"] = 5,
-        ["jelloman"] = 10,
-        ["Player"] = 8,
-        ["RBXZach"] = 15,
-        ["3dCarrot"] = 13,
-        ["Dert51"] = 12,
-        ["billsayshowdy"] = 11,
-        ["Player1"] = 10
-    },
+    ["StarRating"] = {{11, 30}, {31, 80}, {81, 100}, {0, 10}},
+    ["OrderNameToIndex"] = {["SausagePizza"] = 3, ["MountainDew"] = 4, ["PepperoniPizza"] = 2, ["CheesePizza"] = 1},
     ["LickableObjects"] = {
         ["BoxOpen"] = true,
         ["Dew"] = true,
@@ -743,8 +754,7 @@ data = {
         ["Dough"] = true,
         ["SupplyBox"] = true
     },
-    ["NotificationThreshold"] = 200,
-    ["IsOnline"] = true,
+    ["OrderIndexToName"] = {"CheesePizza", "PepperoniPizza", "SausagePizza", "MountainDew"},
     ["DiscountColors"] = {
         Color3.fromRGB(255, 255, 255),
         Color3.fromRGB(255, 255, 0),
@@ -754,10 +764,13 @@ data = {
         Color3.fromRGB(255, 255, 255),
         Color3.fromRGB(0, 0, 0)
     },
-    ["PreferedLanguageVersion"] = 13,
-    ["PetProductId"] = 19024606,
+    ["CapsuleDuplicateAmount"] = {["Rare"] = 100, ["Legendary"] = 200, ["Uncommon"] = 50, ["Common"] = 25},
     ["ValidClothingTypes"] = {"Pants", "Shirt"},
+    ["NotificationThreshold"] = 200,
+    ["IsOnline"] = true,
     ["ValidAccessoryTypes"] = {true, true, true, true, true, true, true, true},
+    ["PreferedLanguageVersion"] = 13,
+    ["EngineSounds"] = {["Boat"] = "rbxassetid://280518144", ["Vehicle"] = "rbxassetid://4525667453"},
     ["AvatarCategoryIcons"] = {
         ["Waist"] = 2617537855,
         ["Neck"] = 2617537782,
@@ -772,6 +785,21 @@ data = {
         ["Shoulder"] = 2617537853,
         ["Hair"] = 2617537791
     },
+    ["InventorySubcategoryIcons"] = {
+        ["Lights"] = 2619188950,
+        ["Entertainment"] = 2619189841,
+        ["Tables"] = 2619267206,
+        ["Seats"] = 2619188949,
+        ["Beds"] = 2619265626,
+        ["Walls"] = 2619254177,
+        ["Decoration"] = 2619188921,
+        ["Floors"] = 2619188925,
+        ["Customization"] = 2619265624,
+        ["All"] = 2619188923,
+        ["Holiday"] = 2619188926,
+        ["Kitchen/Bath"] = 2619188922
+    },
+    ["Lanes"] = {["Right"] = "Right", ["Left"] = "Left", ["DriveThrough"] = "DriveThrough"},
     ["CrossoverEventInfo"] = {
         ["EndTick"] = 0,
         ["StartTick"] = 0,
@@ -1025,20 +1053,7 @@ data = {
             ["Probability"] = 2
         }
     },
-    ["InventorySubcategoryIcons"] = {
-        ["Lights"] = 2619188950,
-        ["Entertainment"] = 2619189841,
-        ["Tables"] = 2619267206,
-        ["Seats"] = 2619188949,
-        ["Beds"] = 2619265626,
-        ["Walls"] = 2619254177,
-        ["Decoration"] = 2619188921,
-        ["Floors"] = 2619188925,
-        ["Customization"] = 2619265624,
-        ["All"] = 2619188923,
-        ["Holiday"] = 2619188926,
-        ["Kitchen/Bath"] = 2619188922
-    },
+    ["PetProductId"] = 19024606,
     ["PetNames"] = {
         "Acorn",
         "Alvin",
@@ -1292,41 +1307,16 @@ data = {
     },
     ["PenaltyAmount"] = {
         ["ClosedEmptyBox"] = -5,
-        ["WrongOrder"] = -10,
-        ["HeldDeliveryToolLong"] = -4,
+        ["SlicedObject"] = -6,
         ["KickedOutOfOrderHole"] = -1,
-        ["BurnedObject"] = -5,
+        ["IncorrectDialogResponse"] = -10,
+        ["WrongOrder"] = -10,
+        ["HeldDeliveryToolLong"] = -3,
         ["BurnedSoda"] = -5,
         ["BugsOnDough"] = -5,
-        ["IncorrectDialogResponse"] = -10
+        ["BurnedObject"] = -5
     },
     ["PetPrice"] = 7000,
-    ["IngredientImages"] = {
-        ["Pepperoni"] = "http://www.roblox.com/asset/?id=167850850",
-        ["TomatoSauce"] = "http://www.roblox.com/asset/?id=167850867",
-        ["Sausage"] = "http://www.roblox.com/asset/?id=167850856",
-        ["Dough"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260912",
-        ["MountainDew"] = "rbxassetid://2512571151",
-        ["Cheese"] = "http://www.roblox.com/asset/?id=167850840",
-        ["Box"] = "http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260735"
-    },
-    ["OrderNameToIndex"] = {["SausagePizza"] = 3, ["MountainDew"] = 4, ["PepperoniPizza"] = 2, ["CheesePizza"] = 1},
-    ["ChristmasUnwrapTickTest"] = true,
-    ["AvatarCategoriesChina"] = {"Hats", "Hair", "Face", "Faces", "Neck", "Back", "Shoulder", "Waist"},
-    ["TrophyLevels"] = {
-        ["Streak"] = {
-            {["Goal"] = 14, ["AwardId"] = 783564647},
-            {["Goal"] = 60, ["AwardId"] = 739678967},
-            {["Goal"] = 182, ["AwardId"] = 957765753},
-            {["Goal"] = 365, ["AwardId"] = 490567345}
-        }
-    },
-    ["PaycheckLimit"] = 3000,
-    ["DataStoreNames"] = {
-        ["MostLikes"] = "MostLikes",
-        ["MostOrders"] = "MostOrders",
-        ["MostCoinsSpent"] = "MostCoinsSpent"
-    },
     ["BaseURL"] = "http://www.roblox.com/asset/?id=",
     ["HouseInfo"] = {
         ["Modern"] = {
@@ -1437,7 +1427,7 @@ data = {
                 ["Id"] = "Tiny",
                 ["Name"] = "Tiny",
                 ["NextUpgrade"] = "Small",
-                ["Price"] = 100,
+                ["Price"] = 50,
                 ["MaxFurnitureMemory"] = 16,
                 ["ImageId"] = 8729100304,
                 ["Index"] = 2
@@ -1567,7 +1557,73 @@ data = {
             }
         }
     },
+    ["ChristmasUnwrapTickTest"] = true,
+    ["AvatarCategoriesChina"] = {"Hats", "Hair", "Face", "Faces", "Neck", "Back", "Shoulder", "Waist"},
+    ["TrophyLevels"] = {
+        ["Streak"] = {
+            {["Goal"] = 14, ["AwardId"] = 783564647},
+            {["Goal"] = 60, ["AwardId"] = 739678967},
+            {["Goal"] = 182, ["AwardId"] = 957765753},
+            {["Goal"] = 365, ["AwardId"] = 490567345}
+        },
+        ["Inviter"] = {
+            {["Goal"] = 1, ["AwardId"] = 694759837},
+            {["Goal"] = 3, ["AwardId"] = 719549938},
+            {["Goal"] = 5, ["AwardId"] = 810298453}
+        }
+    },
+    ["PaycheckLimit"] = 3000,
+    ["DataStoreNames"] = {
+        ["MostLikes"] = "MostLikes",
+        ["MostOrders"] = "MostOrders",
+        ["MostCoinsSpent"] = "MostCoinsSpent"
+    },
     ["AccessoryBlacklist"] = {true, true, true, true},
+    ["PaintableParts"] = {
+        ["Outline"] = true,
+        ["Stairs2"] = true,
+        ["CeilingThirdFloor"] = true,
+        ["Window"] = true,
+        ["HandRail"] = true,
+        ["CeilingThirdFloor3"] = true,
+        ["CeilingSecondFloor2"] = true,
+        ["Pillar"] = true,
+        ["OutdoorTrim"] = true,
+        ["CeilingBasement"] = true,
+        ["Stairs4"] = true,
+        ["Door"] = true,
+        ["Stairs"] = true,
+        ["HandRail2"] = true,
+        ["Shutter"] = true,
+        ["CeilingThirdFloor2"] = true,
+        ["DoorTouch"] = true,
+        ["CeilingSecondFloor"] = true,
+        ["Stairs3"] = true,
+        ["Ceiling"] = true,
+        ["TrimThirdFloor2"] = true,
+        ["Roof"] = true,
+        ["TrimThirdFloor"] = true,
+        ["TrimSecondFloor2"] = true,
+        ["Wall"] = true,
+        ["Frame"] = true,
+        ["TrimSecondFloor"] = true,
+        ["Trim"] = true
+    },
+    ["Admins"] = {
+        ["Dued1"] = 3,
+        ["Player2"] = 10,
+        ["iStratix"] = 17,
+        ["Dert41"] = 4,
+        ["MrJesseh"] = 16,
+        ["jack123"] = 5,
+        ["jelloman"] = 10,
+        ["Player"] = 8,
+        ["RBXZach"] = 15,
+        ["3dCarrot"] = 13,
+        ["Dert51"] = 12,
+        ["billsayshowdy"] = 11,
+        ["Player1"] = 10
+    },
     ["ActionXP"] = {
         ["Sleep"] = 20,
         ["CureSickness"] = 40,
@@ -1589,7 +1645,7 @@ data = {
     },
     ["IntroSequenceEnabled"] = true,
     ["FreeMode"] = false,
-    ["GetHouseInfoFromIndex"] = "function: 0x00000000ec4cc3d3",
+    ["GetHouseInfoFromIndex"] = "function: 0x00000000d726f717",
     ["PetLifeStage"] = {
         ["Hatch"] = {2, 2},
         ["Buff"] = {3, 8},
