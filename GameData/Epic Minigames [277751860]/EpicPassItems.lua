@@ -1,6 +1,6 @@
 data = {
     ["seasonSerials"] = {["9"] = "Autumn", ["12"] = "Winter", ["3"] = "Spring", ["6"] = "Summer"},
-    ["randomSortOffset"] = 120,
+    ["randomSortOffset"] = 72,
     ["seasonLength"] = 4838400,
     ["RewardsCycle"] = {
         ["Spring"] = {
@@ -163,9 +163,56 @@ data = {
                 ["Top100Alltime"] = {"Elemental", "Uncommon"}
             }
         },
-        ["Winter"] = {}
+        ["Winter"] = {
+            ["Rotation"] = {
+                {"Minigame Choice", "Common"},
+                {"Minigame Choice", "Common"},
+                {"Minigame Choice x2", "Uncommon"},
+                {"Minigame Choice x2", "Uncommon"},
+                {"Skating Penguin", "Uncommon"},
+                {"Snow Bird", "Uncommon"},
+                {"Winter Fairy", "Rare"},
+                {"Spell Book of Ice Cold Revenge", "Legendary"},
+                {"Staff of Neverending Frost", "Rare"},
+                {"Jack Frost", "Common"},
+                {"Snowflake", "Rare"},
+                {"Hyperborean", "Uncommon"},
+                {"Frigid", "Common"},
+                {"Crystalized", "Rare"},
+                {"Snow Trail", "Uncommon"},
+                {"Ice Shards", "Common"}
+            },
+            ["Fixed"] = {
+                ["A"] = {"Minigame Choice", "Common"},
+                ["C"] = {"Annoying Elf", "Uncommon"},
+                ["B"] = {"Cozy", "Uncommon"},
+                ["E"] = {"Ice Dragon", "Legendary"},
+                ["D"] = {"Aurora Borealis", "Rare"}
+            },
+            ["Cumulative"] = {
+                ["A"] = {"Minigame Choice", "Common"},
+                ["H"] = {"Arctic Wolf", "Legendary"},
+                ["C"] = {"Coins_200", "Common"},
+                ["B"] = {"Cosmic Trail", "Uncommon"},
+                ["E"] = {"Minigame Choice x2", "Uncommon"},
+                ["D"] = {"7th Seasoneer", "Rare"},
+                ["G"] = {"Minigame Choice x2", "Uncommon"},
+                ["F"] = {"Snowball Launcher", "Rare"}
+            },
+            ["Leaderboards"] = {
+                ["Top5Alltime"] = {"Opulent Award", "Legendary"},
+                ["Silver"] = "2nd Place Trophy",
+                ["Top5Weekly"] = {"Owen the Orca", "Legendary"},
+                ["Top50Weekly"] = {"Aurora Sphere", "Rare"},
+                ["Bronze"] = "3rd Place Trophy",
+                ["Top50Alltime"] = {"Evolving", "Rare"},
+                ["Gold"] = "1st Place Trophy",
+                ["Top100Weekly"] = {"Magnificent", "Uncommon"},
+                ["Top100Alltime"] = {"Omnipotent", "Uncommon"}
+            }
+        }
     },
-    ["getSeasonData"] = "function: 0x00000000e0c2b4f8",
+    ["getSeasonData"] = "function: 0x00000000bd4918ee",
     ["rotationTimeStart"] = 1683158400,
     ["weeklyChallenges"] = {
         {
@@ -210,29 +257,12 @@ data = {
         {"W2C3", "Win 15 Racing minigames", 15, 6},
         {"W2C4", "Win 15 Team minigames", 15, 6},
         {"W2C5", "Win 10 Controller minigames", 10, 6},
-        {"SC1", "Have 3 players follow you into the game while playing", 3, 5},
         {"SC2", "Play on a Large server for 45 minutes", "Play on a Pro server for 45 minutes", 45, 45, 5},
         {"SC3", "Play for a total of 45 minutes", 45, 5},
         {"SC4", "Play for a total of 60 minutes", 60, 6},
         {"KC1", "Kill 6 players in a row", "Kill 20 players", 6, 20, 5},
         {"KC2", "Kill 7 players in a row", "Kill 25 players", 7, 25, 6},
         {"KC3", "Kill 8 players in a row", "Kill 30 players", 8, 30, 7},
-        {
-            "KC4",
-            "Kill a player with the Time Bomb in Brickbattle",
-            "Kill 5 players with the Slingshot in Brickbattle",
-            1,
-            5,
-            5
-        },
-        {
-            "KC5",
-            "Kill 3 players with the Paintball Gun in Brickbattle",
-            "Kill 5 players with the Superball in Brickbattle",
-            3,
-            5,
-            5
-        },
         {
             "KC6",
             "Kill 5 players with the Rocket Launcher in Brickbattle",
@@ -265,7 +295,6 @@ data = {
         {"W2C3", "Win 5 Racing minigames", 5, 2},
         {"W2C4", "Win 5 Team minigames", 5, 2},
         {"W2C5", "Win 3 Controller minigames", 3, 2},
-        {"SC1", "Have 1 player follow you into the game while playing", 1, 2},
         {"SC2", "Play on a Large server for 15 minutes", "Play on a Pro server for 15 minutes", 15, 15, 2},
         {"SC3", "Play for a total of 15 minutes", 15, 2},
         {"SC4", "Play for a total of 25 minutes", 25, 3},
