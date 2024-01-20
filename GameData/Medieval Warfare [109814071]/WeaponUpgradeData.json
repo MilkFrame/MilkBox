@@ -1,0 +1,450 @@
+{
+  "vijaya": {
+    "name": "neonite",
+    "price": 200
+  },
+  "quaternion": {
+    "name": "quartz",
+    "price": 425
+  },
+  "arcanite reaper": {
+    "name": "arcanite",
+    "price": 725
+  },
+  "meso bow": {
+    "name": "mesonite",
+    "price": 175
+  },
+  "shadowmourne": {
+    "name": "tanzanite",
+    "price": 800
+  },
+  "block sword": {
+    "name": "blockite",
+    "price": 1000
+  },
+  "steel blade": {
+    "name": "steel",
+    "price": 50
+  },
+  "meseos": {
+    "name": "mesonite",
+    "price": 175
+  },
+  "opallum": {
+    "name": "opal",
+    "price": 925
+  },
+  "gold blade": {
+    "name": "gold",
+    "price": 75
+  },
+  "rainbow": {
+    "name": "ammolite",
+    "price": 675
+  },
+  "blade of encryption": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "magmidar": {
+    "name": "magmite",
+    "price": 900
+  },
+  "vile thorn": {
+    "name": "draconite",
+    "price": 225
+  },
+  "spooder": {
+    "name": "spookinite",
+    "price": 500
+  },
+  "festive blade": {
+    "name": "candinite",
+    "price": 550
+  },
+  "firebreather": {
+    "name": "bloodstone",
+    "price": 400
+  },
+  "crimson mace": {
+    "name": "crimsonite",
+    "price": 950
+  },
+  "blue dragon": {
+    "name": "topaz",
+    "price": 600
+  },
+  "asi": {
+    "name": "neonite",
+    "price": 200
+  },
+  "block bow": {
+    "name": "blockite",
+    "price": 1000
+  },
+  "fractal sword": {
+    "name": "fractite",
+    "price": 875
+  },
+  "kusanagi": {
+    "name": "neonite",
+    "price": 200
+  },
+  "obsidium bow": {
+    "name": "obsidium",
+    "price": 825
+  },
+  "dragona meso": {
+    "name": "mesonite",
+    "price": 175
+  },
+  "shamshir": {
+    "name": "xionite",
+    "price": 475
+  },
+  "mesaneos": {
+    "name": "mesonite",
+    "price": 175
+  },
+  "blue serpent": {
+    "name": "topaz",
+    "price": 600
+  },
+  "righteous faith": {
+    "name": "kaminite",
+    "price": 450
+  },
+  "brutalizer": {
+    "name": "gold",
+    "price": 75
+  },
+  "shadow hunter": {
+    "name": "tanzanite",
+    "price": 800
+  },
+  "taut sinew": {
+    "name": "iridium",
+    "price": 375
+  },
+  "diamond blade": {
+    "name": "diamond",
+    "price": 100
+  },
+  "fractal bow": {
+    "name": "fractite",
+    "price": 875
+  },
+  "draco fang": {
+    "name": "draconite",
+    "price": 225
+  },
+  "tyrfing artisean bow": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "azuro": {
+    "name": "azurite",
+    "price": 525
+  },
+  "azion": {
+    "name": "azurite",
+    "price": 525
+  },
+  "aragya": {
+    "name": "aragonite",
+    "price": 650
+  },
+  "megadolas": {
+    "name": "gold",
+    "price": 75
+  },
+  "gandiva": {
+    "name": "diamond",
+    "price": 100
+  },
+  "axe of undoing": {
+    "name": "hematite",
+    "price": 575
+  },
+  "barren": {
+    "name": "voidsteel",
+    "price": 700
+  },
+  "cobalt recurve": {
+    "name": "cobalt",
+    "price": 750
+  },
+  "angelus ray": {
+    "name": "amethyst",
+    "price": 325
+  },
+  "parashu": {
+    "name": "sugilite",
+    "price": 625
+  },
+  "caliburn": {
+    "name": "sugilite",
+    "price": 625
+  },
+  "spectra": {
+    "name": "ammolite",
+    "price": 675
+  },
+  "oathbreaker": {
+    "name": "demonite",
+    "price": 150
+  },
+  "arcanite recurve": {
+    "name": "arcanite",
+    "price": 725
+  },
+  "bloodsurge": {
+    "name": "bloodstone",
+    "price": 400
+  },
+  "gram": {
+    "name": "neonite",
+    "price": 200
+  },
+  "vitrum lux": {
+    "name": "amethyst",
+    "price": 325
+  },
+  "opal recurve": {
+    "name": "opal",
+    "price": 925
+  },
+  "ebonsong": {
+    "name": "zeonite",
+    "price": 250
+  },
+  "cobalt axe": {
+    "name": "cobalt",
+    "price": 750
+  },
+  "continuum blade": {
+    "name": "iridium",
+    "price": 375
+  },
+  "piercing light": {
+    "name": "kaminite",
+    "price": 450
+  },
+  "merry blade": {
+    "name": "candinite",
+    "price": 550
+  },
+  "quarto": {
+    "name": "quartz",
+    "price": 425
+  },
+  "bluesteel sword": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "somber shard": {
+    "name": "midnite",
+    "price": 350
+  },
+  "iridian": {
+    "name": "iridium",
+    "price": 375
+  },
+  "caladbolg": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "tormanite recurve": {
+    "name": "tormanite",
+    "price": 975
+  },
+  "arcanite fury": {
+    "name": "arcanite",
+    "price": 725
+  },
+  "ko'gun": {
+    "name": "zeonite",
+    "price": 250
+  },
+  "brahmastra": {
+    "name": "gold",
+    "price": 75
+  },
+  "shadowblade": {
+    "name": "tanzanite",
+    "price": 800
+  },
+  "deprived": {
+    "name": "voidsteel",
+    "price": 700
+  },
+  "mountain root": {
+    "name": "titansteel",
+    "price": 275
+  },
+  "genzaniku": {
+    "name": "neonite",
+    "price": 200
+  },
+  "holy vow": {
+    "name": "kaminite",
+    "price": 450
+  },
+  "obsidium sword": {
+    "name": "obsidium",
+    "price": 825
+  },
+  "aragnic bow": {
+    "name": "aragonite",
+    "price": 650
+  },
+  "edge of chaos": {
+    "name": "demonite",
+    "price": 150
+  },
+  "gaze of the abyss": {
+    "name": "midnite",
+    "price": 350
+  },
+  "opalnor": {
+    "name": "opal",
+    "price": 925
+  },
+  "block mace": {
+    "name": "blockite",
+    "price": 1000
+  },
+  "zomodana": {
+    "name": "xionite",
+    "price": 475
+  },
+  "magmidon": {
+    "name": "magmite",
+    "price": 900
+  },
+  "bashing hammer": {
+    "name": "hematite",
+    "price": 575
+  },
+  "pinaka": {
+    "name": "sugilite",
+    "price": 625
+  },
+  "titanvein": {
+    "name": "titansteel",
+    "price": 275
+  },
+  "copper blade": {
+    "name": "copper",
+    "price": 25
+  },
+  "aragna": {
+    "name": "aragonite",
+    "price": 650
+  },
+  "torment": {
+    "name": "painite",
+    "price": 775
+  },
+  "fractal glaive": {
+    "name": "fractite",
+    "price": 875
+  },
+  "agony": {
+    "name": "painite",
+    "price": 775
+  },
+  "titanshot": {
+    "name": "titansteel",
+    "price": 275
+  },
+  "jolly bow": {
+    "name": "candinite",
+    "price": 550
+  },
+  "spoober": {
+    "name": "spookinite",
+    "price": 500
+  },
+  "frostbite": {
+    "name": "adamantite",
+    "price": 850
+  },
+  "cobalt sword": {
+    "name": "cobalt",
+    "price": 750
+  },
+  "tormanite sword": {
+    "name": "tormanite",
+    "price": 975
+  },
+  "sharur": {
+    "name": "neonite",
+    "price": 200
+  },
+  "scysoe": {
+    "name": "mesonite",
+    "price": 175
+  },
+  "frostbane": {
+    "name": "adamantite",
+    "price": 850
+  },
+  "bluesteel mace": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "suffering shot": {
+    "name": "painite",
+    "price": 775
+  },
+  "frostmourne": {
+    "name": "adamantite",
+    "price": 850
+  },
+  "crimson sword": {
+    "name": "crimsonite",
+    "price": 950
+  },
+  "umbra needle": {
+    "name": "midnite",
+    "price": 350
+  },
+  "executioner": {
+    "name": "draconite",
+    "price": 225
+  },
+  "destitute": {
+    "name": "voidsteel",
+    "price": 700
+  },
+  "crimson recurve": {
+    "name": "crimsonite",
+    "price": 950
+  },
+  "vala'nyr": {
+    "name": "bluesteel",
+    "price": 125
+  },
+  "obsidium axe": {
+    "name": "obsidium",
+    "price": 825
+  },
+  "prisma": {
+    "name": "ammolite",
+    "price": 675
+  },
+  "tormanite axe": {
+    "name": "tormanite",
+    "price": 975
+  },
+  "sol funesta": {
+    "name": "amethyst",
+    "price": 325
+  },
+  "magma bow": {
+    "name": "magmite",
+    "price": 900
+  }
+}
