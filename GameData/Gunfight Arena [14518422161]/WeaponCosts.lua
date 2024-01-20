@@ -1,6 +1,6 @@
 data = {
     ["870 DM"] = {
-        ["Cost"] = 165000,
+        ["Cost"] = 200000,
         ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["K50M"] = {
@@ -12,11 +12,20 @@ data = {
         ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["M40A1"] = {
-        ["Cost"] = 185000,
+        ["Cost"] = 370000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeHigh BrassCopper SlugLead SlugNitro Express"
     },
+    ["Laser Carbine"] = {
+        ["Prestige"] = 5,
+        ["Cost"] = 25000000,
+        ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
+    },
+    ["Saiga 12"] = {
+        ["Cost"] = 685000,
+        ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
+    },
     ["M3A1"] = {
-        ["Cost"] = 185000,
+        ["Cost"] = 370000,
         ["AttBlacklist"] = "Angled ForegripWood Stub GripPolymer Stub GripWood HandstopPolymer HandstopClubPistol GripDefenderFrogmanSpetzHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Akimbo PM63"] = {["Cost"] = 0, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
@@ -25,7 +34,7 @@ data = {
         ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["PPSH"] = {
-        ["Cost"] = 240000,
+        ["Cost"] = 480000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Sawnoff"] = {
@@ -59,7 +68,7 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipperHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["SVD"] = {
-        ["Cost"] = 390000,
+        ["Cost"] = 780000,
         ["AttBlacklist"] = "ClubFrogmanArcherSalagaSwivelPistol GripDefenderRidgeRipperSpetzHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["AS Val"] = {
@@ -67,13 +76,13 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Honey Badger"] = {
-        ["Cost"] = 169420,
+        ["Cost"] = 250000,
         ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
-    ["G11"] = {["Cost"] = 950000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
+    ["G11"] = {["Cost"] = 1900000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["DP27"] = {
         ["Prestige"] = 1,
-        ["Cost"] = 4000000,
+        ["Cost"] = 8000000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["KS23"] = {
@@ -86,7 +95,7 @@ data = {
     },
     ["Mauser C96"] = {
         ["Secondary"] = true,
-        ["Cost"] = 250000,
+        ["Cost"] = 500000,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
     },
     ["Double Barrel"] = {
@@ -98,7 +107,7 @@ data = {
         ["AttBlacklist"] = "ClubMakeshift StockSwivelSalagaSpetzFrogmanArcherRipperRidgeHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["FAL"] = {
-        ["Cost"] = 495000,
+        ["Cost"] = 990000,
         ["AttBlacklist"] = "ClubPistol GripDefenderSpetzFrogmanHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["STG44"] = {
@@ -124,12 +133,12 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderSpetzFrogmanHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["M21"] = {
-        ["Cost"] = 325000,
+        ["Cost"] = 650000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Laser Rifle"] = {
         ["Prestige"] = 3,
-        ["Cost"] = 8000000,
+        ["Cost"] = 16000000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle Brake"
     },
     ["M1C"] = {
@@ -137,7 +146,7 @@ data = {
         ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["RPK"] = {
-        ["Cost"] = 385000,
+        ["Cost"] = 770000,
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Owen Gun"] = {
@@ -145,19 +154,20 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanSpetzHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["PPK"] = {["Secondary"] = true, ["Cost"] = 2500, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
-    ["Gingerbread Rifle"] = {
-        ["Cost"] = 750000,
+    ["AUGA3"] = {
+        ["Cost"] = 0,
         ["Hidden"] = true,
-        ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
+        ["AttBlacklist"] = "BirdcageClubPistol GripDefenderSpetzFrogmanHigh BrassCopper SlugLead SlugNitro Express"
+    },
+    ["Snowball Launcher"] = {
+        ["Cost"] = 165000,
+        ["Hidden"] = false,
+        ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["Akimbo Deagle"] = {
         ["Secondary"] = true,
         ["Cost"] = 0,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
-    },
-    ["Scar H"] = {
-        ["Cost"] = 400000,
-        ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSpetzArcherSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["M2 Carbine"] = {
         ["Cost"] = 0,
@@ -172,24 +182,23 @@ data = {
         ["Cost"] = 1000,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
     },
-    ["M60"] = {["Cost"] = 2500000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
+    ["M60"] = {["Cost"] = 5000000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["M1A1"] = {
-        ["Cost"] = 310000,
+        ["Cost"] = 620000,
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipperSpetzHigh BrassCopper SlugLead SlugNitro Express"
+    },
+    ["Scar H"] = {
+        ["Cost"] = 800000,
+        ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSpetzArcherSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
+    },
+    ["Model 1100"] = {
+        ["Cost"] = 325000,
+        ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["Akimbo G40"] = {
         ["Secondary"] = true,
         ["Cost"] = 0,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
-    },
-    ["Model 1100"] = {
-        ["Cost"] = 155000,
-        ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
-    },
-    ["Snowball Launcher"] = {
-        ["Cost"] = 165000,
-        ["Hidden"] = false,
-        ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["Rhino"] = {
         ["Cost"] = 0,
@@ -197,25 +206,25 @@ data = {
         ["Hidden"] = true,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
     },
-    ["SKS"] = {
-        ["Cost"] = 260000,
-        ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
+    ["Gingerbread Rifle"] = {
+        ["Cost"] = 1500000,
+        ["Hidden"] = true,
+        ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["AK47"] = {
         ["Cost"] = 50000,
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Galil"] = {
-        ["Cost"] = 425000,
+        ["Cost"] = 850000,
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
     },
-    ["AUGA3"] = {
-        ["Cost"] = 0,
-        ["Hidden"] = true,
-        ["AttBlacklist"] = "BirdcageClubPistol GripDefenderSpetzFrogmanHigh BrassCopper SlugLead SlugNitro Express"
+    ["SKS"] = {
+        ["Cost"] = 520000,
+        ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Candy Launcher"] = {
-        ["Cost"] = 2500000,
+        ["Cost"] = 5000000,
         ["Hidden"] = true,
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipperSpetzHigh BrassCopper SlugLead SlugNitro Express"
     },
@@ -223,9 +232,9 @@ data = {
         ["Cost"] = 0,
         ["AttBlacklist"] = "Heavy SuppressorLight SuppressorBirdcageBreacherCompensatorCutterFlash CanMuzzle BrakeCompressorMakeshift SuppressorHigh BrassCopper SlugLead SlugNitro ExpressMatchSoft PointHigh VelocityHigh Mass"
     },
-    ["Vector"] = {["Prestige"] = 2, ["Cost"] = 4500000, ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipper"},
+    ["Vector"] = {["Prestige"] = 2, ["Cost"] = 9000000, ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipper"},
     ["AR10"] = {
-        ["Cost"] = 475000,
+        ["Cost"] = 950000,
         ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSpetzArcherSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["AK12"] = {
@@ -238,12 +247,12 @@ data = {
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Stoner 63A"] = {
-        ["Cost"] = 345000,
+        ["Cost"] = 690000,
         ["AttBlacklist"] = "BirdcageClubPistol GripDefenderFrogmanHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Type 99"] = {["Cost"] = 47500, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["P90"] = {
-        ["Cost"] = 335000,
+        ["Cost"] = 670000,
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanSpetzArcherHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["TKB11"] = {
@@ -257,7 +266,7 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelFrogmanHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["Model 7188"] = {
-        ["Cost"] = 285000,
+        ["Cost"] = 570000,
         ["AttBlacklist"] = "Makeshift StockRidgeSpetzRipperArcherFrogmanSwivelSalagaHardstepBirdcageCompensatorCompressorCutterFlash CanMuzzle BrakeMatchSoft PointHigh VelocityHigh Mass"
     },
     ["Minigun"] = {
@@ -265,7 +274,7 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanSpetzHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["M14E2"] = {
-        ["Cost"] = 300000,
+        ["Cost"] = 600000,
         ["AttBlacklist"] = "ClubFrogmanArcherSalagaSwivelPistol GripDefenderRidgeRipperSpetzHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["P08 Luger"] = {
@@ -280,19 +289,19 @@ data = {
     },
     ["Python"] = {
         ["Secondary"] = true,
-        ["Cost"] = 190000,
+        ["Cost"] = 380000,
         ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
     },
     ["Toy Gun"] = {
-        ["Cost"] = 450000,
+        ["Cost"] = 900000,
         ["Hidden"] = true,
         ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanSpetzArcherHigh BrassCopper SlugLead SlugNitro Express"
     },
-    ["RPD"] = {["Cost"] = 500000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
+    ["RPD"] = {["Cost"] = 1000000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["TT30"] = {["Secondary"] = true, ["Cost"] = 0, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["Barret M82"] = {
         ["Prestige"] = 1,
-        ["Cost"] = 2750000,
+        ["Cost"] = 5500000,
         ["AttBlacklist"] = "FrogmanArcherSalagaSwivelRidgeRipperSpetzMakeshift StockHardstepHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["MAS-38"] = {
