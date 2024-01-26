@@ -1,0 +1,144 @@
+data = {
+    ["Items"] = {
+        ["Purchase"] = {
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1000, 1800},
+                ["Base"] = "Scrap Metal",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {2000, 3000},
+                ["Base"] = "Sandstone",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 3,
+                ["Weight"] = 1,
+                ["Price"] = {4000, 6000},
+                ["Base"] = "Diamond",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {10000, 30000},
+                ["Base"] = "Frog Legs",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1500, 3000},
+                ["Base"] = "Corrupted Shard",
+                ["Currency"] = "Gems"
+            }
+        },
+        ["Sell"] = {
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {300, 500},
+                ["Base"] = "Scrap Metal",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {600, 1200},
+                ["Base"] = "Sandstone",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {2200, 3200},
+                ["Base"] = "Diamond",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 3,
+                ["Weight"] = 1,
+                ["Price"] = {4200, 6200},
+                ["Base"] = "Diamond",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {800, 1200},
+                ["Base"] = "Vines",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {300, 600},
+                ["Base"] = "Corrupted Shard",
+                ["Currency"] = "Gems"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1000, 1300},
+                ["Base"] = "Coal",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1200, 1200},
+                ["Base"] = "Ruby",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1200, 1200},
+                ["Base"] = "Lunar Shard",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 3,
+                ["Weight"] = 1,
+                ["Price"] = {1200, 1200},
+                ["Base"] = "Lunar Shard",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 2,
+                ["Weight"] = 1,
+                ["Price"] = {3200, 5200},
+                ["Base"] = "Yeti Fur",
+                ["Currency"] = "Gold"
+            },
+            {
+                ["Type"] = "Materials",
+                ["Stock"] = 1,
+                ["Weight"] = 1,
+                ["Price"] = {1200, 8200},
+                ["Base"] = "Prismarine",
+                ["Currency"] = "Gold"
+            }
+        }
+    }
+}
