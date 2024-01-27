@@ -1,0 +1,19 @@
+data = {
+    ["IsMuseum"] = false,
+    ["SocialHub"] = 6341188614,
+    ["VersionSuffix"] = "function: 0x00000000eff0cea1",
+    ["GP_DanceParty"] = 6771957487,
+    ["WishTemple"] = 9483296866,
+    ["RoleParty"] = 7661992967,
+    ["GetPlaceName"] = "function: 0x000000007ab90801",
+    ["IsLobbyPlace"] = true,
+    ["Museum"] = 8192641004,
+    ["FarmSim"] = 10907065150,
+    ["PicnicPanic"] = 6845003934,
+    ["OutfitZone"] = 6640886447,
+    ["CurrentPlaceName"] = "Lobby",
+    ["IsWishTemple"] = false,
+    ["IsOtherGame"] = "function: 0x00000000c5df6879",
+    ["Lobby"] = 5611648039,
+    ["IsSocialHub"] = false
+}
