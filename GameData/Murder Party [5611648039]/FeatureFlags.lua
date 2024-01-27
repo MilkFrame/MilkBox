@@ -1,0 +1,23 @@
+data = {
+    ["ExploitPrevention"] = true,
+    ["PartyPlannerAOE"] = true,
+    ["ReleaseStageName"] = "Production",
+    ["TrickOrTreat"] = false,
+    ["WishTempleEnabled"] = true,
+    ["MuseumEnabled"] = true,
+    ["GachaTokensEnabled"] = false,
+    ["ForgeEnabled"] = true,
+    ["GamePass"] = false,
+    ["PrizeCalendar"] = false,
+    ["MissionsEnabled"] = true,
+    ["AllowDebugCommands"] = false,
+    ["IsStaging"] = false,
+    ["UseProductionAmplitude"] = true,
+    ["EconomyAnalyticsInstance"] = false,
+    ["DeathCam"] = false,
+    ["GachaEnabled"] = true,
+    ["ExploitPreventionKick"] = false,
+    ["IsProduction"] = true,
+    ["ExploitPreventionCheckWater"] = false,
+    ["TradingEnabled"] = true
+}
