@@ -1,0 +1,22 @@
+data = {
+    ["GetAllKnives"] = "function: 0x00000000a71a3b0a",
+    ["GetOffset"] = "function: 0x00000000b677a22a",
+    ["GetRarity"] = "function: 0x000000001d282122",
+    ["GetTexture"] = "function: 0x0000000022e4a8f2",
+    ["GetFlair"] = "function: 0x000000009940efba",
+    ["GetInfo"] = "function: 0x00000000a2c3151a",
+    ["GetKnifeDesc"] = "function: 0x000000007a8e4cea",
+    ["IsPetTradeable"] = "function: 0x00000000ede5327a",
+    ["GetPetRarity"] = "function: 0x0000000061dff552",
+    ["PetExists"] = "function: 0x000000007aa2dec2",
+    ["GetTradeable"] = "function: 0x0000000081d1e75a",
+    ["GetRarityColor"] = "function: 0x00000000b17efe3a",
+    ["GetCompAndTradable"] = "function: 0x000000003df28c02",
+    ["GetMesh"] = "function: 0x000000000c553a92",
+    ["GetOrientation"] = "function: 0x000000002ecbf1d2",
+    ["AllowEffects"] = "function: 0x00000000f6aaaffa",
+    ["PetRarityColor"] = "function: 0x000000003d28388a",
+    ["KnifeExists"] = "function: 0x000000001e1d09e2",
+    ["PetTradeable"] = "function: 0x000000000d4eddb2",
+    ["GetScale"] = "function: 0x000000009813734a"
+}
