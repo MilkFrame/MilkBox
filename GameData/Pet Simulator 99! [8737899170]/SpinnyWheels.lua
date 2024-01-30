@@ -1,11 +1,12 @@
 data = {
     ["StarterWheel"] = {
         ["RequiredItem"] = {["_data"] = {["id"] = "Spinny Wheel Ticket"}},
-        ["_id"] = "StarterWheel",
+        ["RequiredFunction"] = "function: 0x0000000084841053",
         ["ItemCooldown"] = 57600,
-        ["ParentId"] = "Spawn",
+        ["ParentId"] = "Castle",
         ["DisplayName"] = "Spinny Wheel!",
         ["_script"] = "SpinnyWheel | StarterWheel",
+        ["_id"] = "StarterWheel",
         ["ParentType"] = 1,
         ["DropTable"] = {
             {
@@ -347,7 +348,7 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 1000},
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 2000},
                                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
                                         ["_maxAmount"] = 999999999
@@ -356,7 +357,7 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 750},
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 1500},
                                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
                                         ["_maxAmount"] = 999999999
@@ -365,7 +366,7 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 500},
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 1000},
                                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
                                         ["_maxAmount"] = 999999999
@@ -382,45 +383,45 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Apple", ["_am"] = 6, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Apple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Apple","tn":1}]],
+                                        ["_data"] = {["id"] = "Apple", ["_am"] = 6},
+                                        ["_stackKey"] = [[{"id":"Apple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Apple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Orange", ["_am"] = 6, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Orange","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Orange","tn":1}]],
+                                        ["_data"] = {["id"] = "Orange", ["_am"] = 6},
+                                        ["_stackKey"] = [[{"id":"Orange"}]],
+                                        ["_exactStackKey"] = [[{"id":"Orange"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 6, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Pineapple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Pineapple","tn":1}]],
+                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 6},
+                                        ["_stackKey"] = [[{"id":"Pineapple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Pineapple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Banana", ["_am"] = 6, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Banana","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Banana","tn":1}]],
+                                        ["_data"] = {["id"] = "Banana", ["_am"] = 6},
+                                        ["_stackKey"] = [[{"id":"Banana"}]],
+                                        ["_exactStackKey"] = [[{"id":"Banana"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 2, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Rainbow","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Rainbow","tn":1}]],
+                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 2},
+                                        ["_stackKey"] = [[{"id":"Rainbow"}]],
+                                        ["_exactStackKey"] = [[{"id":"Rainbow"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -770,45 +771,45 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Apple", ["_am"] = 10, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Apple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Apple","tn":1}]],
+                                        ["_data"] = {["id"] = "Apple", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Apple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Apple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Orange", ["_am"] = 10, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Orange","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Orange","tn":1}]],
+                                        ["_data"] = {["id"] = "Orange", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Orange"}]],
+                                        ["_exactStackKey"] = [[{"id":"Orange"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 10, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Pineapple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Pineapple","tn":1}]],
+                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Pineapple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Pineapple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Banana", ["_am"] = 10, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Banana","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Banana","tn":1}]],
+                                        ["_data"] = {["id"] = "Banana", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Banana"}]],
+                                        ["_exactStackKey"] = [[{"id":"Banana"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 3, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Rainbow","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Rainbow","tn":1}]],
+                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 3},
+                                        ["_stackKey"] = [[{"id":"Rainbow"}]],
+                                        ["_exactStackKey"] = [[{"id":"Rainbow"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -1019,6 +1020,24 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
+                                        ["_data"] = {["id"] = "Shiny Flag"},
+                                        ["_stackKey"] = [[{"id":"Shiny Flag"}]],
+                                        ["_exactStackKey"] = [[{"id":"Shiny Flag"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.041666666666666664
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Rainbow Flag"},
+                                        ["_stackKey"] = [[{"id":"Rainbow Flag"}]],
+                                        ["_exactStackKey"] = [[{"id":"Rainbow Flag"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.0625
+                                },
+                                {
+                                    ["Value"] = {
                                         ["_data"] = {["id"] = "Nametag"},
                                         ["_stackKey"] = [[{"id":"Nametag"}]],
                                         ["_exactStackKey"] = [[{"id":"Nametag"}]],
@@ -1033,7 +1052,7 @@ data = {
                                         ["_exactStackKey"] = [[{"id":"Fortune Flag"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
-                                    ["Weight"] = 0.25
+                                    ["Weight"] = 0.125
                                 },
                                 {
                                     ["Value"] = {
@@ -1043,24 +1062,6 @@ data = {
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 0.25
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 3},
-                                        ["_stackKey"] = [[{"id":"Giant Coin Jar"}]],
-                                        ["_exactStackKey"] = [[{"id":"Giant Coin Jar"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.5
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Hasty Flag", ["_am"] = 4},
-                                        ["_stackKey"] = [[{"id":"Hasty Flag"}]],
-                                        ["_exactStackKey"] = [[{"id":"Hasty Flag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.5
                                 },
                                 {
                                     ["Value"] = {
@@ -1082,6 +1083,33 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
+                                        ["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 3},
+                                        ["_stackKey"] = [[{"id":"Giant Coin Jar"}]],
+                                        ["_exactStackKey"] = [[{"id":"Giant Coin Jar"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.5
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Strength Flag", ["_am"] = 4},
+                                        ["_stackKey"] = [[{"id":"Strength Flag"}]],
+                                        ["_exactStackKey"] = [[{"id":"Strength Flag"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.5
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Hasty Flag", ["_am"] = 4},
+                                        ["_stackKey"] = [[{"id":"Hasty Flag"}]],
+                                        ["_exactStackKey"] = [[{"id":"Hasty Flag"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.5
+                                },
+                                {
+                                    ["Value"] = {
                                         ["_data"] = {["id"] = "TNT", ["_am"] = 30},
                                         ["_stackKey"] = [[{"id":"TNT"}]],
                                         ["_exactStackKey"] = [[{"id":"TNT"}]],
@@ -1091,27 +1119,9 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Toy Ball", ["_am"] = 10},
-                                        ["_stackKey"] = [[{"id":"Toy Ball"}]],
-                                        ["_exactStackKey"] = [[{"id":"Toy Ball"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
                                         ["_data"] = {["id"] = "Magnet Flag", ["_am"] = 4},
                                         ["_stackKey"] = [[{"id":"Magnet Flag"}]],
                                         ["_exactStackKey"] = [[{"id":"Magnet Flag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Toy Bone", ["_am"] = 10},
-                                        ["_stackKey"] = [[{"id":"Toy Bone"}]],
-                                        ["_exactStackKey"] = [[{"id":"Toy Bone"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -1130,6 +1140,24 @@ data = {
                                         ["_data"] = {["id"] = "Diamonds Flag", ["_am"] = 4},
                                         ["_stackKey"] = [[{"id":"Diamonds Flag"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds Flag"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Toy Bone", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Toy Bone"}]],
+                                        ["_exactStackKey"] = [[{"id":"Toy Bone"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Toy Ball", ["_am"] = 10},
+                                        ["_stackKey"] = [[{"id":"Toy Ball"}]],
+                                        ["_exactStackKey"] = [[{"id":"Toy Ball"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -1328,45 +1356,45 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Apple", ["_am"] = 20, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Apple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Apple","tn":1}]],
+                                        ["_data"] = {["id"] = "Apple", ["_am"] = 20},
+                                        ["_stackKey"] = [[{"id":"Apple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Apple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Orange", ["_am"] = 20, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Orange","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Orange","tn":1}]],
+                                        ["_data"] = {["id"] = "Orange", ["_am"] = 20},
+                                        ["_stackKey"] = [[{"id":"Orange"}]],
+                                        ["_exactStackKey"] = [[{"id":"Orange"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 20, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Pineapple","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Pineapple","tn":1}]],
+                                        ["_data"] = {["id"] = "Pineapple", ["_am"] = 20},
+                                        ["_stackKey"] = [[{"id":"Pineapple"}]],
+                                        ["_exactStackKey"] = [[{"id":"Pineapple"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Banana", ["_am"] = 20, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Banana","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Banana","tn":1}]],
+                                        ["_data"] = {["id"] = "Banana", ["_am"] = 20},
+                                        ["_stackKey"] = [[{"id":"Banana"}]],
+                                        ["_exactStackKey"] = [[{"id":"Banana"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 5, ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Rainbow","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Rainbow","tn":1}]],
+                                        ["_data"] = {["id"] = "Rainbow", ["_am"] = 5},
+                                        ["_stackKey"] = [[{"id":"Rainbow"}]],
+                                        ["_exactStackKey"] = [[{"id":"Rainbow"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -1557,15 +1585,6 @@ data = {
                         ["Value"] = {
                             ["_caches"] = {},
                             ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Nametag"},
-                                        ["_stackKey"] = [[{"id":"Nametag"}]],
-                                        ["_exactStackKey"] = [[{"id":"Nametag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.1
-                                },
                                 {
                                     ["Value"] = {
                                         ["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 2},
@@ -1772,21 +1791,21 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Nametag", ["_am"] = 5},
-                                        ["_stackKey"] = [[{"id":"Nametag"}]],
-                                        ["_exactStackKey"] = [[{"id":"Nametag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 6},
+                                        ["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 8},
                                         ["_stackKey"] = [[{"id":"Large Gift Bag"}]],
                                         ["_exactStackKey"] = [[{"id":"Large Gift Bag"}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
-                                    ["Weight"] = 0.25
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Mini Chest"},
+                                        ["_stackKey"] = [[{"id":"Mini Chest"}]],
+                                        ["_exactStackKey"] = [[{"id":"Mini Chest"}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
                                 }
                             }
                         },
@@ -1868,6 +1887,24 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
+                                        ["_data"] = {["id"] = "Large Taps", ["tn"] = 1},
+                                        ["_stackKey"] = [[{"id":"Large Taps","tn":1}]],
+                                        ["_exactStackKey"] = [[{"id":"Large Taps","tn":1}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.14285714285714285
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Explosive", ["tn"] = 1},
+                                        ["_stackKey"] = [[{"id":"Explosive","tn":1}]],
+                                        ["_exactStackKey"] = [[{"id":"Explosive","tn":1}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.3333333333333333
+                                },
+                                {
+                                    ["Value"] = {
                                         ["_data"] = {["id"] = "Lightning", ["tn"] = 1},
                                         ["_stackKey"] = [[{"id":"Lightning","tn":1}]],
                                         ["_exactStackKey"] = [[{"id":"Lightning","tn":1}]],
@@ -1908,18 +1945,56 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["tn"] = 4},
-                                        ["_stackKey"] = [[{"id":"Diamonds","tn":4}]],
-                                        ["_exactStackKey"] = [[{"id":"Diamonds","tn":4}]],
+                                        ["_charmSlots"] = 1,
+                                        ["_data"] = {["id"] = "Huge Propeller Cat", ["pt"] = 2},
+                                        ["_maxAmount"] = 1,
+                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat","pt":2}]],
+                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat","pt":2}]]
+                                    },
+                                    ["Weight"] = 0.02
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_charmSlots"] = 1,
+                                        ["_data"] = {["id"] = "Huge Propeller Cat", ["pt"] = 1},
+                                        ["_maxAmount"] = 1,
+                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat","pt":1}]],
+                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat","pt":1}]]
+                                    },
+                                    ["Weight"] = 0.1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_charmSlots"] = 1,
+                                        ["_data"] = {["id"] = "Huge Propeller Cat"},
+                                        ["_maxAmount"] = 1,
+                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat"}]],
+                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat"}]]
+                                    },
+                                    ["Weight"] = 1
+                                }
+                            }
+                        },
+                        ["Weight"] = 0.5
+                    },
+                    {
+                        ["Value"] = {
+                            ["_caches"] = {},
+                            ["entries"] = {
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 3, ["tn"] = 6},
+                                        ["_stackKey"] = [[{"id":"Diamonds","tn":6}]],
+                                        ["_exactStackKey"] = [[{"id":"Diamonds","tn":6}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
                                 },
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 3, ["tn"] = 4},
-                                        ["_stackKey"] = [[{"id":"Diamonds","tn":4}]],
-                                        ["_exactStackKey"] = [[{"id":"Diamonds","tn":4}]],
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 6, ["tn"] = 6},
+                                        ["_stackKey"] = [[{"id":"Diamonds","tn":6}]],
+                                        ["_exactStackKey"] = [[{"id":"Diamonds","tn":6}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 1
@@ -1927,6 +2002,93 @@ data = {
                             }
                         },
                         ["Weight"] = 0.5
+                    },
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Charm Stone", ["_am"] = 3},
+                            ["_stackKey"] = [[{"id":"Charm Stone"}]],
+                            ["_exactStackKey"] = [[{"id":"Charm Stone"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    },
+                    {
+                        ["Value"] = {
+                            ["_caches"] = {},
+                            ["entries"] = {
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Lucky", ["_am"] = 3, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Lucky","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Lucky","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Lucky", ["_am"] = 6, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Lucky","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Lucky","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                }
+                            }
+                        },
+                        ["Weight"] = 1
+                    },
+                    {
+                        ["Value"] = {
+                            ["_caches"] = {},
+                            ["entries"] = {
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Coins", ["_am"] = 3, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Coins","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Coins","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Coins", ["_am"] = 6, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Coins","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Coins","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                }
+                            }
+                        },
+                        ["Weight"] = 1
+                    },
+                    {
+                        ["Value"] = {
+                            ["_caches"] = {},
+                            ["entries"] = {
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Damage", ["_am"] = 3, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Damage","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Damage","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Damage", ["_am"] = 6, ["tn"] = 8},
+                                        ["_stackKey"] = [[{"id":"Damage","tn":8}]],
+                                        ["_exactStackKey"] = [[{"id":"Damage","tn":8}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 1
+                                }
+                            }
+                        },
+                        ["Weight"] = 1
                     },
                     {
                         ["Value"] = {
@@ -1943,12 +2105,30 @@ data = {
                                 },
                                 {
                                     ["Value"] = {
+                                        ["_data"] = {["id"] = "Large Taps", ["tn"] = 1},
+                                        ["_stackKey"] = [[{"id":"Large Taps","tn":1}]],
+                                        ["_exactStackKey"] = [[{"id":"Large Taps","tn":1}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.2
+                                },
+                                {
+                                    ["Value"] = {
                                         ["_data"] = {["id"] = "Midas Touch", ["tn"] = 1},
                                         ["_stackKey"] = [[{"id":"Midas Touch","tn":1}]],
                                         ["_exactStackKey"] = [[{"id":"Midas Touch","tn":1}]],
                                         ["_maxAmount"] = 1000000000000000
                                     },
                                     ["Weight"] = 0.2
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Explosive", ["tn"] = 1},
+                                        ["_stackKey"] = [[{"id":"Explosive","tn":1}]],
+                                        ["_exactStackKey"] = [[{"id":"Explosive","tn":1}]],
+                                        ["_maxAmount"] = 1000000000000000
+                                    },
+                                    ["Weight"] = 0.5
                                 },
                                 {
                                     ["Value"] = {
@@ -1969,203 +2149,10 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Royalty", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Royalty","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Royalty","tn":1}]],
+                                        ["_data"] = {["id"] = "Mini Chest", ["_am"] = 3},
+                                        ["_stackKey"] = [[{"id":"Mini Chest"}]],
+                                        ["_exactStackKey"] = [[{"id":"Mini Chest"}]],
                                         ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.05
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Glittering", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Glittering","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Glittering","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Coins", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Coins","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Coins","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.3333333333333333
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Diamonds","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Diamonds","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.3333333333333333
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Strength", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Strength","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Strength","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.3333333333333333
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Agility", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Agility","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Agility","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Bonus", ["tn"] = 1},
-                                        ["_stackKey"] = [[{"id":"Bonus","tn":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Bonus","tn":1}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                }
-                            }
-                        },
-                        ["Weight"] = 1
-                    },
-                    {
-                        ["Value"] = {
-                            ["_caches"] = {},
-                            ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Lucky", ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Lucky","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Lucky","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Lucky", ["_am"] = 3, ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Lucky","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Lucky","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                }
-                            }
-                        },
-                        ["Weight"] = 1
-                    },
-                    {
-                        ["Value"] = {
-                            ["_caches"] = {},
-                            ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Coins", ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Coins","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Coins","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Coins", ["_am"] = 3, ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Coins","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Coins","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                }
-                            }
-                        },
-                        ["Weight"] = 1
-                    },
-                    {
-                        ["Value"] = {
-                            ["_caches"] = {},
-                            ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Damage", ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Damage","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Damage","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Damage", ["_am"] = 3, ["tn"] = 6},
-                                        ["_stackKey"] = [[{"id":"Damage","tn":6}]],
-                                        ["_exactStackKey"] = [[{"id":"Damage","tn":6}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 1
-                                }
-                            }
-                        },
-                        ["Weight"] = 1
-                    },
-                    {
-                        ["Value"] = {
-                            ["_caches"] = {},
-                            ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Nametag", ["_am"] = 10},
-                                        ["_stackKey"] = [[{"id":"Nametag"}]],
-                                        ["_exactStackKey"] = [[{"id":"Nametag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 20},
-                                        ["_stackKey"] = [[{"id":"Large Gift Bag"}]],
-                                        ["_exactStackKey"] = [[{"id":"Large Gift Bag"}]],
-                                        ["_maxAmount"] = 1000000000000000
-                                    },
-                                    ["Weight"] = 0.16666666666666666
-                                }
-                            }
-                        },
-                        ["Weight"] = 2
-                    },
-                    {
-                        ["Value"] = {
-                            ["_caches"] = {},
-                            ["entries"] = {
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Huge Propeller Cat", ["pt"] = 2},
-                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat","pt":2}]],
-                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat","pt":2}]],
-                                        ["_maxAmount"] = 1
-                                    },
-                                    ["Weight"] = 0.02
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Huge Propeller Cat", ["pt"] = 1},
-                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat","pt":1}]],
-                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat","pt":1}]],
-                                        ["_maxAmount"] = 1
-                                    },
-                                    ["Weight"] = 0.1
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Huge Propeller Cat"},
-                                        ["_stackKey"] = [[{"id":"Huge Propeller Cat"}]],
-                                        ["_exactStackKey"] = [[{"id":"Huge Propeller Cat"}]],
-                                        ["_maxAmount"] = 1
                                     },
                                     ["Weight"] = 1
                                 }
@@ -2178,5 +2165,104 @@ data = {
         },
         ["RequiredItemAmount"] = 1,
         ["Weights"] = {50, 25, 18, 5, 2, 0.1}
+    },
+    ["CrystalKeyWheel"] = {
+        ["Subtitle"] = "You get 1 spin!",
+        ["RequiredFunction"] = "function: 0x00000000c5bc6113",
+        ["Weights"] = {40, 20, 15, 15, 9, 1},
+        ["ParentId"] = "Spawn",
+        ["DisplayName"] = "Crystal Key Wheel!",
+        ["_script"] = "SpinnyWheel | CrystalKeyWheel",
+        ["_id"] = "CrystalKeyWheel",
+        ["PreventReopen"] = true,
+        ["ParentType"] = 1,
+        ["DropTable"] = {
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key"},
+                            ["_stackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            },
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key", ["_am"] = 3},
+                            ["_stackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            },
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key Upper Half"},
+                            ["_stackKey"] = [[{"id":"Crystal Key Upper Half"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key Upper Half"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            },
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key Lower Half"},
+                            ["_stackKey"] = [[{"id":"Crystal Key Lower Half"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key Lower Half"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            },
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key", ["_am"] = 10},
+                            ["_stackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            },
+            {
+                ["_caches"] = {},
+                ["entries"] = {
+                    {
+                        ["Value"] = {
+                            ["_data"] = {["id"] = "Crystal Key", ["_am"] = 50},
+                            ["_stackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_exactStackKey"] = [[{"id":"Crystal Key"}]],
+                            ["_maxAmount"] = 1000000000000000
+                        },
+                        ["Weight"] = 1
+                    }
+                }
+            }
+        },
+        ["OnSuccess"] = "function: 0x000000001926203b",
+        ["AllowDuplicates"] = true
     }
 }
