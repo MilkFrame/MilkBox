@@ -197,43 +197,59 @@ data = {
         },
         ["Icon"] = "rbxassetid://15092228954"
     },
-    ["Break Comets"] = {
-        ["_script"] = "Achievement | Break Comets",
-        ["Name"] = "Break Comets",
-        ["_id"] = "Break Comets",
+    ["Daycare"] = {
+        ["_script"] = "Achievement | Daycare",
+        ["Name"] = "Daycare",
+        ["_id"] = "Daycare",
         ["Tiers"] = {
             {
                 ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Comets",
-                ["Amount"] = 250,
-                ["ManuallyNotify"] = 5,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Comet", ["_am"] = 7}}}},
+                ["Title"] = "Happy Pets",
+                ["Amount"] = 200,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Coins", ["_am"] = 8, ["tn"] = 3}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Damage", ["_am"] = 8, ["tn"] = 3}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Lucky", ["_am"] = 8, ["tn"] = 3}}}
+                },
                 ["Hidden"] = false,
-                ["Desc"] = "Break {amount} Comets"
+                ["Desc"] = "Enroll {amount} Pets in Daycare"
             },
             {
                 ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Comet Shower",
-                ["Amount"] = 1500,
-                ["ManuallyNotify"] = 10,
+                ["Title"] = "Attendance",
+                ["Amount"] = 900,
                 ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Comet", ["_am"] = 25}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Treasure Hunter", ["_am"] = 5, ["tn"] = 4}}}
+                    {["Reward"] = {["_data"] = {["id"] = "Happy Pets", ["tn"] = 1}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Toy Ball", ["_am"] = 8}}}
                 },
                 ["Hidden"] = false,
-                ["Desc"] = "Break {amount} Comets"
+                ["Desc"] = "Enroll {amount} Pets in Daycare"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Playground",
+                ["Amount"] = 2500,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 5}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Toy Ball", ["_am"] = 14}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Toy Bone", ["_am"] = 14}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Enroll {amount} Pets in Daycare"
             },
             {
                 ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Comet Enthusiast",
-                ["Amount"] = 5000,
-                ["ManuallyNotify"] = 20,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Starfall", ["tn"] = 1}}}},
+                ["Title"] = "Pet Incubator",
+                ["Amount"] = 7500,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 15}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Crystal Key", ["_am"] = 10}}}
+                },
                 ["Hidden"] = false,
-                ["Desc"] = "Break {amount} Comets"
+                ["Desc"] = "Enroll {amount} Pets in Daycare"
             }
         },
-        ["Icon"] = "rbxassetid://15092228431"
+        ["Icon"] = "rbxassetid://15092228339"
     },
     ["Break Breakables"] = {
         ["_script"] = "Achievement | Break Breakables",
@@ -258,7 +274,7 @@ data = {
                 ["Amount"] = 50000,
                 ["Rewards"] = {
                     {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 30000}}},
-                    {["Reward"] = {["_data"] = {["id"] = "TNT Crate", ["_am"] = 10}}}
+                    {["Reward"] = {["_data"] = {["id"] = "TNT Crate", ["_am"] = 3}}}
                 },
                 ["Hidden"] = false,
                 ["Desc"] = "Break {amount} Breakables"
@@ -432,6 +448,77 @@ data = {
         },
         ["Icon"] = "rbxassetid://15092228112"
     },
+    ["Coin Jars"] = {
+        ["_script"] = "Achievement | Coin Jars",
+        ["Name"] = "Coin Jars",
+        ["_id"] = "Coin Jars",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
+                ["Title"] = "Piggy Bank",
+                ["Amount"] = 175,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 15}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Magic Coin Jar", ["_am"] = 5}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Fill {amount} Coin Jars"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Jar Head",
+                ["Amount"] = 1000,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 25}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 10}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Fill {amount} Coin Jars"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Jar Factory",
+                ["Amount"] = 5000,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 35}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 70500}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Fill {amount} Coin Jars"
+            }
+        },
+        ["Icon"] = "rbxassetid://15092228273"
+    },
+    ["Magic Machine"] = {
+        ["_script"] = "Achievement | Magic Machine",
+        ["Name"] = "Magic Machine",
+        ["_id"] = "Magic Machine",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Magic Trick",
+                ["Amount"] = 100,
+                ["ManuallyNotify"] = 5,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Magic Orb", ["_am"] = 2, ["tn"] = 1}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Use the Magic Machine {amount} times"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "I Got the Magic",
+                ["Amount"] = 350,
+                ["ManuallyNotify"] = 10,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "XP", ["tn"] = 1}}},
+                    {["Reward"] = {["_data"] = {["id"] = "TNT", ["tn"] = 1}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Overload", ["tn"] = 1}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Use the Magic Machine {amount} times"
+            }
+        },
+        ["Icon"] = "rbxassetid://16041630544"
+    },
     ["Fishing"] = {
         ["_script"] = "Achievement | Fishing",
         ["Name"] = "Fishing",
@@ -443,7 +530,7 @@ data = {
                 ["Amount"] = 300,
                 ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 1000}}}},
                 ["Hidden"] = false,
-                ["Desc"] = "Catch {amount} fish"
+                ["Desc"] = "Catch {amount} Fish"
             },
             {
                 ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
@@ -463,6 +550,38 @@ data = {
             }
         },
         ["Icon"] = "rbxassetid://15431368742"
+    },
+    ["Balloon Gifts"] = {
+        ["_script"] = "Achievement | Balloon Gifts",
+        ["Name"] = "Balloon Gifts",
+        ["_id"] = "Balloon Gifts",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
+                ["Title"] = "Balloon Popper",
+                ["Amount"] = 200,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Gift Bag", ["_am"] = 25}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Pop {amount} Balloon Gifts"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Air Head",
+                ["Amount"] = 1500,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 25}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Pop {amount} Balloon Gifts"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Balloon Obsession",
+                ["Amount"] = 5000,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Mini Chest", ["_am"] = 25}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Pop {amount} Balloon Gifts"
+            }
+        },
+        ["Icon"] = "rbxassetid://16041630703"
     },
     ["Upgrade Enchants"] = {
         ["_script"] = "Achievement | Upgrade Enchants",
@@ -505,46 +624,43 @@ data = {
         },
         ["Icon"] = "rbxassetid://15092229397"
     },
-    ["Coin Jars"] = {
-        ["_script"] = "Achievement | Coin Jars",
-        ["Name"] = "Coin Jars",
-        ["_id"] = "Coin Jars",
+    ["Break Pinatas"] = {
+        ["_script"] = "Achievement | Break Pinatas",
+        ["Name"] = "Break Pinatas",
+        ["_id"] = "Break Pinatas",
         ["Tiers"] = {
             {
                 ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Piggy Bank",
-                ["Amount"] = 175,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 15}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Magic Coin Jar", ["_am"] = 5}}}
-                },
+                ["Title"] = "PiÃ±atas",
+                ["Amount"] = 250,
+                ["ManuallyNotify"] = 5,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Mini Pinata", ["_am"] = 7}}}},
                 ["Hidden"] = false,
-                ["Desc"] = "Fill {amount} Coin Jars"
+                ["Desc"] = "Break {amount} PiÃ±atas"
             },
             {
                 ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Jar Head",
-                ["Amount"] = 1000,
+                ["Title"] = "PiÃ±ata Time",
+                ["Amount"] = 1250,
+                ["ManuallyNotify"] = 10,
                 ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 25}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 10}}}
+                    {["Reward"] = {["_data"] = {["id"] = "Mini Pinata", ["_am"] = 25}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Damage", ["_am"] = 5, ["tn"] = 6}}}
                 },
                 ["Hidden"] = false,
-                ["Desc"] = "Fill {amount} Coin Jars"
+                ["Desc"] = "Break {amount} PiÃ±atas"
             },
             {
                 ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Jar Factory",
-                ["Amount"] = 5000,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 35}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 70500}}}
-                },
+                ["Title"] = "PiÃ±ata Fiesta",
+                ["Amount"] = 4000,
+                ["ManuallyNotify"] = 20,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Large Taps", ["tn"] = 1}}}},
                 ["Hidden"] = false,
-                ["Desc"] = "Fill {amount} Coin Jars"
+                ["Desc"] = "Break {amount} PiÃ±atas"
             }
         },
-        ["Icon"] = "rbxassetid://15092228273"
+        ["Icon"] = "rbxassetid://16041630369"
     },
     ["Flags"] = {
         ["_script"] = "Achievement | Flags",
@@ -568,7 +684,7 @@ data = {
                 ["Title"] = "Ceremony",
                 ["Amount"] = 1000,
                 ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 30}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 15}}},
                     {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 17500}}}
                 },
                 ["Hidden"] = false,
@@ -584,6 +700,125 @@ data = {
             }
         },
         ["Icon"] = "rbxassetid://15092228544"
+    },
+    ["Break Comets"] = {
+        ["_script"] = "Achievement | Break Comets",
+        ["Name"] = "Break Comets",
+        ["_id"] = "Break Comets",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
+                ["Title"] = "Comets",
+                ["Amount"] = 250,
+                ["ManuallyNotify"] = 5,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Comet", ["_am"] = 7}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Break {amount} Comets"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Comet Shower",
+                ["Amount"] = 1500,
+                ["ManuallyNotify"] = 10,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Comet", ["_am"] = 25}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Treasure Hunter", ["_am"] = 5, ["tn"] = 4}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Break {amount} Comets"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Comet Enthusiast",
+                ["Amount"] = 5000,
+                ["ManuallyNotify"] = 20,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Starfall", ["tn"] = 1}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Break {amount} Comets"
+            }
+        },
+        ["Icon"] = "rbxassetid://15092228431"
+    },
+    ["Vending Machines"] = {
+        ["_script"] = "Achievement | Vending Machines",
+        ["Name"] = "Vending Machines",
+        ["_id"] = "Vending Machines",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
+                ["Title"] = "Vending Spree",
+                ["Amount"] = 300,
+                ["ManuallyNotify"] = 10,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "TNT", ["_am"] = 10}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Squeaky Toy", ["_am"] = 5}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Rainbow", ["_am"] = 5}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Buy {amount} items from Vending Machines"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Coin Drain",
+                ["Amount"] = 1500,
+                ["ManuallyNotify"] = 20,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "TNT Crate", ["_am"] = 5}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 5}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Gift Bag", ["_am"] = 5}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Buy {amount} items from Vending Machines"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Vend and Repeat",
+                ["Amount"] = 8000,
+                ["ManuallyNotify"] = 40,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Doodle"}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Spinny Wheel Ticket", ["_am"] = 8}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Buy {amount} items from Vending Machines"
+            }
+        },
+        ["Icon"] = "rbxassetid://15092229707"
+    },
+    ["Merch Owner"] = {
+        ["_script"] = "Achievement | Merch Owner",
+        ["Name"] = "Merch Owner",
+        ["_id"] = "Merch Owner",
+        ["Tiers"] = {
+            {
+                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
+                ["Title"] = "Code Cracker",
+                ["Amount"] = 1,
+                ["Rewards"] = {
+                    {["Reward"] = {["_data"] = {["id"] = "Pinata"}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Lightning"}}}
+                },
+                ["Hidden"] = false,
+                ["Desc"] = "Redeem {amount} Merch Code"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
+                ["Title"] = "Super Haul",
+                ["Amount"] = 5,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Rainbow"}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Redeem {amount} Merch Codes"
+            },
+            {
+                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
+                ["Title"] = "Unboxing Pro",
+                ["Amount"] = 20,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Oversized"}}}},
+                ["Hidden"] = false,
+                ["Desc"] = "Redeem {amount} Merch Codes"
+            }
+        },
+        ["Icon"] = "rbxassetid://15187367629"
     },
     ["Orbs"] = {
         ["_script"] = "Achievement | Orbs",
@@ -648,86 +883,52 @@ data = {
         },
         ["Icon"] = "rbxassetid://15092227955"
     },
-    ["Vending Machines"] = {
-        ["_script"] = "Achievement | Vending Machines",
-        ["Name"] = "Vending Machines",
-        ["_id"] = "Vending Machines",
+    ["Fruit"] = {
+        ["_script"] = "Achievement | Fruit",
+        ["Name"] = "Fruit",
+        ["_id"] = "Fruit",
         ["Tiers"] = {
             {
                 ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Vending Spree",
-                ["Amount"] = 300,
-                ["ManuallyNotify"] = 10,
+                ["Title"] = "Apple a Day",
+                ["Amount"] = 250,
                 ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "TNT", ["_am"] = 10}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Squeaky Toy", ["_am"] = 5}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Rainbow", ["_am"] = 5, ["tn"] = 1}}}
+                    {["Reward"] = {["_data"] = {["id"] = "Banana", ["_am"] = 15}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Pineapple", ["_am"] = 15}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Orange", ["_am"] = 15}}}
                 },
                 ["Hidden"] = false,
-                ["Desc"] = "Buy {amount} items from Vending Machines"
+                ["Desc"] = "Eat {amount} Fruit"
             },
             {
                 ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Coin Drain",
-                ["Amount"] = 1500,
-                ["ManuallyNotify"] = 20,
+                ["Title"] = "Banana Bunch",
+                ["Amount"] = 1000,
                 ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "TNT Crate", ["_am"] = 5}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 10}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Gift Bag", ["_am"] = 5}}}
+                    {["Reward"] = {["_data"] = {["id"] = "Rainbow", ["_am"] = 30}}},
+                    {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 10000}}}
                 },
                 ["Hidden"] = false,
-                ["Desc"] = "Buy {amount} items from Vending Machines"
+                ["Desc"] = "Eat {amount} Fruit"
             },
             {
                 ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Vend and Repeat",
-                ["Amount"] = 8000,
-                ["ManuallyNotify"] = 40,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Doodle"}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Spinny Wheel Ticket", ["_am"] = 8}}}
-                },
+                ["Title"] = "Fruit Fiesta",
+                ["Amount"] = 4500,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Hippomelon"}}}},
                 ["Hidden"] = false,
-                ["Desc"] = "Buy {amount} items from Vending Machines"
-            }
-        },
-        ["Icon"] = "rbxassetid://15092229707"
-    },
-    ["Merch Owner"] = {
-        ["_script"] = "Achievement | Merch Owner",
-        ["Name"] = "Merch Owner",
-        ["_id"] = "Merch Owner",
-        ["Tiers"] = {
-            {
-                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Code Cracker",
-                ["Amount"] = 1,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Pinata"}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Lightning"}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Redeem {amount} Merch Codes"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Super Haul",
-                ["Amount"] = 5,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Rainbow"}}}},
-                ["Hidden"] = false,
-                ["Desc"] = "Redeem {amount} Merch Codes"
+                ["Desc"] = "Eat {amount} Fruit"
             },
             {
                 ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Unboxing Pro",
-                ["Amount"] = 20,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Oversized"}}}},
+                ["Title"] = "Fruit Fever",
+                ["Amount"] = 10000,
+                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Watermelon"}}}},
                 ["Hidden"] = false,
-                ["Desc"] = "Redeen {amount} Merch Codes"
+                ["Desc"] = "Eat {amount} Fruit"
             }
         },
-        ["Icon"] = "rbxassetid://15187367629"
+        ["Icon"] = "rbxassetid://15092228779"
     },
     ["Break Mini Chests"] = {
         ["_script"] = "Achievement | Break Mini Chests",
@@ -790,107 +991,6 @@ data = {
             }
         },
         ["Icon"] = "rbxassetid://15092228012"
-    },
-    ["Fruit"] = {
-        ["_script"] = "Achievement | Fruit",
-        ["Name"] = "Fruit",
-        ["_id"] = "Fruit",
-        ["Tiers"] = {
-            {
-                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Apple a Day",
-                ["Amount"] = 250,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Banana", ["_am"] = 15, ["tn"] = 1}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Pineapple", ["_am"] = 15, ["tn"] = 1}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Orange", ["_am"] = 15, ["tn"] = 1}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Eat {amount} Fruit"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Banana Bunch",
-                ["Amount"] = 1000,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Rainbow", ["_am"] = 30, ["tn"] = 1}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Diamonds", ["_am"] = 10000}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Eat {amount} Fruit"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Fruit Fiesta",
-                ["Amount"] = 4500,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Hippomelon"}}}},
-                ["Hidden"] = false,
-                ["Desc"] = "Eat {amount} Fruit"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Fruit Fever",
-                ["Amount"] = 10000,
-                ["Rewards"] = {{["Reward"] = {["_data"] = {["id"] = "Watermelon"}}}},
-                ["Hidden"] = false,
-                ["Desc"] = "Eat {amount} Fruit"
-            }
-        },
-        ["Icon"] = "rbxassetid://15092228779"
-    },
-    ["Daycare"] = {
-        ["_script"] = "Achievement | Daycare",
-        ["Name"] = "Daycare",
-        ["_id"] = "Daycare",
-        ["Tiers"] = {
-            {
-                ["Difficulty"] = {["Name"] = "Easy", ["Order"] = 1},
-                ["Title"] = "Happy Pets",
-                ["Amount"] = 200,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Coins", ["_am"] = 8, ["tn"] = 3}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Damage", ["_am"] = 8, ["tn"] = 3}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Lucky", ["_am"] = 8, ["tn"] = 3}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Enroll {amount} Pets in Daycare"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Attendance",
-                ["Amount"] = 900,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Happy Pets", ["tn"] = 1}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Toy Ball", ["_am"] = 8}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Enroll {amount} Pets in Daycare"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Medium", ["Order"] = 2},
-                ["Title"] = "Playground",
-                ["Amount"] = 2500,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Fortune Flag", ["_am"] = 10}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Toy Ball", ["_am"] = 14}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Toy Bone", ["_am"] = 14}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Enroll {amount} Pets in Daycare"
-            },
-            {
-                ["Difficulty"] = {["Name"] = "Hard", ["Order"] = 3},
-                ["Title"] = "Pet Incubator",
-                ["Amount"] = 7500,
-                ["Rewards"] = {
-                    {["Reward"] = {["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 15}}},
-                    {["Reward"] = {["_data"] = {["id"] = "Crystal Key", ["_am"] = 10}}}
-                },
-                ["Hidden"] = false,
-                ["Desc"] = "Enroll {amount} Pets in Daycare"
-            }
-        },
-        ["Icon"] = "rbxassetid://15092228339"
     },
     ["Rainbow Machine"] = {
         ["_script"] = "Achievement | Rainbow Machine",
