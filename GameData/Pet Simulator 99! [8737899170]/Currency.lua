@@ -8,7 +8,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x0000000028d97bcc",
+            ["Message"] = "function: 0x00000000a25a89dc",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -41,7 +41,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x0000000028d97bcc",
+            ["Message"] = "function: 0x00000000a25a89dc",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -74,7 +74,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x0000000028d97bcc",
+            ["Message"] = "function: 0x00000000a25a89dc",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -107,7 +107,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x000000008ed26eac",
+            ["Message"] = "function: 0x00000000eb52b72c",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -151,9 +151,45 @@ data = {
                 ["tierName"] = "Platinum Bars",
                 ["tinyImage"] = "rbxassetid://15258327518",
                 ["textColor"] = Color3.fromRGB(213, 255, 247)
+            },
+            {
+                ["orbImage"] = "rbxassetid://15642993996",
+                ["imageOutline"] = "rbxassetid://15642993873",
+                ["Order"] = 5,
+                ["value"] = 1.e+24,
+                ["tierName"] = "Emerald Coins",
+                ["tinyImage"] = "rbxassetid://15642993693",
+                ["textColor"] = Color3.fromRGB(222, 252, 228)
+            },
+            {
+                ["orbImage"] = "rbxassetid://15642994522",
+                ["imageOutline"] = "rbxassetid://15642994307",
+                ["Order"] = 6,
+                ["value"] = 1.e+30,
+                ["tierName"] = "Emerald Bars",
+                ["tinyImage"] = "rbxassetid://15642994146",
+                ["textColor"] = Color3.fromRGB(183, 252, 192)
+            },
+            {
+                ["orbImage"] = "rbxassetid://15865374118",
+                ["imageOutline"] = "rbxassetid://15865374023",
+                ["Order"] = 7,
+                ["value"] = 1.e+36,
+                ["tierName"] = "Sapphire Coins",
+                ["tinyImage"] = "rbxassetid://15865373901",
+                ["textColor"] = Color3.fromRGB(215, 242, 255)
+            },
+            {
+                ["orbImage"] = "rbxassetid://15865374466",
+                ["imageOutline"] = "rbxassetid://15865374383",
+                ["Order"] = 8,
+                ["value"] = 1.e+42,
+                ["tierName"] = "Sapphire Bars",
+                ["tinyImage"] = "rbxassetid://15865374292",
+                ["textColor"] = Color3.fromRGB(175, 228, 255)
             }
         },
-        ["MaxAmount"] = 2.e+24,
+        ["MaxAmount"] = 3.e+44,
         ["Desc"] = "Gold!",
         ["DisplayName"] = "Coins"
     }
