@@ -40,7 +40,7 @@ data = {
         ["_id"] = "2",
         ["StrengthPowerBoost"] = 75,
         ["DisplayName"] = "Rebirth Two",
-        ["RebirthCallback"] = "function: 0x000000002465c350",
+        ["RebirthCallback"] = "function: 0x000000007cecf0dc",
         ["BoostDesc"] = "+150% Pet Damage",
         ["ZoneNumberRequired"] = 50,
         ["ItemRewards"] = {
@@ -70,6 +70,65 @@ data = {
             },
             {["Title"] = "Active Huge Pets", ["Icon"] = "rbxassetid://14976374906", ["Desc"] = "Can hatch huge pets!"},
             {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
+        }
+    },
+    ["3"] = {
+        ["_id"] = "3",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Three",
+        ["RebirthCallback"] = "function: 0x00000000d31300f4",
+        ["BoostDesc"] = "+225% Pet Damage",
+        ["ZoneNumberRequired"] = 75,
+        ["ItemRewards"] = {
+            {["_data"] = {["id"] = "Diamonds", ["_am"] = 50000}},
+            {["_data"] = {["id"] = "Slingshot"}},
+            {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 15}},
+            {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 10}},
+            {["_data"] = {["id"] = "Comet", ["_am"] = 10}},
+            {["_data"] = {["id"] = "Mini Pinata", ["_am"] = 2}},
+            {["_data"] = {["id"] = "Mini Lucky Block", ["_am"] = 2}},
+            {["_data"] = {["id"] = "Party Box", ["_am"] = 3}},
+            {["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 5}},
+            {["_data"] = {["id"] = "Secret Key"}},
+            {["_data"] = {["id"] = "Enchant Bundle", ["_am"] = 2}},
+            {["_data"] = {["id"] = "Potion Bundle", ["_am"] = 3}},
+            {["_data"] = {["id"] = "Flag Bundle", ["_am"] = 4}},
+            {["_data"] = {["id"] = "Toy Bundle", ["_am"] = 5}}
+        },
+        ["RebirthNumber"] = 3,
+        ["_script"] = "Rebirth | 3",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "Index Rewards",
+                ["Icon"] = "rbxassetid://16047269848",
+                ["Desc"] = "Earn rewards for collecting new pets!"
+            },
+            {
+                ["Title"] = "Slingy",
+                ["Icon"] = "rbxassetid://15278596130",
+                ["Desc"] = "Shoot flying balloons out of the sky for gifts!"
+            },
+            {
+                ["Title"] = "Locked Rooms",
+                ["Icon"] = "rbxassetid://16008658412",
+                ["Desc"] = "Use Secret Keys to unlock Secret Rooms!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {
+                ["Title"] = "Pet Teams",
+                ["Icon"] = "rbxassetid://15048277641",
+                ["Desc"] = "Create and save teams of your pets!"
+            },
+            {
+                ["Title"] = "Enchant Loadouts",
+                ["Icon"] = "rbxassetid://15057348192",
+                ["Desc"] = "Create and save enchant loadouts!"
+            }
         }
     }
 }
