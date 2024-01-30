@@ -1,10 +1,10 @@
 data = {
-    ["Iron"] = {
-        ["_script"] = "DigsiteOre | Iron",
-        ["_id"] = "Iron",
+    ["Amethyst"] = {
+        ["_script"] = "DigsiteOre | Amethyst",
+        ["_id"] = "Amethyst",
         ["Part"] = "Part",
-        ["Multiplier"] = 3,
-        ["DisplayName"] = "Iron"
+        ["Multiplier"] = 8,
+        ["DisplayName"] = "Amethyst"
     },
     ["Diamond"] = {
         ["_script"] = "DigsiteOre | Diamond",
@@ -64,12 +64,12 @@ data = {
         ["Multiplier"] = 8,
         ["DisplayName"] = "Diamond"
     },
-    ["Coal"] = {
-        ["_script"] = "DigsiteOre | Coal",
-        ["_id"] = "Coal",
+    ["Platinum"] = {
+        ["_script"] = "DigsiteOre | Platinum",
+        ["_id"] = "Platinum",
         ["Part"] = "Part",
         ["Multiplier"] = 2,
-        ["DisplayName"] = "Coal"
+        ["DisplayName"] = "Platinum"
     },
     ["Gold"] = {
         ["_script"] = "DigsiteOre | Gold",
@@ -77,5 +77,33 @@ data = {
         ["Part"] = "Part",
         ["Multiplier"] = 4,
         ["DisplayName"] = "Gold"
+    },
+    ["Sapphire"] = {
+        ["_script"] = "DigsiteOre | Sapphire",
+        ["_id"] = "Sapphire",
+        ["Part"] = "Part",
+        ["Multiplier"] = 4,
+        ["DisplayName"] = "Sapphire"
+    },
+    ["Emerald"] = {
+        ["_script"] = "DigsiteOre | Emerald",
+        ["_id"] = "Emerald",
+        ["Part"] = "Part",
+        ["Multiplier"] = 3,
+        ["DisplayName"] = "Emerald"
+    },
+    ["Coal"] = {
+        ["_script"] = "DigsiteOre | Coal",
+        ["_id"] = "Coal",
+        ["Part"] = "Part",
+        ["Multiplier"] = 2,
+        ["DisplayName"] = "Coal"
+    },
+    ["Iron"] = {
+        ["_script"] = "DigsiteOre | Iron",
+        ["_id"] = "Iron",
+        ["Part"] = "Part",
+        ["Multiplier"] = 3,
+        ["DisplayName"] = "Iron"
     }
 }
