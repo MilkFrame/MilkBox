@@ -27,7 +27,7 @@ data = {
         ["_script"] = "Gamepass | Extra Daycare Slots",
         ["ProductId"] = 651611000,
         ["_id"] = "Extra Daycare Slots",
-        ["Desc"] = "Increases your Daycare slots by 10!",
+        ["Desc"] = "Increases your Daycare slots by 25!",
         ["Icon"] = "rbxassetid://7599295493",
         ["DisplayName"] = "Extra Daycare Slots"
     },
@@ -47,6 +47,14 @@ data = {
         ["Icon"] = "rbxassetid://7599295493",
         ["DisplayName"] = "15 Pets Equipped"
     },
+    ["Auto Tapper"] = {
+        ["_script"] = "Gamepass | Auto Tapper",
+        ["ProductId"] = 265324265,
+        ["_id"] = "Auto Tapper",
+        ["Desc"] = "Automatically tap any breakable you hover!",
+        ["Icon"] = "rbxassetid://7599295493",
+        ["DisplayName"] = "Auto Tapper"
+    },
     ["15 Extra Eggs"] = {
         ["_script"] = "Gamepass | 15 Extra Eggs",
         ["ProductId"] = 655859720,
@@ -55,13 +63,13 @@ data = {
         ["Icon"] = "rbxassetid://7599295493",
         ["DisplayName"] = "15 Extra Eggs"
     },
-    ["Auto Tapper"] = {
-        ["_script"] = "Gamepass | Auto Tapper",
-        ["ProductId"] = 265324265,
-        ["_id"] = "Auto Tapper",
-        ["Desc"] = "Automatically tap any breakable you hover!",
-        ["Icon"] = "rbxassetid://7599295493",
-        ["DisplayName"] = "Auto Tapper"
+    ["Super Drops"] = {
+        ["_script"] = "Gamepass | Super Drops",
+        ["ProductId"] = 690997523,
+        ["_id"] = "Super Drops",
+        ["Desc"] = "Better random item drops!",
+        ["Icon"] = "rbxassetid://16008161293",
+        ["DisplayName"] = "Super Drops"
     },
     ["Auto Farm"] = {
         ["_script"] = "Gamepass | Auto Farm",
