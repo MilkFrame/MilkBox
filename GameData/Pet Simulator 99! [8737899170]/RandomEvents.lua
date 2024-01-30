@@ -1,18 +1,19 @@
 data = {
-    ["Comet"] = {
-        ["BreakingRequirement"] = 5,
-        ["Color"] = Color3.fromRGB(44, 255, 255),
-        ["Duration"] = 600,
+    ["Pinata"] = {
         ["AllowInZones"] = true,
-        ["_id"] = "Comet",
-        ["_script"] = "RandomEvent | Comet",
-        ["AllowInInstances"] = false,
-        ["Name"] = "Comet",
+        ["Color"] = Color3.fromRGB(255, 220, 19),
+        ["Duration"] = 600,
         ["PlaytimeRequirement"] = 5,
-        ["Chance"] = 50,
+        ["Chance"] = 5,
+        ["Icon"] = "rbxassetid://15938616489",
+        ["MinimumZone"] = 70,
+        ["BreakingRequirement"] = 5,
+        ["_script"] = "RandomEvent | Pinata",
+        ["Name"] = "PiÃ±ata",
+        ["_id"] = "Pinata",
         ["AreaWhitelist"] = {["Main_Magma"] = true, ["Main"] = true, ["Main_Ice"] = true},
         ["AllowMultiple"] = true,
-        ["Icon"] = "rbxassetid://15000811043"
+        ["AllowInInstances"] = false
     },
     ["CoinJar"] = {
         ["BreakingRequirement"] = 5,
@@ -24,9 +25,40 @@ data = {
         ["AllowInInstances"] = false,
         ["Name"] = "Coin Jar",
         ["PlaytimeRequirement"] = 5,
-        ["Chance"] = 50,
+        ["Chance"] = 42.5,
         ["AreaWhitelist"] = {["Main_Magma"] = true, ["Main"] = true, ["Main_Ice"] = true},
         ["AllowMultiple"] = true,
         ["Icon"] = "rbxassetid://15000811448"
+    },
+    ["LuckyBlock"] = {
+        ["AllowInZones"] = true,
+        ["Color"] = Color3.fromRGB(44, 255, 255),
+        ["Duration"] = 600,
+        ["PlaytimeRequirement"] = 5,
+        ["Chance"] = 10,
+        ["Icon"] = "rbxassetid://15938616838",
+        ["MinimumZone"] = 55,
+        ["BreakingRequirement"] = 5,
+        ["_script"] = "RandomEvent | LuckyBlock",
+        ["Name"] = "Lucky Block",
+        ["_id"] = "LuckyBlock",
+        ["AreaWhitelist"] = {["Main_Magma"] = true, ["Main"] = true, ["Main_Ice"] = true},
+        ["AllowMultiple"] = true,
+        ["AllowInInstances"] = false
+    },
+    ["Comet"] = {
+        ["BreakingRequirement"] = 5,
+        ["Color"] = Color3.fromRGB(44, 255, 255),
+        ["Duration"] = 600,
+        ["AllowInZones"] = true,
+        ["_id"] = "Comet",
+        ["_script"] = "RandomEvent | Comet",
+        ["AllowInInstances"] = false,
+        ["Name"] = "Comet",
+        ["PlaytimeRequirement"] = 5,
+        ["Chance"] = 42.5,
+        ["AreaWhitelist"] = {["Main_Magma"] = true, ["Main"] = true, ["Main_Ice"] = true},
+        ["AllowMultiple"] = true,
+        ["Icon"] = "rbxassetid://15000811043"
     }
 }
