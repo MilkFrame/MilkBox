@@ -4,9 +4,18 @@ data = {
         ["name"] = "High Tech Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x00000000d78aaa23",
+        ["callback"] = "function: 0x00000000ec1b5c08",
         ["thumbnail"] = "rbxassetid://9014343553",
         ["neededDesc"] = "Unlocked in Hardcore Mode."
+    },
+    ["Ghost"] = {
+        ["sounds"] = {["equip"] = {"rbxassetid://11345687913"}, ["idle"] = {3510107486}, ["jump"] = {3510107658}},
+        ["name"] = "Ghost Hoverboard",
+        ["board"] = "Hoverboard",
+        ["speed"] = 2,
+        ["callback"] = "function: 0x00000000d7dc6728",
+        ["thumbnail"] = "rbxassetid://15112861254",
+        ["neededDesc"] = "👻 Halloween 2023"
     },
     ["Steampunk"] = {
         ["sounds"] = {
@@ -17,7 +26,7 @@ data = {
         ["name"] = "Steampunk Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 1,
-        ["callback"] = "function: 0x000000009c980aeb",
+        ["callback"] = "function: 0x0000000036f89ac0",
         ["thumbnail"] = "rbxassetid://9014365809",
         ["neededDesc"] = "Reach Lvl 99 Converting Mastery"
     },
@@ -26,9 +35,9 @@ data = {
         ["name"] = "Pumpkin Cat Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000faac661b",
+        ["callback"] = "function: 0x00000000a42257c8",
         ["thumbnail"] = "rbxassetid://11345718736",
-        ["neededDesc"] = "ðŸŽƒ Halloween 2022"
+        ["neededDesc"] = "🎃 Halloween 2022"
     },
     ["Red Flying Carpet"] = {
         ["sounds"] = {
@@ -39,7 +48,7 @@ data = {
         ["name"] = "Red Flying Carpet",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x0000000091f9a313",
+        ["callback"] = "function: 0x000000009dab2f68",
         ["thumbnail"] = "rbxassetid://8312898681",
         ["neededDesc"] = "Top 100 in the Global Leaderboard"
     },
@@ -48,7 +57,7 @@ data = {
         ["name"] = "VIP Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000aa42cd93",
+        ["callback"] = "function: 0x00000000117cf4a0",
         ["thumbnail"] = "rbxassetid://8312897865",
         ["neededDesc"] = "Own both the Hoverboard and VIP Gamepasses"
     },
@@ -57,7 +66,7 @@ data = {
         ["name"] = "Cat Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x000000001d9ec813",
+        ["callback"] = "function: 0x0000000026a692c0",
         ["thumbnail"] = "rbxassetid://8312899360",
         ["neededDesc"] = "Meow"
     },
@@ -66,7 +75,7 @@ data = {
         ["name"] = "Original Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000507fba5b",
+        ["callback"] = "function: 0x000000005813fb68",
         ["thumbnail"] = "rbxassetid://8312897699",
         ["neededDesc"] = "Own the Hoverboard Gamepass"
     },
@@ -75,9 +84,9 @@ data = {
         ["name"] = "Easter Bunny Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x0000000068f2eea3",
+        ["callback"] = "function: 0x00000000dc9fa388",
         ["thumbnail"] = "rbxassetid://13036485622",
-        ["neededDesc"] = "ðŸ° Easter 2023"
+        ["neededDesc"] = "🐰 Easter 2023"
     },
     ["Blue Flying Carpet"] = {
         ["sounds"] = {
@@ -88,7 +97,7 @@ data = {
         ["name"] = "Blue Flying Carpet",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000dd854123",
+        ["callback"] = "function: 0x0000000038d516f8",
         ["thumbnail"] = "rbxassetid://8312898451",
         ["neededDesc"] = "Top 10 in the Global Leaderboard"
     },
@@ -101,7 +110,7 @@ data = {
         ["name"] = "Flame Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x000000009270213b",
+        ["callback"] = "function: 0x0000000030183d28",
         ["thumbnail"] = "rbxassetid://8312898199",
         ["neededDesc"] = "Be a BIG Games Partner"
     },
@@ -114,7 +123,7 @@ data = {
         ["name"] = "Sleigh Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 1,
-        ["callback"] = "function: 0x0000000057665033",
+        ["callback"] = "function: 0x00000000477dbe60",
         ["thumbnail"] = "rbxassetid://8312898812",
         ["neededDesc"] = "Complete the 2021 Christmas Event"
     },
@@ -123,7 +132,7 @@ data = {
         ["name"] = "Bee Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x000000004e9c4a23",
+        ["callback"] = "function: 0x00000000bf9c64c8",
         ["thumbnail"] = "rbxassetid://10016161308",
         ["neededDesc"] = "Redeem a Season 1 toy code"
     },
@@ -136,7 +145,7 @@ data = {
         ["name"] = "Rainbow Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000a6ef033b",
+        ["callback"] = "function: 0x00000000a458a888",
         ["thumbnail"] = "rbxassetid://8312898931",
         ["neededDesc"] = "Redeem a merch code"
     },
@@ -145,9 +154,9 @@ data = {
         ["name"] = "Rudolph Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000891626c3",
+        ["callback"] = "function: 0x00000000a5f21900",
         ["thumbnail"] = "rbxassetid://11836482697",
-        ["neededDesc"] = "ðŸŽ„ Complete the 2022 Christmas Event"
+        ["neededDesc"] = "🎄 Complete the 2022 Christmas Event"
     },
     ["Bling"] = {
         ["sounds"] = {
@@ -158,7 +167,7 @@ data = {
         ["name"] = "Bling Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x00000000b205d2cb",
+        ["callback"] = "function: 0x00000000c4f18040",
         ["thumbnail"] = "rbxassetid://8312898012",
         ["neededDesc"] = "Spend over 100k Robux in total"
     },
@@ -167,7 +176,7 @@ data = {
         ["name"] = "M-10 Quest Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x000000007557fe33",
+        ["callback"] = "function: 0x0000000028deafe8",
         ["thumbnail"] = "rbxassetid://13208837363",
         ["neededDesc"] = "Unlocked in Quest Shop"
     },
@@ -176,16 +185,16 @@ data = {
         ["name"] = "Surfboard Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 2,
-        ["callback"] = "function: 0x00000000a458bef3",
+        ["callback"] = "function: 0x000000007558e048",
         ["thumbnail"] = "rbxassetid://13708343305",
-        ["neededDesc"] = "ðŸ„â€ Summer 2023"
+        ["neededDesc"] = "🏄‍ Summer 2023"
     },
     ["Doodle"] = {
         ["sounds"] = {["equip"] = {3510107225}, ["idle"] = {3510107486}, ["jump"] = {3510107658}},
         ["name"] = "Doodle Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x0000000006501993",
+        ["callback"] = "function: 0x00000000619fe6a8",
         ["thumbnail"] = "rbxassetid://12219030670",
         ["neededDesc"] = "Unlocked in the Doodle World Hardcore Mode"
     },
@@ -194,7 +203,7 @@ data = {
         ["name"] = "Purple Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 1,
-        ["callback"] = "function: 0x00000000c0cddef3",
+        ["callback"] = "function: 0x0000000081db2ba8",
         ["thumbnail"] = "rbxassetid://10331584653",
         ["neededDesc"] = "Unlocked in Hardcore Mode."
     },
@@ -203,7 +212,7 @@ data = {
         ["name"] = "Diamond Hoverboard",
         ["board"] = "Hoverboard",
         ["speed"] = 3,
-        ["callback"] = "function: 0x000000007d5dee9b",
+        ["callback"] = "function: 0x0000000090f78468",
         ["thumbnail"] = "rbxassetid://12603128179",
         ["neededDesc"] = "Reach max Diamonds"
     }
