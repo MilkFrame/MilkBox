@@ -280,6 +280,7 @@ data = {
         ["HardcoreSeparate"] = true,
         ["Order"] = 101,
         ["Color"] = Color3.fromRGB(255, 198, 24),
+        ["Multiplier"] = 0.85,
         ["DisplayName"] = "Halloween Candy",
         ["ImageTiny"] = "rbxassetid://7799128842",
         ["Image"] = "rbxassetid://7799128714",
@@ -287,7 +288,7 @@ data = {
         ["ImageOutline"] = "rbxassetid://7799128977",
         ["Limit"] = 99999999999999,
         ["Gradient"] = "Halloween Candy Gradient",
-        ["Visibility"] = 0,
+        ["Visibility"] = 2,
         ["Tag"] = "halloween"
     }
 }
