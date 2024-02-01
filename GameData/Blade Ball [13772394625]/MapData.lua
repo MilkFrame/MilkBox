@@ -1,114 +1,157 @@
 data = {
+    ["Fantasy"] = {
+        ["DisabledInTraining"] = true,
+        ["Image"] = "rbxassetid://0",
+        ["HoverImage"] = "rbxassetid://0",
+        ["DisplayName"] = "Fantasy"
+    },
+    ["TrainingMode"] = {
+        ["Image"] = "rbxassetid://15467112488",
+        ["HoverImage"] = "rbxassetid://15467080348",
+        ["DisplayName"] = "Training Mode"
+    },
     ["Olympus"] = {
         ["Image"] = "rbxassetid://15122465790",
-        ["MinBallHeight"] = 116.703,
-        ["Id"] = 5,
-        ["DistanceToSpawnFrom"] = 100,
+        ["RankedMap"] = true,
         ["HoverImage"] = "rbxassetid://15122465534",
+        ["RankedImage"] = "rbxassetid://15874168767",
         ["DisplayName"] = "Olympus"
     },
-    ["RingOfFire"] = {
-        ["Image"] = "rbxassetid://15122132021",
-        ["MinBallHeight"] = 5,
-        ["Id"] = 4,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122131610",
-        ["DisplayName"] = "Ring Of Fire"
-    },
-    ["Height_Fight"] = {
-        ["Image"] = "rbxassetid://15122466321",
-        ["MinBallHeight"] = 116.703,
-        ["Id"] = 2,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122466060",
-        ["DisplayName"] = "Height Fight"
+    ["Heaven"] = {
+        ["Image"] = "rbxassetid://15384828790",
+        ["RankedMap"] = true,
+        ["HoverImage"] = "rbxassetid://15384828387",
+        ["RankedImage"] = "rbxassetid://15874169362",
+        ["DisplayName"] = "Heaven"
     },
     ["Desert"] = {
         ["Image"] = "rbxassetid://15122129270",
-        ["MinBallHeight"] = 5.75,
-        ["Id"] = 6,
-        ["DistanceToSpawnFrom"] = 125,
+        ["RankedMap"] = true,
         ["HoverImage"] = "rbxassetid://15122129068",
+        ["RankedImage"] = "rbxassetid://15874169885",
         ["DisplayName"] = "Desert"
     },
-    ["Birdcage"] = {
-        ["Image"] = "rbxassetid://15122127708",
-        ["MinBallHeight"] = 89,
-        ["Id"] = 1,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122127399",
-        ["DisplayName"] = "Birdcage"
-    },
-    ["Halloween_Graveyard"] = {
-        ["Image"] = "rbxassetid://15122130764",
-        ["MinBallHeight"] = 109.5,
-        ["Id"] = 13,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122130539",
-        ["DisplayName"] = "Graveyard"
+    ["RingOfFire"] = {
+        ["Image"] = "rbxassetid://15122132021",
+        ["RankedMap"] = true,
+        ["HoverImage"] = "rbxassetid://15122131610",
+        ["RankedImage"] = "rbxassetid://15874168591",
+        ["DisplayName"] = "Ring Of Fire"
     },
     ["Halloween_Colloseum"] = {
+        ["DisabledInTraining"] = true,
         ["Image"] = "rbxassetid://15122130326",
-        ["MinBallHeight"] = 14.4,
-        ["Id"] = 14,
-        ["DistanceToSpawnFrom"] = 125,
         ["HoverImage"] = "rbxassetid://15122130029",
         ["DisplayName"] = "Colloseum"
     },
+    ["MoonMap"] = {
+        ["Image"] = "rbxassetid://16138346803",
+        ["HoverImage"] = "rbxassetid://16138348985",
+        ["DisplayName"] = "Moon Map"
+    },
+    ["Enchanted_Desert"] = {
+        ["Image"] = "rbxassetid://15384830711",
+        ["HoverImage"] = "rbxassetid://15384830021",
+        ["DisplayName"] = "Enchanted Desert"
+    },
+    ["Halloween_Graveyard"] = {
+        ["DisabledInTraining"] = true,
+        ["Image"] = "rbxassetid://15122130764",
+        ["HoverImage"] = "rbxassetid://15122130539",
+        ["DisplayName"] = "Graveyard"
+    },
+    ["EnchantedForest"] = {
+        ["Image"] = "rbxassetid://15998452562",
+        ["HoverImage"] = "rbxassetid://15998454367",
+        ["DisplayName"] = "Enchanted Forest"
+    },
+    ["RBBattles"] = {
+        ["Image"] = "",
+        ["DisabledInTraining"] = true,
+        ["MinHeightOffset"] = 2.5,
+        ["HoverImage"] = "",
+        ["DisplayName"] = "RB Battles Arena"
+    },
+    ["CandyWorld"] = {
+        ["Image"] = "rbxassetid://16138366858",
+        ["HoverImage"] = "rbxassetid://16138369248",
+        ["DisplayName"] = "Candy World"
+    },
+    ["VinylPlayer"] = {
+        ["Image"] = "rbxassetid://16138350764",
+        ["HoverImage"] = "rbxassetid://16138354494",
+        ["DisplayName"] = "Vinyl Player"
+    },
+    ["Height_Fight"] = {
+        ["Image"] = "rbxassetid://15122466321",
+        ["RankedMap"] = true,
+        ["HoverImage"] = "rbxassetid://15122466060",
+        ["RankedImage"] = "rbxassetid://15874169154",
+        ["DisplayName"] = "Height Fight"
+    },
+    ["DestroyedCity"] = {
+        ["Image"] = "rbxassetid://16137932498",
+        ["HoverImage"] = "rbxassetid://16137942709",
+        ["DisplayName"] = "Destroyed City"
+    },
+    ["ToxicWaste"] = {
+        ["Image"] = "rbxassetid://16138303111",
+        ["HoverImage"] = "rbxassetid://16138306002",
+        ["DisplayName"] = "Toxic Waste"
+    },
+    ["TimesSquare"] = {
+        ["Image"] = "rbxassetid://15875224627",
+        ["HoverImage"] = "rbxassetid://15875224835",
+        ["DisplayName"] = "Times Square"
+    },
+    ["Jungle"] = {
+        ["Image"] = "rbxassetid://15384829668",
+        ["HoverImage"] = "rbxassetid://15384829236",
+        ["DisplayName"] = "Jungle"
+    },
     ["Quarry"] = {
         ["Image"] = "rbxassetid://15122466949",
-        ["MinBallHeight"] = 5.75,
-        ["Id"] = 12,
-        ["DistanceToSpawnFrom"] = 125,
         ["HoverImage"] = "rbxassetid://15122466607",
         ["DisplayName"] = "Quarry"
     },
-    ["Classic_V2"] = {
-        ["Image"] = "rbxassetid://15122128747",
-        ["MinBallHeight"] = 110.7,
-        ["Id"] = 10,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122128523",
-        ["DisplayName"] = "Classic V2"
+    ["Ocean"] = {
+        ["Image"] = "rbxassetid://15246674490",
+        ["RankedMap"] = true,
+        ["HoverImage"] = "rbxassetid://15246710974",
+        ["RankedImage"] = "rbxassetid://15874168988",
+        ["DisplayName"] = "Ocean"
     },
     ["Grassy_Classic"] = {
         ["Image"] = "rbxassetid://15122129728",
-        ["MinBallHeight"] = 14.4,
-        ["Id"] = 7,
-        ["DistanceToSpawnFrom"] = 125,
+        ["RankedMap"] = true,
         ["HoverImage"] = "rbxassetid://15122129483",
+        ["RankedImage"] = "rbxassetid://15874169605",
         ["DisplayName"] = "Grassy Classic"
     },
-    ["Red_Sands"] = {
-        ["Image"] = "rbxassetid://15122131284",
-        ["MinBallHeight"] = 3.8,
-        ["Id"] = 9,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122130989",
-        ["DisplayName"] = "Red Sands"
+    ["Classic_V2"] = {
+        ["Image"] = "rbxassetid://15122128747",
+        ["RankedMap"] = true,
+        ["HoverImage"] = "rbxassetid://15122128523",
+        ["RankedImage"] = "rbxassetid://15874170144",
+        ["DisplayName"] = "Classic V2"
     },
     ["Arena"] = {
         ["Image"] = "rbxassetid://15122127147",
-        ["MinBallHeight"] = 10,
-        ["Id"] = 3,
-        ["DistanceToSpawnFrom"] = 125,
+        ["RankedMap"] = true,
         ["HoverImage"] = "rbxassetid://15122126711",
+        ["RankedImage"] = "rbxassetid://15874170676",
         ["DisplayName"] = "Arena"
+    },
+    ["Underworld"] = {
+        ["Image"] = "rbxassetid://15246719141",
+        ["HoverImage"] = "rbxassetid://15246730284",
+        ["DisplayName"] = "Underworld"
     },
     ["Classic"] = {
         ["Image"] = "rbxassetid://15122128274",
-        ["MinBallHeight"] = 27,
-        ["Id"] = 8,
-        ["DistanceToSpawnFrom"] = 125,
+        ["RankedMap"] = true,
         ["HoverImage"] = "rbxassetid://15122128067",
+        ["RankedImage"] = "rbxassetid://15874170417",
         ["DisplayName"] = "Classic"
-    },
-    ["SakuraTemple"] = {
-        ["Image"] = "rbxassetid://15122132585",
-        ["MinBallHeight"] = 14.4,
-        ["Id"] = 11,
-        ["DistanceToSpawnFrom"] = 125,
-        ["HoverImage"] = "rbxassetid://15122132376",
-        ["DisplayName"] = "Sakura Temple"
     }
 }
