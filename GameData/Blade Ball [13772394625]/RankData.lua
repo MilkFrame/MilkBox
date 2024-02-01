@@ -1,5 +1,5 @@
 data = {
-    ["GetNextRank"] = "function: 0x000000004070c7e6",
+    ["GetNextRank"] = "function: 0x00000000a0138723",
     ["RankList"] = {
         {
             ["Name"] = "Rookie",
@@ -11,7 +11,24 @@ data = {
         {
             ["Name"] = "Bronze",
             ["MinimumElo"] = 2000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 75}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 75,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "75 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 75,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "75 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630678",
             ["MaximumElo"] = 2999,
             ["TextColor"] = Color3.fromRGB(200, 132, 93)
@@ -19,7 +36,24 @@ data = {
         {
             ["Name"] = "Silver",
             ["MinimumElo"] = 3000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 100}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 100,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "100 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 100,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "100 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629343",
             ["MaximumElo"] = 3999,
             ["TextColor"] = Color3.fromRGB(161, 175, 181)
@@ -27,7 +61,24 @@ data = {
         {
             ["Name"] = "Gold",
             ["MinimumElo"] = 4000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 200}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 200,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "200 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 200,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "200 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630089",
             ["MaximumElo"] = 4999,
             ["TextColor"] = Color3.fromRGB(236, 194, 39)
@@ -35,7 +86,24 @@ data = {
         {
             ["Name"] = "Platinum",
             ["MinimumElo"] = 5000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 375}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 375,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713794582",
+                        ["DisplayName"] = "375 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 375,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713794582",
+                        ["DisplayName"] = "375 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629671",
             ["MaximumElo"] = 5999,
             ["TextColor"] = Color3.fromRGB(228, 242, 248)
@@ -43,7 +111,24 @@ data = {
         {
             ["Name"] = "Diamond",
             ["MinimumElo"] = 6000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 750}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 750,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "750 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 750,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "750 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630252",
             ["MaximumElo"] = 6999,
             ["TextColor"] = Color3.fromRGB(83, 231, 255)
@@ -51,29 +136,108 @@ data = {
         {
             ["Name"] = "???",
             ["MinimumElo"] = 7000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 1500}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 1500,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "1500 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 1500,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "1500 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629907",
             ["MaximumElo"] = 7999,
             ["TextColor"] = Color3.fromRGB(255, 82, 255)
         },
         {
+            ["PrimaryReward"] = 2,
             ["Name"] = "Champion",
             ["MinimumElo"] = 8000,
-            ["Reward"] = {
-                {["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 2000},
-                {["SwordName"] = "Cyber Cleaveblade", ["Icon"] = "rbxassetid://15106177980"}
-            },
             ["Icon"] = "rbxassetid://14916630439",
+            ["Rewards"] = {
+                ["Normal"] = {
+                    ["3"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Champion's Excalibur",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://15956416679",
+                            ["DisplayName"] = "Champion's Excalibur"
+                        }
+                    },
+                    ["2"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Azure Thunderbolt",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://6034407076",
+                            ["DisplayName"] = "Azure Thunderbolt"
+                        }
+                    }
+                },
+                ["NoAbility"] = {
+                    ["1"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Champion's Excalibur",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://15956416679",
+                            ["DisplayName"] = "Champion's Excalibur"
+                        }
+                    }
+                }
+            },
             ["MaximumElo"] = "inf",
             ["TextColor"] = Color3.fromRGB(0, 124, 215)
         }
     },
-    ["GetRank"] = "function: 0x0000000064437b3e",
+    ["GetRank"] = "function: 0x00000000fd8fc5bb",
     ["Ranks"] = {
         ["Platinum"] = {
             ["Name"] = "Platinum",
             ["MinimumElo"] = 5000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 375}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 375,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713794582",
+                        ["DisplayName"] = "375 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 375,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713794582",
+                        ["DisplayName"] = "375 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629671",
             ["MaximumElo"] = 5999,
             ["TextColor"] = Color3.fromRGB(228, 242, 248)
@@ -81,7 +245,24 @@ data = {
         ["Diamond"] = {
             ["Name"] = "Diamond",
             ["MinimumElo"] = 6000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 750}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 750,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "750 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 750,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "750 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630252",
             ["MaximumElo"] = 6999,
             ["TextColor"] = Color3.fromRGB(83, 231, 255)
@@ -89,7 +270,24 @@ data = {
         ["Silver"] = {
             ["Name"] = "Silver",
             ["MinimumElo"] = 3000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 100}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 100,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "100 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 100,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "100 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629343",
             ["MaximumElo"] = 3999,
             ["TextColor"] = Color3.fromRGB(161, 175, 181)
@@ -97,7 +295,24 @@ data = {
         ["Gold"] = {
             ["Name"] = "Gold",
             ["MinimumElo"] = 4000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 200}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 200,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "200 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 200,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "200 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630089",
             ["MaximumElo"] = 4999,
             ["TextColor"] = Color3.fromRGB(236, 194, 39)
@@ -105,26 +320,105 @@ data = {
         ["???"] = {
             ["Name"] = "???",
             ["MinimumElo"] = 7000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 1500}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 1500,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "1500 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 1500,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713779371",
+                        ["DisplayName"] = "1500 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916629907",
             ["MaximumElo"] = 7999,
             ["TextColor"] = Color3.fromRGB(255, 82, 255)
         },
         ["Champion"] = {
+            ["PrimaryReward"] = 2,
             ["Name"] = "Champion",
             ["MinimumElo"] = 8000,
-            ["Reward"] = {
-                {["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 2000},
-                {["SwordName"] = "Cyber Cleaveblade", ["Icon"] = "rbxassetid://15106177980"}
-            },
             ["Icon"] = "rbxassetid://14916630439",
+            ["Rewards"] = {
+                ["Normal"] = {
+                    ["3"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Champion's Excalibur",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://15956416679",
+                            ["DisplayName"] = "Champion's Excalibur"
+                        }
+                    },
+                    ["2"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Azure Thunderbolt",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://6034407076",
+                            ["DisplayName"] = "Azure Thunderbolt"
+                        }
+                    }
+                },
+                ["NoAbility"] = {
+                    ["1"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2000 Coins"
+                        },
+                        {
+                            ["Value"] = "Champion's Excalibur",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://15956416679",
+                            ["DisplayName"] = "Champion's Excalibur"
+                        }
+                    }
+                }
+            },
             ["MaximumElo"] = "inf",
             ["TextColor"] = Color3.fromRGB(0, 124, 215)
         },
         ["Bronze"] = {
             ["Name"] = "Bronze",
             ["MinimumElo"] = 2000,
-            ["Reward"] = {{["CurrencyName"] = "Coins", ["Icon"] = "rbxassetid://15038384377", ["Amount"] = 75}},
+            ["Reward"] = {
+                ["Normal"] = {
+                    {
+                        ["Value"] = 75,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "75 Coins"
+                    }
+                },
+                ["NoAbility"] = {
+                    {
+                        ["Value"] = 75,
+                        ["Type"] = "Coins",
+                        ["Icon"] = "rbxassetid://14713797174",
+                        ["DisplayName"] = "75 Coins"
+                    }
+                }
+            },
             ["Icon"] = "rbxassetid://14916630678",
             ["MaximumElo"] = 2999,
             ["TextColor"] = Color3.fromRGB(200, 132, 93)
