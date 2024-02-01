@@ -1,0 +1,42 @@
+data = {
+    ["GetFishInfo"] = "function: 0x00000000b7b1fc88",
+    ["ArtName"] = "function: 0x0000000017f75290",
+    ["Fish"] = {
+        {"Ballyhoo", 10, 5, 1, 0.5},
+        {"Mullet", 14, 8, 2, 1},
+        {"Trout", 14, 8, 2, 1},
+        {"Red Drum", 40, 20, 8, 4},
+        {"Tarpon", 68, 32, 16, 8},
+        {"Mackerel", 20, 10, 6, 3},
+        {"Tuna", 80, 36, 18, 8},
+        {"Marlin", 104, 52, 22, 11}
+    },
+    ["PreviewArt"] = "function: 0x00000000b790d528",
+    ["Artwork"] = {
+        {"Purshovian Night", 15858637732, 8, 1.79, "Koxinov"},
+        {"Boiling Rock", 15859171369, 8, 2.22, "Nahr_Nahrstein"},
+        {"Purshovian Winter", 15859350659, 8, 1.79, "Koxinov"},
+        {"Fall of Terranfort", 15859353517, 8, 1.79, "Koxinov"},
+        {"Hog Riders", 16039684883, 8, 1.6, "Zachgaudioman"},
+        {"Broadside", 15859715797, 6, 1.33, "BombasticNation"},
+        {"Fallen Kingdom", 15859718440, 6, 2, "legolegolego456"},
+        {"Starling Starlight", 16016812567, 6, 1.25, "AndropolisTM"},
+        {"Night of the Nautilus", 16016822608, 6, 1.25, "AndropolisTM"},
+        {"Capture", 16016755622, 8, 1.63, "AlwaysNegativeBoi"},
+        {"The Unifying Handshake", 16016879113, 5, 1, "Kircata"},
+        {"Minnowclad Drawings", 16017150718, 5, 1.33, "CrazyGunner02"},
+        {"Average Purshovian Crewman", 16018873296, 4, 1, "MarkedKaiBoy"},
+        {"Harmless Balloon", 16020741126, 4, 0.71, "Vermoq"},
+        {"Nahrna Lisa", 16021486006, 4, 0.7, "Crabway"},
+        {"Hind", 16021306902, 6, 1.17, "GHPR1ME"},
+        {"Cursed Portrait", 16018500067, 3, 1.5, "TheValiant"},
+        {"Hog Rider", 16039686777, 6, 1.6, "Zachgaudioman"},
+        {"le dementor", 16039695352, 6, 2.04, "CaptainLosticJr"},
+        {"tradelands", 16039698366, 4, 1, "legolegolego456"},
+        {"The Boys", 16039700485, 8, 1.78, "zcole96"}
+    },
+    ["ScaleFish"] = "function: 0x00000000aa2191c8",
+    ["GetSpecialItemInfo"] = "function: 0x00000000e7f168d8",
+    ["GetWeight"] = "function: 0x00000000d72fcaf0",
+    ["SetupArtwork"] = "function: 0x00000000661306e0"
+}
