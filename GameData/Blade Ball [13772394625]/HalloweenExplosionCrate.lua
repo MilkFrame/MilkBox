@@ -1,37 +1,37 @@
 data = {
-    ["SpinTable"] = "function: 0x00000000aefdc45e",
+    ["SpinTable"] = "function: 0x00000000da95e6ab",
     ["Rewards"] = {
         {
-            ["ItemName"] = "Portal To Hell",
-            ["Rarity"] = 23,
+            ["ItemName"] = "Portal to Hell",
+            ["Rarity"] = 17,
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050028397",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Portal To Hell", false}
+            ["AwardFunctionArguments"] = {"Portal to Hell"}
         },
         {
             ["ItemName"] = "Hungry Shadows",
-            ["Rarity"] = 19,
+            ["Rarity"] = 16,
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050029747",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Hungry Shadows", false}
+            ["AwardFunctionArguments"] = {"Hungry Shadows"}
         },
         {
             ["ItemName"] = "Evil Teleportation",
-            ["Rarity"] = 15.85,
+            ["Rarity"] = 13.85,
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050031425",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Evil Teleportation", false}
+            ["AwardFunctionArguments"] = {"Evil Teleportation"}
         },
         {
             ["ItemName"] = "Evil Spike Pit",
-            ["Rarity"] = 13,
+            ["Rarity"] = 12,
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050032257",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Evil Spike Pit", false}
+            ["AwardFunctionArguments"] = {"Evil Spike Pit"}
         },
         {
             ["ItemName"] = "Poison Bomb",
@@ -39,7 +39,7 @@ data = {
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050032974",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Poison Bomb", false}
+            ["AwardFunctionArguments"] = {"Poison Bomb"}
         },
         {
             ["ItemName"] = "Ghost Grenade",
@@ -47,7 +47,7 @@ data = {
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050034005",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Ghost Grenade", false}
+            ["AwardFunctionArguments"] = {"Ghost Grenade"}
         },
         {
             ["ItemName"] = "Purgatory Flames",
@@ -55,7 +55,7 @@ data = {
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050035010",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Purgatory Flames", false}
+            ["AwardFunctionArguments"] = {"Purgatory Flames"}
         },
         {
             ["ItemName"] = "Pumpkin Fire",
@@ -63,7 +63,7 @@ data = {
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050038136",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Pumpkin Fire", false}
+            ["AwardFunctionArguments"] = {"Pumpkin Fire"}
         },
         {
             ["ItemName"] = "Exorcist Combustion",
@@ -71,15 +71,15 @@ data = {
             ["Amount"] = 1,
             ["Icon"] = "rbxassetid://15050036477",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Exorcist Combustion", false}
+            ["AwardFunctionArguments"] = {"Exorcist Combustion"}
         },
         {
             ["ItemName"] = "Hell Dragon Beam",
             ["Rarity"] = 0.15,
             ["Amount"] = 1,
-            ["Icon"] = "http://www.roblox.com/asset/?id=15060139517",
+            ["Icon"] = "rbxassetid://15050035010",
             ["AwardFunctionName"] = "AddExplosion",
-            ["AwardFunctionArguments"] = {"Hell Dragon Beam", false}
+            ["AwardFunctionArguments"] = {"Hell Dragon Beam"}
         }
     }
 }
