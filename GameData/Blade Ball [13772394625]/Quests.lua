@@ -1,7 +1,7 @@
 data = {
     ["Kill10"] = {
         ["rewards"] = {{["amount"] = 35, ["type"] = "Credits"}},
-        ["text"] = "Kill %d Players!",
+        ["text"] = "Eliminate %d Players!",
         ["stat"] = "Kills",
         ["goal"] = 10
     },
@@ -25,7 +25,7 @@ data = {
     },
     ["Kill20"] = {
         ["rewards"] = {{["amount"] = 65, ["type"] = "Credits"}},
-        ["text"] = "Kill %d Players!",
+        ["text"] = "Eliminate %d Players!",
         ["stat"] = "Kills",
         ["goal"] = 20
     },
@@ -49,7 +49,7 @@ data = {
     },
     ["Kill30"] = {
         ["rewards"] = {{["amount"] = 95, ["type"] = "Credits"}},
-        ["text"] = "Kill %d Players!",
+        ["text"] = "Eliminate %d Players!",
         ["stat"] = "Kills",
         ["goal"] = 30
     }
