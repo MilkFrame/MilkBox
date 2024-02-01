@@ -1,0 +1,21 @@
+data = {
+    ["isRankedMatchServer"] = "function: 0x000000009a11ac13",
+    ["isTrainingServer"] = "function: 0x0000000002193c03",
+    ["isLTMServer"] = "function: 0x000000000d8c8603",
+    ["isDuelLobbyServer"] = "function: 0x00000000409739ab",
+    ["isElementalServer"] = "function: 0x0000000076113723",
+    ["GetRankType"] = "function: 0x0000000007fd7ccb",
+    ["isProServer"] = "function: 0x000000007368d48b",
+    ["isDuelMatchServer"] = "function: 0x000000000f3aad43",
+    ["isVoiceServer"] = "function: 0x00000000d6a06de3",
+    ["legacy"] = "function: 0x00000000bf861e8b",
+    ["isTestGame"] = "function: 0x0000000067d04973",
+    ["isPrivateServer"] = "function: 0x0000000085d5ec33",
+    ["isNoAbilityRankedLobbyServer"] = "function: 0x000000007adb6023",
+    ["isNoAbilityRankedMatchServer"] = "function: 0x0000000015de5ebb",
+    ["isBossFightServer"] = "function: 0x000000006b8a0933",
+    ["isRBBattlesServer"] = "function: 0x00000000de0ec79b",
+    ["isRankedLobbyServer"] = "function: 0x00000000a6a33d13",
+    ["isReservedServer"] = "function: 0x0000000030e1eaab",
+    ["isAFKServer"] = "function: 0x00000000a48ad9eb"
+}
