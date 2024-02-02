@@ -1,15 +1,16 @@
 data = {
     ["BedwarsBPKits"] = {
-        ["season5"] = {"merchant", "star_collector", "wind_walker", "battery", "pinata", "dino_tamer"},
-        ["season7"] = {"queen_bee", "blood_assassin", "drill", "hatter"},
-        ["season6"] = {"mage", "paladin", "jailor", "dragon_slayer", "void_dragon"},
-        ["season4"] = {"metal_detector", "alchemist", "beast", "vesta", "sheep_herder", "midnight"},
-        ["season2"] = {"ghost_catcher", "oil_man", "trapper", "spearman", "fisherman"},
-        ["season8"] = {"ignis", "elektra", "card"},
-        ["season3"] = {"yeti", "santa", "frosty", "gingerbread_man", "smoke", "aery"},
         ["season1"] = {"raven", "bounty_hunter", "warrior", "spirit_catcher", "pyro", "jade", "beekeeper"}
+        ["season2"] = {"ghost_catcher", "oil_man", "trapper", "spearman", "fisherman"},
+        ["season3"] = {"yeti", "santa", "frosty", "smoke", "gingerbread_man", "aery"},
+        ["season4"] = {"metal_detector", "alchemist", "midnight", "beast", "vesta", "sheep_herder"},
+        ["season5"] = {"merchant", "star_collector", "wind_walker", "battery", "pinata", "dino_tamer"},
+        ["season6"] = {"mage", "paladin", "jailor", "dragon_slayer", "void_dragon"},
+        ["season7"] = {"queen_bee", "blood_assassin", "drill", "hatter"},
+        ["season8"] = {"ignis", "elektra", "card"},
+        ["season9"] = {"cat", "ninja", "steam_engineer", "slime_tamer", "block_kicker"},
     },
-    ["getBedwarsKitMeta"] = "function: 0x000000001da729bc",
+    ["getBedwarsKitMeta"] = "function: 0x00000000cf4a03ab",
     ["BedwarsKitMeta"] = {
         ["flower_bee"] = {
             ["forgeGearSubstitutes"] = {
@@ -38,7 +39,7 @@ data = {
             ["priceRobux"] = 399,
             ["name"] = "Freiya",
             ["gamepassId"] = 25647124,
-            ["description"] = "Damage enemies to unlock your Frost passive. Once unlocked, dealing damage will apply stacks of Frost. At four stacks Frost is consumed and slows the target. Emerald Sword is replaced by the Ice Sword which amplifies Frost.",
+            ["description"] = "Dealing damage will apply stacks of Frost. At four stacks, Frost is consumed and applies Frostbite to the target, making them fragile. Emerald Sword is replaced by the Ice Sword, which applies two stacks per hit. Use your Frost Explosion ability to immediately deal damage to nearby targets with stacks of Frost.",
             ["renderImage"] = "rbxassetid://9155466204",
             ["kitClass"] = 0,
             ["previewItems"] = {"ice_sword"}
@@ -55,7 +56,7 @@ data = {
             ["kitClass"] = 0,
             ["renderImage"] = "rbxassetid://11104063651",
             ["name"] = "Infected",
-            ["description"] = "ðŸ§Ÿâ€â™‚ï¸"
+            ["description"] = "🧟‍♂️"
         },
         ["santa"] = {
             ["unlockedInBattlePass"] = true,
@@ -96,7 +97,7 @@ data = {
             ["kitClass"] = 0,
             ["renderImage"] = "rbxassetid://11527394782",
             ["name"] = "Super Infected",
-            ["description"] = "ðŸ‘‘ðŸ§Ÿ"
+            ["description"] = "👑🧟"
         },
         ["none"] = {["notGiftable"] = true, ["name"] = "None", ["renderImage"] = "", ["description"] = ""},
         ["ember"] = {
@@ -198,7 +199,7 @@ data = {
             ["forgeGearSubstitutes"] = {["wood_crossbow"] = "tactical_crossbow", ["headhunter"] = "tactical_headhunter"},
             ["priceRobux"] = 399,
             ["gamepassId"] = 19275795,
-            ["description"] = "+15% projectile damage and access to the Tactical Crossbow in Item Shop.",
+            ["description"] = "Deal 20% more projectile damage and gain access to the Tactical Crossbow in the Item Shop.",
             ["renderImage"] = "rbxassetid://9224796984",
             ["name"] = "Archer",
             ["kitClass"] = 7,
@@ -243,9 +244,7 @@ data = {
             ["name"] = "Void Regent",
             ["kitClass"] = 3,
             ["renderImage"] = "rbxassetid://9166208904",
-            ["description"] = [[Use a Void Axe to dash forward while slashing at enemies, healing for a portion of the damage dealt.
-
-<i>(Part of the Holiday 2021 Bundle)</i>]],
+            ["description"] = [[Use a Void Axe to dash forward while slashing at enemies, healing for a portion of the damage dealt.\n\n<i>(Part of the Holiday 2021 Bundle)</i>]],
             ["limitedTime"] = true,
             ["previewItems"] = {"void_axe"}
         },
@@ -292,6 +291,22 @@ data = {
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {}
         },
+        ["cat"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Yamini",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15350740470",
+            ["kitClass"] = 3,
+            ["description"] = "Climb and pounce with feline dexterity! Fall damage is reduced since you always land on your feet."
+        },
+        ["elk_master"] = {
+            ["notGiftable"] = true,
+            ["name"] = "Sigrid",
+            ["limitedTime"] = true,
+            ["renderImage"] = "rbxassetid://15714972287",
+            ["kitClass"] = 3,
+            ["description"] = "Summon your mount, charge at your enemies and send them flying! Cannot use weapons while riding the Elk."
+        },
         ["triple_shot"] = {
             ["priceRobux"] = 399,
             ["name"] = "Vanessa",
@@ -301,6 +316,14 @@ data = {
             ["kitClass"] = 7,
             ["previewItems"] = {"feather_bow"}
         },
+        ["ninja"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Umeko",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15517037848",
+            ["kitClass"] = 7,
+            ["description"] = "Use chakrams to fight at mid-range. You can turn invisible and escape from battle if you get attacked by a melee attack."
+        },
         ["warrior"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Warrior",
@@ -309,6 +332,39 @@ data = {
             ["description"] = "Armor is slightly cheaper and you can buy powerful warrior armor.",
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {}
+        },
+        ["midnight"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Nyx",
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://9155462763",
+            ["battlepassSeason"] = "season4",
+            ["description"] = "Trigger the darkness of Midnight to deal ramping increased damage and armor pen."
+        },
+        ["steam_engineer"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Cogsworth",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15380413567",
+            ["kitClass"] = 5,
+            ["description"] = "Deploy robots that search for generators and collect resources!"
+        },
+        ["slime_tamer"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Noelle",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15379766168",
+            ["kitClass"] = 6,
+            ["description"] = "Tame slimes to befriend your team, providing your teammates with unique buffs that strengthen over time!"
+        },
+        ["smoke"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Smoke",
+            ["kitClass"] = 4,
+            ["renderImage"] = "rbxassetid://9155462247",
+            ["description"] = "A stealth-focused kit that uses smoke charges to grant invisibility.",
+            ["battlepassSeason"] = "season3",
+            ["previewItems"] = {"smoke_bomb"}
         },
         ["taliyah"] = {
             ["notGiftable"] = true,
@@ -320,7 +376,7 @@ data = {
         ["shielder"] = {
             ["priceRobux"] = 399,
             ["gamepassId"] = 19546564,
-            ["description"] = "Spawn with a massive shield that can deflect damage + projectile knockback.",
+            ["description"] = "Spawn with a massive shield. Gain energy while holding your shield, and raise your shield to deflect incoming projectiles.",
             ["name"] = "Infernal Shielder",
             ["renderImage"] = "rbxassetid://9155464114",
             ["kitClass"] = 1,
@@ -341,8 +397,7 @@ data = {
             ["limitedTime"] = true,
             ["renderImage"] = "rbxassetid://11902552560",
             ["kitClass"] = 0,
-            ["description"] = [[Start the game with an egg on your shoulder. Get kills to hatch and evolve your Seahorse, increasing its damage and unlocking passive abilities.
-<i>(Part of the Holiday 2022 Bundle)</i>]]
+            ["description"] = [[Start the game with an egg on your shoulder. Get kills to hatch and evolve your Seahorse, increasing its damage and unlocking passive abilities.\n<i>(Part of the Holiday 2022 Bundle)</i>]]
         },
         ["mage"] = {
             ["unlockedInBattlePass"] = true,
@@ -444,7 +499,7 @@ data = {
             ["renderImage"] = "rbxassetid://11343458097",
             ["gamepassId"] = 97149830,
             ["kitClass"] = 0,
-            ["description"] = "Claim souls to build your undead army! Unlock for FREE by completing Crypt's Trials!"
+            ["description"] = "Claim souls to build your undead army! Could be unlocked for FREE by completing Crypt's Trials during the Halloween 2022 event."
         },
         ["jailor"] = {
             ["unlockedInBattlePass"] = true,
@@ -507,11 +562,11 @@ data = {
         },
         ["pinata"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "LucÃ­a",
+            ["name"] = "Lucía",
             ["kitClass"] = 5,
             ["renderImage"] = "rbxassetid://10011261147",
             ["battlepassSeason"] = "season5",
-            ["description"] = "Use the candy you get from damaging players to fill up your piÃ±ata. When you're ready, smash it for lots of loot!"
+            ["description"] = "Use the candy you get from damaging players to fill up your piñata. When you're ready, smash it for lots of loot!"
         },
         ["dino_tamer"] = {
             ["unlockedInBattlePass"] = true,
@@ -598,13 +653,13 @@ data = {
             ["kitClass"] = 4,
             ["name"] = "Pirate Davey"
         },
-        ["midnight"] = {
+        ["block_kicker"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Nyx",
+            ["name"] = "Terra",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15382536098",
             ["kitClass"] = 0,
-            ["renderImage"] = "rbxassetid://9155462763",
-            ["battlepassSeason"] = "season4",
-            ["description"] = "Trigger the darkness of Midnight to deal ramping increased damage and armor pen."
+            ["description"] = "Stomp the ground to gather protective blocks, then kick them at your enemies. Each successful hit permanently increases kick damage!"
         },
         ["dasher"] = {
             ["forgeGearSubstitutes"] = {
@@ -622,14 +677,13 @@ data = {
             ["kitClass"] = 3,
             ["previewItems"] = {"emerald_dao"}
         },
-        ["smoke"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Smoke",
-            ["kitClass"] = 4,
-            ["renderImage"] = "rbxassetid://9155462247",
-            ["description"] = "A stealth-focused kit that uses smoke charges to grant invisibility.",
-            ["battlepassSeason"] = "season3",
-            ["previewItems"] = {"smoke_bomb"}
+        ["warlock"] = {
+            ["priceRobux"] = 399,
+            ["name"] = "Eldric",
+            ["renderImage"] = "rbxassetid://15186338366",
+            ["gamepassId"] = 641095710,
+            ["kitClass"] = 0,
+            ["description"] = "Drain health from enemies or sacrifice your health to heal allies. Could be unlocked for FREE by completing Crypt's Coven during the Halloween 2023 event."
         },
         ["aery"] = {
             ["unlockedInBattlePass"] = true,
