@@ -11,6 +11,11 @@ data = {
         "diamond_victorious_spirit_assassin",
         "platinum_victorious_spirit_assassin",
         "gold_victorious_spirit_assassin",
+        "grim_reaper_victorious_nightmare",
+        "grim_reaper_victorious_emerald",
+        "grim_reaper_victorious_diamond",
+        "grim_reaper_victorious_platinum",
+        "grim_reaper_victorious_gold",
         "hannah_victorious"
     },
     ["RankedRewardsMeta"] = {
@@ -116,6 +121,51 @@ data = {
             ["platinum"] = {
                 ["titles"] = {"rank_s6_platinum"},
                 ["kitSkins"] = {"platinum_victorious_spirit_assassin", "gold_victorious_spirit_assassin"},
+                ["rank"] = "platinum"
+            }
+        },
+        ["RANKED_S8"] = {
+            ["diamond"] = {
+                ["titles"] = {"rank_s8_diamond"},
+                ["kitSkins"] = {
+                    "grim_reaper_victorious_diamond",
+                    "grim_reaper_victorious_platinum",
+                    "grim_reaper_victorious_gold"
+                },
+                ["rank"] = "diamond"
+            },
+            ["silver"] = {["titles"] = {"rank_s8_silver"}, ["rank"] = "silver"},
+            ["gold"] = {
+                ["titles"] = {"rank_s8_gold"},
+                ["kitSkins"] = {"grim_reaper_victorious_gold"},
+                ["rank"] = "gold"
+            },
+            ["nightmare"] = {
+                ["titles"] = {"rank_s8_nightmare"},
+                ["emotes"] = {"nightmare_grim_reaper"},
+                ["kitSkins"] = {
+                    "grim_reaper_victorious_nightmare",
+                    "grim_reaper_victorious_emerald",
+                    "grim_reaper_victorious_diamond",
+                    "grim_reaper_victorious_platinum",
+                    "grim_reaper_victorious_gold"
+                },
+                ["rank"] = "nightmare"
+            },
+            ["emerald"] = {
+                ["titles"] = {"rank_s8_emerald"},
+                ["kitSkins"] = {
+                    "grim_reaper_victorious_emerald",
+                    "grim_reaper_victorious_diamond",
+                    "grim_reaper_victorious_platinum",
+                    "grim_reaper_victorious_gold"
+                },
+                ["rank"] = "emerald"
+            },
+            ["bronze"] = {["titles"] = {"rank_s8_bronze"}, ["rank"] = "bronze"},
+            ["platinum"] = {
+                ["titles"] = {"rank_s8_platinum"},
+                ["kitSkins"] = {"grim_reaper_victorious_platinum", "grim_reaper_victorious_gold"},
                 ["rank"] = "platinum"
             }
         },
