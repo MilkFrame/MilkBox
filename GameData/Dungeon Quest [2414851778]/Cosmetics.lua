@@ -1,1528 +1,2934 @@
 --require(game:GetService("ReplicatedStorage").Utility.DataRequester).GetCosmetics()
 data = {
-    ["titles"] = {
-        ["Holiday Savior"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Holiday Savior"},
-        ["Godlike"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Godlike"},
-        ["Samurai Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Samurai Defender"},
-        ["Novice"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Novice"},
-        ["The Nightmare"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "The Nightmare"},
-        ["Elite Demon Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Demon Defender"
-        },
-        ["Ice In My Veins"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Ice In My Veins"},
-        ["Demon Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Demon Defender"},
-        ["Papa"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Papa"},
-        ["Orbital Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Orbital Achiever"},
-        ["Ultimate Samurai Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Samurai Defender"
-        },
-        ["Godly Samurai Defender"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Godly Samurai Defender"
-        },
-        ["Elite Desert Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Desert Defender"
-        },
-        ["Gilded Achiever"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Gilded Achiever"},
-        ["Canal Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Canal Achiever"},
-        ["Godly Demon Defender"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Godly Demon Defender"},
-        ["Steampunk Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Steampunk Achiever"},
-        ["Haunted"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Haunted"},
-        ["Godly King's Defender"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Godly King's Defender"
-        },
-        ["Hardcore Parkour"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Hardcore Parkour"},
-        ["Volcanic Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Volcanic Achiever"},
-        ["Skilled"] = {["rarity"] = "uncommon", ["cosmeticType"] = "titles", ["name"] = "Skilled"},
-        ["Elite Samurai Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Samurai Defender"
-        },
-        ["Ultimate King's Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate King's Defender"
-        },
-        ["Winter Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Winter Defender"},
-        ["King's Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "King's Achiever"},
-        ["Godly Pirate Defender"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Godly Pirate Defender"
-        },
-        ["Grandmaster"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Grandmaster"},
-        ["Pirate Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Pirate Achiever"},
-        ["Canal Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Canal Defender"},
-        ["Godly Desert Defender"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Godly Desert Defender"
-        },
-        ["Desert Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Desert Defender"},
-        ["Ghastly Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Ghastly Achiever"},
-        ["Holiday Dungeoneer"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Holiday Dungeoneer"},
-        ["The Dedicated"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "The Dedicated"},
-        ["Mushroom Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Mushroom Achiever"},
-        ["Apprentice"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Apprentice"},
-        ["Ninja"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Ninja"},
-        ["Elite Canal Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Canal Defender"
-        },
-        ["Elite Pirate Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Pirate Defender"
-        },
-        ["Ultimate Winter Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Winter Defender"
-        },
-        ["On The Naughty List"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "On The Naughty List"},
-        ["Determined"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Determined"},
-        ["Elite King's Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite King's Defender"
-        },
-        ["On The Nice List"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "On The Nice List"},
-        ["Godly Canal Defender"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Godly Canal Defender"},
-        ["Desert Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Desert Achiever"},
-        ["Northern Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Northern Achiever"},
-        ["King's Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "King's Defender"},
-        ["Winter Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Winter Achiever"},
-        ["Pumpkin Slayer"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Pumpkin Slayer"},
-        ["Explorer"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Explorer"},
-        ["Little Helper"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Little Helper"},
-        ["Samurai Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Samurai Achiever"},
-        ["Ultimate Demon Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Demon Defender"
-        },
-        ["Ultimate Canal Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Canal Defender"
-        },
-        ["Godly Winter Defender"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Godly Winter Defender"
-        },
-        ["Spooky"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Spooky"},
-        ["Ultimate Desert Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Desert Defender"
-        },
-        ["Festive"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Festive"},
-        ["Coal In My Veins"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Coal In My Veins"},
-        ["Expert"] = {["rarity"] = "uncommon", ["cosmeticType"] = "titles", ["name"] = "Expert"},
-        ["Ultimate Pirate Defender"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Ultimate Pirate Defender"
-        },
-        ["Master"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Master"},
-        ["Vampiric"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Vampiric"},
-        ["Aquatic Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Aquatic Achiever"},
-        ["Demon Achiever"] = {["rarity"] = "epic", ["cosmeticType"] = "titles", ["name"] = "Demon Achiever"},
-        ["Devilish"] = {["rarity"] = "legendary", ["cosmeticType"] = "titles", ["name"] = "Devilish"},
-        ["Veteran"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Veteran"},
-        ["Elite Winter Defender"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "titles",
-            ["name"] = "Elite Winter Defender"
-        },
-        ["Evil"] = {["rarity"] = "rare", ["cosmeticType"] = "titles", ["name"] = "Evil"},
-        ["Pirate Defender"] = {["rarity"] = "common", ["cosmeticType"] = "titles", ["name"] = "Pirate Defender"}
-    },
-    ["weapons"] = {
-        ["Headstack"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Headstack"
-        },
-        ["Shadow Daggers"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Shadow Daggers"},
-        ["Evil Elderstaff"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Evil Elderstaff"
-        },
-        ["Crimson Crystal Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Crimson Crystal Scythe"
-        },
-        ["War Master's Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "War Master's Scythe"
-        },
-        ["Inferno Blade"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Inferno Blade"
-        },
-        ["Citrine Daggers"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Citrine Daggers"},
-        ["Viking Axes"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Viking Axes"},
-        ["Jotunheim Axe And Shield"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Jotunheim Axe And Shield"
-        },
-        ["Paintbrush"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Paintbrush"
-        },
-        ["Enchanted Greatsword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Enchanted Greatsword"
-        },
-        ["100k Berry Staff"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "100k Berry Staff"
-        },
-        ["Fire and Ice Hatchets"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Fire and Ice Hatchets"
-        },
-        ["Cyber Cutlass And Pistol"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Cyber Cutlass And Pistol"
-        },
-        ["Candy Cane Blades"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Candy Cane Blades"},
-        ["Staff Of Festivities"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Staff Of Festivities"
-        },
-        ["Star-breaker Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Star-breaker Scythe"
-        },
-        ["Sunflower Staff"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Sunflower Staff"
-        },
-        ["Condiment Mallet"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Condiment Mallet"
-        },
-        ["Candy Cane Staff"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Candy Cane Staff"
-        },
-        ["Demonic Battlestaff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Demonic Battlestaff"
-        },
-        ["Terminator Gauntlets"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Terminator Gauntlets"
-        },
-        ["Red Holiday Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Red Holiday Scythe"
-        },
-        ["Yoru"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Yoru"
-        },
-        ["Neon Rotary Blades"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Neon Rotary Blades"},
-        ["Angelic Daggers"] = {["rarity"] = "legendary", ["cosmeticType"] = "weapons", ["name"] = "Angelic Daggers"},
-        ["Dark Magic Staff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Dark Magic Staff"
-        },
-        ["Kunai Knives"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Kunai Knives"},
-        ["Dual Red Sabers"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Dual Red Sabers"},
-        ["Hammer of Judgement"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Hammer of Judgement"
-        },
-        ["Blue Saber"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Blue Saber"
-        },
-        ["Metal Bat"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Metal Bat"
-        },
-        ["Neon Blades"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Neon Blades"},
-        ["Ancient Greatsword"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Ancient Greatsword"
-        },
-        ["Fireaxe"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Fireaxe"
-        },
-        ["Christmas Bell"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Christmas Bell"
-        },
-        ["Murderous Knives"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Murderous Knives"},
-        ["Pickle Sword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Pickle Sword"
-        },
-        ["Lunar Blade And Solar Staff"] = {
+    ["armors"] = {
+        ["Jade Mercenary"] = {["name"] = "Jade Mercenary", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Mad Alchemist"] = {["name"] = "Mad Alchemist", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Demonic Warrior"] = {["name"] = "Demonic Warrior", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Cow Onesie"] = {["name"] = "Cow Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Cyber Bunny Warrior"] = {
+            ["name"] = "Cyber Bunny Warrior",
             ["rarity"] = "legendary",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Lunar Blade And Solar Staff"
+            ["cosmeticType"] = "armors"
         },
-        ["Krampus Coal Axe"] = {
+        ["Bartender"] = {["name"] = "Bartender", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Jotunheim Bob"] = {["name"] = "Jotunheim Bob", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Aquatic Assassin"] = {["name"] = "Aquatic Assassin", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Red Dragon Onesie"] = {["name"] = "Red Dragon Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Pumpkin King"] = {["name"] = "Pumpkin King", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Pink Winter Witch"] = {["name"] = "Pink Winter Witch", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Dog Onesie"] = {["name"] = "Dog Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Firefighter"] = {["name"] = "Firefighter", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["King's Knight"] = {["name"] = "King's Knight", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Aspect of Death"] = {["name"] = "Aspect of Death", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Cardboard Paladin"] = {["name"] = "Cardboard Paladin", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Scott"] = {["name"] = "Scott", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Angelic Guardian"] = {["name"] = "Angelic Guardian", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Neon Enforcer"] = {["name"] = "Neon Enforcer", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Inventor"] = {["name"] = "Inventor", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Viking Berserker"] = {["name"] = "Viking Berserker", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Cool Dude Polar Bear"] = {["name"] = "Cool Dude Polar Bear", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Black Cat Onesie"] = {["name"] = "Black Cat Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Undead Witch"] = {["name"] = "Undead Witch", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Panda Onesie"] = {["name"] = "Panda Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Tribal Mage"] = {["name"] = "Tribal Mage", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Yeti"] = {["name"] = "Yeti", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Winter Witch"] = {["name"] = "Winter Witch", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Casual"] = {["name"] = "Casual", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Santa"] = {["name"] = "Santa", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Stone Lee"] = {["name"] = "Stone Lee", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Scout"] = {["name"] = "Scout", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Mister Snow"] = {["name"] = "Mister Snow", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Soul Harvester"] = {["name"] = "Soul Harvester", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Tribal Guardian"] = {["name"] = "Tribal Guardian", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Pharaoh"] = {["name"] = "Pharaoh", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Carrot"] = {["name"] = "Carrot", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Flame Heart"] = {["name"] = "Flame Heart", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Siren Warrior"] = {["name"] = "Siren Warrior", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Battle Dwarf Berserker"] = {
+            ["name"] = "Battle Dwarf Berserker",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "armors"
+        },
+        ["Fox Onesie"] = {["name"] = "Fox Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Polar Bear Onesie"] = {["name"] = "Polar Bear Onesie", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Bob Boss"] = {["name"] = "Bob Boss", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Reaper"] = {["name"] = "Reaper", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Demon Lord"] = {["name"] = "Demon Lord", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Wicked Scarecrow"] = {["name"] = "Wicked Scarecrow", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Frosty ol' Bob"] = {["name"] = "Frosty ol' Bob", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Tatsu's Spirit"] = {
+            ["name"] = "Tatsu's Spirit",
+            ["imageId"] = "rbxassetid://14966288971",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Krampus Coal Axe"
+            ["cosmeticType"] = "armors"
         },
-        ["Cyber Easter Blade"] = {
+        ["Space Robot"] = {["name"] = "Space Robot", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["World Master"] = {["name"] = "World Master", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Void Undead Pumpkin Lord"] = {
+            ["name"] = "Void Undead Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Cyber Easter Blade"
+            ["cosmeticType"] = "armors"
         },
-        ["Scout Blades"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Scout Blades"},
-        ["Inferno Hologram Blade"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Inferno Hologram Blade"
-        },
-        ["Root Beer"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Root Beer"
-        },
-        ["Fusion Blade And Shield"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Fusion Blade And Shield"
-        },
-        ["Enchanted Ice Blade"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Enchanted Ice Blade"
-        },
-        ["Mister Snow's Staff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Mister Snow's Staff"
-        },
-        ["Assassin Daggers"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Assassin Daggers"},
-        ["DevLauncher"] = {
+        ["Were-Turkey"] = {["name"] = "Were-Turkey", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Klark"] = {["name"] = "Klark", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Enchanted Warrior"] = {["name"] = "Enchanted Warrior", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Dark Mrs Claus"] = {["name"] = "Dark Mrs Claus", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Elite Ninja"] = {["name"] = "Elite Ninja", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Cursed Shipwright"] = {["name"] = "Cursed Shipwright", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Corrupt Overlord"] = {["name"] = "Corrupt Overlord", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Bob"] = {["name"] = "Bob", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Fergie5000"] = {["name"] = "Fergie5000", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Gold Demonic Pumpkin Lord"] = {
+            ["name"] = "Gold Demonic Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "DevLauncher"
+            ["cosmeticType"] = "armors"
         },
-        ["Milk Maul"] = {
+        ["Demonic Wizard"] = {["name"] = "Demonic Wizard", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Aspect of Ice and Fire"] = {
+            ["name"] = "Aspect of Ice and Fire",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Milk Maul"
+            ["cosmeticType"] = "armors"
         },
-        ["Festive Blade And Shield"] = {
+        ["Searing Dragonlord"] = {
+            ["name"] = "Searing Dragonlord",
             ["rarity"] = "legendary",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Festive Blade And Shield"
+            ["cosmeticType"] = "armors"
         },
-        ["Spartan Sword and Shield"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Spartan Sword and Shield"
-        },
-        ["Torch Staff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Torch Staff"
-        },
-        ["Pitchfork"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Pitchfork"
-        },
-        ["Hammer"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Hammer"
-        },
-        ["Imperial Spear"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Imperial Spear"
-        },
-        ["Red Saber"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Red Saber"
-        },
-        ["Ice Tipped Blades"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Ice Tipped Blades"},
-        ["Elucidator"] = {
+        ["Terminator"] = {["name"] = "Terminator", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Spartan"] = {["name"] = "Spartan", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Incinerator"] = {["name"] = "Incinerator", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Desert Pharaoh"] = {["name"] = "Desert Pharaoh", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Astral Guardian"] = {["name"] = "Astral Guardian", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Chicken Onesie"] = {["name"] = "Chicken Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Plague Pumpkin Lord"] = {
+            ["name"] = "Plague Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Elucidator"
+            ["cosmeticType"] = "armors"
         },
-        ["Shattered Blades"] = {["rarity"] = "legendary", ["cosmeticType"] = "weapons", ["name"] = "Shattered Blades"},
-        ["Game Master's Book"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Game Master's Book"
-        },
-        ["Cardboard Warhammer"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Cardboard Warhammer"
-        },
-        ["Mighty Voidblade"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Mighty Voidblade"
-        },
-        ["Klark's Katana"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Klark's Katana"
-        },
-        ["Holy Excalibur"] = {
+        ["Ducky Fanboy"] = {["name"] = "Ducky Fanboy", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Farmer"] = {["name"] = "Farmer", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Princess"] = {["name"] = "Princess", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Spiritual Mage"] = {["name"] = "Spiritual Mage", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Imp"] = {["name"] = "Imp", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Demonic Warlord"] = {
+            ["name"] = "Demonic Warlord",
+            ["imageId"] = "rbxassetid://14966290722",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Holy Excalibur"
+            ["cosmeticType"] = "armors"
         },
-        ["Frozen Executioner's Blade"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Frozen Executioner's Blade"
-        },
-        ["Battle Dwarf Hatchets"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Battle Dwarf Hatchets"
-        },
-        ["Demonic Daggers"] = {["rarity"] = "legendary", ["cosmeticType"] = "weapons", ["name"] = "Demonic Daggers"},
-        ["Christmas Tree Sword"] = {
+        ["Mister Heat"] = {["name"] = "Mister Heat", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Lava Demigod"] = {["name"] = "Lava Demigod", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Bunny Fanboy"] = {["name"] = "Bunny Fanboy", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Demon Pirate"] = {["name"] = "Demon Pirate", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Evil Beastmaster"] = {["name"] = "Evil Beastmaster", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Little Helper"] = {["name"] = "Little Helper", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Christmas Tree"] = {["name"] = "Christmas Tree", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Devil Onesie"] = {["name"] = "Devil Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Angelic Warrior"] = {["name"] = "Angelic Warrior", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Dragon Lord"] = {["name"] = "Dragon Lord", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Asuni"] = {["name"] = "Asuni", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Unlucky Gingerbread Man"] = {
+            ["name"] = "Unlucky Gingerbread Man",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Christmas Tree Sword"
+            ["cosmeticType"] = "armors"
         },
-        ["Queen Pike"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Queen Pike"
-        },
-        ["Tormented Blade"] = {
+        ["Ice Elemental"] = {["name"] = "Ice Elemental", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Reindeer Onesie"] = {["name"] = "Reindeer Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Ghostly Warrior"] = {["name"] = "Ghostly Warrior", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Mrs Claus"] = {["name"] = "Mrs Claus", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Templar"] = {["name"] = "Templar", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Elder Dark Mage"] = {["name"] = "Elder Dark Mage", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Spectre Of Festivities"] = {
+            ["name"] = "Spectre Of Festivities",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Tormented Blade"
+            ["cosmeticType"] = "armors"
         },
-        ["Dragon Lord's Blade And Shield"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Dragon Lord's Blade And Shield"
-        },
-        ["Elder Dark Magic Staff"] = {
+        ["Vampire Hunter"] = {["name"] = "Vampire Hunter", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Frozen Executioner"] = {["name"] = "Frozen Executioner", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Einherjar"] = {["name"] = "Einherjar", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Flamingo Onesie"] = {["name"] = "Flamingo Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Witch"] = {["name"] = "Witch", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Headless Horseman"] = {["name"] = "Headless Horseman", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Dark Assassin"] = {["name"] = "Dark Assassin", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Draconic Deity"] = {
+            ["name"] = "Draconic Deity",
+            ["imageId"] = "rbxassetid://14966290493",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Elder Dark Magic Staff"
+            ["cosmeticType"] = "armors"
         },
-        ["Berry Staff"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Berry Staff"
-        },
-        ["Red Ice Tipped Blades"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Red Ice Tipped Blades"
-        },
-        ["Graveyard Spade"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Graveyard Spade"
-        },
-        ["Giant Snowcone"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Giant Snowcone"
-        },
-        ["AdminLauncher"] = {
+        ["Oni Samurai"] = {
+            ["name"] = "Oni Samurai",
+            ["imageId"] = "rbxassetid://15246187381",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "AdminLauncher"
+            ["cosmeticType"] = "armors"
         },
-        ["Winter Tree Sword"] = {
+        ["Turkey Onesie"] = {["name"] = "Turkey Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Demonic Phantom"] = {["name"] = "Demonic Phantom", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Blanket Ghost"] = {["name"] = "Blanket Ghost", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Arch Devil"] = {["name"] = "Arch Devil", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Black Swordsman"] = {["name"] = "Black Swordsman", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Cyber Pirate"] = {["name"] = "Cyber Pirate", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Void Demonic Pumpkin Lord"] = {
+            ["name"] = "Void Demonic Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Winter Tree Sword"
+            ["cosmeticType"] = "armors"
         },
-        ["Blade Of Corruption"] = {
+        ["Nightmare of Christmas"] = {
+            ["name"] = "Nightmare of Christmas",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Blade Of Corruption"
+            ["cosmeticType"] = "armors"
         },
-        ["Fists"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Fists"},
-        ["Light Rapier"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Light Rapier"
-        },
-        ["Runic Greatsword"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Runic Greatsword"
-        },
-        ["Evil Pumpkin Staff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Evil Pumpkin Staff"
-        },
-        ["Sun God Staff"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Sun God Staff"
-        },
-        ["Icy Star"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Icy Star"
-        },
-        ["Ice King's Greatsword"] = {
+        ["Tribal Warrior"] = {["name"] = "Tribal Warrior", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Gilded Paladin"] = {["name"] = "Gilded Paladin", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Winter Wanderer"] = {["name"] = "Winter Wanderer", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Snowy Christmas Tree"] = {["name"] = "Snowy Christmas Tree", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Royal Samurai"] = {["name"] = "Royal Samurai", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Samurai Master"] = {["name"] = "Samurai Master", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Frozen Turkey Onesie"] = {["name"] = "Frozen Turkey Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Vampire Lord"] = {["name"] = "Vampire Lord", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Bunny Knight"] = {["name"] = "Bunny Knight", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Roruto"] = {["name"] = "Roruto", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Gold Undead Pumpkin Lord"] = {
+            ["name"] = "Gold Undead Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Ice King's Greatsword"
+            ["cosmeticType"] = "armors"
         },
-        ["Mighty Carrot Greatsword"] = {
+        ["Molten Elemental"] = {["name"] = "Molten Elemental", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Skunk Onesie"] = {["name"] = "Skunk Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Straw Hat"] = {["name"] = "Straw Hat", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Koala Onesie"] = {["name"] = "Koala Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Inferno Hologram"] = {["name"] = "Inferno Hologram", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Oni Geisha"] = {
+            ["name"] = "Oni Geisha",
+            ["imageId"] = "rbxassetid://14966289898",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "armors"
+        },
+        ["Vampire Slayer"] = {["name"] = "Vampire Slayer", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Brown Bear Onesie"] = {["name"] = "Brown Bear Onesie", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Pirate Captain"] = {["name"] = "Pirate Captain", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Lumenflame Champion"] = {
+            ["name"] = "Lumenflame Champion",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Mighty Carrot Greatsword"
+            ["cosmeticType"] = "armors"
         },
-        ["Nutcracker Halberd"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Nutcracker Halberd"
-        },
-        ["Royal Ruby Greatsword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Royal Ruby Greatsword"
-        },
-        ["Galactic Greatsword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Galactic Greatsword"
-        },
-        ["Beach Umbrella"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Beach Umbrella"
-        },
-        ["Devilish Cutlasses"] = {
-            ["rarity"] = "uncommon",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Devilish Cutlasses"
-        },
-        ["Vampiric Greatsword"] = {
+        ["Mushroom Assassin"] = {["name"] = "Mushroom Assassin", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Jolly ol' Bob"] = {["name"] = "Jolly ol' Bob", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Chaos Knight"] = {["name"] = "Chaos Knight", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Odin"] = {["name"] = "Odin", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Papa Caffy"] = {["name"] = "Papa Caffy", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Spiritual Guardian"] = {["name"] = "Spiritual Guardian", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["War Master"] = {["name"] = "War Master", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Dark Santa"] = {["name"] = "Dark Santa", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Evil Duck Onesie"] = {["name"] = "Evil Duck Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Green Dragon Onesie"] = {["name"] = "Green Dragon Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Demonic Guardian"] = {["name"] = "Demonic Guardian", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Rokashi"] = {["name"] = "Rokashi", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Evil Magician"] = {["name"] = "Evil Magician", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Dark Sorceress"] = {["name"] = "Dark Sorceress", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Nutcracker"] = {["name"] = "Nutcracker", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Black Bear Onesie"] = {["name"] = "Black Bear Onesie", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Gingerbread Man"] = {["name"] = "Gingerbread Man", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Pumpkin Warrior"] = {["name"] = "Pumpkin Warrior", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Demonic Pumpkin Lord"] = {
+            ["name"] = "Demonic Pumpkin Lord",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Vampiric Greatsword"
+            ["cosmeticType"] = "armors"
         },
-        ["Spirit Blade and Shield"] = {
-            ["rarity"] = "epic",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Spirit Blade and Shield"
-        },
-        ["Holiday Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Holiday Scythe"
-        },
-        ["Ghostly Scimitar"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Ghostly Scimitar"
-        },
-        ["Void Spear"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Void Spear"
-        },
-        ["Jade Blades"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Jade Blades"},
-        ["Dual Sabers"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Dual Sabers"},
-        ["Pumpkin King's Greatstaff"] = {
+        ["Spiritual Warrior"] = {["name"] = "Spiritual Warrior", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Snowman"] = {["name"] = "Snowman", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Giraffe Onesie"] = {["name"] = "Giraffe Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Duck Onesie"] = {["name"] = "Duck Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Plague Doctor"] = {["name"] = "Plague Doctor", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Azure Oni Geisha"] = {
+            ["name"] = "Azure Oni Geisha",
+            ["imageId"] = "rbxassetid://15246187847",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Pumpkin King's Greatstaff"
+            ["cosmeticType"] = "armors"
         },
-        ["Ninja Katanas"] = {["rarity"] = "uncommon", ["cosmeticType"] = "weapons", ["name"] = "Ninja Katanas"},
-        ["Onyx Daggers"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Onyx Daggers"},
-        ["Ice Lord's Blades"] = {["rarity"] = "epic", ["cosmeticType"] = "weapons", ["name"] = "Ice Lord's Blades"},
-        ["Gilded Maul"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Gilded Maul"
-        },
-        ["Molten Greatsword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Molten Greatsword"
-        },
-        ["Electric Pike"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Electric Pike"
-        },
-        ["Angelic Battlestaff"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Angelic Battlestaff"
-        },
-        ["Flame Heart Greatsword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Flame Heart Greatsword"
-        },
-        ["Present Staff"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Present Staff"
-        },
-        ["Blade Of Redemption"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Blade Of Redemption"
-        },
-        ["InfLauncher"] = {
+        ["Ninja"] = {["name"] = "Ninja", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Corrupt Arch-mage"] = {["name"] = "Corrupt Arch-mage", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Fusion Guardian"] = {["name"] = "Fusion Guardian", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Oni Spirit"] = {
+            ["name"] = "Oni Spirit",
+            ["imageId"] = "rbxassetid://14966289552",
             ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "InfLauncher"
+            ["cosmeticType"] = "armors"
         },
-        ["Gingerbread Sword"] = {
+        ["Grave Digger"] = {["name"] = "Grave Digger", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Two Zero"] = {["name"] = "Two Zero", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Archer"] = {["name"] = "Archer", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Banana"] = {["name"] = "Banana", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Evil Scarecrow"] = {["name"] = "Evil Scarecrow", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Punch"] = {["name"] = "Punch", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Silent Knight"] = {["name"] = "Silent Knight", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Space Mercenary"] = {["name"] = "Space Mercenary", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Pickle"] = {["name"] = "Pickle", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Beach Girl"] = {["name"] = "Beach Girl", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Shadow Spirit"] = {["name"] = "Shadow Spirit", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Hologram"] = {["name"] = "Hologram", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Runic Guardian"] = {["name"] = "Runic Guardian", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Grey Elder Mage"] = {["name"] = "Grey Elder Mage", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Boss Hunter Santa"] = {["name"] = "Boss Hunter Santa", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Frog Onesie"] = {["name"] = "Frog Onesie", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Holiday Elf"] = {["name"] = "Holiday Elf", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Green Cap"] = {["name"] = "Green Cap", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Sniper Mercenary"] = {["name"] = "Sniper Mercenary", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Oni Wanderer"] = {
+            ["name"] = "Oni Wanderer",
+            ["imageId"] = "rbxassetid://14966289297",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Gingerbread Sword"
+            ["cosmeticType"] = "armors"
         },
-        ["Dark Candy Cane Staff"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Dark Candy Cane Staff"
+        ["Hotdog"] = {["name"] = "Hotdog", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Void Plague Pumpkin Lord"] = {
+            ["name"] = "Void Plague Pumpkin Lord",
+            ["rarity"] = "legendary",
+            ["cosmeticType"] = "armors"
         },
-        ["Titan Maul"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2611334168",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Titan Maul"
+        ["Galaxy Warrior"] = {["name"] = "Galaxy Warrior", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Ice King"] = {["name"] = "Ice King", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Abominable Snowman"] = {["name"] = "Abominable Snowman", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Jack Frost"] = {["name"] = "Jack Frost", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Titan Of War"] = {["name"] = "Titan Of War", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Corrupt Wanderer"] = {["name"] = "Corrupt Wanderer", ["rarity"] = "epic", ["cosmeticType"] = "armors"},
+        ["Gold Plague Pumpkin Lord"] = {
+            ["name"] = "Gold Plague Pumpkin Lord",
+            ["rarity"] = "legendary",
+            ["cosmeticType"] = "armors"
         },
-        ["Ghostly Executioner's Axe"] = {
+        ["Undead Pumpkin Lord"] = {
+            ["name"] = "Undead Pumpkin Lord",
+            ["rarity"] = "legendary",
+            ["cosmeticType"] = "armors"
+        },
+        ["Penguin Onesie"] = {["name"] = "Penguin Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Krampus"] = {["name"] = "Krampus", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Game Master"] = {["name"] = "Game Master", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Tuxedo"] = {["name"] = "Tuxedo", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Scientist"] = {["name"] = "Scientist", ["rarity"] = "uncommon", ["cosmeticType"] = "armors"},
+        ["Ghastly Snowman"] = {["name"] = "Ghastly Snowman", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Fierce Ogre"] = {
+            ["name"] = "Fierce Ogre",
+            ["imageId"] = "rbxassetid://14966290197",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Ghostly Executioner's Axe"
+            ["cosmeticType"] = "armors"
         },
-        ["Molten Scimitar"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Molten Scimitar"
-        },
-        ["Corrupt Elderstaff"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Corrupt Elderstaff"
-        },
-        ["Pink Saber"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Pink Saber"
-        },
-        ["Umbrella"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Umbrella"
-        },
-        ["Hologram Blade"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Hologram Blade"
-        },
-        ["Halloween Greatsword"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Halloween Greatsword"
-        },
-        ["Ritual Orb And Staff"] = {
-            ["rarity"] = "rare",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Ritual Orb And Staff"
-        },
-        ["Chaos Scythe"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Chaos Scythe"
-        },
-        ["Halloween Daggers"] = {["rarity"] = "rare", ["cosmeticType"] = "weapons", ["name"] = "Halloween Daggers"},
-        ["Carrot Sword"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2521642665",
-            ["cosmeticType"] = "weapons",
-            ["name"] = "Carrot Sword"
-        }
+        ["Unicorn Onesie"] = {["name"] = "Unicorn Onesie", ["rarity"] = "rare", ["cosmeticType"] = "armors"},
+        ["Grinning Pirate"] = {["name"] = "Grinning Pirate", ["rarity"] = "legendary", ["cosmeticType"] = "armors"},
+        ["Yulebringer Bob"] = {["name"] = "Yulebringer Bob", ["rarity"] = "epic", ["cosmeticType"] = "armors"}
     },
     ["enchants"] = {
         ["Crimson Mist"] = {
-            ["rarity"] = "rare",
+            ["name"] = "Crimson Mist",
             ["imageId"] = "http://www.roblox.com/asset/?id=3895220121",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Crimson Mist"
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
         ["Amethyst Smoke"] = {
-            ["rarity"] = "rare",
+            ["name"] = "Amethyst Smoke",
             ["imageId"] = "http://www.roblox.com/asset/?id=5693689884",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Amethyst Smoke"
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
         ["Sapphire"] = {
-            ["rarity"] = "uncommon",
+            ["name"] = "Sapphire",
             ["imageId"] = "http://www.roblox.com/asset/?id=3789197504",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Sapphire"
-        },
-        ["Blizzard"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://3168464906",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Blizzard"
-        },
-        ["Overcharged"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3485867762",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Overcharged"
-        },
-        ["Solar Flare"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4450013295",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Solar Flare"
-        },
-        ["Inferno"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4160743503",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Inferno"
-        },
-        ["Rage"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4492258067",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Rage"
-        },
-        ["Electric Rainbow"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6294755879",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Electric Rainbow"
-        },
-        ["Halloween Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5875116574",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Halloween Particles"
-        },
-        ["Ether"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://3390232774",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Ether"
-        },
-        ["Orange Spikes"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://8371433022",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Orange Spikes"
-        },
-        ["Multicolor Fireworks"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://8676666910",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Multicolor Fireworks"
-        },
-        ["Toxic Vortex"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=3789196965",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Toxic Vortex"
-        },
-        ["Cyan Matrix"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5264157453",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Cyan Matrix"
-        },
-        ["Destruction Essence"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4650056323",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Destruction Essence"
-        },
-        ["Blue Flames"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4389731430",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Blue Flames"
-        },
-        ["Emerald"] = {
             ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://3062457109",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Emerald"
-        },
-        ["none"] = {["rarity"] = "uncommon", ["cosmeticType"] = "enchants", ["name"] = "none"},
-        ["Heat Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5565301874",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Heat Shine"
-        },
-        ["Bubbles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4717201596",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Bubbles"
-        },
-        ["Nature's Aura"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=3895201317",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Nature's Aura"
-        },
-        ["Cobalt Smoke"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5693690078",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Cobalt Smoke"
-        },
-        ["Sonar"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6875361339",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Sonar"
-        },
-        ["Golden Burst"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://11657701653",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Golden Burst"
-        },
-        ["Lightning"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2942866381",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Lightning"
-        },
-        ["Rainbow Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4389731050",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Rainbow Particles"
-        },
-        ["Aqua Vortex"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4450013449",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Aqua Vortex"
-        },
-        ["Confetti"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://3143103523",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Confetti"
-        },
-        ["Red Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4222298120",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Red Particles"
-        },
-        ["Green Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4344568960",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Green Particles"
-        },
-        ["Yellow Smoke"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6977519226",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Yellow Smoke"
-        },
-        ["Sapphire Shards"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5971013412",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Sapphire Shards"
-        },
-        ["Sakura Essence"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4650056539",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Sakura Essence"
-        },
-        ["Yellow Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4284723851",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Yellow Particles"
-        },
-        ["White Smoke"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6977518998",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "White Smoke"
-        },
-        ["Icy Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5565302296",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Icy Shine"
-        },
-        ["Absorption"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4628290681",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Absorption"
-        },
-        ["Winter Burst"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://8676665981",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Winter Burst"
-        },
-        ["Solar Burst"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6875361126",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Solar Burst"
-        },
-        ["Jade"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3220006950",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Jade"
-        },
-        ["Poison"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3325495470",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Poison"
-        },
-        ["Divine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://3277473665",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Divine"
-        },
-        ["Floral"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://3062424998",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Floral"
-        },
-        ["VIP"] = {
-            ["rarity"] = "legendary",
-            ["imageId"] = "rbxassetid://2951220189",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "VIP"
-        },
-        ["Arcane"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3143103377",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Arcane"
-        },
-        ["Black Particles"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4628290569",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Black Particles"
-        },
-        ["Green Spikes"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://8371432784",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Green Spikes"
-        },
-        ["Holy Shards"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6034531057",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Holy Shards"
-        },
-        ["Blue Particles"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4222297634",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Blue Particles"
-        },
-        ["Orange Dust"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6384865200",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Orange Dust"
+            ["cosmeticType"] = "enchants"
         },
         ["Poison Smoke"] = {
-            ["rarity"] = "rare",
+            ["name"] = "Poison Smoke",
             ["imageId"] = "http://www.roblox.com/asset/?id=5618734650",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Poison Smoke"
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
-        ["Death Spikes"] = {
+        ["Overcharged"] = {
+            ["name"] = "Overcharged",
+            ["imageId"] = "rbxassetid://3485867762",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Solar Flare"] = {
+            ["name"] = "Solar Flare",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4450013295",
             ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4864583400",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Death Spikes"
+            ["cosmeticType"] = "enchants"
         },
         ["White Particles"] = {
-            ["rarity"] = "rare",
+            ["name"] = "White Particles",
             ["imageId"] = "http://www.roblox.com/asset/?id=4344568534",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "White Particles"
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
-        ["Rainbow Smoke"] = {
+        ["Rage"] = {
+            ["name"] = "Rage",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4492258067",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Electric Rainbow"] = {
+            ["name"] = "Electric Rainbow",
+            ["imageId"] = "rbxassetid://6294755879",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Halloween Particles"] = {
+            ["name"] = "Halloween Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5875116574",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Ether"] = {
+            ["name"] = "Ether",
+            ["imageId"] = "rbxassetid://3390232774",
             ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4717201955",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Rainbow Smoke"
+            ["cosmeticType"] = "enchants"
         },
-        ["Cyan Shards"] = {
+        ["Orange Spikes"] = {
+            ["name"] = "Orange Spikes",
+            ["imageId"] = "rbxassetid://8371433022",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6215586653",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Cyan Shards"
-        },
-        ["Demonic Shards"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6215586534",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Demonic Shards"
-        },
-        ["Snowy"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3547700285",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Snowy"
-        },
-        ["Void"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4112122718",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Void"
-        },
-        ["Fire"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3390232979",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Fire"
-        },
-        ["Flames"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://2942866984",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Flames"
-        },
-        ["Ruby Shards"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5971013144",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Ruby Shards"
+            ["cosmeticType"] = "enchants"
         },
         ["Festive Flames"] = {
-            ["rarity"] = "rare",
+            ["name"] = "Festive Flames",
             ["imageId"] = "http://www.roblox.com/asset/?id=4492258274",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Festive Flames"
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
-        ["Radiation"] = {
+        ["Toxic Vortex"] = {
+            ["name"] = "Toxic Vortex",
+            ["imageId"] = "http://www.roblox.com/asset/?id=3789196965",
             ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=3736796013",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Radiation"
+            ["cosmeticType"] = "enchants"
         },
-        ["Astral Vortex"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4050144857",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Astral Vortex"
-        },
-        ["Prism"] = {
+        ["Cyan Matrix"] = {
+            ["name"] = "Cyan Matrix",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5264157453",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://3325495897",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Prism"
+            ["cosmeticType"] = "enchants"
         },
-        ["Sakura Shards"] = {
+        ["Destruction Essence"] = {
+            ["name"] = "Destruction Essence",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4650056323",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Blue Flames"] = {
+            ["name"] = "Blue Flames",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4389731430",
             ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6034530720",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Sakura Shards"
+            ["cosmeticType"] = "enchants"
         },
-        ["Cosmic"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3485867395",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Cosmic"
-        },
-        ["Bloody"] = {
+        ["Emerald"] = {
+            ["name"] = "Emerald",
+            ["imageId"] = "rbxassetid://3062457109",
             ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://3168464576",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Bloody"
-        },
-        ["Emerald Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5346182748",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Emerald Shine"
-        },
-        ["Emerald Burst"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=10382366547",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Emerald Burst"
-        },
-        ["Embers"] = {
-            ["rarity"] = "uncommon",
-            ["imageId"] = "rbxassetid://2942865975",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Embers"
-        },
-        ["Winter"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4510339876",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Winter"
+            ["cosmeticType"] = "enchants"
         },
         ["Cyclone"] = {
-            ["rarity"] = "rare",
+            ["name"] = "Cyclone",
             ["imageId"] = "http://www.roblox.com/asset/?id=3736795554",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Cyclone"
-        },
-        ["Demonic Smoke"] = {
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5618734773",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Demonic Smoke"
+            ["cosmeticType"] = "enchants"
         },
-        ["White Dust"] = {
+        ["Heat Shine"] = {
+            ["name"] = "Heat Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5565301874",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Bubbles"] = {
+            ["name"] = "Bubbles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4717201596",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=6384864415",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "White Dust"
+            ["cosmeticType"] = "enchants"
         },
-        ["Acid Splash"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4528327484",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Acid Splash"
-        },
-        ["Solar Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5346182500",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Solar Shine"
-        },
-        ["Amethyst Particles"] = {
+        ["Nature's Aura"] = {
+            ["name"] = "Nature's Aura",
+            ["imageId"] = "http://www.roblox.com/asset/?id=3895201317",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4284723480",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Amethyst Particles"
+            ["cosmeticType"] = "enchants"
         },
-        ["Amethyst Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=5264157659",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Amethyst Shine"
-        },
-        ["Jade Pulse"] = {
+        ["Cobalt Smoke"] = {
+            ["name"] = "Cobalt Smoke",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5693690078",
             ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://11657701758",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Jade Pulse"
+            ["cosmeticType"] = "enchants"
         },
-        ["Crystal Shine"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4864583250",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Crystal Shine"
-        },
-        ["Plasma"] = {
-            ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://2942866657",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Plasma"
-        },
-        ["Molten"] = {
+        ["Sonar"] = {
+            ["name"] = "Sonar",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6875361339",
             ["rarity"] = "uncommon",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4112122247",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Molten"
+            ["cosmeticType"] = "enchants"
         },
-        ["Ruby Pulse"] = {
+        ["Golden Burst"] = {
+            ["name"] = "Golden Burst",
+            ["imageId"] = "rbxassetid://11657701653",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=10382365535",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Ruby Pulse"
+            ["cosmeticType"] = "enchants"
         },
-        ["Bloodlust"] = {
+        ["Lightning"] = {
+            ["name"] = "Lightning",
+            ["imageId"] = "rbxassetid://2942866381",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Rainbow Particles"] = {
+            ["name"] = "Rainbow Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4389731050",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Emerald Shine"] = {
+            ["name"] = "Emerald Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5346182748",
             ["rarity"] = "epic",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4510339763",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Bloodlust"
+            ["cosmeticType"] = "enchants"
         },
-        ["Golden"] = {
+        ["Confetti"] = {
+            ["name"] = "Confetti",
+            ["imageId"] = "rbxassetid://3143103523",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Red Particles"] = {
+            ["name"] = "Red Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4222298120",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4050143065",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Golden"
+            ["cosmeticType"] = "enchants"
         },
-        ["Onyx"] = {
+        ["Green Particles"] = {
+            ["name"] = "Green Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4344568960",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Yellow Smoke"] = {
+            ["name"] = "Yellow Smoke",
+            ["imageId"] = "rbxassetid://6977519226",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Sapphire Shards"] = {
+            ["name"] = "Sapphire Shards",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5971013412",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Sakura Essence"] = {
+            ["name"] = "Sakura Essence",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4650056539",
             ["rarity"] = "epic",
-            ["imageId"] = "rbxassetid://3220007146",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Onyx"
+            ["cosmeticType"] = "enchants"
         },
-        ["Eternal Flames"] = {
+        ["Yellow Particles"] = {
+            ["name"] = "Yellow Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4284723851",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4160743014",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Eternal Flames"
+            ["cosmeticType"] = "enchants"
         },
-        ["Festive Particles"] = {
+        ["White Smoke"] = {
+            ["name"] = "White Smoke",
+            ["imageId"] = "rbxassetid://6977518998",
             ["rarity"] = "rare",
-            ["imageId"] = "http://www.roblox.com/asset/?id=4528327303",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Festive Particles"
+            ["cosmeticType"] = "enchants"
         },
-        ["Fusion Mist"] = {
-            ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://6294755624",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Fusion Mist"
+        ["Icy Shine"] = {
+            ["name"] = "Icy Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5565302296",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
         },
-        ["Chaos"] = {
+        ["Absorption"] = {
+            ["name"] = "Absorption",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4628290681",
             ["rarity"] = "rare",
-            ["imageId"] = "rbxassetid://3277474026",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Chaos"
+            ["cosmeticType"] = "enchants"
+        },
+        ["Winter Burst"] = {
+            ["name"] = "Winter Burst",
+            ["imageId"] = "rbxassetid://8676665981",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Solar Burst"] = {
+            ["name"] = "Solar Burst",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6875361126",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Jade"] = {
+            ["name"] = "Jade",
+            ["imageId"] = "rbxassetid://3220006950",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Poison"] = {
+            ["name"] = "Poison",
+            ["imageId"] = "rbxassetid://3325495470",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Divine"] = {
+            ["name"] = "Divine",
+            ["imageId"] = "rbxassetid://3277473665",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Floral"] = {
+            ["name"] = "Floral",
+            ["imageId"] = "rbxassetid://3062424998",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["VIP"] = {
+            ["name"] = "VIP",
+            ["imageId"] = "rbxassetid://2951220189",
+            ["rarity"] = "legendary",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Arcane"] = {
+            ["name"] = "Arcane",
+            ["imageId"] = "rbxassetid://3143103377",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
         },
         ["Electric Vortex"] = {
-            ["rarity"] = "epic",
+            ["name"] = "Electric Vortex",
             ["imageId"] = "rbxassetid://3547699589",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Electric Vortex"
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Black Particles"] = {
+            ["name"] = "Black Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4628290569",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Jade Pulse"] = {
+            ["name"] = "Jade Pulse",
+            ["imageId"] = "rbxassetid://11657701758",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Green Spikes"] = {
+            ["name"] = "Green Spikes",
+            ["imageId"] = "rbxassetid://8371432784",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Holy Shards"] = {
+            ["name"] = "Holy Shards",
+            ["imageId"] = "rbxassetid://6034531057",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Rainbow Smoke"] = {
+            ["name"] = "Rainbow Smoke",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4717201955",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Demonic Shards"] = {
+            ["name"] = "Demonic Shards",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6215586534",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Eternal Flames"] = {
+            ["name"] = "Eternal Flames",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4160743014",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Radiation"] = {
+            ["name"] = "Radiation",
+            ["imageId"] = "http://www.roblox.com/asset/?id=3736796013",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Embers"] = {
+            ["name"] = "Embers",
+            ["imageId"] = "rbxassetid://2942865975",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["none"] = {["name"] = "none", ["rarity"] = "uncommon", ["cosmeticType"] = "enchants"},
+        ["Multicolor Fireworks"] = {
+            ["name"] = "Multicolor Fireworks",
+            ["imageId"] = "rbxassetid://8676666910",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Prism"] = {
+            ["name"] = "Prism",
+            ["imageId"] = "rbxassetid://3325495897",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Snowy"] = {
+            ["name"] = "Snowy",
+            ["imageId"] = "rbxassetid://3547700285",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Void"] = {
+            ["name"] = "Void",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4112122718",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Fire"] = {
+            ["name"] = "Fire",
+            ["imageId"] = "rbxassetid://3390232979",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Solar Shine"] = {
+            ["name"] = "Solar Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5346182500",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
         },
         ["Halloween Vortex"] = {
-            ["rarity"] = "epic",
+            ["name"] = "Halloween Vortex",
             ["imageId"] = "http://www.roblox.com/asset/?id=5875116168",
-            ["cosmeticType"] = "enchants",
-            ["name"] = "Halloween Vortex"
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Flames"] = {
+            ["name"] = "Flames",
+            ["imageId"] = "rbxassetid://2942866984",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Onyx"] = {
+            ["name"] = "Onyx",
+            ["imageId"] = "rbxassetid://3220007146",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Astral Vortex"] = {
+            ["name"] = "Astral Vortex",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4050144857",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Demonic Smoke"] = {
+            ["name"] = "Demonic Smoke",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5618734773",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Sakura Shards"] = {
+            ["name"] = "Sakura Shards",
+            ["imageId"] = "rbxassetid://6034530720",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Death Spikes"] = {
+            ["name"] = "Death Spikes",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4864583400",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Evergreen Gleam"] = {
+            ["name"] = "Evergreen Gleam",
+            ["imageId"] = "rbxassetid://15508732730",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Inferno"] = {
+            ["name"] = "Inferno",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4160743503",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Emerald Burst"] = {
+            ["name"] = "Emerald Burst",
+            ["imageId"] = "http://www.roblox.com/asset/?id=10382366547",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Chaos"] = {
+            ["name"] = "Chaos",
+            ["imageId"] = "rbxassetid://3277474026",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Ruby Pulse"] = {
+            ["name"] = "Ruby Pulse",
+            ["imageId"] = "http://www.roblox.com/asset/?id=10382365535",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Cosmic"] = {
+            ["name"] = "Cosmic",
+            ["imageId"] = "rbxassetid://3485867395",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Blue Particles"] = {
+            ["name"] = "Blue Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4222297634",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["White Dust"] = {
+            ["name"] = "White Dust",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6384864415",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Aqua Vortex"] = {
+            ["name"] = "Aqua Vortex",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4450013449",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Amethyst Shine"] = {
+            ["name"] = "Amethyst Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5264157659",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Bloody"] = {
+            ["name"] = "Bloody",
+            ["imageId"] = "rbxassetid://3168464576",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Cyan Shards"] = {
+            ["name"] = "Cyan Shards",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6215586653",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Orange Dust"] = {
+            ["name"] = "Orange Dust",
+            ["imageId"] = "http://www.roblox.com/asset/?id=6384865200",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Acid Splash"] = {
+            ["name"] = "Acid Splash",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4528327484",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Plasma"] = {
+            ["name"] = "Plasma",
+            ["imageId"] = "rbxassetid://2942866657",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Molten"] = {
+            ["name"] = "Molten",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4112122247",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Ruby Shards"] = {
+            ["name"] = "Ruby Shards",
+            ["imageId"] = "http://www.roblox.com/asset/?id=5971013144",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Bloodlust"] = {
+            ["name"] = "Bloodlust",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4510339763",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Golden"] = {
+            ["name"] = "Golden",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4050143065",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Amethyst Particles"] = {
+            ["name"] = "Amethyst Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4284723480",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Festive Particles"] = {
+            ["name"] = "Festive Particles",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4528327303",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Crystal Shine"] = {
+            ["name"] = "Crystal Shine",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4864583250",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Fusion Mist"] = {
+            ["name"] = "Fusion Mist",
+            ["imageId"] = "rbxassetid://6294755624",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Arctic Frostfall"] = {
+            ["name"] = "Arctic Frostfall",
+            ["imageId"] = "rbxassetid://15501265635",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Winter"] = {
+            ["name"] = "Winter",
+            ["imageId"] = "http://www.roblox.com/asset/?id=4510339876",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "enchants"
+        },
+        ["Blizzard"] = {
+            ["name"] = "Blizzard",
+            ["imageId"] = "rbxassetid://3168464906",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "enchants"
         }
     },
-    ["armors"] = {
-        ["Jade Mercenary"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Jade Mercenary"},
-        ["Mad Alchemist"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Mad Alchemist"},
-        ["Demonic Warrior"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Demonic Warrior"},
-        ["Cow Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Cow Onesie"},
-        ["Cyber Bunny Warrior"] = {
-            ["rarity"] = "legendary",
-            ["cosmeticType"] = "armors",
-            ["name"] = "Cyber Bunny Warrior"
+    ["weapons"] = {
+        ["Shadow Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Shadow Daggers",
+            ["cosmeticType"] = "weapons"
         },
-        ["Bartender"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Bartender"},
-        ["Nutcracker"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Nutcracker"},
-        ["War Master"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "War Master"},
-        ["Pumpkin King"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Pumpkin King"},
-        ["Blanket Ghost"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Blanket Ghost"},
-        ["Galaxy Warrior"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Galaxy Warrior"},
-        ["Firefighter"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Firefighter"},
-        ["King's Knight"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "King's Knight"},
-        ["Cardboard Paladin"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Cardboard Paladin"},
-        ["Scott"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Scott"},
-        ["Templar"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Templar"},
-        ["Witch"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Witch"},
-        ["Inventor"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Inventor"},
-        ["Viking Berserker"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Viking Berserker"},
-        ["Black Cat Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Black Cat Onesie"},
-        ["Panda Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Panda Onesie"},
-        ["Tribal Mage"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Tribal Mage"},
-        ["Yeti"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Yeti"},
-        ["Tuxedo"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Tuxedo"},
-        ["Casual"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Casual"},
-        ["Santa"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Santa"},
-        ["Stone Lee"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Stone Lee"},
-        ["Scout"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Scout"},
-        ["Mister Snow"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Mister Snow"},
-        ["Soul Harvester"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Soul Harvester"},
-        ["Tribal Guardian"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Tribal Guardian"},
-        ["Pharaoh"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Pharaoh"},
-        ["Angelic Warrior"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Angelic Warrior"},
-        ["Flame Heart"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Flame Heart"},
-        ["Siren Warrior"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Siren Warrior"},
-        ["Battle Dwarf Berserker"] = {
+        ["Crimson Crystal Scythe"] = {
             ["rarity"] = "epic",
-            ["cosmeticType"] = "armors",
-            ["name"] = "Battle Dwarf Berserker"
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Crimson Crystal Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
         },
-        ["Headless Horseman"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Headless Horseman"},
-        ["Bob Boss"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Bob Boss"},
-        ["Reaper"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Reaper"},
-        ["Demon Lord"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Demon Lord"},
-        ["Space Robot"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Space Robot"},
-        ["World Master"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "World Master"},
-        ["Unicorn Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Unicorn Onesie"},
-        ["Klark"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Klark"},
-        ["Enchanted Warrior"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Enchanted Warrior"},
-        ["Dark Mrs Claus"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Dark Mrs Claus"},
-        ["Archer"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Archer"},
-        ["Cursed Shipwright"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Cursed Shipwright"},
-        ["Corrupt Overlord"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Corrupt Overlord"},
-        ["Bob"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Bob"},
-        ["Samurai Master"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Samurai Master"},
-        ["Demonic Wizard"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Demonic Wizard"},
-        ["Little Helper"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Little Helper"},
-        ["Spartan"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Spartan"},
-        ["Incinerator"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Incinerator"},
-        ["Astral Guardian"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Astral Guardian"},
-        ["Chicken Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Chicken Onesie"},
-        ["Ducky Fanboy"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Ducky Fanboy"},
-        ["Farmer"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Farmer"},
-        ["Princess"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Princess"},
-        ["Spiritual Mage"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Spiritual Mage"},
-        ["Mister Heat"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Mister Heat"},
-        ["Runic Guardian"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Runic Guardian"},
-        ["Bunny Fanboy"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Bunny Fanboy"},
-        ["Demon Pirate"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Demon Pirate"},
-        ["Evil Beastmaster"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Evil Beastmaster"},
-        ["Devil Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Devil Onesie"},
-        ["Unlucky Gingerbread Man"] = {
+        ["Sunflower Staff"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Sunflower Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Molten Scimitar"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Molten Scimitar",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Citrine Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049617",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049716",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049676"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Citrine Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Candy Cane Blades"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Candy Cane Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Jotunheim Axe And Shield"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["runAnim"] = "rbxassetid://13740049139",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
             ["rarity"] = "epic",
-            ["cosmeticType"] = "armors",
-            ["name"] = "Unlucky Gingerbread Man"
+            ["name"] = "Jotunheim Axe And Shield",
+            ["cosmeticType"] = "weapons"
         },
-        ["Ice Elemental"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Ice Elemental"},
-        ["Reindeer Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Reindeer Onesie"},
-        ["Krampus"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Krampus"},
-        ["Elder Dark Mage"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Elder Dark Mage"},
-        ["Einherjar"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Einherjar"},
-        ["Demonic Phantom"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Demonic Phantom"},
-        ["Black Swordsman"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Black Swordsman"},
-        ["Gilded Paladin"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Gilded Paladin"},
-        ["Evil Magician"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Evil Magician"},
-        ["Royal Samurai"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Royal Samurai"},
-        ["Frozen Turkey Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Frozen Turkey Onesie"},
-        ["Vampire Lord"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Vampire Lord"},
-        ["Snowy Christmas Tree"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Snowy Christmas Tree"},
-        ["Imp"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Imp"},
-        ["Molten Elemental"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Molten Elemental"},
-        ["Skunk Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Skunk Onesie"},
-        ["Straw Hat"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Straw Hat"},
-        ["Inferno Hologram"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Inferno Hologram"},
-        ["Demonic Guardian"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Demonic Guardian"},
-        ["Scientist"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Scientist"},
-        ["Papa Caffy"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Papa Caffy"},
-        ["Ice King"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Ice King"},
-        ["Lava Demigod"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Lava Demigod"},
-        ["Roruto"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Roruto"},
-        ["Lumenflame Champion"] = {
+        ["100k Berry Staff"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "100k Berry Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Condiment Mallet"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Condiment Mallet",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Festive Candelabra"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Festive Candelabra",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Torch Staff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Torch Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Dual Red Sabers"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Dual Red Sabers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Hologram Blade"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Hologram Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Oni Samurai Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Oni Samurai Scythe",
+            ["imageId"] = "http://www.roblox.com/asset/?id=15254773943",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Scout Blades"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Scout Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Inferno Hologram Blade"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Inferno Hologram Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Cyber Easter Blade"] = {
             ["rarity"] = "legendary",
-            ["cosmeticType"] = "armors",
-            ["name"] = "Lumenflame Champion"
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Cyber Easter Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
         },
-        ["Banana"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Banana"},
-        ["Spiritual Guardian"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Spiritual Guardian"},
-        ["Fergie5000"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Fergie5000"},
-        ["Chaos Knight"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Chaos Knight"},
-        ["Spectre Of Festivities"] = {
+        ["Mister Snow's Staff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Mister Snow's Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["DevLauncher"] = {
             ["rarity"] = "legendary",
-            ["cosmeticType"] = "armors",
-            ["name"] = "Spectre Of Festivities"
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "DevLauncher",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
         },
-        ["Asuni"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Asuni"},
-        ["Frozen Executioner"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Frozen Executioner"},
-        ["Rokashi"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Rokashi"},
-        ["Flamingo Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Flamingo Onesie"},
-        ["Tribal Warrior"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Tribal Warrior"},
-        ["Pickle"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Pickle"},
-        ["Fox Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Fox Onesie"},
-        ["Corrupt Wanderer"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Corrupt Wanderer"},
-        ["Dark Santa"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Dark Santa"},
-        ["Elite Ninja"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Elite Ninja"},
-        ["Spiritual Warrior"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Spiritual Warrior"},
-        ["Aquatic Assassin"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Aquatic Assassin"},
-        ["Dragon Lord"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Dragon Lord"},
-        ["Duck Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Duck Onesie"},
-        ["Plague Doctor"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Plague Doctor"},
-        ["Dog Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Dog Onesie"},
-        ["Ninja"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Ninja"},
-        ["Carrot"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Carrot"},
-        ["Fusion Guardian"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Fusion Guardian"},
-        ["Grave Digger"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Grave Digger"},
-        ["Mrs Claus"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Mrs Claus"},
-        ["Two Zero"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Two Zero"},
-        ["Koala Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Koala Onesie"},
-        ["Green Cap"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Green Cap"},
-        ["Evil Scarecrow"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Evil Scarecrow"},
-        ["Punch"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Punch"},
-        ["Angelic Guardian"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Angelic Guardian"},
-        ["Space Mercenary"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Space Mercenary"},
-        ["Terminator"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Terminator"},
-        ["Dark Assassin"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Dark Assassin"},
-        ["Shadow Spirit"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Shadow Spirit"},
-        ["Giraffe Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Giraffe Onesie"},
-        ["Winter Wanderer"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Winter Wanderer"},
-        ["Gingerbread Man"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Gingerbread Man"},
-        ["Grey Elder Mage"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Grey Elder Mage"},
-        ["Ghastly Snowman"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Ghastly Snowman"},
-        ["Turkey Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Turkey Onesie"},
-        ["Snowman"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Snowman"},
-        ["Sniper Mercenary"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Sniper Mercenary"},
-        ["Jotunheim Bob"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Jotunheim Bob"},
-        ["Hotdog"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Hotdog"},
-        ["Bunny Knight"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Bunny Knight"},
-        ["Neon Enforcer"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Neon Enforcer"},
-        ["Odin"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Odin"},
-        ["Mushroom Assassin"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Mushroom Assassin"},
-        ["Game Master"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Game Master"},
-        ["Titan Of War"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Titan Of War"},
-        ["Vampire Hunter"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Vampire Hunter"},
-        ["Pirate Captain"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Pirate Captain"},
-        ["Corrupt Arch-mage"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Corrupt Arch-mage"},
-        ["Penguin Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Penguin Onesie"},
-        ["Ghostly Warrior"] = {["rarity"] = "uncommon", ["cosmeticType"] = "armors", ["name"] = "Ghostly Warrior"},
-        ["Christmas Tree"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Christmas Tree"},
-        ["Evil Duck Onesie"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Evil Duck Onesie"},
-        ["Vampire Slayer"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Vampire Slayer"},
-        ["Pumpkin Warrior"] = {["rarity"] = "legendary", ["cosmeticType"] = "armors", ["name"] = "Pumpkin Warrior"},
-        ["Cyber Pirate"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Cyber Pirate"},
-        ["Beach Girl"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Beach Girl"},
-        ["Hologram"] = {["rarity"] = "rare", ["cosmeticType"] = "armors", ["name"] = "Hologram"},
-        ["Yulebringer Bob"] = {["rarity"] = "epic", ["cosmeticType"] = "armors", ["name"] = "Yulebringer Bob"}
+        ["Tormented Blade"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Tormented Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Spartan Sword and Shield"] = {
+            ["animations"] = {},
+            ["rarity"] = "rare",
+            ["name"] = "Spartan Sword and Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Imperial Spear"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Imperial Spear",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Hammer of Judgement"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049573",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049511"
+            },
+            ["name"] = "Hammer of Judgement",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gold Necromantic Pumpkin Staff"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Gold Necromantic Pumpkin Staff",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Neon Rotary Blades"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Neon Rotary Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Holy Excalibur"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Holy Excalibur",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Vampiric Greatsword"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Vampiric Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Dragon Lord's Blade And Shield"] = {
+            ["animations"] = {},
+            ["rarity"] = "epic",
+            ["name"] = "Dragon Lord's Blade And Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Elder Dark Magic Staff"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Elder Dark Magic Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Red Ice Tipped Blades"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Red Ice Tipped Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["AdminLauncher"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "AdminLauncher",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Beach Umbrella"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Beach Umbrella",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Blade Of Corruption"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Blade Of Corruption",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Fists"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740048897",
+                ["idleAnim"] = "rbxassetid://14201837624",
+                ["runAnim"] = "rbxassetid://14201837715",
+                ["swing1"] = "rbxassetid://13740049031"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Fists",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Light Rapier"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Light Rapier",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Evil Pumpkin Staff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Evil Pumpkin Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Icy Star"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Icy Star",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Blighted Pumpkin Scythe"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Blighted Pumpkin Scythe",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Broom of Bewitchment"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Broom of Bewitchment",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Draconic Naginata"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Draconic Naginata",
+            ["imageId"] = "rbxassetid://14966265471",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Murderous Knives"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Murderous Knives",
+            ["cosmeticType"] = "weapons"
+        },
+        ["An entire Christmas Tree."] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["runAnim"] = "rbxassetid://13740048155",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "An entire Christmas Tree.",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Spirit Blade and Shield"] = {
+            ["animations"] = {},
+            ["rarity"] = "epic",
+            ["name"] = "Spirit Blade and Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Jade Blades"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["swing1"] = "rbxassetid://13740049395",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Jade Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Dual Sabers"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Dual Sabers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Cropslash Sickle"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Cropslash Sickle",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Necromantic Pumpkin Staff"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Necromantic Pumpkin Staff",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Soul Lantern Mace"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Soul Lantern Mace",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Giant Snowcone"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Giant Snowcone",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Angelic Battlestaff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Angelic Battlestaff",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gingerbread Sword"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Gingerbread Sword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Titan Maul"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049573",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049511"
+            },
+            ["name"] = "Titan Maul",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Corrupt Elderstaff"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Corrupt Elderstaff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Silent Knight's Spear and Shield"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["runAnim"] = "rbxassetid://14541956333",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Silent Knight's Spear and Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Cyber Cutlass And Pistol"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048778",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048829",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Cyber Cutlass And Pistol",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Chaos Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Chaos Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Carrot Sword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Carrot Sword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Headstack"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Headstack",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Evil Elderstaff"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Evil Elderstaff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["War Master's Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "War Master's Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Viking Axes"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Viking Axes",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Paintbrush"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Paintbrush",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Fire and Ice Hatchets"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Fire and Ice Hatchets",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Staff Of Festivities"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740049065",
+                ["runAnim"] = "rbxassetid://13740049101",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Staff Of Festivities",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Star-breaker Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Star-breaker Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Candy Cane Staff"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Candy Cane Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Terminator Gauntlets"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049617",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing1"] = "rbxassetid://13740049716"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Terminator Gauntlets",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Yoru"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Yoru",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Angelic Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Angelic Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Dark Magic Staff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Dark Magic Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Kunai Knives"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049676",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049716",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049617"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Kunai Knives",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Neon Blades"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Neon Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ancient Greatsword"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Ancient Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Fireaxe"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Fireaxe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["InfLauncher"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "InfLauncher",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Root Beer"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740049065",
+                ["runAnim"] = "rbxassetid://13740049101",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Root Beer",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Molten Greatsword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Molten Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Mighty Voidblade"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Mighty Voidblade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Assassin Daggers"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049676",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048155",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Assassin Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Krampus Coal Axe"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Krampus Coal Axe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Milk Maul"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Milk Maul",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Elucidator"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Elucidator",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ghostly Scimitar"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["name"] = "Ghostly Scimitar",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Holiday Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Holiday Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Blue Saber"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Blue Saber",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Hammer"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Hammer",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Festive Blade And Shield"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["runAnim"] = "rbxassetid://13740049139",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Festive Blade And Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Geisha Sakura Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Geisha Sakura Scythe",
+            ["imageId"] = "rbxassetid://14966265308",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ice Tipped Blades"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Ice Tipped Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Jumbo Hot Cocoa & Marshmallows"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Jumbo Hot Cocoa & Marshmallows",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Berry Staff"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Berry Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Azure Geisha Sakura Scythe"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Azure Geisha Sakura Scythe",
+            ["imageId"] = "rbxassetid://15246187154",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Cardboard Warhammer"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Cardboard Warhammer",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Lunar Blade And Solar Staff"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["swing1"] = "rbxassetid://13740049395",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Lunar Blade And Solar Staff",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Klark's Katana"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Klark's Katana",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Demonic Battlestaff"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Demonic Battlestaff",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Frozen Executioner's Blade"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Frozen Executioner's Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Dark Candy Cane Staff"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Dark Candy Cane Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Demonic Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Demonic Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Battle Dwarf Hatchets"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Battle Dwarf Hatchets",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Queen Pike"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740048718",
+                ["idleAnim"] = "rbxassetid://13740048596",
+                ["runAnim"] = "rbxassetid://13740048474",
+                ["swing1"] = "rbxassetid://13740048667"
+            },
+            ["name"] = "Queen Pike",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Christmas Tree Sword"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Christmas Tree Sword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Pumpkin King's Greatstaff"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Pumpkin King's Greatstaff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Shattered Blades"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Shattered Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Bob's Frosty Atgeir & Gift Bag"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Bob's Frosty Atgeir & Gift Bag",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Blades of Polarity"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Blades of Polarity",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Graveyard Spade"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Graveyard Spade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gilded Maul"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Gilded Maul",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Metal Bat"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Metal Bat",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ninja Katanas"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Ninja Katanas",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Pink Saber"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Pink Saber",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Nutcracker Halberd"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Nutcracker Halberd",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Void Spear"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Void Spear",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Runic Greatsword"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Runic Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gold Blighted Pumpkin Scythe"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Gold Blighted Pumpkin Scythe",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Game Master's Book"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["runAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Game Master's Book",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Enchanted Ice Blade"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Enchanted Ice Blade",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ogre's Spiked Maul"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Ogre's Spiked Maul",
+            ["imageId"] = "rbxassetid://14966264967",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Mighty Carrot Greatsword"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Mighty Carrot Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Christmas Bell"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740049065",
+                ["runAnim"] = "rbxassetid://13740049101",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Christmas Bell",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Royal Ruby Greatsword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Royal Ruby Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Galactic Greatsword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Galactic Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Red Saber"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Red Saber",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Devilish Cutlasses"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "uncommon",
+            ["name"] = "Devilish Cutlasses",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Pitchfork"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Pitchfork",
+            ["imageId"] = "rbxassetid://2611334168",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Demonic Pumpkin Reaver"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Demonic Pumpkin Reaver",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Pickle Sword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Pickle Sword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Inferno Blade"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Inferno Blade",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Enchanted Greatsword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Enchanted Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ice King's Greatsword"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Ice King's Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Winter Tree Sword"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Winter Tree Sword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Infernal Trident"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Infernal Trident",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gold Demonic Pumpkin Reaver"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Gold Demonic Pumpkin Reaver",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Blade Of Redemption"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Blade Of Redemption",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ice Lord's Blades"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Ice Lord's Blades",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Snowglobe Staff"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Snowglobe Staff",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Infernal Reaper"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Infernal Reaper",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Electric Pike"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Electric Pike",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Sun God Staff"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Sun God Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Flame Heart Greatsword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Flame Heart Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Bob's Atgeir & Gift Bag"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Bob's Atgeir & Gift Bag",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Fusion Blade And Shield"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["runAnim"] = "rbxassetid://13740048155",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Fusion Blade And Shield",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Glacial Reaper"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Glacial Reaper",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Gilded Rapier and Blunderbuss"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://15426437782",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["rarity"] = "legendary",
+            ["name"] = "Gilded Rapier and Blunderbuss",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Wanderer's Twin Edges"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740047636",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740047692",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["name"] = "Wanderer's Twin Edges",
+            ["imageId"] = "rbxassetid://14966264775",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Present Staff"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Present Staff",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ghostly Executioner's Axe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Ghostly Executioner's Axe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Candy Cane Sword"] = {
+            ["rarity"] = "rare",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Candy Cane Sword",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Demonic Warblade"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Demonic Warblade",
+            ["imageId"] = "rbxassetid://14966265878",
+            ["cosmeticType"] = "weapons"
+        },
+        ["St Nick's Banhammer"] = {
+            ["rarity"] = "legendary",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "St Nick's Banhammer",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Umbrella"] = {
+            ["rarity"] = "uncommon",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Umbrella",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Red Holiday Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Red Holiday Scythe",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Halloween Greatsword"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Halloween Greatsword",
+            ["imageId"] = "rbxassetid://2521642665",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Ritual Orb And Staff"] = {
+            ["animations"] = {
+                ["swing3"] = "rbxassetid://13740049305",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["swing1"] = "rbxassetid://13740049395",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing2"] = "rbxassetid://13740049269"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Ritual Orb And Staff",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Onyx Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048107",
+                ["swing3"] = "rbxassetid://13740049305"
+            },
+            ["rarity"] = "epic",
+            ["name"] = "Onyx Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Halloween Daggers"] = {
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049269",
+                ["idleAnim"] = "rbxassetid://13740048043",
+                ["swing1"] = "rbxassetid://13740049334",
+                ["runAnim"] = "rbxassetid://13740048155",
+                ["swing3"] = "rbxassetid://13740049676"
+            },
+            ["rarity"] = "rare",
+            ["name"] = "Halloween Daggers",
+            ["cosmeticType"] = "weapons"
+        },
+        ["Death's Grasp Scythe"] = {
+            ["rarity"] = "epic",
+            ["animations"] = {
+                ["swing2"] = "rbxassetid://13740049453",
+                ["idleAnim"] = "rbxassetid://13740047921",
+                ["runAnim"] = "rbxassetid://13740047993",
+                ["swing1"] = "rbxassetid://13740049395"
+            },
+            ["name"] = "Death's Grasp Scythe",
+            ["imageId"] = "rbxassetid://2908342666",
+            ["cosmeticType"] = "weapons"
+        }
+    },
+    ["bundles"] = {
+        ["Bear Onesie Pack (x3)"] = {
+            ["name"] = "Bear Onesie Pack (x3)",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "bundles"
+        }
+    },
+    ["titles"] = {
+        ["Plague Lord"] = {["name"] = "Plague Lord", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Godlike"] = {["name"] = "Godlike", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Creepy Crawler"] = {["name"] = "Creepy Crawler", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["HoHoHo"] = {["name"] = "HoHoHo", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Reindeer Rider"] = {["name"] = "Reindeer Rider", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Demon Achiever"] = {["name"] = "Demon Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Mogul"] = {["name"] = "Mogul", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["The Nightmare"] = {["name"] = "The Nightmare", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Elite Demon Defender"] = {
+            ["name"] = "Elite Demon Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Vampiric"] = {["name"] = "Vampiric", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Ultimate Demon Defender"] = {
+            ["name"] = "Ultimate Demon Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Grave Robber"] = {["name"] = "Grave Robber", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["R.I.P"] = {["name"] = "R.I.P", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Orbital Achiever"] = {["name"] = "Orbital Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Ultimate Samurai Defender"] = {
+            ["name"] = "Ultimate Samurai Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Godly Samurai Defender"] = {
+            ["name"] = "Godly Samurai Defender",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "titles"
+        },
+        ["Master"] = {["name"] = "Master", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Veteran"] = {["name"] = "Veteran", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Canal Achiever"] = {["name"] = "Canal Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Godly Demon Defender"] = {["name"] = "Godly Demon Defender", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Steampunk Achiever"] = {["name"] = "Steampunk Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Evil"] = {["name"] = "Evil", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Godly King's Defender"] = {
+            ["name"] = "Godly King's Defender",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "titles"
+        },
+        ["Hardcore Parkour"] = {["name"] = "Hardcore Parkour", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["King's Defender"] = {["name"] = "King's Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Skilled"] = {["name"] = "Skilled", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Elite Samurai Defender"] = {
+            ["name"] = "Elite Samurai Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Ultimate King's Defender"] = {
+            ["name"] = "Ultimate King's Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Winter Defender"] = {["name"] = "Winter Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["King's Achiever"] = {["name"] = "King's Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Godly Pirate Defender"] = {
+            ["name"] = "Godly Pirate Defender",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "titles"
+        },
+        ["Candy Cane Crusader"] = {
+            ["name"] = "Candy Cane Crusader",
+            ["rarity"] = "legendary",
+            ["cosmeticType"] = "titles"
+        },
+        ["Ultimate Pirate Defender"] = {
+            ["name"] = "Ultimate Pirate Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Frosty Fragger"] = {["name"] = "Frosty Fragger", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Godly Desert Defender"] = {
+            ["name"] = "Godly Desert Defender",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "titles"
+        },
+        ["Shogun"] = {["name"] = "Shogun", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Desert Defender"] = {["name"] = "Desert Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Demonic Lord"] = {["name"] = "Demonic Lord", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Grandmaster"] = {["name"] = "Grandmaster", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Ghastly Achiever"] = {["name"] = "Ghastly Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Elite Desert Defender"] = {
+            ["name"] = "Elite Desert Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Devilish"] = {["name"] = "Devilish", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Holiday Dungeoneer"] = {["name"] = "Holiday Dungeoneer", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Desert Achiever"] = {["name"] = "Desert Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Cookie Commander"] = {["name"] = "Cookie Commander", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["On The Naughty List"] = {["name"] = "On The Naughty List", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["The Dedicated"] = {["name"] = "The Dedicated", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Pirate Achiever"] = {["name"] = "Pirate Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Mushroom Achiever"] = {["name"] = "Mushroom Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Haunted"] = {["name"] = "Haunted", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Horror"] = {["name"] = "Horror", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Samurai Defender"] = {["name"] = "Samurai Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Apprentice"] = {["name"] = "Apprentice", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Ninja"] = {["name"] = "Ninja", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Undead Lord"] = {["name"] = "Undead Lord", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Halloween 2023"] = {["name"] = "Halloween 2023", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Elite Canal Defender"] = {
+            ["name"] = "Elite Canal Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Elite Pirate Defender"] = {
+            ["name"] = "Elite Pirate Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Papa"] = {["name"] = "Papa", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Novice"] = {["name"] = "Novice", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Evil Spirit"] = {["name"] = "Evil Spirit", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Ultimate Winter Defender"] = {
+            ["name"] = "Ultimate Winter Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Pumpkin Slayer"] = {["name"] = "Pumpkin Slayer", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Little Helper"] = {["name"] = "Little Helper", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Bob"] = {["name"] = "Bob", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Hexed"] = {["name"] = "Hexed", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Return To Cinder"] = {["name"] = "Return To Cinder", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Determined"] = {["name"] = "Determined", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Elite King's Defender"] = {
+            ["name"] = "Elite King's Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Explorer"] = {["name"] = "Explorer", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Godly Canal Defender"] = {["name"] = "Godly Canal Defender", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Grim Reaper"] = {["name"] = "Grim Reaper", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Northern Achiever"] = {["name"] = "Northern Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Snowflake"] = {["name"] = "Snowflake", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Winter Achiever"] = {["name"] = "Winter Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Volcanic Achiever"] = {["name"] = "Volcanic Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Gingerbread Guardian"] = {["name"] = "Gingerbread Guardian", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Samurai Achiever"] = {["name"] = "Samurai Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Demon Defender"] = {["name"] = "Demon Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Yokai"] = {["name"] = "Yokai", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Ultimate Canal Defender"] = {
+            ["name"] = "Ultimate Canal Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Godly Winter Defender"] = {
+            ["name"] = "Godly Winter Defender",
+            ["rarity"] = "epic",
+            ["cosmeticType"] = "titles"
+        },
+        ["Ice In My Veins"] = {["name"] = "Ice In My Veins", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Ultimate Desert Defender"] = {
+            ["name"] = "Ultimate Desert Defender",
+            ["rarity"] = "rare",
+            ["cosmeticType"] = "titles"
+        },
+        ["Festive"] = {["name"] = "Festive", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Coal In My Veins"] = {["name"] = "Coal In My Veins", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Expert"] = {["name"] = "Expert", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["Harvester of Horror"] = {["name"] = "Harvester of Horror", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Holiday Savior"] = {["name"] = "Holiday Savior", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Snow Angel"] = {["name"] = "Snow Angel", ["rarity"] = "uncommon", ["cosmeticType"] = "titles"},
+        ["On The Nice List"] = {["name"] = "On The Nice List", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Gilded Achiever"] = {["name"] = "Gilded Achiever", ["rarity"] = "legendary", ["cosmeticType"] = "titles"},
+        ["Canal Defender"] = {["name"] = "Canal Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"},
+        ["Aquatic Achiever"] = {["name"] = "Aquatic Achiever", ["rarity"] = "epic", ["cosmeticType"] = "titles"},
+        ["Elite Winter Defender"] = {
+            ["name"] = "Elite Winter Defender",
+            ["rarity"] = "uncommon",
+            ["cosmeticType"] = "titles"
+        },
+        ["Spooky"] = {["name"] = "Spooky", ["rarity"] = "rare", ["cosmeticType"] = "titles"},
+        ["Pirate Defender"] = {["name"] = "Pirate Defender", ["rarity"] = "common", ["cosmeticType"] = "titles"}
     }
 }
