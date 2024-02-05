@@ -1,1849 +1,4212 @@
 --require(game:GetService("ReplicatedStorage").Utility.DataRequester).GetWeapons()
 data = {
-    ["Nature Spellblade"] = {
-        ["rarity"] = "rare",
+    ["Twin Bladed Slicer"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Nature Spellblade"
+        ["imageId"] = "rbxassetid://2908344135",
+        ["name"] = "Twin Bladed Slicer"
     },
     ["Frost Giant Greataxe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Frost Giant Greataxe"
     },
     ["Timelost Warhammer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Timelost Warhammer"
     },
-    ["Gildenscale Oath And Aegis"] = {
+    ["Amber Wand"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Amber Wand"
+    },
+    ["Enchanted Demonic Greataxe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Gildenscale Oath And Aegis"
+        ["name"] = "Enchanted Demonic Greataxe"
     },
     ["Norse Greataxe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Norse Greataxe"
     },
     ["Runic Hammer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2718090359",
         ["name"] = "Runic Hammer"
     },
     ["Hextech Polearm"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Hextech Polearm"
     },
-    ["Angelic Staff"] = {
-        ["rarity"] = "epic",
+    ["Ice Greatspear"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Angelic Staff"
+        ["name"] = "Ice Greatspear"
     },
     ["Void Spell Dagger"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Void Spell Dagger"
     },
     ["Fusion Magic Keyblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Fusion Magic Keyblade"
     },
     ["Toxic Spellscythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Toxic Spellscythe"
     },
-    ["Dual Sapphire Slicers"] = {
+    ["Dual Royal Axes"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Sapphire Slicers"
+        ["name"] = "Dual Royal Axes"
     },
     ["Dual Phantom Axes"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Phantom Axes"
     },
     ["Mana Infused Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Mana Infused Spellblade"
     },
     ["Electron Spell Dagger"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Electron Spell Dagger"
     },
     ["Dual Godforged Blades"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049305",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing2"] = "rbxassetid://13740049269"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Godforged Blades"
     },
     ["Industrial Spellscythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Industrial Spellscythe"
     },
     ["Dragon's Claw Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dragon's Claw Scythe"
     },
     ["Oathsworn Spellscythe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Oathsworn Spellscythe"
     },
     ["Dual Phantom Daggers"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Phantom Daggers"
     },
     ["Ocean Dweller's Mageblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ocean Dweller's Mageblade"
     },
     ["Dual Solar Blades"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Solar Blades"
     },
+    ["Seishin Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Seishin Staff"
+    },
     ["Dark Ice Blades"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dark Ice Blades"
     },
-    ["Mighty Frozen Greatsword"] = {
+    ["Dual Phantom Defenders"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908345489",
-        ["name"] = "Mighty Frozen Greatsword"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dual Phantom Defenders"
     },
     ["Demonic Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Demonic Greatsword"
     },
     ["Demon Lord's Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Demon Lord's Greatstaff"
     },
-    ["Dual Sinister Blades"] = {
-        ["rarity"] = "epic",
+    ["Dual Toxic Daggers"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Sinister Blades"
+        ["name"] = "Dual Toxic Daggers"
     },
     ["Royal Katana"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Royal Katana"
     },
-    ["Lava Tendril Pike"] = {
-        ["rarity"] = "rare",
+    ["Golden Palm Axe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Lava Tendril Pike"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Golden Palm Axe"
     },
     ["Ice Enhanced Sword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908343010",
         ["name"] = "Ice Enhanced Sword"
     },
     ["Sunlight Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sunlight Staff"
     },
     ["Godsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908345655",
         ["name"] = "Godsword"
     },
+    ["Oni's Dadao"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Oni's Dadao"
+    },
     ["High Priest Battleaxe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "High Priest Battleaxe"
     },
     ["Mighty Fusion Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Mighty Fusion Spellblade"
     },
     ["Enchanted Sea Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Enchanted Sea Daggers"
     },
-    ["Aquatic Scimitars"] = {
+    ["Dual Phoenix Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Aquatic Scimitars"
+        ["name"] = "Dual Phoenix Daggers"
     },
-    ["Volcanic Greatsword"] = {
-        ["rarity"] = "rare",
+    ["Hardened Ice Sword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Volcanic Greatsword"
+        ["imageId"] = "rbxassetid://2908344004",
+        ["name"] = "Hardened Ice Sword"
     },
     ["Northern Spellstaff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Northern Spellstaff"
     },
     ["Starter Wand"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2718085885",
         ["name"] = "Starter Wand"
     },
     ["Galactic Dual Blades"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Galactic Dual Blades"
     },
-    ["Titan's Greataxe"] = {
+    ["Crimson Kris"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718087611",
-        ["name"] = "Titan's Greataxe"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Crimson Kris"
     },
     ["Diamond Encrusted Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing3"] = "rbxassetid://13740049842"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642545",
         ["name"] = "Diamond Encrusted Blade"
     },
     ["Bluefire Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bluefire Staff"
     },
     ["Ice Queen's Wand"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Ice Queen's Wand"
     },
     ["Egg Maul"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://14097808317",
+            ["idleAnim"] = "rbxassetid://14097807202",
+            ["runAnim"] = "rbxassetid://14097807273",
+            ["swing1"] = "rbxassetid://14097808225"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Egg Maul"
     },
-    ["Blessed Lightpost"] = {
-        ["rarity"] = "legendary",
+    ["Sapphire Stone Wand"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Blessed Lightpost"
+        ["name"] = "Sapphire Stone Wand"
     },
     ["Lava King's Spell Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Lava King's Spell Daggers"
     },
     ["Hextech Wired Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Hextech Wired Spellblade"
     },
     ["Dual Fusion Blades"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Fusion Blades"
     },
+    ["Jigoku Twin Katanas"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Jigoku Twin Katanas"
+    },
     ["Moonlight Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Moonlight Staff"
     },
-    ["Viking Hatchets"] = {
-        ["rarity"] = "rare",
+    ["Spiked Club"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Viking Hatchets"
+        ["imageId"] = "rbxassetid://2521613519",
+        ["name"] = "Spiked Club"
     },
     ["Captain's Anchor"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642930",
         ["name"] = "Captain's Anchor"
     },
-    ["Dual Samurai Sickles"] = {
+    ["Golden Cutlasses"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Samurai Sickles"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Golden Cutlasses"
     },
     ["Giant Royal Axe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Giant Royal Axe"
     },
     ["Hofund"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Hofund"
     },
-    ["Forest Vine Hatchet"] = {
-        ["rarity"] = "rare",
+    ["Celestial Fire Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Forest Vine Hatchet"
+        ["name"] = "Celestial Fire Staff"
     },
     ["Bioforged Cog Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bioforged Cog Spellblade"
     },
     ["Reinforced Ice Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908344750",
         ["name"] = "Reinforced Ice Blade"
     },
-    ["Demonic Spellblade"] = {
+    ["Apprentice Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 1.5,
+        ["imageId"] = "rbxassetid://2611334168",
+        ["name"] = "Apprentice Staff"
+    },
+    ["Holy Sun Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Demonic Spellblade"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Holy Sun Staff"
     },
     ["Twisted Wood Greatsword"] = {
         ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Twisted Wood Greatsword"
     },
     ["Magma Infused Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2512695592",
         ["name"] = "Magma Infused Staff"
     },
     ["Greater Prophet Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Greater Prophet Staff"
     },
     ["Enchanted Shard Spelldagger"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Enchanted Shard Spelldagger"
     },
     ["Dual Cutlasses"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Cutlasses"
     },
     ["Dual Samurai Stars"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Samurai Stars"
     },
+    ["Elemental Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Elemental Staff"
+    },
     ["Amethyst Spelldagger"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Amethyst Spelldagger"
     },
     ["Sakura Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sakura Greatstaff"
     },
     ["Sea Serpent's Wings"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sea Serpent's Wings"
     },
     ["Cracked Tooth Cleaver"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Cracked Tooth Cleaver"
     },
     ["Galactic Pike"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Galactic Pike"
     },
     ["Oathsworn Hammer"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Oathsworn Hammer"
     },
-    ["Fungal Staff"] = {
-        ["rarity"] = "rare",
+    ["Bronze Longsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Fungal Staff"
+        ["name"] = "Bronze Longsword"
     },
     ["Shattered Magma Blade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Shattered Magma Blade"
     },
     ["Dual Arcane Spelldaggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Arcane Spelldaggers"
     },
-    ["King's Greatsword"] = {
+    ["Azerite Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "King's Greatsword"
+        ["imageId"] = "rbxassetid://2718087611",
+        ["name"] = "Azerite Greatstaff"
     },
     ["Granite Maul"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2718087611",
         ["name"] = "Granite Maul"
     },
     ["Lava Shard Staff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Lava Shard Staff"
     },
     ["Beastmaster Spell Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Beastmaster Spell Scythe"
     },
     ["Dual Fist Blades"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Fist Blades"
     },
+    ["Desert Wrath"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Desert Wrath"
+    },
     ["Goblin Cleaver"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Goblin Cleaver"
     },
-    ["Iron Longsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521657793",
-        ["name"] = "Iron Longsword"
-    },
-    ["Overgrown War Scythe"] = {
+    ["Earth Elemental Sword"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Overgrown War Scythe"
+        ["imageId"] = "rbxassetid://2513294969",
+        ["name"] = "Earth Elemental Sword"
     },
-    ["Dual Nature Vines"] = {
+    ["Steel Lance"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740048718",
+            ["idleAnim"] = "rbxassetid://13740048596",
+            ["runAnim"] = "rbxassetid://13740048474",
+            ["swing1"] = "rbxassetid://13740048667"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://15561814855",
+        ["name"] = "Steel Lance"
+    },
+    ["Twisted Wood Greatstaff"] = {
+        ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Nature Vines"
+        ["name"] = "Twisted Wood Greatstaff"
     },
     ["Fungal Lance"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Fungal Lance"
     },
     ["Bioforged Reinforced Slicer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bioforged Reinforced Slicer"
     },
     ["Dual Arcane Slicers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Arcane Slicers"
     },
     ["Ice Spellblade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ice Spellblade"
     },
     ["Gungnir"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Gungnir"
     },
-    ["Serpent Scimitars"] = {
-        ["rarity"] = "epic",
+    ["Ancient Ruins Greatsword"] = {
+        ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Serpent Scimitars"
+        ["name"] = "Ancient Ruins Greatsword"
     },
     ["Sharktooth Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sharktooth Blade"
     },
     ["Water Elemental Spellblade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2513252546",
         ["name"] = "Water Elemental Spellblade"
     },
+    ["Golden Hammer"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Golden Hammer"
+    },
+    ["Desert Mirage"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Desert Mirage"
+    },
     ["Toxic Warspear"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Toxic Warspear"
     },
     ["Earth Wand"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Earth Wand"
     },
     ["Holy Wand"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Holy Wand"
     },
     ["Aquatic Spear"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Aquatic Spear"
     },
     ["Empowered Crystal Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Empowered Crystal Blade"
     },
-    ["Void Spell Blade"] = {
-        ["rarity"] = "common",
+    ["Godforged Greatstaff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511707072",
-        ["name"] = "Void Spell Blade"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Godforged Greatstaff"
     },
     ["Ocean Splitter"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ocean Splitter"
     },
-    ["Hextech Katana"] = {
+    ["Bronze Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Bronze Daggers"
+    },
+    ["Tribal Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Hextech Katana"
+        ["name"] = "Tribal Staff"
     },
     ["Hellstone Greataxe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Hellstone Greataxe"
     },
     ["Honorable Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Honorable Greatsword"
     },
     ["Earth Maul"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2611334168",
         ["name"] = "Earth Maul"
     },
     ["Jade Spelldagger"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Jade Spelldagger"
     },
-    ["Viking Shield"] = {
-        ["rarity"] = "rare",
+    ["Sunken Blade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Viking Shield"
+        ["name"] = "Sunken Blade"
+    },
+    ["TestWeapon"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "TestWeapon"
     },
     ["Royal Crimson Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Royal Crimson Greatsword"
     },
     ["Bioforged Quickblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bioforged Quickblade"
     },
     ["Glitch Blade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://14121916481",
+            ["idleAnim"] = "rbxassetid://14121915160",
+            ["runAnim"] = "rbxassetid://14121915225",
+            ["swing1"] = "rbxassetid://14121916328"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Glitch Blade"
     },
+    ["Silver Gladius"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Silver Gladius"
+    },
     ["Bone Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bone Scythe"
     },
+    ["Oni's Bell Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Oni's Bell Staff"
+    },
     ["Molten Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Molten Blade"
     },
-    ["Bioforged Greatsword"] = {
+    ["Runic Pike"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Bioforged Greatsword"
+        ["name"] = "Runic Pike"
     },
     ["Onyx Spell Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Onyx Spell Scythe"
     },
     ["Dracani Royal Glaive"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dracani Royal Glaive"
     },
     ["Dual Ancient Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049305",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing2"] = "rbxassetid://13740049269"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Ancient Daggers"
     },
-    ["Magic Mallet"] = {
-        ["rarity"] = "common",
+    ["Holy Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718086298",
-        ["name"] = "Magic Mallet"
+        ["imageId"] = "rbxassetid://2718139085",
+        ["name"] = "Holy Staff"
     },
-    ["Laevateinn"] = {
-        ["rarity"] = "rare",
+    ["Steel Warhammer"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Laevateinn"
+        ["imageId"] = "rbxassetid://15561814855",
+        ["name"] = "Steel Warhammer"
     },
     ["Bloodthirster"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Bloodthirster"
     },
     ["Dual Jade Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Jade Daggers"
     },
     ["Arcane Orb Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Arcane Orb Staff"
     },
-    ["Northern Runic Blade"] = {
-        ["rarity"] = "rare",
+    ["Mighty Flatblade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Northern Runic Blade"
+        ["name"] = "Mighty Flatblade"
     },
     ["Templar Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Templar Blade"
     },
     ["Arclight Battlestaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Arclight Battlestaff"
     },
     ["Greater Dark Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Greater Dark Scythe"
     },
     ["Viking Sceptre"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Viking Sceptre"
     },
     ["Mossy Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908343808",
         ["name"] = "Mossy Greatsword"
     },
-    ["Enchanted Sea Axes"] = {
+    ["Bronze Gladius"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Bronze Gladius"
+    },
+    ["Elven Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Enchanted Sea Axes"
+        ["name"] = "Elven Staff"
+    },
+    ["Jigoku Twin Warfans"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049305",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing2"] = "rbxassetid://13740049269"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Jigoku Twin Warfans"
     },
     ["Dual Flatblade Slicers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Flatblade Slicers"
     },
     ["Pulverizer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2718088003",
         ["name"] = "Pulverizer"
     },
     ["Runic Mace"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Runic Mace"
     },
     ["Dual Crimson Daggers"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Crimson Daggers"
     },
     ["Reinforced Steel Sword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908343273",
         ["name"] = "Reinforced Steel Sword"
     },
     ["Dual Elegant Mage Fans"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Elegant Mage Fans"
     },
     ["Onyx Hammer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2718090040",
         ["name"] = "Onyx Hammer"
     },
-    ["Timelost Greatsword"] = {
+    ["Seishin Cleaver"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Seishin Cleaver"
+    },
+    ["Staff of the North"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Timelost Greatsword"
+        ["name"] = "Staff of the North"
     },
     ["Hextech Overloaded Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Hextech Overloaded Staff"
     },
     ["Solar Greatsword"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Solar Greatsword"
     },
+    ["Staff of the Gods"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Staff of the Gods"
+    },
+    ["Akuma's Wraithbringer"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Akuma's Wraithbringer"
+    },
     ["Sea Staff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sea Staff"
     },
-    ["Heavenly Greatsword"] = {
-        ["rarity"] = "epic",
+    ["Magic Mallet"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Heavenly Greatsword"
+        ["imageId"] = "rbxassetid://2718086298",
+        ["name"] = "Magic Mallet"
+    },
+    ["Frozen Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908343473",
+        ["name"] = "Frozen Greatsword"
     },
     ["Ice Infused Slicer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2908345874",
         ["name"] = "Ice Infused Slicer"
     },
-    ["Inventor's Greatsword"] = {
-        ["rarity"] = "epic",
+    ["Fungal Warhammer"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Inventor's Greatsword"
+        ["name"] = "Fungal Warhammer"
+    },
+    ["Beastmaster War Scythe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Beastmaster War Scythe"
     },
     ["Snow Elemental Staff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2514431372",
         ["name"] = "Snow Elemental Staff"
     },
     ["Infernal Sun Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Infernal Sun Staff"
     },
+    ["Lava King's Warscythe"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Lava King's Warscythe"
+    },
     ["Arcane Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Arcane Greatstaff"
     },
     ["Mage's Spellbook"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2515160303",
         ["name"] = "Mage's Spellbook"
     },
+    ["Oathsworn Sword And Shield"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Oathsworn Sword And Shield"
+    },
     ["Plasma Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Plasma Spellblade"
     },
     ["Molten Greataxe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Molten Greataxe"
     },
     ["Frozen Lord's Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Frozen Lord's Greatsword"
     },
+    ["Golden Kopesh Glaive"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Golden Kopesh Glaive"
+    },
     ["Dual Pirate Cutlasses"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Pirate Cutlasses"
     },
+    ["Fungal Staff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Fungal Staff"
+    },
     ["Void Greatsword"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Void Greatsword"
     },
+    ["Oceanic Greatsword"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Oceanic Greatsword"
+    },
+    ["Overlord's Rageblade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Overlord's Rageblade"
+    },
+    ["Poison Spear"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Poison Spear"
+    },
+    ["Iron Longsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521657793",
+        ["name"] = "Iron Longsword"
+    },
+    ["Northern Runic Blade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Northern Runic Blade"
+    },
     ["King's Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "King's Spellblade"
     },
     ["Violet Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Violet Spellblade"
     },
-    ["Royal Slicer"] = {
+    ["Bioforged Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908345247",
-        ["name"] = "Royal Slicer"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Bioforged Greatsword"
+    },
+    ["Jigoku Club and Shield"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://14541956333",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Jigoku Club and Shield"
+    },
+    ["Forest Vine Hatchet"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Forest Vine Hatchet"
+    },
+    ["Mighty Frozen Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049842",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing2"] = "rbxassetid://13740049453"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908345489",
+        ["name"] = "Mighty Frozen Greatsword"
+    },
+    ["Oathsworn Spellblade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Oathsworn Spellblade"
+    },
+    ["Eldenbark Greatsword"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Eldenbark Greatsword"
+    },
+    ["Void Spell Blade"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2511707072",
+        ["name"] = "Void Spell Blade"
     },
     ["Solar Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Solar Staff"
     },
+    ["Dual Sinister Blades"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dual Sinister Blades"
+    },
     ["Dual Infernal Daggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Infernal Daggers"
     },
+    ["Egg Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://14097796828",
+            ["idleAnim"] = "rbxassetid://14097795660",
+            ["runAnim"] = "rbxassetid://14097795754",
+            ["swing1"] = "rbxassetid://14097796722"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Egg Staff"
+    },
+    ["Luminous Greatstaff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Luminous Greatstaff"
+    },
+    ["Royal Slicer"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908345247",
+        ["name"] = "Royal Slicer"
+    },
+    ["Dual Frozen Blades"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dual Frozen Blades"
+    },
     ["Ancient Elder Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ancient Elder Staff"
     },
     ["Dual Hextech Spelldaggers"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Hextech Spelldaggers"
     },
     ["Blacksteel Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Blacksteel Greatsword"
     },
+    ["Soulstealer Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Soulstealer Greatsword"
+    },
+    ["Crystal Scepter"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Crystal Scepter"
+    },
     ["Dual Ocean Fists"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Ocean Fists"
     },
-    ["Fungal Warhammer"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Fungal Warhammer"
-    },
-    ["Twin Bladed Slicer"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908344135",
-        ["name"] = "Twin Bladed Slicer"
-    },
-    ["Spiked Club"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521613519",
-        ["name"] = "Spiked Club"
-    },
-    ["Lava Spellblade"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Lava Spellblade"
-    },
-    ["Egg Staff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Egg Staff"
-    },
-    ["Dual Toxic Daggers"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Toxic Daggers"
-    },
-    ["Enchanted Shard Staff"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Enchanted Shard Staff"
-    },
-    ["Oathsworn Sword And Shield"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Oathsworn Sword And Shield"
-    },
-    ["Runic Spellscythe"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Runic Spellscythe"
-    },
-    ["Dual Hellfire Blades"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Hellfire Blades"
-    },
-    ["Apothecary Staff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Apothecary Staff"
-    },
-    ["Earth Elemental Sword"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2513294969",
-        ["name"] = "Earth Elemental Sword"
-    },
-    ["Glacial Greatsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908344917",
-        ["name"] = "Glacial Greatsword"
-    },
-    ["Dual Bioforged Spelldaggers"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Bioforged Spelldaggers"
-    },
-    ["Hardened Ice Sword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908344004",
-        ["name"] = "Hardened Ice Sword"
-    },
-    ["Dual Phoenix Daggers"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Phoenix Daggers"
-    },
-    ["Fire and Ice Staff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Fire and Ice Staff"
-    },
-    ["Leaf Bladed Greatsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521625245",
-        ["name"] = "Leaf Bladed Greatsword"
-    },
-    ["Enchanted Demonic Greataxe"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Enchanted Demonic Greataxe"
-    },
-    ["Dual Bioforged Drills"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Bioforged Drills"
-    },
-    ["Dracani Spellclaws"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dracani Spellclaws"
-    },
-    ["Oathsworn Spellblade"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Oathsworn Spellblade"
-    },
-    ["Plasma Twin Spellblade"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Plasma Twin Spellblade"
-    },
-    ["Sapphire Stone Wand"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sapphire Stone Wand"
-    },
-    ["Mighty Fusion Maul"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2611334168",
-        ["name"] = "Mighty Fusion Maul"
-    },
-    ["Nature Scythe"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Nature Scythe"
-    },
-    ["Ruby Greatsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Ruby Greatsword"
-    },
-    ["Runic Pike"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Runic Pike"
-    },
-    ["Stone Strongsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Stone Strongsword"
-    },
-    ["Apprentice Staff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 1.5,
-        ["imageId"] = "rbxassetid://2611334168",
-        ["name"] = "Apprentice Staff"
-    },
     ["Infernal Elemental Sword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511721913",
         ["name"] = "Infernal Elemental Sword"
     },
+    ["Magic Trident"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Magic Trident"
+    },
+    ["Lava Spellblade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Lava Spellblade"
+    },
+    ["Novice Wand"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 1.5,
+        ["imageId"] = "rbxassetid://2611305024",
+        ["name"] = "Novice Wand"
+    },
+    ["Crimson Spellblade"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2511707072",
+        ["name"] = "Crimson Spellblade"
+    },
+    ["Enchanter's Spellbook"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Enchanter's Spellbook"
+    },
+    ["Thorned Club"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Thorned Club"
+    },
+    ["Runic Spellscythe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Runic Spellscythe"
+    },
+    ["Enchanted Shard Staff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Enchanted Shard Staff"
+    },
+    ["Earth Staff"] = {
+        ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Earth Staff"
+    },
+    ["Heavenly Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Heavenly Greatsword"
+    },
+    ["Glacial Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908344917",
+        ["name"] = "Glacial Greatsword"
+    },
+    ["Apothecary Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Apothecary Staff"
+    },
+    ["Solar Essence Staff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Solar Essence Staff"
+    },
+    ["Pink Pearl Spellscythe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Pink Pearl Spellscythe"
+    },
+    ["Dual Bioforged Spelldaggers"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dual Bioforged Spelldaggers"
+    },
+    ["Nature Spellblade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Nature Spellblade"
+    },
+    ["Angelic Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Angelic Staff"
+    },
+    ["Dracani Gilded Lance"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dracani Gilded Lance"
+    },
+    ["Fire and Ice Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Fire and Ice Staff"
+    },
+    ["Overgrown War Scythe"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Overgrown War Scythe"
+    },
+    ["Dual Magma Shields"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dual Magma Shields"
+    },
+    ["Magma Infused Waraxe"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Magma Infused Waraxe"
+    },
+    ["Mighty Fusion Maul"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2611334168",
+        ["name"] = "Mighty Fusion Maul"
+    },
+    ["Serpent Scimitars"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Serpent Scimitars"
+    },
+    ["Ruby Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Ruby Greatsword"
+    },
+    ["Silver Scythe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Silver Scythe"
+    },
+    ["Stone Strongsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Stone Strongsword"
+    },
+    ["Dracani Gilded Sword"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dracani Gilded Sword"
+    },
+    ["Gildenscale Oath And Aegis"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://14541956333",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Gildenscale Oath And Aegis"
+    },
     ["Eldenbark Greatstaff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Eldenbark Greatstaff"
     },
-    ["Sakura Katana"] = {
+    ["Stone Scythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sakura Katana"
+        ["name"] = "Stone Scythe"
     },
     ["Dark Priest Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dark Priest Staff"
     },
-    ["Dual Royal Axes"] = {
+    ["Enchanted Sea Axes"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Royal Axes"
+        ["name"] = "Enchanted Sea Axes"
     },
-    ["Sea King's Trident"] = {
+    ["Ghoul Slayer"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sea King's Trident"
+        ["imageId"] = "rbxassetid://2511715973",
+        ["name"] = "Ghoul Slayer"
     },
     ["Mjolnir"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Mjolnir"
     },
     ["Amethyst Spellscythe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Amethyst Spellscythe"
     },
     ["Aquatic Executioner"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Aquatic Executioner"
     },
-    ["Darkstone Greatsword"] = {
+    ["Enchanted Serpent Daggers"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Darkstone Greatsword"
+        ["name"] = "Enchanted Serpent Daggers"
     },
-    ["Celestial Fire Staff"] = {
-        ["rarity"] = "epic",
+    ["Sea King's Trident"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Celestial Fire Staff"
+        ["name"] = "Sea King's Trident"
     },
-    ["Seafarer's Magic Device"] = {
+    ["Dual Samurai Sickles"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Seafarer's Magic Device"
+        ["name"] = "Dual Samurai Sickles"
+    },
+    ["Lava Tendril Pike"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Lava Tendril Pike"
+    },
+    ["Banished Greatsword"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Banished Greatsword"
+    },
+    ["Viking Hatchets"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049305",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing2"] = "rbxassetid://13740049269"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Viking Hatchets"
+    },
+    ["Norse Blade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Norse Blade"
+    },
+    ["Dracani Spellclaws"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing1"] = "rbxassetid://13740049716"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Dracani Spellclaws"
     },
     ["Dual Magma Fangs"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Magma Fangs"
     },
-    ["Holy Staff"] = {
+    ["Amethyst Crescent Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718139085",
-        ["name"] = "Holy Staff"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Amethyst Crescent Spellblade"
     },
-    ["Cultist Blade"] = {
+    ["Sapphire Spellspear"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Cultist Blade"
-    },
-    ["Steel Strongsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908342196",
-        ["name"] = "Steel Strongsword"
-    },
-    ["Staff of the North"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Staff of the North"
-    },
-    ["Phoenix Greatstaff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Phoenix Greatstaff"
-    },
-    ["Twisted Wood Greatstaff"] = {
-        ["rarity"] = "legendary",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Twisted Wood Greatstaff"
-    },
-    ["Dracani Gilded Sword"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dracani Gilded Sword"
+        ["name"] = "Sapphire Spellspear"
     },
     ["Sapphire Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Sapphire Greatstaff"
     },
-    ["Onyx Empowered Greatsword"] = {
+    ["Infernal Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Onyx Empowered Greatsword"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Infernal Staff"
     },
     ["Dual Crystalized Knives"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing1"] = "rbxassetid://13740049716"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Crystalized Knives"
     },
     ["Crystalized Greatsword"] = {
         ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2513301363",
         ["name"] = "Crystalized Greatsword"
     },
-    ["Ice Reaver"] = {
+    ["Laevateinn"] = {
         ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2514431445",
-        ["name"] = "Ice Reaver"
-    },
-    ["Plasma Infused Cutlass"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Plasma Infused Cutlass"
-    },
-    ["Azerite Greatstaff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718087611",
-        ["name"] = "Azerite Greatstaff"
-    },
-    ["Dual Inferno Slicers"] = {
-        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Inferno Slicers"
+        ["name"] = "Laevateinn"
     },
-    ["Crimson Kris"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Crimson Kris"
-    },
-    ["Solar Essence Staff"] = {
+    ["Enchanted Shard War Axe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Solar Essence Staff"
-    },
-    ["Elder Void Wand"] = {
-        ["rarity"] = "common",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511707072",
-        ["name"] = "Elder Void Wand"
+        ["name"] = "Enchanted Shard War Axe"
     },
     ["Dual Bladed Mage Daggers"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049716",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049676"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Bladed Mage Daggers"
     },
-    ["Enchanted Serpent Daggers"] = {
-        ["rarity"] = "rare",
+    ["Dual Inferno Slicers"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Enchanted Serpent Daggers"
+        ["name"] = "Dual Inferno Slicers"
+    },
+    ["Golden Kopesh"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Golden Kopesh"
+    },
+    ["Solar Katana"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Solar Katana"
+    },
+    ["Viking Shield"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Viking Shield"
+    },
+    ["Titan's Greataxe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2718087611",
+        ["name"] = "Titan's Greataxe"
+    },
+    ["Staff of Heat"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Staff of Heat"
     },
     ["Seafarer's Lost Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Seafarer's Lost Blade"
     },
     ["Snowy Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Snowy Greatstaff"
     },
     ["Enchanted Sword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521658215",
         ["name"] = "Enchanted Sword"
     },
-    ["Dual Phantom Defenders"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Phantom Defenders"
-    },
-    ["Stone Scythe"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Stone Scythe"
-    },
-    ["Ocean Pearl Staff"] = {
+    ["Moon Crystal Spell Blade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Ocean Pearl Staff"
+        ["name"] = "Moon Crystal Spell Blade"
     },
-    ["Ancient Ruins Greatsword"] = {
-        ["rarity"] = "legendary",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Ancient Ruins Greatsword"
-    },
-    ["Sapphire Spellspear"] = {
+    ["King's Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sapphire Spellspear"
+        ["name"] = "King's Greatsword"
     },
-    ["Earth Staff"] = {
-        ["rarity"] = "legendary",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Earth Staff"
-    },
-    ["Dual Magma Shields"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Magma Shields"
-    },
-    ["Sea King's Greatstaff"] = {
+    ["Darkstone Greatsword"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sea King's Greatstaff"
-    },
-    ["Hope's Triumph"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Hope's Triumph"
-    },
-    ["Crimson Spellblade"] = {
-        ["rarity"] = "common",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511707072",
-        ["name"] = "Crimson Spellblade"
-    },
-    ["Soulstealer Greatsword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Soulstealer Greatsword"
-    },
-    ["Ice Greatspear"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Ice Greatspear"
-    },
-    ["Luminous Greatstaff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Luminous Greatstaff"
-    },
-    ["Sunken Blade"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Sunken Blade"
-    },
-    ["Holy Grail"] = {
-        ["rarity"] = "common",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511707072",
-        ["name"] = "Holy Grail"
+        ["name"] = "Darkstone Greatsword"
     },
     ["Ancient Lava Axe"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ancient Lava Axe"
     },
-    ["Onyx Staff"] = {
+    ["Ocean Pearl Staff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Ocean Pearl Staff"
+    },
+    ["Phoenix Greatstaff"] = {
         ["rarity"] = "epic",
-        ["attackSpeed"] = 1.5,
-        ["imageId"] = "rbxassetid://2718087053",
-        ["name"] = "Onyx Staff"
-    },
-    ["Dracani Flanged Mace"] = {
-        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dracani Flanged Mace"
+        ["name"] = "Phoenix Greatstaff"
     },
-    ["Eldenbark Greatsword"] = {
+    ["Dual Bioforged Drills"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing1"] = "rbxassetid://13740049716"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Eldenbark Greatsword"
+        ["name"] = "Dual Bioforged Drills"
+    },
+    ["Ice Reaver"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2514431445",
+        ["name"] = "Ice Reaver"
+    },
+    ["Hope's Triumph"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Hope's Triumph"
+    },
+    ["Plasma Twin Spellblade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Plasma Twin Spellblade"
+    },
+    ["Steel Executioner"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Steel Executioner"
+    },
+    ["Seishin Club"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Seishin Club"
     },
     ["Sapphire Spell Dagger"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2521613764",
         ["name"] = "Sapphire Spell Dagger"
     },
-    ["Desert Fury"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718089746",
-        ["name"] = "Desert Fury"
-    },
-    ["Bronze Dagger"] = {
-        ["rarity"] = "common",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511707072",
-        ["name"] = "Bronze Dagger"
-    },
-    ["Mighty Flatblade"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Mighty Flatblade"
-    },
-    ["Coldstone Sword"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908342666",
-        ["name"] = "Coldstone Sword"
-    },
     ["Dual Infernal Scimitars"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Dual Infernal Scimitars"
     },
-    ["Bronze Longsword"] = {
+    ["Dual Serrated Knives"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Bronze Longsword"
+        ["name"] = "Dual Serrated Knives"
     },
-    ["Elven Staff"] = {
+    ["Inventor's Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Elven Staff"
+        ["name"] = "Inventor's Greatsword"
     },
-    ["Pink Pearl Spellscythe"] = {
+    ["Onyx Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 1.5,
+        ["imageId"] = "rbxassetid://2718087053",
+        ["name"] = "Onyx Staff"
+    },
+    ["Steel Talon"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Steel Talon"
+    },
+    ["Seafarer's Magic Device"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Pink Pearl Spellscythe"
+        ["name"] = "Seafarer's Magic Device"
     },
-    ["Ghostly Greataxe"] = {
+    ["Devilish Greataxe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642930",
-        ["name"] = "Ghostly Greataxe"
+        ["imageId"] = "rbxassetid://2718087611",
+        ["name"] = "Devilish Greataxe"
     },
-    ["Dracani Gilded Lance"] = {
+    ["Desert Fury"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing3"] = "rbxassetid://13740049842"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2718089746",
+        ["name"] = "Desert Fury"
+    },
+    ["Oni's Naginata"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Oni's Naginata"
+    },
+    ["Ethereal Greataxe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Ethereal Greataxe"
+    },
+    ["Dracani Gilded Staff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dracani Gilded Lance"
+        ["name"] = "Dracani Gilded Staff"
     },
-    ["Serpent Pike"] = {
+    ["Oathsworn Halberd"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Serpent Pike"
-    },
-    ["Flame Staff"] = {
-        ["rarity"] = "epic",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718086572",
-        ["name"] = "Flame Staff"
+        ["name"] = "Oathsworn Halberd"
     },
     ["Vampiric Greatstaff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Vampiric Greatstaff"
     },
+    ["Silver Koftgari"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Silver Koftgari"
+    },
+    ["Steel Strongsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342196",
+        ["name"] = "Steel Strongsword"
+    },
+    ["Ghostly Greataxe"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642930",
+        ["name"] = "Ghostly Greataxe"
+    },
+    ["Onyx Empowered Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Onyx Empowered Greatsword"
+    },
     ["Steel Serrated Sword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521657919",
         ["name"] = "Steel Serrated Sword"
     },
-    ["Godforged Greatstaff"] = {
+    ["Flame Staff"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2718086572",
+        ["name"] = "Flame Staff"
+    },
+    ["Serpent Pike"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Godforged Greatstaff"
+        ["name"] = "Serpent Pike"
     },
-    ["Grand Claymore"] = {
+    ["Steel Scimitars"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521613927",
-        ["name"] = "Grand Claymore"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Steel Scimitars"
+    },
+    ["Coldstone Sword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Coldstone Sword"
+    },
+    ["Cultist Blade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Cultist Blade"
     },
     ["Elementalist Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Elementalist Staff"
     },
     ["Timelost Spellbook"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 1.5,
         ["imageId"] = "rbxassetid://2515160303",
         ["name"] = "Timelost Spellbook"
     },
-    ["Oathsworn Halberd"] = {
-        ["rarity"] = "rare",
-        ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Oathsworn Halberd"
-    },
-    ["Beastmaster War Scythe"] = {
+    ["Hextech Katana"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Beastmaster War Scythe"
+        ["name"] = "Hextech Katana"
     },
-    ["Staff of the Gods"] = {
+    ["Oni's Kanabo"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Oni's Kanabo"
+    },
+    ["Fusion Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Staff of the Gods"
+        ["name"] = "Fusion Greatsword"
     },
-    ["Ghoul Slayer"] = {
-        ["rarity"] = "rare",
+    ["Grand Claymore"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2511715973",
-        ["name"] = "Ghoul Slayer"
+        ["imageId"] = "rbxassetid://2521613927",
+        ["name"] = "Grand Claymore"
     },
     ["Oathsworn Staff And Tome"] = {
         ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Oathsworn Staff And Tome"
     },
-    ["Banished Greatsword"] = {
-        ["rarity"] = "rare",
+    ["Jigoku Shuriblade"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Banished Greatsword"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Jigoku Shuriblade"
     },
     ["Daybreak And Gildensong"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing3"] = "rbxassetid://13740049305",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing2"] = "rbxassetid://13740049269"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Daybreak And Gildensong"
     },
-    ["Dracani Gilded Staff"] = {
-        ["rarity"] = "rare",
+    ["Dual Sapphire Slicers"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dracani Gilded Staff"
+        ["name"] = "Dual Sapphire Slicers"
     },
     ["Inventor's Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Inventor's Spellblade"
     },
     ["Eagle Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Eagle Staff"
     },
-    ["Lava King's Warscythe"] = {
-        ["rarity"] = "rare",
+    ["Dual Hellfire Blades"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Lava King's Warscythe"
+        ["name"] = "Dual Hellfire Blades"
     },
-    ["Magma Infused Waraxe"] = {
-        ["rarity"] = "rare",
+    ["Seishin Crescent"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Magma Infused Waraxe"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Seishin Crescent"
     },
     ["Molten Maul"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2718090775",
         ["name"] = "Molten Maul"
     },
     ["Kraken Slayer"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Kraken Slayer"
     },
     ["Energized Spell Dagger"] = {
         ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2511707072",
         ["name"] = "Energized Spell Dagger"
     },
     ["Dragon Slayer Blade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing3"] = "rbxassetid://13740049842"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642419",
         ["name"] = "Dragon Slayer Blade"
     },
-    ["Tribal Staff"] = {
-        ["rarity"] = "epic",
+    ["Crystalline Shard Staff"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Tribal Staff"
+        ["name"] = "Crystalline Shard Staff"
     },
     ["Aquatic Defender"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740048043",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Aquatic Defender"
     },
     ["Hextech Greataxe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2611334168",
         ["name"] = "Hextech Greataxe"
     },
-    ["Forest Vine Spellblade"] = {
-        ["rarity"] = "rare",
+    ["Leaf Bladed Greatsword"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["swing1"] = "rbxassetid://13740049395",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing3"] = "rbxassetid://13740049842"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Forest Vine Spellblade"
+        ["imageId"] = "rbxassetid://2521625245",
+        ["name"] = "Leaf Bladed Greatsword"
     },
     ["Enchanted Shard Dual Blade"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Enchanted Shard Dual Blade"
     },
     ["Bioforged Greataxe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049573",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049511"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2611334168",
         ["name"] = "Bioforged Greataxe"
     },
-    ["Magic Trident"] = {
+    ["Plasma Infused Cutlass"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Magic Trident"
+        ["name"] = "Plasma Infused Cutlass"
     },
-    ["Staff of Heat"] = {
+    ["Sakura Katana"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Staff of Heat"
+        ["name"] = "Sakura Katana"
     },
-    ["Dual Frozen Blades"] = {
+    ["Timelost Greatsword"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Frozen Blades"
+        ["name"] = "Timelost Greatsword"
     },
-    ["Dual Serrated Knives"] = {
-        ["rarity"] = "epic",
+    ["Holy Grail"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Serrated Knives"
+        ["imageId"] = "rbxassetid://2511707072",
+        ["name"] = "Holy Grail"
     },
-    ["Enchanted Shard War Axe"] = {
+    ["Volcanic Greatsword"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Enchanted Shard War Axe"
+        ["name"] = "Volcanic Greatsword"
     },
-    ["Solar Katana"] = {
-        ["rarity"] = "rare",
+    ["Akuma's Soulreaver"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Solar Katana"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Akuma's Soulreaver"
     },
     ["Ruby Staff"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Ruby Staff"
     },
-    ["Crystalline Shard Staff"] = {
-        ["rarity"] = "rare",
+    ["Dual Razor Slicers"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Crystalline Shard Staff"
+        ["name"] = "Dual Razor Slicers"
     },
-    ["Frozen Greatsword"] = {
+    ["Demonic Spellblade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2908343473",
-        ["name"] = "Frozen Greatsword"
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Demonic Spellblade"
     },
-    ["Novice Wand"] = {
+    ["Nature Scythe"] = {
         ["rarity"] = "epic",
-        ["attackSpeed"] = 1.5,
-        ["imageId"] = "rbxassetid://2611305024",
-        ["name"] = "Novice Wand"
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
+        ["attackSpeed"] = 2,
+        ["imageId"] = "rbxassetid://2521642665",
+        ["name"] = "Nature Scythe"
     },
     ["Blazing Star"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049617",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["runAnim"] = "rbxassetid://13740048107",
+            ["swing1"] = "rbxassetid://13740049716"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Blazing Star"
     },
-    ["Norse Blade"] = {
+    ["Dracani Flanged Mace"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Norse Blade"
+        ["name"] = "Dracani Flanged Mace"
     },
-    ["Devilish Greataxe"] = {
+    ["Elemental Wand"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740049170",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2718087611",
-        ["name"] = "Devilish Greataxe"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Elemental Wand"
     },
-    ["Ethereal Greataxe"] = {
+    ["Dual Nature Vines"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Ethereal Greataxe"
+        ["name"] = "Dual Nature Vines"
     },
-    ["Moon Crystal Spell Blade"] = {
-        ["rarity"] = "rare",
+    ["Aquatic Scimitars"] = {
+        ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049269",
+            ["idleAnim"] = "rbxassetid://13740047636",
+            ["swing1"] = "rbxassetid://13740049334",
+            ["runAnim"] = "rbxassetid://13740047692",
+            ["swing3"] = "rbxassetid://13740049305"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Moon Crystal Spell Blade"
+        ["name"] = "Aquatic Scimitars"
     },
     ["Overlord's Manablade"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Overlord's Manablade"
     },
-    ["Oceanic Greatsword"] = {
+    ["Sea King's Greatstaff"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Oceanic Greatsword"
+        ["name"] = "Sea King's Greatstaff"
     },
     ["Rogue's Rapier"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521658340",
         ["name"] = "Rogue's Rapier"
     },
     ["Fungal Pike"] = {
         ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Fungal Pike"
     },
-    ["Amethyst Crescent Spellblade"] = {
+    ["Double Edged Battle Axe"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Amethyst Crescent Spellblade"
+        ["imageId"] = "rbxassetid://2908342666",
+        ["name"] = "Double Edged Battle Axe"
     },
-    ["Overlord's Rageblade"] = {
-        ["rarity"] = "epic",
+    ["Bronze Dagger"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Overlord's Rageblade"
+        ["imageId"] = "rbxassetid://2511707072",
+        ["name"] = "Bronze Dagger"
     },
-    ["Fusion Greatsword"] = {
-        ["rarity"] = "epic",
+    ["Forest Vine Spellblade"] = {
+        ["rarity"] = "rare",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740048043",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Fusion Greatsword"
+        ["name"] = "Forest Vine Spellblade"
     },
-    ["Poison Spear"] = {
-        ["rarity"] = "epic",
+    ["Blessed Lightpost"] = {
+        ["rarity"] = "legendary",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Poison Spear"
+        ["name"] = "Blessed Lightpost"
     },
-    ["Dual Razor Slicers"] = {
-        ["rarity"] = "epic",
+    ["Elder Void Wand"] = {
+        ["rarity"] = "common",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["runAnim"] = "rbxassetid://13740048155",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
-        ["imageId"] = "rbxassetid://2521642665",
-        ["name"] = "Dual Razor Slicers"
+        ["imageId"] = "rbxassetid://2511707072",
+        ["name"] = "Elder Void Wand"
     },
     ["Beast Cleaver"] = {
         ["rarity"] = "epic",
+        ["animations"] = {
+            ["swing2"] = "rbxassetid://13740049453",
+            ["idleAnim"] = "rbxassetid://13740047921",
+            ["runAnim"] = "rbxassetid://13740047993",
+            ["swing1"] = "rbxassetid://13740049395"
+        },
         ["attackSpeed"] = 2,
         ["imageId"] = "rbxassetid://2521642665",
         ["name"] = "Beast Cleaver"
