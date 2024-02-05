@@ -1,0 +1,51 @@
+data = {
+    ["Nether.TheHeights"] = {"Hellfire"},
+    ["OlbrekEvent"] = {"Cupid's Arrow"},
+    ["Nether.CupidOutpost"] = {
+        "Hellfire",
+        "Core Infliction",
+        "Festive Merry Infliction",
+        "Cupid's Arrow",
+        "Heartwarming Arrow",
+        "Smokescreen",
+        "Channel Arcane Barrage",
+        "Vile Graveyard",
+        "Arcane Barrage",
+        "Exploding Arrow",
+        "Golden Exploding Arrow",
+        "Burning Pledge",
+        "Exploding Skweezy"
+    },
+    ["Challenge.DesecratedCliffs"] = {
+        "Channel Arcane Barrage",
+        "Festive Staff of Saint Nick",
+        "Golden Staff of Azure",
+        "Staff of Azure",
+        "Rubber Duck",
+        "Golden Rubber Duck",
+        "Astral Blessing"
+    },
+    ["Olbrek.Chess"] = {
+        "Shadow Trade",
+        "Sugar Rush",
+        "Good Ole' #9",
+        "King Kandy",
+        "Meditation",
+        "Ignition",
+        "Burning Pledge",
+        "Mercenary",
+        "Cupid's Mercenary",
+        "Pioneer Mercenary",
+        "Festive Mercenary",
+        "Invoke Fire Spirit",
+        "Invoke Lesser Wisp",
+        "Hired Wizard",
+        "Hired Pumpkinfool",
+        "Graveyard",
+        "Vile Graveyard",
+        "Haunted Pumpkin",
+        "Staff of Azure",
+        "Festive Staff of Saint Nick",
+        "Golden Staff of Azure"
+    }
+}
