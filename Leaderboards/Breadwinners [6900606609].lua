@@ -511,3 +511,18 @@ data = {
         {100, "Lety_mota1", 24280}
     }
 }
+function digit(int) if int<10 then return "00"..tostring(int) elseif int<100 then return "0"..tostring(int) else return tostring(int) end end
+local a="{"
+for i,v in pairs(workspace.Leaderboards:GetChildren()) do
+a=a.."[\""..v.Name.."\"] = {" for x=1,100 do
+b=v.List.SurfaceGui.Frame.ScrollingFrame[digit(x)]
+if v.Name~="PlayTime" then
+a=a.."{"..tostring(x)..",\""..b.Player.Text.."\","..b.Wins.Text.."},"
+else
+a=a.."{"..tostring(x)..",\""..b.Player.Text.."\",\""..b.Wins.Text.."\"},"
+end
+end
+a=a.."},\n"
+end
+a=a.."}"
+setclipboard(a) print("Done")
