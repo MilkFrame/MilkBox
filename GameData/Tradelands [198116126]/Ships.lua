@@ -506,7 +506,8 @@ data = {
             "		2 x Swivel Gun",
             "Max Cargo: 10",
             "Speed: 8",
-            "Storage for 60 Cannon Balls"
+            "Storage for 60 Cannon Balls",
+            "Variants available."
         }
     },
     {
@@ -843,30 +844,13 @@ data = {
         }
     },
     {
-        {"Kraken", "Kraken", "Junk", 1750, "All", 10},
-        {{"ANY_WOOD", 900}, {"Iron", 200}, {"Doubloons", 85000}, {"Kraken Voucher", 1}},
-        {
-            "The Kraken's large, forward-facing mortars are sure to strike fear into the hearts of any foe.",
-            "Type: Junk",
-            "Role: Multi-Purpose",
-            "Hull Strength: 17500",
-            "Max Armament:",
-            "		2 x Medium Mortar",
-            "		6 x Heavy Cannon",
-            "		2 x Light Cannon (Bow)",
-            "Max Cargo: 12",
-            "Speed: 6",
-            "Storage for 120 Cannon Balls"
-        }
-    },
-    {
-        {"Pigeon", "Pigeon", "Fluyt", 2000, "All", 10},
+        {"Pigeon", "Pigeon", "Fluyt", 2200, "All", 10},
         {{"ANY_WOOD", 1400}, {"Iron", 280}, {"Doubloons", 700000}},
         {
             "The Pigeon's 9-gun broadside make it ideal for large crews.",
             "Type: Fluyt",
             "Role: Combat",
-            "Hull Strength: 20000",
+            "Hull Strength: 22000",
             "Max Armament:",
             "		18 x Light Cannon",
             "		2 x Light Cannon (Bow)",
@@ -911,13 +895,13 @@ data = {
         }
     },
     {
-        {"Neptune", "Neptune", "Ironclad", 2700, "All", 10},
+        {"Neptune", "Neptune", "Ironclad", 2400, "All", 10},
         {{"ANY_WOOD", 500}, {"Iron", 2500}, {"Doubloons", 1000000}, {"Advanced Engine", 1}},
         {
             "The Neptune's all-iron hull makes it extremely tough.  Press E to toggle steam engine on and off.  Requires coal to run.  Don't forget to press V to be able to see while driving. *HAS NO SAILS*",
             "Type: Ironclad",
             "Role: Combat",
-            "Hull Strength: 27000",
+            "Hull Strength: 24000",
             "Max Armament:",
             "		1 x Heavy Turret",
             "		6 x Medium Cannon",
@@ -928,13 +912,13 @@ data = {
         }
     },
     {
-        {"Binglehopper", "Binglehopper", "Ironclad", 2750, "All", 10},
+        {"Binglehopper", "Binglehopper", "Ironclad", 2400, "All", 10},
         {{"ANY_WOOD", 550}, {"Iron", 2600}, {"Doubloons", 2000000}, {"Advanced Engine", 1}},
         {
             "The Binglehopper's iron hull and multiple turrets make it a formidable opponent to any foe.  Press E to toggle steam engine on and off.  Requires coal to run. *HAS NO SAILS*",
             "Type: Ironclad",
             "Role: Combat",
-            "Hull Strength: 27500",
+            "Hull Strength: 24000",
             "Max Armament:",
             "		1 x Heavy Turret (Forward, Mortar Compatible)",
             "		1 x Medium Turret (Rear)",
@@ -987,6 +971,24 @@ data = {
             "Type: Brig",
             "Role: Combat",
             "Hull Strength: 19500",
+            "Max Armament:",
+            "		12 x Medium Cannon",
+            "		2 x Light Cannon (Bow)",
+            "		2 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Storage for 150 Cannon Balls",
+            "Variants available."
+        }
+    },
+    {
+        {"Kraken", "Kraken", "Junk", 1850, "All", 12},
+        {{"ANY_WOOD", 1200}, {"Iron", 260}, {"Doubloons", 500000}, {"Kraken Voucher", 1}},
+        {
+            "The Kraken's formidable armament is sure to strike fear into the hearts of any foe.",
+            "Type: Junk",
+            "Role: Combat",
+            "Hull Strength: 18500",
             "Max Armament:",
             "		12 x Medium Cannon",
             "		2 x Light Cannon (Bow)",
@@ -1062,6 +1064,22 @@ data = {
             "		12 x Medium Cannon",
             "		2 x Light Cannon (Stern)",
             "		2 x Swivel Guns",
+            "Max Cargo: 26",
+            "Speed: 6",
+            "Storage for 150 Cannon Balls"
+        }
+    },
+    {
+        {"Komodo", "Komodo", "Junk", 2300, "All", 16},
+        {{"ANY_WOOD", 1350}, {"Iron", 270}, {"Doubloons", 650000}, {"Komodo Blueprint", 1}},
+        {
+            "The Komodo is a large and imposing vessel with a spacious cargo hold and good crosswind performance.",
+            "Type: Junk",
+            "Role: Multi-Purpose",
+            "Hull Strength: 23000",
+            "Max Armament:",
+            "		12 x Heavy Cannon",
+            "		8 x Swivel Guns",
             "Max Cargo: 26",
             "Speed: 6",
             "Storage for 150 Cannon Balls"
