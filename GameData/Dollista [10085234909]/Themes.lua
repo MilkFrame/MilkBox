@@ -1,0 +1,312 @@
+data = {
+    ["Summer Is Ending"] = {
+        ["ItemsUnderTheme"] = {
+            "Flowery Top",
+            "Darling Top",
+            "Darling Skirt",
+            "Spring Sleeves",
+            "Springness Top",
+            "Easter Egg Top",
+            "April Top",
+            "Easter Corset",
+            "Spring Warmness Top",
+            "Easter Sleeves",
+            "April Sleeves",
+            "Easter Skirt",
+            "Spring Skirt",
+            "Sunny Side Skirt",
+            "April Skirt",
+            "All the flowers Heels",
+            "April Heels",
+            "Caught Flower Hat",
+            "Keeping it Spring Top",
+            "Flower Hat",
+            "Sunflower Hat",
+            "Butterfly Necklace",
+            "Rosey Chocker",
+            "Strawberry Boots",
+            "Bow Top",
+            "Corset Ruffles",
+            "Bunch Of Hearts Corset",
+            "Trendy Bodice",
+            "A Summer Ends Dress",
+            "A Steets Of New York Jeans",
+            "2000s Mini Skirt",
+            "2000s Summer Skirt",
+            "Winter Glam Skirt",
+            "Sugar Skirt",
+            "Sugar Bag",
+            "Sugar Heels",
+            "Sugar Corset",
+            "Beach Top",
+            "Bow Top",
+            "Chanel Corset",
+            "Fashionista Top",
+            "Grammy's Corset",
+            "Sasha Sunshine Pants",
+            "Sasha Sunshine Top",
+            "R.E.M Dress",
+            "Star Gloves",
+            "HeartStopper Heels",
+            "HeartStopper Skirt",
+            "HeartStopper Corset",
+            "Goth 2000s Top",
+            "2000s Tank Top",
+            "2000s Summer Top",
+            "Sasha Sunshine Pants",
+            "Sasha Sunshine Top",
+            "Star Gloves",
+            "Dior Shades"
+        },
+        ["NewestTheme"] = false,
+        ["ShopBG"] = "rbxassetid://12958349804",
+        ["Status"] = true,
+        ["ButtonBG"] = "rbxassetid://12958347587",
+        ["ThemeDesc"] = [[Summer is now ending and in the world of fashion and the air is abuzz with excitement. As the snow melts away and the flowers begin to bloom, a wave of new fashion trends has taken over the scene. From colorful dresses to sleek jumpsuits, there are so many new items for players to dress up in and make a statement.
+
+The theme of Spring 2023 is all about embracing the freshness and energy of the season. Light and airy fabrics dominate the collections, with flowing silhouettes and pastel colors taking center stage. Players can expect to see a lot of floral prints, lace details, and delicate embroidery, all designed to capture the essence of spring.
+]]
+    },
+    ["Kitty Cafe"] = {
+        ["ItemsUnderTheme"] = {
+            " Furr Boots!",
+            " Kitty Heels!",
+            " HeartBreaker Top!",
+            " Summerless Top!",
+            " Trendy MiniSkirt!",
+            " Scene Skirt!",
+            "Hello Kitty Socks",
+            "Hello Kitty Skirt",
+            "StarKitty Skirt",
+            "Chanel Corset",
+            "Love Shirt",
+            "Female Retro Flare Pants",
+            "April Sleeves",
+            "Easter Sleeves",
+            "All the flowers Heels",
+            "Strawberry Boots",
+            "Teddy Boots",
+            "Y2K Leg Warmers",
+            "Flower Hat",
+            "HeartStopper Heels",
+            "HeartStopper Skirt",
+            "HeartStopper Corset",
+            "Spring Sleeves",
+            "Kitty Ears"
+        },
+        ["NewestTheme"] = false,
+        ["ShopBG"] = "rbxassetid://13748103027",
+        ["Status"] = true,
+        ["ButtonBG"] = "rbxassetid://13748103027",
+        ["ThemeDesc"] = [[
+Introducing the latest additions to Kitty Cafe's fashion collection! Our new items are a purrfect blend of style and feline charm. Discover a delightful range of kitty-inspired clothing that will make you the talk of the town. From cozy cat ear hoodies to adorable paw print leggings, these new arrivals will have you looking effortlessly chic with a touch of whisker-filled cuteness. Step into the spotlight and embrace your inner fashionista with Kitty Cafe's trendsetting garments. Meow-tastic style awaits you!
+
+]]
+    },
+    ["Secret Halloween Shop!"] = {
+        ["ItemsUnderTheme"] = {
+            "Autumn Sweater",
+            "Halloween Angel Halo",
+            "Barbras Hat Revenge",
+            "Death Dress",
+            "Halloween Angel Corset",
+            "Halloween Corset",
+            "Halloween Angel Skirt",
+            "Queens Blood Top",
+            "Spooky Jacket",
+            "Witchy Corset 2023",
+            "Witchy Hat 2023"
+        },
+        ["NewestTheme"] = false,
+        ["ShopBG"] = "rbxassetid://5187036224",
+        ["Status"] = false,
+        ["ButtonBG"] = "rbxassetid://5634829223",
+        ["ThemeDesc"] = [[
+This Halloween is full of RARES! Collect These Items Before The 1ST OF NOVEMBER Before They Go OFFSALE.
+
+]]
+    },
+    ["Ghoulish High"] = {
+        ["ItemsUnderTheme"] = {
+            "Gothic Skirt",
+            "Gothic Top",
+            "Goth Spikes Headband",
+            "Fierce Diva Mini Skirt",
+            "Fierce Diva Top",
+            "Dracula's Daughter Heels",
+            "Dracula's Daughter Skirt",
+            "Dracula's Daughter Corset",
+            "SuckerPuncher Sleeves",
+            "SuckerPuncher Boots",
+            "SuckerPuncher Skirt",
+            "SuckerPuncher Top",
+            "Daughter Of The Mummy Top",
+            "Ghoulish High Dress",
+            "Snow Abominable Dress",
+            "Snow Abominable Headband",
+            "Snow Abominable Sleeves",
+            "Ghoulish High Sleeves",
+            "Ghoulish High Heels",
+            "Ghoulish High Neck Tie",
+            "Ghoulish High Neck Metal",
+            "Gothic Sleeves",
+            "Bat Boots",
+            "Bat Skirt",
+            "Bat Top",
+            "Devil's Daughter Sleeves",
+            "Wicked Corset",
+            "Wicked Corset",
+            "Devil's Daughter Heels",
+            "Devil's Daughter Skirt",
+            "Devil's Daughter Top",
+            "Candle Skirt",
+            "Corpse Skirt",
+            "Strawberry Boots"
+        },
+        ["NewestTheme"] = false,
+        ["ShopBG"] = "rbxassetid://13104773880",
+        ["Status"] = true,
+        ["ButtonBG"] = "rbxassetid://13104777060",
+        ["ThemeDesc"] = [[Welcome to Ghoulish High, where the spooky and the stylish come together! This newest theme is inspired by the popular Monster High franchise, and features a wide variety of new items for players to dress up in.
+
+Ghoul High is all about embracing your inner monster and showing off your unique style. From the classic black-and-white stripes to bold prints and neon colors, there is something for everyone in this collection. The outfits are edgy and fun, perfect for those who love to experiment with their fashion choices.
+
+Whether you're attending a monster-themed party or just looking to add some spooky style to your wardrobe, Ghoul High has everything you need. So embrace your inner monster and let your fashion sense run wild with this exciting new collection!
+]]
+    },
+    [" Hollywood Glamour"] = {
+        ["ItemsUnderTheme"] = {
+            "Strawberry Boots",
+            "2000s Mini Skirt",
+            "2000s Summer Skirt",
+            "Winter Glam Skirt",
+            "Sugar Skirt",
+            "Sugar Bag",
+            "Sugar Heels",
+            "Sugar Corset",
+            "Beach Top",
+            "Bow Top",
+            "Chanel Corset",
+            "Fashionista Top",
+            "Grammy's Corset",
+            "Sasha Sunshine Pants",
+            "Sasha Sunshine Top",
+            "R.E.M Dress",
+            "Star Gloves",
+            "HeartStopper Heels",
+            "HeartStopper Skirt",
+            "HeartStopper Corset",
+            "Goth 2000s Top",
+            "2000s Tank Top",
+            "2000s Summer Top",
+            "Sasha Sunshine Pants",
+            "Sasha Sunshine Top",
+            "Star Gloves",
+            "Dior Shades",
+            " Furr Boots!",
+            " Kitty Heels!",
+            " HeartBreaker Top!",
+            " Summerless Top!",
+            " Trendy MiniSkirt!",
+            " Scene Skirt!",
+            "Hello Kitty Socks",
+            "Hello Kitty Skirt",
+            "StarKitty Skirt",
+            "Chanel Corset",
+            "Love Shirt",
+            "Female Retro Flare Pants",
+            "April Sleeves",
+            "Easter Sleeves",
+            "All the flowers Heels",
+            "Strawberry Boots",
+            "Teddy Boots",
+            "Y2K Leg Warmers",
+            "Flower Hat",
+            "HeartStopper Heels",
+            "HeartStopper Skirt",
+            "HeartStopper Corset",
+            "Spring Sleeves",
+            "Kitty Ears"
+        },
+        ["NewestTheme"] = true,
+        ["ShopBG"] = "rbxassetid://13223038253",
+        ["Status"] = true,
+        ["ButtonBG"] = "rbxassetid://13223031215",
+        ["ThemeDesc"] = [[This week on Dollista, we're taking a trip down memory lane down Hollywood with the turn of the millennium with our 2000s Hollywood fashion theme. Get ready to channel your inner Britney Spears or Paris Hilton with our collection of nostalgic fashion items that will transport you back in time.
+
+From low-rise jeans and velour tracksuits to chunky platform sneakers and oversized sunglasses, we have everything you need to recreate the iconic looks of the early 2000s. Our new items are designed to capture the essence of the era with bright colours, bold patterns, and plenty of bling.
+
+Dress up your avatar in a sparkly mini dress with a denim jacket, or go for a more casual look with a graphic tee and cargo pants. Accessorize with chunky necklaces, hoop earrings, and a bedazzled phone case. The possibilities are endless, and our 2000s-inspired items will have you feeling like a true Icon.
+]]
+    },
+    ["Enchanted Mistletoe"] = {
+        ["ItemsUnderTheme"] = {
+            "Winter Heart Top",
+            "Snow Royal Top",
+            "Snow Buddy Hat",
+            "Jingle Bells Sleeves",
+            "Jingle Bells Corset",
+            "Jingle Bells Cloat",
+            "Jingle Bells Hat",
+            "Jingle Bells Skirt",
+            "Jingle Bells Heels",
+            "Winter Uggs",
+            "Cozy Cocoa Boots",
+            "Tinsel Snow Skirt",
+            "Peppermint Swirl Bonnet",
+            "Mistletoe Sleeves",
+            "Mistletoe Skirt",
+            "Mistletoe Corset",
+            "Twinkle Belt Dress",
+            "Snow Queen Bows",
+            "Snow Queen Sleeves",
+            "Snow Queen Skirt",
+            "Snow Queen Top",
+            "Snow Abominable Headband",
+            "Snow Abominable Sleeves",
+            "Snow Abominable Dress",
+            "Winter Glam Top",
+            "Winter Glam Skirt",
+            "Winter Glam Boots",
+            "Winter Glam Sleeves",
+            "Mean Girls Skirt",
+            "Mean Girls Top",
+            "Barbras Hat",
+            "Elf Corset",
+            "Elf Heels",
+            "Elf Skirt",
+            "Elf Sleeves"
+        },
+        ["NewestTheme"] = true,
+        ["ShopBG"] = "rbxassetid://15505119162",
+        ["Status"] = true,
+        ["ButtonBG"] = "rbxassetid://15504886340",
+        ["ThemeDesc"] = [[
+
+Step into the magical world of "Enchanted Mistletoe," where winter wonders and festive charm come together in a dazzling display of holiday magic. This enchanting setting is adorned with twinkling lights, shimmering snowflakes, and, of course, the iconic mistletoe, weaving an atmosphere of joy and warmth.
+
+As you explore this winter wonderland, discover the latest additions to the enchanted experience â€“ the all-new "Mistletoe Set." Immerse yourself in the holiday spirit with this delightful collection that includes festive attire, accessories, and more, all designed to add a touch of seasonal magic to your virtual adventures.
+
+But that's not all! To make your winter escapades even more special, there are exclusive winter items that have been added to the collection. From cozy winter scarves to sparkling snowflake-themed accessories, these items are perfect for embracing the chilly season with style.
+
+]]
+    },
+    ["Galaxy Event Store"] = {
+        ["ItemsUnderTheme"] = {
+            "Starstruck Effect",
+            "Galaxy Dust Effect",
+            "Star Effect",
+            "Galaxy Flames Effect",
+            "Galaxy Event Skirt",
+            "Galaxy Event Top"
+        },
+        ["NewestTheme"] = false,
+        ["ShopBG"] = "rbxassetid://13551154958",
+        ["Status"] = false,
+        ["ButtonBG"] = "rbxassetid://930872281",
+        ["ThemeDesc"] = [[
+This Event is full of RARES! Collect These Items Before They Go OFFSALE.
+
+]]
+    }
+}
