@@ -579,6 +579,22 @@ data = {
         }
     },
     {
+        {"Fang", "Fang", "Junk", 925, "All", 9},
+        {{"ANY_WOOD", 920}, {"Iron", 200}, {"Doubloons", 140000}, {"Fang Voucher", 1}},
+        {
+            "The Fang is a small and nimble vessel that packs a surprising punch.",
+            "Type: Junk",
+            "Role: Raider",
+            "Hull Strength: 9250",
+            "Max Armament:",
+            "		6 x Heavy Cannon",
+            "		2 x Swivel Gun",
+            "Max Cargo: 16",
+            "Speed: 8",
+            "Storage for 100 Cannon Balls"
+        }
+    },
+    {
         {"Hook", "Hook", "Brig", 1000, "All", 9},
         {{"ANY_WOOD", 650}, {"Iron", 115}, {"Doubloons", 60000}, {"Premium Token", 500}},
         {
