@@ -1,10 +1,10 @@
 data = {
-    ["GetBounds"] = "function: 0x00000000c8d330a4",
+    ["GetBounds"] = "function: 0x000000000269114a",
     ["BeehiveRate"] = 5700,
-    ["GetTranslatedName"] = "function: 0x000000001142863c",
-    ["IsMaterialType"] = "function: 0x000000006e0f42ac",
+    ["GetTranslatedName"] = "function: 0x00000000ae3fc5a2",
+    ["IsMaterialType"] = "function: 0x000000007fe55352",
     ["CandleLife"] = 4320,
-    ["CannonConversion"] = "function: 0x00000000a6f50d6c",
+    ["CannonConversion"] = "function: 0x000000000a521592",
     ["ITEMS"] = {
         ["I2573"] = {2573, 2, "Throne", 20, "Throne"},
         ["CAPLOCK_AMMO"] = {457, 0, "Caplock Ammunition", 0.5, "Munición Caplock"},
@@ -278,7 +278,7 @@ data = {
         ["I490"] = {490, 1, "Spyglass of Unusual Proportions", 10, "Spyglass of Unusual Proportions"},
         ["F_695"] = {695, 1, "Breki Space Pirate", 1.8, "Breki Space Pirate"},
         ["DANEAXE"] = {60, 2, "Hallengard Axe", 8, "Hacha de Hallengard"},
-        ["I2902"] = {2902, 0, "Mystery Crate (Lunar New Year 2024)", 1, "Mystery Crate (Lunar New Year 2024)"},
+        ["I2902"] = {2902, 0, "Mystery Crate (Lunar New Year 2024)", 0, "Mystery Crate (Lunar New Year 2024)"},
         ["PCASTIRON"] = {2013, 0, "Premium Cast Iron", 1.5, "Premium Arrabio"},
         ["I2800"] = {2800, 1, "Mystery Crate Trophy (Xmas 2023)", 1, "Mystery Crate Trophy (Xmas 2023)"},
         ["C_MS1"] = {1601, 1, "Light Terry Mortar", 25, "Mortero Ligero (Terry)"},
@@ -674,7 +674,7 @@ data = {
         ["F_1341"] = {1341, 1, "Plain Doorway", 5, "Plain Doorway"},
         ["P35"] = {2035, 0, "Premium Yew", 0.6, "Premium Yew"},
         ["W_ADMIN"] = {411, 0, "Adminwood", 0.1, "Adminwood"},
-        ["I2901"] = {2901, 0, "Mystery Crate (Boneless Box)", 1, "Mystery Crate (Boneless Box)"},
+        ["I2901"] = {2901, 0, "Mystery Crate (Boneless Box)", 0, "Mystery Crate (Boneless Box)"},
         ["I498"] = {498, 2, "Admiral's Sabre", 4, "Admiral's Sabre"},
         ["F_689"] = {689, 1, "Fancy Desk", 8, "Escritorio Lujo"},
         ["I1815"] = {1815, 2, "Nail", 0.1, "Nail"},
@@ -914,7 +914,7 @@ data = {
         ["F_1915"] = {1915, 1, "BuilderNahr (Halloween '23)", 4, "BuilderNahr (Halloween '23)"},
         ["RHON_FURY"] = {1802, 1, "Rhonor's Fury", 200, "Rhonor's Fury"},
         ["F_B_Floor"] = {677, 1, "Basic Floor", 10, "Piso Básico"},
-        ["I2900"] = {2900, 0, "Mystery Crate (Xmas 2023)", 1, "Mystery Crate (Xmas 2023)"},
+        ["I2900"] = {2900, 0, "Mystery Crate (Xmas 2023)", 0, "Mystery Crate (Xmas 2023)"},
         ["I1906"] = {1906, 0, "Kringlecopper", 0.04, "Kringlecopper"},
         ["CAPE_IN"] = {758, 1, "Cape (Inyola)", 1, "Capa (Inyola)"},
         ["I1904"] = {1904, 2, "Great Conqueror Axe", 9, "Great Conqueror Axe"},
@@ -1234,9 +1234,9 @@ data = {
     },
     ["LanternLife"] = 5250,
     ["GEM"] = {55, 526, 506, 507, 509, 508, 535},
-    ["GetNameFromCode"] = "function: 0x00000000331ebfdc",
-    ["GetCustomName"] = "function: 0x00000000786cdd1c",
-    ["ReplaceFlash"] = "function: 0x00000000f06a3444",
+    ["GetNameFromCode"] = "function: 0x0000000019600b02",
+    ["GetCustomName"] = "function: 0x00000000894c231a",
+    ["ReplaceFlash"] = "function: 0x00000000af85c5e2",
     ["CWEPMATS"] = {
         1,
         17,
@@ -1370,9 +1370,9 @@ data = {
         2049,
         559
     },
-    ["FindExtents"] = "function: 0x00000000e676a754",
-    ["GetItemId"] = "function: 0x00000000795a43d4",
-    ["ItemVPF"] = "function: 0x000000002e20fe04",
+    ["FindExtents"] = "function: 0x00000000cb0288d2",
+    ["GetItemId"] = "function: 0x0000000052eda99a",
+    ["ItemVPF"] = "function: 0x00000000679041aa",
     ["METALLIC"] = {
         2,
         510,
@@ -1400,9 +1400,9 @@ data = {
         2031,
         2047
     },
-    ["GetImage"] = "function: 0x0000000066706e2c",
+    ["GetImage"] = "function: 0x00000000334111aa",
     ["EARTHEN"] = {513, 530, 532, 552, 2047},
-    ["GetWeight"] = "function: 0x00000000dba5e274",
+    ["GetWeight"] = "function: 0x00000000d722cafa",
     ["METAL"] = {
         2,
         510,
@@ -1439,7 +1439,7 @@ data = {
         2031,
         2047
     },
-    ["IsRestricted"] = "function: 0x0000000036908814",
-    ["Stackable"] = "function: 0x0000000080681b0c",
-    ["GetNameFromId"] = "function: 0x0000000069860d44"
+    ["IsRestricted"] = "function: 0x00000000f05b0bda",
+    ["Stackable"] = "function: 0x00000000aadb6532",
+    ["GetNameFromId"] = "function: 0x00000000e0a6a36a"
 }
