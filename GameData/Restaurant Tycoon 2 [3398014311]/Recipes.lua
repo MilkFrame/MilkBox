@@ -1,0 +1,21 @@
+data = {
+    {["Location"] = 1, ["actionText"] = "Cutting Meat...", ["Actions"] = {7}, ["Desc"] = "CUT MEAT"},
+    {["Location"] = 1, ["actionText"] = "Cutting Vegetables...", ["Actions"] = {7}, ["Desc"] = "CUT VEGETABLES"},
+    {["Location"] = 3, ["actionText"] = "Adding Seasoning...", ["Actions"] = {6}, ["Desc"] = "ADD HERBS"},
+    {["Location"] = 2, ["actionText"] = "Frying...", ["Actions"] = {1}, ["Desc"] = "FRYING PAN ON"},
+    {["Location"] = 2, ["actionText"] = "", ["Actions"] = {1}, ["Desc"] = "FRYING PAN OFF"},
+    {["Location"] = 3, ["actionText"] = "Adding Sauce...", ["Actions"] = {6}, ["Desc"] = "ADD SAUCE"},
+    {["Location"] = 0, ["actionText"] = "Mixing...", ["Actions"] = {4, 5}, ["Desc"] = "FLOUR + MIX"},
+    {["Location"] = 0, ["actionText"] = "Mixing...", ["Actions"] = {4, 5}, ["Desc"] = "MILK + MIX"},
+    {["Location"] = 2, ["actionText"] = "Boiling...", ["Actions"] = {1}, ["Desc"] = "SAUCEPAN ON"},
+    {["Location"] = 2, ["actionText"] = "", ["Actions"] = {1}, ["Desc"] = "SAUCEPAN OFF"},
+    {["Location"] = 2, ["actionText"] = "Baking...", ["Actions"] = {4}, ["Desc"] = "OVEN ON"},
+    {["Location"] = 2, ["actionText"] = "", ["Actions"] = {4}, ["Desc"] = "OVEN OFF"},
+    {["Location"] = 3, ["actionText"] = "Adding Seasoning...", ["Actions"] = {6}, ["Desc"] = "ADD SPICES"},
+    {["Location"] = 0, ["actionText"] = "Deep Frying...", ["Actions"] = {4}, ["Desc"] = "DEEP FRY"},
+    {["Location"] = 1, ["actionText"] = "Rolling...", ["Actions"] = {5}, ["Desc"] = "ROLLING PIN"},
+    {["Location"] = 0, ["actionText"] = "Blending...", ["Actions"] = {4, 1}, ["Desc"] = "BLEND"},
+    {["Location"] = 1, ["actionText"] = "Wrapping...", ["Actions"] = {1}, ["Desc"] = "WRAP"},
+    {["Location"] = 0, ["actionText"] = "Mixing...", ["Actions"] = {4, 5}, ["Desc"] = "MIX NO ADD"},
+    {["Location"] = 1, ["actionText"] = "Rolling...", ["Actions"] = {5}, ["Desc"] = "ROLL SUSHI"}
+}
