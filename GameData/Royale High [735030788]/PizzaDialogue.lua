@@ -1,0 +1,82 @@
+data = {
+    ["AddItem"] = {
+        "Wicked choice! Do you want to add any other items to your order?",
+        "Now that’s how to order with steeze! Anything else for you today?",
+        "Sick decision! Will that be all for your order?",
+        "Cool! I’ll be sure to add that to your order. Is there anything else you'd like?",
+        "Gotcha, insane flavor coming your way! Do you want to add anything else to your order?",
+        "That sounds so rad, I almost want to order one for myself! Will that be all for you today?",
+        "Got it! Extreme tastiness coming your way! Any last minute changes to your order?",
+        "Wow, what a sick choice! Do you want to order anything else?",
+        "Sounds chill! I’ll be sure to add that to your order. Anything else?",
+        "Sounds rad! Adding that to your order in 3...2...1… Anything else for you?",
+        "I like your steeze! Do you want me to whip up anything else?",
+        "I’m stoked to add that to your order. Is there anything else you’d like?",
+        "Rad! I’ll make sure to add that to your order. Anything else I can get for you?",
+        "Yo! You’re making me hungry with your sick order. Is there anything else you’d like to be added for delivery?"
+    },
+    ["Total"] = {
+        "Your total comes out to TOTAL. Ready to pay?",
+        "Your total comes out to TOTAL. Ready to confirm your order?",
+        "Your total comes out to TOTAL. Sound good, dude?",
+        "Your total comes out to TOTAL. Ready to confirm your payment so I can start your order?",
+        "Your total comes out to TOTAL. Is that okay? I will ask for payment when I reach your door with some hot pizza!",
+        "Your total cost adds up to TOTAL. Are you ready to confirm, so you can get your order ASAP?",
+        "That brings your order up to TOTAL. Ready for the best pizzas on the planet?",
+        "That puts your grand total at TOTAL. Does the price sound rad to you?",
+        "Your grand total adds up to TOTAL. What a sick deal! Are you ready to confirm your purchase?",
+        "That puts your total at TOTAL. That’s a gnarly deal for our quality of pizza. Ready to confirm your order?"
+    },
+    ["Intro"] = {
+        "Yellllo, Pizza Palace’s favorite dragon at your service! How can I take your order?",
+        "You’re our 100th pizza order today which means you get a free pizza… Just kidding 😛! What can I get for you today?",
+        "Pizza Palace’s top delivery dragon speaking! What would you like to order?",
+        "Thanks for choosing Pizza Palace! How can I help you with your order today?",
+        "Thank you for choosing Pizza Palace, where every pizza is fit for royalty! Now, how can I be of service today?",
+        "Thank you for calling Pizza Palace, the home of the dragon’s breath crunchy pizza. How can I take your order?",
+        "Thank you for calling Pizza Palace, where every pizza is hand-made by the most handsome dragon around cough. Or so I’m...I mean he...is told. How can I help you 😳?",
+        "Thanks for choosing Pizza Palace for your pizza needs. What do you want to order?",
+        "Welcome to Pizza Palace, where every pizza will shock your tastebuds! What would you like to order?",
+        "Pizza Palace at your service! Where our pizzas are cooked with dragon fire. What would you like to order?",
+        "Zed at your service! Would you like to try one of Pizza Palace’s delicious pizza pies with an ice cold beverage?",
+        "What’s up? Pizza Palace at your service, Zed speaking! What would you like to order?",
+        "Yo! Thanks for choosing Pizza Palace, what can I get for you today?",
+        "Yo! If delicious pizza is your game, then Pizza Palace is the name. What can I get for you?",
+        "Pizza Palace’s top delivery dragon at your service! What do you want to order today? And remember, every pizza is cooked with authentic dragon fire. My boss told me to say that."
+    },
+    ["OrderEmpty"] = {
+        "You pranksters think you’re cool! You didn’t add anything to your order.",
+        "Hold up! You didn’t add anything to your order.",
+        "Dude, you didn’t order anything! Check out our menu again.",
+        "What in the legend of the dragon's name? You didn’t specify what you wanted to order. ",
+        "Ugh! Is this another prank call? You didn’t add any item to your order.",
+        "You didn’t order anything! Unless you would like me to deliver a pizza box full of air to your door...",
+        "You didn’t finish your order… Kinda sketchy!",
+        "B-but.. you didn't order anything.. you're kinda sketch!",
+        "You forgot to add anything to your order. Don’t sleep on our famous cheese pizza, rumors say it’s callmehbob’s favorite!",
+        "Pizza Palace has a strict policy against pranksters. Serious orders only, or you'll have an angry dragon to deal with!",
+        "Oh yeah, real nice. Am I a joke to you? You didn’t add any item to your order 😞."
+    },
+    ["SubmitOrder"] = {
+        "Thanks for ordering! I’m mad stoked to be your delivery dragon!",
+        "Thank you for your order! One delicious delivery coming up!",
+        "Thank you for ordering! Catch you at your door shortly!",
+        "One sick order coming your way! Thanks for choosing Pizza Palace!",
+        "Awesome! Thanks for placing your order with Pizza Palace. I’ll fly over there soon!",
+        "One delicious delivery, heading your way! Thanks again for placing your order with Pizza Palace.",
+        "Thanks for ordering from Pizza Palace! I’ll fly over in a minute with your delivery!",
+        "Thanks for placing your order with Pizza Palace! I’ll be there before you know it!"
+    },
+    ["Wait"] = {
+        "No worries, dude. I’ll be around.",
+        "No problem, I’ll just chill here while you think about it.",
+        "That’s cool, take your time.",
+        "No worries, I’ll wait for your response.",
+        "Take your time, I’ll do some kickflips on my deck while you think about it.",
+        "That’s fine, I’ll chill right here until you are ready.",
+        "Yo, don’t stress! I’ll be here when you’re ready.",
+        "Take your time. I can practice ollies on my deck while I’m waiting.",
+        "Take your time. I’ll be stoked to take your order whenever you are ready.",
+        "Okay, let me know when you are ready to order! I’ll be practicing my dragon fire while I wait."
+    }
+}
