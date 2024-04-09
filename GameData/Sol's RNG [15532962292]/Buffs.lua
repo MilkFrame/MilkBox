@@ -1,0 +1,33 @@
+data = {
+    ["Lucky"] = {["EffectPerBuff"] = 1, ["Information"] = "+%s Luck"},
+    ["Basic Luck"] = {["EffectPerBuff"] = 0.25, ["Information"] = "+%s Luck"},
+    ["QuickRoll"] = {["EffectPerBuff"] = -25, ["Information"] = "%s%% Roll cooltime"},
+    ["Fortune III"] = {["EffectPerBuff"] = 2.5, ["Information"] = "+%s Luck"},
+    ["Fortune I"] = {["EffectPerBuff"] = 1.5, ["Information"] = "+%s Luck"},
+    ["Universe I"] = {["Information"] = "Aura in Starfall Unaffected by Breakthrough"},
+    ["Heavenly I"] = {["SaveBuffData"] = true, ["EffectPerBuff"] = 20000, ["Information"] = "Luck +%s on the next roll"},
+    ["Unstable Gravity"] = {["Information"] = "Increase bonus roll luck by 6"},
+    ["Tip's Blessing"] = {["EffectPerBuff"] = 1.2, ["Information"] = "+%s Luck"},
+    ["Heavenly II"] = {
+        ["SaveBuffData"] = true,
+        ["EffectPerBuff"] = 200000,
+        ["Information"] = "Luck +%s on the next roll"
+    },
+    ["Subzero"] = {["Information"] = "+150% Luck, -30% Roll cooltime"},
+    ["Cosmic Enhancement"] = {["Information"] = "+250% Luck, -30% Roll cooltime"},
+    ["Haste III"] = {["EffectPerBuff"] = -70, ["Information"] = "%s%% Roll cooltime"},
+    ["Easter Blessing"] = {["EffectPerBuff"] = 0.5, ["Information"] = "+%s Luck"},
+    ["Haste II"] = {["EffectPerBuff"] = -50, ["Information"] = "%s%% Roll cooltime"},
+    ["We're sorry!"] = {["EffectPerBuff"] = 1, ["Information"] = "+%s Luck"},
+    ["Jackpot"] = {["Information"] = "+77% Luck, -7% Roll cooltime"},
+    ["Haste I"] = {["EffectPerBuff"] = -30, ["Information"] = "%s%% Roll cooltime"},
+    ["Exo Enhancement"] = {["Information"] = "+100% Luck, -20% Roll cooltime"},
+    ["Solar Ignite"] = {["EffectPerBuff"] = 0.5, ["Information"] = "+%s Luck"},
+    ["Galestorm"] = {["Information"] = "+115% Luck, -25% Roll cooltime"},
+    ["Developer's Return"] = {["EffectPerBuff"] = 5, ["Information"] = "+%s Luck"},
+    ["Christmas Blessing"] = {["EffectPerBuff"] = 1, ["Information"] = "+%s Luck"},
+    ["Developer's Blessing?"] = {["EffectPerBuff"] = -99.99, ["Information"] = "%s Luck"},
+    ["Basic Blessing"] = {["EffectPerBuff"] = 0.3, ["Information"] = "+%s Luck"},
+    ["Lunar Shift"] = {["EffectPerBuff"] = -15, ["Information"] = "%s%% Roll cooltime"},
+    ["Fortune II"] = {["EffectPerBuff"] = 2, ["Information"] = "+%s Luck"}
+}
