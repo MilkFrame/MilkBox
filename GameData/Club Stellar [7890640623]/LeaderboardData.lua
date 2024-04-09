@@ -8,11 +8,11 @@ data = {
         Color3.fromRGB(150, 150, 150)
     },
     ["MannequinTags"] = {
-        ["Likes"] = "â˜… HIGHEST LIKES â˜…",
-        ["Levels"] = "â˜… HIGHEST LEVEL â˜…",
-        ["Donations"] = "â˜… TOP DONATOR â˜…"
+        ["Likes"] = "★ HIGHEST LIKES ★",
+        ["Levels"] = "★ HIGHEST LEVEL ★",
+        ["Donations"] = "★ TOP DONATOR ★"
     },
-    ["SaveBlacklist"] = {73797397},
+    ["SaveBlacklist"] = {76885520, 73797397},
     ["RefreshTime"] = 90,
     ["LeaderboardTypes"] = {"Likes", "Donations", "Levels"},
     ["PageSize"] = 100,
