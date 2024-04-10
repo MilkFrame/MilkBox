@@ -1,0 +1,20 @@
+data = {
+    {["Item"] = {["Type"] = "Treat", ["Name"] = "Wildberry", ["Amount"] = 50}, ["Chance"] = 38},
+    {["Item"] = {["Type"] = "CaptureCube", ["Name"] = "Rare", ["Amount"] = 5}, ["Chance"] = 23},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Mystery Egg", ["Amount"] = 50}, ["Chance"] = 14},
+    {["Item"] = {["Type"] = "CaptureCube", ["Name"] = "Epic", ["Amount"] = 2}, ["Chance"] = 14.55},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Elite Mystery Egg", ["Amount"] = 25}, ["Chance"] = 4},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Coin Elixir", ["Amount"] = 1}, ["Chance"] = 3},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "XP Elixir", ["Amount"] = 1}, ["Chance"] = 3},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Lucky Elixir", ["Amount"] = 1}, ["Chance"] = 1.5},
+    {["Item"] = {["Type"] = "CaptureCube", ["Name"] = "Legendary", ["Amount"] = 1}, ["Chance"] = 0.5},
+    {["Item"] = {["Amount"] = 1, ["Type"] = "GoldenTicket"}, ["Chance"] = 0.15},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Timeful Tome", ["Amount"] = 1}, ["Chance"] = 0.05},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Respawn Tome", ["Amount"] = 1}, ["Chance"] = 0.05},
+    {["Item"] = {["Type"] = "Treat", ["Name"] = "Golden Cherry", ["Amount"] = 1}, ["Chance"] = 0.01},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Prismatic Sundae", ["Amount"] = 1}, ["Chance"] = 0.005},
+    {["Item"] = {["Type"] = "Treat", ["Name"] = "Prismatic Scroll", ["Amount"] = 1}, ["Chance"] = 0.005},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Prismatic Tome", ["Amount"] = 1}, ["Chance"] = 0.005},
+    {["Item"] = {["Color"] = "Default", ["Type"] = "Mount", ["Name"] = "Ray", ["Amount"] = 1}, ["Chance"] = 0.002},
+    {["Item"] = {["Type"] = "Powerup", ["Name"] = "Prismatic Mystery Egg", ["Amount"] = 1}, ["Chance"] = 0.001}
+}
