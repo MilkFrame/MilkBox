@@ -1,0 +1,42 @@
+data = {
+    ["Harbinger"] = {["Speed"] = 1, ["Health"] = 7500, ["Functionality"] = "Custom"},
+    ["Thundering Cloud"] = {["Speed"] = 0.5, ["Health"] = 450, ["Functionality"] = "Custom"},
+    ["Vociferous"] = {
+        ["Boss"] = true,
+        ["Health"] = 50000,
+        ["Speed"] = 0.8,
+        ["Immunities"] = {["Boss"] = -1},
+        ["Functionality"] = "Custom"
+    },
+    ["Drabby Boss"] = {["Speed"] = 1.1, ["Health"] = 190},
+    ["Acid Waste"] = {["Speed"] = 2.25, ["Health"] = 25},
+    ["Lightning Dasher"] = {["Speed"] = 3, ["Name"] = "Dasher", ["Health"] = 120, ["Functionality"] = "Custom"},
+    ["Lightning"] = {["Speed"] = 20, ["Health"] = 45},
+    ["Droplet"] = {["Speed"] = 7, ["Health"] = 45},
+    ["Trampled"] = {["Speed"] = 1, ["Health"] = 12},
+    ["Stormful"] = {["Speed"] = 0.25, ["Health"] = 5525, ["Functionality"] = "Custom"},
+    ["Thunder"] = {["Speed"] = 10, ["Health"] = 70},
+    ["Afflicted"] = {["Speed"] = 2.75, ["Health"] = 5, ["Name"] = "Afflicted"},
+    ["Thunder Boss"] = {["Speed"] = 0.65, ["Health"] = 1500},
+    ["Quick Boss"] = {["Speed"] = 4, ["Health"] = 140},
+    ["Wasted Energy"] = {["Speed"] = 2.75, ["Health"] = 40},
+    ["WaveArrow"] = {["Speed"] = 15, ["Health"] = 1, ["Immunities"] = {["ZeroHp"] = 0}},
+    ["Broken Boss"] = {["Speed"] = 0.95, ["Health"] = 250, ["Name"] = "Buffed Boss"},
+    ["Acid Boss"] = {["Speed"] = 0.75, ["Health"] = 275},
+    ["Quick"] = {["Speed"] = 4.5, ["Health"] = 3},
+    ["Lightning Boss"] = {["Speed"] = 5, ["Health"] = 600},
+    ["Unnoticeable Boss"] = {["Speed"] = 2.6, ["Health"] = 150, ["Immunities"] = {["Hidden"] = 0}},
+    ["Drab"] = {["Speed"] = 2.5, ["Health"] = 4},
+    ["Apace"] = {["Speed"] = 5.75, ["Health"] = 4},
+    ["Nimble Boss"] = {["Speed"] = 4.25, ["Health"] = 240},
+    ["Dulled"] = {["Speed"] = 0.9, ["Health"] = 18},
+    ["Acid Spitter"] = {
+        ["Boss"] = true,
+        ["Health"] = 5000,
+        ["Speed"] = 0.725,
+        ["Immunities"] = {["Boss"] = -1},
+        ["Functionality"] = "Custom"
+    },
+    ["Acid Bot"] = {["Speed"] = 2, ["Health"] = 50},
+    ["Unnoticeable"] = {["Speed"] = 2.25, ["Health"] = 8, ["Immunities"] = {["Hidden"] = 0}}
+}
