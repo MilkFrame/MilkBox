@@ -1,14 +1,116 @@
 for i, v in pairs(game.ReplicatedStorage.Troops:GetDescendants()) do if v.Parent ~= game.ReplicatedStorage.Troops and (v.Name ~= "Skins" and v.Name ~= "Stats") then
 v:Destroy() end end
 data = {
+    ["Nuki Launcher"] = {
+        ["EnemyType"] = "Tanuki",
+        ["IconBox"] = {["Offset"] = "110, 170", ["Image"] = 16019394365, ["Size"] = "700, 700"},
+        ["Cost"] = 410,
+        ["SummonerHero"] = true,
+        ["StatChange"] = "function: 0x455f92be8a639cee",
+        ["Stages"] = {
+            {
+                ["Visual"] = "function: 0x50bbb9216da166ae",
+                ["SummonCount"] = 1,
+                ["Idle"] = 16600191720,
+                ["Cost"] = 580,
+                ["Range"] = 20,
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xc60889be145b81be"},
+                ["Stats"] = {{["BaseValue"] = 11, ["Title"] = "Nuki HP: ", ["Icon"] = "❤️"}, ["Add"] = true},
+                ["Image"] = 16019348653,
+                ["AreaDamage"] = 5,
+                ["Model"] = "1",
+                ["Damage"] = 7,
+                ["Rate"] = 18,
+                ["HiddenDetection"] = false,
+                ["Attack"] = 16131491264
+            },
+            {
+                ["Visual"] = "function: 0x50bbb9216da166ae",
+                ["SummonCount"] = 1,
+                ["Idle"] = 16600241432,
+                ["Cost"] = 3500,
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xc60889be145b81be"},
+                ["Range"] = 25,
+                ["Stats"] = {{["BaseValue"] = 17, ["Title"] = "Nuki HP: ", ["Icon"] = "❤️"}, ["Add"] = true},
+                ["Pause"] = 0.283,
+                ["Image"] = 16019394365,
+                ["AreaDamage"] = 5.2,
+                ["Model"] = "2",
+                ["Damage"] = 23,
+                ["Rate"] = 18,
+                ["HiddenDetection"] = true,
+                ["Attack"] = 16600289689
+            },
+            {
+                ["Visual"] = "function: 0x50bbb9216da166ae",
+                ["SummonCount"] = 1,
+                ["Idle"] = 16600620278,
+                ["Cost"] = 6000,
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xc60889be145b81be"},
+                ["Range"] = 25,
+                ["Stats"] = {{["BaseValue"] = 23, ["Title"] = "Nuki HP: ", ["Icon"] = "❤️"}, ["Add"] = true},
+                ["Pause"] = 0.283,
+                ["Image"] = 16019421586,
+                ["AreaDamage"] = 5.4,
+                ["Model"] = "3",
+                ["Damage"] = 50,
+                ["Rate"] = 18,
+                ["HiddenDetection"] = true,
+                ["Attack"] = 16600669405
+            },
+            {
+                ["Visual"] = "function: 0x50bbb9216da166ae",
+                ["SummonCount"] = 1,
+                ["Idle"] = 16599951574,
+                ["Cost"] = 8500,
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xc60889be145b81be"},
+                ["Range"] = 30,
+                ["Stats"] = {{["BaseValue"] = 29, ["Title"] = "Nuki HP: ", ["Icon"] = "❤️"}, ["Add"] = true},
+                ["Pause"] = 0.43,
+                ["Image"] = 16019447155,
+                ["AreaDamage"] = 5.5,
+                ["Model"] = "4",
+                ["Damage"] = 110,
+                ["Rate"] = 17,
+                ["HiddenDetection"] = true,
+                ["Attack"] = 16600046608
+            },
+            {
+                ["Visual"] = "function: 0x50bbb9216da166ae",
+                ["SummonCount"] = 1,
+                ["Idle"] = 16583144277,
+                ["Cost"] = 10000,
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xc60889be145b81be"},
+                ["Range"] = 30,
+                ["Stats"] = {{["BaseValue"] = 35, ["Title"] = "Nuki HP: ", ["Icon"] = "❤️"}, ["Add"] = true},
+                ["Pause"] = 0.43,
+                ["Image"] = 16019522086,
+                ["AreaDamage"] = 6,
+                ["Model"] = "5",
+                ["Damage"] = 170,
+                ["Rate"] = 17,
+                ["HiddenDetection"] = true,
+                ["Attack"] = 16583298439
+            }
+        },
+        ["Desc"] = "When an enemy enters Nuki's range he will launch a barrel containing a Nuki.",
+        ["Shoulder"] = {["Animation"] = {16688502079}, ["Levels"] = {1}},
+        ["SpaceArea"] = 3.5,
+        ["Name"] = "Nuki",
+        ["Variant"] = "Nuki",
+        ["EnemySpecies"] = "Animal",
+        ["Max"] = 1,
+        ["StunImmunity"] = true,
+        ["Locked"] = 681184269495773
+    },
     ["El Goblino"] = {
         ["IconBox"] = {["Offset"] = "60, 120", ["Image"] = 13210303481, ["Size"] = "750, 750"},
         ["LogoSize"] = "{0.449999988, 0}, {0.119999997, 0}",
         ["DialogueInfo"] = {
-            ["UpdateDialogue"] = "function: 0x0000000014fca121",
+            ["UpdateDialogue"] = "function: 0xfc3bc2f41cb0d0ce",
             ["Animations"] = {["Idle"] = 13954831476, ["Normal"] = 13954831476},
             ["Model"] = "ElGoblino1",
-            ["CameraFunction"] = "function: 0x00000000a23904c1",
+            ["CameraFunction"] = "function: 0x85b92659ff2b3f6e",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.2,
                 ["MessageFont"] = Enum.Font.Oswald,
@@ -16,7 +118,7 @@ data = {
                 ["ContinueColor"] = Color3.fromRGB(57, 34, 30),
                 ["TileColor"] = Color3.fromRGB(251, 210, 176),
                 ["BackgroundColor"] = Color3.fromRGB(251, 210, 176),
-                ["ChangeFunction"] = "function: 0x0000000048d9dd31",
+                ["ChangeFunction"] = "function: 0x8957da6b9fecc28e",
                 ["RectOffset"] = "20, 20",
                 ["BorderColor"] = Color3.fromRGB(30, 18, 16),
                 ["TilePicture"] = 5471954630,
@@ -24,7 +126,7 @@ data = {
                 ["TitleColor"] = Color3.fromRGB(30, 18, 16),
                 ["TitleFont"] = Enum.Font.Ubuntu
             },
-            ["EmoteChange"] = "function: 0x0000000066edbe09",
+            ["EmoteChange"] = "function: 0x96e9ceadbf518aae",
             ["TalkNoise"] = 13924142767
         },
         ["GameTeleport"] = {
@@ -40,10 +142,10 @@ data = {
         ["Creator"] = 8645047,
         ["SummonerHero"] = true,
         ["Desc"] = "El Goblino will place traps on the path which will stun enemies for an extended time. He is only able to stun as many enemies as he has traps.",
-        ["StatChange"] = "function: 0x00000000d261dfe1",
+        ["StatChange"] = "function: 0x660f6ee88e086dae",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000020a297b9",
+                ["Visual"] = "function: 0x30c987c0f95bcc6e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 3.7, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["BaseValue"] = "Wood", ["Title"] = "Trap: ", ["Icon"] = "🔧"},
@@ -52,8 +154,8 @@ data = {
                 ["Idle"] = 13211442163,
                 ["Cost"] = 350,
                 ["Range"] = 3.7,
-                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x00000000be241eb1"},
-                ["CustomTargeting"] = "function: 0x000000001762fbf1",
+                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x5db2700453322fce"},
+                ["CustomTargeting"] = "function: 0xeed7bb911c068b8e",
                 ["Image"] = 13210303481,
                 ["Damage"] = 0,
                 ["Model"] = "ElGoblino1",
@@ -63,7 +165,7 @@ data = {
                 ["Attack"] = 13211481833
             },
             {
-                ["Visual"] = "function: 0x0000000020a297b9",
+                ["Visual"] = "function: 0x30c987c0f95bcc6e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 3.8, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["BaseValue"] = "Seek (2s)", ["Title"] = "Trap: ", ["Icon"] = "🔧"},
@@ -72,8 +174,8 @@ data = {
                 ["Idle"] = 13212215209,
                 ["Cost"] = 1800,
                 ["Range"] = 3.8,
-                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x00000000be241eb1"},
-                ["CustomTargeting"] = "function: 0x000000001762fbf1",
+                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x5db2700453322fce"},
+                ["CustomTargeting"] = "function: 0xeed7bb911c068b8e",
                 ["Image"] = 13210894566,
                 ["Damage"] = 0,
                 ["Model"] = "ElGoblino2",
@@ -83,7 +185,7 @@ data = {
                 ["Attack"] = 13212257294
             },
             {
-                ["Visual"] = "function: 0x0000000020a297b9",
+                ["Visual"] = "function: 0x30c987c0f95bcc6e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 3.9, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["BaseValue"] = "Bob (3.4s)", ["Title"] = "Trap: ", ["Icon"] = "🔧"},
@@ -92,8 +194,8 @@ data = {
                 ["Idle"] = 13212435810,
                 ["Cost"] = 3000,
                 ["Range"] = 3.9,
-                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x00000000be241eb1"},
-                ["CustomTargeting"] = "function: 0x000000001762fbf1",
+                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x5db2700453322fce"},
+                ["CustomTargeting"] = "function: 0xeed7bb911c068b8e",
                 ["Image"] = 13210976038,
                 ["Damage"] = 0,
                 ["Model"] = "ElGoblino3",
@@ -103,7 +205,7 @@ data = {
                 ["Attack"] = 13212609438
             },
             {
-                ["Visual"] = "function: 0x0000000020a297b9",
+                ["Visual"] = "function: 0x30c987c0f95bcc6e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 4, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["BaseValue"] = "Snare (4.6s)", ["Title"] = "Trap: ", ["Icon"] = "🔧"},
@@ -112,8 +214,8 @@ data = {
                 ["Idle"] = 13212689241,
                 ["Cost"] = 5200,
                 ["Range"] = 4,
-                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x00000000be241eb1"},
-                ["CustomTargeting"] = "function: 0x000000001762fbf1",
+                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x5db2700453322fce"},
+                ["CustomTargeting"] = "function: 0xeed7bb911c068b8e",
                 ["Image"] = 13211048911,
                 ["Damage"] = 0,
                 ["Model"] = "ElGoblino4",
@@ -123,7 +225,7 @@ data = {
                 ["Attack"] = 13213935387
             },
             {
-                ["Visual"] = "function: 0x0000000020a297b9",
+                ["Visual"] = "function: 0x30c987c0f95bcc6e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 4.2, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["BaseValue"] = "Meat (5.8s)", ["Title"] = "Trap: ", ["Icon"] = "🔧"},
@@ -131,11 +233,11 @@ data = {
                 },
                 ["Idle"] = 13214039429,
                 ["Cost"] = 6700,
-                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x00000000be241eb1"},
+                ["KeyFrame"] = {["Notify:Salvage"] = "function: 0x5db2700453322fce"},
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x0000000056645f49",
+                    ["OnUse"] = "function: 0x6579af623345c5ae",
                     ["Title"] = "Crucifix",
-                    ["Cost"] = "function: 0x000000006f1811c1",
+                    ["Cost"] = "function: 0x03de19fb74cd13de",
                     ["Color"] = Color3.fromRGB(137, 208, 255),
                     ["Limit"] = 1,
                     ["Cooldown"] = 90,
@@ -143,7 +245,7 @@ data = {
                 },
                 ["Range"] = 4.2,
                 ["Desc"] = "At level 5, El Goblino can place a Crucifix which will stun an enemy for a very long time and deal a massive amount of damage to the enemy.",
-                ["CustomTargeting"] = "function: 0x000000001762fbf1",
+                ["CustomTargeting"] = "function: 0xeed7bb911c068b8e",
                 ["Image"] = 13220706990,
                 ["Damage"] = 0,
                 ["Model"] = "ElGoblino5",
@@ -165,7 +267,7 @@ data = {
         ["Creator"] = 86131129,
         ["Cost"] = 380,
         ["Max"] = 3,
-        ["StatChange"] = "function: 0x00000000ee370ba1",
+        ["StatChange"] = "function: 0x769e506bdd06011e",
         ["Desc"] = "Balloon Pal will increase the range of heroes within his own range.",
         ["Stages"] = {
             {
@@ -262,12 +364,12 @@ data = {
                 ["SpecialAbility"] = {
                     ["Summon"] = {"BombHolder"},
                     ["Title"] = "Spawn Helper",
-                    ["Cost"] = "function: 0x00000000c38a7f99",
+                    ["Cost"] = "function: 0x2e666bc54af7056e",
                     ["SummonStats"] = {
                         ["BombHolder"] = {
                             ["EnemyType"] = "Sabotage",
-                            ["Ability"] = {["OnDeath"] = "function: 0x000000006475d491"},
-                            ["Visual"] = {["Death"] = "function: 0x00000000b54df899"},
+                            ["Ability"] = {["OnDeath"] = "function: 0x3fd6641ef3f6c72e"},
+                            ["Visual"] = {["Death"] = "function: 0x76d4b1a9d71250fe"},
                             ["Boss"] = true,
                             ["Title"] = "Bomb Float",
                             ["SpawnCost"] = 1200,
@@ -277,7 +379,7 @@ data = {
                             ["Walk"] = 6001797749
                         }
                     },
-                    ["OnUse"] = "function: 0x00000000297b1a91",
+                    ["OnUse"] = "function: 0xf8159f738a98b48e",
                     ["Cooldown"] = 40,
                     ["Desc"] = "Pay Mana to spawn a Bomb Float."
                 },
@@ -308,7 +410,7 @@ data = {
         ["Desc"] = "Fracture will launch a series of projectiles that deal a large amount of damage.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000e4db0609",
+                ["Visual"] = "function: 0xc5d7bf2f2313892e",
                 ["Noise"] = {["Sound"] = "Stab", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4896361845,
                 ["Cost"] = 130,
@@ -322,7 +424,7 @@ data = {
                 ["Attack"] = 4896374902
             },
             {
-                ["Visual"] = "function: 0x00000000145e4d41",
+                ["Visual"] = "function: 0x697b98439392356e",
                 ["Noise"] = {["Sound"] = "Stab", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4899543367,
                 ["Cost"] = 500,
@@ -336,7 +438,7 @@ data = {
                 ["Attack"] = 4899594642
             },
             {
-                ["Visual"] = "function: 0x000000007a416929",
+                ["Visual"] = "function: 0xb44d7b6a18491fde",
                 ["Noise"] = {["Sound"] = "Stab", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4899969965,
                 ["Cost"] = 1700,
@@ -350,7 +452,7 @@ data = {
                 ["Attack"] = 4899987084
             },
             {
-                ["Visual"] = "function: 0x00000000acc29f59",
+                ["Visual"] = "function: 0xee551adc15adcd0e",
                 ["Idle"] = 4900177331,
                 ["Cost"] = 3000,
                 ["Duration"] = 0.55,
@@ -366,7 +468,7 @@ data = {
                 ["Attack"] = {4900193470, 4900196333}
             },
             {
-                ["Visual"] = "function: 0x00000000c04ea689",
+                ["Visual"] = "function: 0x43a73d326292b17e",
                 ["Idle"] = 4900344410,
                 ["Cost"] = 6800,
                 ["Duration"] = 1,
@@ -390,12 +492,103 @@ data = {
         ["Shoulder"] = {["Animation"] = 5197633176, ["Levels"] = {1}},
         ["Locked"] = 2124526129
     },
+    ["Nuki"] = {
+        ["EnemyType"] = "Tanuki",
+        ["StatOwnCheck"] = "Nuki Launcher",
+        ["Desc"] = "Nuki that pops out of the barrel after being launched.",
+        ["Name"] = "Nuki",
+        ["Variant"] = "Nuki",
+        ["EnemySpecies"] = "Animal",
+        ["Stages"] = {
+            {
+                ["KeyFrame"] = {["PreAnimate:5850857151"] = "function: 0x737b40d190cfab5e"},
+                ["Noise"] = {["Sound"] = "Swing", ["Adornee"] = "HumanoidRootPart"},
+                ["Idle"] = 16127970476,
+                ["Cost"] = 3,
+                ["Range"] = 3.6,
+                ["Image"] = 16019348653,
+                ["Visual"] = "function: 0x547468f122af27ae",
+                ["Model"] = "Nuki1",
+                ["Rate"] = 1.5,
+                ["Damage"] = 3,
+                ["HiddenDetection"] = false,
+                ["Attack"] = 16128030126
+            },
+            {
+                ["KeyFrame"] = {["PreAnimate:5850857151"] = "function: 0x737b40d190cfab5e"},
+                ["Noise"] = {["Sound"] = "Swing", ["Adornee"] = "HumanoidRootPart"},
+                ["Idle"] = 16575273712,
+                ["Cost"] = 3,
+                ["Range"] = 3.6,
+                ["Image"] = 16019394365,
+                ["Visual"] = "function: 0x41a4672008f32dce",
+                ["Model"] = "Nuki2",
+                ["Rate"] = 1.5,
+                ["Damage"] = 10,
+                ["HiddenDetection"] = true,
+                ["Attack"] = 16602626324
+            },
+            {
+                ["KeyFrame"] = {["PreAnimate:5850857151"] = "function: 0x737b40d190cfab5e"},
+                ["Idle"] = 16582820069,
+                ["Cost"] = 3,
+                ["Visual"] = "function: 0x6d7c0f87a5b5c60e",
+                ["Duration"] = 1.3,
+                ["Range"] = 3.7,
+                ["Damage"] = 17,
+                ["Rate"] = 1.5,
+                ["Image"] = 16019421586,
+                ["RatePause"] = 0.26,
+                ["Model"] = "Nuki3",
+                ["AttackDone"] = "function: 0xc9147371d510b3ee",
+                ["Repeat"] = true,
+                ["HiddenDetection"] = true,
+                ["Attack"] = {16582883677, 16582913483}
+            },
+            {
+                ["KeyFrame"] = {["PreAnimate:5850857151"] = "function: 0x737b40d190cfab5e"},
+                ["Idle"] = 16582820069,
+                ["Cost"] = 3,
+                ["Visual"] = "function: 0x98dc1623757fb84e",
+                ["Duration"] = 1.3,
+                ["Range"] = 3.7,
+                ["Damage"] = 32,
+                ["Rate"] = 1.3,
+                ["Image"] = 16019447155,
+                ["RatePause"] = 0.25,
+                ["Model"] = "Nuki4",
+                ["AttackDone"] = "function: 0xa22c1bcd899c3f2e",
+                ["Repeat"] = true,
+                ["HiddenDetection"] = true,
+                ["Attack"] = {16582883677, 16582913483}
+            },
+            {
+                ["KeyFrame"] = {["PreAnimate:5850857151"] = "function: 0x737b40d190cfab5e"},
+                ["Idle"] = 16582820069,
+                ["Cost"] = 3,
+                ["Visual"] = "function: 0x83c43f5f08b92e8e",
+                ["Duration"] = 1.5,
+                ["Range"] = 4.1,
+                ["Damage"] = 48,
+                ["Rate"] = 1.1,
+                ["Image"] = 16019522086,
+                ["RatePause"] = 0.24,
+                ["Model"] = "Nuki5",
+                ["AttackDone"] = "function: 0x734c23946618b36e",
+                ["Repeat"] = true,
+                ["HiddenDetection"] = true,
+                ["Attack"] = {16582883677, 16582913483, 16602907059}
+            }
+        },
+        ["SpaceArea"] = 1.4,
+        ["NoUpgrading"] = true
+    },
     ["Beetrice"] = {
         ["EnemyType"] = "Bee",
         ["Creator"] = 84720724,
         ["Cost"] = 400,
         ["Max"] = 1,
-        ["StatChange"] = "function: 0x00000000b5d884f1",
+        ["StatChange"] = "function: 0x87d512d43ed2182e",
         ["Stages"] = {
             {
                 ["Stats"] = {
@@ -405,7 +598,7 @@ data = {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 1,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000002279039"
+                        ["BaseFix"] = "function: 0x445bf834331e7eae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 6, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     ["HideRate"] = true
@@ -415,19 +608,19 @@ data = {
                 ["PointAttack"] = 6527913532,
                 ["Icon"] = 6528023341,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x0000000013716d91",
+                ["Visual"] = "function: 0xf44bc0b758e9256e",
                 ["Idle"] = 6516811324,
                 ["SummonStats"] = {
                     ["Helper1"] = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000d480f4a9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000820742d1",
-                            ["DeathC"] = "function: 0x0000000068863e59"
+                            ["PreAnimate:6546025922"] = "function: 0xe09af675d0fff54e",
+                            ["PreAnimate:6510548631"] = "function: 0x6f2ac2038a58c42e",
+                            ["DeathC"] = "function: 0x3766cefda5b90d0e"
                         },
                         ["Rate"] = 0.5,
-                        ["Behavior"] = "function: 0x00000000365f3829",
+                        ["Behavior"] = "function: 0x906d0b92f8738a6e",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Honey Bee",
@@ -440,7 +633,7 @@ data = {
                 },
                 ["Rate"] = 6,
                 ["Summon"] = "Helper1",
-                ["SummonCheck"] = "function: 0x0000000058a94001",
+                ["SummonCheck"] = "function: 0x0bbd819a3ccd56ae",
                 ["SummonLimit"] = 2,
                 ["Model"] = "Beetrice",
                 ["Cost"] = 430,
@@ -456,7 +649,7 @@ data = {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 3,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000002279039"
+                        ["BaseFix"] = "function: 0x445bf834331e7eae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 12, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     ["HideRate"] = true
@@ -466,19 +659,19 @@ data = {
                 ["PointAttack"] = 6537351804,
                 ["Icon"] = 6528023341,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x0000000011d50861",
+                ["Visual"] = "function: 0xbd914875111e9e5e",
                 ["Idle"] = 6536832475,
                 ["SummonStats"] = {
                     ["Helper2"] = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x000000009f3af861",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000da851149",
-                            ["DeathC"] = "function: 0x00000000d40429f1"
+                            ["PreAnimate:6546025922"] = "function: 0x5cb6b8668acd17ee",
+                            ["PreAnimate:6510548631"] = "function: 0xb95a87916c73e9ce",
+                            ["DeathC"] = "function: 0xc1ea93c033d0e3ae"
                         },
                         ["Rate"] = 0.3,
-                        ["Behavior"] = "function: 0x0000000026a22f21",
+                        ["Behavior"] = "function: 0xe50d23f0bfb577ae",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Worker Bee",
@@ -492,12 +685,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000d480f4a9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000820742d1",
-                            ["DeathC"] = "function: 0x0000000068863e59"
+                            ["PreAnimate:6546025922"] = "function: 0xe09af675d0fff54e",
+                            ["PreAnimate:6510548631"] = "function: 0x6f2ac2038a58c42e",
+                            ["DeathC"] = "function: 0x3766cefda5b90d0e"
                         },
                         ["Rate"] = 0.5,
-                        ["Behavior"] = "function: 0x00000000365f3829",
+                        ["Behavior"] = "function: 0x906d0b92f8738a6e",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Honey Bee",
@@ -510,7 +703,7 @@ data = {
                 },
                 ["Rate"] = 6,
                 ["Summon"] = {"Helper2", "Helper1"},
-                ["SummonCheck"] = "function: 0x0000000081358f59",
+                ["SummonCheck"] = "function: 0x7355be287bc62cee",
                 ["SummonLimit"] = 3,
                 ["Model"] = "Beetrice2",
                 ["Cost"] = 1900,
@@ -526,7 +719,7 @@ data = {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 4,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000002279039"
+                        ["BaseFix"] = "function: 0x445bf834331e7eae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 13, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     ["HideRate"] = true
@@ -536,19 +729,19 @@ data = {
                 ["PointAttack"] = 6537981148,
                 ["Icon"] = 6528023341,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x0000000037591e71",
+                ["Visual"] = "function: 0xc8ba515fbd2c520e",
                 ["Idle"] = 6537959898,
                 ["SummonStats"] = {
                     ["Helper2"] = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x000000009f3af861",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000da851149",
-                            ["DeathC"] = "function: 0x00000000d40429f1"
+                            ["PreAnimate:6546025922"] = "function: 0x5cb6b8668acd17ee",
+                            ["PreAnimate:6510548631"] = "function: 0xb95a87916c73e9ce",
+                            ["DeathC"] = "function: 0xc1ea93c033d0e3ae"
                         },
                         ["Rate"] = 0.3,
-                        ["Behavior"] = "function: 0x0000000026a22f21",
+                        ["Behavior"] = "function: 0xe50d23f0bfb577ae",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Worker Bee",
@@ -562,12 +755,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000558c0bf9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000577b6441",
-                            ["DeathC"] = "function: 0x00000000008bd369"
+                            ["PreAnimate:6546025922"] = "function: 0x882f7db6ac9db28e",
+                            ["PreAnimate:6510548631"] = "function: 0x83f9497cf1ba0f6e",
+                            ["DeathC"] = "function: 0x930b55340907c44e"
                         },
                         ["Rate"] = 0.2,
-                        ["Behavior"] = "function: 0x000000006727e2f9",
+                        ["Behavior"] = "function: 0xb9d558717cf863ee",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Forager Bee",
@@ -581,12 +774,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000d480f4a9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000820742d1",
-                            ["DeathC"] = "function: 0x0000000068863e59"
+                            ["PreAnimate:6546025922"] = "function: 0xe09af675d0fff54e",
+                            ["PreAnimate:6510548631"] = "function: 0x6f2ac2038a58c42e",
+                            ["DeathC"] = "function: 0x3766cefda5b90d0e"
                         },
                         ["Rate"] = 0.5,
-                        ["Behavior"] = "function: 0x00000000365f3829",
+                        ["Behavior"] = "function: 0x906d0b92f8738a6e",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Honey Bee",
@@ -599,7 +792,7 @@ data = {
                 },
                 ["Rate"] = 6,
                 ["Summon"] = {"Helper3", "Helper2", "Helper1"},
-                ["SummonCheck"] = "function: 0x0000000039be3bb1",
+                ["SummonCheck"] = "function: 0x22f5d53ab35abe2e",
                 ["SummonLimit"] = 4,
                 ["Model"] = "Beetrice3",
                 ["Cost"] = 3800,
@@ -615,7 +808,7 @@ data = {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 8,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000002279039"
+                        ["BaseFix"] = "function: 0x445bf834331e7eae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 18, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     ["HideRate"] = true
@@ -625,19 +818,19 @@ data = {
                 ["PointAttack"] = 6541128099,
                 ["Icon"] = 6528023341,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x0000000076ad4781",
+                ["Visual"] = "function: 0xd56a86e45bbe39ee",
                 ["Idle"] = 6540905794,
                 ["SummonStats"] = {
                     ["Helper2"] = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x000000009f3af861",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000da851149",
-                            ["DeathC"] = "function: 0x00000000d40429f1"
+                            ["PreAnimate:6546025922"] = "function: 0x5cb6b8668acd17ee",
+                            ["PreAnimate:6510548631"] = "function: 0xb95a87916c73e9ce",
+                            ["DeathC"] = "function: 0xc1ea93c033d0e3ae"
                         },
                         ["Rate"] = 0.3,
-                        ["Behavior"] = "function: 0x0000000026a22f21",
+                        ["Behavior"] = "function: 0xe50d23f0bfb577ae",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Worker Bee",
@@ -651,12 +844,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000558c0bf9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000577b6441",
-                            ["DeathC"] = "function: 0x00000000008bd369"
+                            ["PreAnimate:6546025922"] = "function: 0x882f7db6ac9db28e",
+                            ["PreAnimate:6510548631"] = "function: 0x83f9497cf1ba0f6e",
+                            ["DeathC"] = "function: 0x930b55340907c44e"
                         },
                         ["Rate"] = 0.2,
-                        ["Behavior"] = "function: 0x000000006727e2f9",
+                        ["Behavior"] = "function: 0xb9d558717cf863ee",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Forager Bee",
@@ -670,12 +863,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546387152"] = "function: 0x00000000ea1ed151",
-                            ["PreAnimate:6510548631"] = "function: 0x0000000001b178d9",
-                            ["DeathC"] = "function: 0x000000006f3180a1"
+                            ["PreAnimate:6546387152"] = "function: 0xc5e93d19ce4c4a2e",
+                            ["PreAnimate:6510548631"] = "function: 0xb267315f0f85b30e",
+                            ["DeathC"] = "function: 0x593926586f4138ee"
                         },
                         ["Rate"] = 0.18,
-                        ["Behavior"] = "function: 0x0000000077a36991",
+                        ["Behavior"] = "function: 0x717570f539444f2e",
                         ["Attack"] = 6547617439,
                         ["Walk"] = 6546387152,
                         ["Name"] = "Fighter Bee",
@@ -688,7 +881,7 @@ data = {
                 },
                 ["Rate"] = 6,
                 ["Summon"] = {"Helper4", "Helper3", "Helper2"},
-                ["SummonCheck"] = "function: 0x00000000323126e9",
+                ["SummonCheck"] = "function: 0xd92dcca4c453086e",
                 ["SummonLimit"] = 6,
                 ["Model"] = "Beetrice4",
                 ["Cost"] = 5900,
@@ -704,16 +897,16 @@ data = {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 10,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000002279039"
+                        ["BaseFix"] = "function: 0x445bf834331e7eae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 22, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     ["HideRate"] = true
                 },
                 ["SummonRange"] = true,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x0000000086647ee1",
+                    ["OnUse"] = "function: 0xbca58b4253758f0e",
                     ["Title"] = "Caster Bee",
-                    ["Cost"] = "function: 0x00000000a966e2c9",
+                    ["Cost"] = "function: 0x5af790957b9644ee",
                     ["Cooldown"] = 60,
                     ["Desc"] = "Summon a Caster Bee."
                 },
@@ -721,19 +914,19 @@ data = {
                 ["PointAttack"] = 6541615813,
                 ["Icon"] = 6528023341,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x00000000a8a0a151",
+                ["Visual"] = "function: 0x319f2e0776a005ce",
                 ["Idle"] = 6541489661,
                 ["SummonStats"] = {
                     ["Helper5"] = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546387152"] = "function: 0x0000000001a8aec9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000fc1f8d71",
-                            ["DeathC"] = "function: 0x00000000b9eff439"
+                            ["PreAnimate:6546387152"] = "function: 0x307bfb8208336fce",
+                            ["PreAnimate:6510548631"] = "function: 0x6629ec3d2dd755ae",
+                            ["DeathC"] = "function: 0xec9fe067cd899b8e"
                         },
                         ["Rate"] = 0.15,
-                        ["Behavior"] = "function: 0x00000000702ef549",
+                        ["Behavior"] = "function: 0x249d6915f243436e",
                         ["Attack"] = 6547617439,
                         ["Walk"] = 6546387152,
                         ["Name"] = "Elite Bee",
@@ -747,12 +940,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546025922"] = "function: 0x00000000558c0bf9",
-                            ["PreAnimate:6510548631"] = "function: 0x00000000577b6441",
-                            ["DeathC"] = "function: 0x00000000008bd369"
+                            ["PreAnimate:6546025922"] = "function: 0x882f7db6ac9db28e",
+                            ["PreAnimate:6510548631"] = "function: 0x83f9497cf1ba0f6e",
+                            ["DeathC"] = "function: 0x930b55340907c44e"
                         },
                         ["Rate"] = 0.2,
-                        ["Behavior"] = "function: 0x000000006727e2f9",
+                        ["Behavior"] = "function: 0xb9d558717cf863ee",
                         ["Attack"] = 6546038229,
                         ["Walk"] = 6546025922,
                         ["Name"] = "Forager Bee",
@@ -766,12 +959,12 @@ data = {
                         ["EnemyType"] = "Bee",
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Visual"] = {
-                            ["PreAnimate:6546387152"] = "function: 0x00000000ea1ed151",
-                            ["PreAnimate:6510548631"] = "function: 0x0000000001b178d9",
-                            ["DeathC"] = "function: 0x000000006f3180a1"
+                            ["PreAnimate:6546387152"] = "function: 0xc5e93d19ce4c4a2e",
+                            ["PreAnimate:6510548631"] = "function: 0xb267315f0f85b30e",
+                            ["DeathC"] = "function: 0x593926586f4138ee"
                         },
                         ["Rate"] = 0.18,
-                        ["Behavior"] = "function: 0x0000000077a36991",
+                        ["Behavior"] = "function: 0x717570f539444f2e",
                         ["Attack"] = 6547617439,
                         ["Walk"] = 6546387152,
                         ["Name"] = "Fighter Bee",
@@ -784,7 +977,7 @@ data = {
                 },
                 ["Rate"] = 6,
                 ["Summon"] = {"Helper5", "Helper4", "Helper3"},
-                ["SummonCheck"] = "function: 0x00000000dab49561",
+                ["SummonCheck"] = "function: 0x4c0de40339d089ae",
                 ["SummonLimit"] = 8,
                 ["Model"] = "Beetrice5",
                 ["HiddenDetection"] = true,
@@ -811,20 +1004,20 @@ data = {
         ["IconBox"] = {["Offset"] = "140, 50", ["Size"] = "700, 700"},
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000b2e5fef1",
+                ["Visual"] = "function: 0x396f89203946eb2e",
                 ["Idle"] = 6105617491,
                 ["Cost"] = 200,
                 ["Range"] = 3.8,
                 ["Image"] = 7142095697,
                 ["Rate"] = 1.7,
                 ["Model"] = "Wayfer1",
-                ["Damage"] = "function: 0x000000003d799829",
+                ["Damage"] = "function: 0x0f58f8582179148e",
                 ["DamageRange"] = {["Low"] = 1, ["High"] = 3},
                 ["HiddenDetection"] = false,
                 ["Attack"] = 6106210701
             },
             {
-                ["Visual"] = "function: 0x0000000033b7ffa9",
+                ["Visual"] = "function: 0x67e5bd482860308e",
                 ["Idle"] = 6105942638,
                 ["Cost"] = 1300,
                 ["Range"] = 7,
@@ -832,13 +1025,13 @@ data = {
                 ["Image"] = 7142120852,
                 ["ProjectileSpeed"] = 2.5,
                 ["Model"] = "Wayfer2",
-                ["Damage"] = "function: 0x00000000d2b78711",
+                ["Damage"] = "function: 0xe6289bca616242ee",
                 ["DamageRange"] = {["Low"] = 11, ["High"] = 22},
                 ["HiddenDetection"] = true,
                 ["Attack"] = 5345456412
             },
             {
-                ["Visual"] = "function: 0x00000000bbf64e49",
+                ["Visual"] = "function: 0x08efc6a6a87b46ee",
                 ["Idle"] = 6106849110,
                 ["Cost"] = 2800,
                 ["Range"] = 11,
@@ -846,13 +1039,13 @@ data = {
                 ["Image"] = 7142143788,
                 ["Rate"] = 1.3,
                 ["Model"] = "Wayfer3",
-                ["Damage"] = "function: 0x00000000e3cd8a59",
+                ["Damage"] = "function: 0xc1b8a634e3a4a94e",
                 ["DamageRange"] = {["Low"] = 28, ["High"] = 36},
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4862615912
             },
             {
-                ["Visual"] = "function: 0x000000004bb29a69",
+                ["Visual"] = "function: 0x69c5eb93695a654e",
                 ["Idle"] = 6107022871,
                 ["Cost"] = 4200,
                 ["Range"] = 15,
@@ -860,13 +1053,13 @@ data = {
                 ["Image"] = 7142164349,
                 ["Rate"] = 1.3,
                 ["Model"] = "Wayfer4",
-                ["Damage"] = "function: 0x00000000f2d3ace1",
+                ["Damage"] = "function: 0xf13f50ee23be061e",
                 ["DamageRange"] = {["Low"] = 40, ["High"] = 54},
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4862724325
             },
             {
-                ["Visual"] = "function: 0x00000000137b0b89",
+                ["Visual"] = "function: 0x791b0c81e93073ae",
                 ["Idle"] = 6107126643,
                 ["Cost"] = 6200,
                 ["Range"] = 18,
@@ -874,7 +1067,7 @@ data = {
                 ["Image"] = 7142185604,
                 ["ProjectileSpeed"] = 3,
                 ["Model"] = "Wayfer5",
-                ["Damage"] = "function: 0x000000000551b589",
+                ["Damage"] = "function: 0xe3394160a2ab9fae",
                 ["DamageRange"] = {["Low"] = 51, ["High"] = 72},
                 ["HiddenDetection"] = true,
                 ["Attack"] = 5345456412
@@ -884,19 +1077,18 @@ data = {
         ["Variant"] = "Wafer",
         ["EnemySpecies"] = "Food",
         ["SpaceArea"] = 2,
-        ["Shoulder"] = {["Animation"] = 6109223020, ["Levels"] = {1}},
-        ["Locked"] = 2124651915
+        ["Shoulder"] = {["Animation"] = 6109223020, ["Levels"] = {1}}
     },
     ["Sparks Kilowatt"] = {
         ["EnemyType"] = "Metaverse Champion",
         ["IconBox"] = {["Offset"] = "270, 110", ["Image"] = 7146962959, ["Size"] = "500, 500"},
         ["Cost"] = 250,
         ["Max"] = 8,
-        ["StatChange"] = "function: 0x00000000a324eb49",
+        ["StatChange"] = "function: 0x1c7f98c503cfb7ce",
         ["Desc"] = "Sparks Kilowatt will deal a small amount of damage for a short amount of time, at level 5 she will shoot a rocket that deals splash damage.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000b0b06909",
+                ["Visual"] = "function: 0x8234b7cfbe339f6e",
                 ["Idle"] = 6707822488,
                 ["Cost"] = 150,
                 ["Duration"] = 2,
@@ -910,7 +1102,7 @@ data = {
                 ["Attack"] = 6707851493
             },
             {
-                ["Visual"] = "function: 0x000000002381fef9",
+                ["Visual"] = "function: 0x29445d598ce9abfe",
                 ["Idle"] = 6682144681,
                 ["Cost"] = 800,
                 ["Duration"] = 2.2,
@@ -924,7 +1116,7 @@ data = {
                 ["Attack"] = 6684608824
             },
             {
-                ["Visual"] = "function: 0x00000000c58fab59",
+                ["Visual"] = "function: 0x77440a12a14eb74e",
                 ["Stats"] = {
                     {["Icon"] = "🚀", ["BaseValue"] = 18, ["Title"] = "Rocket: ", ["BonusCheck"] = "Damage"},
                     ["Add"] = true
@@ -943,7 +1135,7 @@ data = {
                 ["Attack"] = 6712076104
             },
             {
-                ["Visual"] = "function: 0x00000000a77e8439",
+                ["Visual"] = "function: 0xb04c370c4b649ade",
                 ["Stats"] = {
                     {["Icon"] = "🚀", ["BaseValue"] = 30, ["Title"] = "Rocket: ", ["BonusCheck"] = "Damage"},
                     ["Add"] = true
@@ -962,7 +1154,7 @@ data = {
                 ["Attack"] = 6712076104
             },
             {
-                ["Visual"] = "function: 0x000000000a5bc9a9",
+                ["Visual"] = "function: 0xedadd8f9f495812e",
                 ["Stats"] = {
                     {["Icon"] = "🚀", ["BaseValue"] = 40, ["Title"] = "Rocket: ", ["BonusCheck"] = "Damage"},
                     ["Add"] = true
@@ -992,21 +1184,21 @@ data = {
                 ["Angry"] = 0
             },
             ["Model"] = "SparksKilowatt",
-            ["CameraFunction"] = "function: 0x0000000088c79111",
+            ["CameraFunction"] = "function: 0x5fb2244ab0d73a6e",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.95,
                 ["MessageFont"] = Enum.Font.GothamMedium,
                 ["MessageColor"] = Color3.fromRGB(255, 255, 255),
                 ["ContinueColor"] = Color3.fromRGB(165, 84, 165),
                 ["TileColor"] = Color3.fromRGB(255, 255, 255),
-                ["ChangeFunction"] = "function: 0x00000000e4c7a669",
+                ["ChangeFunction"] = "function: 0xb762307a9a7bbd8e",
                 ["BorderColor"] = Color3.fromRGB(255, 149, 255),
                 ["TilePicture"] = 1935736135,
                 ["BackgroundColor"] = Color3.fromRGB(6, 6, 6),
                 ["TitleColor"] = Color3.fromRGB(255, 126, 255),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x00000000956af7a1",
+            ["EmoteChange"] = "function: 0x2d8bc2261d516b0e",
             ["TalkNoise"] = 6684538451
         },
         ["Name"] = "Sparks Kilowatt",
@@ -1015,7 +1207,7 @@ data = {
         ["SpaceArea"] = 1.9,
         ["Shoulder"] = {
             ["Levels"] = {1, 2},
-            ["OnCreate"] = "function: 0x000000004e404819",
+            ["OnCreate"] = "function: 0xc601e78f24a9314e",
             ["Animation"] = {6708017502, 6715613243, 6708624346, 6708624346, 6711751249}
         },
         ["Locked"] = 2124672818
@@ -1030,7 +1222,7 @@ data = {
         ["EnemySpecies"] = "Animal",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000004211dbe9",
+                ["Visual"] = "function: 0xfdbf5b78aabc32de",
                 ["Noise"] = {["Sound"] = "Yell", ["Adornee"] = "Head"},
                 ["Idle"] = 4860547788,
                 ["Cost"] = 110,
@@ -1044,7 +1236,7 @@ data = {
                 ["Attack"] = 4862293218
             },
             {
-                ["Visual"] = "function: 0x00000000a135d319",
+                ["Visual"] = "function: 0x9d4b45d7dba8a00e",
                 ["Noise"] = {["Sound"] = "Yell", ["Adornee"] = "Head"},
                 ["Idle"] = 4860547788,
                 ["Cost"] = 650,
@@ -1058,14 +1250,14 @@ data = {
                 ["Attack"] = 4862293218
             },
             {
-                ["Visual"] = "function: 0x00000000fc39f1c9",
+                ["Visual"] = "function: 0x2724a097534dd27e",
                 ["Noise"] = {["Sound"] = "Yell", ["Adornee"] = "Head"},
                 ["Idle"] = 4862538842,
                 ["Cost"] = 2400,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000b94223e1",
+                    ["OnUse"] = "function: 0x9bff00b29c7010ae",
                     ["Title"] = "Strength in Numbers",
-                    ["Cost"] = "function: 0x000000007fbd47c9",
+                    ["Cost"] = "function: 0x83290c42bfd2a88e",
                     ["Cooldown"] = 0,
                     ["Desc"] = "Bunny gets stronger when other Bunnies are nearby."
                 },
@@ -1073,22 +1265,22 @@ data = {
                 ["ProjectileSpeed"] = 1.1,
                 ["BaseRate"] = 1.1,
                 ["Image"] = 7122738789,
-                ["Rate"] = "function: 0x00000000e1a8bcb1",
+                ["Rate"] = "function: 0x2af02e7661306a8e",
                 ["Model"] = "BunnyLevel3",
-                ["Damage"] = "function: 0x00000000d01ab7b9",
+                ["Damage"] = "function: 0xae783809610ec5de",
                 ["BaseDamage"] = 28,
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4862615912
             },
             {
-                ["Visual"] = "function: 0x00000000a90dfeb9",
+                ["Visual"] = "function: 0xcb0584b93a711cae",
                 ["Noise"] = {["Sound"] = "Yell", ["Adornee"] = "Head"},
                 ["Idle"] = 4862683933,
                 ["Cost"] = 2700,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x0000000036404a91",
+                    ["OnUse"] = "function: 0xa45be93021159eee",
                     ["Title"] = "Strength in Numbers",
-                    ["Cost"] = "function: 0x00000000e3410f99",
+                    ["Cost"] = "function: 0x724914e17eb25ace",
                     ["Cooldown"] = 0,
                     ["Desc"] = "Bunny gets stronger when other Bunnies are nearby."
                 },
@@ -1096,22 +1288,22 @@ data = {
                 ["ProjectileSpeed"] = 2,
                 ["BaseRate"] = 1.2,
                 ["Image"] = 7122756509,
-                ["Rate"] = "function: 0x00000000be9ccbc1",
+                ["Rate"] = "function: 0x3778157bffd9e7be",
                 ["Model"] = "BunnyLevel4",
-                ["Damage"] = "function: 0x0000000057162f29",
+                ["Damage"] = "function: 0xb8f0e492af6e0f4e",
                 ["BaseDamage"] = 36,
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4862724325
             },
             {
-                ["Visual"] = "function: 0x00000000cd012b19",
+                ["Visual"] = "function: 0xa09e4683b0fec0ae",
                 ["Noise"] = {["Sound"] = "Yell", ["Adornee"] = "Head"},
                 ["Idle"] = 4863306875,
                 ["Cost"] = 3500,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000254eb8c1",
+                    ["OnUse"] = "function: 0x7127f633d99b0c2e",
                     ["Title"] = "Strength in Numbers",
-                    ["Cost"] = "function: 0x00000000087ea6e9",
+                    ["Cost"] = "function: 0xdae9e2813c77450e",
                     ["Cooldown"] = 0,
                     ["Desc"] = "Bunny gets stronger when other Bunnies are nearby."
                 },
@@ -1119,15 +1311,16 @@ data = {
                 ["ProjectileSpeed"] = 1.5,
                 ["BaseRate"] = 1.3,
                 ["Image"] = 7122792072,
-                ["Rate"] = "function: 0x000000006c902811",
+                ["Rate"] = "function: 0x3869f22460fc901e",
                 ["Model"] = "BunnyLevel5",
-                ["Damage"] = "function: 0x0000000076321959",
+                ["Damage"] = "function: 0xb800c07f60675dae",
                 ["BaseDamage"] = 48,
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4863320782
             }
         },
-        ["Shoulder"] = {["Animation"] = 5197566532, ["Levels"] = {1, 2, 3, 4, 5}}
+        ["Shoulder"] = {["Animation"] = 5197566532, ["Levels"] = {1, 2, 3, 4, 5}},
+        ["Locked"] = 2124522887
     },
     ["Keith"] = {
         ["EnemyType"] = "Cowboy",
@@ -1135,15 +1328,15 @@ data = {
         ["Cost"] = 370,
         ["Max"] = 8,
         ["Desc"] = "Keith will throw a boomerang that will deal damage to all enemies it hits and then deal damage on the way back.",
-        ["StatChange"] = "function: 0x000000007f637b79",
+        ["StatChange"] = "function: 0x227a234e55e81aae",
         ["Name"] = "Keith",
         ["Variant"] = "Keith",
         ["EnemySpecies"] = "People",
         ["Stages"] = {
             {
                 ["KeyFrame"] = {
-                    ["CatchBoomerang"] = "function: 0x000000004f8fcae1",
-                    ["ThrowBoomerang"] = "function: 0x00000000ea7faec9"
+                    ["CatchBoomerang"] = "function: 0xf865f7b5d3ff932e",
+                    ["ThrowBoomerang"] = "function: 0x5ebbd403fba14a0e"
                 },
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 2, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
@@ -1164,10 +1357,10 @@ data = {
                             ["Invincible"] = true
                         },
                         ["Title"] = "Boomerang",
-                        ["Behavior"] = "function: 0x00000000c125fd69",
+                        ["Behavior"] = "function: 0xc7e98f736532b95e",
                         ["Boss"] = true,
                         ["Name"] = "Boomerang",
-                        ["OnCreate"] = "function: 0x000000003ee89589",
+                        ["OnCreate"] = "function: 0xd52ef772b35ceece",
                         ["Speed"] = 10,
                         ["AnimSpeed"] = 4,
                         ["Health"] = 2,
@@ -1184,7 +1377,7 @@ data = {
                 ["Attack"] = 7301808303
             },
             {
-                ["Visual"] = "function: 0x00000000c4015fe9",
+                ["Visual"] = "function: 0xff4bdb4070e6a28e",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 9, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 6, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -1195,8 +1388,8 @@ data = {
                 ["Cost"] = 1300,
                 ["CatchAnim"] = 7273394003,
                 ["KeyFrame"] = {
-                    ["CatchBoomerang"] = "function: 0x000000004f8fcae1",
-                    ["ThrowBoomerang"] = "function: 0x00000000ea7faec9"
+                    ["CatchBoomerang"] = "function: 0xf865f7b5d3ff932e",
+                    ["ThrowBoomerang"] = "function: 0x5ebbd403fba14a0e"
                 },
                 ["Range"] = 6,
                 ["SummonStats"] = {
@@ -1209,10 +1402,10 @@ data = {
                             ["Invincible"] = true
                         },
                         ["Title"] = "Boomerang",
-                        ["Behavior"] = "function: 0x00000000cf7ffdd1",
+                        ["Behavior"] = "function: 0x43d91ab9fc2762de",
                         ["Boss"] = true,
                         ["Name"] = "Boomerang",
-                        ["OnCreate"] = "function: 0x00000000ae6247c9",
+                        ["OnCreate"] = "function: 0x069e154bb976bdce",
                         ["Speed"] = 11,
                         ["AnimSpeed"] = 4.2,
                         ["Health"] = 9,
@@ -1229,7 +1422,7 @@ data = {
                 ["Attack"] = 7273239177
             },
             {
-                ["Visual"] = "function: 0x00000000178dbbc1",
+                ["Visual"] = "function: 0x06dd26909a6baaae",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 28, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 7.2, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -1240,8 +1433,8 @@ data = {
                 ["Cost"] = 2000,
                 ["CatchAnim"] = 7273394003,
                 ["KeyFrame"] = {
-                    ["CatchBoomerang"] = "function: 0x000000004f8fcae1",
-                    ["ThrowBoomerang"] = "function: 0x00000000ea7faec9"
+                    ["CatchBoomerang"] = "function: 0xf865f7b5d3ff932e",
+                    ["ThrowBoomerang"] = "function: 0x5ebbd403fba14a0e"
                 },
                 ["Range"] = 7.2,
                 ["SummonStats"] = {
@@ -1254,10 +1447,10 @@ data = {
                             ["Invincible"] = true
                         },
                         ["Title"] = "Boomerang",
-                        ["Behavior"] = "function: 0x000000002621e599",
+                        ["Behavior"] = "function: 0x3d26f44da87d617e",
                         ["Boss"] = true,
                         ["Name"] = "Boomerang",
-                        ["OnCreate"] = "function: 0x00000000e9bd4a91",
+                        ["OnCreate"] = "function: 0xee2a7ef8279f8f2e",
                         ["Speed"] = 12,
                         ["AnimSpeed"] = 4.5,
                         ["Health"] = 28,
@@ -1274,7 +1467,7 @@ data = {
                 ["Attack"] = 7273239177
             },
             {
-                ["Visual"] = "function: 0x00000000191d9779",
+                ["Visual"] = "function: 0x0c2f32e6bd2f30ce",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 50, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 8.5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -1285,8 +1478,8 @@ data = {
                 ["Cost"] = 2800,
                 ["CatchAnim"] = 7273394003,
                 ["KeyFrame"] = {
-                    ["CatchBoomerang"] = "function: 0x000000004f8fcae1",
-                    ["ThrowBoomerang"] = "function: 0x00000000ea7faec9"
+                    ["CatchBoomerang"] = "function: 0xf865f7b5d3ff932e",
+                    ["ThrowBoomerang"] = "function: 0x5ebbd403fba14a0e"
                 },
                 ["Range"] = 8.5,
                 ["SummonStats"] = {
@@ -1299,10 +1492,10 @@ data = {
                             ["Invincible"] = true
                         },
                         ["Title"] = "Boomerang",
-                        ["Behavior"] = "function: 0x00000000e2c94449",
+                        ["Behavior"] = "function: 0x901e601aabd98bfe",
                         ["Boss"] = true,
                         ["Name"] = "Boomerang",
-                        ["OnCreate"] = "function: 0x000000009be95079",
+                        ["OnCreate"] = "function: 0xcaca532e68275e8e",
                         ["Speed"] = 13,
                         ["AnimSpeed"] = 4.7,
                         ["Health"] = 50,
@@ -1319,7 +1512,7 @@ data = {
                 ["Attack"] = 7273239177
             },
             {
-                ["Visual"] = "function: 0x00000000c38d4431",
+                ["Visual"] = "function: 0xf97d3eded02d48ee",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 70, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 11, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -1330,8 +1523,8 @@ data = {
                 ["Cost"] = 3500,
                 ["CatchAnim"] = 7273394003,
                 ["KeyFrame"] = {
-                    ["CatchBoomerang"] = "function: 0x000000004f8fcae1",
-                    ["ThrowBoomerang"] = "function: 0x00000000ea7faec9"
+                    ["CatchBoomerang"] = "function: 0xf865f7b5d3ff932e",
+                    ["ThrowBoomerang"] = "function: 0x5ebbd403fba14a0e"
                 },
                 ["Range"] = 11,
                 ["SummonStats"] = {
@@ -1344,10 +1537,10 @@ data = {
                             ["Invincible"] = true
                         },
                         ["Title"] = "Boomerang",
-                        ["Behavior"] = "function: 0x000000008cbd2239",
+                        ["Behavior"] = "function: 0xf5e62ca0b7a1da7e",
                         ["Boss"] = true,
                         ["Name"] = "Boomerang",
-                        ["OnCreate"] = "function: 0x0000000019dc3521",
+                        ["OnCreate"] = "function: 0xfbbfb41ce82e6cee",
                         ["Speed"] = 15,
                         ["AnimSpeed"] = 5,
                         ["Health"] = 70,
@@ -1375,7 +1568,7 @@ data = {
         ["Desc"] = "Lemonade Cat will give you mana each wave, some mana will be given to the other players on your team.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000009f4100a9",
+                ["Visual"] = "function: 0xc8ba6a74b5644bce",
                 ["noLook"] = true,
                 ["Idle"] = 6781696527,
                 ["Cost"] = 200,
@@ -1390,7 +1583,7 @@ data = {
                 ["Attack"] = 4797837438
             },
             {
-                ["Visual"] = "function: 0x0000000078c33191",
+                ["Visual"] = "function: 0x28329f9e75c2a09e",
                 ["noLook"] = true,
                 ["Idle"] = 4800348733,
                 ["Cost"] = 900,
@@ -1405,7 +1598,7 @@ data = {
                 ["Attack"] = 4800360260
             },
             {
-                ["Visual"] = "function: 0x000000004dc525d9",
+                ["Visual"] = "function: 0x08a2b370d3038e7e",
                 ["noLook"] = true,
                 ["Idle"] = 4797916541,
                 ["Cost"] = 1700,
@@ -1419,7 +1612,7 @@ data = {
                 ["Attack"] = 4797924111
             },
             {
-                ["Visual"] = "function: 0x00000000445f3461",
+                ["Visual"] = "function: 0x1956d6c333cb5fde",
                 ["Noise"] = {["Sound"] = "Register", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4797916541,
                 ["Cost"] = 2800,
@@ -1434,7 +1627,7 @@ data = {
                 ["Attack"] = 4797924111
             },
             {
-                ["Visual"] = "function: 0x00000000335acf09",
+                ["Visual"] = "function: 0xd9dbc34c0cbcd6ee",
                 ["Noise"] = {["Sound"] = "Register", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4798153596,
                 ["Cost"] = 4200,
@@ -1470,10 +1663,10 @@ data = {
         ["EnemySpecies"] = "Undead",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000011b963a1",
+                ["Visual"] = "function: 0xd1f94f669ef076ee",
                 ["Stats"] = {{["Title"] = "Spawn Enemy", ["Icon"] = "❓"}},
                 ["Idle"] = 5077375758,
-                ["Cost"] = 613,
+                ["Cost"] = 612,
                 ["Range"] = 0,
                 ["Desc"] = "At level 1, Jester is able to spawn a random enemy.",
                 ["Image"] = 7137319949,
@@ -1483,10 +1676,10 @@ data = {
                 ["Attack"] = 5077704881
             },
             {
-                ["Visual"] = "function: 0x00000000017b4f49",
+                ["Visual"] = "function: 0x65595484ddb3642e",
                 ["Stats"] = {{["Title"] = "Spawn Enemy", ["Icon"] = "❓"}, {["Title"] = "Random Effect", ["Icon"] = "❓"}},
                 ["Idle"] = 5079372297,
-                ["Cost"] = 2378,
+                ["Cost"] = 3595,
                 ["Range"] = 0,
                 ["Desc"] = "At level 2, Jester is now able to apply a random status effect to a summon or enemy.",
                 ["Image"] = 7137341786,
@@ -1497,8 +1690,8 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["Change2"] = "function: 0x000000005fcd00d1",
-                    ["Change"] = "function: 0x000000005fcd00d1"
+                    ["Change2"] = "function: 0xcec7b614111fa51e",
+                    ["Change"] = "function: 0xcec7b614111fa51e"
                 },
                 ["Stats"] = {
                     {["Title"] = "Spawn Enemy", ["Icon"] = "❓"},
@@ -1506,20 +1699,20 @@ data = {
                     {["Title"] = "Give Mana", ["Icon"] = "❓"}
                 },
                 ["Idle"] = 5081901782,
-                ["Cost"] = 5238,
+                ["Cost"] = 5046,
                 ["Range"] = 0,
                 ["Desc"] = "At level 3, Jester is now able to give or take a random ammount of mana.",
                 ["Image"] = 7137360707,
                 ["Model"] = "JesterLevel3",
-                ["Visual"] = "function: 0x0000000032b54431",
+                ["Visual"] = "function: 0x8629bc2e21695e6e",
                 ["Damage"] = 0,
                 ["Rate"] = 14,
                 ["Attack"] = 5082158895
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:5088419665"] = "function: 0x000000001bcf7539",
-                    ["ResetAnim"] = "function: 0x00000000ead17a41"
+                    ["PreAnimate:5088419665"] = "function: 0xa7ab3134b00e9bce",
+                    ["ResetAnim"] = "function: 0x300f26e2107b109e"
                 },
                 ["Stats"] = {
                     {["Title"] = "Spawn Enemy", ["Icon"] = "❓"},
@@ -1527,18 +1720,18 @@ data = {
                     {["Title"] = "Give Mana", ["Icon"] = "❓"}
                 },
                 ["Idle"] = 5084125501,
-                ["Cost"] = 6977,
+                ["Cost"] = 6914,
                 ["Range"] = 0,
                 ["Desc"] = "At level 4, Jester has increased attacks.",
                 ["Image"] = 7137381077,
                 ["Model"] = "JesterLevel4",
-                ["Visual"] = "function: 0x00000000c95379a9",
+                ["Visual"] = "function: 0xf70985c09aa643ae",
                 ["Damage"] = 0,
                 ["Rate"] = 13,
                 ["Attack"] = 5088419665
             },
             {
-                ["KeyFrame"] = {["SpinWheel"] = "function: 0x00000000d95c7891"},
+                ["KeyFrame"] = {["SpinWheel"] = "function: 0x40a51468d0f7e52e"},
                 ["Stats"] = {
                     {["Icon"] = "🎲", ["Title"] = "Jackpot", ["Bonus"] = 1},
                     {["Title"] = "Spawn Enemy", ["Icon"] = "❓"},
@@ -1546,12 +1739,12 @@ data = {
                     {["Title"] = "Give Mana", ["Icon"] = "❓"}
                 },
                 ["Idle"] = 5089738795,
-                ["Cost"] = 8074,
+                ["Cost"] = 9855,
                 ["Range"] = 0,
                 ["Desc"] = "At level 5, Jester has the ability to hit 🎲Jackpot which will boost his chosen attack.",
                 ["Image"] = 7137399018,
                 ["Model"] = "JesterLevel5Death",
-                ["Visual"] = "function: 0x00000000bed66ad9",
+                ["Visual"] = "function: 0xa469eda15be2b7ee",
                 ["Damage"] = 0,
                 ["Rate"] = 12,
                 ["Attack"] = 5089828743
@@ -1575,7 +1768,7 @@ data = {
         ["EnemySpecies"] = "People",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000d8eb9379",
+                ["Visual"] = "function: 0x5d6b58abcb48464e",
                 ["Idle"] = 4675096388,
                 ["Cost"] = 100,
                 ["Range"] = 5,
@@ -1588,7 +1781,7 @@ data = {
                 ["Attack"] = 4675117403
             },
             {
-                ["Visual"] = "function: 0x000000008a676d69",
+                ["Visual"] = "function: 0x33376554dbb3f83e",
                 ["Idle"] = 4675096388,
                 ["Cost"] = 430,
                 ["Range"] = 8,
@@ -1601,7 +1794,7 @@ data = {
                 ["Attack"] = 4675117403
             },
             {
-                ["Visual"] = "function: 0x00000000b3a37599",
+                ["Visual"] = "function: 0xe7fa87f170936aee",
                 ["Idle"] = 4675096388,
                 ["Cost"] = 1500,
                 ["Range"] = 11,
@@ -1614,7 +1807,7 @@ data = {
                 ["Attack"] = 4675117403
             },
             {
-                ["Visual"] = "function: 0x0000000051af7849",
+                ["Visual"] = "function: 0x9fc22c36e90e5d1e",
                 ["Idle"] = 4675096388,
                 ["Cost"] = 2400,
                 ["Range"] = 14,
@@ -1627,26 +1820,26 @@ data = {
                 ["Attack"] = 4675117403
             },
             {
-                ["Visual"] = "function: 0x000000005cbb0639",
+                ["Visual"] = "function: 0x97c5a65c5d84240e",
                 ["Idle"] = 4778813283,
                 ["Cost"] = 4500,
                 ["SAanim"] = 6155807894,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000dbdf6479",
+                    ["OnUse"] = "function: 0x15ee08ec24ddfdae",
                     ["Title"] = "Magic Boost",
-                    ["Cost"] = "function: 0x000000003750e051",
+                    ["Cost"] = "function: 0x7c275100711531de",
                     ["Cooldown"] = 5,
                     ["Limit"] = 4,
                     ["AddSell"] = 0.5,
                     ["Desc"] = "Pay Mana to increase Magic Damage."
                 },
                 ["Range"] = 16,
-                ["KeyFrame"] = {["StartMana"] = "function: 0x000000009dcc04c1"},
+                ["KeyFrame"] = {["StartMana"] = "function: 0x7d9a04cb107ef38e"},
                 ["ProjectileSpeed"] = 1.1,
                 ["Image"] = 7118245690,
                 ["Rate"] = 1.1,
                 ["Model"] = "WizardLVL5",
-                ["Damage"] = "function: 0x00000000ded68fe9",
+                ["Damage"] = "function: 0x318fade98f5490de",
                 ["BaseDamage"] = 28,
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4778795786
@@ -1661,7 +1854,7 @@ data = {
                 ["Confused"] = 14046899699
             },
             ["Model"] = "Wizard",
-            ["CameraFunction"] = "function: 0x0000000003d88399",
+            ["CameraFunction"] = "function: 0x675639d9b055e22e",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0,
                 ["MessageFont"] = Enum.Font.GothamMedium,
@@ -1669,7 +1862,7 @@ data = {
                 ["ContinueColor"] = Color3.fromRGB(80, 107, 231),
                 ["TileColor"] = Color3.fromRGB(86, 81, 98),
                 ["BackgroundColor"] = Color3.fromRGB(98, 98, 98),
-                ["ChangeFunction"] = "function: 0x00000000d9ceae91",
+                ["ChangeFunction"] = "function: 0x2ee62d5f6536ef4e",
                 ["RectOffset"] = "30, 30",
                 ["BorderColor"] = Color3.fromRGB(134, 134, 255),
                 ["TilePicture"] = 5606538187,
@@ -1677,7 +1870,7 @@ data = {
                 ["TitleColor"] = Color3.fromRGB(146, 255, 74),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x000000005fff32e9",
+            ["EmoteChange"] = "function: 0x180a109645d3f46e",
             ["TalkNoise"] = 14033202716
         }
     },
@@ -1690,7 +1883,7 @@ data = {
         ["Desc"] = "Branch will attack enemies in his range with roots that deal splash damage to enemies close to the one attacked.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000fb8f0cd1",
+                ["Visual"] = "function: 0x8e563743c768ed2e",
                 ["Idle"] = 5614284497,
                 ["Cost"] = 150,
                 ["Range"] = 4,
@@ -1702,7 +1895,7 @@ data = {
                 ["Attack"] = 5613414246
             },
             {
-                ["Visual"] = "function: 0x00000000ec045389",
+                ["Visual"] = "function: 0x9fba2ee7e7baf16e",
                 ["Idle"] = 5618729605,
                 ["Cost"] = 800,
                 ["Range"] = 7,
@@ -1715,7 +1908,7 @@ data = {
                 ["Attack"] = 5613414246
             },
             {
-                ["Visual"] = "function: 0x000000006c5a2d49",
+                ["Visual"] = "function: 0x383efd2bc5318b2e",
                 ["Idle"] = 5618591400,
                 ["Cost"] = 2600,
                 ["RatePause"] = 0.25,
@@ -1732,7 +1925,7 @@ data = {
                 ["Attack"] = 5345456412
             },
             {
-                ["Visual"] = "function: 0x0000000050ee0739",
+                ["Visual"] = "function: 0x8273d030761d791e",
                 ["Idle"] = 5618555290,
                 ["Cost"] = 3700,
                 ["RatePause"] = 0.25,
@@ -1749,7 +1942,7 @@ data = {
                 ["Attack"] = 5345456412
             },
             {
-                ["Visual"] = "function: 0x00000000d6623fa9",
+                ["Visual"] = "function: 0xec973fcaa7f8e8ce",
                 ["Idle"] = 5615133815,
                 ["Cost"] = 5800,
                 ["RatePause"] = 0.2,
@@ -1782,7 +1975,7 @@ data = {
         ["Desc"] = "Quinn is a long ranged high damage tower with a medium attack rate.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000cf04e799",
+                ["Visual"] = "function: 0x5b9b19a4f657c75e",
                 ["Idle"] = 9914770552,
                 ["Cost"] = 120,
                 ["Range"] = 7,
@@ -1795,7 +1988,7 @@ data = {
                 ["Attack"] = 9914827439
             },
             {
-                ["Visual"] = "function: 0x000000000a356349",
+                ["Visual"] = "function: 0x1033709060adc8ae",
                 ["Idle"] = 9915657388,
                 ["Cost"] = 1350,
                 ["Range"] = 10,
@@ -1808,7 +2001,7 @@ data = {
                 ["Attack"] = 9915740024
             },
             {
-                ["Visual"] = "function: 0x000000008b2e0d59",
+                ["Visual"] = "function: 0xf5a5468fcb0051be",
                 ["Idle"] = 9915904610,
                 ["Cost"] = 3600,
                 ["Range"] = 15,
@@ -1821,7 +2014,7 @@ data = {
                 ["Attack"] = 9915951539
             },
             {
-                ["Visual"] = "function: 0x000000002eb9e999",
+                ["Visual"] = "function: 0x3ae49dba5aa6e98e",
                 ["Idle"] = 9916426310,
                 ["Cost"] = 5600,
                 ["Range"] = 16,
@@ -1834,21 +2027,21 @@ data = {
                 ["Attack"] = 9916482455
             },
             {
-                ["Visual"] = "function: 0x000000005165b5a9",
+                ["Visual"] = "function: 0x6fd78cf0a07c629e",
                 ["Idle"] = 9916603940,
                 ["Cost"] = 7000,
                 ["SAanim"] = 9996333223,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000680ed0a1",
+                    ["OnUse"] = "function: 0x2d57bd4b8befefae",
                     ["Title"] = "Spore Field",
-                    ["Cost"] = "function: 0x00000000d21a5d49",
+                    ["Cost"] = "function: 0xa01d96d1c46a636e",
                     ["Cooldown"] = 70,
                     ["Desc"] = "For 10s, all enemies within range will become slow."
                 },
                 ["Range"] = 23,
                 ["KeyFrame"] = {
-                    ["FieldEND"] = "function: 0x00000000e46cfdf1",
-                    ["SporeField"] = "function: 0x00000000877c81b9"
+                    ["FieldEND"] = "function: 0xed8fa2efe6a8684e",
+                    ["SporeField"] = "function: 0x553dae3017296f2e"
                 },
                 ["Image"] = 9856235606,
                 ["ProjectileSpeed"] = 6,
@@ -1872,7 +2065,7 @@ data = {
         ["IconBox"] = {["Offset"] = "20, 190", ["Size"] = "750, 750"},
         ["Cost"] = 100,
         ["SummonerHero"] = true,
-        ["StatChange"] = "function: 0x000000005630a461",
+        ["StatChange"] = "function: 0xbccdea1678afa70e",
         ["Desc"] = "Slime King will summon a variety of slimes that apply a status effect to the enemy that kills them.",
         ["Stages"] = {
             {
@@ -1882,7 +2075,7 @@ data = {
                     ["Slime1"] = {
                         ["EnemyType"] = "Slime",
                         ["Ability"] = {["Friendly"] = true},
-                        ["OnSpawnFunction"] = "function: 0x00000000a6427491",
+                        ["OnSpawnFunction"] = "function: 0xb845998b4b06f0ce",
                         ["Name"] = "Slime",
                         ["Title"] = "Slime",
                         ["EnemySpecies"] = "Slime",
@@ -1907,7 +2100,7 @@ data = {
                     ["Slime2"] = {
                         ["EnemyType"] = "Slime",
                         ["Ability"] = {["Friendly"] = true},
-                        ["OnSpawnFunction"] = "function: 0x000000006fca5e79",
+                        ["OnSpawnFunction"] = "function: 0x892b7d6248c1fa2e",
                         ["Title"] = "Big Slime",
                         ["Name"] = "Big Slime",
                         ["EnemySpecies"] = "Slime",
@@ -1942,7 +2135,7 @@ data = {
                                 ["Damage"] = 1
                             }
                         },
-                        ["OnSpawnFunction"] = "function: 0x00000000a5fec321",
+                        ["OnSpawnFunction"] = "function: 0xa9bd52b7c984eb8e",
                         ["EffectFilter"] = {
                             ["Immunity"] = {"Fire", "Inferno", "Burn", "Incinerate"},
                             ["Type"] = "Fire",
@@ -1982,7 +2175,7 @@ data = {
                                 ["Damage"] = 1
                             }
                         },
-                        ["OnSpawnFunction"] = "function: 0x000000005e4f3db9",
+                        ["OnSpawnFunction"] = "function: 0x779b18648fb5c12e",
                         ["EffectFilter"] = {
                             ["Immunity"] = {"Fire", "Inferno", "Burn", "Incinerate"},
                             ["Type"] = "Fire",
@@ -2022,7 +2215,7 @@ data = {
                                 ["Damage"] = 1
                             }
                         },
-                        ["OnSpawnFunction"] = "function: 0x00000000c8aa0369",
+                        ["OnSpawnFunction"] = "function: 0x0936d1ba8ddbaaee",
                         ["EffectFilter"] = {
                             ["Immunity"] = {"Fire", "Inferno", "Burn", "Incinerate"},
                             ["Type"] = "Fire",
@@ -2039,13 +2232,13 @@ data = {
                 ["SpecialAbility"] = {
                     ["Summon"] = {"KingSlimeSummon"},
                     ["Title"] = "Summon King",
-                    ["Cost"] = "function: 0x0000000041fab759",
+                    ["Cost"] = "function: 0x5f74587755a386ee",
                     ["SummonStats"] = {
                         ["KingSlimeSummon"] = {
                             ["EnemyType"] = "Slime",
                             ["Idle"] = 7300674072,
                             ["Ability"] = {["FinalBoss"] = true},
-                            ["Visual"] = {["DeathXX"] = "function: 0x00000000289155d9"},
+                            ["Visual"] = {["DeathXX"] = "function: 0x00e67c0f5a549f9e"},
                             ["Walk"] = 4871069985,
                             ["Speed"] = 0.7,
                             ["Boss"] = true,
@@ -2057,7 +2250,7 @@ data = {
                             ["DefaultVariant"] = "KingSlime"
                         }
                     },
-                    ["OnUse"] = "function: 0x0000000097ea9bd1",
+                    ["OnUse"] = "function: 0xc7a44c20609f5d0e",
                     ["Cooldown"] = 60,
                     ["Desc"] = "Pay Mana to summon the Slime King."
                 },
@@ -2099,7 +2292,7 @@ data = {
                 ["Attack"] = 7015291155
             },
             {
-                ["Visual"] = "function: 0x00000000d0361f79",
+                ["Visual"] = "function: 0x906ab49f358b882e",
                 ["Idle"] = 7009174316,
                 ["Cost"] = 1100,
                 ["Duration"] = 0.8,
@@ -2114,7 +2307,7 @@ data = {
                 ["Attack"] = {7015320208, 7015358753}
             },
             {
-                ["Visual"] = "function: 0x00000000c2cc1a01",
+                ["Visual"] = "function: 0xe7e3f85337eec8de",
                 ["Idle"] = 7009174316,
                 ["Cost"] = 1800,
                 ["Duration"] = 0.9,
@@ -2129,7 +2322,7 @@ data = {
                 ["Attack"] = {7015320208, 7015358753, 7015392259}
             },
             {
-                ["Visual"] = "function: 0x00000000bf3d54f1",
+                ["Visual"] = "function: 0xf26a03489549784e",
                 ["Idle"] = 7009174316,
                 ["Cost"] = 3500,
                 ["Duration"] = 1,
@@ -2144,17 +2337,17 @@ data = {
                 ["Attack"] = {7015320208, 7015358753, 7015392259}
             },
             {
-                ["KeyFrame"] = {["PreAnimate:7023258197"] = "function: 0x00000000a27013f1"},
-                ["Visual"] = "function: 0x0000000047fb4279",
+                ["KeyFrame"] = {["PreAnimate:7023258197"] = "function: 0xc4b0f3555f0d0fbe"},
+                ["Visual"] = "function: 0xc4b68bb6d27d333e",
                 ["Idle"] = 7010592262,
                 ["Cost"] = 6700,
                 ["SAanim"] = 7023258197,
                 ["Duration"] = 1.2,
                 ["Range"] = 4.7,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x0000000095326789",
+                    ["OnUse"] = "function: 0xbc37c12e6fdd98ee",
                     ["Title"] = "Dragon Flame",
-                    ["Cost"] = "function: 0x000000003efcffb9",
+                    ["Cost"] = "function: 0x150c429e63a3c96e",
                     ["SelfBonus"] = {
                         ["NoStun"] = true,
                         ["Effect"] = {["Icon"] = "🐲", ["Duration"] = 30, ["Title"] = "Dragon Flame", ["Damage"] = 5},
@@ -2198,25 +2391,25 @@ data = {
         ["Stages"] = {
             {
                 ["KeyFrame"] = {
-                    ["SecondTick"] = "function: 0x0000000077ec0ca1",
-                    ["PreAnimate:5850857151"] = "function: 0x0000000029df4e89"
+                    ["SecondTick"] = "function: 0xc2aaa5c4f3b4738e",
+                    ["PreAnimate:5850857151"] = "function: 0x3456918d0b55746e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 50,
                 ["BaseRange"] = 5,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000007fa97901",
+                    ["OnUse"] = "function: 0x79e956016293500e",
                     ["Title"] = "Repaint",
-                    ["Cost"] = "function: 0x00000000f3ad2971",
+                    ["Cost"] = "function: 0x8d497ea1cc195e4e",
                     ["NoShow"] = true,
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to heal."
                 },
-                ["Range"] = "function: 0x00000000805826b9",
+                ["Range"] = "function: 0x1f7c082c0f2489ee",
                 ["Image"] = 7650934844,
                 ["HiddenDetection"] = true,
-                ["Damage"] = "function: 0x0000000097de1ac1",
-                ["Visual"] = "function: 0x00000000812c2439",
+                ["Damage"] = "function: 0x9cf479a55f0214be",
+                ["Visual"] = "function: 0x11bfcacd8b9127fe",
                 ["Idle"] = 6093926547,
                 ["BaseDamage"] = 5,
                 ["Rate"] = 1.3,
@@ -2229,25 +2422,25 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["SecondTick"] = "function: 0x0000000077ec0ca1",
-                    ["PreAnimate:5850857151"] = "function: 0x0000000029df4e89"
+                    ["SecondTick"] = "function: 0xc2aaa5c4f3b4738e",
+                    ["PreAnimate:5850857151"] = "function: 0x3456918d0b55746e"
                 },
                 ["Cost"] = 0,
                 ["BaseRange"] = 4.2,
                 ["Duration"] = 1,
-                ["Range"] = "function: 0x000000006ed41c29",
+                ["Range"] = "function: 0x55ec449838c4d71e",
                 ["Image"] = 7651095094,
                 ["HiddenDetection"] = true,
-                ["Damage"] = "function: 0x0000000074521311",
-                ["Visual"] = "function: 0x000000003939c039",
+                ["Damage"] = "function: 0x4d93b60f09664cae",
+                ["Visual"] = "function: 0x953b6af00977192e",
                 ["Idle"] = 6093926547,
                 ["BaseDamage"] = 2.3,
                 ["Rate"] = 1.7,
                 ["Desc"] = "Jem will launch a continues barrage of crystals at the enemy for an extended duration.",
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000007fa97901",
+                    ["OnUse"] = "function: 0x79e956016293500e",
                     ["Title"] = "Repaint",
-                    ["Cost"] = "function: 0x00000000f3ad2971",
+                    ["Cost"] = "function: 0x8d497ea1cc195e4e",
                     ["NoShow"] = true,
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to heal."
@@ -2260,8 +2453,8 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["SecondTick"] = "function: 0x0000000077ec0ca1",
-                    ["PreAnimate:5850857151"] = "function: 0x0000000029df4e89"
+                    ["SecondTick"] = "function: 0xc2aaa5c4f3b4738e",
+                    ["PreAnimate:5850857151"] = "function: 0x3456918d0b55746e"
                 },
                 ["Cost"] = 0,
                 ["SAanim"] = 6155807894,
@@ -2270,28 +2463,28 @@ data = {
                 ["Image"] = 7652005199,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x00000000eaba71f1",
+                ["Visual"] = "function: 0xba8dd8c7883bd5ce",
                 ["Idle"] = 6093926547,
                 ["Effect"] = {
                     ["Visual"] = "Freeze",
                     ["BaseDamage"] = 0.4,
-                    ["Duration"] = "function: 0x000000002bfc4189",
+                    ["Duration"] = "function: 0x3e2cead0d82f593e",
                     ["BaseSpeed"] = 0.94,
                     ["Title"] = "Chill",
                     ["BaseDuration"] = 3.7,
-                    ["Speed"] = "function: 0x0000000038b650e1",
+                    ["Speed"] = "function: 0xba57fc6a0810226e",
                     ["Sound"] = "Mute",
                     ["Icon"] = "❄️",
-                    ["Damage"] = "function: 0x000000005a706659"
+                    ["Damage"] = "function: 0x379c8fa378d6b45e"
                 },
                 ["Rate"] = 3,
                 ["Desc"] = "Snow Minion will apply ❄️Chill to enemies which will slightly slow them down and deal damage to them over time.",
                 ["Model"] = "Snow",
                 ["IdleSpeed"] = 4,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000007fa97901",
+                    ["OnUse"] = "function: 0x79e956016293500e",
                     ["Title"] = "Repaint",
-                    ["Cost"] = "function: 0x00000000f3ad2971",
+                    ["Cost"] = "function: 0x8d497ea1cc195e4e",
                     ["NoShow"] = true,
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to heal."
@@ -2300,15 +2493,15 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["SecondTick"] = "function: 0x0000000077ec0ca1",
-                    ["PreAnimate:5850857151"] = "function: 0x0000000029df4e89"
+                    ["SecondTick"] = "function: 0xc2aaa5c4f3b4738e",
+                    ["PreAnimate:5850857151"] = "function: 0x3456918d0b55746e"
                 },
                 ["Cost"] = 0,
                 ["SAanim"] = 6155807894,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000007fa97901",
+                    ["OnUse"] = "function: 0x79e956016293500e",
                     ["Title"] = "Repaint",
-                    ["Cost"] = "function: 0x00000000f3ad2971",
+                    ["Cost"] = "function: 0x8d497ea1cc195e4e",
                     ["NoShow"] = true,
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to heal."
@@ -2316,8 +2509,8 @@ data = {
                 ["Range"] = 7.5,
                 ["Image"] = 7652257694,
                 ["HiddenDetection"] = true,
-                ["Damage"] = "function: 0x00000000f4486579",
-                ["Visual"] = "function: 0x00000000e1a406a9",
+                ["Damage"] = "function: 0xc9332bd5098af72e",
+                ["Visual"] = "function: 0x448af41499c6ceae",
                 ["Idle"] = 6093926547,
                 ["BaseDamage"] = 12,
                 ["AreaDamage"] = 5,
@@ -2330,24 +2523,24 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["SecondTick"] = "function: 0x0000000077ec0ca1",
-                    ["PreAnimate:5850857151"] = "function: 0x0000000029df4e89"
+                    ["SecondTick"] = "function: 0xc2aaa5c4f3b4738e",
+                    ["PreAnimate:5850857151"] = "function: 0x3456918d0b55746e"
                 },
                 ["Cost"] = 0,
                 ["BaseRange"] = 9,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000007fa97901",
+                    ["OnUse"] = "function: 0x79e956016293500e",
                     ["Title"] = "Repaint",
-                    ["Cost"] = "function: 0x00000000f3ad2971",
+                    ["Cost"] = "function: 0x8d497ea1cc195e4e",
                     ["NoShow"] = true,
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to heal."
                 },
-                ["Range"] = "function: 0x000000001d4e7c01",
+                ["Range"] = "function: 0x28250f6288c1e68e",
                 ["Image"] = 7652599245,
                 ["HiddenDetection"] = true,
-                ["Damage"] = "function: 0x0000000036c57b69",
-                ["Visual"] = "function: 0x0000000009ff41d9",
+                ["Damage"] = "function: 0xa84b72e9c76249de",
+                ["Visual"] = "function: 0xc9ff0c912c0e52ae",
                 ["Idle"] = 6093926547,
                 ["BaseDamage"] = 6,
                 ["Rate"] = 2.2,
@@ -2417,13 +2610,13 @@ data = {
                 ["Attack"] = 0
             },
             {
-                ["Visual"] = "function: 0x000000004776f999",
+                ["Visual"] = "function: 0x99155a369af47c8e",
                 ["Idle"] = 5985110923,
                 ["Cost"] = 5000,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000399865e1",
+                    ["OnUse"] = "function: 0xad8755e341567d6e",
                     ["Title"] = "Hero Limit +1",
-                    ["Cost"] = "function: 0x000000006deea681",
+                    ["Cost"] = "function: 0x17aaffa3b2bc5d8e",
                     ["Cooldown"] = 10,
                     ["Desc"] = "Pay Mana to increase the Hero limit by 1."
                 },
@@ -2455,7 +2648,7 @@ data = {
         ["Max"] = 6,
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000502d6249",
+                ["Visual"] = "function: 0xc8d0e4d35ef1695e",
                 ["Idle"] = 4940840948,
                 ["Cost"] = 120,
                 ["Range"] = 2.8,
@@ -2468,7 +2661,7 @@ data = {
                 ["Attack"] = 4940872569
             },
             {
-                ["Visual"] = "function: 0x00000000af394439",
+                ["Visual"] = "function: 0x51c8026baddefa8e",
                 ["Idle"] = 4940375970,
                 ["Cost"] = 900,
                 ["Flight"] = {
@@ -2489,7 +2682,7 @@ data = {
                 ["Attack"] = 4940433187
             },
             {
-                ["Visual"] = "function: 0x00000000fa35aea9",
+                ["Visual"] = "function: 0x2e6f6b36b259f59e",
                 ["Idle"] = 4939967890,
                 ["Cost"] = 2300,
                 ["Flight"] = {
@@ -2510,7 +2703,7 @@ data = {
                 ["Attack"] = 4939994610
             },
             {
-                ["Visual"] = "function: 0x00000000abd1b7d9",
+                ["Visual"] = "function: 0x48843ca06eb9e82e",
                 ["Noise"] = {["Sound"] = "Ufo", ["Adornee"] = "HumanoidRootPart"},
                 ["Idle"] = 4940207292,
                 ["Cost"] = 3200,
@@ -2532,7 +2725,7 @@ data = {
                 ["Attack"] = 4940229797
             },
             {
-                ["Visual"] = "function: 0x00000000445dbd09",
+                ["Visual"] = "function: 0xfe9a52859b17f1ce",
                 ["Idle"] = 4939852171,
                 ["Cost"] = 5500,
                 ["Flight"] = {
@@ -2577,13 +2770,13 @@ data = {
         ["Desc"] = "Volt points can be used to extend the range of Volt.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000002a305429",
+                ["Visual"] = "function: 0xa1bb0408fdd68eee",
                 ["Stats"] = {{["Icon"] = "⚡", ["Title"] = "Extend!", ["Bonus"] = 0}},
                 ["Idle"] = 0,
-                ["Cost"] = "function: 0x0000000078dec411",
-                ["OnSell"] = "function: 0x00000000765e21b1",
+                ["Cost"] = "function: 0x86b9611d633fb88e",
+                ["OnSell"] = "function: 0x69c9084ad275cace",
                 ["Range"] = 5.5,
-                ["UpdateTroop"] = "function: 0x0000000032ce6569",
+                ["UpdateTroop"] = "function: 0x9c677c9a38d200ae",
                 ["HiddenHide"] = true,
                 ["Image"] = 11779592277,
                 ["Rate"] = 10,
@@ -2603,34 +2796,34 @@ data = {
     },
     ["Oddport"] = {
         ["EnemyType"] = "Student",
-        ["StatChange"] = "function: 0x0000000025759651",
+        ["StatChange"] = "function: 0x6fad5cf77b1dc16e",
         ["Creator"] = 19211888,
         ["Max"] = 1,
         ["Stages"] = {
             {
-                ["SummonCheck"] = "function: 0x00000000f29396a1",
+                ["SummonCheck"] = "function: 0xab6ea5fa1cabce0e",
                 ["Stats"] = {{["BaseValue"] = 1, ["Title"] = "Limit: ", ["Icon"] = "⭐"}, ["Add"] = true},
                 ["Idle"] = 6816574518,
                 ["Cost"] = 720,
                 ["SummonStats"] = {
                     ["Oddgroup1"] = {
                         ["Visual"] = {
-                            ["PreAnimate:6833712852"] = "function: 0x00000000c2b684f1",
-                            ["PreAnimate:6879399677"] = "function: 0x0000000076320929",
-                            ["PreAnimate:6882761348"] = "function: 0x00000000298846b1"
+                            ["PreAnimate:6833712852"] = "function: 0xb127e3062bdfb86e",
+                            ["PreAnimate:6879399677"] = "function: 0x1eeeabcd6df0fb6e",
+                            ["PreAnimate:6882761348"] = "function: 0x9213547b9d73755e"
                         },
                         ["Offense"] = {
-                            ["Visual"] = "function: 0x000000003ee5dc89",
+                            ["Visual"] = "function: 0x80d7b0bbb69568ae",
                             ["HiddenDetection"] = true,
-                            ["Damage"] = "function: 0x000000007ce505b1",
+                            ["Damage"] = "function: 0x8aa5c4659777508e",
                             ["Rate"] = 0.5,
                             ["Range"] = 3,
                             ["Attack"] = 5007229383
                         },
                         ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
-                        ["OnSpawnFunction"] = "function: 0x0000000038e6d5f9",
+                        ["OnSpawnFunction"] = "function: 0x957bd82fc018996e",
                         ["Ability"] = {
-                            ["Spawner"] = {["Visual"] = "function: 0x00000000e80a54c9", ["Rate"] = 0.2, ["Enemy"] = ""}
+                            ["Spawner"] = {["Visual"] = "function: 0x919d7329e36868fe", ["Rate"] = 0.2, ["Enemy"] = ""}
                         },
                         ["Title"] = "Odd Gang",
                         ["Range"] = 3,
@@ -2655,29 +2848,29 @@ data = {
                 ["Attack"] = 6884549247
             },
             {
-                ["SummonCheck"] = "function: 0x00000000f29396a1",
+                ["SummonCheck"] = "function: 0xab6ea5fa1cabce0e",
                 ["Stats"] = {{["BaseValue"] = 1, ["Title"] = "Limit: ", ["Icon"] = "⭐"}, ["Add"] = true},
                 ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
                 ["Cost"] = 1500,
                 ["SummonStats"] = {
                     ["Oddgroup2"] = {
                         ["Visual"] = {
-                            ["PreAnimate:6833712852"] = "function: 0x0000000019313829",
-                            ["PreAnimate:6879399677"] = "function: 0x000000006fe93469",
-                            ["PreAnimate:6882761348"] = "function: 0x00000000838a4ee9"
+                            ["PreAnimate:6833712852"] = "function: 0x840bd4988b5539ae",
+                            ["PreAnimate:6879399677"] = "function: 0x0dd10918e097adde",
+                            ["PreAnimate:6882761348"] = "function: 0x8e1f388621c8c28e"
                         },
                         ["Offense"] = {
-                            ["Visual"] = "function: 0x0000000091fca179",
+                            ["Visual"] = "function: 0xc96563a6c35f098e",
                             ["HiddenDetection"] = true,
-                            ["Damage"] = "function: 0x0000000049b9c299",
+                            ["Damage"] = "function: 0x42eb7fd0eafb4e6e",
                             ["Rate"] = 0.5,
                             ["Range"] = 5,
                             ["Attack"] = 5007229383
                         },
                         ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
-                        ["OnSpawnFunction"] = "function: 0x000000004f6c4771",
+                        ["OnSpawnFunction"] = "function: 0xb43d8a009554854e",
                         ["Ability"] = {
-                            ["Spawner"] = {["Visual"] = "function: 0x00000000d6d86c29", ["Rate"] = 0.2, ["Enemy"] = ""}
+                            ["Spawner"] = {["Visual"] = "function: 0xd749c494a005b32e", ["Rate"] = 0.2, ["Enemy"] = ""}
                         },
                         ["Title"] = "Odd Gang",
                         ["Range"] = 5,
@@ -2702,30 +2895,30 @@ data = {
                 ["Attack"] = 6884549247
             },
             {
-                ["SummonCheck"] = "function: 0x00000000f29396a1",
+                ["SummonCheck"] = "function: 0xab6ea5fa1cabce0e",
                 ["Stats"] = {{["BaseValue"] = 1, ["Title"] = "Limit: ", ["Icon"] = "⭐"}, ["Add"] = true},
                 ["Idle"] = {6816574518, 6816641925, 6816725172, 6817842476, 6817401644},
                 ["Cost"] = 2700,
                 ["SummonStats"] = {
                     ["Oddgroup3"] = {
                         ["Visual"] = {
-                            ["PreAnimate:6833712852"] = "function: 0x0000000079cc5e19",
-                            ["PreAnimate:6879399677"] = "function: 0x00000000d32f2e31",
-                            ["PreAnimate:6882761348"] = "function: 0x00000000a0e13149"
+                            ["PreAnimate:6833712852"] = "function: 0xe7ec3ccf3053adee",
+                            ["PreAnimate:6879399677"] = "function: 0xecf1c08e2a60303e",
+                            ["PreAnimate:6882761348"] = "function: 0xcd78d6197982856e"
                         },
                         ["Offense"] = {
-                            ["Visual"] = "function: 0x00000000d3d8ef91",
+                            ["Visual"] = "function: 0x2e1b1dc9ede33f6e",
                             ["HiddenDetection"] = true,
-                            ["Damage"] = "function: 0x0000000081a58201",
+                            ["Damage"] = "function: 0xf88d298bc16eb44e",
                             ["Rate"] = 0.5,
                             ["Range"] = 6,
                             ["Attack"] = 5007229383
                         },
                         ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
-                        ["OnSpawnFunction"] = "function: 0x00000000b2137ed9",
+                        ["OnSpawnFunction"] = "function: 0x1eff2475aaa1b32e",
                         ["Ability"] = {
-                            ["Phase"] = "function: 0x000000009c7d3e99",
-                            ["Spawner"] = {["Visual"] = "function: 0x00000000b22301a1", ["Rate"] = 0.2, ["Enemy"] = ""}
+                            ["Phase"] = "function: 0xfe4818fdb7335dae",
+                            ["Spawner"] = {["Visual"] = "function: 0xe678fd2a16cbb00e", ["Rate"] = 0.2, ["Enemy"] = ""}
                         },
                         ["Title"] = "Odd Gang",
                         ["Range"] = 6,
@@ -2750,30 +2943,30 @@ data = {
                 ["Attack"] = 6884549247
             },
             {
-                ["SummonCheck"] = "function: 0x00000000f29396a1",
+                ["SummonCheck"] = "function: 0xab6ea5fa1cabce0e",
                 ["Stats"] = {{["BaseValue"] = 1, ["Title"] = "Limit: ", ["Icon"] = "⭐"}, ["Add"] = true},
                 ["Idle"] = {6816574518, 6821329266, 6816725172, 6817842476, 6817401644},
                 ["Cost"] = 4200,
                 ["SummonStats"] = {
                     ["Oddgroup4"] = {
                         ["Visual"] = {
-                            ["PreAnimate:6833712852"] = "function: 0x0000000084fda1a1",
-                            ["PreAnimate:6879399677"] = "function: 0x0000000006557179",
-                            ["PreAnimate:6882761348"] = "function: 0x00000000e4221ec1"
+                            ["PreAnimate:6833712852"] = "function: 0xb64c257be5cddd2e",
+                            ["PreAnimate:6879399677"] = "function: 0x6406fa291700a54e",
+                            ["PreAnimate:6882761348"] = "function: 0x5473eca0376211be"
                         },
                         ["Offense"] = {
-                            ["Visual"] = "function: 0x0000000039643ec9",
+                            ["Visual"] = "function: 0xa51cc77cef71174e",
                             ["HiddenDetection"] = true,
-                            ["Damage"] = "function: 0x000000009c50d9f1",
+                            ["Damage"] = "function: 0x518ccaa42fd5da2e",
                             ["Rate"] = 0.5,
                             ["Range"] = 10,
                             ["Attack"] = 5007229383
                         },
                         ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
-                        ["OnSpawnFunction"] = "function: 0x0000000095d87fa9",
+                        ["OnSpawnFunction"] = "function: 0xc63cdeef4e3ca30e",
                         ["Ability"] = {
-                            ["Phase"] = "function: 0x0000000066ea3221",
-                            ["Spawner"] = {["Visual"] = "function: 0x000000009e641ab9", ["Rate"] = 0.2, ["Enemy"] = ""}
+                            ["Phase"] = "function: 0x164fa647745cfe7e",
+                            ["Spawner"] = {["Visual"] = "function: 0x5d01c3d5d56befde", ["Rate"] = 0.2, ["Enemy"] = ""}
                         },
                         ["Title"] = "Odd Gang",
                         ["Range"] = 10,
@@ -2798,30 +2991,30 @@ data = {
                 ["Attack"] = 6884549247
             },
             {
-                ["SummonCheck"] = "function: 0x00000000f29396a1",
+                ["SummonCheck"] = "function: 0xab6ea5fa1cabce0e",
                 ["Stats"] = {{["BaseValue"] = 1, ["Title"] = "Limit: ", ["Icon"] = "⭐"}, ["Add"] = true},
                 ["Idle"] = {6816574518, 6821329266, 6816725172, 6817842476, 6817401644},
                 ["Cost"] = 6800,
                 ["SummonStats"] = {
                     ["Oddgroup5"] = {
                         ["Visual"] = {
-                            ["PreAnimate:6833712852"] = "function: 0x00000000166838d9",
-                            ["PreAnimate:6879399677"] = "function: 0x000000003d02afd1",
-                            ["PreAnimate:6882761348"] = "function: 0x00000000149ca369"
+                            ["PreAnimate:6833712852"] = "function: 0x46a40df78537c16e",
+                            ["PreAnimate:6879399677"] = "function: 0x3ce7ac50d1a6c69e",
+                            ["PreAnimate:6882761348"] = "function: 0xbc7cbb49f0c37dce"
                         },
                         ["Offense"] = {
-                            ["Visual"] = "function: 0x00000000b8117441",
+                            ["Visual"] = "function: 0xe41c6ae7c2fde12e",
                             ["HiddenDetection"] = true,
-                            ["Damage"] = "function: 0x00000000c3b00369",
+                            ["Damage"] = "function: 0xbbac7cde281ae80e",
                             ["Rate"] = 0.5,
                             ["Range"] = 12,
                             ["Attack"] = 5007229383
                         },
                         ["Idle"] = {6816574518, 6816641925, 6816725172, 6817120652, 6817401644},
-                        ["OnSpawnFunction"] = "function: 0x000000000fa71341",
+                        ["OnSpawnFunction"] = "function: 0x937480836d37f1ee",
                         ["Ability"] = {
-                            ["Phase"] = "function: 0x00000000c10ab9f1",
-                            ["Spawner"] = {["Visual"] = "function: 0x00000000e206b401", ["Rate"] = 0.2, ["Enemy"] = ""}
+                            ["Phase"] = "function: 0x2f6d6de230fc510e",
+                            ["Spawner"] = {["Visual"] = "function: 0x3474885f900b8a6e", ["Rate"] = 0.2, ["Enemy"] = ""}
                         },
                         ["Title"] = "Odd Gang",
                         ["Range"] = 12,
@@ -2873,18 +3066,18 @@ data = {
         ["Stages"] = {
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 5,
                 ["SAanim"] = 6155807894,
-                ["CustomTargetCheck"] = "function: 0x00000000080bfce1",
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["CustomTargetCheck"] = "function: 0x36d5600f2a2c7e8e",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244353672,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 10,
-                ["Visual"] = "function: 0x00000000325170e9",
+                ["Visual"] = "function: 0x4214a71fd96c0bce",
                 ["noLook"] = true,
                 ["Idle"] = 13191212963,
                 ["Rate"] = 60,
@@ -2895,18 +3088,18 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 10,
                 ["SAanim"] = 6155807894,
-                ["CustomTargetCheck"] = "function: 0x00000000080bfce1",
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["CustomTargetCheck"] = "function: 0x36d5600f2a2c7e8e",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244354577,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 45,
-                ["Visual"] = "function: 0x00000000325170e9",
+                ["Visual"] = "function: 0x4214a71fd96c0bce",
                 ["noLook"] = true,
                 ["Idle"] = 13191212963,
                 ["Effect"] = {
@@ -2926,18 +3119,18 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 20,
                 ["SAanim"] = 6155807894,
-                ["CustomTargetCheck"] = "function: 0x00000000080bfce1",
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["CustomTargetCheck"] = "function: 0x36d5600f2a2c7e8e",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244377479,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 90,
-                ["Visual"] = "function: 0x00000000325170e9",
+                ["Visual"] = "function: 0x4214a71fd96c0bce",
                 ["noLook"] = true,
                 ["Idle"] = 13191212963,
                 ["Effect"] = {
@@ -2957,18 +3150,18 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 30,
                 ["SAanim"] = 6155807894,
-                ["CustomTargetCheck"] = "function: 0x00000000080bfce1",
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["CustomTargetCheck"] = "function: 0x36d5600f2a2c7e8e",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244399920,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 190,
-                ["Visual"] = "function: 0x00000000325170e9",
+                ["Visual"] = "function: 0x4214a71fd96c0bce",
                 ["noLook"] = true,
                 ["Idle"] = 13191212963,
                 ["Effect"] = {
@@ -2988,18 +3181,18 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 40,
                 ["SAanim"] = 6155807894,
-                ["CustomTargetCheck"] = "function: 0x00000000080bfce1",
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["CustomTargetCheck"] = "function: 0x36d5600f2a2c7e8e",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244423985,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 290,
-                ["Visual"] = "function: 0x00000000325170e9",
+                ["Visual"] = "function: 0x4214a71fd96c0bce",
                 ["noLook"] = true,
                 ["Idle"] = 13191212963,
                 ["Effect"] = {
@@ -3018,17 +3211,17 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:13191217893"] = "function: 0x000000006f0a3991",
-                    ["PreAnimate:5850857151"] = "function: 0x00000000370fe901"
+                    ["PreAnimate:13191217893"] = "function: 0xf67579bb4c6b4cce",
+                    ["PreAnimate:5850857151"] = "function: 0x0b2042763b6da66e"
                 },
                 ["HiddenHide"] = true,
                 ["Cost"] = 80,
                 ["SAanim"] = 6155807894,
                 ["Range"] = 6,
-                ["UpdateTroop"] = "function: 0x00000000101bc4d1",
+                ["UpdateTroop"] = "function: 0x87e1beacc8d1f0ee",
                 ["Image"] = 13244439557,
                 ["HiddenDetection"] = true,
-                ["Damage"] = "function: 0x000000002f89ea69",
+                ["Damage"] = "function: 0x98f3d97f582cea8e",
                 ["DamageMin"] = 1000,
                 ["noLook"] = true,
                 ["Idle"] = 13198453723,
@@ -3043,8 +3236,8 @@ data = {
                 ["DamagePercent"] = 5,
                 ["Name"] = "Crucifix",
                 ["Model"] = "Crucifix",
-                ["Visual"] = "function: 0x00000000d0f57219",
-                ["CustomTargetCheck"] = "function: 0x000000004e9b6299",
+                ["Visual"] = "function: 0xf80b466e360078be",
+                ["CustomTargetCheck"] = "function: 0x60a775f633ee76ae",
                 ["Attack"] = 13191217893
             }
         },
@@ -3065,10 +3258,10 @@ data = {
         ["Cost"] = 410,
         ["SummonerHero"] = true,
         ["Desc"] = "When an enemy enters Stella's range she will place a drawing with in range.",
-        ["StatChange"] = "function: 0x00000000e6a7bf61",
+        ["StatChange"] = "function: 0x40ecff2984d42fee",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000ec68f339",
+                ["Visual"] = "function: 0x212b7b900066d72e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 4, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["Icon"] = "🎨", ["Title"] = "Create Art", ["Bonus"] = 0},
@@ -3079,7 +3272,7 @@ data = {
                 ["Range"] = 4,
                 ["Desc"] = "Wuffle will shoot a pellet at enemies, he has a very big range.",
                 ["Image"] = 7650732879,
-                ["KeyFrame"] = {["Notify:Sell"] = "function: 0x0000000025d9dba9"},
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xb72323d1474a867e"},
                 ["Model"] = "Stella1",
                 ["Rate"] = 16,
                 ["Damage"] = 0,
@@ -3087,7 +3280,7 @@ data = {
                 ["Attack"] = 7782923128
             },
             {
-                ["Visual"] = "function: 0x00000000ec68f339",
+                ["Visual"] = "function: 0x212b7b900066d72e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 4.5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["Icon"] = "🎨", ["Title"] = "Create Art", ["Bonus"] = 0},
@@ -3098,7 +3291,7 @@ data = {
                 ["Range"] = 4.5,
                 ["Desc"] = "Jem will launch a continues barrage of crystals at the enemy for an extended duration.",
                 ["Image"] = 7650734046,
-                ["KeyFrame"] = {["Notify:Sell"] = "function: 0x0000000025d9dba9"},
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xb72323d1474a867e"},
                 ["Model"] = "Stella2",
                 ["Rate"] = 15,
                 ["Damage"] = 0,
@@ -3106,7 +3299,7 @@ data = {
                 ["Attack"] = 7782865407
             },
             {
-                ["Visual"] = "function: 0x00000000ec68f339",
+                ["Visual"] = "function: 0x212b7b900066d72e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["Icon"] = "🎨", ["Title"] = "Create Art", ["Bonus"] = 0},
@@ -3117,7 +3310,7 @@ data = {
                 ["Range"] = 5,
                 ["Desc"] = "Snow Minion will apply ❄️Chill to enemies which will slightly slow them down and deal damage to them over time.",
                 ["Image"] = 7650735599,
-                ["KeyFrame"] = {["Notify:Sell"] = "function: 0x0000000025d9dba9"},
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xb72323d1474a867e"},
                 ["Model"] = "Stella3",
                 ["Rate"] = 14,
                 ["Damage"] = 0,
@@ -3125,7 +3318,7 @@ data = {
                 ["Attack"] = 7775122472
             },
             {
-                ["Visual"] = "function: 0x00000000ec68f339",
+                ["Visual"] = "function: 0x212b7b900066d72e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 5.5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["Icon"] = "🎨", ["Title"] = "Create Art", ["Bonus"] = 0},
@@ -3136,7 +3329,7 @@ data = {
                 ["Range"] = 5.5,
                 ["Desc"] = "Doug will throw bombs at enemies dealing splash damage.",
                 ["Image"] = 7650737019,
-                ["KeyFrame"] = {["Notify:Sell"] = "function: 0x0000000025d9dba9"},
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xb72323d1474a867e"},
                 ["Model"] = "Stella4",
                 ["Rate"] = 14,
                 ["Damage"] = 0,
@@ -3144,7 +3337,7 @@ data = {
                 ["Attack"] = 7775122472
             },
             {
-                ["Visual"] = "function: 0x00000000ec68f339",
+                ["Visual"] = "function: 0x212b7b900066d72e",
                 ["Stats"] = {
                     {["Icon"] = "🏹", ["BaseValue"] = 6, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
                     {["Icon"] = "🎨", ["Title"] = "Create Art", ["Bonus"] = 0},
@@ -3155,7 +3348,7 @@ data = {
                 ["Range"] = 6,
                 ["Desc"] = "Crab Bot will fire a lazer at an enemies, it has slow attack rate but high damage.",
                 ["Image"] = 7650740240,
-                ["KeyFrame"] = {["Notify:Sell"] = "function: 0x0000000025d9dba9"},
+                ["KeyFrame"] = {["Notify:Sell"] = "function: 0xb72323d1474a867e"},
                 ["Model"] = "Stella5",
                 ["Rate"] = 13,
                 ["Damage"] = 0,
@@ -3173,8 +3366,8 @@ data = {
     ["Sabotage"] = {
         ["Unobtainable"] = true,
         ["IconBox"] = {["Offset"] = "0, 0", ["Size"] = "0, 0"},
-        ["StatChange"] = "function: 0x00000000ca8bb621",
-        ["DialogueInfo"] = "function: 0x000000000842ce91",
+        ["StatChange"] = "function: 0x9bad7713cb551e0e",
+        ["DialogueInfo"] = "function: 0x8073372a972e09ce",
         ["Desc"] = "Placeholder hero for special hero-type enemies.",
         ["Shoulder"] = {
             ["Offset"] = Vector3.new(-0.10000000149011612, -0.10000000149011612, 0),
@@ -3183,12 +3376,12 @@ data = {
         },
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000052696d69",
+                ["Visual"] = "function: 0xa73b505e0d3dfa8e",
                 ["noLook"] = true,
                 ["Idle"] = 11140675888,
                 ["Cost"] = 500,
                 ["Range"] = 10,
-                ["UpdateTroop"] = "function: 0x00000000f80db9c9",
+                ["UpdateTroop"] = "function: 0x375ab8cfd4a9c5ee",
                 ["Stats"] = {{["Title"] = "Spawn Bombie", ["Icon"] = "💥"}},
                 ["Image"] = 7106153455,
                 ["Name"] = "Bombie Box",
@@ -3200,28 +3393,28 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["PreAnimate:15676238833"] = "function: 0x0000000034ffac51",
-                    ["gemBreak"] = "function: 0x00000000cb39ab19"
+                    ["PreAnimate:15676238833"] = "function: 0x681dbd4c4ec3794e",
+                    ["gemBreak"] = "function: 0x199c8c569d27f61e"
                 },
-                ["Stats"] = "function: 0x00000000575a0169",
+                ["Stats"] = "function: 0xb61d00ecf468b7ee",
                 ["Idle"] = 15675875763,
                 ["Cost"] = 7900,
                 ["SAanim"] = 15676238833,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000e07855f9",
+                    ["OnUse"] = "function: 0xe77d687d3725232e",
                     ["Title"] = "Feed Mana",
-                    ["Cost"] = "function: 0x00000000156b2a41",
+                    ["Cost"] = "function: 0x6f8f1cb427e9ba0e",
                     ["Public"] = true,
                     ["Cooldown"] = 4,
                     ["Desc"] = "Forfeit your mana to Crank."
                 },
                 ["Range"] = 0,
-                ["UpdateTroop"] = "function: 0x00000000f80db9c9",
+                ["UpdateTroop"] = "function: 0x375ab8cfd4a9c5ee",
                 ["Bonus"] = {["Cost"] = 1, ["Rate"] = 1, ["Range"] = 1, ["Damage"] = 1},
                 ["Image"] = 15655877661,
                 ["Name"] = "Crank",
                 ["Model"] = "Crank",
-                ["Visual"] = "function: 0x000000005e6a85b1",
+                ["Visual"] = "function: 0xbed364325423244e",
                 ["Damage"] = 0,
                 ["Rate"] = 0,
                 ["Attack"] = 0
@@ -3243,7 +3436,7 @@ data = {
         ["Desc"] = "Soda Pop is a ranged hero that is also able to deal splash damage.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000a0b31b09",
+                ["Visual"] = "function: 0xc49df90e5cd303be",
                 ["Idle"] = 8782033650,
                 ["Cost"] = 140,
                 ["Range"] = 3,
@@ -3257,7 +3450,7 @@ data = {
                 ["Attack"] = 8787746873
             },
             {
-                ["Visual"] = "function: 0x000000009b8b52e9",
+                ["Visual"] = "function: 0x6ba2dedc2bf3d06e",
                 ["Idle"] = 8808772186,
                 ["Cost"] = 1000,
                 ["Range"] = 5,
@@ -3271,7 +3464,7 @@ data = {
                 ["Attack"] = 8808945975
             },
             {
-                ["Visual"] = "function: 0x00000000c6deff49",
+                ["Visual"] = "function: 0xb0c7bf82f29b9ede",
                 ["Idle"] = 8809955042,
                 ["Cost"] = 3100,
                 ["Range"] = 7,
@@ -3285,7 +3478,7 @@ data = {
                 ["Attack"] = 8810144118
             },
             {
-                ["Visual"] = "function: 0x0000000062528539",
+                ["Visual"] = "function: 0x153291b8058cec0e",
                 ["Idle"] = 8830930699,
                 ["Cost"] = 5100,
                 ["Range"] = 7,
@@ -3299,7 +3492,7 @@ data = {
                 ["Attack"] = 8831196323
             },
             {
-                ["Visual"] = "function: 0x0000000027544629",
+                ["Visual"] = "function: 0x656d721218a07e7e",
                 ["Idle"] = 8835897983,
                 ["Cost"] = 6500,
                 ["Range"] = 12,
@@ -3325,7 +3518,7 @@ data = {
                 ["Shock"] = 13957088682
             },
             ["Model"] = "talk",
-            ["CameraFunction"] = "function: 0x00000000da16e681",
+            ["CameraFunction"] = "function: 0xf4b043d8b7ed56ee",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0,
                 ["MessageFont"] = Enum.Font.GothamMedium,
@@ -3333,7 +3526,7 @@ data = {
                 ["ContinueColor"] = Color3.fromRGB(196, 78, 255),
                 ["TileColor"] = Color3.fromRGB(67, 67, 67),
                 ["BackgroundColor"] = Color3.fromRGB(98, 98, 98),
-                ["ChangeFunction"] = "function: 0x00000000d5968bb9",
+                ["ChangeFunction"] = "function: 0x58e07718976c8d0e",
                 ["RectOffset"] = "30, 30",
                 ["BorderColor"] = Color3.fromRGB(196, 78, 255),
                 ["TilePicture"] = 6797718805,
@@ -3341,10 +3534,10 @@ data = {
                 ["TitleColor"] = Color3.fromRGB(196, 78, 255),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x000000008779cff1",
+            ["EmoteChange"] = "function: 0x22907b5ae6b2442e",
             ["TalkNoise"] = 13957446236
         },
-        ["Shoulder"] = {["Levels"] = {1, 2}, ["OnCreate"] = "function: 0x0000000001b45aa9", ["Animation"] = 8836274985},
+        ["Shoulder"] = {["Levels"] = {1, 2}, ["OnCreate"] = "function: 0x42405fe9672912ce", ["Animation"] = 8836274985},
         ["SpaceArea"] = 1.4
     },
     ["Tutoro"] = {
@@ -3380,21 +3573,21 @@ data = {
                 ["Angry"] = 6607675239
             },
             ["Model"] = "Tutoro",
-            ["CameraFunction"] = "function: 0x0000000093c024c9",
+            ["CameraFunction"] = "function: 0x0a4a7c12860782ce",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.8,
                 ["MessageFont"] = Enum.Font.GothamMedium,
                 ["MessageColor"] = Color3.fromRGB(255, 255, 255),
                 ["ContinueColor"] = Color3.fromRGB(132, 176, 223),
                 ["TileColor"] = Color3.fromRGB(255, 255, 255),
-                ["ChangeFunction"] = "function: 0x00000000c5c10ce1",
+                ["ChangeFunction"] = "function: 0x1dbe68c6d54946ee",
                 ["BorderColor"] = Color3.fromRGB(255, 255, 255),
                 ["TilePicture"] = 2261324458,
                 ["BackgroundColor"] = Color3.fromRGB(27, 42, 53),
                 ["TitleColor"] = Color3.fromRGB(255, 211, 107),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x0000000027c2d299",
+            ["EmoteChange"] = "function: 0x31ee648cf8891d0e",
             ["TalkNoise"] = 1304824213
         },
         ["Name"] = "Tutoro",
@@ -3411,13 +3604,13 @@ data = {
         ["Locked"] = false,
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000002520c081",
+                ["Visual"] = "function: 0x8f9afc2f8b9cb4ae",
                 ["Idle"] = 11198895568,
                 ["Cost"] = 160,
                 ["KeyFrame"] = {
-                    ["Show_Ghost"] = "function: 0x000000003f2c4209",
-                    ["PreAnimate:15204536110"] = "function: 0x0000000048accd21",
-                    ["Hide_Ghost"] = "function: 0x0000000079d8ccd1"
+                    ["Show_Ghost"] = "function: 0xc6296a05381dc72e",
+                    ["PreAnimate:15204536110"] = "function: 0x71e4aee244ee98ae",
+                    ["Hide_Ghost"] = "function: 0xcc5b65b21f38804e"
                 },
                 ["Duration"] = 2,
                 ["Range"] = 5,
@@ -3432,13 +3625,13 @@ data = {
                 ["Attack"] = 11198922780
             },
             {
-                ["Visual"] = "function: 0x0000000025af7dd9",
+                ["Visual"] = "function: 0x9fbed75b521b3aee",
                 ["Idle"] = 11218375080,
                 ["Cost"] = 950,
                 ["KeyFrame"] = {
-                    ["Show_Ghost"] = "function: 0x000000003f2c4209",
-                    ["PreAnimate:15204536110"] = "function: 0x0000000048accd21",
-                    ["Hide_Ghost"] = "function: 0x0000000079d8ccd1"
+                    ["Show_Ghost"] = "function: 0xc6296a05381dc72e",
+                    ["PreAnimate:15204536110"] = "function: 0x71e4aee244ee98ae",
+                    ["Hide_Ghost"] = "function: 0xcc5b65b21f38804e"
                 },
                 ["Duration"] = 2.75,
                 ["Range"] = 7,
@@ -3453,13 +3646,13 @@ data = {
                 ["Attack"] = 11219433488
             },
             {
-                ["Visual"] = "function: 0x00000000942bea31",
+                ["Visual"] = "function: 0x4cdacf96ec8a882e",
                 ["Idle"] = 11232098522,
                 ["Cost"] = 2500,
                 ["KeyFrame"] = {
-                    ["Show_Ghost"] = "function: 0x000000003f2c4209",
-                    ["PreAnimate:15204536110"] = "function: 0x0000000048accd21",
-                    ["Hide_Ghost"] = "function: 0x0000000079d8ccd1"
+                    ["Show_Ghost"] = "function: 0xc6296a05381dc72e",
+                    ["PreAnimate:15204536110"] = "function: 0x71e4aee244ee98ae",
+                    ["Hide_Ghost"] = "function: 0xcc5b65b21f38804e"
                 },
                 ["Duration"] = 3.5,
                 ["Range"] = 10,
@@ -3474,13 +3667,13 @@ data = {
                 ["Attack"] = 11233047590
             },
             {
-                ["Visual"] = "function: 0x0000000054d7a769",
+                ["Visual"] = "function: 0x38672608890e1a6e",
                 ["Idle"] = 11237832988,
                 ["Cost"] = 4250,
                 ["KeyFrame"] = {
-                    ["Show_Ghost"] = "function: 0x000000003f2c4209",
-                    ["PreAnimate:15204536110"] = "function: 0x0000000048accd21",
-                    ["Hide_Ghost"] = "function: 0x0000000079d8ccd1"
+                    ["Show_Ghost"] = "function: 0xc6296a05381dc72e",
+                    ["PreAnimate:15204536110"] = "function: 0x71e4aee244ee98ae",
+                    ["Hide_Ghost"] = "function: 0xcc5b65b21f38804e"
                 },
                 ["Duration"] = 4.75,
                 ["Range"] = 11,
@@ -3496,9 +3689,9 @@ data = {
             },
             {
                 ["KeyFrame"] = {
-                    ["Show_Ghost"] = "function: 0x000000003f2c4209",
-                    ["PreAnimate:15204536110"] = "function: 0x0000000048accd21",
-                    ["Hide_Ghost"] = "function: 0x0000000079d8ccd1"
+                    ["Show_Ghost"] = "function: 0xc6296a05381dc72e",
+                    ["PreAnimate:15204536110"] = "function: 0x71e4aee244ee98ae",
+                    ["Hide_Ghost"] = "function: 0xcc5b65b21f38804e"
                 },
                 ["Cost"] = 6000,
                 ["SAanim"] = 15204536110,
@@ -3508,54 +3701,54 @@ data = {
                 ["ViewRange"] = 20,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 15,
-                ["Visual"] = "function: 0x000000007b5b33e1",
+                ["Visual"] = "function: 0xed0b1efe4eb167ae",
                 ["Idle"] = 11238751837,
                 ["RatePause"] = 0.15,
                 ["Rate"] = 1.6,
                 ["Model"] = "Lure5",
                 ["HideAnim"] = 11238929457,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x00000000f96078c1",
+                    ["OnUse"] = "function: 0x79ff7ebfdd443e0e",
                     ["Title"] = "Soul Surge",
-                    ["Cost"] = "function: 0x00000000749e0a91",
+                    ["Cost"] = "function: 0xd50902e5fd87bbee",
                     ["Cooldown"] = 20,
                     ["AddSell"] = 0.5,
-                    ["Desc"] = "function: 0x00000000e0bce3e1"
+                    ["Desc"] = "function: 0xa29b172bd9c0a5ce"
                 },
                 ["Attack"] = 11239114867
             }
         },
         ["Desc"] = "Lure will deal continuous damage to the enemy he is targeting, at level 5 you can increase the number of enemies he is able to target.",
-        ["Shoulder"] = {["Levels"] = {1}, ["OnCreate"] = "function: 0x00000000da338dd9", ["Animation"] = {11277320099}},
+        ["Shoulder"] = {["Levels"] = {1}, ["OnCreate"] = "function: 0x8beb37db5346594e", ["Animation"] = {11277320099}},
         ["SpaceArea"] = 1.9,
         ["Name"] = "Lure",
         ["Variant"] = "Lure",
         ["EnemySpecies"] = "Undead",
-        ["LockButton"] = {["Title"] = "View Event", ["Func"] = "function: 0x000000009cb3ada1"},
+        ["LockButton"] = {["Title"] = "View Event", ["Func"] = "function: 0x93b9c38a83f8002e"},
         ["StunImmunity"] = true,
-        ["Attack"] = "function: 0x00000000f5ad5969"
+        ["Attack"] = "function: 0xabda2f02370fff0e"
     },
     ["Hayes"] = {
         ["EnemyType"] = "Scarecrow",
-        ["StatChange"] = "function: 0x00000000855763f1",
+        ["StatChange"] = "function: 0x329ff0a6481fbcae",
         ["Creator"] = 109837520,
         ["SummonerHero"] = true,
         ["Stages"] = {
             {
-                ["SummonCheck"] = "function: 0x00000000cbca5461",
+                ["SummonCheck"] = "function: 0xde789ab123d8362e",
                 ["Stats"] = {
                     {["Icon"] = "🥚", ["Title"] = "Crow Limit: 1", ["Bonus"] = 0},
                     {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 5,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000006431d01"
+                        ["BaseFix"] = "function: 0x62b3d174bf84b58e"
                     },
                     {
                         ["Icon"] = "👟",
                         ["BaseValue"] = 3.5,
                         ["Title"] = "Speed: ",
-                        ["BaseFix"] = "function: 0x0000000028423c39"
+                        ["BaseFix"] = "function: 0x28e5daac9f460fae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 2, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"}
                 },
@@ -3564,12 +3757,12 @@ data = {
                 ["SummonStats"] = {
                     ["Crow1"] = {
                         ["Visual"] = {
-                            ["PreAnimate:5850983876"] = "function: 0x000000006f553449",
-                            ["Death"] = "function: 0x000000000d721cf1"
+                            ["PreAnimate:5850983876"] = "function: 0xc2328a0d35b48d0e",
+                            ["Death"] = "function: 0x48869e6a451556ee"
                         },
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Rate"] = 1,
-                        ["Behavior"] = "function: 0x00000000603d6449",
+                        ["Behavior"] = "function: 0xae2864f997b9fbee",
                         ["Attack"] = 5850983876,
                         ["Walk"] = 5850958257,
                         ["Name"] = "Egg",
@@ -3591,20 +3784,20 @@ data = {
                 ["Attack"] = 5850857151
             },
             {
-                ["SummonCheck"] = "function: 0x00000000f354e739",
+                ["SummonCheck"] = "function: 0x2d28f1309b5d406e",
                 ["Stats"] = {
                     {["Icon"] = "🥚", ["Title"] = "Crow Limit: 2", ["Bonus"] = 0},
                     {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 7,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000006431d01"
+                        ["BaseFix"] = "function: 0x62b3d174bf84b58e"
                     },
                     {
                         ["Icon"] = "👟",
                         ["BaseValue"] = 4,
                         ["Title"] = "Speed: ",
-                        ["BaseFix"] = "function: 0x0000000028423c39"
+                        ["BaseFix"] = "function: 0x28e5daac9f460fae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 4, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"}
                 },
@@ -3613,12 +3806,12 @@ data = {
                 ["SummonStats"] = {
                     ["Crow2"] = {
                         ["Visual"] = {
-                            ["caw"] = "function: 0x0000000039eb2741",
-                            ["Death"] = "function: 0x0000000077d84869"
+                            ["caw"] = "function: 0x94f15d32ab4b798e",
+                            ["Death"] = "function: 0xe34f6962920e7e6e"
                         },
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Rate"] = 1,
-                        ["Behavior"] = "function: 0x0000000029c0e701",
+                        ["Behavior"] = "function: 0x9ec87c69d6fa072e",
                         ["Attack"] = 5847375372,
                         ["Walk"] = 5847208255,
                         ["Name"] = "Baby Crow",
@@ -3640,20 +3833,20 @@ data = {
                 ["Attack"] = 5850857151
             },
             {
-                ["SummonCheck"] = "function: 0x00000000ecd07bd1",
+                ["SummonCheck"] = "function: 0x7808c9d25a47b1ae",
                 ["Stats"] = {
                     {["Icon"] = "🥚", ["Title"] = "Crow Limit: 2", ["Bonus"] = 0},
                     {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 12,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000006431d01"
+                        ["BaseFix"] = "function: 0x62b3d174bf84b58e"
                     },
                     {
                         ["Icon"] = "👟",
                         ["BaseValue"] = 5,
                         ["Title"] = "Speed: ",
-                        ["BaseFix"] = "function: 0x0000000028423c39"
+                        ["BaseFix"] = "function: 0x28e5daac9f460fae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 15, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"}
                 },
@@ -3662,12 +3855,12 @@ data = {
                 ["SummonStats"] = {
                     ["Crow3"] = {
                         ["Visual"] = {
-                            ["caw"] = "function: 0x00000000f22155d9",
-                            ["Death"] = "function: 0x00000000bdad85a1"
+                            ["caw"] = "function: 0xb5b12c93ccde5a0e",
+                            ["Death"] = "function: 0x8d0738612b0097ee"
                         },
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Rate"] = 1,
-                        ["Behavior"] = "function: 0x00000000b1461259",
+                        ["Behavior"] = "function: 0x8f9853d9e1b58b6e",
                         ["Attack"] = 5847375372,
                         ["Walk"] = 5854006578,
                         ["Name"] = "Crow",
@@ -3689,20 +3882,20 @@ data = {
                 ["Attack"] = 5850857151
             },
             {
-                ["SummonCheck"] = "function: 0x000000001c5dce89",
+                ["SummonCheck"] = "function: 0x0369209461c225ee",
                 ["Stats"] = {
                     {["Icon"] = "🥚", ["Title"] = "Crow Limit: 3", ["Bonus"] = 0},
                     {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 18,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000006431d01"
+                        ["BaseFix"] = "function: 0x62b3d174bf84b58e"
                     },
                     {
                         ["Icon"] = "👟",
                         ["BaseValue"] = 8,
                         ["Title"] = "Speed: ",
-                        ["BaseFix"] = "function: 0x0000000028423c39"
+                        ["BaseFix"] = "function: 0x28e5daac9f460fae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 23, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"}
                 },
@@ -3711,12 +3904,12 @@ data = {
                 ["SummonStats"] = {
                     ["Crow4"] = {
                         ["Visual"] = {
-                            ["caw"] = "function: 0x00000000ad6c9a71",
-                            ["Death"] = "function: 0x00000000887fb739"
+                            ["caw"] = "function: 0xc751fe7b314b328e",
+                            ["Death"] = "function: 0xccbf0aa5cc088f6e"
                         },
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Rate"] = 0.8,
-                        ["Behavior"] = "function: 0x00000000cacbceb1",
+                        ["Behavior"] = "function: 0xbfb8ab55944f1eae",
                         ["Attack"] = 5847375372,
                         ["Walk"] = 5854006578,
                         ["Name"] = "Crow",
@@ -3738,20 +3931,20 @@ data = {
                 ["Attack"] = 5858521755
             },
             {
-                ["SummonCheck"] = "function: 0x00000000add500c1",
+                ["SummonCheck"] = "function: 0x13c9370b9ecb952e",
                 ["Stats"] = {
                     {["Icon"] = "🥚", ["Title"] = "Crow Limit: 4", ["Bonus"] = 0},
                     {
                         ["Icon"] = "❤️",
                         ["BaseValue"] = 20,
                         ["Title"] = "Health: ",
-                        ["BaseFix"] = "function: 0x0000000006431d01"
+                        ["BaseFix"] = "function: 0x62b3d174bf84b58e"
                     },
                     {
                         ["Icon"] = "👟",
                         ["BaseValue"] = 10,
                         ["Title"] = "Speed: ",
-                        ["BaseFix"] = "function: 0x0000000028423c39"
+                        ["BaseFix"] = "function: 0x28e5daac9f460fae"
                     },
                     {["Icon"] = "⚔️", ["BaseValue"] = 28, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"}
                 },
@@ -3760,12 +3953,12 @@ data = {
                 ["SummonStats"] = {
                     ["Crow5"] = {
                         ["Visual"] = {
-                            ["caw"] = "function: 0x00000000971a4ee9",
-                            ["Death"] = "function: 0x0000000054a92291"
+                            ["caw"] = "function: 0x7711cf68aff0330e",
+                            ["Death"] = "function: 0x2e87dba8af12b8ee"
                         },
                         ["Ability"] = {["Friendly"] = true, ["NoBump"] = true},
                         ["Rate"] = 0.7,
-                        ["Behavior"] = "function: 0x00000000024fb9e9",
+                        ["Behavior"] = "function: 0x6ed882355ad5a4ee",
                         ["Attack"] = 5847375372,
                         ["Walk"] = 5854006578,
                         ["Name"] = "Crow",
@@ -3805,7 +3998,7 @@ data = {
         ["Desc"] = "Maitake will apply the 💀Poison status to enemies and the ❤️Heal status to summons.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000029140919",
+                ["Visual"] = "function: 0x53c03dca5e2f4c2e",
                 ["Idle"] = 5467294592,
                 ["Cost"] = 350,
                 ["Range"] = 3.5,
@@ -3827,7 +4020,7 @@ data = {
                 ["Attack"] = 5467367745
             },
             {
-                ["Visual"] = "function: 0x000000002f558999",
+                ["Visual"] = "function: 0xaee9db144946821e",
                 ["Idle"] = 5472075210,
                 ["Cost"] = 1500,
                 ["ProjectileSpeed"] = 1.1,
@@ -3864,7 +4057,7 @@ data = {
                 ["TargetFriend"] = true,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x00000000a37d7239",
+                ["Visual"] = "function: 0x0130f8f1fc5e31ce",
                 ["Idle"] = 5472299437,
                 ["Effect"] = {
                     ["Visual"] = "PoisonParticle",
@@ -3900,7 +4093,7 @@ data = {
                 ["TargetFriend"] = true,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x00000000cedc7cc1",
+                ["Visual"] = "function: 0x0b4b69e58fb87f2e",
                 ["Idle"] = 5473911389,
                 ["Effect"] = {
                     ["Visual"] = "PoisonParticle",
@@ -3913,7 +4106,7 @@ data = {
                 },
                 ["HideCenter"] = true,
                 ["Rate"] = 2.9,
-                ["CustomTargeting"] = "function: 0x0000000011ba00a1",
+                ["CustomTargeting"] = "function: 0x6e37e3ad86ce03ae",
                 ["Model"] = "VoyagerLVL4",
                 ["FriendlyEffect"] = {
                     ["Visual"] = "Heal",
@@ -3937,7 +4130,7 @@ data = {
                 ["TargetFriend"] = true,
                 ["HiddenDetection"] = true,
                 ["Damage"] = 0,
-                ["Visual"] = "function: 0x00000000a75a6229",
+                ["Visual"] = "function: 0xe1546a080e01873e",
                 ["Idle"] = 5477921993,
                 ["Effect"] = {
                     ["Visual"] = "PoisonParticle",
@@ -3950,7 +4143,7 @@ data = {
                 },
                 ["HideCenter"] = true,
                 ["Rate"] = 2.7,
-                ["CustomTargeting"] = "function: 0x0000000011ba00a1",
+                ["CustomTargeting"] = "function: 0x6e37e3ad86ce03ae",
                 ["Model"] = "VoyagerLVL5",
                 ["FriendlyEffect"] = {
                     ["Visual"] = "Heal",
@@ -3984,7 +4177,7 @@ data = {
         ["Desc"] = "Chef has a short range but is able to deal a lot of damage at once which is useful for bypassing armor.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x00000000f0d0b5f9",
+                ["Visual"] = "function: 0x94c25ff503f49c0e",
                 ["Noise"] = {["Sound"] = "Stab", ["Adornee"] = "Spork"},
                 ["Idle"] = 4786993673,
                 ["Cost"] = 110,
@@ -3997,7 +4190,7 @@ data = {
                 ["Attack"] = 4787073990
             },
             {
-                ["Visual"] = "function: 0x0000000066d4c221",
+                ["Visual"] = "function: 0xd2f050847db9b23e",
                 ["Idle"] = 4787588920,
                 ["Cost"] = 1000,
                 ["Range"] = 3.5,
@@ -4009,7 +4202,7 @@ data = {
                 ["Attack"] = 4787622265
             },
             {
-                ["Visual"] = "function: 0x000000007dceddc9",
+                ["Visual"] = "function: 0xe578410d4d25c4ce",
                 ["Idle"] = 4787688110,
                 ["Cost"] = 2200,
                 ["Range"] = 4,
@@ -4021,7 +4214,7 @@ data = {
                 ["Attack"] = 4787696891
             },
             {
-                ["Visual"] = "function: 0x00000000054825b1",
+                ["Visual"] = "function: 0x150077979d01299e",
                 ["Idle"] = 4675096388,
                 ["Cost"] = 3700,
                 ["Range"] = 4.5,
@@ -4033,7 +4226,7 @@ data = {
                 ["Attack"] = 4769103047
             },
             {
-                ["Visual"] = "function: 0x00000000337a0ab9",
+                ["Visual"] = "function: 0x9d686460cb22962e",
                 ["Idle"] = 7024677824,
                 ["Cost"] = 6000,
                 ["Range"] = 5,
@@ -4051,21 +4244,21 @@ data = {
         ["DialogueInfo"] = {
             ["Animations"] = {["Normal"] = 6724303471, ["Sad"] = 6724303471, ["Idle"] = 6724303471},
             ["Model"] = "ChefLevel4",
-            ["CameraFunction"] = "function: 0x0000000030f44811",
+            ["CameraFunction"] = "function: 0x57fb1a14c9b44e0e",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.85,
                 ["MessageFont"] = Enum.Font.GothamMedium,
                 ["MessageColor"] = Color3.fromRGB(255, 255, 255),
                 ["ContinueColor"] = Color3.fromRGB(255, 124, 126),
                 ["TileColor"] = Color3.fromRGB(168, 0, 0),
-                ["ChangeFunction"] = "function: 0x000000007cf5e169",
+                ["ChangeFunction"] = "function: 0x2e55164c8dda772e",
                 ["BorderColor"] = Color3.fromRGB(25, 0, 0),
                 ["TilePicture"] = 6724356029,
                 ["BackgroundColor"] = Color3.fromRGB(53, 0, 0),
                 ["TitleColor"] = Color3.fromRGB(255, 124, 126),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x000000003ad18a41",
+            ["EmoteChange"] = "function: 0xbe5e6bbe6b93e5ee",
             ["TalkNoise"] = 6720849960
         },
         ["Shoulder"] = {
@@ -4084,7 +4277,7 @@ data = {
         ["Desc"] = "Voca will launch a rocket that deals a high amount of damage, she has a very large range.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000014b1ee09",
+                ["Visual"] = "function: 0x6b96bc9ff5742d3e",
                 ["Idle"] = 4966077486,
                 ["Cost"] = 120,
                 ["Range"] = 3,
@@ -4096,7 +4289,7 @@ data = {
                 ["Attack"] = 4966140806
             },
             {
-                ["Visual"] = "function: 0x000000002dffed71",
+                ["Visual"] = "function: 0x8b2e97ac538eba9e",
                 ["Idle"] = 4966914926,
                 ["Cost"] = 1000,
                 ["Range"] = 3.5,
@@ -4116,7 +4309,7 @@ data = {
                 ["Attack"] = 4966954942
             },
             {
-                ["Visual"] = "function: 0x00000000b034e589",
+                ["Visual"] = "function: 0xe9a4ce6a3b57376e",
                 ["Idle"] = 4967758083,
                 ["Cost"] = 3200,
                 ["Range"] = 16,
@@ -4131,7 +4324,7 @@ data = {
                 ["Attack"] = 4967779041
             },
             {
-                ["Visual"] = "function: 0x00000000e6484649",
+                ["Visual"] = "function: 0x9e8535047d2a42ae",
                 ["Idle"] = 4971958602,
                 ["Cost"] = 5200,
                 ["Range"] = 17,
@@ -4146,7 +4339,7 @@ data = {
                 ["Attack"] = 4972202745
             },
             {
-                ["Visual"] = "function: 0x000000001fd32589",
+                ["Visual"] = "function: 0x9ef46845c185ebfe",
                 ["Idle"] = 4968009577,
                 ["Cost"] = 6700,
                 ["Range"] = 25,
@@ -4228,14 +4421,14 @@ data = {
                 ["Attack"] = 0
             },
             {
-                ["Visual"] = "function: 0x000000005a3c2259",
+                ["Visual"] = "function: 0xcba397478d58820e",
                 ["Noise"] = {["Adornee"] = "HumanoidRootPart", ["Sound"] = "Music5", ["OnCreate"] = true},
                 ["Idle"] = 4794618006,
                 ["Cost"] = 7900,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000001faf1721",
+                    ["OnUse"] = "function: 0x43cd9b6dadbbcfee",
                     ["Title"] = "Fire Rate Boost",
-                    ["Cost"] = "function: 0x000000001ddffc09",
+                    ["Cost"] = "function: 0x527f8fa329def1ce",
                     ["Cooldown"] = 50,
                     ["Desc"] = "Boost the Attack Rate of Heroes in Range for 20s."
                 },
@@ -4269,7 +4462,7 @@ data = {
         ["Desc"] = "Scientist will fire a series of beams with long range, at level 5 she will fire for a set duration.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000002d5c06b1",
+                ["Visual"] = "function: 0xf532cd0885b966ae",
                 ["Idle"] = 4767732351,
                 ["Cost"] = 250,
                 ["Range"] = 10,
@@ -4281,7 +4474,7 @@ data = {
                 ["Attack"] = 4767818645
             },
             {
-                ["Visual"] = "function: 0x00000000fbc09339",
+                ["Visual"] = "function: 0xfd8e3f91c4badffe",
                 ["Idle"] = 4782105983,
                 ["Cost"] = 900,
                 ["Range"] = 12,
@@ -4293,7 +4486,7 @@ data = {
                 ["Attack"] = 4782127093
             },
             {
-                ["Visual"] = "function: 0x00000000de108079",
+                ["Visual"] = "function: 0xfc22287e04ac570e",
                 ["Idle"] = 4787414137,
                 ["Cost"] = 1900,
                 ["Range"] = 13,
@@ -4305,7 +4498,7 @@ data = {
                 ["Attack"] = 4787420097
             },
             {
-                ["Visual"] = "function: 0x00000000a892f101",
+                ["Visual"] = "function: 0xf79e772d8717b86e",
                 ["Idle"] = 4786707818,
                 ["Cost"] = 3700,
                 ["Duration"] = 2,
@@ -4320,7 +4513,7 @@ data = {
                 ["Attack"] = 4786669366
             },
             {
-                ["Visual"] = "function: 0x0000000067364b49",
+                ["Visual"] = "function: 0xf6c626df8c26172e",
                 ["Noise"] = {["Sound"] = "BEAM", ["Adornee"] = "BigCoil"},
                 ["Idle"] = 4786707818,
                 ["Cost"] = 6500,
@@ -4351,21 +4544,21 @@ data = {
                 ["Angry"] = 8109262055
             },
             ["Model"] = "ScientistTalk",
-            ["CameraFunction"] = "function: 0x000000000fca1091",
+            ["CameraFunction"] = "function: 0xb2a5c3a623d4120e",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.95,
                 ["MessageFont"] = Enum.Font.GothamMedium,
                 ["MessageColor"] = Color3.fromRGB(255, 255, 255),
                 ["ContinueColor"] = Color3.fromRGB(149, 149, 149),
                 ["TileColor"] = Color3.fromRGB(255, 255, 255),
-                ["ChangeFunction"] = "function: 0x000000002df538e9",
+                ["ChangeFunction"] = "function: 0x6b73c80ddb72cb2e",
                 ["BorderColor"] = Color3.fromRGB(255, 126, 255),
                 ["TilePicture"] = 1935508706,
                 ["BackgroundColor"] = Color3.fromRGB(61, 61, 61),
                 ["TitleColor"] = Color3.fromRGB(255, 126, 255),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x00000000d99ff901",
+            ["EmoteChange"] = "function: 0xe38dd3cbf2cf8c4e",
             ["TalkNoise"] = 6684518347
         },
         ["Shoulder"] = {["Offset"] = Vector3.new(0, 0, 0), ["Levels"] = {1}, ["Animation"] = 5048854587},
@@ -4376,12 +4569,12 @@ data = {
         ["Creator"] = 73015496,
         ["Cost"] = 400,
         ["Max"] = 6,
-        ["StatChange"] = "function: 0x0000000077cfd5b1",
+        ["StatChange"] = "function: 0xe9847be138afffde",
         ["Desc"] = "When Volt attacks an enemy, the attack will chain to the next nearby enemy.",
         ["IconBox"] = {["Offset"] = "160, 80", ["Size"] = "680, 680"},
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000089eee9a1",
+                ["Visual"] = "function: 0x895eef5b30e7ca6e",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 2, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 3, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -4398,12 +4591,12 @@ data = {
                 ["MaxHit"] = 3,
                 ["Model"] = "Volt1",
                 ["ChainMultiple"] = 0.909,
-                ["CustomTargeting"] = "function: 0x00000000d3b10f79",
+                ["CustomTargeting"] = "function: 0x896848736bc70d8e",
                 ["HiddenDetection"] = false,
                 ["Attack"] = 6296560024
             },
             {
-                ["Visual"] = "function: 0x000000003f1890d9",
+                ["Visual"] = "function: 0xbc3af7d6fda9b7ae",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 9, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 3.5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -4421,12 +4614,12 @@ data = {
                 ["MaxHit"] = 6,
                 ["Model"] = "Volt2",
                 ["ChainMultiple"] = 0.909,
-                ["CustomTargeting"] = "function: 0x00000000d3b10f79",
+                ["CustomTargeting"] = "function: 0x896848736bc70d8e",
                 ["HiddenDetection"] = true,
                 ["Attack"] = 6296560024
             },
             {
-                ["Visual"] = "function: 0x0000000051e7ad31",
+                ["Visual"] = "function: 0x6fe69e28ba6a23ee",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 13, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 4.5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -4443,12 +4636,12 @@ data = {
                 ["MaxHit"] = 9,
                 ["Model"] = "Volt3",
                 ["ChainMultiple"] = 0.909,
-                ["CustomTargeting"] = "function: 0x00000000d3b10f79",
+                ["CustomTargeting"] = "function: 0x896848736bc70d8e",
                 ["HiddenDetection"] = true,
                 ["Attack"] = 6290802819
             },
             {
-                ["Visual"] = "function: 0x0000000043200ae1",
+                ["Visual"] = "function: 0xde0aa6be70b58f2e",
                 ["Stats"] = {
                     {["Icon"] = "⚔️", ["BaseValue"] = 19, ["Title"] = "Damage: ", ["BonusCheck"] = "Damage"},
                     {["Icon"] = "🏹", ["BaseValue"] = 5, ["Title"] = "Range: ", ["BonusCheck"] = "Range"},
@@ -4465,7 +4658,7 @@ data = {
                 ["MaxHit"] = 12,
                 ["Model"] = "Volt4",
                 ["ChainMultiple"] = 0.909,
-                ["CustomTargeting"] = "function: 0x00000000d3b10f79",
+                ["CustomTargeting"] = "function: 0x896848736bc70d8e",
                 ["HiddenDetection"] = true,
                 ["Attack"] = 6290767058
             },
@@ -4479,19 +4672,19 @@ data = {
                 ["Cost"] = 6800,
                 ["SAanim"] = 0,
                 ["SpecialAbility"] = {
-                    ["OnUse"] = "function: 0x000000006e9801a9",
+                    ["OnUse"] = "function: 0x6a486d9de51c23ee",
                     ["Title"] = "Volt Point",
-                    ["Cost"] = "function: 0x000000009f41edc9",
+                    ["Cost"] = "function: 0xe95c15abe854408e",
                     ["Limit"] = 5,
                     ["Cooldown"] = 5,
                     ["Desc"] = "Pay to place a volt point."
                 },
                 ["Range"] = 5.5,
                 ["Image"] = 7142698018,
-                ["CustomTargeting"] = "function: 0x00000000d3b10f79",
+                ["CustomTargeting"] = "function: 0x896848736bc70d8e",
                 ["HiddenDetection"] = true,
                 ["Damage"] = 22,
-                ["Visual"] = "function: 0x000000001ba547b9",
+                ["Visual"] = "function: 0xcd2d4d2dbbff036e",
                 ["Idle"] = 6290037855,
                 ["ChainMultiple"] = 0.909,
                 ["Rate"] = 0.34,
@@ -4524,7 +4717,7 @@ data = {
                 ["Idle"] = 4911430378,
                 ["Cost"] = 500,
                 ["Range"] = 2.6,
-                ["Rate"] = 1.5,
+                ["Rate"] = 2.5,
                 ["Image"] = 7128484925,
                 ["Effect"] = {
                     ["Visual"] = "Electric",
@@ -4537,16 +4730,16 @@ data = {
                     ["Cooldown"] = 25
                 },
                 ["Model"] = "ComputerLevel1",
-                ["CustomTargetCheck"] = "function: 0x000000005cb2dff1",
+                ["CustomTargetCheck"] = "function: 0xade5023cef6c572e",
                 ["Damage"] = 0,
                 ["HiddenDetection"] = false,
                 ["Attack"] = 4911459330
             },
             {
-                ["Visual"] = "function: 0x00000000dbf89c29",
+                ["Visual"] = "function: 0x78b8b89315a40eee",
                 ["Noise"] = {["Adornee"] = "PlugBottom", ["Sound"] = "Stab", ["Delay"] = 0.1},
                 ["Idle"] = 4912008113,
-                ["Cost"] = 1200,
+                ["Cost"] = 2500,
                 ["Range"] = 3.2,
                 ["Effect"] = {
                     ["Visual"] = "Electric",
@@ -4559,17 +4752,17 @@ data = {
                     ["Cooldown"] = 25
                 },
                 ["Image"] = 7128602981,
-                ["CustomTargetCheck"] = "function: 0x000000001e337b49",
+                ["CustomTargetCheck"] = "function: 0x6517fe8410a5904e",
                 ["Model"] = "ComputerLevel2",
-                ["Rate"] = 1.5,
+                ["Rate"] = 2.5,
                 ["Damage"] = 0,
                 ["HiddenDetection"] = true,
                 ["Attack"] = 4912042331
             },
             {
-                ["Visual"] = "function: 0x00000000abbce841",
+                ["Visual"] = "function: 0x4f66c3b4548f961e",
                 ["Idle"] = 4912150276,
-                ["Cost"] = 2300,
+                ["Cost"] = 3000,
                 ["Effect"] = {
                     ["Visual"] = "Electric",
                     ["Sound"] = "Zap4",
@@ -4582,8 +4775,8 @@ data = {
                 },
                 ["Duration"] = 0.7,
                 ["Range"] = 4.6,
-                ["CustomTargetCheck"] = "function: 0x00000000e3539661",
-                ["Rate"] = 1.5,
+                ["CustomTargetCheck"] = "function: 0xb2ebe76aad63068e",
+                ["Rate"] = 2.5,
                 ["Image"] = 7128825954,
                 ["RatePause"] = 0.25,
                 ["Model"] = "ComputerLevel3",
@@ -4593,9 +4786,9 @@ data = {
                 ["Attack"] = {4912181927, 4912196300}
             },
             {
-                ["Visual"] = "function: 0x00000000db7517a9",
+                ["Visual"] = "function: 0x6772ef5af54678fe",
                 ["Idle"] = 4912300658,
-                ["Cost"] = 3100,
+                ["Cost"] = 4200,
                 ["Effect"] = {
                     ["Visual"] = "Electric",
                     ["Title"] = "Shock",
@@ -4607,8 +4800,8 @@ data = {
                 },
                 ["Duration"] = 0.8,
                 ["Range"] = 5.2,
-                ["CustomTargetCheck"] = "function: 0x00000000d553ab19",
-                ["Rate"] = 1.3,
+                ["CustomTargetCheck"] = "function: 0x8c5dd396701d4eae",
+                ["Rate"] = 2.3,
                 ["Image"] = 7128871167,
                 ["RatePause"] = 0.25,
                 ["Model"] = "ComputerLevel4",
@@ -4618,9 +4811,9 @@ data = {
                 ["Attack"] = {4912316156, 4912335551}
             },
             {
-                ["Visual"] = "function: 0x00000000fcb31a91",
+                ["Visual"] = "function: 0x1e0108c95701655e",
                 ["Idle"] = 4912420785,
-                ["Cost"] = 5200,
+                ["Cost"] = 6500,
                 ["Effect"] = {
                     ["NoStack"] = {"Trapped"},
                     ["Sound"] = "Zap4",
@@ -4633,8 +4826,8 @@ data = {
                 },
                 ["Duration"] = 1.4,
                 ["Range"] = 6,
-                ["CustomTargetCheck"] = "function: 0x0000000096734c11",
-                ["Rate"] = 1.2,
+                ["CustomTargetCheck"] = "function: 0x9b4fcfdf4dbc74ce",
+                ["Rate"] = 2.2,
                 ["Image"] = 7128920588,
                 ["RatePause"] = 0.2,
                 ["Model"] = "ComputerLevel5",
@@ -4658,7 +4851,7 @@ data = {
         ["Shoulder"] = {["Animation"] = 4675427157, ["Levels"] = {1, 2}},
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x000000009b7f1d41",
+                ["Visual"] = "function: 0x590248f534dd39be",
                 ["Idle"] = 4675427157,
                 ["Cost"] = 600,
                 ["Duration"] = 3,
@@ -4679,7 +4872,7 @@ data = {
                 ["Attack"] = 4675442800
             },
             {
-                ["Visual"] = "function: 0x00000000fab516a9",
+                ["Visual"] = "function: 0x004cc9d0be53690e",
                 ["Idle"] = 4675427157,
                 ["Cost"] = 1100,
                 ["Duration"] = 3.2,
@@ -4701,7 +4894,7 @@ data = {
                 ["Attack"] = 4675442800
             },
             {
-                ["Visual"] = "function: 0x0000000095f32391",
+                ["Visual"] = "function: 0x9093fa4beedfc45e",
                 ["Idle"] = 4675427157,
                 ["Cost"] = 2500,
                 ["Duration"] = 3.7,
@@ -4723,7 +4916,7 @@ data = {
                 ["Attack"] = 4675442800
             },
             {
-                ["Visual"] = "function: 0x00000000aed14fd9",
+                ["Visual"] = "function: 0xe164e4c2d18a726e",
                 ["Idle"] = 4675427157,
                 ["Cost"] = 3800,
                 ["Duration"] = 4,
@@ -4745,7 +4938,7 @@ data = {
                 ["Attack"] = 4675442800
             },
             {
-                ["Visual"] = "function: 0x00000000b7574261",
+                ["Visual"] = "function: 0xd1dd96d511a8e93e",
                 ["Idle"] = 4675427157,
                 ["Cost"] = 6000,
                 ["Duration"] = 4.1,
@@ -4773,7 +4966,7 @@ data = {
         ["IconBox"] = {["Offset"] = "180, 90", ["Size"] = "650, 650"},
         ["Cost"] = 450,
         ["Max"] = 1,
-        ["StatChange"] = "function: 0x0000000098d396e1",
+        ["StatChange"] = "function: 0x05a411ff661f674e",
         ["Desc"] = "Kart Kid will drive down the path and runover enemies, at level 5 he will be invincible for a short time.",
         ["Stages"] = {
             {
@@ -4782,7 +4975,7 @@ data = {
                 ["SummonStats"] = {
                     ["BoxCart"] = {
                         ["Name"] = "Kart Kid",
-                        ["OnSpawnFunction"] = "function: 0x00000000ea4fc5f1",
+                        ["OnSpawnFunction"] = "function: 0xabbd0b666161458e",
                         ["Speed"] = 2.5,
                         ["Ability"] = {["Friendly"] = true},
                         ["Health"] = 30,
@@ -4804,7 +4997,7 @@ data = {
                 ["SummonStats"] = {
                     ["Wagon"] = {
                         ["Name"] = "Kart Kid",
-                        ["OnSpawnFunction"] = "function: 0x00000000e1a2b2c1",
+                        ["OnSpawnFunction"] = "function: 0x8b0357d12e5a2bee",
                         ["Speed"] = 2.8,
                         ["Ability"] = {["Friendly"] = true},
                         ["Health"] = 90,
@@ -4826,7 +5019,7 @@ data = {
                 ["SummonStats"] = {
                     ["GoKart"] = {
                         ["Name"] = "Kart Kid",
-                        ["OnSpawnFunction"] = "function: 0x0000000023e14809",
+                        ["OnSpawnFunction"] = "function: 0x945572c3ae3b104e",
                         ["Speed"] = 2.8,
                         ["Ability"] = {["Friendly"] = true},
                         ["Health"] = 200,
@@ -4848,7 +5041,7 @@ data = {
                 ["SummonStats"] = {
                     ["Kart"] = {
                         ["Name"] = "Kart Kid",
-                        ["OnSpawnFunction"] = "function: 0x000000009da442d1",
+                        ["OnSpawnFunction"] = "function: 0x5c5c906e6dd0ceae",
                         ["Speed"] = 3,
                         ["Ability"] = {["Friendly"] = true},
                         ["Health"] = 320,
@@ -4870,14 +5063,14 @@ data = {
                 ["SummonStats"] = {
                     ["Ultrakart2"] = {
                         ["Visual"] = {
-                            ["Phase"] = "function: 0x000000005e6322a9",
-                            ["PreAnimate:6833712852"] = "function: 0x00000000ad75f861",
-                            ["Breakdown"] = "function: 0x000000004f15a119"
+                            ["Phase"] = "function: 0xf599da9d9924af6e",
+                            ["PreAnimate:6833712852"] = "function: 0x0e44ca8b23fe906e",
+                            ["Breakdown"] = "function: 0x04dcc6f4739dd78e"
                         },
                         ["ExtraStats"] = {{["Title"] = "Invincible: 7s", ["Icon"] = "⭐"}},
                         ["Name"] = "Kart Kid",
                         ["Speed"] = 3.5,
-                        ["Ability"] = {["Friendly"] = true, ["Phase"] = "function: 0x00000000486929f1"},
+                        ["Ability"] = {["Friendly"] = true, ["Phase"] = "function: 0x3fe4a126d338e62e"},
                         ["Health"] = 450,
                         ["Walk"] = 5108216172
                     }
@@ -4900,7 +5093,7 @@ data = {
                 ["Confused"] = 14046899699
             },
             ["Model"] = "TalkKid",
-            ["CameraFunction"] = "function: 0x00000000a857f051",
+            ["CameraFunction"] = "function: 0xb032066c154f38ce",
             ["BoxDesign"] = {
                 ["TileTransparency"] = 0.2,
                 ["MessageFont"] = Enum.Font.GothamMedium,
@@ -4908,7 +5101,7 @@ data = {
                 ["ContinueColor"] = Color3.fromRGB(16, 27, 68),
                 ["TileColor"] = Color3.fromRGB(0, 0, 0),
                 ["BackgroundColor"] = Color3.fromRGB(70, 122, 199),
-                ["ChangeFunction"] = "function: 0x00000000c3775f29",
+                ["ChangeFunction"] = "function: 0x9a8232a52083b0ee",
                 ["RectOffset"] = "150, 150",
                 ["BorderColor"] = Color3.fromRGB(16, 27, 68),
                 ["TilePicture"] = 5686710261,
@@ -4916,7 +5109,7 @@ data = {
                 ["TitleColor"] = Color3.fromRGB(255, 151, 24),
                 ["TitleFont"] = Enum.Font.GothamBold
             },
-            ["EmoteChange"] = "function: 0x000000002d74a201",
+            ["EmoteChange"] = "function: 0x8d163ed2d646bb0e",
             ["TalkNoise"] = 14033200964
         },
         ["Name"] = "Kart Kid",
@@ -4935,7 +5128,7 @@ data = {
         ["Desc"] = "Hotdog Frank will attack every enemy that enters his range and will his full damage to them all.",
         ["Stages"] = {
             {
-                ["Visual"] = "function: 0x0000000021131a09",
+                ["Visual"] = "function: 0x0671489e10bd874e",
                 ["Idle"] = 5202211568,
                 ["Cost"] = 135,
                 ["Range"] = 2,
@@ -4947,7 +5140,7 @@ data = {
                 ["Attack"] = 5202466424
             },
             {
-                ["Visual"] = "function: 0x00000000dcb07d21",
+                ["Visual"] = "function: 0x09cf54d72e1edc6e",
                 ["Idle"] = 5205174644,
                 ["Cost"] = 900,
                 ["Range"] = 2.5,
@@ -4961,7 +5154,7 @@ data = {
                 ["Attack"] = 5205303534
             },
             {
-                ["Visual"] = "function: 0x000000009a32c459",
+                ["Visual"] = "function: 0x15d1602c4d7b1b8e",
                 ["Idle"] = 5205597950,
                 ["Cost"] = 1800,
                 ["Range"] = 4.5,
@@ -4975,7 +5168,7 @@ data = {
                 ["Attack"] = 5205989142
             },
             {
-                ["Visual"] = "function: 0x000000006092a4d1",
+                ["Visual"] = "function: 0x3d636c737198d5ae",
                 ["Idle"] = 5206346820,
                 ["Cost"] = 3000,
                 ["Range"] = 6.3,
@@ -4989,7 +5182,7 @@ data = {
                 ["Attack"] = 5206669032
             },
             {
-                ["Visual"] = "function: 0x00000000551592a9",
+                ["Visual"] = "function: 0x68b179c56da5efce",
                 ["Idle"] = 5207035778,
                 ["Cost"] = 5200,
                 ["Range"] = 7.5,
