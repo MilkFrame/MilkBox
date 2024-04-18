@@ -1,72 +1,98 @@
 data = {
-    ["CreateFloater"] = "function: 0x00000000a618d071",
-    ["Progress"] = "function: 0x00000000b0abc271",
-    ["Award"] = "function: 0x00000000750ffaa1",
-    ["GetBadge"] = "function: 0x00000000ac8e07f1",
-    ["IsActive"] = "function: 0x00000000fadb97c9",
-    ["EggEvent"] = "function: 0x00000000558a0da9",
-    ["GetEggs"] = "function: 0x00000000fafa2ee1",
+    ["CreateFloater"] = "function: 0x2ac7879cedebdcee",
+    ["Progress"] = "function: 0x169e26894b872b4e",
+    ["IsActive"] = "function: 0x3f0e654a63c9506e",
+    ["Award"] = "function: 0x235b0b30e3d3606e",
+    ["GetBadge"] = "function: 0xec0d9c87a9aac97e",
+    ["EggEvent"] = "function: 0x144713b2124e162e",
+    ["ThrowEgg"] = "function: 0xf5c7b99128bc34de",
+    ["GetEggs"] = "function: 0x97db73b5e8e3a39e",
     ["Badges"] = {
-        ["bounty_Angler"] = 2153643510,
-        ["egg_Virtual"] = 2143639440,
-        ["egg_Ghost"] = 2143639444,
-        ["egg_Cosmic"] = 2143639418,
-        ["egg_Raid"] = 2143639479,
+        ["egg_Champion"] = 2143639501,
+        ["bounty_Ball"] = 2153643611,
         ["xmas_Overcooked"] = 61226963975409,
-        ["bounty_Train"] = 2153643456,
+        ["xmas_Cage"] = 2176569575500212,
         ["xmas_Frosty"] = 1218281997507021,
         ["xmas_Fish"] = 1914178385840965,
+        ["egg2_Molly"] = 2627619945120127,
+        ["bounty_Mimic"] = 2153643631,
+        ["bounty_Guy"] = 2153643542,
+        ["xmas_Lumber"] = 1931158366016089,
+        ["xmas_Tallest"] = 1511288707248641,
+        ["egg2_Swap"] = 2089602064742188,
+        ["egg_Goblin"] = 2143639265,
+        ["bounty_Pixies"] = 2153643503,
+        ["xmas_Crank"] = 3176280753132709,
+        ["egg_Mod"] = 2143639471,
+        ["egg_Tiny"] = 2143639433,
+        ["egg2_Nuki"] = 1331418611712646,
+        ["egg_Daily"] = 2143639388,
+        ["egg2_Chef"] = 254574931685424,
+        ["bounty_Neko"] = 2153643561,
+        ["egg2_Waste"] = 929300966013592,
+        ["egg2_Lonely"] = 1894584063442029,
+        ["egg2_Slime"] = 3557986016742674,
+        ["egg_Clock"] = 2143639467,
+        ["egg2_Jester"] = 1415107814094567,
+        ["egg2_Bloom"] = 3715650319183373,
+        ["egg_Speedy"] = 2143639462,
+        ["bounty_Zombie"] = 2153643512,
+        ["bounty_Angler"] = 2153643510,
+        ["xmas_Snowflake"] = 729656489123606,
+        ["egg_Ghost"] = 2143639444,
+        ["egg_Cosmic"] = 2143639418,
+        ["egg2_Ghost"] = 1998534531425407,
         ["bounty_Lamp"] = 2153643521,
         ["egg_Painted"] = 2143639358,
         ["bounty_Evoker"] = 2153643579,
-        ["bounty_Mimic"] = 2153643631,
-        ["bounty_Guy"] = 2153643542,
-        ["egg_Faberge"] = 2143639520,
-        ["egg_Byte"] = 2143639302,
+        ["egg_Luca"] = 2143639396,
+        ["egg2_Champ"] = 3566632891201374,
         ["xmas_Stan"] = 2253982553463683,
-        ["egg_Goblin"] = 2143639265,
-        ["egg_Troublemaker"] = 2143639485,
-        ["xmas_Lumber"] = 1931158366016089,
-        ["egg_Hex"] = 2143639449,
-        ["xmas_Snowball"] = 2879739954245514,
-        ["xmas_Crank"] = 3176280753132709,
-        ["xmas_Deer"] = 1950230854946112,
-        ["xmas_Cookie"] = 224646028052166,
-        ["egg_Champion"] = 2143639501,
-        ["egg_Mod"] = 2143639471,
-        ["egg_Tiny"] = 2143639433,
-        ["xmas_Cage"] = 2176569575500212,
-        ["bounty_Champion"] = 2153643516,
-        ["egg_Daily"] = 2143639388,
-        ["xmas_Scrooge"] = 3258908282836636,
-        ["xmas_Tallest"] = 1511288707248641,
-        ["xmas_Festive"] = 2161518001317856,
-        ["xmas_Snowflake"] = 729656489123606,
-        ["egg_SuddenDeath"] = 2143639495,
-        ["bounty_Ball"] = 2153643611,
-        ["bounty_Blastech"] = 2153643593,
-        ["egg_2D"] = 2143639344,
-        ["bounty_Neko"] = 2153643561,
-        ["egg_Lemon"] = 2143639425,
-        ["bounty_Twin"] = 2153643581,
+        ["egg2_Launcher"] = 2756282616189248,
+        ["egg2_Coin"] = 2180014637757827,
+        ["egg2_Treasure"] = 4147452979601356,
+        ["egg_Pixel"] = 2143639410,
         ["bounty_Wolf"] = 2153643578,
-        ["egg_Clock"] = 2143639467,
-        ["bounty_Frog"] = 2153643576,
+        ["bounty_Blastech"] = 2153643593,
+        ["xmas_Snowball"] = 2879739954245514,
+        ["egg2_Power"] = 621646653331277,
+        ["egg2_Taco"] = 3164334663848004,
+        ["egg2_Tidal"] = 4375986058234717,
+        ["egg2_WA"] = 604164273050663,
+        ["egg_Faberge"] = 2143639520,
+        ["bounty_Champion"] = 2153643516,
+        ["egg2_Shroom"] = 2993371833217005,
+        ["egg2_Rock"] = 4333887621048448,
+        ["egg2_Mana"] = 3378490968965681,
+        ["xmas_Scrooge"] = 3258908282836636,
+        ["egg_Virtual"] = 2143639440,
+        ["xmas_Festive"] = 2161518001317856,
+        ["egg2_HP"] = 4265024514217026,
+        ["egg_SuddenDeath"] = 2143639495,
+        ["egg_Raid"] = 2143639479,
+        ["bounty_Train"] = 2153643456,
+        ["egg_2D"] = 2143639344,
+        ["bounty_Imp"] = 2153643486,
+        ["bounty_Twin"] = 2153643581,
+        ["egg2_Doors"] = 1038580001357090,
+        ["egg2_Noob"] = 2927206892060874,
+        ["egg_Byte"] = 2143639302,
+        ["egg_Troublemaker"] = 2143639485,
         ["xmas_Mochi"] = 1230812571662767,
         ["egg_Slime"] = 2143639260,
         ["xmas_Pastry"] = 3387380924098089,
-        ["egg_Friend"] = 2143639329,
-        ["bounty_Pixies"] = 2153643503,
-        ["bounty_Imp"] = 2153643486,
-        ["egg_Luca"] = 2143639396,
+        ["egg_Hex"] = 2143639449,
+        ["xmas_Deer"] = 1950230854946112,
+        ["xmas_Cookie"] = 224646028052166,
+        ["egg_Lemon"] = 2143639425,
         ["egg_Dump"] = 2143639317,
         ["egg_Necro"] = 2143639457,
-        ["egg_Pixel"] = 2143639410,
-        ["bounty_Zombie"] = 2153643512,
-        ["egg_Speedy"] = 2143639462
+        ["egg2_Sky"] = 2700526464715130,
+        ["bounty_Frog"] = 2153643576,
+        ["egg_Friend"] = 2143639329
     },
-    ["CountEggs"] = "function: 0x00000000a2001b79",
-    ["GetEgg"] = "function: 0x00000000cb040b89",
+    ["CountEggs"] = "function: 0xec62ab3e78b6a18e",
+    ["GetEgg"] = "function: 0x04568e0c985c4c2e",
     ["Quests"] = {
         {
             ["Badge"] = 2143639501,
@@ -359,7 +385,7 @@ data = {
         {
             ["Badge"] = 2143639520,
             ["WinDesc"] = "Collect all of the Eggs.",
-            ["OwnedCheck"] = "function: 0x0000000029764511",
+            ["OwnedCheck"] = "function: 0x391d8d8e69e00e8e",
             ["Rewards"] = {["Followers"] = {"egg_Faberge"}, ["Skin"] = "mimicYasuke", ["Coins"] = 0},
             ["Hidden"] = true,
             ["Desc"] = "Collect all of the Eggs.",
@@ -731,7 +757,7 @@ data = {
             ["Desc"] = "I think he wants you to make your own cookies.",
             ["Image"] = 15656031876,
             ["Title"] = "Lil Chip",
-            ["FollowerCheck"] = true,
+            ["FollowerCheck"] = false,
             ["EggQuest"] = "xmas_Cookie",
             ["Type"] = "Quest"
         },
@@ -758,6 +784,307 @@ data = {
             ["FollowerCheck"] = true,
             ["EggQuest"] = "xmas_Lumber",
             ["Type"] = "Quest"
+        },
+        {
+            ["Badge"] = 1331418611712646,
+            ["WinDesc"] = "Still a Nuki at heart.",
+            ["Rewards"] = {["Followers"] = {"egg2_Nuki"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Still a Nuki at heart.",
+            ["Image"] = 16945252324,
+            ["Title"] = "Nuki Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Nuki",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2627619945120127,
+            ["WinDesc"] = "Two peas in a space pod.",
+            ["Rewards"] = {["Followers"] = {"egg2_Molly"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Two peas in a space pod.",
+            ["Image"] = 16945249086,
+            ["Title"] = "Molly Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Molly",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 929300966013592,
+            ["WinDesc"] = "Something about roads and them being ahead idk.",
+            ["Rewards"] = {["Followers"] = {"egg2_Waste"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Something about roads and them being ahead idk.",
+            ["Image"] = 16945265569,
+            ["Title"] = "Wastelands Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Waste",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 1038580001357090,
+            ["WinDesc"] = "looks like you figured this one out xd lol",
+            ["Rewards"] = {["Followers"] = {"egg2_Doors"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "looks like you figured this one out xd lol",
+            ["Image"] = 16945216383,
+            ["Title"] = "Figure Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Doors",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 3715650319183373,
+            ["WinDesc"] = "Smell the flowers!",
+            ["Rewards"] = {["Followers"] = {"egg2_Bloom"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Smell the flowers!",
+            ["Image"] = 16945222207,
+            ["Title"] = "Blooming Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Bloom",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2180014637757827,
+            ["WinDesc"] = "MONEY MONEY MONEY",
+            ["Rewards"] = {["Followers"] = {"egg2_Coin"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "MONEY MONEY MONEY",
+            ["Image"] = 16945233697,
+            ["Title"] = "Coin Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Coin",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 4147452979601356,
+            ["WinDesc"] = "This be my treasure!",
+            ["Rewards"] = {["Followers"] = {"egg2_Treasure"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "This be my treasure!",
+            ["Image"] = 16945270626,
+            ["Title"] = "Treasured Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Treasure",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 3378490968965681,
+            ["WinDesc"] = "Lemme out!!!!!!",
+            ["Rewards"] = {["Followers"] = {"egg2_Mana"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Lemme out!!!!!!",
+            ["Image"] = 16945226088,
+            ["Title"] = "Captured Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Mana",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2089602064742188,
+            ["WinDesc"] = "Switcheroo!",
+            ["Rewards"] = {["Followers"] = {"egg2_Swap"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Switcheroo!",
+            ["Image"] = 16945224247,
+            ["Title"] = "Body Swap Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Swap",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 1894584063442029,
+            ["WinDesc"] = "I'm feeling lonely (lonely)",
+            ["Rewards"] = {["Followers"] = {"egg2_Lonely"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "I'm feeling lonely (lonely)",
+            ["Image"] = 16945247189,
+            ["Title"] = "Lonely Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Lonely",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 621646653331277,
+            ["WinDesc"] = "No one man should have all that power.",
+            ["Rewards"] = {["Followers"] = {"egg2_Power"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "No one man should have all that power.",
+            ["Image"] = 16945218937,
+            ["Title"] = "Power Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Power",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2993371833217005,
+            ["WinDesc"] = "That's just a normal shroom!",
+            ["Rewards"] = {["Followers"] = {"egg2_Shroom"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "That's just a normal shroom!",
+            ["Image"] = 16945237006,
+            ["Title"] = "Eggshroom",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Shroom",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2927206892060874,
+            ["WinDesc"] = "Trust me, it's transparent!",
+            ["Rewards"] = {["Followers"] = {"egg2_Noob"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Trust me, it's transparent!",
+            ["Image"] = 16945250771,
+            ["Title"] = "Noob Inside Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Noob",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 1998534531425407,
+            ["WinDesc"] = "It's not time for Halloween just yet.",
+            ["Rewards"] = {["Followers"] = {"egg2_Ghost"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "It's not time for Halloween just yet.",
+            ["Image"] = 16945243470,
+            ["Title"] = "Ghostly Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Ghost",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 1415107814094567,
+            ["WinDesc"] = "Too rng for me...",
+            ["Rewards"] = {["Followers"] = {"egg2_Jester"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Too rng for me...",
+            ["Image"] = 16945245368,
+            ["Title"] = "Jester Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Jester",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 604164273050663,
+            ["WinDesc"] = "Thrown from Egboi!",
+            ["Rewards"] = {["Followers"] = {"egg2_BOI", "egg2_WA"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Thrown from Egboi!",
+            ["Image"] = 16945235187,
+            ["Title"] = "Eggboi Sugar Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_WA",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 4375986058234717,
+            ["WinDesc"] = "Nice day for a trip to the beach!",
+            ["Rewards"] = {["Followers"] = {"egg2_Tidal"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Nice day for a trip to the beach!",
+            ["Image"] = 16945264144,
+            ["Title"] = "Tidal Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Tidal",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 254574931685424,
+            ["WinDesc"] = "Probably not the best cook.",
+            ["Rewards"] = {["Followers"] = {"egg2_Chef"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Probably not the best cook.",
+            ["Image"] = 16945227858,
+            ["Title"] = "Chef Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Chef",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 3164334663848004,
+            ["WinDesc"] = "It's raining them apparently.",
+            ["Rewards"] = {["Followers"] = {"egg2_Taco"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "It's raining them apparently.",
+            ["Image"] = 16945262389,
+            ["Title"] = "Taco Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Taco",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 4333887621048448,
+            ["WinDesc"] = "It's a rock.",
+            ["Rewards"] = {["Followers"] = {"egg2_Rock"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "It's a rock.",
+            ["Image"] = 16945258490,
+            ["Title"] = "Rock",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Rock",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 3557986016742674,
+            ["WinDesc"] = "Like yolk king but without the yolk!",
+            ["Rewards"] = {["Followers"] = {"egg2_Slime"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Like yolk king but without the yolk!",
+            ["Image"] = 16945260481,
+            ["Title"] = "Slime King Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Slime",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2700526464715130,
+            ["WinDesc"] = "Watch out for the spikes!",
+            ["Rewards"] = {["Followers"] = {"egg2_Sky"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Watch out for the spikes!",
+            ["Image"] = 16945231857,
+            ["Title"] = "Egg of the Sky",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Sky",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 4265024514217026,
+            ["WinDesc"] = "Phew! THAT was close.",
+            ["Rewards"] = {["Followers"] = {"egg2_HP"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Phew! THAT was close.",
+            ["Image"] = 16945230261,
+            ["Title"] = "Egg of Close Calls",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_HP",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 2756282616189248,
+            ["WinDesc"] = "Launched from a Pixel Egg Launcher!",
+            ["Rewards"] = {["Followers"] = {"egg2_Launcher"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "Launched from a Pixel Egg Launcher!",
+            ["Image"] = 16945256306,
+            ["Title"] = "Pixel Egg",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Launcher",
+            ["Type"] = "Egg Hunt"
+        },
+        {
+            ["Badge"] = 3566632891201374,
+            ["WinDesc"] = "You found all 25 eggs!",
+            ["OwnedCheck"] = "function: 0x1b1d61e338071ace",
+            ["Rewards"] = {["Followers"] = {"egg2_Champ"}, ["Coins"] = 0},
+            ["Hidden"] = true,
+            ["Desc"] = "You found all 25 eggs!",
+            ["Image"] = 16945239034,
+            ["Title"] = "Hunters Egg of Champions",
+            ["FollowerCheck"] = true,
+            ["EggQuest"] = "egg2_Champ",
+            ["Type"] = "Egg Hunt"
         }
     },
     ["Eggs"] = {
@@ -779,6 +1106,17 @@ data = {
             ["Image"] = 15164479764,
             ["Name"] = "Conductor",
             ["ID"] = "bounty_Train",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 254574931685424,
+            ["Index"] = 1,
+            ["Rewards"] = {["Followers"] = {"egg2_Chef"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Probably not the best cook.",
+            ["Image"] = 16945227858,
+            ["Name"] = "Chef Egg",
+            ["ID"] = "egg2_Chef",
             ["HatID"] = 0
         },
         {
@@ -822,7 +1160,18 @@ data = {
             ["Image"] = 15655983680,
             ["Name"] = "Overcooked",
             ["ID"] = "xmas_Overcooked",
-            ["Setup"] = "function: 0x00000000f35ac929",
+            ["Setup"] = "function: 0x2efae3ed21c68eae",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2180014637757827,
+            ["Index"] = 2,
+            ["Rewards"] = {["Followers"] = {"egg2_Coin"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "MONEY MONEY MONEY",
+            ["Image"] = 16945233697,
+            ["Name"] = "Coin Egg",
+            ["ID"] = "egg2_Coin",
             ["HatID"] = 0
         },
         {
@@ -859,6 +1208,28 @@ data = {
             ["HatID"] = 0
         },
         {
+            ["Badge"] = 1331418611712646,
+            ["Index"] = 3,
+            ["Rewards"] = {["Followers"] = {"egg2_Nuki"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Still a Nuki at heart.",
+            ["Image"] = 16945252324,
+            ["Name"] = "Nuki Egg",
+            ["ID"] = "egg2_Nuki",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 3378490968965681,
+            ["Index"] = 4,
+            ["Rewards"] = {["Followers"] = {"egg2_Mana"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Lemme out!!!!!!",
+            ["Image"] = 16945226088,
+            ["Name"] = "Captured Egg",
+            ["ID"] = "egg2_Mana",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639317,
             ["Image"] = 12958444437,
             ["Name"] = "Dumpster Egg",
@@ -876,7 +1247,7 @@ data = {
             ["Image"] = 15164478880,
             ["Name"] = "Squiggles",
             ["ID"] = "bounty_Angler",
-            ["Setup"] = "function: 0x00000000b16e5da1",
+            ["Setup"] = "function: 0x41ee8403608fd04e",
             ["HatID"] = 0
         },
         {
@@ -891,6 +1262,26 @@ data = {
             ["HatID"] = 0
         },
         {
+            ["Badge"] = 2143639329,
+            ["Image"] = 12958445786,
+            ["Name"] = "Egg of Friendship",
+            ["ID"] = "egg_Friend",
+            ["Index"] = 5,
+            ["HatID"] = 0,
+            ["Desc"] = "Beat a map with a friend."
+        },
+        {
+            ["Badge"] = 929300966013592,
+            ["Index"] = 5,
+            ["Rewards"] = {["Followers"] = {"egg2_Waste"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Something about roads and them being ahead idk.",
+            ["Image"] = 16945265569,
+            ["Name"] = "Wastelands Egg",
+            ["ID"] = "egg2_Waste",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2153643512,
             ["Index"] = 5,
             ["Rewards"] = {["Followers"] = {"bounty_Zombie"}, ["Coins"] = 0},
@@ -902,15 +1293,6 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 2143639329,
-            ["Image"] = 12958445786,
-            ["Name"] = "Egg of Friendship",
-            ["ID"] = "egg_Friend",
-            ["Index"] = 5,
-            ["HatID"] = 0,
-            ["Desc"] = "Beat a map with a friend."
-        },
-        {
             ["Badge"] = 1511288707248641,
             ["Index"] = 5,
             ["Rewards"] = {["Followers"] = {"xmas_Tallest"}, ["Coins"] = 0},
@@ -919,6 +1301,29 @@ data = {
             ["Image"] = 15655960362,
             ["Name"] = "Tallest Snowman",
             ["ID"] = "xmas_Tallest",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 3176280753132709,
+            ["Index"] = 6,
+            ["Rewards"] = {["Followers"] = {"xmas_Crank"}, ["Coins"] = 0},
+            ["Event"] = "Christmas",
+            ["Desc"] = "He is very hungry. Like, very very hungry.",
+            ["Image"] = 15655877661,
+            ["Name"] = "Crank",
+            ["ID"] = "xmas_Crank",
+            ["Setup"] = "function: 0xf726d74a158034ce",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2089602064742188,
+            ["Index"] = 6,
+            ["Rewards"] = {["Followers"] = {"egg2_Swap"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Switcheroo!",
+            ["Image"] = 16945224247,
+            ["Name"] = "Body Swap Egg",
+            ["ID"] = "egg2_Swap",
             ["HatID"] = 0
         },
         {
@@ -933,18 +1338,6 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 3176280753132709,
-            ["Index"] = 6,
-            ["Rewards"] = {["Followers"] = {"xmas_Crank"}, ["Coins"] = 0},
-            ["Event"] = "Christmas",
-            ["Desc"] = "He is very hungry. Like, very very hungry.",
-            ["Image"] = 15655877661,
-            ["Name"] = "Crank",
-            ["ID"] = "xmas_Crank",
-            ["Setup"] = "function: 0x00000000bcab1001",
-            ["HatID"] = 0
-        },
-        {
             ["Badge"] = 2143639344,
             ["Image"] = 12958433580,
             ["Name"] = "2D Egg",
@@ -953,6 +1346,16 @@ data = {
             ["Rewards"] = {["Followers"] = {"egg_2D"}, ["Stickers"] = {12958433580}, ["Coins"] = 0},
             ["HatID"] = 0,
             ["Desc"] = "Is it a sticker?"
+        },
+        {
+            ["Badge"] = 2143639358,
+            ["Image"] = 12958443050,
+            ["Name"] = "Painted Egg",
+            ["Index"] = 7,
+            ["ID"] = "egg_Painted",
+            ["Rewards"] = {["Followers"] = {"egg_Painted"}, ["Skin"] = "egg_Painted", ["Coins"] = 0},
+            ["HatID"] = 0,
+            ["Desc"] = "Is it a skin?"
         },
         {
             ["Badge"] = 2879739954245514,
@@ -966,14 +1369,15 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 2143639358,
-            ["Image"] = 12958443050,
-            ["Name"] = "Painted Egg",
+            ["Badge"] = 3164334663848004,
             ["Index"] = 7,
-            ["ID"] = "egg_Painted",
-            ["Rewards"] = {["Followers"] = {"egg_Painted"}, ["Skin"] = "egg_Painted", ["Coins"] = 0},
-            ["HatID"] = 0,
-            ["Desc"] = "Is it a skin?"
+            ["Rewards"] = {["Followers"] = {"egg2_Taco"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "It's raining them apparently.",
+            ["Image"] = 16945262389,
+            ["Name"] = "Taco Egg",
+            ["ID"] = "egg2_Taco",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2153643521,
@@ -1006,7 +1410,7 @@ data = {
             ["Image"] = 15655881675,
             ["Name"] = "Pastrysaur",
             ["ID"] = "xmas_Pastry",
-            ["Setup"] = "function: 0x000000007e386f39",
+            ["Setup"] = "function: 0x1f56ca7aca7e34ee",
             ["HatID"] = 0
         },
         {
@@ -1020,6 +1424,17 @@ data = {
             ["Desc"] = "Complete all of your daily quests."
         },
         {
+            ["Badge"] = 2993371833217005,
+            ["Index"] = 8,
+            ["Rewards"] = {["Followers"] = {"egg2_Shroom"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "That's just a normal shroom!",
+            ["Image"] = 16945237006,
+            ["Name"] = "Eggshroom",
+            ["ID"] = "egg2_Shroom",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639396,
             ["Image"] = 12971377029,
             ["Name"] = "Sugar Egg of Luca",
@@ -1028,17 +1443,6 @@ data = {
             ["Rewards"] = {["Followers"] = {"TrixieEgg", "egg_Luca"}, ["Coins"] = 0},
             ["HatID"] = 0,
             ["Desc"] = "Find someone with this egg to get it!"
-        },
-        {
-            ["Badge"] = 2153643561,
-            ["Index"] = 9,
-            ["Rewards"] = {["Followers"] = {"bounty_Neko"}, ["Coins"] = 0},
-            ["Event"] = "Halloween",
-            ["Desc"] = "She's a spirit that lurks around certain areas. That's all I know.",
-            ["Image"] = 15164485621,
-            ["Name"] = "Nekomata ",
-            ["ID"] = "bounty_Neko",
-            ["HatID"] = 0
         },
         {
             ["Badge"] = 1218281997507021,
@@ -1053,6 +1457,39 @@ data = {
             ["Name"] = "Frosty Mountain",
             ["ID"] = "xmas_Frosty",
             ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2153643561,
+            ["Index"] = 9,
+            ["Rewards"] = {["Followers"] = {"bounty_Neko"}, ["Coins"] = 0},
+            ["Event"] = "Halloween",
+            ["Desc"] = "She's a spirit that lurks around certain areas. That's all I know.",
+            ["Image"] = 15164485621,
+            ["Name"] = "Nekomata ",
+            ["ID"] = "bounty_Neko",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 4147452979601356,
+            ["Index"] = 9,
+            ["Rewards"] = {["Followers"] = {"egg2_Treasure"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "This be my treasure!",
+            ["Image"] = 16945270626,
+            ["Name"] = "Treasured Egg",
+            ["ID"] = "egg2_Treasure",
+            ["Solo"] = true,
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2143639410,
+            ["Image"] = 12958461229,
+            ["Name"] = "Pixel Egg",
+            ["Index"] = 10,
+            ["ID"] = "egg_Pixel",
+            ["Rewards"] = {["Followers"] = {"Wuffle", "Locker", "egg_Pixel"}, ["Coins"] = 0},
+            ["HatID"] = 0,
+            ["Desc"] = "IS THAT A DEVELOPER!!"
         },
         {
             ["Badge"] = 3258908282836636,
@@ -1077,14 +1514,15 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 2143639410,
-            ["Image"] = 12958461229,
-            ["Name"] = "Pixel Egg",
+            ["Badge"] = 1415107814094567,
             ["Index"] = 10,
-            ["ID"] = "egg_Pixel",
-            ["Rewards"] = {["Followers"] = {"Wuffle", "Locker", "egg_Pixel"}, ["Coins"] = 0},
-            ["HatID"] = 0,
-            ["Desc"] = "IS THAT A DEVELOPER!!"
+            ["Rewards"] = {["Followers"] = {"egg2_Jester"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Too rng for me...",
+            ["Image"] = 16945245368,
+            ["Name"] = "Jester Egg",
+            ["ID"] = "egg2_Jester",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2143639418,
@@ -1105,6 +1543,18 @@ data = {
             ["Image"] = 15164487056,
             ["Name"] = "Wereworker",
             ["ID"] = "bounty_Wolf",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 621646653331277,
+            ["Index"] = 11,
+            ["Rewards"] = {["Followers"] = {"egg2_Power"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "No one man should have all that power.",
+            ["Image"] = 16945218937,
+            ["Name"] = "Power Egg",
+            ["ID"] = "egg2_Power",
+            ["Setup"] = "function: 0x082a32f8b43aa62e",
             ["HatID"] = 0
         },
         {
@@ -1136,15 +1586,6 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 2143639425,
-            ["Image"] = 12958459937,
-            ["Name"] = "Lemon Egg",
-            ["ID"] = "egg_Lemon",
-            ["Index"] = 12,
-            ["HatID"] = 0,
-            ["Desc"] = "A pretty busy egg, it is running late."
-        },
-        {
             ["Badge"] = 2153643579,
             ["Index"] = 12,
             ["Rewards"] = {["Followers"] = {"bounty_Evoker"}, ["Coins"] = 0},
@@ -1156,8 +1597,29 @@ data = {
             ["HatID"] = 0
         },
         {
+            ["Badge"] = 2143639425,
+            ["Image"] = 12958459937,
+            ["Name"] = "Lemon Egg",
+            ["ID"] = "egg_Lemon",
+            ["Index"] = 12,
+            ["HatID"] = 0,
+            ["Desc"] = "A pretty busy egg, it is running late."
+        },
+        {
+            ["Badge"] = 3715650319183373,
+            ["Index"] = 12,
+            ["Rewards"] = {["Followers"] = {"egg2_Bloom"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Smell the flowers!",
+            ["Image"] = 16945222207,
+            ["Name"] = "Blooming Egg",
+            ["ID"] = "egg2_Bloom",
+            ["Setup"] = "function: 0x07fa3e38a11dbf0e",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 1914178385840965,
-            ["Activate"] = "function: 0x00000000d8383459",
+            ["Activate"] = "function: 0xa9a51f47f995740e",
             ["Index"] = 13,
             ["Rewards"] = {["Followers"] = {"xmas_Fish"}, ["Coins"] = 0},
             ["Event"] = "Christmas",
@@ -1176,7 +1638,7 @@ data = {
             ["Image"] = 15179186509,
             ["Name"] = "Pumpkin Twins",
             ["ID"] = "bounty_Twin",
-            ["Setup"] = "function: 0x000000003a6d6251",
+            ["Setup"] = "function: 0x540aefa45605c68e",
             ["HatID"] = 0
         },
         {
@@ -1189,6 +1651,17 @@ data = {
             ["Desc"] = "Sometimes hiding in barrels."
         },
         {
+            ["Badge"] = 2627619945120127,
+            ["Index"] = 13,
+            ["Rewards"] = {["Followers"] = {"egg2_Molly"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Two peas in a space pod.",
+            ["Image"] = 16945249086,
+            ["Name"] = "Molly Egg",
+            ["ID"] = "egg2_Molly",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639440,
             ["Image"] = 13012178988,
             ["Name"] = "Virtual Egg",
@@ -1197,6 +1670,17 @@ data = {
             ["Rewards"] = {["Followers"] = {"CATPixel", "egg_Virtual"}, ["Coins"] = 0},
             ["HatID"] = 0,
             ["Desc"] = "Please take care of your pets, stop browsing the art board."
+        },
+        {
+            ["Badge"] = 1894584063442029,
+            ["Index"] = 14,
+            ["Rewards"] = {["Followers"] = {"egg2_Lonely"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "I'm feeling lonely (lonely)",
+            ["Image"] = 16945247189,
+            ["Name"] = "Lonely Egg",
+            ["ID"] = "egg2_Lonely",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2153643593,
@@ -1218,7 +1702,18 @@ data = {
             ["Image"] = 15656031876,
             ["Name"] = "Lil Chip",
             ["ID"] = "xmas_Cookie",
+            ["SkipFollower"] = true,
             ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2143639444,
+            ["Image"] = 12958462413,
+            ["Name"] = "Poltergeist Egg-ception",
+            ["Index"] = 15,
+            ["ID"] = "egg_Ghost",
+            ["Rewards"] = {["Followers"] = {"egg_Ghost"}, ["Skin"] = "streamByte", ["Coins"] = 0},
+            ["HatID"] = 0,
+            ["Desc"] = "Secret of the Graves."
         },
         {
             ["Badge"] = 1950230854946112,
@@ -1229,6 +1724,17 @@ data = {
             ["Image"] = 15656062397,
             ["Name"] = "Toothy Deer Man",
             ["ID"] = "xmas_Deer",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 4265024514217026,
+            ["Index"] = 15,
+            ["Rewards"] = {["Followers"] = {"egg2_HP"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Phew! THAT was close.",
+            ["Image"] = 16945230261,
+            ["Name"] = "Egg of Close Calls",
+            ["ID"] = "egg2_HP",
             ["HatID"] = 0
         },
         {
@@ -1243,23 +1749,15 @@ data = {
             ["HatID"] = 0
         },
         {
-            ["Badge"] = 2143639444,
-            ["Image"] = 12958462413,
-            ["Name"] = "Poltergeist Egg-ception",
-            ["Index"] = 15,
-            ["ID"] = "egg_Ghost",
-            ["Rewards"] = {["Followers"] = {"egg_Ghost"}, ["Skin"] = "streamByte", ["Coins"] = 0},
-            ["HatID"] = 0,
-            ["Desc"] = "Secret of the Graves."
-        },
-        {
-            ["Badge"] = 2143639449,
-            ["Image"] = 12958458588,
-            ["Name"] = "Hexa-Egg",
-            ["ID"] = "egg_Hex",
+            ["Badge"] = 2927206892060874,
             ["Index"] = 16,
-            ["HatID"] = 0,
-            ["Desc"] = "Hope you make good choices."
+            ["Rewards"] = {["Followers"] = {"egg2_Noob"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Trust me, it's transparent!",
+            ["Image"] = 16945250771,
+            ["Name"] = "Noob Inside Egg",
+            ["ID"] = "egg2_Noob",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2153643631,
@@ -1284,6 +1782,15 @@ data = {
             ["HatID"] = 0
         },
         {
+            ["Badge"] = 2143639449,
+            ["Image"] = 12958458588,
+            ["Name"] = "Hexa-Egg",
+            ["ID"] = "egg_Hex",
+            ["Index"] = 16,
+            ["HatID"] = 0,
+            ["Desc"] = "Hope you make good choices."
+        },
+        {
             ["Badge"] = 2143639457,
             ["Image"] = 12958450637,
             ["Name"] = "Egg of the Necromancer",
@@ -1292,6 +1799,28 @@ data = {
             ["Rewards"] = {["Followers"] = {"egg_Necro"}, ["Skin"] = "necroWiz", ["Coins"] = 0},
             ["HatID"] = 0,
             ["Desc"] = "Time for an Adventure."
+        },
+        {
+            ["Badge"] = 3557986016742674,
+            ["Index"] = 17,
+            ["Rewards"] = {["Followers"] = {"egg2_Slime"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Like yolk king but without the yolk!",
+            ["Image"] = 16945260481,
+            ["Name"] = "Slime King Egg",
+            ["ID"] = "egg2_Slime",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 1998534531425407,
+            ["Index"] = 18,
+            ["Rewards"] = {["Followers"] = {"egg2_Ghost"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "It's not time for Halloween just yet.",
+            ["Image"] = 16945243470,
+            ["Name"] = "Ghostly Egg",
+            ["ID"] = "egg2_Ghost",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2143639462,
@@ -1312,6 +1841,28 @@ data = {
             ["Desc"] = "You took a really long time on that map... Unless?"
         },
         {
+            ["Badge"] = 4375986058234717,
+            ["Index"] = 19,
+            ["Rewards"] = {["Followers"] = {"egg2_Tidal"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Nice day for a trip to the beach!",
+            ["Image"] = 16945264144,
+            ["Name"] = "Tidal Egg",
+            ["ID"] = "egg2_Tidal",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 2700526464715130,
+            ["Index"] = 20,
+            ["Rewards"] = {["Followers"] = {"egg2_Sky"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Watch out for the spikes!",
+            ["Image"] = 16945231857,
+            ["Name"] = "Egg of the Sky",
+            ["ID"] = "egg2_Sky",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639471,
             ["Image"] = 12958449564,
             ["Name"] = "Egg of Modification",
@@ -1319,6 +1870,17 @@ data = {
             ["Index"] = 20,
             ["HatID"] = 0,
             ["Desc"] = "Wow you really equipped 6, this game is crazy."
+        },
+        {
+            ["Badge"] = 4333887621048448,
+            ["Index"] = 21,
+            ["Rewards"] = {["Followers"] = {"egg2_Rock"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "It's a rock.",
+            ["Image"] = 16945258490,
+            ["Name"] = "Rock",
+            ["ID"] = "egg2_Rock",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2143639479,
@@ -1330,6 +1892,18 @@ data = {
             ["Desc"] = "Are you placing spike traps?"
         },
         {
+            ["Badge"] = 1038580001357090,
+            ["Index"] = 22,
+            ["Rewards"] = {["Followers"] = {"egg2_Doors"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "looks like you figured this one out xd lol",
+            ["Image"] = 16945216383,
+            ["Name"] = "Figure Egg",
+            ["ID"] = "egg2_Doors",
+            ["Solo"] = true,
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639485,
             ["Image"] = 12958474287,
             ["Name"] = "Troublemaker Egg",
@@ -1337,6 +1911,17 @@ data = {
             ["Index"] = 22,
             ["HatID"] = 0,
             ["Desc"] = "Sometimes sabotages are good."
+        },
+        {
+            ["Badge"] = 604164273050663,
+            ["Index"] = 23,
+            ["Rewards"] = {["Followers"] = {"egg2_BOI", "egg2_WA"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Thrown from Egboi!",
+            ["Image"] = 16945235187,
+            ["Name"] = "Eggboi Sugar Egg",
+            ["ID"] = "egg2_WA",
+            ["HatID"] = 0
         },
         {
             ["Badge"] = 2143639495,
@@ -1358,14 +1943,37 @@ data = {
             ["Desc"] = "Best your foe."
         },
         {
+            ["Badge"] = 2756282616189248,
+            ["Index"] = 24,
+            ["Rewards"] = {["Followers"] = {"egg2_Launcher"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "Launched from a Pixel Egg Launcher!",
+            ["Image"] = 16945256306,
+            ["Name"] = "Pixel Egg",
+            ["ID"] = "egg2_Launcher",
+            ["HatID"] = 0
+        },
+        {
             ["Badge"] = 2143639520,
             ["Index"] = 25,
-            ["OwnedCheck"] = "function: 0x0000000029764511",
+            ["OwnedCheck"] = "function: 0x391d8d8e69e00e8e",
             ["Rewards"] = {["Followers"] = {"egg_Faberge"}, ["Skin"] = "mimicYasuke", ["Coins"] = 0},
             ["Desc"] = "Collect all of the Eggs.",
             ["Image"] = 12958452244,
             ["Name"] = "Faberge of Heroes",
             ["ID"] = "egg_Faberge",
+            ["HatID"] = 0
+        },
+        {
+            ["Badge"] = 3566632891201374,
+            ["Index"] = 25,
+            ["OwnedCheck"] = "function: 0x1b1d61e338071ace",
+            ["Rewards"] = {["Followers"] = {"egg2_Champ"}, ["Coins"] = 0},
+            ["Event"] = "Easter2",
+            ["Desc"] = "You found all 25 eggs!",
+            ["Image"] = 16945239034,
+            ["Name"] = "Hunters Egg of Champions",
+            ["ID"] = "egg2_Champ",
             ["HatID"] = 0
         }
     }
