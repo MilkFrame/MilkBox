@@ -45,10 +45,10 @@ data = {
         "Effect.Sound",
         "Effect.Icon"
     },
-    ["getStat"] = "function: 0x0000000031a53449",
-    ["SummonFix"] = "function: 0x000000001a9d30a9",
-    ["GetDesc"] = "function: 0x0000000022ef3f31",
-    ["UpdateTroop"] = "function: 0x0000000013a93239",
+    ["getStat"] = "function: 0x5ca04ba4bfbde89e",
+    ["SummonFix"] = "function: 0x4618cbe453e82d4e",
+    ["GetDesc"] = "function: 0x1c3865fb6ea87d2e",
+    ["UpdateTroop"] = "function: 0x95b077921d45067e",
     ["Desc"] = {
         ["SpecialAbility.Duration"] = "How long the special ability will last.",
         ["Ability.Spawner"] = "This summon can spawn mobs or it has an attack.",
@@ -86,6 +86,7 @@ data = {
         ["TrapType"] = "The type of trap El Goblino will place on the path.",
         ["FriendlyEffect.Damage"] = "The enemy take this much damage every tick.",
         ["Effect.MaxHP"] = "This status effect will only affect enemies with less than this much hp.",
+        ["SummonCount"] = "The number of summons that will spawner per attack.",
         ["FriendlyEffect.BaseSpeed"] = "The enemy will have its speed multiplied by this much. Changed by the hero during runtime.",
         ["SummonRange"] = "The hero summons are connected to its range.",
         ["SelfBonus.Rate"] = "Boost applied to rate of hero.",
