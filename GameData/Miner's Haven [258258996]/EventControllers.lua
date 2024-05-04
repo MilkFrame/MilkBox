@@ -1,0 +1,142 @@
+data = {
+    ["Easter"] = {
+        ["EasterEggInfo"] = {
+            ["Antigravity Egg"] = {["badgeId"] = 2124523206, ["itemId"] = 955},
+            ["Moai Egg"] = {["badgeId"] = 2124523227, ["itemId"] = 950},
+            ["Bomb Egg"] = {["badgeId"] = 2124722672, ["itemId"] = 1425},
+            ["Eggconomy"] = {["badgeId"] = 2124722676, ["itemId"] = 1428},
+            ["Amber Egg"] = {["badgeId"] = 2124523205, ["itemId"] = 934},
+            ["Armored Egg"] = {["badgeId"] = 2124523208, ["itemId"] = 932},
+            ["Vaporwave Egg"] = {["badgeId"] = 2124523234, ["itemId"] = 933},
+            ["Malicious Egg"] = {["badgeId"] = 2124523225, ["itemId"] = 945},
+            ["Hive Egg"] = {["badgeId"] = 2372456953124218},
+            ["Sentry Egg"] = {["badgeId"] = 2124722684, ["itemId"] = 1429},
+            ["Energy Egg"] = {["badgeId"] = 2124523219, ["itemId"] = 943},
+            ["Obsidian Egg"] = {["badgeId"] = 2124523230, ["itemId"] = 941},
+            ["Chicken Legg"] = {["badgeId"] = 2124722674, ["itemId"] = 1427},
+            ["Leggendary"] = {["badgeId"] = 2124523222, ["itemId"] = 939},
+            ["Spooky Egg"] = {["badgeId"] = 2124722687, ["itemId"] = 1423},
+            ["Lucky Egg"] = {["badgeId"] = 2124722681, ["itemId"] = 1432},
+            ["Disco Egg"] = {["badgeId"] = 2124722675, ["quantity"] = 10, ["itemId"] = 1434},
+            ["Eggmerald"] = {["badgeId"] = 2143549526},
+            ["Speggtral Rose"] = {["badgeId"] = 2124722686, ["itemId"] = 1437},
+            ["Soapy Egg"] = {["badgeId"] = 2124722685, ["itemId"] = 1435},
+            ["Cactus Egg"] = {["badgeId"] = 2124722673, ["itemId"] = 1430},
+            ["Gator Egg"] = {["badgeId"] = 2124523220, ["itemId"] = 949},
+            ["Sporegg"] = {["badgeId"] = 2124722680, ["itemId"] = 1436},
+            ["Garbagé Egg"] = {["badgeId"] = 1064279931608805},
+            ["Watermelon Egg"] = {["badgeId"] = 2124523235, ["itemId"] = 951},
+            ["Sandshark Egg"] = {["badgeId"] = 2124523233, ["itemId"] = {935, 936}},
+            ["Time Egg"] = {["badgeId"] = 2124722690, ["itemId"] = 1426},
+            ["Tea Eggle"] = {["badgeId"] = 2143549535},
+            ["Egg Idol"] = {["badgeId"] = 2143549531},
+            ["Deviled Egg"] = {["badgeId"] = 2124523212, ["itemId"] = 953},
+            ["Pearl Egg"] = {["badgeId"] = 2124523232, ["itemId"] = 952},
+            ["Radio Egg"] = {["badgeId"] = 2124722683, ["itemId"] = 1431},
+            ["Octo Egg"] = {["badgeId"] = 2124523231, ["itemId"] = 937},
+            ["Hammed Burgor"] = {["badgeId"] = 2685377821936963},
+            ["iEgg"] = {["badgeId"] = 2124523221, ["itemId"] = 940},
+            ["Dustdevil Egg"] = {["badgeId"] = 2124523214, ["itemId"] = 946},
+            ["Eggicopter"] = {["badgeId"] = 2124722677, ["itemId"] = 1424},
+            ["Wishing Egg"] = {["badgeId"] = 4036513582353364},
+            ["Egg Ball"] = {["badgeId"] = 1284166721308846},
+            ["Wisdom Egg"] = {["badgeId"] = 2143549557, ["IsRare"] = true},
+            ["Volcano Egg"] = {["badgeId"] = 2143549791},
+            ["Leggacy"] = {["badgeId"] = 2124722726, ["IsRare"] = true, ["itemId"] = 1438},
+            ["Baby Borker"] = {["badgeId"] = 2124723135, ["IsRare"] = true, ["itemId"] = 1439},
+            ["Coconut Egg"] = {["badgeId"] = 2124523210, ["itemId"] = 947},
+            ["Balloon Egg"] = {["badgeId"] = 2124523209, ["itemId"] = 948},
+            ["CYBEGG9000"] = {["badgeId"] = 2124523211, ["itemId"] = 954},
+            ["Eggield"] = {["badgeId"] = 2124523217, ["IsRare"] = true, ["itemId"] = 942},
+            ["Eggscream"] = {["badgeId"] = 2124523218, ["itemId"] = 944},
+            ["Tank Egg"] = {["badgeId"] = 2124722688, ["itemId"] = 1433},
+            ["Stormcrow"] = {["badgeId"] = 3868117275347263, ["IsRare"] = true}
+        }
+    },
+    ["Halloween"] = {
+        ["HalloweenCandyShop"] = {
+            {["Cost"] = 250, ["Name"] = "Ore Caramelizer", ["CostType"] = "Candy", ["ItemId"] = 1277},
+            {["Cost"] = 4, ["Name"] = "Candy Conveyor", ["CostType"] = "Candy", ["ItemId"] = 605},
+            {["Cost"] = 150, ["Name"] = "Candy Gun Giver", ["CostType"] = "Candy", ["ItemId"] = 616},
+            {["Cost"] = 250, ["Name"] = "Candy Refiner", ["CostType"] = "Candy", ["ItemId"] = 602},
+            {["Cost"] = 35, ["Name"] = "Candy Research Center", ["CostType"] = "Candy", ["ItemId"] = 601},
+            {["Cost"] = 10, ["Name"] = "Candy Security Wall", ["CostType"] = "Candy", ["ItemId"] = 604},
+            {["Cost"] = 80, ["Name"] = "Chocolate Forest", ["CostType"] = "Candy", ["ItemId"] = 598},
+            {["Cost"] = 15, ["Name"] = "Candypreneur Wall", ["CostType"] = "Candy", ["ItemId"] = 1278},
+            {["Cost"] = 170, ["Name"] = "Spooky Fruit Punch Processor", ["CostType"] = "Candy", ["ItemId"] = 599},
+            {["Cost"] = 2000, ["Name"] = "Gummy Refiner", ["CostType"] = "Candy", ["ItemId"] = 1275},
+            {["Cost"] = 150, ["Name"] = "Candycorn Guardian", ["CostType"] = "Candy", ["ItemId"] = 565},
+            {["Cost"] = 15000, ["Name"] = "Frank'n'Cupcake", ["CostType"] = "Candy", ["ItemId"] = 1269},
+            {["Cost"] = 25000, ["Name"] = "Candy Castle", ["CostType"] = "Candy", ["ItemId"] = 1272},
+            {["Cost"] = 10000, ["Name"] = "Pumpkin Spice Refiner", ["CostType"] = "Candy", ["ItemId"] = 1271},
+            {["Cost"] = 200, ["Name"] = "Candy Dodecahedron Floodlight", ["CostType"] = "Candy", ["ItemId"] = 1268},
+            {["Cost"] = 120, ["Name"] = "Candycorn Refiner", ["CostType"] = "Candy", ["ItemId"] = 1273},
+            {["Cost"] = 700, ["Name"] = "Lollipop-inator", ["CostType"] = "Candy", ["ItemId"] = 1270},
+            {["Cost"] = 2500, ["Name"] = "Chocolate Coater", ["CostType"] = "Candy", ["ItemId"] = 1274},
+            {["Cost"] = 10000, ["Name"] = "Candy Factory", ["CostType"] = "Candy", ["ItemId"] = 1276},
+            {["Cost"] = 50000, ["Name"] = "Pumpkinite Mine", ["CostType"] = "Candy", ["ItemId"] = 640},
+            {["Cost"] = 10000, ["Name"] = "Super Swintite Mine", ["CostType"] = "Candy", ["ItemId"] = 584},
+            {["Cost"] = 100000, ["Name"] = "Goliath Gumball Machine", ["CostType"] = "Candy", ["ItemId"] = 1307},
+            {["Cost"] = 100000, ["Name"] = "Candy Metropolis", ["CostType"] = "Candy", ["ItemId"] = 1308},
+            {["Cost"] = 18000, ["Name"] = "Candy Corn Real Estate", ["CostType"] = "Candy", ["ItemId"] = 1309},
+            {["Cost"] = 8000, ["Name"] = "Sugar Corroder", ["CostType"] = "Candy", ["ItemId"] = 1310},
+            {["Cost"] = 15000, ["Name"] = "Pumpkin Pie Refiner", ["CostType"] = "Candy", ["ItemId"] = 1311},
+            {["Cost"] = 5000, ["Name"] = "The Cookinator", ["CostType"] = "Candy", ["ItemId"] = 1328},
+            {["Cost"] = 10000, ["Name"] = "Grand Wafer", ["CostType"] = "Candy", ["ItemId"] = 1329},
+            {["Cost"] = 6000, ["Name"] = "Giant Pretzel", ["CostType"] = "Candy", ["ItemId"] = 1337},
+            {
+                ["Name"] = "Ghastly Saloon",
+                ["Cost"] = 600000,
+                ["Collectible"] = true,
+                ["CostType"] = "Candy",
+                ["ItemId"] = 1479
+            },
+            {
+                ["Name"] = "Witch's Broomstick",
+                ["Cost"] = 80000,
+                ["Collectible"] = true,
+                ["CostType"] = "Candy",
+                ["ItemId"] = 1478
+            },
+            {
+                ["Name"] = "Frightful Cotton Candy",
+                ["Cost"] = 40000,
+                ["Collectible"] = true,
+                ["CostType"] = "Candy",
+                ["ItemId"] = 1480
+            },
+            {["CostType"] = "Candy", ["Cost"] = 50000, ["Name"] = "Hellish Bat Cookie", ["ItemId"] = 1481},
+            {["CostType"] = "Candy", ["Cost"] = 300000, ["Name"] = "Candy Core", ["ItemId"] = 1482}
+        },
+        ["QuestInfo"] = {
+            ["War"] = {
+                ["Name"] = "War",
+                ["ItemRewards"] = {{25, 1318, true}, {100, 1319, true}, {250, 1320}, {500, 1321}, {1000, 1322}},
+                ["Points"] = 1000,
+                ["Time"] = 1665964800,
+                ["Index"] = 3
+            },
+            ["Plague"] = {
+                ["Name"] = "Plague",
+                ["ItemRewards"] = {{25, 1280}, {100, 1279}, {250, 1282}, {500, 1281, true}, {1000, 1283}},
+                ["Points"] = 1000,
+                ["Time"] = 1664755200,
+                ["Index"] = 1
+            },
+            ["Famine"] = {
+                ["Name"] = "Famine",
+                ["ItemRewards"] = {{25, 1314}, {100, 1313}, {250, 1317}, {500, 1316}, {1000, 1315}},
+                ["Points"] = 1000,
+                ["Time"] = 1665360000,
+                ["Index"] = 2
+            },
+            ["Conquest"] = {
+                ["Name"] = "Conquest",
+                ["ItemRewards"] = {{25, 1331}, {100, 1332}, {250, 1333}, {500, 1334}, {1000, 1335}},
+                ["Points"] = 1000,
+                ["Time"] = 1666569600,
+                ["Index"] = 4
+            }
+        }
+    }
+}
