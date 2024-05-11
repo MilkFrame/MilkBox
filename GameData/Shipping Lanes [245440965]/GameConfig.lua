@@ -37,6 +37,7 @@ data = {
         }
     },
     ["NormalPassPrices"] = {
+        ["755744629"] = 299,
         ["38327563"] = 39,
         ["3082136"] = 499,
         ["38322307"] = 39,
@@ -52,26 +53,67 @@ data = {
         ["ShipType"] = "Small Container Ship",
         ["ShipName"] = "SS Starter Ship"
     },
-    ["SellPrice"] = 0.3,
-    ["Changelog"] = [[2.2.1
-- New Astra Oil rig load added for Vanguard Heavy Lifter
-- Added friend invite menu on top left corner for 1.1x profit bonus! (Experimental and subject to change or removal)
-	
-2.2.0
-- New heavy lifter loads added! Including
-- A new fishfarm load for Vanguard
-- Cranes load for both Vanguard and Goliath Lifters
-- A new barge load for Prototype heavy lifter
-- Overhauled the Survival Gear gamepass tools!
-- Fixed visible part under waypoints bug
-- Fixed creating custom waypoints bug
+    ["Horns"] = {
+        {["Pitch"] = 0.7, ["Volume"] = 7, ["Horn"] = "Standard", ["Cost"] = 0, ["ID"] = 138157709},
+        {["Pitch"] = 0.5, ["Volume"] = 7, ["Horn"] = "Standard Low", ["Cost"] = 25, ["ID"] = 138157709},
+        {["Pitch"] = 1, ["Volume"] = 7, ["Horn"] = "Standard High", ["Cost"] = 30, ["ID"] = 138157709},
+        {["Pitch"] = 1, ["Volume"] = 7, ["Horn"] = "Regular", ["Cost"] = 50, ["ID"] = 8267589047},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Regular 2", ["Cost"] = 30, ["ID"] = 5692517175},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Regular 3", ["Cost"] = 30, ["ID"] = 9119077419},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Pipe", ["Cost"] = 20, ["ID"] = 16878521789},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Pipe 2", ["Cost"] = 20, ["ID"] = 1048527830},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Deep", ["Cost"] = 20, ["ID"] = 16887760158},
+        {
+            ["Pitch"] = 0.7,
+            ["GP"] = 755744629,
+            ["Volume"] = 7,
+            ["Horn"] = "Deep Low",
+            ["Cost"] = 40,
+            ["ID"] = 16887760158
+        },
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Laker", ["Cost"] = 20, ["ID"] = 16901687156},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Liner", ["Cost"] = 20, ["ID"] = 16887761855},
+        {
+            ["Pitch"] = 1,
+            ["GP"] = 755744629,
+            ["Volume"] = 7,
+            ["Horn"] = "Steam Whistle",
+            ["Cost"] = 20,
+            ["ID"] = 16887762741
+        },
+        {
+            ["Pitch"] = 0.7,
+            ["GP"] = 755744629,
+            ["Volume"] = 7,
+            ["Horn"] = "Steam Whistle Low",
+            ["Cost"] = 30,
+            ["ID"] = 16887762741
+        },
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Train", ["Cost"] = 40, ["ID"] = 16887763849},
+        {["Pitch"] = 1, ["GP"] = 755744629, ["Volume"] = 7, ["Horn"] = "Train 2", ["Cost"] = 40, ["ID"] = 7765113248}
+    },
+    ["StarterPack"] = {
+        ["Ships"] = {"Panamax Bulk Carrier", "Panamax Container Ship", "High Speed Transporter"},
+        ["StarterPackID"] = 1199169014
+    },
+    ["Changelog"] = [[2.4.1
+- Rebalanced G4 Carrier.
+- Rebalanced some Oil prices
+- Gave Quad A larger fuel tank and slightly better fuel economy.
+- Increased King Class Transporter profits
+
+2.4.0
+- G4 Class Con-Ro ship added. Ship can haul Containers and Vehicle loads at once!
+- Changes made to code to allow Multi-Load ships like Conros.
+- Fixed company livery selector showing a third column
+- Bug fixes
 ]],
     ["PassSale"] = "SALE! 20% OFF",
     ["DatabaseVersion"] = 1,
     ["ObsoleteShips"] = {
-        {"Explorer", "Panamax Container Ship", true},
-        {"Triple E", "Panamax Container Ship", true},
-        {"Seawise Giant", 35000000, true},
+        {"Explorer", "Legacy Explorer", true},
+        {"Triple E", "Legacy Explorer", true},
+        {"Seawise Giant", "Legacy Seawise Giant", true},
         {"Suezmax", 3000000, true},
         {"Panamax", "Panamax Bulk Carrier", true}
     },
@@ -119,7 +161,7 @@ data = {
             ["ValueModifier"] = 1,
             ["WaterLevel"] = 15,
             ["Load"] = "Fish Farm",
-            ["Desc"] = "A new fish farm needs to be moved to its final location"
+            ["Desc"] = "A new fish farm needs to be moved to its final location. Built by UGOTDEMSTYLYES"
         },
         {
             ["ImageID"] = 14835059933,
@@ -133,11 +175,33 @@ data = {
             ["ValueModifier"] = 1,
             ["WaterLevel"] = 35,
             ["Load"] = "Astra Oil Rig",
-            ["Desc"] = "A new Oil Rig base needs to be moved to its final position"
+            ["Desc"] = "A new Oil Rig base needs to be moved to its final position. Built by RitouSeki"
+        },
+        {
+            ["ImageID"] = 15166729371,
+            ["ValueModifier"] = 1,
+            ["WaterLevel"] = 8,
+            ["Load"] = "Canal Locks",
+            ["Desc"] = "Some canal lock gates have been floated out to be moved to its final location. Built by UGOTDEMSTYLYES"
+        },
+        {
+            ["ImageID"] = 15166728371,
+            ["ValueModifier"] = 1,
+            ["WaterLevel"] = 23,
+            ["Load"] = "Western Isles FPSO",
+            ["Desc"] = "A new Floating production storage and offloading rig needs to be moved! Built by RitouSeki"
+        },
+        {
+            ["ImageID"] = 15166727983,
+            ["ValueModifier"] = 1,
+            ["WaterLevel"] = 35,
+            ["Load"] = "Goliat FPSO",
+            ["Desc"] = "A new Floating production storage and offloading rig needs to be moved! Built by ko_fiii"
         }
     },
     ["MaxRequestPerPersonPerMinute"] = 12,
     ["SpeedMultiplier"] = 3,
+    ["ShipLimit"] = 60,
     ["Ships"] = {
         {
             "Small Container Ship",
@@ -323,7 +387,7 @@ data = {
             ["Acceleration"] = 0.5,
             ["Cost"] = 310000000,
             ["Capacity"] = 6120,
-            ["MaxFuel"] = 9000,
+            ["MaxFuel"] = 11000,
             ["Class"] = "Container",
             ["TurnSpeed"] = 0.04,
             ["WaveReactivity"] = 1.5,
@@ -332,7 +396,7 @@ data = {
             ["ProfitPerNM"] = 790000,
             ["WaveSideReact"] = 3,
             ["WaterLevel"] = 24,
-            ["FuelConsumption"] = 6.6
+            ["FuelConsumption"] = 6
         },
         {
             "Maximus Class",
@@ -355,6 +419,7 @@ data = {
             "SL-7",
             ["ImageAssetID"] = 8629614307,
             ["Acceleration"] = 0.5,
+            ["MinTrade"] = 20000000,
             ["Cost"] = -1,
             ["Capacity"] = 576,
             ["MaxFuel"] = 1800,
@@ -368,17 +433,83 @@ data = {
             ["FuelConsumption"] = 1.8
         },
         {
+            "Legacy Container Ship",
+            ["ImageAssetID"] = 5900993912,
+            ["Acceleration"] = 1,
+            ["MinTrade"] = 40000000,
+            ["Cost"] = -1,
+            ["Capacity"] = 105,
+            ["MaxFuel"] = 1000,
+            ["TurnSpeed"] = 0.1,
+            ["WaveReactivity"] = 1.5,
+            ["TopSpeed"] = 23,
+            ["DWT"] = 20100,
+            ["ProfitPerNM"] = 100000,
+            ["Class"] = "Container",
+            ["WaterLevel"] = 10,
+            ["FuelConsumption"] = 1
+        },
+        {
+            "Legacy Explorer",
+            ["ImageAssetID"] = 5900993098,
+            ["Acceleration"] = 1,
+            ["MinTrade"] = 50000000,
+            ["Cost"] = -1,
+            ["Capacity"] = 316,
+            ["MaxFuel"] = 1800,
+            ["TurnSpeed"] = 0.06,
+            ["WaveReactivity"] = 1.5,
+            ["TopSpeed"] = 23,
+            ["DWT"] = 40100,
+            ["ProfitPerNM"] = 200000,
+            ["Class"] = "Container",
+            ["WaterLevel"] = 14,
+            ["FuelConsumption"] = 1.6
+        },
+        {
+            "Small Bulk Carrier",
+            ["ImageAssetID"] = 16654565185,
+            ["Acceleration"] = 1,
+            ["Cost"] = 0,
+            ["Capacity"] = 1,
+            ["MaxFuel"] = 3,
+            ["TurnSpeed"] = 0.2,
+            ["WaveReactivity"] = 1,
+            ["TopSpeed"] = 23,
+            ["DWT"] = 600,
+            ["ProfitPerNM"] = 400,
+            ["Class"] = "Bulk",
+            ["WaterLevel"] = 6,
+            ["FuelConsumption"] = 0.0025
+        },
+        {
+            "York Bulk Carrier",
+            ["ImageAssetID"] = 7145338016,
+            ["Acceleration"] = 1,
+            ["Cost"] = 5950,
+            ["Capacity"] = 5,
+            ["MaxFuel"] = 10,
+            ["TurnSpeed"] = 0.17,
+            ["WaveReactivity"] = 1,
+            ["TopSpeed"] = 32,
+            ["DWT"] = 2000,
+            ["ProfitPerNM"] = 690,
+            ["Class"] = "Bulk",
+            ["WaterLevel"] = 11,
+            ["FuelConsumption"] = 0.0065
+        },
+        {
             "Mini Bulk Carrier",
             ["ImageAssetID"] = 7139260546,
             ["Acceleration"] = 1,
-            ["Cost"] = 11500,
+            ["Cost"] = 13500,
             ["Capacity"] = 1,
             ["MaxFuel"] = 20,
             ["TurnSpeed"] = 0.11,
             ["WaveReactivity"] = 1,
             ["TopSpeed"] = 26,
             ["DWT"] = 9000,
-            ["ProfitPerNM"] = 995,
+            ["ProfitPerNM"] = 1015,
             ["Class"] = "Bulk",
             ["WaterLevel"] = 11,
             ["FuelConsumption"] = 0.015
@@ -530,11 +661,48 @@ data = {
             ["FuelConsumption"] = 4
         },
         {
+            "Seamax Ore Carrier",
+            ["ImageAssetID"] = 15172145614,
+            ["Acceleration"] = 0.35,
+            ["Cost"] = 245000000,
+            ["Capacity"] = 9,
+            ["MaxFuel"] = 13000,
+            ["Class"] = "Bulk",
+            ["WaveSideReact"] = 3,
+            ["TurnSpeed"] = 0.035,
+            ["WaveReactivity"] = 2,
+            ["TopSpeed"] = 18,
+            ["DWT"] = 614763,
+            ["ProfitPerNM"] = 787500,
+            ["UnloadTime"] = 0.5,
+            ["WaterLevel"] = 50,
+            ["FuelConsumption"] = 6
+        },
+        {
+            "Hull 1173",
+            ["ImageAssetID"] = 16875726454,
+            ["Acceleration"] = 1,
+            ["MinTrade"] = 125000000,
+            ["Cost"] = 125000000,
+            ["SaleLength"] = 86400,
+            ["MaxFuel"] = 4200,
+            ["Class"] = "Bulk",
+            ["WaveReactivity"] = 1.2,
+            ["TurnSpeed"] = 0.2,
+            ["SaleTime"] = 1711890000,
+            ["TopSpeed"] = 28,
+            ["DWT"] = 28000,
+            ["ProfitPerNM"] = 169000,
+            ["FuelConsumption"] = 2.2,
+            ["WaterLevel"] = 19,
+            ["Capacity"] = 4
+        },
+        {
             "General Purpose",
             ["ImageAssetID"] = 6030329920,
             ["Acceleration"] = 1,
             ["Cost"] = 298000,
-            ["Capacity"] = 2000,
+            ["Capacity"] = 2500,
             ["MaxFuel"] = 200,
             ["TurnSpeed"] = 0.1,
             ["WaveReactivity"] = 1,
@@ -550,7 +718,7 @@ data = {
             ["ImageAssetID"] = 6034746031,
             ["Acceleration"] = 1,
             ["Cost"] = 999500,
-            ["Capacity"] = 5000,
+            ["Capacity"] = 6000,
             ["MaxFuel"] = 1000,
             ["TurnSpeed"] = 0.07,
             ["WaveReactivity"] = 1,
@@ -566,7 +734,7 @@ data = {
             ["ImageAssetID"] = 6067955001,
             ["Acceleration"] = 0.8,
             ["Cost"] = 4000000,
-            ["Capacity"] = 12000,
+            ["Capacity"] = 13000,
             ["MaxFuel"] = 2000,
             ["TurnSpeed"] = 0.07,
             ["WaveReactivity"] = 1.5,
@@ -582,7 +750,7 @@ data = {
             ["ImageAssetID"] = 6130282521,
             ["Acceleration"] = 0.6,
             ["Cost"] = 15000000,
-            ["Capacity"] = 25000,
+            ["Capacity"] = 28000,
             ["MaxFuel"] = 3000,
             ["Class"] = "Oil",
             ["TurnSpeed"] = 0.08,
@@ -599,7 +767,7 @@ data = {
             ["ImageAssetID"] = 6211289384,
             ["Acceleration"] = 0.4,
             ["Cost"] = 47000000,
-            ["Capacity"] = 61000,
+            ["Capacity"] = 70000,
             ["MaxFuel"] = 5000,
             ["Class"] = "Oil",
             ["TurnSpeed"] = 0.05,
@@ -616,30 +784,47 @@ data = {
             ["ImageAssetID"] = 6216718087,
             ["Acceleration"] = 0.3,
             ["Cost"] = 190000000,
-            ["Capacity"] = 100000,
+            ["Capacity"] = 130000,
             ["MaxFuel"] = 8000,
             ["Class"] = "Oil",
             ["TurnSpeed"] = 0.03,
             ["WaveReactivity"] = 2,
             ["TopSpeed"] = 16.5,
             ["DWT"] = 564763,
-            ["ProfitPerNM"] = 710000,
+            ["ProfitPerNM"] = 0,
             ["WaveSideReact"] = 3,
             ["WaterLevel"] = 50,
             ["FuelConsumption"] = 5
         },
         {
+            "Legacy Seawise Giant",
+            ["ImageAssetID"] = 16902884475,
+            ["Acceleration"] = 0.5,
+            ["MinTrade"] = 50000000,
+            ["Cost"] = -1,
+            ["Capacity"] = 45000,
+            ["MaxFuel"] = 4000,
+            ["TurnSpeed"] = 0.08,
+            ["WaveReactivity"] = 1.3,
+            ["TopSpeed"] = 20.5,
+            ["DWT"] = 170500,
+            ["ProfitPerNM"] = 0,
+            ["Class"] = "Oil",
+            ["WaterLevel"] = 34,
+            ["FuelConsumption"] = 2
+        },
+        {
             "Q-Mini LNG Carrier",
             ["ImageAssetID"] = 10979014635,
             ["Acceleration"] = 1,
-            ["Cost"] = 12000000,
+            ["Cost"] = 20000000,
             ["Capacity"] = 34000,
             ["MaxFuel"] = 1500,
             ["TurnSpeed"] = 0.1,
             ["WaveReactivity"] = 1,
             ["TopSpeed"] = 25,
             ["DWT"] = 17800,
-            ["ProfitPerNM"] = 150000,
+            ["ProfitPerNM"] = 145000,
             ["Class"] = "Gas",
             ["WaterLevel"] = 7,
             ["FuelConsumption"] = 1.5
@@ -775,7 +960,7 @@ data = {
             ["WaveReactivity"] = 1.3,
             ["TopSpeed"] = 23,
             ["DWT"] = 25820,
-            ["ProfitPerNM"] = 340000,
+            ["ProfitPerNM"] = 350000,
             ["FuelConsumption"] = 2.5,
             ["WaterLevel"] = 10,
             ["MaxFuel"] = 4500
@@ -788,6 +973,7 @@ data = {
             ["Capacity"] = 7855,
             ["CarLoads"] = 3,
             ["Class"] = "Vehicle-Transport",
+            ["Horn"] = "Standard Low",
             ["TurnSpeed"] = 0.05,
             ["WaveReactivity"] = 1.5,
             ["TopSpeed"] = 20,
@@ -798,11 +984,27 @@ data = {
             ["MaxFuel"] = 6000
         },
         {
+            "G4 Class Freighter",
+            ["ImageAssetID"] = 17237808446,
+            ["Acceleration"] = 0.7,
+            ["Cost"] = 225000000,
+            ["MaxFuel"] = 10000,
+            ["Vehicle-Transport"] = {["ProfitPerNM"] = 370000, ["CarLoads"] = 3, ["Capacity"] = 6200},
+            ["TurnSpeed"] = 0.06,
+            ["WaveReactivity"] = 1.5,
+            ["TopSpeed"] = 23,
+            ["DWT"] = 100430,
+            ["FuelConsumption"] = 4,
+            ["Class"] = {"Container", "Vehicle-Transport"},
+            ["WaterLevel"] = 10,
+            ["Container"] = {["ProfitPerNM"] = 300000, ["Capacity"] = 1650}
+        },
+        {
             "Prototype Heavy Lifter",
             ["ImageAssetID"] = 13634833525,
             ["Acceleration"] = 1,
             ["Cost"] = 46000000,
-            ["AllowedLoads"] = {1, 7},
+            ["AllowedLoads"] = {1, 7, 9},
             ["MaxFuel"] = 4000,
             ["Class"] = "Heavy-Lifter",
             ["WaveReactivity"] = 1.2,
@@ -820,7 +1022,7 @@ data = {
             ["ImageAssetID"] = 14347775149,
             ["Acceleration"] = 1,
             ["Cost"] = 199000000,
-            ["AllowedLoads"] = {2, 4, 5},
+            ["AllowedLoads"] = {2, 4, 5, 10},
             ["MaxFuel"] = 8000,
             ["Class"] = "Heavy-Lifter",
             ["WaveReactivity"] = 1.5,
@@ -838,7 +1040,7 @@ data = {
             ["ImageAssetID"] = 14347777385,
             ["Acceleration"] = 1,
             ["Cost"] = 630000000,
-            ["AllowedLoads"] = {2, 3, 4, 5, 6, 8},
+            ["AllowedLoads"] = {2, 3, 4, 5, 6, 8, 11},
             ["MaxFuel"] = 10000,
             ["Class"] = "Heavy-Lifter",
             ["WaveReactivity"] = 1.7,
@@ -855,6 +1057,7 @@ data = {
             "Coast Guard Cutter",
             ["ImageAssetID"] = 6239314421,
             ["Acceleration"] = 3,
+            ["MinTrade"] = 50000000,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 0.4,
@@ -869,6 +1072,7 @@ data = {
             "HMAS Hobart",
             ["ImageAssetID"] = 6239314421,
             ["Acceleration"] = 1,
+            ["MinTrade"] = -1,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 0.2,
@@ -883,6 +1087,7 @@ data = {
             "Noah's Ark",
             ["ImageAssetID"] = 6239314421,
             ["Acceleration"] = 1,
+            ["MinTrade"] = -1,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 0.8,
@@ -897,6 +1102,7 @@ data = {
             "Sailing Yacht",
             ["ImageAssetID"] = 6239314421,
             ["Acceleration"] = 1,
+            ["MinTrade"] = 70000000,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 0.2,
@@ -911,12 +1117,14 @@ data = {
             "Submarine Racerr",
             ["ImageAssetID"] = 6239314421,
             ["Acceleration"] = 10,
+            ["MinTrade"] = -1,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 1,
             ["WaveReactivity"] = 1,
             ["TopSpeed"] = 1000,
             ["DWT"] = 600,
+            ["Invisible"] = true,
             ["FuelConsumption"] = 1.5,
             ["WaterLevel"] = 0,
             ["MaxFuel"] = 15000
@@ -925,6 +1133,7 @@ data = {
             "Montana",
             ["ImageAssetID"] = 9812978773,
             ["Acceleration"] = 0.6,
+            ["MinTrade"] = -1,
             ["Cost"] = -1,
             ["Class"] = "Developer",
             ["TurnSpeed"] = 0.05,
@@ -940,6 +1149,7 @@ data = {
             "Carrier",
             ["ImageAssetID"] = 14433593642,
             ["Acceleration"] = 0.5,
+            ["MinTrade"] = 800000000,
             ["Cost"] = -1,
             ["MaxFuel"] = 12000,
             ["TurnSpeed"] = 0.06,
@@ -949,12 +1159,44 @@ data = {
             ["Class"] = "Developer",
             ["WaterLevel"] = 12,
             ["FuelConsumption"] = 2
+        },
+        {
+            "Virginia",
+            ["ImageAssetID"] = 16875505469,
+            ["Acceleration"] = 1,
+            ["MinTrade"] = -1,
+            ["Cost"] = -1,
+            ["Class"] = "Developer",
+            ["TurnSpeed"] = 0.2,
+            ["WaveReactivity"] = 1,
+            ["TopSpeed"] = 50,
+            ["DWT"] = 15000,
+            ["FuelConsumption"] = 2,
+            ["WaterLevel"] = 0,
+            ["MaxFuel"] = 12200
+        },
+        {
+            "Baden-Wurttenberg",
+            ["ImageAssetID"] = 17046364751,
+            ["Acceleration"] = 1,
+            ["MinTrade"] = -1,
+            ["Cost"] = -1,
+            ["Class"] = "Developer",
+            ["TurnSpeed"] = 0.2,
+            ["WaveReactivity"] = 1,
+            ["TopSpeed"] = 45,
+            ["DWT"] = 15000,
+            ["FuelConsumption"] = 0.2,
+            ["WaterLevel"] = 0,
+            ["MaxFuel"] = 4500
         }
     },
     ["LightsOn"] = 17.5,
-    ["ItemLimit"] = 600,
+    ["TradeFee"] = 0.05,
+    ["MaxCharacters"] = 50,
     ["DecalProduct"] = 1200500794,
     ["LightsOff"] = 6,
+    ["MaxBrandingCharacters"] = 20,
     ["CompanyBlacklist"] = {
         "Maersk Line",
         "Maersk",
@@ -989,19 +1231,17 @@ data = {
         "MOL",
         "Walmart",
         "Hamburg Sud",
-        "Hamburg SÃ¼d",
+        "Hamburg Süd",
         "Paramount",
         "Disney",
         "Universal Pictures",
         "Carnival",
         "Norwegian Cruise"
     },
-    ["MaxBrandingCharacters"] = 20,
-    ["MaxCharacters"] = 50,
     ["MaxMembers"] = 600,
     ["MaxJoinCompany"] = 20,
     ["CompanySellPrice"] = 0.3,
-    ["FuelCost"] = 81,
+    ["SellPrice"] = 0.3,
     ["GasTypes"] = {
         {["ValueModifier"] = 1, ["Type"] = "Methane"},
         {["ValueModifier"] = 1, ["Type"] = "LNG"},
@@ -1012,6 +1252,8 @@ data = {
         {["ValueModifier"] = 1, ["Type"] = "Argon"}
     },
     ["InstantFuelProduct"] = 1200381131,
+    ["FuelCost"] = 81,
+    ["ItemLimit"] = 2000,
     ["NormalProductPrices"] = {
         ["950531948"] = 460,
         ["950531929"] = 235,
@@ -1023,9 +1265,9 @@ data = {
         ["1239627818"] = 2290,
         ["1143095799"] = 900
     },
-    ["Version"] = "2.2.1",
+    ["Version"] = "2.4.1",
     ["StudsToNM"] = 4777,
-    ["Gamepasses"] = {3082142, 3082136, 10902054, 13100733, 38322307, 38327563},
+    ["Gamepasses"] = {3082142, 3082136, 10902054, 13100733, 755744629, 38327563, 38322307},
     ["SeaLevel"] = 230,
     ["CashProducts"] = {
         {950531863, 200000},
