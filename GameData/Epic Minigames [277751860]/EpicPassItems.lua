@@ -1,54 +1,54 @@
 data = {
     ["seasonSerials"] = {["9"] = "Autumn", ["12"] = "Winter", ["3"] = "Spring", ["6"] = "Summer"},
-    ["randomSortOffset"] = 72,
+    ["randomSortOffset"] = 60,
     ["seasonLength"] = 4838400,
     ["RewardsCycle"] = {
         ["Spring"] = {
             ["Rotation"] = {
-                {"Coins_200", "Common"},
-                {"Coins_500", "Uncommon"},
-                {"Coins_1500", "Rare"},
+                {"Minigame Choice", "Common"},
                 {"Minigame Choice", "Common"},
                 {"Minigame Choice x2", "Uncommon"},
-                {"Chonky Seal", "Uncommon"},
-                {"Blue Slime", "Rare"},
-                {"Red Ringed", "Uncommon"},
-                {"Blue Electro", "Common"},
-                {"Inexplicable", "Rare"},
-                {"Wispy Sparkles", "Common"},
-                {"Tireless", "Uncommon"},
-                {"Imaginative", "Uncommon"},
-                {"4-String Roblocaster", "Rare"},
-                {"Protest Sign: Blame John", "Common"},
-                {"ROBAR eXtreme Chocolate Crunch", "Uncommon"}
+                {"Minigame Choice x2", "Uncommon"},
+                {"Kiwi", "Uncommon"},
+                {"Plant Puppy", "Uncommon"},
+                {"Spring Fairy", "Rare"},
+                {"Vine Staff", "Legendary"},
+                {"Earth Horn", "Rare"},
+                {"Mined", "Legendary"},
+                {"Fragrant", "Rare"},
+                {"Bloomer", "Uncommon"},
+                {"Imbecile", "Common"},
+                {"Flower Ring", "Rare"},
+                {"Protected", "Uncommon"},
+                {"Confused", "Common"}
             },
             ["Fixed"] = {
-                ["A"] = {"Coins_200", "Common"},
-                ["C"] = {"Crowbar", "Uncommon"},
-                ["B"] = {"Minigame Choice", "Common"},
-                ["E"] = {"Bambu the Red Panda", "Legendary"},
-                ["D"] = {"Equivocal", "Rare"}
+                ["A"] = {"Minigame Choice", "Common"},
+                ["C"] = {"Vitality", "Uncommon"},
+                ["B"] = {"Natural", "Common"},
+                ["E"] = {"Flatten", "Legendary"},
+                ["D"] = {"Steampunk Falcon", "Rare"}
             },
             ["Cumulative"] = {
                 ["A"] = {"Minigame Choice", "Common"},
-                ["H"] = {"Korblox Deathspeaker's Spell Book", "Legendary"},
+                ["H"] = {"Octavius the Octopus", "Legendary"},
                 ["C"] = {"Coins_200", "Common"},
-                ["B"] = {"Staff of Sparks", "Uncommon"},
+                ["B"] = {"Flower Crossbow", "Uncommon"},
                 ["E"] = {"Minigame Choice x2", "Uncommon"},
-                ["D"] = {"4th Seasoneer", "Rare"},
+                ["D"] = {"8th Seasoneer", "Rare"},
                 ["G"] = {"Minigame Choice x2", "Uncommon"},
-                ["F"] = {"Triangulum", "Rare"}
+                ["F"] = {"Fireflies", "Rare"}
             },
             ["Leaderboards"] = {
-                ["Top5Alltime"] = {"Stupendous Award", "Legendary"},
+                ["Top5Alltime"] = {"Uber Award", "Legendary"},
                 ["Silver"] = "2nd Place Trophy",
-                ["Top5Weekly"] = {"Ion Gem", "Legendary"},
-                ["Top50Weekly"] = {"Blackhole", "Rare"},
+                ["Top5Weekly"] = {"Barry the Bear", "Legendary"},
+                ["Top50Weekly"] = {"Requiem", "Rare"},
                 ["Bronze"] = "3rd Place Trophy",
-                ["Top50Alltime"] = {"Hexarora", "Rare"},
+                ["Top50Alltime"] = {"Plasmatic", "Rare"},
                 ["Gold"] = "1st Place Trophy",
-                ["Top100Weekly"] = {"Radical", "Uncommon"},
-                ["Top100Alltime"] = {"Promethean", "Uncommon"}
+                ["Top100Weekly"] = {"Diabolical", "Uncommon"},
+                ["Top100Alltime"] = {"Exalted", "Uncommon"}
             }
         },
         ["Autumn"] = {
@@ -101,33 +101,17 @@ data = {
         },
         ["Summer"] = {
             ["Rotation"] = {
-                {"Coins_200", "Common"},
-                {"Coins_200", "Common"},
-                {"Coins_500", "Uncommon"},
-                {"Coins_1500", "Rare"},
                 {"Minigame Choice", "Common"},
-                {"Axolotl", "Uncommon"},
-                {"Mouthy Moon", "Uncommon"},
-                {"Protest Sign: Touch Grass", "Common"},
+                {"Minigame Choice", "Common"},
+                {"Minigame Choice x2", "Uncommon"},
+                {"Minigame Choice x2", "Uncommon"},
                 {"Wisps", "Common"},
-                {"Emo", "Rare"},
                 {"Aura", "Common"},
-                {"Special", "Uncommon"},
-                {"Adorable", "Uncommon"},
-                {"Skull Gun", "Rare"},
-                {"8-Bit Staff", "Common"},
-                {"Lightning Wand", "Uncommon"},
-                {"Minigame Choice", "Common"},
-                {"Evil Duck", "Legendary"},
-                {"Necromancer Staff", "Legendary"},
-                {"Pet Rock", "Rare"},
-                {"Kawaii", "Uncommon"},
                 {"Neon Laser Launcher", "Rare"},
                 {"Director's Clapboard", "Common"},
                 {"Frying Pan", "Common"},
                 {"Stick Friend", "Uncommon"},
                 {"Cheeky", "Uncommon"},
-                {"Minigame Choice", "Common"},
                 {"Mythical", "Rare"},
                 {"The Fiery Sun", "Rare"},
                 {"Police Badge", "Common"},
@@ -143,18 +127,18 @@ data = {
             },
             ["Cumulative"] = {
                 ["A"] = {"Minigame Choice", "Common"},
-                ["H"] = {"Jerry the Jellyfish", "Legendary"},
+                ["H"] = {"Carol the Crab", "Legendary"},
                 ["C"] = {"Coins_200", "Common"},
                 ["B"] = {"Paint Grenade", "Uncommon"},
                 ["E"] = {"Minigame Choice x2", "Uncommon"},
-                ["D"] = {"5th Seasoneer", "Rare"},
+                ["D"] = {"9th Seasoneer", "Rare"},
                 ["G"] = {"Minigame Choice x2", "Uncommon"},
                 ["F"] = {"Mystic Cloud", "Rare"}
             },
             ["Leaderboards"] = {
-                ["Top5Alltime"] = {"Giga Award", "Legendary"},
+                ["Top5Alltime"] = {"Scrumptious Award", "Legendary"},
                 ["Silver"] = "2nd Place Trophy",
-                ["Top5Weekly"] = {"Nova", "Legendary"},
+                ["Top5Weekly"] = {"White Nova", "Legendary"},
                 ["Top50Weekly"] = {"Lightning Cloud", "Rare"},
                 ["Bronze"] = "3rd Place Trophy",
                 ["Top50Alltime"] = {"Solar System", "Rare"},
@@ -212,7 +196,7 @@ data = {
             }
         }
     },
-    ["getSeasonData"] = "function: 0x00000000bd4918ee",
+    ["getSeasonData"] = "function: 0xf2154473428a912c",
     ["rotationTimeStart"] = 1683158400,
     ["weeklyChallenges"] = {
         {
