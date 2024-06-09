@@ -1,4 +1,4 @@
---28 May 2024 4:00pm
+--29 May 2024 7:00am
 --Rank, Username, Tokens, Tix, Time to Earn, UserID
 data = {
     {1, "i_tkk", "80", "160", "10h28m", 70666650},
