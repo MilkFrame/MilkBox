@@ -1,0 +1,141 @@
+--7 June 2024 9:00pm
+data = {
+    ["Paperclips Leaderboard"] = {
+        {1, "gtarolooo60", "170K+"},
+        {2, "oofbuur78", "104K+"},
+        {3, "noob_sansadayo", "87K+"},
+        {4, "Roxanne_wolfrace", "76K+"},
+        {5, "RainbowBaby812", "59K+"},
+        {6, "Dhabia_506", "57K+"},
+        {7, "kuromi_6513", "56K+"},
+        {8, "Emopotato6669", "51K+"},
+        {9, "jdjdjdjdjek03", "51K+"},
+        {10, "ypj_oojy666666", "46K+"},
+        {11, "kuroneko2256", "45K+"},
+        {12, "fazloo444444", "44K+"},
+        {13, "osito04952", "43K+"},
+        {14, "Lankyfoxy25", "41K+"},
+        {15, "Cookies122713", "40K+"},
+        {16, "Celest1234_56", "36K+"},
+        {17, "lator208", "35K+"},
+        {18, "Maemae022213", "35K+"},
+        {19, "missmymainacc_678", "35K+"},
+        {20, "pinkarose025", "31K+"},
+        {21, "moonQuinn1234", "31K+"},
+        {22, "Pls_dove", "30K+"},
+        {23, "leesh3373", "30K+"},
+        {24, "09D94", "29K+"},
+        {25, "rlaheel02", "29K+"},
+        {26, "Denn_383", "29K+"},
+        {27, "camila_125647", "28K+"},
+        {28, "makeillbo123", "28K+"},
+        {29, "SpeakermanDanny10", "28K+"},
+        {30, "cute55399", "28K+"},
+        {31, "Lexi_catsovo", "28K+"},
+        {32, "Dog_1219a", "26K+"},
+        {33, "damaze_runner5", "26K+"},
+        {34, "MAXG101SV2", "25K+"},
+        {35, "Jasminebmula", "25K+"},
+        {36, "fejuksss", "25K+"},
+        {37, "Tocino127493", "24K+"},
+        {38, "Fbkvbiif", "24K+"},
+        {39, "Auu8249", "24K+"},
+        {40, "SAFE_473", "24K+"},
+        {41, "natsumeisinyourwalls", "23K+"},
+        {42, "Epoppet8", "23K+"},
+        {43, "Jayo122412", "23K+"},
+        {44, "Sonicmiguel9439", "22K+"},
+        {45, "UlyaUlya07", "22K+"},
+        {46, "312vks", "21K+"},
+        {47, "chocolate_bia2", "21K+"},
+        {48, "BRENTON_602", "21K+"},
+        {49, "AbokA2615", "21K+"},
+        {50, "dinocatgirl28", "21K+"},
+        {51, "gksk9348", "21K+"},
+        {52, "THEMOSTAWESOMEDUDE12", "21K+"},
+        {53, "ALISA670966", "20K+"},
+        {54, "cookiekaylee17", "20K+"},
+        {55, "sarma6342", "20K+"},
+        {56, "Ghostmontae", "20K+"},
+        {57, "GIAQMN", "20K+"},
+        {58, "wSWATw", "20K+"},
+        {59, "afz_argacello", "20K+"},
+        {60, "Aranambk", "20K+"},
+        {61, "jetfuelcaffeine", "20K+"},
+        {62, "Milayaborzaya15", "19K+"},
+        {63, "rutto_umido124", "19K+"},
+        {64, "dkaluz10", "19K+"},
+        {65, "aqilacantik920", "19K+"},
+        {66, "xlsmxle", "19K+"},
+        {67, "mordovin4", "19K+"},
+        {68, "hayuta1112", "19K+"},
+        {69, "0MISS_GRACEFUL0", "19K+"},
+        {70, "Matheusgamerbr966", "19K+"},
+        {71, "garicaracollalo123r0", "19K+"},
+        {72, "Sususus_481", "19K+"},
+        {73, "Ali76beyc18", "19K+"},
+        {74, "Shockwave98562", "18K+"},
+        {75, "Tasianum", "18K+"},
+        {76, "jptjptpo", "18K+"},
+        {77, "priete11", "18K+"},
+        {78, "ooohtea", "18K+"},
+        {79, "alfonso_super8", "18K+"},
+        {80, "AngelJr20148", "18K+"},
+        {81, "CreeperGamer76Bo", "18K+"},
+        {82, "Kethelin0104", "18K+"},
+        {83, "ififfisuifys", "18K+"},
+        {84, "878huyy7", "18K+"},
+        {85, "r5dguc", "18K+"},
+        {86, "Nuggetplush136", "18K+"},
+        {87, "pazita507", "17K+"},
+        {88, "syper_men12121", "17K+"},
+        {89, "Csjcscsj", "17K+"},
+        {90, "kha1234854", "17K+"},
+        {91, "DRYKYDRYKY", "17K+"},
+        {92, "qpqpqpqp0006", "17K+"},
+        {93, "ben3904799", "17K+"},
+        {94, "QUANCHIHEISMAN", "17K+"},
+        {95, "ItZyoFavKiwi", "17K+"},
+        {96, "Edaedow2", "17K+"},
+        {97, "iwiwisiwiwis7wiwsks", "17K+"},
+        {98, "Nisha2913", "17K+"},
+        {99, "Nahummartinez13", "17K+"},
+        {100, "PrettyAmara27", "17K+"}
+    },
+    ["Top Donators"] = {
+        {1, "cuuragegirl", "10000"},
+        {2, "matthewjmunoz22", "4000"},
+        {3, "lllSUKEIAlll", "2650"},
+        {4, "shedevrerss", "2550"},
+        {5, "wuxyp", "2050"},
+        {6, "POV_CameraMan72", "2000"},
+        {7, "OTAR1K", "1200"},
+        {8, "leeggges", "700"},
+        {9, "DarkiLaMaga", "560"},
+        {10, "mxo180", "500"},
+        {11, "Hive922", "400"},
+        {12, "Yvinight", "350"},
+        {13, "LinkBOTW_TOTK", "340"},
+        {14, "aviks57", "300"},
+        {15, "IOI_AOA", "300"}
+    }
+}
+p2={} p={}
+for i,v in pairs(workspace:FindFirstChild("GlobalLeaderboard",true).SurfaceGui.Frame.Contents.Items:GetChildren()) do
+if v:FindFirstChild("Values") then
+table.insert(p,{tonumber(v.Values.Number.Text),v.Values.Username.Text,v.Values.Value.Text})
+end
+end
+table.sort(p,function(a,b) return a[1]<b[1] end)
+p2["Paperclips Leaderboard"]=p
+p3={}
+for i,v in pairs(workspace.Boards.Screen.SurfaceGui.MainFrame.ScrollingFrame:GetChildren()) do
+if v.Name == "Frame" then
+rank=tonumber(string.sub(v.Number.Text,string.find(v.Number.Text,"%d+")))
+table.insert(p3,{rank,v.Title.Text,v.Explaination.Text})
+end
+end
+table.sort(p3,function(a,b) return a[1]<b[1] end)
+p2["Top Donators"]=p3
+p4 = table_to_string(p2)
+setclipboard(p4) print("Done")
