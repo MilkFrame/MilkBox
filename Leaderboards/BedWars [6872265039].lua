@@ -1,0 +1,122 @@
+--26 May 2024 9:00pm
+--Overall Wins
+data = {
+    {1, "RealYoIsmael", "31,885 wins", 1008670781},
+    {2, "CHRI5GT", "28,757 wins", 284981648},
+    {3, "wsniperrr", "26,935 wins", 1283472724},
+    {4, "IlIIIIllllIIIIIllIll", "26,037 wins", 1719684816},
+    {5, "ykPirate", "25,766 wins", 392150536},
+    {6, "RealYoLoks", "25,304 wins", 471967073},
+    {7, "RealYoGodlike", "24,912 wins", 477767636},
+    {8, "MaxToTheTitan", "24,576 wins", 485059011},
+    {9, "EasyStarGg", "24,568 wins", 2263377756},
+    {10, "AnnoyedByMike", "23,780 wins", 263669100},
+    {11, "happysquirrel24", "23,567 wins", 1720723617},
+    {12, "NOOBPOLICECAMPER482", "23,544 wins", 1336598042},
+    {13, "lllIIIllIlIIIIllll", "22,763 wins", 2607439554},
+    {14, "IIIlIlllIIlIIIlIl", "22,736 wins", 539187306},
+    {15, "Shadow240412", "22,409 wins", 1323975889},
+    {16, "ReaIBubble", "21,692 wins", 1412113511},
+    {17, "Dynamicsdynamite", "21,638 wins", 1080805767},
+    {18, "Happysquirrel242", "21,583 wins", 3161693438},
+    {19, "9Duckman9", "21,495 wins", 1144419565},
+    {20, "llIlIllIlIIllIllIlI", "21,411 wins", 543115564},
+    {21, "S1mplySal", "20,673 wins", 1823419445},
+    {22, "MinelsBabo", "20,636 wins", 1437492535},
+    {23, "MilyonDaGoat", "20,573 wins", 2626832269},
+    {24, "MamdAreManuko", "20,448 wins", 986848850},
+    {25, "vxp_l", "20,163 wins", 1480244351},
+    {26, "AnnoyedByFelix", "20,049 wins", 1521617147},
+    {27, "vddgghyhhgfhjuye", "19,984 wins", 1100345752},
+    {28, "TropicalJuiceLemon", "19,887 wins", 1356829025},
+    {29, "LifeIsSkywars", "19,554 wins", 752509285},
+    {30, "ChaoticArsenic", "19,435 wins", 1510392832},
+    {31, "OhioC1tizen", "19,350 wins", 162011731},
+    {32, "DesiredMommy", "19,293 wins", 1859985565},
+    {33, "2V2PHANTOM", "19,248 wins", 1852942725},
+    {34, "DaRealAction", "19,078 wins", 3230214104},
+    {35, "superboy102300", "18,874 wins", 2466335744},
+    {36, "er0di", "18,788 wins", 470802048},
+    {37, "ilovestxnnedalot", "18,727 wins", 534762361},
+    {38, "llIllIlIlIlIIIlII", "18,506 wins", 1133639993},
+    {39, "TYP_Gamerr", "18,433 wins", 1635544402},
+    {40, "WilfredIsMaster", "18,302 wins", 1058478807},
+    {41, "FIyingUndetected", "18,276 wins", 2661265431},
+    {42, "YoFelixStar", "18,144 wins", 1715338248},
+    {43, "rllylittle", "17,902 wins", 3629388515},
+    {44, "projector1233", "17,873 wins", 944206298},
+    {45, "SkyCantSpell", "17,800 wins", 1049767300},
+    {46, "YoJoshStar", "17,632 wins", 1503634655},
+    {47, "iiYannisii6", "17,581 wins", 2596549176},
+    {48, "l_IIlllI", "17,473 wins", 1539294111},
+    {49, "RealYoWaVie", "17,456 wins", 2724881487},
+    {50, "Romakid460", "17,228 wins", 2952304241},
+    {51, "YoPqin", "17,013 wins", 1713457803},
+    {52, "zMAGMATIC", "16,977 wins", 1718227592},
+    {53, "SleeplessSoulmate", "16,800 wins", 426378541},
+    {54, "Incuzen", "16,602 wins", 4268667727},
+    {55, "1FIZT", "16,575 wins", 1516340320},
+    {56, "YoInsightPlays", "16,404 wins", 2904315992},
+    {57, "gamersams123", "16,342 wins", 487666114},
+    {58, "ishmeet02", "16,281 wins", 310118264},
+    {59, "pawstrami", "16,228 wins", 2014655534},
+    {60, "I3559", "16,188 wins", 405836556},
+    {61, "ReaperAngel12", "16,103 wins", 225387652},
+    {62, "LepzrZ", "16,099 wins", 2909385315},
+    {63, "Vinqiux", "15,972 wins", 1683351476},
+    {64, "1_PasteI", "15,912 wins", 905519736},
+    {65, "ozoo9221", "15,846 wins", 2243566155},
+    {66, "XyzAbcShadow", "15,694 wins", 913600167},
+    {67, "ReaIYoDark", "15,684 wins", 2589965298},
+    {68, "ButImSleepy", "15,672 wins", 1130077043},
+    {69, "zennethlim", "15,644 wins", 1059862279},
+    {70, "aquvly", "15,525 wins", 886858866},
+    {71, "kynukiii", "15,512 wins", 486548946},
+    {72, "CrispyManngos", "15,500 wins", 1272016069},
+    {73, "Hamadhamdun", "15,500 wins", 2364429223},
+    {74, "lIAmBabolI", "15,472 wins", 1103886788},
+    {75, "IIIllIlllllllllll", "15,336 wins", 3118284560},
+    {76, "PMY_314", "15,328 wins", 2043364474},
+    {77, "Nixmax34", "15,321 wins", 2899380615},
+    {78, "Danger6us", "15,285 wins", 2010963422},
+    {79, "lymaydu", "15,128 wins", 596531594},
+    {80, "DOOMnarin", "15,119 wins", 1263059092},
+    {81, "YoYuzStar", "15,049 wins", 1888098994},
+    {82, "QuestMaster23010", "15,026 wins", 164401391},
+    {83, "05eu", "15,000 wins", 189737262},
+    {84, "DragonFire_67", "14,975 wins", 1258622997},
+    {85, "webbyiz", "14,956 wins", 649764977},
+    {86, "YoW1ll", "14,954 wins", 1946157667},
+    {87, "bucketofgummies", "14,927 wins", 2053113927},
+    {88, "YoSnowStar", "14,863 wins", 3519114386},
+    {89, "FrostedV", "14,759 wins", 1352584284},
+    {90, "StarRainnn", "14,682 wins", 1349373373},
+    {91, "RealYinxing", "14,679 wins", 557285202},
+    {92, "IDontTouchGrassPAPI", "14,668 wins", 2470241923},
+    {93, "Masonidk2012", "14,640 wins", 2630329344},
+    {94, "jiefkgjh", "14,628 wins", 2968267687},
+    {95, "AltifyPolice20", "14,625 wins", 1697117817},
+    {96, "ActualECR", "14,597 wins", 2924439240},
+    {97, "MccLeod_1234", "14,586 wins", 4263595296},
+    {98, "Ghostwxstaken", "14,544 wins", 1708400489},
+    {99, "bBbLuEdOgGg", "14,510 wins", 1638270181},
+    {100, "YoEternlty", "14,500 wins", 1047013223}
+}
+p = {}
+for i,v in pairs(workspace.Lobby.Noticeboard02.Board.LeaderboardApp:FindFirstChild("AutoCanvasScrollingFrame",true):GetChildren()) do
+if v.Name=="LeaderboardElementContainer" then
+p2 = v:FindFirstChild("PlayerContainer",true)
+s2 = v:FindFirstChild("StatValuesContainer",true)
+rank = tonumber(string.sub(p2.LeaderboardRank.Text,string.find(p2.LeaderboardRank.Text,"%d+")))
+username = p2.PlayerUsername.Text u1=string.find(username,"/b>")
+username = string.sub(username,u1+3)
+stat = s2.StatValue.Text s3=string.find(stat,"</")
+stat = string.sub(stat,4,s3-1)
+id="" dd,d2=string.find(p2.PlayerAvatar.Image,"%d+") if dd~=nil then
+id=tonumber(string.sub(p2.PlayerAvatar.Image,dd,d2)) end
+table.insert(p,{rank,username,stat,id})
+end
+end
+table.sort(p,function(a,b) return a[1]<b[1] end)
+x = table_to_string(p)
+setclipboard(x) print("Done")
