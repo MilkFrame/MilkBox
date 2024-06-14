@@ -1,9 +1,116 @@
 data = {
+    ["HLWN22"] = {
+        {
+            "BatAttack",
+            "Tombstone",
+            "CursedFlashlight",
+            "Baghead",
+            "WerewolfHowl",
+            "Candlehead",
+            "DemonHorns",
+            "CursedEye"
+        },
+        {
+            "ImpaledHead",
+            "WitchHat",
+            "DualBoneSwords",
+            "LavaLamp",
+            "SpiderInfestation",
+            "PumpItUp",
+            "VampireOutfit",
+            "OminousDemise"
+        },
+        {
+            "BlueHallowedFace",
+            "GreenHallowedFace",
+            "OrangeHallowedFace",
+            "GhostCatcher",
+            "DemonWings",
+            "CandleLamp",
+            "FungalOvergrowth",
+            "Reanimated",
+            "ToxicInferno"
+        },
+        {
+            "Monoculi",
+            "WretchedWings",
+            "PhantomBlades",
+            "AmethystStaff",
+            "GhostAbduction",
+            "Telespell",
+            "Thriller",
+            "BluefirePortal",
+            "HellfirePortal"
+        },
+        {
+            "SeekingEye",
+            "EyeCorruption",
+            "Necromonicon",
+            "FrightFunk",
+            "BlueUFOAbduction",
+            "PinkUFOAbduction",
+            "Cauldronhead",
+            "HellishGrip",
+            "HauntedIridescence"
+        },
+        {
+            "CobwebTrap",
+            "MechanicalScythe",
+            "DragonSkull",
+            "GhostFriend",
+            "SpilledCauldron",
+            "WardingLantern",
+            "RockinStride",
+            "DarkTendrils"
+        },
+        {
+            "AlchemistBelt",
+            "Frankenstein",
+            "ElectrifyingGuitar",
+            "BatVision",
+            "BananaSuit",
+            "IllusionEyes",
+            "Broom",
+            "BloodMoon"
+        }
+    },
     ["VAL23"] = {
         {"HeartAttack", "ValentinesHeadband", "Lollipop", "HeartBelt", "LoveChaser", "TeddyTrap"},
         {"Rose", "ValentineBrawler", "214Vision", "CupidWand", "HealthyPotion", "BionicRejuvination"},
         {"HeartLantern", "HeartfeltTeleporter", "RomanSword", "LupercaliaTommy", "ValentinianBeast", "Adoration"},
         {"HermesPack", "NaturesTrident", "CupidBow", "SakuraTree", "HarpBarrier", "Euphoria"}
+    },
+    ["VAL24"] = {
+        {
+            "TeddyInfestation",
+            "LoveFinder",
+            "FlowerBeacon",
+            "ChocolateBomb",
+            "RapidPicnic",
+            "HarpRecital",
+            "EclipseLove",
+            "PureLove"
+        },
+        {
+            "HeartbeatTimer",
+            "TeddyDecoy",
+            "ExplosiveKitten",
+            "AffectionateLantern",
+            "LoveseekerVision",
+            "RosepetalGate",
+            "LoveyDovey",
+            "AtomicHeart"
+        },
+        {
+            "CupidMirage",
+            "MeowPhone",
+            "FlowerOfLight",
+            "CagedHeartSensor",
+            "HeartwarmingCoffee",
+            "EternalAffection",
+            "AngelicWings",
+            "CupidsArrow"
+        }
     },
     ["XMAS22"] = {
         {
@@ -127,79 +234,38 @@ data = {
             "VerdantStag"
         }
     },
-    ["HLWN22"] = {
+    ["STPATS24"] = {
         {
-            "BatAttack",
-            "Tombstone",
-            "CursedFlashlight",
-            "Baghead",
-            "WerewolfHowl",
-            "Candlehead",
-            "DemonHorns",
-            "CursedEye"
+            "PotOfGoldPin",
+            "CloverCompass",
+            "FourLeafLantern",
+            "CloverCommunicator",
+            "ShamrockSpill",
+            "IrishBeverage",
+            "CloverEssence"
         },
         {
-            "ImpaledHead",
-            "WitchHat",
-            "DualBoneSwords",
-            "LavaLamp",
-            "SpiderInfestation",
-            "PumpItUp",
-            "VampireOutfit",
-            "OminousDemise"
+            "LuckySuspenders",
+            "CloverMine",
+            "LuckyValkyrie",
+            "EmeraldLightPost",
+            "CauldronOfGreed",
+            "HorseshoeTeleporter",
+            "IrishJig",
+            "LuckyStrike"
         },
         {
-            "BlueHallowedFace",
-            "GreenHallowedFace",
-            "OrangeHallowedFace",
-            "GhostCatcher",
-            "DemonWings",
-            "CandleLamp",
-            "FungalOvergrowth",
-            "Reanimated",
-            "ToxicInferno"
-        },
-        {
-            "Monoculi",
-            "WretchedWings",
-            "PhantomBlades",
-            "AmethystStaff",
-            "GhostAbduction",
-            "Telespell",
-            "Thriller",
-            "BluefirePortal",
-            "HellfirePortal"
-        },
-        {
-            "SeekingEye",
-            "EyeCorruption",
-            "Necromonicon",
-            "FrightFunk",
-            "BlueUFOAbduction",
-            "PinkUFOAbduction",
-            "Cauldronhead",
-            "HellishGrip",
-            "HauntedIridescence"
-        },
-        {
-            "CobwebTrap",
-            "MechanicalScythe",
-            "DragonSkull",
-            "GhostFriend",
-            "SpilledCauldron",
-            "WardingLantern",
-            "RockinStride",
-            "DarkTendrils"
-        },
-        {
-            "AlchemistBelt",
-            "Frankenstein",
-            "ElectrifyingGuitar",
-            "BatVision",
-            "BananaSuit",
-            "IllusionEyes",
-            "Broom",
-            "BloodMoon"
+            "MissFortune",
+            "CatchTheRainbow",
+            "RainbowBarrier",
+            "MintyGrapple",
+            "AvariceLounge",
+            "LeprechaunsRune",
+            "StPixels"
         }
+    },
+    ["XMAS2023"] = {
+        {"SealBuds", "SantaPuppeteer", "MechanicalCrocodile", "MelodicalRudolph", "CampfireDoze"},
+        {"WorkshopConveyer", "RudolphTeleporter", "CatCampfire", "StageSet", "SnowmobileCruise", "WintertideEssence"}
     }
 }
