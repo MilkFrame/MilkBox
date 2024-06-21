@@ -34,168 +34,188 @@ data = {
         ["Title"] = "Advent Day 1!",
         ["Code"] = "XMAS_2021_1",
         ["Rewards"] = {["Modifiers"] = {"adXMASMod1"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000a2fce5e9"
+        ["Active"] = "function: 0xb1ff8c31c4776f73"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 10, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 10!",
         ["Code"] = "XMAS_2021_10",
         ["Rewards"] = {["Skin"] = "8076729797", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000682ee409"
+        ["Active"] = "function: 0x5e2ff6fa1471e1d3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 11, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 11!",
         ["Code"] = "XMAS_2021_11",
         ["Rewards"] = {["Stickers"] = {"8090289150"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000026a58a9"
+        ["Active"] = "function: 0x9b1682bb660f9633"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 12, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 12!",
         ["Code"] = "XMAS_2021_12",
         ["Rewards"] = {["Modifiers"] = {"adXMASMod2"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000007c239549"
+        ["Active"] = "function: 0xd47e517968503613"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 13, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 13!",
         ["Code"] = "XMAS_2021_13",
         ["Rewards"] = {["Stickers"] = {"8090286032"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000075e53769"
+        ["Active"] = "function: 0x6d0a67b8519007f3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 14, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 14!",
         ["Code"] = "XMAS_2021_14",
         ["Rewards"] = {["Stickers"] = {"8090287122"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000000028b689"
+        ["Active"] = "function: 0x2e2a19f84b304653"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 15, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 15!",
         ["Code"] = "XMAS_2021_15",
         ["Rewards"] = {["Skin"] = "8090516845", ["Coins"] = 0},
-        ["Active"] = "function: 0x000000005654d629"
+        ["Active"] = "function: 0xf13bbbc73b3196b3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 16, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 16!",
         ["Code"] = "XMAS_2021_16",
         ["Rewards"] = {["Stickers"] = {"8090290509"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000005cd11ac9"
+        ["Active"] = "function: 0xb8da8169b1d3b593"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 17, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 17!",
         ["Code"] = "XMAS_2021_17",
         ["Rewards"] = {["Followers"] = {"Jack"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000006dbe3e9"
+        ["Active"] = "function: 0x7f4dce0adf916573"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 18, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 18!",
         ["Code"] = "XMAS_2021_18",
         ["Rewards"] = {["Stickers"] = {"8091815808"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000a85a4109"
+        ["Active"] = "function: 0x3be52aebeeeee2d3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 19, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 19!",
         ["Code"] = "XMAS_2021_19",
         ["Rewards"] = {["Skin"] = "8090519399", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b65eeda9"
+        ["Active"] = "function: 0xf69f18cafc735b33"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 2, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 2!",
         ["Code"] = "XMAS_2021_2",
         ["Rewards"] = {["Stickers"] = {"8090266992"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000008300b09"
+        ["Active"] = "function: 0x8568d0f2d9d2e0d3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 20, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 20!",
         ["Code"] = "XMAS_2021_20",
         ["Rewards"] = {["Stickers"] = {"8100418989"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000003fdc9849"
+        ["Active"] = "function: 0xac877c6d8bf1b313"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 21, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 21!",
         ["Code"] = "XMAS_2021_21",
         ["Rewards"] = {["Followers"] = {"RockICY"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000a7d82c69"
+        ["Active"] = "function: 0x6d8c818c0097dcf3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 22, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 22!",
         ["Code"] = "XMAS_2021_22",
         ["Rewards"] = {["Stickers"] = {"8100419773"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000d0533189"
+        ["Active"] = "function: 0xd565b3efb6d27d53"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 23, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 23!",
         ["Code"] = "XMAS_2021_23",
         ["Rewards"] = {["Stickers"] = {"8122465147"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000006528d29"
+        ["Active"] = "function: 0x1afce9cd3732ddb3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 24, ["Type"] = 3, ["Y"] = 2021},
         ["Title"] = "Advent Day 24!",
         ["Code"] = "XMAS_2021_24",
         ["Rewards"] = {["Skin"] = "reinBranch", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000dcd61bc9"
+        ["Active"] = "function: 0x5f43e66da5bebc93"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 3, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 3!",
         ["Code"] = "XMAS_2021_3",
         ["Rewards"] = {["Skin"] = "8091129151", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b275dba9"
+        ["Active"] = "function: 0xbca9feb3d0122933"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 4, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 4!",
         ["Code"] = "XMAS_2021_4",
         ["Rewards"] = {["Stickers"] = {"8090282211"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000a407b249"
+        ["Active"] = "function: 0xf3b81a72face3113"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 5, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 5!",
         ["Code"] = "XMAS_2021_5",
         ["Rewards"] = {["Stickers"] = {"8090283773"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000003a063e69"
+        ["Active"] = "function: 0x379849bdedb1caf3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 6, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 6!",
         ["Code"] = "XMAS_2021_6",
         ["Rewards"] = {["Stickers"] = {"8090284461"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b002af89"
+        ["Active"] = "function: 0x62e88ffc1f338353"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 7, ["Type"] = 2, ["Y"] = 2021},
         ["Title"] = "Advent Day 7!",
         ["Code"] = "XMAS_2021_7",
         ["Rewards"] = {["Followers"] = {"PengSherbertNORM"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000aa0b5f29"
+        ["Active"] = "function: 0xa969503f8916cbb3"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 8, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 8!",
         ["Code"] = "XMAS_2021_8",
         ["Rewards"] = {["Stickers"] = {"8090285273"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000001c0dedc9"
+        ["Active"] = "function: 0xd1d9247d01513293"
     },
     {
         ["AdventData"] = {["M"] = 12, ["D"] = 9, ["Type"] = 1, ["Y"] = 2021},
         ["Title"] = "Advent Day 9!",
         ["Code"] = "XMAS_2021_9",
         ["Rewards"] = {["Stickers"] = {"8090287792"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000052f080e9"
+        ["Active"] = "function: 0x1937193d8bf36a73"
+    },
+    {
+        ["Badge"] = 3069657709703098,
+        ["WinDesc"] = "You got all the Balloons on Level 1!!",
+        ["Title"] = "All Balloons Level 1!",
+        ["Type"] = "Hidden Quest",
+        ["Image"] = 16930403118,
+        ["Rewards"] = {["Stickers"] = {"17460403390"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Get all Balloons on Level 1!"
+    },
+    {
+        ["Badge"] = 2188324676505480,
+        ["WinDesc"] = "You got all the Balloons on Level 2!!",
+        ["Title"] = "All Balloons Level 2!",
+        ["Type"] = "Hidden Quest",
+        ["Image"] = 16930403118,
+        ["Rewards"] = {["Stickers"] = {"17460397812"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Get all Balloons on Level 2!"
     },
     {
         ["Active"] = false,
@@ -208,6 +228,12 @@ data = {
         ["Rewards"] = {["Followers"] = {"Tutoro"}, ["Stickers"] = "9344390490", ["Coins"] = 20},
         ["Title"] = "Anniversary!",
         ["Code"] = "TH_BDAY"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Followers"] = {"ANI_GoblinGold"}, ["Stickers"] = "17096249028", ["Coins"] = 50},
+        ["Title"] = "Anniversary!",
+        ["Code"] = "BDAY_400M"
     },
     {
         ["Active"] = false,
@@ -224,310 +250,344 @@ data = {
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 1!",
-        ["Code"] = "HWN_2022_1",
-        ["Rewards"] = {["Stickers"] = {"11301251749"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000003c71efb9"
+        ["Code"] = "XMAS_BP_2022_1",
+        ["Rewards"] = {["Stickers"] = {"11686997489"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x22c4ee25309b2e53"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 1!",
-        ["Code"] = "XMAS_BP_2022_1",
-        ["Rewards"] = {["Stickers"] = {"11686997489"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000f6185319"
-    },
-    {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 10!",
-        ["Code"] = "HWN_2022_10",
-        ["Rewards"] = {["Followers"] = {"FrankButterE"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000a9ce3191"
+        ["Code"] = "HWN_2022_1",
+        ["Rewards"] = {["Stickers"] = {"11301251749"}, ["Coins"] = 0},
+        ["Active"] = "function: 0xba27a38b92787d53"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 10!",
         ["Code"] = "XMAS_BP_2022_10",
         ["Rewards"] = {["Followers"] = {"ChristmasCreep"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000002dd3cb71"
+        ["Active"] = "function: 0xb96e2a282b244b13"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 11!",
-        ["Code"] = "HWN_2022_11",
-        ["Rewards"] = {["Stickers"] = {"11306604936"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000006135ad49"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 10!",
+        ["Code"] = "HWN_2022_10",
+        ["Rewards"] = {["Followers"] = {"FrankButterE"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x204a74ccbb2abc13"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 11!",
         ["Code"] = "XMAS_BP_2022_11",
         ["Rewards"] = {["Stickers"] = {"11680075867"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000be5074a9"
+        ["Active"] = "function: 0x1ce9677d3763e5d3"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 12!",
-        ["Code"] = "HWN_2022_12",
-        ["Rewards"] = {["Modifiers"] = {"spookDecor"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000006ab15801"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 11!",
+        ["Code"] = "HWN_2022_11",
+        ["Rewards"] = {["Stickers"] = {"11306604936"}, ["Coins"] = 0},
+        ["Active"] = "function: 0xa6d0a0b6b0ab96d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 12!",
         ["Code"] = "XMAS_BP_2022_12",
         ["Rewards"] = {["Skin"] = "11686384710", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000aed2e1a1"
+        ["Active"] = "function: 0x6754900638ed9f93"
+    },
+    {
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 12!",
+        ["Code"] = "HWN_2022_12",
+        ["Rewards"] = {["Modifiers"] = {"spookDecor"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x6c7bee5eda69ea93"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 13!",
         ["Code"] = "HWN_2022_13",
         ["Rewards"] = {["Stickers"] = {"11301254930"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000723ef759"
+        ["Active"] = "function: 0x579ecd74c5ee7c53"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 13!",
         ["Code"] = "XMAS_BP_2022_13",
         ["Rewards"] = {["Stickers"] = {"11680061181"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000001f5ead79"
+        ["Active"] = "function: 0x2f3fdf29ceaca553"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 14!",
         ["Code"] = "XMAS_BP_2022_14",
         ["Rewards"] = {["Followers"] = {"Krampus"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000004fd83e11"
+        ["Active"] = "function: 0xd7db1afbc52cca13"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 14!",
         ["Code"] = "HWN_2022_14",
         ["Rewards"] = {["Modifiers"] = {"butterBossH"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000004bbb43b1"
+        ["Active"] = "function: 0x3fb10988cd2ee713"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 15!",
         ["Code"] = "HWN_2022_15",
         ["Rewards"] = {["Stickers"] = {"11301255557"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000003379ee9"
+        ["Active"] = "function: 0xc684559efaaa09d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 15!",
         ["Code"] = "XMAS_BP_2022_15",
         ["Rewards"] = {["Stickers"] = {"11680073173"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000007845c3c9"
-    },
-    {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 16!",
-        ["Code"] = "XMAS_BP_2022_16",
-        ["Rewards"] = {["Modifiers"] = {"creepifierMod"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000040ce9781"
+        ["Active"] = "function: 0xff7456c1d5ed10d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 3, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 16!",
         ["Code"] = "HWN_2022_16",
         ["Rewards"] = {["Troop"] = "Lure", ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000044aa2d61"
+        ["Active"] = "function: 0xcc8ee1f6f0ea3b93"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 17!",
-        ["Code"] = "XMAS_BP_2022_17",
-        ["Rewards"] = {["Stickers"] = {"11680067145"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000001940f8d9"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 16!",
+        ["Code"] = "XMAS_BP_2022_16",
+        ["Rewards"] = {["Modifiers"] = {"creepifierMod"}, ["Coins"] = 0},
+        ["Active"] = "function: 0xc6e164afee63f493"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 17!",
         ["Code"] = "HWN_2022_17",
         ["Rewards"] = {["Stickers"] = {"11301728455"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b42f2039"
+        ["Active"] = "function: 0xc97391c8ea65d153"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 18!",
-        ["Code"] = "XMAS_BP_2022_18",
-        ["Rewards"] = {["Followers"] = {"Snowglobe"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b1c76d31"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 17!",
+        ["Code"] = "XMAS_BP_2022_17",
+        ["Rewards"] = {["Stickers"] = {"11680067145"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x40aa9175f8a54a53"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 18!",
         ["Code"] = "HWN_2022_18",
         ["Rewards"] = {["Skin"] = "quinnHalloween", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000d5a094d1"
+        ["Active"] = "function: 0x51a4455cdf268e13"
+    },
+    {
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 18!",
+        ["Code"] = "XMAS_BP_2022_18",
+        ["Rewards"] = {["Followers"] = {"Snowglobe"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x49b7cd83e726a113"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 19!",
         ["Code"] = "XMAS_BP_2022_19",
         ["Rewards"] = {["Stickers"] = {"11680074099"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000ba7b9e69"
+        ["Active"] = "function: 0x5d8335adeb6687d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 19!",
         ["Code"] = "HWN_2022_19",
         ["Rewards"] = {["Stickers"] = {"11301278098"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000e5264b89"
-    },
-    {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 2!",
-        ["Code"] = "HWN_2022_2",
-        ["Rewards"] = {["Skin"] = "11272837903", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000adcc5851"
+        ["Active"] = "function: 0x75b9087123a6e4d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 2!",
         ["Code"] = "XMAS_BP_2022_2",
         ["Rewards"] = {["Skin"] = "11686590613", ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000017969871"
+        ["Active"] = "function: 0xfb4bb2f0093d3513"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 20!",
-        ["Code"] = "HWN_2022_20",
-        ["Rewards"] = {["Skin"] = "spiderStella", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000e69dffc1"
+        ["Title"] = "Battle Pass LVL 2!",
+        ["Code"] = "HWN_2022_2",
+        ["Rewards"] = {["Skin"] = "11272837903", ["Coins"] = 0},
+        ["Active"] = "function: 0x107397bd9519e213"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 20!",
         ["Code"] = "XMAS_BP_2022_20",
         ["Rewards"] = {["Modifiers"] = {"krampBoss"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000022f84ae1"
+        ["Active"] = "function: 0x327e79f79fe5a993"
+    },
+    {
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 20!",
+        ["Code"] = "HWN_2022_20",
+        ["Rewards"] = {["Skin"] = "spiderStella", ["Coins"] = 0},
+        ["Active"] = "function: 0xad522d0e36654093"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 21!",
         ["Code"] = "XMAS_BP_2022_21",
         ["Rewards"] = {["Stickers"] = {"11680065933"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000db7b07b9"
+        ["Active"] = "function: 0xe895bdc193a3d353"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 3, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 22!",
         ["Code"] = "XMAS_BP_2022_22",
         ["Rewards"] = {["Skin"] = "santaRat", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000f3f6d051"
+        ["Active"] = "function: 0xe2a0f13387227413"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 23!",
         ["Code"] = "XMAS_BP_2022_23",
         ["Rewards"] = {["Stickers"] = {"11680068148"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000f4706d09"
+        ["Active"] = "function: 0xbbafc26980feeed3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 3, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 24!",
         ["Code"] = "XMAS_BP_2022_24",
         ["Rewards"] = {["Skin"] = "jackJester", ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000004edfa41"
+        ["Active"] = "function: 0x1bcb751f8e1e4293"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 3!",
         ["Code"] = "HWN_2022_3",
         ["Rewards"] = {["Stickers"] = {"11301252646"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000dd490509"
+        ["Active"] = "function: 0x8a0ecbe78db848d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 3!",
         ["Code"] = "XMAS_BP_2022_3",
         ["Rewards"] = {["Stickers"] = {"11680059624"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000c71325a9"
-    },
-    {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 4!",
-        ["Code"] = "XMAS_BP_2022_4",
-        ["Rewards"] = {["Followers"] = {"Elf"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000004beec4a9"
+        ["Active"] = "function: 0x132e44cd059f53d3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 4!",
         ["Code"] = "HWN_2022_4",
         ["Rewards"] = {["Skin"] = "11272841009", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000eec6b241"
+        ["Active"] = "function: 0x0c050fc98218bc93"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 5!",
-        ["Code"] = "HWN_2022_5",
-        ["Rewards"] = {["Stickers"] = {"11301253571"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000fe439999"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 4!",
+        ["Code"] = "XMAS_BP_2022_4",
+        ["Rewards"] = {["Followers"] = {"Elf"}, ["Coins"] = 0},
+        ["Active"] = "function: 0xb32538a605fced93"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 5!",
         ["Code"] = "XMAS_BP_2022_5",
         ["Rewards"] = {["Stickers"] = {"11680075164"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000fe691691"
+        ["Active"] = "function: 0x0b19fe710d9c8753"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 6!",
-        ["Code"] = "XMAS_BP_2022_6",
-        ["Rewards"] = {["Modifiers"] = {"snowminionSiege"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000efedba49"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 5!",
+        ["Code"] = "HWN_2022_5",
+        ["Rewards"] = {["Stickers"] = {"11301253571"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x8230333488f89253"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 6!",
         ["Code"] = "HWN_2022_6",
         ["Rewards"] = {["Followers"] = {"Lure"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000008fdfecf1"
+        ["Active"] = "function: 0x781f6060931b4913"
     },
     {
-        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
-        ["Title"] = "Battle Pass LVL 7!",
-        ["Code"] = "HWN_2022_7",
-        ["Rewards"] = {["Stickers"] = {"11301254277"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000df427029"
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 6!",
+        ["Code"] = "XMAS_BP_2022_6",
+        ["Rewards"] = {["Modifiers"] = {"snowminionSiege"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x80fea38c713be013"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 7!",
         ["Code"] = "XMAS_BP_2022_7",
         ["Rewards"] = {["Stickers"] = {"11686995808"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x000000009f66ad01"
+        ["Active"] = "function: 0x3d0377a968e44ad3"
+    },
+    {
+        ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
+        ["Title"] = "Battle Pass LVL 7!",
+        ["Code"] = "HWN_2022_7",
+        ["Rewards"] = {["Stickers"] = {"11301254277"}, ["Coins"] = 0},
+        ["Active"] = "function: 0x927bb30e9fb9ffd3"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 8!",
         ["Code"] = "XMAS_BP_2022_8",
         ["Rewards"] = {["Skin"] = "11686487522", ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000535406c1"
+        ["Active"] = "function: 0x950843fe62643693"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 2, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 8!",
         ["Code"] = "HWN_2022_8",
         ["Rewards"] = {["Followers"] = {"spookDog"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x0000000008c48721"
+        ["Active"] = "function: 0x2dd0fe36abe70193"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 9!",
         ["Code"] = "HWN_2022_9",
         ["Rewards"] = {["Stickers"] = {"11301676094"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000b0494af9"
+        ["Active"] = "function: 0xe64d3ae0a6692b53"
     },
     {
         ["AdventData"] = {["Y"] = 2022, ["Type"] = 1, ["BattlePass"] = true},
         ["Title"] = "Battle Pass LVL 9!",
         ["Code"] = "XMAS_BP_2022_9",
         ["Rewards"] = {["Stickers"] = {"11680062087"}, ["Coins"] = 0},
-        ["Active"] = "function: 0x00000000daaf9e19"
+        ["Active"] = "function: 0x112d0fc55fa41053"
+    },
+    {
+        ["Badge"] = 3861041364826652,
+        ["WinDesc"] = "You beat the Guest and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "bazoookaNoobWiz", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat the Guest on [EASY] difficulty on Challenge Mode!",
+        ["Image"] = 16962316297,
+        ["Title"] = "Beat the Guest!",
+        ["MapInfo"] = {["Map"] = "DisasterHotel", ["Difficulty"] = 1},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 3745683858370476,
+        ["WinDesc"] = "Beat Ornate on [EASY] and unlock a skin!",
+        ["Rewards"] = {["Skin"] = "dawnMaitake", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat Ornate on [EASY] difficulty on Challenge Mode!",
+        ["Image"] = 16054157866,
+        ["Title"] = "Beat Ornate [EASY]",
+        ["MapInfo"] = {["Map"] = "DestinyDawn", ["Difficulty"] = 1},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 3715650319183373,
+        ["WinDesc"] = "Smell the flowers!",
+        ["Rewards"] = {["Followers"] = {"egg2_Bloom"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Smell the flowers!",
+        ["Image"] = 16945222207,
+        ["Title"] = "Blooming Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Bloom",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 3335204152098081,
@@ -552,6 +612,17 @@ data = {
         ["Type"] = "Boss Battle"
     },
     {
+        ["Badge"] = 2966878046613197,
+        ["WinDesc"] = "Beat Fox Commander on [EASY] and unlock a skin!",
+        ["Rewards"] = {["Skin"] = "foxKeith", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat Fox Commander on [EASY] difficulty on Challenge Mode!",
+        ["Image"] = 17439334760,
+        ["Title"] = "Beat Fox Commander [EASY]",
+        ["MapInfo"] = {["Map"] = "BurrowBrawl", ["Difficulty"] = 1},
+        ["Type"] = "Boss Battle"
+    },
+    {
         ["Badge"] = 2752431833038465,
         ["WinDesc"] = "You beat Ice Brain and unlocked a skin!",
         ["Rewards"] = {["Stickers"] = {"15828365306"}, ["Skin"] = "roliday_Slime", ["Coins"] = 0},
@@ -560,6 +631,61 @@ data = {
         ["Image"] = 15800606155,
         ["Title"] = "Beat Ice Brain [HARD]!",
         ["MapInfo"] = {["Map"] = "RolidayRumble", ["Difficulty"] = 3},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 2598760897624634,
+        ["WinDesc"] = "You beat the Coolkid and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "cartRideKid", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat the Coolkid on [MEDIUM] difficulty on Challenge Mode!",
+        ["Image"] = 16962321141,
+        ["Title"] = "Beat the Coolkid!",
+        ["MapInfo"] = {["Map"] = "DisasterHotel", ["Difficulty"] = 2},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 2310103184060792,
+        ["WinDesc"] = "Beat Fox Commander on [MEDIUM] and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "bunnyRat", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat Fox Commander on [MEDIUM] difficulty on Challenge Mode!",
+        ["Image"] = 17439335670,
+        ["Title"] = "Beat Fox Commander [MEDIUM]",
+        ["MapInfo"] = {["Map"] = "BurrowBrawl", ["Difficulty"] = 2},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 2230314807969908,
+        ["WinDesc"] = "Beat Ornate on [MEDIUM] and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "twigBranch", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat Ornate on [MEDIUM] difficulty on Challenge Mode!",
+        ["Image"] = 16039760500,
+        ["Title"] = "Beat Ornate [MEDIUM]",
+        ["MapInfo"] = {["Map"] = "DestinyDawn", ["Difficulty"] = 2},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 2214302486261800,
+        ["WinDesc"] = "You beat the Snow Monster and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "elSnowGoblino", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Defeat the Snow Monster during [MEDIUM] difficulty!",
+        ["Image"] = 15706858121,
+        ["Title"] = "Beat the Snow Monster!",
+        ["MapInfo"] = {["Map"] = "FrigidFortress", ["Difficulty"] = 2},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 1548210787825859,
+        ["WinDesc"] = "You beat Fox Commander on [HARD] and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "eggKingA", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat the Fox Commander during [HARD] difficulty on Challenge Mode!",
+        ["Image"] = 17439332510,
+        ["Title"] = "Beat Fox Commander [HARD]",
+        ["MapInfo"] = {["Map"] = "BurrowBrawl", ["Difficulty"] = 3},
         ["Type"] = "Boss Battle"
     },
     {
@@ -603,18 +729,6 @@ data = {
         ["Code"] = "COOPERATE"
     },
     {
-        ["Badge"] = 3176280753132709,
-        ["WinDesc"] = "He is very hungry. Like, very very hungry.",
-        ["Rewards"] = {["Followers"] = {"xmas_Crank"}, ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "He is very hungry. Like, very very hungry.",
-        ["Image"] = 15655877661,
-        ["Title"] = "Crank",
-        ["FollowerCheck"] = true,
-        ["EggQuest"] = "xmas_Crank",
-        ["Type"] = "Quest"
-    },
-    {
         ["Active"] = false,
         ["Rewards"] = {["Skin"] = "quinnValentine", ["Coins"] = 0},
         ["Title"] = "Cupid!",
@@ -635,10 +749,98 @@ data = {
         ["Code"] = "4JULY2021"
     },
     {
-        ["Active"] = true,
-        ["Rewards"] = {["Stickers"] = {"7307559077"}, ["Coins"] = 0},
-        ["Title"] = "Followers!!",
-        ["Code"] = "ENEMYPETS"
+        ["Badge"] = 4375986058234717,
+        ["WinDesc"] = "Nice day for a trip to the beach!",
+        ["Rewards"] = {["Followers"] = {"egg2_Tidal"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Nice day for a trip to the beach!",
+        ["Image"] = 16945264144,
+        ["Title"] = "Tidal Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Tidal",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 4333887621048448,
+        ["WinDesc"] = "It's a rock.",
+        ["Rewards"] = {["Followers"] = {"egg2_Rock"}, ["Skin"] = "petRockDog", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "It's a rock.",
+        ["Image"] = 16945258490,
+        ["Title"] = "Rock",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Rock",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 4272505083174926,
+        ["WinDesc"] = "You found the hidden Lil Chip!",
+        ["Rewards"] = {["Stickers"] = {"15654831027"}, ["Modifiers"] = {"lilChipClicker"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Find the hidden Lil Chip!",
+        ["Image"] = 16744766017,
+        ["Title"] = "Gullible Lil Chip!",
+        ["MapInfo"] = {["Map"] = "EasterIsla", ["ChallengeID"] = "chipChallenge"},
+        ["Type"] = "Special Event"
+    },
+    {
+        ["Badge"] = 4265024514217026,
+        ["WinDesc"] = "Phew! THAT was close.",
+        ["Rewards"] = {["Followers"] = {"egg2_HP"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Phew! THAT was close.",
+        ["Image"] = 16945230261,
+        ["Title"] = "Egg of Close Calls",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_HP",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 4175669731765538,
+        ["WinDesc"] = "What is this for?",
+        ["Title"] = "RR21",
+        ["Type"] = "Hidden Quest",
+        ["Image"] = 15804667698,
+        ["Rewards"] = {["Stickers"] = {"15804667698"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = ""
+    },
+    {
+        ["Badge"] = 4147452979601356,
+        ["WinDesc"] = "This be my treasure!",
+        ["Rewards"] = {["Followers"] = {"egg2_Treasure"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "This be my treasure!",
+        ["Image"] = 16945270626,
+        ["Title"] = "Treasured Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Treasure",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 3566632891201374,
+        ["WinDesc"] = "You found all 25 eggs!",
+        ["OwnedCheck"] = "function: 0xbc211a46edfd8663",
+        ["Rewards"] = {["Followers"] = {"egg2_Champ"}, ["Skin"] = "tutoroStella", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "You found all 25 eggs!",
+        ["Image"] = 16945239034,
+        ["Title"] = "Hunters Egg of Champions",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Champ",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 3557986016742674,
+        ["WinDesc"] = "Like yolk king but without the yolk!",
+        ["Rewards"] = {["Followers"] = {"egg2_Slime"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Like yolk king but without the yolk!",
+        ["Image"] = 16945260481,
+        ["Title"] = "Slime King Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Slime",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 3540142971233280,
@@ -649,149 +851,6 @@ data = {
         ["Rewards"] = {["Followers"] = {"xmas_CookieGold"}, ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Click a lot of Cookies!"
-    },
-    {
-        ["Badge"] = 2325469867908959,
-        ["WinDesc"] = "You found the Forgotten Gift!",
-        ["Rewards"] = {["Followers"] = {"GiftLate"}, ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Find a Forgotten Gift!",
-        ["Image"] = 15814692068,
-        ["Title"] = "Forgotten Gift!",
-        ["FollowerCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
-        ["Image"] = 7117749469,
-        ["Title"] = "Goblin Toy",
-        ["Active"] = true,
-        ["Series"] = "Celebrity",
-        ["Rewards"] = {
-            ["Stickers"] = {"7117749469"},
-            ["Followers"] = {"GoblinSlime"},
-            ["Modifiers"] = {"gigaSlimeBoss"},
-            ["Coins"] = 0
-        },
-        ["Accessory"] = 6590401071
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5837958080", ["Coins"] = 0},
-        ["Title"] = "Halloween!",
-        ["Code"] = "halloween2020"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Stickers"] = {"7796352404"}, ["Skin"] = "7796412207", ["Coins"] = 0},
-        ["Title"] = "Halloween!!",
-        ["Code"] = "SPOOKTACULAR"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Stickers"] = {"6989470497"}, ["Skin"] = "bdayFrank", ["Coins"] = 0},
-        ["Title"] = "Happy BDay Frank!",
-        ["Code"] = "FRANKBDAY"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "6098683109", ["Coins"] = 0},
-        ["Title"] = "Happy Holidays!",
-        ["Code"] = "xmas2020"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "2021Voca", ["Coins"] = 0},
-        ["Title"] = "Happy New Year!",
-        ["Code"] = "happy2021"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5003181143", ["Coins"] = 0},
-        ["Title"] = "Hiloh!",
-        ["Code"] = "DevHiloh"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Stickers"] = {"8765628935", "8866285399", "8765628224"}, ["Coins"] = 0},
-        ["Title"] = "Idol Encore!!",
-        ["Code"] = "ENCORE"
-    },
-    {
-        ["Title"] = "Jeff Skin",
-        ["Code"] = "JEFF_SKIN_GAME_CODE",
-        ["Cost"] = 750,
-        ["Rewards"] = {["Troop"] = "Lemonade Cat", ["Skin"] = "jeffCatDoors", ["Coins"] = 0},
-        ["EventCurrency"] = true,
-        ["Active"] = true
-    },
-    {
-        ["Title"] = "Jumpscare Mod",
-        ["Code"] = "JUMP_MOD_GAME_CODE",
-        ["Cost"] = 500,
-        ["Rewards"] = {["Modifiers"] = {"jumpscareDoors"}, ["Coins"] = 0},
-        ["EventCurrency"] = true,
-        ["Active"] = true
-    },
-    {
-        ["Active"] = true,
-        ["Rewards"] = {["Stickers"] = {"9783315434"}, ["Coins"] = 0},
-        ["Title"] = "Kart Kid Plush!",
-        ["Code"] = "KARTKIDPLUSH"
-    },
-    {
-        ["Image"] = 8763722333,
-        ["Title"] = "Kart Kid Toy",
-        ["Active"] = true,
-        ["Series"] = "Action",
-        ["Rewards"] = {
-            ["Stickers"] = {"8763722333"},
-            ["Followers"] = {"KartKid", "KartKid5"},
-            ["Modifiers"] = {"kartkidBoss"},
-            ["Coins"] = 0
-        },
-        ["Accessory"] = 7243892334
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5626689432", ["Coins"] = 0},
-        ["Title"] = "Leaves!",
-        ["Code"] = "TreeBranch"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5043497351", ["Coins"] = 0},
-        ["Title"] = "Lobby Revamp!",
-        ["Code"] = "NEWLOBBY"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "6384597060", ["Coins"] = 20},
-        ["Title"] = "Lunar New Year!",
-        ["Code"] = "lunar2021"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5471954630", ["Coins"] = 0},
-        ["Title"] = "Mushroom!",
-        ["Code"] = "PoisonShroom"
-    },
-    {
-        ["Active"] = true,
-        ["Rewards"] = {["Stickers"] = {"6898086054", "6898085459"}, ["Skin"] = "6898121602", ["Coins"] = 0},
-        ["Title"] = "Oddport Academy!",
-        ["Code"] = "ODDPORT"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "4911733589", ["Coins"] = 20},
-        ["Title"] = "One Million!",
-        ["Code"] = "1MIL"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5209875579", ["Coins"] = 0},
-        ["Title"] = "Orange Soda!",
-        ["Code"] = "FastFood"
     },
     {
         ["Badge"] = 3387380924098089,
@@ -805,46 +864,17 @@ data = {
         ["EggQuest"] = "xmas_Pastry",
         ["Type"] = "Quest"
     },
-    {["Active"] = true, ["Rewards"] = {["Coins"] = 20}, ["Title"] = "Pixel-Bit!", ["Code"] = "PixelBit"},
     {
-        ["Active"] = true,
-        ["Rewards"] = {["Stickers"] = {"10017019431"}, ["Skin"] = "10012883656", ["Coins"] = 0},
-        ["Title"] = "Pizza Time!",
-        ["Code"] = "pizzatime"
-    },
-    {
-        ["Active"] = true,
-        ["Rewards"] = {["Skin"] = "15203357655", ["Coins"] = 0},
-        ["Title"] = "Playstation!",
-        ["Code"] = "HEROES_PS"
-    },
-    {
-        ["Active"] = false,
-        ["Rewards"] = {["Skin"] = "5073344502", ["Coins"] = 0},
-        ["Title"] = "Popcorn!",
-        ["Code"] = "Karts&Chaos"
-    },
-    {
-        ["Active"] = true,
-        ["Rewards"] = {["Stickers"] = {"10928074355", "10928076539", "10928077976"}, ["Coins"] = 0},
-        ["Title"] = "RDC Pins!",
-        ["Code"] = "RDC2022PIN"
-    },
-    {
-        ["Badge"] = 4175669731765538,
-        ["WinDesc"] = "What is this for?",
-        ["Title"] = "RR21",
-        ["Type"] = "Hidden Quest",
-        ["Image"] = 15804667698,
-        ["Rewards"] = {["Stickers"] = {"15804667698"}, ["Coins"] = 0},
+        ["Badge"] = 3378490968965681,
+        ["WinDesc"] = "Lemme out!!!!!!",
+        ["Rewards"] = {["Followers"] = {"egg2_Mana"}, ["Coins"] = 0},
         ["Hidden"] = true,
-        ["Desc"] = ""
-    },
-    {
-        ["Active"] = true,
-        ["Rewards"] = {["Skin"] = "WizSCC", ["Coins"] = 0},
-        ["Title"] = "SCC Wiz!",
-        ["Code"] = "CubeCavern"
+        ["Desc"] = "Lemme out!!!!!!",
+        ["Image"] = 16945226088,
+        ["Title"] = "Captured Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Mana",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 3258908282836636,
@@ -859,12 +889,63 @@ data = {
         ["Type"] = "Quest"
     },
     {
-        ["Image"] = 8763665722,
-        ["Title"] = "Slime King Toy",
-        ["Active"] = true,
-        ["Series"] = "Action",
-        ["Rewards"] = {["Stickers"] = {"8763665722"}, ["Skin"] = "SlimeDumpster", ["Coins"] = 0},
-        ["Accessory"] = 7243870745
+        ["Badge"] = 3176280753132709,
+        ["WinDesc"] = "He is very hungry. Like, very very hungry.",
+        ["Rewards"] = {["Followers"] = {"xmas_Crank"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "He is very hungry. Like, very very hungry.",
+        ["Image"] = 15655877661,
+        ["Title"] = "Crank",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "xmas_Crank",
+        ["Type"] = "Quest"
+    },
+    {
+        ["Badge"] = 3175787412653568,
+        ["WinDesc"] = "You beat the Lil Chipocalypse!",
+        ["Rewards"] = {["Skin"] = "lilChipKid", ["Modifiers"] = {"chipOnly"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Beat the Lil Chipocalypse!",
+        ["Image"] = 16744763587,
+        ["Title"] = "Lil Chipocalypse!",
+        ["MapInfo"] = {["Map"] = "EasterIsla", ["ChallengeID"] = "chipChallenge"},
+        ["Type"] = "Special Event"
+    },
+    {
+        ["Badge"] = 3164334663848004,
+        ["WinDesc"] = "It's raining them apparently.",
+        ["Rewards"] = {["Followers"] = {"egg2_Taco"}, ["Skin"] = "spectreDrawn", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "It's raining them apparently.",
+        ["Image"] = 16945262389,
+        ["Title"] = "Taco Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Taco",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 2993371833217005,
+        ["WinDesc"] = "That's just a normal shroom!",
+        ["Rewards"] = {["Followers"] = {"egg2_Shroom"}, ["Skin"] = "shroomEggMaitake", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "That's just a normal shroom!",
+        ["Image"] = 16945237006,
+        ["Title"] = "Eggshroom",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Shroom",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 2927206892060874,
+        ["WinDesc"] = "Trust me, it's transparent!",
+        ["Rewards"] = {["Followers"] = {"egg2_Noob"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Trust me, it's transparent!",
+        ["Image"] = 16945250771,
+        ["Title"] = "Noob Inside Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Noob",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 2879739954245514,
@@ -879,12 +960,40 @@ data = {
         ["Type"] = "Quest"
     },
     {
-        ["Image"] = 11307275436,
-        ["Title"] = "Sour Suit Toy",
-        ["Active"] = true,
-        ["Series"] = "Action",
-        ["Rewards"] = {["Followers"] = {"CatSour"}, ["Stickers"] = {"11307275436"}, ["Coins"] = 0},
-        ["Accessory"] = 8664382632
+        ["Badge"] = 2756282616189248,
+        ["WinDesc"] = "Launched from a Pixel Egg Launcher!",
+        ["Rewards"] = {["Followers"] = {"Harold", "egg2_Launcher"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Launched from a Pixel Egg Launcher!",
+        ["Image"] = 16945256306,
+        ["Title"] = "Pixel Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Launcher",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 2700526464715130,
+        ["WinDesc"] = "Watch out for the spikes!",
+        ["Rewards"] = {["Followers"] = {"Spikey", "Paul_Float", "egg2_Sky"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Watch out for the spikes!",
+        ["Image"] = 16945231857,
+        ["Title"] = "Egg of the Sky",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Sky",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 2627619945120127,
+        ["WinDesc"] = "Two peas in a space pod.",
+        ["Rewards"] = {["Followers"] = {"egg2_Molly"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Two peas in a space pod.",
+        ["Image"] = 16945249086,
+        ["Title"] = "Molly Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Molly",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 2412183414341909,
@@ -892,9 +1001,28 @@ data = {
         ["Title"] = "Stump!",
         ["Type"] = "Hidden Quest",
         ["Image"] = 11264932905,
-        ["Rewards"] = {["Skin"] = "stumpBranch", ["Coins"] = 0},
+        ["Rewards"] = {["Followers"] = {"MimicBattle"}, ["Skin"] = "stumpBranch", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = ""
+    },
+    {
+        ["Badge"] = 2325469867908959,
+        ["WinDesc"] = "You found the Forgotten Gift!",
+        ["Rewards"] = {["Followers"] = {"GiftLate"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Find a Forgotten Gift!",
+        ["Image"] = 15814692068,
+        ["Title"] = "Forgotten Gift!",
+        ["FollowerCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
+        ["Badge"] = 2253982553463683,
+        ["Title"] = "Stan the Spam",
+        ["Active"] = true,
+        ["Rewards"] = {["Followers"] = {"xmas_Stan"}, ["Coins"] = 0},
+        ["Code"] = "function: 0x9597e0b9bf8330f3",
+        ["OnRedeem"] = "function: 0x10525555b7c9ab63"
     },
     {
         ["Badge"] = 2253982553463683,
@@ -909,23 +1037,26 @@ data = {
         ["Type"] = "Quest"
     },
     {
-        ["Badge"] = 2253982553463683,
-        ["Title"] = "Stan the Spam",
+        ["Badge"] = 2180014637757827,
+        ["Cost"] = 150,
+        ["Title"] = "Coin Egg",
+        ["Code"] = "EASTER_COIN_EGG",
         ["Active"] = true,
-        ["Rewards"] = {["Followers"] = {"xmas_Stan"}, ["Coins"] = 0},
-        ["Code"] = "function: 0x000000001b57e669",
-        ["OnRedeem"] = "function: 0x00000000bbb9c6e1"
+        ["Rewards"] = {["Followers"] = {"egg2_Coin"}, ["Coins"] = 0},
+        ["EventCurrency"] = false,
+        ["OnRedeem"] = "function: 0x58c382d429985303"
     },
     {
-        ["Badge"] = 2214302486261800,
-        ["WinDesc"] = "You beat the Snow Monster and unlocked a skin!",
-        ["Rewards"] = {["Skin"] = "elSnowGoblino", ["Coins"] = 0},
-        ["Hidden"] = false,
-        ["Desc"] = "Defeat the Snow Monster during [MEDIUM] difficulty!",
-        ["Image"] = 15706858121,
-        ["Title"] = "Beat the Snow Monster!",
-        ["MapInfo"] = {["Map"] = "FrigidFortress", ["Difficulty"] = 2},
-        ["Type"] = "Boss Battle"
+        ["Badge"] = 2180014637757827,
+        ["WinDesc"] = "MONEY MONEY MONEY",
+        ["Rewards"] = {["Followers"] = {"egg2_Coin"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "MONEY MONEY MONEY",
+        ["Image"] = 16945233697,
+        ["Title"] = "Coin Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Coin",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 2176569575500212,
@@ -953,6 +1084,30 @@ data = {
         ["FollowerCheck"] = true,
         ["EggQuest"] = "xmas_Festive",
         ["Type"] = "Quest"
+    },
+    {
+        ["Badge"] = 2089602064742188,
+        ["WinDesc"] = "Switcheroo!",
+        ["Rewards"] = {["Followers"] = {"egg2_Swap"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Switcheroo!",
+        ["Image"] = 16945224247,
+        ["Title"] = "Body Swap Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Swap",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 1998534531425407,
+        ["WinDesc"] = "It's not time for Halloween just yet.",
+        ["Rewards"] = {["Followers"] = {"egg2_Ghost"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "It's not time for Halloween just yet.",
+        ["Image"] = 16945243470,
+        ["Title"] = "Ghostly Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Ghost",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 1950230854946112,
@@ -991,12 +1146,24 @@ data = {
         ["Type"] = "Quest"
     },
     {
+        ["Badge"] = 1894584063442029,
+        ["WinDesc"] = "I'm feeling lonely (lonely)",
+        ["Rewards"] = {["Followers"] = {"egg2_Lonely"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "I'm feeling lonely (lonely)",
+        ["Image"] = 16945247189,
+        ["Title"] = "Lonely Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Lonely",
+        ["Type"] = "Egg Hunt"
+    },
+    {
         ["Badge"] = 1787590896537011,
         ["WinDesc"] = "You beat a Battle Mimic and got a random secret skin!",
         ["Title"] = "Goblin!",
         ["Type"] = "Hidden Quest",
         ["Image"] = 15765191716,
-        ["Rewards"] = {["Skin"] = "goblinPVP", ["Coins"] = 0},
+        ["Rewards"] = {["Followers"] = {"MimicBattle"}, ["Skin"] = "goblinPVP", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = ""
     },
@@ -1011,6 +1178,30 @@ data = {
         ["FollowerCheck"] = true,
         ["EggQuest"] = "xmas_Tallest",
         ["Type"] = "Quest"
+    },
+    {
+        ["Badge"] = 1415107814094567,
+        ["WinDesc"] = "Too rng for me...",
+        ["Rewards"] = {["Followers"] = {"egg2_Jester"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Too rng for me...",
+        ["Image"] = 16945245368,
+        ["Title"] = "Jester Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Jester",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 1331418611712646,
+        ["WinDesc"] = "Still a Nuki at heart.",
+        ["Rewards"] = {["Followers"] = {"egg2_Nuki"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Still a Nuki at heart.",
+        ["Image"] = 16945252324,
+        ["Title"] = "Nuki Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Nuki",
+        ["Type"] = "Egg Hunt"
     },
     {
         ["Badge"] = 1230812571662767,
@@ -1037,6 +1228,38 @@ data = {
         ["Type"] = "Quest"
     },
     {
+        ["Badge"] = 1038580001357090,
+        ["Title"] = "Figure Egg",
+        ["Active"] = true,
+        ["Rewards"] = {["Followers"] = {"egg2_Doors", "Doors_GoblinoKing"}, ["Coins"] = 0},
+        ["Code"] = "function: 0xeca2b483b3031633",
+        ["OnRedeem"] = "function: 0x87b14e9ba2c80b23"
+    },
+    {
+        ["Badge"] = 1038580001357090,
+        ["WinDesc"] = "looks like you figured this one out xd lol",
+        ["Rewards"] = {["Followers"] = {"Doors_GoblinoKing", "egg2_Doors"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "looks like you figured this one out xd lol",
+        ["Image"] = 16945216383,
+        ["Title"] = "Figure Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Doors",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 929300966013592,
+        ["WinDesc"] = "Something about roads and them being ahead idk.",
+        ["Rewards"] = {["Followers"] = {"Rack_Control", "egg2_Waste"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Something about roads and them being ahead idk.",
+        ["Image"] = 16945265569,
+        ["Title"] = "Wastelands Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Waste",
+        ["Type"] = "Egg Hunt"
+    },
+    {
         ["Badge"] = 729656489123606,
         ["WinDesc"] = "These critters are all over the place...",
         ["Rewards"] = {["Followers"] = {"xmas_Snowflake"}, ["Coins"] = 0},
@@ -1049,6 +1272,53 @@ data = {
         ["Type"] = "Quest"
     },
     {
+        ["Badge"] = 681184269495773,
+        ["WinDesc"] = "You beat Ornate and unlocked a Hero!",
+        ["Rewards"] = {["Troop"] = "Nuki Launcher", ["Skin"] = "", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat the Ornate during [HARD] difficulty on Challenge Mode!",
+        ["Image"] = 16019394365,
+        ["Title"] = "Beat Ornate [HARD]",
+        ["MapInfo"] = {["Map"] = "DestinyDawn", ["Difficulty"] = 3},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Badge"] = 621646653331277,
+        ["WinDesc"] = "No one man should have all that power.",
+        ["Rewards"] = {["Followers"] = {"egg2_Power"}, ["Skin"] = "ChiselBunny", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "No one man should have all that power.",
+        ["Image"] = 16945218937,
+        ["Title"] = "Power Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Power",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 604164273050663,
+        ["WinDesc"] = "Thrown from Egboi!",
+        ["Rewards"] = {["Followers"] = {"egg2_BOI", "egg2_WA"}, ["Stickers"] = {"17453934236"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Thrown from Egboi!",
+        ["Image"] = 16945235187,
+        ["Title"] = "Egboi Sugar Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_WA",
+        ["Type"] = "Egg Hunt"
+    },
+    {
+        ["Badge"] = 254574931685424,
+        ["WinDesc"] = "Probably not the best cook.",
+        ["Rewards"] = {["Followers"] = {"egg2_Chef"}, ["Skin"] = "chefYasuke", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Probably not the best cook.",
+        ["Image"] = 16945227858,
+        ["Title"] = "Chef Egg",
+        ["FollowerCheck"] = true,
+        ["EggQuest"] = "egg2_Chef",
+        ["Type"] = "Egg Hunt"
+    },
+    {
         ["Badge"] = 224646028052166,
         ["WinDesc"] = "I think he wants you to make your own cookies.",
         ["Rewards"] = {["Followers"] = {"xmas_Cookie"}, ["Coins"] = 0},
@@ -1056,15 +1326,25 @@ data = {
         ["Desc"] = "I think he wants you to make your own cookies.",
         ["Image"] = 15656031876,
         ["Title"] = "Lil Chip",
-        ["FollowerCheck"] = true,
+        ["FollowerCheck"] = false,
         ["EggQuest"] = "xmas_Cookie",
         ["Type"] = "Quest"
+    },
+    {
+        ["Badge"] = 213774494470372,
+        ["WinDesc"] = "You beat level 2 of the Balloon Pal Game!",
+        ["Title"] = "Stormy Egg of the Sky!",
+        ["Type"] = "Hidden Quest",
+        ["Image"] = 17454323740,
+        ["Rewards"] = {["Followers"] = {"egg_Storm2"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Beat level 2 of the Balloon Pal Game!"
     },
     {
         ["Badge"] = 213387243296300,
         ["WinDesc"] = "You beat the Frost King and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "frostkingFracture", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat the Frost King during [HARD] difficulty!",
         ["Image"] = 15706859455,
         ["Title"] = "Beat the Frost King!",
@@ -1075,7 +1355,7 @@ data = {
         ["Badge"] = 200322599858776,
         ["WinDesc"] = "You beat the Toymaker and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "candleKeith", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Beat the Toymaker during [EASY] difficulty!",
         ["Image"] = 15706862448,
         ["Title"] = "Beat the Toymaker!",
@@ -1093,6 +1373,17 @@ data = {
         ["FollowerCheck"] = true,
         ["EggQuest"] = "xmas_Overcooked",
         ["Type"] = "Quest"
+    },
+    {
+        ["Badge"] = 5378417067268,
+        ["WinDesc"] = "You beat 1x1x1x1 and unlocked a skin!",
+        ["Rewards"] = {["Skin"] = "pathBeebox", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Beat 1x1x1x1 during [HARD] difficulty on Challenge Mode!",
+        ["Image"] = 16962317852,
+        ["Title"] = "Beat 1x1x1x1!",
+        ["MapInfo"] = {["Map"] = "DisasterHotel", ["Difficulty"] = 3},
+        ["Type"] = "Boss Battle"
     },
     {
         ["Badge"] = 2153689180,
@@ -1519,7 +1810,7 @@ data = {
     {
         ["Badge"] = 2143639520,
         ["WinDesc"] = "Collect all of the Eggs.",
-        ["OwnedCheck"] = "function: 0x0000000029764511",
+        ["OwnedCheck"] = "function: 0x7e0bcddffc553113",
         ["Rewards"] = {["Followers"] = {"egg_Faberge"}, ["Skin"] = "mimicYasuke", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Collect all of the Eggs.",
@@ -1820,7 +2111,7 @@ data = {
     {
         ["Badge"] = 2129700169,
         ["WinDesc"] = "You completed the 2022 Christmas Battle Pass!",
-        ["OwnedCheck"] = "function: 0x000000002bfc1251",
+        ["OwnedCheck"] = "function: 0xa024c9635ddb6353",
         ["Rewards"] = {["Stickers"] = {"11686908725"}, ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete this 2022 Christmas Battle Pass!",
@@ -1832,7 +2123,7 @@ data = {
         ["Badge"] = 2129700168,
         ["WinDesc"] = "You beat Neopoltitan and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "creamWafer", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat Neopoltitan during [HARD] difficulty!",
         ["Image"] = 11664181421,
         ["Title"] = "Beat Neopoltitan!",
@@ -1843,7 +2134,7 @@ data = {
         ["Badge"] = 2129700164,
         ["WinDesc"] = "You beat Very Berry Fast and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "chefFrank", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat Very Berry Fast during [MEDIUM] difficulty!",
         ["Image"] = 11689051121,
         ["Title"] = "Beat Very Berry Fast!",
@@ -1854,7 +2145,7 @@ data = {
         ["Badge"] = 2129700162,
         ["WinDesc"] = "You beat the Fruitroll and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "angelMaitake", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Beat the Fruitroll during [EASY] difficulty!",
         ["Image"] = 11738558190,
         ["Title"] = "Beat the Fruitroll!",
@@ -1864,7 +2155,7 @@ data = {
     {
         ["Badge"] = 2129122569,
         ["WinDesc"] = "You completed the 2022 Halloween Battle Pass!",
-        ["OwnedCheck"] = "function: 0x000000000ab201e9",
+        ["OwnedCheck"] = "function: 0x5cec7173911b4343",
         ["Rewards"] = {["Stickers"] = {"11336577770"}, ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete this 2022 Halloween Battle Pass!",
@@ -2106,7 +2397,7 @@ data = {
         ["Badge"] = 2124866574,
         ["WinDesc"] = "You beat Sherbert and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "scientistBaker", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat Sherbert during [HARD] difficulty!",
         ["Image"] = 8055879462,
         ["Title"] = "Beat Sherbert!",
@@ -2117,7 +2408,7 @@ data = {
         ["Badge"] = 2124866572,
         ["WinDesc"] = "You beat the Frost Walker and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "hchocoBalloon", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat the Frost Walker during [MEDIUM] difficulty!",
         ["Image"] = 8121667218,
         ["Title"] = "Beat the Frost Walker!",
@@ -2128,7 +2419,7 @@ data = {
         ["Badge"] = 2124866571,
         ["WinDesc"] = "You beat the Fruitcake and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "fancyWafer", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Beat the Fruitcake during [EASY] difficulty!",
         ["Image"] = 8137280705,
         ["Title"] = "Beat the Fruitcake!",
@@ -2138,7 +2429,7 @@ data = {
     {
         ["Badge"] = 2124866320,
         ["WinDesc"] = "You completed the 2021 Christmas Advent Calendar!",
-        ["OwnedCheck"] = "function: 0x00000000bbd03d39",
+        ["OwnedCheck"] = "function: 0xfb76cbbea41aa193",
         ["Rewards"] = {["Followers"] = {"ReinANGEL"}, ["Stickers"] = {"8042338898"}, ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete this 2021 Christmas Advent Calendar!",
@@ -2735,7 +3026,7 @@ data = {
         ["Badge"] = 2124651915,
         ["WinDesc"] = "You beat Wafer and unlocked a Hero!",
         ["Rewards"] = {["Troop"] = "Wafer", ["Skin"] = "", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat Wafer during [HARD] difficulty!",
         ["Image"] = 7142185604,
         ["Title"] = "Beat Wafer!",
@@ -2746,7 +3037,7 @@ data = {
         ["Badge"] = 2124651914,
         ["WinDesc"] = "You beat the Tiny Express and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "festJest", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Defeat the Tiny Express during [MEDIUM] difficulty!",
         ["Image"] = 6105581709,
         ["Title"] = "Beat the Tiny Express!",
@@ -2757,7 +3048,7 @@ data = {
         ["Badge"] = 2124651913,
         ["WinDesc"] = "You beat Festive Frostbite and unlocked a skin!",
         ["Rewards"] = {["Skin"] = "iceVoca", ["Coins"] = 0},
-        ["Hidden"] = false,
+        ["Hidden"] = true,
         ["Desc"] = "Beat Festive Frostbite during [EASY] difficulty!",
         ["Image"] = 6105578715,
         ["Title"] = "Beat Festive Frostbite!",
@@ -3281,6 +3572,131 @@ data = {
         ["Type"] = "Boss Battle"
     },
     {
+        ["Badge"] = 2124523189,
+        ["WinDesc"] = "You beat the Slime King and unlocked him as a Hero!",
+        ["Rewards"] = {["Troop"] = "Slime King", ["Coins"] = 0},
+        ["Hidden"] = false,
+        ["Desc"] = "Defeat the Slime King during [EASY] difficulty!",
+        ["Image"] = 7122609131,
+        ["Title"] = "Beat King Slime!",
+        ["MapInfo"] = {["Map"] = "CastleTown", ["Difficulty"] = 1},
+        ["Type"] = "Boss Battle"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"7307559077"}, ["Coins"] = 0},
+        ["Title"] = "Followers!!",
+        ["Code"] = "ENEMYPETS"
+    },
+    {
+        ["Image"] = 7117749469,
+        ["Title"] = "Goblin Toy",
+        ["Active"] = true,
+        ["Series"] = "Celebrity",
+        ["Rewards"] = {
+            ["Stickers"] = {"7117749469"},
+            ["Followers"] = {"GoblinSlime"},
+            ["Modifiers"] = {"gigaSlimeBoss"},
+            ["Coins"] = 0
+        },
+        ["Accessory"] = 6590401071
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5837958080", ["Coins"] = 0},
+        ["Title"] = "Halloween!",
+        ["Code"] = "halloween2020"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Stickers"] = {"7796352404"}, ["Skin"] = "7796412207", ["Coins"] = 0},
+        ["Title"] = "Halloween!!",
+        ["Code"] = "SPOOKTACULAR"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Stickers"] = {"6989470497"}, ["Skin"] = "bdayFrank", ["Coins"] = 0},
+        ["Title"] = "Happy BDay Frank!",
+        ["Code"] = "FRANKBDAY"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"16966729067"}, ["Coins"] = 0},
+        ["Title"] = "Happy Bunny!",
+        ["Code"] = "EGGHUNT2024"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "6098683109", ["Coins"] = 0},
+        ["Title"] = "Happy Holidays!",
+        ["Code"] = "xmas2020"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "2021Voca", ["Coins"] = 0},
+        ["Title"] = "Happy New Year!",
+        ["Code"] = "happy2021"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "heartLemon", ["Coins"] = 0},
+        ["Title"] = "Happy Valentines!",
+        ["Code"] = "Valentines24"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5003181143", ["Coins"] = 0},
+        ["Title"] = "Hiloh!",
+        ["Code"] = "DevHiloh"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Stickers"] = {"8765628935", "8866285399", "8765628224"}, ["Coins"] = 0},
+        ["Title"] = "Idol Encore!!",
+        ["Code"] = "ENCORE"
+    },
+    {
+        ["Title"] = "Jeff Skin",
+        ["Code"] = "JEFF_SKIN_GAME_CODE",
+        ["Cost"] = 750,
+        ["Rewards"] = {["Troop"] = "Lemonade Cat", ["Skin"] = "jeffCatDoors", ["Coins"] = 0},
+        ["EventCurrency"] = true,
+        ["Active"] = true
+    },
+    {
+        ["Title"] = "Jumpscare Mod",
+        ["Code"] = "JUMP_MOD_GAME_CODE",
+        ["Cost"] = 500,
+        ["Rewards"] = {["Modifiers"] = {"jumpscareDoors"}, ["Coins"] = 0},
+        ["EventCurrency"] = true,
+        ["Active"] = true
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"9783315434"}, ["Coins"] = 0},
+        ["Title"] = "Kart Kid Plush!",
+        ["Code"] = "KARTKIDPLUSH"
+    },
+    {
+        ["Image"] = 8763722333,
+        ["Title"] = "Kart Kid Toy",
+        ["Active"] = true,
+        ["Series"] = "Action",
+        ["Rewards"] = {
+            ["Stickers"] = {"8763722333"},
+            ["Followers"] = {"KartKid", "KartKid5"},
+            ["Modifiers"] = {"kartkidBoss"},
+            ["Coins"] = 0
+        },
+        ["Accessory"] = 7243892334
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5626689432", ["Coins"] = 0},
+        ["Title"] = "Leaves!",
+        ["Code"] = "TreeBranch"
+    },
+    {
         ["Badge"] = 2124524384,
         ["WinDesc"] = "You reached Level 100!",
         ["Rewards"] = {["Skin"] = "LvlPlatinum", ["Coins"] = 0},
@@ -3312,17 +3728,6 @@ data = {
         ["Title"] = "Level 30!",
         ["LevelUnlock"] = 30,
         ["Type"] = "Level Up"
-    },
-    {
-        ["Badge"] = 2124523189,
-        ["WinDesc"] = "You beat the Slime King and unlocked him as a Hero!",
-        ["Rewards"] = {["Troop"] = "Slime King", ["Coins"] = 0},
-        ["Hidden"] = false,
-        ["Desc"] = "Defeat the Slime King during [EASY] difficulty!",
-        ["Image"] = 7122609131,
-        ["Title"] = "Beat King Slime!",
-        ["MapInfo"] = {["Map"] = "CastleTown", ["Difficulty"] = 1},
-        ["Type"] = "Boss Battle"
     },
     {
         ["Badge"] = 2124523134,
@@ -3367,6 +3772,75 @@ data = {
         ["Rewards"] = {}
     },
     {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"16689790832"}, ["Modifiers"] = {"youtubeInt"}, ["Coins"] = 0},
+        ["Title"] = "Live Streamer!",
+        ["Code"] = "LIVECHAT"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5043497351", ["Coins"] = 0},
+        ["Title"] = "Lobby Revamp!",
+        ["Code"] = "NEWLOBBY"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "6384597060", ["Coins"] = 20},
+        ["Title"] = "Lunar New Year!",
+        ["Code"] = "lunar2021"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5471954630", ["Coins"] = 0},
+        ["Title"] = "Mushroom!",
+        ["Code"] = "PoisonShroom"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"6898086054", "6898085459"}, ["Skin"] = "6898121602", ["Coins"] = 0},
+        ["Title"] = "Oddport Academy!",
+        ["Code"] = "ODDPORT"
+    },
+    {
+        ["Title"] = "One Googly eye",
+        ["Code"] = "GOOGLY_EYE",
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"16961066771"}, ["Coins"] = 0},
+        ["EventCurrency"] = false,
+        ["OnRedeem"] = "function: 0x7869460e39c30393"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "4911733589", ["Coins"] = 20},
+        ["Title"] = "One Million!",
+        ["Code"] = "1MIL"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5209875579", ["Coins"] = 0},
+        ["Title"] = "Orange Soda!",
+        ["Code"] = "FastFood"
+    },
+    {["Active"] = true, ["Rewards"] = {["Coins"] = 20}, ["Title"] = "Pixel-Bit!", ["Code"] = "PixelBit"},
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"10017019431"}, ["Skin"] = "10012883656", ["Coins"] = 0},
+        ["Title"] = "Pizza Time!",
+        ["Code"] = "pizzatime"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Skin"] = "15203357655", ["Coins"] = 0},
+        ["Title"] = "Playstation!",
+        ["Code"] = "HEROES_PS"
+    },
+    {
+        ["Active"] = false,
+        ["Rewards"] = {["Skin"] = "5073344502", ["Coins"] = 0},
+        ["Title"] = "Popcorn!",
+        ["Code"] = "Karts&Chaos"
+    },
+    {
         ["Badge"] = "buyCoins",
         ["WinDesc"] = "You bought coins and unlocked a Coin Skin!",
         ["Title"] = "Purchase Coins!",
@@ -3375,6 +3849,34 @@ data = {
         ["Rewards"] = {["Skin"] = "5351658295", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Buy some coins from the shop!"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Stickers"] = {"10928074355", "10928076539", "10928077976"}, ["Coins"] = 0},
+        ["Title"] = "RDC Pins!",
+        ["Code"] = "RDC2022PIN"
+    },
+    {
+        ["Active"] = true,
+        ["Rewards"] = {["Skin"] = "WizSCC", ["Coins"] = 0},
+        ["Title"] = "SCC Wiz!",
+        ["Code"] = "CubeCavern"
+    },
+    {
+        ["Image"] = 8763665722,
+        ["Title"] = "Slime King Toy",
+        ["Active"] = true,
+        ["Series"] = "Action",
+        ["Rewards"] = {["Stickers"] = {"8763665722"}, ["Skin"] = "SlimeDumpster", ["Coins"] = 0},
+        ["Accessory"] = 7243870745
+    },
+    {
+        ["Image"] = 11307275436,
+        ["Title"] = "Sour Suit Toy",
+        ["Active"] = true,
+        ["Series"] = "Action",
+        ["Rewards"] = {["Followers"] = {"CatSour"}, ["Stickers"] = {"11307275436"}, ["Coins"] = 0},
+        ["Accessory"] = 8664382632
     },
     {
         ["Active"] = true,
@@ -3433,57 +3935,9 @@ data = {
         ["Code"] = "HEROESXBOX"
     },
     {
-        ["Badge"] = 3376226421343156,
-        ["WinDesc"] = "You completed 12 Holiday Quests!",
-        ["OwnedCheck"] = "function: 0x000000008543b629",
-        ["Rewards"] = {["Stickers"] = {"15705631118"}, ["Skin"] = "pengKart", ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Complete 12 Holiday Quests!",
-        ["Image"] = 15678968733,
-        ["Title"] = "12 Holiday Quests!",
-        ["LastCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
-        ["Badge"] = 485328530823738,
-        ["WinDesc"] = "You completed 4 Holiday Quests!",
-        ["OwnedCheck"] = "function: 0x00000000a7dfb8b9",
-        ["Rewards"] = {["Stickers"] = {"15678990558"}, ["Skin"] = {"15709050704", "15709051498"}, ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Complete 4 Holiday Quests!",
-        ["Image"] = 15678990558,
-        ["Title"] = "4 Holiday Quests!",
-        ["LastCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
-        ["Badge"] = 2635252925236451,
-        ["WinDesc"] = "You completed all Holiday Quests!",
-        ["OwnedCheck"] = "function: 0x0000000089cdad11",
-        ["Rewards"] = {["Stickers"] = {"15705634784"}, ["Skin"] = "carolQuinn", ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Complete all Holiday Quests!",
-        ["Image"] = 15688798431,
-        ["Title"] = "Holiday Quest Master",
-        ["LastCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
-        ["Badge"] = 2153673535,
-        ["WinDesc"] = "You completed 4 of Alistair's Contracts!",
-        ["OwnedCheck"] = "function: 0x00000000e4b62d19",
-        ["Rewards"] = {["Stickers"] = {"15186220952"}, ["Skin"] = "15180267853", ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Complete 4 of Alistair's Contracts!",
-        ["Image"] = 11336577770,
-        ["Title"] = "4 Contracts!",
-        ["LastCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
         ["Badge"] = 2153673540,
         ["WinDesc"] = "You completed 8 of Alistair's Contracts!",
-        ["OwnedCheck"] = "function: 0x00000000f2484c21",
+        ["OwnedCheck"] = "function: 0xd39c35ede787d283",
         ["Rewards"] = {["Stickers"] = {"15198768428"}, ["Skin"] = "impJester", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete 8 of Alistair's Contracts!",
@@ -3493,21 +3947,9 @@ data = {
         ["Type"] = "Hidden Quest"
     },
     {
-        ["Badge"] = 4446627774421345,
-        ["WinDesc"] = "You completed 8 Holiday Quests!",
-        ["OwnedCheck"] = "function: 0x000000009c41b8c1",
-        ["Rewards"] = {["Stickers"] = {"15705632599"}, ["Skin"] = "iceCDump", ["Coins"] = 0},
-        ["Hidden"] = true,
-        ["Desc"] = "Complete 8 Holiday Quests!",
-        ["Image"] = 15677197180,
-        ["Title"] = "8 Holiday Quests!",
-        ["LastCheck"] = true,
-        ["Type"] = "Hidden Quest"
-    },
-    {
         ["Badge"] = 2153673545,
         ["WinDesc"] = "You completed all of Alistair's Contracts!",
-        ["OwnedCheck"] = "function: 0x00000000d0c5bbb1",
+        ["OwnedCheck"] = "function: 0x6eb4cb0ef4457aa3",
         ["Rewards"] = {["Stickers"] = {"15180663361"}, ["Skin"] = "familyLure", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete all of Alistair's Contracts!",
@@ -3517,14 +3959,74 @@ data = {
         ["Type"] = "Hidden Quest"
     },
     {
+        ["Badge"] = 485328530823738,
+        ["WinDesc"] = "You completed 4 Holiday Quests!",
+        ["OwnedCheck"] = "function: 0x0afc7d4f916b8a73",
+        ["Rewards"] = {["Stickers"] = {"15678990558"}, ["Skin"] = {"15709050704", "15709051498"}, ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Complete 4 Holiday Quests!",
+        ["Image"] = 15678990558,
+        ["Title"] = "4 Holiday Quests!",
+        ["LastCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
         ["Badge"] = 2153673541,
         ["WinDesc"] = "You completed 12 of Alistair's Contracts!",
-        ["OwnedCheck"] = "function: 0x00000000c14a47c9",
+        ["OwnedCheck"] = "function: 0xce0450ee78fd5293",
         ["Rewards"] = {["Troop"] = "Lure", ["Stickers"] = {"15198770109"}, ["Skin"] = "15180268930", ["Coins"] = 0},
         ["Hidden"] = true,
         ["Desc"] = "Complete 12 of Alistair's Contracts!",
         ["Image"] = 15198770109,
         ["Title"] = "12 Contracts!",
+        ["LastCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
+        ["Badge"] = 4446627774421345,
+        ["WinDesc"] = "You completed 8 Holiday Quests!",
+        ["OwnedCheck"] = "function: 0x20a38c6fda0ae5c3",
+        ["Rewards"] = {["Stickers"] = {"15705632599"}, ["Skin"] = "iceCDump", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Complete 8 Holiday Quests!",
+        ["Image"] = 15677197180,
+        ["Title"] = "8 Holiday Quests!",
+        ["LastCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
+        ["Badge"] = 2153673535,
+        ["WinDesc"] = "You completed 4 of Alistair's Contracts!",
+        ["OwnedCheck"] = "function: 0x690c0c0d6e6eebb3",
+        ["Rewards"] = {["Stickers"] = {"15186220952"}, ["Skin"] = "15180267853", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Complete 4 of Alistair's Contracts!",
+        ["Image"] = 11336577770,
+        ["Title"] = "4 Contracts!",
+        ["LastCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
+        ["Badge"] = 2635252925236451,
+        ["WinDesc"] = "You completed all Holiday Quests!",
+        ["OwnedCheck"] = "function: 0xf9dcb050c05e2663",
+        ["Rewards"] = {["Stickers"] = {"15705634784"}, ["Skin"] = "carolQuinn", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Complete all Holiday Quests!",
+        ["Image"] = 15688798431,
+        ["Title"] = "Holiday Quest Master",
+        ["LastCheck"] = true,
+        ["Type"] = "Hidden Quest"
+    },
+    {
+        ["Badge"] = 3376226421343156,
+        ["WinDesc"] = "You completed 12 Holiday Quests!",
+        ["OwnedCheck"] = "function: 0x44679a6f1be5c1d3",
+        ["Rewards"] = {["Stickers"] = {"15705631118"}, ["Skin"] = "pengKart", ["Coins"] = 0},
+        ["Hidden"] = true,
+        ["Desc"] = "Complete 12 Holiday Quests!",
+        ["Image"] = 15678968733,
+        ["Title"] = "12 Holiday Quests!",
         ["LastCheck"] = true,
         ["Type"] = "Hidden Quest"
     }
