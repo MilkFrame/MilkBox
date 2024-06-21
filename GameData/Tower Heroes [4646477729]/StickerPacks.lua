@@ -1,4 +1,53 @@
 data = {
+    ["DoorsPack"] = {
+        ["Sticker"] = true,
+        ["Cost"] = 50,
+        ["RarityRanges"] = {1000},
+        ["Currency"] = {
+            ["ID"] = "Doors",
+            ["Image"] = 14059163080,
+            ["Name"] = "Knobs",
+            ["Color"] = Color3.fromRGB(157, 84, 84)
+        },
+        ["Name"] = "Doors Pack",
+        ["Position"] = -1,
+        ["Skins"] = {
+            {
+                {["Module"] = "Stickers", ["Image"] = 14112409320},
+                {["Module"] = "Stickers", ["Image"] = 14112403191},
+                {["Module"] = "Stickers", ["Image"] = 14112407515},
+                {["Module"] = "Stickers", ["Image"] = 14143987790},
+                {["Module"] = "Stickers", ["Image"] = 14033446006},
+                {["Module"] = "Stickers", ["Image"] = 14033443915},
+                {["Module"] = "Stickers", ["Image"] = 14033441459},
+                {["Module"] = "Stickers", ["Image"] = 14021520656},
+                {["Module"] = "Stickers", ["Image"] = 14021536514},
+                {["Module"] = "Stickers", ["Image"] = 14014037970},
+                {["Module"] = "Stickers", ["Image"] = 14013785028},
+                {["Module"] = "Stickers", ["Image"] = 14013783341},
+                {["Module"] = "Stickers", ["Image"] = 14012905447},
+                {["Module"] = "Stickers", ["Image"] = 14012903806},
+                {["Module"] = "Stickers", ["Image"] = 14012901814},
+                {["Module"] = "Stickers", ["Image"] = 13850676613},
+                {["Module"] = "Stickers", ["Image"] = 14058281663},
+                {["Module"] = "Stickers", ["Image"] = 13850678609},
+                {["Module"] = "Stickers", ["Image"] = 14058285789},
+                {["Module"] = "Stickers", ["Image"] = 14058305521},
+                {["Module"] = "Stickers", ["Image"] = 14058284128},
+                {["Module"] = "Stickers", ["Image"] = 14058306750},
+                {["Module"] = "Stickers", ["Image"] = 13850680133},
+                {["Module"] = "Stickers", ["Image"] = 14058290019},
+                {["Module"] = "Stickers", ["Image"] = 14058297373},
+                {["Module"] = "Stickers", ["Image"] = 14058275067},
+                {["Module"] = "Stickers", ["Image"] = 13850681619},
+                {["Module"] = "Stickers", ["Image"] = 13850683265},
+                {["Module"] = "Stickers", ["Image"] = 13850685459}
+            }
+        },
+        ["PackAmount"] = 1,
+        ["Active"] = false,
+        ["Image"] = 13999265799
+    },
     ["EasterPack"] = {
         ["Sticker"] = true,
         ["Cost"] = 60,
@@ -8,7 +57,7 @@ data = {
             ["ID"] = "Easter",
             ["Image"] = 6586500597,
             ["Name"] = "Eggs",
-            ["Color"] = "0.960784, 0.647059, 1"
+            ["Color"] = Color3.fromRGB(245, 165, 255)
         },
         ["Name"] = "Easter Pack",
         ["Position"] = -1,
@@ -87,7 +136,7 @@ data = {
             ["ID"] = "Halloween",
             ["Image"] = 5838284454,
             ["Name"] = "Candy",
-            ["Color"] = "0.545098, 0.145098, 1"
+            ["Color"] = Color3.fromRGB(139, 37, 255)
         },
         ["Name"] = "Halloween Pack",
         ["Position"] = -1,
@@ -287,7 +336,7 @@ data = {
             ["ID"] = "Christmas",
             ["Image"] = 6106057215,
             ["Name"] = "Cookies",
-            ["Color"] = "0.588235, 1, 0.113725"
+            ["Color"] = Color3.fromRGB(150, 255, 29)
         },
         ["Name"] = "Holiday Pack",
         ["Position"] = -1,
