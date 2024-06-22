@@ -1,5 +1,5 @@
 data = {
-    ["GetNextRank"] = "function: 0x00000000a0138723",
+    ["GetNextRank"] = "function: 0x3257d254ab69b0b0",
     ["RankList"] = {
         {
             ["Name"] = "Rookie",
@@ -142,7 +142,7 @@ data = {
                         ["Value"] = 1500,
                         ["Type"] = "Coins",
                         ["Icon"] = "rbxassetid://14713779371",
-                        ["DisplayName"] = "1500 Coins"
+                        ["DisplayName"] = "1,500 Coins"
                     }
                 },
                 ["NoAbility"] = {
@@ -150,7 +150,7 @@ data = {
                         ["Value"] = 1500,
                         ["Type"] = "Coins",
                         ["Icon"] = "rbxassetid://14713779371",
-                        ["DisplayName"] = "1500 Coins"
+                        ["DisplayName"] = "1,500 Coins"
                     }
                 }
             },
@@ -170,7 +170,7 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Champion's Excalibur",
@@ -184,13 +184,55 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Azure Thunderbolt",
                             ["Type"] = "Sword",
-                            ["Icon"] = "rbxassetid://6034407076",
+                            ["Icon"] = "rbxassetid://16266671896",
                             ["DisplayName"] = "Azure Thunderbolt"
+                        }
+                    },
+                    ["5"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 5 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://16730765792",
+                            ["DisplayName"] = "Ranked Season 5 Champion"
+                        }
+                    },
+                    ["4"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Valor’s Rage",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://16309468217",
+                            ["DisplayName"] = "Valor’s Rage"
+                        }
+                    },
+                    ["6"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 6 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://17332115874",
+                            ["DisplayName"] = "Ranked Season 6 Champion"
                         }
                     }
                 },
@@ -200,7 +242,7 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Champion's Excalibur",
@@ -215,7 +257,7 @@ data = {
             ["TextColor"] = Color3.fromRGB(0, 124, 215)
         }
     },
-    ["GetRank"] = "function: 0x00000000fd8fc5bb",
+    ["GetRank"] = "function: 0xb4a65225350fe420",
     ["Ranks"] = {
         ["Platinum"] = {
             ["Name"] = "Platinum",
@@ -326,7 +368,7 @@ data = {
                         ["Value"] = 1500,
                         ["Type"] = "Coins",
                         ["Icon"] = "rbxassetid://14713779371",
-                        ["DisplayName"] = "1500 Coins"
+                        ["DisplayName"] = "1,500 Coins"
                     }
                 },
                 ["NoAbility"] = {
@@ -334,7 +376,7 @@ data = {
                         ["Value"] = 1500,
                         ["Type"] = "Coins",
                         ["Icon"] = "rbxassetid://14713779371",
-                        ["DisplayName"] = "1500 Coins"
+                        ["DisplayName"] = "1,500 Coins"
                     }
                 }
             },
@@ -354,7 +396,7 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Champion's Excalibur",
@@ -368,13 +410,55 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Azure Thunderbolt",
                             ["Type"] = "Sword",
-                            ["Icon"] = "rbxassetid://6034407076",
+                            ["Icon"] = "rbxassetid://16266671896",
                             ["DisplayName"] = "Azure Thunderbolt"
+                        }
+                    },
+                    ["5"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 5 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://16730765792",
+                            ["DisplayName"] = "Ranked Season 5 Champion"
+                        }
+                    },
+                    ["4"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Valor’s Rage",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://16309468217",
+                            ["DisplayName"] = "Valor’s Rage"
+                        }
+                    },
+                    ["6"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 6 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://17332115874",
+                            ["DisplayName"] = "Ranked Season 6 Champion"
                         }
                     }
                 },
@@ -384,7 +468,7 @@ data = {
                             ["Value"] = 2000,
                             ["Type"] = "Coins",
                             ["Icon"] = "rbxassetid://14713779371",
-                            ["DisplayName"] = "2000 Coins"
+                            ["DisplayName"] = "2,000 Coins"
                         },
                         {
                             ["Value"] = "Champion's Excalibur",
