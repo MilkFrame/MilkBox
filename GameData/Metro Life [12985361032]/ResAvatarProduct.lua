@@ -1,0 +1,73 @@
+data = {
+    ["LCSuit"] = {
+        ["PassId"] = 62513840,
+        ["DEVPassId"] = 62488354,
+        ["DisplayedPrice"] = "",
+        ["Id"] = "LCSuit",
+        ["TestingId"] = 63798532,
+        ["SmallIcon"] = "rbxassetid://10266262537",
+        ["HideInList"] = false,
+        ["PriceInRobux"] = 998,
+        ["Discount"] = "",
+        ["DetailIcon"] = "rbxassetid://10302568083 ",
+        ["Icon"] = "rbxassetid://10198186992",
+        ["Desc"] = "K_APARTMENTPASS_DESC"
+    },
+    ["LCClothes"] = {
+        ["PassId"] = 25622651,
+        ["DEVPassId"] = 25589729,
+        ["DisplayedPrice"] = "",
+        ["Id"] = "LCClothes",
+        ["TestingId"] = 25622613,
+        ["SmallIcon"] = "rbxassetid://8968767261",
+        ["HideInList"] = false,
+        ["PriceInRobux"] = 398,
+        ["Discount"] = "",
+        ["DetailIcon"] = "rbxassetid://9843823957",
+        ["Icon"] = "rbxassetid://8161332467",
+        ["Desc"] = "K_LANDTRIP_PASS_DESC"
+    },
+    ["__index"] = {"LCClothes", "LCShoes", "LCSuit", "LCPants", "Shorts"},
+    ["LCShoes"] = {
+        ["PassId"] = 18758852,
+        ["DEVPassId"] = 18706716,
+        ["DisplayedPrice"] = "",
+        ["Id"] = "LCShoes",
+        ["TestingId"] = 20398922,
+        ["SmallIcon"] = "rbxassetid://8968768495",
+        ["HideInList"] = false,
+        ["PriceInRobux"] = 999,
+        ["Discount"] = "",
+        ["DetailIcon"] = "rbxassetid://9908134916",
+        ["Icon"] = "rbxassetid://6934332784",
+        ["Desc"] = "K_SUMMER_VIP_DESC"
+    },
+    ["LCPants"] = {
+        ["PassId"] = 23449643,
+        ["DEVPassId"] = 23449559,
+        ["DisplayedPrice"] = "",
+        ["Id"] = "LCPants",
+        ["TestingId"] = 23449602,
+        ["SmallIcon"] = "rbxassetid://8968766987",
+        ["HideInList"] = false,
+        ["PriceInRobux"] = 598,
+        ["Discount"] = "",
+        ["DetailIcon"] = "rbxassetid://7678737383",
+        ["Icon"] = "rbxassetid://7677404352",
+        ["Desc"] = "K_COLLECTOR_PASS_DESC"
+    },
+    ["Shorts"] = {
+        ["PassId"] = 27885144,
+        ["DEVPassId"] = 27885342,
+        ["DisplayedPrice"] = "",
+        ["Id"] = "Shorts",
+        ["TestingId"] = 27885282,
+        ["SmallIcon"] = "rbxassetid://8968765662",
+        ["HideInList"] = false,
+        ["PriceInRobux"] = 798,
+        ["Discount"] = "",
+        ["DetailIcon"] = "rbxassetid://10853869614",
+        ["Icon"] = "rbxassetid://8628945210",
+        ["Desc"] = "K_NEWYEARPASS_DESC"
+    }
+}
