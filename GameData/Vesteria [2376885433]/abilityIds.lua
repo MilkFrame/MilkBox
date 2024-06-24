@@ -151,3 +151,14 @@ data = {
     [400] = "ornate attack",
     [543] = "shielding song"
 }
+a = require(game.ReplicatedStorage.abilityIds) i = 0
+function convertDictionaryToString(dictionary)
+    local result = "{"
+    for key, value in pairs(dictionary) do
+        result = result .. "[" .. tostring(key) .. "]=\"" .. tostring(value) .. "\","
+    end
+    result = result .. "}"
+    return result
+end
+b = convertDictionaryToString(a)
+setclipboard(string.sub(b,1,16000))
