@@ -1,0 +1,31 @@
+data = {
+    ["OwnsAssetAsync"] = "function: 0x1b029c7f363c71a3",
+    ["RemoveOwnedAsset"] = "function: 0x77c3a2bb207b5903",
+    ["FetchAssetInfo"] = "function: 0x1eadcd2b462a2a13",
+    ["AssetOwned"] = "Signal Event",
+    ["_promptGamePassPurchase"] = "function: 0xb060e549d89ded43",
+    ["CheckOwnedAssets"] = "function: 0x6f58994ce68a8583",
+    ["CheckAssetsStatus"] = "function: 0x6484600a672e3093",
+    ["GetAssetInfo"] = "function: 0xb1d720df1d20fef3",
+    ["GetAssetID"] = "function: 0xe4b61d13de3a8683",
+    ["IsContentDeleted"] = "function: 0xc8b312b07e6d9923",
+    ["_assetOwned"] = "AssetOwned_Client",
+    ["Gamepasses"] = {
+        "Premium",
+        "Excellent Employee",
+        "Transform Plus",
+        "Advanced Placing",
+        "Basements",
+        "Marvelous Mood",
+        "Large Plot",
+        "Multiple Floors",
+        "Unlocked Stereo"
+    },
+    ["SetOwnedAsset"] = "function: 0xb7b84a4bb5139843",
+    ["HookReceipt"] = "function: 0xa17fc6d6ae1e00c3",
+    ["GetAllAssetInfo"] = "function: 0x79bec1408fc69ba3",
+    ["CheckGamepass"] = "function: 0x69f5719e37fd7203",
+    ["GetAssetName"] = "function: 0x86df580c85bd5583",
+    ["CheckAssetID"] = "function: 0xd56c87a6a5015d83",
+    ["OwnsAsset"] = "function: 0x861593c0d342c5c3"
+}
