@@ -1,0 +1,19 @@
+data = {
+    ["GetGrowXP"] = "function: 0xbfc5d0f71aa9e423",
+    ["PlantFits"] = "function: 0x8f5708ace68b6203",
+    ["WITHER_TRESHOLD"] = 0.6,
+    ["PLANTING_PRICE_MULTIPLIER"] = 0.5,
+    ["GetPlantDurations"] = "function: 0x87cd7045fa592ce3",
+    ["IncreaseWater"] = "function: 0x76ab16ff37f3a1a3",
+    ["GetPlantMultiplier"] = "function: 0xf65537efb0386113",
+    ["PlantIsOutside"] = "function: 0x699212bd9f717a93",
+    ["IsActive"] = "function: 0x869c31aa1d8b4a43",
+    ["IsGrowing"] = "function: 0xae87fbf37d391c23",
+    ["StopGrassRemover"] = "function: 0x8f6c12494b7b5aa3",
+    ["SetPlantedData"] = "function: 0xbe281325c72c7c93",
+    ["StartGrassRemover"] = "function: 0x1f26e07980ec8e43",
+    ["SetWater"] = "function: 0xb4f4f106e8d3f553",
+    ["WaterNearbyPlants"] = "function: 0xa943526475133cf3",
+    ["HasPlant"] = "function: 0xa1fa7fc80d101f83",
+    ["GetPlantProgress"] = "function: 0x8724503bac6a0f33"
+}
