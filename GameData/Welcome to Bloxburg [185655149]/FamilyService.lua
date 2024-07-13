@@ -1,0 +1,21 @@
+data = {
+    ["GetAllFamilies"] = "function: 0x6d5052e5f1dc0353",
+    ["InvitePlayerToFamily"] = "function: 0xeb43a920b5714b23",
+    ["CreateFamily"] = "function: 0x7e6cbcd61f74ac83",
+    ["GetFamilyFromID"] = "function: 0x4335dad5c5e4a623",
+    ["IsInSameFamily"] = "function: 0xb13e5412be7f5f13",
+    ["AddFamilyChangeListener"] = "function: 0x9db88f5828e57443",
+    ["RemoveFromFamily"] = "function: 0x2cbae9ac2217cd83",
+    ["GetFamilyMembers"] = "function: 0xbee876733ca54fa3",
+    ["CheckSetFamilyPermission"] = "function: 0xfe53f4b5e15257c3",
+    ["JoinFamily"] = "function: 0x665123c1f1f5d343",
+    ["GetFamilyMemberCount"] = "function: 0x508728bf81084b43",
+    ["GetFamily"] = "function: 0x4c4dad6fd68f5573",
+    ["GetFamilyMemberIds"] = "function: 0x77eac6a301a55063",
+    ["GetFamilyPermission"] = "function: 0x7996d4a0ec20bae3",
+    ["FamilyHolder"] = "Families",
+    ["FamilyInviteRequests"] = {},
+    ["IsFamilyOwner"] = "function: 0x4c2ca5b5d68aaf43",
+    ["TimeOfLastInvite"] = "function: 0xa1e0f334a20e9933",
+    ["IsInFamily"] = "function: 0xdae67d8673a60003"
+}
