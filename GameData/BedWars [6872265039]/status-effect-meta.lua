@@ -1,6 +1,26 @@
 data = {
     ["StatusEffectMeta"] = {
+        ["chaos_3"] = {
+            ["noDisplay"] = true,
+            ["description"] = "Gain two Tier I enchants.",
+            ["displayName"] = "Chaos III"
+        },
+        ["berserker_3"] = {
+            ["image"] = "rbxassetid://17443716702",
+            ["description"] = "The less health you have, the more damage you deal. At low health, attacks will heal you.",
+            ["displayName"] = "Berserker III"
+        },
         ["decay"] = {["noDisplay"] = true, ["displayName"] = "Decay"},
+        ["berserker_2"] = {
+            ["image"] = "rbxassetid://17443716870",
+            ["description"] = "The less health you have, the more damage you deal. At low health, attacks will heal you.",
+            ["displayName"] = "Berserker II"
+        },
+        ["berserker_1"] = {
+            ["image"] = "rbxassetid://17443716870",
+            ["description"] = "The less health you have, the more damage you deal. At low health, attacks will heal you.",
+            ["displayName"] = "Berserker I"
+        },
         ["life_steal_1"] = {
             ["image"] = "rbxassetid://9618696554",
             ["description"] = "Attacks on enemies will heal you over time",
@@ -18,6 +38,7 @@ data = {
             ["description"] = "Each stack increase damage",
             ["displayName"] = "Kill Streak Count"
         },
+        ["grounded"] = {["image"] = "rbxassetid://11467180954", ["displayName"] = "Grounded"},
         ["blossom_defense"] = {
             ["image"] = "rbxassetid://13129152515",
             ["description"] = "Damage taken reduced by 30%.",
@@ -29,6 +50,12 @@ data = {
             ["category"] = "enchant",
             ["visualizer"] = "Static",
             ["displayName"] = "Static IV"
+        },
+        ["combo_master"] = {
+            ["noDisplay"] = true,
+            ["visualizer"] = "ComboMaster",
+            ["description"] = "Deal increasing damage on combos",
+            ["displayName"] = "Ares' Favor"
         },
         ["empowered_kicks"] = {
             ["image"] = "rbxassetid://15392670831",
@@ -49,6 +76,11 @@ data = {
             ["description"] = "Convert emeralds and diamonds to damage. Gain +2% damage per resource, capping at +40%.",
             ["displayName"] = "Alchemize"
         },
+        ["speed_boost"] = {
+            ["noDisplay"] = false,
+            ["image"] = "rbxassetid://17363798233",
+            ["displayName"] = "Speed Boost"
+        },
         ["plunder_2"] = {
             ["category"] = "enchant",
             ["image"] = "rbxassetid://8854949993",
@@ -61,10 +93,31 @@ data = {
             ["description"] = "You're immune to knockback",
             ["displayName"] = "Anti Knockback II"
         },
+        ["dark_power"] = {
+            ["image"] = "rbxassetid://15120331338",
+            ["description"] = "Damage increased",
+            ["displayName"] = "Dark Power"
+        },
+        ["mending_canopy_glide"] = {
+            ["image"] = "rbxassetid://17007899750",
+            ["description"] = "Reduced fall speed and no fall damage",
+            ["displayName"] = "Glide"
+        },
+        ["burn"] = {["noDisplay"] = true, ["displayName"] = "Burn"},
         ["golden_egg"] = {
             ["image"] = "rbxassetid://15361547782",
             ["description"] = "Deal +1% damage per stack",
             ["displayName"] = "Golden Egg"
+        },
+        ["stacking_decay"] = {
+            ["image"] = "rbxassetid://12518331892",
+            ["description"] = "Health will decay with more stacks",
+            ["displayName"] = "Stacking Decay"
+        },
+        ["tasty"] = {
+            ["image"] = "rbxassetid://14220394873",
+            ["description"] = "Devourers gain increased speed towards you",
+            ["displayName"] = "Tasty"
         },
         ["frosted"] = {
             ["image"] = "rbxassetid://11611911951",
@@ -78,24 +131,21 @@ data = {
             ["visualizer"] = "LifeSteal",
             ["displayName"] = "Life Steal II"
         },
-        ["stacking_decay"] = {
-            ["image"] = "rbxassetid://12518331892",
-            ["description"] = "Health will decay with more stacks",
-            ["displayName"] = "Stacking Decay"
-        },
-        ["sticky_boots"] = {
-            ["image"] = "rbxassetid://14313382740",
-            ["description"] = "Sprinting and jumping disabled",
-            ["displayName"] = "Sticky boots"
-        },
-        ["shielder_i"] = {["image"] = "rbxassetid://7051149149", ["displayName"] = "Shielder Protection"},
-        ["titans_blessing_2"] = {
-            ["image"] = "rbxassetid://12512500001",
-            ["description"] = "Deal +40% damage & disables nearby enemy Teslas",
-            ["displayName"] = "Titan's Blessing"
+        ["critical_strike_4"] = {
+            ["category"] = "enchant",
+            ["image"] = "rbxassetid://9618671880",
+            ["description"] = "Your attacks now have a chance to critically strike an enemy for more damage",
+            ["displayName"] = "Critical Strike IV"
         },
         ["shielder_iii"] = {["image"] = "rbxassetid://15619476034", ["displayName"] = "Shielder Protection III"},
+        ["shielder_i"] = {["image"] = "rbxassetid://7051149149", ["displayName"] = "Shielder Protection"},
         ["shielder_ii"] = {["image"] = "rbxassetid://15619476034", ["displayName"] = "Shielder Protection II"},
+        ["frozen"] = {["image"] = "rbxassetid://15619476034", ["displayName"] = "Frozen"},
+        ["ninja_invisible"] = {
+            ["image"] = "rbxassetid://15513972548",
+            ["description"] = "You are invisible",
+            ["displayName"] = "Invisibility Jutsu"
+        },
         ["shrink"] = {["item"] = "shrink_potion", ["displayName"] = "Shrink"},
         ["fire_4"] = {
             ["image"] = "rbxassetid://8268259203",
@@ -121,17 +171,21 @@ data = {
             ["description"] = "Damage increased by +40%. Every 20 seconds, damage buff is reduced by 2% until 20% is reached.",
             ["displayName"] = "Blitz"
         },
-        ["frozen"] = {["image"] = "rbxassetid://15619476034", ["displayName"] = "Frozen"},
+        ["ninja_substitution_on_cooldown"] = {
+            ["image"] = "rbxassetid://15513969839",
+            ["description"] = "Can't use invisibility jutsu while recovering",
+            ["displayName"] = "Jutsu Recovering"
+        },
         ["rapid_regen_3"] = {
             ["category"] = "enchant",
             ["image"] = "rbxassetid://8860597490",
             ["description"] = "",
             ["displayName"] = "Rapid Heal III"
         },
-        ["ninja_invisible"] = {
-            ["image"] = "rbxassetid://15513972548",
-            ["description"] = "You are invisible",
-            ["displayName"] = "Invisibility Jutsu"
+        ["lunar_venom"] = {
+            ["image"] = "rbxassetid://16100454759",
+            ["description"] = "Deals damage over time. Additional damage and infection triggered at 3 stacks",
+            ["displayName"] = "Lunar Venom"
         },
         ["shield_gen_2"] = {
             ["category"] = "enchant",
@@ -156,20 +210,20 @@ data = {
             ["category"] = "enchant",
             ["displayName"] = "Sticky"
         },
-        ["ninja_substitution_on_cooldown"] = {
-            ["image"] = "rbxassetid://15513969839",
-            ["description"] = "Can't use invisibility jutsu while recovering",
-            ["displayName"] = "Jutsu Recovering"
-        },
-        ["lunar_venom"] = {
-            ["image"] = "rbxassetid://16100454759",
-            ["description"] = "Deals damage over time. Additional damage and infection triggered at 3 stacks",
-            ["displayName"] = "Lunar Venom"
-        },
         ["solar_flare"] = {
             ["image"] = "rbxassetid://16100481573",
             ["description"] = "Explosive damage triggered at 3 stacks",
             ["displayName"] = "Solar Flare"
+        },
+        ["frankenstein_monster"] = {
+            ["image"] = "rbxassetid://15119315143",
+            ["description"] = "Immune to static damage, and lightning will strike around you every 5 seconds",
+            ["displayName"] = "Frankenstein's Monster"
+        },
+        ["toasty"] = {
+            ["image"] = "rbxassetid://15625719185",
+            ["description"] = "Immune to effects from the snow",
+            ["displayName"] = "Toasty"
         },
         ["static_2"] = {
             ["image"] = "rbxassetid://8268259009",
@@ -179,27 +233,21 @@ data = {
             ["displayName"] = "Static II"
         },
         ["smoke_invisibility"] = {["item"] = "smoke_bomb", ["displayName"] = "Smoke Invisibility"},
+        ["SLIME_BUFF_FROSTY"] = {
+            ["image"] = "rbxassetid://15295050177",
+            ["description"] = "Slows the movement speed of hit enemies.",
+            ["displayName"] = "Frosty Slime Buff"
+        },
+        ["blossom_attack"] = {
+            ["image"] = "rbxassetid://13129152720",
+            ["description"] = "Damage increased by 30%.",
+            ["displayName"] = "Blossom Attack"
+        },
+        ["big_head"] = {["item"] = "big_head_potion", ["displayName"] = "Shrink"},
         ["SLIME_BUFF_HEALING"] = {
             ["image"] = "rbxassetid://15295059428",
             ["description"] = "Restores missing health every second.",
             ["displayName"] = "Blessed Slime Buff"
-        },
-        ["toasty"] = {
-            ["image"] = "rbxassetid://15625719185",
-            ["description"] = "Immune to effects from the snow",
-            ["displayName"] = "Toasty"
-        },
-        ["double_hit_relic"] = {
-            ["keepOnDeath"] = true,
-            ["image"] = "rbxassetid://10993361352",
-            ["description"] = "Apply double damage every 6 hits.",
-            ["displayName"] = "Double Hit"
-        },
-        ["traveling_merchant_heal"] = {
-            ["keepOnDeath"] = true,
-            ["image"] = "rbxassetid://13418710986",
-            ["description"] = "Heal +2 HP per second",
-            ["displayName"] = "Traveling Merchant's Vitality"
         },
         ["rapid_regen_2"] = {
             ["category"] = "enchant",
@@ -214,7 +262,7 @@ data = {
             ["visualizer"] = "Fire",
             ["displayName"] = "Fire II"
         },
-        ["big_head"] = {["item"] = "big_head_potion", ["displayName"] = "Shrink"},
+        ["no_knockback"] = {["image"] = "rbxassetid://8854950139", ["displayName"] = "No Knockback"},
         ["heal_over_time"] = {["noDisplay"] = true, ["displayName"] = "Healing"},
         ["giant"] = {["item"] = "giant_potion", ["displayName"] = "Giant"},
         ["vampirism"] = {
@@ -258,6 +306,7 @@ data = {
             ["displayName"] = "Feral"
         },
         ["forest_3"] = {
+            ["category"] = "enchant",
             ["image"] = "rbxassetid://12072987796",
             ["description"] = "Single target attacks trigger Forest, dealing extra damage & giving max health",
             ["displayName"] = "Forest III"
@@ -267,16 +316,20 @@ data = {
             ["description"] = "Regenerate health while near your generator",
             ["displayName"] = "Base Regen"
         },
-        ["no_knockback"] = {["image"] = "rbxassetid://8854950139", ["displayName"] = "No Knockback"},
-        ["frankenstein_monster"] = {
-            ["image"] = "rbxassetid://15119315143",
-            ["description"] = "Immune to static damage, and lightning will strike around you every 5 seconds",
-            ["displayName"] = "Frankenstein's Monster"
+        ["powdered"] = {
+            ["image"] = "rbxassetid://16580101589",
+            ["description"] = "Firing yourself from a cannon will inflict damage",
+            ["displayName"] = "Powdered"
         },
-        ["dark_power"] = {
-            ["image"] = "rbxassetid://15120331338",
-            ["description"] = "Damage increased",
-            ["displayName"] = "Dark Power"
+        ["titans_blessing_2"] = {
+            ["image"] = "rbxassetid://12512500001",
+            ["description"] = "Deal +40% damage & disables nearby enemy Teslas",
+            ["displayName"] = "Titan's Blessing"
+        },
+        ["werewolf_fear"] = {
+            ["image"] = "rbxassetid://15121135194",
+            ["description"] = "Automatically run away from the werewolf",
+            ["displayName"] = "Frightened"
         },
         ["speed"] = {["item"] = "speed_potion", ["displayName"] = "Speed Boost"},
         ["enhanced_projectile"] = {
@@ -284,15 +337,15 @@ data = {
             ["description"] = "Fire a volley of arrows",
             ["displayName"] = "Enhanced Projectile"
         },
-        ["bleed"] = {
-            ["image"] = "rbxassetid://12518331892",
-            ["description"] = "Health will decay over time",
-            ["displayName"] = "Decay"
+        ["sticky_boots"] = {
+            ["image"] = "rbxassetid://14313382740",
+            ["description"] = "Sprinting and jumping disabled",
+            ["displayName"] = "Sticky boots"
         },
-        ["werewolf_fear"] = {
-            ["image"] = "rbxassetid://15121135194",
-            ["description"] = "Automatically run away from the werewolf",
-            ["displayName"] = "Frightened"
+        ["devourer_speed"] = {
+            ["image"] = "rbxassetid://14220394728",
+            ["description"] = "Gain increased speed towards players marked with `Tasty` effect",
+            ["displayName"] = "Devourer"
         },
         ["damage_boost"] = {["image"] = "rbxassetid://10987518632", ["displayName"] = "Damage Boost"},
         ["sharpened"] = {
@@ -306,15 +359,17 @@ data = {
             ["keepOnDeath"] = true,
             ["displayName"] = "Mage Ice Element"
         },
-        ["devourer_speed"] = {
-            ["image"] = "rbxassetid://14220394728",
-            ["description"] = "Gain increased speed towards players marked with `Tasty` effect",
-            ["displayName"] = "Devourer"
+        ["traveling_merchant_heal"] = {
+            ["keepOnDeath"] = true,
+            ["image"] = "rbxassetid://13418710986",
+            ["description"] = "Heal +2 HP per second",
+            ["displayName"] = "Traveling Merchant's Vitality"
         },
-        ["tasty"] = {
-            ["image"] = "rbxassetid://14220394873",
-            ["description"] = "Devourers gain increased speed towards you",
-            ["displayName"] = "Tasty"
+        ["forest_1"] = {
+            ["category"] = "enchant",
+            ["image"] = "rbxassetid://12072987796",
+            ["description"] = "Single target attacks trigger Forest, dealing extra damage & giving max health",
+            ["displayName"] = "Forest I"
         },
         ["SLIME_BUFF_STICKY"] = {
             ["image"] = "rbxassetid://15295064061",
@@ -365,20 +420,20 @@ data = {
             ["description"] = "Your attacks now have a chance to critically strike an enemy for more damage",
             ["displayName"] = "Critical Strike I"
         },
-        ["forest_1"] = {
-            ["image"] = "rbxassetid://12072987796",
-            ["description"] = "Single target attacks trigger Forest, dealing extra damage & giving max health",
-            ["displayName"] = "Forest I"
-        },
-        ["blossom_attack"] = {
-            ["image"] = "rbxassetid://13129152720",
-            ["description"] = "Damage increased by 30%.",
-            ["displayName"] = "Blossom Attack"
-        },
         ["shocked"] = {
             ["image"] = "rbxassetid://12813461592",
             ["description"] = "Healing and shielding reduced by 85%",
             ["displayName"] = "Zapped"
+        },
+        ["bleed"] = {
+            ["image"] = "rbxassetid://12518331892",
+            ["description"] = "Health will decay over time",
+            ["displayName"] = "Decay"
+        },
+        ["golden_apple"] = {
+            ["image"] = "rbxassetid://12444096542",
+            ["description"] = "Massive regeneration & damage reduction",
+            ["displayName"] = "Golden Apple"
         },
         ["life_steal_4"] = {
             ["image"] = "rbxassetid://9618696554",
@@ -400,34 +455,34 @@ data = {
             ["displayName"] = "Feeble"
         },
         ["slience"] = {["noDisplay"] = true, ["displayName"] = "Grounded"},
-        ["golden_apple"] = {
-            ["image"] = "rbxassetid://12444096542",
-            ["description"] = "Massive regeneration & damage reduction",
-            ["displayName"] = "Golden Apple"
+        ["double_hit_relic"] = {
+            ["keepOnDeath"] = true,
+            ["image"] = "rbxassetid://10993361352",
+            ["description"] = "Apply double damage every 6 hits.",
+            ["displayName"] = "Double Hit"
         },
         ["frost_bite"] = {["image"] = "rbxassetid://8216841057", ["displayName"] = "Frostbitten"},
-        ["SLIME_BUFF_FROSTY"] = {
-            ["image"] = "rbxassetid://15295050177",
-            ["description"] = "Slows the movement speed of hit enemies.",
-            ["displayName"] = "Frosty Slime Buff"
-        },
+        ["infected_poison"] = {["noDisplay"] = true, ["displayName"] = "Infected Poison"},
         ["wormhole_relic"] = {
             ["item"] = "wormhole",
             ["description"] = "Recall to your home base.",
             ["displayName"] = "Wormhole"
         },
-        ["critical_strike_4"] = {
+        ["fortune_1"] = {
+            ["image"] = "rbxassetid://17447586655",
+            ["description"] = "Deal damage to collect stacks. When time runs out, cash out or risk it for greater rewards!",
             ["category"] = "enchant",
-            ["image"] = "rbxassetid://9618671880",
-            ["description"] = "Your attacks now have a chance to critically strike an enemy for more damage",
-            ["displayName"] = "Critical Strike IV"
+            ["visualizer"] = "Fortune",
+            ["displayName"] = "Fortune"
         },
         ["forest_4"] = {
+            ["category"] = "enchant",
             ["image"] = "rbxassetid://12072987796",
             ["description"] = "Single target attacks trigger Forest, dealing extra damage & giving max health",
             ["displayName"] = "Forest IV"
         },
         ["forest_2"] = {
+            ["category"] = "enchant",
             ["image"] = "rbxassetid://12072987796",
             ["description"] = "Single target attacks trigger Forest, dealing extra damage & giving max health",
             ["displayName"] = "Forest II"
@@ -473,8 +528,18 @@ data = {
             ["description"] = "Boosts damage on hit enemies.",
             ["displayName"] = "Void Slime Buff"
         },
-        ["grounded"] = {["image"] = "rbxassetid://11467180954", ["displayName"] = "Grounded"},
-        ["burn"] = {["noDisplay"] = true, ["displayName"] = "Burn"},
+        ["survival_combo_boost"] = {
+            ["image"] = "rbxassetid://8268259203",
+            ["description"] = "Deal increased damage!",
+            ["visualizer"] = "Fire",
+            ["noDisplay"] = true,
+            ["displayName"] = "ON FIRE!"
+        },
+        ["eagles_eye"] = {
+            ["image"] = "rbxassetid://16830265561",
+            ["description"] = "Ranged attacks against you are guaranteed to critically strike",
+            ["displayName"] = "Eagle's Eye"
+        },
         ["curse_of_the_altar"] = {
             ["image"] = "rbxassetid://15177278900",
             ["description"] = "Permanently take damage over time",
