@@ -16,6 +16,7 @@ data = {
                 {["starterGear"] = {{["item"] = "iron_dagger"}}, ["damageMultiplier"] = 1.3},
                 {["iconItem"] = "mythic_dagger", ["unlockedItems"] = {"mythic_dagger"}, ["damageMultiplier"] = 1.4}
             },
+            ["itemDescription"] = "Slice swiftly, a nimble dagger, dart in with rapid strikes and quick dashes.",
             ["ignoredByKit"] = {"dasher", "barbarian", "frost_hammer_kit", "ice_queen", "ember", "lumen"},
             ["chosenUpgradePathId"] = "melee"
         },
@@ -35,6 +36,7 @@ data = {
                 {["starterGear"] = {{["item"] = "iron_scythe"}}, ["damageMultiplier"] = 1.3},
                 {["iconItem"] = "mythic_scythe", ["unlockedItems"] = {"mythic_scythe"}, ["damageMultiplier"] = 1.4}
             },
+            ["itemDescription"] = "Swing fiercely, a lethal scythe, defy harm with every jump.",
             ["ignoredByKit"] = {"dasher", "barbarian", "frost_hammer_kit", "ice_queen", "ember", "lumen"},
             ["chosenUpgradePathId"] = "melee"
         },
@@ -68,6 +70,7 @@ data = {
                     ["damageMultiplier"] = 1.4
                 }
             },
+            ["itemDescription"] = "Slam forcefully, a mighty hammer, send foes reeling with each blow.",
             ["ignoredByKit"] = {"dasher", "barbarian", "frost_hammer_kit", "ice_queen", "ember", "lumen"},
             ["chosenUpgradePathId"] = "melee"
         },
@@ -101,6 +104,7 @@ data = {
                     ["damageMultiplier"] = 1.4
                 }
             },
+            ["itemDescription"] = "Punch powerfully, sturdy gauntlets, chain attacks with unstoppable force.",
             ["ignoredByKit"] = {"dasher", "barbarian", "frost_hammer_kit", "ice_queen", "ember", "lumen"},
             ["chosenUpgradePathId"] = "melee"
         },
@@ -225,6 +229,7 @@ data = {
                 {["starterGear"] = {{["item"] = "iron_sword"}}, ["damageMultiplier"] = 1.35},
                 {["iconItem"] = "emerald_sword", ["unlockedItems"] = {"emerald_sword"}, ["damageMultiplier"] = 1.45}
             },
+            ["itemDescription"] = "Strike true, a timeless sword, strong and dependable.",
             ["chosenUpgradePathId"] = "melee"
         }
     }
