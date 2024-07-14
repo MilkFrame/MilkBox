@@ -7,11 +7,19 @@ data = {
         ["penguin_crush"] = {["name"] = "Penguin Crush", ["image"] = "rbxassetid://15645004593"},
         ["confetti"] = {["name"] = "Confetti"},
         ["boxingglove"] = {["name"] = "Boxing Glove", ["image"] = "rbxassetid://13839928576"},
+        ["summer_pet_dance"] = {["name"] = "Summer Pet Dance", ["image"] = "rbxassetid://18251034658"},
+        ["spirit_assassin"] = {["name"] = "Dragged Under", ["image"] = "rbxassetid://16390556030"},
+        ["judgement_day"] = {["name"] = "Judgement Day", ["image"] = "rbxassetid://17762370793"},
         ["beachball"] = {["name"] = "Beach Ball", ["image"] = "rbxassetid://9872222228"},
+        ["float_away"] = {["name"] = "Float Away", ["image"] = "rbxassetid://17600465541"},
         ["blimp"] = {["name"] = "Blimp", ["image"] = "rbxassetid://8274922323"},
+        ["blessed_heaven"] = {["name"] = "Blessed Heaven", ["image"] = "rbxassetid://17025290596"},
         ["bird"] = {["name"] = "Bird", ["image"] = "rbxassetid://9136110528"},
+        ["toilet"] = {["name"] = "Toilet Flush", ["image"] = "rbxassetid://17013072610"},
         ["lifering"] = {["name"] = "Life Ring", ["image"] = "rbxassetid://9872222447"},
         ["heart"] = {["name"] = "Heart"},
+        ["snowman"] = {["name"] = "Snowman", ["image"] = "rbxassetid://8274283485"},
+        ["lunar_dragon"] = {["name"] = "Lunar Dragon", ["image"] = "rbxassetid://16214613731"},
         ["rage-blade"] = {["name"] = "Rage Blade", ["image"] = "rbxassetid://14568425448"},
         ["none"] = {["name"] = "None"},
         ["rocket"] = {["name"] = "Rocket", ["image"] = "rbxassetid://9135930424"},
@@ -45,6 +53,6 @@ data = {
         ["firework"] = {["name"] = "Firework"},
         ["lantern"] = {["name"] = "Lantern", ["image"] = "rbxassetid://8666448528"},
         ["abduction"] = {["name"] = "Abduction", ["image"] = "rbxassetid://8326939283"},
-        ["snowman"] = {["name"] = "Snowman", ["image"] = "rbxassetid://8274283485"}
+        ["blasting_off"] = {["name"] = "Blasting Off Again", ["image"] = "rbxassetid://17025835579"}
     }
 }
