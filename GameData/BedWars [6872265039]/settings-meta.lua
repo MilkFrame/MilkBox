@@ -1,27 +1,26 @@
 data = {
-    ["getSettingMeta"] = "function: 0x0000000076d18efb",
+    ["getSettingMeta"] = "function: 0xa31608aa1a90fbc9",
     ["SettingMeta"] = {
-        ["friendSpectating"] = {
-            ["name"] = "Friend Spectating",
+        ["enable_auto_deposit"] = {
+            ["name"] = "Auto Deposit",
             ["section"] = "game",
             ["inputType"] = "toggle",
             ["defaultValue"] = true,
-            ["description"] = "Enable to allow friends to spectate your game"
+            ["description"] = "Automatically deposit diamonds into the Team Crate when nearby"
         },
-        ["clan_invites"] = {
-            ["name"] = "Clan Invites",
-            ["section"] = "privacy",
+        ["pc_shift_lock"] = {
+            ["defaultValue"] = false,
             ["inputType"] = "toggle",
-            ["defaultValue"] = true,
-            ["description"] = "Toggle whether you'll receive clan invites"
+            ["name"] = "PC Shift Lock",
+            ["section"] = "game"
         },
-        ["mobile_block_break_button"] = {
-            ["name"] = "Mobile Block Button",
+        ["mobile_interact_button"] = {
+            ["name"] = "Mobile Interact Button",
             ["section"] = "game",
             ["mobileOnly"] = true,
             ["inputType"] = "toggle",
             ["defaultValue"] = true,
-            ["description"] = "Displays a block break joystick button on tools"
+            ["description"] = "Displays an interact button for prompts"
         },
         ["backgroundMusicVolumeGame"] = {
             ["min"] = 0,
@@ -32,12 +31,57 @@ data = {
             ["defaultValue"] = 1,
             ["inputType"] = "slider"
         },
+        ["global_chat_system_messages"] = {
+            ["name"] = "Global Chat Messages",
+            ["section"] = "game",
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Determines whether global chat messages should be displayed (ex. Global Crate Openings)"
+        },
+        ["friendNotifications"] = {
+            ["name"] = "Friend Notifications",
+            ["section"] = "friends",
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Toggle whether you'll receive friend notifications (ex. Friend joins)"
+        },
+        ["friendSpectating"] = {
+            ["name"] = "Friend Spectating",
+            ["section"] = "game",
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Enable to allow friends to spectate your game"
+        },
+        ["mobile_block_break_button"] = {
+            ["name"] = "Mobile Block Button",
+            ["section"] = "game",
+            ["mobileOnly"] = true,
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Displays a block break joystick button on tools"
+        },
+        ["legacy_mobile_layout"] = {
+            ["name"] = "Legacy Mobile Layout",
+            ["section"] = "game",
+            ["mobileOnly"] = true,
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Use the legacy mobile layout (non-custom)"
+        },
         ["mobileShiftLock"] = {
             ["name"] = "Mobile Shift Lock",
             ["section"] = "game",
             ["mobileOnly"] = true,
             ["defaultValue"] = false,
             ["inputType"] = "toggle"
+        },
+        ["mobile_auto_bridge_button"] = {
+            ["name"] = "Mobile Auto Bridge Button",
+            ["section"] = "game",
+            ["mobileOnly"] = true,
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Displays a button for automatic block placement"
         },
         ["backgroundMusicVolume"] = {
             ["min"] = 0,
@@ -55,6 +99,15 @@ data = {
             ["defaultValue"] = false,
             ["description"] = "Hide your name from other players. And hide the names of others from view"
         },
+        ["emote_volume"] = {
+            ["min"] = 0,
+            ["name"] = "Emote Music Volume",
+            ["section"] = "audio",
+            ["max"] = 1,
+            ["stepSize"] = 0.01,
+            ["defaultValue"] = 1,
+            ["inputType"] = "slider"
+        },
         ["fov"] = {
             ["min"] = 70,
             ["inputType"] = "slider",
@@ -64,6 +117,13 @@ data = {
             ["stepSize"] = 1,
             ["defaultValue"] = 80,
             ["description"] = "(Field of view. Default: 80)"
+        },
+        ["clan_invites"] = {
+            ["name"] = "Clan Invites",
+            ["section"] = "privacy",
+            ["inputType"] = "toggle",
+            ["defaultValue"] = true,
+            ["description"] = "Toggle whether you'll receive clan invites"
         },
         ["mobile_projectile_button"] = {
             ["name"] = "Mobile Projectile Button",
@@ -80,12 +140,12 @@ data = {
             ["defaultValue"] = false,
             ["inputType"] = "toggle"
         },
-        ["friendNotifications"] = {
-            ["name"] = "Friend Notifications",
-            ["section"] = "friends",
+        ["show_resources_in_hud"] = {
+            ["name"] = "Resource Display",
+            ["section"] = "game",
             ["inputType"] = "toggle",
             ["defaultValue"] = true,
-            ["description"] = "Toggle whether you'll receive friend notifications (ex. Friend joins)"
+            ["description"] = "Display resources next to your hotbar"
         }
     }
 }
