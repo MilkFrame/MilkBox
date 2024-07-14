@@ -7,6 +7,11 @@ data = {
         "platinum_victorious_davey",
         "gold_victorious_davey",
         "barbarian_victorious",
+        "gold_victorious_lyla",
+        "platinum_victorious_lyla",
+        "diamond_victorious_lyla",
+        "emerald_victorious_lyla",
+        "nightmare_victorious_lyla",
         "nightmare_victorious_spirit_assassin",
         "diamond_victorious_spirit_assassin",
         "platinum_victorious_spirit_assassin",
@@ -80,6 +85,43 @@ data = {
             },
             ["bronze"] = {["titles"] = {"rank_beta_bronze"}, ["rank"] = "bronze"},
             ["platinum"] = {["titles"] = {"rank_beta_platinum"}, ["rank"] = "platinum"}
+        },
+        ["RANKED_S9"] = {
+            ["diamond"] = {
+                ["titles"] = {"rank_s9_diamond"},
+                ["kitSkins"] = {"gold_victorious_lyla", "platinum_victorious_lyla", "diamond_victorious_lyla"},
+                ["rank"] = "diamond"
+            },
+            ["silver"] = {["titles"] = {"rank_s9_silver"}, ["rank"] = "silver"},
+            ["gold"] = {["titles"] = {"rank_s9_gold"}, ["kitSkins"] = {"gold_victorious_lyla"}, ["rank"] = "gold"},
+            ["nightmare"] = {
+                ["titles"] = {"rank_s9_nightmare"},
+                ["emotes"] = {"nightmare_lyla"},
+                ["kitSkins"] = {
+                    "gold_victorious_lyla",
+                    "platinum_victorious_lyla",
+                    "diamond_victorious_lyla",
+                    "emerald_victorious_lyla",
+                    "nightmare_victorious_lyla"
+                },
+                ["rank"] = "nightmare"
+            },
+            ["emerald"] = {
+                ["titles"] = {"rank_s9_emerald"},
+                ["kitSkins"] = {
+                    "gold_victorious_lyla",
+                    "platinum_victorious_lyla",
+                    "diamond_victorious_lyla",
+                    "emerald_victorious_lyla"
+                },
+                ["rank"] = "emerald"
+            },
+            ["bronze"] = {["titles"] = {"rank_s9_bronze"}, ["rank"] = "bronze"},
+            ["platinum"] = {
+                ["titles"] = {"rank_s9_platinum"},
+                ["kitSkins"] = {"gold_victorious_lyla", "platinum_victorious_lyla"},
+                ["rank"] = "platinum"
+            }
         },
         ["RANKED_S6"] = {
             ["diamond"] = {
