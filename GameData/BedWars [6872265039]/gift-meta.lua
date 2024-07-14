@@ -1,11 +1,11 @@
 data = {
-    ["getGiftMeta"] = "function: 0x000000003a4b12a3",
+    ["getGiftMeta"] = "function: 0xb18b5a93b7cf25d9",
     ["GiftMeta"] = {
-        ["hannah_bunny"] = {
+        ["barbarian_bunny"] = {
             ["price"] = 799,
-            ["devProductId"] = 1514235570,
-            ["name"] = "Exeggutor Hannah",
-            ["giftClassificationName"] = "Exeggutor Hannah"
+            ["devProductId"] = 1514235339,
+            ["name"] = "Barbunny",
+            ["giftClassificationName"] = "Barbunny"
         },
         ["flower_bee"] = {
             ["price"] = 399,
@@ -19,12 +19,17 @@ data = {
             ["name"] = "Infernal Shielder",
             ["giftClassificationName"] = "Kit"
         },
-        ["ember_lumen_kit_bundle_perm"] = {
-            ["name"] = "Ember & Lumen Kit Bundle",
+        ["ice_queen"] = {
+            ["price"] = 399,
+            ["devProductId"] = 1208319971,
+            ["name"] = "Freiya",
+            ["giftClassificationName"] = "Kit"
+        },
+        ["axolotl_easter_bunny"] = {
             ["price"] = 799,
-            ["devProductId"] = 1267394254,
-            ["giftClassificationName"] = "Ember & Lumen Kit Bundle",
-            ["imageId"] = "rbxassetid://9630018755"
+            ["devProductId"] = 1257514970,
+            ["name"] = "Easter Bunny Amy",
+            ["giftClassificationName"] = "Easter Bunny Amy"
         },
         ["vulcan_vampire"] = {
             ["price"] = 799,
@@ -39,12 +44,56 @@ data = {
             ["giftClassificationName"] = "Miner Bundle",
             ["imageId"] = "rbxassetid://8936489137"
         },
+        ["necromancer_christmas"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1346367452,
+            ["name"] = "Cryptmas",
+            ["giftClassificationName"] = "Cryptmas"
+        },
+        ["farmer_cletus_spirit"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1258333858,
+            ["name"] = "Spirit Farmer Cletus",
+            ["giftClassificationName"] = "Spirit Farmer Cletus"
+        },
+        ["JELLYFISH_SUMMER_BUNDLE_2024"] = {
+            ["name"] = "Marina Kit Bundle",
+            ["price"] = 999,
+            ["devProductId"] = 1854366464,
+            ["giftClassificationName"] = "Marina Kit Bundle",
+            ["imageId"] = "rbxassetid://18136489107"
+        },
+        ["hannah_bunny"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1514235570,
+            ["name"] = "Exeggutor Hannah",
+            ["giftClassificationName"] = "Exeggutor Hannah"
+        },
+        ["lunar_bundle_2024"] = {
+            ["name"] = "Lunar Bundle 2024",
+            ["price"] = 799,
+            ["devProductId"] = 1745440125,
+            ["giftClassificationName"] = "Lunar Bundle 2024",
+            ["imageId"] = "rbxassetid://16216065184"
+        },
         ["evelynn_bundle"] = {
             ["name"] = "Evelynn Bundle",
             ["price"] = 999,
             ["devProductId"] = 1291660453,
             ["giftClassificationName"] = "Evelynn Bundle",
             ["imageId"] = "rbxassetid://10406984466"
+        },
+        ["davey_deepsea"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1860970941,
+            ["name"] = "Deep Sea Davey",
+            ["giftClassificationName"] = "Deep Sea Davey"
+        },
+        ["bigman_spirit"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1298562343,
+            ["name"] = "Spirit Eldertree",
+            ["giftClassificationName"] = "Spirit Eldertree"
         },
         ["triple_shot_demon_empress"] = {
             ["price"] = 799,
@@ -58,23 +107,41 @@ data = {
             ["name"] = "Evelynn",
             ["giftClassificationName"] = "Kit"
         },
-        ["axolotl_easter_bunny"] = {
+        ["archer_lunar_dragon"] = {
             ["price"] = 799,
-            ["devProductId"] = 1257514970,
-            ["name"] = "Easter Bunny Amy",
-            ["giftClassificationName"] = "Easter Bunny Amy"
+            ["devProductId"] = 1758775256,
+            ["name"] = "Lunar Dragon Archer",
+            ["giftClassificationName"] = "Lunar Dragon Archer"
         },
-        ["necromancer_christmas"] = {
+        ["ice_queen_bunny"] = {
             ["price"] = 799,
-            ["devProductId"] = 1346367452,
-            ["name"] = "Cryptmas",
-            ["giftClassificationName"] = "Cryptmas"
+            ["devProductId"] = 1789930247,
+            ["name"] = "Bunny Freiya",
+            ["giftClassificationName"] = "Bunny Freiya"
         },
-        ["barbarian_bunny"] = {
+        ["melody_rockstar"] = {
             ["price"] = 799,
-            ["devProductId"] = 1514235339,
-            ["name"] = "Barbunny",
-            ["giftClassificationName"] = "Barbunny"
+            ["devProductId"] = 1253504762,
+            ["name"] = "Rockstar Melody",
+            ["giftClassificationName"] = "Rockstar Melody"
+        },
+        ["cowgirl_mummy"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1331236807,
+            ["name"] = "Mummy Lassy",
+            ["giftClassificationName"] = "Mummy Lassy"
+        },
+        ["jellyfish"] = {
+            ["price"] = 399,
+            ["devProductId"] = 1208319971,
+            ["name"] = "Marina",
+            ["giftClassificationName"] = "Kit"
+        },
+        ["cyber_dj"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1267371973,
+            ["name"] = "DJ Cyber",
+            ["giftClassificationName"] = "DJ Cyber"
         },
         ["bigman"] = {
             ["price"] = 399,
@@ -95,17 +162,17 @@ data = {
             ["name"] = "Farmer Cletus",
             ["giftClassificationName"] = "Kit"
         },
+        ["triple_shot_valentine"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1750894992,
+            ["name"] = "Valentine Vanessa",
+            ["giftClassificationName"] = "Valentine Vanessa"
+        },
         ["silentnight_spirit_assassin"] = {
             ["price"] = 799,
             ["devProductId"] = 1352686695,
             ["name"] = "Silent Night Evelynn",
             ["giftClassificationName"] = "Silent Night Evelynn"
-        },
-        ["bigman_spirit"] = {
-            ["price"] = 799,
-            ["devProductId"] = 1298562343,
-            ["name"] = "Spirit Eldertree",
-            ["giftClassificationName"] = "Spirit Eldertree"
         },
         ["melody"] = {
             ["price"] = 399,
@@ -113,17 +180,18 @@ data = {
             ["name"] = "Melody",
             ["giftClassificationName"] = "Kit"
         },
-        ["cyber_dj"] = {
+        ["BattlePass"] = {
+            ["name"] = "Battle Pass Season 10",
             ["price"] = 799,
-            ["devProductId"] = 1267371973,
-            ["name"] = "DJ Cyber",
-            ["giftClassificationName"] = "DJ Cyber"
+            ["devProductId"] = 1200006420,
+            ["giftClassificationName"] = "Battle Pass",
+            ["imageId"] = "rbxassetid://17017846628"
         },
-        ["melody_rockstar"] = {
-            ["price"] = 799,
-            ["devProductId"] = 1253504762,
-            ["name"] = "Rockstar Melody",
-            ["giftClassificationName"] = "Rockstar Melody"
+        ["vulcan"] = {
+            ["price"] = 399,
+            ["devProductId"] = 1208319971,
+            ["name"] = "Vulcan",
+            ["giftClassificationName"] = "Kit"
         },
         ["holiyday_bundle_2022"] = {
             ["name"] = "Holiday Bundle 2022",
@@ -132,11 +200,11 @@ data = {
             ["giftClassificationName"] = "Holiday Bundle 2022",
             ["imageId"] = "rbxassetid://12501229731"
         },
-        ["farmer_cletus_spirit"] = {
+        ["vulcan_cream_soda"] = {
             ["price"] = 799,
-            ["devProductId"] = 1258333858,
-            ["name"] = "Spirit Farmer Cletus",
-            ["giftClassificationName"] = "Spirit Farmer Cletus"
+            ["devProductId"] = 1855108064,
+            ["name"] = "Cream Soda Vulcan",
+            ["giftClassificationName"] = "Cream Soda Vulcan"
         },
         ["grim_reaper_blood_harvest"] = {
             ["price"] = 799,
@@ -144,28 +212,28 @@ data = {
             ["name"] = "Blood Harvest Grim Reaper",
             ["giftClassificationName"] = "Blood Harvest Grim Reaper"
         },
-        ["cowgirl_mummy"] = {
-            ["price"] = 799,
-            ["devProductId"] = 1331236807,
-            ["name"] = "Mummy Lassy",
-            ["giftClassificationName"] = "Mummy Lassy"
-        },
-        ["vulcan"] = {
+        ["disruptor"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Vulcan",
+            ["name"] = "Zenith",
             ["giftClassificationName"] = "Kit"
         },
-        ["dasher"] = {
+        ["archer"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Yuzi",
+            ["name"] = "Archer",
             ["giftClassificationName"] = "Kit"
         },
-        ["cowgirl"] = {
+        ["triple_shot"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Lassy",
+            ["name"] = "Vanessa",
+            ["giftClassificationName"] = "Kit"
+        },
+        ["necromancer"] = {
+            ["price"] = 399,
+            ["devProductId"] = 1208319971,
+            ["name"] = "Crypt",
             ["giftClassificationName"] = "Kit"
         },
         ["hannah_bundle"] = {
@@ -181,22 +249,23 @@ data = {
             ["name"] = "Cyber",
             ["giftClassificationName"] = "Kit"
         },
-        ["triple_shot"] = {
+        ["dragon_sword"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Vanessa",
+            ["name"] = "Lian",
             ["giftClassificationName"] = "Kit"
         },
-        ["archer"] = {
-            ["price"] = 399,
-            ["devProductId"] = 1208319971,
-            ["name"] = "Archer",
-            ["giftClassificationName"] = "Kit"
+        ["ember_lumen_kit_bundle_perm"] = {
+            ["name"] = "Ember & Lumen Kit Bundle",
+            ["price"] = 799,
+            ["devProductId"] = 1267394254,
+            ["giftClassificationName"] = "Ember & Lumen Kit Bundle",
+            ["imageId"] = "rbxassetid://9630018755"
         },
-        ["necromancer"] = {
+        ["baker"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Crypt",
+            ["name"] = "Baker",
             ["giftClassificationName"] = "Kit"
         },
         ["axolotl"] = {
@@ -217,12 +286,11 @@ data = {
             ["name"] = "Barbarian",
             ["giftClassificationName"] = "Kit"
         },
-        ["BattlePass"] = {
-            ["name"] = "Battle Pass Season 9",
-            ["price"] = 799,
-            ["devProductId"] = 1200006420,
-            ["giftClassificationName"] = "Battle Pass",
-            ["imageId"] = "rbxassetid://15372938656"
+        ["cowgirl"] = {
+            ["price"] = 399,
+            ["devProductId"] = 1208319971,
+            ["name"] = "Lassy",
+            ["giftClassificationName"] = "Kit"
         },
         ["hannah"] = {
             ["price"] = 399,
@@ -237,10 +305,10 @@ data = {
             ["giftClassificationName"] = "Holiday Bundle 2023",
             ["imageId"] = "rbxassetid://15715067677"
         },
-        ["baker"] = {
+        ["harpoon"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Baker",
+            ["name"] = "Triton",
             ["giftClassificationName"] = "Kit"
         },
         ["builder"] = {
@@ -261,10 +329,10 @@ data = {
             ["name"] = "Pirate Davey",
             ["giftClassificationName"] = "Kit"
         },
-        ["ice_queen"] = {
+        ["dasher"] = {
             ["price"] = 399,
             ["devProductId"] = 1208319971,
-            ["name"] = "Freiya",
+            ["name"] = "Yuzi",
             ["giftClassificationName"] = "Kit"
         },
         ["lunarBundle2022"] = {
@@ -293,11 +361,11 @@ data = {
             ["giftClassificationName"] = "Holiday Bundle 2021",
             ["imageId"] = "rbxassetid://12501229731"
         },
-        ["disruptor"] = {
-            ["price"] = 399,
-            ["devProductId"] = 1208319971,
-            ["name"] = "Zenith",
-            ["giftClassificationName"] = "Kit"
+        ["dragon_sword_lunar"] = {
+            ["price"] = 799,
+            ["devProductId"] = 1758777457,
+            ["name"] = "Dragon Sword Lian",
+            ["giftClassificationName"] = "Dragon Sword Lian"
         },
         ["frost_hammer_kit"] = {
             ["price"] = 399,
