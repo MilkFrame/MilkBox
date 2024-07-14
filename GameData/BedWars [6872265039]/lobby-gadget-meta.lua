@@ -22,6 +22,11 @@ data = {
             ["name"] = "Paragon"
         },
         ["toy_hammer"] = {["name"] = "Toy Hammer", ["items"] = {{["itemType"] = "toy_hammer", ["amount"] = 1}}},
+        ["summer_2024_turtle"] = {
+            ["image"] = "rbxassetid://18460677701",
+            ["name"] = "Summer 2024 Turtle",
+            ["pet"] = "turtle"
+        },
         ["jump_boots"] = {
             ["items"] = {{["itemType"] = "jump_boots"}},
             ["battlepassSeason"] = "season3",
@@ -64,7 +69,13 @@ data = {
         ["rainbow_staff"] = {
             ["items"] = {{["itemType"] = "rainbow_staff", ["amount"] = 1}},
             ["image"] = "rbxassetid://12813669578",
-            ["name"] = "Rainbow Staff"
+            ["name"] = "Mirage Staff"
+        },
+        ["summer_2024_crab"] = {["image"] = "rbxassetid://18235888419", ["name"] = "Summer 2024 Crab", ["pet"] = "crab"},
+        ["jellyfish_mount"] = {
+            ["items"] = {{["refillable"] = true, ["itemType"] = "jellyfish_mount_deploy", ["amount"] = 1}},
+            ["image"] = "rbxassetid://18129974979",
+            ["name"] = "Jellyfish Mount"
         },
         ["mythic_gauntlets"] = {
             ["items"] = {{["itemType"] = "mythic_gauntlets", ["amount"] = 1}},
@@ -72,9 +83,52 @@ data = {
             ["name"] = "Warfists"
         },
         ["elk_mount"] = {["mount"] = "elk", ["image"] = "rbxassetid://15716032069", ["name"] = "Elk Mount"},
+        ["grim_reaper_scythe"] = {
+            ["items"] = {{["itemType"] = "reaper_scythe", ["amount"] = 1}},
+            ["image"] = "rbxassetid://17768761460",
+            ["name"] = "Grim Reaper Scythe"
+        },
+        ["beachball"] = {
+            ["items"] = {{["itemType"] = "beachball", ["amount"] = 1}},
+            ["image"] = "rbxassetid://18149456734",
+            ["name"] = "Beachball"
+        },
+        ["leather_helmet"] = {
+            ["items"] = {{["itemType"] = "leather_helmet", ["amount"] = 1}},
+            ["image"] = "rbxassetid://6855466216",
+            ["name"] = "Leather Helmet"
+        },
+        ["party_hat_launcher"] = {
+            ["items"] = {
+                {["itemType"] = "party_hat_launcher", ["amount"] = 1},
+                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "party_hat_missile", ["amount"] = 2}
+            },
+            ["image"] = "rbxassetid://17580323633",
+            ["name"] = "Party Hat Launcher"
+        },
         ["void_sword"] = {["name"] = "Void Sword", ["items"] = {{["itemType"] = "void_sword", ["amount"] = 1}}},
         ["dodo_bird"] = {["mount"] = "dodo_bird", ["image"] = "rbxassetid://11149949979", ["name"] = "Dodo Bird"},
         ["none"] = {["name"] = "None"},
+        ["nocturne"] = {
+            ["items"] = {{["itemType"] = "mythic_scythe", ["amount"] = 1}},
+            ["image"] = "rbxassetid://13832902921",
+            ["name"] = "Nocturne"
+        },
+        ["angel_wings"] = {
+            ["items"] = {{["itemType"] = "angel_wings", ["amount"] = 1}},
+            ["image"] = "rbxassetid://17192935133",
+            ["name"] = "Angel Wings"
+        },
+        ["ares_spear"] = {
+            ["items"] = {{["refillCooldown"] = 3, ["refillable"] = true, ["itemType"] = "spear", ["amount"] = 1}},
+            ["image"] = "rbxassetid://7808151805",
+            ["name"] = "Ares Spear"
+        },
+        ["diamond_chakram"] = {
+            ["items"] = {{["itemType"] = "ninja_chakram_3", ["amount"] = 1}},
+            ["image"] = "rbxassetid://15515023612",
+            ["name"] = "Diamond Chakram"
+        },
         ["jade_hammer"] = {
             ["items"] = {{["itemType"] = "jade_hammer"}},
             ["battlepassSeason"] = "season4",
@@ -93,6 +147,21 @@ data = {
             },
             ["image"] = "rbxassetid://15798141956",
             ["name"] = "Firework Rocket Launcher"
+        },
+        ["flying_broom"] = {
+            ["items"] = {{["refillable"] = true, ["itemType"] = "flying_broom_deploy", ["amount"] = 1}},
+            ["image"] = "rbxassetid://15115405598",
+            ["name"] = "Flying Broom"
+        },
+        ["mending_canopy_staff_tier_3"] = {
+            ["items"] = {{["itemType"] = "mending_canopy_staff_tier_3", ["amount"] = 1}},
+            ["image"] = "rbxassetid://17007892915",
+            ["name"] = "Nyoka Staff"
+        },
+        ["spirit_assassin_dagger"] = {
+            ["items"] = {{["itemType"] = "spirit_dagger", ["amount"] = 1}},
+            ["image"] = "rbxassetid://16385255903",
+            ["name"] = "Spirit Dagger"
         },
         ["snowball_launcher"] = {
             ["items"] = {
@@ -114,10 +183,13 @@ data = {
             ["image"] = "rbxassetid://10722841562",
             ["name"] = "Blunderbuss"
         },
-        ["flying_broom"] = {
-            ["items"] = {{["refillable"] = true, ["itemType"] = "flying_broom_deploy", ["amount"] = 1}},
-            ["image"] = "rbxassetid://15115405598",
-            ["name"] = "Flying Broom"
+        ["falconer_bow"] = {
+            ["items"] = {
+                {["itemType"] = "falconer_bow", ["amount"] = 1},
+                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "arrow", ["amount"] = 4}
+            },
+            ["image"] = "rbxassetid://17014870717",
+            ["name"] = "Bekzat Bow"
         },
         ["rageblade"] = {
             ["items"] = {{["itemType"] = "rageblade"}},
@@ -157,10 +229,12 @@ data = {
             ["name"] = "Freiya Ice Sword",
             ["unlockedInBattlePass"] = true
         },
-        ["leather_helmet"] = {
-            ["items"] = {{["itemType"] = "leather_helmet", ["amount"] = 1}},
-            ["image"] = "rbxassetid://6855466216",
-            ["name"] = "Leather Helmet"
+        ["anniversary_balloons"] = {
+            ["items"] = {
+                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "anniversary_balloon", ["amount"] = 3}
+            },
+            ["image"] = "rbxassetid://17580323788",
+            ["name"] = "Anniversary Balloons"
         },
         ["glitch_guitar"] = {
             ["items"] = {{["itemType"] = "glitch_guitar", ["amount"] = 1}},
