@@ -59,6 +59,12 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://14075342522"
     },
+    ["Sailor Bangs"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596977158"
+    },
     ["Handsome Guardian Locks"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
@@ -179,6 +185,12 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://15624431935"
     },
+    ["Aqua Flower Nymph Edges"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596977651"
+    },
     ["Seungah"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
@@ -208,6 +220,12 @@ data = {
         ["Type"] = "Bang",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12557020296"
+    },
+    ["Runway Star Bangs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596976344"
     },
     ["Daydream Pigtails"] = {
         ["Gender"] = "Fem",
@@ -239,11 +257,29 @@ data = {
         ["Creator"] = "Panchachii",
         ["ImageId"] = "rbxassetid://13922686897"
     },
+    ["Long Side Bang Hair"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16429080099"
+    },
     ["Adored Bangs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://13886623977"
+    },
+    ["Astro Skate Cut"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596982534"
+    },
+    ["Flowy Nature Bangs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16597566943"
     },
     ["Sincere Sweetheart Bangs"] = {
         ["Gender"] = "Fem",
@@ -260,7 +296,7 @@ data = {
     ["Spikey Waikey"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
-        ["Creator"] = "Kiel",
+        ["Creator"] = "kieivr_",
         ["ImageId"] = "rbxassetid://13901736722"
     },
     ["Swirly Twintails"] = {
@@ -287,6 +323,12 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://14031886294"
     },
+    ["Birth of a Star"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17138076541"
+    },
     ["Cosmic Edges"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
@@ -298,6 +340,12 @@ data = {
         ["Type"] = "Bang",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12788638817"
+    },
+    ["Strong Wind Morning"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596979473"
     },
     ["Sunset Gyaru Afro Puffs"] = {
         ["Gender"] = "Fem",
@@ -317,6 +365,12 @@ data = {
         ["Creator"] = "Panchachi",
         ["ImageId"] = "rbxassetid://12403765956"
     },
+    ["Dangerous Ponytail"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596984439"
+    },
     ["Matchmaker Swoop"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
@@ -329,11 +383,23 @@ data = {
         ["Creator"] = "Panchachii",
         ["ImageId"] = "rbxassetid://15988090384"
     },
+    ["Flowy Nature Curls"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16429079216"
+    },
     ["Milky Ways Edges"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
         ["Creator"] = "Panchachi",
         ["ImageId"] = "rbxassetid://12403757130"
+    },
+    ["Diva Ribbons"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596984039"
     },
     ["Vivid Skies"] = {
         ["Gender"] = "Fem",
@@ -371,6 +437,12 @@ data = {
         ["Creator"] = "INotTiagoXD",
         ["ImageId"] = "rbxassetid://12789113980"
     },
+    ["Nova Guitarist Hair"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://17305486566"
+    },
     ["Rosalia Bangs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
@@ -382,6 +454,12 @@ data = {
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12788437663"
+    },
+    ["Super Guitarist Hair"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://17305487223"
     },
     ["Rosemary Bangs"] = {
         ["Gender"] = "Fem",
@@ -395,11 +473,29 @@ data = {
         ["Creator"] = "Panchachi",
         ["ImageId"] = "rbxassetid://12394956953"
     },
+    ["Subway Trip"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17138077582"
+    },
     ["Bahiyyih Bangs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12788608012"
+    },
+    ["Linda Afro Bangs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17305488230"
+    },
+    ["Linda Bubbly Afro Pigtails"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17401054314"
     },
     ["Truthful Locks"] = {
         ["Gender"] = "Fem",
@@ -413,6 +509,30 @@ data = {
         ["Creator"] = "Panchachi x SenecaDLC",
         ["ImageId"] = "rbxassetid://11363211177"
     },
+    ["Middle Part Bang"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17138075824"
+    },
+    ["Invisible Locs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://15730772944"
+    },
+    ["Flowy Galactic Pigtails"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://17138076218"
+    },
+    ["Lovely Locs"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://16597567679"
+    },
     ["Protostar Bunz"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
@@ -424,6 +544,18 @@ data = {
         ["Type"] = "Hair",
         ["Creator"] = "INotTiagoXD",
         ["ImageId"] = "rbxassetid://13141124442"
+    },
+    ["Winds of Freedom"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://16597564742"
+    },
+    ["Messy Galaxy Day"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "kieivr_",
+        ["ImageId"] = "rbxassetid://16597563997"
     },
     ["North Academia Bangs"] = {
         ["Gender"] = "Masc",
@@ -437,17 +569,41 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12557250153"
     },
+    ["Updo Flowy Hair"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596974230"
+    },
+    ["Lucky Ponytail"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://16597766367"
+    },
     ["Long Side Bangs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
         ["Creator"] = "Panchachii",
         ["ImageId"] = "rbxassetid://15730790020 "
     },
+    ["Jade Empress Hair"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://16597565373"
+    },
     ["Atlantis Princess Pigtails"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12555898411"
+    },
+    ["Long Supermodel Hair"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596975335"
     },
     ["Night Gladiator Bangs"] = {
         ["Gender"] = "Fem",
@@ -461,11 +617,23 @@ data = {
         ["Creator"] = "INotTiagoXD",
         ["ImageId"] = "rbxassetid://12768666479"
     },
+    ["Over Gravity"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596974851"
+    },
     ["Hanni"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12557205035 "
+    },
+    ["On Ear Bang"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596978194"
     },
     ["Solar Strand"] = {
         ["Gender"] = "Fem",
@@ -485,17 +653,53 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://14031886294"
     },
+    ["Updo Flowy Long Hair"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596978698"
+    },
+    ["Elegant Night"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596981928"
+    },
+    ["Over Gravity Bangs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596975875"
+    },
     ["Shimmering Twists"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12788924664"
     },
+    ["Gardener Curls on Front"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16429079584"
+    },
     ["Sincere Lullaby Locks"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Panchachi",
         ["ImageId"] = "rbxassetid://12394866496"
+    },
+    ["Spiky Bun Pigtails"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596983237"
+    },
+    ["Runway Star Pigtails"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596983619"
     },
     ["SuperModel"] = {
         ["Gender"] = "Masc",
@@ -515,11 +719,29 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12557224510 "
     },
+    ["Princess Bangs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Bang",
+        ["Creator"] = "Spiritlessly",
+        ["ImageId"] = "rbxassetid://12557661057"
+    },
+    ["Earth Flower Nymph"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596980663"
+    },
     ["Kingdom"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12557160949"
+    },
+    ["Azealia"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Spiritlessly",
+        ["ImageId"] = "rbxassetid://13886624191"
     },
     ["Summer Breeze"] = {
         ["Gender"] = "Fem",
@@ -527,16 +749,46 @@ data = {
         ["Creator"] = "kieivr_",
         ["ImageId"] = "rbxassetid://13839221232"
     },
+    ["Cyberlove Midnight"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "kieivr_",
+        ["ImageId"] = "rbxassetid://16597565994"
+    },
     ["Mystic Messy Buns"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12555892817"
     },
-    ["Cyber Tech Locs"] = {
+    ["AstroNova Curly Locs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Kiel",
+        ["ImageId"] = "rbxassetid://16597569075"
+    },
+    ["Afro Rockstar Mullet"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16597569829"
+    },
+    ["Updo Long Locs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16429080470"
+    },
+    ["Starry Rockstar Hair"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16429080847"
+    },
+    ["Cyber Tech Locs"] = {
+        ["Gender"] = "Fem",
+        ["Type"] = "Hair",
+        ["Creator"] = "kieivr_",
         ["ImageId"] = "rbxassetid://14054441856"
     },
     ["Spring Showers"] = {
@@ -545,7 +797,12 @@ data = {
         ["Creator"] = "Spiritlessly",
         ["ImageId"] = "rbxassetid://12426542227"
     },
-    ["Max"] = {["Gender"] = "Masc", ["Type"] = "Hair", ["Creator"] = "Kiel", ["ImageId"] = "rbxassetid://15987948893"},
+    ["Max"] = {
+        ["Gender"] = "Masc",
+        ["Type"] = "Hair",
+        ["Creator"] = "kieivr_",
+        ["ImageId"] = "rbxassetid://15987948893"
+    },
     ["Princess of Origin"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
@@ -555,7 +812,7 @@ data = {
     ["Mr. Chu"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
-        ["Creator"] = "Riko",
+        ["Creator"] = "Rikoozy",
         ["ImageId"] = "rbxassetid://15987934166"
     },
     ["Swirly Ponytail"] = {
@@ -600,11 +857,11 @@ data = {
         ["Creator"] = "Panchachii",
         ["ImageId"] = "rbxassetid://15730792878"
     },
-    ["Invisible Locs"] = {
+    ["Star Bob"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
         ["Creator"] = "Panchachii",
-        ["ImageId"] = "rbxassetid://15730772944"
+        ["ImageId"] = "rbxassetid://17138077240"
     },
     ["Bubble Braid Pigtails"] = {
         ["Gender"] = "Fem",
@@ -639,7 +896,7 @@ data = {
     ["Give me Pigtails!"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
-        ["Creator"] = "Riko",
+        ["Creator"] = "Rikoozy",
         ["ImageId"] = "rbxassetid://15624431935"
     },
     ["Aria"] = {
@@ -651,7 +908,7 @@ data = {
     ["Baddie Bangs"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
-        ["Creator"] = "Riko",
+        ["Creator"] = "Rikoozy",
         ["ImageId"] = "rbxassetid://15624432500"
     },
     ["Baby Angel Bangs"] = {
@@ -678,11 +935,11 @@ data = {
         ["Creator"] = "Scarlyx & Panchachi",
         ["ImageId"] = "rbxassetid://12403383517"
     },
-    ["Azealia"] = {
+    ["Fleur Braided Hair"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
-        ["Creator"] = "Spiritlessly",
-        ["ImageId"] = "rbxassetid://13886624191"
+        ["Creator"] = "Panchachii x ixShiro",
+        ["ImageId"] = "rbxassetid://16597753377"
     },
     ["Flat Top Afro Cut"] = {
         ["Gender"] = "Masc",
@@ -747,7 +1004,7 @@ data = {
     ["Wavy Dawn"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Hair",
-        ["Creator"] = "Kiel",
+        ["Creator"] = "kieivr_",
         ["ImageId"] = "rbxassetid://14215801178"
     },
     ["Overnight Pigtails"] = {
@@ -759,7 +1016,7 @@ data = {
     ["Hair Base <3"] = {
         ["Gender"] = "Fem",
         ["Type"] = "Bang",
-        ["Creator"] = "Riko",
+        ["Creator"] = "Rikoozy",
         ["ImageId"] = "rbxassetid://15624432766"
     },
     ["Stellar Princess Dreams"] = {
@@ -807,7 +1064,7 @@ data = {
     ["New Look"] = {
         ["Gender"] = "Masc",
         ["Type"] = "Hair",
-        ["Creator"] = "Riko",
+        ["Creator"] = "Rikoozy",
         ["ImageId"] = "rbxassetid://15987931315"
     },
     ["Front Twists"] = {
@@ -828,11 +1085,11 @@ data = {
         ["Creator"] = "Panchachi",
         ["ImageId"] = "rbxassetid://12403762353"
     },
-    ["Princess Bangs"] = {
+    ["Aqua Flower Nymph"] = {
         ["Gender"] = "Fem",
-        ["Type"] = "Bang",
-        ["Creator"] = "Spiritlessly",
-        ["ImageId"] = "rbxassetid://12557661057"
+        ["Type"] = "Hair",
+        ["Creator"] = "Panchachii",
+        ["ImageId"] = "rbxassetid://16596980171"
     },
     ["Beary Cute Bun"] = {
         ["Gender"] = "Fem",
