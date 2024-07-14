@@ -1,11 +1,12 @@
 data = {
-    ["getVehicleMeta"] = "function: 0x00000000ef1a41c3",
+    ["getVehicleMeta"] = "function: 0x9639881eec3823e9",
     ["VehicleMeta"] = {
-        ["attack_helicopter"] = {["name"] = "Attack Helicopter", ["helicopter"] = {["attack"] = true}},
-        ["minicopter"] = {["name"] = "Minicopter", ["helicopter"] = {["attack"] = false}},
-        ["flying_broom"] = {["name"] = "Flying Broom", ["flying_broom"] = {}},
-        ["flying_cloud"] = {["name"] = "Flying Cloud", ["flying_cloud"] = {["attack"] = true}},
-        ["hot_air_balloon"] = {["name"] = "Hot Air Balloon", ["hot_air_balloon"] = {["attack"] = true}},
-        ["ufo"] = {["name"] = "UFO", ["ufo"] = {["attack"] = true}}
+        ["AttackMinicopter"] = {["name"] = "Attack Helicopter", ["helicopter"] = {["attack"] = true}},
+        ["UFO"] = {["name"] = "UFO"},
+        ["Minicopter"] = {["name"] = "Minicopter", ["helicopter"] = {["attack"] = false}},
+        ["JellyfishMount"] = {["name"] = "Jellyfish Mount"},
+        ["FlyingCloud"] = {["name"] = "Flying Cloud"},
+        ["HotAirBalloon"] = {["name"] = "Hot Air Balloon"},
+        ["FlyingBroom"] = {["name"] = "Flying Broom"}
     }
 }
