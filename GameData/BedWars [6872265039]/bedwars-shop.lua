@@ -1,67 +1,12 @@
 data = {
+    ["customMeleeKits"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker"},
     ["BedwarsShop"] = {
+        ["getShopItemBase"] = "function: 0x6e8deead4a278f6d",
+        ["getShop"] = "function: 0x95ff58545a08dced",
+        ["getAdjustedShopPrice"] = "function: 0x25475aa5a5b58ead",
+        ["getTeamWool"] = "function: 0x09229a82c74eafcd",
         ["Pickaxes"] = {"wood_pickaxe", "stone_pickaxe", "iron_pickaxe", "diamond_pickaxe"},
-        ["getAdjustedShopPrice"] = "function: 0x00000000b97ba18b",
-        ["HammerUpgrades"] = {
-            {
-                ["id"] = "strength",
-                ["tiers"] = {
-                    {["price"] = 2, ["currency"] = "frost_crystal", ["name"] = "35 Attack Damage", ["values"] = {100}},
-                    {["price"] = 5, ["currency"] = "frost_crystal", ["name"] = "44 Attack Damage", ["values"] = {180}},
-                    {["price"] = 10, ["currency"] = "frost_crystal", ["name"] = "60 Attack Damage", ["values"] = {250}}
-                },
-                ["name"] = "Strength"
-            },
-            {
-                ["id"] = "speed",
-                ["tiers"] = {
-                    {
-                        ["price"] = 2,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "0.3 Attack Cooldown",
-                        ["values"] = {100}
-                    },
-                    {
-                        ["price"] = 5,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "0.27 Attack Cooldown",
-                        ["values"] = {180}
-                    },
-                    {
-                        ["price"] = 10,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "0.22 Attack Cooldown",
-                        ["values"] = {250}
-                    }
-                },
-                ["name"] = "Speed"
-            },
-            {
-                ["id"] = "shield",
-                ["tiers"] = {
-                    {
-                        ["price"] = 2,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "2 shield per attack",
-                        ["values"] = {100}
-                    },
-                    {
-                        ["price"] = 5,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "3 shield per attack",
-                        ["values"] = {180}
-                    },
-                    {
-                        ["price"] = 10,
-                        ["currency"] = "frost_crystal",
-                        ["name"] = "4 shield per attack",
-                        ["values"] = {250}
-                    }
-                },
-                ["name"] = "SHIELD"
-            }
-        },
-        ["RepairEnchantTablePrice"] = 8,
+        ["Axes"] = {"wood_axe", "stone_axe", "iron_axe", "diamond_axe"},
         ["ShopItems"] = {
             {
                 ["currency"] = "iron",
@@ -80,17 +25,16 @@ data = {
             {
                 ["currency"] = "iron",
                 ["itemType"] = "wood_plank_oak",
-                ["amount"] = 16,
-                ["price"] = 26,
+                ["amount"] = 8,
+                ["price"] = 14,
                 ["category"] = "Blocks"
             },
             {
                 ["currency"] = "iron",
                 ["itemType"] = "ceramic",
                 ["amount"] = 4,
-                ["price"] = 14,
+                ["price"] = 16,
                 ["disabledInQueue"] = {"tnt_wars"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
                 ["category"] = "Blocks"
             },
             {
@@ -99,7 +43,6 @@ data = {
                 ["amount"] = 4,
                 ["price"] = 1,
                 ["disabledInQueue"] = {"tnt_wars"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
                 ["category"] = "Blocks"
             },
             {
@@ -111,7 +54,16 @@ data = {
                 ["amount"] = 1,
                 ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
                 ["category"] = "Combat",
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit"}
+                ["ignoredByKit"] = {
+                    "wizard",
+                    "barbarian",
+                    "dasher",
+                    "frost_hammer_kit",
+                    "tinker",
+                    "ice_queen",
+                    "ember",
+                    "lumen"
+                }
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -122,7 +74,7 @@ data = {
                 ["amount"] = 1,
                 ["disabledInQueue"] = {"tnt_wars"},
                 ["category"] = "Combat",
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit"}
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker"}
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -133,7 +85,7 @@ data = {
                 ["amount"] = 1,
                 ["disabledInQueue"] = {"tnt_wars"},
                 ["category"] = "Combat",
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit"}
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker"}
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -141,98 +93,20 @@ data = {
                 ["price"] = 4,
                 ["superiorItems"] = {"emerald_sword"},
                 ["currency"] = "emerald",
-                ["category"] = "Combat",
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
                 ["amount"] = 1,
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "ice_queen", "ember", "lumen"}
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
             },
             {
-                ["lockAfterPurchase"] = true,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["currency"] = "emerald",
                 ["itemType"] = "emerald_sword",
+                ["amount"] = 1,
                 ["price"] = 20,
-                ["currency"] = "emerald",
                 ["category"] = "Combat",
-                ["amount"] = 1,
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "ice_queen", "ember", "lumen"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "og_diamond_sword",
-                ["price"] = 4,
-                ["superiorItems"] = {"emerald_sword", "void_sword"},
-                ["currency"] = "emerald",
-                ["category"] = "Armory",
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4"
-                },
-                ["amount"] = 1,
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "ice_queen", "ember", "lumen"}
-            },
-            {
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4"
-                },
-                ["currency"] = "emerald",
-                ["itemType"] = "og_emerald_sword",
-                ["amount"] = 1,
-                ["price"] = 20,
-                ["category"] = "Armory",
-                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "ice_queen", "ember", "lumen"},
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"},
                 ["lockAfterPurchase"] = true
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "og_wood_crossbow",
-                ["price"] = 7,
-                ["currency"] = "emerald",
-                ["amount"] = 1,
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4"
-                },
-                ["ignoredByKit"] = {"archer", "flower_bee"},
-                ["spawnWithItems"] = {"wood_crossbow"},
-                ["category"] = "Armory"
             },
             {
                 ["currency"] = "void_crystal",
@@ -244,110 +118,255 @@ data = {
                 ["lockAfterPurchase"] = true
             },
             {
-                ["currency"] = "emerald",
-                ["itemType"] = "ice_sword",
-                ["amount"] = 1,
-                ["price"] = 3,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"ice_queen"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "infernal_saber",
-                ["amount"] = 1,
-                ["price"] = 3,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"ember"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "light_sword",
-                ["amount"] = 1,
-                ["price"] = 4,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"lumen"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "drill",
-                ["amount"] = 1,
-                ["price"] = 2,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"drill"},
-                ["lockAfterPurchase"] = false
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "scepter",
-                ["amount"] = 1,
-                ["price"] = 45,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"paladin"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "pinata",
-                ["amount"] = 1,
-                ["price"] = 35,
-                ["category"] = "Blocks",
-                ["requiresKit"] = {"pinata"},
-                ["lockAfterPurchase"] = true
-            },
-            {
                 ["lockAfterPurchase"] = true,
-                ["itemType"] = "wood_dao",
+                ["itemType"] = "wood_dagger",
                 ["price"] = 0,
-                ["superiorItems"] = {"stone_dao"},
-                ["currency"] = "iron",
-                ["amount"] = 0,
-                ["disabled"] = true,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"dasher"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["currency"] = "iron",
-                ["itemType"] = "stone_dao",
-                ["amount"] = 1,
-                ["price"] = 28,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"dasher"},
-                ["superiorItems"] = {"iron_dao"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "iron_dao",
-                ["price"] = 85,
-                ["superiorItems"] = {"diamond_dao"},
+                ["superiorItems"] = {"stone_dagger"},
                 ["currency"] = "iron",
                 ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
                 ["category"] = "Combat",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["requiresKit"] = {"dasher"}
+                ["ignoredByKit"] = {
+                    "wizard",
+                    "barbarian",
+                    "dasher",
+                    "frost_hammer_kit",
+                    "tinker",
+                    "ice_queen",
+                    "ember",
+                    "lumen"
+                }
             },
             {
                 ["lockAfterPurchase"] = true,
-                ["itemType"] = "diamond_dao",
-                ["price"] = 5,
-                ["superiorItems"] = {"emerald_dao"},
+                ["itemType"] = "stone_dagger",
+                ["price"] = 20,
+                ["superiorItems"] = {"iron_dagger"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_dagger",
+                ["price"] = 70,
+                ["superiorItems"] = {"diamond_dagger"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_dagger",
+                ["price"] = 4,
+                ["superiorItems"] = {"mythic_dagger"},
                 ["currency"] = "emerald",
                 ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
                 ["category"] = "Combat",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["requiresKit"] = {"dasher"}
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
             },
             {
-                ["requiresKit"] = {"dasher"},
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
                 ["currency"] = "emerald",
-                ["itemType"] = "emerald_dao",
+                ["itemType"] = "mythic_dagger",
                 ["amount"] = 1,
-                ["price"] = 24,
+                ["price"] = 20,
                 ["category"] = "Combat",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_scythe",
+                ["price"] = 0,
+                ["superiorItems"] = {"stone_scythe"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {
+                    "wizard",
+                    "barbarian",
+                    "dasher",
+                    "frost_hammer_kit",
+                    "tinker",
+                    "ice_queen",
+                    "ember",
+                    "lumen"
+                }
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "stone_scythe",
+                ["price"] = 20,
+                ["superiorItems"] = {"iron_scythe"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_scythe",
+                ["price"] = 70,
+                ["superiorItems"] = {"diamond_scythe"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_scythe",
+                ["price"] = 4,
+                ["superiorItems"] = {"mythic_scythe"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["currency"] = "emerald",
+                ["itemType"] = "mythic_scythe",
+                ["amount"] = 1,
+                ["price"] = 20,
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_great_hammer",
+                ["price"] = 0,
+                ["superiorItems"] = {"stone_great_hammer"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {
+                    "wizard",
+                    "barbarian",
+                    "dasher",
+                    "frost_hammer_kit",
+                    "tinker",
+                    "ice_queen",
+                    "ember",
+                    "lumen"
+                }
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "stone_great_hammer",
+                ["price"] = 20,
+                ["superiorItems"] = {"iron_great_hammer"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_great_hammer",
+                ["price"] = 70,
+                ["superiorItems"] = {"diamond_great_hammer"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_great_hammer",
+                ["price"] = 4,
+                ["superiorItems"] = {"mythic_great_hammer"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["currency"] = "emerald",
+                ["itemType"] = "mythic_great_hammer",
+                ["amount"] = 1,
+                ["price"] = 20,
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_gauntlets",
+                ["price"] = 0,
+                ["superiorItems"] = {"stone_gauntlets"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {
+                    "wizard",
+                    "barbarian",
+                    "dasher",
+                    "frost_hammer_kit",
+                    "tinker",
+                    "ice_queen",
+                    "ember",
+                    "lumen"
+                }
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "stone_gauntlets",
+                ["price"] = 20,
+                ["superiorItems"] = {"iron_gauntlets"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_gauntlets",
+                ["price"] = 70,
+                ["superiorItems"] = {"diamond_gauntlets"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_gauntlets",
+                ["price"] = 4,
+                ["superiorItems"] = {"mythic_gauntlets"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
+            },
+            {
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["currency"] = "emerald",
+                ["itemType"] = "mythic_gauntlets",
+                ["amount"] = 1,
+                ["price"] = 20,
+                ["category"] = "Combat",
+                ["ignoredByKit"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"},
                 ["lockAfterPurchase"] = true
             },
             {
@@ -355,10 +374,11 @@ data = {
                 ["itemType"] = "leather_chestplate",
                 ["price"] = 50,
                 ["customDisplayName"] = "Leather Armor",
+                ["superiorItems"] = {"iron_chestplate"},
                 ["currency"] = "iron",
                 ["amount"] = 1,
                 ["category"] = "Combat",
-                ["ignoredByKit"] = {"bigman"},
+                ["ignoredByKit"] = {"bigman", "tinker"},
                 ["spawnWithItems"] = {"leather_helmet", "leather_chestplate", "leather_boots"},
                 ["nextTier"] = "iron_chestplate"
             },
@@ -369,12 +389,12 @@ data = {
                 ["prevTier"] = "leather_chestplate",
                 ["customDisplayName"] = "Iron Armor",
                 ["currency"] = "iron",
-                ["category"] = "Combat",
+                ["ignoredByKit"] = {"bigman", "tinker"},
                 ["amount"] = 1,
                 ["tiered"] = true,
-                ["ignoredByKit"] = {"bigman"},
+                ["nextTier"] = "diamond_chestplate",
                 ["spawnWithItems"] = {"iron_helmet", "iron_chestplate", "iron_boots"},
-                ["nextTier"] = "diamond_chestplate"
+                ["category"] = "Combat"
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -383,12 +403,12 @@ data = {
                 ["prevTier"] = "iron_chestplate",
                 ["customDisplayName"] = "Diamond Armor",
                 ["currency"] = "emerald",
-                ["category"] = "Combat",
+                ["ignoredByKit"] = {"bigman", "tinker"},
                 ["amount"] = 1,
                 ["tiered"] = true,
-                ["ignoredByKit"] = {"bigman"},
+                ["nextTier"] = "emerald_chestplate",
                 ["spawnWithItems"] = {"diamond_helmet", "diamond_chestplate", "diamond_boots"},
-                ["nextTier"] = "emerald_chestplate"
+                ["category"] = "Combat"
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -397,12 +417,11 @@ data = {
                 ["prevTier"] = "diamond_chestplate",
                 ["customDisplayName"] = "Emerald Armor",
                 ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
                 ["amount"] = 1,
                 ["tiered"] = true,
                 ["category"] = "Combat",
                 ["spawnWithItems"] = {"emerald_helmet", "emerald_chestplate", "emerald_boots"},
-                ["ignoredByKit"] = {"bigman"}
+                ["ignoredByKit"] = {"bigman", "tinker"}
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -426,53 +445,288 @@ data = {
                 ["category"] = "Void"
             },
             {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_bow",
+                ["price"] = 24,
+                ["superiorItems"] = {"wood_crossbow", "tactical_crossbow"},
                 ["currency"] = "iron",
-                ["itemType"] = "pirate_flag",
                 ["amount"] = 1,
-                ["price"] = 30,
-                ["customDisplayName"] = "Pirate Flag",
-                ["category"] = "Pirate"
+                ["ignoredByKit"] = {"flower_bee", "falconer"},
+                ["spawnWithItems"] = {"wood_bow"},
+                ["category"] = "Combat"
             },
             {
-                ["currency"] = "iron",
-                ["itemType"] = "pirate_shovel",
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_crossbow",
+                ["price"] = 7,
+                ["superiorItems"] = {"headhunter"},
+                ["currency"] = "emerald",
                 ["amount"] = 1,
-                ["price"] = 100,
-                ["customDisplayName"] = "Pirate Shovel",
-                ["category"] = "Pirate"
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["ignoredByKit"] = {"archer", "flower_bee", "falconer"},
+                ["spawnWithItems"] = {"wood_crossbow"},
+                ["category"] = "Combat"
             },
             {
-                ["currency"] = "iron",
-                ["itemType"] = "pirate_telescope",
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "headhunter",
+                ["price"] = 24,
+                ["currency"] = "emerald",
                 ["amount"] = 1,
-                ["price"] = 100,
-                ["customDisplayName"] = "Pirate Telescope",
-                ["category"] = "Pirate"
+                ["ignoredByKit"] = {"archer", "flower_bee", "falconer"},
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["spawnWithItems"] = {"headhunter"},
+                ["category"] = "Combat"
             },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "carrot_seeds",
-                ["amount"] = 1,
-                ["price"] = 60,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"farmer_cletus"}
-            },
+            {["currency"] = "iron", ["itemType"] = "arrow", ["amount"] = 8, ["price"] = 16, ["category"] = "Combat"},
+            {["currency"] = "iron", ["itemType"] = "fireball", ["amount"] = 1, ["price"] = 75, ["category"] = "Combat"},
             {
                 ["currency"] = "emerald",
-                ["itemType"] = "melon_seeds",
+                ["itemType"] = "telepearl",
                 ["amount"] = 1,
-                ["price"] = 3,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"farmer_cletus"}
+                ["price"] = 2,
+                ["disabledInQueue"] = {"tnt_wars", "infected"},
+                ["category"] = "Combat"
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "pumpkin_seeds",
+                ["itemType"] = "glue_projectile",
                 ["amount"] = 1,
-                ["price"] = 200,
+                ["price"] = 35,
+                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "stone_pickaxe",
+                ["price"] = 20,
+                ["prevTier"] = "wood_pickaxe",
+                ["nextTier"] = "iron_pickaxe",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["spawnWithItems"] = {"stone_pickaxe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_pickaxe",
+                ["price"] = 20,
+                ["prevTier"] = "stone_pickaxe",
+                ["nextTier"] = "diamond_pickaxe",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["spawnWithItems"] = {"iron_pickaxe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_pickaxe",
+                ["price"] = 60,
+                ["prevTier"] = "iron_pickaxe",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["spawnWithItems"] = {"diamond_pickaxe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_axe",
+                ["price"] = 20,
+                ["nextTier"] = "stone_axe",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["ignoredByKit"] = {"miner"},
+                ["spawnWithItems"] = {"wood_axe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "stone_axe",
+                ["price"] = 20,
+                ["prevTier"] = "wood_axe",
+                ["nextTier"] = "iron_axe",
+                ["currency"] = "iron",
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["ignoredByKit"] = {"miner"},
+                ["spawnWithItems"] = {"stone_axe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "iron_axe",
+                ["price"] = 30,
+                ["prevTier"] = "stone_axe",
+                ["nextTier"] = "diamond_axe",
+                ["currency"] = "iron",
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["ignoredByKit"] = {"miner"},
+                ["spawnWithItems"] = {"iron_axe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "diamond_axe",
+                ["price"] = 60,
+                ["prevTier"] = "iron_axe",
+                ["currency"] = "iron",
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["ignoredByKit"] = {"miner"},
+                ["spawnWithItems"] = {"diamond_axe"},
+                ["category"] = "Tools"
+            },
+            {
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["currency"] = "iron",
+                ["itemType"] = "shears",
+                ["amount"] = 1,
+                ["price"] = 20,
+                ["category"] = "Tools",
+                ["spawnWithItems"] = {"shears"},
+                ["lockAfterPurchase"] = true
+            },
+            {["currency"] = "iron", ["itemType"] = "tnt", ["amount"] = 1, ["price"] = 35, ["category"] = "Blocks"},
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "siege_tnt",
+                ["amount"] = 1,
+                ["price"] = 350,
+                ["disabledInQueue"] = {"bedwars_og_to4"},
+                ["category"] = "Blocks"
+            },
+            {
+                ["currency"] = "void_crystal",
+                ["itemType"] = "void_block",
+                ["amount"] = 16,
+                ["price"] = 1,
+                ["category"] = "Void"
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "tesla_trap",
+                ["amount"] = 1,
+                ["price"] = 75,
+                ["disabledInQueue"] = {"survival", "tnt_wars", "bedwars_og_to4"},
+                ["category"] = "Blocks"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "mending_canopy_staff_tier_2",
+                ["price"] = 4,
+                ["nextTier"] = "mending_canopy_staff_tier_3",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
                 ["category"] = "Combat",
-                ["customDisplayName"] = "Pumpkin Seeds",
-                ["requiresKit"] = {"farmer_cletus"}
+                ["spawnWithItems"] = {"mending_canopy_staff_tier_2"},
+                ["requiresKit"] = {"nyoka"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "mending_canopy_staff_tier_3",
+                ["price"] = 8,
+                ["prevTier"] = "mending_canopy_staff_tier_2",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"mending_canopy_staff_tier_3"},
+                ["requiresKit"] = {"nyoka"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "brewing_cauldron",
+                ["amount"] = 1,
+                ["price"] = 15,
+                ["category"] = "Blocks",
+                ["requiresKit"] = {"alchemist"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tactical_crossbow",
+                ["price"] = 6,
+                ["superiorItems"] = {"tactical_headhunter"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"tactical_crossbow"},
+                ["requiresKit"] = {"archer"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tactical_headhunter",
+                ["price"] = 21,
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["requiresKit"] = {"archer"},
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["spawnWithItems"] = {"tactical_headhunter"},
+                ["category"] = "Combat"
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "spear",
+                ["amount"] = 1,
+                ["price"] = 40,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"spearman"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "shield_axolotl",
+                ["dontGiveItem"] = true,
+                ["price"] = 50,
+                ["nextTier"] = "damage_axolotl",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"axolotl"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "damage_axolotl",
+                ["dontGiveItem"] = true,
+                ["price"] = 100,
+                ["prevTier"] = "shield_axolotl",
+                ["nextTier"] = "break_speed_axolotl",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"axolotl"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "break_speed_axolotl",
+                ["dontGiveItem"] = true,
+                ["price"] = 2,
+                ["prevTier"] = "damage_axolotl",
+                ["nextTier"] = "health_regen_axolotl",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"axolotl"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "health_regen_axolotl",
+                ["dontGiveItem"] = true,
+                ["price"] = 6,
+                ["prevTier"] = "break_speed_axolotl",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"axolotl"}
             },
             {
                 ["currency"] = "iron",
@@ -501,96 +755,30 @@ data = {
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "beehive_grenade",
-                ["amount"] = 1,
-                ["price"] = 40,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"queen_bee"}
-            },
-            {
-                ["category"] = "Combat",
-                ["currency"] = "iron",
-                ["itemType"] = "guitar",
-                ["amount"] = 1,
-                ["price"] = 16,
-                ["requiresKit"] = {"melody"},
-                ["spawnWithItems"] = {"guitar"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "cannon",
-                ["amount"] = 1,
-                ["price"] = 40,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"davey"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "smoke_bomb",
-                ["amount"] = 1,
-                ["price"] = 25,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"smoke"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "smoke_block",
-                ["amount"] = 8,
-                ["price"] = 15,
-                ["category"] = "Blocks",
-                ["requiresKit"] = {"smoke"}
-            },
-            {
-                ["category"] = "Combat",
-                ["currency"] = "iron",
-                ["itemType"] = "lasso",
-                ["amount"] = 1,
-                ["price"] = 30,
-                ["requiresKit"] = {"cowgirl"},
-                ["spawnWithItems"] = {"lasso"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "wizard_staff_2",
-                ["price"] = 4,
-                ["nextTier"] = "wizard_staff_3",
-                ["currency"] = "emerald",
-                ["amount"] = 1,
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["category"] = "Combat",
-                ["spawnWithItems"] = {"wizard_staff_2"},
-                ["requiresKit"] = {"wizard"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "wizard_staff_3",
-                ["price"] = 6,
-                ["prevTier"] = "wizard_staff_2",
-                ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["category"] = "Combat",
-                ["spawnWithItems"] = {"wizard_staff_3"},
-                ["requiresKit"] = {"wizard"}
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "camera_turret",
-                ["amount"] = 1,
-                ["price"] = 1,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"vulcan"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "drone",
+                ["itemType"] = "beehive",
                 ["amount"] = 1,
                 ["price"] = 60,
                 ["category"] = "Combat",
-                ["requiresKit"] = {"cyber"}
+                ["requiresKit"] = {"beekeeper"}
+            },
+            {
+                ["disabledInQueue"] = {"survival"},
+                ["itemType"] = "hammer",
+                ["price"] = 20,
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["category"] = "Tools",
+                ["lockAfterPurchase"] = true,
+                ["spawnWithItems"] = {"hammer"},
+                ["requiresKit"] = {"builder"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "drawbridge",
+                ["amount"] = 1,
+                ["price"] = 40,
+                ["category"] = "Blocks",
+                ["requiresKit"] = {"builder"}
             },
             {
                 ["currency"] = "iron",
@@ -617,6 +805,84 @@ data = {
                 ["requiresKit"] = {"vesta"}
             },
             {
+                ["category"] = "Combat",
+                ["currency"] = "iron",
+                ["itemType"] = "lasso",
+                ["amount"] = 1,
+                ["price"] = 30,
+                ["requiresKit"] = {"cowgirl"},
+                ["spawnWithItems"] = {"lasso"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "drone",
+                ["amount"] = 1,
+                ["price"] = 50,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"cyber"}
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "iron",
+                ["itemType"] = "teleport_hat",
+                ["amount"] = 1,
+                ["price"] = 35,
+                ["lockAfterPurchase"] = true,
+                ["spawnWithItems"] = {"teleport_hat"},
+                ["requiresKit"] = {"hatter"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wood_dao",
+                ["price"] = 0,
+                ["superiorItems"] = {"stone_dao"},
+                ["currency"] = "iron",
+                ["amount"] = 0,
+                ["disabled"] = true,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"dasher"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["currency"] = "iron",
+                ["itemType"] = "stone_dao",
+                ["amount"] = 1,
+                ["price"] = 28,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"dasher"},
+                ["superiorItems"] = {"iron_dao"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["currency"] = "iron",
+                ["itemType"] = "iron_dao",
+                ["amount"] = 1,
+                ["price"] = 85,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"dasher"},
+                ["superiorItems"] = {"diamond_dao"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["currency"] = "emerald",
+                ["itemType"] = "diamond_dao",
+                ["amount"] = 1,
+                ["price"] = 5,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"dasher"},
+                ["superiorItems"] = {"emerald_dao"}
+            },
+            {
+                ["currency"] = "emerald",
+                ["itemType"] = "emerald_dao",
+                ["amount"] = 1,
+                ["price"] = 24,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"dasher"},
+                ["lockAfterPurchase"] = true
+            },
+            {
                 ["currency"] = "iron",
                 ["itemType"] = "dino_deploy",
                 ["amount"] = 1,
@@ -626,141 +892,57 @@ data = {
                 ["requiresKit"] = {"dino_tamer"}
             },
             {
-                ["category"] = "Combat",
                 ["currency"] = "emerald",
-                ["itemType"] = "flamethrower",
+                ["itemType"] = "satellite_dish",
+                ["amount"] = 1,
+                ["price"] = 6,
+                ["category"] = "Combat",
+                ["lockIfAttribute"] = "SatelliteDishPurchased",
+                ["requiresKit"] = {"disruptor"}
+            },
+            {
+                ["requiresKit"] = {"drill"},
+                ["currency"] = "emerald",
+                ["itemType"] = "drill",
                 ["amount"] = 1,
                 ["price"] = 3,
-                ["requiresKit"] = {"pyro"},
-                ["spawnWithItems"] = {"flamethrower"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "raven",
-                ["amount"] = 1,
-                ["price"] = 120,
                 ["category"] = "Combat",
-                ["requiresKit"] = {"raven"}
-            },
-            {
-                ["category"] = "Combat",
-                ["currency"] = "iron",
-                ["itemType"] = "jade_hammer",
-                ["amount"] = 1,
-                ["price"] = 40,
-                ["requiresKit"] = {"jade"},
-                ["spawnWithItems"] = {"jade_hammer"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["category"] = "Combat",
-                ["currency"] = "iron",
-                ["itemType"] = "void_axe",
-                ["amount"] = 1,
-                ["price"] = 40,
-                ["requiresKit"] = {"regent"},
-                ["spawnWithItems"] = {"void_axe"},
-                ["lockAfterPurchase"] = true
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "beehive",
-                ["amount"] = 1,
-                ["price"] = 60,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"beekeeper"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "spirit",
-                ["amount"] = 1,
-                ["price"] = 50,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"spirit_catcher"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "spirit_bridge",
-                ["amount"] = 1,
-                ["price"] = 50,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"ignis"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "shield_axolotl",
-                ["dontGiveItem"] = true,
-                ["price"] = 30,
-                ["nextTier"] = "damage_axolotl",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"axolotl"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "damage_axolotl",
-                ["dontGiveItem"] = true,
-                ["price"] = 60,
-                ["prevTier"] = "shield_axolotl",
-                ["nextTier"] = "break_speed_axolotl",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"axolotl"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "break_speed_axolotl",
-                ["dontGiveItem"] = true,
-                ["price"] = 80,
-                ["prevTier"] = "damage_axolotl",
-                ["nextTier"] = "health_regen_axolotl",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["category"] = "Combat",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["requiresKit"] = {"axolotl"}
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "health_regen_axolotl",
-                ["dontGiveItem"] = true,
-                ["price"] = 4,
-                ["prevTier"] = "break_speed_axolotl",
-                ["currency"] = "emerald",
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["category"] = "Combat",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["requiresKit"] = {"axolotl"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "snap_trap",
-                ["amount"] = 1,
-                ["price"] = 24,
-                ["category"] = "Combat",
-                ["requiresKit"] = {"trapper"}
+                ["lockIfAttribute"] = "MaxDrillsPurchased",
+                ["lockAfterPurchase"] = false
             },
             {
                 ["currency"] = "emerald",
-                ["itemType"] = "oil_consumable",
+                ["itemType"] = "infernal_saber",
                 ["amount"] = 1,
-                ["price"] = 1,
+                ["price"] = 3,
                 ["category"] = "Combat",
-                ["requiresKit"] = {"oil_man"}
+                ["requiresKit"] = {"ember"},
+                ["lockAfterPurchase"] = true
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "spear",
+                ["itemType"] = "carrot_seeds",
                 ["amount"] = 1,
-                ["price"] = 40,
+                ["price"] = 60,
                 ["category"] = "Combat",
-                ["requiresKit"] = {"spearman"}
+                ["requiresKit"] = {"farmer_cletus"}
+            },
+            {
+                ["currency"] = "emerald",
+                ["itemType"] = "melon_seeds",
+                ["amount"] = 1,
+                ["price"] = 3,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"farmer_cletus"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "pumpkin_seeds",
+                ["amount"] = 1,
+                ["price"] = 200,
+                ["category"] = "Combat",
+                ["customDisplayName"] = "Pumpkin Seeds",
+                ["requiresKit"] = {"farmer_cletus"}
             },
             {
                 ["category"] = "Tools",
@@ -770,6 +952,15 @@ data = {
                 ["price"] = 40,
                 ["requiresKit"] = {"fisherman"},
                 ["spawnWithItems"] = {"fishing_rod"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["currency"] = "emerald",
+                ["itemType"] = "ice_sword",
+                ["amount"] = 1,
+                ["price"] = 4,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"ice_queen"},
                 ["lockAfterPurchase"] = true
             },
             {
@@ -792,38 +983,84 @@ data = {
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "brewing_cauldron",
+                ["itemType"] = "spirit_bridge",
                 ["amount"] = 1,
-                ["price"] = 15,
-                ["category"] = "Blocks",
-                ["requiresKit"] = {"alchemist"}
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "satellite_dish",
-                ["amount"] = 1,
-                ["price"] = 6,
+                ["price"] = 40,
                 ["category"] = "Combat",
-                ["lockIfAttribute"] = "SatelliteDishPurchased",
-                ["requiresKit"] = {"disruptor"}
+                ["requiresKit"] = {"ignis"}
             },
             {
+                ["category"] = "Combat",
                 ["currency"] = "iron",
-                ["itemType"] = "gather_bot_basic",
+                ["itemType"] = "jade_hammer",
                 ["amount"] = 1,
-                ["price"] = 50,
-                ["category"] = "Combat",
-                ["lockIfAttribute"] = "GatherBotBasicMaxPurchased",
-                ["requiresKit"] = {"steam_engineer"}
+                ["price"] = 40,
+                ["requiresKit"] = {"jade"},
+                ["spawnWithItems"] = {"jade_hammer"},
+                ["lockAfterPurchase"] = true
             },
             {
                 ["currency"] = "emerald",
-                ["itemType"] = "gather_bot_pro",
+                ["itemType"] = "light_sword",
                 ["amount"] = 1,
-                ["price"] = 1,
+                ["price"] = 4,
                 ["category"] = "Combat",
-                ["lockIfAttribute"] = "GatherBotProMaxPurchased",
-                ["requiresKit"] = {"steam_engineer"}
+                ["requiresKit"] = {"lumen"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "flower_bow",
+                ["price"] = 24,
+                ["superiorItems"] = {"flower_crossbow"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["requiresKit"] = {"flower_bee"},
+                ["spawnWithItems"] = {"flower_bow"},
+                ["category"] = "Combat"
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "iron",
+                ["itemType"] = "harpoon",
+                ["amount"] = 1,
+                ["price"] = 40,
+                ["requiresKit"] = {"harpoon"},
+                ["spawnWithItems"] = {"harpoon"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "flower_crossbow",
+                ["price"] = 7,
+                ["superiorItems"] = {"flower_headhunter"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"flower_crossbow"},
+                ["requiresKit"] = {"flower_bee"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "flower_headhunter",
+                ["price"] = 24,
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["requiresKit"] = {"flower_bee"},
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["spawnWithItems"] = {"flower_headhunter"},
+                ["category"] = "Combat"
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "iron",
+                ["itemType"] = "guitar",
+                ["amount"] = 1,
+                ["price"] = 16,
+                ["requiresKit"] = {"melody"},
+                ["spawnWithItems"] = {"guitar"},
+                ["lockAfterPurchase"] = true
             },
             {
                 ["lockAfterPurchase"] = true,
@@ -878,148 +1115,56 @@ data = {
                 ["requiresKit"] = {"ninja"}
             },
             {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "wood_bow",
-                ["price"] = 24,
-                ["superiorItems"] = {"wood_crossbow", "tactical_crossbow"},
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["ignoredByKit"] = {"flower_bee"},
-                ["spawnWithItems"] = {"wood_bow"},
-                ["category"] = "Combat"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "flower_bow",
-                ["price"] = 24,
-                ["superiorItems"] = {"flower_crossbow"},
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["requiresKit"] = {"flower_bee"},
-                ["spawnWithItems"] = {"flower_bow"},
-                ["category"] = "Combat"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "wood_crossbow",
-                ["price"] = 7,
                 ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
+                ["itemType"] = "oil_consumable",
                 ["amount"] = 1,
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
-                ["ignoredByKit"] = {"archer", "flower_bee"},
-                ["spawnWithItems"] = {"wood_crossbow"},
-                ["category"] = "Combat"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "tactical_crossbow",
-                ["price"] = 6,
-                ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["amount"] = 1,
-                ["disabledInQueue"] = {"tnt_wars"},
+                ["price"] = 1,
                 ["category"] = "Combat",
-                ["spawnWithItems"] = {"tactical_crossbow"},
-                ["requiresKit"] = {"archer"}
+                ["requiresKit"] = {"oil_man"}
             },
             {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "tactical_headhunter",
-                ["price"] = 21,
-                ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
+                ["currency"] = "iron",
+                ["itemType"] = "scepter",
                 ["amount"] = 1,
-                ["requiresKit"] = {"archer"},
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["spawnWithItems"] = {"tactical_headhunter"},
-                ["category"] = "Combat"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "flower_crossbow",
-                ["price"] = 7,
-                ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["amount"] = 1,
-                ["disabledInQueue"] = {"tnt_wars"},
+                ["price"] = 45,
                 ["category"] = "Combat",
-                ["spawnWithItems"] = {"flower_crossbow"},
-                ["requiresKit"] = {"flower_bee"}
+                ["requiresKit"] = {"paladin"},
+                ["lockAfterPurchase"] = true
             },
             {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "flower_headhunter",
-                ["price"] = 24,
+                ["currency"] = "iron",
+                ["itemType"] = "pinata",
+                ["amount"] = 1,
+                ["price"] = 35,
+                ["category"] = "Blocks",
+                ["requiresKit"] = {"pinata"},
+                ["lockAfterPurchase"] = true
+            },
+            {
+                ["category"] = "Combat",
                 ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
+                ["itemType"] = "flamethrower",
                 ["amount"] = 1,
-                ["requiresKit"] = {"flower_bee"},
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["spawnWithItems"] = {"flower_headhunter"},
-                ["category"] = "Combat"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "headhunter",
-                ["price"] = 24,
-                ["currency"] = "emerald",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
-                ["amount"] = 1,
-                ["ignoredByKit"] = {"archer", "flower_bee"},
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
-                ["spawnWithItems"] = {"headhunter"},
-                ["category"] = "Combat"
-            },
-            {["currency"] = "iron", ["itemType"] = "arrow", ["amount"] = 8, ["price"] = 16, ["category"] = "Combat"},
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "iron_arrow",
-                ["amount"] = 8,
-                ["price"] = 16,
-                ["hiddenByTeamUpgrade"] = {["itemToReplace"] = "arrow", ["teamUpgrade"] = "fletchery"},
-                ["category"] = "Combat"
+                ["price"] = 3,
+                ["requiresKit"] = {"pyro"},
+                ["spawnWithItems"] = {"flamethrower"},
+                ["lockAfterPurchase"] = true
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "fireball",
+                ["itemType"] = "beehive_grenade",
                 ["amount"] = 1,
-                ["price"] = 75,
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["category"] = "Combat"
-            },
-            {
-                ["currency"] = "emerald",
-                ["itemType"] = "telepearl",
-                ["amount"] = 1,
-                ["price"] = 2,
-                ["disabledInQueue"] = {"tnt_wars", "infected"},
-                ["category"] = "Combat"
+                ["price"] = 40,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"queen_bee"}
             },
             {
                 ["currency"] = "iron",
-                ["itemType"] = "glue_projectile",
+                ["itemType"] = "raven",
                 ["amount"] = 1,
-                ["price"] = 60,
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
-                ["category"] = "Combat"
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "glue_projectile_charging",
-                ["amount"] = 1,
-                ["price"] = 60,
-                ["hiddenByTeamUpgrade"] = {["itemToReplace"] = "glue_projectile", ["teamUpgrade"] = "charging_gloops"},
-                ["disabledInQueue"] = {"tnt_wars", "bedwars_og_to4"},
-                ["category"] = "Combat"
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "repair_tool",
-                ["amount"] = 1,
-                ["price"] = 24,
-                ["category"] = "Tools",
-                ["enabledOnlyInQueue"] = {"infected"}
+                ["price"] = 90,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"raven"}
             },
             {
                 ["currency"] = "iron",
@@ -1031,551 +1176,298 @@ data = {
                 ["disabledInQueue"] = {"survival"}
             },
             {
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["currency"] = "iron",
-                ["itemType"] = "shears",
+                ["category"] = "Combat",
+                ["currency"] = "emerald",
+                ["itemType"] = "healing_slime",
                 ["amount"] = 1,
-                ["price"] = 20,
-                ["category"] = "Tools",
-                ["spawnWithItems"] = {"shears"},
+                ["price"] = 3,
+                ["requiresKit"] = {"slime_tamer"},
+                ["lockIfAttribute"] = "purchased_healing_slime",
+                ["dontGiveItem"] = true
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "emerald",
+                ["itemType"] = "void_slime",
+                ["amount"] = 1,
+                ["price"] = 3,
+                ["requiresKit"] = {"slime_tamer"},
+                ["lockIfAttribute"] = "purchased_void_slime",
+                ["dontGiveItem"] = true
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "emerald",
+                ["itemType"] = "sticky_slime",
+                ["amount"] = 1,
+                ["price"] = 2,
+                ["requiresKit"] = {"slime_tamer"},
+                ["lockIfAttribute"] = "purchased_sticky_slime",
+                ["dontGiveItem"] = true
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "emerald",
+                ["itemType"] = "frosty_slime",
+                ["amount"] = 1,
+                ["price"] = 2,
+                ["requiresKit"] = {"slime_tamer"},
+                ["lockIfAttribute"] = "purchased_frosty_slime",
+                ["dontGiveItem"] = true
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "smoke_bomb",
+                ["amount"] = 1,
+                ["price"] = 25,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"smoke"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "smoke_block",
+                ["amount"] = 8,
+                ["price"] = 15,
+                ["category"] = "Blocks",
+                ["requiresKit"] = {"smoke"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "spirit",
+                ["amount"] = 1,
+                ["price"] = 50,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"spirit_catcher"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "gather_bot_basic",
+                ["amount"] = 1,
+                ["price"] = 50,
+                ["category"] = "Combat",
+                ["lockIfAttribute"] = "GatherBotBasicMaxPurchased",
+                ["requiresKit"] = {"steam_engineer"}
+            },
+            {
+                ["currency"] = "emerald",
+                ["itemType"] = "gather_bot_pro",
+                ["amount"] = 1,
+                ["price"] = 1,
+                ["category"] = "Combat",
+                ["lockIfAttribute"] = "GatherBotProMaxPurchased",
+                ["requiresKit"] = {"steam_engineer"}
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "chicken_egg",
+                ["amount"] = 1,
+                ["price"] = 35,
+                ["requiresKit"] = {"taliyah"},
+                ["customDisplayName"] = "Egg",
+                ["category"] = "Combat"
+            },
+            {
+                ["itemType"] = "chicken_shop_item",
+                ["dontGiveItem"] = true,
+                ["price"] = 1,
+                ["customDisplayName"] = "Sell chicken for 35 iron",
+                ["currency"] = "chicken_deploy",
+                ["amount"] = 1,
+                ["sell"] = true,
+                ["requiresKit"] = {"taliyah"},
+                ["category"] = "Combat"
+            },
+            {
+                ["itemType"] = "iron_chicken_nest",
+                ["dontGiveItem"] = true,
+                ["price"] = 120,
+                ["customDisplayName"] = "Iron Nest",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["requiresKit"] = {"taliyah"},
+                ["nextTier"] = "diamond_chicken_nest",
+                ["category"] = "Combat"
+            },
+            {
+                ["itemType"] = "diamond_chicken_nest",
+                ["dontGiveItem"] = true,
+                ["price"] = 4,
+                ["prevTier"] = "iron_chicken_nest",
+                ["customDisplayName"] = "Diamond Nest",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"taliyah"},
+                ["nextTier"] = "emerald_chicken_nest",
+                ["category"] = "Combat"
+            },
+            {
+                ["itemType"] = "emerald_chicken_nest",
+                ["dontGiveItem"] = true,
+                ["price"] = 6,
+                ["prevTier"] = "diamond_chicken_nest",
+                ["customDisplayName"] = "Emerald Nest",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"taliyah"},
+                ["nextTier"] = "void_chicken_incubator",
+                ["category"] = "Combat"
+            },
+            {
+                ["itemType"] = "void_chicken_incubator",
+                ["dontGiveItem"] = true,
+                ["price"] = 10,
+                ["prevTier"] = "emerald_chicken_nest",
+                ["customDisplayName"] = "Void Incubator",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"taliyah"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tinker_machine_upgrade_1",
+                ["dontGiveItem"] = true,
+                ["price"] = 100,
+                ["nextTier"] = "tinker_machine_upgrade_2",
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["requiresKit"] = {"tinker"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tinker_machine_upgrade_2",
+                ["dontGiveItem"] = true,
+                ["price"] = 5,
+                ["prevTier"] = "tinker_machine_upgrade_1",
+                ["nextTier"] = "tinker_machine_upgrade_3",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"tinker"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tinker_machine_upgrade_3",
+                ["dontGiveItem"] = true,
+                ["price"] = 14,
+                ["prevTier"] = "tinker_machine_upgrade_2",
+                ["nextTier"] = "tinker_machine_upgrade_4",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"tinker"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "tinker_machine_upgrade_4",
+                ["dontGiveItem"] = true,
+                ["price"] = 35,
+                ["prevTier"] = "tinker_machine_upgrade_3",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["requiresKit"] = {"tinker"},
+                ["category"] = "Combat"
+            },
+            {
+                ["currency"] = "iron",
+                ["itemType"] = "snap_trap",
+                ["amount"] = 1,
+                ["price"] = 24,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"trapper"}
+            },
+            {
+                ["category"] = "Combat",
+                ["currency"] = "iron",
+                ["itemType"] = "void_axe",
+                ["amount"] = 1,
+                ["price"] = 40,
+                ["requiresKit"] = {"regent"},
+                ["spawnWithItems"] = {"void_axe"},
                 ["lockAfterPurchase"] = true
             },
             {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "stone_pickaxe",
-                ["price"] = 20,
-                ["prevTier"] = "wood_pickaxe",
-                ["nextTier"] = "iron_pickaxe",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["spawnWithItems"] = {"stone_pickaxe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "iron_pickaxe",
-                ["price"] = 20,
-                ["prevTier"] = "stone_pickaxe",
-                ["nextTier"] = "diamond_pickaxe",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["spawnWithItems"] = {"iron_pickaxe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "diamond_pickaxe",
-                ["price"] = 60,
-                ["prevTier"] = "iron_pickaxe",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["spawnWithItems"] = {"diamond_pickaxe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "wood_axe",
-                ["price"] = 20,
-                ["nextTier"] = "stone_axe",
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["ignoredByKit"] = {"miner"},
-                ["spawnWithItems"] = {"wood_axe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "stone_axe",
-                ["price"] = 20,
-                ["prevTier"] = "wood_axe",
-                ["nextTier"] = "iron_axe",
-                ["currency"] = "iron",
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["ignoredByKit"] = {"miner"},
-                ["spawnWithItems"] = {"stone_axe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "iron_axe",
-                ["price"] = 30,
-                ["prevTier"] = "stone_axe",
-                ["nextTier"] = "diamond_axe",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["currency"] = "iron",
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["ignoredByKit"] = {"miner"},
-                ["spawnWithItems"] = {"iron_axe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["lockAfterPurchase"] = true,
-                ["itemType"] = "diamond_axe",
-                ["price"] = 60,
-                ["prevTier"] = "iron_axe",
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["currency"] = "iron",
-                ["disabledInQueue"] = {"tnt_wars"},
-                ["amount"] = 1,
-                ["tiered"] = true,
-                ["ignoredByKit"] = {"miner"},
-                ["spawnWithItems"] = {"diamond_axe"},
-                ["category"] = "Tools"
-            },
-            {
-                ["disabledInQueue"] = {"survival"},
-                ["itemType"] = "hammer",
-                ["price"] = 20,
-                ["currency"] = "iron",
-                ["amount"] = 1,
-                ["category"] = "Tools",
-                ["lockAfterPurchase"] = true,
-                ["spawnWithItems"] = {"hammer"},
-                ["requiresKit"] = {"builder"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "drawbridge",
-                ["amount"] = 1,
-                ["price"] = 40,
-                ["category"] = "Blocks",
-                ["requiresKit"] = {"builder"}
-            },
-            {["currency"] = "iron", ["itemType"] = "tnt", ["amount"] = 1, ["price"] = 35, ["category"] = "Blocks"},
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "siege_tnt",
-                ["amount"] = 1,
-                ["price"] = 350,
-                ["disabledInQueue"] = {"bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["category"] = "Blocks"
-            },
-            {
-                ["currency"] = "void_crystal",
-                ["itemType"] = "void_block",
-                ["amount"] = 16,
-                ["price"] = 1,
-                ["category"] = "Void"
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "team_door",
-                ["amount"] = 1,
-                ["price"] = 20,
-                ["category"] = "Blocks",
-                ["enabledOnlyInQueue"] = {"survival"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "spike_trap",
-                ["amount"] = 8,
-                ["price"] = 40,
-                ["category"] = "Blocks",
-                ["enabledOnlyInQueue"] = {"survival", "infected"}
-            },
-            {
                 ["currency"] = "emerald",
-                ["itemType"] = "auto_turret",
-                ["amount"] = 1,
-                ["price"] = 2,
-                ["category"] = "Blocks",
-                ["enabledOnlyInQueue"] = {"survival"}
-            },
-            {
-                ["currency"] = "iron",
-                ["itemType"] = "target_dummy_block_tier_1",
-                ["amount"] = 1,
-                ["price"] = 50,
-                ["disabledInQueue"] = {"survival", "tnt_wars", "bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 0}},
-                ["category"] = "Blocks"
-            },
-            {
-                ["hiddenByTeamUpgrade"] = {["itemToReplace"] = "target_dummy_block_tier_1", ["teamUpgrade"] = "era"},
-                ["currency"] = "iron",
-                ["itemType"] = "target_dummy_block_tier_2",
-                ["amount"] = 1,
-                ["price"] = 80,
-                ["disabledInQueue"] = {"survival", "tnt_wars", "bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 1}},
-                ["category"] = "Blocks"
-            },
-            {
-                ["hiddenByTeamUpgrade"] = {["itemToReplace"] = "target_dummy_block_tier_2", ["teamUpgrade"] = "era"},
-                ["currency"] = "emerald",
-                ["itemType"] = "target_dummy_block_tier_3",
+                ["itemType"] = "camera_turret",
                 ["amount"] = 1,
                 ["price"] = 1,
-                ["disabledInQueue"] = {"survival", "tnt_wars", "bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 2}},
-                ["category"] = "Blocks"
+                ["category"] = "Combat",
+                ["requiresKit"] = {"vulcan"}
             },
             {
-                ["hiddenByTeamUpgrade"] = {["itemToReplace"] = "target_dummy_block_tier_3", ["teamUpgrade"] = "era"},
-                ["currency"] = "emerald",
-                ["itemType"] = "target_dummy_block_tier_4",
+                ["currency"] = "iron",
+                ["itemType"] = "cluster_bomb",
                 ["amount"] = 1,
-                ["price"] = 2,
-                ["disabledInQueue"] = {"survival", "tnt_wars", "bedwars_og_to4"},
-                ["require"] = {["teamUpgrade"] = {["upgradeId"] = "era", ["lowestTierIndex"] = 3}},
-                ["category"] = "Blocks"
+                ["price"] = 45,
+                ["category"] = "Combat",
+                ["requiresKit"] = {"agni"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wizard_staff_2",
+                ["price"] = 4,
+                ["nextTier"] = "wizard_staff_3",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"wizard_staff_2"},
+                ["requiresKit"] = {"wizard"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "wizard_staff_3",
+                ["price"] = 6,
+                ["prevTier"] = "wizard_staff_2",
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["tiered"] = true,
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"wizard_staff_3"},
+                ["requiresKit"] = {"wizard"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "falconer_bow",
+                ["price"] = 36,
+                ["superiorItems"] = {"falconer_crossbow"},
+                ["currency"] = "iron",
+                ["amount"] = 1,
+                ["requiresKit"] = {"falconer"},
+                ["spawnWithItems"] = {"falconer_bow"},
+                ["category"] = "Combat"
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "falconer_crossbow",
+                ["price"] = 9,
+                ["superiorItems"] = {"falconer_headhunter"},
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["category"] = "Combat",
+                ["spawnWithItems"] = {"falconer_crossbow"},
+                ["requiresKit"] = {"falconer"}
+            },
+            {
+                ["lockAfterPurchase"] = true,
+                ["itemType"] = "falconer_headhunter",
+                ["price"] = 27,
+                ["currency"] = "emerald",
+                ["amount"] = 1,
+                ["requiresKit"] = {"falconer"},
+                ["disabledInQueue"] = {"tnt_wars"},
+                ["spawnWithItems"] = {"falconer_headhunter"},
+                ["category"] = "Combat"
             }
         },
-        ["getShopItem"] = "function: 0x00000000f95c6feb",
-        ["getShopItemBase"] = "function: 0x000000009637f53b",
-        ["getTeamGeneratorUpgradeCost"] = "function: 0x00000000260b3e23",
-        ["getUpgrade"] = "function: 0x00000000e4f9e69b",
-        ["FlamethrowerUpgrades"] = {
-            {
-                ["id"] = "heat",
-                ["tiers"] = {
-                    {["price"] = 1, ["currency"] = "ember", ["name"] = "+100% Fire Damage", ["values"] = {100}},
-                    {["price"] = 2, ["currency"] = "ember", ["name"] = "+180% Fire Damage", ["values"] = {180}},
-                    {["price"] = 3, ["currency"] = "ember", ["name"] = "+250% Fire Damage", ["values"] = {250}},
-                    {
-                        ["price"] = 6,
-                        ["currency"] = "ember",
-                        ["name"] = "+50% Fire Armor Penetration",
-                        ["values"] = {250, 50}
-                    }
-                },
-                ["name"] = "Heat"
-            },
-            {
-                ["id"] = "power",
-                ["tiers"] = {
-                    {["price"] = 1, ["currency"] = "ember", ["name"] = "+30% Brittle Attack Damage", ["values"] = {30}},
-                    {["price"] = 2, ["currency"] = "ember", ["name"] = "+50% Brittle Attack Damage", ["values"] = {50}},
-                    {["price"] = 3, ["currency"] = "ember", ["name"] = "+80% Brittle Attack Damage", ["values"] = {80}},
-                    {
-                        ["price"] = 8,
-                        ["currency"] = "ember",
-                        ["name"] = "Flames Knockback Enemies",
-                        ["values"] = {80, 0.65}
-                    }
-                },
-                ["name"] = "Power"
-            },
-            {
-                ["id"] = "range",
-                ["tiers"] = {
-                    {["price"] = 1, ["currency"] = "ember", ["name"] = "+25% Flame Range", ["values"] = {25}},
-                    {["price"] = 2, ["currency"] = "ember", ["name"] = "+50% Flame Range", ["values"] = {50}},
-                    {["price"] = 3, ["currency"] = "ember", ["name"] = "+75% Flame Range", ["values"] = {75}},
-                    {
-                        ["price"] = 4,
-                        ["currency"] = "ember",
-                        ["name"] = "Fire Burns Flammable Blocks",
-                        ["values"] = {75, 1}
-                    }
-                },
-                ["name"] = "Range"
-            }
-        },
-        ["TeamUpgrades"] = {
-            {
-                ["image"] = "rbxassetid://6821007175",
-                ["name"] = "Team Generator",
-                ["id"] = "generator",
-                ["tiers"] = {
-                    {["price"] = 4, ["currency"] = "diamond", ["name"] = "Tier I: +50% Speed", ["values"] = {}},
-                    {["price"] = 8, ["currency"] = "diamond", ["name"] = "Tier II: +100% Speed", ["values"] = {}},
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier III: Spawn Emeralds",
-                        ["price"] = 16,
-                        ["disabledInQueue"] = {"survival"},
-                        ["values"] = {}
-                    }
-                },
-                ["disabledInQueue"] = {"hyper_gen_to4"},
-                ["menuPosition"] = "main"
-            },
-            {
-                ["image"] = "rbxassetid://6822449354",
-                ["name"] = "Armor Protection",
-                ["id"] = "armor",
-                ["tiers"] = {
-                    {["price"] = 4, ["currency"] = "diamond", ["name"] = "Tier I: +20% Armor Bonus", ["values"] = {20}},
-                    {["price"] = 8, ["currency"] = "diamond", ["name"] = "Tier II: +40% Armor Bonus", ["values"] = {40}},
-                    {
-                        ["price"] = 20,
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier III: +60% Armor Bonus",
-                        ["values"] = {60}
-                    },
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier IV: +9999% Armor Bonus",
-                        ["price"] = 500,
-                        ["availableOnlyInQueue"] = {"hyper_gen_to4"},
-                        ["values"] = {9999}
-                    }
-                },
-                ["menuPosition"] = "main"
-            },
-            {
-                ["image"] = "rbxassetid://6822443250",
-                ["name"] = "Damage",
-                ["id"] = "damage",
-                ["tiers"] = {
-                    {["price"] = 5, ["currency"] = "diamond", ["name"] = "Tier I: +20% Damage", ["values"] = {20}},
-                    {["price"] = 10, ["currency"] = "diamond", ["name"] = "Tier II: +30% Damage", ["values"] = {30}},
-                    {["price"] = 18, ["currency"] = "diamond", ["name"] = "Tier III: +40% Damage", ["values"] = {40}},
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier IV: +9999% Damage",
-                        ["price"] = 500,
-                        ["availableOnlyInQueue"] = {"hyper_gen_to4"},
-                        ["values"] = {9999}
-                    }
-                },
-                ["menuPosition"] = "main"
-            },
-            {
-                ["image"] = "rbxassetid://6822443323",
-                ["name"] = "Destruction",
-                ["id"] = "destruction",
-                ["tiers"] = {
-                    {
-                        ["price"] = 3,
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier I: +30% Block Destruction",
-                        ["values"] = {30}
-                    },
-                    {
-                        ["price"] = 6,
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier II: +60% Block Destruction",
-                        ["values"] = {60}
-                    },
-                    {
-                        ["price"] = 10,
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier III: +120% Block Destruction",
-                        ["values"] = {120}
-                    },
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier IV: +9999% Block Destruction",
-                        ["price"] = 500,
-                        ["availableOnlyInQueue"] = {"hyper_gen_to4"},
-                        ["values"] = {9999}
-                    }
-                },
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4",
-                    "winstreak_1v1"
-                },
-                ["menuPosition"] = "main"
-            },
-            {
-                ["image"] = "rbxassetid://7806321222",
-                ["name"] = "Diamond Generator",
-                ["id"] = "diamond_generator",
-                ["tiers"] = {
-                    {["price"] = 4, ["currency"] = "diamond", ["name"] = "Tier I: Spawn Diamonds", ["values"] = {}},
-                    {["price"] = 8, ["currency"] = "diamond", ["name"] = "Tier II: +100% Speed", ["values"] = {}},
-                    {["price"] = 12, ["currency"] = "diamond", ["name"] = "Tier III: +200% Speed", ["values"] = {}}
-                },
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4",
-                    "winstreak_1v1"
-                },
-                ["menuPosition"] = "main"
-            },
-            {
-                ["tiers"] = {
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier I: Iron Age",
-                        ["price"] = 2,
-                        ["notificationConfig"] = {
-                            ["announcementSound"] = "rbxassetid://15384344264",
-                            ["specialText"] = "You have reached the Iron Age!",
-                            ["isAnnouncement"] = true
-                        },
-                        ["values"] = {}
-                    },
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier II: Diamond Age",
-                        ["price"] = 4,
-                        ["notificationConfig"] = {
-                            ["announcementSound"] = "rbxassetid://15384345877",
-                            ["specialText"] = "You have reached the Diamond Age!",
-                            ["isAnnouncement"] = true
-                        },
-                        ["values"] = {}
-                    },
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier III: Emerald Age",
-                        ["price"] = 12,
-                        ["notificationConfig"] = {
-                            ["announcementSound"] = "rbxassetid://15384345047",
-                            ["specialText"] = "You have reached the Emerald Age!",
-                            ["isAnnouncement"] = true
-                        },
-                        ["values"] = {}
-                    },
-                    {
-                        ["currency"] = "diamond",
-                        ["name"] = "Tier IV: Enlightened Age",
-                        ["price"] = 32,
-                        ["notificationConfig"] = {
-                            ["announcementSound"] = "rbxassetid://15384346991",
-                            ["specialText"] = "You have reached the Enlightened Age!",
-                            ["isAnnouncement"] = true
-                        },
-                        ["values"] = {}
-                    }
-                },
-                ["image"] = "rbxassetid://15363662521",
-                ["name"] = "Era",
-                ["extraInfo"] = {
-                    ["sections"] = {
-                        {
-                            ["title"] = "Starter Items",
-                            ["imageElements"] = {
-                                {["image"] = "rbxassetid://6875481137", ["name"] = "Stone Sword", ["tierIndex"] = 0},
-                                {["image"] = "rbxassetid://6875481281", ["name"] = "Iron Sword", ["tierIndex"] = 1},
-                                {["image"] = "rbxassetid://6875481413", ["name"] = "Diamond Sword", ["tierIndex"] = 2}
-                            }
-                        },
-                        {
-                            ["title"] = "Enchant Table",
-                            ["imageElements"] = {
-                                {
-                                    ["image"] = "rbxassetid://15579550429",
-                                    ["name"] = "Builds Enchant Table",
-                                    ["tierIndex"] = 1
-                                },
-                                {
-                                    ["image"] = "rbxassetid://8270942991",
-                                    ["name"] = "Advanced Research",
-                                    ["tierIndex"] = 2
-                                },
-                                {
-                                    ["image"] = "rbxassetid://8270942991",
-                                    ["name"] = "Increased Enchant Durations",
-                                    ["tierIndex"] = 3
-                                }
-                            }
-                        }
-                    }
-                },
-                ["id"] = "era",
-                ["displayExtraInfo"] = true,
-                ["disabledInQueue"] = {"hyper_gen_to4"},
-                ["menuPosition"] = "main"
-            },
-            {
-                ["image"] = "rbxassetid://7392155479",
-                ["name"] = "Bed Alarm",
-                ["id"] = "alarm",
-                ["tiers"] = {{["price"] = 2, ["currency"] = "diamond", ["name"] = "Bed Alarm", ["values"] = {1}}},
-                ["menuPosition"] = "bottom"
-            },
-            {
-                ["prereqUpgrades"] = {{["tierIndex"] = 1, ["upgrade"] = "era"}},
-                ["image"] = "rbxassetid://7392155479",
-                ["name"] = "Iron Arrows",
-                ["oneTimePurchase"] = true,
-                ["id"] = "fletchery",
-                ["tiers"] = {{["price"] = 8, ["currency"] = "diamond", ["name"] = "Iron Arrows", ["values"] = {}}},
-                ["menuPosition"] = "bottom"
-            },
-            {
-                ["prereqUpgrades"] = {{["tierIndex"] = 2, ["upgrade"] = "era"}},
-                ["image"] = "rbxassetid://7392155479",
-                ["name"] = "Charging Gloops",
-                ["oneTimePurchase"] = true,
-                ["id"] = "charging_gloops",
-                ["tiers"] = {{["price"] = 12, ["currency"] = "diamond", ["name"] = "Charging Gloops", ["values"] = {}}},
-                ["menuPosition"] = "bottom"
-            },
-            {
-                ["prereqUpgrades"] = {{["tierIndex"] = 3, ["upgrade"] = "era"}},
-                ["image"] = "rbxassetid://7392155479",
-                ["name"] = "Base Regen",
-                ["oneTimePurchase"] = true,
-                ["id"] = "base_regen",
-                ["tiers"] = {{["price"] = 20, ["currency"] = "diamond", ["name"] = "Base Regen", ["values"] = {}}},
-                ["menuPosition"] = "bottom"
-            },
-            {
-                ["items"] = {"og_diamond_sword", "og_emerald_sword", "og_wood_crossbow"},
-                ["image"] = "rbxassetid://7806896475",
-                ["name"] = "Armory",
-                ["menuPosition"] = "itemshop",
-                ["tiers"] = {
-                    {
-                        ["price"] = 4,
-                        ["currency"] = "diamond",
-                        ["name"] = "Unlocks upgraded gear in the <b>Item Shop</b>",
-                        ["values"] = {1}
-                    }
-                },
-                ["disabledInQueue"] = {
-                    "tnt_wars",
-                    "bedwars_20v20",
-                    "bedwars_20v20_lb",
-                    "bedwars_5v5",
-                    "bedwars_ranked_s9",
-                    "bedwars_to1",
-                    "bedwars_to2",
-                    "bedwars_to4",
-                    "bedwars_lucky_block",
-                    "bedwars_lucky_block_to2",
-                    "all_same_kit_to4",
-                    "bedwars_duels",
-                    "bedwars_voice_chat",
-                    "bedwars_nb4",
-                    "hyper_gen_to4",
-                    "winstreak_1v1"
-                },
-                ["id"] = "armory"
-            }
-        },
-        ["Axes"] = {"wood_axe", "stone_axe", "iron_axe", "diamond_axe"},
-        ["getShop"] = "function: 0x000000000aeaa59b",
-        ["getTeamWool"] = "function: 0x00000000d49f8e5b"
-    }
+        ["getShopItem"] = "function: 0x64798d459135fced"
+    },
+    ["forgeDisabledKits"] = {"barbarian", "dasher", "frost_hammer_kit", "tinker", "ice_queen", "ember", "lumen"}
 }
