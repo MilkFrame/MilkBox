@@ -368,6 +368,175 @@ data = {
             ["subtitle"] = "2 v 2 ",
             ["title"] = "DUELS",
             ["queues"] = {{["queueType"] = "bedwars_duels", ["title"] = "2v2"}}
+        },
+        ["egg_hunt"] = {
+            ["subtitle"] = "THE HUNT CHALLENGE",
+            ["title"] = "EGG HUNT",
+            ["npcDisplay"] = {
+                ["title"] = "🥚 EGG HUNT",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">THE HUNT CHALLENGE</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(176, 102, 242),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://16747787947",
+                ["backgroundColor"] = Color3.fromRGB(219, 125, 204),
+                ["icon"] = "rbxassetid://16747787947",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "egg_hunt", ["title"] = "EGG HUNT"}},
+            ["description"] = [[🪺 Collect eggs around the map and bring them back to your nest!
+🥚 Eliminate other players to steal their eggs! First to 100 eggs wins!]]
+        },
+        ["bed_royale"] = {
+            ["subtitle"] = "96 PLAYERS",
+            ["title"] = "Bed Royale ",
+            ["npcDisplay"] = {
+                ["title"] = "⏰ BED ROYALE",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">100 PLAYERS</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(255, 227, 89),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://17096736589",
+                ["backgroundColor"] = Color3.fromRGB(237, 186, 48),
+                ["icon"] = "rbxassetid://17096736589",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "bedwars_mega", ["title"] = "BED ROYALE"}}
+        },
+        ["bridge_duel_to2"] = {
+            ["subtitle"] = "2v2",
+            ["title"] = "BRIDGE BATTLE",
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(255, 140, 0),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://10993361352",
+                ["backgroundColor"] = Color3.fromRGB(50, 50, 255),
+                ["icon"] = "rbxassetid://10993361352",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "bridge_duel_to2", ["title"] = "BRIDGE BATTLE (2v2)"}},
+            ["description"] = "🌉 Conquer the bridge, clash with your opponents, and score touchdowns in their base to emerge victorious!"
+        },
+        ["survival"] = {
+            ["subtitle"] = "Roblox Classic",
+            ["title"] = "Penguin Survival",
+            ["npcDisplay"] = {
+                ["title"] = "Penguin Survival (Roblox Classic)",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">EVENT</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(92, 242, 89),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://17570350552",
+                ["backgroundColor"] = Color3.fromRGB(25, 122, 169),
+                ["icon"] = "rbxassetid://17581064688",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "survival", ["title"] = "SURVIVE"}}
+        },
+        ["one_in_the_chamber"] = {
+            ["subtitle"] = "LTM",
+            ["title"] = "ONE IN THE CHAMBER ",
+            ["npcDisplay"] = {
+                ["title"] = "🏹 ONE IN THE CHAMBER",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">⚔️ FFA PVP</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(189, 156, 46),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://10730792783",
+                ["backgroundColor"] = Color3.fromRGB(235, 219, 69),
+                ["icon"] = "rbxassetid://13421692306",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "one_in_the_chamber", ["title"] = "ONE IN THE CHAMBER"}},
+            ["description"] = [[💯 Kill players to score points!
+🏹 Each kill gives you an extra arrow, first to 30 wins!
+]]
+        },
+        ["fast_casual"] = {
+            ["subtitle"] = "LTM",
+            ["title"] = "Quick Play",
+            ["npcDisplay"] = {
+                ["title"] = "🏃‍♂️ Quick Play",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">⚔️Group PVP</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(51, 173, 153),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://18349090347",
+                ["backgroundColor"] = Color3.fromRGB(10, 26, 20),
+                ["icon"] = "rbxassetid://18349090347",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "fast_casual", ["title"] = "Quick Play"}},
+            ["description"] = "🏃‍♂️ Play a fast, simplified, more casual-friendly mode with streamlined game mechanics."
+        },
+        ["lasso_wars"] = {
+            ["subtitle"] = "LTM",
+            ["title"] = "Lasso Wars",
+            ["npcDisplay"] = {
+                ["title"] = "🤠 Lasso Wars",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">⚔️Group PVP</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(189, 143, 89),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://7192710930",
+                ["backgroundColor"] = Color3.fromRGB(51, 51, 38),
+                ["icon"] = "rbxassetid://9155462968",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "lasso_wars", ["title"] = "Lasso Wars"}},
+            ["description"] = [[🤠 Yeehaw! Use your lasso to yoink your team to victory.
+First team to 50 kills wins!]]
+        },
+        ["domination"] = {
+            ["subtitle"] = "LTM",
+            ["title"] = "Domination",
+            ["npcDisplay"] = {
+                ["title"] = "Domination",
+                ["subtitle"] = [[<font color="rgb(85,255,85)">⚔️Group PVP</font>]]
+            },
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(189, 156, 46),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://16190877235",
+                ["backgroundColor"] = Color3.fromRGB(235, 219, 69),
+                ["icon"] = "rbxassetid://10993361352",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "capture_points", ["title"] = "Domination"}},
+            ["description"] = [[💯 Kill and Capture objectives to get Points!
+First to 2500 wins!
+]]
+        },
+        ["hot_potato"] = {
+            ["subtitle"] = "LTM",
+            ["title"] = "Hot Potato",
+            ["npcDisplay"] = {["title"] = "🥔 Hot Potato", ["subtitle"] = [[<font color="rgb(85,255,85)">FFA</font>]]},
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(189, 143, 89),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://11465631173",
+                ["backgroundColor"] = Color3.fromRGB(51, 51, 38),
+                ["icon"] = "rbxassetid://11465631173",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "hot_potato", ["title"] = "Hot Potato"}},
+            ["description"] = [[🥔 Players scramble to pass a ticking potato bomb to opponents before it explodes.
+Be the last two standing to win!]]
         }
     }
 }
