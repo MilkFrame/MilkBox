@@ -4,6 +4,15 @@ data = {
             ["cooldown"] = {["id"] = "backpack", ["duration"] = 0},
             ["actionBarName"] = "Open Shop"
         },
+        ["MENDING_CANOPY_STAFF_CHARGE_ENABLED"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["cooldown"] = {["id"] = "mending_canopy_staff_enabled", ["duration"] = 1},
+            ["actionBarName"] = "Charge Staff"
+        },
+        ["RECALL_EAGLE"] = {
+            ["cooldown"] = {["id"] = "recall_eagle", ["duration"] = 3},
+            ["actionBarName"] = "Recall Eagle"
+        },
         ["jade_hammer_jump"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "jade_hammer", ["duration"] = 4},
@@ -18,6 +27,10 @@ data = {
             ["cooldown"] = {["id"] = "pirate_telescope", ["duration"] = 20},
             ["actionBarName"] = "Telescope"
         },
+        ["MENDING_CANOPY_STAFF_CHARGE_DISABLED"] = {
+            ["cooldown"] = {["id"] = "mending_canopy_staff_disabled", ["duration"] = 1},
+            ["actionBarName"] = "Stop Charging Staff"
+        },
         ["BH_HIDER_DISGUISE_BLOCK"] = {
             ["cooldown"] = {["id"] = "bh_hider_disguise_block", ["duration"] = 3},
             ["actionBarName"] = "Morph into the selected block!"
@@ -29,6 +42,10 @@ data = {
         ["MURDERER_DAGGER_KILL"] = {
             ["cooldown"] = {["id"] = "murderer_kill", ["duration"] = 0.5},
             ["actionBarName"] = "Kill"
+        },
+        ["tinker_self_repair"] = {
+            ["cooldown"] = {["id"] = "tinker_self_repair", ["duration"] = 5},
+            ["actionBarName"] = "Self-Repair"
         },
         ["SPIRIT_ASSASSIN_TELEPORT"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
@@ -106,10 +123,31 @@ data = {
         },
         ["void_axe_jump"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
-            ["cooldown"] = {["id"] = "void_axe", ["duration"] = 5},
+            ["cooldown"] = {["id"] = "void_axe", ["duration"] = 6},
             ["actionBarName"] = "Void Slam"
         },
         ["SNOWBALL_LAUNCHER_CYCLE"] = {["actionBarName"] = "Switch Launcher Mode"},
+        ["ACTIVATE_EAGLE_INDICATOR"] = {
+            ["cooldown"] = {["id"] = "activate_eagle_indicator", ["duration"] = 5},
+            ["actionBarName"] = "Summon Eagle"
+        },
+        ["jellyfish_mount_swap_color"] = {
+            ["cooldown"] = {["id"] = "jellyfish_mount_swap_color", ["duration"] = 1},
+            ["actionBarName"] = "Swap Color"
+        },
+        ["electrify_jellyfish"] = {
+            ["cooldown"] = {["id"] = "electrify_jellyfish", ["duration"] = 7},
+            ["actionBarName"] = "Electrify Jellyfish"
+        },
+        ["HATTER_TELEPORT"] = {
+            ["blockingStatusEffects"] = {"grounded", "slience"},
+            ["cooldown"] = {["id"] = "hatter_teleport", ["duration"] = 3},
+            ["actionBarName"] = "Teleport"
+        },
+        ["styx_respawn"] = {
+            ["cooldown"] = {["id"] = "styx_respawn", ["duration"] = 1},
+            ["actionBarName"] = "Respawn Early"
+        },
         ["SUMMON_OWL"] = {["cooldown"] = {["id"] = "summon_owl", ["duration"] = 3}, ["actionBarName"] = "Summon Owl"},
         ["self_damage"] = {["usableProgress"] = {["progressNeededPerUse"] = 3}, ["actionBarName"] = "Self Damage"},
         ["ROCKET_BELT"] = {
@@ -118,8 +156,13 @@ data = {
             ["actionBarName"] = "Rocket Belt"
         },
         ["elk_antler_uppercut"] = {
-            ["cooldown"] = {["id"] = "elk_antler_uppercut_cooldown", ["duration"] = 15},
-            ["actionBarName"] = "Uppercut Attack"
+            ["blockingStatusEffects"] = {"grounded", "slience"},
+            ["cooldown"] = {["id"] = "elk_antler_uppercut_cooldown", ["duration"] = 12},
+            ["actionBarName"] = "Charge Attack"
+        },
+        ["tinker_summon"] = {
+            ["cooldown"] = {["id"] = "tinker_summon", ["duration"] = 15},
+            ["actionBarName"] = "Summon Talos Mech"
         },
         ["elk_summon"] = {
             ["cooldown"] = {["id"] = "elk_summon_cooldown", ["duration"] = 15},
@@ -133,10 +176,48 @@ data = {
             },
             ["actionBarName"] = "Midnight"
         },
+        ["SEND_EAGLE"] = {
+            ["cooldown"] = {["id"] = "send_eagle", ["duration"] = 0.5},
+            ["actionBarName"] = "Summon Eagle"
+        },
+        ["MENDING_CANOPY_STAFF_MANA_TIER_1"] = {
+            ["usableProgress"] = {
+                ["stacks"] = 100,
+                ["gradientRotation"] = 0,
+                ["progressNeededPerUse"] = 1,
+                ["initialProgress"] = 100,
+                ["gradient"] = "0 0.835294 0.498039 0.0705882 0 1 1 0.952941 0.00392157 0 ",
+                ["stacksBarDividerTransparency"] = 1
+            },
+            ["actionBarName"] = "Mana"
+        },
         ["STEAM_ENGINEER_OVERCLOCK"] = {
             ["blockingStatusEffects"] = {"slience"},
-            ["cooldown"] = {["id"] = "steam_engineer_overclock", ["duration"] = 25},
+            ["cooldown"] = {["id"] = "steam_engineer_overclock", ["duration"] = 22},
             ["actionBarName"] = "Overclock"
+        },
+        ["disruptor_explosion_emp"] = {
+            ["cooldown"] = {["id"] = "disruptor_explosion", ["duration"] = 12},
+            ["actionBarName"] = "Disruptor EMP"
+        },
+        ["whirling_death"] = {
+            ["cooldown"] = {["id"] = "whirling_death", ["duration"] = 10},
+            ["actionBarName"] = "Whirling Death"
+        },
+        ["MENDING_CANOPY_STAFF_MANA_TIER_2"] = {
+            ["usableProgress"] = {
+                ["stacks"] = 110,
+                ["gradientRotation"] = 0,
+                ["progressNeededPerUse"] = 1,
+                ["initialProgress"] = 110,
+                ["gradient"] = "0 0.835294 0.498039 0.0705882 0 1 1 0.952941 0.00392157 0 ",
+                ["stacksBarDividerTransparency"] = 1
+            },
+            ["actionBarName"] = "Mana"
+        },
+        ["drone_speed_boost"] = {
+            ["cooldown"] = {["id"] = "drone_speed_boost", ["duration"] = 12},
+            ["actionBarName"] = "Drone Speed Boost"
         },
         ["SLIME_DIRECT"] = {
             ["blockingStatusEffects"] = {"slience"},
@@ -144,10 +225,32 @@ data = {
             ["actionBarName"] = "Direct/Recall Slime"
         },
         ["CARD_UPGRADES"] = {["actionBarName"] = "See Current Upgrades"},
+        ["HATTER_PEEK"] = {["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 1}, ["actionBarName"] = "Peek"},
+        ["rocket_detonate"] = {
+            ["blockingStatusEffects"] = {"grounded", "shocked", "slience"},
+            ["cooldown"] = {["id"] = "rocket_detonate_cooldown", ["duration"] = 15},
+            ["actionBarName"] = "Rocket Boost"
+        },
         ["BLOCK_PICKER"] = {
             ["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 0.25},
             ["actionBarName"] = "Get current highlighted block."
         },
+        ["MENDING_CANOPY_STAFF_MANA_TIER_3"] = {
+            ["usableProgress"] = {
+                ["stacks"] = 120,
+                ["gradientRotation"] = 0,
+                ["progressNeededPerUse"] = 1,
+                ["initialProgress"] = 120,
+                ["gradient"] = "0 0.835294 0.498039 0.0705882 0 1 1 0.952941 0.00392157 0 ",
+                ["stacksBarDividerTransparency"] = 1
+            },
+            ["actionBarName"] = "Mana"
+        },
+        ["MENDING_CANOPY_STAFF_OVERCHARGE"] = {
+            ["cooldown"] = {["id"] = "mending_canopy_staff_overcharge", ["duration"] = 60},
+            ["actionBarName"] = "Overcharge Staff"
+        },
+        ["MORTAR"] = {["cooldown"] = {["id"] = "mortar", ["duration"] = 0.1}, ["actionBarName"] = "Dragon Mortar"},
         ["QUEEN_BEE_GLIDE"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "queen_bee_glide", ["duration"] = 180},
@@ -171,13 +274,21 @@ data = {
             ["cooldown"] = {["id"] = "block_kick", ["duration"] = 0.5},
             ["actionBarName"] = "Block Kick"
         },
-        ["elk_dismiss"] = {
-            ["cooldown"] = {["id"] = "elk_dismiss_cooldown", ["duration"] = 5},
-            ["actionBarName"] = "Dismount Elk"
+        ["LIGHTNING_STRIKE"] = {
+            ["cooldown"] = {["id"] = "lightning_strike", ["duration"] = 0.8},
+            ["actionBarName"] = "Lightning Strike"
         },
         ["hero_wand_bubble"] = {
             ["cooldown"] = {["id"] = "hero_wand_bubble", ["duration"] = 5},
             ["actionBarName"] = "Wand Bubble Cast"
+        },
+        ["elk_dismiss"] = {
+            ["cooldown"] = {["id"] = "elk_dismiss_cooldown", ["duration"] = 5},
+            ["actionBarName"] = "Dismount Elk"
+        },
+        ["ice_queen"] = {
+            ["cooldown"] = {["id"] = "ice_queen", ["duration"] = 15},
+            ["actionBarName"] = "Detonate Ice Stacks"
         },
         ["villain_wand_bubble"] = {
             ["cooldown"] = {["id"] = "villain_wand_bubble", ["duration"] = 5},
@@ -189,22 +300,19 @@ data = {
             ["cooldown"] = {["id"] = "wormhole", ["duration"] = 2},
             ["actionBarName"] = "Go to base"
         },
-        ["ice_queen"] = {
-            ["cooldown"] = {["id"] = "ice_queen", ["duration"] = 15},
-            ["actionBarName"] = "Detonate Ice Stacks"
+        ["dragon_sword_ult"] = {
+            ["cooldown"] = {["id"] = "dragon_sword_ult", ["duration"] = 10},
+            ["actionBarName"] = "Dragon Sword Ult"
         },
         ["SHIELDER_ULT"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "shield_indicator", ["duration"] = 1},
             ["actionBarName"] = "Leap"
         },
-        ["LIGHTNING_STRIKE"] = {
-            ["cooldown"] = {["id"] = "lightning_strike", ["duration"] = 0.8},
-            ["actionBarName"] = "Lightning Strike"
-        },
+        ["SLIME_CYCLE"] = {["blockingStatusEffects"] = {"slience"}, ["actionBarName"] = "Cycle Slime"},
         ["CAT_POUNCE"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
-            ["cooldown"] = {["id"] = "cat_pounce", ["duration"] = 7},
+            ["cooldown"] = {["id"] = "cat_pounce", ["duration"] = 10},
             ["actionBarName"] = "Pounce"
         },
         ["END_DRAGON"] = {
@@ -225,7 +333,10 @@ data = {
             ["cooldown"] = {["id"] = "card_throw", ["duration"] = 15},
             ["actionBarName"] = "Card Throw"
         },
-        ["SLIME_CYCLE"] = {["blockingStatusEffects"] = {"slience"}, ["actionBarName"] = "Cycle Slime"},
+        ["dragon_sword"] = {
+            ["cooldown"] = {["id"] = "dragon_sword", ["duration"] = 2},
+            ["actionBarName"] = "Dragon Sword"
+        },
         ["elk_mounted"] = {
             ["usableProgress"] = {
                 ["stacks"] = 3,
@@ -276,8 +387,8 @@ data = {
             ["actionBarName"] = "Trigger"
         },
         ["HOT_AIR_BALLOON_TNT"] = {
-            ["cooldown"] = {["id"] = "hot_air_balloon_tnt", ["duration"] = 1},
-            ["actionBarName"] = "Launch TNT"
+            ["cooldown"] = {["id"] = "hot_air_balloon_tnt", ["duration"] = 3},
+            ["actionBarName"] = "Drop TNT"
         },
         ["WEREWOLF_HOWL"] = {
             ["blockingStatusEffects"] = {"slience"},
@@ -380,7 +491,10 @@ data = {
             ["cooldown"] = {["id"] = "void_laser", ["duration"] = 2.4},
             ["actionBarName"] = "Void Laser"
         },
-        ["HATTER_PEEK"] = {["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 1}, ["actionBarName"] = "Peek"},
+        ["tinker_self_destruction"] = {
+            ["cooldown"] = {["id"] = "tinker_self_destruction", ["duration"] = 25},
+            ["actionBarName"] = "Self-Destruct"
+        },
         ["THRUSTER_BACKPACK"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "thruster", ["duration"] = 10},
@@ -390,10 +504,9 @@ data = {
             ["cooldown"] = {["id"] = "juggernaut_spin", ["duration"] = 10, ["config"] = {["playSounds"] = true}},
             ["actionBarName"] = "SPIN"
         },
-        ["HATTER_TELEPORT"] = {
-            ["blockingStatusEffects"] = {"grounded", "slience"},
-            ["cooldown"] = {["id"] = "hatter_teleport", ["duration"] = 3},
-            ["actionBarName"] = "Teleport"
+        ["swap_hot_potato_mode"] = {
+            ["cooldown"] = {["id"] = "swap_hot_potato_mode", ["duration"] = 1},
+            ["actionBarName"] = "Swap Hot Potato Mode"
         },
         ["USE_CONFETTI_CANNON"] = {
             ["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 20},
