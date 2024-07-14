@@ -125,6 +125,15 @@ data = {
         ["JumpAnimation"] = 1113742359,
         ["RunAnimation"] = 1113740510
     },
+    ["Bold "] = {
+        ["FallAnimation"] = 16744207822,
+        ["ClimbAnimation"] = 16744204409,
+        ["IdleAnimation"] = 16744209868,
+        ["WalkAnimation"] = 16744219182,
+        ["SwimAnimation"] = 16744217055,
+        ["JumpAnimation"] = 16744212581,
+        ["RunAnimation"] = 16744214662
+    },
     ["Toy"] = {
         ["FallAnimation"] = 973768058,
         ["ClimbAnimation"] = 973773170,
