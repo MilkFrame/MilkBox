@@ -1,9 +1,11 @@
 data = {
     ["ClanUpgradeTypeMeta"] = {
-        ["battle_pass_xp"] = {["name"] = "Battle Pass XP", ["firstUpgrade"] = "battle_pass_xp1"},
-        ["member_cap"] = {["name"] = "Member Cap", ["firstUpgrade"] = "member_cap1"},
+        ["shop"] = {["name"] = "Shop", ["firstUpgrade"] = "shop1"},
         ["clan_level"] = {["name"] = "Clan Level", ["firstUpgrade"] = "clan_level1"},
-        ["kit_shop"] = {["name"] = "Kit Shop", ["firstUpgrade"] = "kit_shop1"}
+        ["clan_icon"] = {["name"] = "Clan Emblem", ["firstUpgrade"] = "clan_icon"},
+        ["member_cap"] = {["name"] = "Member Cap", ["firstUpgrade"] = "member_cap1"},
+        ["battle_pass_xp"] = {["name"] = "Battle Pass XP", ["firstUpgrade"] = "battle_pass_xp1"},
+        ["kit_shop"] = {["disabled"] = true, ["name"] = "Kit Shop", ["firstUpgrade"] = "kit_shop1"}
     },
     ["ClanUpgradeMeta"] = {
         ["battle_pass_xp22"] = {
@@ -67,6 +69,16 @@ data = {
             ["rewards"] = {"25 → 26% xp"},
             ["nextUpgrade"] = "battle_pass_xp27",
             ["level"] = 26
+        },
+        ["shop2"] = {
+            ["prerequisites"] = {"clan_level3"},
+            ["type"] = "shop",
+            ["description"] = "Open up a shop for your clan members to purchase items!",
+            ["cost"] = 1500000,
+            ["value"] = 0,
+            ["rewards"] = {"Unlock more items"},
+            ["nextUpgrade"] = "shop3",
+            ["level"] = 2
         },
         ["battle_pass_xp24"] = {
             ["type"] = "battle_pass_xp",
@@ -211,6 +223,16 @@ data = {
             ["rewards"] = {"15 → 16% xp"},
             ["nextUpgrade"] = "battle_pass_xp17",
             ["level"] = 16
+        },
+        ["shop3"] = {
+            ["prerequisites"] = {"clan_level5"},
+            ["type"] = "shop",
+            ["description"] = "Open up a shop for your clan members to purchase items!",
+            ["cost"] = 3000000,
+            ["value"] = 0,
+            ["rewards"] = {"Unlock more items"},
+            ["nextUpgrade"] = "shop4",
+            ["level"] = 3
         },
         ["battle_pass_xp42"] = {
             ["type"] = "battle_pass_xp",
@@ -455,13 +477,22 @@ data = {
             ["nextUpgrade"] = "battle_pass_xp13",
             ["level"] = 12
         },
-        ["member_cap4"] = {
-            ["type"] = "member_cap",
-            ["description"] = "Upgrade your clan's max member slots by +5",
-            ["cost"] = 200000,
-            ["value"] = 30,
-            ["rewards"] = {"25 → 30 members"},
-            ["nextUpgrade"] = "member_cap5",
+        ["battle_pass_xp44"] = {
+            ["type"] = "battle_pass_xp",
+            ["description"] = "Upgrade the amount of Battle Pass XP your clan members gain by +1%",
+            ["cost"] = 250000,
+            ["value"] = 1.44,
+            ["rewards"] = {"43 → 44% xp"},
+            ["nextUpgrade"] = "battle_pass_xp45",
+            ["level"] = 44
+        },
+        ["shop4"] = {
+            ["type"] = "shop",
+            ["description"] = "Open up a shop for your clan members to purchase items!",
+            ["cost"] = 5000000,
+            ["value"] = 0,
+            ["rewards"] = {"Unlock more items"},
+            ["prerequisites"] = {"clan_level8"},
             ["level"] = 4
         },
         ["kit_shop2"] = {
@@ -472,6 +503,25 @@ data = {
             ["rewards"] = {"2 → 3 kits"},
             ["prerequisites"] = {"clan_level7"},
             ["level"] = 2
+        },
+        ["member_cap4"] = {
+            ["type"] = "member_cap",
+            ["description"] = "Upgrade your clan's max member slots by +5",
+            ["cost"] = 200000,
+            ["value"] = 30,
+            ["rewards"] = {"25 → 30 members"},
+            ["nextUpgrade"] = "member_cap5",
+            ["level"] = 4
+        },
+        ["shop1"] = {
+            ["prerequisites"] = {"clan_level1"},
+            ["type"] = "shop",
+            ["description"] = "Open up a shop for your clan members to purchase items!",
+            ["cost"] = 1000000,
+            ["value"] = 0,
+            ["rewards"] = {"Unlocks the shop"},
+            ["nextUpgrade"] = "shop2",
+            ["level"] = 1
         },
         ["kit_shop1"] = {
             ["prerequisites"] = {"clan_level5"},
@@ -688,14 +738,14 @@ data = {
             ["nextUpgrade"] = "battle_pass_xp21",
             ["level"] = 20
         },
-        ["battle_pass_xp44"] = {
-            ["type"] = "battle_pass_xp",
-            ["description"] = "Upgrade the amount of Battle Pass XP your clan members gain by +1%",
-            ["cost"] = 250000,
-            ["value"] = 1.44,
-            ["rewards"] = {"43 → 44% xp"},
-            ["nextUpgrade"] = "battle_pass_xp45",
-            ["level"] = 44
+        ["clan_icon"] = {
+            ["type"] = "clan_icon",
+            ["description"] = "Clan Swag",
+            ["cost"] = 500000,
+            ["value"] = 5,
+            ["rewards"] = {"Unlocks the clan emblem"},
+            ["prerequisites"] = {"clan_level3"},
+            ["level"] = 1
         },
         ["battle_pass_xp39"] = {
             ["type"] = "battle_pass_xp",
