@@ -1197,7 +1197,7 @@ data = {
     {
         ["Rarity"] = "Epic",
         ["ColorSequence"] = {Color3.fromRGB(0, 254, 170), Color3.fromRGB(0, 225, 254), Color3.fromRGB(251, 0, 254)},
-        ["Name"] = "Easter",
+        ["Name"] = "Easter 2023",
         ["Animation"] = "Vertical"
     },
     {
@@ -1418,7 +1418,563 @@ data = {
         ["ColorSequence"] = {Color3.fromRGB(72, 83, 73), Color3.fromRGB(164, 32, 63), Color3.fromRGB(72, 83, 73)},
         ["Rarity"] = "Legendary"
     },
-    ["GetColorName"] = "function: 0x00000000055b82a9",
-    ["GetColorRarity"] = "function: 0x0000000044241219",
-    ["GetColorTable"] = "function: 0x000000006061ba41"
+    {
+        ["Name"] = "Hallerween",
+        ["Animation"] = "VerticalStatic",
+        ["Color"] = Color3.fromRGB(145, 53, 184),
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 169, 101),
+            Color3.fromRGB(255, 110, 138),
+            Color3.fromRGB(129, 72, 219),
+            Color3.fromRGB(15, 2, 39)
+        },
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Name"] = "Jolly",
+        ["Animation"] = "VerticalStatic",
+        ["Color"] = Color3.fromRGB(191, 0, 176),
+        ["ColorSequence"] = {
+            Color3.fromRGB(191, 0, 176),
+            Color3.fromRGB(255, 116, 189),
+            Color3.fromRGB(255, 255, 137),
+            Color3.fromRGB(109, 255, 216),
+            Color3.fromRGB(0, 113, 191)
+        },
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Name"] = "Frost",
+        ["Animation"] = "VerticalStatic",
+        ["Color"] = Color3.fromRGB(0, 26, 148),
+        ["ColorSequence"] = {Color3.fromRGB(0, 26, 148), Color3.fromRGB(0, 86, 148), Color3.fromRGB(6, 199, 203)},
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Name"] = "Sunset",
+        ["Animation"] = "VerticalStatic",
+        ["Color"] = Color3.fromRGB(252, 222, 108),
+        ["ColorSequence"] = {Color3.fromRGB(252, 222, 108), Color3.fromRGB(252, 181, 108), Color3.fromRGB(252, 71, 59)},
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Name"] = "S'cone Friend",
+        ["Animation"] = "Movement",
+        ["Color"] = Color3.fromRGB(252, 222, 108),
+        ["ColorSequence"] = {Color3.fromRGB(78, 90, 201), Color3.fromRGB(213, 40, 75)},
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = -109,
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 0, 0),
+            Color3.fromRGB(255, 85, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(0, 170, 0),
+            Color3.fromRGB(0, 0, 255),
+            Color3.fromRGB(170, 0, 255)
+        },
+        ["Name"] = "VERY SPECIAL",
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Rotation"] = -109,
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 220, 116),
+            Color3.fromRGB(209, 0, 0),
+            Color3.fromRGB(85, 255, 127),
+            Color3.fromRGB(0, 170, 170)
+        },
+        ["Name"] = "Fireworks",
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["Rotation"] = -45,
+        ["ColorSequence"] = {
+            Color3.fromRGB(0, 170, 0),
+            Color3.fromRGB(255, 0, 0),
+            Color3.fromRGB(0, 170, 0),
+            Color3.fromRGB(255, 0, 0)
+        },
+        ["Name"] = "Festive",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(11, 14, 76),
+            Color3.fromRGB(27, 33, 144),
+            Color3.fromRGB(116, 127, 239),
+            Color3.fromRGB(168, 255, 255),
+            Color3.fromRGB(209, 223, 250)
+        },
+        ["Name"] = "Cryogenic",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 248, 238),
+            Color3.fromRGB(228, 194, 140),
+            Color3.fromRGB(240, 229, 210),
+            Color3.fromRGB(161, 134, 96),
+            Color3.fromRGB(117, 78, 90)
+        },
+        ["Name"] = "Soul Slasher",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(206, 106, 46),
+            Color3.fromRGB(254, 229, 134),
+            Color3.fromRGB(231, 154, 75),
+            Color3.fromRGB(138, 186, 226),
+            Color3.fromRGB(232, 155, 75)
+        },
+        ["Name"] = "Wildcat",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 216, 14),
+            Color3.fromRGB(255, 160, 9),
+            Color3.fromRGB(252, 56, 0),
+            Color3.fromRGB(147, 127, 6),
+            Color3.fromRGB(87, 159, 0)
+        },
+        ["Name"] = "Pepper",
+        ["Animation"] = "Rotation"
+    },
+    {
+        ["Rarity"] = "Legendary",
+        ["ColorSequence"] = {Color3.fromRGB(218, 33, 103), Color3.fromRGB(43, 35, 54)},
+        ["Name"] = "Scarlet Clouds",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Legendary",
+        ["ColorSequence"] = {Color3.fromRGB(243, 154, 173), Color3.fromRGB(76, 43, 76)},
+        ["Name"] = "Nebulous",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(61, 51, 160),
+            Color3.fromRGB(53, 41, 145),
+            Color3.fromRGB(85, 121, 191),
+            Color3.fromRGB(150, 129, 188),
+            Color3.fromRGB(222, 222, 245),
+            Color3.fromRGB(122, 197, 253),
+            Color3.fromRGB(74, 114, 184),
+            Color3.fromRGB(239, 205, 98)
+        },
+        ["Name"] = "Cosmos",
+        ["Rarity"] = "Legendary"
+    },
+    {
+        ["ColorSequence"] = {Color3.fromRGB(246, 207, 222), Color3.fromRGB(101, 113, 132)},
+        ["Name"] = "Lilypad",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(31, 39, 48),
+            Color3.fromRGB(36, 80, 145),
+            Color3.fromRGB(52, 58, 66),
+            Color3.fromRGB(56, 82, 255),
+            Color3.fromRGB(52, 98, 184),
+            Color3.fromRGB(66, 95, 145),
+            Color3.fromRGB(255, 255, 255)
+        },
+        ["Name"] = "The Three",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {
+            Color3.fromRGB(46, 182, 236),
+            Color3.fromRGB(14, 80, 222),
+            Color3.fromRGB(27, 58, 121),
+            Color3.fromRGB(34, 37, 80),
+            Color3.fromRGB(95, 82, 196),
+            Color3.fromRGB(176, 92, 227),
+            Color3.fromRGB(11, 54, 206)
+        },
+        ["Name"] = "Galaxy",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 146, 163),
+            Color3.fromRGB(143, 80, 183),
+            Color3.fromRGB(255, 146, 163),
+            Color3.fromRGB(143, 80, 183),
+            Color3.fromRGB(255, 146, 163),
+            Color3.fromRGB(143, 80, 183)
+        },
+        ["Name"] = "Perfume",
+        ["Rarity"] = "Rare"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(152, 28, 49)}, ["Name"] = "Red Skull", ["Rarity"] = "Common"},
+    {
+        ["ColorSequence"] = {Color3.fromRGB(255, 0, 0), Color3.fromRGB(255, 127, 191), Color3.fromRGB(162, 0, 255)},
+        ["Name"] = "Valentine's Day",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["ColorSequence"] = {Color3.fromRGB(90, 194, 200), Color3.fromRGB(255, 255, 255), Color3.fromRGB(90, 194, 200)},
+        ["Name"] = "Diamond",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(106, 171, 110),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(106, 171, 110),
+            Color3.fromRGB(106, 171, 110)
+        },
+        ["Name"] = "Planty Stare",
+        ["Rarity"] = "Common"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(249, 203, 156)}, ["Name"] = "Food", ["Rarity"] = "Common"},
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(249, 203, 156),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(249, 203, 156),
+            Color3.fromRGB(249, 203, 156)
+        },
+        ["Name"] = "Foodie Stare",
+        ["Rarity"] = "Common"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(168, 153, 170)}, ["Name"] = "Gargoyle", ["Rarity"] = "Common"},
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(168, 153, 170),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(249, 203, 156),
+            Color3.fromRGB(249, 203, 156)
+        },
+        ["Name"] = "Stone Cold Stare",
+        ["Rarity"] = "Common"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(103, 154, 192)}, ["Name"] = "Aqua", ["Rarity"] = "Common"},
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(103, 154, 192),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(103, 154, 192),
+            Color3.fromRGB(103, 154, 192)
+        },
+        ["Name"] = "Watery Stare",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {
+            Color3.fromRGB(229, 236, 238),
+            Color3.fromRGB(136, 212, 238),
+            Color3.fromRGB(229, 236, 238)
+        },
+        ["Name"] = "Yeti",
+        ["Rarity"] = "Uncommon"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {Color3.fromRGB(72, 61, 47), Color3.fromRGB(254, 253, 231), Color3.fromRGB(72, 61, 47)},
+        ["Name"] = "Smiling Mask",
+        ["Rarity"] = "Uncommon"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {Color3.fromRGB(127, 81, 251), Color3.fromRGB(252, 213, 32), Color3.fromRGB(127, 81, 251)},
+        ["Name"] = "Poisonous Sparks",
+        ["Rarity"] = "Uncommon"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(230, 191, 106),
+            Color3.fromRGB(79, 122, 147),
+            Color3.fromRGB(230, 191, 106),
+            Color3.fromRGB(79, 122, 147)
+        },
+        ["Name"] = "Gold Diamonds",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {Color3.fromRGB(90, 194, 200), Color3.fromRGB(255, 228, 98)},
+        ["Name"] = "Sparky Crystal",
+        ["Animation"] = "Rotation"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(171, 50, 68),
+            Color3.fromRGB(253, 248, 238),
+            Color3.fromRGB(171, 50, 68),
+            Color3.fromRGB(253, 248, 238),
+            Color3.fromRGB(171, 50, 68),
+            Color3.fromRGB(253, 248, 238)
+        },
+        ["Name"] = "Buoyancy",
+        ["Rarity"] = "Uncommon"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {Color3.fromRGB(39, 42, 58), Color3.fromRGB(215, 230, 255), Color3.fromRGB(123, 151, 201)},
+        ["Name"] = "Ice Scarf",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {
+            Color3.fromRGB(238, 255, 219),
+            Color3.fromRGB(156, 213, 135),
+            Color3.fromRGB(238, 255, 219)
+        },
+        ["Name"] = "Froggy",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {Color3.fromRGB(253, 207, 126), Color3.fromRGB(86, 214, 239), Color3.fromRGB(253, 207, 126)},
+        ["Name"] = "Emperor",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 90,
+        ["ColorSequence"] = {
+            Color3.fromRGB(249, 176, 176),
+            Color3.fromRGB(253, 226, 180),
+            Color3.fromRGB(181, 247, 253)
+        },
+        ["Name"] = "Pastel Rainbow",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 45,
+        ["ColorSequence"] = {Color3.fromRGB(0, 0, 0), Color3.fromRGB(255, 255, 255), Color3.fromRGB(0, 0, 0)},
+        ["Name"] = "Tuxedo",
+        ["Rarity"] = "Rare"
+    },
+    {
+        ["Rotation"] = 45,
+        ["ColorSequence"] = {Color3.fromRGB(255, 126, 176), Color3.fromRGB(27, 200, 165), Color3.fromRGB(255, 239, 222)},
+        ["Name"] = "Kitty Dango",
+        ["Rarity"] = "Rare"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(10, 136, 167)}, ["Name"] = "Azure", ["Rarity"] = "Common"},
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(141, 81, 255),
+            Color3.fromRGB(255, 139, 253),
+            Color3.fromRGB(136, 220, 255),
+            Color3.fromRGB(186, 134, 255)
+        },
+        ["Name"] = "Catface",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {Color3.fromRGB(234, 150, 85), Color3.fromRGB(254, 254, 254), Color3.fromRGB(133, 133, 133)},
+        ["Name"] = "Calico",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {Color3.fromRGB(120, 217, 253), Color3.fromRGB(232, 193, 211), Color3.fromRGB(68, 64, 65)},
+        ["Name"] = "Epic Gamer",
+        ["Animation"] = "Movement"
+    },
+    {["ColorSequence"] = {Color3.fromRGB(34, 48, 119)}, ["Name"] = "Mythic", ["Rarity"] = "Common"},
+    {
+        ["ColorSequence"] = {Color3.fromRGB(0, 255, 255), Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 255, 255)},
+        ["Name"] = "Frozen Wasteland",
+        ["Rarity"] = "Uncommon"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(170, 255, 255),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(170, 255, 255)
+        },
+        ["Name"] = "Icy Guardian",
+        ["Animation"] = "Fade"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {
+            Color3.fromRGB(162, 198, 202),
+            Color3.fromRGB(200, 173, 152),
+            Color3.fromRGB(201, 246, 251)
+        },
+        ["Name"] = "Bug Zapper",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(0, 254, 0),
+            Color3.fromRGB(0, 150, 225),
+            Color3.fromRGB(0, 225, 254),
+            Color3.fromRGB(0, 254, 0)
+        },
+        ["Name"] = "Spring",
+        ["Animation"] = "Vertical"
+    },
+    {
+        ["Rarity"] = "Unique",
+        ["ColorSequence"] = {
+            Color3.fromRGB(85, 255, 127),
+            Color3.fromRGB(170, 255, 255),
+            Color3.fromRGB(255, 171, 228),
+            Color3.fromRGB(255, 170, 0)
+        },
+        ["Name"] = "Translator",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(233, 156, 191),
+            Color3.fromRGB(206, 255, 250),
+            Color3.fromRGB(255, 244, 181),
+            Color3.fromRGB(241, 242, 242)
+        },
+        ["Name"] = "Easter",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["ColorSequence"] = {Color3.fromRGB(255, 255, 0), Color3.fromRGB(255, 165, 0), Color3.fromRGB(160, 82, 45)},
+        ["Name"] = "Glory",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(160, 82, 45),
+            Color3.fromRGB(160, 82, 45),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0)
+        },
+        ["Name"] = "Convivial",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["Rarity"] = "Common",
+        ["ColorSequence"] = {
+            Color3.fromRGB(0, 0, 255),
+            Color3.fromRGB(0, 0, 255),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(0, 0, 255),
+            Color3.fromRGB(0, 0, 255)
+        },
+        ["Name"] = "Amiable",
+        ["Animation"] = "Vertical"
+    },
+    {
+        ["Rarity"] = "Common",
+        ["ColorSequence"] = {
+            Color3.fromRGB(0, 255, 255),
+            Color3.fromRGB(0, 255, 255),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(0, 255, 255),
+            Color3.fromRGB(0, 255, 255)
+        },
+        ["Name"] = "Affable",
+        ["Animation"] = "Vertical"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 255),
+            Color3.fromRGB(255, 255, 255)
+        },
+        ["Name"] = "Divine",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["ColorSequence"] = {Color3.fromRGB(0, 0, 0), Color3.fromRGB(255, 0, 0), Color3.fromRGB(0, 0, 0)},
+        ["Name"] = "Fiend",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(93, 126, 153),
+            Color3.fromRGB(139, 170, 197),
+            Color3.fromRGB(91, 104, 128),
+            Color3.fromRGB(209, 231, 243),
+            Color3.fromRGB(46, 58, 80)
+        },
+        ["Name"] = "Elegance",
+        ["Animation"] = "Movement"
+    },
+    {
+        ["Rarity"] = "Epic",
+        ["ColorSequence"] = {
+            Color3.fromRGB(253, 242, 225),
+            Color3.fromRGB(246, 215, 176),
+            Color3.fromRGB(255, 209, 112),
+            Color3.fromRGB(233, 149, 47),
+            Color3.fromRGB(178, 122, 74),
+            Color3.fromRGB(195, 102, 20)
+        },
+        ["Name"] = "Chronokeeper",
+        ["Animation"] = "Fade"
+    },
+    {
+        ["ColorSequence"] = {
+            Color3.fromRGB(160, 82, 45),
+            Color3.fromRGB(160, 82, 45),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(255, 255, 0),
+            Color3.fromRGB(160, 82, 45),
+            Color3.fromRGB(160, 82, 45)
+        },
+        ["Name"] = "Reverse Convivial",
+        ["Rarity"] = "Common"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {Color3.fromRGB(248, 217, 109), Color3.fromRGB(9, 137, 207), Color3.fromRGB(140, 91, 159)},
+        ["Name"] = "Alchemist",
+        ["Animation"] = "Vertical"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {
+            Color3.fromRGB(240, 99, 217),
+            Color3.fromRGB(217, 62, 66),
+            Color3.fromRGB(217, 100, 64),
+            Color3.fromRGB(226, 176, 70),
+            Color3.fromRGB(252, 113, 58)
+        },
+        ["Name"] = "Summer",
+        ["Animation"] = "Vertical"
+    },
+    {
+        ["Rarity"] = "Rare",
+        ["ColorSequence"] = {
+            Color3.fromRGB(255, 32, 78),
+            Color3.fromRGB(160, 21, 62),
+            Color3.fromRGB(93, 14, 65),
+            Color3.fromRGB(0, 34, 77)
+        },
+        ["Name"] = "Phantom",
+        ["Animation"] = "Vertical"
+    },
+    {},
+    ["GetColorName"] = "function: 0x61c3a349bea2497c",
+    ["GetColorRarity"] = "function: 0x4075191fbae0bbdc",
+    ["GetColorTable"] = "function: 0xf05ea424fa81d10c"
 }
