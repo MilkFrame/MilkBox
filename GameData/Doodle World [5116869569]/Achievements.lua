@@ -753,7 +753,7 @@ data = {
     },
     {
         ["Tasks"] = {
-            {["Amount"] = 2, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Print"},
             {["Amount"] = 5000, ["Type"] = "Experience"},
             {["Amount"] = 1, ["Type"] = "Evolve"}
         },
@@ -1193,7 +1193,7 @@ data = {
     },
     {
         ["Tasks"] = {
-            {["Amount"] = 3, ["Type"] = "Capture"},
+            {["Amount"] = 3, ["Type"] = "Print"},
             {["Amount"] = 50, ["Type"] = "Faint"},
             {["Amount"] = 2, ["Type"] = "Evolve"}
         },
@@ -1201,7 +1201,7 @@ data = {
     },
     {
         ["Tasks"] = {
-            {["Type"] = "UseMove", ["Move"] = "Crystal Storm", ["Amount"] = 25},
+            {["Type"] = "UseMove", ["Move"] = "Geode Smash", ["Amount"] = 25},
             {["Amount"] = 50, ["Type"] = "CauseFaint"},
             {["Amount"] = 1, ["Type"] = "MaxFriendship"}
         },
@@ -1209,7 +1209,7 @@ data = {
     },
     {
         ["Tasks"] = {
-            {["Type"] = "UseMove", ["Move"] = "Radiant Beam", ["Amount"] = 50},
+            {["Type"] = "UseMove", ["Move"] = "Aurora Flash", ["Amount"] = 50},
             {["Amount"] = 100, ["Type"] = "CauseFaint"},
             {["Amount"] = 1, ["Type"] = "MaxFriendship"}
         },
@@ -1922,6 +1922,62 @@ data = {
     {
         ["Tasks"] = {
             {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 20, ["Type"] = "Faint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 195, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "UseMove", ["Move"] = "Body Slam", ["Amount"] = 30},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Amount"] = 20, ["Type"] = "Levelup"}
+        },
+        ["Reward"] = {["Number"] = 196, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Print"},
+            {["Amount"] = 20, ["Type"] = "Faint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 198, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "UseMove", ["Move"] = "Psychoforce", ["Amount"] = 30},
+            {["Amount"] = 20, ["Type"] = "CauseFaint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = "Lethal Ornament", ["Type"] = "Item", ["Amount"] = 1}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "UseMove", ["Move"] = "Psychoforce", ["Amount"] = 80},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Amount"] = 10000, ["Type"] = "Experience"}
+        },
+        ["Reward"] = {["Number"] = "Roulette Ticket", ["Type"] = "Item", ["Amount"] = 1}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 30, ["Type"] = "Faint"},
+            {["Amount"] = 25, ["Type"] = "Levelup"}
+        },
+        ["Reward"] = {["Number"] = "22", ["Type"] = "Equipment", ["Amount"] = 1, ["EquipType"] = "Artifact"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "UseMove", ["Move"] = "Cone Cannon", ["Amount"] = 80},
+            {["Amount"] = 30, ["Type"] = "CauseFaint"},
+            {["Type"] = "Status", ["StatusEffect"] = "Frozen", ["Amount"] = 25}
+        },
+        ["Reward"] = {["Number"] = 178, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
             {["Amount"] = 80, ["Type"] = "CauseFaint"},
             {["Amount"] = 10, ["Type"] = "Levelup"}
         },
@@ -1977,6 +2033,14 @@ data = {
     },
     {
         ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Elemental Claws", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Type"] = "Skin", ["Skin"] = 1, ["DoodleLine"] = "Lacergen"}
+    },
+    {
+        ["Tasks"] = {
             {["Type"] = "Status", ["StatusEffect"] = "Poison", ["Amount"] = 10},
             {["Amount"] = 1, ["Type"] = "MaxFriendship"},
             {["Amount"] = 20, ["Type"] = "Levelup"}
@@ -1990,6 +2054,38 @@ data = {
             {["Amount"] = 10, ["Type"] = "Levelup"}
         },
         ["Reward"] = {["Number"] = 142, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Print"},
+            {["Amount"] = 10, ["Type"] = "Levelup"}
+        },
+        ["Reward"] = {["Number"] = 181, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 25, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Aerial", ["Amount"] = 10},
+            {["Amount"] = 20, ["Type"] = "Levelup"}
+        },
+        ["Reward"] = {["Number"] = "Joyous Bauble", ["Type"] = "Item", ["Amount"] = 1}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Festive Fervor", ["Amount"] = 20},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"}
+        },
+        ["Reward"] = {["Number"] = 201, ["Type"] = "Title", ["Amount"] = 1}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 250, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Mythic Blast", ["Amount"] = 100}
+        },
+        ["Reward"] = {["Number"] = 219, ["Type"] = "Color"}
     },
     {
         ["Tasks"] = {
@@ -2054,6 +2150,54 @@ data = {
             {["Type"] = "UseMove", ["Move"] = "Fireball", ["Amount"] = 20}
         },
         ["Reward"] = {["Type"] = "Skin", ["Skin"] = 1, ["DoodleLine"] = "Infurnius"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 10, ["Type"] = "Levelup"},
+            {["Type"] = "UseMove", ["Move"] = "Vague Vortex", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Type"] = "Skin", ["Skin"] = 1, ["DoodleLine"] = "Arachniak"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 30, ["Type"] = "Levelup"},
+            {["Type"] = "UseMove", ["Move"] = "Cone of Cold", ["Amount"] = 100}
+        },
+        ["Reward"] = {["Type"] = "Skin", ["Skin"] = 1, ["DoodleLine"] = "Artifixie"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Fast Food", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Number"] = 253, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "CauseFaint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Aurora Flash", ["Amount"] = 40}
+        },
+        ["Reward"] = {["Number"] = "Energy Carrot", ["Type"] = "Item", ["Amount"] = 1}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "CauseFaint"},
+            {["Amount"] = 25, ["Type"] = "Levelup"},
+            {["Type"] = "UseMove", ["Move"] = "Air Strike", ["Amount"] = 100}
+        },
+        ["Reward"] = {["Number"] = 225, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 10, ["Type"] = "Levelup"},
+            {["Type"] = "UseMove", ["Move"] = "Surprise!", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Type"] = "Skin", ["Skin"] = 1, ["DoodleLine"] = "Bungo"}
     },
     {
         ["Tasks"] = {
@@ -2358,5 +2502,405 @@ data = {
             {["Type"] = "UseMove", ["Move"] = "Leaf Sap", ["Amount"] = 20}
         },
         ["Reward"] = {["Number"] = 166, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 5000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Quick Strike", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 195, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 10000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Branch Launch", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 196, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "Levelup"},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 200, ["Type"] = "CauseFaint"}
+        },
+        ["Reward"] = {["Number"] = 215, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 5000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Snack Chomp", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 197, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 10000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Itchy Bite", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 198, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "Levelup"},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 200, ["Type"] = "CauseFaint"}
+        },
+        ["Reward"] = {["Number"] = 216, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 5000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Whisper", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 199, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 10000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Gust", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 200, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "Levelup"},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 200, ["Type"] = "CauseFaint"}
+        },
+        ["Reward"] = {["Number"] = 217, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 5000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Waterbolt", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 201, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 10000, ["Type"] = "Experience"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "UseMove", ["Move"] = "Iron Slash", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 202, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 30, ["Type"] = "Levelup"},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 200, ["Type"] = "CauseFaint"}
+        },
+        ["Reward"] = {["Number"] = 218, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Amount"] = 2, ["Type"] = "Print"}
+        },
+        ["Reward"] = {["Number"] = 212, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 25, ["Type"] = "Levelup"},
+            {["Amount"] = 5000, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Aerial", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Number"] = 192, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Amount"] = 2, ["Type"] = "Print"}
+        },
+        ["Reward"] = {["Number"] = 213, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 150, ["Type"] = "CauseFaint"},
+            {["Amount"] = 5000, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Vague Vortex", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Number"] = 193, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "Status", ["StatusEffect"] = "Frozen", ["Amount"] = 10}
+        },
+        ["Reward"] = {["Number"] = 219, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 150, ["Type"] = "CauseFaint"},
+            {["Amount"] = 2500, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Snow Roller", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Number"] = 203, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 10, ["Type"] = "Capture"},
+            {["Amount"] = 25, ["Type"] = "Faint"},
+            {["Type"] = "UseMove", ["Move"] = "Bowling Strike", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = "Ice Taffy", ["Type"] = "Item", ["Amount"] = 5}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Print"},
+            {["Amount"] = 1, ["Type"] = "Evolve"},
+            {["Type"] = "Status", ["StatusEffect"] = "Rage", ["Amount"] = 10}
+        },
+        ["Reward"] = {["Number"] = 220, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Amount"] = 2500, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Meteor Launch", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 221, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 25, ["Type"] = "Faint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = "Beast Taffy", ["Type"] = "Item", ["Amount"] = 3}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Double Bite", ["Amount"] = 22},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 204, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 44, ["Type"] = "CauseFaint"},
+            {["Amount"] = 2222, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Treacherous Gnaw", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 222, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 15, ["Type"] = "Faint"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 205, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "CauseFaint"},
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Type"] = "UseMove", ["Move"] = "Thunder Strike", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 223, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 1, ["Type"] = "Print"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = "Crystal Candy Cube", ["Type"] = "Item", ["Amount"] = 3}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 24, ["Type"] = "CauseFaint"},
+            {["Amount"] = 240, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 206, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 2424, ["Type"] = "DealDamage"},
+            {["Type"] = "UseMove", ["Move"] = "Diamond Dash", ["Amount"] = 24}
+        },
+        ["Reward"] = {["Number"] = 224, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "Status", ["StatusEffect"] = "Paralysis", ["Amount"] = 5},
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 10, ["Type"] = "Faint"}
+        },
+        ["Reward"] = {["Number"] = 207, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "Status", ["StatusEffect"] = "Paralysis", ["Amount"] = 20},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Electro Bite", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 225, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 2, ["Type"] = "Capture"},
+            {["Amount"] = 2, ["Type"] = "Print"},
+            {["Amount"] = 2, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 208, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Curious Beam", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 226, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Steel Crusher", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 227, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 350, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 228, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Icy Slash", ["Amount"] = 30}
+        },
+        ["Reward"] = {["Number"] = 209, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Print"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 242, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 350, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 241, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "MaxFriendship"},
+            {["Amount"] = 50, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Hit-n-Run", ["Amount"] = 20}
+        },
+        ["Reward"] = {["Number"] = 240, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 243, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Type"] = "UseMove", ["Move"] = "Shock Wave", ["Amount"] = 30},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 244, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "Levelup"},
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Antenna Beam", ["Amount"] = 40}
+        },
+        ["Reward"] = {["Number"] = 222, ["Type"] = "Color"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 247, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "Levelup"},
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Thorny Thwack", ["Amount"] = 40}
+        },
+        ["Reward"] = {["Number"] = 248, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 249, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "Levelup"},
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Landslide", ["Amount"] = 40}
+        },
+        ["Reward"] = {["Number"] = 250, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 251, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 20, ["Type"] = "Levelup"},
+            {["Amount"] = 100, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Psychoforce", ["Amount"] = 40}
+        },
+        ["Reward"] = {["Number"] = 252, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 1, ["Type"] = "Capture"},
+            {["Amount"] = 100, ["Type"] = "DealDamage"},
+            {["Amount"] = 1, ["Type"] = "Evolve"}
+        },
+        ["Reward"] = {["Number"] = 265, ["Type"] = "Title"}
+    },
+    {
+        ["Tasks"] = {
+            {["Amount"] = 25, ["Type"] = "Levelup"},
+            {["Amount"] = 120, ["Type"] = "CauseFaint"},
+            {["Type"] = "UseMove", ["Move"] = "Pursuit", ["Amount"] = 50}
+        },
+        ["Reward"] = {["Number"] = 266, ["Type"] = "Title"}
     }
 }
