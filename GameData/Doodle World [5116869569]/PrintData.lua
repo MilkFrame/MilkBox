@@ -16,6 +16,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12422956036",
         ["BaseForm"] = "Grimsugar",
         ["PrintMoves"] = {
+            "Feast",
             "Aurora Flash",
             "Opal Pulse",
             "Sonata of Darkness",
@@ -23,6 +24,21 @@ data = {
             "Siphon Soul",
             "Takeout",
             "Just Desserts"
+        }
+    },
+    ["Scorsurge"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16530724228",
+        ["BaseForm"] = "Zapion",
+        ["PrintMoves"] = {
+            "Fiery Slash",
+            "Pylons",
+            "Toughen",
+            "Takeout",
+            "Mock Charge",
+            "Earth Surge",
+            "Piercing Poke",
+            "Reckless Charge"
         }
     },
     ["Jelluminous"] = {
@@ -52,6 +68,23 @@ data = {
             "Nutrient Drain",
             "Dispose",
             "Trade"
+        }
+    },
+    ["Fummasu"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16230093530",
+        ["BaseForm"] = "Perfumi",
+        ["PrintMoves"] = {
+            "Hit-n-Run",
+            "Heal",
+            "Protect",
+            "Trade",
+            "Sylphid",
+            "Purge",
+            "Dispose",
+            "Enlightenment",
+            "Toughen",
+            "Tourniquet"
         }
     },
     ["Exoskelis"] = {
@@ -113,14 +146,29 @@ data = {
             "Rip Current",
             "Body Slam",
             "Hyper Voice",
-            "Reverse Singularity"
+            "Reverse Singularity",
+            "Protect"
         }
     },
     ["Henchum"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284947250",
         ["BaseForm"] = "Riffrat",
-        ["PrintMoves"] = {"Capsize", "Trade", "Precision Dart", "Body Throw", "Dark Blast", "Toughen"}
+        ["PrintMoves"] = {"Capsize", "Trade", "Precision Dart", "Body Throw", "Dark Blast", "Toughen", "Dispose"}
+    },
+    ["Garghoul"] = {
+        ["Speed"] = "Very Slow",
+        ["TicketImage"] = "rbxassetid://16510391716",
+        ["BaseForm"] = "Mabat",
+        ["PrintMoves"] = {
+            "Sonata of Darkness",
+            "Necromancy",
+            "Fatal Flaw",
+            "Consume Treasure",
+            "Darkness Expansion",
+            "Hit-n-Run",
+            "Vampiric Strike"
+        }
     },
     ["Desdog"] = {
         ["Speed"] = "Slow",
@@ -133,6 +181,8 @@ data = {
         ["TicketImage"] = "rbxassetid://12284944291",
         ["BaseForm"] = "Malotrick",
         ["PrintMoves"] = {
+            "Shadow Lurk",
+            "Hydraulic Crash",
             "Fatal Flaw",
             "Night Night",
             "Panhandle",
@@ -167,7 +217,16 @@ data = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284942440",
         ["BaseForm"] = "Potunk",
-        ["PrintMoves"] = {"Mercury Puddle", "Opal Pulse", "Psychic Ram", "Soulfire", "Hex", "Curse", "Dispose"}
+        ["PrintMoves"] = {
+            "Siphon Soul",
+            "Mercury Puddle",
+            "Opal Pulse",
+            "Psychic Ram",
+            "Soulfire",
+            "Hex",
+            "Curse",
+            "Dispose"
+        }
     },
     ["Polargeist"] = {
         ["Speed"] = "Slow",
@@ -187,7 +246,15 @@ data = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284947977",
         ["BaseForm"] = "Agotoad",
-        ["PrintMoves"] = {"Opal Pulse", "Sandstorm", "Solid Charge", "Boil Bomb", "Flames of Gehenna", "Trap"}
+        ["PrintMoves"] = {
+            "Opal Pulse",
+            "Sandstorm",
+            "Solid Charge",
+            "Boil Bomb",
+            "Flames of Gehenna",
+            "Trap",
+            "Incinerate"
+        }
     },
     ["Glubbie"] = {
         ["TicketImage"] = "rbxassetid://12351278582",
@@ -207,6 +274,21 @@ data = {
         ["BaseForm"] = "Glubbie",
         ["NoPrint"] = true
     },
+    ["Snowclowne"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://15591291144",
+        ["BaseForm"] = "Ciyrup",
+        ["PrintMoves"] = {
+            "Snap Freeze",
+            "Nutrient Drain",
+            "Hyper Voice",
+            "Feast",
+            "Aquagel",
+            "Takeout",
+            "Louis Prayer",
+            "Absolute Zero"
+        }
+    },
     ["Aluminja"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284942221",
@@ -217,7 +299,18 @@ data = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284948578",
         ["BaseForm"] = "Yagoat",
-        ["PrintMoves"] = {"Psychic Ram", "Savage Blow", "Capsize", "Shatter", "Heat Bash", "Cutesy Glare", "Jolt"}
+        ["PrintMoves"] = {
+            "Mock Charge",
+            "War Cry",
+            "Hyper Voice",
+            "Psychic Ram",
+            "Savage Blow",
+            "Capsize",
+            "Shatter",
+            "Heat Bash",
+            "Cutesy Glare",
+            "Jolt"
+        }
     },
     ["Emperoflame"] = {
         ["Speed"] = "Normal",
@@ -249,7 +342,15 @@ data = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284942363",
         ["BaseForm"] = "Grunkul",
-        ["PrintMoves"] = {"Mercury Puddle", "Snack Chomp", "Sedimentary Defense", "Chemical Cleave", "Protect", "Howl"}
+        ["PrintMoves"] = {
+            "Heat Bash",
+            "Mercury Puddle",
+            "Snack Chomp",
+            "Sedimentary Defense",
+            "Chemical Cleave",
+            "Protect",
+            "Howl"
+        }
     },
     ["Voltatoo"] = {
         ["Speed"] = "Fast",
@@ -262,6 +363,22 @@ data = {
         ["TicketImage"] = "rbxassetid://12284941805",
         ["BaseForm"] = "Squonk",
         ["PrintMoves"] = {"Rage Spores", "Hex", "Hexblade", "Thorns of Wrath", "Soulfire", "Crocodile Tears", "Boo!"}
+    },
+    ["Carnivower"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://17740226420",
+        ["BaseForm"] = "Blossaur",
+        ["PrintMoves"] = {
+            "Icy Bite",
+            "Fiery Bite",
+            "Electro Bite",
+            "Ravenous Rush",
+            "War Cry",
+            "Marking Bite",
+            "Itchy Bite",
+            "Devour",
+            "Heal"
+        }
     },
     ["Junipyro"] = {
         ["Speed"] = "Very Slow",
@@ -305,11 +422,30 @@ data = {
             "Fin Slash"
         }
     },
+    ["Fancyoon"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=15226486201",
+        ["BaseForm"] = "Dustoon",
+        ["PrintMoves"] = {
+            "Hit-n-Run",
+            "Toughen",
+            "Heal",
+            "Careless Assault",
+            "Foreign Substance",
+            "Scapegoat",
+            "Protect",
+            "Dark Slash",
+            "Sharpen",
+            "Devour",
+            "Drill Sergeant",
+            "Relief"
+        }
+    },
     ["Gomutt"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284947181",
         ["BaseForm"] = "Muttish",
-        ["PrintMoves"] = {"Crush", "Snack Chomp", "Fatten Up", "Iron Chomp", "Savage Blow", "Solid Charge"}
+        ["PrintMoves"] = {"Icy Slash", "Crush", "Snack Chomp", "Fatten Up", "Iron Chomp", "Savage Blow", "Solid Charge"}
     },
     ["Vuliable"] = {
         ["Speed"] = "Very Slow",
@@ -330,6 +466,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12726735132",
         ["BaseForm"] = "Fluppy",
         ["PrintMoves"] = {
+            "Light Hook",
             "Rage Spores",
             "Hex",
             "Crocodile Tears",
@@ -373,6 +510,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12491240535",
         ["BaseForm"] = "Mauspunch",
         ["PrintMoves"] = {
+            "Light Hook",
             "Fiery Punch",
             "Icy Punch",
             "Electro Punch",
@@ -386,6 +524,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12876927571",
         ["Speed"] = "Legendary",
         ["PrintMoves"] = {
+            "Necromancy",
             "Air Strike",
             "Fireball",
             "Sob",
@@ -394,7 +533,8 @@ data = {
             "Marking Bite",
             "Crush",
             "Shadow Lurk",
-            "Ravenous Rush"
+            "Ravenous Rush",
+            "Boo!"
         },
         ["BaseForm"] = "Reliconis",
         ["NoPrint"] = true
@@ -404,6 +544,7 @@ data = {
         ["TicketImage"] = "rbxassetid://12284948867",
         ["BaseForm"] = "Bunsweet",
         ["PrintMoves"] = {
+            "Light Hook",
             "Louis Prayer",
             "Protect",
             "Hex Punch",
@@ -427,7 +568,8 @@ data = {
             "Shadow Lurk",
             "Sharpen",
             "Toxic Bomb",
-            "Hyper Voice"
+            "Hyper Voice",
+            "Call of the Wild"
         }
     },
     ["Wyvernal"] = {
@@ -445,26 +587,51 @@ data = {
             "Spirit Orb"
         }
     },
-    ["Mourveil"] = {
+    ["Bionotic"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://12284945567",
+        ["BaseForm"] = "Squelly",
+        ["PrintMoves"] = {"Opal Pulse", "Swamp", "Dispose", "Aurora Flash", "Storm Heal", "Protect"}
+    },
+    ["Mercenous"] = {
         ["Speed"] = "Very Slow",
-        ["TicketImage"] = "rbxassetid://12284946063",
-        ["BaseForm"] = "Glummish",
+        ["TicketImage"] = "rbxassetid://16510392173",
+        ["BaseForm"] = "Fishel",
+        ["PrintMoves"] = {"Icy Slash", "Blessed Blade", "Dispose", "Hexblade", "Careless Assault", "Savage Blow"}
+    },
+    ["Cherugard"] = {
+        ["TicketImage"] = "rbxassetid://17740226162",
+        ["Speed"] = "Legendary",
         ["PrintMoves"] = {
-            "Toxic Bomb",
-            "Sonata of Darkness",
-            "Choke",
-            "Siphon Soul",
-            "Hex",
-            "Dispose",
-            "Vine Grasp",
-            "Armillaria"
-        }
+            "Sylphid",
+            "FTL Assault",
+            "Befuddlement",
+            "Call of the Wild",
+            "Empty Calories",
+            "Harmony",
+            "Hit-n-Run",
+            "Magical Shield",
+            "Scapegoat",
+            "Compost"
+        },
+        ["BaseForm"] = "Hopolatte",
+        ["NoPrint"] = true
     },
     ["Moss"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284946573",
         ["BaseForm"] = "Moss",
-        ["PrintMoves"] = {"Swamp", "Barb Barrier", "Nature's Guardian", "Purge", "Rip Current", "Tsunami", "Vine Grasp"}
+        ["PrintMoves"] = {
+            "Life Sap",
+            "Enlightenment",
+            "Swamp",
+            "Barb Barrier",
+            "Nature's Guardian",
+            "Purge",
+            "Rip Current",
+            "Tsunami",
+            "Vine Grasp"
+        }
     },
     ["Lumiline"] = {
         ["Speed"] = "Slow",
@@ -483,7 +650,23 @@ data = {
             "Pure Fear",
             "Enlightenment",
             "Precision Dart",
-            "Trade"
+            "Trade",
+            "Light Hook"
+        }
+    },
+    ["Armaratus"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "rbxassetid://16230096340",
+        ["BaseForm"] = "Diyossua",
+        ["PrintMoves"] = {
+            "Armor Break",
+            "Necromancy",
+            "Jewel Jab",
+            "Shatter",
+            "Crystal Wall",
+            "Crystal Cut",
+            "Hyper Voice",
+            "Dispose"
         }
     },
     ["Xenoxious"] = {
@@ -531,7 +714,8 @@ data = {
             "Precision Dart",
             "Sharpen",
             "Shock Therapy",
-            "Assail"
+            "Assail",
+            "Solid Charge"
         }
     },
     ["Cacmeow"] = {
@@ -539,6 +723,8 @@ data = {
         ["TicketImage"] = "rbxassetid://12284946477",
         ["BaseForm"] = "Cacmeow",
         ["PrintMoves"] = {
+            "Sharpen",
+            "Life Sap",
             "Quick Thinking",
             "Shale",
             "Earth Surge",
@@ -572,13 +758,13 @@ data = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12772343131",
         ["BaseForm"] = "Grom",
-        ["PrintMoves"] = {"Mutiny", "Mind Drain", "Night Night", "Harmony", "Hit-n-Run", "Dispose", "Entomophobia"}
+        ["PrintMoves"] = {"Mutiny", "Mind Drain", "Night Night", "Harmony", "Enlightenment", "Dispose", "Entomophobia"}
     },
     ["Nimbell"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284942145",
         ["BaseForm"] = "Nimbell",
-        ["PrintMoves"] = {"Jolt", "Glow Up", "Taser", "Protect", "Heal", "Capsize", "Frostgrip"}
+        ["PrintMoves"] = {"Aerial", "Jolt", "Glow Up", "Taser", "Protect", "Heal", "Capsize", "Frostgrip"}
     },
     ["Incinelisk"] = {
         ["Speed"] = "Very Slow",
@@ -591,6 +777,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12491242034",
         ["BaseForm"] = "Hippop",
         ["PrintMoves"] = {
+            "Mock Charge",
             "Toughen",
             "Sandstorm",
             "Shale",
@@ -606,6 +793,8 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12647143286",
         ["BaseForm"] = "Auron",
         ["PrintMoves"] = {
+            "Shatter",
+            "Mock Charge",
             "Mutiny",
             "Toughen",
             "Stampede",
@@ -622,13 +811,23 @@ data = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284946642",
         ["BaseForm"] = "Squed",
-        ["PrintMoves"] = {"Belch", "Shield Bash", "Pummel", "Mineral Cannon", "Armor Break", "Icy Punch"}
+        ["PrintMoves"] = {
+            "Bee Summon",
+            "Dispose",
+            "Belch",
+            "Shield Bash",
+            "Pummel",
+            "Mineral Cannon",
+            "Armor Break",
+            "Icy Punch"
+        }
     },
     ["Banautilus"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=14538098057",
         ["BaseForm"] = "Squinana",
         ["PrintMoves"] = {
+            "Sonata of Darkness",
             "Trap",
             "Swarm",
             "Bee Summon",
@@ -672,12 +871,13 @@ data = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284947532",
         ["BaseForm"] = "Angerler",
-        ["PrintMoves"] = {"Aquagel", "Ambush", "Purge", "Blessed Blade", "Toughen", "Crunch"}
+        ["PrintMoves"] = {"Light Hook", "Aquagel", "Ambush", "Purge", "Blessed Blade", "Toughen", "Crunch"}
     },
     ["Tsumo"] = {
         ["TicketImage"] = "rbxassetid://12351278410",
         ["Speed"] = "Legendary",
         ["PrintMoves"] = {
+            "Light Hook",
             "Incinerate",
             "Chi Blast",
             "Enlightenment",
@@ -710,25 +910,89 @@ data = {
         ["Speed"] = "Fast",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=14536244680",
         ["BaseForm"] = "Gauzli",
-        ["PrintMoves"] = {"Dispose", "Louis Prayer", "Protect", "Bee Summon", "Rip Current", "Hex", "Curse", "Relief"}
+        ["PrintMoves"] = {
+            "Mind Drain",
+            "Life Sap",
+            "Dispose",
+            "Louis Prayer",
+            "Protect",
+            "Bee Summon",
+            "Rip Current",
+            "Hex",
+            "Curse",
+            "Relief"
+        }
     },
     ["Voltenchant"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284944590",
         ["BaseForm"] = "Aspark",
-        ["PrintMoves"] = {"Jolt", "Wave Shot", "Storm Heal", "Hype Up", "Combo Support", "Psychokinetic Launch"}
+        ["PrintMoves"] = {
+            "Rust",
+            "Light Hook",
+            "Toughen",
+            "Sharpen",
+            "Jolt",
+            "Wave Shot",
+            "Storm Heal",
+            "Hype Up",
+            "Combo Support",
+            "Psychokinetic Launch",
+            "Crackling Static"
+        }
+    },
+    ["Fabulupin"] = {
+        ["Speed"] = "Very Slow",
+        ["TicketImage"] = "rbxassetid://16510391970",
+        ["BaseForm"] = "Foxsy",
+        ["PrintMoves"] = {
+            "Dark Slash",
+            "Equality",
+            "Scapegoat",
+            "Challenge",
+            "Center of Attention",
+            "Psychic Ram",
+            "Light Hook",
+            "Dispose"
+        }
+    },
+    ["Serpentsheen"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14536993925",
+        ["BaseForm"] = "Glimring",
+        ["PrintMoves"] = {
+            "Pylons",
+            "Shock Wave",
+            "Magical Shield",
+            "Taser",
+            "Louis Prayer",
+            "Sword Sweep",
+            "Earth Surge"
+        }
     },
     ["Staligant"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284954514",
         ["BaseForm"] = "Staligant",
-        ["PrintMoves"] = {"Opal Pulse", "Blessed Blade", "Toughen", "Piercing Poke", "Aurora Flash", "Bonk", "Stampede"}
+        ["PrintMoves"] = {
+            "Flashing Strike",
+            "Mock Charge",
+            "Opal Pulse",
+            "Blessed Blade",
+            "Toughen",
+            "Piercing Poke",
+            "Aurora Flash",
+            "Bonk",
+            "Stampede"
+        }
     },
     ["Terruma"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12422955170",
         ["BaseForm"] = "Coalt",
         ["PrintMoves"] = {
+            "Crystal Cut",
+            "Mock Charge",
             "Crush",
             "Careless Assault",
             "Enlightenment",
@@ -757,13 +1021,24 @@ data = {
         ["Speed"] = "Fast",
         ["TicketImage"] = "rbxassetid://12284947343",
         ["BaseForm"] = "Wiglet",
-        ["PrintMoves"] = {"Heat Bash", "Psychic Ram", "Devour", "Equality", "Just Desserts", "Entertain"}
+        ["PrintMoves"] = {
+            "Savage Blow",
+            "Toughen",
+            "Heat Bash",
+            "Psychic Ram",
+            "Devour",
+            "Equality",
+            "Just Desserts",
+            "Entertain",
+            "Pursuit"
+        }
     },
     ["Mawthra"] = {
         ["Speed"] = "Fast",
         ["TicketImage"] = "rbxassetid://12284949065",
         ["BaseForm"] = "Nibblen",
         ["PrintMoves"] = {
+            "Earth Surge",
             "Blessed Blade",
             "Entomophobia",
             "Itchy Bite",
@@ -779,6 +1054,8 @@ data = {
         ["TicketImage"] = "rbxassetid://12284942505",
         ["BaseForm"] = "Ahket",
         ["PrintMoves"] = {
+            "Shale",
+            "Mock Charge",
             "Chemical Cleave",
             "Earth Surge",
             "Solid Charge",
@@ -788,7 +1065,7 @@ data = {
             "Bee Summon"
         }
     },
-    ["VigimantÃ¨"] = {
+    ["Vigimantè"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=14479921257",
         ["BaseForm"] = "Sobbuoy",
@@ -804,11 +1081,29 @@ data = {
             "Pursuit"
         }
     },
+    ["Goliage"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://17740226289",
+        ["BaseForm"] = "Sprubble",
+        ["PrintMoves"] = {
+            "Compost",
+            "Toughen",
+            "Belch",
+            "Meditation",
+            "Crystal Armor",
+            "Crystal Cut",
+            "Shale",
+            "Crystal Wall",
+            "Sandstorm"
+        }
+    },
     ["Jellupy"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284942089",
         ["BaseForm"] = "Jellupy",
         ["PrintMoves"] = {
+            "Sonata of Darkness",
+            "Light Hook",
             "Protect",
             "Dispose",
             "Drill Sergeant",
@@ -833,13 +1128,14 @@ data = {
             "Icy Bite",
             "Ready to Fight",
             "Capsize",
-            "Mercury Puddle"
+            "Mercury Puddle",
+            "Call of the Wild"
         }
     },
     ["Koriyu"] = {
         ["TicketImage"] = "rbxassetid://12351278240",
         ["Speed"] = "Legendary",
-        ["PrintMoves"] = {"Snap Freeze", "Drill Sergeant", "Assail", "Howl", "Wrap", "Body Slam", "Purge"},
+        ["PrintMoves"] = {"Snap Freeze", "Drill Sergeant", "Assail", "Howl", "Wrap", "Body Slam", "Purge", "Quick Ice"},
         ["BaseForm"] = "Koriyu",
         ["NoPrint"] = true
     },
@@ -848,6 +1144,7 @@ data = {
         ["TicketImage"] = "rbxassetid://12284945415",
         ["BaseForm"] = "Klydaskunk",
         ["PrintMoves"] = {
+            "Light Hook",
             "Blessed Blade",
             "Recombobulate",
             "Double Bite",
@@ -865,23 +1162,124 @@ data = {
         ["BaseForm"] = "Wydling",
         ["PrintMoves"] = {"Night Night", "Jealousy", "Chilling Chorus", "Dispose", "Enlightenment", "Entertain"}
     },
+    ["Aliantion"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://17740226076",
+        ["BaseForm"] = "Mant",
+        ["PrintMoves"] = {
+            "Mind Empowerment",
+            "Reverse Singularity",
+            "Recombobulate",
+            "Bee Summon",
+            "Antenna Beam",
+            "Psychokinetic Launch",
+            "Trait Exchange",
+            "Heal"
+        }
+    },
+    ["Vermorph"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16939493291",
+        ["BaseForm"] = "Edibebi",
+        ["PrintMoves"] = {"Infection", "Aerial", "Goo Blast", "Toughen", "Haste", "Assail", "Crunch", "Mock Charge"}
+    },
+    ["Aerystal"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "rbxassetid://16684855477",
+        ["BaseForm"] = "Jewelit",
+        ["PrintMoves"] = {
+            "Fin Slash",
+            "Quick Strike",
+            "Nose Dive",
+            "Sylphid",
+            "Wing Slash",
+            "Crit Up",
+            "Balloon Boost",
+            "Eagle Eye"
+        }
+    },
     ["Horbeast"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284943702",
         ["BaseForm"] = "Shelldo",
         ["PrintMoves"] = {"Chemical Cleave", "Heal", "Vampiric Strike", "Necromancy", "Itchy Bite", "Glow Up"}
     },
-    ["SkorpirulÃ­"] = {
+    ["Scarfox"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16547428343",
+        ["BaseForm"] = "Floxy",
+        ["PrintMoves"] = {
+            "Quick Ice",
+            "Dark Slash",
+            "Icy Veil",
+            "Quick Strike",
+            "Pickpocket",
+            "Panhandle",
+            "Crunch",
+            "Stalactites",
+            "Howl",
+            "Bark"
+        }
+    },
+    ["Seacrion"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16546953770",
+        ["BaseForm"] = "Buoyanseal",
+        ["PrintMoves"] = {
+            "Feral Fury",
+            "Hydraulic Crash",
+            "Toughen",
+            "Rip Current",
+            "Ravenous Rush",
+            "Icy Bite",
+            "Mock Charge",
+            "Psychic Ram",
+            "Hex",
+            "Recombobulate"
+        }
+    },
+    ["Skorpirulí"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284942817",
-        ["BaseForm"] = "AzÃºpion",
+        ["BaseForm"] = "Azúpion",
         ["PrintMoves"] = {
+            "Light Hook",
             "Chemical Cleave",
             "Entomophobia",
             "Reckless Charge",
             "Flashing Strike",
             "Crystal Cut",
             "Haste"
+        }
+    },
+    ["Hahayena"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16539924759",
+        ["BaseForm"] = "Hyekeke",
+        ["PrintMoves"] = {
+            "Shock Therapy",
+            "Crystal Storm",
+            "Reckless Charge",
+            "Fiery Bite",
+            "Icy Bite",
+            "Quick Strike",
+            "Assail",
+            "Crunch"
+        }
+    },
+    ["Flong"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "rbxassetid://16529224211",
+        ["BaseForm"] = "Fluffi",
+        ["PrintMoves"] = {
+            "Fiery Bite",
+            "Electro Bite",
+            "Icy Bite",
+            "Snack Chomp",
+            "Nibble",
+            "Toughen",
+            "Reckless Charge",
+            "Aerial"
         }
     },
     ["Octonut"] = {
@@ -898,11 +1296,64 @@ data = {
             "Snap Freeze"
         }
     },
+    ["Celestian"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=15225042073",
+        ["BaseForm"] = "Gorpo",
+        ["PrintMoves"] = {
+            "Mind Empowerment",
+            "Enlightenment",
+            "Heal",
+            "Taser",
+            "Trade",
+            "Dispose",
+            "Chi Blast",
+            "Foreign Substance"
+        }
+    },
     ["Medikrow"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284944134",
         ["BaseForm"] = "Maskrow",
         ["PrintMoves"] = {"Louis Prayer", "Jet Strike", "Calming Melody", "Nose Dive", "Taser", "Sad Zone", "Dispose"}
+    },
+    ["Jinglark"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://15898118673",
+        ["BaseForm"] = "Bellbird",
+        ["PrintMoves"] = {
+            "Glow Up",
+            "Radiant Beam",
+            "Magical Shield",
+            "Entangling Vines",
+            "Calming Melody",
+            "Compost",
+            "Heal",
+            "Sylphid",
+            "Trade",
+            "Protect"
+        }
+    },
+    ["Bowlinguin"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://16527936499",
+        ["BaseForm"] = "Bowlinguin",
+        ["PrintMoves"] = {"Mind Empowerment", "Protect", "Sakura Blast", "Trade", "Dispose", "Jet Strike", "Chi Blast"}
+    },
+    ["Djinneko"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12422953006",
+        ["BaseForm"] = "Apurrition",
+        ["PrintMoves"] = {
+            "Bee Summon",
+            "Crit Up",
+            "Hex Punch",
+            "Protect",
+            "Foreign Substance",
+            "Taser",
+            "Dispose",
+            "Trade"
+        }
     },
     ["Springling"] = {
         ["Speed"] = "Normal",
@@ -948,6 +1399,44 @@ data = {
             "Nutrient Drain"
         }
     },
+    ["Hangryphus"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=13566127114",
+        ["BaseForm"] = "Lizzerts",
+        ["PrintMoves"] = {
+            "Light Hook",
+            "War Cry",
+            "Hit-n-Run",
+            "Icy Punch",
+            "Electro Punch",
+            "Counter Punch",
+            "Screech",
+            "Equality",
+            "Swift Hook"
+        }
+    },
+    ["Glacigash"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14536703675",
+        ["BaseForm"] = "Trilosect",
+        ["PrintMoves"] = {"Bee Summon", "Entomophobia", "Crystal Cut", "Subterfuge", "Electro Slash", "Quick Ice"}
+    },
+    ["Feracoatl"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=13646574336",
+        ["BaseForm"] = "Foresatl",
+        ["PrintMoves"] = {
+            "Dark Blast",
+            "Wing Slash",
+            "Life Roots",
+            "Hex",
+            "Protect",
+            "Nature's Guardian",
+            "Ravenous Rush",
+            "Consume Treasure",
+            "Trade"
+        }
+    },
     ["Meltimaw"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284943615",
@@ -963,11 +1452,52 @@ data = {
             "Ferocious Onslaught"
         }
     },
+    ["Mielursa"] = {
+        ["Speed"] = "Very Slow",
+        ["TicketImage"] = "rbxassetid://16510392387",
+        ["BaseForm"] = "Bearby",
+        ["PrintMoves"] = {
+            "Fiery Slash",
+            "Icy Slash",
+            "Electro Slash",
+            "War Cry",
+            "Toughen",
+            "Feast",
+            "Careless Assault",
+            "Mock Charge",
+            "Fast Food"
+        }
+    },
+    ["Jaelect"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12895035483",
+        ["BaseForm"] = "Scorm",
+        ["PrintMoves"] = {"Magical Shield", "Purge", "Aurora Flash", "Taser", "Opal Pulse", "Bee Summon", "Hyper Voice"}
+    },
+    ["Artifixie"] = {
+        ["TicketImage"] = "rbxassetid://15590709061",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {
+            "Combo Support",
+            "Crystal Wall",
+            "Fireball",
+            "Earthquake",
+            "Earth Surge",
+            "Wide Shield",
+            "Absolute Zero",
+            "Swift Shield",
+            "Mineral Cannon",
+            "Jolt"
+        },
+        ["BaseForm"] = "Artifixie",
+        ["NoPrint"] = true
+    },
     ["Mammolten"] = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12876928329",
         ["BaseForm"] = "Alptusk",
         ["PrintMoves"] = {
+            "Mock Charge",
             "Inflame",
             "Flame Shield",
             "Fatten Up",
@@ -995,6 +1525,37 @@ data = {
             "Belch"
         }
     },
+    ["Tasmarauder"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12882365594",
+        ["BaseForm"] = "Tasjoney",
+        ["PrintMoves"] = {
+            "Quick Strike",
+            "Toughen",
+            "Ambush",
+            "Crit Up",
+            "Sylphid",
+            "Double Bite",
+            "Claw Swipes",
+            "Pebble"
+        }
+    },
+    ["Arthopex"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12876928992",
+        ["BaseForm"] = "Griblo",
+        ["PrintMoves"] = {
+            "Swift Hook",
+            "Armor Up",
+            "Roll",
+            "Icy Slash",
+            "Electro Slash",
+            "Call of the Wild",
+            "Bee Summon",
+            "Protect",
+            "Ravenous Rush"
+        }
+    },
     ["Daeferno"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284943163",
@@ -1009,48 +1570,64 @@ data = {
             "Trade"
         }
     },
-    ["Glacigash"] = {
+    ["Velodo"] = {
         ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=14536703675",
-        ["BaseForm"] = "Trilosect",
-        ["PrintMoves"] = {"Bee Summon", "Entomophobia", "Crystal Cut", "Subterfuge", "Electro Slash", "Quick Ice"}
-    },
-    ["Feracoatl"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=13646574336",
-        ["BaseForm"] = "Foresatl",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12883063626",
+        ["BaseForm"] = "Dodotor",
         ["PrintMoves"] = {
-            "Dark Blast",
-            "Wing Slash",
-            "Life Roots",
-            "Hex",
-            "Protect",
-            "Nature's Guardian",
             "Ravenous Rush",
-            "Consume Treasure",
-            "Trade"
-        }
-    },
-    ["Hangryphus"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=13566127114",
-        ["BaseForm"] = "Lizzerts",
-        ["PrintMoves"] = {
-            "War Cry",
             "Hit-n-Run",
-            "Icy Punch",
-            "Electro Punch",
-            "Counter Punch",
-            "Screech",
-            "Equality",
-            "Swift Hook"
+            "Heal",
+            "Toughen",
+            "Slash",
+            "Hyper Voice",
+            "Trap",
+            "Drill Sergeant"
         }
     },
-    ["Jaelect"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12895035483",
-        ["BaseForm"] = "Scorm",
-        ["PrintMoves"] = {"Magical Shield", "Purge", "Aurora Flash", "Taser", "Opal Pulse", "Bee Summon", "Hyper Voice"}
+    ["Groato"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://12284948416",
+        ["BaseForm"] = "Plipo",
+        ["PrintMoves"] = {
+            "Hydraulic Crash",
+            "Bonk",
+            "Heal",
+            "Mind Empowerment",
+            "Chilling Chorus",
+            "Psychic Ram",
+            "Rest",
+            "Earth Surge",
+            "Dispose",
+            "Tsunami",
+            "Stampede"
+        }
+    },
+    ["Khaos"] = {
+        ["TicketImage"] = "rbxassetid://16588376109",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {},
+        ["BaseForm"] = "Khaos",
+        ["NoPrint"] = true
+    },
+    ["Nyanto"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14986903260",
+        ["BaseForm"] = "Threec",
+        ["PrintMoves"] = {
+            "Protect",
+            "Shatter",
+            "Earth Surge",
+            "Quick Strike",
+            "Bee Summon",
+            "Antenna Beam",
+            "Hyper Voice",
+            "Wide Shield",
+            "Nutrient Drain",
+            "Louis Prayer",
+            "Infection",
+            "Dispose"
+        }
     },
     ["Tulenna"] = {
         ["Speed"] = "Normal",
@@ -1068,20 +1645,6 @@ data = {
             "Earth Surge"
         }
     },
-    ["Vixalor"] = {
-        ["Speed"] = "Very Slow",
-        ["TicketImage"] = "rbxassetid://12284946740",
-        ["BaseForm"] = "Kitsen",
-        ["PrintMoves"] = {
-            "Purge",
-            "Incinerate",
-            "Hype Up",
-            "Hyper Voice",
-            "Recombobulate",
-            "Mind Empowerment",
-            "Dispose"
-        }
-    },
     ["Hattrix"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284942944",
@@ -1095,8 +1658,24 @@ data = {
             "Aurora Flash",
             "Harmony",
             "Dispose",
-            "Trade"
+            "Trade",
+            "Siphon Soul"
         }
+    },
+    ["Chronos"] = {
+        ["TicketImage"] = "rbxassetid://12351290887",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {
+            "Jolt",
+            "Foreign Substance",
+            "Dark Blast",
+            "Night Night",
+            "Crystal Cut",
+            "Purge",
+            "Trait Exchange"
+        },
+        ["BaseForm"] = "Chronos",
+        ["NoPrint"] = true
     },
     ["Girasera"] = {
         ["Speed"] = "Very Slow",
@@ -1104,20 +1683,11 @@ data = {
         ["BaseForm"] = "Dewaffe",
         ["PrintMoves"] = {"Equality", "Chemical Cleave", "Haste", "Protect", "Nature's Guardian", "Savage Blow"}
     },
-    ["Tasmarauder"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12882365594",
-        ["BaseForm"] = "Tasjoney",
-        ["PrintMoves"] = {
-            "Quick Strike",
-            "Toughen",
-            "Ambush",
-            "Crit Up",
-            "Sylphid",
-            "Double Bite",
-            "Claw Swipes",
-            "Pebble"
-        }
+    ["Owol"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://12284941953",
+        ["BaseForm"] = "Owol",
+        ["PrintMoves"] = {"Screech", "Crush", "Slash", "Reckless Charge", "Entertain", "Calming Melody"}
     },
     ["Skadean"] = {
         ["Speed"] = "Very Slow",
@@ -1134,20 +1704,18 @@ data = {
             "Center of Attention"
         }
     },
-    ["Arthopex"] = {
+    ["Riptorvent"] = {
         ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12876928992",
-        ["BaseForm"] = "Griblo",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12403181508",
+        ["BaseForm"] = "Minjoule",
         ["PrintMoves"] = {
-            "Swift Hook",
-            "Armor Up",
-            "Roll",
-            "Icy Slash",
-            "Electro Slash",
-            "Call of the Wild",
-            "Bee Summon",
-            "Protect",
-            "Ravenous Rush"
+            "Precision Dart",
+            "Taser",
+            "Jet Strike",
+            "Savage Blow",
+            "Snack Chomp",
+            "Energized",
+            "Eagle Eye"
         }
     },
     ["Ostigon"] = {
@@ -1167,26 +1735,26 @@ data = {
             "War Cry"
         }
     },
-    ["Velodo"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12883063626",
-        ["BaseForm"] = "Dodotor",
-        ["PrintMoves"] = {
-            "Hit-n-Run",
-            "Heal",
-            "Toughen",
-            "Slash",
-            "Hyper Voice",
-            "Trap",
-            "Drill Sergeant",
-            "Clumsy Swing"
-        }
+    ["Roadterra"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "rbxassetid://12284942568",
+        ["BaseForm"] = "Fledgeo",
+        ["PrintMoves"] = {"Mercury Puddle", "Aerial", "Befuddlement", "Savage Blow", "Solid Charge", "Body Slam"}
     },
     ["Calamander"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284948254",
         ["BaseForm"] = "Calamander",
-        ["PrintMoves"] = {"Louis Prayer", "Aquagel", "Earth Surge", "Enlightenment", "Equality", "Bad Odor", "Dispose"}
+        ["PrintMoves"] = {
+            "Louis Prayer",
+            "Aquagel",
+            "Earth Surge",
+            "Enlightenment",
+            "Equality",
+            "Bad Odor",
+            "Dispose",
+            "Double Bite"
+        }
     },
     ["Corrolizard"] = {
         ["Speed"] = "Fast",
@@ -1203,19 +1771,21 @@ data = {
             "Scapegoat"
         }
     },
-    ["Riptorvent"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12403181508",
-        ["BaseForm"] = "Minjoule",
+    ["Bungo"] = {
+        ["TicketImage"] = "rbxassetid://16552641500",
+        ["Speed"] = "Legendary",
         ["PrintMoves"] = {
-            "Precision Dart",
-            "Taser",
-            "Jet Strike",
-            "Savage Blow",
-            "Snack Chomp",
-            "Energized",
-            "Eagle Eye"
-        }
+            "Necromancy",
+            "Fireball",
+            "Dispose",
+            "Wide Shield",
+            "Swift Shield",
+            "Jolt",
+            "Combo Support",
+            "Enlightenment"
+        },
+        ["BaseForm"] = "Bungo",
+        ["NoPrint"] = true
     },
     ["Seamknight"] = {
         ["Speed"] = "Very Slow",
@@ -1232,26 +1802,39 @@ data = {
             "Dispose"
         }
     },
-    ["Chronos"] = {
-        ["TicketImage"] = "rbxassetid://12351290887",
-        ["Speed"] = "Legendary",
+    ["Yorus"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12647143726",
+        ["BaseForm"] = "Yonna",
         ["PrintMoves"] = {
-            "Jolt",
-            "Foreign Substance",
-            "Dark Blast",
-            "Night Night",
-            "Crystal Cut",
-            "Purge",
-            "Trait Exchange"
-        },
-        ["BaseForm"] = "Chronos",
-        ["NoPrint"] = true
+            "Chilling Chorus",
+            "War Cry",
+            "Ravenous Rush",
+            "Bee Summon",
+            "Entomophobia",
+            "Nature's Guardian",
+            "Hyper Voice",
+            "Enlightenment",
+            "Dispose",
+            "Earthquake",
+            "Earth Surge",
+            "Vine Grasp"
+        }
     },
-    ["Roadterra"] = {
-        ["Speed"] = "Normal",
-        ["TicketImage"] = "rbxassetid://12284942568",
-        ["BaseForm"] = "Fledgeo",
-        ["PrintMoves"] = {"Mercury Puddle", "Aerial", "Befuddlement", "Savage Blow", "Solid Charge", "Body Slam"}
+    ["Mourveil"] = {
+        ["Speed"] = "Very Slow",
+        ["TicketImage"] = "rbxassetid://12284946063",
+        ["BaseForm"] = "Glummish",
+        ["PrintMoves"] = {
+            "Toxic Bomb",
+            "Sonata of Darkness",
+            "Choke",
+            "Siphon Soul",
+            "Hex",
+            "Dispose",
+            "Vine Grasp",
+            "Armillaria"
+        }
     },
     ["Rhinostone"] = {
         ["Speed"] = "Slow",
@@ -1267,11 +1850,38 @@ data = {
             "Radiant Beam"
         }
     },
-    ["Lurkelid"] = {
+    ["Arachniak"] = {
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=15148126276",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {
+            "Heal",
+            "Bee Summon",
+            "Entomophobia",
+            "Dispose",
+            "Vampiric Strike",
+            "Nutrient Drain",
+            "Infection",
+            "Chi Blast",
+            "Vine Grasp",
+            "Aurora Flash"
+        },
+        ["BaseForm"] = "Arachniak",
+        ["NoPrint"] = true
+    },
+    ["Snorolla"] = {
         ["Speed"] = "Normal",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=14537448587",
-        ["BaseForm"] = "Parabite",
-        ["PrintMoves"] = {"Aquagel", "Double Bite", "Fatal Flaw", "Devour", "Relief", "Tsunami Drop", "Capsize"}
+        ["TicketImage"] = "rbxassetid://16527580409",
+        ["BaseForm"] = "Snobobo",
+        ["PrintMoves"] = {
+            "Preparation",
+            "Dispose",
+            "Roundhouse Kick",
+            "Pirouette",
+            "War Cry",
+            "Frostbite",
+            "Sugar Rush",
+            "Hit-n-Run"
+        }
     },
     ["Gourmesal"] = {
         ["Speed"] = "Slow",
@@ -1288,20 +1898,6 @@ data = {
             "Opal Pulse"
         }
     },
-    ["Sukikogami"] = {
-        ["Speed"] = "Normal",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=14756730453",
-        ["BaseForm"] = "Oribirb",
-        ["PrintMoves"] = {
-            "Hit-n-Run",
-            "Vampiric Strike",
-            "Agitate",
-            "Jet Strike",
-            "Sonata of Darkness",
-            "Dispose",
-            "Darkness Expansion"
-        }
-    },
     ["Clangutang"] = {
         ["Speed"] = "Very Slow",
         ["TicketImage"] = "rbxassetid://12284949589",
@@ -1314,29 +1910,9 @@ data = {
             "Hexblade",
             "Swift Hook",
             "Dispose",
-            "Psychic Ram"
+            "Psychic Ram",
+            "Call of the Wild"
         }
-    },
-    ["Djinneko"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12422953006",
-        ["BaseForm"] = "Apurrition",
-        ["PrintMoves"] = {
-            "Bee Summon",
-            "Crit Up",
-            "Hex Punch",
-            "Protect",
-            "Foreign Substance",
-            "Taser",
-            "Dispose",
-            "Trade"
-        }
-    },
-    ["Owol"] = {
-        ["Speed"] = "Normal",
-        ["TicketImage"] = "rbxassetid://12284941953",
-        ["BaseForm"] = "Owol",
-        ["PrintMoves"] = {"Screech", "Crush", "Slash", "Reckless Charge", "Entertain", "Calming Melody"}
     },
     ["Mantiscald"] = {
         ["Speed"] = "Slow",
@@ -1354,18 +1930,51 @@ data = {
             "Sharpen"
         }
     },
+    ["Exiled"] = {
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12403179495",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {
+            "Light Hook",
+            "Howl",
+            "Piercing Poke",
+            "Snack Chomp",
+            "Necromancy",
+            "Hyper Voice",
+            "Taser",
+            "Aerial"
+        },
+        ["BaseForm"] = "Exiled",
+        ["NoPrint"] = true
+    },
+    ["Lacergen"] = {
+        ["TicketImage"] = "rbxassetid://16561684004",
+        ["Speed"] = "Legendary",
+        ["PrintMoves"] = {
+            "Mercury Puddle",
+            "Mind Empowerment",
+            "Hyper Voice",
+            "Crystal Cut",
+            "Flashing Strike",
+            "Trade",
+            "Taser",
+            "Absolute Zero"
+        },
+        ["BaseForm"] = "Lacergen",
+        ["NoPrint"] = true
+    },
     ["Leazar"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "rbxassetid://12284947759",
         ["BaseForm"] = "Leapo",
-        ["PrintMoves"] = {"Focus", "Venom Lacerate", "Thorns of Wrath", "Crystal Cut", "Dark Slash", "Protect"}
-    },
-    ["Exiled"] = {
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12403179495",
-        ["Speed"] = "Legendary",
-        ["PrintMoves"] = {"Howl", "Piercing Poke", "Snack Chomp", "Necromancy", "Hyper Voice", "Taser", "Aerial"},
-        ["BaseForm"] = "Exiled",
-        ["NoPrint"] = true
+        ["PrintMoves"] = {
+            "Hit-n-Run",
+            "Focus",
+            "Venom Lacerate",
+            "Thorns of Wrath",
+            "Crystal Cut",
+            "Dark Slash",
+            "Protect"
+        }
     },
     ["Zerzura"] = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=13531203587",
@@ -1384,20 +1993,6 @@ data = {
         ["BaseForm"] = "Zerzura",
         ["NoPrint"] = true
     },
-    ["Toxisui"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=14756455090",
-        ["BaseForm"] = "Aquafi",
-        ["PrintMoves"] = {
-            "Tainted Water",
-            "Hit-n-Run",
-            "Siren Song",
-            "Lingering Poison",
-            "Rip Current",
-            "Swamp",
-            "Wrap"
-        }
-    },
     ["Qilintel"] = {
         ["TicketImage"] = "rbxassetid://12351290759",
         ["Speed"] = "Legendary",
@@ -1412,6 +2007,20 @@ data = {
         },
         ["BaseForm"] = "Qilintel",
         ["NoPrint"] = true
+    },
+    ["Toxisui"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14756455090",
+        ["BaseForm"] = "Aquafi",
+        ["PrintMoves"] = {
+            "Tainted Water",
+            "Hit-n-Run",
+            "Siren Song",
+            "Lingering Poison",
+            "Rip Current",
+            "Swamp",
+            "Wrap"
+        }
     },
     ["Maelzuri"] = {
         ["TicketImage"] = "rbxassetid://12351278501",
@@ -1430,18 +2039,33 @@ data = {
         ["BaseForm"] = "Maelzuri",
         ["NoPrint"] = true
     },
-    ["Mold"] = {
+    ["Elefortune"] = {
         ["Speed"] = "Slow",
-        ["TicketImage"] = "rbxassetid://12284946134",
-        ["BaseForm"] = "Mold",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=12491243977",
+        ["BaseForm"] = "Prophant",
         ["PrintMoves"] = {
-            "Swamp",
-            "Siren Song",
+            "Chi Blast",
+            "Careless Assault",
+            "Glow Up",
+            "Hyper Voice",
+            "Protect",
+            "Agitate",
+            "Blessed Blade",
+            "Dispose"
+        }
+    },
+    ["Sukikogami"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14756730453",
+        ["BaseForm"] = "Oribirb",
+        ["PrintMoves"] = {
+            "Hit-n-Run",
+            "Vampiric Strike",
+            "Agitate",
+            "Jet Strike",
             "Sonata of Darkness",
-            "Wide Shield",
-            "Night Night",
-            "Food Poisoning",
-            "Vine Grasp"
+            "Dispose",
+            "Darkness Expansion"
         }
     },
     ["Swoptar"] = {
@@ -1449,6 +2073,8 @@ data = {
         ["TicketImage"] = "rbxassetid://12284943863",
         ["BaseForm"] = "Swoptar",
         ["PrintMoves"] = {
+            "Venom Lacerate",
+            "Icy Slash",
             "War Cry",
             "Blessed Blade",
             "Careless Assault",
@@ -1473,23 +2099,43 @@ data = {
             "Drain Life"
         }
     },
-    ["Umaisho"] = {
-        ["Speed"] = "Normal",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=14536232734",
-        ["BaseForm"] = "Tyki",
-        ["PrintMoves"] = {"Earth Surge", "Attack Mastery", "Scapegoat", "Hit-n-Run", "Tidal Slam", "Rest", "Devour"}
+    ["Mold"] = {
+        ["Speed"] = "Slow",
+        ["TicketImage"] = "rbxassetid://12284946134",
+        ["BaseForm"] = "Mold",
+        ["PrintMoves"] = {
+            "Swamp",
+            "Siren Song",
+            "Sonata of Darkness",
+            "Wide Shield",
+            "Night Night",
+            "Food Poisoning",
+            "Vine Grasp"
+        }
     },
-    ["Bionotic"] = {
+    ["Lurkelid"] = {
         ["Speed"] = "Normal",
-        ["TicketImage"] = "rbxassetid://12284945567",
-        ["BaseForm"] = "Squelly",
-        ["PrintMoves"] = {"Opal Pulse", "Swamp", "Dispose", "Aurora Flash", "Storm Heal", "Protect"}
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14537448587",
+        ["BaseForm"] = "Parabite",
+        ["PrintMoves"] = {
+            "Aquagel",
+            "Double Bite",
+            "Fatal Flaw",
+            "Devour",
+            "Relief",
+            "Tsunami Drop",
+            "Capsize",
+            "Darkness Expansion"
+        }
     },
     ["Antenaflight"] = {
         ["Speed"] = "Fast",
         ["TicketImage"] = "rbxassetid://12284948325",
         ["BaseForm"] = "Larvennae",
         ["PrintMoves"] = {
+            "Taser",
+            "Vine Grasp",
+            "Dark Blast",
             "Louis Prayer",
             "Bee Summon",
             "Protect",
@@ -1499,26 +2145,19 @@ data = {
             "Earth Surge"
         }
     },
-    ["Elefortune"] = {
-        ["Speed"] = "Slow",
-        ["TicketImage"] = "http://www.roblox.com/asset/?id=12491243977",
-        ["BaseForm"] = "Prophant",
-        ["PrintMoves"] = {
-            "Chi Blast",
-            "Careless Assault",
-            "Glow Up",
-            "Hyper Voice",
-            "Protect",
-            "Agitate",
-            "Blessed Blade",
-            "Dispose"
-        }
+    ["Umaisho"] = {
+        ["Speed"] = "Normal",
+        ["TicketImage"] = "http://www.roblox.com/asset/?id=14536232734",
+        ["BaseForm"] = "Tyki",
+        ["PrintMoves"] = {"Earth Surge", "Attack Mastery", "Scapegoat", "Hit-n-Run", "Tidal Slam", "Rest", "Devour"}
     },
     ["Cragildae"] = {
         ["Speed"] = "Normal",
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12491245370",
         ["BaseForm"] = "Gekotta",
         ["PrintMoves"] = {
+            "Mock Charge",
+            "Heat Bash",
             "Swift Hook",
             "War Cry",
             "Fiery Bite",
@@ -1549,7 +2188,17 @@ data = {
         ["Speed"] = "Slow",
         ["TicketImage"] = "rbxassetid://12284945633",
         ["BaseForm"] = "Spunny",
-        ["PrintMoves"] = {"Tourniquet", "Focus", "Sad Zone", "Hex Punch", "Electro Slash", "Icy Punch", "Trade"}
+        ["PrintMoves"] = {
+            "Body Slam",
+            "Toughen",
+            "Tourniquet",
+            "Focus",
+            "Sad Zone",
+            "Hex Punch",
+            "Electro Slash",
+            "Icy Punch",
+            "Trade"
+        }
     },
     ["Metalytra"] = {
         ["Speed"] = "Slow",
@@ -1589,6 +2238,7 @@ data = {
         ["TicketImage"] = "http://www.roblox.com/asset/?id=12772282934",
         ["BaseForm"] = "Cranigunk",
         ["PrintMoves"] = {
+            "Mock Charge",
             "Electro Bite",
             "Stampede",
             "Armor Up",
@@ -1600,22 +2250,18 @@ data = {
             "Assail"
         }
     },
-    ["Groato"] = {
-        ["Speed"] = "Normal",
-        ["TicketImage"] = "rbxassetid://12284948416",
-        ["BaseForm"] = "Plipo",
+    ["Vixalor"] = {
+        ["Speed"] = "Very Slow",
+        ["TicketImage"] = "rbxassetid://12284946740",
+        ["BaseForm"] = "Kitsen",
         ["PrintMoves"] = {
-            "Hydraulic Crash",
-            "Bonk",
-            "Heal",
+            "Purge",
+            "Incinerate",
+            "Hype Up",
+            "Hyper Voice",
+            "Recombobulate",
             "Mind Empowerment",
-            "Chilling Chorus",
-            "Psychic Ram",
-            "Rest",
-            "Earth Surge",
-            "Dispose",
-            "Tsunami",
-            "Stampede"
+            "Dispose"
         }
     }
 }
