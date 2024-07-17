@@ -1,20 +1,7 @@
 data = {
-    ["60"] = {
-        "Alice is inside the DoodleCo Station in von Sweetsville.",
-        "Meet Rick, the Mukbang Master, in his shack in von Sweetsville.",
-        "Apparently the Mayor has a dark secret in his house... maybe there's a switch somewhere inside his house?",
-        "Talk to Alice again -- either reveal the Mayor's identity, or don't.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
     ["61"] = {
         "Meet Bonbon in her trailer in von Sweetsville.",
         "Deliver the candy bags to the 4 poor people in von Sweetsville.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["62"] = {
-        "Pam is somewhere outside in von Sweetsville. Go find her!",
-        "Find the key to the shack somewhere in von Sweetsville.",
-        "Give the Choc Rocks to Pam!",
         "Turn in the quest at the Help Center receptionist!"
     },
     ["63"] = {
@@ -26,11 +13,6 @@ data = {
         "Number Three went upstairs in his apartment, go talk to him!",
         "Deal with the Louis Fanatics on Route 5.",
         "Go back to Number Three and help him make a decision.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["64"] = {
-        "Jimothy, the DoodleCo employee, is in the von Sweetsville station.",
-        "Capture 3 Doodles, one in a Heart Capsule, one in a Dense Capsule, and one in Medical Capsule. You can purchase those from the store.",
         "Turn in the quest at the Help Center receptionist!"
     },
     ["213"] = {
@@ -47,29 +29,6 @@ data = {
         "Go inside the abandoned Pirate Ship on Route 5.",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["58"] = {
-        "Meet Albert the scientist in one of the trailers in von Sweetsville!",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["209"] = {
-        "Talk to Serena Sinclair at the News Studio at the Oasis.",
-        "Defeat the Adventurer located in the main square.",
-        "Return to Serena Sinclair at the News Studio.",
-        "Turn in the quest at the Help Center receptionist."
-    },
-    ["126"] = {
-        "Meet the Engineer in front of the ruined bridge at Route 6.",
-        "Go to the DoodleCo Printing Facility at Route 12 through Lakewood Sewers and talk with Jan.",
-        "Go back to the Engineer at Route 6.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["120"] = {
-        "Meet Karl near the DoodleCo Academy Gymnasium.",
-        "Knock out 50 Wiglets!",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["122"] = {"Alice is at the PVP Club!", "Turn in the quest at the Help Center receptionist!"},
-    ["211"] = {"Meet Skipper at the shore of the Oasis.", "Turn in the quest at the Help Center receptionist!"},
     ["212"] = {
         "Go to the Muncheez Pizzeria and talk to Giovanni!",
         "Deliver the pizza to the shopkeeper at the DoodleCo Station!",
@@ -80,19 +39,7 @@ data = {
         "Return to Giovanni!",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["125"] = {"Jack is near the DoodleCo Academy fountain!", "Turn in the quest at the Help Center receptionist!"},
-    ["210"] = {
-        "Meet Cassidy in the abandoned room of the Peach Apartment.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
     ["215"] = {"Meet Alice at the Doodle Ledge cafe!", "Turn in the quest at the Help Center receptionist!"},
-    ["127"] = {
-        "Visit the Louis Club at the campus.",
-        "Interrogate the members.",
-        "Report your findings to Leader at the Louis Fanclub at Graphite Lodge.",
-        "Return to the Louis Club to inform them that it's being shutdown.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
     ["19"] = {
         "Talk to Ilyanna near the front of the Doodle Station in Graphite Lodge.",
         "Go to Lakewood Town and find a Police Officer! He'll know where the Dunce is.",
@@ -100,35 +47,38 @@ data = {
         "Talk to Ilyanna again near the front of the Doodle Station in Graphite Lodge.",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["18"] = {
-        "Meet Alice outside the Help Center!",
-        "Confront Carson and his gang behind the Doodle Station in Graphite Lodge.",
-        "Finally deal with Carson near the Route 4 Gate in Graphite Lodge.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["121"] = {
-        "Meet Professor Edith at the Sewing Club.",
-        "Talk to Professor Edith at the Sewing Club.",
-        "Gather the four students. If you need help finding them, talk to Tammy at the sewing club classroom!",
-        "Interrogate the four students.",
-        "Accuse the student you think is the culprit!",
-        "Turn in the quest at the Help Center receptionist!"
-    },
-    ["124"] = {
-        "Meet Valerie in the Occult Clubroom.",
-        "Set the cameras on the tripods located around the Arid Mines.",
-        "Return to Valerie in the Occult Clubroom.",
-        "Meet all the ghosts that the cameras detected.",
-        "Turn in the quest at the Help Center receptionist!"
-    },
     ["25"] = {
         "Find the fanclub at Graphite Lodge... it's in a backyard I think?",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["24"] = {
-        "Meet TJ at the Crossroads.",
-        "Find Inari in the Crystal Caverns!",
-        "Talk to TJ again at the Crossroads.",
+    ["214"] = {
+        "Meet Jack at Doodle Ledge Cafe and challenge him to a battle.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["21"] = {
+        "Talk to the mayor in his house. You've been there before!",
+        "Talk to the dancing guy in the Graphite Lodge house that's playing music!",
+        "You have two choices: you can either destroy the boombox or talk to the mayor to convince him that the music should stay.",
+        "Uhh... you destroyed the boombox? Well, time to tell the mayor about it, I guess.",
+        "Turn in the quest at the Help Center receptionist!",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["23"] = {
+        "Meet Jack on Route 4 and challenge him to a battle.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["60"] = {
+        "Alice is inside the DoodleCo Station in von Sweetsville.",
+        "Meet Rick, the Mukbang Master, in his shack in von Sweetsville.",
+        "Apparently the Mayor has a dark secret in his house... maybe there's a switch somewhere inside his house?",
+        "Talk to Alice again -- either reveal the Mayor's identity, or don't.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["127"] = {
+        "Visit the Louis Club at the campus.",
+        "Interrogate the members.",
+        "Report your findings to Leader at the Louis Fanclub at Graphite Lodge.",
+        "Return to the Louis Club to inform them that it's being shutdown.",
         "Turn in the quest at the Help Center receptionist!"
     },
     ["123"] = {
@@ -147,8 +97,93 @@ data = {
         "Return to the Vice President one last time.",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["214"] = {
-        "Meet Jack at Doodle Ledge Cafe and challenge him to a battle.",
+    ["64"] = {
+        "Jimothy, the DoodleCo employee, is in the von Sweetsville station.",
+        "Capture 3 Doodles, one in a Heart Capsule, one in a Dense Capsule, and one in Medical Capsule. You can purchase those from the store.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["58"] = {
+        "Meet Albert the scientist in one of the trailers in von Sweetsville!",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["126"] = {
+        "Meet the Engineer in front of the ruined bridge at Route 6.",
+        "Go to the DoodleCo Printing Facility at Route 12 through Lakewood Sewers and talk with Jan.",
+        "Go back to the Engineer at Route 6.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["122"] = {"Alice is at the PVP Club!", "Turn in the quest at the Help Center receptionist!"},
+    ["285"] = {
+        "Meet Jack on the main Icyridge Bridge and challenge him to a battle.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["125"] = {"Jack is near the DoodleCo Academy fountain!", "Turn in the quest at the Help Center receptionist!"},
+    ["283"] = {"Meet Alchemist Flammebury at the Icyridge Alchemist Station."},
+    ["280"] = {
+        "Rosemary is in a big house near the Icyridge subway exit.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["282"] = {
+        "Meet Old Man Timothy in the Icyridge Dungeon.",
+        "Talk to Head Guard Tinsley.",
+        "Find a boy with red hear and headphones.",
+        "Find Elijah, somewhere in Icyridge.",
+        "Find Elijah, somewhere in Icyridge.",
+        "Find Elijah, somewhere in Icyridge, he should be near the Fishing Guild.",
+        "Find Elijah, somewhere in Icyridge, located somewhere on the base floor.",
+        "Find Elijah, somewhere in Icyridge. He's probably near the castle.",
+        "Find Elijah, somewhere in Icyridge. He's at Icyridge market.",
+        "Talk to Head Guard Tinsley.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["211"] = {"Meet Skipper at the shore of the Oasis.", "Turn in the quest at the Help Center receptionist!"},
+    ["18"] = {
+        "Meet Alice outside the Help Center!",
+        "Confront Carson and his gang behind the Doodle Station in Graphite Lodge.",
+        "Finally deal with Carson near the Route 4 Gate in Graphite Lodge.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["121"] = {
+        "Meet Professor Edith at the Sewing Club.",
+        "Talk to Professor Edith at the Sewing Club.",
+        "Gather the four students. If you need help finding them, talk to Tammy at the sewing club classroom!",
+        "Interrogate the four students.",
+        "Accuse the student you think is the culprit!",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["62"] = {
+        "Pam is somewhere outside in von Sweetsville. Go find her!",
+        "Find the key to the shack somewhere in von Sweetsville.",
+        "Give the Choc Rocks to Pam!",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["209"] = {
+        "Talk to Serena Sinclair at the News Studio at the Oasis.",
+        "Defeat the Adventurer located in the main square.",
+        "Return to Serena Sinclair at the News Studio.",
+        "Turn in the quest at the Help Center receptionist."
+    },
+    ["24"] = {
+        "Meet TJ at the Crossroads.",
+        "Find Inari in the Crystal Caverns!",
+        "Talk to TJ again at the Crossroads.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["124"] = {
+        "Meet Valerie in the Occult Clubroom.",
+        "Set the cameras on the tripods located around the Arid Mines.",
+        "Return to Valerie in the Occult Clubroom.",
+        "Meet all the ghosts that the cameras detected.",
+        "Turn in the quest at the Help Center receptionist!"
+    },
+    ["281"] = {
+        "Meet Krome in the Icyridge Lab, located somewhere in the city walls.",
+        "Go to Albert in von Sweetsville to get one of the parts.",
+        "Go to Albert in von Sweetsville to get one of the parts.",
+        "Return to Krome to give him the part you got from Albert.",
+        "Meet with Jan at the DoodleCo Printing Facility.",
+        "Return to Krome with the part you got from Jan.",
+        "Deal with the Lacergen going berserk at the Lacergen Lab.",
         "Turn in the quest at the Help Center receptionist!"
     },
     ["20"] = {
@@ -156,12 +191,8 @@ data = {
         "Turn in the quest at the Help Center receptionist!",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["21"] = {
-        "Talk to the mayor in his house. You've been there before!",
-        "Talk to the dancing guy in the Graphite Lodge house that's playing music!",
-        "You have two choices: you can either destroy the boombox or talk to the mayor to convince him that the music should stay.",
-        "Uhh... you destroyed the boombox? Well, time to tell the mayor about it, I guess.",
-        "Turn in the quest at the Help Center receptionist!",
+    ["210"] = {
+        "Meet Cassidy in the abandoned room of the Peach Apartment.",
         "Turn in the quest at the Help Center receptionist!"
     },
     ["22"] = {
@@ -171,8 +202,9 @@ data = {
         "Talk to Cassidy outside of the mysterious house.",
         "Turn in the quest at the Help Center receptionist!"
     },
-    ["23"] = {
-        "Meet Jack on Route 4 and challenge him to a battle.",
+    ["120"] = {
+        "Meet Karl near the DoodleCo Academy Gymnasium.",
+        "Knock out 50 Wiglets!",
         "Turn in the quest at the Help Center receptionist!"
     }
 }
