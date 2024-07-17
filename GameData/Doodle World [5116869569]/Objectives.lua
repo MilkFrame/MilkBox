@@ -85,5 +85,18 @@ data = {
     {["Shorten"] = "Interact with the code computer located in the middle of the laboratory."},
     {["Shorten"] = "Interact with the computer in front of Zerzura!"},
     {["Shorten"] = "Go meet with your group at the Oasis DoodleCo office!"},
-    {["Shorten"] = "Meet Suzie and Quincy at the back entrance of Zane's Hideout!"}
+    {["Shorten"] = "Meet Suzie and Quincy at the back entrance of Zane's Hideout!"},
+    {["Shorten"] = "Head to Route 8 through the back of Zane's hideout!"},
+    {["Shorten"] = "Head to Icywood Forest through Route 8."},
+    {["Shorten"] = "Battle Desmond near the Icyridge town gate."},
+    {["Shorten"] = "Stop the Shadow Clan rebels from invading Icyridge!"},
+    {["Shorten"] = "Meet your friends and Desmond at Icyridge Help Center!"},
+    {
+        ["Shorten"] = "Meet Captain Silvier and Anna at the Icyridge Guard House, located on the ground level of Icyridge."
+    },
+    {["Shorten"] = "Meet Desmond at the Icyridge Help Center."},
+    {["Shorten"] = "Go to the Icyridge dungeon to try and free Suzie."},
+    {["Shorten"] = "Defeat Head Guard Tinsley at the Icyridge dungeon!"},
+    {["Shorten"] = "Go with Quincy to the 3rd Level of the Icyridge dungeon!"},
+    {["Shorten"] = "(End of current story) Meet with Desmond and your friends at the main bridge of Icyridge!"}
 }
