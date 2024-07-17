@@ -71,5 +71,13 @@ data = {
         ["Subway"] = "OasisSubway",
         ["Requirement"] = "204",
         ["Part"] = "SubwayExit"
+    },
+    {
+        ["Image"] = "rbxassetid://16785036527",
+        ["Name"] = "Icyridge",
+        ["Chunk"] = "IcyridgeTown",
+        ["Subway"] = "IcyridgeSubway",
+        ["Requirement"] = "261",
+        ["Part"] = "SubwayExit"
     }
 }
