@@ -23,9 +23,12 @@ data = {
         "Staligant Rune",
         "Spectatik Rune",
         "Suomous Rune",
-        "VigimantÃ¨ Rune",
+        "Vigimantè Rune",
         "Bionotic Rune",
-        "Lumiline Rune"
+        "Lumiline Rune",
+        "Nyanto Rune",
+        "Daeferno Rune",
+        "Cragildae Rune"
     },
     ["Artificial"] = {}
 }
