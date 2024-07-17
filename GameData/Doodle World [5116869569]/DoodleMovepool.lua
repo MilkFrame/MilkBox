@@ -1,8 +1,17 @@
 data = {
     ["Drakothread"] = {
-        ["Scroll"] = {"Disarm", "Burning Orb", "Starbreaker", "Somnambulism", "Shifting Winds", "Iron Slash"},
+        ["Scroll"] = {
+            "Disarm",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Iron Slash"
+        },
         ["Levelup"] = {
-            {"Swipe", "Squeak"},
+            {"Swipe", "Squeak", "Body Slam"},
             {"Claw Swipes"},
             {"Air Strike"},
             {"Purl Stitch"},
@@ -23,16 +32,20 @@ data = {
             {"Bite"},
             {"Scapegoat"},
             {"Wing Slash"}
-        }
+        },
+        ["OnEvolve"] = {"Body Slam"}
     },
     ["Candeigon"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Shifting Winds",
             "Retribution",
             "Gem Blast",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Climate Shot",
             "Feral Fury",
@@ -62,13 +75,17 @@ data = {
     },
     ["Somberock"] = {
         ["Scroll"] = {
+            "Pie Gag",
+            "Diamond Dash",
             "Retribution",
             "Rainmaker",
             "Gem Blast",
             "Disarm",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -94,7 +111,16 @@ data = {
     },
     ["Klicki"] = {["Scroll"] = {}, ["Levelup"] = {{"Smack", "Skitter", "Hide", "Scrutinize"}}},
     ["Squinana"] = {
-        ["Scroll"] = {"Taunt", "Gem Blast", "Food Fight", "Starbreaker", "Somnambulism", "Retribution"},
+        ["Scroll"] = {
+            "Taunt",
+            "Gem Blast",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Retribution"
+        },
         ["Levelup"] = {
             {"Hide", "Spicy Tackle"},
             {"Parasitic Seeds"},
@@ -112,8 +138,53 @@ data = {
             {"Leaf Sap"}
         }
     },
+    ["Scorsurge"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Electrify",
+            "Daze",
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Retribution",
+            "Flashbang",
+            "Iron Slash",
+            "Gem Blast"
+        },
+        ["Levelup"] = {
+            {"Venomous Sting", "Skitter"},
+            {"Shock"},
+            {"Screech"},
+            {"Lingering Poison"},
+            {"Thunder Strike"},
+            {"Ambush"},
+            {"Jolt"},
+            {"Taser"},
+            {"Poison Gas"},
+            {"Thunderstorm"},
+            {"Careless Assault"},
+            {"Sulfur Plume"},
+            {"Goo Blast"},
+            {"Hit-n-Run"},
+            {"Shock Therapy"},
+            {"Electro Slash"}
+        }
+    },
     ["Embheir"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker", "Feral Fury", "Taunt"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Feral Fury",
+            "Taunt"
+        },
         ["Levelup"] = {
             {"Firebolt", "Squeak", "Mutiny"},
             {"Fiery Bite"},
@@ -135,11 +206,14 @@ data = {
     },
     ["Jelluminous"] = {
         ["Scroll"] = {
+            "Tsunami",
             "Pylons",
             "Disarm",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Flashbang",
             "Climate Shot",
@@ -166,13 +240,16 @@ data = {
     },
     ["Partybug"] = {
         ["Scroll"] = {
+            "Pylons",
             "Venom Bite",
             "Gem Blast",
             "Rainmaker",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Insect Instinct",
             "Flashbang",
@@ -200,7 +277,18 @@ data = {
         }
     },
     ["Exoskelis"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Starbreaker", "Somnambulism", "Iron Slash", "Daze", "Taunt"},
+        ["Scroll"] = {
+            "Retribution",
+            "Disarm",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Daze",
+            "Taunt",
+            "Serrated Claws"
+        },
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Quick Sting"},
@@ -223,6 +311,7 @@ data = {
     },
     ["Zapoeira"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Pylons",
             "Retribution",
             "Disarm",
@@ -230,7 +319,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Feral Fury",
@@ -271,7 +362,9 @@ data = {
             "Taunt",
             "Shifting Winds",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Venom Bite",
             "Flashbang",
@@ -302,7 +395,9 @@ data = {
             "Retribution",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Feral Fury",
             "Shifting Winds"
@@ -315,7 +410,7 @@ data = {
             {"Vine Grasp"},
             {"Parasitic Seeds"},
             {"Screech"},
-            {"Beastial Wrath"},
+            {"Bestial Wrath"},
             {"Call of the Wild"},
             {"Barkskin"},
             {"Savage Blow"},
@@ -324,13 +419,16 @@ data = {
     },
     ["Henchum"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Retribution",
             "Venom Bite",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Feral Fury",
             "Taunt",
@@ -357,15 +455,49 @@ data = {
         },
         ["OnEvolve"] = {"Pummel"}
     },
+    ["Garghoul"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Venom Bite",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Shadowy Eyes", "Whisper"},
+            {"Murmur"},
+            {"Curse"},
+            {"Gust"},
+            {"Hex"},
+            {"Aerial"},
+            {"Spirit Claws"},
+            {"Pure Fear"},
+            {"Wing Slash"},
+            {"Vague Vortex"},
+            {"Befuddlement"},
+            {"Haunt"},
+            {"Sylphid"},
+            {"Incantation"},
+            {"Drain Life"},
+            {"Bite"}
+        },
+        ["OnEvolve"] = {"Incantation"}
+    },
     ["Squed"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Disarm",
             "Gem Blast",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Daze"
         },
@@ -394,12 +526,15 @@ data = {
     },
     ["Malotrick"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Disarm",
             "Retribution",
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Daze"
         },
@@ -407,27 +542,32 @@ data = {
             {"Shadowbolt", "Hide", "Mend"},
             {"Pickpocket"},
             {"Sleep n' Steal"},
-            {"Enlightenment"},
-            {"Meditation"},
-            {"Consume Treasure"},
             {"Taunt"},
-            {"Mutiny"},
+            {"Consume Treasure"},
             {"Mind Power"},
-            {"Protect"},
-            {"Pure Fear"},
-            {"Psychoforce"},
-            {"Dark Blast"},
             {"Darkness Expansion"},
+            {"Pure Fear"},
+            {"Dark Blast"},
+            {"Psychic Ram"},
+            {"Capsize"},
+            {"Enlightenment"},
+            {"Psychoforce"},
             {"Mind Drain"},
+            {"Meditation"},
+            {"Mutiny"},
+            {"Protect"},
             {"Ambush"},
-            {"Capsize"}
+            {"Dark Slash"}
         }
     },
     ["Potterfiend"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Retribution",
             "Iron Slash",
@@ -452,8 +592,51 @@ data = {
         },
         ["OnEvolve"] = {"Dark Slash"}
     },
+    ["Snobobo"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Daze",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Retribution",
+            "Disarm",
+            "Energy Wave",
+            "Cone of Cold",
+            "Starbreaker",
+            "Loyalty",
+            "Firecracker",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Roll", "Snowball"},
+            {"Absolute Zero"},
+            {"Solid Charge"},
+            {"Rest"},
+            {"Cone of Cold"},
+            {"Hyper Voice"},
+            {"Snow Roller"},
+            {"Body Slam"},
+            {"Reckless Charge"},
+            {"Arctic Blitz"},
+            {"Frostgrip"},
+            {"Snow Fort"}
+        }
+    },
     ["Polargeist"] = {
-        ["Scroll"] = {"Retribution", "Gem Blast", "Starbreaker", "Somnambulism", "Feral Fury", "Cone of Cold"},
+        ["Scroll"] = {
+            "Retribution",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Boo!", "Allure"},
             {"Flash Freeze"},
@@ -482,12 +665,16 @@ data = {
             "Tsunami",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Taunt",
             "Feral Fury",
             "Cone of Cold",
-            "Climate Shot"
+            "Climate Shot",
+            "Absolute Zero",
+            "Icefall"
         },
         ["Levelup"] = {
             {"Smack", "Squeak"},
@@ -514,7 +701,9 @@ data = {
             "Iron Slash",
             "Firecracker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Burning Orb",
             "Taunt"
         },
@@ -536,7 +725,17 @@ data = {
         }
     },
     ["Weecub"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker", "Feral Fury", "Taunt"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Feral Fury",
+            "Taunt"
+        },
         ["Levelup"] = {
             {"Firebolt", "Squeak"},
             {"Fiery Bite"},
@@ -556,7 +755,16 @@ data = {
         }
     },
     ["Boulduo"] = {
-        ["Scroll"] = {"Venom Bite", "Gem Blast", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Venom Bite",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Pebble", "Fiery Bite", "Icy Bite", "Electro Bite"},
             {"Protect"},
@@ -578,6 +786,7 @@ data = {
     },
     ["Aluminja"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Iron Slash",
             "Retribution",
             "Taunt",
@@ -585,7 +794,9 @@ data = {
             "Gem Blast",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -611,12 +822,48 @@ data = {
         },
         ["OnEvolve"] = {"Pummel"}
     },
+    ["Glimring"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Electrify",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Gem Blast",
+            "Flashbang",
+            "Iron Slash",
+            "Rainmaker",
+            "Diamond Dash"
+        },
+        ["Levelup"] = {
+            {"Stab"},
+            {"Geode Smash"},
+            {"Crystal Cut"},
+            {"Sharpen"},
+            {"Bonk"},
+            {"Crystal Armor"},
+            {"Opal Pulse"},
+            {"Harden"},
+            {"Piercing Poke"},
+            {"Rupture"},
+            {"Enlightenment"},
+            {"Mineral Cannon"},
+            {"Crystal Wall"},
+            {"Shatter"},
+            {"Precision Dart"},
+            {"Mercury Puddle"}
+        }
+    },
     ["Gowatt"] = {
         ["Scroll"] = {
             "Pylons",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Feral Fury",
             "Climate Shot",
@@ -643,7 +890,18 @@ data = {
         }
     },
     ["Emperoflame"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker", "Feral Fury", "Taunt"},
+        ["Scroll"] = {
+            "Energy Wave",
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Feral Fury",
+            "Taunt"
+        },
         ["Levelup"] = {
             {"Firebolt", "Squeak", "Mutiny"},
             {"Fiery Bite"},
@@ -663,7 +921,7 @@ data = {
         }
     },
     ["Maskrow"] = {
-        ["Scroll"] = {"Rainmaker", "Retribution", "Starbreaker", "Somnambulism", "Shifting Winds"},
+        ["Scroll"] = {"Rainmaker", "Retribution", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds"},
         ["Levelup"] = {
             {"Peck", "Squeak"},
             {"Reckless Charge"},
@@ -687,11 +945,14 @@ data = {
             "Disarm",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Insect Instinct",
             "Taunt",
             "Iron Slash",
-            "Daze"
+            "Daze",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Swipe", "Harden", "Body Throw"},
@@ -716,13 +977,16 @@ data = {
             "Feral Fury",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Daze",
             "Gem Blast",
             "Disarm",
             "Iron Slash",
-            "Insect Instinct"
+            "Insect Instinct",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Quick Sting"},
@@ -730,23 +994,35 @@ data = {
             {"Shadowstep"},
             {"Savage Blow"},
             {"Slash"},
-            {"Bestial Wrath"},
+            {"Swarm"},
             {"Harden"},
-            {"Dark Slash"},
+            {"Berserk"},
+            {"Bestial Wrath"},
             {"Crush"},
             {"Crystal Cut"},
             {"Mandible Wound"},
-            {"Berserk"},
+            {"Dark Slash"},
             {"Toughen"},
             {"Pursuit"}
         },
         ["OnEvolve"] = {"Toughen"}
     },
     ["Taryonix"] = {
-        ["Scroll"] = {"Venom Bite", "Gem Blast", "Starbreaker", "Somnambulism", "Disarm", "Taunt", "Feral Fury"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Venom Bite",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Taunt",
+            "Feral Fury"
+        },
         ["Levelup"] = {
             {"Pebble", "Scrutinize"},
-            {"Crunch", "Fiery Bite", "Electro Bite"},
+            {"Crunch", "Fiery Bite", "Electro Bite", "Icy Bite"},
             {"Sandstorm"},
             {"Berserk"},
             {"Shale"},
@@ -762,13 +1038,15 @@ data = {
             {"Primal Rage"},
             {"Earth Lance"}
         },
-        ["OnEvolve"] = {"Crunch", "Fiery Bite", "Electro Bite"}
+        ["OnEvolve"] = {"Crunch", "Fiery Bite", "Electro Bite", "Icy Bite"}
     },
     ["Voltatoo"] = {
         ["Scroll"] = {
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Flashbang",
             "Iron Slash",
@@ -795,7 +1073,16 @@ data = {
         ["OnEvolve"] = {"Shock Wave"}
     },
     ["Squonk"] = {
-        ["Scroll"] = {"Taunt", "Rainmaker", "Starbreaker", "Somnambulism", "Burning Orb", "Climate Shot"},
+        ["Scroll"] = {
+            "Taunt",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Burning Orb",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Shadowy Eyes", "Curse", "Center of Attention", "Heal"},
             {"Plant Sap"},
@@ -814,6 +1101,37 @@ data = {
             {"Taunt"}
         }
     },
+    ["Fluffi"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Iron Slash",
+            "Venom Bite",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Bite"},
+            {"Shadowbolt"},
+            {"Rest"},
+            {"Body Slam"},
+            {"Treacherous Gnaw"},
+            {"Crunch"},
+            {"Double Bite"},
+            {"Vampiric Strike"},
+            {"Call of the Wild"},
+            {"Darkness Expansion"},
+            {"Dark Slash"},
+            {"Bestial Wrath"},
+            {"Headbutt"},
+            {"War Cry"},
+            {"Slash"},
+            {"Primal Rage"}
+        }
+    },
     ["Gemin"] = {
         ["Scroll"] = {"Gem Blast"},
         ["Levelup"] = {
@@ -830,13 +1148,50 @@ data = {
         },
         ["OnEvolve"] = {"Protect"}
     },
+    ["Zapion"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Electrify",
+            "Daze",
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Retribution",
+            "Flashbang",
+            "Iron Slash",
+            "Gem Blast"
+        },
+        ["Levelup"] = {
+            {"Venomous Sting", "Skitter"},
+            {"Shock"},
+            {"Screech"},
+            {"Lingering Poison"},
+            {"Thunder Strike"},
+            {"Ambush"},
+            {"Jolt"},
+            {"Taser"},
+            {"Poison Gas"},
+            {"Thunderstorm"},
+            {"Careless Assault"},
+            {"Sulfur Plume"},
+            {"Goo Blast"},
+            {"Hit-n-Run"},
+            {"Shock Therapy"},
+            {"Electro Slash"}
+        }
+    },
     ["Tufflaze"] = {
         ["Scroll"] = {
             "Retribution",
             "Venom Bite",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury",
             "Daze"
@@ -865,14 +1220,18 @@ data = {
     },
     ["Trilosect"] = {
         ["Scroll"] = {
+            "Serrated Claws",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Daze",
             "Gem Blast",
             "Iron Slash",
-            "Insect Instinct"
+            "Insect Instinct",
+            "Absolute Zero"
         },
         ["Levelup"] = {
             {"Quick Sting", "Snowball"},
@@ -898,7 +1257,9 @@ data = {
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Iron Slash",
             "Daze"
@@ -919,6 +1280,38 @@ data = {
             {"Rip Current"}
         }
     },
+    ["Fancyoon"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Feral Fury",
+            "Daze",
+            "Somnambulism",
+            "Pylons",
+            "Rest"
+        },
+        ["Levelup"] = {
+            {"Allure"},
+            {"Chemical Cleave"},
+            {"Ambush"},
+            {"Infection"},
+            {"Attack Mastery"},
+            {"Center of Attention"},
+            {"Venom Lacerate"},
+            {"Combo Support"},
+            {"Poison Punch"},
+            {"Body Slam"},
+            {"War Cry"},
+            {"Belch"},
+            {"Lingering Poison"},
+            {"Pursuit"},
+            {"Headbutt"}
+        }
+    },
     ["Gomutt"] = {
         ["Scroll"] = {
             "Tsunami",
@@ -927,7 +1320,9 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury"
         },
         ["Levelup"] = {
@@ -953,9 +1348,13 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
-            "Climate Shot"
+            "Climate Shot",
+            "Absolute Zero",
+            "Icefall"
         },
         ["Levelup"] = {
             {"Waterbolt", "Squeak"},
@@ -977,12 +1376,15 @@ data = {
     },
     ["Mauspunch"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Retribution"
         },
@@ -1008,7 +1410,9 @@ data = {
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Daze",
             "Iron Slash",
@@ -1044,7 +1448,9 @@ data = {
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Feral Fury",
@@ -1076,7 +1482,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Daze",
             "Shifting Winds",
@@ -1104,7 +1512,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Climate Shot",
@@ -1135,12 +1545,15 @@ data = {
     },
     ["Suomous"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Retribution"
         },
@@ -1166,7 +1579,9 @@ data = {
         ["Scroll"] = {
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Iron Slash",
             "Climate Shot",
@@ -1193,7 +1608,16 @@ data = {
         }
     },
     ["Seamsquire"] = {
-        ["Scroll"] = {"Retribution", "Food Fight", "Taunt", "Starbreaker", "Somnambulism", "Iron Slash"},
+        ["Scroll"] = {
+            "Retribution",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Shadow Lurk", "Stab", "Slash"},
             {"Pirouette"},
@@ -1217,7 +1641,9 @@ data = {
             "Retribution",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Gem Blast",
             "Burning Orb",
@@ -1242,7 +1668,16 @@ data = {
     },
     ["Shmellow"] = {["Scroll"] = {}, ["Levelup"] = {{"Roll", "Sweet Aroma", "Feast", "Seasoning"}}},
     ["Flaskit"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Feral Fury", "Climate Shot"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Roll", "Squeak"},
             {"Claw Swipes"},
@@ -1258,11 +1693,52 @@ data = {
             {"Alloy Missiles"}
         }
     },
-    ["Lumiline"] = {
+    ["Mant"] = {
         ["Scroll"] = {
             "Gem Blast",
+            "Food Fight",
+            "Taunt",
             "Starbreaker",
+            "Psychoforce",
+            "Energy Wave",
+            "Climate Shot",
+            "Electrify",
             "Somnambulism",
+            "Rest",
+            "Insect Instinct",
+            "Serrated Claws",
+            "Mud Wave"
+        },
+        ["Levelup"] = {
+            {"Web", "Squeak"},
+            {"Nibble"},
+            {"Web Ball"},
+            {"Swarm"},
+            {"Agitate"},
+            {"Psychic Ram"},
+            {"Mandible Wound"},
+            {"Itchy Bite"},
+            {"Enlightenment"},
+            {"Quick Sting"},
+            {"Wide Shield"},
+            {"Protect"},
+            {"Trait Exchange"},
+            {"Mind Power"},
+            {"Entomophobia"},
+            {"Magical Shield"},
+            {"Mind Drain"},
+            {"Dispose"}
+        }
+    },
+    ["Lumiline"] = {
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Pylons",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Feral Fury",
@@ -1292,11 +1768,15 @@ data = {
     },
     ["Louis"] = {
         ["Scroll"] = {
+            "Daze",
+            "Pylons",
             "Retribution",
             "Disarm",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Iron Slash",
             "Firecracker",
@@ -1314,6 +1794,7 @@ data = {
             {"Careless Assault"},
             {"Ambush"},
             {"Assail"},
+            {"Mortal Cleanse"},
             {"Panhandle"},
             {"Blowup Blast"},
             {"Subterfuge"},
@@ -1327,14 +1808,18 @@ data = {
     },
     ["Endovul"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Gem Blast",
             "Venom Bite",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Cone of Cold",
-            "Climate Shot"
+            "Climate Shot",
+            "Icefall"
         },
         ["Levelup"] = {
             {"Roll", "Squeak", "Wave Shot"},
@@ -1360,10 +1845,13 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
-            "Daze"
+            "Daze",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Stab", "Flare"},
@@ -1409,7 +1897,9 @@ data = {
             "Food Fight",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot"
         },
         ["Levelup"] = {
@@ -1432,7 +1922,16 @@ data = {
         }
     },
     ["Skorpent"] = {
-        ["Scroll"] = {"Retribution", "Venom Bite", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Firebolt"},
             {"Vampiric Strike"},
@@ -1453,6 +1952,42 @@ data = {
             {"Inflame"}
         }
     },
+    ["Dameseal"] = {
+        ["Scroll"] = {
+            "Energy Wave",
+            "Daze",
+            "Tsunami",
+            "Gem Blast",
+            "Rainmaker",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Feral Fury",
+            "Disarm"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Squeak", "Hyper Voice"},
+            {"Wave Shot"},
+            {"Protect"},
+            {"Body Slam"},
+            {"Scapegoat"},
+            {"Headbutt"},
+            {"Crocodile Tears"},
+            {"Smack"},
+            {"Tsunami"},
+            {"Aquagel"},
+            {"Storm Heal"},
+            {"Rainmaker"},
+            {"Careless Assault"},
+            {"Curious Beam"},
+            {"Hydro Burst"}
+        },
+        ["OnEvolve"] = {"Hyper Voice"}
+    },
     ["Theaterror"] = {
         ["Scroll"] = {
             "Retribution",
@@ -1463,7 +1998,9 @@ data = {
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Electrify"
         },
@@ -1498,7 +2035,9 @@ data = {
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Psychoforce",
             "Iron Slash",
@@ -1528,7 +2067,9 @@ data = {
         ["Scroll"] = {
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Daze",
             "Gem Blast",
@@ -1554,9 +2095,13 @@ data = {
     },
     ["Nimbell"] = {
         ["Scroll"] = {
+            "Tsunami",
+            "Pylons",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Shifting Winds",
             "Rainmaker",
@@ -1591,7 +2136,9 @@ data = {
             "Taunt",
             "Shifting Winds",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Venom Bite",
             "Electrify"
@@ -1617,16 +2164,19 @@ data = {
         }
     },
     ["Sharpup"] = {
-        ["Scroll"] = {"Tsunami", "Rust", "Rainmaker", "Starbreaker", "Somnambulism", "Cone of Cold"},
+        ["Scroll"] = {"Tsunami", "Rust", "Rainmaker", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Cone of Cold"},
         ["Levelup"] = {{"Bite", "Waterbolt", "Scrutinize", "Wave Shot"}}
     },
     ["Bubbull"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Tsunami",
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Climate Shot",
             "Cone of Cold",
@@ -1638,6 +2188,7 @@ data = {
             {"Wave Shot"},
             {"Earth Surge"},
             {"Earth Lance"},
+            {"Protect"},
             {"Earthquake"},
             {"Aquagel"},
             {"Hide"},
@@ -1659,6 +2210,7 @@ data = {
     },
     ["Moyai"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Retribution",
             "Disarm",
             "Gem Blast",
@@ -1666,7 +2218,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Daze"
         },
@@ -1696,7 +2250,16 @@ data = {
         }
     },
     ["Banautilus"] = {
-        ["Scroll"] = {"Taunt", "Gem Blast", "Food Fight", "Starbreaker", "Somnambulism", "Retribution"},
+        ["Scroll"] = {
+            "Taunt",
+            "Gem Blast",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Retribution"
+        },
         ["Levelup"] = {
             {"Hide", "Spicy Tackle"},
             {"Parasitic Seeds"},
@@ -1739,7 +2302,9 @@ data = {
         ["Scroll"] = {
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Flashbang",
             "Climate Shot",
@@ -1762,6 +2327,44 @@ data = {
             {"Shock"}
         }
     },
+    ["Yonna"] = {
+        ["Scroll"] = {
+            "Psychoforce",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Daze",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Energy Wave",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Quick Strike"},
+            {"Reckless Charge"},
+            {"Body Slam"},
+            {"Savage Blow"},
+            {"Crunch"},
+            {"Headbutt"},
+            {"Mandible Wound"},
+            {"Bestial Wrath"},
+            {"Call of the Wild"},
+            {"Swarm"},
+            {"Itchy Bite"},
+            {"Berserk"},
+            {"Double Bite"},
+            {"Rest"},
+            {"Primal Rage"},
+            {"Sharp Claws"}
+        }
+    },
     ["Sharazor"] = {
         ["Scroll"] = {
             "Tsunami",
@@ -1769,7 +2372,9 @@ data = {
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Iron Slash"
         },
@@ -1791,7 +2396,7 @@ data = {
         ["OnEvolve"] = {"Capsize"}
     },
     ["Coalt"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker"},
+        ["Scroll"] = {"Mud Wave", "Gem Blast", "Starbreaker"},
         ["Levelup"] = {
             {"Pebble"},
             {"Quick Strike"},
@@ -1812,7 +2417,7 @@ data = {
         }
     },
     ["Abyssent"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Somnambulism", "Flashbang"},
+        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Flashbang"},
         ["Levelup"] = {
             {"Waterbolt", "Icy Bite"},
             {"Blinding Lights"},
@@ -1835,17 +2440,20 @@ data = {
     },
     ["Tsumo"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Disarm",
             "Food Fight",
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Daze"
         },
         ["Levelup"] = {
-            {"Swift Hook", "Firebolt", "Squeak", "Swift Hook"},
+            {"Swift Hook", "Firebolt", "Takeout", "Swift Hook"},
             {"Adrenaline"},
             {"Raging Bonfire"},
             {"Unguarded Strike"},
@@ -1867,10 +2475,13 @@ data = {
     },
     ["Jestwirl"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Climate Shot",
             "Retribution",
@@ -1897,7 +2508,17 @@ data = {
         }
     },
     ["Claydance"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Taunt", "Retribution", "Climate Shot"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Retribution",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Pebble", "Harden", "Befuddlement"},
             {"Sandstorm"},
@@ -1914,12 +2535,85 @@ data = {
         },
         ["OnEvolve"] = {"Jolly Dance"}
     },
+    ["Fabulupin"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Gem Blast",
+            "Daze",
+            "Diamond Dash"
+        },
+        ["Levelup"] = {
+            {"Lick", "Bite", "Leaf Sap"},
+            {"Crystal Storm"},
+            {"Slash"},
+            {"Panhandle"},
+            {"Quick Strike"},
+            {"Claw Swipes"},
+            {"Squeak"},
+            {"Branch Launch"},
+            {"Leaf Tornado"},
+            {"Pursuit"},
+            {"Subterfuge"},
+            {"Leaf Blade"},
+            {"Crystal Cut"},
+            {"Crit Up"},
+            {"Crystal Arrow"}
+        },
+        ["OnEvolve"] = {"Crystal Arrow"}
+    },
+    ["Foxsy"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Gem Blast",
+            "Daze",
+            "Diamond Dash"
+        },
+        ["Levelup"] = {
+            {"Lick", "Bite", "Leaf Sap"},
+            {"Crystal Storm"},
+            {"Slash"},
+            {"Panhandle"},
+            {"Quick Strike"},
+            {"Claw Swipes"},
+            {"Squeak"},
+            {"Branch Launch"},
+            {"Pursuit"},
+            {"Subterfuge"},
+            {"Leaf Tornado"},
+            {"Leaf Blade"},
+            {"Crit Up"},
+            {"Crystal Cut"}
+        }
+    },
     ["Staligant"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Gem Blast",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Flashbang",
             "Cone of Cold"
@@ -1927,28 +2621,32 @@ data = {
         ["Levelup"] = {
             {"Mind Power", "Squeak"},
             {"Psychokinetic Launch"},
+            {"Magical Shield"},
             {"Crystal Armor"},
             {"Wide Shield"},
             {"Focus"},
             {"Crystal Storm"},
-            {"Meditation"},
+            {"Transcendent Power"},
             {"Enlightenment"},
             {"Haste"},
             {"Crystal Cut"},
             {"Crystal Dust"},
-            {"Magical Shield"},
+            {"Meditation"},
             {"Psychic Ram"},
             {"Rest"}
         }
     },
     ["Skrappey"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Taunt",
             "Daze"
@@ -1972,16 +2670,51 @@ data = {
             {"Slash"}
         }
     },
+    ["Scarfox"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Cone of Cold",
+            "Iron Slash",
+            "Gem Blast",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Pebble", "Squeak", "Pickpocket"},
+            {"Claw Swipes"},
+            {"Frostgrip"},
+            {"Snowball"},
+            {"Sharpen"},
+            {"Landslide"},
+            {"Earthquake"},
+            {"Shatter"},
+            {"Reckless Charge"},
+            {"Icy Slash"},
+            {"Cone of Cold"},
+            {"Earth Lance"},
+            {"Icy Floor"}
+        }
+    },
     ["Spiraryu"] = {
         ["Scroll"] = {
             "Retribution",
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
-            "Daze"
+            "Daze",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Swipe", "Scrutinize"},
@@ -2005,7 +2738,17 @@ data = {
         ["OnEvolve"] = {"Pursuit"}
     },
     ["Mawthra"] = {
-        ["Scroll"] = {"Venom Bite", "Starbreaker", "Somnambulism", "Shifting Winds", "Insect Instinct", "Iron Slash"},
+        ["Scroll"] = {
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Insect Instinct",
+            "Iron Slash",
+            "Serrated Claws"
+        },
         ["Levelup"] = {
             {"Lingering Poison", "Nibble", "Web", "Harden"},
             {"Venomous Sting"},
@@ -2033,7 +2776,9 @@ data = {
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Rust",
             "Wave Shot",
@@ -2059,7 +2804,17 @@ data = {
         }
     },
     ["Pupskey"] = {
-        ["Scroll"] = {"Venom Bite", "Starbreaker", "Somnambulism", "Feral Fury", "Cone of Cold"},
+        ["Scroll"] = {
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Snowball"},
             {"Flash Freeze"},
@@ -2080,12 +2835,15 @@ data = {
     },
     ["Duraje"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Retribution",
             "Taunt",
             "Firecracker",
             "Iron Slash",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Daze"
         },
@@ -2107,8 +2865,57 @@ data = {
         },
         ["OnEvolve"] = {"Toughen"}
     },
+    ["Yondr"] = {
+        ["Scroll"] = {
+            "Psychoforce",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Daze",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Energy Wave",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Quick Strike"},
+            {"Reckless Charge"},
+            {"Body Slam"},
+            {"Savage Blow"},
+            {"Crunch"},
+            {"Headbutt"},
+            {"Mandible Wound"},
+            {"Bestial Wrath"},
+            {"Call of the Wild"},
+            {"Swarm"},
+            {"Itchy Bite"},
+            {"Berserk"},
+            {"Double Bite"},
+            {"Rest"},
+            {"Primal Rage"},
+            {"Sharp Claws"}
+        }
+    },
     ["Eftue"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Psychoforce", "Feral Fury", "Climate Shot"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Energy Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Feral Fury",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Sandstorm", "Pebble"},
             {"Psychoforce"},
@@ -2132,12 +2939,16 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Climate Shot",
             "Retribution",
-            "Cone of Cold"
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
         },
         ["Levelup"] = {
             {"Snowball", "Bite"},
@@ -2161,12 +2972,15 @@ data = {
     },
     ["Klydaskunk"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Retribution",
             "Disarm",
             "Venom Bite",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Cone of Cold",
             "Climate Shot",
@@ -2175,6 +2989,7 @@ data = {
         ["Levelup"] = {
             {"Swipe", "Blinding Lights"},
             {"Radiant Beam"},
+            {"Aurora Flash"},
             {"Toxic Bomb"},
             {"Sulfur Plume"},
             {"Poison Ivy"},
@@ -2214,34 +3029,94 @@ data = {
     },
     ["Rosebug"] = {["Scroll"] = {}, ["Levelup"] = {{"Nibble", "Web"}, {"Squeak"}}},
     ["Kelpie"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Disarm", "Rust", "Starbreaker", "Somnambulism", "Taunt", "Cone of Cold"},
+        ["Scroll"] = {
+            "Tsunami",
+            "Rainmaker",
+            "Disarm",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Cone of Cold"
+        },
         ["Levelup"] = {
             {"Waterbolt"},
             {"Rapid Current"},
-            {"Cutesy Glare"},
+            {"Tainted Water"},
+            {"Siren Song"},
+            {"Choke"},
+            {"Curse"},
+            {"Necromancy"},
             {"Sob"},
             {"Hydro Burst"},
-            {"Capsize"},
-            {"Curse"},
-            {"Boo!"},
-            {"Vague Vortex"},
+            {"Bubble Shield"},
             {"Tsunami"},
-            {"Choke"},
-            {"Haunt"},
-            {"Necromancy"},
+            {"Enlightenment"},
+            {"Storm Heal"},
+            {"Vague Vortex"},
+            {"Cutesy Glare"},
+            {"Capsize"},
+            {"Boo!"},
             {"Shadowbolt"},
-            {"Bubble Shield"}
+            {"Haunt"}
+        }
+    },
+    ["Artifixie-Mech"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Cone of Cold",
+            "Psychoforce",
+            "Daze",
+            "Feral Fury",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Snowball", "Mind Power"},
+            {"Toughen"},
+            {"Mythic Blast"},
+            {"Trade"},
+            {"Boom Boom"},
+            {"Psychic Ram"},
+            {"Gatling Gifts"},
+            {"Enlightment"},
+            {"Multi-Smack"},
+            {"Magical Shield"},
+            {"Agitate"},
+            {"Chilling Chorus"},
+            {"Quick Ice"},
+            {"Snack Chomp"},
+            {"Bonk"},
+            {"Hype Up"},
+            {"Pebble"},
+            {"Mind Drain"},
+            {"Arctic Blitz"},
+            {"Center of Attention"},
+            {"Scapegoat"},
+            {"Frostgrip"}
         }
     },
     ["Octonut"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Tsunami",
             "Rainmaker",
             "Gem Blast",
             "Disarm",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Climate Shot"
         },
@@ -2262,7 +3137,17 @@ data = {
         }
     },
     ["Medikrow"] = {
-        ["Scroll"] = {"Rainmaker", "Retribution", "Food Fight", "Starbreaker", "Somnambulism", "Shifting Winds", "Daze"},
+        ["Scroll"] = {
+            "Rainmaker",
+            "Retribution",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Peck", "Squeak", "Relief"},
             {"Sulfur Plume"},
@@ -2284,8 +3169,49 @@ data = {
         },
         ["OnEvolve"] = {"Goo Blast"}
     },
+    ["Flong"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Iron Slash",
+            "Venom Bite",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Bite"},
+            {"Shadowbolt"},
+            {"Rest"},
+            {"Body Slam"},
+            {"Treacherous Gnaw"},
+            {"Crunch"},
+            {"Double Bite"},
+            {"Vampiric Strike"},
+            {"Call of the Wild"},
+            {"Darkness Expansion"},
+            {"Dark Slash"},
+            {"Bestial Wrath"},
+            {"Headbutt"},
+            {"War Cry"},
+            {"Slash"},
+            {"Primal Rage"}
+        }
+    },
     ["Wolfreeze"] = {
-        ["Scroll"] = {"Venom Bite", "Starbreaker", "Somnambulism", "Feral Fury", "Cone of Cold"},
+        ["Scroll"] = {
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Snowball"},
             {"Arctic Blitz"},
@@ -2311,12 +3237,15 @@ data = {
     },
     ["Meltimaw"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Venom Bite",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury"
         },
@@ -2349,7 +3278,9 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Climate Shot"
         },
@@ -2396,7 +3327,9 @@ data = {
             "Gem Blast",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Rust",
             "Rainmaker",
             "Psychoforce",
@@ -2423,12 +3356,15 @@ data = {
     },
     ["Sursablit"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Pylons",
             "Daze",
             "Retribution",
             "Iron Slash",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Shifting Winds",
             "Electrify"
@@ -2452,13 +3388,88 @@ data = {
         },
         ["OnEvolve"] = {"Rest"}
     },
+    ["Buoyanseal"] = {
+        ["Scroll"] = {
+            "Tsunami",
+            "Gem Blast",
+            "Rainmaker",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Feral Fury",
+            "Disarm"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Squeak"},
+            {"Wave Shot"},
+            {"Protect"},
+            {"Body Slam"},
+            {"Scapegoat"},
+            {"Headbutt"},
+            {"Crocodile Tears"},
+            {"Smack"},
+            {"Tsunami"},
+            {"Aquagel"},
+            {"Storm Heal"},
+            {"Rainmaker"},
+            {"Careless Assault"},
+            {"Hydro Burst"}
+        }
+    },
     ["Webennae"] = {
         ["Scroll"] = {},
         ["Levelup"] = {{"Wrap", "Hide", "Harden"}, {"Harden"}, {"Protect"}},
         ["OnEvolve"] = {"Harden"}
     },
+    ["Nyanto"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Venom Bite",
+            "Insect Instinct",
+            "Iron Slash",
+            "Feral Fury",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Swipe", "Hiss", "Cutesy Glare"},
+            {"Pursuit"},
+            {"Itchy Bite"},
+            {"Careless Assault"},
+            {"Tail Smack"},
+            {"Bite"},
+            {"Claw Swipes"},
+            {"Reckless Charge"},
+            {"Lick"},
+            {"Nibble"},
+            {"Jolly Dance"},
+            {"Snack Chomp"},
+            {"Quick Strike"},
+            {"Swarm"},
+            {"Rest"},
+            {"Body Slam"},
+            {"Double Bite"}
+        }
+    },
     ["Plipo"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Rust", "Starbreaker", "Somnambulism", "Climate Shot"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Food Fight",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Lick", "Squeak", "Panhandle"},
             {"Belch"},
@@ -2480,18 +3491,23 @@ data = {
     },
     ["Skadean"] = {
         ["Scroll"] = {
+            "Daze",
             "Tsunami",
             "Gem Blast",
             "Rainmaker",
             "Food Fight",
             "Rust",
+            "Icefall",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
-            "Climate Shot"
+            "Climate Shot",
+            "Absolute Zero"
         },
         ["Levelup"] = {
-            {"Waterbolt", "Squeak"},
+            {"Waterbolt", "Squeak", "Fin Slash", "Icy Slash"},
             {"Wave Shot"},
             {"Protect"},
             {"Icy Floor"},
@@ -2507,11 +3523,24 @@ data = {
             {"Snow Fort"},
             {"Ice Prison"},
             {"Icy Veil"}
-        }
+        },
+        ["OnEvolve"] = {"Fin Slash", "Icy Slash"}
     },
     ["Larvennae"] = {["Scroll"] = {}, ["Levelup"] = {{"Wrap", "Hide"}, {"Swaddle"}}},
     ["Calamander"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Taunt", "Starbreaker", "Somnambulism", "Climate Shot", "Electrify"},
+        ["Scroll"] = {
+            "Pie Gag",
+            "Gem Blast",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Electrify",
+            "Pylons"
+        },
         ["Levelup"] = {
             {"Lick", "Sweet Aroma"},
             {"Just Desserts"},
@@ -2520,6 +3549,7 @@ data = {
             {"Empty Calories"},
             {"Sugar Rush"},
             {"Bullet Corn"},
+            {"Bestial Wrath"},
             {"Heckle"},
             {"Center of Attention"},
             {"Seasoning"},
@@ -2535,7 +3565,9 @@ data = {
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Climate Shot",
@@ -2561,10 +3593,13 @@ data = {
     },
     ["Tasmarauder"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Retribution",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Taunt",
             "Feral Fury",
@@ -2592,7 +3627,17 @@ data = {
         ["OnEvolve"] = {"Bone Club"}
     },
     ["Prophant"] = {
-        ["Scroll"] = {"Gem Blast", "Flashbang", "Starbreaker", "Somnambulism", "Psychoforce", "Taunt", "Electrify"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Flashbang",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Taunt",
+            "Electrify"
+        },
         ["Levelup"] = {
             {"Mind Power", "Flare"},
             {"Psychokinetic Launch"},
@@ -2611,7 +3656,17 @@ data = {
         }
     },
     ["Marshore"] = {
-        ["Scroll"] = {"Retribution", "Food Fight", "Rainmaker", "Starbreaker", "Somnambulism", "Daze"},
+        ["Scroll"] = {
+            "Pie Gag",
+            "Retribution",
+            "Food Fight",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Roll", "Sweet Aroma", "Feast", "Seasoning"},
             {"Careless Assault"},
@@ -2631,7 +3686,9 @@ data = {
             "Pylons",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Feral Fury",
             "Climate Shot",
@@ -2656,7 +3713,16 @@ data = {
         }
     },
     ["Threasant"] = {
-        ["Scroll"] = {"Retribution", "Food Fight", "Taunt", "Starbreaker", "Somnambulism", "Iron Slash"},
+        ["Scroll"] = {
+            "Retribution",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Shadow Lurk", "Stab"},
             {"Pirouette"},
@@ -2675,7 +3741,18 @@ data = {
         }
     },
     ["Gourmesal"] = {
-        ["Scroll"] = {"Disarm", "Taunt", "Starbreaker", "Somnambulism", "Daze", "Gem Blast", "Food Fight"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze",
+            "Gem Blast",
+            "Food Fight"
+        },
         ["Levelup"] = {
             {"Spicy Tackle"},
             {"Shatter"},
@@ -2696,7 +3773,17 @@ data = {
         }
     },
     ["Spunny"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Burning Orb", "Starbreaker", "Somnambulism", "Iron Slash", "Daze"},
+        ["Scroll"] = {
+            "Retribution",
+            "Disarm",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Patchwork"},
@@ -2718,8 +3805,51 @@ data = {
             {"Headbutt"}
         }
     },
+    ["Perfumi"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Rainmaker",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Climate Shot",
+            "Flashbang",
+            "Psychoforce",
+            "Energy Wave",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Roll"},
+            {"Mind Power"},
+            {"Aerial"},
+            {"Subterfuge"},
+            {"Harmony"},
+            {"Mind Drain"},
+            {"Quick Strike"},
+            {"Solid Charge"},
+            {"Armor Up"},
+            {"Psychokinetic Launch"},
+            {"Aerostorm"},
+            {"Jet Strike"},
+            {"Soulfire"},
+            {"Psychic Ram"},
+            {"Wing Slash"},
+            {"Tempest"}
+        }
+    },
     ["Impling"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Taunt", "Burning Orb", "Firecracker", "Daze"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Burning Orb",
+            "Firecracker",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Boo!", "Befuddlement", "Mind Empowerment", "Shadow Lurk"},
             {"Vague Vortex"},
@@ -2743,7 +3873,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Tsunami",
             "Cone of Cold",
             "Rainmaker",
@@ -2768,14 +3900,51 @@ data = {
             {"Choke"}
         }
     },
+    ["Threec"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Venom Bite",
+            "Insect Instinct",
+            "Iron Slash",
+            "Feral Fury",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Swipe", "Hiss", "Cutesy Glare"},
+            {"Pursuit"},
+            {"Itchy Bite"},
+            {"Careless Assault"},
+            {"Tail Smack"},
+            {"Bite"},
+            {"Claw Swipes"},
+            {"Reckless Charge"},
+            {"Lick"},
+            {"Nibble"},
+            {"Jolly Dance"},
+            {"Snack Chomp"},
+            {"Quick Strike"},
+            {"Swarm"},
+            {"Rest"},
+            {"Body Slam"},
+            {"Double Bite"}
+        }
+    },
     ["Cubreal"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Pylons",
             "Daze",
             "Retribution",
             "Iron Slash",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Shifting Winds",
             "Electrify"
@@ -2803,7 +3972,9 @@ data = {
             "Disarm",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Feral Fury",
             "Daze"
@@ -2834,7 +4005,9 @@ data = {
             "Disarm",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Taunt",
             "Daze"
@@ -2868,7 +4041,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Climate Shot",
             "Electrify"
@@ -2898,7 +4073,9 @@ data = {
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Firecracker",
             "Feral Fury",
@@ -2929,24 +4106,28 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Climate Shot",
             "Insect Instinct",
             "Shifting Winds",
-            "Gem Blast"
+            "Gem Blast",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Waterbolt", "Gust"},
             {"Wave Shot"},
             {"Antenna Beam"},
             {"Swarm"},
+            {"Hydro Burst"},
             {"Storm Heal"},
             {"Aquagel"},
             {"Swamp"},
             {"Quick Sting"},
             {"Aerial"},
-            {"Hydro Burst"},
+            {"Tidal Slam"},
             {"Tsunami"},
             {"Rip Current"},
             {"Bubble Shield"},
@@ -2955,7 +4136,16 @@ data = {
         }
     },
     ["Amphipyre"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Fiery Punch", "Firebolt", "Croak"},
             {"Sedimentary Defense"},
@@ -2977,7 +4167,17 @@ data = {
         ["OnEvolve"] = {"Fiery Punch"}
     },
     ["Groato"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Rust", "Starbreaker", "Somnambulism", "Climate Shot", "Electrify"},
+        ["Scroll"] = {
+            "Pylons",
+            "Gem Blast",
+            "Food Fight",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Lick", "Squeak", "Panhandle"},
             {"Belch"},
@@ -3008,7 +4208,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Feral Fury",
@@ -3037,7 +4239,18 @@ data = {
         ["OnEvolve"] = {"Dark Slash"}
     },
     ["Bunsweet"] = {
-        ["Scroll"] = {"Disarm", "Rainmaker", "Food Fight", "Taunt", "Starbreaker", "Somnambulism", "Daze"},
+        ["Scroll"] = {
+            "Pie Gag",
+            "Disarm",
+            "Rainmaker",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Spicy Tackle", "Squeak"},
             {"Crit Up"},
@@ -3063,7 +4276,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Electrify",
             "Wave Shot"
@@ -3106,7 +4321,7 @@ data = {
         }
     },
     ["Appluff"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Shifting Winds"},
+        ["Scroll"] = {"Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds"},
         ["Levelup"] = {
             {"Spicy Tackle", "Squeak"},
             {"Fast Food"},
@@ -3121,44 +4336,45 @@ data = {
             {"Feast"}
         }
     },
-    ["Desdog"] = {
+    ["Bellbird"] = {
         ["Scroll"] = {
-            "Disarm",
+            "Gem Blast",
             "Rainmaker",
-            "Food Fight",
+            "Disarm",
+            "Venom Bite",
             "Taunt",
             "Starbreaker",
-            "Somnambulism",
-            "Daze",
-            "Retribution",
-            "Electrify"
+            "Loyalty",
+            "Climate Shot",
+            "Shifting Winds"
         },
         ["Levelup"] = {
-            {"Bite", "Smack", "Mallet Crush"},
-            {"Choke"},
-            {"Haste"},
-            {"Reckless Charge"},
-            {"Darkness Expansion"},
-            {"Crunch"},
-            {"Insult"},
-            {"Ambush"},
-            {"Ready to Fight"},
-            {"Vampiric Strike"},
-            {"Careless Assault"},
-            {"Dark Slash"},
-            {"Claw Swipes"},
-            {"Pure Fear"},
-            {"Combo Support"},
-            {"Pursuit"}
-        },
-        ["OnEvolve"] = {"Mallet Crush"}
+            {"Hide", "Peck", "Needle Spike"},
+            {"Headbutt"},
+            {"Rusty Roots"},
+            {"Leaf Tornado"},
+            {"Divine Light"},
+            {"Center of Attention"},
+            {"Jolly Dance"},
+            {"Hope Beacon"},
+            {"Aurora Flash"},
+            {"Plant Sap"},
+            {"Branch Launch"},
+            {"Tail Smack"},
+            {"Aerial"},
+            {"Life Sap"},
+            {"Barkskin"},
+            {"Tempest"}
+        }
     },
     ["Cinderling"] = {
         ["Scroll"] = {
             "Retribution",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Gem Blast",
             "Burning Orb",
@@ -3182,7 +4398,7 @@ data = {
         }
     },
     ["Grunkul"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Disarm", "Taunt"},
+        ["Scroll"] = {"Mud Wave", "Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Disarm", "Taunt"},
         ["Levelup"] = {
             {"Pebble", "Scrutinize"},
             {"Bestial Wrath"},
@@ -3202,7 +4418,16 @@ data = {
         }
     },
     ["Ruffire"] = {
-        ["Scroll"] = {"Retribution", "Venom Bite", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Nibble", "Scrutinize"},
             {"Howl"},
@@ -3222,7 +4447,7 @@ data = {
         }
     },
     ["Grufflin"] = {
-        ["Scroll"] = {"Food Fight", "Starbreaker", "Somnambulism", "Shifting Winds", "Taunt"},
+        ["Scroll"] = {"Food Fight", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Taunt"},
         ["Levelup"] = {
             {"Haste", "Spicy Tackle", "Squeak"},
             {"Fast Food"},
@@ -3245,7 +4470,17 @@ data = {
         ["OnEvolve"] = {"Haste"}
     },
     ["Magmotode"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker", "Daze"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Earth Lance", "Fiery Punch", "Firebolt", "Croak"},
             {"Sedimentary Defense"},
@@ -3272,11 +4507,14 @@ data = {
     },
     ["Noxvul"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Gem Blast",
             "Venom Bite",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Climate Shot"
         },
@@ -3300,13 +4538,17 @@ data = {
     },
     ["Glubbie"] = {
         ["Scroll"] = {
+            "Pie Gag",
+            "Pylons",
             "Disarm",
             "Gem Blast",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Climate Shot",
             "Daze",
@@ -3318,23 +4560,35 @@ data = {
             {"Center of Attention"},
             {"Rest"},
             {"Playtime's Over"},
-            {"Boring Show"},
+            {"Vague Vortex"},
             {"Poison Punch"},
             {"Jolly Dance"},
-            {"Mythic Blast"},
+            {"Recombobulate"},
             {"Acid Rain"},
-            {"Body Throw"},
             {"Foreign Substance"},
+            {"Body Throw"},
+            {"Boring Show"},
             {"Entertain"},
             {"Hype Up"},
-            {"Recombobulate"},
+            {"Mythic Blast"},
             {"Party!"},
             {"Multi-Smack"},
             {"Combo Support"}
         }
     },
     ["Saltot"] = {
-        ["Scroll"] = {"Disarm", "Taunt", "Starbreaker", "Somnambulism", "Daze", "Gem Blast", "Food Fight"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze",
+            "Gem Blast",
+            "Food Fight"
+        },
         ["Levelup"] = {
             {"Spicy Tackle"},
             {"Shatter"},
@@ -3354,8 +4608,55 @@ data = {
             {"Devour"}
         }
     },
+    ["Snowclowne"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Cone of Cold",
+            "Tsunami",
+            "Rust",
+            "Energy Wave",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Snowball", "Spicy Tackle", "Cone Cannon"},
+            {"Sweet Aroma"},
+            {"Chilling Chorus"},
+            {"Icy Floor"},
+            {"Cone of Cold"},
+            {"Center of Attention"},
+            {"Jolly Dance"},
+            {"Just Desserts"},
+            {"Icy Veil"},
+            {"Party!"},
+            {"Bonk"},
+            {"Fast Food"},
+            {"Mineral Cannon"},
+            {"Sugar Kiss"},
+            {"Sparkling Finish"}
+        },
+        ["OnEvolve"] = {"Cone Cannon"}
+    },
     ["Cthuwu"] = {
-        ["Scroll"] = {"Tsunami", "Retribution", "Starbreaker", "Somnambulism", "Cone of Cold", "Taunt", "Rainmaker"},
+        ["Scroll"] = {
+            "Tsunami",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Taunt",
+            "Rainmaker"
+        },
         ["Levelup"] = {
             {"Waterbolt", "Squeak"},
             {"Shadowbolt"},
@@ -3373,26 +4674,72 @@ data = {
             {"Tsunami"}
         }
     },
+    ["Jewelit"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Diamond Dash",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Gem Blast",
+            "Iron Slash",
+            "Food Fight",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Gust", "Scrutinize"},
+            {"Headbutt"},
+            {"Crystal Cut"},
+            {"Sparkling Finish"},
+            {"Body Slam"},
+            {"Toughen"},
+            {"Geode Smash"},
+            {"Screech"},
+            {"Aero Storm"},
+            {"Crystal Storm"},
+            {"Crystal Armor"},
+            {"Gem Blast"},
+            {"Aerial"},
+            {"Storm Heal"},
+            {"Crystal Wall"}
+        }
+    },
     ["Kelpimer"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Disarm", "Rust", "Starbreaker", "Somnambulism", "Taunt", "Cone of Cold"},
+        ["Scroll"] = {
+            "Tsunami",
+            "Rainmaker",
+            "Disarm",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Cone of Cold"
+        },
         ["Levelup"] = {
             {"Waterbolt"},
             {"Rapid Current"},
             {"Tainted Water"},
-            {"Sob"},
-            {"Cutesy Glare"},
-            {"Choke"},
             {"Siren Song"},
-            {"Capsize"},
+            {"Choke"},
             {"Curse"},
-            {"Boo!"},
-            {"Vague Vortex"},
-            {"Tsunami"},
-            {"Hydro Burst"},
-            {"Haunt"},
             {"Necromancy"},
+            {"Sob"},
+            {"Hydro Burst"},
+            {"Bubble Shield"},
+            {"Tsunami"},
+            {"Enlightenment"},
+            {"Storm Heal"},
+            {"Vague Vortex"},
+            {"Cutesy Glare"},
+            {"Capsize"},
+            {"Boo!"},
             {"Shadowbolt"},
-            {"Bubble Shield"}
+            {"Haunt"}
         },
         ["OnEvolve"] = {"Siren Song"}
     },
@@ -3417,7 +4764,7 @@ data = {
         }
     },
     ["Pebblett"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {"Mud Wave", "Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Firecracker"},
         ["Levelup"] = {
             {"Pebble"},
             {"Protect"},
@@ -3436,7 +4783,16 @@ data = {
         }
     },
     ["Spirice"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Cone of Cold"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Boo!", "Allure"},
             {"Necromancy"},
@@ -3458,8 +4814,245 @@ data = {
         },
         ["OnEvolve"] = {"Frostgrip"}
     },
+    ["Dustoon"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Feral Fury",
+            "Daze",
+            "Somnambulism",
+            "Pylons",
+            "Rest"
+        },
+        ["Levelup"] = {
+            {"Allure"},
+            {"Chemical Cleave"},
+            {"Ambush"},
+            {"Infection"},
+            {"Attack Mastery"},
+            {"Center of Attention"},
+            {"Venom Lacerate"},
+            {"Combo Support"},
+            {"Poison Punch"},
+            {"Body Slam"},
+            {"War Cry"},
+            {"Belch"},
+            {"Lingering Poison"},
+            {"Pursuit"},
+            {"Headbutt"}
+        }
+    },
+    ["Carnivower"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Loyalty",
+            "Taunt",
+            "Feral Fury",
+            "Rest",
+            "Somnambulism",
+            "Serrated Claws",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Roll", "Hide"},
+            {"Ambush"},
+            {"Sleep Spores"},
+            {"Plant Sap"},
+            {"Thorns of Wrath"},
+            {"Savage Blow"},
+            {"Branch Launch"},
+            {"Leaf Sap"},
+            {"Thorny Thwack"},
+            {"Reckless Charge"},
+            {"Compost"},
+            {"Ferocious Onslaught"},
+            {"Barkskin"},
+            {"Life Roots"},
+            {"Crunch"},
+            {"Parasitic Seeds"},
+            {"Rage Spores"}
+        }
+    },
+    ["Aliantion"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Psychoforce",
+            "Energy Wave",
+            "Climate Shot",
+            "Electrify",
+            "Somnambulism",
+            "Rest",
+            "Insect Instinct",
+            "Serrated Claws",
+            "Mud Wave"
+        },
+        ["Levelup"] = {
+            {"Web", "Squeak"},
+            {"Nibble"},
+            {"Web Ball"},
+            {"Swarm"},
+            {"Agitate"},
+            {"Psychic Ram"},
+            {"Mandible Wound"},
+            {"Itchy Bite"},
+            {"Enlightenment"},
+            {"Quick Sting"},
+            {"Wide Shield"},
+            {"Protect"},
+            {"Trait Exchange"},
+            {"Mind Power"},
+            {"Entomophobia"},
+            {"Magical Shield"},
+            {"Mind Drain"},
+            {"Dispose"}
+        }
+    },
+    ["Goliage"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Rest",
+            "Somnambulism",
+            "Loyalty",
+            "Diamond Dash",
+            "Taunt",
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Gem Blast",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Mud Spit", "Leaf Sap"},
+            {"Rest"},
+            {"Branch Launch"},
+            {"Pebble"},
+            {"Nature's Guardian"},
+            {"Thorns of Wrath"},
+            {"Protect"},
+            {"Leaf Sap"},
+            {"Headbutt"},
+            {"Life Roots"},
+            {"Sedimentary Defense"},
+            {"Landslide"},
+            {"Earthquake"},
+            {"Life Sap"},
+            {"Stalactites"},
+            {"Earth Lance"},
+            {"Shatter"},
+            {"Plant Sap"}
+        }
+    },
+    ["Hopolatte"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Gem Blast",
+            "Rainmaker",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Climate Shot",
+            "Pie Gag",
+            "Energy Wave",
+            "Feral Fury"
+        },
+        ["Levelup"] = {
+            {"Hide", "Cutesy Glare"},
+            {"Assail"},
+            {"Trade"},
+            {"Nutrient Drain"},
+            {"Mystery Egg"},
+            {"Fast Food"},
+            {"Crit Up"},
+            {"Headbutt"},
+            {"Mythic Blast"},
+            {"Marking Bite"},
+            {"Feast"},
+            {"Laser"},
+            {"Combo Support"},
+            {"Claw Swipes"},
+            {"Seasoning"},
+            {"Snack Chomp"},
+            {"Hype Up"}
+        }
+    },
+    ["Blossaur"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Loyalty",
+            "Taunt",
+            "Feral Fury",
+            "Rest",
+            "Somnambulism",
+            "Serrated Claws",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Roll", "Hide"},
+            {"Ambush"},
+            {"Sleep Spores"},
+            {"Plant Sap"},
+            {"Thorns of Wrath"},
+            {"Savage Blow"},
+            {"Branch Launch"},
+            {"Leaf Sap"},
+            {"Thorny Thwack"},
+            {"Reckless Charge"},
+            {"Compost"},
+            {"Ferocious Onslaught"},
+            {"Barkskin"},
+            {"Life Roots"},
+            {"Crunch"},
+            {"Parasitic Seeds"},
+            {"Rage Spores"}
+        }
+    },
+    ["Vermorph"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Serrated Claws",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Feral Fury",
+            "Climate Shot",
+            "Electrify",
+            "Insect Instinct"
+        },
+        ["Levelup"] = {
+            {"Lick", "Squeak"},
+            {"Jolt"},
+            {"Protect"},
+            {"Shock Wave"},
+            {"Mandible Wound"},
+            {"Pursuit"},
+            {"Electro Bite"},
+            {"Nibble"},
+            {"Reckless Charge"},
+            {"Careless Assault"},
+            {"Shock Therapy"},
+            {"Thunder Strike"},
+            {"Taser"},
+            {"Antenna Beam"},
+            {"Swarm"},
+            {"Mutiny"}
+        }
+    },
     ["Faunsprout"] = {
-        ["Scroll"] = {"Disarm", "Starbreaker", "Somnambulism", "Shifting Winds", "Climate Shot"},
+        ["Scroll"] = {"Disarm", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Climate Shot"},
         ["Levelup"] = {
             {"Smack", "Sweet Aroma"},
             {"Paralysis Spores"},
@@ -3483,7 +5076,9 @@ data = {
             "Retribution",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Taunt",
             "Feral Fury",
@@ -3508,10 +5103,53 @@ data = {
             {"Crunch"}
         }
     },
-    ["Monolugg"] = {
-        ["Scroll"] = {"Venom Bite", "Gem Blast", "Starbreaker", "Somnambulism", "Firecracker", "Daze"},
+    ["Yubee"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Serrated Claws",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Feral Fury",
+            "Climate Shot",
+            "Electrify",
+            "Insect Instinct"
+        },
         ["Levelup"] = {
-            {"Pebble", "Fiery Bite", "Electro Bite"},
+            {"Lick", "Squeak"},
+            {"Jolt"},
+            {"Protect"},
+            {"Shock Wave"},
+            {"Mandible Wound"},
+            {"Pursuit"},
+            {"Electro Bite"},
+            {"Nibble"},
+            {"Reckless Charge"},
+            {"Careless Assault"},
+            {"Shock Therapy"},
+            {"Thunder Strike"},
+            {"Taser"},
+            {"Antenna Beam"},
+            {"Swarm"},
+            {"Mutiny"}
+        }
+    },
+    ["Monolugg"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Venom Bite",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Pebble", "Fiery Bite", "Electro Bite", "Icy Bite"},
             {"Protect"},
             {"Iron Chomp"},
             {"Sedimentary Defense"},
@@ -3532,8 +5170,115 @@ data = {
         },
         ["OnEvolve"] = {"Iron Chomp"}
     },
+    ["Edibebi"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Serrated Claws",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Feral Fury",
+            "Climate Shot",
+            "Electrify",
+            "Insect Instinct"
+        },
+        ["Levelup"] = {
+            {"Lick", "Squeak"},
+            {"Jolt"},
+            {"Protect"},
+            {"Shock Wave"},
+            {"Mandible Wound"},
+            {"Pursuit"},
+            {"Electro Bite"},
+            {"Nibble"},
+            {"Reckless Charge"},
+            {"Careless Assault"},
+            {"Shock Therapy"},
+            {"Thunder Strike"},
+            {"Taser"},
+            {"Antenna Beam"},
+            {"Swarm"},
+            {"Mutiny"}
+        }
+    },
+    ["Grimmlen"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Venom Bite",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Shadowy Eyes", "Whisper"},
+            {"Murmur"},
+            {"Curse"},
+            {"Gust"},
+            {"Hex"},
+            {"Aerial"},
+            {"Spirit Claws"},
+            {"Pure Fear"},
+            {"Wing Slash"},
+            {"Befuddlement"},
+            {"Haunt"},
+            {"Vague Vortex"},
+            {"Sylphid"},
+            {"Drain Life"},
+            {"Bite"}
+        },
+        ["OnEvolve"] = {"Gust"}
+    },
+    ["Aerystal"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Diamond Dash",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Gem Blast",
+            "Iron Slash",
+            "Food Fight",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Gust", "Scrutinize", "Hit-n-Run"},
+            {"Headbutt"},
+            {"Crystal Cut"},
+            {"Sparkling Finish"},
+            {"Body Slam"},
+            {"Toughen"},
+            {"Geode Smash"},
+            {"Screech"},
+            {"Aero Storm"},
+            {"Crystal Storm"},
+            {"Crystal Armor"},
+            {"Gem Blast"},
+            {"Aerial"},
+            {"Storm Heal"},
+            {"Crystal Wall"}
+        },
+        ["OnEvolve"] = {"Hit-n-Run"}
+    },
     ["Furzen"] = {
-        ["Scroll"] = {"Venom Bite", "Starbreaker", "Somnambulism", "Feral Fury", "Cone of Cold"},
+        ["Scroll"] = {
+            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Cone of Cold",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Snowball"},
             {"Flash Freeze"},
@@ -3553,8 +5298,119 @@ data = {
             {"Bark"}
         }
     },
+    ["Blubimp"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Diamond Dash",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Gem Blast",
+            "Iron Slash",
+            "Food Fight",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Gust", "Scrutinize"},
+            {"Headbutt"},
+            {"Crystal Cut"},
+            {"Sparkling Finish"},
+            {"Body Slam"},
+            {"Toughen"},
+            {"Geode Smash"},
+            {"Screech"},
+            {"Aero Storm"},
+            {"Crystal Storm"},
+            {"Crystal Armor"},
+            {"Gem Blast"},
+            {"Aerial"},
+            {"Storm Heal"},
+            {"Crystal Wall"}
+        }
+    },
+    ["Floxy"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Cone of Cold",
+            "Iron Slash",
+            "Gem Blast",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Pebble", "Squeak"},
+            {"Claw Swipes"},
+            {"Frostgrip"},
+            {"Snowball"},
+            {"Sharpen"},
+            {"Landslide"},
+            {"Earthquake"},
+            {"Shatter"},
+            {"Reckless Charge"},
+            {"Icy Slash"},
+            {"Cone of Cold"},
+            {"Earth Lance"},
+            {"Icy Floor"}
+        }
+    },
+    ["Lacergen"] = {
+        ["Scroll"] = {
+            "Burning Orb",
+            "Gem Blast",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Iron Slash",
+            "Climate Shot",
+            "Retribution",
+            "Cone of Cold",
+            "Iron Slash",
+            "Pylons"
+        },
+        ["Levelup"] = {
+            {"Stab", "Sharp Claws"},
+            {"Elemental Claws"},
+            {"Binary Blitz"},
+            {"Sharpen"},
+            {"Haste"},
+            {"Mythic Blast"},
+            {"Pursuit"},
+            {"Earth Surge"},
+            {"Iron Slash"},
+            {"Preparation"},
+            {"Sword Sweep"},
+            {"Mineral Cannon"},
+            {"Slash"},
+            {"Screech"},
+            {"Dark Slash"},
+            {"Fiery Slash", "Icy Slash", "Electro Slash"}
+        }
+    },
     ["Wvyarn"] = {
-        ["Scroll"] = {"Disarm", "Burning Orb", "Starbreaker", "Somnambulism", "Shifting Winds", "Iron Slash"},
+        ["Scroll"] = {
+            "Disarm",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Claw Swipes"},
@@ -3578,6 +5434,42 @@ data = {
             {"Wing Slash"}
         },
         ["OnEvolve"] = {"Wing Slash"}
+    },
+    ["Seacrion"] = {
+        ["Scroll"] = {
+            "Energy Wave",
+            "Daze",
+            "Tsunami",
+            "Gem Blast",
+            "Rainmaker",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Feral Fury",
+            "Disarm"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Squeak", "Crunch"},
+            {"Wave Shot"},
+            {"Protect"},
+            {"Body Slam"},
+            {"Scapegoat"},
+            {"Headbutt"},
+            {"Crocodile Tears"},
+            {"Smack"},
+            {"Tsunami"},
+            {"Aquagel"},
+            {"Storm Heal"},
+            {"Rainmaker"},
+            {"Careless Assault"},
+            {"Steel Crusher"},
+            {"Hydro Burst"}
+        },
+        ["OnEvolve"] = {"Crunch"}
     },
     ["Megortles"] = {
         ["Scroll"] = {"Disarm", "Starbreaker"},
@@ -3603,6 +5495,7 @@ data = {
     },
     ["Maskomedy"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Disarm",
             "Gem Blast",
@@ -3611,7 +5504,9 @@ data = {
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Flashbang",
             "Electrify"
@@ -3642,15 +5537,248 @@ data = {
         },
         ["OnEvolve"] = {"Gleeful Ruse"}
     },
+    ["Hahayena"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Diamond Dash",
+            "Pylons",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Feral Fury",
+            "Climate Shot",
+            "Electrify",
+            "Gem Blast",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Shock", "Scrutinize"},
+            {"Electrify"},
+            {"Crystal Cut"},
+            {"Taser"},
+            {"Headbutt"},
+            {"Electro Bite"},
+            {"Bite"},
+            {"Screech"},
+            {"Crunch"},
+            {"Shock Therapy"},
+            {"Thunderstorm"},
+            {"Geode Smash"},
+            {"Rupture"},
+            {"Shock Wave"},
+            {"Crystal Wall"}
+        }
+    },
+    ["Gorpo"] = {
+        ["Scroll"] = {
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Starbreaker",
+            "Loyalty",
+            "Daze",
+            "Mud Wave",
+            "Energy Wave",
+            "Taunt"
+        },
+        ["Levelup"] = {
+            {"Mind Power", "Squeak"},
+            {"Agitate"},
+            {"Recombobulate"},
+            {"Mind Drain"},
+            {"Quick Thinking"},
+            {"Psychokinetic Launch"},
+            {"Reverse Singularity"},
+            {"Hyper Voice"},
+            {"Mineral Cannon"},
+            {"Psychoforce"},
+            {"Rest"},
+            {"Solid Charge"},
+            {"Harmony"},
+            {"Protect"}
+        }
+    },
+    ["Hyekeke"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Diamond Dash",
+            "Pylons",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Feral Fury",
+            "Climate Shot",
+            "Electrify",
+            "Gem Blast",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Shock", "Scrutinize"},
+            {"Electrify"},
+            {"Crystal Cut"},
+            {"Taser"},
+            {"Headbutt"},
+            {"Electro Bite"},
+            {"Charge"},
+            {"Screech"},
+            {"Sharpen"},
+            {"Shock Therapy"},
+            {"Thunderstorm"},
+            {"Geode Smash"},
+            {"Rupture"},
+            {"Shock Wave"},
+            {"Crystal Wall"}
+        }
+    },
+    ["Serpentsheen"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Electrify",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Gem Blast",
+            "Flashbang",
+            "Iron Slash",
+            "Rainmaker",
+            "Diamond Dash",
+            "Energy Wave",
+            "Psychoforce"
+        },
+        ["Levelup"] = {
+            {"Stab"},
+            {"Geode Smash"},
+            {"Crystal Cut"},
+            {"Sharpen"},
+            {"Bonk"},
+            {"Crystal Armor"},
+            {"Opal Pulse"},
+            {"Harden"},
+            {"Piercing Poke"},
+            {"Rupture"},
+            {"Enlightenment"},
+            {"Mineral Cannon"},
+            {"Crystal Wall"},
+            {"Shatter"},
+            {"Precision Dart"},
+            {"Mercury Puddle"}
+        }
+    },
+    ["Kibara"] = {
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Psychoforce",
+            "Gem Blast",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Daze",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Snowball", "Hide", "Magical Shield"},
+            {"Sad Zone"},
+            {"Geode Smash"},
+            {"Crocodile Tears"},
+            {"Quick Ice"},
+            {"Crystal Storm"},
+            {"Flash Freeze"},
+            {"Heal"},
+            {"Cone of Cold"},
+            {"Crystal Wall"},
+            {"Mind Drain"},
+            {"Piercing Ice"},
+            {"Wide Shield"},
+            {"Icy Veil"},
+            {"Protect"}
+        },
+        ["OnEvolve"] = {"Geode Smash"}
+    },
+    ["Mascruff"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Iron Slash",
+            "Venom Bite",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Bite"},
+            {"Shadowbolt"},
+            {"Rest"},
+            {"Body Slam"},
+            {"Treacherous Gnaw"},
+            {"Crunch"},
+            {"Double Bite"},
+            {"Vampiric Strike"},
+            {"Call of the Wild"},
+            {"Darkness Expansion"},
+            {"Dark Slash"},
+            {"Bestial Wrath"},
+            {"Headbutt"},
+            {"War Cry"},
+            {"Slash"},
+            {"Primal Rage"}
+        }
+    },
+    ["Celestian"] = {
+        ["Scroll"] = {
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Starbreaker",
+            "Loyalty",
+            "Daze",
+            "Mud Wave",
+            "Energy Wave",
+            "Taunt"
+        },
+        ["Levelup"] = {
+            {"Mind Power", "Squeak", "Meteor Launch"},
+            {"Agitate"},
+            {"Recombobulate"},
+            {"Mind Drain"},
+            {"Quick Thinking"},
+            {"Psychokinetic Launch"},
+            {"Reverse Singularity"},
+            {"Hyper Voice"},
+            {"Mineral Cannon"},
+            {"Psychoforce"},
+            {"Rest"},
+            {"Solid Charge"},
+            {"Harmony"},
+            {"Protect"}
+        },
+        ["OnEvolve"] = {"Meteor Launch"}
+    },
     ["Bunswirl"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -3673,8 +5801,48 @@ data = {
         },
         ["OnEvolve"] = {"Glaze Punch"}
     },
+    ["Bowlinguin"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Daze",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Cone of Cold",
+            "Starbreaker",
+            "Loyalty",
+            "Shifting Winds",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Roll", "Squeak"},
+            {"Snowball"},
+            {"Flash Freeze"},
+            {"Wing Slash"},
+            {"Quick Ice"},
+            {"Bowling Strike"},
+            {"Aerial"},
+            {"Body Slam"},
+            {"Icy Slash"},
+            {"Reckless Charge"},
+            {"Snow Fort"},
+            {"Snap Freeze"},
+            {"Cone of Cold"},
+            {"Hit-n-Run"},
+            {"Slash"}
+        }
+    },
     ["Bonikrow"] = {
-        ["Scroll"] = {"Rainmaker", "Retribution", "Food Fight", "Starbreaker", "Somnambulism", "Shifting Winds"},
+        ["Scroll"] = {
+            "Rainmaker",
+            "Retribution",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds"
+        },
         ["Levelup"] = {
             {"Peck", "Squeak"},
             {"Careless Assault"},
@@ -3696,11 +5864,15 @@ data = {
     },
     ["Irikil"] = {
         ["Scroll"] = {
+            "Pylons",
+            "Feral Fury",
             "Disarm",
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Retribution",
             "Electrify",
@@ -3712,17 +5884,86 @@ data = {
             {"Mutiny"},
             {"Expectorate"},
             {"Belch"},
+            {"Careless Assault"},
             {"Bite"},
             {"Shadowstep"},
             {"Poison Ivy"},
             {"Crit Up"},
-            {"Careless Assault"},
             {"Dark Slash"},
+            {"Goo Blast"},
             {"Venom Lacerate"},
             {"Claw Swipes"},
             {"Screech"},
             {"Vampiric Strike"},
             {"Ambush"}
+        }
+    },
+    ["Horbeast"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Feral Fury",
+            "Taunt",
+            "Daze",
+            "Electrify"
+        },
+        ["Levelup"] = {
+            {"Fiery Slash", "Electro Slash"},
+            {"Subterfuge"},
+            {"Dark Blast"},
+            {"Mutiny"},
+            {"Savage Blow"},
+            {"Glancing Blow"},
+            {"Preparation"},
+            {"Spirit Claws"},
+            {"Disarm"},
+            {"Sharpen"},
+            {"Claw Swipes"},
+            {"Shadowstep"},
+            {"Drill Sergeant"},
+            {"Screech"},
+            {"Dark Slash"},
+            {"Quick Strike"}
+        }
+    },
+    ["Feesh"] = {
+        ["Scroll"] = {
+            "Tsunami",
+            "Rainmaker",
+            "Gem Blast",
+            "Disarm",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot",
+            "Taunt",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Subterfuge", "Taunt"},
+            {"Rainmaker"},
+            {"Storm Heal"},
+            {"Entertain"},
+            {"Bubble Shield"},
+            {"Slash"},
+            {"Befuddlement"},
+            {"Quick Strike"},
+            {"Careless Assault"},
+            {"Hydro Burst"},
+            {"Jolly Dance"},
+            {"Fin Slash"},
+            {"Scapegoat"},
+            {"Tsunami"}
         }
     },
     ["Dodotor"] = {
@@ -3733,7 +5974,9 @@ data = {
             "Daze",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Climate Shot",
             "Iron Slash"
@@ -3756,7 +5999,7 @@ data = {
         }
     },
     ["Flittum"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Shifting Winds", "Climate Shot"},
+        ["Scroll"] = {"Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Climate Shot"},
         ["Levelup"] = {
             {"Peck", "Hide"},
             {"Protect"},
@@ -3777,7 +6020,7 @@ data = {
         }
     },
     ["Twigon"] = {
-        ["Scroll"] = {"Disarm", "Burning Orb", "Starbreaker", "Somnambulism", "Shifting Winds"},
+        ["Scroll"] = {"Disarm", "Burning Orb", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds"},
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Yarn Snare"},
@@ -3800,7 +6043,9 @@ data = {
             "Venom Bite",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Feral Fury",
             "Daze"
@@ -3824,7 +6069,7 @@ data = {
         ["OnEvolve"] = {"Dark Slash"}
     },
     ["Wisp"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker"},
+        ["Scroll"] = {"Gem Blast", "Starbreaker", "Loyalty", "Absolute Zero"},
         ["Levelup"] = {
             {"Boo!", "Allure"},
             {"Shadow Lurk"},
@@ -3843,8 +6088,40 @@ data = {
             {"Shadowy Eyes"}
         }
     },
+    ["Maximutt"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Rainmaker",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze",
+            "Retribution",
+            "Electrify"
+        },
+        ["Levelup"] = {
+            {"Bite", "Smack"},
+            {"Choke"},
+            {"Haste"},
+            {"Reckless Charge"},
+            {"Crunch"},
+            {"Insult"},
+            {"Ambush"},
+            {"Ready to Fight"},
+            {"Darkness Expansion"},
+            {"Careless Assault"},
+            {"Dark Slash"},
+            {"Claw Swipes"},
+            {"Pure Fear"},
+            {"Combo Support"},
+            {"Pursuit"}
+        }
+    },
     ["Mourveil"] = {
-        ["Scroll"] = {"Gem Blast", "Taunt", "Starbreaker", "Somnambulism", "Climate Shot", "Daze"},
+        ["Scroll"] = {"Gem Blast", "Taunt", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Climate Shot", "Daze"},
         ["Levelup"] = {
             {"Leaf Sap", "Sad Zone"},
             {"Paralysis Spores"},
@@ -3864,12 +6141,47 @@ data = {
             {"Sleep Spores"}
         }
     },
+    ["Fummasu"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Rainmaker",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Climate Shot",
+            "Flashbang",
+            "Psychoforce",
+            "Energy Wave",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Roll"},
+            {"Mind Power"},
+            {"Aerial"},
+            {"Subterfuge"},
+            {"Harmony"},
+            {"Mind Drain"},
+            {"Quick Strike"},
+            {"Solid Charge"},
+            {"Armor Up"},
+            {"Psychokinetic Launch"},
+            {"Aerostorm"},
+            {"Jet Strike"},
+            {"Soulfire"},
+            {"Psychic Ram"},
+            {"Wing Slash"},
+            {"Tempest"}
+        }
+    },
     ["Parabite"] = {
         ["Scroll"] = {
             "Tsunami",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Taunt",
             "Rainmaker",
@@ -3893,8 +6205,55 @@ data = {
             {"Tsunami"}
         }
     },
+    ["Mercenous"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Rust",
+            "Tsunami",
+            "Climate Shot",
+            "Rainmaker",
+            "Disarm",
+            "Iron Slash",
+            "Daze",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Waterbolt"},
+            {"Hide"},
+            {"Flashing Strike"},
+            {"Iron Slash"},
+            {"Tidal Slam"},
+            {"Light Hook"},
+            {"Shining Severance"},
+            {"Roll"},
+            {"Fin Slash"},
+            {"Storm Heal"},
+            {"Quick Strike"},
+            {"Headbutt"},
+            {"Rip Current"},
+            {"Unguarded Strike"},
+            {"Protect"},
+            {"Slash"}
+        },
+        ["OnEvolve"] = {"Shining Severance"}
+    },
+    ["Khaos"] = {["Scroll"] = {}, ["Levelup"] = {{"Do Nothing"}}},
     ["Moss"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Somnambulism", "Cone of Cold", "Climate Shot"},
+        ["Scroll"] = {
+            "Tsunami",
+            "Rainmaker",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Waterbolt", "Squeak"},
             {"Tainted Water"},
@@ -3913,13 +6272,84 @@ data = {
             {"Agitate"}
         }
     },
+    ["Pancabear"] = {
+        ["Scroll"] = {
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Double Bite"},
+            {"Rest"},
+            {"Snack Chomp"},
+            {"Itchy Bite"},
+            {"Just Desserts"},
+            {"Bee Summon"},
+            {"Electro Bite"},
+            {"Crunch"},
+            {"Icy Bite"},
+            {"Mandible Wound"},
+            {"Swarm"},
+            {"Fiery Bite"},
+            {"Cutesy Glare"}
+        }
+    },
+    ["Scalivur"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Rust",
+            "Tsunami",
+            "Climate Shot",
+            "Rainmaker",
+            "Disarm",
+            "Iron Slash",
+            "Daze",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Waterbolt"},
+            {"Hide"},
+            {"Iron Slash"},
+            {"Fin Slash"},
+            {"Light Hook"},
+            {"Flashing Strike"},
+            {"Roll"},
+            {"Tidal Slam"},
+            {"Storm Heal"},
+            {"Quick Strike"},
+            {"Headbutt"},
+            {"Rip Current"},
+            {"Unguarded Strike"},
+            {"Protect"},
+            {"Slash"}
+        },
+        ["OnEvolve"] = {"Iron Slash"}
+    },
     ["Gigarlic"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury"
         },
@@ -3944,6 +6374,133 @@ data = {
         },
         ["OnEvolve"] = {"Feast"}
     },
+    ["Armaratus"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Gem Blast",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Climate Shot",
+            "Diamond Dash",
+            "Burning Orb",
+            "Energy Wave"
+        },
+        ["Levelup"] = {
+            {"Roll"},
+            {"Shadowy Eyes"},
+            {"Vague Vortex"},
+            {"Ambush"},
+            {"Cold Glance"},
+            {"Drain Life"},
+            {"Armor Up"},
+            {"Solid Charge"},
+            {"Curse"},
+            {"Sob"},
+            {"Rupture"},
+            {"Hex"},
+            {"Soulfire"},
+            {"Psychic Ram"},
+            {"Crystal Armor"},
+            {"Befuddlement"}
+        }
+    },
+    ["Mabat"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Venom Bite",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Shadowy Eyes", "Whisper"},
+            {"Murmur"},
+            {"Curse"},
+            {"Gust"},
+            {"Hex"},
+            {"Spirit Claws"},
+            {"Pure Fear"},
+            {"Wing Slash"},
+            {"Befuddlement"},
+            {"Haunt"},
+            {"Vague Vortex"},
+            {"Sylphid"},
+            {"Drain Life"},
+            {"Bite"}
+        }
+    },
+    ["Mielursa"] = {
+        ["Scroll"] = {
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Double Bite"},
+            {"Rest"},
+            {"Snack Chomp"},
+            {"Itchy Bite"},
+            {"Just Desserts"},
+            {"Bee Summon"},
+            {"Electro Bite"},
+            {"Mandible Wound"},
+            {"Crunch"},
+            {"Icy Bite"},
+            {"Swarm"},
+            {"Honey Slap"},
+            {"Fiery Bite"},
+            {"Cutesy Glare"}
+        },
+        ["OnEvolve"] = {"Honey Slap"}
+    },
+    ["Bearby"] = {
+        ["Scroll"] = {
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Double Bite"},
+            {"Rest"},
+            {"Snack Chomp"},
+            {"Itchy Bite"},
+            {"Just Desserts"},
+            {"Bee Summon"},
+            {"Electro Bite"},
+            {"Crunch"},
+            {"Icy Bite"},
+            {"Mandible Wound"},
+            {"Swarm"},
+            {"Fiery Bite"},
+            {"Cutesy Glare"}
+        }
+    },
     ["Riffrat"] = {
         ["Scroll"] = {
             "Retribution",
@@ -3952,7 +6509,9 @@ data = {
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Taunt",
             "Daze"
@@ -3975,8 +6534,87 @@ data = {
             {"Panhandle"}
         }
     },
+    ["Vuleur"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Iron Slash",
+            "Gem Blast",
+            "Daze",
+            "Diamond Dash"
+        },
+        ["Levelup"] = {
+            {"Lick", "Bite", "Leaf Sap"},
+            {"Crystal Storm"},
+            {"Slash"},
+            {"Panhandle"},
+            {"Quick Strike"},
+            {"Claw Swipes"},
+            {"Squeak"},
+            {"Branch Launch"},
+            {"Pursuit"},
+            {"Subterfuge"},
+            {"Leaf Tornado"},
+            {"Leaf Blade"},
+            {"Crit Up"},
+            {"Crystal Cut"}
+        }
+    },
+    ["Glacigash"] = {
+        ["Scroll"] = {
+            "Serrated Claws",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Daze",
+            "Gem Blast",
+            "Iron Slash",
+            "Insect Instinct",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Quick Sting", "Snowball", "Absolute Zero"},
+            {"Haste"},
+            {"Shadowstep"},
+            {"Crush"},
+            {"Slash"},
+            {"Ice Prison"},
+            {"Harden"},
+            {"Antenna Beam"},
+            {"Piercing Ice"},
+            {"Icy Slash"},
+            {"Mandible Wound"},
+            {"Sharpen"},
+            {"Swarm"},
+            {"Ambush"}
+        },
+        ["OnEvolve"] = {"Absolute Zero"}
+    },
     ["Prickles"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Rainmaker", "Taunt", "Starbreaker", "Somnambulism", "Daze"},
+        ["Scroll"] = {
+            "Energy Wave",
+            "Retribution",
+            "Disarm",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze"
+        },
         ["Levelup"] = {
             {"Smack", "Squeak"},
             {"Plant Sap"},
@@ -3999,8 +6637,41 @@ data = {
         },
         ["OnEvolve"] = {"Counter Punch"}
     },
+    ["Trilagid"] = {
+        ["Scroll"] = {
+            "Serrated Claws",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Daze",
+            "Gem Blast",
+            "Iron Slash",
+            "Insect Instinct",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Quick Sting", "Snowball"},
+            {"Haste"},
+            {"Shadowstep"},
+            {"Crush"},
+            {"Slash"},
+            {"Ice Prison"},
+            {"Harden"},
+            {"Antenna Beam"},
+            {"Piercing Ice"},
+            {"Icy Slash"},
+            {"Mandible Wound"},
+            {"Sharpen"},
+            {"Swarm"},
+            {"Ambush"}
+        }
+    },
     ["Humbiscus"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Shifting Winds", "Climate Shot"},
+        ["Scroll"] = {"Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Climate Shot"},
         ["Levelup"] = {
             {"Peck", "Hide"},
             {"Protect"},
@@ -4020,12 +6691,44 @@ data = {
             {"Wild Growth"}
         }
     },
+    ["Cruthulu"] = {
+        ["Scroll"] = {
+            "Tsunami",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Taunt",
+            "Rainmaker"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Squeak"},
+            {"Shadowbolt"},
+            {"Rip Current"},
+            {"Night Night"},
+            {"Storm Heal"},
+            {"Dark Blast"},
+            {"Enlightenment"},
+            {"Hydro Burst"},
+            {"Sonata of Darkness"},
+            {"Darkness Expansion"},
+            {"Rainmaker"},
+            {"Meditation"},
+            {"Hyper Voice"},
+            {"Tsunami"}
+        }
+    },
     ["Montor"] = {
         ["Scroll"] = {
+            "Pylons",
             "Gem Blast",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Climate Shot",
             "Flashbang",
@@ -4047,35 +6750,243 @@ data = {
             {"Electro Bite"}
         }
     },
+    ["Feracoatl"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Feral Fury",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Wrap"},
+            {"Bite"},
+            {"Seed Assault"},
+            {"Compost"},
+            {"Vine Grasp"},
+            {"Parasitic Seeds"},
+            {"Screech"},
+            {"Bestial Wrath"},
+            {"Call of the Wild"},
+            {"Barkskin"},
+            {"Savage Blow"},
+            {"Leaf Tornado"}
+        }
+    },
+    ["Hangryphus"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Energy Wave",
+            "Gem Blast",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Daze",
+            "Retribution",
+            "Feral Fury",
+            "Disarm"
+        },
+        ["Levelup"] = {
+            {"Smack", "Pummel"},
+            {"Just Desserts"},
+            {"Chocolate Rain"},
+            {"Feast"},
+            {"Empty Calories"},
+            {"Sugar Rush"},
+            {"Fast Food", "Flurry"},
+            {"Glaze Punch"},
+            {"Unguarded Strike"},
+            {"Challenge"},
+            {"Heckle"},
+            {"Center of Attention"},
+            {"Body Throw"},
+            {"Nutrient Drain"},
+            {"Fatten Up"},
+            {"Takeout"}
+        },
+        ["OnEvolve"] = {"Glaze Punch"}
+    },
+    ["Lizzerts"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Gem Blast",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Smack"},
+            {"Just Desserts"},
+            {"Chocolate Rain"},
+            {"Feast"},
+            {"Empty Calories"},
+            {"Sugar Rush"},
+            {"Fast Food"},
+            {"Heckle"},
+            {"Center of Attention"},
+            {"Seasoning"},
+            {"Nutrient Drain"},
+            {"Fatten Up"},
+            {"Takeout"}
+        }
+    },
     ["Cacmeow"] = {
-        ["Scroll"] = {"Disarm", "Rainmaker", "Starbreaker", "Somnambulism", "Iron Slash"},
+        ["Scroll"] = {
+            "Venom Bite",
+            "Mud Wave",
+            "Disarm",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Dirt Lump"},
             {"Sakura Blast"},
-            {"Earth Lance"},
-            {"Combo Support"},
             {"Subterfuge"},
-            {"Needle Spike"},
-            {"Venomous Sting"},
-            {"1,000 Needles"},
+            {"Seed Assault"},
             {"Electro Slash"},
             {"Leaf Tornado"},
-            {"Seed Assault"},
-            {"Sandstorm"},
-            {"Quick Strike"},
+            {"Parasitic Seeds"},
+            {"Earth Lance"},
             {"Claw Swipes"},
+            {"Earthquake"},
+            {"1,000 Needles"},
+            {"Combo Support"},
+            {"Needle Spike"},
+            {"Venomous Sting"},
+            {"Sandstorm"},
             {"Ambush"},
-            {"Parasitic Seeds"}
+            {"Quick Strike"}
+        }
+    },
+    ["Jaelect"] = {
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Pylons",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Gem Blast",
+            "Insect Instinct",
+            "Flashbang",
+            "Psychoforce",
+            "Electrify"
+        },
+        ["Levelup"] = {
+            {"Crystal Dust", "Sparkling Finish"},
+            {"Protect"},
+            {"Crystal Armor"},
+            {"Crystal Wall"},
+            {"Crystal Cut"},
+            {"Rupture"},
+            {"Harden"},
+            {"Gem Blast"},
+            {"Befuddlement"},
+            {"Screech"},
+            {"Crystal Storm"},
+            {"Radiant Beam"}
+        }
+    },
+    ["Exiled"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Feral Fury",
+            "Crystal Cut",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Climate Shot",
+            "Retribution",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Flare", "Blessed Blade"},
+            {"Screech"},
+            {"Divine Light"},
+            {"Sharpen"},
+            {"Crunch"},
+            {"Hope Beacon"},
+            {"Mythic Blast"},
+            {"Sharp Claws"},
+            {"Radiant Beam"},
+            {"Flashing Strike"},
+            {"Flames of Gehenna"},
+            {"Louis Prayer"},
+            {"Relinquish the Dark"},
+            {"Aurora Flash"},
+            {"Ferocious Onslaught"},
+            {"Purge"},
+            {"Bite"}
+        }
+    },
+    ["Grom"] = {["Scroll"] = {}, ["Levelup"] = {{"Hide", "Smack"}}},
+    ["Fishel"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Rust",
+            "Tsunami",
+            "Climate Shot",
+            "Rainmaker",
+            "Disarm",
+            "Iron Slash",
+            "Daze",
+            "Retribution"
+        },
+        ["Levelup"] = {
+            {"Waterbolt"},
+            {"Slash"},
+            {"Fin Slash"},
+            {"Light Hook"},
+            {"Flashing Strike"},
+            {"Roll"},
+            {"Tidal Slam"},
+            {"Storm Heal"},
+            {"Quick Strike"},
+            {"Headbutt"},
+            {"Rip Current"},
+            {"Unguarded Strike"},
+            {"Protect"},
+            {"Hide"}
         }
     },
     ["Cerebopod"] = {
         ["Scroll"] = {
+            "Energy Wave",
+            "Pylons",
             "Tsunami",
             "Gem Blast",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Rust",
             "Rainmaker",
             "Psychoforce",
@@ -4102,7 +7013,17 @@ data = {
         }
     },
     ["Glowcat"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Flashbang", "Iron Slash", "Climate Shot"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Iron Slash",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Swipe", "Blinding Lights"},
             {"Quick Strike"},
@@ -4121,14 +7042,48 @@ data = {
             {"Flare"}
         }
     },
+    ["Ctholos"] = {
+        ["Scroll"] = {
+            "Tsunami",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Taunt",
+            "Rainmaker",
+            "Psychoforce"
+        },
+        ["Levelup"] = {
+            {"Waterbolt", "Squeak"},
+            {"Shadowbolt"},
+            {"Rip Current"},
+            {"Siphon Soul"},
+            {"Night Night"},
+            {"Storm Heal"},
+            {"Dark Blast"},
+            {"Enlightenment"},
+            {"Hydro Burst"},
+            {"Sonata of Darkness"},
+            {"Darkness Expansion"},
+            {"Rainmaker"},
+            {"Meditation"},
+            {"Hyper Voice"},
+            {"Tsunami"}
+        }
+    },
     ["Clankey"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Taunt",
             "Daze"
@@ -4157,7 +7112,9 @@ data = {
             "Retribution",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Gem Blast",
             "Burning Orb",
@@ -4181,7 +7138,16 @@ data = {
         }
     },
     ["Incinelisk"] = {
-        ["Scroll"] = {"Retribution", "Venom Bite", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Firebolt"},
             {"Inflame"},
@@ -4205,7 +7171,7 @@ data = {
         ["OnEvolve"] = {"Chaotic Bolt"}
     },
     ["Angerler"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Somnambulism", "Flashbang"},
+        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Flashbang"},
         ["Levelup"] = {
             {"Waterbolt"},
             {"Blinding Lights"},
@@ -4224,44 +7190,52 @@ data = {
             {"Rust"}
         }
     },
-    ["Glacigash"] = {
+    ["Desdog"] = {
         ["Scroll"] = {
-            "Retribution",
-            "Starbreaker",
-            "Somnambulism",
+            "Disarm",
+            "Rainmaker",
+            "Food Fight",
             "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
             "Daze",
-            "Gem Blast",
-            "Iron Slash",
-            "Insect Instinct"
+            "Retribution",
+            "Electrify"
         },
         ["Levelup"] = {
-            {"Quick Sting", "Snowball", "Absolute Zero"},
+            {"Bite", "Smack", "Mallet Crush"},
+            {"Choke"},
             {"Haste"},
-            {"Shadowstep"},
-            {"Crush"},
-            {"Slash"},
-            {"Ice Prison"},
-            {"Harden"},
-            {"Antenna Beam"},
-            {"Piercing Ice"},
-            {"Icy Slash"},
-            {"Mandible Wound"},
-            {"Sharpen"},
-            {"Swarm"},
-            {"Ambush"}
+            {"Reckless Charge"},
+            {"Darkness Expansion"},
+            {"Crunch"},
+            {"Insult"},
+            {"Ambush"},
+            {"Ready to Fight"},
+            {"Vampiric Strike"},
+            {"Careless Assault"},
+            {"Dark Slash"},
+            {"Claw Swipes"},
+            {"Pure Fear"},
+            {"Combo Support"},
+            {"Pursuit"}
         },
-        ["OnEvolve"] = {"Absolute Zero"}
+        ["OnEvolve"] = {"Mallet Crush"}
     },
     ["Candygrief"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Retribution",
             "Rainmaker",
             "Gem Blast",
             "Disarm",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -4284,7 +7258,7 @@ data = {
         }
     },
     ["Wydling"] = {
-        ["Scroll"] = {"Disarm", "Gem Blast", "Starbreaker", "Somnambulism", "Psychoforce"},
+        ["Scroll"] = {"Disarm", "Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Psychoforce"},
         ["Levelup"] = {
             {"Boo!", "Squeak"},
             {"Sonata of Darkness"},
@@ -4305,347 +7279,70 @@ data = {
             {"Shadowy Eyes"}
         }
     },
-    ["Trilagid"] = {
+    ["Diyossua"] = {
         ["Scroll"] = {
-            "Retribution",
-            "Starbreaker",
-            "Somnambulism",
-            "Taunt",
-            "Daze",
+            "Pylons",
             "Gem Blast",
-            "Iron Slash",
-            "Insect Instinct"
-        },
-        ["Levelup"] = {
-            {"Quick Sting", "Snowball"},
-            {"Haste"},
-            {"Shadowstep"},
-            {"Crush"},
-            {"Slash"},
-            {"Ice Prison"},
-            {"Harden"},
-            {"Antenna Beam"},
-            {"Piercing Ice"},
-            {"Icy Slash"},
-            {"Mandible Wound"},
-            {"Sharpen"},
-            {"Swarm"},
-            {"Ambush"}
-        }
-    },
-    ["Feracoatl"] = {
-        ["Scroll"] = {
-            "Retribution",
             "Taunt",
             "Starbreaker",
-            "Somnambulism",
+            "Loyalty",
             "Climate Shot",
-            "Feral Fury",
-            "Shifting Winds"
+            "Diamond Dash",
+            "Burning Orb",
+            "Energy Wave"
         },
         ["Levelup"] = {
-            {"Wrap"},
-            {"Bite"},
-            {"Seed Assault"},
-            {"Compost"},
-            {"Vine Grasp"},
-            {"Parasitic Seeds"},
-            {"Screech"},
-            {"Beastial Wrath"},
-            {"Call of the Wild"},
-            {"Barkskin"},
-            {"Savage Blow"},
-            {"Leaf Tornado"}
-        }
-    },
-    ["Hangryphus"] = {
-        ["Scroll"] = {
-            "Gem Blast",
-            "Food Fight",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Climate Shot",
-            "Daze",
-            "Retribution",
-            "Feral Fury",
-            "Disarm"
-        },
-        ["Levelup"] = {
-            {"Smack", "Pummel"},
-            {"Just Desserts"},
-            {"Chocolate Rain"},
-            {"Feast"},
-            {"Empty Calories"},
-            {"Sugar Rush"},
-            {"Fast Food", "Flurry"},
-            {"Glaze Punch"},
-            {"Unguarded Strike"},
-            {"Challenge"},
-            {"Heckle"},
-            {"Center of Attention"},
-            {"Body Throw"},
-            {"Nutrient Drain"},
-            {"Fatten Up"},
-            {"Takeout"}
-        },
-        ["OnEvolve"] = {"Glaze Punch"}
-    },
-    ["Lizzerts"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Taunt", "Starbreaker", "Somnambulism", "Climate Shot", "Daze"},
-        ["Levelup"] = {
-            {"Smack"},
-            {"Just Desserts"},
-            {"Chocolate Rain"},
-            {"Feast"},
-            {"Empty Calories"},
-            {"Sugar Rush"},
-            {"Fast Food"},
-            {"Heckle"},
-            {"Center of Attention"},
-            {"Seasoning"},
-            {"Nutrient Drain"},
-            {"Fatten Up"},
-            {"Takeout"}
-        }
-    },
-    ["Jaelect"] = {
-        ["Scroll"] = {
-            "Retribution",
-            "Starbreaker",
-            "Somnambulism",
-            "Taunt",
-            "Gem Blast",
-            "Insect Instinct",
-            "Flashbang",
-            "Psychoforce",
-            "Electrify"
-        },
-        ["Levelup"] = {
-            {"Crystal Dust", "Sparkling Finish"},
-            {"Protect"},
-            {"Crystal Armor"},
-            {"Crystal Wall"},
-            {"Crystal Cut"},
+            {"Roll"},
+            {"Shadowy Eyes"},
+            {"Vague Vortex"},
+            {"Ambush"},
+            {"Cold Glance"},
+            {"Drain Life"},
+            {"Armor Up"},
+            {"Solid Charge"},
+            {"Curse"},
+            {"Sob"},
             {"Rupture"},
-            {"Harden"},
-            {"Gem Blast"},
-            {"Befuddlement"},
-            {"Screech"},
-            {"Crystal Storm"},
-            {"Radiant Beam"}
+            {"Hex"},
+            {"Soulfire"},
+            {"Psychic Ram"},
+            {"Crystal Armor"},
+            {"Befuddlement"}
         }
     },
-    ["Borbek"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Shifting Winds"},
-        ["Levelup"] = {
-            {"Peck", "Squeak", "Hide"},
-            {"Crit Up"},
-            {"Jet Strike"},
-            {"Aerial"},
-            {"Armor Up"},
-            {"Nose Dive"},
-            {"Sylphid"},
-            {"Air Strike"},
-            {"Careless Assault"},
-            {"Haste"},
-            {"Smack"},
-            {"Ambush"},
-            {"Slash"}
-        },
-        ["OnEvolve"] = {"Jet Strike"}
-    },
-    ["Griblo"] = {["Scroll"] = {}, ["Levelup"] = {{"Hide", "Smack"}}},
-    ["Frigale"] = {
+    ["Ostigon"] = {
         ["Scroll"] = {
-            "Retribution",
-            "Rainmaker",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Shifting Winds",
-            "Iron Slash"
-        },
-        ["Levelup"] = {
-            {"Peck", "Squeak", "Hide", "Hit-n-Run"},
-            {"Aero Storm"},
-            {"Jet Strike"},
-            {"Aerial"},
-            {"Nose Dive"},
-            {"Crit Up"},
-            {"Armor Up"},
-            {"Smack"},
-            {"Sylphid"},
-            {"Air Strike"},
-            {"Toughen"},
-            {"Haste"},
-            {"Careless Assault"},
-            {"Ambush"},
-            {"Slash"}
-        },
-        ["OnEvolve"] = {"Toughen"}
-    },
-    ["Grom"] = {["Scroll"] = {}, ["Levelup"] = {{"Hide", "Smack"}}},
-    ["Feesh"] = {
-        ["Scroll"] = {
-            "Tsunami",
-            "Rainmaker",
             "Gem Blast",
-            "Disarm",
-            "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
-            "Cone of Cold",
-            "Climate Shot",
+            "Rest",
+            "Disarm",
             "Taunt",
+            "Venom Bite",
+            "Iron Slash",
+            "Feral Fury",
+            "Climate Shot",
             "Daze"
         },
         ["Levelup"] = {
-            {"Waterbolt", "Subterfuge", "Taunt"},
-            {"Rainmaker"},
-            {"Storm Heal"},
-            {"Entertain"},
-            {"Bubble Shield"},
+            {"Venomous Sting", "Scrutinize"},
             {"Slash"},
-            {"Befuddlement"},
-            {"Quick Strike"},
-            {"Careless Assault"},
-            {"Hydro Burst"},
-            {"Jolly Dance"},
-            {"Fin Slash"},
-            {"Scapegoat"},
-            {"Tsunami"}
-        }
-    },
-    ["Ctholos"] = {
-        ["Scroll"] = {
-            "Tsunami",
-            "Retribution",
-            "Starbreaker",
-            "Somnambulism",
-            "Cone of Cold",
-            "Taunt",
-            "Rainmaker",
-            "Psychoforce"
-        },
-        ["Levelup"] = {
-            {"Waterbolt", "Squeak"},
-            {"Shadowbolt"},
-            {"Rip Current"},
-            {"Night Night"},
-            {"Storm Heal"},
-            {"Dark Blast"},
-            {"Enlightenment"},
-            {"Hydro Burst"},
-            {"Sonata of Darkness"},
-            {"Darkness Expansion"},
-            {"Rainmaker"},
-            {"Meditation"},
-            {"Hyper Voice"},
-            {"Tsunami"}
-        }
-    },
-    ["Cruthulu"] = {
-        ["Scroll"] = {"Tsunami", "Retribution", "Starbreaker", "Somnambulism", "Cone of Cold", "Taunt", "Rainmaker"},
-        ["Levelup"] = {
-            {"Waterbolt", "Squeak"},
-            {"Shadowbolt"},
-            {"Rip Current"},
-            {"Night Night"},
-            {"Storm Heal"},
-            {"Dark Blast"},
-            {"Enlightenment"},
-            {"Hydro Burst"},
-            {"Sonata of Darkness"},
-            {"Darkness Expansion"},
-            {"Rainmaker"},
-            {"Meditation"},
-            {"Hyper Voice"},
-            {"Tsunami"}
-        }
-    },
-    ["Maximutt"] = {
-        ["Scroll"] = {
-            "Disarm",
-            "Rainmaker",
-            "Food Fight",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Daze",
-            "Retribution",
-            "Electrify"
-        },
-        ["Levelup"] = {
-            {"Bite", "Smack"},
-            {"Choke"},
-            {"Haste"},
-            {"Reckless Charge"},
-            {"Crunch"},
-            {"Insult"},
-            {"Ambush"},
-            {"Ready to Fight"},
-            {"Darkness Expansion"},
-            {"Careless Assault"},
-            {"Dark Slash"},
-            {"Claw Swipes"},
-            {"Pure Fear"},
-            {"Combo Support"},
-            {"Pursuit"}
-        }
-    },
-    ["Roadterra"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Shifting Winds", "Taunt", "Iron Slash"},
-        ["Levelup"] = {
-            {"Peck", "Hit-n-Run"},
-            {"Jet Strike"},
-            {"Earth Surge"},
-            {"Armor Up"},
-            {"Wing Slash"},
-            {"Careless Assault"},
-            {"Shale"},
-            {"Sandstorm"},
-            {"Pursuit", "Haste"},
-            {"Air Strike"},
-            {"Earth Lance"},
-            {"Shatter"},
-            {"Earthquake"},
-            {"Nose Dive"},
-            {"Pebble"},
-            {"Protect"},
-            {"Mend"},
-            {"Reckless Charge"}
-        },
-        ["OnEvolve"] = {"Pursuit", "Haste"}
-    },
-    ["Junipyro"] = {
-        ["Scroll"] = {
-            "Retribution",
-            "Gem Blast",
-            "Venom Bite",
-            "Burning Orb",
-            "Starbreaker",
-            "Somnambulism",
-            "Firecracker",
-            "Feral Fury",
-            "Climate Shot"
-        },
-        ["Levelup"] = {
-            {"Bite", "Parasitic Seeds"},
-            {"Plant Sap"},
-            {"Compost"},
-            {"Flame Shield"},
-            {"Firebolt"},
-            {"Wild Growth"},
-            {"Thorns of Wrath"},
-            {"Slash and Burn"},
-            {"Fireball"},
-            {"Life Sap"},
-            {"Forest Fire"},
-            {"Claw Swipes"},
-            {"Haste"},
-            {"Cutesy Glare"},
-            {"Burning Orb"}
+            {"Primal Rage"},
+            {"Foreign Substance"},
+            {"Call of the Wild"},
+            {"Savage Blow"},
+            {"Screech"},
+            {"Belch"},
+            {"Bestial Wrath"},
+            {"Berserk"},
+            {"Sulfur Plume"},
+            {"Lingering Poison"},
+            {"Toxic Bomb"},
+            {"Landslide"},
+            {"Venom Lacerate"},
+            {"Electro Slash"},
+            {"Fiery Bite"}
         }
     },
     ["Prarnaw"] = {
@@ -4653,7 +7350,9 @@ data = {
             "Tsunami",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Cone of Cold",
             "Taunt",
@@ -4676,8 +7375,391 @@ data = {
             {"Tsunami"}
         }
     },
+    ["Shyce"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Cone of Cold",
+            "Daze",
+            "Absolute Zero",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Snowball", "Hide"},
+            {"Sad Zone"},
+            {"Crocodile Tears"},
+            {"Quick Ice"},
+            {"Icy Veil"},
+            {"Cone of Cold"},
+            {"Flash Freeze"},
+            {"Piercing Ice"},
+            {"Wide Shield"},
+            {"Protect"}
+        }
+    },
+    ["Rheode"] = {
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Mud Wave",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Gem Blast",
+            "Firecracker"
+        },
+        ["Levelup"] = {
+            {"Pebble", "Harden"},
+            {"Reckless Charge"},
+            {"Crush"},
+            {"Mend"},
+            {"Protect"},
+            {"Crystal Wall"},
+            {"Mineral Cannon"},
+            {"Geode Smash"},
+            {"Earthquake"},
+            {"Solid Charge"},
+            {"Opal Pulse"},
+            {"Landslide"},
+            {"Crystal Cut"},
+            {"Stampede"},
+            {"Crystal Armor"}
+        }
+    },
+    ["Borbek"] = {
+        ["Scroll"] = {"Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds"},
+        ["Levelup"] = {
+            {"Peck", "Squeak", "Hide"},
+            {"Crit Up"},
+            {"Jet Strike"},
+            {"Aerial"},
+            {"Armor Up"},
+            {"Nose Dive"},
+            {"Sylphid"},
+            {"Air Strike"},
+            {"Careless Assault"},
+            {"Haste"},
+            {"Smack"},
+            {"Ambush"},
+            {"Slash"}
+        },
+        ["OnEvolve"] = {"Jet Strike"}
+    },
+    ["Skitis"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Disarm",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Daze",
+            "Serrated Claws"
+        },
+        ["Levelup"] = {
+            {"Swipe", "Squeak"},
+            {"Quick Sting"},
+            {"Sharp Claws"},
+            {"Subterfuge"},
+            {"Skitter"},
+            {"Slash"},
+            {"Disarm"},
+            {"Swarm"},
+            {"Shadowstep"},
+            {"Dark Slash"},
+            {"Swift Shield"}
+        }
+    },
+    ["Frigale"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Peck", "Squeak", "Hide", "Hit-n-Run"},
+            {"Aero Storm"},
+            {"Jet Strike"},
+            {"Aerial"},
+            {"Nose Dive"},
+            {"Crit Up"},
+            {"Armor Up"},
+            {"Smack"},
+            {"Sylphid"},
+            {"Air Strike"},
+            {"Toughen"},
+            {"Haste"},
+            {"Careless Assault"},
+            {"Ambush"},
+            {"Slash"}
+        },
+        ["OnEvolve"] = {"Toughen"}
+    },
+    ["Griblo"] = {["Scroll"] = {}, ["Levelup"] = {{"Hide", "Smack"}}},
+    ["Velodo"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Shifting Winds",
+            "Gem Blast",
+            "Daze",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Climate Shot",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Peck"},
+            {"War Cry"},
+            {"Scrutinize"},
+            {"Savage Blow"},
+            {"Combo Support"},
+            {"Bestial Wrath"},
+            {"Shadowstep"},
+            {"Nose Dive"},
+            {"Bite"},
+            {"Reckless Charge"},
+            {"Aero Storm"},
+            {"Scapegoat"},
+            {"Aerial"},
+            {"Wing Slash"}
+        }
+    },
+    ["Meiolicant"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Gem Blast",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Climate Shot",
+            "Firecracker"
+        },
+        ["Levelup"] = {
+            {"Lick", "Squeak"},
+            {"Protect"},
+            {"Poison Gas"},
+            {"Foreign Substance"},
+            {"Venom Bite"},
+            {"Vague Vortex"},
+            {"Poison Ivy"},
+            {"Marking Bite"},
+            {"Bite"},
+            {"Reckless Charge"},
+            {"Sulfur Plume"},
+            {"Crunch"},
+            {"Venom Lacerate"},
+            {"Bad Odor"}
+        }
+    },
+    ["Cranigunk"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Gem Blast",
+            "Rainmaker",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Climate Shot",
+            "Firecracker"
+        },
+        ["Levelup"] = {
+            {"Lick", "Squeak"},
+            {"Protect"},
+            {"Poison Gas"},
+            {"Foreign Substance"},
+            {"Venom Bite"},
+            {"Vague Vortex"},
+            {"Poison Ivy"},
+            {"Marking Bite"},
+            {"Bite"},
+            {"Reckless Charge"},
+            {"Sulfur Plume"},
+            {"Crunch"},
+            {"Venom Lacerate"},
+            {"Bad Odor"}
+        }
+    },
+    ["Bungo"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Rainmaker",
+            "Venom Bite",
+            "Climate Shot",
+            "Feral Fury",
+            "Tsunami",
+            "Taunt"
+        },
+        ["Levelup"] = {
+            {"Poison Ivy", "Belch"},
+            {"Psychic Ram"},
+            {"Sulfur Plume"},
+            {"Toughen"},
+            {"Lingering Poison"},
+            {"Mythic Blast"},
+            {"Protect"},
+            {"Earthquake"},
+            {"Reverse Singularity"},
+            {"Screech"},
+            {"Goo Blast"},
+            {"Hyper Voice"},
+            {"Devour"},
+            {"Surprise!"},
+            {"Body Slam"},
+            {"Headbutt"}
+        }
+    },
+    ["Roadterra"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Taunt",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Peck", "Hit-n-Run"},
+            {"Jet Strike"},
+            {"Earth Surge"},
+            {"Armor Up"},
+            {"Wing Slash"},
+            {"Careless Assault"},
+            {"Shale"},
+            {"Sandstorm"},
+            {"Pursuit", "Haste"},
+            {"Air Strike"},
+            {"Earth Lance"},
+            {"Shatter"},
+            {"Earthquake"},
+            {"Nose Dive"},
+            {"Pebble"},
+            {"Protect"},
+            {"Mend"},
+            {"Reckless Charge"}
+        },
+        ["OnEvolve"] = {"Pursuit", "Haste"}
+    },
+    ["Cherugard"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Gem Blast",
+            "Rainmaker",
+            "Food Fight",
+            "Flashbang",
+            "Iron Slash",
+            "Taunt",
+            "Shifting Winds",
+            "Starbreaker",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Climate Shot",
+            "Daze",
+            "Pie Gag",
+            "Energy Wave",
+            "Feral Fury",
+            "Pylons"
+        },
+        ["Levelup"] = {
+            {"Hide", "Cutesy Glare", "Aurora Flash", "Protect"},
+            {"Assail"},
+            {"Trade"},
+            {"Feast"},
+            {"Divine Light"},
+            {"Headbutt"},
+            {"Air Strike"},
+            {"Combo Support"},
+            {"Claw Swipes"},
+            {"Aerial"},
+            {"Mythic Blast"},
+            {"Crit Up"},
+            {"Mystery Egg"},
+            {"Enlightenment"},
+            {"Radiant Beam"},
+            {"Nutrient Drain"},
+            {"Fast Food"},
+            {"Marking Bite"},
+            {"Hype Up"},
+            {"Laser"},
+            {"Snack Chomp"},
+            {"Seasoning"}
+        },
+        ["OnEvolve"] = {"Air Strike", "Protect"}
+    },
+    ["Arachniak"] = {
+        ["Scroll"] = {
+            "Psychoforce",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Venom Bite",
+            "Insect Instinct",
+            "Feral Fury",
+            "Climate Shot",
+            "Burning Orb"
+        },
+        ["Levelup"] = {
+            {"Nibble", "Leaf Sap"},
+            {"Web Ball"},
+            {"Shadow Lurk"},
+            {"Web"},
+            {"Quick Strike"},
+            {"Haunt"},
+            {"Life Roots"},
+            {"Mandible Wound"},
+            {"Vague Vortex"},
+            {"Fatal Flaw"},
+            {"Mythic Blast"},
+            {"Spectral Ire"},
+            {"Spirit Orb"},
+            {"Devour"},
+            {"Fireball"},
+            {"Incinerate"},
+            {"Lingering Poison"},
+            {"Swarm"}
+        }
+    },
     ["Voltenchant"] = {
         ["Scroll"] = {
+            "Rust",
             "Pylons",
             "Retribution",
             "Electrify",
@@ -4688,7 +7770,9 @@ data = {
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Flashbang",
             "Iron Slash",
@@ -4730,28 +7814,51 @@ data = {
             {"Branch Launch"}
         }
     },
-    ["Shyce"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Cone of Cold", "Daze"},
+    ["Sprubble"] = {
+        ["Scroll"] = {
+            "Mud Wave",
+            "Rest",
+            "Somnambulism",
+            "Loyalty",
+            "Diamond Dash",
+            "Taunt",
+            "Retribution",
+            "Venom Bite",
+            "Disarm",
+            "Gem Blast",
+            "Daze"
+        },
         ["Levelup"] = {
-            {"Snowball", "Hide"},
-            {"Sad Zone"},
-            {"Crocodile Tears"},
-            {"Quick Ice"},
-            {"Icy Veil"},
-            {"Cone of Cold"},
-            {"Flash Freeze"},
-            {"Piercing Ice"},
-            {"Wide Shield"},
-            {"Protect"}
+            {"Mud Spit", "Leaf Sap"},
+            {"Rest"},
+            {"Branch Launch"},
+            {"Pebble"},
+            {"Nature's Guardian"},
+            {"Thorns of Wrath"},
+            {"Protect"},
+            {"Leaf Sap"},
+            {"Headbutt"},
+            {"Life Roots"},
+            {"Sedimentary Defense"},
+            {"Landslide"},
+            {"Earthquake"},
+            {"Life Sap"},
+            {"Stalactites"},
+            {"Earth Lance"},
+            {"Shatter"},
+            {"Plant Sap"}
         }
     },
     ["Heatza"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury"
         },
@@ -4773,47 +7880,98 @@ data = {
         },
         ["OnEvolve"] = {"Snack Chomp"}
     },
-    ["Rheode"] = {
-        ["Scroll"] = {"Retribution", "Starbreaker", "Somnambulism", "Feral Fury", "Gem Blast", "Firecracker"},
+    ["Artifixie"] = {
+        ["Scroll"] = {
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Cone of Cold",
+            "Psychoforce",
+            "Daze",
+            "Feral Fury",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
-            {"Pebble", "Harden"},
-            {"Reckless Charge"},
-            {"Crush"},
-            {"Mend"},
-            {"Protect"},
-            {"Crystal Wall"},
-            {"Mineral Cannon"},
-            {"Geode Smash"},
-            {"Earthquake"},
-            {"Solid Charge"},
-            {"Opal Pulse"},
-            {"Landslide"},
-            {"Crystal Cut"},
-            {"Stampede"},
-            {"Crystal Armor"}
+            {"Snowball", "Mind Power"},
+            {"Toughen"},
+            {"Mythic Blast"},
+            {"Trade"},
+            {"Boom Boom"},
+            {"Psychic Ram"},
+            {"Gatling Gifts"},
+            {"Enlightment"},
+            {"Multi-Smack"},
+            {"Magical Shield"},
+            {"Agitate"},
+            {"Chilling Chorus"},
+            {"Quick Ice"},
+            {"Snack Chomp"},
+            {"Bonk"},
+            {"Hype Up"},
+            {"Pebble"},
+            {"Mind Drain"},
+            {"Arctic Blitz"},
+            {"Center of Attention"},
+            {"Scapegoat"},
+            {"Frostgrip"}
         }
     },
-    ["Skitis"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Starbreaker", "Somnambulism", "Iron Slash", "Daze"},
+    ["Hopogard"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Gem Blast",
+            "Rainmaker",
+            "Food Fight",
+            "Flashbang",
+            "Taunt",
+            "Starbreaker",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Climate Shot",
+            "Pie Gag",
+            "Energy Wave",
+            "Feral Fury",
+            "Pylons"
+        },
         ["Levelup"] = {
-            {"Swipe", "Squeak"},
-            {"Quick Sting"},
-            {"Sharp Claws"},
-            {"Subterfuge"},
-            {"Skitter"},
-            {"Slash"},
-            {"Disarm"},
-            {"Swarm"},
-            {"Shadowstep"},
-            {"Dark Slash"},
-            {"Swift Shield"}
-        }
+            {"Hide", "Cutesy Glare", "Aurora Flash"},
+            {"Assail"},
+            {"Trade"},
+            {"Feast"},
+            {"Divine Light"},
+            {"Headbutt"},
+            {"Combo Support"},
+            {"Claw Swipes"},
+            {"Mythic Blast"},
+            {"Crit Up"},
+            {"Mystery Egg"},
+            {"Enlightenment"},
+            {"Nutrient Drain"},
+            {"Radiant Beam"},
+            {"Fast Food"},
+            {"Marking Bite"},
+            {"Hype Up"},
+            {"Laser"},
+            {"Snack Chomp"},
+            {"Seasoning"}
+        },
+        ["OnEvolve"] = {"Aurora Flash"}
     },
     ["Scorm"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Gem Blast",
             "Insect Instinct",
@@ -4837,7 +7995,16 @@ data = {
         }
     },
     ["Terruma"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Feral Fury", "Climate Shot"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Pebble"},
             {"Quick Strike"},
@@ -4868,7 +8035,9 @@ data = {
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang"
         },
         ["Levelup"] = {
@@ -4899,7 +8068,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Electrify"
         },
@@ -4923,134 +8094,14 @@ data = {
         },
         ["OnEvolve"] = {"Body Slam"}
     },
-    ["Velodo"] = {
-        ["Scroll"] = {
-            "Retribution",
-            "Shifting Winds",
-            "Gem Blast",
-            "Daze",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Feral Fury",
-            "Climate Shot",
-            "Iron Slash"
-        },
-        ["Levelup"] = {
-            {"Peck"},
-            {"War Cry"},
-            {"Scrutinize"},
-            {"Savage Blow"},
-            {"Combo Support"},
-            {"Bestial Wrath"},
-            {"Shadowstep"},
-            {"Nose Dive"},
-            {"Bite"},
-            {"Reckless Charge"},
-            {"Aero Storm"},
-            {"Scapegoat"},
-            {"Aerial"},
-            {"Wing Slash"}
-        }
-    },
-    ["Meiolicant"] = {
-        ["Scroll"] = {
-            "Retribution",
-            "Venom Bite",
-            "Gem Blast",
-            "Rainmaker",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Feral Fury",
-            "Climate Shot",
-            "Firecracker"
-        },
-        ["Levelup"] = {
-            {"Lick", "Squeak"},
-            {"Protect"},
-            {"Poison Gas"},
-            {"Foreign Substance"},
-            {"Venom Bite"},
-            {"Vague Vortex"},
-            {"Poison Ivy"},
-            {"Marking Bite"},
-            {"Bite"},
-            {"Reckless Charge"},
-            {"Sulfur Plume"},
-            {"Crunch"},
-            {"Venom Lacerate"},
-            {"Bad Odor"}
-        }
-    },
-    ["Cranigunk"] = {
-        ["Scroll"] = {
-            "Retribution",
-            "Venom Bite",
-            "Gem Blast",
-            "Rainmaker",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Feral Fury",
-            "Climate Shot",
-            "Firecracker"
-        },
-        ["Levelup"] = {
-            {"Lick", "Squeak"},
-            {"Protect"},
-            {"Poison Gas"},
-            {"Foreign Substance"},
-            {"Venom Bite"},
-            {"Vague Vortex"},
-            {"Poison Ivy"},
-            {"Marking Bite"},
-            {"Bite"},
-            {"Reckless Charge"},
-            {"Sulfur Plume"},
-            {"Crunch"},
-            {"Venom Lacerate"},
-            {"Bad Odor"}
-        }
-    },
-    ["Exiled"] = {
-        ["Scroll"] = {
-            "Feral Fury",
-            "Crystal Cut",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Iron Slash",
-            "Climate Shot",
-            "Retribution",
-            "Daze"
-        },
-        ["Levelup"] = {
-            {"Flare", "Blessed Blade"},
-            {"Screech"},
-            {"Divine Light"},
-            {"Sharpen"},
-            {"Crunch"},
-            {"Hope Beacon"},
-            {"Mythic Blast"},
-            {"Sharp Claws"},
-            {"Radiant Beam"},
-            {"Flashing Strike"},
-            {"Flames of Gehenna"},
-            {"Louis Prayer"},
-            {"Relinquish the Dark"},
-            {"Aurora Flash"},
-            {"Ferocious Onslaught"},
-            {"Purge"},
-            {"Bite"}
-        }
-    },
     ["Fluppy"] = {
         ["Scroll"] = {
             "Taunt",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Gem Blast",
             "Climate Shot",
@@ -5074,79 +8125,15 @@ data = {
             {"Protect"}
         }
     },
-    ["Snobat"] = {
-        ["Scroll"] = {
-            "Venom Bite",
-            "Gem Blast",
-            "Starbreaker",
-            "Somnambulism",
-            "Shifting Winds",
-            "Taunt",
-            "Feral Fury",
-            "Cone of Cold",
-            "Climate Shot"
-        },
-        ["Levelup"] = {
-            {"Swipe", "Scrutinize"},
-            {"Flash Freeze"},
-            {"Aerial"},
-            {"Cone of Cold"},
-            {"Harmony"},
-            {"Shifting Winds"},
-            {"Snowball"},
-            {"Icy Bite"},
-            {"Screech"},
-            {"Sylphid"},
-            {"Hyper Voice"},
-            {"Tempest"},
-            {"Frostgrip"},
-            {"Jet Strike"},
-            {"Icy Veil"},
-            {"Air Strike"},
-            {"Hide"}
-        }
-    },
-    ["VigimantÃ¨"] = {
-        ["Scroll"] = {
-            "Tsunami",
-            "Gem Blast",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Climate Shot",
-            "Daze",
-            "Iron Slash",
-            "Rust",
-            "Wave Shot",
-            "Disarm",
-            "Rainmaker"
-        },
-        ["Levelup"] = {
-            {"Waterbolt"},
-            {"Swift Shield"},
-            {"Shadowbolt"},
-            {"Slash"},
-            {"Toughen"},
-            {"Sob"},
-            {"Body Throw"},
-            {"Fin Slash"},
-            {"Tidal Slam"},
-            {"Hydro Burst"},
-            {"Dark Slash"},
-            {"Capsize"},
-            {"Reckless Charge"},
-            {"Pummel"},
-            {"Attack Mastery"},
-            {"Aquagel"}
-        }
-    },
     ["Ribbotl"] = {
         ["Scroll"] = {
             "Tsunami",
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Rust",
             "Wave Shot",
@@ -5170,10 +8157,218 @@ data = {
             {"Recombobulate"}
         }
     },
-    ["Jellupy"] = {
+    ["Vixalor"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Food Fight",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Flashbang",
+            "Firecracker",
+            "Feral Fury",
+            "Climate Shot"
+        },
+        ["Levelup"] = {
+            {"Firebolt", "Harmony"},
+            {"Fiery Bite"},
+            {"Reckless Charge"},
+            {"Befuddlement"},
+            {"Enlightenment"},
+            {"Psychoforce"},
+            {"Heal"},
+            {"Vague Vortex"},
+            {"Agitate"},
+            {"Flame Shield"},
+            {"Flames of Gehenna"},
+            {"Magical Shield"},
+            {"Nature's Guardian"},
+            {"Combo Support"},
+            {"Burning Orb"},
+            {"Foxfire"},
+            {"Howl"},
+            {"Mind Power"},
+            {"Wide Shield"}
+        },
+        ["OnEvolve"] = {"Foxfire"}
+    },
+    ["Chirpine"] = {
+        ["Scroll"] = {
+            "Gem Blast",
+            "Rainmaker",
+            "Disarm",
+            "Venom Bite",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Climate Shot",
+            "Shifting Winds"
+        },
+        ["Levelup"] = {
+            {"Hide", "Peck", "Needle Spike"},
+            {"Headbutt"},
+            {"Rusty Roots"},
+            {"Leaf Tornado"},
+            {"Divine Light"},
+            {"Center of Attention"},
+            {"Jolly Dance"},
+            {"Hope Beacon"},
+            {"Aurora Flash"},
+            {"Plant Sap"},
+            {"Branch Launch"},
+            {"Tail Smack"},
+            {"Aerial"},
+            {"Life Sap"},
+            {"Barkskin"},
+            {"Tempest"}
+        }
+    },
+    ["Junipyro"] = {
+        ["Scroll"] = {
+            "Retribution",
+            "Gem Blast",
+            "Venom Bite",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker",
+            "Feral Fury",
+            "Climate Shot"
+        },
+        ["Levelup"] = {
+            {"Bite", "Parasitic Seeds"},
+            {"Plant Sap"},
+            {"Compost"},
+            {"Flame Shield"},
+            {"Firebolt"},
+            {"Wild Growth"},
+            {"Thorns of Wrath"},
+            {"Slash and Burn"},
+            {"Fireball"},
+            {"Life Sap"},
+            {"Forest Fire"},
+            {"Claw Swipes"},
+            {"Haste"},
+            {"Cutesy Glare"},
+            {"Burning Orb"}
+        }
+    },
+    ["Snobat"] = {
+        ["Scroll"] = {
+            "Venom Bite",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Taunt",
+            "Feral Fury",
+            "Cone of Cold",
+            "Climate Shot",
+            "Absolute Zero"
+        },
+        ["Levelup"] = {
+            {"Swipe", "Scrutinize"},
+            {"Flash Freeze"},
+            {"Aerial"},
+            {"Cone of Cold"},
+            {"Harmony"},
+            {"Shifting Winds"},
+            {"Snowball"},
+            {"Icy Bite"},
+            {"Screech"},
+            {"Sylphid"},
+            {"Hyper Voice"},
+            {"Tempest"},
+            {"Frostgrip"},
+            {"Jet Strike"},
+            {"Icy Veil"},
+            {"Air Strike"},
+            {"Hide"}
+        }
+    },
+    ["Vigimantè"] = {
+        ["Scroll"] = {
+            "Energy Wave",
+            "Tsunami",
+            "Gem Blast",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Daze",
+            "Iron Slash",
+            "Rust",
+            "Wave Shot",
+            "Disarm",
+            "Rainmaker"
+        },
+        ["Levelup"] = {
+            {"Waterbolt"},
+            {"Swift Shield"},
+            {"Shadowbolt"},
+            {"Slash"},
+            {"Toughen"},
+            {"Unguarded Strike"},
+            {"Body Throw"},
+            {"Fin Slash"},
+            {"Tidal Slam"},
+            {"Hydro Burst"},
+            {"Dark Slash"},
+            {"Capsize"},
+            {"Reckless Charge"},
+            {"Pummel"},
+            {"Attack Mastery"},
+            {"Aquagel"}
+        }
+    },
+    ["Owol"] = {
         ["Scroll"] = {
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Taunt",
+            "Retribution",
+            "Iron Slash",
+            "Climate Shot",
+            "Daze"
+        },
+        ["Levelup"] = {
+            {"Peck", "Squeak", "Ambush", "Focus"},
+            {"Nose Dive"},
+            {"Hit-n-Run"},
+            {"Heal"},
+            {"Crit Up"},
+            {"Toughen"},
+            {"Eagle Eye"},
+            {"Armor Up"},
+            {"Sylphid"},
+            {"Aerial"},
+            {"Air Strike"},
+            {"Heat Bash"},
+            {"Foreign Substance"},
+            {"Smack"},
+            {"Psychic Ram"},
+            {"Protect"}
+        }
+    },
+    ["Jellupy"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
             "Taunt",
             "Retribution",
             "Food Fight",
@@ -5211,7 +8406,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -5235,7 +8432,9 @@ data = {
             "Tsunami",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Cone of Cold",
             "Taunt",
@@ -5263,7 +8462,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Daze",
             "Shifting Winds",
@@ -5286,34 +8487,40 @@ data = {
             {"Dark Slash"}
         }
     },
-    ["Owol"] = {
+    ["Zerzura"] = {
         ["Scroll"] = {
-            "Starbreaker",
-            "Somnambulism",
-            "Shifting Winds",
+            "Disarm",
+            "Tsunami",
+            "Gem Blast",
             "Taunt",
-            "Retribution",
-            "Iron Slash",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Wave Shot",
+            "Shifting Winds",
             "Climate Shot",
-            "Daze"
+            "Rainmaker",
+            "Do Nothing"
         },
         ["Levelup"] = {
-            {"Peck", "Squeak", "Ambush", "Focus"},
-            {"Nose Dive"},
-            {"Hit-n-Run"},
-            {"Heal"},
-            {"Crit Up"},
-            {"Toughen"},
-            {"Eagle Eye"},
-            {"Armor Up"},
-            {"Sylphid"},
+            {"Waterbolt", "Gust"},
+            {"Chi Blast"},
+            {"Hydro Burst"},
+            {"Aero Storm"},
+            {"Tsunami"},
+            {"Hyper Voice"},
+            {"Mythic Blast"},
+            {"Siren Song"},
+            {"Tsunami Drop"},
+            {"Earth Surge"},
             {"Aerial"},
             {"Air Strike"},
-            {"Heat Bash"},
-            {"Foreign Substance"},
-            {"Smack"},
-            {"Psychic Ram"},
-            {"Protect"}
+            {"Tears of Sorrow"},
+            {"Bubble Shield"},
+            {"Screech"},
+            {"Storm Heal"},
+            {"Wing Slash"}
         }
     },
     ["Gauzli"] = {
@@ -5322,7 +8529,9 @@ data = {
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Rust",
             "Wave Shot",
@@ -5346,40 +8555,52 @@ data = {
             {"Recombobulate"}
         }
     },
-    ["Ostigon"] = {
+    ["Qilintel"] = {
         ["Scroll"] = {
-            "Gem Blast",
-            "Starbreaker",
-            "Somnambulism",
+            "Psychoforce",
             "Disarm",
             "Taunt",
-            "Venom Bite",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
             "Iron Slash",
-            "Feral Fury",
-            "Climate Shot",
-            "Daze"
+            "Climate Shot"
         },
         ["Levelup"] = {
-            {"Venomous Sting", "Scrutinize"},
-            {"Slash"},
-            {"Primal Rage"},
-            {"Foreign Substance"},
-            {"Call of the Wild"},
-            {"Savage Blow"},
-            {"Screech"},
-            {"Belch"},
-            {"Berserk"},
-            {"Bestial Wrath"},
-            {"Lingering Poison"},
-            {"Toxic Bomb"},
-            {"Sulfur Plume"},
-            {"Venom Lacerate"},
-            {"Electro Slash"},
-            {"Fiery Bite"}
+            {"Flare", "Headbutt"},
+            {"Psychic Ram"},
+            {"Earthquake"},
+            {"Shield Bash"},
+            {"Mineral Cannon"},
+            {"Hyper Voice"},
+            {"Mythic Blast"},
+            {"Sharp Claws"},
+            {"Radiant Beam"},
+            {"Reverse Singularity"},
+            {"Bonk"},
+            {"Aurora Flash"},
+            {"Glimmer Wing"},
+            {"Laser"},
+            {"Hope Beacon"},
+            {"Iron Slash"},
+            {"Stab"}
         }
     },
     ["Saulte"] = {
-        ["Scroll"] = {"Disarm", "Taunt", "Starbreaker", "Somnambulism", "Daze", "Gem Blast", "Food Fight"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Disarm",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Daze",
+            "Gem Blast",
+            "Food Fight"
+        },
         ["Levelup"] = {
             {"Spicy Tackle"},
             {"Shatter"},
@@ -5411,85 +8632,20 @@ data = {
             {"Sweet Aroma"}
         }
     },
-    ["Zerzura"] = {
-        ["Scroll"] = {
-            "Tsunami",
-            "Gem Blast",
-            "Taunt",
-            "Starbreaker",
-            "Somnambulism",
-            "Wave Shot",
-            "Shifting Winds",
-            "Climate Shot",
-            "Rainmaker"
-        },
-        ["Levelup"] = {
-            {"Waterbolt", "Gust"},
-            {"Chi Blast"},
-            {"Hydro Burst"},
-            {"Aero Storm"},
-            {"Tsunami"},
-            {"Hyper Voice"},
-            {"Mythic Blast"},
-            {"Siren Song"},
-            {"Tsunami Drop"},
-            {"Earth Surge"},
-            {"Aerial"},
-            {"Air Strike"},
-            {"Tears of Sorrow"},
-            {"Bubble Shield"},
-            {"Screech"},
-            {"Storm Heal"},
-            {"Wing Slash"}
-        }
-    },
-    ["Marigrimm"] = {
-        ["Scroll"] = {"Disarm", "Gem Blast", "Starbreaker", "Somnambulism", "Psychoforce", "Climate Shot"},
-        ["Levelup"] = {
-            {"Boo!", "Squeak"},
-            {"Sob"},
-            {"Soulfire"},
-            {"Sonata of Darkness"},
-            {"Harmony"},
-            {"Haunt"},
-            {"Whisper"},
-            {"Spirit Orb"},
-            {"Hyper Voice"},
-            {"Necromancy"},
-            {"Hyper Scream"},
-            {"Screech"},
-            {"Siren Song"},
-            {"Curse"},
-            {"Murmur"},
-            {"Hex"},
-            {"Shadowy Eyes"}
-        },
-        ["OnEvolve"] = {"Siren Song"}
-    },
-    ["Qilintel"] = {
-        ["Scroll"] = {"Disarm", "Taunt", "Starbreaker", "Somnambulism", "Flashbang", "Iron Slash", "Climate Shot"},
-        ["Levelup"] = {
-            {"Flare", "Headbutt"},
-            {"Psychic Ram"},
-            {"Earthquake"},
-            {"Shield Bash"},
-            {"Mineral Cannon"},
-            {"Hyper Voice"},
-            {"Mythic Blast"},
-            {"Sharp Claws"},
-            {"Radiant Beam"},
-            {"Reverse Singularity"},
-            {"Bonk"},
-            {"Aurora Flash"},
-            {"Glimmer Wing"},
-            {"Laser"},
-            {"Hope Beacon"},
-            {"Iron Slash"},
-            {"Stab"}
-        }
-    },
     ["Kidere"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Starbreaker", "Somnambulism", "Flashbang", "Cone of Cold", "Daze"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Food Fight",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Cone of Cold",
+            "Daze",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Snowball", "Hide"},
             {"Sad Zone"},
@@ -5508,6 +8664,40 @@ data = {
         },
         ["OnEvolve"] = {"Aurora Flash"}
     },
+    ["Marigrimm"] = {
+        ["Scroll"] = {
+            "Disarm",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Climate Shot",
+            "Energy Wave"
+        },
+        ["Levelup"] = {
+            {"Boo!", "Squeak"},
+            {"Soulfire"},
+            {"Sonata of Darkness"},
+            {"Shadowy Eyes"},
+            {"Hyper Scream"},
+            {"Hyper Voice"},
+            {"Curse"},
+            {"Jump Scare"},
+            {"Hex"},
+            {"Harmony"},
+            {"Whisper"},
+            {"Spirit Orb"},
+            {"Screech"},
+            {"Sob"},
+            {"Necromancy"},
+            {"Murmur"},
+            {"Haunt"},
+            {"Siren Song"}
+        },
+        ["OnEvolve"] = {"Siren Song"}
+    },
     ["Pandishi"] = {
         ["Scroll"] = {
             "Disarm",
@@ -5515,9 +8705,12 @@ data = {
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
-            "Daze"
+            "Daze",
+            "Energy Wave"
         },
         ["Levelup"] = {
             {"Firebolt", "Squeak", "Swift Hook"},
@@ -5547,9 +8740,12 @@ data = {
             "Food Fight",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
-            "Daze"
+            "Daze",
+            "Psychoforce"
         },
         ["Levelup"] = {
             {"Waterbolt", "Squeak"},
@@ -5571,8 +8767,83 @@ data = {
             {"Geode Smash"}
         }
     },
+    ["Ciyrup"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Food Fight",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Cone of Cold",
+            "Tsunami",
+            "Rust",
+            "Energy Wave",
+            "Icefall"
+        },
+        ["Levelup"] = {
+            {"Snowball", "Spicy Tackle"},
+            {"Sweet Aroma"},
+            {"Chilling Chorus"},
+            {"Icy Floor"},
+            {"Cone of Cold"},
+            {"Center of Attention"},
+            {"Jolly Dance"},
+            {"Just Desserts"},
+            {"Icy Veil"},
+            {"Party!"},
+            {"Bonk"},
+            {"Fast Food"},
+            {"Mineral Cannon"},
+            {"Sugar Kiss"},
+            {"Sparkling Finish"}
+        }
+    },
+    ["Yorus"] = {
+        ["Scroll"] = {
+            "Psychoforce",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Disarm",
+            "Climate Shot",
+            "Gem Blast",
+            "Daze",
+            "Feral Fury",
+            "Venom Bite",
+            "Retribution",
+            "Energy Wave",
+            "Iron Slash"
+        },
+        ["Levelup"] = {
+            {"Bite", "Nibble"},
+            {"Quick Strike"},
+            {"Reckless Charge"},
+            {"Crunch"},
+            {"Mandible Wound"},
+            {"Bestial Wrath"},
+            {"Psychoforce"},
+            {"Double Bite"},
+            {"Primal Rage"},
+            {"Body Slam"},
+            {"Savage Blow"},
+            {"Headbutt"},
+            {"Call of the Wild"},
+            {"Swarm"},
+            {"Rest"},
+            {"Berserk"},
+            {"Itchy Bite"},
+            {"Sharp Claws"}
+        }
+    },
     ["Muttish"] = {
-        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Somnambulism", "Feral Fury"},
+        ["Scroll"] = {"Tsunami", "Rainmaker", "Rust", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Feral Fury"},
         ["Levelup"] = {
             {"Smack", "Scrutinize"},
             {"Haste"},
@@ -5593,7 +8864,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Daze",
             "Shifting Winds",
@@ -5616,10 +8889,13 @@ data = {
             {"Dark Slash"}
         }
     },
-    ["SkorpirulÃ­"] = {
+    ["Skorpirulí"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Taunt",
             "Retribution",
             "Food Fight",
@@ -5634,18 +8910,19 @@ data = {
             {"Seasoning"},
             {"Goo Blast"},
             {"Heckle"},
-            {"Empty Calories"},
+            {"Takeout"},
             {"Just Desserts"},
             {"Infection"},
+            {"Devour"},
             {"Nutrient Drain"},
             {"Careless Assault"},
             {"Venom Lacerate"},
             {"Aurora Flash"},
+            {"Empty Calories"},
             {"Food Poisoning"},
             {"Chocolate Rain"},
-            {"Poison Gas"},
             {"Glow Up"},
-            {"Takeout"}
+            {"Poison Gas"}
         },
         ["OnEvolve"] = {"Aurora Flash"}
     },
@@ -5654,7 +8931,9 @@ data = {
             "Disarm",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Tsunami",
             "Cone of Cold",
             "Rainmaker",
@@ -5681,11 +8960,14 @@ data = {
     },
     ["Lobol"] = {
         ["Scroll"] = {
+            "Feral Fury",
             "Disarm",
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Retribution",
             "Electrify",
@@ -5710,7 +8992,17 @@ data = {
         }
     },
     ["Fledgeo"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Shifting Winds", "Taunt", "Iron Slash"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Taunt",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Peck"},
             {"Jet Strike"},
@@ -5733,11 +9025,14 @@ data = {
     },
     ["Pubu"] = {
         ["Scroll"] = {
+            "Feral Fury",
             "Disarm",
             "Rainmaker",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Retribution",
             "Electrify",
@@ -5766,7 +9061,9 @@ data = {
             "Gem Blast",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Climate Shot",
             "Flashbang",
@@ -5788,50 +9085,53 @@ data = {
             {"Electro Bite"}
         }
     },
-    ["Vixalor"] = {
+    ["Jinglark"] = {
         ["Scroll"] = {
+            "Daze",
             "Gem Blast",
-            "Food Fight",
-            "Burning Orb",
+            "Rainmaker",
+            "Disarm",
+            "Venom Bite",
+            "Taunt",
             "Starbreaker",
-            "Somnambulism",
-            "Psychoforce",
-            "Flashbang",
-            "Firecracker",
-            "Feral Fury",
-            "Climate Shot"
+            "Loyalty",
+            "Climate Shot",
+            "Shifting Winds"
         },
         ["Levelup"] = {
-            {"Firebolt", "Harmony"},
-            {"Fiery Bite"},
-            {"Reckless Charge"},
-            {"Befuddlement"},
-            {"Enlightenment"},
-            {"Psychoforce"},
-            {"Heal"},
-            {"Vague Vortex"},
-            {"Agitate"},
-            {"Flame Shield"},
-            {"Flames of Gehenna"},
-            {"Magical Shield"},
-            {"Nature's Guardian"},
-            {"Combo Support"},
-            {"Burning Orb"},
-            {"Foxfire"},
-            {"Howl"},
-            {"Mind Power"},
-            {"Wide Shield"}
+            {"Hide", "Peck", "Needle Spike"},
+            {"Tail Smack"},
+            {"Rusty Roots"},
+            {"Leaf Tornado"},
+            {"Center of Attention"},
+            {"Festive Fervor"},
+            {"Divine Light"},
+            {"Life Sap"},
+            {"Jolly Dance"},
+            {"Aurora Flash"},
+            {"Headbutt"},
+            {"Aero Storm"},
+            {"Branch Launch"},
+            {"Hope Beacon"},
+            {"Aerial"},
+            {"Plant Sap"},
+            {"Barkskin"},
+            {"Tempest"}
         },
-        ["OnEvolve"] = {"Foxfire"}
+        ["OnEvolve"] = {"Festive Fervor"}
     },
     ["Umaisho"] = {
         ["Scroll"] = {
+            "Pie Gag",
+            "Mud Wave",
             "Tsunami",
             "Gem Blast",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Electrify",
             "Wave Shot"
@@ -5860,7 +9160,9 @@ data = {
             "Gem Blast",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Rust",
             "Wave Shot",
@@ -5887,11 +9189,14 @@ data = {
     },
     ["Springling"] = {
         ["Scroll"] = {
+            "Daze",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Gem Blast",
             "Iron Slash",
             "Climate Shot"
@@ -5924,7 +9229,9 @@ data = {
             "Food Fight",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Climate Shot"
         },
@@ -5947,7 +9254,19 @@ data = {
         }
     },
     ["Hollihare"] = {
-        ["Scroll"] = {"Taunt", "Rainmaker", "Starbreaker", "Somnambulism", "Feral Fury", "Cone of Cold", "Climate Shot"},
+        ["Scroll"] = {
+            "Taunt",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Cone of Cold",
+            "Climate Shot",
+            "Absolute Zero",
+            "Icefall"
+        },
         ["Levelup"] = {
             {"Snowball"},
             {"Plant Sap"},
@@ -5967,7 +9286,17 @@ data = {
         }
     },
     ["Dizipore"] = {
-        ["Scroll"] = {"Gem Blast", "Taunt", "Starbreaker", "Somnambulism", "Climate Shot", "Psychoforce", "Iron Slash"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Taunt",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Psychoforce",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Leaf Sap", "Agitate"},
             {"Paralysis Spores"},
@@ -5992,7 +9321,9 @@ data = {
             "Gem Blast",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Climate Shot",
             "Flashbang",
@@ -6021,7 +9352,9 @@ data = {
             "Iron Slash",
             "Firecracker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Burning Orb",
             "Taunt"
         },
@@ -6047,7 +9380,9 @@ data = {
             "Gem Blast",
             "Flashbang",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Taunt",
             "Daze",
@@ -6076,11 +9411,14 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Climate Shot",
             "Insect Instinct",
-            "Shifting Winds"
+            "Shifting Winds",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Waterbolt", "Gust"},
@@ -6102,11 +9440,14 @@ data = {
     },
     ["Hippop"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Tsunami",
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Retribution",
             "Climate Shot",
             "Cone of Cold",
@@ -6131,13 +9472,16 @@ data = {
     },
     ["Schemeesh"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Tsunami",
             "Rainmaker",
             "Gem Blast",
             "Disarm",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Climate Shot",
             "Taunt",
@@ -6165,13 +9509,17 @@ data = {
             "Tsunami",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Taunt",
             "Feral Fury",
             "Cone of Cold",
             "Climate Shot",
-            "Burning Orb"
+            "Burning Orb",
+            "Absolute Zero",
+            "Icefall"
         },
         ["Levelup"] = {
             {"Smack", "Squeak", "Fireball"},
@@ -6209,7 +9557,16 @@ data = {
         }
     },
     ["Beetal"] = {
-        ["Scroll"] = {"Gem Blast", "Rainmaker", "Starbreaker", "Somnambulism", "Iron Slash"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Rainmaker",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Serrated Claws"
+        },
         ["Levelup"] = {
             {"Smack", "Skitter", "Hide", "Scrutinize"},
             {"Bonk"},
@@ -6228,7 +9585,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Gem Blast",
             "Daze"
@@ -6253,7 +9612,18 @@ data = {
         ["OnEvolve"] = {"Scissor Guard"}
     },
     ["Daeferno"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Taunt", "Burning Orb", "Firecracker", "Daze"},
+        ["Scroll"] = {
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Burning Orb",
+            "Firecracker",
+            "Daze",
+            "Feral Fury"
+        },
         ["Levelup"] = {
             {"Boo!", "Befuddlement", "Mind Empowerment", "Shadow Lurk"},
             {"Vague Vortex"},
@@ -6274,12 +9644,17 @@ data = {
     },
     ["Cragildae"] = {
         ["Scroll"] = {
+            "Disarm",
+            "Mud Wave",
+            "Energy Wave",
             "Retribution",
             "Taunt",
             "Firecracker",
             "Iron Slash",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Daze"
         },
@@ -6303,8 +9678,19 @@ data = {
         },
         ["OnEvolve"] = {"Solid Charge"}
     },
-    ["AzÃºpion"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Taunt", "Retribution", "Food Fight", "Flashbang", "Iron Slash"},
+    ["Azúpion"] = {
+        ["Scroll"] = {
+            "Pie Gag",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Retribution",
+            "Food Fight",
+            "Flashbang",
+            "Iron Slash"
+        },
         ["Levelup"] = {
             {"Venomous Sting", "Skitter", "Quick Sting"},
             {"Fast Food"},
@@ -6326,7 +9712,7 @@ data = {
         }
     },
     ["Gekotta"] = {
-        ["Scroll"] = {"Retribution", "Taunt", "Firecracker", "Iron Slash", "Starbreaker"},
+        ["Scroll"] = {"Mud Wave", "Retribution", "Taunt", "Firecracker", "Iron Slash", "Starbreaker"},
         ["Levelup"] = {
             {"Pebble"},
             {"Earth Lance"},
@@ -6352,7 +9738,9 @@ data = {
             "Gem Blast",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -6373,7 +9761,7 @@ data = {
         }
     },
     ["Potunk"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Taunt", "Retribution"},
+        ["Scroll"] = {"Mud Wave", "Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Taunt", "Retribution"},
         ["Levelup"] = {
             {"Pebble", "Harden", "Befuddlement"},
             {"Sandstorm"},
@@ -6390,15 +9778,19 @@ data = {
     },
     ["Anubeetle"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Insect Instinct",
             "Taunt",
             "Venom Bite",
             "Iron Slash",
             "Climate Shot",
-            "Daze"
+            "Daze",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Pebble", "Nibble", "Web", "Harden"},
@@ -6424,7 +9816,7 @@ data = {
         ["OnEvolve"] = {"Harden"}
     },
     ["Girasera"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Disarm", "Taunt", "Climate Shot"},
+        ["Scroll"] = {"Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Disarm", "Taunt", "Climate Shot"},
         ["Levelup"] = {
             {"Poison Spores", "Leaf Sap"},
             {"Goo Blast"},
@@ -6447,7 +9839,17 @@ data = {
     },
     ["Ahket"] = {["Scroll"] = {}, ["Levelup"] = {{"Nibble", "Web"}, {"Pebble"}}},
     ["Kowosu"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Starbreaker", "Somnambulism", "Iron Slash", "Daze"},
+        ["Scroll"] = {
+            "Retribution",
+            "Disarm",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Daze",
+            "Serrated Claws"
+        },
         ["Levelup"] = {
             {"Swipe", "Squeak"},
             {"Combo Support"},
@@ -6465,7 +9867,7 @@ data = {
         }
     },
     ["Dewaffe"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Disarm", "Taunt", "Climate Shot"},
+        ["Scroll"] = {"Gem Blast", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Disarm", "Taunt", "Climate Shot"},
         ["Levelup"] = {
             {"Poison Spores", "Leaf Sap"},
             {"Goo Blast"},
@@ -6485,7 +9887,16 @@ data = {
         }
     },
     ["Vipember"] = {
-        ["Scroll"] = {"Retribution", "Venom Bite", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Retribution",
+            "Venom Bite",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Firebolt"},
             {"Flames of Gehenna"},
@@ -6507,9 +9918,13 @@ data = {
     },
     ["Hattrix"] = {
         ["Scroll"] = {
+            "Mud Wave",
+            "Pylons",
             "Tsunami",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze",
             "Taunt",
             "Gem Blast",
@@ -6544,7 +9959,18 @@ data = {
         }
     },
     ["Runewt"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Psychoforce", "Feral Fury", "Climate Shot"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Energy Wave",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Feral Fury",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Sandstorm", "Pebble"},
             {"Psychoforce"},
@@ -6564,7 +9990,17 @@ data = {
         }
     },
     ["Glimmew"] = {
-        ["Scroll"] = {"Gem Blast", "Starbreaker", "Somnambulism", "Flashbang", "Iron Slash", "Climate Shot"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Gem Blast",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Flashbang",
+            "Iron Slash",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Swipe", "Blinding Lights"},
             {"Crit Up"},
@@ -6583,7 +10019,16 @@ data = {
         }
     },
     ["Agotoad"] = {
-        ["Scroll"] = {"Gem Blast", "Burning Orb", "Starbreaker", "Somnambulism", "Firecracker"},
+        ["Scroll"] = {
+            "Mud Wave",
+            "Gem Blast",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Firecracker"
+        },
         ["Levelup"] = {
             {"Firebolt", "Croak"},
             {"Sedimentary Defense"},
@@ -6609,7 +10054,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Gem Blast",
             "Daze"
@@ -6644,7 +10091,9 @@ data = {
             "Burning Orb",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Climate Shot",
             "Electrify"
@@ -6668,31 +10117,57 @@ data = {
             {"Spirit Orb"}
         }
     },
-    ["Kibara"] = {
-        ["Scroll"] = {"Gem Blast", "Food Fight", "Starbreaker", "Somnambulism", "Cone of Cold", "Daze"},
-        ["Levelup"] = {
-            {"Snowball", "Hide"},
-            {"Sad Zone"},
-            {"Geode Smash"},
-            {"Crocodile Tears"},
-            {"Quick Ice"},
-            {"Crystal Storm"},
-            {"Flash Freeze"},
-            {"Heal"},
-            {"Cone of Cold"},
-            {"Crystal Wall"},
-            {"Mind Drain"},
-            {"Piercing Ice"},
-            {"Wide Shield"},
-            {"Icy Veil"},
-            {"Protect"}
+    ["Diaphin"] = {
+        ["Scroll"] = {
+            "Pylons",
+            "Electrify",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Taunt",
+            "Gem Blast",
+            "Flashbang",
+            "Iron Slash",
+            "Rainmaker",
+            "Diamond Dash",
+            "Psychoforce"
         },
-        ["OnEvolve"] = {"Geode Smash"}
+        ["Levelup"] = {
+            {"Stab"},
+            {"Geode Smash"},
+            {"Crystal Cut"},
+            {"Shatter"},
+            {"Sharpen"},
+            {"Bonk"},
+            {"Crystal Armor"},
+            {"Opal Pulse"},
+            {"Harden"},
+            {"Piercing Poke"},
+            {"Rupture"},
+            {"Enlightenment"},
+            {"Mineral Cannon"},
+            {"Crystal Wall"},
+            {"Diamond Dash"},
+            {"Precision Dart"},
+            {"Mercury Puddle"}
+        }
     },
     ["Rhinostone"] = {
-        ["Scroll"] = {"Retribution", "Starbreaker", "Somnambulism", "Feral Fury", "Gem Blast", "Firecracker"},
+        ["Scroll"] = {
+            "Diamond Dash",
+            "Mud Wave",
+            "Retribution",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Feral Fury",
+            "Gem Blast",
+            "Firecracker"
+        },
         ["Levelup"] = {
-            {"Pebble", "Harden"},
+            {"Pebble", "Harden", "Mock Charge"},
             {"Reckless Charge"},
             {"Crush"},
             {"Solid Charge"},
@@ -6712,11 +10187,14 @@ data = {
     },
     ["Muncheez"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury"
         },
@@ -6737,48 +10215,53 @@ data = {
             {"Fatten Up"}
         }
     },
-    ["Horbeast"] = {
+    ["Snorolla"] = {
         ["Scroll"] = {
-            "Retribution",
-            "Venom Bite",
-            "Disarm",
-            "Food Fight",
-            "Starbreaker",
-            "Somnambulism",
-            "Iron Slash",
-            "Feral Fury",
-            "Taunt",
+            "Mud Wave",
             "Daze",
-            "Electrify"
+            "Somnambulism",
+            "Rest",
+            "Climate Shot",
+            "Retribution",
+            "Disarm",
+            "Energy Wave",
+            "Cone of Cold",
+            "Starbreaker",
+            "Loyalty",
+            "Firecracker",
+            "Feral Fury",
+            "Absolute Zero",
+            "Icefall"
         },
         ["Levelup"] = {
-            {"Fiery Slash", "Electro Slash"},
-            {"Subterfuge"},
-            {"Dark Blast"},
-            {"Mutiny"},
-            {"Savage Blow"},
-            {"Glancing Blow"},
-            {"Preparation"},
-            {"Spirit Claws"},
-            {"Disarm"},
-            {"Sharpen"},
-            {"Claw Swipes"},
-            {"Shadowstep"},
-            {"Drill Sergeant"},
-            {"Screech"},
-            {"Dark Slash"},
-            {"Quick Strike"}
-        }
+            {"Roll", "Snowball", "Icy Floor"},
+            {"Absolute Zero"},
+            {"Careless Assault"},
+            {"Solid Charge"},
+            {"Rest"},
+            {"Cone of Cold"},
+            {"Hyper Voice"},
+            {"Snow Roller"},
+            {"Body Slam"},
+            {"Reckless Charge"},
+            {"Arctic Blitz"},
+            {"Frostgrip"},
+            {"Snow Fort"}
+        },
+        ["OnEvolve"] = {"Icy Floor"}
     },
     ["Xenoxious"] = {
         ["Scroll"] = {
+            "Energy Wave",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Daze",
             "Feral Fury"
@@ -6806,12 +10289,15 @@ data = {
     },
     ["Clangutang"] = {
         ["Scroll"] = {
+            "Mud Wave",
             "Retribution",
             "Disarm",
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Iron Slash",
             "Taunt",
             "Daze"
@@ -6844,11 +10330,14 @@ data = {
     },
     ["Caramellow"] = {
         ["Scroll"] = {
+            "Pie Gag",
             "Retribution",
             "Food Fight",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Feral Fury",
             "Cone of Cold",
             "Climate Shot",
@@ -6878,7 +10367,7 @@ data = {
         ["Levelup"] = {{"Geode Smash", "Web"}, {"Squeak"}, {"Swarm"}, {"Skitter"}, {"Focus"}, {"Nibble"}}
     },
     ["Tulenna"] = {
-        ["Scroll"] = {"Disarm", "Starbreaker", "Somnambulism", "Shifting Winds", "Climate Shot"},
+        ["Scroll"] = {"Disarm", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Climate Shot"},
         ["Levelup"] = {
             {"Smack", "Sweet Aroma"},
             {"Life Roots"},
@@ -6902,7 +10391,16 @@ data = {
     },
     ["Borbo"] = {["Scroll"] = {}, ["Levelup"] = {{"Peck", "Squeak", "Hide"}, {"Smack"}, {"Air Strike"}, {"Armor Up"}}},
     ["Apurrition"] = {
-        ["Scroll"] = {"Food Fight", "Burning Orb", "Starbreaker", "Somnambulism", "Psychoforce", "Electrify"},
+        ["Scroll"] = {
+            "Food Fight",
+            "Burning Orb",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Psychoforce",
+            "Electrify"
+        },
         ["Levelup"] = {
             {"Boo!", "Mind Power"},
             {"Whisper"},
@@ -6929,7 +10427,9 @@ data = {
             "Rainmaker",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Iron Slash",
             "Climate Shot",
@@ -6957,7 +10457,9 @@ data = {
         ["Scroll"] = {
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Flashbang",
             "Climate Shot",
@@ -6982,12 +10484,15 @@ data = {
     },
     ["Exovul"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Gem Blast",
             "Venom Bite",
             "Retribution",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Firecracker",
             "Feral Fury",
             "Climate Shot"
@@ -7012,11 +10517,14 @@ data = {
     },
     ["Vuliable"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Gem Blast",
             "Venom Bite",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Disarm",
             "Feral Fury",
             "Climate Shot"
@@ -7040,7 +10548,7 @@ data = {
         ["OnEvolve"] = {"Chemical Breath"}
     },
     ["Blossafaun"] = {
-        ["Scroll"] = {"Disarm", "Starbreaker", "Somnambulism", "Shifting Winds", "Climate Shot"},
+        ["Scroll"] = {"Disarm", "Starbreaker", "Loyalty", "Somnambulism", "Rest", "Shifting Winds", "Climate Shot"},
         ["Levelup"] = {
             {"Smack", "Sweet Aroma"},
             {"Paralysis Spores"},
@@ -7061,11 +10569,14 @@ data = {
     },
     ["Djinneko"] = {
         ["Scroll"] = {
+            "Pylons",
             "Disarm",
             "Food Fight",
             "Burning Orb",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Taunt",
             "Daze",
@@ -7100,7 +10611,9 @@ data = {
             "Disarm",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Cone of Cold",
             "Climate Shot"
         },
@@ -7124,7 +10637,9 @@ data = {
             "Disarm",
             "Rainmaker",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Flashbang",
             "Climate Shot",
             "Electrify"
@@ -7154,7 +10669,9 @@ data = {
             "Rainmaker",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Cone of Cold",
             "Climate Shot"
@@ -7183,7 +10700,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Insect Instinct",
             "Iron Slash",
@@ -7214,20 +10733,24 @@ data = {
     },
     ["Cryotera"] = {
         ["Scroll"] = {
+            "Icefall",
             "Venom Bite",
             "Gem Blast",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Taunt",
             "Iron Slash",
             "Feral Fury",
+            "Absolute Zero",
             "Cone of Cold",
             "Climate Shot",
             "Retribution"
         },
         ["Levelup"] = {
-            {"Swipe", "Scrutinize"},
+            {"Swipe", "Scrutinize", "Hit-n-Run"},
             {"Icy Veil"},
             {"Hide"},
             {"Flash Freeze"},
@@ -7235,18 +10758,20 @@ data = {
             {"Jet Strike"},
             {"Air Strike"},
             {"Harmony"},
+            {"Aerial"},
             {"Snowball"},
             {"Icy Bite"},
-            {"Aerial"},
+            {"Crunch"},
+            {"Cone of Cold"},
             {"Hyper Voice"},
             {"Tempest"},
             {"Frostgrip"},
             {"Ambush"},
-            {"Cone of Cold"},
+            {"Screech"},
             {"Shifting Winds"},
-            {"Screech"}
+            {"Icy Slash"}
         },
-        ["OnEvolve"] = {"Ambush"}
+        ["OnEvolve"] = {"Ambush", "Icy Slash"}
     },
     ["Needling"] = {
         ["Scroll"] = {"Rainmaker", "Starbreaker"},
@@ -7272,7 +10797,9 @@ data = {
             "Tsunami",
             "Retribution",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot",
             "Taunt",
             "Rainmaker",
@@ -7298,6 +10825,7 @@ data = {
     },
     ["Corrolizard"] = {
         ["Scroll"] = {
+            "Pylons",
             "Retribution",
             "Venom Bite",
             "Daze",
@@ -7306,7 +10834,9 @@ data = {
             "Food Fight",
             "Taunt",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Psychoforce",
             "Iron Slash",
             "Feral Fury",
@@ -7332,7 +10862,17 @@ data = {
         }
     },
     ["Leazar"] = {
-        ["Scroll"] = {"Retribution", "Disarm", "Rust", "Starbreaker", "Somnambulism", "Iron Slash", "Climate Shot"},
+        ["Scroll"] = {
+            "Retribution",
+            "Disarm",
+            "Rust",
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Iron Slash",
+            "Climate Shot"
+        },
         ["Levelup"] = {
             {"Smack", "Hide", "Pursuit"},
             {"Headbutt"},
@@ -7343,10 +10883,11 @@ data = {
             {"Leaf Sap"},
             {"Leaf Tornado"},
             {"Leaf Blade"},
+            {"Equality"},
             {"Slash"},
             {"Branch Launch"},
             {"Taunt"},
-            {"Equality"},
+            {"Sharpen"},
             {"Scapegoat"},
             {"Barkskin"}
         },
@@ -7360,7 +10901,9 @@ data = {
             "Food Fight",
             "Rust",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Climate Shot"
         },
         ["Levelup"] = {
@@ -7385,7 +10928,16 @@ data = {
         }
     },
     ["Thornet"] = {
-        ["Scroll"] = {"Starbreaker", "Somnambulism", "Shifting Winds", "Insect Instinct", "Taunt"},
+        ["Scroll"] = {
+            "Starbreaker",
+            "Loyalty",
+            "Somnambulism",
+            "Rest",
+            "Shifting Winds",
+            "Insect Instinct",
+            "Taunt",
+            "Serrated Claws"
+        },
         ["Levelup"] = {
             {"Hit-n-Run", "Nibble", "Web", "Harden"},
             {"Squeak"},
@@ -7407,13 +10959,16 @@ data = {
     ["Nibblen"] = {["Scroll"] = {"Venom Bite"}, ["Levelup"] = {{"Nibble", "Web"}, {"Venomous Sting"}}},
     ["Grimsugar"] = {
         ["Scroll"] = {
+            "Diamond Dash",
             "Retribution",
             "Rainmaker",
             "Gem Blast",
             "Disarm",
             "Food Fight",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Daze"
         },
         ["Levelup"] = {
@@ -7437,15 +10992,19 @@ data = {
     },
     ["Metalytra"] = {
         ["Scroll"] = {
+            "Pylons",
             "Gem Blast",
             "Rainmaker",
             "Disarm",
             "Starbreaker",
+            "Loyalty",
             "Somnambulism",
+            "Rest",
             "Shifting Winds",
             "Insect Instinct",
             "Iron Slash",
-            "Electrify"
+            "Electrify",
+            "Serrated Claws"
         },
         ["Levelup"] = {
             {"Smack", "Skitter", "Hide", "Scrutinize"},
