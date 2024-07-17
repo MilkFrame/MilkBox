@@ -1,6 +1,12 @@
 --AllEquipment()
 data = {
     ["Helmet"] = {
+        ["22"] = {
+            ["Info"] = "+7 attack, +7 speed, +7 magical attack",
+            ["Image"] = "rbxassetid://15728244464",
+            ["Name"] = "Artificer's Beanie",
+            ["Bonus"] = {["atk"] = 7, ["matk"] = 7, ["spe"] = 7}
+        },
         ["21"] = {
             ["Info"] = "+10 magical defense, +5 speed",
             ["Image"] = "http://www.roblox.com/asset/?id=13465470381",
@@ -26,22 +32,22 @@ data = {
             ["Bonus"] = {["atk"] = 10, ["spe"] = 5}
         },
         ["14"] = {
-            ["Info"] = "+15 speed, +10 attack, -20 hp, -20 defense",
+            ["Info"] = "+12 speed, +10 attack, -20 hp, -20 defense",
             ["Image"] = "http://www.roblox.com/asset/?id=11468464861",
             ["Name"] = "Candy Headphones",
-            ["Bonus"] = {["def"] = -20, ["hp"] = -20, ["atk"] = 10, ["spe"] = 15}
+            ["Bonus"] = {["def"] = -20, ["hp"] = -20, ["atk"] = 10, ["spe"] = 12}
         },
         ["1"] = {
-            ["Info"] = "+15 speed, -20 attack, -20 defense",
+            ["Info"] = "+10 Magical Attack, +5 Speed",
             ["Image"] = "http://www.roblox.com/asset/?id=8483540389",
             ["Name"] = "Magnificent Tophat",
-            ["Bonus"] = {["spe"] = 15, ["atk"] = -20, ["def"] = -20}
+            ["Bonus"] = {["matk"] = 10, ["spe"] = 5}
         },
         ["15"] = {
-            ["Info"] = "+5 magical attack, +15 speed, -10 hp, -10 magical defense",
+            ["Info"] = "+5 magical attack, +12 speed, -10 hp, -10 magical defense",
             ["Image"] = "http://www.roblox.com/asset/?id=12498318021",
             ["Name"] = "Pale Sunbonnet",
-            ["Bonus"] = {["mdef"] = -10, ["hp"] = -10, ["matk"] = 5, ["spe"] = 15}
+            ["Bonus"] = {["mdef"] = -10, ["hp"] = -10, ["matk"] = 5, ["spe"] = 12}
         },
         ["3"] = {
             ["Info"] = "+10 attack, +5 defense",
@@ -110,17 +116,9 @@ data = {
             ["Bonus"] = {["atk"] = 16, ["hp"] = -6}
         },
         ["12"] = {
+            ["Info"] = "+10 magical attack, +5 magical defense",
             ["Image"] = "http://www.roblox.com/asset/?id=10780122804",
             ["Name"] = "Marshmallow Fedora",
-            ["SpecificBonus"] = {
-                ["Partybug-A"] = {["matk"] = 20, ["atk"] = 20, ["spe"] = 10},
-                ["Partybug"] = {["matk"] = 20, ["atk"] = 20, ["spe"] = 10}
-            },
-            ["SpecificInfo"] = {
-                ["Partybug-A"] = "+20 attack, +20 magical attack, +10 speed",
-                ["Partybug"] = "+20 attack, +20 magical attack, +10 speed"
-            },
-            ["Info"] = "+10 magical attack, +5 magical defense",
             ["Bonus"] = {["matk"] = 10, ["mdef"] = 5}
         },
         ["11"] = {
@@ -138,16 +136,16 @@ data = {
     },
     ["Amulet"] = {
         ["22"] = {
-            ["Info"] = "+10 attack, +10 defense",
+            ["Info"] = "+10 attack, +15 defense",
             ["Image"] = "http://www.roblox.com/asset/?id=13260481118",
             ["Name"] = "Toxic Vial",
-            ["Bonus"] = {["atk"] = 10, ["def"] = 10}
+            ["Bonus"] = {["atk"] = 10, ["def"] = 15}
         },
         ["21"] = {
-            ["Info"] = "+4 to every stat except speed, -14 speed",
+            ["Info"] = "+7 HP, +7 Attack, +7 Defense",
             ["Image"] = "http://www.roblox.com/asset/?id=13260141650",
             ["Name"] = "Geode Pendant",
-            ["Bonus"] = {["atk"] = 4, ["def"] = 4, ["spe"] = -14, ["matk"] = 4, ["hp"] = 4, ["mdef"] = 4}
+            ["Bonus"] = {["atk"] = 7, ["hp"] = 7, ["def"] = 7}
         },
         ["20"] = {
             ["Image"] = "http://www.roblox.com/asset/?id=12727033455",
@@ -205,10 +203,10 @@ data = {
             ["Bonus"] = {["mdef"] = 15, ["spe"] = 5}
         },
         ["4"] = {
-            ["Info"] = "+10 speed, -10 defense, -10 magical defense",
+            ["Info"] = "+12 attack",
             ["Image"] = "http://www.roblox.com/asset/?id=8687505607",
             ["Name"] = "Whatchamacallit",
-            ["Bonus"] = {["mdef"] = -10, ["def"] = -10, ["spe"] = 10}
+            ["Bonus"] = {["atk"] = 12}
         },
         ["7"] = {
             ["Info"] = "+8 hp, +8 speed",
@@ -272,6 +270,24 @@ data = {
         }
     },
     ["Artifact"] = {
+        ["23"] = {
+            ["Info"] = "-20 hp, +6 to all other stats. +100 coolness",
+            ["Image"] = "rbxassetid://15934043608",
+            ["Name"] = "Crumpled Water Bottle",
+            ["Bonus"] = {["atk"] = 6, ["def"] = 6, ["hp"] = -20, ["spe"] = 6, ["matk"] = 6, ["mdef"] = 6}
+        },
+        ["22"] = {
+            ["Info"] = "+10 magic attack, +7 speed, -10 magic defense",
+            ["Image"] = "rbxassetid://15581973792",
+            ["Name"] = "S'cone",
+            ["Bonus"] = {["spe"] = 7, ["matk"] = 10, ["mdef"] = -10}
+        },
+        ["21"] = {
+            ["Info"] = "+15 hp",
+            ["Image"] = "http://www.roblox.com/asset/?id=13686526771",
+            ["Name"] = "Pure Tear",
+            ["Bonus"] = {["hp"] = 15}
+        },
         ["20"] = {
             ["Info"] = "+15 hp",
             ["Image"] = "http://www.roblox.com/asset/?id=13686526771",
@@ -327,10 +343,10 @@ data = {
             ["Bonus"] = {["matk"] = -20, ["mdef"] = 20, ["atk"] = -20, ["def"] = 20}
         },
         ["4"] = {
-            ["Info"] = "+20 speed, -20 hp",
+            ["Info"] = "+17 speed, -17 hp",
             ["Image"] = "http://www.roblox.com/asset/?id=8480796750",
             ["Name"] = "Amber Trapped Fly",
-            ["Bonus"] = {["hp"] = -20, ["spe"] = 20}
+            ["Bonus"] = {["hp"] = -17, ["spe"] = 17}
         },
         ["7"] = {
             ["Info"] = "+5 attack, +10 defense, -5 magic attack, -10 magic defense",
