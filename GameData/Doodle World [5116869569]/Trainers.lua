@@ -1340,9 +1340,9 @@ data = {
         {
             ["BattleScene"] = "CandyFactory",
             ["Party"] = {
-                {["Name"] = "Bonikrow", ["Level"] = 28},
-                {["Name"] = "Elektiel", ["Level"] = 29},
-                {["Name"] = "Borbek", ["Level"] = 30}
+                {["Name"] = "Bonikrow", ["Level"] = 25},
+                {["Name"] = "Elektiel", ["Level"] = 26},
+                {["Name"] = "Borbek", ["Level"] = 27}
             },
             ["Name"] = "Barry",
             ["LoseBattle"] = {"You aren't strong enough to do my riddle, yet."},
@@ -1353,9 +1353,9 @@ data = {
         {
             ["BattleScene"] = "CandyFactory",
             ["Party"] = {
-                {["Name"] = "Shyce", ["Level"] = 28},
-                {["Name"] = "Kibara", ["Level"] = 29},
-                {["Name"] = "Kidere", ["Level"] = 30}
+                {["Name"] = "Shyce", ["Level"] = 25},
+                {["Name"] = "Kibara", ["Level"] = 26},
+                {["Name"] = "Kidere", ["Level"] = 27}
             },
             ["Name"] = "Alyssa",
             ["LoseBattle"] = {"You aren't strong enough to do my riddle, yet."},
@@ -1366,9 +1366,9 @@ data = {
         {
             ["BattleScene"] = "CandyFactory",
             ["Party"] = {
-                {["Name"] = "Kowosu", ["Level"] = 28},
-                {["Name"] = "Spirasol", ["Level"] = 29},
-                {["Name"] = "Spiraryu", ["Level"] = 30}
+                {["Name"] = "Kowosu", ["Level"] = 25},
+                {["Name"] = "Spirasol", ["Level"] = 26},
+                {["Name"] = "Spiraryu", ["Level"] = 27}
             },
             ["Name"] = "Laurel",
             ["LoseBattle"] = {"You aren't strong enough to do my riddle, yet."},
@@ -1379,9 +1379,9 @@ data = {
         {
             ["BattleScene"] = "CandyFactory",
             ["Party"] = {
-                {["Name"] = "Dramask", ["Level"] = 28},
-                {["Name"] = "Theaterror", ["Level"] = 29},
-                {["Name"] = "Maskomedy", ["Level"] = 30}
+                {["Name"] = "Dramask", ["Level"] = 24},
+                {["Name"] = "Theaterror", ["Level"] = 25},
+                {["Name"] = "Maskomedy", ["Level"] = 26}
             },
             ["Name"] = "Peter",
             ["LoseBattle"] = {"You aren't strong enough to do my riddle, yet."},
@@ -1641,7 +1641,7 @@ data = {
                 },
                 {
                     ["HeldItem"] = "Edible Storm in a Bottle",
-                    ["Name"] = "SkorpirulÃ­",
+                    ["Name"] = "Skorpirulí",
                     ["Equip"] = {["Artifact"] = "8", ["Helmet"] = "8"},
                     ["Ability"] = "Scarf Down",
                     ["Level"] = 34,
@@ -1868,7 +1868,7 @@ data = {
                 },
                 {
                     ["HeldItem"] = "Fire Candy Cube",
-                    ["Name"] = "SkorpirulÃ­",
+                    ["Name"] = "Skorpirulí",
                     ["Equip"] = {["Artifact"] = "9", ["Helmet"] = "8"},
                     ["Ability"] = "Botulism",
                     ["Level"] = 40,
@@ -2011,7 +2011,7 @@ data = {
                     ["HeldItem"] = "Champion Belt",
                     ["Name"] = "Anubeetle",
                     ["Ability"] = "Dust Storm",
-                    ["Level"] = 33,
+                    ["Level"] = 31,
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Moves"] = {"Earth Lance", "Shale", "Sharpen", "Swarm"}
                 },
@@ -2019,7 +2019,7 @@ data = {
                     ["HeldItem"] = "Gold Laminate",
                     ["Name"] = "Claydance",
                     ["Ability"] = "Sand Screen",
-                    ["Level"] = 34,
+                    ["Level"] = 32,
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Moves"] = {"Armor Break", "Dark Blast", "Earth Surge"}
                 },
@@ -2027,7 +2027,7 @@ data = {
                     ["HeldItem"] = "Used Crayons",
                     ["Name"] = "Marshore",
                     ["Ability"] = "Viscosity",
-                    ["Level"] = 35,
+                    ["Level"] = 33,
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Moves"] = {"Nutrient Drain", "Retribution", "Sharp Claws"}
                 },
@@ -2035,7 +2035,7 @@ data = {
                     ["HeldItem"] = "Bubblegum",
                     ["Name"] = "Somberock",
                     ["Ability"] = "Gloomy",
-                    ["Level"] = 36,
+                    ["Level"] = 34,
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Moves"] = {"Cake Walk", "Food Fight", "Night Night", "Gem Blast"}
                 },
@@ -2043,13 +2043,13 @@ data = {
                     ["HeldItem"] = "Determination Jelly",
                     ["Name"] = "Metalytra",
                     ["Ability"] = "Accelerate",
-                    ["Level"] = 37,
+                    ["Level"] = 35,
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Moves"] = {"Sharpen", "Iron Slash"}
                 },
                 {
                     ["HeldItem"] = "Mawthra Rune",
-                    ["Level"] = 38,
+                    ["Level"] = 36,
                     ["Name"] = "Mawthra",
                     ["Moves"] = {"Iron Slash", "Venom Bite", "Itchy Bite", "Wing Slash"}
                 }
@@ -2514,7 +2514,6 @@ data = {
                     ["HeldItem"] = "Used Crayons",
                     ["Name"] = "Glubbie",
                     ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
-                    ["Ability"] = "Ethereal",
                     ["Level"] = 53,
                     ["Star"] = 6,
                     ["Moves"] = {"Boring Show", "Recombobulate", "Vague Vortex", "Goo Blast"}
@@ -2920,7 +2919,7 @@ data = {
                     ["Moves"] = {"Taser", "Shock Wave", "Air Strike", "Shock Therapy"}
                 },
                 {
-                    ["Name"] = "VigimantÃ¨",
+                    ["Name"] = "Vigimantè",
                     ["Equip"] = {["Artifact"] = "9"},
                     ["Ability"] = "Avenger",
                     ["Level"] = 42,
@@ -3248,6 +3247,541 @@ data = {
             ["Name"] = "Carson",
             ["Music"] = "Battlefield4",
             ["LoseBattle"] = {"..."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"Bogos binted?"},
+            ["WinBattle"] = {"Gnarps cloob flugy flik, zom flibrug glop."},
+            ["Class"] = "Scientist",
+            ["Party"] = {{["Name"] = "Taryonix", ["Level"] = 47}, {["Name"] = "Yorus", ["Level"] = 47}},
+            ["Name"] = "Vorp",
+            ["LoseBattle"] = {"👽"},
+            ["BeatenInteract"] = {"Bogos binted?"},
+            ["Cash"] = 2000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"I love the hike to Icyridge!"},
+            ["WinBattle"] = {"I get to battle all sorts of people!"},
+            ["Class"] = "Backpacker",
+            ["Party"] = {
+                {["Name"] = "Cragildae", ["Level"] = 46},
+                {["Name"] = "Aluminja", ["Level"] = 46},
+                {["Name"] = "Henchum", ["Level"] = 46}
+            },
+            ["Name"] = "Louts",
+            ["LoseBattle"] = {"I get to battle all sorts of people!"},
+            ["BeatenInteract"] = {"Hiking is so fun!"},
+            ["Cash"] = 4000
+        },
+        {
+            ["BattleScene"] = "DesertRoute",
+            ["Interact"] = {"My blade strikes true!"},
+            ["WinBattle"] = {"I have the power of the blade at my side."},
+            ["Class"] = "Explorer",
+            ["Party"] = {
+                {["Name"] = "Clangutang", ["Level"] = 46},
+                {["Name"] = "Seamstress", ["Level"] = 46},
+                {["Name"] = "Seamknight", ["Level"] = 46}
+            },
+            ["Name"] = "Ferndinand",
+            ["LoseBattle"] = {"I need to sharpen my blade..."},
+            ["BeatenInteract"] = {"...My blade is dull."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "DesertRoute",
+            ["Interact"] = {"This route is perfect for condition training!"},
+            ["WinBattle"] = {"You gotta train, kid!"},
+            ["Class"] = "Bodybuilder",
+            ["Party"] = {
+                {["Name"] = "Abyssent", ["Level"] = 46},
+                {["Name"] = "Gomutt", ["Level"] = 46},
+                {["Name"] = "Voltenchant", ["Level"] = 46}
+            },
+            ["Name"] = "Georgie",
+            ["LoseBattle"] = {"Still weak..."},
+            ["BeatenInteract"] = {"I gotta get stronger!"},
+            ["Cash"] = 2500
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"My Doodles were passed on to me by my father, who's a scientist."},
+            ["WinBattle"] = {"I won with ease. There's a reason why my Doodles are extinct."},
+            ["Class"] = "Lost Boy",
+            ["Party"] = {
+                {["Name"] = "Tasmarauder", ["Level"] = 43},
+                {["Name"] = "Meiolicant", ["Level"] = 43},
+                {["Name"] = "Banautilus", ["Level"] = 43},
+                {["Name"] = "Velodo", ["Level"] = 43},
+                {["Name"] = "Wyvernal", ["Level"] = 43}
+            },
+            ["Name"] = "Nibs",
+            ["LoseBattle"] = {"I lost with my special extinct Doodles?"},
+            ["BeatenInteract"] = {"My dad said to keep my Doodles a secret."},
+            ["Cash"] = 1200
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"I love Prickles!."},
+            ["WinBattle"] = {"Cactus Doodles rule!."},
+            ["Class"] = "Cactus",
+            ["Party"] = {
+                {["Name"] = "Cacmeow", ["Level"] = 50},
+                {["Name"] = "Prickles", ["Level"] = 50},
+                {["Name"] = "Prickles", ["Level"] = 50}
+            },
+            ["Name"] = "Jones",
+            ["LoseBattle"] = {"My Cactus Power lost...?"},
+            ["BeatenInteract"] = {"Prickles is my favorite Doodle..."},
+            ["Cash"] = 2500
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"I'm making my way up the DoodleCo corporate ladder!"},
+            ["WinBattle"] = {"Yay! I'm getting closer to Teneson!"},
+            ["Class"] = "Businessman",
+            ["Party"] = {
+                {["Name"] = "Pompaboar", ["Level"] = 50},
+                {["Name"] = "Pompaboar", ["Level"] = 50},
+                {["Name"] = "Moyai", ["Level"] = 50},
+                {["Name"] = "Moyai", ["Level"] = 50}
+            },
+            ["Name"] = "Alexander",
+            ["LoseBattle"] = {"Since I lost to you, I don't think I'm going to make it in DoodleCo..."},
+            ["BeatenInteract"] = {"...I don't think I'm going to make it..."},
+            ["Cash"] = 5000
+        },
+        {
+            ["LastDoodleMessage"] = {["Msg"] = "You're doing quite well.", ["Doodle"] = "Calamander"},
+            ["Party"] = {
+                {
+                    ["HeldItem"] = "Dark Chocolate",
+                    ["Name"] = "Umaisho",
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Ability"] = "Water Absorb",
+                    ["Level"] = 44,
+                    ["Star"] = 5,
+                    ["Moves"] = {"Earthquake", "Nutrient Drain", "Feast", "Tsunami"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Name"] = "Jinglark",
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Ability"] = "Discover",
+                    ["Level"] = 45,
+                    ["Star"] = 5,
+                    ["Moves"] = {"Entangling Vines", "Festive Fervor", "Life Sap"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Name"] = "Megortles",
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Ability"] = "Rejuvenator",
+                    ["Level"] = 46,
+                    ["Star"] = 5,
+                    ["Moves"] = {"Parasitic Seeds", "Life Sap", "Protect", "Earthquake"}
+                },
+                {
+                    ["Name"] = "Snowclowne",
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Ability"] = "Deepfreeze",
+                    ["Level"] = 47,
+                    ["Star"] = 5,
+                    ["Moves"] = {"Cone Cannon", "Gem Blast", "Mineral Cannon", "Fast Food"}
+                },
+                {
+                    ["HeldItem"] = "Crystal Taffy",
+                    ["Name"] = "Fabulupin",
+                    ["Ability"] = "Premonition",
+                    ["Level"] = 48,
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Moves"] = {"Crystal Arrow", "Leaf Blade", "Pursuit", "Venom Bite"}
+                },
+                {
+                    ["HeldItem"] = "Calamander Candy",
+                    ["Name"] = "Calamander",
+                    ["Ability"] = "Chocolate Drizzle",
+                    ["Level"] = 49,
+                    ["Equip"] = {["Artifact"] = "9"},
+                    ["Moves"] = {"Bestial Wrath", "Just Desserts"}
+                }
+            },
+            ["Name"] = "Desmond",
+            ["BattleScene"] = "IceRoute",
+            ["WinBattle"] = {"...Yes, you are what I'm looking for."},
+            ["Class"] = "Community Leader",
+            ["LoseBattle"] = {"And with that, my hope fades away."},
+            ["Cash"] = 12500
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"Do you know that history of that castle?"},
+            ["WinBattle"] = {"I need to know more about the castle."},
+            ["Class"] = "Traveler",
+            ["Party"] = {{["Name"] = "Pancabear", ["Level"] = 48}, {["Name"] = "Hahayena", ["Level"] = 48}},
+            ["Name"] = "Travis",
+            ["LoseBattle"] = {"I need to know more about the castle.'"},
+            ["BeatenInteract"] = {"That castle, if it wasn't destroyed, would be a pretty sight."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {
+                "I'm here gathering herbs for Alchemist Avras -- the most famous alchemist in all of Icyridge!"
+            },
+            ["WinBattle"] = {"Yay!"},
+            ["Class"] = "Student Alchemist",
+            ["Party"] = {
+                {["Name"] = "Flaskit", ["Level"] = 47},
+                {["Name"] = "Scalivur", ["Level"] = 47},
+                {["Name"] = "Vuliable", ["Level"] = 47}
+            },
+            ["Name"] = "Harry",
+            ["LoseBattle"] = {"If only I could use my potions..."},
+            ["BeatenInteract"] = {"I need to work on my battling skills..."},
+            ["Cash"] = 7500
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Interact"] = {"I HATE DOODLECO!"},
+            ["WinBattle"] = {"NO MORE DOODLECO!"},
+            ["Class"] = "Professional Hater",
+            ["Party"] = {
+                {["Name"] = "Aerystal", ["Level"] = 46},
+                {["Name"] = "Grimmlen", ["Level"] = 46},
+                {["Name"] = "Kidere", ["Level"] = 46},
+                {["Name"] = "Snorolla", ["Level"] = 46}
+            },
+            ["Name"] = "Joshua",
+            ["LoseBattle"] = {"DOODLECO RUINED MY LIFE!"},
+            ["BeatenInteract"] = {"DOWN WITH DOODLECO!"},
+            ["Cash"] = 400
+        },
+        {
+            ["LastDoodleMessage"] = {["Msg"] = "It's up to you, Marigrimm.", ["Doodle"] = "Marigrimm"},
+            ["Party"] = {
+                {
+                    ["HeldItem"] = "Blueprint",
+                    ["Name"] = "Artifixie",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Ability"] = "Silly",
+                    ["Level"] = 58,
+                    ["Star"] = 6,
+                    ["Moves"] = {"Crystal Wall", "Magical Shield", "Psychoforce", "Cone of Cold"}
+                },
+                {
+                    ["HeldItem"] = "Weird Jelly",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Name"] = "Mielursa",
+                    ["Star"] = 6,
+                    ["Ability"] = "Bee Arena",
+                    ["Gender"] = "M",
+                    ["Level"] = 59,
+                    ["Moves"] = {"War Cry", "Honey Slap", "Serrated Claws", "Icy Bite"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Name"] = "Abyssent",
+                    ["Star"] = 6,
+                    ["Ability"] = "Bright Lights",
+                    ["Gender"] = "M",
+                    ["Level"] = 60,
+                    ["Moves"] = {"Tsunami", "Abyss Breaker", "Cone of Cold"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Name"] = "Pompaboar",
+                    ["Star"] = 6,
+                    ["Ability"] = "Careless",
+                    ["Gender"] = "M",
+                    ["Level"] = 61,
+                    ["Moves"] = {"Body Slam", "Earthquake", "Fiery Punch", "Mutiny"}
+                },
+                {
+                    ["HeldItem"] = "Tufflaze Rune",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Name"] = "Tufflaze",
+                    ["Star"] = 6,
+                    ["Ability"] = "Composed",
+                    ["Gender"] = "M",
+                    ["Level"] = 62,
+                    ["Moves"] = {"Sharpen", "Earthquake", "Bestial Wrath", "Raging Bonfire"}
+                },
+                {
+                    ["HeldItem"] = "Spirit Jar",
+                    ["Equip"] = {["Helmet"] = "9", ["Amulet"] = "8", ["Artifact"] = "9"},
+                    ["Name"] = "Marigrimm",
+                    ["Star"] = 6,
+                    ["Ability"] = "Serenade",
+                    ["Gender"] = "M",
+                    ["Level"] = 63,
+                    ["Moves"] = {"Siren Song", "Jump Scare", "Harmony", "Hyper Scream"}
+                }
+            },
+            ["Name"] = "Jack",
+            ["BattleScene"] = "IceRoute",
+            ["WinBattle"] = {"No matter how hard I try, I can't best you."},
+            ["Class"] = "Wayfarer",
+            ["LoseBattle"] = {"My hard work has borne fruit."},
+            ["Cash"] = 10000
+        },
+        {
+            ["BattleScene"] = "Sweetsville",
+            ["Party"] = {
+                {
+                    ["HeldItem"] = "Insect Candy Cube",
+                    ["Name"] = "Malotrick",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["matk"] = 1.1},
+                    ["Ability"] = "Envy",
+                    ["Level"] = 48,
+                    ["Equip"] = {["Helmet"] = "8", ["Amulet"] = "9", ["Artifact"] = "20"},
+                    ["Moves"] = {"Psychoforce", "Fatal Flaw", "Burning Orb", "Consume Treasure"}
+                },
+                {
+                    ["HeldItem"] = "Jetpack",
+                    ["Name"] = "Medikrow",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["mdef"] = 1.1},
+                    ["Ability"] = "Poison Absorb",
+                    ["Level"] = 49,
+                    ["Equip"] = {["Helmet"] = "8", ["Amulet"] = "1", ["Artifact"] = "11"},
+                    ["Moves"] = {"Goo Blast", "Dark Blast", "Heal", "Dispose"}
+                },
+                {
+                    ["HeldItem"] = "Lethal Ornament",
+                    ["Name"] = "Lurkelid",
+                    ["StatBoosts"] = {["matk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Refresh",
+                    ["Level"] = 50,
+                    ["Equip"] = {["Helmet"] = "22", ["Amulet"] = "19", ["Artifact"] = "18"},
+                    ["Moves"] = {"Fatal Flaw", "Tsunami", "Hit-n-Run", "Rip Current"}
+                },
+                {
+                    ["HeldItem"] = "Riot Shield",
+                    ["Name"] = "Sukikogami",
+                    ["StatBoosts"] = {["atk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Paper Cut",
+                    ["Level"] = 51,
+                    ["Equip"] = {["Helmet"] = "6", ["Amulet"] = "22", ["Artifact"] = "19"},
+                    ["Moves"] = {"Vampiric Strike", "Daze", "Shifting Winds", "Hit-n-Run"}
+                },
+                {
+                    ["HeldItem"] = "Cursed Cloak",
+                    ["Name"] = "Mourveil",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["matk"] = 1.1},
+                    ["Ability"] = "Vengeance",
+                    ["Level"] = 52,
+                    ["Equip"] = {["Helmet"] = "10", ["Amulet"] = "1", ["Artifact"] = "11"},
+                    ["Moves"] = {"Life Sap", "Siphon Soul", "Climate Shot", "Toxic Bomb"}
+                },
+                {
+                    ["HeldItem"] = "Cure Jelly",
+                    ["Name"] = "Henchum",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["atk"] = 1.1},
+                    ["Ability"] = "Premonition",
+                    ["Level"] = 53,
+                    ["Equip"] = {["Helmet"] = "18", ["Amulet"] = "10", ["Artifact"] = "19"},
+                    ["Moves"] = {"Dark Slash", "Unguarded Strike", "Mutiny", "Toughen"}
+                }
+            },
+            ["Name"] = [["Kura"]],
+            ["LoseBattle"] = {"I get to keep my ability to talk!"},
+            ["Class"] = "Shadow Clan",
+            ["WinBattle"] = {"...These might be the last words I ever say."},
+            ["Cash"] = 3000
+        },
+        {
+            ["BattleScene"] = "GenericIndoors",
+            ["Party"] = {
+                {
+                    ["HeldItem"] = "Jetpack",
+                    ["Name"] = "Bronzoch",
+                    ["StatBoosts"] = {["atk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Fire Up",
+                    ["Level"] = 48,
+                    ["Equip"] = {["Helmet"] = "18", ["Amulet"] = "10", ["Artifact"] = "19"},
+                    ["Moves"] = {"Sharpen", "Raging Bonfire", "Shatter", "Bonk"}
+                },
+                {
+                    ["HeldItem"] = "Enchanted Sapphire",
+                    ["Name"] = "Montor",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["matk"] = 1.1},
+                    ["Ability"] = "Battery Charge",
+                    ["Level"] = 49,
+                    ["Equip"] = {["Helmet"] = "8", ["Amulet"] = "20", ["Artifact"] = "20"},
+                    ["Moves"] = {"Mineral Cannon", "Thunder Strike", "Climate Shot", "Gem Blast"}
+                },
+                {
+                    ["HeldItem"] = "Heal Jelly",
+                    ["Name"] = "Aluminja",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["atk"] = 1.1},
+                    ["Ability"] = "Fireproof Armor",
+                    ["Level"] = 50,
+                    ["Equip"] = {["Helmet"] = "3", ["Amulet"] = "21", ["Artifact"] = "19"},
+                    ["Moves"] = {"Sharpen", "Unguarded Strike", "FTL Assault", "Dark Slash"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Name"] = "Celestian",
+                    ["StatBoosts"] = {["matk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Illogical",
+                    ["Level"] = 51,
+                    ["Equip"] = {["Helmet"] = "8", ["Amulet"] = "9", ["Artifact"] = "8"},
+                    ["Moves"] = {"Quick Thinking", "Psychoforce", "Mud Wave", "Mineral Cannon"}
+                },
+                {
+                    ["HeldItem"] = "Cursed Cloak",
+                    ["Name"] = "Serrafin",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["atk"] = 1.1},
+                    ["Ability"] = "Razor Skin",
+                    ["Level"] = 52,
+                    ["Equip"] = {["Helmet"] = "3", ["Amulet"] = "22", ["Artifact"] = "8"},
+                    ["Moves"] = {"Bonk", "Icy Bite", "Fin Slash", "Rip Current"}
+                },
+                {
+                    ["HeldItem"] = "Enchanted Ruby",
+                    ["Name"] = "Metalytra",
+                    ["StatBoosts"] = {["atk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Accelerate",
+                    ["Level"] = 53,
+                    ["Equip"] = {["Helmet"] = "13", ["Amulet"] = "22", ["Artifact"] = "19"},
+                    ["Moves"] = {"Serrated Claws", "Hit-n-Run", "Binary Blitz", "Bonk"}
+                }
+            },
+            ["Name"] = [["Kikai"]],
+            ["LoseBattle"] = {"If you need something done right, do it yourself."},
+            ["Class"] = "Shadow Clan",
+            ["WinBattle"] = {[[I can see how you defeated "Kura".]]},
+            ["Cash"] = 5000
+        },
+        {
+            ["LastDoodleMessage"] = {["Msg"] = "No way... I'm losing?", ["Doodle"] = "Kelpimer"},
+            ["Party"] = {
+                {
+                    ["HeldItem"] = "Beast Taffy",
+                    ["Name"] = "Tufflaze",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["atk"] = 1.1},
+                    ["Ability"] = "Composed",
+                    ["Level"] = 46,
+                    ["Equip"] = {["Helmet"] = "3", ["Amulet"] = "22", ["Artifact"] = "19"},
+                    ["Moves"] = {"Berserk", "Bestial Wrath", "Raging Bonfire", "Shatter"}
+                },
+                {
+                    ["HeldItem"] = "Lethal Ornament",
+                    ["Name"] = "Swoptar",
+                    ["StatBoosts"] = {["atk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Slash Expert",
+                    ["Level"] = 47,
+                    ["Equip"] = {["Helmet"] = "13", ["Amulet"] = "4", ["Artifact"] = "19"},
+                    ["Moves"] = {"War Cry", "Daze", "Dark Slash", "Bestial Wrath"}
+                },
+                {
+                    ["HeldItem"] = "Gauze Wrap",
+                    ["Name"] = "Suomous",
+                    ["StatBoosts"] = {["atk"] = 1.1, ["spe"] = 1.1},
+                    ["Ability"] = "Outboxer",
+                    ["Level"] = 50,
+                    ["Equip"] = {["Helmet"] = "18", ["Amulet"] = "10", ["Artifact"] = "17"},
+                    ["Moves"] = {"Unguarded Strike", "Icy Punch", "Light Hook", "Electro Punch"}
+                },
+                {
+                    ["HeldItem"] = "Imbued Relic",
+                    ["Name"] = "Malotrick",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["matk"] = 1.1},
+                    ["Ability"] = "Covetous",
+                    ["Level"] = 49,
+                    ["Equip"] = {["Helmet"] = "17", ["Amulet"] = "20", ["Artifact"] = "6"},
+                    ["Moves"] = {"Psychoforce", "Fatal Flaw", "Energy Wave", "Reverse Singularity"}
+                },
+                {
+                    ["HeldItem"] = "Cursed Cloak",
+                    ["Name"] = "Scorsurge",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["matk"] = 1.1},
+                    ["Ability"] = "Gunk Spark",
+                    ["Level"] = 50,
+                    ["Equip"] = {["Helmet"] = "12", ["Amulet"] = "9", ["Artifact"] = "8"},
+                    ["Moves"] = {"Hit-n-Run", "Goo Blast", "Thunder Strike", "Jolt"}
+                },
+                {
+                    ["HeldItem"] = "Used Crayons",
+                    ["Name"] = "Kelpimer",
+                    ["StatBoosts"] = {["hp"] = 1.1, ["def"] = 1.1},
+                    ["Ability"] = "Foam Guard",
+                    ["Level"] = 51,
+                    ["Equip"] = {["Helmet"] = "8", ["Amulet"] = "7", ["Artifact"] = "16"},
+                    ["Moves"] = {"Tainted Water", "Vague Vortex", "Taunt", "Storm Heal"}
+                }
+            },
+            ["Name"] = "Elijah",
+            ["BattleScene"] = "IceRoute",
+            ["WinBattle"] = {"I can still run away!"},
+            ["Class"] = "Tamer",
+            ["LoseBattle"] = {"See? The Maestro of Icyridge claims another victory."},
+            ["Cash"] = 10000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Party"] = {
+                {["Name"] = "Fluppy", ["Level"] = 46},
+                {["Name"] = "Abyssent", ["Level"] = 47},
+                {["Name"] = "Nimbell", ["Level"] = 48},
+                {["Name"] = "Kidere", ["Level"] = 49},
+                {["Name"] = "Elefortune", ["Level"] = 50}
+            },
+            ["Name"] = [["Shiro"]],
+            ["LoseBattle"] = {"..."},
+            ["Class"] = "Shadow Clan",
+            ["WinBattle"] = {"...Oof..."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Party"] = {
+                {["Name"] = "Potterfiend", ["Level"] = 46},
+                {["Name"] = "Scarfox", ["Level"] = 47},
+                {["Name"] = "Runewt", ["Level"] = 48},
+                {["Name"] = "Taryonix", ["Level"] = 49},
+                {["Name"] = "Cragildae", ["Level"] = 50}
+            },
+            ["Name"] = [["Jiro"]],
+            ["Format"] = "Doubles",
+            ["WinBattle"] = {"..."},
+            ["Class"] = "Shadow Clan",
+            ["LoseBattle"] = {"..."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "IceRoute",
+            ["Party"] = {
+                {["Name"] = "Henchum", ["Level"] = 50},
+                {["Name"] = "Prickles", ["Level"] = 50},
+                {["Name"] = "Vigimantè", ["Level"] = 50},
+                {["Name"] = "Suomous", ["Level"] = 50},
+                {["Name"] = "Xenoxious", ["Level"] = 50}
+            },
+            ["Name"] = [["Tsuyoi"]],
+            ["LoseBattle"] = {"Ha."},
+            ["Class"] = "Shadow Clan",
+            ["WinBattle"] = {"Wow, you're strong."},
+            ["Cash"] = 5000
+        },
+        {
+            ["BattleScene"] = "Hideout",
+            ["Party"] = {
+                {["Name"] = "Carnivower", ["Level"] = 50},
+                {["Name"] = "Hollihare", ["Level"] = 50},
+                {["Name"] = "Voltenchant", ["Level"] = 50},
+                {["Name"] = "Riptorvent", ["Level"] = 50},
+                {["Name"] = "Yorus", ["Level"] = 50},
+                {["Name"] = "Caramellow", ["Level"] = 50}
+            },
+            ["Name"] = "Tinsley",
+            ["LoseBattle"] = {"Are you really Desmond's choice?"},
+            ["Class"] = "Head Guard",
+            ["WinBattle"] = {"Oh nooooo! I tried to stop you and I couldn't!"},
             ["Cash"] = 5000
         },
         {
