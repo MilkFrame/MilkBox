@@ -1,4 +1,25 @@
 data = {
+    ["Purchasable2"] = {
+        ["Bubbull"] = {["Cost"] = 500, ["Skin"] = 6, ["Name"] = "Bubbull", ["Showcase"] = "Hippop"},
+        ["Snorolla"] = {["Cost"] = 300, ["Skin"] = 4, ["Name"] = "Snorolla", ["Showcase"] = "Snobobo"},
+        ["Sukikogami"] = {["Cost"] = 400, ["Skin"] = 10, ["Name"] = "Sukikogami", ["Showcase"] = "Oribirb"},
+        ["Scorsurge"] = {["Cost"] = 450, ["Skin"] = 3, ["Name"] = "Scorsurge", ["Showcase"] = "Zapion"},
+        ["Easter Egg"] = {["Mount"] = "9", ["Name"] = "Easter Egg Mount", ["Cost"] = 9000},
+        ["Bowlinguin"] = {["Cost"] = 100, ["Skin"] = 9, ["Name"] = "Bowlinguin", ["Showcase"] = "Bowlinguin"},
+        ["Infurnius"] = {["Cost"] = 4000, ["Skin"] = 7, ["Name"] = "Infurnius", ["Showcase"] = "Infurnius"},
+        ["Toxisui"] = {["Cost"] = 600, ["Skin"] = 11, ["Name"] = "Toxisui", ["Showcase"] = "Aquafi"},
+        ["Hopolatte Ribbon"] = {["Item"] = true, ["Name"] = "Hopolatte Ribbon", ["Cost"] = 3500},
+        ["Energy Carrot"] = {["Item"] = true, ["Name"] = "Energy Carrot", ["Cost"] = 430},
+        ["Serpentsheen"] = {["Cost"] = 1500, ["Skin"] = 2, ["Name"] = "Serpentsheen", ["Showcase"] = "Glimring"},
+        ["Skadean"] = {["Cost"] = 200, ["Skin"] = 19, ["Name"] = "Skadean", ["Showcase"] = "Schiwi"},
+        ["Vigimantè"] = {["Cost"] = 750, ["Skin"] = 7, ["Name"] = "Vigimantè", ["Showcase"] = "Sobbuoy"},
+        ["Glubbie"] = {["Cost"] = 3000, ["Skin"] = 14, ["Name"] = "Glubbie", ["Showcase"] = "Glubbie"},
+        ["Scarfox"] = {["Cost"] = 800, ["Skin"] = 3, ["Name"] = "Scarfox", ["Showcase"] = "Floxy"},
+        ["Xenoxious"] = {["Cost"] = 2000, ["Skin"] = 18, ["Name"] = "Xenoxious", ["Showcase"] = "Xenoxious"},
+        ["Vuliable"] = {["Cost"] = 1200, ["Skin"] = 18, ["Name"] = "Vuliable", ["Showcase"] = "Flaskit"},
+        ["Chronos"] = {["Cost"] = 5000, ["Skin"] = 23, ["Name"] = "Chronos", ["Showcase"] = "Chronos"},
+        ["Tasmarauder"] = {["Cost"] = 250, ["Skin"] = 14, ["Name"] = "Tasmarauder", ["Showcase"] = "Tasjoney"}
+    },
     ["Purchasable"] = {
         ["Exiled"] = {["Cost"] = 1500, ["Skin"] = 6, ["Name"] = "Exiled", ["Showcase"] = "Exiled"},
         ["Candeigon"] = {["Cost"] = 26, ["Skin"] = 11, ["Name"] = "Candeigon", ["Showcase"] = "Indigoo"},
