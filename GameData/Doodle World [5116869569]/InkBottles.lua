@@ -59,6 +59,18 @@ data = {
         ["TintId"] = 17,
         ["Tint"] = "Lime"
     },
+    ["Amber Ink Bottle"] = {
+        ["Color"] = Color3.fromRGB(255, 171, 1),
+        ["Image"] = "rbxassetid://17464700428",
+        ["TintId"] = 44,
+        ["Tint"] = "Amber"
+    },
+    ["Mint Ink Bottle"] = {
+        ["Color"] = Color3.fromRGB(85, 255, 195),
+        ["Image"] = "rbxassetid://16437769590",
+        ["TintId"] = 37,
+        ["Tint"] = "Mint"
+    },
     ["Violet Ink Bottle"] = {
         ["Color"] = Color3.fromRGB(175, 0, 255),
         ["Image"] = "http://www.roblox.com/asset/?id=12237542002",
