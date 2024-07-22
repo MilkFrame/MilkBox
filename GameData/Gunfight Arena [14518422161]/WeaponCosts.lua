@@ -324,6 +324,12 @@ data = {
         ["AttBlacklist"] = "ClubPistol GripDefenderSwivelSpetzFrogmanSalagaHigh BrassCopper SlugLead SlugNitro Express"
     },
     ["MAC 10"] = {["Cost"] = 0, ["Hidden"] = true, ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipper"},
+    ["Big Coin"] = {
+        ["Cost"] = 0,
+        ["Secondary"] = true,
+        ["Hidden"] = true,
+        ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanSpetzArcherHigh BrassCopper SlugLead SlugNitro Express"
+    },
     ["Model 39"] = {
         ["Secondary"] = true,
         ["Cost"] = 15000,
@@ -350,6 +356,11 @@ data = {
         ["AttBlacklist"] = "Makeshift SuppressorHeavy SuppressorLight SuppressorBirdcageBreacherCompensatorCutterFlash CanMuzzle BrakeCompressorMatchSoft PointHigh VelocityHigh Mass"
     },
     ["Fisticuffs"] = {["Cost"] = 0, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
+    ["Royalty Knife"] = {
+        ["Cost"] = 0,
+        ["Hidden"] = true,
+        ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
+    },
     ["G11"] = {["Cost"] = 3500000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["DP27"] = {
         ["Prestige"] = 2,
@@ -378,6 +389,11 @@ data = {
         ["Cost"] = 1000000,
         ["AttBlacklist"] = "ClubPistol GripDefenderSpetzFrogmanHigh BrassCopper SlugLead SlugNitro Express"
     },
+    ["Golden Scepter"] = {
+        ["Cost"] = 0,
+        ["Hidden"] = true,
+        ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"
+    },
     ["UMP45"] = {
         ["Cost"] = 300000,
         ["AttBlacklist"] = "Angled ForegripWood Stub GripPolymer Stub GripWood HandstopPolymer HandstopClubPistol GripDefenderFrogmanSpetzHigh BrassCopper SlugLead SlugNitro Express"
@@ -395,6 +411,12 @@ data = {
     },
     ["Laser SMG"] = {["Prestige"] = 12, ["Cost"] = 0, ["AttBlacklist"] = "ClubPistol GripDefenderFrogmanRipper"},
     ["G36C"] = {["Cost"] = 0, ["Hidden"] = true, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
+    ["Credits Rifle"] = {
+        ["Cost"] = 0,
+        ["Hidden"] = true,
+        ["AttBlacklist"] = "CutterClubMakeshift StockPistol GripDefenderSpetzArcherSwivelSalagaHardstepHigh BrassCopper SlugLead SlugNitro Express"
+    },
+    ["Tanto"] = {["Cost"] = 500000, ["AttBlacklist"] = "High BrassCopper SlugLead SlugNitro Express"},
     ["Lynx"] = {
         ["Cost"] = 0,
         ["Hidden"] = true,
