@@ -6,15 +6,7 @@ data = {
         ["_script"] = "Rebirth | 1",
         ["BoostDesc"] = "+75% Pet Damage",
         ["ZoneNumberRequired"] = 25,
-        ["ItemRewards"] = {
-            {["_data"] = {["id"] = "Diamonds", ["_am"] = 10000}},
-            {["_data"] = {["id"] = "Castle Key"}},
-            {["_data"] = {["id"] = "Basic Coin Jar"}},
-            {["_data"] = {["id"] = "Giant Coin Jar"}},
-            {["_data"] = {["id"] = "Comet"}},
-            {["_data"] = {["id"] = "TNT", ["_am"] = 5}},
-            {["_data"] = {["id"] = "TNT Crate"}}
-        },
+        ["ItemRewards"] = "ItemRewards",
         ["RebirthNumber"] = 1,
         ["RebirthUnlocks"] = {
             {
@@ -40,23 +32,10 @@ data = {
         ["_id"] = "2",
         ["StrengthPowerBoost"] = 75,
         ["DisplayName"] = "Rebirth Two",
-        ["RebirthCallback"] = "function: 0x000000007cecf0dc",
+        ["RebirthCallback"] = "function: 0xd77d87fa84808179",
         ["BoostDesc"] = "+150% Pet Damage",
         ["ZoneNumberRequired"] = 50,
-        ["ItemRewards"] = {
-            {["_data"] = {["id"] = "Diamonds", ["_am"] = 25000}},
-            {["_data"] = {["id"] = "Nametag"}},
-            {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Comet", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Toy Bone", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Squeaky Toy", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Toy Ball", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Hasty Flag", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Magnet Flag", ["_am"] = 2}},
-            {["_data"] = {["id"] = "TNT", ["_am"] = 5}},
-            {["_data"] = {["id"] = "TNT Crate"}}
-        },
+        ["ItemRewards"] = "ItemRewards",
         ["RebirthNumber"] = 2,
         ["_script"] = "Rebirth | 2",
         ["RebirthUnlocks"] = {
@@ -76,25 +55,10 @@ data = {
         ["_id"] = "3",
         ["StrengthPowerBoost"] = 75,
         ["DisplayName"] = "Rebirth Three",
-        ["RebirthCallback"] = "function: 0x00000000d31300f4",
+        ["RebirthCallback"] = "function: 0x5df102f4857036f9",
         ["BoostDesc"] = "+225% Pet Damage",
         ["ZoneNumberRequired"] = 75,
-        ["ItemRewards"] = {
-            {["_data"] = {["id"] = "Diamonds", ["_am"] = 50000}},
-            {["_data"] = {["id"] = "Slingshot"}},
-            {["_data"] = {["id"] = "Basic Coin Jar", ["_am"] = 15}},
-            {["_data"] = {["id"] = "Giant Coin Jar", ["_am"] = 10}},
-            {["_data"] = {["id"] = "Comet", ["_am"] = 10}},
-            {["_data"] = {["id"] = "Mini Pinata", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Mini Lucky Block", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Party Box", ["_am"] = 3}},
-            {["_data"] = {["id"] = "Large Gift Bag", ["_am"] = 5}},
-            {["_data"] = {["id"] = "Secret Key"}},
-            {["_data"] = {["id"] = "Enchant Bundle", ["_am"] = 2}},
-            {["_data"] = {["id"] = "Potion Bundle", ["_am"] = 3}},
-            {["_data"] = {["id"] = "Flag Bundle", ["_am"] = 4}},
-            {["_data"] = {["id"] = "Toy Bundle", ["_am"] = 5}}
-        },
+        ["ItemRewards"] = "ItemRewards",
         ["RebirthNumber"] = 3,
         ["_script"] = "Rebirth | 3",
         ["RebirthUnlocks"] = {
@@ -109,7 +73,7 @@ data = {
                 ["Desc"] = "Shoot flying balloons out of the sky for gifts!"
             },
             {
-                ["Title"] = "Locked Rooms",
+                ["Title"] = "Secret Rooms",
                 ["Icon"] = "rbxassetid://16008658412",
                 ["Desc"] = "Use Secret Keys to unlock Secret Rooms!"
             },
@@ -129,6 +93,180 @@ data = {
                 ["Icon"] = "rbxassetid://15057348192",
                 ["Desc"] = "Create and save enchant loadouts!"
             }
+        }
+    },
+    ["4"] = {
+        ["_id"] = "4",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Four",
+        ["RebirthCallback"] = "function: 0x39efe90d7d8c1319",
+        ["BoostDesc"] = "+300% Pet Damage",
+        ["ZoneNumberRequired"] = 99,
+        ["ItemRewards"] = "ItemRewards",
+        ["RebirthNumber"] = 4,
+        ["_script"] = "Rebirth | 4",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "Ultimates",
+                ["Icon"] = "rbxassetid://16481507988",
+                ["Desc"] = "Unlock powerful new abilities!"
+            },
+            {
+                ["Title"] = "Mastery",
+                ["Icon"] = "rbxassetid://16249389340",
+                ["Desc"] = "Level skills for permanent perks!"
+            },
+            {
+                ["Title"] = "Rocketship",
+                ["Icon"] = "rbxassetid://16290517421",
+                ["Desc"] = "Travel to the Tech World on a rocketship!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
+        }
+    },
+    ["5"] = {
+        ["_id"] = "5",
+        ["ResetZone"] = "Tech Spawn",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Five",
+        ["RebirthCallback"] = "function: 0xd595f74272187d39",
+        ["BoostDesc"] = "+375% Pet Damage",
+        ["ZoneNumberRequired"] = 125,
+        ["ItemRewards"] = "ItemRewards",
+        ["RebirthNumber"] = 5,
+        ["_script"] = "Rebirth | 5",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "Secret Pets",
+                ["Icon"] = "rbxassetid://16738094988",
+                ["Desc"] = "Ability to hatch secret pets!"
+            },
+            {
+                ["Title"] = "Shiny Chance Boost",
+                ["Icon"] = "rbxassetid://16738094933",
+                ["Desc"] = "Boost your chance to hatch shiny pets!"
+            },
+            {
+                ["Title"] = "Area Quests",
+                ["Icon"] = "rbxassetid://16756928450",
+                ["Desc"] = "Complete quests in each area for special rewards!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
+        }
+    },
+    ["6"] = {
+        ["_id"] = "6",
+        ["ResetZone"] = "Tech Spawn",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Six",
+        ["RebirthCallback"] = "function: 0x7243f18669f59ed9",
+        ["BoostDesc"] = "+450% Pet Damage",
+        ["ZoneNumberRequired"] = 150,
+        ["ItemRewards"] = "ItemRewards",
+        ["RebirthNumber"] = 6,
+        ["_script"] = "Rebirth | 6",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "Charged Eggs",
+                ["Icon"] = "rbxassetid://17028438630",
+                ["Desc"] = "Make eggs lucky for 20x egg cost!"
+            },
+            {
+                ["Title"] = "Golden Eggs",
+                ["Icon"] = "rbxassetid://17028438486",
+                ["Desc"] = "Hatch only gold pets for 50x egg cost!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
+        }
+    },
+    ["7"] = {
+        ["_id"] = "7",
+        ["ResetZone"] = "Tech Spawn",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Seven",
+        ["RebirthCallback"] = "function: 0xce33d6dc20e56359",
+        ["BoostDesc"] = "+525% Pet Damage",
+        ["ZoneNumberRequired"] = 175,
+        ["ItemRewards"] = "ItemRewards",
+        ["RebirthNumber"] = 7,
+        ["_script"] = "Rebirth | 7",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "+30% Ultimate Speed",
+                ["GuiTitle"] = "Ultimate Speed",
+                ["Icon"] = "rbxassetid://16481507988",
+                ["Desc"] = "Ultimates recharge 30% faster, permanently!"
+            },
+            {
+                ["Title"] = "+25% Ultimate XP",
+                ["GuiTitle"] = "Ultimate XP",
+                ["Icon"] = "rbxassetid://16976302626",
+                ["Desc"] = "Ultimates earn 25% more XP, permanently!"
+            },
+            {
+                ["Title"] = "+20% Huge XP",
+                ["GuiTitle"] = "Huge XP",
+                ["Icon"] = "rbxassetid://16976303066",
+                ["Desc"] = "Huges earn 20% more XP, permanently!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
+        }
+    },
+    ["8"] = {
+        ["_id"] = "8",
+        ["ResetZone"] = "Tech Spawn",
+        ["StrengthPowerBoost"] = 75,
+        ["DisplayName"] = "Rebirth Eight",
+        ["RebirthCallback"] = "function: 0x3381269ba8d124f9",
+        ["BoostDesc"] = "+600% Pet Damage",
+        ["ZoneNumberRequired"] = 199,
+        ["ItemRewards"] = "ItemRewards",
+        ["RebirthNumber"] = 8,
+        ["_script"] = "Rebirth | 8",
+        ["RebirthUnlocks"] = {
+            {
+                ["Title"] = "Superior Mini Chests",
+                ["GuiTitle"] = "Superior Mini Chests",
+                ["Icon"] = "rbxassetid://17602729261",
+                ["Desc"] = "These chests now spawn randomly!"
+            },
+            {
+                ["Title"] = "Black Hole",
+                ["GuiTitle"] = "Black Hole",
+                ["Icon"] = "rbxassetid://17276416395",
+                ["Desc"] = "Travel to the Void World in the black hole!"
+            },
+            {
+                ["Title"] = "+75% Pet Strength",
+                ["GuiTitle"] = "Strength",
+                ["Icon"] = "rbxassetid://15257082607",
+                ["Desc"] = "Pets are 75% stronger, permanently!"
+            },
+            {["Title"] = "Rewards", ["Icon"] = "rbxassetid://15055562843", ["Desc"] = "A bunch of rewards!"}
         }
     }
 }
