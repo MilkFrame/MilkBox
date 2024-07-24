@@ -1,4 +1,10 @@
 data = {
+    ["UploadCustomFabrics"] = {
+        ["Price"] = 50,
+        ["PassId"] = 785128363,
+        ["Description"] = "Get exclusive access to the Custom Fabrics Uploader to use your own images for in-game posters, outfits, and more! Design your own images / fabric then upload them to Roblox to use inside of Royale High!",
+        ["DisplayName"] = "Upload Custom Fabrics Pass!"
+    },
     ["ExtraDiamonds4x"] = {
         ["Price"] = 1649,
         ["PassId"] = 3457593,
