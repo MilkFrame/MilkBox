@@ -1,0 +1,283 @@
+data = {
+    ["Packs"] = {},
+    ["Houses"] = {
+        ["Fiorenza"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 7,
+            ["Description"] = "A luxurious old-style mansion, fully renovated with a detached garage.",
+            ["Price"] = 12000000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12412565561,
+            ["InteriorIcon"] = 12405694115,
+            ["Name"] = "Fiorenza Mansion",
+            ["SpawnTime"] = 3,
+            ["RenderTransitionLength"] = 1.5,
+            ["PlotType"] = "Large",
+            ["Baths"] = 5,
+            ["Size"] = 9942
+        },
+        ["Cambridge"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 8,
+            ["Description"] = "A large 2-story mansion, perfect for a vacation home.",
+            ["Price"] = 9000000,
+            ["Beds"] = 6,
+            ["ExteriorIcon"] = 12412568636,
+            ["InteriorIcon"] = 12405694343,
+            ["Name"] = "Cambridge Mansion",
+            ["SpawnTime"] = 2,
+            ["RenderTransitionLength"] = 1.5,
+            ["PlotType"] = "Large",
+            ["Baths"] = 5.5,
+            ["Size"] = 7256
+        },
+        ["Penthouse"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 7,
+            ["Description"] = "A breathtaking modern penthouse with a unique garage inside a rock.",
+            ["Price"] = 6000000,
+            ["Beds"] = 1,
+            ["ExteriorIcon"] = 18399223611,
+            ["InteriorIcon"] = 18399223965,
+            ["Name"] = "Penthouse",
+            ["SpawnTime"] = 2,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 1,
+            ["Size"] = 3853
+        },
+        ["Delaney"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 1,
+            ["Description"] = "A small modern home fit for a small plot of land.",
+            ["Price"] = 300000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12405693742,
+            ["InteriorIcon"] = 12405693097,
+            ["Name"] = "The Delaney",
+            ["SpawnTime"] = 1,
+            ["RenderTransitionLength"] = 0.5,
+            ["PlotType"] = "Small",
+            ["Baths"] = 2.5,
+            ["Size"] = 1588
+        },
+        ["Carrington"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 4,
+            ["Description"] = "A renovated victorian-style house, ideal for a summer retreat with family and friends.",
+            ["Price"] = 3450000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12863777214,
+            ["InteriorIcon"] = 12863777840,
+            ["Name"] = "The Carrington",
+            ["SpawnTime"] = 1.5,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 4.5,
+            ["Size"] = 4134
+        },
+        ["Everett"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 2,
+            ["Description"] = "A tastefully renovated home, perfect for suburb life.",
+            ["Price"] = 450000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12405692735,
+            ["InteriorIcon"] = 12405695439,
+            ["Name"] = "The Everett",
+            ["SpawnTime"] = 1,
+            ["RenderTransitionLength"] = 0.5,
+            ["PlotType"] = "Small",
+            ["Baths"] = 3.5,
+            ["Size"] = 2748
+        },
+        ["StonehurstVilla"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 4,
+            ["Description"] = "A modern villa with brightly lit, large open spaces.",
+            ["Price"] = 4250000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12405693907,
+            ["InteriorIcon"] = 12405695636,
+            ["Name"] = "Stonehurst Villa",
+            ["SpawnTime"] = 1.5,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 2.5,
+            ["Size"] = 4288
+        },
+        ["ModernMegaMansion"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 12,
+            ["Description"] = "An exquisite mansion equipped with a 7 car garage, tennis court, and infinity pool.",
+            ["Price"] = 20000000,
+            ["Beds"] = 5,
+            ["ExteriorIcon"] = 18399224247,
+            ["InteriorIcon"] = 18399224553,
+            ["Name"] = "Modern Mega Mansion",
+            ["SpawnTime"] = 3,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Large",
+            ["Baths"] = 7,
+            ["Size"] = 10021
+        },
+        ["RobloxClassicHouse"] = {
+            ["ForSale"] = false,
+            ["GarageSpaces"] = 3,
+            ["Description"] = "Your very own classic Roblox house! Builderman included!",
+            ["Price"] = 2000000,
+            ["Beds"] = 1,
+            ["ExteriorIcon"] = 17575486593,
+            ["SpawnTime"] = 2,
+            ["InteriorIcon"] = 17575486054,
+            ["Name"] = "Classic Roblox",
+            ["SpecialLabel"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Text"] = "Classic Roblox Event 2024"},
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Small",
+            ["Baths"] = 0,
+            ["Size"] = 1500
+        },
+        ["Apollo"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 2,
+            ["Description"] = "A modern home with large windows that provide plenty of natural light.",
+            ["Price"] = 750000,
+            ["Beds"] = 5,
+            ["ExteriorIcon"] = 12405692877,
+            ["InteriorIcon"] = 12405693507,
+            ["Name"] = "The Apollo",
+            ["SpawnTime"] = 1,
+            ["RenderTransitionLength"] = 0.5,
+            ["PlotType"] = "Small",
+            ["Baths"] = 4,
+            ["Size"] = 3010
+        },
+        ["SpookyManor"] = {
+            ["ForSale"] = false,
+            ["GarageSpaces"] = 4,
+            ["Description"] = "Your very own haunted Halloween manor! Spooky ghosts and skeletons included!",
+            ["Price"] = 4000000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 15095301810,
+            ["SpawnTime"] = 2,
+            ["InteriorIcon"] = 15095302307,
+            ["Name"] = "Spooky Manor",
+            ["SpecialLabel"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Text"] = "Halloween 2023"},
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 0,
+            ["Size"] = 2190
+        },
+        ["Tuckertown"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 4,
+            ["Description"] = "Live your best summer life in this amazing cottage-style house with an outdoor pool, gazebo, and more!",
+            ["Price"] = 1450000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 13403651568,
+            ["InteriorIcon"] = 13403651137,
+            ["Name"] = "The Tuckertown Way",
+            ["SpawnTime"] = 2,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 2,
+            ["Size"] = 2190
+        },
+        ["Somerset"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 9,
+            ["Description"] = "A beautiful 3-story, modern-looking cottage with a private recording studio.",
+            ["Price"] = 15000000,
+            ["Beds"] = 6,
+            ["ExteriorIcon"] = 12863774992,
+            ["InteriorIcon"] = 12863776621,
+            ["Name"] = "Somerset Cottage",
+            ["SpawnTime"] = 3,
+            ["RenderTransitionLength"] = 1.5,
+            ["PlotType"] = "Large",
+            ["Baths"] = 6,
+            ["Size"] = 6597
+        },
+        ["Auburn"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 2,
+            ["Description"] = "A beautifully renovated home, perfect to raise a family.",
+            ["Price"] = 450000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12405692610,
+            ["InteriorIcon"] = 12405693393,
+            ["Name"] = "The Auburn",
+            ["SpawnTime"] = 1,
+            ["RenderTransitionLength"] = 0.5,
+            ["PlotType"] = "Small",
+            ["Baths"] = 3.5,
+            ["Size"] = 2748
+        },
+        ["Richford"] = {
+            ["ForSale"] = true,
+            ["GarageSpaces"] = 4,
+            ["Description"] = "A fully renovated, repurposed barn, with a 2-story loft and a large garage.",
+            ["Price"] = 1900000,
+            ["Beds"] = 3,
+            ["ExteriorIcon"] = 12405694763,
+            ["InteriorIcon"] = 12405694531,
+            ["Name"] = "Richford Barndominium",
+            ["SpawnTime"] = 1.5,
+            ["RenderTransitionLength"] = 1,
+            ["PlotType"] = "Medium",
+            ["Baths"] = 3,
+            ["Size"] = 2311
+        }
+    },
+    ["ShowoffGaragePrices"] = {
+        ["Small"] = {
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 0},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 50000},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 150000},
+            {["PurchaseType"] = "Robux", ["PurchaseAmount"] = 1852911821}
+        },
+        ["Large"] = {
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 0},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 300000},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 500000},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 750000},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 1000000},
+            {["PurchaseType"] = "Robux", ["PurchaseAmount"] = 1879085091}
+        },
+        ["Medium"] = {
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 0},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 150000},
+            {["PurchaseType"] = "Cash", ["PurchaseAmount"] = 300000},
+            {["PurchaseType"] = "Robux", ["PurchaseAmount"] = 1852911821}
+        }
+    },
+    ["CustomBlueprintHeaders"] = {
+        ["invalidPlotTypes"] = {
+            ["LayoutOrder"] = 10002,
+            ["Name"] = "Other",
+            ["HeaderColor"] = Color3.fromRGB(27, 27, 27)
+        },
+        ["default"] = {["LayoutOrder"] = 0, ["Name"] = "Houses", ["HeaderColor"] = Color3.fromRGB(255, 255, 255)},
+        ["favorites"] = {["LayoutOrder"] = -2, ["Name"] = "Favorites", ["HeaderColor"] = Color3.fromRGB(255, 170, 0)}
+    },
+    ["PlotTypes"] = {
+        ["Small"] = {
+            ["Color"] = Color3.fromRGB(1, 206, 25),
+            ["SortOrder"] = 1,
+            ["ForSaleSignColor"] = Color3.fromRGB(68, 179, 8),
+            ["ForSaleSignScale"] = 1
+        },
+        ["Large"] = {
+            ["Color"] = Color3.fromRGB(254, 60, 60),
+            ["SortOrder"] = 3,
+            ["ForSaleSignColor"] = Color3.fromRGB(170, 61, 51),
+            ["ForSaleSignScale"] = 1.35
+        },
+        ["Medium"] = {
+            ["Color"] = Color3.fromRGB(255, 195, 14),
+            ["SortOrder"] = 2,
+            ["ForSaleSignColor"] = Color3.fromRGB(206, 165, 42),
+            ["ForSaleSignScale"] = 1.2
+        }
+    }
+}
