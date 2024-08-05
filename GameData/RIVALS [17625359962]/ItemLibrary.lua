@@ -91,6 +91,22 @@ data = {
                 0.99619472
             )
         },
+        ["Handsaws"] = {
+            ["Image"] = "rbxassetid://18766864583",
+            ["ImageHighResolution"] = "rbxassetid://18769002596",
+            ["Animations"] = {
+                ["HoldStart"] = "chainsaw_handsaws_hold_start",
+                ["Sprinting"] = "chainsaw_handsaws_sprint",
+                ["AttackAnimation1"] = "chainsaw_handsaws_attack1",
+                ["Idle"] = "chainsaw_handsaws_idle",
+                ["AttackAnimation2"] = "chainsaw_handsaws_attack2",
+                ["Equip"] = "chainsaw_handsaws_equip",
+                ["Inspect"] = "chainsaw_handsaws_inspect",
+                ["HoldLoop"] = "chainsaw_handsaws_hold_loop",
+                ["HoldFinish"] = "chainsaw_handsaws_hold_finish"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, -0.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
         ["Lasergun 3000"] = {
             ["Image"] = "rbxassetid://17691132995",
             ["ImageHighResolution"] = "rbxassetid://17691136520",
@@ -293,6 +309,33 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Boba Gun"] = {
+            ["Image"] = "rbxassetid://18768830660",
+            ["ImageHighResolution"] = "rbxassetid://18768828072",
+            ["Animations"] = {
+                ["Shoot1"] = "paintballgun_bobagun_shoot1",
+                ["Idle"] = "paintballgun_idle",
+                ["Sprinting"] = "paintballgun_sprint",
+                ["Equip"] = "paintballgun_equip",
+                ["Inspect"] = "paintballgun_inspect",
+                ["Reload"] = "paintballgun_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Garden Shovel"] = {
+            ["Image"] = "rbxassetid://18766864873",
+            ["ImageHighResolution"] = "rbxassetid://18766908058",
+            ["Animations"] = {
+                ["Sprinting"] = "trowel_sprint",
+                ["Idle"] = "trowel_idle",
+                ["AttackAnimation2"] = "trowel_attack2",
+                ["Equip"] = "trowel_equip",
+                ["Inspect"] = "trowel_inspect",
+                ["AttackAnimation1"] = "trowel_attack1",
+                ["Build"] = "trowel_build"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
         ["Compound Bow"] = {
             ["Image"] = "rbxassetid://17672234242",
             ["ImageHighResolution"] = "rbxassetid://17672229023",
@@ -323,6 +366,21 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Lovely Shorty"] = {
+            ["Image"] = "rbxassetid://18766862000",
+            ["ImageHighResolution"] = "rbxassetid://18766906011",
+            ["Animations"] = {
+                ["EmptyReload"] = "shorty_reload_empty",
+                ["Shoot1"] = "shorty_shoot1",
+                ["Idle"] = "shorty_idle",
+                ["Sprinting"] = "shorty_sprint",
+                ["Equip"] = "shorty_equip",
+                ["Inspect"] = "shorty_inspect",
+                ["RareInspect"] = "shorty_inspect_rare",
+                ["Reload"] = "shorty_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
         ["Stick"] = {
             ["Image"] = "rbxassetid://17672063048",
             ["ImageHighResolution"] = "rbxassetid://17672086502",
@@ -334,6 +392,44 @@ data = {
                 ["Sprinting"] = "slingshot_sprint"
             },
             ["RootPartOffset"] = CFrame.new(0, -0.375, -0.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Brass Knuckles"] = {
+            ["Image"] = "rbxassetid://18766866012",
+            ["ImageHighResolution"] = "rbxassetid://18766909587",
+            ["Animations"] = {
+                ["Idle"] = "fists_idle",
+                ["AttackAnimation2"] = "fists_attack2",
+                ["Equip"] = "fists_equip",
+                ["Inspect"] = "fists_inspect",
+                ["AttackAnimation1"] = "fists_attack1",
+                ["Sprinting"] = "fists_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Anchor"] = {
+            ["Image"] = "rbxassetid://18766866743",
+            ["ImageHighResolution"] = "rbxassetid://18769023932",
+            ["Animations"] = {
+                ["Idle"] = "scythe_idle",
+                ["AttackAnimation2"] = "scythe_anchor_attack2",
+                ["Equip"] = "scythe_equip",
+                ["Inspect"] = "scythe_inspect",
+                ["AttackAnimation1"] = "scythe_anchor_attack1",
+                ["Sprinting"] = "scythe_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Bubble Ray"] = {
+            ["Image"] = "rbxassetid://18766865819",
+            ["ImageHighResolution"] = "rbxassetid://18769002868",
+            ["Animations"] = {
+                ["Idle"] = "freezeray_idle",
+                ["Shoot1"] = "freezeray_temporalray_shoot1",
+                ["Equip"] = "freezeray_bubbleray_equip",
+                ["Inspect"] = "freezeray_inspect",
+                ["Sprinting"] = "freezeray_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["RPKEY"] = {
             ["Image"] = "rbxassetid://18141218104",
@@ -435,6 +531,48 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Keythe"] = {
+            ["Image"] = "rbxassetid://18766863124",
+            ["ImageHighResolution"] = "rbxassetid://18769023662",
+            ["Animations"] = {
+                ["Idle"] = "scythe_idle",
+                ["AttackAnimation2"] = "scythe_attack2",
+                ["Equip"] = "scythe_equip",
+                ["Inspect"] = "scythe_inspect",
+                ["AttackAnimation1"] = "scythe_attack1",
+                ["Sprinting"] = "scythe_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Pixel Minigun"] = {
+            ["Image"] = "rbxassetid://18766861798",
+            ["ImageHighResolution"] = "rbxassetid://18769001642",
+            ["Animations"] = {
+                ["ChargeStart"] = "minigun_pixelminigun_charge_start",
+                ["ChargeLoop"] = "minigun_pixelminigun_charge_loop",
+                ["Idle"] = "minigun_pixelminigun_idle",
+                ["ChargeFinish"] = "minigun_pixelminigun_charge_finish",
+                ["Equip"] = "minigun_pixelminigun_equip",
+                ["Inspect"] = "minigun_pixelminigun_inspect",
+                ["Sprinting"] = "minigun_pixelminigun_sprint"
+            },
+            ["PlayAnimationsInstantly"] = true,
+            ["FramesPerSecond"] = 2,
+            ["RootPartOffset"] = CFrame.new(
+                0,
+                -0.375,
+                -0.375,
+                0.999390841,
+                0,
+                0.0348994955,
+                0.00304169115,
+                0.99619472,
+                -0.0871026441,
+                -0.0347666927,
+                0.087155737,
+                0.995587885
+            )
+        },
         ["Medkit"] = {
             ["Image"] = "rbxassetid://17160800734",
             ["ImageHighResolution"] = "rbxassetid://13717497368",
@@ -461,6 +599,45 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(-0.125, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Aqua Burst"] = {
+            ["Image"] = "rbxassetid://18766866580",
+            ["ImageHighResolution"] = "rbxassetid://18769003108",
+            ["Animations"] = {
+                ["Shoot1"] = "burstrifle_aquaburst_shoot1",
+                ["Idle"] = "burstrifle_idle",
+                ["Sprinting"] = "burstrifle_sprint",
+                ["Equip"] = "burstrifle_equip",
+                ["Inspect"] = "burstrifle_inspect",
+                ["Reload"] = "burstrifle_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.125, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Uranium Launcher"] = {
+            ["Image"] = "rbxassetid://18766860114",
+            ["ImageHighResolution"] = "rbxassetid://18766902983",
+            ["Animations"] = {
+                ["Shoot1"] = "grenadelauncher_shoot1",
+                ["Idle"] = "grenadelauncher_idle",
+                ["Sprinting"] = "grenadelauncher_sprint",
+                ["Equip"] = "grenadelauncher_equip",
+                ["Inspect"] = "grenadelauncher_inspect",
+                ["Reload"] = "grenadelauncher_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0,
+                -0.125,
+                -0.125,
+                1,
+                0,
+                0,
+                0,
+                0.99619472,
+                -0.087155737,
+                0,
+                0.087155737,
+                0.99619472
+            )
+        },
         ["Flashbang"] = {
             ["Image"] = "rbxassetid://17160801529",
             ["ImageHighResolution"] = "rbxassetid://14664488253",
@@ -477,6 +654,96 @@ data = {
                 ["Equip"] = "grenade_equip"
             },
             ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Spring"] = {
+            ["Image"] = "rbxassetid://18766860615",
+            ["ImageHighResolution"] = "rbxassetid://18766904035",
+            ["Animations"] = {
+                ["Idle"] = "medkit_idle",
+                ["Equip"] = "medkit_equip",
+                ["Inspect"] = "medkit_inspect",
+                ["Sprinting"] = "medkit_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Ray Gun"] = {
+            ["Image"] = "rbxassetid://18766861454",
+            ["ImageHighResolution"] = "rbxassetid://18766905089",
+            ["Animations"] = {
+                ["Shoot1"] = "exogun_shoot1",
+                ["Idle"] = "exogun_idle",
+                ["Sprinting"] = "exogun_sprint",
+                ["Equip"] = "exogun_equip",
+                ["Inspect"] = "exogun_inspect",
+                ["Reload"] = "exogun_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0,
+                -0.25,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0.99619472,
+                -0.087155737,
+                0,
+                0.087155737,
+                0.99619472
+            )
+        },
+        ["Balance"] = {
+            ["Image"] = "rbxassetid://18766866168",
+            ["ImageHighResolution"] = "rbxassetid://18766909964",
+            ["Animations"] = {
+                ["Idle"] = "grenade_idle",
+                ["LobFinish"] = "grenade_lob_finish",
+                ["LobStart"] = "grenade_lob_start",
+                ["ThrowStart"] = "grenade_throw_start",
+                ["LobIdle"] = "grenade_lob_idle",
+                ["ThrowFinish"] = "grenade_throw_finish",
+                ["ThrowIdle"] = "grenade_throw_idle",
+                ["Inspect"] = "grenade_inspect",
+                ["Sprinting"] = "grenade_sprint",
+                ["Equip"] = "grenade_equip"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Lamethrower"] = {
+            ["Image"] = "rbxassetid://18766862822",
+            ["ImageHighResolution"] = "rbxassetid://18766906741",
+            ["Animations"] = {
+                ["Idle"] = "flamethrower_idle",
+                ["Equip"] = "flamethrower_equip",
+                ["Inspect"] = "flamethrower_inspect"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.200000003, -0.200000003, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["AUG"] = {
+            ["Image"] = "rbxassetid://18770192853",
+            ["ImageHighResolution"] = "rbxassetid://18770201102",
+            ["Animations"] = {
+                ["Shoot1"] = "assaultrifle_aug_shoot1",
+                ["Idle"] = "assaultrifle_idle",
+                ["Sprinting"] = "assaultrifle_sprint",
+                ["Equip"] = "assaultrifle_equip",
+                ["Inspect"] = "assaultrifle_inspect",
+                ["Reload"] = "assaultrifle_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0,
+                -0.125,
+                -0.125,
+                1,
+                0,
+                0,
+                0,
+                0.999048233,
+                -0.0436193869,
+                0,
+                0.0436193869,
+                0.999048233
+            )
         },
         ["Revolver"] = {
             ["Image"] = "rbxassetid://17160800299",
@@ -510,6 +777,30 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Laptop"] = {
+            ["Image"] = "rbxassetid://18770164868",
+            ["ImageHighResolution"] = "rbxassetid://18766906510",
+            ["Animations"] = {
+                ["Sprinting"] = "medkit_sprint",
+                ["Idle"] = "medkit_idle",
+                ["UseQuick"] = "medkit_use_quick",
+                ["Equip"] = "medkit_equip",
+                ["Inspect"] = "medkit_inspect",
+                ["Use"] = "medkit_use"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Don't Press"] = {
+            ["Image"] = "rbxassetid://17821233203",
+            ["ImageHighResolution"] = "rbxassetid://17821264419",
+            ["Animations"] = {
+                ["Idle"] = "medkit_idle",
+                ["Equip"] = "medkit_equip",
+                ["Inspect"] = "medkit_inspect",
+                ["Sprinting"] = "medkit_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
         ["Fists"] = {
             ["Image"] = "rbxassetid://17160801745",
             ["ImageHighResolution"] = "rbxassetid://16560051320",
@@ -520,6 +811,22 @@ data = {
                 ["Inspect"] = "fists_inspect",
                 ["AttackAnimation1"] = "fists_attack1",
                 ["Sprinting"] = "fists_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Raven Bow"] = {
+            ["Image"] = "rbxassetid://18766861627",
+            ["ImageHighResolution"] = "rbxassetid://18766905321",
+            ["Animations"] = {
+                ["Charge"] = "bow_charge",
+                ["Idle"] = "bow_idle",
+                ["Reload"] = "bow_reload",
+                ["Shoot1"] = "bow_shoot1",
+                ["ChargeLoop"] = "bow_charge_loop",
+                ["Equip"] = "bow_equip",
+                ["Inspect"] = "bow_inspect",
+                ["Sprinting"] = "bow_sprint",
+                ["ChargeRelease"] = "bow_charge_release"
             },
             ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
@@ -537,6 +844,19 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Electro Uzi"] = {
+            ["Image"] = "rbxassetid://18766865214",
+            ["ImageHighResolution"] = "rbxassetid://18766908301",
+            ["Animations"] = {
+                ["Shoot1"] = "uzi_electrouzi_shoot1",
+                ["Idle"] = "uzi_idle",
+                ["Sprinting"] = "uzi_sprint",
+                ["Equip"] = "uzi_equip",
+                ["Inspect"] = "uzi_inspect",
+                ["Reload"] = "uzi_electrouzi_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.125, 0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
         ["Boxing Gloves"] = {
             ["Image"] = "rbxassetid://17672060486",
             ["ImageHighResolution"] = "rbxassetid://17672089761",
@@ -549,6 +869,133 @@ data = {
                 ["Sprinting"] = "fists_sprint"
             },
             ["RootPartOffset"] = CFrame.new(0, 0, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Water Balloon"] = {
+            ["Image"] = "rbxassetid://18766859819",
+            ["ImageHighResolution"] = "rbxassetid://18769001397",
+            ["Animations"] = {
+                ["Idle"] = "grenade_idle",
+                ["LobFinish"] = "grenade_lob_finish",
+                ["LobStart"] = "grenade_lob_start",
+                ["ThrowStart"] = "grenade_throw_start",
+                ["LobIdle"] = "grenade_lob_idle",
+                ["ThrowFinish"] = "grenade_throw_finish",
+                ["ThrowIdle"] = "grenade_throw_idle",
+                ["Inspect"] = "grenade_inspect",
+                ["Sprinting"] = "grenade_sprint",
+                ["Equip"] = "grenade_equip"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Karambit"] = {
+            ["Image"] = "rbxassetid://18766863586",
+            ["ImageHighResolution"] = "rbxassetid://18766907079",
+            ["Animations"] = {
+                ["HeavyAttackAnimationHit"] = "knife_karambit_heavyattack_hit",
+                ["HeavyAttackAnimation1"] = "knife_karambit_heavyattack1",
+                ["Idle"] = "knife_karambit_idle",
+                ["AttackAnimation2"] = "knife_karambit_attack2",
+                ["Equip"] = "knife_karambit_equip",
+                ["Inspect"] = "knife_karambit_inspect",
+                ["AttackAnimation1"] = "knife_karambit_attack1",
+                ["Sprinting"] = "knife_karambit_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Camera"] = {
+            ["Image"] = "rbxassetid://18766865640",
+            ["ImageHighResolution"] = "rbxassetid://18766908915",
+            ["Animations"] = {
+                ["Idle"] = "grenade_idle",
+                ["LobFinish"] = "grenade_lob_finish",
+                ["LobStart"] = "grenade_lob_start",
+                ["ThrowStart"] = "grenade_throw_start",
+                ["LobIdle"] = "grenade_lob_idle",
+                ["ThrowFinish"] = "grenade_throw_finish",
+                ["ThrowIdle"] = "grenade_throw_idle",
+                ["Inspect"] = "grenade_inspect",
+                ["Sprinting"] = "grenade_sprint",
+                ["Equip"] = "grenade_equip"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Torch"] = {
+            ["Image"] = "rbxassetid://18766860359",
+            ["ImageHighResolution"] = "rbxassetid://18766903480",
+            ["Animations"] = {
+                ["Idle"] = "grenade_idle",
+                ["LobFinish"] = "grenade_lob_finish",
+                ["LobStart"] = "grenade_lob_start",
+                ["ThrowStart"] = "grenade_throw_start",
+                ["LobIdle"] = "grenade_lob_idle",
+                ["ThrowFinish"] = "grenade_throw_finish",
+                ["ThrowIdle"] = "grenade_throw_idle",
+                ["Inspect"] = "grenade_inspect",
+                ["Sprinting"] = "grenade_sprint",
+                ["Equip"] = "grenade_equip"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Sheriff"] = {
+            ["Image"] = "rbxassetid://18770192507",
+            ["ImageHighResolution"] = "rbxassetid://18770200449",
+            ["Animations"] = {
+                ["Idle"] = "handgun_idle",
+                ["FinalShoot"] = "revolver_deserteagle_shoot_final",
+                ["QuickShot"] = "revolver_deserteagle_shoot1",
+                ["Reload"] = "revolver_deserteagle_reload",
+                ["EmptyReload"] = "revolver_deserteagle_reload_empty",
+                ["Shoot1"] = "revolver_deserteagle_shoot1",
+                ["Equip"] = "revolver_deserteagle_equip",
+                ["Inspect"] = "handgun_inspect",
+                ["Sprinting"] = "handgun_sprint"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0.25,
+                -0.125,
+                -0.125,
+                0.981060266,
+                0.172987401,
+                0.087155737,
+                -0.173648179,
+                0.98480773,
+                0,
+                -0.0858316422,
+                -0.0151344351,
+                0.99619472
+            )
+        },
+        ["Spaceship Launcher"] = {
+            ["Image"] = "rbxassetid://18766860860",
+            ["ImageHighResolution"] = "rbxassetid://18766904375",
+            ["Animations"] = {
+                ["Shoot1"] = "rpg_shoot1",
+                ["Idle"] = "rpg_idle",
+                ["Sprinting"] = "rpg_sprint",
+                ["Equip"] = "rpg_equip",
+                ["Inspect"] = "rpg_inspect",
+                ["RareInspect"] = "rpg_inspect_rare",
+                ["Reload"] = "rpg_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Hyper Shotgun"] = {
+            ["Image"] = "rbxassetid://18768968419",
+            ["ImageHighResolution"] = "rbxassetid://18768974410",
+            ["Animations"] = {
+                ["Sprinting"] = "shotgun_sprint",
+                ["ReloadFinish"] = "shotgun_reload_finish",
+                ["EmptyReloadStart"] = "shotgun_reload_empty_start",
+                ["ReloadStart"] = "shotgun_reload_start",
+                ["EmptyReloadSegment"] = "shotgun_reload_segment",
+                ["Shoot1"] = "shotgun_hypershotgun_shoot1",
+                ["ReloadSegment"] = "shotgun_reload_segment",
+                ["Equip"] = "shotgun_equip",
+                ["Inspect"] = "shotgun_inspect",
+                ["EmptyReloadFinish"] = "shotgun_reload_empty_finish2",
+                ["Idle"] = "shotgun_idle"
+            },
+            ["RootPartOffset"] = CFrame.new(0, -0.25, -0.550000012, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["Not So Shorty"] = {
             ["Image"] = "rbxassetid://17672062572",
@@ -564,6 +1011,29 @@ data = {
                 ["Reload"] = "shorty_reload"
             },
             ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Flamethrower"] = {
+            ["Image"] = "rbxassetid://17256341393",
+            ["ImageHighResolution"] = "rbxassetid://17256343886",
+            ["Animations"] = {
+                ["Idle"] = "flamethrower_idle",
+                ["Equip"] = "flamethrower_equip",
+                ["Inspect"] = "flamethrower_inspect"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0.400000006,
+                -0.200000003,
+                -0.200000003,
+                0.906307757,
+                0.42261827,
+                0,
+                -0.416197747,
+                0.892538905,
+                -0.173648179,
+                -0.0733868927,
+                0.157378688,
+                0.98480773
+            )
         },
         ["Balloon Shotgun"] = {
             ["Image"] = "rbxassetid://17821234823",
@@ -616,6 +1086,47 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
+        ["Dynamite Gun"] = {
+            ["Image"] = "rbxassetid://18766865384",
+            ["ImageHighResolution"] = "rbxassetid://18766908547",
+            ["Animations"] = {
+                ["Shoot1"] = "flaregun_dynamitegun_shoot1",
+                ["Idle"] = "flaregun_idle",
+                ["Sprinting"] = "flaregun_sprint",
+                ["Equip"] = "flaregun_equip",
+                ["Inspect"] = "flaregun_inspect",
+                ["Reload"] = "flaregun_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(0.125, -0.25, 0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+        },
+        ["Hand Gun"] = {
+            ["Image"] = "rbxassetid://18770192669",
+            ["ImageHighResolution"] = "rbxassetid://18770200739",
+            ["Animations"] = {
+                ["EmptyReload"] = "handgun_reload_empty",
+                ["Shoot1"] = "handgun_shoot1",
+                ["Sprinting"] = "handgun_sprint",
+                ["FinalShoot"] = "handgun_shoot_final",
+                ["Equip"] = "handgun_equip",
+                ["Inspect"] = "handgun_inspect",
+                ["Idle"] = "handgun_idle",
+                ["Reload"] = "handgun_reload"
+            },
+            ["RootPartOffset"] = CFrame.new(
+                0.25,
+                -0.125,
+                -0.125,
+                0.981060266,
+                0.172987401,
+                0.087155737,
+                -0.173648179,
+                0.98480773,
+                0,
+                -0.0858316422,
+                -0.0151344351,
+                0.99619472
+            )
+        },
         ["Assault Rifle"] = {
             ["Image"] = "rbxassetid://17160682738",
             ["ImageHighResolution"] = "rbxassetid://13197584241",
@@ -656,28 +1167,19 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0, -0.125, -0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
-        ["Flamethrower"] = {
-            ["Image"] = "rbxassetid://17256341393",
-            ["ImageHighResolution"] = "rbxassetid://17256343886",
+        ["Hyper Sniper"] = {
+            ["Image"] = "rbxassetid://18766864081",
+            ["ImageHighResolution"] = "rbxassetid://18766907266",
             ["Animations"] = {
-                ["Idle"] = "flamethrower_idle",
-                ["Equip"] = "flamethrower_equip",
-                ["Inspect"] = "flamethrower_inspect"
+                ["EmptyReload"] = "sniper_reload_empty",
+                ["Shoot1"] = "sniper_hypersniper_shoot1",
+                ["Idle"] = "sniper_idle",
+                ["Sprinting"] = "sniper_sprint",
+                ["Equip"] = "sniper_equip",
+                ["Inspect"] = "sniper_inspect",
+                ["Reload"] = "sniper_reload"
             },
-            ["RootPartOffset"] = CFrame.new(
-                0.400000006,
-                -0.200000003,
-                -0.200000003,
-                0.906307757,
-                0.42261827,
-                0,
-                -0.416197747,
-                0.892538905,
-                -0.173648179,
-                -0.0733868927,
-                0.157378688,
-                0.98480773
-            )
+            ["RootPartOffset"] = CFrame.new(0, -0.125, -0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["Sandwich"] = {
             ["Image"] = "rbxassetid://17838232333",
@@ -946,16 +1448,25 @@ data = {
             },
             ["RootPartOffset"] = CFrame.new(0.125, -0.25, 0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
-        ["Don't Press"] = {
-            ["Image"] = "rbxassetid://17821233203",
-            ["ImageHighResolution"] = "rbxassetid://17821264419",
+        ["Lightning Bolt"] = {
+            ["Image"] = "rbxassetid://18768968241",
+            ["ImageHighResolution"] = "rbxassetid://18769002278",
             ["Animations"] = {
-                ["Idle"] = "medkit_idle",
-                ["Equip"] = "medkit_equip",
-                ["Inspect"] = "medkit_inspect",
-                ["Sprinting"] = "medkit_sprint"
+                ["Deflect3"] = "katana_lightningbolt_deflect3",
+                ["Sprinting"] = "katana_sprint2",
+                ["DeflectIdle"] = "katana_deflect_idle",
+                ["Deflect5"] = "katana_lightningbolt_deflect5",
+                ["AttackAnimation1"] = "katana_attack1",
+                ["Deflect1"] = "katana_lightningbolt_deflect1",
+                ["Deflect2"] = "katana_lightningbolt_deflect2",
+                ["Deflect4"] = "katana_lightningbolt_deflect4",
+                ["AttackAnimation2"] = "katana_attack2",
+                ["Equip"] = "katana_equip",
+                ["Inspect"] = "katana_inspect",
+                ["RareInspect"] = "katana_inspect_rare",
+                ["Idle"] = "katana_idle"
             },
-            ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+            ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["Pixel Sniper"] = {
             ["Image"] = "rbxassetid://17676081196",
@@ -1220,7 +1731,7 @@ data = {
             ["Status"] = "Standard",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = true,
-            ["ShootDamage"] = 60,
+            ["ShootDamage"] = 75,
             ["CriticalMultiplier"] = 1.5
         },
         ["Trowel"] = {
@@ -1239,7 +1750,7 @@ data = {
             ["HeavyAttackMaxHits"] = inf,
             ["BuildCooldown"] = 5,
             ["Type"] = "Melee",
-            ["AttackDamage"] = 40,
+            ["AttackDamage"] = 45,
             ["QuickAttackInputsMobile"] = {"StartAiming"},
             ["MaxBricks"] = 75,
             ["AttackReach"] = 6,
@@ -1488,7 +1999,7 @@ data = {
             ["Status"] = "Standard",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = true,
-            ["ShootDamage"] = 60,
+            ["ShootDamage"] = 75,
             ["CriticalMultiplier"] = 1.5
         },
         ["Exogun"] = {
@@ -1530,7 +2041,7 @@ data = {
             ["Status"] = "Prime",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = true,
-            ["ShootDamage"] = 28,
+            ["ShootDamage"] = 25,
             ["CriticalMultiplier"] = 1.5
         },
         ["Subspace Tripmine"] = {
@@ -1773,7 +2284,7 @@ data = {
             ["Status"] = "Prime",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = false,
-            ["ShootDamage"] = 45,
+            ["ShootDamage"] = 49,
             ["CriticalMultiplier"] = 1.5
         },
         ["Fists"] = {
@@ -1791,7 +2302,7 @@ data = {
             ["HeavyAttackMaxHits"] = inf,
             ["MaxDoubleJumps"] = 1,
             ["Type"] = "Melee",
-            ["AttackDamage"] = 25,
+            ["AttackDamage"] = 30,
             ["QuickAttackInputsMobile"] = {"StartShooting"},
             ["AttackReach"] = 6,
             ["Name"] = "Fists",
@@ -1840,7 +2351,7 @@ data = {
             ["Status"] = "Standard",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = true,
-            ["ShootDamage"] = 12,
+            ["ShootDamage"] = 13,
             ["CriticalMultiplier"] = 1.5
         },
         ["RPG"] = {
@@ -1918,7 +2429,7 @@ data = {
             ["AimFOVOffset"] = -10,
             ["ShootCooldown"] = 0.1,
             ["WalkSpeedMultiplier"] = 1.1,
-            ["MaxAmmo"] = 100,
+            ["MaxAmmo"] = 75,
             ["ShootPellets"] = 1,
             ["Type"] = "Gun",
             ["AmmoType"] = "Ball",
@@ -2109,7 +2620,7 @@ data = {
             ["Status"] = "Prime",
             ["ProjectileLifetime"] = 5,
             ["IsRaycast"] = true,
-            ["ShootDamage"] = 19,
+            ["ShootDamage"] = 18,
             ["CriticalMultiplier"] = 1.5
         },
         ["Revolver"] = {
