@@ -1,14 +1,14 @@
 data = {
-    ["GetCostToLevelUp"] = "function: 0x16a8aae223cdd559",
+    ["GetCostToLevelUp"] = "function: 0xdb4202d83603600e",
     ["Lootboxes"] = {
-        ["Charm Capsule"] = {
+        ["Skin Case 2"] = {
             ["ShopEntry"] = {
+                ["ProductID"] = 1892542763,
+                ["ProductIDTriple"] = 1892543013,
                 ["EntryType"] = "Lootbox",
-                ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Charm Capsule", ["Weapon"] = "IsRandom"}},
-                ["EntryName"] = "lootbox_Charm Capsule",
-                ["KeyPrice"] = 3
-            },
-            ["KeyPricesByRarity"] = {["Legendary"] = 24, ["Rare"] = 12, ["Common"] = 6}
+                ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Skin Case 2", ["Weapon"] = "IsRandom"}},
+                ["EntryName"] = "lootbox_Skin Case 2"
+            }
         },
         ["Skin Case"] = {
             ["ShopEntry"] = {
@@ -27,6 +27,24 @@ data = {
                 ["KeyPrice"] = 5
             },
             ["KeyPricesByRarity"] = {["Legendary"] = 45, ["Rare"] = 20, ["Common"] = 10}
+        },
+        ["Wrap Box 2"] = {
+            ["ShopEntry"] = {
+                ["EntryType"] = "Lootbox",
+                ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Wrap Box 2", ["Weapon"] = "IsRandom"}},
+                ["EntryName"] = "lootbox_Wrap Box 2",
+                ["KeyPrice"] = 5
+            },
+            ["KeyPricesByRarity"] = {["Legendary"] = 50, ["Rare"] = 25, ["Common"] = 15}
+        },
+        ["Charm Capsule"] = {
+            ["ShopEntry"] = {
+                ["EntryType"] = "Lootbox",
+                ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Charm Capsule", ["Weapon"] = "IsRandom"}},
+                ["EntryName"] = "lootbox_Charm Capsule",
+                ["KeyPrice"] = 3
+            },
+            ["KeyPricesByRarity"] = {["Legendary"] = 24, ["Rare"] = 12, ["Common"] = 6}
         }
     },
     ["Weapons"] = {
@@ -61,25 +79,39 @@ data = {
         ["Revolver"] = {["KeyPrice"] = 25, ["Weapon"] = "Revolver"},
         ["Flamethrower"] = {["KeyPrice"] = 400, ["Weapon"] = "Flamethrower"}
     },
-    ["GetWeaponKeyPriceInfo"] = "function: 0x945399057caa5b59",
+    ["GetWeaponKeyPriceInfo"] = "function: 0x4e7675078200674e",
     ["Entries"] = {
+        ["lootbox_Skin Case 2"] = {
+            ["ProductID"] = 1892542763,
+            ["ProductIDTriple"] = 1892543013,
+            ["EntryType"] = "Lootbox",
+            ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Skin Case 2", ["Weapon"] = "IsRandom"}},
+            ["EntryName"] = "lootbox_Skin Case 2"
+        },
+        ["lootbox_Wrap Box 2"] = {
+            ["EntryType"] = "Lootbox",
+            ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Wrap Box 2", ["Weapon"] = "IsRandom"}},
+            ["EntryName"] = "lootbox_Wrap Box 2",
+            ["KeyPrice"] = 5
+        },
+        ["loose_beachwrap"] = {
+            ["IsLimited"] = true,
+            ["EntryType"] = "Loose",
+            ["Rewards"] = {{["Name"] = "Beach", ["Weapon"] = "IsRandom"}},
+            ["EntryName"] = "loose_beachwrap",
+            ["KeyPrice"] = 10
+        },
         ["lootbox_Charm Capsule"] = {
             ["EntryType"] = "Lootbox",
             ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Charm Capsule", ["Weapon"] = "IsRandom"}},
             ["EntryName"] = "lootbox_Charm Capsule",
             ["KeyPrice"] = 3
         },
-        ["lootbox_Wrap Box"] = {
-            ["EntryType"] = "Lootbox",
-            ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Wrap Box", ["Weapon"] = "IsRandom"}},
-            ["EntryName"] = "lootbox_Wrap Box",
-            ["KeyPrice"] = 5
-        },
-        ["loose_groove"] = {
+        ["loose_watermelonwrap"] = {
             ["IsLimited"] = true,
             ["EntryType"] = "Loose",
-            ["Rewards"] = {{["Name"] = "Groove", ["Weapon"] = "IsUniversal"}},
-            ["EntryName"] = "loose_groove",
+            ["Rewards"] = {{["Name"] = "Watermelon", ["Weapon"] = "IsUniversal"}},
+            ["EntryName"] = "loose_watermelonwrap",
             ["KeyPrice"] = 100
         },
         ["lootbox_Skin Case"] = {
@@ -88,6 +120,12 @@ data = {
             ["EntryType"] = "Lootbox",
             ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Skin Case", ["Weapon"] = "IsRandom"}},
             ["EntryName"] = "lootbox_Skin Case"
+        },
+        ["lootbox_Wrap Box"] = {
+            ["EntryType"] = "Lootbox",
+            ["Rewards"] = {{["Quantity"] = 1, ["Name"] = "Wrap Box", ["Weapon"] = "IsRandom"}},
+            ["EntryName"] = "lootbox_Wrap Box",
+            ["KeyPrice"] = 5
         }
     }
 }
