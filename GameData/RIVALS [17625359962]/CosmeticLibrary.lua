@@ -1,15 +1,21 @@
 data = {
     ["CosmeticsAlphabetized"] = {
         "10 Gallon Hat",
+        "100M Visits",
         "A5",
         "AK-47",
         "Alien Head",
         "Alpha Coin",
         "Amber",
+        "Anchor",
+        "Ancient",
         "Anvil",
+        "Aqua Burst",
         "Arabesque",
         "Arctic Camo",
+        "AUG",
         "Aurum",
+        "Balance",
         "Balloon Shotgun",
         "Bandites",
         "Basketball",
@@ -18,6 +24,7 @@ data = {
         "Bell",
         "Bitster",
         "Black",
+        "Black Granite",
         "Black Opal",
         "Blaster",
         "Blaze",
@@ -26,20 +33,28 @@ data = {
         "Blobsaw",
         "Blue",
         "Blush",
+        "Boba Gun",
         "BobbVX",
         "Bowling Pin",
         "Boxing Gloves",
         "Brain",
+        "Brass Knuckles",
         "Briefcase",
         "Bright",
         "Brown",
+        "Bubble Ray",
         "Bunsen",
         "Cage",
+        "Camera",
+        "Carbon Fiber",
         "CarbonMeister",
+        "Cardinal",
         "Carpet",
+        "Cerulean",
         "Chancla",
         "Chrome",
         "Circuit",
+        "Clamshell",
         "Classic",
         "Clouds",
         "Coffee",
@@ -49,6 +64,9 @@ data = {
         "Compound Bow",
         "Cookie",
         "Cool",
+        "Cool Crochet",
+        "Copper",
+        "Cork",
         "Cream",
         "Crimson",
         "Crossed",
@@ -65,10 +83,13 @@ data = {
         "Don't Press",
         "Dunes",
         "DV",
+        "Dynamite Gun",
         "Electro Rifle",
+        "Electro Uzi",
         "Emoji Cloud",
         "Emoji: Nauseated",
         "Emoji: Weary",
+        "Encrypt",
         "Experience",
         "Explosion",
         "Fedora Stack",
@@ -78,34 +99,55 @@ data = {
         "Football",
         "Forest Camo",
         "Frosted",
+        "Garden Shovel",
         "Glass",
         "Glisten",
         "Glossy",
         "Goalpost",
         "Gold",
         "Golf Ball",
+        "Grass",
         "Green",
         "Groove",
         "Hallow",
         "Hammer",
+        "Hammered Copper",
+        "Hand Gun",
+        "Handsaws",
         "Heart",
         "Hesper",
         "Highlighter",
         "Honeycomb",
         "Hook",
         "Hotdog",
+        "Hyper Shotgun",
+        "Hyper Sniper",
+        "Hyperdrive",
+        "Hypnotic",
         "Inlets",
         "Insidious",
+        "Insignia",
         "Iridescent",
         "Jean",
+        "Karambit",
+        "Keythe",
+        "Lamethrower",
+        "Laptop",
         "Lasergun 3000",
+        "Leafy Grass",
         "Lemon",
         "Lemon Slice",
         "Life Buoy",
         "Lightning",
+        "Lightning Bolt",
+        "Liquid Chrome",
+        "Liquid Gold",
+        "Lovely Shorty",
         "Lucre",
+        "Machine",
         "Magma",
         "Magnet",
+        "Mahogany",
         "Mainframe",
         "Maize",
         "Malachite",
@@ -126,6 +168,7 @@ data = {
         "Nebula",
         "nekoanims",
         "Nekore",
+        "Neo",
         "Ninja Star",
         "Nosnite",
         "Nosniy",
@@ -145,7 +188,10 @@ data = {
         "Pawn",
         "PB & J",
         "Pink",
+        "Pink Crochet",
+        "Pink Glitter",
         "Pixel Flamethrower",
+        "Pixel Minigun",
         "Pixel Sniper",
         "Plastic",
         "Plastic Shovel",
@@ -158,33 +204,44 @@ data = {
         "Quasar",
         "Rage",
         "Rainbow",
+        "Raven Bow",
+        "Ray Gun",
         "Red",
         "Reptile",
+        "Resolute",
         "Rivals",
         "Rocket Ship",
         "RPKEY",
         "Rubber Duck",
         "Rug",
+        "Rustic",
         "Saber",
         "Salmon",
         "Sandwich",
         "Scales",
         "Scorched",
+        "Scribble",
         "Scythe of Death",
         "SenseiWarrior",
         "Sensite",
+        "Sheriff",
         "Ship Wheel",
         "Shooting Star",
         "Singularity",
         "Sky",
         "Slime",
         "Slime Gun",
+        "Spaceship Launcher",
         "Spartan",
+        "Spring",
         "Star",
+        "Starblaze",
+        "Starfall",
         "Steel",
         "Stick",
         "Storm",
         "Street Camo",
+        "Studded",
         "Studs",
         "Supernova",
         "Surge",
@@ -192,26 +249,37 @@ data = {
         "Swirls",
         "TanqR",
         "Teal",
+        "Tempest",
         "Temporal Ray",
         "Tennis Ball",
+        "Thunderburst",
+        "Tiger",
+        "Titanium",
         "Too Shorty",
+        "Torch",
         "Toy",
         "Traffic Cone",
         "Trophy",
+        "Tungsten",
         "UFO",
         "Universal",
+        "Uranium Launcher",
         "Urban Camo",
         "Vile",
         "Violet",
         "Water",
+        "Water Balloon",
         "Water Uzi",
+        "Watermelon",
         "Wealth",
         "Webbed",
         "Well Done",
         "White",
         "Whoopee Cushion",
         "Wondergun",
-        "Yellow"
+        "Yang",
+        "Yellow",
+        "Yin"
     },
     ["Rewards"] = {
         ["Grenade Launcher"] = {
@@ -321,7 +389,6 @@ data = {
                 "Desert Eagle",
                 "Compound Bow",
                 "Not So Shorty",
-                "Goalpost",
                 "Stick",
                 "Chancla",
                 "Coffee"
@@ -374,12 +441,49 @@ data = {
             ["Image"] = "rbxassetid://17160801627",
             ["DisplayName"] = "Flare Gun"
         },
-        ["Molotov"] = {
-            ["Type"] = "Weapon",
-            ["ImageScale"] = 3,
-            ["DisplayNamePlural"] = "Molotov",
-            ["Image"] = "rbxassetid://17160800583",
-            ["DisplayName"] = "Molotov"
+        ["Wrap Box 2"] = {
+            ["Type"] = "Lootbox",
+            ["Contents"] = {
+                "Thunderburst",
+                "Encrypt",
+                "Starblaze",
+                "Carbon Fiber",
+                "Hyperdrive",
+                "Insignia",
+                "Cardinal",
+                "Starfall",
+                "Resolute",
+                "Liquid Gold",
+                "Tiger",
+                "Black Granite",
+                "Cerulean",
+                "Clamshell",
+                "Cool Crochet",
+                "Cork",
+                "Hammered Copper",
+                "Hypnotic",
+                "Leafy Grass",
+                "Liquid Chrome",
+                "Mahogany",
+                "Neo",
+                "Pink Crochet",
+                "Pink Glitter",
+                "Studded",
+                "Tempest",
+                "Yang",
+                "Yin",
+                "Ancient",
+                "Grass",
+                "Rustic",
+                "Copper",
+                "Machine",
+                "Titanium",
+                "Tungsten"
+            },
+            ["ImageScale"] = 1,
+            ["DisplayNamePlural"] = "Wrap Box 2s",
+            ["Image"] = "rbxassetid://18763894596",
+            ["DisplayName"] = "Wrap Box 2"
         },
         ["Shotgun"] = {
             ["Type"] = "Weapon",
@@ -439,12 +543,26 @@ data = {
             ["Image"] = "rbxassetid://17160801873",
             ["DisplayName"] = "Chainsaw"
         },
+        ["Bow"] = {
+            ["Type"] = "Weapon",
+            ["ImageScale"] = 3,
+            ["DisplayNamePlural"] = "Bow",
+            ["Image"] = "rbxassetid://17160802080",
+            ["DisplayName"] = "Bow"
+        },
         ["Handgun"] = {
             ["Type"] = "Weapon",
             ["ImageScale"] = 3,
             ["DisplayNamePlural"] = "Handgun",
             ["Image"] = "rbxassetid://17160801282",
             ["DisplayName"] = "Handgun"
+        },
+        ["Molotov"] = {
+            ["Type"] = "Weapon",
+            ["ImageScale"] = 3,
+            ["DisplayNamePlural"] = "Molotov",
+            ["Image"] = "rbxassetid://17160800583",
+            ["DisplayName"] = "Molotov"
         },
         ["Minigun"] = {
             ["Type"] = "Weapon",
@@ -462,12 +580,12 @@ data = {
             ["Image"] = "rbxassetid://18164278426",
             ["DisplayName"] = "Unlock Token"
         },
-        ["Bow"] = {
+        ["Revolver"] = {
             ["Type"] = "Weapon",
             ["ImageScale"] = 3,
-            ["DisplayNamePlural"] = "Bow",
-            ["Image"] = "rbxassetid://17160802080",
-            ["DisplayName"] = "Bow"
+            ["DisplayNamePlural"] = "Revolver",
+            ["Image"] = "rbxassetid://17160800299",
+            ["DisplayName"] = "Revolver"
         },
         ["Uzi"] = {
             ["Type"] = "Weapon",
@@ -476,26 +594,40 @@ data = {
             ["Image"] = "rbxassetid://17160798908",
             ["DisplayName"] = "Uzi"
         },
-        ["Smoke Grenade"] = {
-            ["Type"] = "Weapon",
-            ["ImageScale"] = 3,
-            ["DisplayNamePlural"] = "Smoke Grenade",
-            ["Image"] = "rbxassetid://17160799767",
-            ["DisplayName"] = "Smoke Grenade"
-        },
-        ["Revolver"] = {
-            ["Type"] = "Weapon",
-            ["ImageScale"] = 3,
-            ["DisplayNamePlural"] = "Revolver",
-            ["Image"] = "rbxassetid://17160800299",
-            ["DisplayName"] = "Revolver"
-        },
-        ["Sniper"] = {
-            ["Type"] = "Weapon",
-            ["ImageScale"] = 3,
-            ["DisplayNamePlural"] = "Sniper",
-            ["Image"] = "rbxassetid://17160799574",
-            ["DisplayName"] = "Sniper"
+        ["Skin Case 2"] = {
+            ["Type"] = "Lootbox",
+            ["Contents"] = {
+                "Hyper Sniper",
+                "Hyper Shotgun",
+                "Electro Uzi",
+                "Karambit",
+                "Spaceship Launcher",
+                "Handsaws",
+                "Camera",
+                "Boba Gun",
+                "Pixel Minigun",
+                "Aqua Burst",
+                "Dynamite Gun",
+                "Raven Bow",
+                "Anchor",
+                "Lightning Bolt",
+                "Water Balloon",
+                "Garden Shovel",
+                "Uranium Launcher",
+                "Ray Gun",
+                "Bubble Ray",
+                "Spring",
+                "Lovely Shorty",
+                "Lamethrower",
+                "Brass Knuckles",
+                "Balance",
+                "Goalpost",
+                "Torch"
+            },
+            ["ImageScale"] = 1,
+            ["DisplayNamePlural"] = "Skin Case 2s",
+            ["Image"] = "rbxassetid://18763894913",
+            ["DisplayName"] = "Skin Case 2"
         },
         ["Paintball Gun"] = {
             ["Type"] = "Weapon",
@@ -503,6 +635,20 @@ data = {
             ["DisplayNamePlural"] = "Paintball Gun",
             ["Image"] = "rbxassetid://17160853798",
             ["DisplayName"] = "Paintball Gun"
+        },
+        ["Smoke Grenade"] = {
+            ["Type"] = "Weapon",
+            ["ImageScale"] = 3,
+            ["DisplayNamePlural"] = "Smoke Grenade",
+            ["Image"] = "rbxassetid://17160799767",
+            ["DisplayName"] = "Smoke Grenade"
+        },
+        ["Sniper"] = {
+            ["Type"] = "Weapon",
+            ["ImageScale"] = 3,
+            ["DisplayNamePlural"] = "Sniper",
+            ["Image"] = "rbxassetid://17160799574",
+            ["DisplayName"] = "Sniper"
         },
         ["Freeze Ray"] = {
             ["Type"] = "Weapon",
@@ -576,29 +722,87 @@ data = {
         ["Rare"] = {["Value"] = 3, ["Color"] = Color3.fromRGB(0, 221, 255)},
         ["None"] = {["Value"] = 0, ["Color"] = Color3.fromRGB(255, 255, 255)}
     },
-    ["ApplyWrap"] = "function: 0xbc74931cdfb355d9",
+    ["ApplyWrap"] = "function: 0x41d7496b84c3528e",
     ["NameToLootbox"] = {
+        ["Cork"] = "Wrap Box 2",
+        ["Dice"] = "Charm Capsule",
+        ["Insignia"] = "Wrap Box 2",
+        ["Handsaws"] = "Skin Case 2",
+        ["Cool Crochet"] = "Wrap Box 2",
+        ["Star"] = "Charm Capsule",
+        ["Mahogany"] = "Wrap Box 2",
+        ["UFO"] = "Charm Capsule",
+        ["Singularity"] = "Skin Case",
+        ["Carbon Fiber"] = "Wrap Box 2",
+        ["Dark"] = "Wrap Box",
+        ["Moonstone"] = "Wrap Box",
+        ["Hammered Copper"] = "Wrap Box 2",
+        ["Bunsen"] = "Wrap Box",
+        ["Ancient"] = "Wrap Box 2",
+        ["Jean"] = "Wrap Box",
+        ["Spring"] = "Skin Case 2",
+        ["Lamethrower"] = "Skin Case 2",
+        ["Lovely Shorty"] = "Skin Case 2",
+        ["Stick"] = "Skin Case",
+        ["Malachite"] = "Wrap Box",
+        ["Hook"] = "Charm Capsule",
+        ["Cupcake"] = "Charm Capsule",
+        ["Starfall"] = "Wrap Box 2",
+        ["Disco Ball"] = "Skin Case",
+        ["Violet"] = "Wrap Box",
+        ["Toy"] = "Wrap Box",
+        ["Well Done"] = "Wrap Box",
+        ["Saber"] = "Skin Case",
+        ["Temporal Ray"] = "Skin Case",
+        ["Basketball"] = "Charm Capsule",
+        ["Leafy Grass"] = "Wrap Box 2",
+        ["Glisten"] = "Wrap Box",
+        ["Uranium Launcher"] = "Skin Case 2",
+        ["A5"] = "Wrap Box",
+        ["Ray Gun"] = "Skin Case 2",
+        ["Football"] = "Charm Capsule",
+        ["Moai"] = "Charm Capsule",
+        ["Resolute"] = "Wrap Box 2",
+        ["Electro Uzi"] = "Skin Case 2",
+        ["Neo"] = "Wrap Box 2",
+        ["Camera"] = "Skin Case 2",
+        ["Torch"] = "Skin Case 2",
+        ["Hyper Shotgun"] = "Skin Case 2",
+        ["Amber"] = "Wrap Box",
+        ["Mischief"] = "Wrap Box",
+        ["Firework Gun"] = "Skin Case",
+        ["Rubber Duck"] = "Charm Capsule",
+        ["Cardinal"] = "Wrap Box 2",
+        ["Don't Press"] = "Skin Case",
+        ["Hyper Sniper"] = "Skin Case 2",
+        ["Blobfish"] = "Charm Capsule",
+        ["Liquid Gold"] = "Wrap Box 2",
+        ["Starblaze"] = "Wrap Box 2",
+        ["Rainbow"] = "Charm Capsule",
+        ["Lightning Bolt"] = "Skin Case 2",
+        ["Scales"] = "Wrap Box",
+        ["Electro Rifle"] = "Skin Case",
+        ["Blaster"] = "Skin Case",
+        ["Pink Glitter"] = "Wrap Box 2",
         ["Insidious"] = "Wrap Box",
         ["Dunes"] = "Wrap Box",
         ["Cage"] = "Charm Capsule",
         ["Bowling Pin"] = "Charm Capsule",
-        ["Obsidian"] = "Wrap Box",
+        ["Bitster"] = "Charm Capsule",
+        ["Tiger"] = "Wrap Box 2",
         ["Lasergun 3000"] = "Skin Case",
-        ["Star"] = "Charm Capsule",
+        ["Tungsten"] = "Wrap Box 2",
+        ["Liquid Chrome"] = "Wrap Box 2",
         ["Rage"] = "Wrap Box",
-        ["UFO"] = "Charm Capsule",
-        ["Singularity"] = "Skin Case",
         ["Chrome"] = "Wrap Box",
         ["Lemon Slice"] = "Charm Capsule",
         ["Bright"] = "Wrap Box",
-        ["Dark"] = "Wrap Box",
         ["Plastic Shovel"] = "Skin Case",
-        ["Moonstone"] = "Wrap Box",
+        ["Potion"] = "Charm Capsule",
         ["AK-47"] = "Skin Case",
         ["Swashbuckler"] = "Skin Case",
-        ["Coffee"] = "Skin Case",
-        ["Bunsen"] = "Wrap Box",
-        ["Jean"] = "Wrap Box",
+        ["Tennis Ball"] = "Charm Capsule",
+        ["Yang"] = "Wrap Box 2",
         ["Compound Bow"] = "Skin Case",
         ["Potted Flower"] = "Charm Capsule",
         ["Fedora Stack"] = "Charm Capsule",
@@ -606,79 +810,81 @@ data = {
         ["Ship Wheel"] = "Charm Capsule",
         ["Lightning"] = "Wrap Box",
         ["Glossy"] = "Wrap Box",
-        ["Malachite"] = "Wrap Box",
-        ["Hook"] = "Charm Capsule",
-        ["Cupcake"] = "Charm Capsule",
+        ["Black Granite"] = "Wrap Box 2",
+        ["Water Balloon"] = "Skin Case 2",
+        ["Bubble Ray"] = "Skin Case 2",
         ["Emoji Cloud"] = "Skin Case",
         ["Hammer"] = "Charm Capsule",
-        ["Violet"] = "Wrap Box",
-        ["Toy"] = "Wrap Box",
-        ["Whoopee Cushion"] = "Skin Case",
-        ["Well Done"] = "Wrap Box",
+        ["Pufferfish"] = "Charm Capsule",
+        ["Pixel Sniper"] = "Skin Case",
         ["Sandwich"] = "Skin Case",
-        ["Temporal Ray"] = "Skin Case",
-        ["Basketball"] = "Charm Capsule",
-        ["Webbed"] = "Wrap Box",
-        ["Glisten"] = "Wrap Box",
-        ["Traffic Cone"] = "Charm Capsule",
-        ["A5"] = "Wrap Box",
-        ["Dice"] = "Charm Capsule",
-        ["Cog"] = "Charm Capsule",
-        ["Football"] = "Charm Capsule",
-        ["Arabesque"] = "Wrap Box",
-        ["Moai"] = "Charm Capsule",
-        ["Potted Cactus"] = "Charm Capsule",
+        ["Hyperdrive"] = "Wrap Box 2",
         ["Magnet"] = "Charm Capsule",
+        ["Cog"] = "Charm Capsule",
+        ["Mustard"] = "Wrap Box",
+        ["Webbed"] = "Wrap Box",
+        ["Poop"] = "Charm Capsule",
+        ["Golf Ball"] = "Charm Capsule",
+        ["Traffic Cone"] = "Charm Capsule",
         ["Life Buoy"] = "Charm Capsule",
-        ["Mystery Block"] = "Charm Capsule",
         ["Heart"] = "Charm Capsule",
         ["Ninja Star"] = "Charm Capsule",
-        ["Plastic"] = "Wrap Box",
-        ["Boxing Gloves"] = "Skin Case",
         ["Cookie"] = "Charm Capsule",
-        ["Iridescent"] = "Wrap Box",
-        ["Potion"] = "Charm Capsule",
-        ["Mustard"] = "Wrap Box",
-        ["Emoji: Weary"] = "Charm Capsule",
-        ["Amber"] = "Wrap Box",
-        ["Tennis Ball"] = "Charm Capsule",
-        ["Not So Shorty"] = "Skin Case",
-        ["Golf Ball"] = "Charm Capsule",
-        ["Balloon Shotgun"] = "Skin Case",
-        ["Firework Gun"] = "Skin Case",
-        ["Chancla"] = "Skin Case",
+        ["Potted Cactus"] = "Charm Capsule",
         ["Hotdog"] = "Charm Capsule",
         ["Rocket Ship"] = "Charm Capsule",
-        ["Storm"] = "Wrap Box",
-        ["Don't Press"] = "Skin Case",
-        ["Anvil"] = "Charm Capsule",
-        ["Poop"] = "Charm Capsule",
-        ["10 Gallon Hat"] = "Charm Capsule",
-        ["Rubber Duck"] = "Charm Capsule",
+        ["Emoji: Weary"] = "Charm Capsule",
         ["Pixel Flamethrower"] = "Skin Case",
-        ["Nuke Launcher"] = "Skin Case",
-        ["Blobfish"] = "Charm Capsule",
-        ["Mischief"] = "Wrap Box",
-        ["Slime Gun"] = "Skin Case",
-        ["Water Uzi"] = "Skin Case",
-        ["Bitster"] = "Charm Capsule",
-        ["Pufferfish"] = "Charm Capsule",
-        ["Desert Eagle"] = "Skin Case",
-        ["Rainbow"] = "Charm Capsule",
-        ["Disco Ball"] = "Skin Case",
-        ["Blaster"] = "Skin Case",
+        ["Anvil"] = "Charm Capsule",
+        ["Mystery Block"] = "Charm Capsule",
+        ["Obsidian"] = "Wrap Box",
+        ["Thunderburst"] = "Wrap Box 2",
+        ["Plastic"] = "Wrap Box",
+        ["Boxing Gloves"] = "Skin Case",
+        ["Studded"] = "Wrap Box 2",
+        ["Iridescent"] = "Wrap Box",
+        ["Dynamite Gun"] = "Skin Case 2",
+        ["Cerulean"] = "Wrap Box 2",
+        ["Machine"] = "Wrap Box 2",
+        ["Hypnotic"] = "Wrap Box 2",
+        ["Encrypt"] = "Wrap Box 2",
+        ["Not So Shorty"] = "Skin Case",
         ["Scythe of Death"] = "Skin Case",
-        ["Stick"] = "Skin Case",
-        ["Scales"] = "Wrap Box",
-        ["Electro Rifle"] = "Skin Case",
+        ["Balloon Shotgun"] = "Skin Case",
+        ["Arabesque"] = "Wrap Box",
+        ["Chancla"] = "Skin Case",
+        ["Pink Crochet"] = "Wrap Box 2",
+        ["Tempest"] = "Wrap Box 2",
+        ["Storm"] = "Wrap Box",
+        ["10 Gallon Hat"] = "Charm Capsule",
+        ["Coffee"] = "Skin Case",
+        ["Boba Gun"] = "Skin Case 2",
+        ["Balance"] = "Skin Case 2",
+        ["Garden Shovel"] = "Skin Case 2",
+        ["Titanium"] = "Wrap Box 2",
+        ["Nuke Launcher"] = "Skin Case",
+        ["Copper"] = "Wrap Box 2",
+        ["Rustic"] = "Wrap Box 2",
+        ["Slime Gun"] = "Skin Case",
+        ["Brass Knuckles"] = "Skin Case 2",
+        ["Anchor"] = "Skin Case 2",
+        ["Clamshell"] = "Wrap Box 2",
+        ["Desert Eagle"] = "Skin Case",
+        ["Grass"] = "Wrap Box 2",
+        ["Yin"] = "Wrap Box 2",
+        ["Pixel Minigun"] = "Skin Case 2",
+        ["Whoopee Cushion"] = "Skin Case",
+        ["Water Uzi"] = "Skin Case",
+        ["Raven Bow"] = "Skin Case 2",
+        ["Goalpost"] = "Skin Case 2",
         ["Blobsaw"] = "Skin Case",
         ["Pawn"] = "Charm Capsule",
-        ["Goalpost"] = "Skin Case",
-        ["Saber"] = "Skin Case",
-        ["Pixel Sniper"] = "Skin Case"
+        ["Aqua Burst"] = "Skin Case 2",
+        ["Karambit"] = "Skin Case 2",
+        ["Spaceship Launcher"] = "Skin Case 2"
     },
-    ["RecordOriginalWrapProperties"] = "function: 0x2d53422c7f0efdf9",
-    ["ResetWrap"] = "function: 0xa5e2c403c92a3659",
+    ["RecordOriginalWrapProperties"] = "function: 0xa6ed5e2cb23ba54e",
+    ["ResetWrap"] = "function: 0xeeb9deb9b1969bae",
     ["Cosmetics"] = {
         ["Dice"] = {
             ["Type"] = "Charm",
@@ -687,26 +893,16 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Wondergun"] = {
-            ["ItemName"] = "Exogun",
+        ["Hand Gun"] = {
+            ["ItemName"] = "Handgun",
             ["Type"] = "Skin",
-            ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://17672086052",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18770200739",
             ["ImageScale"] = 3,
-            ["Description"] = "Included in the Exogun Bundle",
-            ["Image"] = "rbxassetid://17672060360"
+            ["Image"] = "rbxassetid://18770192669"
         },
-        ["Briefcase"] = {
-            ["ItemName"] = "Medkit",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://18142174697",
-            ["ImageScale"] = 3,
-            ["Description"] = "Included in the Medkit Bundle",
-            ["Image"] = "rbxassetid://18142172067"
-        },
-        ["Circuit"] = {
-            ["Description"] = "Earned from a Chainsaw contract",
+        ["Cool Crochet"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -714,26 +910,55 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Color"] = Color3.fromRGB(117, 127, 106),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Circuit"
+                    ["MaterialVariant"] = "Crochet"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(116, 134, 157),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crochet"
                 },
-                {["Color"] = Color3.fromRGB(105, 206, 105), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(116, 134, 157),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crochet"
+                }
             },
             ["Image"] = ""
         },
-        ["Star"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+        ["Mahogany"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(194, 124, 74),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Mahogany Wood"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(117, 62, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Mahogany Wood"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(199, 141, 107),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
             ["Image"] = ""
         },
         ["UFO"] = {
@@ -742,15 +967,6 @@ data = {
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
-        },
-        ["Singularity"] = {
-            ["ItemName"] = "Exogun",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17676875650",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17676876756"
         },
         ["Scythe of Death"] = {
             ["ItemName"] = "Scythe",
@@ -761,45 +977,8 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17825996537"
         },
-        ["Dark"] = {
+        ["Moonstone"] = {
             ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Emoji: Nauseated"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Starter Bundle",
-            ["Image"] = ""
-        },
-        ["Black Opal"] = {
-            ["Description"] = "Earned from a Subspace Tripmine contract",
             ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
@@ -809,30 +988,21 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Black Opal"
+                    ["MaterialVariant"] = "Moonstone"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Black Opal"
+                    ["MaterialVariant"] = "Moonstone"
                 },
-                {["Color"] = Color3.fromRGB(125, 255, 229), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(146, 160, 190), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
-        ["Coffee"] = {
-            ["ItemName"] = "Molotov",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://17672089358",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672061538"
-        },
-        ["Bunsen"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
+        ["Rustic"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -840,18 +1010,54 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(33, 84, 185),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Bunsen"
+                    ["Color"] = Color3.fromRGB(124, 92, 70),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "RusticWood"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(5, 22, 59),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(202, 203, 209),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "BrushedMetal"
                 },
-                {["Color"] = Color3.fromRGB(17, 61, 255), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(221, 177, 145),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Ancient"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Ancient2"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Ancient1"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(164, 189, 71),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
@@ -896,6 +1102,15 @@ data = {
                 }
             },
             ["Image"] = ""
+        },
+        ["Lovely Shorty"] = {
+            ["ItemName"] = "Shorty",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18766906011",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766862000"
         },
         ["Carpet"] = {
             ["Description"] = "Earned from a Flashbang contract",
@@ -945,17 +1160,8 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Stick"] = {
-            ["ItemName"] = "Slingshot",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://17672086502",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672063048"
-        },
-        ["Urban Camo"] = {
-            ["Description"] = "Earned from a Knife contract",
+        ["Surge"] = {
+            ["Description"] = "Earned from a Grenade Launcher contract",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -963,18 +1169,39 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Urban Camo"
+                    ["Color"] = Color3.fromRGB(109, 25, 47),
+                    ["MaterialVariant"] = ""
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(17, 17, 17),
-                    ["Material"] = Enum.Material.Glass,
+                    ["Color"] = Color3.fromRGB(23, 59, 111),
                     ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Aurum"] = {
+            ["Description"] = "Included in the Medkit Bundle",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(251, 255, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Aurum"
                 },
-                {["Color"] = Color3.fromRGB(255, 131, 131), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Aurum"
+                },
+                {["Color"] = Color3.fromRGB(200, 160, 95), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -982,7 +1209,7 @@ data = {
             ["Type"] = "Charm",
             ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["Description"] = "Like the game (Rivals)",
+            ["Description"] = "Like the game (RIVALS)",
             ["Image"] = ""
         },
         ["Maroon"] = {
@@ -1007,55 +1234,11 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Cupcake"] = {
+        ["First Aid"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["RPKEY"] = {
-            ["ItemName"] = "RPG",
-            ["Type"] = "Skin",
             ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://18141221910",
-            ["ImageScale"] = 3,
-            ["Description"] = "Included in the Legendary Key Bundle",
-            ["Image"] = "rbxassetid://18141218104"
-        },
-        ["Disco Ball"] = {
-            ["ItemName"] = "Flashbang",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17672089136",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672061796"
-        },
-        ["Violet"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(85, 43, 255),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Inlets"] = {
-            ["Description"] = "Earned from a Trowel contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {["Textures"] = "Inlets", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""},
-                {["Textures"] = "Inlets", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""}
-            },
+            ["Description"] = "Included in the Medkit Bundle",
             ["Image"] = ""
         },
         ["Toy"] = {
@@ -1088,55 +1271,6 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Well Done"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(72, 56, 40),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "A5"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Concrete,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 163, 140), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Saber"] = {
-            ["ItemName"] = "Katana",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17672087756",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672062341"
-        },
-        ["Temporal Ray"] = {
-            ["ItemName"] = "Freeze Ray",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://18429549663",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://18429552503"
-        },
-        ["Basketball"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
         ["Universal"] = {
             ["Description"] = "Earned from a Subspace Tripmine contract",
             ["Type"] = "Wrap",
@@ -1145,21 +1279,6 @@ data = {
             ["WrapGroups"] = {
                 {["Textures"] = "Universal", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""},
                 {["Textures"] = "Universal", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Mint"] = {
-            ["Description"] = "Earned from a Revolver contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(167, 255, 135),
-                    ["MaterialVariant"] = ""
-                }
             },
             ["Image"] = ""
         },
@@ -1180,159 +1299,35 @@ data = {
             ["Description"] = "Earned by eliminating @SenseiWarrior with a weapon",
             ["Type"] = "Charm"
         },
-        ["A5"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "A5"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 220, 192),
-                    ["Material"] = Enum.Material.Concrete,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 139, 139), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Football"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Slime"] = {
-            ["Description"] = "Earned from a Trowel contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(248, 248, 248),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Slime"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(70, 53, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Slime"
-                },
-                {["Color"] = Color3.fromRGB(76, 255, 48), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Blush"] = {
-            ["Description"] = "Earned from a Sniper contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 164, 255),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Studs"] = {
-            ["Description"] = "Earned from a Slingshot contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {["Textures"] = "Studs", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""},
-                {["Textures"] = "Studs", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Electro Rifle"] = {
-            ["ItemName"] = "Burst Rifle",
+        ["Uranium Launcher"] = {
+            ["ItemName"] = "Grenade Launcher",
             ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17821265469",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17821234234"
-        },
-        ["Coinbama"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Unobtainable",
-            ["ImageScale"] = 1,
-            ["Description"] = "Friends & Family",
-            ["Hidden"] = true,
-            ["Image"] = ""
-        },
-        ["Explosion"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Heavy Duty Bundle",
-            ["Image"] = ""
-        },
-        ["Olive"] = {
-            ["Description"] = "Earned from a Chainsaw contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(75, 79, 55),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Mini Key"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Super Key Bundle",
-            ["Image"] = ""
-        },
-        ["First Aid"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Medkit Bundle",
-            ["Image"] = ""
-        },
-        ["Crimson"] = {
-            ["Description"] = "Earned from a Katana contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(75, 14, 14),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Steel"] = {
-            ["Description"] = "Earned from a Shorty contract",
-            ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766902983",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766860114"
+        },
+        ["Shooting Star"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["Description"] = "Favorite the game (RIVALS)",
+            ["Image"] = ""
+        },
+        ["Ray Gun"] = {
+            ["ItemName"] = "Exogun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766905089",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766861454"
+        },
+        ["Paint"] = {
+            ["Description"] = "Included in the Starter Bundle",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
@@ -1340,46 +1335,53 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Steel"
+                    ["MaterialVariant"] = "Paint"
                 },
                 {
                     ["Transparency"] = 0,
-                    ["Reflectance"] = 0.4,
-                    ["Color"] = Color3.fromRGB(54, 54, 54),
+                    ["Reflectance"] = 0.1,
+                    ["Color"] = Color3.fromRGB(212, 212, 212),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(159, 159, 159), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(212, 212, 212), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
-        ["Cream"] = {
-            ["Description"] = "Earned by inviting friends to the game (Rivals)",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 209, 157),
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(62, 55, 48),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Alien Head"] = {
-            ["Type"] = "Charm",
+        ["Electro Uzi"] = {
+            ["ItemName"] = "Uzi",
+            ["Type"] = "Skin",
             ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Exogun Bundle",
-            ["Image"] = ""
+            ["ImageHighResolution"] = "rbxassetid://18766908301",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766865214"
+        },
+        ["Torch"] = {
+            ["ItemName"] = "Molotov",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18766903480",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766860359"
+        },
+        ["Sheriff"] = {
+            ["ItemName"] = "Revolver",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18770200449",
+            ["ImageScale"] = 3,
+            ["Image"] = "rbxassetid://18770192507"
+        },
+        ["Spaceship Launcher"] = {
+            ["ItemName"] = "RPG",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18766904375",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766860860"
         },
         ["Cool"] = {
             ["Description"] = "Earned from a Freeze Ray contract",
@@ -1396,30 +1398,6 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Groove"] = {
-            ["Description"] = "Purchased from the Shop",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Groove"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Groove"
-                },
-                {["Color"] = Color3.fromRGB(255, 99, 99), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
         ["Firework Gun"] = {
             ["ItemName"] = "Flare Gun",
             ["Type"] = "Skin",
@@ -1429,15 +1407,8 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17691132917"
         },
-        ["Rubber Duck"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Scorched"] = {
-            ["Description"] = "Earned from a Flamethrower contract",
+        ["Cardinal"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
@@ -1445,26 +1416,25 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(171, 171, 171),
+                    ["Color"] = Color3.fromRGB(255, 175, 175),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Scorched"
+                    ["MaterialVariant"] = "Cardinal"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(43, 43, 43),
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Scorched"
+                    ["MaterialVariant"] = "Cardinal"
                 },
-                {["Color"] = Color3.fromRGB(255, 79, 25), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(227, 74, 76),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
             },
-            ["Image"] = ""
-        },
-        ["Mini Ban Hammer"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["Description"] = "Included in the Classic Bundle",
             ["Image"] = ""
         },
         ["Wealth"] = {
@@ -1491,15 +1461,6 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Don't Press"] = {
-            ["ItemName"] = "Subspace Tripmine",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17821264419",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17821233203"
-        },
         ["Purple"] = {
             ["Description"] = "Earned from a Shotgun contract",
             ["Type"] = "Wrap",
@@ -1514,22 +1475,6 @@ data = {
                 }
             },
             ["Image"] = ""
-        },
-        ["Magnet"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Pixel Flamethrower"] = {
-            ["ItemName"] = "Flamethrower",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17771753119",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17771752104"
         },
         ["Mainframe"] = {
             ["Description"] = "Earned from a Molotov contract",
@@ -1555,13 +1500,6 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Tennis Ball"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
         ["Brown"] = {
             ["Description"] = "Earned from a Smoke Grenade contract",
             ["Type"] = "Wrap",
@@ -1577,70 +1515,55 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Blobfish"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Orange"] = {
-            ["Description"] = "Earned from a Burst Rifle contract",
+        ["Spartan"] = {
+            ["Description"] = "Earned from a Minigun contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 110, 0),
+                    ["Color"] = Color3.fromRGB(24, 69, 59),
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["MaterialVariant"] = ""
                 }
             },
             ["Image"] = ""
         },
-        ["Red"] = {
-            ["Description"] = "Earned from a Bow contract",
+        ["Liquid Gold"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 50, 50),
+                    ["Color"] = Color3.fromRGB(180, 123, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Liquid Gold"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 176, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Liquid Gold"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(199, 172, 120),
+                    ["Material"] = Enum.Material.Neon,
                     ["MaterialVariant"] = ""
                 }
             },
-            ["Image"] = ""
-        },
-        ["BobbVX"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @BobbVX with this weapon",
-            ["Description"] = "Earned by eliminating @BobbVX with a weapon",
-            ["Type"] = "Charm"
-        },
-        ["Moai"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Hotdog"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Rocket Ship"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
         ["Rainbow"] = {
@@ -1665,78 +1588,6 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Emoji: Weary"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Experience"] = {
-            ["Description"] = "Earned every 10 career levels",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Textures"] = "Experience",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(94, 145, 157),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.1,
-                    ["Color"] = Color3.fromRGB(30, 150, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(106, 166, 191), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Money Bag"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Scales"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 202, 128),
-                    ["Material"] = Enum.Material.Pebble,
-                    ["MaterialVariant"] = "Scales"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(47, 28, 7),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 143, 121), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Goalpost"] = {
-            ["ItemName"] = "Slingshot",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://17672086378",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672063165"
-        },
         ["Blaster"] = {
             ["ItemName"] = "Handgun",
             ["Type"] = "Skin",
@@ -1746,14 +1597,29 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17821234554"
         },
-        ["Too Shorty"] = {
-            ["ItemName"] = "Shorty",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://18129532343",
-            ["ImageScale"] = 3,
-            ["Description"] = "Included in the Starter Bundle",
-            ["Image"] = "rbxassetid://18129531276"
+        ["Frosted"] = {
+            ["Description"] = "Earned from a Scythe contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Frosted"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.4,
+                    ["Color"] = Color3.fromRGB(161, 239, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(128, 163, 175), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
         },
         ["Yellow"] = {
             ["Description"] = "Earned from a Handgun contract",
@@ -1768,45 +1634,6 @@ data = {
                     ["MaterialVariant"] = ""
                 }
             },
-            ["Image"] = ""
-        },
-        ["Anvil"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["White"] = {
-            ["Description"] = "Earned by reaching Level 50 on a weapon",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["DescriptionSpecific"] = "Earned by reaching Level 50 on this weapon",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Mystery Block"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
         ["Insidious"] = {
@@ -1857,22 +1684,8 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Cage"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Bowling Pin"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Obsidian"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
+        ["Arctic Camo"] = {
+            ["Description"] = "Earned from a Burst Rifle contract",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -1880,18 +1693,18 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Arabesque"
+                    ["MaterialVariant"] = "Arctic Camo"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(25, 24, 36),
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(143, 120, 255), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(154, 175, 194), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -1952,21 +1765,1427 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17691132995"
         },
-        ["Bitster"] = {
+        ["Tungsten"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(66, 67, 76),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(91, 93, 105),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(133, 141, 192),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Liquid Chrome"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(193, 193, 193),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Liquid Chrome"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Liquid Chrome"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(155, 158, 193),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Disco"] = {
+            ["Description"] = "Included in the Standard Weapons Bundle",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Disco",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.5,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.5,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["TanqR"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["DescriptionSpecific"] = "Earned by eliminating @TanqR with this weapon",
+            ["Description"] = "Earned by eliminating @TanqR with a weapon",
+            ["Type"] = "Charm"
+        },
+        ["Classic"] = {
+            ["Description"] = "Included in the Classic Bundle",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(27, 42, 53),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(27, 42, 53),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(27, 42, 53),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Bright"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(160, 160, 160),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(160, 160, 160),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(160, 160, 160),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Plastic Shovel"] = {
+            ["ItemName"] = "Trowel",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://17672088012",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672062201"
+        },
+        ["Swashbuckler"] = {
+            ["ItemName"] = "Grenade Launcher",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17821265007",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17821233828"
+        },
+        ["Tennis Ball"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Nosniy Games"] = {
+        ["Yang"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Yin Yang"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Compound Bow"] = {
+            ["ItemName"] = "Bow",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://17672229023",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672234242"
+        },
+        ["Quasar"] = {
+            ["Description"] = "Earned from an Exogun contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Quasar",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 72, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Textures"] = "Quasar",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 72, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 105, 94), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Brain"] = {
+            ["Description"] = "Earned from a Grenade contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 152, 220),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Brain"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 106, 228), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Glossy"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Glossy"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Glossy"
+                },
+                {["Color"] = Color3.fromRGB(255, 169, 218), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Beige"] = {
+            ["Description"] = "Earned from a Grenade contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(184, 156, 110),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Scribble"] = {
+            ["Description"] = "Obtained by submitting a concept that makes it into the game (RIVALS)",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Unobtainable",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Scribble"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Scribble"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(159, 161, 172),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Hidden"] = true,
+            ["Image"] = ""
+        },
+        ["Salmon"] = {
+            ["Description"] = "Earned from a Fists contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 107, 107),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Hammer"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Nekore"] = {
+            ["Description"] = "Earned by winning against @nekoanims",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(4, 175, 236),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Sensite"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(1, 44, 58),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(102, 144, 236), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Experience"] = {
+            ["Description"] = "Earned every 10 career levels",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Experience",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(94, 145, 157),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.1,
+                    ["Color"] = Color3.fromRGB(30, 150, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(106, 166, 191), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Mustard"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(136, 102, 0),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Ocean Camo"] = {
+            ["Description"] = "Earned from an Uzi contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Ocean Camo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(108, 130, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Navy"] = {
+            ["Description"] = "Earned from a Scythe contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 18, 76),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Webbed"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(117, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Webbed"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(27, 0, 0),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 69, 69), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Potted Cactus"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Vile"] = {
+            ["Description"] = "Earned from an Exogun contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(75, 35, 136),
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(101, 147, 49),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Lemon"] = {
+            ["Description"] = "Earned from an Uzi contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 230, 105),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Blue"] = {
+            ["Description"] = "Earned from an Assault Rifle contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 150, 255),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Lucre"] = {
+            ["Description"] = "Included in the Ultra Key Bundle",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 213, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Wealth"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Wealth"
+                },
+                {["Color"] = Color3.fromRGB(255, 140, 73), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Plastic"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0.5,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0.5,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Pink"] = {
+            ["Description"] = "Earned from a Molotov contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 60, 236),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Karambit"] = {
+            ["ItemName"] = "Knife",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18766907079",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766863586"
+        },
+        ["Crossed"] = {
+            ["Description"] = "Earned from a Freeze Ray contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 153, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crossed"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 32, 54),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(76, 94, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Mini Disco Ball"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Standard Weapons Bundle",
+            ["Image"] = ""
+        },
+        ["Chancla"] = {
+            ["ItemName"] = "Knife",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://17672089600",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672060795"
+        },
+        ["Pink Crochet"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 152, 220),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crochet"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(172, 103, 149),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crochet"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 152, 220),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Crochet"
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Tempest"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(166, 166, 166),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Tempest"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Tempest"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(204, 95, 157),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["10 Gallon Hat"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Rug"] = {
+            ["Description"] = "Earned from a Fists contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Rug"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(157, 157, 157),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(163, 163, 163), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Balance"] = {
+            ["ItemName"] = "Smoke Grenade",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18766909964",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766866168"
+        },
+        ["Bell"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["Description"] = "Join the group (Nosniy Games)",
+            ["Description"] = "Enable notifications for the game (RIVALS)",
             ["Image"] = ""
         },
-        ["Amber"] = {
+        ["Slime Gun"] = {
+            ["ItemName"] = "Paintball Gun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://17672087561",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672062472"
+        },
+        ["Clamshell"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Clamshell"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(255, 226, 212),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(233, 182, 213),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Desert Eagle"] = {
+            ["ItemName"] = "Revolver",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://17821265603",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17821234372"
+        },
+        ["Street Camo"] = {
+            ["Description"] = "Earned from a Revolver contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Street Camo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(180, 172, 112), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Watermelon"] = {
+            ["Description"] = "Purchased from the Shop",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 131, 131),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Watermelon Red"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(204, 255, 204),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Watermelon Green"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(163, 75, 75),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Heart"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Pawn"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Supernova"] = {
+            ["Description"] = "Legendary drop from Daily Tasks",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Supernova",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Textures"] = "Supernova",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(84, 246, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Cork"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Cork"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(163, 162, 165),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Cork"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(203, 171, 149),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Insignia"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Insignia"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Insignia"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(199, 172, 120),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Wondergun"] = {
+            ["ItemName"] = "Exogun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://17672086052",
+            ["ImageScale"] = 3,
+            ["Description"] = "Included in the Exogun Bundle",
+            ["Image"] = "rbxassetid://17672060360"
+        },
+        ["Handsaws"] = {
+            ["ItemName"] = "Chainsaw",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18769002596",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766864583"
+        },
+        ["Cerulean"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Resolute"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Resolute"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(61, 255, 110),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Star"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Encrypt"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 172, 57),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Encrypt"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Encrypt"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(131, 255, 129),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Singularity"] = {
+            ["ItemName"] = "Exogun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17676875650",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17676876756"
+        },
+        ["Dark"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Emoji: Nauseated"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Starter Bundle",
+            ["Image"] = ""
+        },
+        ["Hypnotic"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Hypnotic 1"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Hypnotic 2"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(223, 143, 255),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Hammered Copper"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(188, 155, 93),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Hammered Metal"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(188, 155, 93),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Hammered Metal"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(204, 117, 95),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Bunsen"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(33, 84, 185),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Bunsen"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(5, 22, 59),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(17, 61, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Garden Shovel"] = {
+            ["ItemName"] = "Trowel",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766908058",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766864873"
+        },
+        ["Glass"] = {
+            ["Description"] = "Earned from a Grenade Launcher contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0.5,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Spring"] = {
+            ["ItemName"] = "Subspace Tripmine",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766904035",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766860615"
+        },
+        ["Urban Camo"] = {
+            ["Description"] = "Earned from a Knife contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Urban Camo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 131, 131), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Cupcake"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Starfall"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(9, 137, 207),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Hyperdrive"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Starblaze 1"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(24, 74, 255),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Disco Ball"] = {
+            ["ItemName"] = "Flashbang",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17672089136",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672061796"
+        },
+        ["Violet"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(85, 43, 255),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Inlets"] = {
+            ["Description"] = "Earned from a Trowel contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {["Textures"] = "Inlets", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""},
+                {["Textures"] = "Inlets", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Blizmid"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["DescriptionSpecific"] = "Earned by eliminating @Blizmid with this weapon",
+            ["Description"] = "Earned by eliminating @Blizmid with a weapon",
+            ["Type"] = "Charm"
+        },
+        ["Well Done"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(72, 56, 40),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "A5"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Concrete,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 163, 140), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Saber"] = {
+            ["ItemName"] = "Katana",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17672087756",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672062341"
+        },
+        ["Temporal Ray"] = {
+            ["ItemName"] = "Freeze Ray",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18429549663",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://18429552503"
+        },
+        ["Basketball"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Mint"] = {
+            ["Description"] = "Earned from a Revolver contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(167, 255, 135),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Glisten"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(4, 175, 236),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Glisten"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 88, 120),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Glisten"
+                },
+                {["Color"] = Color3.fromRGB(126, 154, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["A5"] = {
             ["Description"] = "Unboxed from the Wrap Box",
             ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
@@ -1977,40 +3196,603 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Amber"
+                    ["MaterialVariant"] = "A5"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 220, 192),
+                    ["Material"] = Enum.Material.Concrete,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 139, 139), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Football"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Slime"] = {
+            ["Description"] = "Earned from a Trowel contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Slime"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(70, 53, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Slime"
+                },
+                {["Color"] = Color3.fromRGB(76, 255, 48), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Resolute"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 16, 176),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Resolute"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Amber"
+                    ["MaterialVariant"] = "Resolute"
                 },
-                {["Color"] = Color3.fromRGB(255, 158, 93), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 255),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
-        ["Cog"] = {
+        ["Laptop"] = {
+            ["ItemName"] = "Medkit",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18766906510",
+            ["ImageScale"] = 3,
+            ["Image"] = "rbxassetid://18770164868"
+        },
+        ["Blush"] = {
+            ["Description"] = "Earned from a Sniper contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 164, 255),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Studs"] = {
+            ["Description"] = "Earned from a Slingshot contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {["Textures"] = "Studs", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""},
+                {["Textures"] = "Studs", ["Transparency"] = 0, ["Reflectance"] = 0, ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Neo"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(4, 175, 236),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Neo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(61, 21, 133),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Neo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(82, 124, 174),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Olive"] = {
+            ["Description"] = "Earned from a Chainsaw contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(75, 79, 55),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Camera"] = {
+            ["ItemName"] = "Flashbang",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18766908915",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766865640"
+        },
+        ["Hyper Shotgun"] = {
+            ["ItemName"] = "Shotgun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18768974410",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18768968419"
+        },
+        ["Steel"] = {
+            ["Description"] = "Earned from a Shorty contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Steel"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.4,
+                    ["Color"] = Color3.fromRGB(54, 54, 54),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(159, 159, 159), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Cream"] = {
+            ["Description"] = "Earned by inviting friends to the game (RIVALS)",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 209, 157),
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(62, 55, 48),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Mischief"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Mischief",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(53, 39, 94),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(139, 131, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Rubber Duck"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Don't Press"] = {
+            ["ItemName"] = "Subspace Tripmine",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17821264419",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17821233203"
+        },
+        ["Hyper Sniper"] = {
+            ["ItemName"] = "Sniper",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18766907266",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766864081"
+        },
+        ["Blobfish"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Red"] = {
+            ["Description"] = "Earned from a Bow contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 50, 50),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Starblaze"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Starblaze 2"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Starblaze 1"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(177, 35, 25),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Digital Camo"] = {
+            ["Description"] = "Earned from a Handgun contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Digital Camo"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(161, 161, 161), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Lightning Bolt"] = {
+            ["ItemName"] = "Katana",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18769002278",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18768968241"
+        },
+        ["Scales"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 202, 128),
+                    ["Material"] = Enum.Material.Pebble,
+                    ["MaterialVariant"] = "Scales"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(47, 28, 7),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 143, 121), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Electro Rifle"] = {
+            ["ItemName"] = "Burst Rifle",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17821265469",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17821234234"
+        },
+        ["Pink Glitter"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Pink Glitter"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(255, 152, 220),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(183, 113, 197),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["White"] = {
+            ["Description"] = "Earned by reaching Level 50 on a weapon",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["DescriptionSpecific"] = "Earned by reaching Level 50 on this weapon",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Coinbama"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Unobtainable",
+            ["ImageScale"] = 1,
+            ["Description"] = "Friends & Family",
+            ["Hidden"] = true,
+            ["Image"] = ""
+        },
+        ["Cage"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Sandwich"] = {
-            ["ItemName"] = "Medkit",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17838233196",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17838232333"
-        },
-        ["Pawn"] = {
+        ["Bowling Pin"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Machine"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(202, 203, 209),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "BrushedMetal"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(202, 203, 209),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "BrushedMetal"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(202, 203, 209),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "BrushedMetal"
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Tiger"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 114, 14),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Tiger"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Tiger"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 86, 7),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Blaze"] = {
+            ["Description"] = "Earned by winning 100 duels in a row",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Textures"] = "Blaze1",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 0, 0),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Textures"] = "Blaze2",
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(154, 85, 32),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(255, 106, 69), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Community"] = {
+            ["Description"] = "Earned by redeeming codes",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.1,
+                    ["Color"] = Color3.fromRGB(124, 17, 255),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.1,
+                    ["Color"] = Color3.fromRGB(255, 213, 0),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(112, 181, 255), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Explosion"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Heavy Duty Bundle",
+            ["Image"] = ""
+        },
+        ["Mini Key"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Super Key Bundle",
+            ["Image"] = ""
+        },
+        ["Alien Head"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Exogun Bundle",
+            ["Image"] = ""
+        },
+        ["Mini Ban Hammer"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["Description"] = "Included in the Classic Bundle",
             ["Image"] = ""
         },
         ["Clouds"] = {
@@ -2061,74 +3843,32 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Disco"] = {
-            ["Description"] = "Included in the Standard Weapons Bundle",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Textures"] = "Disco",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.5,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.5,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["TanqR"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @TanqR with this weapon",
-            ["Description"] = "Earned by eliminating @TanqR with a weapon",
-            ["Type"] = "Charm"
-        },
-        ["Ninja Star"] = {
+        ["Anvil"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Classic"] = {
-            ["Description"] = "Included in the Classic Bundle",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+        ["Golf Ball"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(27, 42, 53),
-                    ["Material"] = Enum.Material.Plastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(27, 42, 53),
-                    ["Material"] = Enum.Material.Plastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(27, 42, 53),
-                    ["Material"] = Enum.Material.Plastic,
-                    ["MaterialVariant"] = ""
-                }
-            },
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Moai"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Hotdog"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
         ["Lemon Slice"] = {
@@ -2138,73 +3878,49 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Bright"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(160, 160, 160),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(160, 160, 160),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(160, 160, 160),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Potted Flower"] = {
+        ["Rocket Ship"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Plastic Shovel"] = {
-            ["ItemName"] = "Trowel",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://17672088012",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672062201"
+        ["BobbVX"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
+            ["ImageScale"] = 1,
+            ["DescriptionSpecific"] = "Earned by eliminating @BobbVX with this weapon",
+            ["Description"] = "Earned by eliminating @BobbVX with a weapon",
+            ["Type"] = "Charm"
         },
-        ["Arabesque"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
+        ["Emoji: Weary"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Circuit"] = {
+            ["Description"] = "Earned from a Chainsaw contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
-                    ["Reflectance"] = 0.2,
-                    ["Color"] = Color3.fromRGB(98, 77, 0),
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Arabesque"
+                    ["MaterialVariant"] = "Circuit"
                 },
                 {
                     ["Transparency"] = 0,
-                    ["Reflectance"] = 0.4,
-                    ["Color"] = Color3.fromRGB(98, 77, 0),
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(170, 154, 115), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(105, 206, 105), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -2239,18 +3955,18 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17691132793"
         },
-        ["Swashbuckler"] = {
-            ["ItemName"] = "Grenade Launcher",
+        ["Dynamite Gun"] = {
+            ["ItemName"] = "Flare Gun",
             ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17821265007",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766908547",
             ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17821233828"
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766865384"
         },
-        ["Life Buoy"] = {
+        ["Mystery Block"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
@@ -2279,59 +3995,80 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Heart"] = {
+        ["Bitster"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Ship Wheel"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+        ["Obsidian"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Arabesque"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(25, 24, 36),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(143, 120, 255), ["MaterialVariant"] = ""}
+            },
             ["Image"] = ""
         },
-        ["Compound Bow"] = {
-            ["ItemName"] = "Bow",
+        ["Briefcase"] = {
+            ["ItemName"] = "Medkit",
             ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://17672229023",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18142174697",
             ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672234242"
+            ["Description"] = "Included in the Medkit Bundle",
+            ["Image"] = "rbxassetid://18142172067"
         },
         ["Day 1"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["Description"] = "Earned by redeeming a code when the game (Rivals) released",
+            ["Description"] = "Earned by redeeming a code when the game (RIVALS) released",
             ["Image"] = ""
         },
-        ["Quasar"] = {
-            ["Description"] = "Earned from an Exogun contract",
+        ["Carbon Fiber"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
-                    ["Textures"] = "Quasar",
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 72, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Carbon Fiber"
                 },
                 {
-                    ["Textures"] = "Quasar",
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 72, 0),
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Carbon Fiber"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.Neon,
                     ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 105, 94), ["MaterialVariant"] = ""}
+                }
             },
             ["Image"] = ""
         },
@@ -2342,28 +4079,11 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Brain"] = {
-            ["Description"] = "Earned from a Grenade contract",
-            ["Type"] = "Wrap",
+        ["Money Bag"] = {
+            ["Type"] = "Charm",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 152, 220),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Brain"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 106, 228), ["MaterialVariant"] = ""}
-            },
+            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
         ["Malevolent"] = {
@@ -2390,7 +4110,7 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Cookie"] = {
+        ["Cog"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
@@ -2421,81 +4141,76 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Glossy"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Glossy"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Glossy"
-                },
-                {["Color"] = Color3.fromRGB(255, 169, 218), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Beige"] = {
-            ["Description"] = "Earned from a Grenade contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(184, 156, 110),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Golf Ball"] = {
+        ["Potted Flower"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["oPixel"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @oPixel with this weapon",
-            ["Description"] = "Earned by eliminating @oPixel with a weapon",
-            ["Type"] = "Charm"
+        ["Brass Knuckles"] = {
+            ["ItemName"] = "Fists",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18766909587",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766866012"
         },
-        ["DV"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @DVwastaken with this weapon",
-            ["Description"] = "Earned by eliminating @DVwastaken with a weapon",
-            ["Type"] = "Charm"
+        ["Water Balloon"] = {
+            ["ItemName"] = "Grenade",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18769001397",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766859819"
         },
-        ["CarbonMeister"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @CarbonMeister with this weapon",
-            ["Description"] = "Earned by eliminating @CarbonMeister with a weapon",
-            ["Type"] = "Charm"
-        },
-        ["Shooting Star"] = {
+        ["Magnet"] = {
             ["Type"] = "Charm",
-            ["Rarity"] = "Unique",
+            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
-            ["Description"] = "Favorite the game (Rivals)",
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Black Opal"] = {
+            ["Description"] = "Earned from a Subspace Tripmine contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Black Opal"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Black Opal"
+                },
+                {["Color"] = Color3.fromRGB(125, 255, 229), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Bubble Ray"] = {
+            ["ItemName"] = "Freeze Ray",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18769002868",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766865819"
+        },
+        ["Life Buoy"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
         ["Diamond"] = {
@@ -2523,24 +4238,56 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Blizmid"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
+        ["Leafy Grass"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @Blizmid with this weapon",
-            ["Description"] = "Earned by eliminating @Blizmid with a weapon",
-            ["Type"] = "Charm"
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(223, 223, 222),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Leafy Grass"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(163, 162, 165),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Leafy Grass"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(132, 197, 104),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
         },
-        ["nekoanims"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
-            ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @nekoanims with this weapon",
-            ["Description"] = "Earned by eliminating @nekoanims with a weapon",
-            ["Type"] = "Charm"
+        ["Coffee"] = {
+            ["ItemName"] = "Molotov",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://17672089358",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672061538"
         },
-        ["Salmon"] = {
-            ["Description"] = "Earned from a Fists contract",
+        ["Boba Gun"] = {
+            ["ItemName"] = "Paintball Gun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18768828072",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18768830660"
+        },
+        ["Jean"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
             ["Type"] = "Wrap",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
@@ -2548,28 +4295,35 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 107, 107),
+                    ["Color"] = Color3.fromRGB(0, 76, 255),
                     ["MaterialVariant"] = ""
                 }
             },
             ["Image"] = ""
         },
-        ["Nosniy"] = {
-            ["Image"] = "",
-            ["Rarity"] = "Unique",
+        ["Swirls"] = {
+            ["Description"] = "Earned from a RPG contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["DescriptionSpecific"] = "Earned by eliminating @Nosniy with this weapon",
-            ["Description"] = "Earned by eliminating @Nosniy with a weapon",
-            ["Type"] = "Charm"
-        },
-        ["Emoji Cloud"] = {
-            ["ItemName"] = "Smoke Grenade",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17821265237",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17821234077"
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Swirls"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(167, 167, 167), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
         },
         ["Nebula"] = {
             ["Description"] = "Included in the Exogun Bundle",
@@ -2597,49 +4351,44 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Hammer"] = {
+        ["Lamethrower"] = {
+            ["ItemName"] = "Flamethrower",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18766906741",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766862822"
+        },
+        ["Ship Wheel"] = {
             ["Type"] = "Charm",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Nekore"] = {
-            ["Description"] = "Earned by winning against @nekoanims",
+        ["Black"] = {
+            ["Description"] = "Earned by reaching Level 99 on a weapon",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Unique",
+            ["Rarity"] = "Rare",
+            ["DescriptionSpecific"] = "Earned by reaching Level 99 on this weapon",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(4, 175, 236),
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Sensite"
+                    ["MaterialVariant"] = ""
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(1, 44, 58),
-                    ["Material"] = Enum.Material.Glass,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(102, 144, 236), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Highlighter"] = {
-            ["Description"] = "Earned from a Knife contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(192, 255, 57),
-                    ["MaterialVariant"] = ""
-                }
+                {["Color"] = Color3.fromRGB(0, 0, 0), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -2658,44 +4407,42 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Mustard"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
+        ["Pixel Sniper"] = {
+            ["ItemName"] = "Sniper",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17676083400",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17676081196"
+        },
+        ["Stick"] = {
+            ["ItemName"] = "Slingshot",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://17672086502",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672063048"
+        },
+        ["Pixel Minigun"] = {
+            ["ItemName"] = "Minigun",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://18769001642",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766861798"
+        },
+        ["Ninja Star"] = {
+            ["Type"] = "Charm",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(136, 102, 0),
-                    ["MaterialVariant"] = ""
-                }
-            },
+            ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Hallow"] = {
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Unobtainable",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.05,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.1,
-                    ["Color"] = Color3.fromRGB(255, 119, 0),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Hidden"] = true,
-            ["Image"] = ""
-        },
-        ["Ocean Camo"] = {
-            ["Description"] = "Earned from an Uzi contract",
+        ["Black Granite"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -2703,127 +4450,85 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Ocean Camo"
+                    ["Color"] = Color3.fromRGB(223, 223, 222),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Black Granite"
                 },
                 {
                     ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(91, 93, 105),
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Black Granite"
+                },
+                {
+                    ["Transparency"] = 0.75,
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(17, 17, 17),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(108, 130, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Navy"] = {
-            ["Description"] = "Earned from a Scythe contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 18, 76),
-                    ["MaterialVariant"] = ""
                 }
             },
             ["Image"] = ""
         },
-        ["Beach"] = {
+        ["Nosnite"] = {
+            ["Description"] = "Earned by winning against @Nosniy",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Unobtainable",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(42, 157, 143),
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(187, 139, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Sensite"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(233, 196, 106),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Hidden"] = true,
-            ["Image"] = ""
-        },
-        ["Mischief"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Textures"] = "Mischief",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(53, 39, 94),
+                    ["Color"] = Color3.fromRGB(35, 8, 58),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(139, 131, 255), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(136, 114, 202), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
-        ["Moonstone"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
+        ["Cookie"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["Description"] = "Unboxed from the Charm Capsule",
+            ["Image"] = ""
+        },
+        ["Yin"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Yin Yang"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Moonstone"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Moonstone"
-                },
-                {["Color"] = Color3.fromRGB(146, 160, 190), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Webbed"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(117, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Webbed"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(27, 0, 0),
-                    ["Material"] = Enum.Material.Glass,
+                    ["Material"] = Enum.Material.Neon,
                     ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 69, 69), ["MaterialVariant"] = ""}
+                }
             },
             ["Image"] = ""
         },
@@ -2867,59 +4572,22 @@ data = {
             ["Description"] = "Unboxed from the Charm Capsule",
             ["Image"] = ""
         },
-        ["Chrome"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+        ["oPixel"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 1,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 1,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 1,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
+            ["DescriptionSpecific"] = "Earned by eliminating @oPixel with this weapon",
+            ["Description"] = "Earned by eliminating @oPixel with a weapon",
+            ["Type"] = "Charm"
         },
-        ["Paint"] = {
-            ["Description"] = "Included in the Starter Bundle",
-            ["Type"] = "Wrap",
+        ["RPKEY"] = {
+            ["ItemName"] = "RPG",
+            ["Type"] = "Skin",
             ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Paint"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.1,
-                    ["Color"] = Color3.fromRGB(212, 212, 212),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(212, 212, 212), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+            ["ImageHighResolution"] = "rbxassetid://18141221910",
+            ["ImageScale"] = 3,
+            ["Description"] = "Included in the Legendary Key Bundle",
+            ["Image"] = "rbxassetid://18141218104"
         },
         ["Forest Camo"] = {
             ["Description"] = "Earned from a Bow contract",
@@ -2970,83 +4638,37 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Potted Cactus"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Common",
+        ["DV"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
+            ["DescriptionSpecific"] = "Earned by eliminating @DVwastaken with this weapon",
+            ["Description"] = "Earned by eliminating @DVwastaken with a weapon",
+            ["Type"] = "Charm"
         },
-        ["Vile"] = {
-            ["Description"] = "Earned from an Exogun contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+        ["CarbonMeister"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(75, 35, 136),
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(101, 147, 49),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
+            ["DescriptionSpecific"] = "Earned by eliminating @CarbonMeister with this weapon",
+            ["Description"] = "Earned by eliminating @CarbonMeister with a weapon",
+            ["Type"] = "Charm"
         },
-        ["Malachite"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+        ["nekoanims"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Malachite"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(94, 255, 148), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+            ["DescriptionSpecific"] = "Earned by eliminating @nekoanims with this weapon",
+            ["Description"] = "Earned by eliminating @nekoanims with a weapon",
+            ["Type"] = "Charm"
         },
-        ["Blaze"] = {
-            ["Description"] = "Earned by winning 100 duels in a row",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+        ["Nosniy"] = {
+            ["Image"] = "",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Textures"] = "Blaze1",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 0, 0),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Textures"] = "Blaze2",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(154, 85, 32),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 106, 69), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+            ["DescriptionSpecific"] = "Earned by eliminating @Nosniy with this weapon",
+            ["Description"] = "Earned by eliminating @Nosniy with a weapon",
+            ["Type"] = "Charm"
         },
         ["Alpha Coin"] = {
             ["Type"] = "Charm",
@@ -3056,19 +4678,11 @@ data = {
             ["Hidden"] = true,
             ["Image"] = ""
         },
-        ["Lemon"] = {
-            ["Description"] = "Earned from an Uzi contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
+        ["Nosniy Games"] = {
+            ["Type"] = "Charm",
+            ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 230, 105),
-                    ["MaterialVariant"] = ""
-                }
-            },
+            ["Description"] = "Join the group (Nosniy Games)",
             ["Image"] = ""
         },
         ["Honeycomb"] = {
@@ -3095,27 +4709,18 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Lucre"] = {
-            ["Description"] = "Included in the Ultra Key Bundle",
+        ["Crimson"] = {
+            ["Description"] = "Earned from a Katana contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
+            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 213, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Wealth"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Wealth"
-                },
-                {["Color"] = Color3.fromRGB(255, 140, 73), ["MaterialVariant"] = ""}
+                    ["Color"] = Color3.fromRGB(75, 14, 14),
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
@@ -3143,29 +4748,14 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Plastic"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0.5,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0.5,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(255, 255, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+        ["Aqua Burst"] = {
+            ["ItemName"] = "Burst Rifle",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18769003108",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766866580"
         },
         ["Boxing Gloves"] = {
             ["ItemName"] = "Fists",
@@ -3176,16 +4766,31 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17672060486"
         },
-        ["Pink"] = {
-            ["Description"] = "Earned from a Molotov contract",
+        ["Chrome"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 60, 236),
+                    ["Reflectance"] = 1,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 1,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 1,
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
+                    ["Material"] = Enum.Material.SmoothPlastic,
                     ["MaterialVariant"] = ""
                 }
             },
@@ -3215,8 +4820,8 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Aurum"] = {
-            ["Description"] = "Included in the Medkit Bundle",
+        ["Thunderburst"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
@@ -3224,48 +4829,44 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(251, 255, 0),
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Aurum"
+                    ["MaterialVariant"] = "Thunderburst"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Aurum"
+                    ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(200, 160, 95), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(248, 187, 102),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
-        ["Black"] = {
-            ["Description"] = "Earned by reaching Level 99 on a weapon",
+        ["Sky"] = {
+            ["Description"] = "Earned from a Shorty contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["DescriptionSpecific"] = "Earned by reaching Level 99 on this weapon",
+            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["Color"] = Color3.fromRGB(135, 207, 255),
                     ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(0, 0, 0), ["MaterialVariant"] = ""}
+                }
             },
             ["Image"] = ""
         },
-        ["Crossed"] = {
-            ["Description"] = "Earned from a Freeze Ray contract",
+        ["Hesper"] = {
+            ["Description"] = "Earned from a Slingshot contract",
             ["Type"] = "Wrap",
             ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
@@ -3273,25 +4874,25 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 153, 255),
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Crossed"
+                    ["MaterialVariant"] = "Hesper"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 32, 54),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(11, 33, 48),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Hesper"
                 },
-                {["Color"] = Color3.fromRGB(76, 94, 255), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(255, 118, 76), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
-        ["Arctic Camo"] = {
-            ["Description"] = "Earned from a Burst Rifle contract",
+        ["Groove"] = {
+            ["Description"] = "Purchased from the Shop",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
@@ -3299,16 +4900,16 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Arctic Camo"
+                    ["MaterialVariant"] = "Groove"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(17, 17, 17),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Groove"
                 },
-                {["Color"] = Color3.fromRGB(154, 175, 194), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(255, 99, 99), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -3346,11 +4947,34 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17672062572"
         },
-        ["Mini Disco Ball"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Legendary",
+        ["Grass"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
             ["ImageScale"] = 1,
-            ["Description"] = "Included in the Standard Weapons Bundle",
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(205, 205, 205),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(223, 223, 222),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Grass1"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(138, 171, 133),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
             ["Image"] = ""
         },
         ["Balloon Shotgun"] = {
@@ -3362,40 +4986,10 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17821234823"
         },
-        ["Surge"] = {
-            ["Description"] = "Earned from a Grenade Launcher contract",
+        ["Hyperdrive"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(109, 25, 47),
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(23, 59, 111),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Chancla"] = {
-            ["ItemName"] = "Knife",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Common",
-            ["ImageHighResolution"] = "rbxassetid://17672089600",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672060795"
-        },
-        ["Hesper"] = {
-            ["Description"] = "Earned from a Slingshot contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
@@ -3403,16 +4997,76 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(248, 248, 248),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Hesper"
+                    ["MaterialVariant"] = "Hyperdrive"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(11, 33, 48),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Hesper"
+                    ["Color"] = Color3.fromRGB(143, 156, 173),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(255, 118, 76), ["MaterialVariant"] = ""}
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(159, 173, 192),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Titanium"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Common",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(205, 205, 205),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(248, 248, 248),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(171, 171, 171),
+                    ["Material"] = Enum.Material.Neon,
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Reptile"] = {
+            ["Description"] = "Earned from a Shotgun contract",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(103, 127, 51),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Reptile"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Reptile"
+                },
+                {["Color"] = Color3.fromRGB(146, 255, 106), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
@@ -3470,93 +5124,8 @@ data = {
             },
             ["Image"] = ""
         },
-        ["10 Gallon Hat"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["Description"] = "Unboxed from the Charm Capsule",
-            ["Image"] = ""
-        },
-        ["Glisten"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(4, 175, 236),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Glisten"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 88, 120),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Glisten"
-                },
-                {["Color"] = Color3.fromRGB(126, 154, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Rug"] = {
-            ["Description"] = "Earned from a Fists contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Rug"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(157, 157, 157),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(163, 163, 163), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Glass"] = {
-            ["Description"] = "Earned from a Grenade Launcher contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0.5,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Jean"] = {
-            ["Description"] = "Unboxed from the Wrap Box",
+        ["Orange"] = {
+            ["Description"] = "Earned from a Burst Rifle contract",
             ["Type"] = "Wrap",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
@@ -3564,35 +5133,83 @@ data = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 76, 255),
+                    ["Color"] = Color3.fromRGB(255, 110, 0),
                     ["MaterialVariant"] = ""
                 }
             },
             ["Image"] = ""
         },
-        ["Nosnite"] = {
-            ["Description"] = "Earned by winning against @Nosniy",
+        ["Amber"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Unique",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(187, 139, 255),
+                    ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Sensite"
+                    ["MaterialVariant"] = "Amber"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(35, 8, 58),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Amber"
                 },
-                {["Color"] = Color3.fromRGB(136, 114, 202), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(255, 158, 93), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
+        },
+        ["Studded"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Rare",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Studded"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Material"] = Enum.Material.Plastic,
+                    ["MaterialVariant"] = "Studded"
+                }
+            },
+            ["Image"] = ""
+        },
+        ["Goalpost"] = {
+            ["ItemName"] = "Slingshot",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://17672086378",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://17672063165"
+        },
+        ["Raven Bow"] = {
+            ["ItemName"] = "Bow",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Rare",
+            ["ImageHighResolution"] = "rbxassetid://18766905321",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766861627"
+        },
+        ["Too Shorty"] = {
+            ["ItemName"] = "Shorty",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Common",
+            ["ImageHighResolution"] = "rbxassetid://18129532343",
+            ["ImageScale"] = 3,
+            ["Description"] = "Included in the Starter Bundle",
+            ["Image"] = "rbxassetid://18129531276"
         },
         ["Nuke Launcher"] = {
             ["ItemName"] = "RPG",
@@ -3603,89 +5220,127 @@ data = {
             ["Description"] = "Unboxed from the Skin Case",
             ["Image"] = "rbxassetid://17672061995"
         },
-        ["Spartan"] = {
-            ["Description"] = "Earned from a Minigun contract",
+        ["Pixel Flamethrower"] = {
+            ["ItemName"] = "Flamethrower",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17771753119",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17771752104"
+        },
+        ["Scorched"] = {
+            ["Description"] = "Earned from a Flamethrower contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(24, 69, 59),
-                    ["MaterialVariant"] = ""
+                    ["Color"] = Color3.fromRGB(171, 171, 171),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Scorched"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["MaterialVariant"] = ""
-                }
+                    ["Color"] = Color3.fromRGB(43, 43, 43),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Scorched"
+                },
+                {["Color"] = Color3.fromRGB(255, 79, 25), ["MaterialVariant"] = ""}
             },
             ["Image"] = ""
         },
-        ["Bell"] = {
-            ["Type"] = "Charm",
-            ["Rarity"] = "Unique",
+        ["Hallow"] = {
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Unobtainable",
             ["ImageScale"] = 1,
-            ["Description"] = "Enable notifications for the game (Rivals)",
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.05,
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.1,
+                    ["Color"] = Color3.fromRGB(255, 119, 0),
+                    ["MaterialVariant"] = ""
+                }
+            },
+            ["Hidden"] = true,
             ["Image"] = ""
         },
-        ["Slime Gun"] = {
-            ["ItemName"] = "Paintball Gun",
+        ["Anchor"] = {
+            ["ItemName"] = "Scythe",
             ["Type"] = "Skin",
             ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://17672087561",
+            ["ImageHighResolution"] = "rbxassetid://18769023932",
             ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672062472"
+            ["Description"] = "Unboxed from the Skin Case 2",
+            ["Image"] = "rbxassetid://18766866743"
         },
-        ["Whoopee Cushion"] = {
-            ["ItemName"] = "Grenade",
-            ["Type"] = "Skin",
+        ["Arabesque"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
+            ["Type"] = "Wrap",
             ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17672086704",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17672062933"
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.2,
+                    ["Color"] = Color3.fromRGB(98, 77, 0),
+                    ["Material"] = Enum.Material.SmoothPlastic,
+                    ["MaterialVariant"] = "Arabesque"
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.4,
+                    ["Color"] = Color3.fromRGB(98, 77, 0),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {["Color"] = Color3.fromRGB(170, 154, 115), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
         },
-        ["Pixel Sniper"] = {
-            ["ItemName"] = "Sniper",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Legendary",
-            ["ImageHighResolution"] = "rbxassetid://17676083400",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17676081196"
-        },
-        ["Sky"] = {
-            ["Description"] = "Earned from a Shorty contract",
+        ["Copper"] = {
+            ["Description"] = "Unboxed from the Wrap Box 2",
             ["Type"] = "Wrap",
             ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(213, 115, 61),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0.3,
+                    ["Color"] = Color3.fromRGB(170, 85, 0),
+                    ["Material"] = Enum.Material.Glass,
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(135, 207, 255),
+                    ["Color"] = Color3.fromRGB(186, 143, 135),
+                    ["Material"] = Enum.Material.Neon,
                     ["MaterialVariant"] = ""
                 }
             },
             ["Image"] = ""
         },
-        ["Desert Eagle"] = {
-            ["ItemName"] = "Revolver",
-            ["Type"] = "Skin",
-            ["Rarity"] = "Rare",
-            ["ImageHighResolution"] = "rbxassetid://17821265603",
-            ["ImageScale"] = 3,
-            ["Description"] = "Unboxed from the Skin Case",
-            ["Image"] = "rbxassetid://17821234372"
-        },
-        ["Street Camo"] = {
-            ["Description"] = "Earned from a Revolver contract",
+        ["Malachite"] = {
+            ["Description"] = "Unboxed from the Wrap Box",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Legendary",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
@@ -3693,16 +5348,37 @@ data = {
                     ["Reflectance"] = 0,
                     ["Color"] = Color3.fromRGB(255, 255, 255),
                     ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Street Camo"
+                    ["MaterialVariant"] = "Malachite"
                 },
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(17, 17, 17),
+                    ["Color"] = Color3.fromRGB(0, 0, 0),
                     ["Material"] = Enum.Material.Glass,
                     ["MaterialVariant"] = ""
                 },
-                {["Color"] = Color3.fromRGB(180, 172, 112), ["MaterialVariant"] = ""}
+                {["Color"] = Color3.fromRGB(94, 255, 148), ["MaterialVariant"] = ""}
+            },
+            ["Image"] = ""
+        },
+        ["Beach"] = {
+            ["Description"] = "Purchased from the Shop",
+            ["Type"] = "Wrap",
+            ["Rarity"] = "Legendary",
+            ["ImageScale"] = 1,
+            ["WrapGroups"] = {
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(42, 157, 143),
+                    ["MaterialVariant"] = ""
+                },
+                {
+                    ["Transparency"] = 0,
+                    ["Reflectance"] = 0,
+                    ["Color"] = Color3.fromRGB(233, 196, 106),
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
@@ -3730,28 +5406,11 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Community"] = {
-            ["Description"] = "Earned by redeeming codes",
-            ["Type"] = "Wrap",
+        ["100M Visits"] = {
+            ["Type"] = "Charm",
             ["Rarity"] = "Unique",
             ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.1,
-                    ["Color"] = Color3.fromRGB(124, 17, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.1,
-                    ["Color"] = Color3.fromRGB(255, 213, 0),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(112, 181, 255), ["MaterialVariant"] = ""}
-            },
+            ["Description"] = "Earned by redeeming a code when the game (RIVALS) reached 100M visits",
             ["Image"] = ""
         },
         ["Trophy"] = {
@@ -3779,77 +5438,37 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Reptile"] = {
-            ["Description"] = "Earned from a Shotgun contract",
+        ["Emoji Cloud"] = {
+            ["ItemName"] = "Smoke Grenade",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17821265237",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17821234077"
+        },
+        ["Highlighter"] = {
+            ["Description"] = "Earned from a Knife contract",
             ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
+            ["Rarity"] = "Common",
             ["ImageScale"] = 1,
             ["WrapGroups"] = {
                 {
                     ["Transparency"] = 0,
                     ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(103, 127, 51),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Reptile"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 0, 0),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Reptile"
-                },
-                {["Color"] = Color3.fromRGB(146, 255, 106), ["MaterialVariant"] = ""}
+                    ["Color"] = Color3.fromRGB(192, 255, 57),
+                    ["MaterialVariant"] = ""
+                }
             },
             ["Image"] = ""
         },
-        ["Swirls"] = {
-            ["Description"] = "Earned from a RPG contract",
-            ["Type"] = "Wrap",
+        ["AUG"] = {
+            ["ItemName"] = "Assault Rifle",
+            ["Type"] = "Skin",
             ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(248, 248, 248),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Swirls"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(17, 17, 17),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(167, 167, 167), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Digital Camo"] = {
-            ["Description"] = "Earned from a Handgun contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Digital Camo"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(17, 17, 17),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(161, 161, 161), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+            ["ImageHighResolution"] = "rbxassetid://18770201102",
+            ["ImageScale"] = 3,
+            ["Image"] = "rbxassetid://18770192853"
         },
         ["Blobsaw"] = {
             ["ItemName"] = "Chainsaw",
@@ -3884,70 +5503,32 @@ data = {
             },
             ["Image"] = ""
         },
-        ["Blue"] = {
-            ["Description"] = "Earned from an Assault Rifle contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Common",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(0, 150, 255),
-                    ["MaterialVariant"] = ""
-                }
-            },
-            ["Image"] = ""
-        },
-        ["Frosted"] = {
-            ["Description"] = "Earned from a Scythe contract",
-            ["Type"] = "Wrap",
-            ["Rarity"] = "Rare",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.SmoothPlastic,
-                    ["MaterialVariant"] = "Frosted"
-                },
-                {
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0.4,
-                    ["Color"] = Color3.fromRGB(161, 239, 255),
-                    ["Material"] = Enum.Material.Glass,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(128, 163, 175), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
-        },
-        ["Supernova"] = {
-            ["Description"] = "Legendary drop from Daily Tasks",
-            ["Type"] = "Wrap",
+        ["Keythe"] = {
+            ["ItemName"] = "Scythe",
+            ["Type"] = "Skin",
             ["Rarity"] = "Legendary",
-            ["ImageScale"] = 1,
-            ["WrapGroups"] = {
-                {
-                    ["Textures"] = "Supernova",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {
-                    ["Textures"] = "Supernova",
-                    ["Transparency"] = 0,
-                    ["Reflectance"] = 0,
-                    ["Color"] = Color3.fromRGB(255, 255, 255),
-                    ["Material"] = Enum.Material.Neon,
-                    ["MaterialVariant"] = ""
-                },
-                {["Color"] = Color3.fromRGB(84, 246, 255), ["MaterialVariant"] = ""}
-            },
-            ["Image"] = ""
+            ["ImageHighResolution"] = "rbxassetid://18769023662",
+            ["ImageScale"] = 3,
+            ["Description"] = "Included in the Legendary Key Bundle",
+            ["Image"] = "rbxassetid://18766863124"
+        },
+        ["Sandwich"] = {
+            ["ItemName"] = "Medkit",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17838233196",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17838232333"
+        },
+        ["Whoopee Cushion"] = {
+            ["ItemName"] = "Grenade",
+            ["Type"] = "Skin",
+            ["Rarity"] = "Legendary",
+            ["ImageHighResolution"] = "rbxassetid://17672086704",
+            ["ImageScale"] = 3,
+            ["Description"] = "Unboxed from the Skin Case",
+            ["Image"] = "rbxassetid://17672062933"
         }
     },
     ["Types"] = {["Reward"] = {}, ["Wrap"] = {}, ["Charm"] = {}, ["Skin"] = {}}
