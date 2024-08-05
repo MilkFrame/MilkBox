@@ -22,12 +22,15 @@ data = {
         ["Pixel Flamethrower"] = {"rbxassetid://17772394725", "rbxassetid://17772394926"},
         ["RPKEY"] = {"rbxassetid://18179281854"},
         ["Boxing Gloves"] = {"rbxassetid://17650289572"},
+        ["Uranium Launcher"] = {"rbxassetid://18763746452"},
         ["Lasergun 3000"] = {
             "rbxassetid://17722581026",
             "rbxassetid://17722580791",
             "rbxassetid://17722580585",
             "rbxassetid://17722633119"
         },
+        ["Spring"] = {"rbxassetid://18763806953"},
+        ["Water Balloon"] = {"rbxassetid://18763690849"},
         ["Swashbuckler"] = {"rbxassetid://17812496122"},
         ["Nuke Launcher"] = {"rbxassetid://13455969017", "rbxassetid://17641561917"},
         ["Whoopee Cushion"] = {"rbxassetid://16924073325"},
@@ -48,7 +51,8 @@ data = {
         ["Molotov"] = {"rbxassetid://14812827622", "rbxassetid://14812827928", "rbxassetid://16812389263"}
     },
     ["AnimationSounds"] = {
-        ["fists_attack1"] = {"rbxassetid://13160401062"},
+        ["scythe_anchor_attack2"] = {"rbxassetid://18763594759"},
+        ["shotgun_inspect"] = {"rbxassetid://13158735106", "rbxassetid://13515046921", "rbxassetid://13515046988"},
         ["sniper_shoot1"] = {
             "rbxassetid://13455395090",
             "rbxassetid://13455395017",
@@ -56,7 +60,7 @@ data = {
             "rbxassetid://13270206087",
             "rbxassetid://13455394948"
         },
-        ["scythe_attack2"] = {"rbxassetid://14111617269"},
+        ["bow_shoot1"] = {"rbxassetid://13677205647", "rbxassetid://13677205578", "rbxassetid://13677205703"},
         ["grenade_inspect"] = {"rbxassetid://13158735106", "rbxassetid://13160326139"},
         ["burstrifle_reload"] = {
             "rbxassetid://13458222107",
@@ -100,29 +104,40 @@ data = {
             "rbxassetid://17640978498",
             "rbxassetid://14427935597"
         },
+        ["flaregun_dynamitegun_shoot1"] = {"rbxassetid://18763764974"},
         ["knife_inspect"] = {"rbxassetid://13158735106"},
         ["katana_deflect_idle"] = {"rbxassetid://14798337918", "rbxassetid://14776414315", "rbxassetid://14776413989"},
+        ["katana_lightningbolt_deflect4"] = {"rbxassetid://18763556154", "rbxassetid://14776437962"},
         ["grenadelauncher_inspect"] = {"rbxassetid://17274387490", "rbxassetid://13158735106"},
         ["assaultrifle_ak47_shoot1"] = {"rbxassetid://17662574783"},
         ["shotgun_balloonshotgun_inspect"] = {"rbxassetid://13158735106", "rbxassetid://17803360572"},
-        ["flaregun_shoot1"] = {
-            "rbxassetid://13169270373",
-            "rbxassetid://13245117702",
-            "rbxassetid://13245117413",
-            "rbxassetid://13169270306"
+        ["revolver_deserteagle_reload_empty"] = {
+            "rbxassetid://17247776127",
+            "rbxassetid://13158330666",
+            "rbxassetid://13158330555"
         },
         ["bow_equip"] = {"rbxassetid://13682183816"},
         ["assaultrifle_shoot1"] = {"rbxassetid://13087362838"},
         ["flaregun_reload"] = {"rbxassetid://13236026280", "rbxassetid://13235979356", "rbxassetid://13158330383"},
         ["knife_attack2"] = {"rbxassetid://13455968789"},
         ["uzi_reload"] = {"rbxassetid://13158330666", "rbxassetid://13158330555"},
-        ["burstrifle_shoot1"] = {"rbxassetid://13087362838"},
+        ["bow_charge_release"] = {
+            "rbxassetid://13677205647",
+            "rbxassetid://13677205578",
+            "rbxassetid://13682183816",
+            "rbxassetid://13677205703"
+        },
         ["flaregun_inspect"] = {"rbxassetid://13158735106"},
         ["shorty_reload"] = {"rbxassetid://13236026280", "rbxassetid://13235979356", "rbxassetid://13483008798"},
         ["revolver_deserteagle_shoot_final"] = {
             "rbxassetid://13158330479",
             "rbxassetid://17803630344",
             "rbxassetid://14417089307"
+        },
+        ["chainsaw_handsaws_attack1"] = {
+            "rbxassetid://13682898881",
+            "rbxassetid://13654455151",
+            "rbxassetid://13682223944"
         },
         ["grenadelauncher_equip"] = {"rbxassetid://17274369044"},
         ["katana_saber_deflect4"] = {"rbxassetid://17640978084"},
@@ -133,14 +148,27 @@ data = {
             "rbxassetid://13455968853",
             "rbxassetid://14000023392"
         },
-        ["shotgun_balloonshotgun_reload_finish"] = {"rbxassetid://17803360572"},
+        ["handgun_equip"] = {"rbxassetid://13158610792", "rbxassetid://13160400990"},
         ["medkit_sandwich_use_quick"] = {"rbxassetid://18128895977", "rbxassetid://18128896325"},
         ["medkit_use_quick"] = {"rbxassetid://13158735106", "rbxassetid://17123622923"},
+        ["shotgun_hypershotgun_shoot1"] = {
+            "rbxassetid://18763645670",
+            "rbxassetid://13531443905",
+            "rbxassetid://13515046921",
+            "rbxassetid://13515046988"
+        },
         ["katana_deflect2"] = {"rbxassetid://14776414133", "rbxassetid://14776437962"},
+        ["minigun_pixelminigun_equip"] = {"rbxassetid://17247639614"},
         ["rpg_inspect"] = {"rbxassetid://13158735106"},
+        ["chainsaw_handsaws_attack2"] = {
+            "rbxassetid://13682898881",
+            "rbxassetid://13654455151",
+            "rbxassetid://13682223944"
+        },
         ["shorty_reload_empty"] = {"rbxassetid://13236026280", "rbxassetid://13235979356", "rbxassetid://13483008798"},
         ["knife_heavyattack1"] = {"rbxassetid://13160400909"},
         ["burstrifle_electrorifle_shoot1"] = {"rbxassetid://17803231833"},
+        ["paintballgun_bobagun_shoot1"] = {"rbxassetid://17641356840", "rbxassetid://18763517194"},
         ["paintballgun_inspect"] = {"rbxassetid://13158735106"},
         ["grenade_throw_start_pinpull"] = {"rbxassetid://14522129645"},
         ["katana_inspect"] = {"rbxassetid://13158735106", "rbxassetid://14000093824"},
@@ -157,6 +185,13 @@ data = {
         },
         ["medkit_inspect"] = {"rbxassetid://13456860532", "rbxassetid://13160326139", "rbxassetid://13456860578"},
         ["grenade_lob_finish"] = {"rbxassetid://14522189766"},
+        ["knife_karambit_attack1"] = {"rbxassetid://13455968853"},
+        ["sniper_hypersniper_shoot1"] = {
+            "rbxassetid://13455395090",
+            "rbxassetid://13455394948",
+            "rbxassetid://13455395017",
+            "rbxassetid://18763645923"
+        },
         ["trowel_attack2"] = {"rbxassetid://17131614494"},
         ["sniper_equip"] = {"rbxassetid://13455394948"},
         ["handgun_blaster_shoot_final"] = {"rbxassetid://17803104424", "rbxassetid://13158330479"},
@@ -201,6 +236,7 @@ data = {
         ["shotgun_balloonshotgun_reload_empty_finish2"] = {"rbxassetid://17803360572"},
         ["revolver_deserteagle_shoot1"] = {"rbxassetid://17803630344", "rbxassetid://14417089307"},
         ["sniper_pixelsniper_reload"] = {"rbxassetid://17650945056"},
+        ["freezeray_inspect"] = {"rbxassetid://18429093191"},
         ["revolver_shoot1"] = {
             "rbxassetid://14417089046",
             "rbxassetid://14417089152",
@@ -208,6 +244,7 @@ data = {
             "rbxassetid://14417089307"
         },
         ["sniper_pixelsniper_equip"] = {"rbxassetid://17650837861"},
+        ["katana_lightningbolt_deflect1"] = {"rbxassetid://18763556154", "rbxassetid://14776437962"},
         ["sniper_pixelsniper_shoot1"] = {
             "rbxassetid://17650838003",
             "rbxassetid://17650837861",
@@ -215,14 +252,34 @@ data = {
             "rbxassetid://17650837718",
             "rbxassetid://17650964342"
         },
+        ["knife_karambit_attack2"] = {"rbxassetid://13455968789"},
         ["molotov_idle"] = {"rbxassetid://14812965418"},
         ["rpg_inspect_rare"] = {"rbxassetid://13456613343"},
+        ["sniper_reload_empty"] = {
+            "rbxassetid://13455229188",
+            "rbxassetid://13455229044",
+            "rbxassetid://13455395017",
+            "rbxassetid://13455394948",
+            "rbxassetid://13455395090"
+        },
         ["katana_deflect3"] = {"rbxassetid://14776414133", "rbxassetid://14776437962"},
         ["chainsaw_idle"] = {"rbxassetid://13646484249", "rbxassetid://13645858587", "rbxassetid://13646484113"},
+        ["chainsaw_attack2"] = {"rbxassetid://13682898881", "rbxassetid://13654455151", "rbxassetid://13682223944"},
         ["revolver_deserteagle_equip"] = {"rbxassetid://13158610792", "rbxassetid://13160400990"},
+        ["freezeray_shoot1"] = {"rbxassetid://18431054958"},
         ["trowel_attack1"] = {"rbxassetid://17131614494"},
-        ["katana_saber_deflect_idle"] = {"rbxassetid://17640978498", "rbxassetid://17641044986"},
+        ["assaultrifle_aug_shoot1"] = {"rbxassetid://18764343961", "rbxassetid://17662574783"},
+        ["chainsaw_attack1"] = {"rbxassetid://13682898881", "rbxassetid://13654455151", "rbxassetid://13682223944"},
+        ["revolver_reload_empty"] = {"rbxassetid://13483008798", "rbxassetid://14240943641", "rbxassetid://14240944327"},
+        ["flaregun_shoot1"] = {
+            "rbxassetid://13169270373",
+            "rbxassetid://13245117702",
+            "rbxassetid://13245117413",
+            "rbxassetid://13169270306"
+        },
         ["chainsaw_equip"] = {"rbxassetid://13645858825", "rbxassetid://13645858977"},
+        ["uzi_electrouzi_reload"] = {"rbxassetid://17803231630", "rbxassetid://17803231954", "rbxassetid://13158330666"},
+        ["scythe_attack2"] = {"rbxassetid://14111617269"},
         ["handgun_inspect"] = {
             "rbxassetid://13907558696",
             "rbxassetid://13907558634",
@@ -235,68 +292,6 @@ data = {
             "rbxassetid://13515046921",
             "rbxassetid://13515046988"
         },
-        ["shotgun_balloonshotgun_shoot1"] = {
-            "rbxassetid://17803360572",
-            "rbxassetid://17803368105",
-            "rbxassetid://17803308936"
-        },
-        ["katana_inspect_rare"] = {
-            "rbxassetid://14427782350",
-            "rbxassetid://14000023581",
-            "rbxassetid://14000023392",
-            "rbxassetid://14427935597"
-        },
-        ["katana_saber_equip"] = {"rbxassetid://17641562119"},
-        ["rpg_shoot1"] = {"rbxassetid://13455968895"},
-        ["handgun_equip"] = {"rbxassetid://13158610792", "rbxassetid://13160400990"},
-        ["handgun_blaster_shoot1"] = {"rbxassetid://17803104424"},
-        ["rpg_reload"] = {"rbxassetid://13456746075", "rbxassetid://13456746131"},
-        ["minigun_inspect"] = {"rbxassetid://17247639272", "rbxassetid://17247639614"},
-        ["sniper_reload_empty"] = {
-            "rbxassetid://13455229188",
-            "rbxassetid://13455229044",
-            "rbxassetid://13455395017",
-            "rbxassetid://13455394948",
-            "rbxassetid://13455395090"
-        },
-        ["handgun_shoot_final"] = {"rbxassetid://13158330479", "rbxassetid://13110197302"},
-        ["katana_attack1"] = {"rbxassetid://14000023581"},
-        ["katana_deflect5"] = {"rbxassetid://14776414133", "rbxassetid://14776437962"},
-        ["uzi_wateruzi_shoot1"] = {"rbxassetid://17812566721", "rbxassetid://17812566584", "rbxassetid://16526185100"},
-        ["revolver_deserteagle_reload_empty"] = {
-            "rbxassetid://17247776127",
-            "rbxassetid://13158330666",
-            "rbxassetid://13158330555"
-        },
-        ["grenadelauncher_reload"] = {
-            "rbxassetid://17274798693",
-            "rbxassetid://17274798406",
-            "rbxassetid://17274798538",
-            "rbxassetid://17274798198"
-        },
-        ["knife_inspect_rare"] = {"rbxassetid://13158735106", "rbxassetid://13169152449", "rbxassetid://13160400937"},
-        ["revolver_deserteagle_reload"] = {
-            "rbxassetid://13158330383",
-            "rbxassetid://13158330666",
-            "rbxassetid://13158330555"
-        },
-        ["flamethrower_inspect"] = {"rbxassetid://13158735106"},
-        ["exogun_singularity_equip"] = {"rbxassetid://17672502716"},
-        ["flamethrower_pixelflamethrower_inspect"] = {"rbxassetid://13158735106"},
-        ["exogun_singularity_reload"] = {"rbxassetid://17672502879"},
-        ["paintballgun_reload"] = {
-            "rbxassetid://17092563907",
-            "rbxassetid://17092564046",
-            "rbxassetid://17092563737",
-            "rbxassetid://13456860578",
-            "rbxassetid://14427935597"
-        },
-        ["sniper_inspect"] = {
-            "rbxassetid://13455229188",
-            "rbxassetid://13455229044",
-            "rbxassetid://13455394948",
-            "rbxassetid://13455395017"
-        },
         ["uzi_shoot1"] = {
             "rbxassetid://16397424081",
             "rbxassetid://16526184730",
@@ -308,38 +303,96 @@ data = {
             "rbxassetid://16526185100",
             "rbxassetid://13087362838"
         },
-        ["trowel_build"] = {},
-        ["bow_shoot1"] = {"rbxassetid://13677205647", "rbxassetid://13677205578", "rbxassetid://13677205703"},
-        ["trowel_inspect"] = {"rbxassetid://13160326139", "rbxassetid://13456860578", "rbxassetid://14427935597"},
-        ["sniper_pixelsniper_inspect"] = {"rbxassetid://17650837861", "rbxassetid://17650945056"},
-        ["exogun_shoot1"] = {"rbxassetid://17266070755"},
-        ["shotgun_inspect"] = {"rbxassetid://13158735106", "rbxassetid://13515046921", "rbxassetid://13515046988"},
-        ["bow_inspect"] = {"rbxassetid://13682532502"},
+        ["katana_lightningbolt_deflect3"] = {"rbxassetid://18763556154", "rbxassetid://14776437962"},
+        ["uzi_electrouzi_shoot1"] = {"rbxassetid://16397424081", "rbxassetid://16526184265", "rbxassetid://17803231833"},
+        ["shotgun_balloonshotgun_shoot1"] = {
+            "rbxassetid://17803360572",
+            "rbxassetid://17803368105",
+            "rbxassetid://17803308936"
+        },
+        ["burstrifle_shoot1"] = {"rbxassetid://13087362838"},
+        ["chainsaw_handsaws_idle"] = {
+            "rbxassetid://13646484249",
+            "rbxassetid://13645858587",
+            "rbxassetid://13646484113"
+        },
+        ["katana_inspect_rare"] = {
+            "rbxassetid://14427782350",
+            "rbxassetid://14000023581",
+            "rbxassetid://14000023392",
+            "rbxassetid://14427935597"
+        },
+        ["fists_attack1"] = {"rbxassetid://13160401062"},
+        ["freezeray_temporalray_shoot1"] = {"rbxassetid://18431054535"},
+        ["katana_saber_equip"] = {"rbxassetid://17641562119"},
+        ["rpg_shoot1"] = {"rbxassetid://13455968895"},
+        ["katana_saber_deflect_idle"] = {"rbxassetid://17640978498", "rbxassetid://17641044986"},
+        ["handgun_blaster_shoot1"] = {"rbxassetid://17803104424"},
         ["katana_saber_deflect2"] = {"rbxassetid://17640978084"},
+        ["minigun_inspect"] = {"rbxassetid://17247639272", "rbxassetid://17247639614"},
         ["shotgun_balloonshotgun_equip"] = {"rbxassetid://17803341029"},
-        ["paintballgun_slimegun_shoot1"] = {"rbxassetid://17641356840"},
-        ["katana_saber_inspect"] = {"rbxassetid://13158735106", "rbxassetid://17640978498"},
-        ["handgun_reload"] = {"rbxassetid://13158330383", "rbxassetid://13158330666", "rbxassetid://13158330555"},
-        ["katana_saber_deflect1"] = {"rbxassetid://17640978084"},
-        ["exogun_singularity_shoot1"] = {"rbxassetid://17672502566"},
-        ["bow_charge"] = {"rbxassetid://13682532502"},
-        ["katana_saber_attack2"] = {"rbxassetid://17640978271"},
-        ["katana_attack2"] = {"rbxassetid://14000023392"},
-        ["shotgun_reload_empty_finish2"] = {"rbxassetid://13515046921", "rbxassetid://13515046988"},
-        ["handgun_reload_empty"] = {"rbxassetid://17247776127", "rbxassetid://13158330666", "rbxassetid://13158330555"},
-        ["exogun_inspect"] = {"rbxassetid://13158735106"},
+        ["shotgun_balloonshotgun_reload_finish"] = {"rbxassetid://17803360572"},
+        ["katana_attack1"] = {"rbxassetid://14000023581"},
+        ["katana_deflect5"] = {"rbxassetid://14776414133", "rbxassetid://14776437962"},
+        ["uzi_wateruzi_shoot1"] = {"rbxassetid://17812566721", "rbxassetid://17812566584", "rbxassetid://16526185100"},
+        ["burstrifle_aquaburst_shoot1"] = {"rbxassetid://18763517194", "rbxassetid://13087362838"},
+        ["sniper_pixelsniper_inspect"] = {"rbxassetid://17650837861", "rbxassetid://17650945056"},
+        ["knife_inspect_rare"] = {"rbxassetid://13158735106", "rbxassetid://13169152449", "rbxassetid://13160400937"},
+        ["flamethrower_inspect"] = {"rbxassetid://13158735106"},
+        ["revolver_deserteagle_reload"] = {
+            "rbxassetid://13158330383",
+            "rbxassetid://13158330666",
+            "rbxassetid://13158330555"
+        },
+        ["bow_inspect"] = {"rbxassetid://13682532502"},
+        ["sniper_inspect"] = {
+            "rbxassetid://13455229188",
+            "rbxassetid://13455229044",
+            "rbxassetid://13455394948",
+            "rbxassetid://13455395017"
+        },
+        ["knife_karambit_heavyattack1"] = {"rbxassetid://13160400909"},
+        ["paintballgun_reload"] = {
+            "rbxassetid://17092563907",
+            "rbxassetid://17092564046",
+            "rbxassetid://17092563737",
+            "rbxassetid://13456860578",
+            "rbxassetid://14427935597"
+        },
         ["flaregun_equip"] = {"rbxassetid://13167874466", "rbxassetid://13158330383"},
-        ["chainsaw_attack1"] = {"rbxassetid://13682898881", "rbxassetid://13654455151", "rbxassetid://13682223944"},
-        ["revolver_reload_empty"] = {"rbxassetid://13483008798", "rbxassetid://14240943641", "rbxassetid://14240944327"},
+        ["exogun_singularity_reload"] = {"rbxassetid://17672502879"},
+        ["shotgun_reload_empty_finish2"] = {"rbxassetid://13515046921", "rbxassetid://13515046988"},
+        ["scythe_anchor_attack1"] = {"rbxassetid://18763594759"},
+        ["trowel_inspect"] = {"rbxassetid://13160326139", "rbxassetid://13456860578", "rbxassetid://14427935597"},
+        ["katana_lightningbolt_deflect2"] = {"rbxassetid://18763556154", "rbxassetid://14776437962"},
+        ["exogun_shoot1"] = {"rbxassetid://17266070755"},
+        ["exogun_singularity_equip"] = {"rbxassetid://17672502716"},
+        ["bow_charge"] = {"rbxassetid://13682532502"},
+        ["katana_saber_deflect1"] = {"rbxassetid://17640978084"},
+        ["katana_lightningbolt_deflect5"] = {"rbxassetid://18763556154", "rbxassetid://14776437962"},
+        ["minigun_pixelminigun_inspect"] = {"rbxassetid://17247639272", "rbxassetid://17247639614"},
+        ["handgun_shoot_final"] = {"rbxassetid://13158330479", "rbxassetid://13110197302"},
+        ["handgun_reload"] = {"rbxassetid://13158330383", "rbxassetid://13158330666", "rbxassetid://13158330555"},
+        ["katana_saber_attack2"] = {"rbxassetid://17640978271"},
+        ["exogun_singularity_shoot1"] = {"rbxassetid://17672502566"},
+        ["paintballgun_slimegun_shoot1"] = {"rbxassetid://17641356840"},
+        ["chainsaw_handsaws_equip"] = {"rbxassetid://13645858977"},
+        ["rpg_reload"] = {"rbxassetid://13456746075", "rbxassetid://13456746131"},
+        ["katana_attack2"] = {"rbxassetid://14000023392"},
+        ["grenadelauncher_reload"] = {
+            "rbxassetid://17274798693",
+            "rbxassetid://17274798406",
+            "rbxassetid://17274798538",
+            "rbxassetid://17274798198"
+        },
+        ["exogun_inspect"] = {"rbxassetid://13158735106"},
+        ["flamethrower_pixelflamethrower_inspect"] = {"rbxassetid://13158735106"},
+        ["trowel_build"] = {},
+        ["handgun_reload_empty"] = {"rbxassetid://17247776127", "rbxassetid://13158330666", "rbxassetid://13158330555"},
         ["shorty_inspect_rare"] = {"rbxassetid://13158735106", "rbxassetid://13456860578", "rbxassetid://13483008798"},
         ["burstrifle_inspect"] = {"rbxassetid://13158735106"},
-        ["bow_charge_release"] = {
-            "rbxassetid://13677205647",
-            "rbxassetid://13677205578",
-            "rbxassetid://13682183816",
-            "rbxassetid://13677205703"
-        },
-        ["chainsaw_attack2"] = {"rbxassetid://13682898881", "rbxassetid://13654455151", "rbxassetid://13682223944"},
+        ["katana_saber_inspect"] = {"rbxassetid://13158735106", "rbxassetid://17640978498"},
+        ["freezeray_equip"] = {"rbxassetid://18429138544"},
         ["revolver_inspect"] = {"rbxassetid://13483008798", "rbxassetid://13456860578", "rbxassetid://13158735106"},
         ["sniper_reload"] = {"rbxassetid://13455229188", "rbxassetid://13455229044"}
     },
@@ -351,7 +404,7 @@ data = {
         "rbxassetid://9276932285"
     },
     ["EliminationSounds"] = {"rbxassetid://16530229616", "rbxassetid://16530229541", "rbxassetid://16530229695"},
-    ["PreloadSounds"] = "function: 0xfff860ec9f219599",
+    ["PreloadSounds"] = "function: 0xa7d74fb325503e0e",
     ["AlwaysPreload"] = {
         {"rbxassetid://13158735106", "rbxassetid://13158734943", "rbxassetid://13158735037"},
         {"rbxassetid://16530229616", "rbxassetid://16530229541", "rbxassetid://16530229695"},
