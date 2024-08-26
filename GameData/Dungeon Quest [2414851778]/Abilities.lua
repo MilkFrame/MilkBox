@@ -1,1983 +1,895 @@
+--3rd commit: Tables have been condensed
 data = {
     ["Battle Shout"] = {
-        ["type"] = "ability",
+        ["name"] = "Battle Shout",
         ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 20,
-        ["buffPower"] = 1,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2621050486",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 20,
+        ["imageId"] = "rbxassetid://2621050486"
     },
     ["Shadow Void Spheres"] = {
-        ["type"] = "ability",
+        ["name"] = "Shadow Void Spheres",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 85,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734426882",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 4.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734426882"
     },
     ["Piercing Roots"] = {
-        ["type"] = "ability",
+        ["name"] = "Piercing Roots",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804342",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 10000
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804342"
     },
     ["Rift Beam"] = {
-        ["type"] = "ability",
+        ["name"] = "Rift Beam",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 8,
-        ["damage"] = 408,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917241",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 8,
+        ["imageId"] = "rbxassetid://15030917241"
     },
     ["Pulse Beam"] = {
-        ["type"] = "ability",
+        ["name"] = "Pulse Beam",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3.5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734488053",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1650
+        ["cooldown"] = 3.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734488053"
     },
     ["Rejuvenating Spray"] = {
-        ["type"] = "ability",
+        ["name"] = "Rejuvenating Spray",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 15,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923911030",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16493215570"
     },
     ["Enhanced Inner Rage"] = {
-        ["type"] = "ability",
+        ["name"] = "Enhanced Inner Rage",
         ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["buffPower"] = 0.9,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251638613",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251638613"
     },
     ["Inner Rage"] = {
-        ["type"] = "ability",
+        ["name"] = "Inner Rage",
         ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["buffPower"] = 0.8,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251638613",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251638613"
     },
     ["Runic Strike"] = {
-        ["type"] = "ability",
+        ["name"] = "Runic Strike",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484481774",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1850
+        ["cooldown"] = 2,
+        ["imageId"] = "rbxassetid://3484481774"
     },
     ["Void Spheres"] = {
-        ["type"] = "ability",
+        ["name"] = "Void Spheres",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 430,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734426882",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 4.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734426882"
     },
     ["Ice Totem"] = {
-        ["type"] = "ability",
+        ["name"] = "Ice Totem",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 10,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115157403",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 310
-    },
-    ["Searing Beam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 290,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923913298",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Water Orb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 8600,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207984172",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Energy Orb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 6500,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316892",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Mighty Leap"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3.5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734464505",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 2470
-    },
-    ["Earth Clap"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 2100,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276264186",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Universal Heal"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 14,
-        ["damage"] = 12,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985730059",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["God Spear"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623492807",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 13300
-    },
-    ["Ice Nova"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 225,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115157056",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Arcane Spray"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 9,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560889327",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Vortex"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2,
-        ["damage"] = 415,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484489695",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Orb Of Destruction"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 850,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4284635863",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Thunderous Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3,
-        ["damage"] = 900,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040146940",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Blade Storm"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 390,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484482431",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Lava Cage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251636715",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1680
-    },
-    ["Hand Cannon"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2.5,
-        ["damage"] = 1200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276263848",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Electric Slash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 7,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484482695",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1920
-    },
-    ["Rending Slice"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 7,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115155894",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 120
-    },
-    ["Ground Slam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2924294282",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1200
-    },
-    ["Egg Bomb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4752712991",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 650
-    },
-    ["Earth Kick"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2.5,
-        ["damage"] = 2200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484482939",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Slam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560888538",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 100
-    },
-    ["Molten Ball"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 2000,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4510338078",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Spinning Blade Smash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["damage"] = 14000,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030918001",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Phantom Blades"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734464926",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 580
-    },
-    ["Star Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 740,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111027727",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Agony Orbs"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804465",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 10700
-    },
-    ["Amethyst Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 8200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251636956",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Arcane Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 7,
-        ["levelReq"] = 1,
-        ["name"] = "Blue Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2859306211",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 120
-    },
-    ["Infernal Orbs"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115156166",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 220
-    },
-    ["Void Dragon"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["damage"] = 1838,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030916830",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Electric Field"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 1670,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316975",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Chain Phase Shock"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 3800,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6033269537",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Guardian Call"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 10,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985915527",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Amethyst Beams"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623492062",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 13300
-    },
-    ["Guardian Roar"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 10,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276266442",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Overcharge"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 885,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111034252",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Innervate"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 10,
-        ["buffPower"] = 1,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2621336370",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Skull Flames"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 10,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985729775",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 365
-    },
-    ["Gale Slice"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 7,
-        ["levelReq"] = 1,
-        ["name"] = "Blue Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2823986768",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 120
-    },
-    ["Redemption"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 16,
-        ["sellPrice"] = 10,
-        ["name"] = "Redemption",
-        ["imageId"] = "rbxassetid://15560888653",
-        ["abilityType"] = "heal",
-        ["healAmount"] = 30,
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Gale Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349313462",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 3966
-    },
-    ["Life Pulse"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 8.25,
-        ["damage"] = 25,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484490246",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Triple Blade Throw"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111028069",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 2100
-    },
-    ["Demonic Curse"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4510338450",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 460
-    },
-    ["Ice Spikes"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 9200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207984085",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Spirit Bomb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 3800,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734426616",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Enchanted Shuriken"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 1300,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276264470",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Lightning Burst"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804760",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 10700
-    },
-    ["Molten Shards"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251637482",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 7500
-    },
-    ["Blade Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623492658",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 13300
-    },
-    ["Aquatic Smite"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 9200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207983767",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Ice Crash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207983948",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 9200
-    },
-    ["Ice Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207983645",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 9200
-    },
-    ["Kunai Knives"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["damage"] = 1556,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917338",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Chain Lightning"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 3800,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4452299003",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Blade Throw"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040144692",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 620
-    },
-    ["Flame Cyclone"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 9,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276266137",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 260
-    },
-    ["Fungal Poison"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804603",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1670
-    },
-    ["Lava Beam Orb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 7500,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251637778",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Electric Grinder"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 1050,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4510338336",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Pulse Waves"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 550,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111027068",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Enchanted Spinning Blades"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 175,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985732294",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Forgotten Army"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484489972",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 410
-    },
-    ["Void Beam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 465,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040155194",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Chromatic Rain"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 610,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111033824",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Triple Quake"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["damage"] = 4900,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917018",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Demonic Strike"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985732756",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 550
-    },
-    ["Phantom Flames"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 10,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4318579122",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 365
-    },
-    ["Tsunami"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484489072",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 2950
-    },
-    ["Haunted Energy Orb"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3,
-        ["damage"] = 450,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316892",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Infernal Strike"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 7,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115156596",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 490
-    },
-    ["Guardian's Blessing"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 14,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040146215",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Soul Drain"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349313894",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1983
-    },
-    ["Explosive Punch"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://14224858430",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 3700
-    },
-    ["Glacial Blows"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Blue Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040144363",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 420
-    },
-    ["Solar Beam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623520034",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 6300
-    },
-    ["Haunted Lava Cage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251636715",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 850
-    },
-    ["Dark Earth Spikes"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734464227",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 850
-    },
-    ["Dark Rending Slice"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115155894",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 850
-    },
-    ["Phase Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6033269289",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 2080
-    },
-    ["Inner Focus"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["buffPower"] = 0.8,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251638369",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Spirit Link"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["duration"] = 10,
-        ["damage"] = 1,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917119",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Whirlwind"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560888376",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 100
-    },
-    ["Ghostly Rampage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276264842",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 510
-    },
-    ["Hands of Death"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 14,
-        ["duration"] = 10,
-        ["damage"] = 7350,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917435",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Revitalize"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 8,
-        ["damage"] = 50,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874805273",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Ice Needles"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 160,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923911770",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Chained Energy Blasts"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111034625",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1100
-    },
-    ["Jade Roller"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623492525",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 12600
-    },
-    ["Lightning Beam"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 250,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923912159",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Taunting Aura"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 10,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923909998",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Twin Slash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4510338216",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 1100
-    },
-    ["Chain Storm"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 6,
-        ["damage"] = 14000,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15030917545",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Aura of Life"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 12,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923911354",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Yokai Transformation"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["imageId"] = "rbxassetid://15030916693",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["duration"] = 15,
-        ["damage"] = 160,
-        ["buffPower"] = 50,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["shieldPercent"] = 2,
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Carrot Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 790,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4864111335",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Enhanced Inner Focus"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["buffPower"] = 0.9,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251638369",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Geyser"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 11900,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349314058",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Blade Fall"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251637214",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 8200
-    },
-    ["Pulsefire"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 9,
-        ["damage"] = 170,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985730646",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Demonic Spikes"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 9,
-        ["damage"] = 226,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3115156334",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Crystalline Cannon"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804900",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 10700
-    },
-    ["Illusion Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 8,
-        ["damage"] = 950,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276265175",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Arrow Rain"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111026362",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 350
-    },
-    ["Smite"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["damage"] = 2500,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734463726",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Arrow Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4452299440",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 4000
-    },
-    ["Icicle Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 1650,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484488104",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Blade Revolver"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 570,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3484481154",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Mystery Matter"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 2045,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316551",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Lava Lash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276265493",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 870
-    },
-    ["Ghostly Cannon Barrage"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 10,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2985731919",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 230
-    },
-    ["Jade Rain"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 13300,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://11623492208",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Poison Cloud"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 9,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560888750",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 220
-    },
-    ["Life Dash"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6.5,
-        ["damage"] = 25,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111026739",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Ground Stomp"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4452299205",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 3200
-    },
-    ["Wind Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://6874804146",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 10700
-    },
-    ["Flame Strike"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["damage"] = 11200,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349313743",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Concussive Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207983948",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 9200
-    },
-    ["Fireball"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 2,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560889056",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 200
-    },
-    ["Frost Cone"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349313309",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 11200
-    },
-    ["Explosive Mine"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316807",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 5300
-    },
-    ["Infernal Blast"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 4350,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4452299619",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    },
-    ["Spear Strike"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=6207983856",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 8600
-    },
-    ["Piercing Rain"] = {
-        ["type"] = "ability",
-        ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 150,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923912884",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 10,
+        ["imageId"] = "rbxassetid://3115157403"
     },
     ["Fire Bomb"] = {
-        ["type"] = "ability",
+        ["name"] = "Fire Bomb",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 1650,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2923910451",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16493216357"
     },
+    ["Water Orb"] = {
+        ["name"] = "Water Orb",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207984172"
+    },
+    ["Energy Orb"] = {
+        ["name"] = "Energy Orb",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316892"
+    },
+    ["Mighty Leap"] = {
+        ["name"] = "Mighty Leap",
+        ["rarity"] = "common",
+        ["cooldown"] = 3.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734464505"
+    },
+    ["Earth Clap"] = {
+        ["name"] = "Earth Clap",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3276264186"
+    },
+    ["Universal Heal"] = {
+        ["name"] = "Universal Heal",
+        ["rarity"] = "common",
+        ["cooldown"] = 14,
+        ["imageId"] = "rbxassetid://2985730059"
+    },
+    ["God Spear"] = {
+        ["name"] = "God Spear",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623492807"
+    },
+    ["Life Dash"] = {
+        ["name"] = "Life Dash",
+        ["rarity"] = "common",
+        ["cooldown"] = 6.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111026739"
+    },
+    ["Spear Strike"] = {
+        ["name"] = "Spear Strike",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207983856"
+    },
+    ["Vortex"] = {["name"] = "Vortex", ["rarity"] = "common", ["cooldown"] = 2, ["imageId"] = "rbxassetid://3484489695"},
     ["Starfall"] = {
-        ["type"] = "ability",
+        ["name"] = "Starfall",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 3800,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4111027423",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111027423"
     },
-    ["Berserk"] = {
-        ["type"] = "ability",
+    ["Thunderous Blast"] = {
+        ["name"] = "Thunderous Blast",
         ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Blue Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3276265847",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 260
+        ["cooldown"] = 3,
+        ["imageId"] = "rbxassetid://3040146940"
     },
-    ["Holy Barrier"] = {
-        ["currentUpgrade"] = 0,
+    ["Blade Storm"] = {
+        ["name"] = "Blade Storm",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 15,
-        ["type"] = "ability",
-        ["sellPrice"] = 10,
-        ["maxUpgrades"] = 0,
-        ["name"] = "Absorb",
-        ["levelReq"] = 1,
-        ["imageId"] = "rbxassetid://2610744829",
-        ["abilityType"] = "shield",
-        ["cooldown"] = 0,
-        ["damage"] = 50
+        ["cooldown"] = 4,
+        ["imageId"] = "rbxassetid://3484482431"
     },
-    ["Lava Barrage"] = {
-        ["type"] = "ability",
+    ["Lava Cage"] = {
+        ["name"] = "Lava Cage",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=5251638063",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 2080
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251636715"
     },
-    ["Taunt"] = {
-        ["type"] = "ability",
+    ["Hand Cannon"] = {
+        ["name"] = "Hand Cannon",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 8,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://2614310269",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 2.5,
+        ["imageId"] = "rbxassetid://3276263848"
     },
-    ["Focus Beam"] = {
-        ["type"] = "ability",
+    ["Electric Slash"] = {
+        ["name"] = "Electric Slash",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316615",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 4700
+        ["cooldown"] = 7,
+        ["imageId"] = "rbxassetid://3484482695"
     },
-    ["Haunted Phantom Striker"] = {
-        ["type"] = "ability",
+    ["Rending Slice"] = {
+        ["name"] = "Rending Slice",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 850,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734463449",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 7,
+        ["imageId"] = "rbxassetid://3115155894"
     },
-    ["Vortex Grenade"] = {
-        ["type"] = "ability",
+    ["Ground Slam"] = {
+        ["name"] = "Ground Slam",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 5,
-        ["damage"] = 1250,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=4626316715",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 4,
+        ["imageId"] = "rbxassetid://16493216164"
     },
-    ["Holy Circle"] = {
-        ["currentUpgrade"] = 0,
+    ["Egg Bomb"] = {
+        ["name"] = "Egg Bomb",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 20,
-        ["type"] = "ability",
-        ["sellPrice"] = 10,
-        ["maxUpgrades"] = 0,
-        ["name"] = "Redemption",
-        ["levelReq"] = 1,
-        ["imageId"] = "rbxassetid://15560888972",
-        ["abilityType"] = "heal",
-        ["cooldown"] = 0,
-        ["damage"] = 10
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4752712991"
     },
-    ["Flame Shuriken"] = {
-        ["type"] = "ability",
+    ["Earth Kick"] = {
+        ["name"] = "Earth Kick",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 6,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://8349313620",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 11900
+        ["cooldown"] = 2.5,
+        ["imageId"] = "rbxassetid://3484482939"
     },
-    ["Earth Spikes"] = {
-        ["type"] = "ability",
+    ["Slam"] = {["name"] = "Slam", ["rarity"] = "common", ["cooldown"] = 6, ["imageId"] = "rbxassetid://15560888538"},
+    ["Molten Ball"] = {
+        ["name"] = "Molten Ball",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 4,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734464227",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 3200
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4510338078"
     },
-    ["Lightning Strikes"] = {
-        ["type"] = "ability",
+    ["Spinning Blade Smash"] = {
+        ["name"] = "Spinning Blade Smash",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 3.5,
-        ["levelReq"] = 1,
-        ["name"] = "Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560888867",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 520
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030918001"
     },
-    ["Electric Boom"] = {
-        ["type"] = "ability",
+    ["Phantom Blades"] = {
+        ["name"] = "Phantom Blades",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 9,
-        ["damage"] = 425,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040145096",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734464926"
     },
-    ["Blue Fireball"] = {
-        ["type"] = "ability",
+    ["Star Barrage"] = {
+        ["name"] = "Star Barrage",
         ["rarity"] = "common",
-        ["abilitySlot"] = "e",
-        ["cooldownLength"] = 2,
-        ["levelReq"] = 1,
-        ["name"] = "Blue Fireball",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://15560889152",
-        ["abilityType"] = "spell",
-        ["cooldown"] = 0,
-        ["damage"] = 275
+        ["cooldown"] = 4.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111027727"
+    },
+    ["Agony Orbs"] = {
+        ["name"] = "Agony Orbs",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804465"
+    },
+    ["Amethyst Blast"] = {
+        ["name"] = "Amethyst Blast",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251636956"
+    },
+    ["Yokai Transformation"] = {
+        ["name"] = "Yokai Transformation",
+        ["rarity"] = "common",
+        ["cooldown"] = 4.5,
+        ["imageId"] = "rbxassetid://15030916693"
+    },
+    ["Infernal Orbs"] = {
+        ["name"] = "Infernal Orbs",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3115156166"
+    },
+    ["Void Dragon"] = {
+        ["name"] = "Void Dragon",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030916830"
+    },
+    ["Spirit Link"] = {
+        ["name"] = "Spirit Link",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030917119"
+    },
+    ["Chain Phase Shock"] = {
+        ["name"] = "Chain Phase Shock",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6033269537"
+    },
+    ["Guardian Call"] = {
+        ["name"] = "Guardian Call",
+        ["rarity"] = "common",
+        ["cooldown"] = 10,
+        ["imageId"] = "rbxassetid://2985915527"
+    },
+    ["Amethyst Beams"] = {
+        ["name"] = "Amethyst Beams",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623492062"
+    },
+    ["Guardian Roar"] = {
+        ["name"] = "Guardian Roar",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3276266442"
+    },
+    ["Overcharge"] = {
+        ["name"] = "Overcharge",
+        ["rarity"] = "common",
+        ["cooldown"] = 3,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111034252"
+    },
+    ["Innervate"] = {
+        ["name"] = "Innervate",
+        ["rarity"] = "common",
+        ["cooldown"] = 10,
+        ["imageId"] = "rbxassetid://2621336370"
+    },
+    ["Skull Flames"] = {
+        ["name"] = "Skull Flames",
+        ["rarity"] = "common",
+        ["cooldown"] = 10,
+        ["imageId"] = "rbxassetid://2985729775"
+    },
+    ["Gale Slice"] = {
+        ["name"] = "Gale Slice",
+        ["rarity"] = "common",
+        ["cooldown"] = 7,
+        ["imageId"] = "rbxassetid://16580466449"
+    },
+    ["Lava Lash"] = {
+        ["name"] = "Lava Lash",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "rbxassetid://3276265493"
+    },
+    ["Gale Barrage"] = {
+        ["name"] = "Gale Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://8349313462"
+    },
+    ["Life Pulse"] = {
+        ["name"] = "Life Pulse",
+        ["rarity"] = "common",
+        ["cooldown"] = 8.25,
+        ["imageId"] = "rbxassetid://3484490246"
+    },
+    ["Triple Blade Throw"] = {
+        ["name"] = "Triple Blade Throw",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111028069"
+    },
+    ["Demonic Curse"] = {
+        ["name"] = "Demonic Curse",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4510338450"
+    },
+    ["Ice Spikes"] = {
+        ["name"] = "Ice Spikes",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207984085"
+    },
+    ["Spirit Bomb"] = {
+        ["name"] = "Spirit Bomb",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "rbxassetid://16883951358"
+    },
+    ["Enchanted Shuriken"] = {
+        ["name"] = "Enchanted Shuriken",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3276264470"
+    },
+    ["Lightning Burst"] = {
+        ["name"] = "Lightning Burst",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804760"
+    },
+    ["Molten Shards"] = {
+        ["name"] = "Molten Shards",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251637482"
+    },
+    ["Blade Barrage"] = {
+        ["name"] = "Blade Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623492658"
+    },
+    ["Aquatic Smite"] = {
+        ["name"] = "Aquatic Smite",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207983767"
+    },
+    ["Ice Crash"] = {
+        ["name"] = "Ice Crash",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207983948"
+    },
+    ["Ice Barrage"] = {
+        ["name"] = "Ice Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207983645"
+    },
+    ["Kunai Knives"] = {
+        ["name"] = "Kunai Knives",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030917338"
+    },
+    ["Chain Lightning"] = {
+        ["name"] = "Chain Lightning",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4452299003"
+    },
+    ["Blade Throw"] = {
+        ["name"] = "Blade Throw",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3040144692"
+    },
+    ["Flame Cyclone"] = {
+        ["name"] = "Flame Cyclone",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3276266137"
+    },
+    ["Fungal Poison"] = {
+        ["name"] = "Fungal Poison",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804603"
+    },
+    ["Lava Beam Orb"] = {
+        ["name"] = "Lava Beam Orb",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251637778"
+    },
+    ["Electric Grinder"] = {
+        ["name"] = "Electric Grinder",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4510338336"
+    },
+    ["Infernal Blast"] = {
+        ["name"] = "Infernal Blast",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4452299619"
+    },
+    ["Enchanted Spinning Blades"] = {
+        ["name"] = "Enchanted Spinning Blades",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://2985732294"
+    },
+    ["Forgotten Army"] = {
+        ["name"] = "Forgotten Army",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3484489972"
+    },
+    ["Void Beam"] = {
+        ["name"] = "Void Beam",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3040155194"
+    },
+    ["Chromatic Rain"] = {
+        ["name"] = "Chromatic Rain",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111033824"
+    },
+    ["Triple Quake"] = {
+        ["name"] = "Triple Quake",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030917018"
+    },
+    ["Demonic Strike"] = {
+        ["name"] = "Demonic Strike",
+        ["rarity"] = "common",
+        ["cooldown"] = 3,
+        ["imageId"] = "rbxassetid://2985732756"
+    },
+    ["Phantom Flames"] = {
+        ["name"] = "Phantom Flames",
+        ["rarity"] = "common",
+        ["cooldown"] = 10,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4318579122"
+    },
+    ["Tsunami"] = {
+        ["name"] = "Tsunami",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3484489072"
     },
     ["Chain Heal"] = {
-        ["type"] = "ability",
+        ["name"] = "Chain Heal",
         ["rarity"] = "common",
-        ["abilitySlot"] = "",
-        ["cooldownLength"] = 6,
-        ["heal"] = 70,
-        ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "rbxassetid://3040144898",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://3040144898"
+    },
+    ["Infernal Strike"] = {
+        ["name"] = "Infernal Strike",
+        ["rarity"] = "common",
+        ["cooldown"] = 7,
+        ["imageId"] = "rbxassetid://3115156596"
+    },
+    ["Guardian's Blessing"] = {
+        ["name"] = "Guardian's Blessing",
+        ["rarity"] = "common",
+        ["cooldown"] = 14,
+        ["imageId"] = "rbxassetid://3040146215"
+    },
+    ["Soul Drain"] = {
+        ["name"] = "Soul Drain",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://8349313894"
+    },
+    ["Holy Barrier"] = {
+        ["name"] = "Holy Barrier",
+        ["rarity"] = "common",
+        ["cooldown"] = 15,
+        ["imageId"] = "rbxassetid://2610744829"
+    },
+    ["Focus Beam"] = {
+        ["name"] = "Focus Beam",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316615"
+    },
+    ["Solar Beam"] = {
+        ["name"] = "Solar Beam",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623520034"
+    },
+    ["Flame Shuriken"] = {
+        ["name"] = "Flame Shuriken",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://8349313620"
+    },
+    ["Aura of Life"] = {
+        ["name"] = "Aura of Life",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16493216563"
+    },
+    ["Electric Field"] = {
+        ["name"] = "Electric Field",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316975"
+    },
+    ["Phase Barrage"] = {
+        ["name"] = "Phase Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6033269289"
+    },
+    ["Inner Focus"] = {
+        ["name"] = "Inner Focus",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251638369"
+    },
+    ["Taunt"] = {["name"] = "Taunt", ["rarity"] = "common", ["cooldown"] = 8, ["imageId"] = "rbxassetid://2614310269"},
+    ["Glacial Blows"] = {
+        ["name"] = "Glacial Blows",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "rbxassetid://3040144363"
+    },
+    ["Ghostly Rampage"] = {
+        ["name"] = "Ghostly Rampage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://3276264842"
+    },
+    ["Berserk"] = {
+        ["name"] = "Berserk",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "rbxassetid://3276265847"
+    },
+    ["Revitalize"] = {
+        ["name"] = "Revitalize",
+        ["rarity"] = "common",
+        ["cooldown"] = 8,
+        ["imageId"] = "rbxassetid://6874805273"
+    },
+    ["Ice Needles"] = {
+        ["name"] = "Ice Needles",
+        ["rarity"] = "common",
+        ["cooldown"] = 4.5,
+        ["imageId"] = "rbxassetid://16493215955"
+    },
+    ["Chained Energy Blasts"] = {
+        ["name"] = "Chained Energy Blasts",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111034625"
+    },
+    ["Jade Roller"] = {
+        ["name"] = "Jade Roller",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623492525"
+    },
+    ["Lightning Beam"] = {
+        ["name"] = "Lightning Beam",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16580466158"
+    },
+    ["Taunting Aura"] = {
+        ["name"] = "Taunting Aura",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16493215450"
+    },
+    ["Twin Slash"] = {
+        ["name"] = "Twin Slash",
+        ["rarity"] = "common",
+        ["cooldown"] = 2,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4510338216"
+    },
+    ["Blade Fall"] = {
+        ["name"] = "Blade Fall",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251637214"
+    },
+    ["Holy Circle"] = {
+        ["name"] = "Holy Circle",
+        ["rarity"] = "common",
+        ["cooldown"] = 20,
+        ["imageId"] = "rbxassetid://15560888972"
+    },
+    ["Searing Beam"] = {
+        ["name"] = "Searing Beam",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16580465834"
+    },
+    ["Haunted Energy Orb"] = {
+        ["name"] = "Haunted Energy Orb",
+        ["rarity"] = "common",
+        ["cooldown"] = 3,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316892"
+    },
+    ["Enhanced Inner Focus"] = {
+        ["name"] = "Enhanced Inner Focus",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251638369"
+    },
+    ["Electric Boom"] = {
+        ["name"] = "Electric Boom",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3040145096"
+    },
+    ["Carrot Barrage"] = {
+        ["name"] = "Carrot Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4864111335"
+    },
+    ["Ghostly Cannon Barrage"] = {
+        ["name"] = "Ghostly Cannon Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 10,
+        ["imageId"] = "rbxassetid://2985731919"
+    },
+    ["Demonic Spikes"] = {
+        ["name"] = "Demonic Spikes",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3115156334"
+    },
+    ["Arcane Spray"] = {
+        ["name"] = "Arcane Spray",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://15560889327"
+    },
+    ["Illusion Blast"] = {
+        ["name"] = "Illusion Blast",
+        ["rarity"] = "common",
+        ["cooldown"] = 8,
+        ["imageId"] = "rbxassetid://3276265175"
+    },
+    ["Arrow Rain"] = {
+        ["name"] = "Arrow Rain",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111026362"
+    },
+    ["Smite"] = {
+        ["name"] = "Smite",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734463726"
+    },
+    ["Arrow Barrage"] = {
+        ["name"] = "Arrow Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4452299440"
+    },
+    ["Icicle Barrage"] = {
+        ["name"] = "Icicle Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://3484488104"
+    },
+    ["Blade Revolver"] = {
+        ["name"] = "Blade Revolver",
+        ["rarity"] = "common",
+        ["cooldown"] = 4.5,
+        ["imageId"] = "rbxassetid://3484481154"
+    },
+    ["Pulse Waves"] = {
+        ["name"] = "Pulse Waves",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4111027068"
+    },
+    ["Redemption"] = {
+        ["name"] = "Redemption",
+        ["rarity"] = "common",
+        ["cooldown"] = 16,
+        ["imageId"] = "rbxassetid://15560888653"
     },
     ["Phantom Striker"] = {
-        ["type"] = "ability",
+        ["name"] = "Phantom Striker",
         ["rarity"] = "common",
-        ["abilitySlot"] = "q",
-        ["cooldownLength"] = 4.5,
-        ["damage"] = 680,
+        ["cooldown"] = 4.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734463449"
+    },
+    ["Orb Of Destruction"] = {
+        ["name"] = "Orb Of Destruction",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4284635863"
+    },
+    ["Vortex Grenade"] = {
+        ["name"] = "Vortex Grenade",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316715"
+    },
+    ["Piercing Rain"] = {
+        ["name"] = "Piercing Rain",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://16493215744"
+    },
+    ["Ground Stomp"] = {
+        ["name"] = "Ground Stomp",
+        ["rarity"] = "common",
+        ["cooldown"] = 3,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4452299205"
+    },
+    ["Wind Blast"] = {
+        ["name"] = "Wind Blast",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804146"
+    },
+    ["Concussive Blast"] = {
+        ["name"] = "Concussive Blast",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=6207983948"
+    },
+    ["Jade Rain"] = {
+        ["name"] = "Jade Rain",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://11623492208"
+    },
+    ["Earth Spikes"] = {
+        ["name"] = "Earth Spikes",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734464227"
+    },
+    ["Pulsefire"] = {
+        ["name"] = "Pulsefire",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://2985730646"
+    },
+    ["Explosive Mine"] = {
+        ["name"] = "Explosive Mine",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316807"
+    },
+    ["Dark Earth Spikes"] = {
+        ["name"] = "Dark Earth Spikes",
+        ["rarity"] = "common",
+        ["cooldown"] = 4,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734464227"
+    },
+    ["Frost Cone"] = {
+        ["name"] = "Frost Cone",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=8349313309"
+    },
+    ["Flame Strike"] = {
+        ["name"] = "Flame Strike",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://8349313743"
+    },
+    ["Lava Barrage"] = {
+        ["name"] = "Lava Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251638063"
+    },
+    ["Whirlwind"] = {
+        ["name"] = "Whirlwind",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15560888376"
+    },
+    ["Hands of Death"] = {
+        ["name"] = "Hands of Death",
+        ["rarity"] = "common",
+        ["cooldown"] = 14,
+        ["imageId"] = "rbxassetid://15030917435"
+    },
+    ["Ice Nova"] = {
+        ["name"] = "Ice Nova",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://3115157056"
+    },
+    ["Lightning Strikes"] = {
+        ["name"] = "Lightning Strikes",
+        ["rarity"] = "common",
+        ["cooldown"] = 3.5,
+        ["imageId"] = "rbxassetid://15560888867"
+    },
+    ["Crystalline Cannon"] = {
+        ["name"] = "Crystalline Cannon",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://6874804900"
+    },
+    ["Explosive Punch"] = {
+        ["name"] = "Explosive Punch",
+        ["rarity"] = "common",
+        ["cooldown"] = 3,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4284636463"
+    },
+    ["Haunted Phantom Striker"] = {
+        ["name"] = "Haunted Phantom Striker",
+        ["rarity"] = "common",
+        ["cooldown"] = 4.5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=3734463449"
+    },
+    ["Poison Cloud"] = {
+        ["name"] = "Poison Cloud",
+        ["rarity"] = "common",
+        ["cooldown"] = 9,
+        ["imageId"] = "rbxassetid://15560888750"
+    },
+    ["Dark Rending Slice"] = {
+        ["name"] = "Dark Rending Slice",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://3115155894"
+    },
+    ["Haunted Lava Cage"] = {
+        ["name"] = "Haunted Lava Cage",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "http://www.roblox.com/asset/?id=5251636715"
+    },
+    ["Arcane Barrage"] = {
+        ["name"] = "Arcane Barrage",
+        ["rarity"] = "common",
+        ["cooldown"] = 7,
+        ["imageId"] = "rbxassetid://16580466857"
+    },
+    ["Mystery Matter"] = {
+        ["name"] = "Mystery Matter",
+        ["rarity"] = "common",
+        ["cooldown"] = 5,
+        ["imageId"] = "http://www.roblox.com/asset/?id=4626316551"
+    },
+    ["Chain Storm"] = {
+        ["name"] = "Chain Storm",
+        ["rarity"] = "common",
+        ["cooldown"] = 6,
+        ["imageId"] = "rbxassetid://15030917545"
+    },
+    ["Blue Fireball"] = {
+        ["name"] = "Blue Fireball",
+        ["rarity"] = "common",
+        ["cooldown"] = 2,
+        ["imageId"] = "rbxassetid://15560889152"
+    },
+    ["Fireball"] = {
         ["name"] = "Fireball",
-        ["abilityType"] = "spell",
-        ["sellPrice"] = 10,
-        ["imageId"] = "http://www.roblox.com/asset/?id=3734463449",
-        ["cooldown"] = 0,
-        ["levelReq"] = 1
-    }
+        ["rarity"] = "common",
+        ["cooldown"] = 2,
+        ["imageId"] = "rbxassetid://15560889056"
+    },
+    ["Geyser"] = {["name"] = "Geyser", ["rarity"] = "common", ["cooldown"] = 6, ["imageId"] = "rbxassetid://8349314058"}
 }
