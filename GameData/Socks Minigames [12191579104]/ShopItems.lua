@@ -56,6 +56,12 @@ data = {
             ["Icon"] = "rbxassetid://15289516424",
             ["DisplayName"] = "Challenger"
         },
+        ["FashionChest"] = {
+            ["Price"] = 500,
+            ["Tier"] = 3,
+            ["Icon"] = "rbxassetid://17809251493",
+            ["DisplayName"] = "Fashion"
+        },
         ["DarkChest"] = {["Price"] = 500, ["Tier"] = 3, ["Icon"] = "rbxassetid://17660020802", ["DisplayName"] = "Dark"},
         ["SpaceChest"] = {
             ["Price"] = 300,
@@ -100,5 +106,5 @@ data = {
             ["DisplayName"] = "Medieval"
         }
     },
-    ["NewArrival"] = {["Id"] = "DarkChest", ["EndTime"] = 1718423362}
+    ["NewArrival"] = {["Id"] = "FashionChest", ["EndTime"] = 1724574687}
 }
