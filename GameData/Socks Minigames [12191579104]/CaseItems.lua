@@ -548,6 +548,70 @@ data = {
         },
         ["Weight"] = 1
     },
+    ["FashionChest"] = {
+        {
+            ["Rarity"] = {["Chance"] = 0.42, ["Name"] = "Common", ["Color"] = Color3.fromRGB(172, 172, 172)},
+            ["Items"] = {
+                {["Name"] = "Girly", ["GroupIndex"] = 1},
+                {["Name"] = "Cheery", ["GroupIndex"] = 1},
+                {["Name"] = "Stan", ["GroupIndex"] = 1},
+                {["Name"] = "Teacher", ["GroupIndex"] = 1},
+                {["Name"] = "Humble", ["GroupIndex"] = 1},
+                {["Name"] = "Performer", ["GroupIndex"] = 1}
+            }
+        },
+        {
+            ["Rarity"] = {["Chance"] = 0.37, ["Name"] = "Uncommon", ["Color"] = Color3.fromRGB(3, 168, 0)},
+            ["Items"] = {
+                {["Name"] = "Celebrity", ["GroupIndex"] = 2},
+                {["Name"] = "Jubilant", ["GroupIndex"] = 2},
+                {["Name"] = "Gleeful", ["GroupIndex"] = 2},
+                {["Name"] = "Zesty", ["GroupIndex"] = 2},
+                {["Name"] = "Muse", ["GroupIndex"] = 2},
+                {["Name"] = "Renowned", ["GroupIndex"] = 2},
+                {["Name"] = "Elegant", ["GroupIndex"] = 2},
+                {["Name"] = "Rosy", ["GroupIndex"] = 2},
+                {["Name"] = "HairDryer", ["GroupIndex"] = 2}
+            }
+        },
+        {
+            ["Rarity"] = {["Chance"] = 0.199, ["Name"] = "Rare", ["Color"] = Color3.fromRGB(15, 137, 189)},
+            ["Items"] = {
+                {["Name"] = "Fluffy", ["GroupIndex"] = 3},
+                {["Name"] = "Purrfect", ["GroupIndex"] = 3},
+                {["Name"] = "Egirl", ["GroupIndex"] = 3},
+                {["Name"] = "Eboy", ["GroupIndex"] = 3},
+                {["Name"] = "L", ["GroupIndex"] = 3},
+                {["Name"] = "Cap", ["GroupIndex"] = 3},
+                {["Name"] = "Microphone", ["GroupIndex"] = 3},
+                {["Name"] = "LovelyTrail", ["GroupIndex"] = 3}
+            }
+        },
+        {
+            ["Rarity"] = {["Chance"] = 0.01, ["Name"] = "Epic", ["Color"] = Color3.fromRGB(173, 92, 243)},
+            ["Items"] = {
+                {["Name"] = "Foxy", ["GroupIndex"] = 4},
+                {["Name"] = "Frozen", ["GroupIndex"] = 4},
+                {["Name"] = "Enchanted", ["GroupIndex"] = 4},
+                {["Name"] = "Pixie", ["GroupIndex"] = 4},
+                {["Name"] = "Sweetheart", ["GroupIndex"] = 4},
+                {["Name"] = "Classy", ["GroupIndex"] = 4},
+                {["Name"] = "HandBagGoKart", ["GroupIndex"] = 4},
+                {["Name"] = "PaparazziTrail", ["GroupIndex"] = 4}
+            }
+        },
+        {
+            ["Rarity"] = {["Chance"] = 0.001, ["Name"] = "Legendary", ["Color"] = Color3.fromRGB(255, 217, 0)},
+            ["Items"] = {
+                {["Name"] = "Pegasus", ["GroupIndex"] = 5},
+                {["Name"] = "Mystic", ["GroupIndex"] = 5},
+                {["Name"] = "Freaky", ["GroupIndex"] = 5},
+                {["Name"] = "Kittymere", ["GroupIndex"] = 5},
+                {["Name"] = "UnicornChariot", ["GroupIndex"] = 5}
+            }
+        },
+        ["Weight"] = 1
+    },
     ["DarkChest"] = {
         {
             ["Rarity"] = {["Chance"] = 0.42, ["Name"] = "Common", ["Color"] = Color3.fromRGB(172, 172, 172)},
