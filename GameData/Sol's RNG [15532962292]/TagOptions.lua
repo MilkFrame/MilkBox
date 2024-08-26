@@ -1,106 +1,57 @@
 data = {
-    ["Take a break"] = {
-        ["GradientName"] = "None",
-        ["ZIndex"] = 11,
-        ["ImageId"] = 16776634409,
-        ["Name"] = "Take a break"
-    },
-    ["Something went wrong"] = {
-        ["GradientName"] = "GlitchGradient",
-        ["ZIndex"] = 22,
-        ["ImageId"] = 16776783582,
-        ["Name"] = "Something went wrong"
-    },
-    ["A sincere person"] = {
+    {["GradientName"] = "None", ["Index"] = 1, ["Name"] = "I just started Sol's RNG", ["ImageId"] = 16776465635},
+    {["GradientName"] = "Roll100", ["Index"] = 2, ["Name"] = "A little bit of rolls", ["ImageId"] = 16776456110},
+    {["GradientName"] = "Roll1000", ["Index"] = 3, ["Name"] = "I'm addicted to Sol's RNG", ["ImageId"] = 16776486242},
+    {
         ["GradientName"] = "Roll10000",
-        ["ZIndex"] = 19,
-        ["ImageId"] = 16952038885,
-        ["Name"] = "A sincere person"
+        ["Index"] = 4,
+        ["Name"] = "Would You Leave? / Nah I'd Roll",
+        ["ImageId"] = 16776530949
     },
-    ["I can't stop playing this"] = {
-        ["GradientName"] = "Circles",
-        ["ZIndex"] = 12,
-        ["ImageId"] = 16776654801,
-        ["Name"] = "I can't stop playing this"
+    {["GradientName"] = "100kRolls", ["Index"] = 5, ["Name"] = "I give my life...", ["ImageId"] = 17896404462},
+    {["GradientName"] = "Digital", ["Index"] = 6, ["Name"] = "Roll, Eat, Sleep, Repeat", ["ImageId"] = 16776545768},
+    {["GradientName"] = "5MRolls", ["Index"] = 7, ["Name"] = "There's no way to stop it!", ["ImageId"] = 17896372249},
+    {["GradientName"] = "10MRolls", ["Index"] = 8, ["Name"] = "[10,000,000]", ["ImageId"] = 17896374626},
+    {["GradientName"] = "None", ["Index"] = 9, ["Name"] = "Take a break", ["ImageId"] = 16776634409},
+    {["GradientName"] = "Circles", ["Index"] = 10, ["Name"] = "I can't stop playing this", ["ImageId"] = 16776654801},
+    {["GradientName"] = "Diamonds", ["Index"] = 11, ["Name"] = "Waste of time", ["ImageId"] = 16776706541},
+    {["GradientName"] = "Digital", ["Index"] = 12, ["Name"] = "Touch the grass", ["ImageId"] = 16776721677},
+    {["GradientName"] = "2kPlaytime", ["Index"] = 13, ["Name"] = "Eternal time...", ["ImageId"] = 17896371033},
+    {["GradientName"] = "None", ["Index"] = 14, ["Name"] = "Breakthrough", ["ImageId"] = 16776743577},
+    {["GradientName"] = "Digital", ["Index"] = 15, ["Name"] = "Break the limit", ["ImageId"] = 16776759140},
+    {["GradientName"] = "BT100", ["Index"] = 16, ["Name"] = "Break the Space", ["ImageId"] = 17896403260},
+    {["GradientName"] = "BT1000", ["Index"] = 17, ["Name"] = "Break the Galaxy", ["ImageId"] = 17896370174},
+    {["GradientName"] = "BT10000", ["Index"] = 18, ["Name"] = "Break the Reality", ["ImageId"] = 17896409162},
+    {["GradientName"] = "10MRarity", ["Index"] = 19, ["Name"] = "My first 10M+ finding", ["ImageId"] = 17896376135},
+    {["GradientName"] = "100MRarity", ["Index"] = 20, ["Name"] = "My first 100M+ finding", ["ImageId"] = 17896407260},
+    {["GradientName"] = "1BRarity", ["Index"] = 21, ["Name"] = "My first 1B+ finding", ["ImageId"] = 17896369300},
+    {["GradientName"] = "None", ["Index"] = 22, ["Name"] = "Finished work for today", ["ImageId"] = 16951986723},
+    {["GradientName"] = "Roll100", ["Index"] = 23, ["Name"] = "Good job this week too", ["ImageId"] = 16952031113},
+    {["GradientName"] = "Roll10000", ["Index"] = 24, ["Name"] = "A sincere person", ["ImageId"] = 16952038885},
+    {["GradientName"] = "DailyQuestMaster", ["Index"] = 25, ["Name"] = "When is payday???", ["ImageId"] = 16952041276},
+    {["GradientName"] = "30dStreak", ["Index"] = 26, ["Name"] = "Perfect attendance award", ["ImageId"] = 17896401169},
+    {["GradientName"] = "None", ["Index"] = 27, ["Name"] = "Achievement collector I", ["ImageId"] = 17896373286},
+    {["GradientName"] = "20Achievement", ["Index"] = 28, ["Name"] = "Achievement Master", ["ImageId"] = 17896377738},
+    {["GradientName"] = "30Achievement", ["Index"] = 29, ["Name"] = "Achievement Champion", ["ImageId"] = 17896379874},
+    {["GradientName"] = "Sol", ["Index"] = 30, ["Name"] = "Spotted the Sol", ["ImageId"] = 16776775881},
+    {
+        ["GradientName"] = "Blood",
+        ["Name"] = "RedFullMoon",
+        ["Index"] = 31,
+        ["ImageId"] = 18231538892,
+        ["DisplayName"] = "???"
     },
-    ["Breakthrough"] = {
-        ["GradientName"] = "None",
-        ["ZIndex"] = 15,
-        ["ImageId"] = 16776743577,
-        ["Name"] = "Breakthrough"
+    {["GradientName"] = "GlitchObtained", ["Index"] = 32, ["Name"] = "-Flaws in the World-", ["ImageId"] = 17896411422},
+    {
+        ["GradientName"] = "Oppression",
+        ["Index"] = 33,
+        ["Name"] = "-One who stands before God-",
+        ["ImageId"] = 17896414387
     },
-    ["When is payday???"] = {
-        ["GradientName"] = "DailyQuestMaster",
-        ["ZIndex"] = 20,
-        ["ImageId"] = 16952041276,
-        ["Name"] = "When is payday???"
-    },
-    ["I just started Sol's RNG"] = {
-        ["GradientName"] = "None",
-        ["ZIndex"] = 1,
-        ["ImageId"] = 16776465635,
-        ["Name"] = "I just started Sol's RNG"
-    },
-    ["Roll, Eat, Sleep, Repeat"] = {
-        ["GradientName"] = "Digital",
-        ["ZIndex"] = 5,
-        ["ImageId"] = 16776545768,
-        ["Name"] = "Roll, Eat, Sleep, Repeat"
-    },
-    ["Finished work for today"] = {
-        ["GradientName"] = "None",
-        ["ZIndex"] = 17,
-        ["ImageId"] = 16951986723,
-        ["Name"] = "Finished work for today"
-    },
-    ["Good job this week too"] = {
-        ["GradientName"] = "Roll100",
-        ["ZIndex"] = 18,
-        ["ImageId"] = 16952031113,
-        ["Name"] = "Good job this week too"
-    },
-    ["In-dev"] = {["GradientName"] = "Digital", ["ZIndex"] = 10, ["ImageId"] = 16776803348, ["Name"] = "In-dev"},
-    ["Waste of time"] = {
-        ["GradientName"] = "Diamonds",
-        ["ZIndex"] = 13,
-        ["ImageId"] = 16776706541,
-        ["Name"] = "Waste of time"
-    },
-    ["I'm addicted to Sol's RNG"] = {
-        ["GradientName"] = "Roll1000",
-        ["ZIndex"] = 3,
-        ["ImageId"] = 16776486242,
-        ["Name"] = "I'm addicted to Sol's RNG"
-    },
-    ["A little bit of rolls"] = {
-        ["GradientName"] = "Roll100",
-        ["ZIndex"] = 2,
-        ["ImageId"] = 16776456110,
-        ["Name"] = "A little bit of rolls"
-    },
-    ["Would You Leave? / Nah I'd Roll"] = {
-        ["GradientName"] = "Roll10000",
-        ["ZIndex"] = 4,
-        ["ImageId"] = 16776530949,
-        ["Name"] = "Would You Leave? / Nah I'd Roll"
-    },
-    ["Spotted the Sol"] = {
-        ["GradientName"] = "Sol",
-        ["ZIndex"] = 21,
-        ["ImageId"] = 16776775881,
-        ["Name"] = "Spotted the Sol"
-    },
-    ["Break the limit"] = {
-        ["GradientName"] = "Digital",
-        ["ZIndex"] = 16,
-        ["ImageId"] = 16776759140,
-        ["Name"] = "Break the limit"
-    },
-    ["Touch the grass"] = {
-        ["GradientName"] = "Digital",
-        ["ZIndex"] = 14,
-        ["ImageId"] = 16776721677,
-        ["Name"] = "Touch the grass"
-    },
-    ["None"] = {["Name"] = "None"}
+    {["GradientName"] = "Oblivion", ["Index"] = 34, ["Name"] = "-The Unknown-", ["ImageId"] = 17896412902},
+    {["GradientName"] = "GlitchGradient", ["Index"] = 35, ["Name"] = "Something went wrong", ["ImageId"] = 16776783582},
+    {["GradientName"] = "Digital", ["Index"] = 36, ["Name"] = "In-dev", ["ImageId"] = 16776803348},
+    {["GradientName"] = "IdkItsDev", ["Index"] = 37, ["Name"] = "The Developer", ["ImageId"] = 18207030150},
+    {["GradientName"] = "ContentCreator", ["Index"] = 38, ["Name"] = "Content Creator", ["ImageId"] = 18269951604},
+    {["Name"] = "None", ["Index"] = 39}
 }
