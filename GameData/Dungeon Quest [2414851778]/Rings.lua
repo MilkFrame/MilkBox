@@ -1,0 +1,27 @@
+--require(game:GetService("ReplicatedStorage").Utility.DataRequester).GetRings()
+data = {
+    ["Goliath Warrior Ring of Technique"] = {["name"] = "Goliath Warrior Ring of Technique"},
+    ["Hela Warrior Ring of Survival"] = {["name"] = "Hela Warrior Ring of Survival"},
+    ["Hela Mage Ring of Technique"] = {["name"] = "Hela Mage Ring of Technique"},
+    ["Hela Mage Ring of Power"] = {["name"] = "Hela Mage Ring of Power"},
+    ["Goliath Guardian Ring of Balance"] = {["name"] = "Goliath Guardian Ring of Balance"},
+    ["Hela Mage Ring of Balance"] = {["name"] = "Hela Mage Ring of Balance"},
+    ["Goliath Mage Ring of Balance"] = {["name"] = "Goliath Mage Ring of Balance"},
+    ["Hela Warrior Ring of Balance"] = {["name"] = "Hela Warrior Ring of Balance"},
+    ["Goliath Guardian Ring of Survival"] = {["name"] = "Goliath Guardian Ring of Survival"},
+    ["Goliath Warrior Ring of Survival"] = {["name"] = "Goliath Warrior Ring of Survival"},
+    ["Goliath Guardian Ring of Technique"] = {["name"] = "Goliath Guardian Ring of Technique"},
+    ["Hela Warrior Ring of Power"] = {["name"] = "Hela Warrior Ring of Power"},
+    ["Goliath Mage Ring of Survival"] = {["name"] = "Goliath Mage Ring of Survival"},
+    ["Hela Mage Ring of Survival"] = {["name"] = "Hela Mage Ring of Survival"},
+    ["Goliath Warrior Ring of Balance"] = {["name"] = "Goliath Warrior Ring of Balance"},
+    ["Goliath Mage Ring of Technique"] = {["name"] = "Goliath Mage Ring of Technique"},
+    ["Goliath Mage Ring of Power"] = {["name"] = "Goliath Mage Ring of Power"},
+    ["Hela Guardian Ring of Technique"] = {["name"] = "Hela Guardian Ring of Technique"},
+    ["Hela Warrior Ring of Technique"] = {["name"] = "Hela Warrior Ring of Technique"},
+    ["Hela Guardian Ring of Balance"] = {["name"] = "Hela Guardian Ring of Balance"},
+    ["Goliath Warrior Ring of Power"] = {["name"] = "Goliath Warrior Ring of Power"},
+    ["Hela Guardian Ring of Power"] = {["name"] = "Hela Guardian Ring of Power"},
+    ["Hela Guardian Ring of Survival"] = {["name"] = "Hela Guardian Ring of Survival"},
+    ["Goliath Guardian Ring of Power"] = {["name"] = "Goliath Guardian Ring of Power"}
+}
