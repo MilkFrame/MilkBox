@@ -83,6 +83,7 @@ data = {
     ["Awesome"] = {["DisplayName"] = "Awesome", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Initiate"] = {["DisplayName"] = "Initiate", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Extinct"] = {["DisplayName"] = "Extinct", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Rosy"] = {["DisplayName"] = "Rosy", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["DefaultDance"] = {
         ["Icon"] = "rbxassetid://15248495576",
         ["DisplayName"] = "Default Dance",
@@ -97,7 +98,8 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Casual"] = {["DisplayName"] = "Casual", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Goober"] = {["DisplayName"] = "Goober", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Teacher"] = {["DisplayName"] = "Teacher", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Fluffy"] = {["DisplayName"] = "Fluffy", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["MoneyTrail"] = {
         ["Icon"] = "rbxassetid://15249102544",
         ["DisplayName"] = "Money",
@@ -190,6 +192,12 @@ data = {
         ["Rarity"] = "Epic",
         ["Category"] = "Emotes"
     },
+    ["LovelyTrail"] = {
+        ["Icon"] = "rbxassetid://17809318400",
+        ["DisplayName"] = "Lovely",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
+    },
     ["Sus"] = {["DisplayName"] = "Sus", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Magical"] = {["DisplayName"] = "Magical", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Typical"] = {["DisplayName"] = "Typical", ["Rarity"] = "Common", ["Category"] = "Titles"},
@@ -241,6 +249,7 @@ data = {
         ["Rarity"] = "Uncommon",
         ["Category"] = "Weapons"
     },
+    ["Purrfect"] = {["DisplayName"] = "Purrfect", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["RocketGoKart"] = {
         ["Icon"] = "rbxassetid://15358801126",
         ["DisplayName"] = "Rocket",
@@ -255,6 +264,12 @@ data = {
         ["Category"] = "Trails"
     },
     ["Astronaut"] = {["DisplayName"] = "Astronaut", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Kittymere"] = {
+        ["Icon"] = "rbxassetid://17809284604",
+        ["DisplayName"] = "Kittymere",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Weapons"
+    },
     ["FlippinIncredible"] = {
         ["Icon"] = "rbxassetid://15289722309",
         ["DisplayName"] = "Flippin Incredible",
@@ -282,6 +297,7 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Innovator"] = {["DisplayName"] = "Innovator", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Cheery"] = {["DisplayName"] = "Cheery", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["TikiTrail"] = {
         ["Icon"] = "rbxassetid://17116116832",
         ["DisplayName"] = "Tiki",
@@ -301,12 +317,14 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Trails"
     },
+    ["Jubilant"] = {["DisplayName"] = "Jubilant", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["HayBaleGoKart"] = {
         ["Icon"] = "rbxassetid://15939674161",
         ["DisplayName"] = "Hay Bale",
         ["Rarity"] = "Rare",
         ["Category"] = "Cars"
     },
+    ["Enchanted"] = {["DisplayName"] = "Enchanted", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["UnderworldTruck"] = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Cars",
@@ -314,7 +332,7 @@ data = {
         ["Icon"] = "rbxassetid://17438843328",
         ["DisplayName"] = "Underworld Truck"
     },
-    ["Wendigo"] = {["DisplayName"] = "Wendigo", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Foxy"] = {["DisplayName"] = "Foxy", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["AthleticFlip"] = {
         ["Icon"] = "rbxassetid://17558728061",
         ["DisplayName"] = "Athletic Flip",
@@ -323,6 +341,7 @@ data = {
     },
     ["Minigamer"] = {["DisplayName"] = "Minigamer", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Chicken"] = {["DisplayName"] = "Chicken", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Pegasus"] = {["DisplayName"] = "Pegasus", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
     ["Dynamic"] = {["DisplayName"] = "Dynamic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Cleric"] = {["DisplayName"] = "Cleric", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["ArtistTrail"] = {
@@ -361,7 +380,7 @@ data = {
     },
     ["ZombieTitle"] = {["DisplayName"] = "Zombie", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Divine"] = {["DisplayName"] = "Divine", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
-    ["VIP"] = {["DisplayName"] = "VIP", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
+    ["VIP"] = {["CantTrade"] = true, ["DisplayName"] = "VIP", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
     ["LabTrail"] = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Trails",
@@ -446,6 +465,7 @@ data = {
     ["Stylish"] = {["DisplayName"] = "Stylish", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Golem"] = {["DisplayName"] = "Golem", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Unbeatable"] = {["DisplayName"] = "Unbeatable", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["Gleeful"] = {["DisplayName"] = "Gleeful", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Fruity"] = {["DisplayName"] = "Fruity", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Fearless"] = {["DisplayName"] = "Fearless", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Cerberus"] = {["DisplayName"] = "Cerberus", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
@@ -497,6 +517,7 @@ data = {
     },
     ["FiveHead"] = {["DisplayName"] = "5 Head", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Witch"] = {["DisplayName"] = "Witch", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Elegant"] = {["DisplayName"] = "Elegant", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["RocketSword"] = {
         ["Icon"] = "rbxassetid://17331244141",
         ["DisplayName"] = "Rocket Sword",
@@ -554,6 +575,12 @@ data = {
         ["Icon"] = "rbxassetid://17116117143",
         ["DisplayName"] = "Coconut",
         ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
+    },
+    ["PaparazziTrail"] = {
+        ["Icon"] = "rbxassetid://17809317942",
+        ["DisplayName"] = "Paparazzi",
+        ["Rarity"] = "Epic",
         ["Category"] = "Trails"
     },
     ["Pharaoh"] = {["DisplayName"] = "Pharaoh", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
@@ -614,6 +641,7 @@ data = {
         ["Category"] = "Trails"
     },
     ["Gloomy"] = {["DisplayName"] = "Gloomy", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Zesty"] = {["DisplayName"] = "Zesty", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["FireTruckGoKart"] = {
         ["Icon"] = "rbxassetid://15570976771",
         ["DisplayName"] = "Fire Truck",
@@ -650,10 +678,11 @@ data = {
     },
     ["Protagonist"] = {["DisplayName"] = "Protagonist", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["ExclusiveTrail"] = {
-        ["Icon"] = "rbxassetid://15249103266",
-        ["DisplayName"] = "Exclusive",
+        ["CantTrade"] = true,
         ["Rarity"] = "Exclusive",
-        ["Category"] = "Trails"
+        ["Category"] = "Trails",
+        ["Icon"] = "rbxassetid://15249103266",
+        ["DisplayName"] = "Exclusive"
     },
     ["Gator"] = {["DisplayName"] = "Gator", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["RedGoKart"] = {
@@ -667,6 +696,7 @@ data = {
     ["Princess"] = {["DisplayName"] = "Princess", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Doomed"] = {["DisplayName"] = "Doomed", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Phantom"] = {["DisplayName"] = "Phantom", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Egirl"] = {["DisplayName"] = "Egirl", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["LocalTitle"] = {["DisplayName"] = "LocalTitle", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Commander"] = {["DisplayName"] = "Commander", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Comedian"] = {["DisplayName"] = "Comedian", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
@@ -717,12 +747,7 @@ data = {
     ["Imposter"] = {["DisplayName"] = "Imposter", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["King"] = {["DisplayName"] = "King", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Elder"] = {["DisplayName"] = "Elder", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["AsteroidTrail"] = {
-        ["Icon"] = "rbxassetid://16492132335",
-        ["DisplayName"] = "Asteroid",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
+    ["Celebrity"] = {["DisplayName"] = "Celebrity", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Sassy"] = {["DisplayName"] = "Sassy", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["OrangeJustice"] = {
         ["Icon"] = "rbxassetid://15248494604",
@@ -730,7 +755,12 @@ data = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Emotes"
     },
-    ["Developer"] = {["DisplayName"] = "Developer", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
+    ["Developer"] = {
+        ["CantTrade"] = true,
+        ["DisplayName"] = "Developer",
+        ["Rarity"] = "Exclusive",
+        ["Category"] = "Titles"
+    },
     ["Hula"] = {
         ["Icon"] = "rbxassetid://17117063185",
         ["DisplayName"] = "Hula",
@@ -743,6 +773,12 @@ data = {
         ["DisplayName"] = "Celestial",
         ["Rarity"] = "Legendary",
         ["Category"] = "Titles"
+    },
+    ["Microphone"] = {
+        ["Icon"] = "rbxassetid://17809284445",
+        ["DisplayName"] = "Microphone",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Weapons"
     },
     ["Basic"] = {["DisplayName"] = "Basic", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["DarkCarriage"] = {
@@ -759,10 +795,11 @@ data = {
     },
     ["ManOWar"] = {["DisplayName"] = "Man-O-War", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["ExclusiveGoKart"] = {
-        ["Icon"] = "rbxassetid://15253615371",
-        ["DisplayName"] = "Exclusive",
+        ["CantTrade"] = true,
         ["Rarity"] = "Exclusive",
-        ["Category"] = "Cars"
+        ["Category"] = "Cars",
+        ["Icon"] = "rbxassetid://15253615371",
+        ["DisplayName"] = "Exclusive"
     },
     ["Butterfly"] = {["DisplayName"] = "Butterfly", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Showstopper"] = {
@@ -869,6 +906,7 @@ data = {
     },
     ["Dummy"] = {["DisplayName"] = "Dummy", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Annoying"] = {["DisplayName"] = "Annoying", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Pixie"] = {["DisplayName"] = "Pixie", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["ClickDance"] = {
         ["Icon"] = "rbxassetid://15248495844",
         ["DisplayName"] = "Click",
@@ -876,6 +914,12 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Siren"] = {["DisplayName"] = "Siren", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["UnicornChariot"] = {
+        ["Icon"] = "rbxassetid://17809301965",
+        ["DisplayName"] = "Unicorn Chariot",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Cars"
+    },
     ["Rizzler"] = {["DisplayName"] = "Rizzler", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Cook"] = {["DisplayName"] = "Cook", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Sturdy"] = {
@@ -915,19 +959,35 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Immortal"] = {["DisplayName"] = "Immortal", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["Stuntin"] = {
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Emotes",
+        ["Sound"] = "Stuntin",
+        ["Icon"] = "rbxassetid://17598401981",
+        ["DisplayName"] = "Stuntin"
+    },
     ["Ethereal"] = {["DisplayName"] = "Ethereal", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["OrangeTrail"] = {
+        ["Icon"] = "rbxassetid://15249102824",
+        ["DisplayName"] = "Orange",
+        ["Rarity"] = "Common",
+        ["Category"] = "Trails"
+    },
     ["PolarAura"] = {
         ["Icon"] = "rbxassetid://15694988047",
         ["DisplayName"] = "Polar",
         ["Rarity"] = "Mythic",
         ["Category"] = "Trails"
     },
+    ["W"] = {["DisplayName"] = "W", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
     ["FeatherTrail"] = {
         ["Icon"] = "rbxassetid://15644326849",
         ["DisplayName"] = "Feather",
         ["Rarity"] = "Rare",
         ["Category"] = "Trails"
     },
+    ["Unforgivable"] = {["DisplayName"] = "Unforgivable", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["LootGoblin"] = {["DisplayName"] = "Loot Goblin", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
     ["Artist"] = {["DisplayName"] = "Artist", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["PlanetsTrail"] = {
         ["Icon"] = "rbxassetid://17331264682",
@@ -940,6 +1000,18 @@ data = {
         ["DisplayName"] = "Gator GoKart",
         ["Rarity"] = "Rare",
         ["Category"] = "Cars"
+    },
+    ["Unhinged"] = {
+        ["BattlePassItem"] = true,
+        ["DisplayName"] = "Unhinged",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Titles"
+    },
+    ["Scissors"] = {
+        ["Icon"] = "rbxassetid://16478684442",
+        ["DisplayName"] = "Scissors",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Weapons"
     },
     ["Skillful"] = {["DisplayName"] = "Skillful", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Prodigy"] = {["DisplayName"] = "Prodigy", ["Rarity"] = "Common", ["Category"] = "Titles"},
@@ -957,6 +1029,8 @@ data = {
         ["Rarity"] = "Mythic",
         ["Category"] = "Weapons"
     },
+    ["Bombastic"] = {["DisplayName"] = "Bombastic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Peaceful"] = {["DisplayName"] = "Peaceful", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["CatTitle"] = {["DisplayName"] = "Cat", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Sleepy"] = {["DisplayName"] = "Sleepy", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["HandsUp"] = {
@@ -965,7 +1039,10 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Emotes"
     },
+    ["Swashbuckler"] = {["DisplayName"] = "Swashbuckler", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Marvelous"] = {["DisplayName"] = "Marvelous", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Dragon"] = {["DisplayName"] = "Dragon", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Unreliable"] = {["DisplayName"] = "Unreliable", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["SandTrail"] = {
         ["Icon"] = "rbxassetid://17440309059",
         ["DisplayName"] = "Sand",
@@ -974,6 +1051,8 @@ data = {
     },
     ["Tourist"] = {["DisplayName"] = "Tourist", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Amateur"] = {["DisplayName"] = "Amateur", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Pancake"] = {["DisplayName"] = "Pancake", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Scenic"] = {["DisplayName"] = "Scenic", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["TakeTheL"] = {
         ["Icon"] = "rbxassetid://15248493965",
         ["DisplayName"] = "Take The L",
@@ -981,69 +1060,11 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Competitive"] = {["DisplayName"] = "Competitive", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Crazy"] = {["DisplayName"] = "Crazy", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Stuntin"] = {
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Emotes",
-        ["Sound"] = "Stuntin",
-        ["Icon"] = "rbxassetid://17598401981",
-        ["DisplayName"] = "Stuntin"
-    },
-    ["Golden"] = {["DisplayName"] = "Golden", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["W"] = {["DisplayName"] = "W", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
-    ["Unforgivable"] = {["DisplayName"] = "Unforgivable", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["LootGoblin"] = {["DisplayName"] = "Loot Goblin", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
-    ["Unhinged"] = {
-        ["BattlePassItem"] = true,
-        ["DisplayName"] = "Unhinged",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Titles"
-    },
-    ["Pickle"] = {["DisplayName"] = "Pickle", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["OrangeTrail"] = {
-        ["Icon"] = "rbxassetid://15249102824",
-        ["DisplayName"] = "Orange",
-        ["Rarity"] = "Common",
+    ["SunflowerTrail"] = {
+        ["Icon"] = "rbxassetid://16492129453",
+        ["DisplayName"] = "Sunflowers",
+        ["Rarity"] = "Uncommon",
         ["Category"] = "Trails"
-    },
-    ["Bombastic"] = {["DisplayName"] = "Bombastic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Sunblade"] = {
-        ["Icon"] = "rbxassetid://16478684242",
-        ["DisplayName"] = "Sun Blade",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Weapons"
-    },
-    ["Peaceful"] = {["DisplayName"] = "Peaceful", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["NebulaTrail"] = {
-        ["Icon"] = "rbxassetid://17485427734",
-        ["DisplayName"] = "Nebula",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Trails"
-    },
-    ["Swashbuckler"] = {["DisplayName"] = "Swashbuckler", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Marvelous"] = {["DisplayName"] = "Marvelous", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Unreliable"] = {["DisplayName"] = "Unreliable", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Novice"] = {["DisplayName"] = "Novice", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["EggPlantGoKart"] = {
-        ["Icon"] = "rbxassetid://16103421003",
-        ["DisplayName"] = "Egg Plant",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Cars"
-    },
-    ["Tactical"] = {["DisplayName"] = "Tactical", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["WatermelonGoKart"] = {
-        ["Icon"] = "rbxassetid://17438842320",
-        ["DisplayName"] = "Watermelon",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Cars"
-    },
-    ["Scenic"] = {["DisplayName"] = "Scenic", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Pirate"] = {["DisplayName"] = "Pirate", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Lit"] = {
-        ["Icon"] = "rbxassetid://16627089407",
-        ["DisplayName"] = "Lit",
-        ["Rarity"] = "Common",
-        ["Category"] = "Emotes"
     },
     ["Breakdance"] = {
         ["Rarity"] = "Mythic",
@@ -1059,55 +1080,37 @@ data = {
         ["Icon"] = "rbxassetid://17598402167",
         ["DisplayName"] = "Bollywood"
     },
+    ["Crazy"] = {["DisplayName"] = "Crazy", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Freedom"] = {
         ["Icon"] = "rbxassetid://17558746858",
         ["DisplayName"] = "Freedom",
         ["Rarity"] = "Epic",
         ["Category"] = "Emotes"
     },
-    ["Broom"] = {
-        ["Icon"] = "rbxassetid://16478685978",
-        ["DisplayName"] = "Broom",
+    ["Lit"] = {
+        ["Icon"] = "rbxassetid://16627089407",
+        ["DisplayName"] = "Lit",
         ["Rarity"] = "Common",
-        ["Category"] = "Weapons"
+        ["Category"] = "Emotes"
     },
-    ["WatermelonHammer"] = {
-        ["Icon"] = "rbxassetid://17439018970",
-        ["DisplayName"] = "Watermelon Hammer",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Weapons"
-    },
-    ["Juggler"] = {["DisplayName"] = "Juggler", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Mashin"] = {
         ["Icon"] = "rbxassetid://17512038144",
         ["DisplayName"] = "Mashin",
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
     },
-    ["Luscious"] = {["DisplayName"] = "Luscious", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["GreenGoKart"] = {
-        ["Icon"] = "rbxassetid://15515398133",
-        ["DisplayName"] = "Green",
-        ["Rarity"] = "Common",
-        ["Category"] = "Cars"
-    },
-    ["Cookie"] = {
-        ["Icon"] = "rbxassetid://16629659815",
-        ["DisplayName"] = "Cookie",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Emotes"
+    ["Golden"] = {["DisplayName"] = "Golden", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["CloudsTrail"] = {
+        ["Icon"] = "rbxassetid://16267593457",
+        ["DisplayName"] = "Clouds",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Trails"
     },
     ["ErickDance"] = {
         ["Icon"] = "rbxassetid://17512038282",
         ["DisplayName"] = "Erick Dance",
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
-    },
-    ["VampireLord"] = {
-        ["Icon"] = "rbxassetid://16872641853",
-        ["DisplayName"] = "Vampire Lord",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Cars"
     },
     ["Pump"] = {
         ["Icon"] = "rbxassetid://17512037892",
@@ -1122,6 +1125,152 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Moist"] = {["DisplayName"] = "Moist", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Demigod"] = {["DisplayName"] = "Demigod", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["BeesTrail"] = {
+        ["Icon"] = "rbxassetid://17439181375",
+        ["DisplayName"] = "Bees",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
+    },
+    ["Sunblade"] = {
+        ["Icon"] = "rbxassetid://16478684242",
+        ["DisplayName"] = "Sun Blade",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Weapons"
+    },
+    ["HeartsTrail"] = {
+        ["Icon"] = "rbxassetid://17439181561",
+        ["DisplayName"] = "Hearts",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
+    },
+    ["NebulaTrail"] = {
+        ["Icon"] = "rbxassetid://17485427734",
+        ["DisplayName"] = "Nebula",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Trails"
+    },
+    ["Galleon"] = {
+        ["Icon"] = "rbxassetid://17438842449",
+        ["DisplayName"] = "Galleon",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Cars"
+    },
+    ["SmoothMoves"] = {
+        ["Icon"] = "rbxassetid://15248494128",
+        ["DisplayName"] = "Smooth Moves",
+        ["Rarity"] = "Common",
+        ["Category"] = "Emotes"
+    },
+    ["LemonTrail"] = {
+        ["Icon"] = "rbxassetid://17439181072",
+        ["DisplayName"] = "Lemon",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Trails"
+    },
+    ["Novice"] = {["DisplayName"] = "Novice", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["EggPlantGoKart"] = {
+        ["Icon"] = "rbxassetid://16103421003",
+        ["DisplayName"] = "Egg Plant",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Cars"
+    },
+    ["Tactical"] = {["DisplayName"] = "Tactical", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["CrabTrail"] = {
+        ["Icon"] = "rbxassetid://17439182015",
+        ["DisplayName"] = "Crab",
+        ["Rarity"] = "Common",
+        ["Category"] = "Trails"
+    },
+    ["GlacierTrail"] = {
+        ["Icon"] = "rbxassetid://16028097322",
+        ["DisplayName"] = "Glacier",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Trails"
+    },
+    ["Pirate"] = {["DisplayName"] = "Pirate", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["LightningCutlasses"] = {
+        ["Icon"] = "rbxassetid://17439019700",
+        ["DisplayName"] = "Lightning Cutlasses",
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Weapons"
+    },
+    ["PianoBlade"] = {
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Weapons",
+        ["BattlePassItem"] = true,
+        ["Icon"] = "rbxassetid://17439019589",
+        ["DisplayName"] = "Piano Blade"
+    },
+    ["GiantIceCream"] = {
+        ["Icon"] = "rbxassetid://17439019802",
+        ["DisplayName"] = "Giant Ice Cream",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Weapons"
+    },
+    ["SportyConvertible"] = {
+        ["Icon"] = "rbxassetid://16477938195",
+        ["DisplayName"] = "Sporty Convertible",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Cars"
+    },
+    ["Broom"] = {
+        ["Icon"] = "rbxassetid://16478685978",
+        ["DisplayName"] = "Broom",
+        ["Rarity"] = "Common",
+        ["Category"] = "Weapons"
+    },
+    ["WatermelonHammer"] = {
+        ["Icon"] = "rbxassetid://17439018970",
+        ["DisplayName"] = "Watermelon Hammer",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
+    },
+    ["Juggler"] = {["DisplayName"] = "Juggler", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Cutlass"] = {
+        ["Icon"] = "rbxassetid://17439019969",
+        ["DisplayName"] = "Cutlass",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
+    },
+    ["Luscious"] = {["DisplayName"] = "Luscious", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Surfboard"] = {
+        ["Icon"] = "rbxassetid://17439019172",
+        ["DisplayName"] = "Surfboard",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Weapons"
+    },
+    ["Cookie"] = {
+        ["Icon"] = "rbxassetid://16629659815",
+        ["DisplayName"] = "Cookie",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Emotes"
+    },
+    ["NeonSpeederGoKart"] = {
+        ["Icon"] = "rbxassetid://15633728549",
+        ["DisplayName"] = "Neon Speeder",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Cars"
+    },
+    ["VampireLord"] = {
+        ["Icon"] = "rbxassetid://16872641853",
+        ["DisplayName"] = "Vampire Lord",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Cars"
+    },
+    ["PlasticShovel"] = {
+        ["Icon"] = "rbxassetid://17439019287",
+        ["DisplayName"] = "Plastic Shovel",
+        ["Rarity"] = "Common",
+        ["Category"] = "Weapons"
+    },
+    ["Darling"] = {["DisplayName"] = "Darling", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["BoogieBomb"] = {
+        ["Icon"] = "rbxassetid://15248496108",
+        ["DisplayName"] = "Boogie Bomb",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Emotes"
+    },
     ["FairyTrail"] = {
         ["Icon"] = "rbxassetid://17439181732",
         ["DisplayName"] = "Fairy",
@@ -1141,28 +1290,38 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Weapons"
     },
-    ["Demigod"] = {["DisplayName"] = "Demigod", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
-    ["Utopian"] = {["DisplayName"] = "Utopian", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["BeesTrail"] = {
-        ["Icon"] = "rbxassetid://17439181375",
-        ["DisplayName"] = "Bees",
+    ["WatermelonGoKart"] = {
+        ["Icon"] = "rbxassetid://17438842320",
+        ["DisplayName"] = "Watermelon",
         ["Rarity"] = "Rare",
-        ["Category"] = "Trails"
+        ["Category"] = "Cars"
     },
-    ["HeartsTrail"] = {
-        ["Icon"] = "rbxassetid://17439181561",
-        ["DisplayName"] = "Hearts",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Trails"
+    ["Utopian"] = {["DisplayName"] = "Utopian", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Flavor"] = {
+        ["Icon"] = "rbxassetid://16627089765",
+        ["DisplayName"] = "Flavor",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Emotes"
+    },
+    ["MyDawg"] = {
+        ["Icon"] = "rbxassetid://16629679103",
+        ["DisplayName"] = "My Dawg",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Emotes"
     },
     ["Mythic"] = {["DisplayName"] = "MythicMythic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Frosty"] = {["DisplayName"] = "Frosty", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Fishy"] = {
+        ["Icon"] = "rbxassetid://16627090010",
+        ["DisplayName"] = "Fishy",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Emotes"
+    },
     ["Philosopher"] = {["DisplayName"] = "Philosopher", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["LemonTrail"] = {
-        ["Icon"] = "rbxassetid://17439181072",
-        ["DisplayName"] = "Lemon",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Trails"
+    ["GreenGoKart"] = {
+        ["Icon"] = "rbxassetid://15515398133",
+        ["DisplayName"] = "Green",
+        ["Rarity"] = "Common",
+        ["Category"] = "Cars"
     },
     ["Yeet"] = {
         ["Icon"] = "rbxassetid://15289722109",
@@ -1193,11 +1352,11 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Trails"
     },
-    ["CrabTrail"] = {
-        ["Icon"] = "rbxassetid://17439182015",
-        ["DisplayName"] = "Crab",
-        ["Rarity"] = "Common",
-        ["Category"] = "Trails"
+    ["Celebrate"] = {
+        ["Icon"] = "rbxassetid://16627090439",
+        ["DisplayName"] = "Celebrate",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
     },
     ["ToonDance"] = {
         ["Icon"] = "rbxassetid://15643587204",
@@ -1205,25 +1364,30 @@ data = {
         ["Rarity"] = "Epic",
         ["Category"] = "Emotes"
     },
-    ["BananaTrail"] = {
-        ["Icon"] = "rbxassetid://16492132148",
-        ["DisplayName"] = "Banana",
-        ["Rarity"] = "Common",
-        ["Category"] = "Trails"
+    ["Victory"] = {
+        ["Icon"] = "rbxassetid://16627088388",
+        ["DisplayName"] = "Victory",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
     },
-    ["LightningCutlasses"] = {
-        ["Icon"] = "rbxassetid://17439019700",
-        ["DisplayName"] = "Lightning Cutlasses",
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Weapons"
+    ["LeftRight"] = {
+        ["Icon"] = "rbxassetid://16627089562",
+        ["DisplayName"] = "LeftRight",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Emotes"
     },
     ["Clown"] = {["DisplayName"] = "Clown", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Rich"] = {["DisplayName"] = "Rich", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["GiantIceCream"] = {
-        ["Icon"] = "rbxassetid://17439019802",
-        ["DisplayName"] = "Giant Ice Cream",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Weapons"
+    ["Smooth"] = {
+        ["Icon"] = "rbxassetid://16627088720",
+        ["DisplayName"] = "Smooth",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Emotes"
+    },
+    ["Mew"] = {
+        ["Icon"] = "rbxassetid://16627089288",
+        ["DisplayName"] = "Mew",
+        ["Rarity"] = "Common",
+        ["Category"] = "Emotes"
     },
     ["Hammer"] = {
         ["Icon"] = "rbxassetid://15633712388",
@@ -1231,11 +1395,11 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Weapons"
     },
-    ["HeatWaveTrail"] = {
-        ["Icon"] = "rbxassetid://16492130902",
-        ["DisplayName"] = "Heat Wave",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Trails"
+    ["Survey"] = {
+        ["Icon"] = "rbxassetid://16636958576",
+        ["DisplayName"] = "Survey",
+        ["Rarity"] = "Common",
+        ["Category"] = "Emotes"
     },
     ["KazotskyKick"] = {
         ["Icon"] = "rbxassetid://15643588082",
@@ -1250,76 +1414,41 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Epic"] = {["DisplayName"] = "Epic", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["Cutlass"] = {
-        ["Icon"] = "rbxassetid://17439019969",
-        ["DisplayName"] = "Cutlass",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Weapons"
-    },
-    ["Surfboard"] = {
-        ["Icon"] = "rbxassetid://17439019172",
-        ["DisplayName"] = "Surfboard",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Weapons"
-    },
-    ["GlacierTrail"] = {
-        ["Icon"] = "rbxassetid://16028097322",
-        ["DisplayName"] = "Glacier",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
-    ["Ruined"] = {["DisplayName"] = "Ruined", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["PlasticShovel"] = {
-        ["Icon"] = "rbxassetid://17439019287",
-        ["DisplayName"] = "Plastic Shovel",
+    ["BowlingPin"] = {
+        ["Icon"] = "rbxassetid://16478686139",
+        ["DisplayName"] = "Bowling Pin",
         ["Rarity"] = "Common",
         ["Category"] = "Weapons"
     },
+    ["Bunny"] = {["DisplayName"] = "Bunny", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["RGB"] = {["DisplayName"] = "RGB", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Ruined"] = {["DisplayName"] = "Ruined", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Expert"] = {["DisplayName"] = "Expert", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["ChristmasSword"] = {
         ["Icon"] = "rbxassetid://15633712709",
         ["DisplayName"] = "Christmas Blade",
         ["Rarity"] = "Uncommon",
         ["Category"] = "Weapons"
     },
-    ["Darling"] = {["DisplayName"] = "Darling", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["BaconGoKart"] = {
-        ["Icon"] = "rbxassetid://15633728952",
-        ["DisplayName"] = "Bacon",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Cars"
-    },
-    ["Galleon"] = {
-        ["Icon"] = "rbxassetid://17438842449",
-        ["DisplayName"] = "Galleon",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Cars"
-    },
+    ["Pogger"] = {["DisplayName"] = "Pogger", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Pickle"] = {["DisplayName"] = "Pickle", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["EpicTitle"] = {["DisplayName"] = "Epic", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Sigma"] = {["DisplayName"] = "Sigma", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Buccaneer"] = {["DisplayName"] = "Buccaneer", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Flavor"] = {
-        ["Icon"] = "rbxassetid://16627089765",
-        ["DisplayName"] = "Flavor",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Emotes"
-    },
-    ["MyDawg"] = {
-        ["Icon"] = "rbxassetid://16629679103",
-        ["DisplayName"] = "My Dawg",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Emotes"
+    ["Cracked"] = {["DisplayName"] = "Cracked", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["BananaTrail"] = {
+        ["Icon"] = "rbxassetid://16492132148",
+        ["DisplayName"] = "Banana",
+        ["Rarity"] = "Common",
+        ["Category"] = "Trails"
     },
     ["Flashy"] = {["DisplayName"] = "Flashy", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Fishy"] = {
-        ["Icon"] = "rbxassetid://16627090010",
-        ["DisplayName"] = "Fishy",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Emotes"
-    },
-    ["Survey"] = {
-        ["Icon"] = "rbxassetid://16636958576",
-        ["DisplayName"] = "Survey",
-        ["Rarity"] = "Common",
-        ["Category"] = "Emotes"
+    ["Gleaming"] = {["DisplayName"] = "Gleaming", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["HeatWaveTrail"] = {
+        ["Icon"] = "rbxassetid://16492130902",
+        ["DisplayName"] = "Heat Wave",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Trails"
     },
     ["Outlaw"] = {["DisplayName"] = "Outlaw", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["RedSpectralAxe"] = {
@@ -1330,23 +1459,23 @@ data = {
     },
     ["Venomous"] = {["DisplayName"] = "Venomous", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Funky"] = {["DisplayName"] = "Funky", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Celebrate"] = {
-        ["Icon"] = "rbxassetid://16627090439",
-        ["DisplayName"] = "Celebrate",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
+    ["AsteroidTrail"] = {
+        ["Icon"] = "rbxassetid://16492132335",
+        ["DisplayName"] = "Asteroid",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Trails"
     },
-    ["Victory"] = {
-        ["Icon"] = "rbxassetid://16627088388",
-        ["DisplayName"] = "Victory",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
+    ["UFOTrail"] = {
+        ["Icon"] = "rbxassetid://16492129025",
+        ["DisplayName"] = "UFOs",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Trails"
     },
-    ["LeftRight"] = {
-        ["Icon"] = "rbxassetid://16627089562",
-        ["DisplayName"] = "LeftRight",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Emotes"
+    ["FruityTrail"] = {
+        ["Icon"] = "rbxassetid://16492131653",
+        ["DisplayName"] = "Fruity",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
     },
     ["InfiniteDab"] = {
         ["Icon"] = "rbxassetid://15289722193",
@@ -1366,17 +1495,17 @@ data = {
         ["Rarity"] = "Epic",
         ["Category"] = "Trails"
     },
-    ["Smooth"] = {
-        ["Icon"] = "rbxassetid://16627088720",
-        ["DisplayName"] = "Smooth",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Emotes"
+    ["PinkGlitterTrail"] = {
+        ["Icon"] = "rbxassetid://16492129893",
+        ["DisplayName"] = "Pink Glitter",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
     },
-    ["Mew"] = {
-        ["Icon"] = "rbxassetid://16627089288",
-        ["DisplayName"] = "Mew",
-        ["Rarity"] = "Common",
-        ["Category"] = "Emotes"
+    ["GlitchTrail"] = {
+        ["Icon"] = "rbxassetid://16492131315",
+        ["DisplayName"] = "Glitch",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Trails"
     },
     ["Dog"] = {["DisplayName"] = "Dog", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Remember"] = {
@@ -1393,7 +1522,12 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Megamind"] = {["DisplayName"] = "Megamind", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["EpicTitle"] = {["DisplayName"] = "Epic", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["DemonSlayers"] = {
+        ["Icon"] = "rbxassetid://16478685303",
+        ["DisplayName"] = "Demon Slayers",
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Weapons"
+    },
     ["Shovel"] = {
         ["Icon"] = "rbxassetid://15571654801",
         ["DisplayName"] = "Shovel",
@@ -1401,17 +1535,37 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Hitman"] = {["DisplayName"] = "Hitman", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Bunny"] = {["DisplayName"] = "Bunny", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["NatureStaff"] = {
+        ["Icon"] = "rbxassetid://16478684746",
+        ["DisplayName"] = "Nature Staff",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Weapons"
+    },
     ["Ascended"] = {["DisplayName"] = "Ascended", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["RGB"] = {["DisplayName"] = "RGB", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["Expert"] = {["DisplayName"] = "Expert", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["ToasterFork"] = {
+        ["Icon"] = "rbxassetid://16478685021",
+        ["DisplayName"] = "Toaster Fork",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
+    },
+    ["Chainsaw"] = {
+        ["Icon"] = "rbxassetid://16478685793",
+        ["DisplayName"] = "Chainsaw",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
+    },
     ["Sprinkler"] = {
         ["Icon"] = "rbxassetid://15248494041",
         ["DisplayName"] = "Sprinkler",
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
     },
-    ["Pogger"] = {["DisplayName"] = "Pogger", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Frolic"] = {
+        ["Icon"] = "rbxassetid://16799988337",
+        ["DisplayName"] = "Frolic",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
+    },
     ["Prehistoric"] = {["DisplayName"] = "Prehistoric", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Dangerous"] = {["DisplayName"] = "Dangerous", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Amusing"] = {["DisplayName"] = "Amusing", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
@@ -1424,7 +1578,12 @@ data = {
     ["Hades"] = {["DisplayName"] = "Hades", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Endo"] = {["DisplayName"] = "Endo", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Eggstraordinaire"] = {["DisplayName"] = "Eggstraordinaire", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
-    ["Pancake"] = {["DisplayName"] = "Pancake", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Baguette"] = {
+        ["Icon"] = "rbxassetid://16478686285",
+        ["DisplayName"] = "Baguette",
+        ["Rarity"] = "Common",
+        ["Category"] = "Weapons"
+    },
     ["Royal"] = {["DisplayName"] = "Royal", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Dougie"] = {
         ["Icon"] = "rbxassetid://16121872926",
@@ -1432,8 +1591,18 @@ data = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Emotes"
     },
-    ["Cracked"] = {["DisplayName"] = "Cracked", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Gleaming"] = {["DisplayName"] = "Gleaming", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["NightWing"] = {
+        ["Icon"] = "rbxassetid://16477938395",
+        ["DisplayName"] = "Night Wing",
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Cars"
+    },
+    ["IceCreamTruck"] = {
+        ["Icon"] = "rbxassetid://16477942907",
+        ["DisplayName"] = "Ice Cream Truck",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Cars"
+    },
     ["MysteryEmote"] = {
         ["Icon"] = "rbxassetid://16870889244",
         ["DisplayName"] = "Mystery",
@@ -1449,12 +1618,7 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Beginner"] = {["DisplayName"] = "Beginner", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["UFOTrail"] = {
-        ["Icon"] = "rbxassetid://16492129025",
-        ["DisplayName"] = "UFOs",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
+    ["Snowflake"] = {["DisplayName"] = "Snowflake", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Player"] = {["DisplayName"] = "Player", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["YellowSpectralAxe"] = {
         ["Icon"] = "rbxassetid://15940053878",
@@ -1462,18 +1626,13 @@ data = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Weapons"
     },
-    ["FruityTrail"] = {
-        ["Icon"] = "rbxassetid://16492131653",
-        ["DisplayName"] = "Fruity",
-        ["Rarity"] = "Rare",
+    ["UndeadTrail"] = {
+        ["Icon"] = "rbxassetid://15644325628",
+        ["DisplayName"] = "Undead",
+        ["Rarity"] = "Legendary",
         ["Category"] = "Trails"
     },
-    ["PinkGlitterTrail"] = {
-        ["Icon"] = "rbxassetid://16492129893",
-        ["DisplayName"] = "Pink Glitter",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Trails"
-    },
+    ["Freaky"] = {["DisplayName"] = "Freaky", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
     ["JingleBells"] = {
         ["Icon"] = "rbxassetid://15643588200",
         ["DisplayName"] = "Jingle Bells",
@@ -1481,10 +1640,10 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Beast"] = {["DisplayName"] = "Beast", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["GlitchTrail"] = {
-        ["Icon"] = "rbxassetid://16492131315",
-        ["DisplayName"] = "Glitch",
-        ["Rarity"] = "Rare",
+    ["HaloTrail"] = {
+        ["Icon"] = "rbxassetid://16267593196",
+        ["DisplayName"] = "Halo",
+        ["Rarity"] = "Epic",
         ["Category"] = "Trails"
     },
     ["Hero"] = {["DisplayName"] = "Hero", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
@@ -1500,12 +1659,7 @@ data = {
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
     },
-    ["SunflowerTrail"] = {
-        ["Icon"] = "rbxassetid://16492129453",
-        ["DisplayName"] = "Sunflowers",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Trails"
-    },
+    ["Limited"] = {["CantTrade"] = true, ["DisplayName"] = "Limited", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
     ["GetLoose"] = {
         ["Icon"] = "rbxassetid://15643588748",
         ["DisplayName"] = "Get Loose",
@@ -1519,24 +1673,25 @@ data = {
         ["Category"] = "Trails"
     },
     ["OogaBooga"] = {["DisplayName"] = "Ooga Booga", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["DemonSlayers"] = {
-        ["Icon"] = "rbxassetid://16478685303",
-        ["DisplayName"] = "Demon Slayers",
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Weapons"
+    ["SnowflakeTrail"] = {
+        ["Icon"] = "rbxassetid://15644326190",
+        ["DisplayName"] = "Snowflake Trail",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Trails"
     },
     ["Empress"] = {["DisplayName"] = "Empress", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["NatureStaff"] = {
-        ["Icon"] = "rbxassetid://16478684746",
-        ["DisplayName"] = "Nature Staff",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Weapons"
+    ["Griddy"] = {
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Emotes",
+        ["Sound"] = "Griddy",
+        ["Icon"] = "rbxassetid://15643588418",
+        ["DisplayName"] = "Griddy"
     },
-    ["ToasterFork"] = {
-        ["Icon"] = "rbxassetid://16478685021",
-        ["DisplayName"] = "Toaster Fork",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Weapons"
+    ["Contagious"] = {
+        ["Icon"] = "rbxassetid://16829479319",
+        ["DisplayName"] = "Contagious",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Emotes"
     },
     ["ComicallyLargeSpoon"] = {
         ["Icon"] = "rbxassetid://16478685570",
@@ -1551,127 +1706,6 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Star"] = {["DisplayName"] = "Star", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Chainsaw"] = {
-        ["Icon"] = "rbxassetid://16478685793",
-        ["DisplayName"] = "Chainsaw",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Weapons"
-    },
-    ["Scissors"] = {
-        ["Icon"] = "rbxassetid://16478684442",
-        ["DisplayName"] = "Scissors",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Weapons"
-    },
-    ["BowlingPin"] = {
-        ["Icon"] = "rbxassetid://16478686139",
-        ["DisplayName"] = "Bowling Pin",
-        ["Rarity"] = "Common",
-        ["Category"] = "Weapons"
-    },
-    ["Mortal"] = {["DisplayName"] = "Mortal", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Baguette"] = {
-        ["Icon"] = "rbxassetid://16478686285",
-        ["DisplayName"] = "Baguette",
-        ["Rarity"] = "Common",
-        ["Category"] = "Weapons"
-    },
-    ["NightWing"] = {
-        ["Icon"] = "rbxassetid://16477938395",
-        ["DisplayName"] = "Night Wing",
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Cars"
-    },
-    ["IceCreamTruck"] = {
-        ["Icon"] = "rbxassetid://16477942907",
-        ["DisplayName"] = "Ice Cream Truck",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Cars"
-    },
-    ["SportyConvertible"] = {
-        ["Icon"] = "rbxassetid://16477938195",
-        ["DisplayName"] = "Sporty Convertible",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Cars"
-    },
-    ["Predator"] = {["DisplayName"] = "Predator", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["SantasSleighGoKart"] = {
-        ["Icon"] = "rbxassetid://15633728446",
-        ["DisplayName"] = "Santa's Sleigh",
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Cars"
-    },
-    ["UndeadTrail"] = {
-        ["Icon"] = "rbxassetid://15644325628",
-        ["DisplayName"] = "Undead",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Trails"
-    },
-    ["HaloTrail"] = {
-        ["Icon"] = "rbxassetid://16267593196",
-        ["DisplayName"] = "Halo",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
-    ["CloudsTrail"] = {
-        ["Icon"] = "rbxassetid://16267593457",
-        ["DisplayName"] = "Clouds",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Trails"
-    },
-    ["Smelly"] = {["DisplayName"] = "Smelly", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Griddy"] = {
-        ["Rarity"] = "Mythic",
-        ["Category"] = "Emotes",
-        ["Sound"] = "Griddy",
-        ["Icon"] = "rbxassetid://15643588418",
-        ["DisplayName"] = "Griddy"
-    },
-    ["TankGoKart"] = {
-        ["Icon"] = "rbxassetid://15289431122",
-        ["DisplayName"] = "Tank",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Cars"
-    },
-    ["Anubis"] = {["DisplayName"] = "Anubis", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Pineapple"] = {
-        ["Icon"] = "rbxassetid://17439019402",
-        ["DisplayName"] = "Pineapple",
-        ["Rarity"] = "Common",
-        ["Category"] = "Weapons"
-    },
-    ["SnowflakeTrail"] = {
-        ["Icon"] = "rbxassetid://15644326190",
-        ["DisplayName"] = "Snowflake Trail",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Trails"
-    },
-    ["Queen"] = {["DisplayName"] = "Queen", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["ClownTrail"] = {
-        ["Icon"] = "rbxassetid://16114080576",
-        ["DisplayName"] = "Rainbow Clown",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
-    ["Contagious"] = {
-        ["Icon"] = "rbxassetid://16829479319",
-        ["DisplayName"] = "Contagious",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Emotes"
-    },
-    ["Frolic"] = {
-        ["Icon"] = "rbxassetid://16799988337",
-        ["DisplayName"] = "Frolic",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
-    },
-    ["Hype"] = {
-        ["Icon"] = "rbxassetid://15248494770",
-        ["DisplayName"] = "Hype",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Emotes"
-    },
-    ["Stray"] = {["DisplayName"] = "Stray", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["ShyDance"] = {
         ["Icon"] = "rbxassetid://16753153576",
         ["DisplayName"] = "Shy",
@@ -1690,6 +1724,7 @@ data = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Emotes"
     },
+    ["Mortal"] = {["DisplayName"] = "Mortal", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["SugarRush"] = {
         ["Icon"] = "rbxassetid://15643587608",
         ["DisplayName"] = "Sugar Rush",
@@ -1708,27 +1743,101 @@ data = {
         ["Rarity"] = "Uncommon",
         ["Category"] = "Emotes"
     },
-    ["Samurai"] = {["DisplayName"] = "Samurai", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["WinnerHeadBob"] = {
         ["Icon"] = "rbxassetid://15643587100",
         ["DisplayName"] = "Winner Head Bob",
         ["Rarity"] = "Common",
         ["Category"] = "Emotes"
     },
-    ["Naughty"] = {["DisplayName"] = "Naughty", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Predator"] = {["DisplayName"] = "Predator", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["BlueGoKart"] = {
         ["Icon"] = "rbxassetid://15194293131",
         ["DisplayName"] = "Blue",
         ["Rarity"] = "Common",
         ["Category"] = "Cars"
     },
-    ["Ominous"] = {["DisplayName"] = "Ominous", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["LaserSamuraiKatana"] = {
         ["Icon"] = "rbxassetid://15633712276",
         ["DisplayName"] = "Laser Samurai Katana",
         ["Rarity"] = "Epic",
         ["Category"] = "Weapons"
     },
+    ["CupcakeMace"] = {
+        ["Icon"] = "rbxassetid://15633713306",
+        ["DisplayName"] = "Cupcake Mace",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
+    },
+    ["Acrobatic"] = {["DisplayName"] = "Acrobatic", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Smelly"] = {["DisplayName"] = "Smelly", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["SantasSleighGoKart"] = {
+        ["Icon"] = "rbxassetid://15633728446",
+        ["DisplayName"] = "Santa's Sleigh",
+        ["Rarity"] = "Mythic",
+        ["Category"] = "Cars"
+    },
+    ["TankGoKart"] = {
+        ["Icon"] = "rbxassetid://15289431122",
+        ["DisplayName"] = "Tank",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Cars"
+    },
+    ["Anubis"] = {["DisplayName"] = "Anubis", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Pineapple"] = {
+        ["Icon"] = "rbxassetid://17439019402",
+        ["DisplayName"] = "Pineapple",
+        ["Rarity"] = "Common",
+        ["Category"] = "Weapons"
+    },
+    ["Reanimated"] = {
+        ["Icon"] = "rbxassetid://15248494444",
+        ["DisplayName"] = "Reanimated",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
+    },
+    ["Queen"] = {["DisplayName"] = "Queen", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["ClownTrail"] = {
+        ["Icon"] = "rbxassetid://16114080576",
+        ["DisplayName"] = "Rainbow Clown",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Trails"
+    },
+    ["BaconGoKart"] = {
+        ["Icon"] = "rbxassetid://15633728952",
+        ["DisplayName"] = "Bacon",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Cars"
+    },
+    ["Krampus"] = {["DisplayName"] = "Krampus", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
+    ["Hype"] = {
+        ["Icon"] = "rbxassetid://15248494770",
+        ["DisplayName"] = "Hype",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Emotes"
+    },
+    ["Stray"] = {["DisplayName"] = "Stray", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Inevitable"] = {
+        ["BattlePassItem"] = true,
+        ["DisplayName"] = "Inevitable",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Titles"
+    },
+    ["Lethal"] = {["DisplayName"] = "Lethal", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Nightmare"] = {["DisplayName"] = "Nightmare", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Wendigo"] = {["DisplayName"] = "Wendigo", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Worshipped"] = {["DisplayName"] = "Worshipped", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Santa"] = {["DisplayName"] = "Santa", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Samurai"] = {["DisplayName"] = "Samurai", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["BlueSpectralAxe"] = {
+        ["Icon"] = "rbxassetid://15940054062",
+        ["DisplayName"] = "Blue Spectral Axe",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Weapons"
+    },
+    ["Naughty"] = {["DisplayName"] = "Naughty", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Goober"] = {["DisplayName"] = "Goober", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Ominous"] = {["DisplayName"] = "Ominous", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Guardian"] = {["DisplayName"] = "Guardian", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Forgotten"] = {["DisplayName"] = "Forgotten", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Boring"] = {["DisplayName"] = "Boring", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["BaconBuster"] = {
@@ -1737,40 +1846,40 @@ data = {
         ["Rarity"] = "Epic",
         ["Category"] = "Cars"
     },
-    ["CupcakeMace"] = {
-        ["Icon"] = "rbxassetid://15633713306",
-        ["DisplayName"] = "Cupcake Mace",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Weapons"
-    },
+    ["Grinch"] = {["DisplayName"] = "Grinch", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Yapper"] = {["DisplayName"] = "Yapper", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Acrobatic"] = {["DisplayName"] = "Acrobatic", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Frosty"] = {["DisplayName"] = "Frosty", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["EasterEggGoKart"] = {
         ["Icon"] = "rbxassetid://16477938874",
         ["DisplayName"] = "Easter Egg",
         ["Rarity"] = "Uncommon",
         ["Category"] = "Cars"
     },
-    ["NeonSpeederGoKart"] = {
-        ["Icon"] = "rbxassetid://15633728549",
-        ["DisplayName"] = "Neon Speeder",
+    ["Ghoul"] = {["DisplayName"] = "Ghoul", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["RideThePony"] = {
+        ["Icon"] = "rbxassetid://15571651167",
+        ["DisplayName"] = "Ride The Pony",
         ["Rarity"] = "Legendary",
-        ["Category"] = "Cars"
+        ["Category"] = "Emotes"
     },
-    ["Inevitable"] = {
-        ["BattlePassItem"] = true,
-        ["DisplayName"] = "Inevitable",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Titles"
+    ["PartyDance"] = {
+        ["Icon"] = "rbxassetid://16039051195",
+        ["DisplayName"] = "Party Dance",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
     },
-    ["Limited"] = {["DisplayName"] = "Limited", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
     ["FlyingPhoenix"] = {
         ["Icon"] = "rbxassetid://17438842555",
         ["DisplayName"] = "Flying Phoenix",
         ["Rarity"] = "Mythic",
         ["Category"] = "Cars"
     },
-    ["Krampus"] = {["DisplayName"] = "Krampus", ["Rarity"] = "Mythic", ["Category"] = "Titles"},
+    ["RunningMan"] = {
+        ["Icon"] = "rbxassetid://15248494363",
+        ["DisplayName"] = "Running Man",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
+    },
     ["DrySock"] = {["DisplayName"] = "Dry Sock", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Glamorous"] = {["DisplayName"] = "Glamorous", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["RowboatGoKart"] = {
@@ -1785,73 +1894,24 @@ data = {
         ["Rarity"] = "Epic",
         ["Category"] = "Cars"
     },
-    ["Lethal"] = {["DisplayName"] = "Lethal", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["Nightmare"] = {["DisplayName"] = "Nightmare", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["Worshipped"] = {["DisplayName"] = "Worshipped", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Santa"] = {["DisplayName"] = "Santa", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["BlueSpectralAxe"] = {
-        ["Icon"] = "rbxassetid://15940054062",
-        ["DisplayName"] = "Blue Spectral Axe",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Weapons"
-    },
-    ["Guardian"] = {["DisplayName"] = "Guardian", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["Grinch"] = {["DisplayName"] = "Grinch", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["WatermelonTrail"] = {
-        ["Icon"] = "rbxassetid://17440308985",
-        ["DisplayName"] = "Watermelon",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Trails"
-    },
-    ["Snowflake"] = {["DisplayName"] = "Snowflake", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Ghoul"] = {["DisplayName"] = "Ghoul", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["RideThePony"] = {
-        ["Icon"] = "rbxassetid://15571651167",
-        ["DisplayName"] = "Ride The Pony",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Emotes"
-    },
-    ["Drippy"] = {["DisplayName"] = "Drippy", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
-    ["PartyDance"] = {
-        ["Icon"] = "rbxassetid://16039051195",
-        ["DisplayName"] = "Party Dance",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
-    },
-    ["BoogieBomb"] = {
-        ["Icon"] = "rbxassetid://15248496108",
-        ["DisplayName"] = "Boogie Bomb",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Emotes"
-    },
-    ["RunningMan"] = {
-        ["Icon"] = "rbxassetid://15248494363",
-        ["DisplayName"] = "Running Man",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
-    },
-    ["Reanimated"] = {
-        ["Icon"] = "rbxassetid://15248494444",
-        ["DisplayName"] = "Reanimated",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
-    },
-    ["Colorful"] = {["DisplayName"] = "Colorful", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["FreeFlow"] = {
         ["Icon"] = "rbxassetid://15248495063",
         ["DisplayName"] = "Free Flow",
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
     },
-    ["Thief"] = {["DisplayName"] = "Thief", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["CrazyFeet"] = {
         ["Icon"] = "rbxassetid://15248495694",
         ["DisplayName"] = "Crazy Feet",
         ["Rarity"] = "Rare",
         ["Category"] = "Emotes"
     },
-    ["Nerd"] = {["DisplayName"] = "Nerd", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Mythological"] = {["DisplayName"] = "Mythological", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["Breakdown"] = {
+        ["Icon"] = "rbxassetid://15248496030",
+        ["DisplayName"] = "Breakdown",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
+    },
     ["Twist"] = {
         ["Icon"] = "rbxassetid://15248493896",
         ["DisplayName"] = "Twist",
@@ -1859,13 +1919,6 @@ data = {
         ["Category"] = "Emotes"
     },
     ["Sussy"] = {["DisplayName"] = "Sussy", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["HolyBranch"] = {
-        ["Icon"] = "rbxassetid://16277708042",
-        ["DisplayName"] = "Holy Branch",
-        ["Rarity"] = "Uncommon",
-        ["Category"] = "Weapons"
-    },
-    ["Shrouded"] = {["DisplayName"] = "Shrouded", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
     ["Eagle"] = {
         ["Icon"] = "rbxassetid://15546209173",
         ["DisplayName"] = "Eagle",
@@ -1878,17 +1931,11 @@ data = {
         ["Rarity"] = "Uncommon",
         ["Category"] = "Emotes"
     },
-    ["IcyRocketGoKart"] = {
-        ["Icon"] = "rbxassetid://16028038564",
-        ["DisplayName"] = "Icy Rocket",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Cars"
-    },
-    ["FlameBlade"] = {
-        ["Icon"] = "rbxassetid://15297802966",
-        ["DisplayName"] = "Flame Blade",
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Weapons"
+    ["WatermelonTrail"] = {
+        ["Icon"] = "rbxassetid://17440308985",
+        ["DisplayName"] = "Watermelon",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Trails"
     },
     ["PonPon"] = {
         ["Icon"] = "rbxassetid://15248152653",
@@ -1902,19 +1949,66 @@ data = {
         ["Rarity"] = "Common",
         ["Category"] = "Emotes"
     },
-    ["Sporty"] = {["DisplayName"] = "Sporty", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Zany"] = {
         ["Icon"] = "rbxassetid://15248493811",
         ["DisplayName"] = "Zany",
         ["Rarity"] = "Common",
         ["Category"] = "Emotes"
     },
-    ["Eerie"] = {["DisplayName"] = "Eerie", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Drippy"] = {["DisplayName"] = "Drippy", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Jubilation"] = {
         ["Icon"] = "rbxassetid://15358832313",
         ["DisplayName"] = "Jubilation",
         ["Rarity"] = "Common",
         ["Category"] = "Emotes"
+    },
+    ["Nerd"] = {["DisplayName"] = "Nerd", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Sweetheart"] = {["DisplayName"] = "Sweetheart", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Frozen"] = {["DisplayName"] = "Frozen", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Colorful"] = {["DisplayName"] = "Colorful", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["L"] = {["DisplayName"] = "L", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Thief"] = {["DisplayName"] = "Thief", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Eboy"] = {["DisplayName"] = "Eboy", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Renowned"] = {["DisplayName"] = "Renowned", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Mythological"] = {["DisplayName"] = "Mythological", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["Muse"] = {["DisplayName"] = "Muse", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["MusicNotesTrail"] = {
+        ["Icon"] = "rbxassetid://15249102920",
+        ["DisplayName"] = "Music",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Trails"
+    },
+    ["HolyBranch"] = {
+        ["Icon"] = "rbxassetid://16277708042",
+        ["DisplayName"] = "Holy Branch",
+        ["Rarity"] = "Uncommon",
+        ["Category"] = "Weapons"
+    },
+    ["Shrouded"] = {["DisplayName"] = "Shrouded", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
+    ["MythicTitle"] = {["DisplayName"] = "MythicMythic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Stan"] = {["DisplayName"] = "Stan", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["Girly"] = {["DisplayName"] = "Girly", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["FlameBlade"] = {
+        ["Icon"] = "rbxassetid://15297802966",
+        ["DisplayName"] = "Flame Blade",
+        ["Rarity"] = "Legendary",
+        ["Category"] = "Weapons"
+    },
+    ["Terminator"] = {["DisplayName"] = "Terminator", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["Rich"] = {["DisplayName"] = "Rich", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Sporty"] = {["DisplayName"] = "Sporty", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
+    ["Cap"] = {
+        ["Icon"] = "rbxassetid://17809281018",
+        ["DisplayName"] = "Cap",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Emotes"
+    },
+    ["Eerie"] = {["DisplayName"] = "Eerie", ["Rarity"] = "Common", ["Category"] = "Titles"},
+    ["IcyRocketGoKart"] = {
+        ["Icon"] = "rbxassetid://16028038564",
+        ["DisplayName"] = "Icy Rocket",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Cars"
     },
     ["GodlyTrident"] = {
         ["Icon"] = "rbxassetid://16277708238",
@@ -2041,16 +2135,16 @@ data = {
         ["Category"] = "Weapons"
     },
     ["Unrivaled"] = {["DisplayName"] = "Unrivaled", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
-    ["Terminator"] = {["DisplayName"] = "Terminator", ["Rarity"] = "Epic", ["Category"] = "Titles"},
+    ["HandBagGoKart"] = {
+        ["Icon"] = "rbxassetid://17809302098",
+        ["DisplayName"] = "Handbag",
+        ["Rarity"] = "Epic",
+        ["Category"] = "Cars"
+    },
     ["Behemoth"] = {["DisplayName"] = "Behemoth", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Researcher"] = {["DisplayName"] = "Researcher", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Chaos"] = {["DisplayName"] = "Chaos", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["Breakdown"] = {
-        ["Icon"] = "rbxassetid://15248496030",
-        ["DisplayName"] = "Breakdown",
-        ["Rarity"] = "Rare",
-        ["Category"] = "Emotes"
-    },
+    ["Mystic"] = {["DisplayName"] = "Mystic", ["Rarity"] = "Legendary", ["Category"] = "Titles"},
     ["Director"] = {["DisplayName"] = "Director", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["RainbowSaber"] = {
         ["Icon"] = "rbxassetid://17332300436",
@@ -2106,7 +2200,12 @@ data = {
     },
     ["Soldier"] = {["DisplayName"] = "Soldier", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Macabre"] = {["DisplayName"] = "Macabre", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["BetaTester"] = {["DisplayName"] = "Beta Tester", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
+    ["BetaTester"] = {
+        ["CantTrade"] = true,
+        ["DisplayName"] = "Beta Tester",
+        ["Rarity"] = "Exclusive",
+        ["Category"] = "Titles"
+    },
     ["PaintBrush"] = {
         ["Icon"] = "rbxassetid://15297762251",
         ["DisplayName"] = "Paint Brush",
@@ -2181,10 +2280,10 @@ data = {
         ["Rarity"] = "Uncommon",
         ["Category"] = "Emotes"
     },
-    ["SmoothMoves"] = {
-        ["Icon"] = "rbxassetid://15248494128",
-        ["DisplayName"] = "Smooth Moves",
-        ["Rarity"] = "Common",
+    ["Classy"] = {
+        ["Icon"] = "rbxassetid://17809280899",
+        ["DisplayName"] = "Classy",
+        ["Rarity"] = "Epic",
         ["Category"] = "Emotes"
     },
     ["BarbedWireBaseballBat"] = {
@@ -2264,12 +2363,7 @@ data = {
         ["Rarity"] = "Legendary",
         ["Category"] = "Weapons"
     },
-    ["MusicNotesTrail"] = {
-        ["Icon"] = "rbxassetid://15249102920",
-        ["DisplayName"] = "Music",
-        ["Rarity"] = "Epic",
-        ["Category"] = "Trails"
-    },
+    ["Performer"] = {["DisplayName"] = "Performer", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["LightningTrail"] = {
         ["Icon"] = "rbxassetid://15250010098",
         ["DisplayName"] = "Lightning",
@@ -2284,9 +2378,14 @@ data = {
         ["Category"] = "Trails"
     },
     ["Scallywag"] = {["DisplayName"] = "Scallywag", ["Rarity"] = "Epic", ["Category"] = "Titles"},
-    ["ContentCreator"] = {["DisplayName"] = "Content Creator", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
+    ["ContentCreator"] = {
+        ["CantTrade"] = true,
+        ["DisplayName"] = "Content Creator",
+        ["Rarity"] = "Exclusive",
+        ["Category"] = "Titles"
+    },
     ["Untamed"] = {["DisplayName"] = "Untamed", ["Rarity"] = "Common", ["Category"] = "Titles"},
-    ["Member"] = {["DisplayName"] = "Member", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
+    ["Member"] = {["CantTrade"] = true, ["DisplayName"] = "Member", ["Rarity"] = "Exclusive", ["Category"] = "Titles"},
     ["Squid"] = {["DisplayName"] = "Squid", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Elite"] = {["DisplayName"] = "Elite", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["ChristmasGoKart"] = {
@@ -2375,19 +2474,18 @@ data = {
     ["Ruthless"] = {["DisplayName"] = "Ruthless", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Earl"] = {["DisplayName"] = "Earl", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Monster"] = {["DisplayName"] = "Monster", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["MythicTitle"] = {["DisplayName"] = "MythicMythic", ["Rarity"] = "Rare", ["Category"] = "Titles"},
+    ["Humble"] = {["DisplayName"] = "Humble", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Goddess"] = {["DisplayName"] = "Goddess", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Regular"] = {["DisplayName"] = "Regular", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Slayer"] = {["DisplayName"] = "Slayer", ["Rarity"] = "Rare", ["Category"] = "Titles"},
     ["Friend"] = {["DisplayName"] = "Friend", ["Rarity"] = "Common", ["Category"] = "Titles"},
     ["Mermaid"] = {["DisplayName"] = "Mermaid", ["Rarity"] = "Epic", ["Category"] = "Titles"},
     ["Cyborg"] = {["DisplayName"] = "Cyborg", ["Rarity"] = "Rare", ["Category"] = "Titles"},
-    ["PianoBlade"] = {
-        ["Rarity"] = "Legendary",
-        ["Category"] = "Weapons",
-        ["BattlePassItem"] = true,
-        ["Icon"] = "rbxassetid://17439019589",
-        ["DisplayName"] = "Piano Blade"
+    ["HairDryer"] = {
+        ["Icon"] = "rbxassetid://17809284761",
+        ["DisplayName"] = "Hair Dryer",
+        ["Rarity"] = "Rare",
+        ["Category"] = "Weapons"
     },
     ["Challenger"] = {["DisplayName"] = "Challenger", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
     ["Adventurer"] = {["DisplayName"] = "Adventurer", ["Rarity"] = "Uncommon", ["Category"] = "Titles"},
