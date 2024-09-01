@@ -1,9 +1,11 @@
 data = {
-    ["Radar"] = 5,
-    ["Forcefield"] = 8,
     ["Hunter Drone"] = 6,
-    ["Sentry"] = 9,
     ["Minigun"] = 13,
-    ["Nuke"] = 100,
-    ["Launcher"] = 11
+    ["Launcher"] = 11,
+    ["Orbital Laser"] = 40,
+    ["Sentry"] = 15,
+    ["Radar"] = 5,
+    ["Akimbo AA12"] = 6,
+    ["Forcefield"] = 8,
+    ["Nuke"] = 100
 }
