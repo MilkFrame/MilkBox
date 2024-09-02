@@ -13,6 +13,10 @@ data = {
             ["cooldown"] = {["id"] = "recall_eagle", ["duration"] = 3},
             ["actionBarName"] = "Recall Eagle"
         },
+        ["summoner_finish_charging"] = {
+            ["cooldown"] = {["id"] = "summoner_finish_charging", ["duration"] = 1},
+            ["actionBarName"] = "Finish Summon"
+        },
         ["jade_hammer_jump"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "jade_hammer", ["duration"] = 4},
@@ -26,6 +30,21 @@ data = {
         ["PIRATE_TELESCOPE"] = {
             ["cooldown"] = {["id"] = "pirate_telescope", ["duration"] = 20},
             ["actionBarName"] = "Telescope"
+        },
+        ["summoner_start_charging"] = {
+            ["cooldown"] = {["id"] = "summoner_start_charging", ["duration"] = 25},
+            ["actionBarName"] = "Summon"
+        },
+        ["MENDING_CANOPY_STAFF_MANA_TIER_3"] = {
+            ["usableProgress"] = {
+                ["stacks"] = 120,
+                ["gradientRotation"] = 0,
+                ["progressNeededPerUse"] = 1,
+                ["initialProgress"] = 120,
+                ["gradient"] = "0 0.835294 0.498039 0.0705882 0 1 1 0.952941 0.00392157 0 ",
+                ["stacksBarDividerTransparency"] = 1
+            },
+            ["actionBarName"] = "Mana"
         },
         ["MENDING_CANOPY_STAFF_CHARGE_DISABLED"] = {
             ["cooldown"] = {["id"] = "mending_canopy_staff_disabled", ["duration"] = 1},
@@ -43,9 +62,47 @@ data = {
             ["cooldown"] = {["id"] = "murderer_kill", ["duration"] = 0.5},
             ["actionBarName"] = "Kill"
         },
+        ["rebellion_aura_swap"] = {
+            ["actionBarDescription"] = "Swap Aura Effect",
+            ["cooldown"] = {["id"] = "aura_swap", ["duration"] = 7},
+            ["actionBarName"] = "Swap Aura"
+        },
+        ["SPIRIT_BRIDGE"] = {
+            ["cooldown"] = {["id"] = "spirit_bridge", ["duration"] = 60},
+            ["actionBarName"] = "Spirit Bridge"
+        },
+        ["disable_life_force_attack"] = {
+            ["enableAbilityOnUse"] = "enable_life_force_attack",
+            ["disableAfterUse"] = true,
+            ["triggerConfig"] = {
+                ["abilityButton"] = {["icon"] = "rbxassetid://103775661067061"},
+                ["abilityType"] = "KitSecondary"
+            },
+            ["actionBarDescription"] = "Disable to stop using life force to increase damage on melee and ranged attacks.",
+            ["cooldown"] = {["id"] = "disable_life_force_attack", ["duration"] = 2},
+            ["actionBarName"] = "Disable Empowered Attacks"
+        },
         ["tinker_self_repair"] = {
             ["cooldown"] = {["id"] = "tinker_self_repair", ["duration"] = 5},
             ["actionBarName"] = "Self-Repair"
+        },
+        ["SORCERER_EXPLOSION_TIER_2"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["actionBarDescription"] = "Collect alchemy crystals to use this ability. Upgrade to the next level at 0 crystals",
+            ["cooldown"] = {["id"] = "sorcerer_explosion", ["duration"] = 1},
+            ["actionBarName"] = "Charge Explosive Comet"
+        },
+        ["enable_life_force_attack"] = {
+            ["enableAbilityOnUse"] = "disable_life_force_attack",
+            ["disableAfterUse"] = true,
+            ["blockingStatusEffects"] = {"slience"},
+            ["triggerConfig"] = {
+                ["abilityButton"] = {["icon"] = "rbxassetid://115332676003153"},
+                ["abilityType"] = "KitSecondary"
+            },
+            ["actionBarDescription"] = "Enable to consume life force in exchange for increased damage on melee and ranged attacks.",
+            ["cooldown"] = {["id"] = "enable_life_force_attack", ["duration"] = 2},
+            ["actionBarName"] = "Enable Empowered Attacks"
         },
         ["SPIRIT_ASSASSIN_TELEPORT"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
@@ -56,6 +113,15 @@ data = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 10},
             ["actionBarName"] = "Teleport"
+        },
+        ["close_black_market"] = {
+            ["triggerConfig"] = {
+                ["abilityButton"] = {["icon"] = "rbxassetid://119449708031972"},
+                ["abilityType"] = "KitPrimary"
+            },
+            ["enableAbilityOnUse"] = "open_black_market",
+            ["disableAfterUse"] = true,
+            ["actionBarName"] = "Close Black Market"
         },
         ["RAINBOW_AXE"] = {
             ["cooldown"] = {
@@ -82,6 +148,17 @@ data = {
             ["cooldown"] = {["id"] = "villain_wand_heal", ["duration"] = 5},
             ["actionBarName"] = "Wand Heal Cast"
         },
+        ["open_black_market"] = {
+            ["enableAbilityOnUse"] = "close_black_market",
+            ["disableAfterUse"] = true,
+            ["triggerConfig"] = {
+                ["abilityButton"] = {["icon"] = "rbxassetid://113001314183117"},
+                ["abilityType"] = "KitPrimary"
+            },
+            ["actionBarDescription"] = "Summons the black market in front of you. You receive 10% of the profits",
+            ["cooldown"] = {["id"] = "open_black_market", ["duration"] = 20},
+            ["actionBarName"] = "Open Black Market"
+        },
         ["dash"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["usableProgress"] = {
@@ -91,6 +168,10 @@ data = {
                 ["initialProgress"] = 8
             },
             ["actionBarName"] = "Dash"
+        },
+        ["trinity_swap_form"] = {
+            ["cooldown"] = {["id"] = "trinity_swap_form", ["duration"] = 30},
+            ["actionBarName"] = "Inversion"
         },
         ["DEACTIVE_SHIELDER_INDICATOR"] = {
             ["cooldown"] = {["id"] = "shield_indicator", ["duration"] = 1},
@@ -107,6 +188,10 @@ data = {
                 ["stacksBarDividerTransparency"] = 0.4
             },
             ["actionBarName"] = "Mana"
+        },
+        ["jellyfish_mount_swap_color"] = {
+            ["cooldown"] = {["id"] = "jellyfish_mount_swap_color", ["duration"] = 1},
+            ["actionBarName"] = "Swap Color"
         },
         ["super_jump"] = {
             ["blockingStatusEffects"] = {"slience"},
@@ -127,13 +212,15 @@ data = {
             ["actionBarName"] = "Void Slam"
         },
         ["SNOWBALL_LAUNCHER_CYCLE"] = {["actionBarName"] = "Switch Launcher Mode"},
+        ["SORCERER_EXPLOSION_TIER_1"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["actionBarDescription"] = "Collect alchemy crystals to use this ability. Upgrade to the next level at 6 crystals",
+            ["cooldown"] = {["id"] = "sorcerer_explosion", ["duration"] = 1},
+            ["actionBarName"] = "Charge Explosive Comet"
+        },
         ["ACTIVATE_EAGLE_INDICATOR"] = {
             ["cooldown"] = {["id"] = "activate_eagle_indicator", ["duration"] = 5},
             ["actionBarName"] = "Summon Eagle"
-        },
-        ["jellyfish_mount_swap_color"] = {
-            ["cooldown"] = {["id"] = "jellyfish_mount_swap_color", ["duration"] = 1},
-            ["actionBarName"] = "Swap Color"
         },
         ["electrify_jellyfish"] = {
             ["cooldown"] = {["id"] = "electrify_jellyfish", ["duration"] = 7},
@@ -148,6 +235,18 @@ data = {
             ["cooldown"] = {["id"] = "styx_respawn", ["duration"] = 1},
             ["actionBarName"] = "Respawn Early"
         },
+        ["tinker_summon"] = {
+            ["cooldown"] = {["id"] = "tinker_summon", ["duration"] = 15},
+            ["actionBarName"] = "Summon Talos Mech"
+        },
+        ["disruptor_explosion_emp"] = {
+            ["cooldown"] = {["id"] = "disruptor_explosion", ["duration"] = 12},
+            ["actionBarName"] = "Disruptor EMP"
+        },
+        ["whirling_death"] = {
+            ["cooldown"] = {["id"] = "whirling_death", ["duration"] = 10},
+            ["actionBarName"] = "Whirling Death"
+        },
         ["SUMMON_OWL"] = {["cooldown"] = {["id"] = "summon_owl", ["duration"] = 3}, ["actionBarName"] = "Summon Owl"},
         ["self_damage"] = {["usableProgress"] = {["progressNeededPerUse"] = 3}, ["actionBarName"] = "Self Damage"},
         ["ROCKET_BELT"] = {
@@ -155,15 +254,12 @@ data = {
             ["cooldown"] = {["id"] = "rocket_belt", ["duration"] = 15},
             ["actionBarName"] = "Rocket Belt"
         },
-        ["elk_antler_uppercut"] = {
-            ["blockingStatusEffects"] = {"grounded", "slience"},
-            ["cooldown"] = {["id"] = "elk_antler_uppercut_cooldown", ["duration"] = 12},
-            ["actionBarName"] = "Charge Attack"
+        ["SORCERER_PROJECTILE_FIRE"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["cooldown"] = {["id"] = "sorcerer_fire", ["duration"] = 1},
+            ["actionBarName"] = "Fire"
         },
-        ["tinker_summon"] = {
-            ["cooldown"] = {["id"] = "tinker_summon", ["duration"] = 15},
-            ["actionBarName"] = "Summon Talos Mech"
-        },
+        ["MORTAR"] = {["cooldown"] = {["id"] = "mortar", ["duration"] = 0.1}, ["actionBarName"] = "Dragon Mortar"},
         ["elk_summon"] = {
             ["cooldown"] = {["id"] = "elk_summon_cooldown", ["duration"] = 15},
             ["actionBarName"] = "Summon Elk"
@@ -196,14 +292,26 @@ data = {
             ["cooldown"] = {["id"] = "steam_engineer_overclock", ["duration"] = 22},
             ["actionBarName"] = "Overclock"
         },
-        ["disruptor_explosion_emp"] = {
-            ["cooldown"] = {["id"] = "disruptor_explosion", ["duration"] = 12},
-            ["actionBarName"] = "Disruptor EMP"
+        ["drone_speed_boost"] = {
+            ["cooldown"] = {["id"] = "drone_speed_boost", ["duration"] = 12},
+            ["actionBarName"] = "Drone Speed Boost"
         },
-        ["whirling_death"] = {
-            ["cooldown"] = {["id"] = "whirling_death", ["duration"] = 10},
-            ["actionBarName"] = "Whirling Death"
+        ["HATTER_PEEK"] = {["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 1}, ["actionBarName"] = "Peek"},
+        ["MENDING_CANOPY_STAFF_OVERCHARGE"] = {
+            ["cooldown"] = {["id"] = "mending_canopy_staff_overcharge", ["duration"] = 60},
+            ["actionBarName"] = "Overcharge Staff"
         },
+        ["rebellion_shield"] = {
+            ["actionBarDescription"] = "Consume all stacks of Triumph to shield nearby allies and enchance Aura effecct ",
+            ["cooldown"] = {["id"] = "rebellion_shield", ["duration"] = 30},
+            ["actionBarName"] = "Press the Attack!"
+        },
+        ["SLIME_DIRECT"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["cooldown"] = {["id"] = "SLIME_DIRECT", ["duration"] = 1},
+            ["actionBarName"] = "Direct/Recall Slime"
+        },
+        ["CARD_UPGRADES"] = {["actionBarName"] = "See Current Upgrades"},
         ["MENDING_CANOPY_STAFF_MANA_TIER_2"] = {
             ["usableProgress"] = {
                 ["stacks"] = 110,
@@ -215,19 +323,8 @@ data = {
             },
             ["actionBarName"] = "Mana"
         },
-        ["drone_speed_boost"] = {
-            ["cooldown"] = {["id"] = "drone_speed_boost", ["duration"] = 12},
-            ["actionBarName"] = "Drone Speed Boost"
-        },
-        ["SLIME_DIRECT"] = {
-            ["blockingStatusEffects"] = {"slience"},
-            ["cooldown"] = {["id"] = "SLIME_DIRECT", ["duration"] = 1},
-            ["actionBarName"] = "Direct/Recall Slime"
-        },
-        ["CARD_UPGRADES"] = {["actionBarName"] = "See Current Upgrades"},
-        ["HATTER_PEEK"] = {["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 1}, ["actionBarName"] = "Peek"},
         ["rocket_detonate"] = {
-            ["blockingStatusEffects"] = {"grounded", "shocked", "slience"},
+            ["blockingStatusEffects"] = {"grounded", "shocked_3", "slience"},
             ["cooldown"] = {["id"] = "rocket_detonate_cooldown", ["duration"] = 15},
             ["actionBarName"] = "Rocket Boost"
         },
@@ -235,22 +332,12 @@ data = {
             ["cooldown"] = {["id"] = "no_cooldown", ["duration"] = 0.25},
             ["actionBarName"] = "Get current highlighted block."
         },
-        ["MENDING_CANOPY_STAFF_MANA_TIER_3"] = {
-            ["usableProgress"] = {
-                ["stacks"] = 120,
-                ["gradientRotation"] = 0,
-                ["progressNeededPerUse"] = 1,
-                ["initialProgress"] = 120,
-                ["gradient"] = "0 0.835294 0.498039 0.0705882 0 1 1 0.952941 0.00392157 0 ",
-                ["stacksBarDividerTransparency"] = 1
-            },
-            ["actionBarName"] = "Mana"
+        ["SLIME_CYCLE"] = {["blockingStatusEffects"] = {"slience"}, ["actionBarName"] = "Cycle Slime"},
+        ["SORCERER_PROJECTILE_CANCEL"] = {["actionBarName"] = "Cancel"},
+        ["hero_wand_bubble"] = {
+            ["cooldown"] = {["id"] = "hero_wand_bubble", ["duration"] = 5},
+            ["actionBarName"] = "Wand Bubble Cast"
         },
-        ["MENDING_CANOPY_STAFF_OVERCHARGE"] = {
-            ["cooldown"] = {["id"] = "mending_canopy_staff_overcharge", ["duration"] = 60},
-            ["actionBarName"] = "Overcharge Staff"
-        },
-        ["MORTAR"] = {["cooldown"] = {["id"] = "mortar", ["duration"] = 0.1}, ["actionBarName"] = "Dragon Mortar"},
         ["QUEEN_BEE_GLIDE"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "queen_bee_glide", ["duration"] = 180},
@@ -274,21 +361,23 @@ data = {
             ["cooldown"] = {["id"] = "block_kick", ["duration"] = 0.5},
             ["actionBarName"] = "Block Kick"
         },
+        ["ice_queen"] = {
+            ["cooldown"] = {["id"] = "ice_queen", ["duration"] = 15},
+            ["actionBarName"] = "Detonate Ice Stacks"
+        },
         ["LIGHTNING_STRIKE"] = {
             ["cooldown"] = {["id"] = "lightning_strike", ["duration"] = 0.8},
             ["actionBarName"] = "Lightning Strike"
         },
-        ["hero_wand_bubble"] = {
-            ["cooldown"] = {["id"] = "hero_wand_bubble", ["duration"] = 5},
-            ["actionBarName"] = "Wand Bubble Cast"
+        ["SORCERER_EXPLOSION_TIER_3"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["actionBarDescription"] = "Collect alchemy crystals to use this ability",
+            ["cooldown"] = {["id"] = "sorcerer_explosion", ["duration"] = 1},
+            ["actionBarName"] = "Charge Explosive Comet"
         },
-        ["elk_dismiss"] = {
-            ["cooldown"] = {["id"] = "elk_dismiss_cooldown", ["duration"] = 5},
-            ["actionBarName"] = "Dismount Elk"
-        },
-        ["ice_queen"] = {
-            ["cooldown"] = {["id"] = "ice_queen", ["duration"] = 15},
-            ["actionBarName"] = "Detonate Ice Stacks"
+        ["dragon_sword_ult"] = {
+            ["cooldown"] = {["id"] = "dragon_sword_ult", ["duration"] = 10},
+            ["actionBarName"] = "Dragon Sword Ult"
         },
         ["villain_wand_bubble"] = {
             ["cooldown"] = {["id"] = "villain_wand_bubble", ["duration"] = 5},
@@ -300,16 +389,20 @@ data = {
             ["cooldown"] = {["id"] = "wormhole", ["duration"] = 2},
             ["actionBarName"] = "Go to base"
         },
-        ["dragon_sword_ult"] = {
-            ["cooldown"] = {["id"] = "dragon_sword_ult", ["duration"] = 10},
-            ["actionBarName"] = "Dragon Sword Ult"
+        ["elk_dismiss"] = {
+            ["cooldown"] = {["id"] = "elk_dismiss_cooldown", ["duration"] = 5},
+            ["actionBarName"] = "Dismount Elk"
         },
         ["SHIELDER_ULT"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "shield_indicator", ["duration"] = 1},
             ["actionBarName"] = "Leap"
         },
-        ["SLIME_CYCLE"] = {["blockingStatusEffects"] = {"slience"}, ["actionBarName"] = "Cycle Slime"},
+        ["elk_antler_uppercut"] = {
+            ["blockingStatusEffects"] = {"grounded", "slience"},
+            ["cooldown"] = {["id"] = "elk_antler_uppercut_cooldown", ["duration"] = 14},
+            ["actionBarName"] = "Charge Attack"
+        },
         ["CAT_POUNCE"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
             ["cooldown"] = {["id"] = "cat_pounce", ["duration"] = 10},
@@ -370,10 +463,12 @@ data = {
         ["TRAIN_WHISTLE"] = {["cooldown"] = {["id"] = "train_whistle", ["duration"] = 2}, ["actionBarName"] = "Whistle"},
         ["BH_HIDER_TAUNT_FIREWORK"] = {
             ["blockingStatusEffects"] = {"slience"},
+            ["actionBarDescription"] = "+10 Coins",
             ["cooldown"] = {["id"] = "bh_hider_taunt_firework", ["duration"] = 20},
             ["actionBarName"] = "Send up a firework to taunt nearby hunters!"
         },
         ["BH_HIDER_TAUNT_SOUND"] = {
+            ["actionBarDescription"] = "+5 Coins",
             ["cooldown"] = {["id"] = "bh_hider_taunt_sound", ["duration"] = 10},
             ["actionBarName"] = "Play a sound to taunt nearby hunters!"
         },
@@ -417,9 +512,15 @@ data = {
             },
             ["actionBarName"] = "Charge Attack"
         },
-        ["SPIRIT_BRIDGE"] = {
-            ["cooldown"] = {["id"] = "spirit_bridge", ["duration"] = 60},
-            ["actionBarName"] = "Spirit Bridge"
+        ["consume_life_foce"] = {
+            ["blockingStatusEffects"] = {"slience"},
+            ["triggerConfig"] = {
+                ["abilityButton"] = {["icon"] = "rbxassetid://131023380051239"},
+                ["abilityType"] = "KitPrimary"
+            },
+            ["actionBarDescription"] = "Consume life force to heal yourself.",
+            ["cooldown"] = {["id"] = "consume_life_force", ["duration"] = 6},
+            ["actionBarName"] = "Consume Life Force"
         },
         ["SCYTHE_DASH_AND_SPIN"] = {
             ["blockingStatusEffects"] = {"grounded", "slience"},
