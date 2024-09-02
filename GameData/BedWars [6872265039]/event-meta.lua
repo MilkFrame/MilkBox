@@ -3,7 +3,7 @@ data = {
         ["summer_2024"] = {
             ["missionPageDesc"] = "Chill out and enjoy the summer sun!",
             ["npcCollectionTag"] = "EventNPC",
-            ["active"] = true,
+            ["active"] = false,
             ["currencies"] = {"summer_2024_currency"},
             ["globalTeamEventKey"] = "summer_2024",
             ["endDate"] = 1720821040,
@@ -186,23 +186,6 @@ data = {
                         },
                         {
                             ["metaId"] = "9",
-                            ["name"] = "Repair 2 Enchant Tables",
-                            ["currencyReward"] = "summer_2024_currency",
-                            ["rewardAmount"] = 2000,
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["reward"] = {
-                                ["rewards"] = {
-                                    {
-                                        ["globalTeamCurrency"] = {["eventKey"] = "summer_2024", ["amount"] = 20},
-                                        ["paid"] = false
-                                    }
-                                },
-                                ["name"] = "Shell Contributions",
-                                ["icon"] = "rbxassetid://18123383870"
-                            }
-                        },
-                        {
-                            ["metaId"] = "10",
                             ["name"] = "Purchase Obsidian Blocks",
                             ["currencyReward"] = "summer_2024_currency",
                             ["rewardAmount"] = 2000,
@@ -452,13 +435,6 @@ data = {
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "summer_2024_currency",
-                            ["rewardAmount"] = 5000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "summer_2024_currency",
                             ["rewardAmount"] = 5000,
@@ -564,13 +540,6 @@ data = {
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "candy_2023",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "candy_2023",
                             ["rewardAmount"] = 1000,
@@ -739,13 +708,6 @@ data = {
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "two_year_coin",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "two_year_coin",
                             ["rewardAmount"] = 1000,
@@ -910,13 +872,6 @@ data = {
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "red_envelope_2024",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "red_envelope_2024",
                             ["rewardAmount"] = 1000,
@@ -1047,13 +1002,6 @@ data = {
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "red_envelope_2024",
-                            ["rewardAmount"] = 10000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "red_envelope_2024",
                             ["rewardAmount"] = 10000,
@@ -1499,16 +1447,8 @@ data = {
                     ["layoutOrder"] = 2,
                     ["name"] = "Egg Hunt",
                     ["id"] = "egg_hunt",
-                    ["selectAmount"] = 18,
+                    ["selectAmount"] = 17,
                     ["pool"] = {
-                        {
-                            ["layoutOrder"] = 2,
-                            ["metaId"] = "diamond_egg",
-                            ["name"] = "Diamond Egg: Purchase a team upgrade",
-                            ["rewardAmount"] = 1,
-                            ["stages"] = {{["progress"] = 1, ["type"] = "PurchaseTeamUpgradeCard"}},
-                            ["reward"] = {["name"] = "Diamond Egg", ["icon"] = "rbxassetid://13031415937"}
-                        },
                         {
                             ["layoutOrder"] = 1,
                             ["metaId"] = "emerald_egg",
@@ -1926,16 +1866,8 @@ Fend off hoards of bed-destroying penguins in the new limited time mode: Penguin
                     ["layoutOrder"] = 1,
                     ["name"] = "Event",
                     ["id"] = "event",
-                    ["selectAmount"] = 18,
+                    ["selectAmount"] = 17,
                     ["pool"] = {
-                        {
-                            ["layoutOrder"] = 1,
-                            ["metaId"] = "diamond_egg",
-                            ["name"] = "Diamond Egg: Purchase a team upgrade",
-                            ["rewardAmount"] = 1,
-                            ["stages"] = {{["progress"] = 1, ["type"] = "PurchaseTeamUpgradeCard"}},
-                            ["reward"] = {["name"] = "Diamond Egg", ["icon"] = "rbxassetid://13031415937"}
-                        },
                         {
                             ["layoutOrder"] = 2,
                             ["metaId"] = "emerald_egg",
@@ -2137,13 +2069,6 @@ Fend off hoards of bed-destroying penguins in the new limited time mode: Penguin
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "xmas_token",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "xmas_token",
                             ["rewardAmount"] = 1000,
@@ -2311,13 +2236,6 @@ Fend off hoards of bed-destroying penguins in the new limited time mode: Penguin
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "three_year_coin",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "three_year_coin",
                             ["rewardAmount"] = 1000,
@@ -2448,13 +2366,6 @@ Fend off hoards of bed-destroying penguins in the new limited time mode: Penguin
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "three_year_coin",
-                            ["rewardAmount"] = 10000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "three_year_coin",
                             ["rewardAmount"] = 10000,
@@ -2558,13 +2469,6 @@ Fend off hoards of bed-destroying penguins in the new limited time mode: Penguin
                         },
                         {
                             ["metaId"] = "7",
-                            ["stages"] = {{["progress"] = 2, ["type"] = "RepairEnchantTable"}},
-                            ["currencyReward"] = "xmas_token_2023",
-                            ["rewardAmount"] = 1000,
-                            ["name"] = "Repair 2 Enchant Tables"
-                        },
-                        {
-                            ["metaId"] = "8",
                             ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
                             ["currencyReward"] = "xmas_token_2023",
                             ["rewardAmount"] = 1000,
