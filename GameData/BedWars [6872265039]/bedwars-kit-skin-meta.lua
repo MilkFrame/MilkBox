@@ -157,10 +157,11 @@ data = {
             ["renderImage"] = "rbxassetid://18150178161"
         },
         ["miner_space"] = {
-            ["kit"] = "miner",
-            ["renderImage"] = "rbxassetid://9166325362",
             ["name"] = "Space Miner",
-            ["itemSkins"] = {"miner_pickaxe_space"}
+            ["itemSkins"] = {"miner_pickaxe_space"},
+            ["kit"] = "miner",
+            ["miner"] = {["pickaxeSkinName"] = "MinerPickaxeSpace"},
+            ["renderImage"] = "rbxassetid://9166325362"
         },
         ["vulcan_cream_soda"] = {
             ["name"] = "Cream Soda Vulcan",
@@ -200,6 +201,56 @@ data = {
             ["name"] = "DJ Cyber",
             ["product"] = {["priceRobux"] = 799, ["devProductId"] = 1267371973}
         },
+        ["platinum_victorious_wizard"] = {
+            ["name"] = "Victorious Zeno",
+            ["itemSkins"] = {
+                "platinum_victorious_wizard_staff",
+                "platinum_victorious_wizard_staff_2",
+                "platinum_victorious_wizard_staff_3"
+            },
+            ["kit"] = "wizard",
+            ["variantOfSkin"] = {
+                ["variantName"] = "Platinum",
+                ["variantValue"] = 2,
+                ["variantIconColor"] = Color3.fromRGB(0, 246, 232),
+                ["parentSkin"] = "gold_victorious_wizard"
+            },
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.384314 0.968627 0.901961 0 1 0.384314 0.968627 0.901961 0 ",
+                ["shockwaveEffect"] = "WizardShockwavePlatinum",
+                ["lightningStrikeStaticOverlay"] = "rbxassetid://86521212015119",
+                ["lightningStrikeOverlay"] = "rbxassetid://132426638265006",
+                ["shockwaveSound"] = "rbxassetid://120332972271383",
+                ["lightningStrikeCastSound"] = "rbxassetid://110152356276337",
+                ["lightningImpactEffect"] = "WizardImpactPlatinum"
+            },
+            ["renderImage"] = "rbxassetid://136132786716532"
+        },
+        ["nightmare_victorious_wizard"] = {
+            ["name"] = "Victorious Zeno",
+            ["itemSkins"] = {
+                "nightmare_victorious_wizard_staff",
+                "nightmare_victorious_wizard_staff_2",
+                "nightmare_victorious_wizard_staff_3"
+            },
+            ["kit"] = "wizard",
+            ["variantOfSkin"] = {
+                ["variantName"] = "Nightmare",
+                ["variantValue"] = 5,
+                ["variantIconColor"] = Color3.fromRGB(227, 53, 255),
+                ["parentSkin"] = "gold_victorious_wizard"
+            },
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.819608 0.482353 0.823529 0 1 0.517647 0.721569 0.807843 0 ",
+                ["shockwaveEffect"] = "WizardShockwaveNightmare",
+                ["lightningStrikeStaticOverlay"] = "rbxassetid://71114863790998",
+                ["lightningStrikeOverlay"] = "rbxassetid://76114082270687",
+                ["shockwaveSound"] = "rbxassetid://84795439497125",
+                ["lightningStrikeCastSound"] = "rbxassetid://110152356276337",
+                ["lightningImpactEffect"] = "WizardImpactNightmare"
+            },
+            ["renderImage"] = "rbxassetid://108195228684772"
+        },
         ["grim_reaper_victorious_nightmare"] = {
             ["name"] = "Victorious Grim Reaper",
             ["kit"] = "grim_reaper",
@@ -218,10 +269,18 @@ data = {
             }
         },
         ["miner_winter"] = {
-            ["kit"] = "miner",
-            ["renderImage"] = "rbxassetid://11895535823",
             ["name"] = "Winter Miner",
-            ["itemSkins"] = {"miner_pickaxe_winter"}
+            ["itemSkins"] = {"miner_pickaxe_winter"},
+            ["kit"] = "miner",
+            ["miner"] = {
+                ["petrifyStatueMaterial"] = Enum.Material.Ice,
+                ["hitParticleColor"] = "0 0.0117647 0.909804 0.992157 0 1 0.2 0.780392 0.988235 0 ",
+                ["pickaxeHitSounds"] = {"rbxassetid://8933936733", "rbxassetid://8933936347", "rbxassetid://8933936547"},
+                ["statueBreakSound"] = "rbxassetid://8933936889",
+                ["petrifyStatueColor"] = Color3.fromRGB(33, 245, 255),
+                ["pickaxeSkinName"] = "MinerPickaxeWinter"
+            },
+            ["renderImage"] = "rbxassetid://11895535823"
         },
         ["bigman_christmas"] = {
             ["kit"] = "bigman",
@@ -246,6 +305,40 @@ data = {
             ["product"] = {["priceRobux"] = 799, ["devProductId"] = 1257514970}
         },
         ["aery_academy"] = {["kit"] = "aery", ["name"] = "Academy Aery", ["renderImage"] = "rbxassetid://9166325448"},
+        ["fish_tank_tinker"] = {
+            ["name"] = "Fish Tank Hephaestus",
+            ["itemSkins"] = {
+                "fish_tank_wood_chainsaw",
+                "fish_tank_iron_chainsaw",
+                "fish_tank_diamond_chainsaw",
+                "fish_tank_emerald_chainsaw",
+                "fish_tank_void_chainsaw"
+            },
+            ["kit"] = "tinker",
+            ["renderImage"] = "rbxassetid://18939851624",
+            ["tinker"] = {
+                ["models"] = {
+                    "fish_tank_tinker",
+                    "fish_tank_iron_tinker",
+                    "fish_tank_diamond_tinker",
+                    "fish_tank_emerald_tinker",
+                    "fish_tank_void_tinker"
+                },
+                ["sound"] = {
+                    ["exit"] = "rbxassetid://18938926206",
+                    ["spin"] = "rbxassetid://18938922289",
+                    ["attack"] = "rbxassetid://18940231613",
+                    ["explosion"] = "rbxassetid://18938928023",
+                    ["footsteps"] = {
+                        "rbxassetid://18938930131",
+                        "rbxassetid://18938936130",
+                        "rbxassetid://18938943698",
+                        "rbxassetid://18938954582"
+                    },
+                    ["spawn"] = "rbxassetid://18938924277"
+                }
+            }
+        },
         ["block_kicker_void"] = {
             ["kit"] = "block_kicker",
             ["renderImage"] = "rbxassetid://16831223951",
@@ -268,6 +361,30 @@ data = {
             ["milo"] = {["disguiseSound"] = "rbxassetid://15643777620", ["revealSound"] = "rbxassetid://15643778957"},
             ["name"] = "Grinch Milo",
             ["renderImage"] = "rbxassetid://15643552967"
+        },
+        ["gold_victorious_wizard"] = {
+            ["name"] = "Victorious Zeno",
+            ["itemSkins"] = {
+                "gold_victorious_wizard_staff",
+                "gold_victorious_wizard_staff_2",
+                "gold_victorious_wizard_staff_3"
+            },
+            ["kit"] = "wizard",
+            ["variantOfSkin"] = {
+                ["variantName"] = "Gold",
+                ["variantValue"] = 1,
+                ["variantIconColor"] = Color3.fromRGB(255, 164, 28),
+                ["parentSkin"] = "gold_victorious_wizard"
+            },
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.913725 0.74902 0.0823529 0 1 0.913725 0.74902 0.0823529 0 ",
+                ["shockwaveEffect"] = "WizardShockwaveGold",
+                ["lightningStrikeOverlay"] = "rbxassetid://103724870226255",
+                ["shockwaveSound"] = "rbxassetid://103090926769153",
+                ["lightningStrikeCastSound"] = "rbxassetid://110152356276337",
+                ["lightningImpactEffect"] = "WizardImpactGold"
+            },
+            ["renderImage"] = "rbxassetid://103932012875109"
         },
         ["melody_holiday_cozy"] = {
             ["name"] = "Holiday Cozy Melody",
@@ -360,6 +477,21 @@ data = {
             ["name"] = "Tiger Brawler Freiya",
             ["itemSkins"] = {"ice_sword_tiger_brawler"}
         },
+        ["sorcerer_ice_queen"] = {
+            ["kit"] = "sorcerer",
+            ["sorcerer"] = {
+                ["sound"] = {
+                    ["projectileHit"] = "rbxassetid://18962893153",
+                    ["chargeUpgrade2"] = "rbxassetid://18962894043",
+                    ["chargingLoop"] = "rbxassetid://18962894477",
+                    ["projectileShot"] = "rbxassetid://18962894748",
+                    ["chargeUpgrade1"] = "rbxassetid://18962893353",
+                    ["chargeUpgrade3"] = "rbxassetid://18962893561"
+                }
+            },
+            ["name"] = "Frost Adder",
+            ["renderImage"] = "rbxassetid://133106067760123"
+        },
         ["spirit_assassin_prismatic"] = {
             ["kit"] = "spirit_assassin",
             ["name"] = "Prismatic Evelynn",
@@ -370,6 +502,31 @@ data = {
             ["renderImage"] = "rbxassetid://10726576554",
             ["name"] = "Spirit Eldertree",
             ["product"] = {["priceRobux"] = 799, ["devProductId"] = 1298562343}
+        },
+        ["emerald_victorious_wizard"] = {
+            ["name"] = "Victorious Zeno",
+            ["itemSkins"] = {
+                "emerald_victorious_wizard_staff",
+                "emerald_victorious_wizard_staff_2",
+                "emerald_victorious_wizard_staff_3"
+            },
+            ["kit"] = "wizard",
+            ["variantOfSkin"] = {
+                ["variantName"] = "Emerald",
+                ["variantValue"] = 4,
+                ["variantIconColor"] = Color3.fromRGB(8, 199, 0),
+                ["parentSkin"] = "gold_victorious_wizard"
+            },
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.407843 0.980392 0.501961 0 1 0.964706 0.964706 0.478431 0 ",
+                ["shockwaveEffect"] = "WizardShockwaveEmerald",
+                ["lightningStrikeStaticOverlay"] = "rbxassetid://105688219508820",
+                ["lightningStrikeOverlay"] = "rbxassetid://101793508644125",
+                ["shockwaveSound"] = "rbxassetid://129336730281361",
+                ["lightningStrikeCastSound"] = "rbxassetid://110152356276337",
+                ["lightningImpactEffect"] = "WizardImpactEmerald"
+            },
+            ["renderImage"] = "rbxassetid://123627231068649"
         },
         ["warlock_christmas_spirit"] = {
             ["name"] = "Christmas Spirit Warlock",
@@ -393,6 +550,13 @@ data = {
                 ["parentSkin"] = "gold_victorious_davey"
             },
             ["renderImage"] = "rbxassetid://13915135860"
+        },
+        ["barbarian_bunny"] = {
+            ["name"] = "Barbunny",
+            ["itemSkins"] = {"rageblade_bunny"},
+            ["kit"] = "barbarian",
+            ["renderImage"] = "rbxassetid://13034479626",
+            ["product"] = {["priceRobux"] = 799, ["devProductId"] = 1514235339}
         },
         ["shielder_summer"] = {
             ["name"] = "Infernal Surfer",
@@ -691,7 +855,10 @@ data = {
             ["name"] = "Anniversary Zeno",
             ["itemSkins"] = {"wizard_staff_anniversary", "wizard_staff_2_anniversary", "wizard_staff_3_anniversary"},
             ["kit"] = "wizard",
-            ["wizard"] = {["lightingStrikeColor"] = "0 0.831373 0.529412 0.831373 0 1 0.67451 0.458824 0.670588 0 "},
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.831373 0.529412 0.831373 0 1 0.67451 0.458824 0.670588 0 ",
+                ["shockwaveColor"] = "0 0.831373 0.529412 0.831373 0 1 0.67451 0.458824 0.670588 0 "
+            },
             ["renderImage"] = "rbxassetid://17600952773"
         },
         ["dasher_tiger"] = {
@@ -736,12 +903,30 @@ data = {
                 "emerald_dao_victorious"
             }
         },
-        ["barbarian_bunny"] = {
-            ["name"] = "Barbunny",
-            ["itemSkins"] = {"rageblade_bunny"},
-            ["kit"] = "barbarian",
-            ["renderImage"] = "rbxassetid://13034479626",
-            ["product"] = {["priceRobux"] = 799, ["devProductId"] = 1514235339}
+        ["diamond_victorious_wizard"] = {
+            ["name"] = "Victorious Zeno",
+            ["itemSkins"] = {
+                "diamond_victorious_wizard_staff",
+                "diamond_victorious_wizard_staff_2",
+                "diamond_victorious_wizard_staff_3"
+            },
+            ["kit"] = "wizard",
+            ["variantOfSkin"] = {
+                ["variantName"] = "Diamond",
+                ["variantValue"] = 3,
+                ["variantIconColor"] = Color3.fromRGB(21, 58, 253),
+                ["parentSkin"] = "gold_victorious_wizard"
+            },
+            ["wizard"] = {
+                ["lightingStrikeColor"] = "0 0.560784 0.854902 0.937255 0 1 0.560784 0.854902 0.937255 0 ",
+                ["shockwaveEffect"] = "WizardShockwaveDiamond",
+                ["lightningStrikeStaticOverlay"] = "rbxassetid://138618867335492",
+                ["lightningStrikeOverlay"] = "rbxassetid://98230355982761",
+                ["shockwaveSound"] = "rbxassetid://102868470897330",
+                ["lightningStrikeCastSound"] = "rbxassetid://110152356276337",
+                ["lightningImpactEffect"] = "WizardImpactDiamond"
+            },
+            ["renderImage"] = "rbxassetid://139136336495485"
         },
         ["barbarian_deep_void"] = {
             ["kit"] = "barbarian",
@@ -803,5 +988,5 @@ data = {
             ["renderImage"] = "rbxassetid://11202135149"
         }
     },
-    ["getSkinsForKit"] = "function: 0x4a0930da52ab15c9"
+    ["getSkinsForKit"] = "function: 0xe73d8972cfc6c8fc"
 }
