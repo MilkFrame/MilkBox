@@ -6,7 +6,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -27,13 +27,49 @@ data = {
         },
         ["DisplayName"] = "Good vs. Evil Coins",
         ["_script"] = "Currency | GoodVsEvilCoins",
-        ["_index"] = 8,
+        ["_index"] = 9,
         ["IsWorldCurrency"] = false,
         ["_id"] = "GoodVsEvilCoins",
         ["BagTiers"] = {{["value"] = 0, ["image"] = "rbxassetid://18101039664"}},
         ["MaxAmount"] = 1000000000000,
         ["PermitAutoLootScaling"] = true,
         ["Desc"] = "Fate will decide!"
+    },
+    ["DinoTycoonCoins"] = {
+        ["Rarity"] = {
+            ["RarityNumber"] = 1,
+            ["Lootbag"] = "Basic",
+            ["_id"] = "Basic",
+            ["Color"] = Color3.fromRGB(148, 145, 167),
+            ["DisplayName"] = "Basic",
+            ["Message"] = "function: 0x458f35e4646b6e17",
+            ["ItemSlot"] = "ItemSlot",
+            ["Gradient"] = "Gradient",
+            ["Announce"] = false,
+            ["_script"] = "1 | Basic"
+        },
+        ["Tradable"] = false,
+        ["Tiers"] = {
+            {
+                ["orbImage"] = "rbxassetid://18655723260",
+                ["imageOutline"] = "rbxassetid://18655723073",
+                ["Order"] = 1,
+                ["isBottom"] = true,
+                ["value"] = 1,
+                ["tierName"] = "Dino Tycoon Coins",
+                ["tinyImage"] = "rbxassetid://18655722812",
+                ["textColor"] = Color3.fromRGB(142, 203, 84)
+            }
+        },
+        ["DisplayName"] = "Dino Tycoon Coins",
+        ["_script"] = "Currency | DinoTycoonCoins",
+        ["_index"] = 6,
+        ["IsWorldCurrency"] = false,
+        ["_id"] = "DinoTycoonCoins",
+        ["BagTiers"] = {{["value"] = 0, ["image"] = "rbxassetid://18325334566"}},
+        ["MaxAmount"] = 100000000000000,
+        ["PermitAutoLootScaling"] = true,
+        ["Desc"] = "ROAR!"
     },
     ["Fishing"] = {
         ["Rarity"] = {
@@ -42,7 +78,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x08b2ed8afa242a99",
+            ["Message"] = "function: 0x8b8eb006ee24b377",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -64,10 +100,113 @@ data = {
         },
         ["DisplayName"] = "Fishing Tokens",
         ["_script"] = "Currency | Fishing",
-        ["_index"] = 6,
+        ["_index"] = 7,
         ["MaxAmount"] = 999999999,
         ["_id"] = "Fishing",
         ["Desc"] = "Fishing Tokens!"
+    },
+    ["TechCoins"] = {
+        ["Rarity"] = {
+            ["RarityNumber"] = 1,
+            ["Lootbag"] = "Basic",
+            ["_id"] = "Basic",
+            ["Color"] = Color3.fromRGB(148, 145, 167),
+            ["DisplayName"] = "Basic",
+            ["Message"] = "function: 0x458f35e4646b6e17",
+            ["ItemSlot"] = "ItemSlot",
+            ["Gradient"] = "Gradient",
+            ["Announce"] = false,
+            ["_script"] = "1 | Basic"
+        },
+        ["Tradable"] = false,
+        ["Tiers"] = {
+            {
+                ["orbImage"] = "rbxassetid://16373366530",
+                ["imageOutline"] = "rbxassetid://16373366381",
+                ["Order"] = 1,
+                ["isBottom"] = true,
+                ["value"] = 1,
+                ["tierName"] = "Tech Coins",
+                ["tinyImage"] = "rbxassetid://16373366246",
+                ["textColor"] = Color3.fromRGB(207, 232, 233)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16481483950",
+                ["imageOutline"] = "rbxassetid://16481483771",
+                ["Order"] = 2,
+                ["value"] = 1000000,
+                ["tierName"] = "Tech Bars",
+                ["tinyImage"] = "rbxassetid://16481483674",
+                ["textColor"] = Color3.fromRGB(179, 230, 233)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16618895134",
+                ["imageOutline"] = "rbxassetid://16618894915",
+                ["Order"] = 3,
+                ["isBottom"] = true,
+                ["value"] = 1000000000000,
+                ["tierName"] = "Tech Gold Coins",
+                ["tinyImage"] = "rbxassetid://16618894477",
+                ["textColor"] = Color3.fromRGB(255, 252, 219)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16618895870",
+                ["imageOutline"] = "rbxassetid://16618895697",
+                ["Order"] = 4,
+                ["value"] = 1000000000000000000,
+                ["tierName"] = "Tech Gold Bars",
+                ["tinyImage"] = "rbxassetid://16618895344",
+                ["textColor"] = Color3.fromRGB(255, 248, 155)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16619035764",
+                ["imageOutline"] = "rbxassetid://16619035567",
+                ["Order"] = 5,
+                ["value"] = 1e+24,
+                ["tierName"] = "Tech Platinum Coins",
+                ["tinyImage"] = "rbxassetid://16619035393",
+                ["textColor"] = Color3.fromRGB(247, 255, 254)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16619036423",
+                ["imageOutline"] = "rbxassetid://16619036226",
+                ["Order"] = 6,
+                ["value"] = 1e+30,
+                ["tierName"] = "Tech Platinum Bars",
+                ["tinyImage"] = "rbxassetid://16619035975",
+                ["textColor"] = Color3.fromRGB(213, 255, 247)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16619110279",
+                ["imageOutline"] = "rbxassetid://16619110032",
+                ["Order"] = 7,
+                ["value"] = 1e+36,
+                ["tierName"] = "Tech Emerald Coins",
+                ["tinyImage"] = "rbxassetid://16619109893",
+                ["textColor"] = Color3.fromRGB(222, 252, 228)
+            },
+            {
+                ["orbImage"] = "rbxassetid://16619110930",
+                ["imageOutline"] = "rbxassetid://16619110669",
+                ["Order"] = 8,
+                ["value"] = 1e+42,
+                ["tierName"] = "Tech Emerald Bars",
+                ["tinyImage"] = "rbxassetid://16619110396",
+                ["textColor"] = Color3.fromRGB(183, 252, 192)
+            }
+        },
+        ["DisplayName"] = "Coins",
+        ["_script"] = "Currency | TechCoins",
+        ["IsWorldCurrency"] = true,
+        ["_index"] = 13,
+        ["_id"] = "TechCoins",
+        ["MaxAmount"] = 3e+42,
+        ["BagTiers"] = {
+            {["value"] = 0, ["image"] = "rbxassetid://16482243315"},
+            {["value"] = 1000, ["image"] = "rbxassetid://16480911112"},
+            {["value"] = 10000, ["image"] = "rbxassetid://16480911203"}
+        },
+        ["Desc"] = "Tech!"
     },
     ["RaveCoins"] = {
         ["Rarity"] = {
@@ -76,7 +215,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -97,7 +236,7 @@ data = {
         },
         ["DisplayName"] = "Rave Coins",
         ["_script"] = "Currency | RaveCoins",
-        ["_index"] = 9,
+        ["_index"] = 10,
         ["IsWorldCurrency"] = false,
         ["_id"] = "RaveCoins",
         ["BagTiers"] = {{["value"] = 0, ["image"] = "rbxassetid://18325334566"}},
@@ -112,7 +251,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -214,7 +353,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -236,7 +375,7 @@ data = {
         ["DisplayName"] = "Summer Coins",
         ["_script"] = "Currency | SummerCoins",
         ["IsWorldCurrency"] = false,
-        ["_index"] = 10,
+        ["_index"] = 12,
         ["_id"] = "SummerCoins",
         ["MaxAmount"] = 999999999,
         ["PermitAutoLootScaling"] = true,
@@ -249,7 +388,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x08b2ed8afa242a99",
+            ["Message"] = "function: 0x8b8eb006ee24b377",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -288,7 +427,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -322,7 +461,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -344,7 +483,7 @@ data = {
         ["DisplayName"] = "Glitch Coins",
         ["_script"] = "Currency | GlitchCoins",
         ["IsWorldCurrency"] = false,
-        ["_index"] = 7,
+        ["_index"] = 8,
         ["MaxAmount"] = 999999999,
         ["_id"] = "GlitchCoins",
         ["Desc"] = "Glitch Event!"
@@ -356,7 +495,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x08b2ed8afa242a99",
+            ["Message"] = "function: 0x8b8eb006ee24b377",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -390,7 +529,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -425,7 +564,7 @@ data = {
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -510,7 +649,7 @@ data = {
         ["DisplayName"] = "Coins",
         ["_script"] = "Currency | VoidCoins",
         ["IsWorldCurrency"] = true,
-        ["_index"] = 12,
+        ["_index"] = 14,
         ["_id"] = "VoidCoins",
         ["MaxAmount"] = 100000000000000,
         ["BagTiers"] = {
@@ -520,14 +659,14 @@ data = {
         },
         ["Desc"] = "Void!"
     },
-    ["TechCoins"] = {
+    ["RngCoins"] = {
         ["Rarity"] = {
             ["RarityNumber"] = 1,
             ["Lootbag"] = "Basic",
             ["_id"] = "Basic",
             ["Color"] = Color3.fromRGB(148, 145, 167),
             ["DisplayName"] = "Basic",
-            ["Message"] = "function: 0x4e220159d595e0b9",
+            ["Message"] = "function: 0x458f35e4646b6e17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -536,91 +675,24 @@ data = {
         ["Tradable"] = false,
         ["Tiers"] = {
             {
-                ["orbImage"] = "rbxassetid://16373366530",
-                ["imageOutline"] = "rbxassetid://16373366381",
+                ["orbImage"] = "rbxassetid://18856064864",
+                ["imageOutline"] = "rbxassetid://18856064762",
                 ["Order"] = 1,
                 ["isBottom"] = true,
                 ["value"] = 1,
-                ["tierName"] = "Tech Coins",
-                ["tinyImage"] = "rbxassetid://16373366246",
-                ["textColor"] = Color3.fromRGB(207, 232, 233)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16481483950",
-                ["imageOutline"] = "rbxassetid://16481483771",
-                ["Order"] = 2,
-                ["value"] = 1000000,
-                ["tierName"] = "Tech Bars",
-                ["tinyImage"] = "rbxassetid://16481483674",
-                ["textColor"] = Color3.fromRGB(179, 230, 233)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16618895134",
-                ["imageOutline"] = "rbxassetid://16618894915",
-                ["Order"] = 3,
-                ["isBottom"] = true,
-                ["value"] = 1000000000000,
-                ["tierName"] = "Tech Gold Coins",
-                ["tinyImage"] = "rbxassetid://16618894477",
-                ["textColor"] = Color3.fromRGB(255, 252, 219)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16618895870",
-                ["imageOutline"] = "rbxassetid://16618895697",
-                ["Order"] = 4,
-                ["value"] = 1000000000000000000,
-                ["tierName"] = "Tech Gold Bars",
-                ["tinyImage"] = "rbxassetid://16618895344",
-                ["textColor"] = Color3.fromRGB(255, 248, 155)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16619035764",
-                ["imageOutline"] = "rbxassetid://16619035567",
-                ["Order"] = 5,
-                ["value"] = 1e+24,
-                ["tierName"] = "Tech Platinum Coins",
-                ["tinyImage"] = "rbxassetid://16619035393",
-                ["textColor"] = Color3.fromRGB(247, 255, 254)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16619036423",
-                ["imageOutline"] = "rbxassetid://16619036226",
-                ["Order"] = 6,
-                ["value"] = 1e+30,
-                ["tierName"] = "Tech Platinum Bars",
-                ["tinyImage"] = "rbxassetid://16619035975",
-                ["textColor"] = Color3.fromRGB(213, 255, 247)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16619110279",
-                ["imageOutline"] = "rbxassetid://16619110032",
-                ["Order"] = 7,
-                ["value"] = 1e+36,
-                ["tierName"] = "Tech Emerald Coins",
-                ["tinyImage"] = "rbxassetid://16619109893",
-                ["textColor"] = Color3.fromRGB(222, 252, 228)
-            },
-            {
-                ["orbImage"] = "rbxassetid://16619110930",
-                ["imageOutline"] = "rbxassetid://16619110669",
-                ["Order"] = 8,
-                ["value"] = 1e+42,
-                ["tierName"] = "Tech Emerald Bars",
-                ["tinyImage"] = "rbxassetid://16619110396",
-                ["textColor"] = Color3.fromRGB(183, 252, 192)
+                ["tierName"] = "RNG Coins",
+                ["tinyImage"] = "rbxassetid://18856064586",
+                ["textColor"] = Color3.fromRGB(187, 139, 255)
             }
         },
-        ["DisplayName"] = "Coins",
-        ["_script"] = "Currency | TechCoins",
-        ["IsWorldCurrency"] = true,
+        ["DisplayName"] = "RNG Coins",
+        ["_script"] = "Currency | RngCoins",
         ["_index"] = 11,
-        ["_id"] = "TechCoins",
-        ["MaxAmount"] = 3e+42,
-        ["BagTiers"] = {
-            {["value"] = 0, ["image"] = "rbxassetid://16482243315"},
-            {["value"] = 1000, ["image"] = "rbxassetid://16480911112"},
-            {["value"] = 10000, ["image"] = "rbxassetid://16480911203"}
-        },
-        ["Desc"] = "Tech!"
+        ["IsWorldCurrency"] = false,
+        ["_id"] = "RngCoins",
+        ["BagTiers"] = {{["value"] = 0, ["image"] = "rbxassetid://18856064762"}},
+        ["MaxAmount"] = 100000000000000,
+        ["PermitAutoLootScaling"] = true,
+        ["Desc"] = "RNGGGGG!"
     }
 }
