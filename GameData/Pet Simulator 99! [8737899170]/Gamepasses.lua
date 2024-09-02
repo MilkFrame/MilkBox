@@ -3,7 +3,7 @@ data = {
         ["_script"] = "Gamepass | Lucky",
         ["ProductId"] = 205379487,
         ["_id"] = "Lucky",
-        ["Desc"] = "Increases your egg luck by 200%!",
+        ["Desc"] = "Increases your egg luck by 200% and your RNG luck by 20%!",
         ["Icon"] = "rbxassetid://15210431837",
         ["DisplayName"] = "Lucky"
     },
@@ -11,7 +11,7 @@ data = {
         ["_script"] = "Gamepass | Ultra Lucky",
         ["ProductId"] = 257803774,
         ["_id"] = "Ultra Lucky",
-        ["Desc"] = "Increases your egg luck by 500%!",
+        ["Desc"] = "Increases your egg luck by 500% and your RNG luck by 40%!",
         ["Icon"] = "rbxassetid://15210432026",
         ["DisplayName"] = "Ultra Lucky"
     },
@@ -19,9 +19,17 @@ data = {
         ["_script"] = "Gamepass | Magic Eggs",
         ["ProductId"] = 258567677,
         ["_id"] = "Magic Eggs",
-        ["Desc"] = "Eggs have a chance to hatch golden or even rainbow pets! ðŸ‘‘ðŸŒˆ",
+        ["Desc"] = "Eggs have a chance to hatch golden or even rainbow pets! 👑🌈",
         ["Icon"] = "rbxassetid://15210432223",
         ["DisplayName"] = "Magic Eggs"
+    },
+    ["Double Stars"] = {
+        ["_script"] = "Gamepass | Double Stars",
+        ["ProductId"] = 720275150,
+        ["_id"] = "Double Stars",
+        ["Desc"] = "Get double stars when completing rank quests!",
+        ["Icon"] = "rbxassetid://16469873088",
+        ["DisplayName"] = "Double Stars"
     },
     ["Extra Daycare Slots"] = {
         ["_script"] = "Gamepass | Extra Daycare Slots",
@@ -35,7 +43,7 @@ data = {
         ["_script"] = "Gamepass | Huge Hunter",
         ["ProductId"] = 264808140,
         ["_id"] = "Huge Hunter",
-        ["Desc"] = "Increases the odds of hatching active huge pets by 2500%!",
+        ["Desc"] = "Increases the odds of hatching active huge pets by 6250%!",
         ["Icon"] = "rbxassetid://15210432366",
         ["DisplayName"] = "Huge Hunter"
     },
