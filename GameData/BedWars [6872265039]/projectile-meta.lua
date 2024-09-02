@@ -124,7 +124,7 @@ data = {
             ["flightRotation"] = Vector3.new(0, 1.5707963705062866, 0),
             ["projectileModel"] = "spear"
         },
-        ["heal_splash_potion"] = {["launchVelocity"] = 70, ["gravitationalAcceleration"] = 90},
+        ["heal_splash_potion"] = {["launchVelocity"] = 80, ["gravitationalAcceleration"] = 70},
         ["dizzy_toad"] = {
             ["launchVelocity"] = 120,
             ["flightRotation"] = Vector3.new(0, 0, 0),
@@ -139,10 +139,32 @@ data = {
         ["harpoon_projectile"] = {
             ["launchVelocity"] = 130,
             ["impactSound"] = {"rbxassetid://18188217328"},
-            ["lifetimeSec"] = 0.8,
+            ["showIndicatorAtAimingBeamHit"] = true,
+            ["lifetimeSec"] = 0.55,
             ["flightRotation"] = Vector3.new(0, 1.5707963705062866, 0),
-            ["predictionLifetimeSec"] = 0.75,
+            ["predictionLifetimeSec"] = 0.56,
             ["gravitationalAcceleration"] = 10
+        },
+        ["sorcerer_projectile_2"] = {
+            ["firedFromServer"] = true,
+            ["combat"] = {["noApplyDamageCooldown"] = true, ["ignoreDamageTakenCooldown"] = true, ["damage"] = 8},
+            ["lifetimeSec"] = 1.1,
+            ["knockbackMultiplier"] = {["vertical"] = 0.2, ["horizontal"] = 0.5},
+            ["predictionLifetimeSec"] = 1,
+            ["explosive"] = {
+                ["explosionType"] = "sorcerer_explosion_2",
+                ["explodeOnLifetimeEnd"] = true,
+                ["explodeOnImpact"] = true,
+                ["removeDefaultExplosionEffect"] = true,
+                ["destroyMapBlocks"] = false
+            },
+            ["launchVelocity"] = 1000,
+            ["spinSpeed"] = 1.2,
+            ["flightRotation"] = Vector3.new(0, -1.5707963705062866, 0),
+            ["bypassShooterLock"] = true,
+            ["gravitationalAcceleration"] = 0,
+            ["spinAxis"] = Vector3.new(-1, 0, 0),
+            ["projectileModel"] = "sorcerer_projectile_2"
         },
         ["mage_spell_nature"] = {
             ["launchVelocity"] = 200,
@@ -154,7 +176,7 @@ data = {
             ["predictionLifetimeSec"] = 1.75,
             ["gravitationalAcceleration"] = 0
         },
-        ["poison_splash_potion"] = {["launchVelocity"] = 70, ["gravitationalAcceleration"] = 90},
+        ["poison_splash_potion"] = {["launchVelocity"] = 80, ["gravitationalAcceleration"] = 70},
         ["penguin_ultra_sniper_shot"] = {
             ["hitscanRegionMultiplier"] = 2,
             ["impactParticles"] = "default",
@@ -166,6 +188,18 @@ data = {
             ["combat"] = {["armorMultiplier"] = 0.95, ["damage"] = 66},
             ["flightRotation"] = Vector3.new(0, 0, 0),
             ["projectileModel"] = "carrot_rocket"
+        },
+        ["life_crossbow_arrow"] = {
+            ["combat"] = {["damageType"] = 50, ["armorMultiplier"] = 0.85, ["damage"] = 34},
+            ["impactParticles"] = "default",
+            ["lifetimeSec"] = 2,
+            ["knockbackMultiplier"] = {["horizontal"] = 1.1},
+            ["predictionLifetimeSec"] = 1.1,
+            ["launchVelocity"] = 400,
+            ["noAmmoValidation"] = true,
+            ["gravitationalAcceleration"] = 35,
+            ["flightRotation"] = Vector3.new(-1.5707963705062866, 0, 0),
+            ["projectileModel"] = "life_arrow"
         },
         ["sword_wave"] = {
             ["hitscanRegionMultiplier"] = 1.8,
@@ -234,6 +268,27 @@ data = {
             ["gravitationalAcceleration"] = 15,
             ["spinAxis"] = Vector3.new(0, -1, 0),
             ["projectileModel"] = "hero_magical_girl_scepter_projectile"
+        },
+        ["sorcerer_projectile_1"] = {
+            ["firedFromServer"] = true,
+            ["combat"] = {["noApplyDamageCooldown"] = true, ["ignoreDamageTakenCooldown"] = true, ["damage"] = 5},
+            ["lifetimeSec"] = 0.9,
+            ["knockbackMultiplier"] = {["vertical"] = 0.1, ["horizontal"] = 0.3},
+            ["predictionLifetimeSec"] = 1,
+            ["explosive"] = {
+                ["explosionType"] = "sorcerer_explosion_1",
+                ["explodeOnLifetimeEnd"] = true,
+                ["explodeOnImpact"] = true,
+                ["removeDefaultExplosionEffect"] = true,
+                ["destroyMapBlocks"] = false
+            },
+            ["launchVelocity"] = 1000,
+            ["spinSpeed"] = 1.2,
+            ["flightRotation"] = Vector3.new(0, -1.5707963705062866, 0),
+            ["bypassShooterLock"] = true,
+            ["gravitationalAcceleration"] = 0,
+            ["spinAxis"] = Vector3.new(-1, 0, 0),
+            ["projectileModel"] = "sorcerer_projectile_1"
         },
         ["villain_magical_girl_scepter_projectile"] = {
             ["combat"] = {["noApplyDamageCooldown"] = true, ["damage"] = 18},
@@ -623,13 +678,23 @@ data = {
             ["skins"] = {"mummy"},
             ["wallHitscanRegionMultiplier"] = 0.75,
             ["flightRotation"] = Vector3.new(0, 0, 0),
-            ["getProjectileOverridesFunction"] = "function: 0xf6a1ed270753f569"
+            ["getProjectileOverridesFunction"] = "function: 0x35bf30799aa4ba3c"
         },
         ["deploy_skeleton"] = {
             ["launchVelocity"] = 80,
             ["flightRotation"] = Vector3.new(0, 1.5707963705062866, 0),
             ["predictionLifetimeSec"] = 1,
             ["gravitationalAcceleration"] = 30
+        },
+        ["life_headhunter_arrow"] = {
+            ["launchVelocity"] = 500,
+            ["gravitationalAcceleration"] = 35,
+            ["combat"] = {["damageType"] = 50, ["armorMultiplier"] = 0.8, ["damage"] = 55},
+            ["flightRotation"] = Vector3.new(-1.5707963705062866, 0, 0),
+            ["lifetimeSec"] = 2,
+            ["knockbackMultiplier"] = {["horizontal"] = 1.15},
+            ["predictionLifetimeSec"] = 1.1,
+            ["projectileModel"] = "life_arrow"
         },
         ["cluster_bomb"] = {
             ["launchVelocity"] = 120,
@@ -771,7 +836,7 @@ data = {
             ["predictionLifetimeSec"] = 1.75,
             ["gravitationalAcceleration"] = 0
         },
-        ["sleep_splash_potion"] = {["launchVelocity"] = 70, ["gravitationalAcceleration"] = 90},
+        ["sleep_splash_potion"] = {["launchVelocity"] = 80, ["gravitationalAcceleration"] = 70},
         ["blunderbuss_bullet"] = {
             ["launchVelocity"] = 400,
             ["combat"] = {["noApplyDamageCooldown"] = true, ["ignoreDamageTakenCooldown"] = true, ["damage"] = 20},
@@ -833,7 +898,6 @@ data = {
             ["lifetimeSec"] = 20,
             ["returnWithConstantVelocity"] = true,
             ["predictionLifetimeSec"] = 0.3,
-            ["limitBeamToReturnDistance"] = true,
             ["gravitationalAcceleration"] = 0,
             ["keepProjectileOnHit"] = true,
             ["destroyOnReturnLerpFinished"] = true,
@@ -846,6 +910,39 @@ data = {
             ["launchVelocity"] = 120,
             ["flightRotation"] = Vector3.new(0, 1.5707963705062866, 0),
             ["gravitationalAcceleration"] = 120
+        },
+        ["sorcerer_projectile_3"] = {
+            ["firedFromServer"] = true,
+            ["combat"] = {["noApplyDamageCooldown"] = true, ["ignoreDamageTakenCooldown"] = true, ["damage"] = 15},
+            ["lifetimeSec"] = 1.3,
+            ["knockbackMultiplier"] = {["vertical"] = 0.3, ["horizontal"] = 0.8},
+            ["predictionLifetimeSec"] = 1,
+            ["explosive"] = {
+                ["explosionType"] = "sorcerer_explosion_3",
+                ["explodeOnLifetimeEnd"] = true,
+                ["explodeOnImpact"] = true,
+                ["removeDefaultExplosionEffect"] = true,
+                ["destroyMapBlocks"] = false
+            },
+            ["launchVelocity"] = 1000,
+            ["spinSpeed"] = 1.2,
+            ["flightRotation"] = Vector3.new(0, -1.5707963705062866, 0),
+            ["bypassShooterLock"] = true,
+            ["gravitationalAcceleration"] = 0,
+            ["spinAxis"] = Vector3.new(-1, 0, 0),
+            ["projectileModel"] = "sorcerer_projectile_3"
+        },
+        ["life_arrow"] = {
+            ["combat"] = {["damageType"] = 50, ["armorMultiplier"] = 0.9, ["damage"] = 18},
+            ["impactParticles"] = "default",
+            ["lifetimeSec"] = 2.8,
+            ["knockbackMultiplier"] = {["horizontal"] = 0.95},
+            ["predictionLifetimeSec"] = 2,
+            ["launchVelocity"] = 240,
+            ["noAmmoValidation"] = true,
+            ["gravitationalAcceleration"] = 35,
+            ["flightRotation"] = Vector3.new(-1.5707963705062866, 0, 0),
+            ["projectileModel"] = "life_arrow"
         },
         ["tactical_crossbow_arrow"] = {
             ["combat"] = {["armorMultiplier"] = 0.95, ["damage"] = 44},
@@ -926,7 +1023,6 @@ data = {
             ["lifetimeSec"] = 20,
             ["returnWithConstantVelocity"] = true,
             ["predictionLifetimeSec"] = 0.4,
-            ["limitBeamToReturnDistance"] = true,
             ["gravitationalAcceleration"] = 0,
             ["keepProjectileOnHit"] = true,
             ["destroyOnReturnLerpFinished"] = true,
@@ -977,7 +1073,6 @@ data = {
             ["lifetimeSec"] = 20,
             ["returnWithConstantVelocity"] = true,
             ["predictionLifetimeSec"] = 0.2714285714285714,
-            ["limitBeamToReturnDistance"] = true,
             ["gravitationalAcceleration"] = 0,
             ["keepProjectileOnHit"] = true,
             ["destroyOnReturnLerpFinished"] = true,
@@ -1104,7 +1199,6 @@ data = {
             ["lifetimeSec"] = 20,
             ["returnWithConstantVelocity"] = true,
             ["predictionLifetimeSec"] = 0.34285714285714286,
-            ["limitBeamToReturnDistance"] = true,
             ["gravitationalAcceleration"] = 0,
             ["keepProjectileOnHit"] = true,
             ["destroyOnReturnLerpFinished"] = true,
