@@ -6,7 +6,7 @@ data = {
             ["_id"] = "Legendary",
             ["Color"] = Color3.fromRGB(255, 133, 34),
             ["DisplayName"] = "Legendary",
-            ["Message"] = "function: 0x0000000040b6e07b",
+            ["Message"] = "function: 0xebf7ab0b07e59c17",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -50,7 +50,7 @@ data = {
             ["_id"] = "Epic",
             ["Color"] = Color3.fromRGB(41, 226, 255),
             ["DisplayName"] = "Epic",
-            ["Message"] = "function: 0x000000008ca3bb5b",
+            ["Message"] = "function: 0x644e123f30c21b57",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -65,28 +65,28 @@ data = {
             ["entries"] = {
                 {
                     ["Value"] = {
-                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 20000},
+                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 60000},
                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                        ["_maxAmount"] = 999999999
+                        ["_maxAmount"] = 25000000000
                     },
                     ["Weight"] = 0.05
                 },
                 {
                     ["Value"] = {
-                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 15000},
+                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 45000},
                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                        ["_maxAmount"] = 999999999
+                        ["_maxAmount"] = 25000000000
                     },
                     ["Weight"] = 0.2
                 },
                 {
                     ["Value"] = {
-                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 10000},
+                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 30000},
                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                        ["_maxAmount"] = 999999999
+                        ["_maxAmount"] = 25000000000
                     },
                     ["Weight"] = 0.8
                 }
@@ -103,7 +103,7 @@ data = {
             ["_id"] = "Epic",
             ["Color"] = Color3.fromRGB(41, 226, 255),
             ["DisplayName"] = "Epic",
-            ["Message"] = "function: 0x000000008ca3bb5b",
+            ["Message"] = "function: 0x644e123f30c21b57",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -122,36 +122,99 @@ data = {
                         ["entries"] = {
                             {
                                 ["Value"] = {
-                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 3},
-                                    ["_stackKey"] = [[{"id":"Diamonds","tn":3}]],
-                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":3}]],
+                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 5},
+                                    ["_stackKey"] = [[{"id":"Diamonds","tn":5}]],
+                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":5}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.03125
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Damage", ["tn"] = 6},
+                                    ["_stackKey"] = [[{"id":"Damage","tn":6}]],
+                                    ["_exactStackKey"] = [[{"id":"Damage","tn":6}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 0.0625
                             },
                             {
                                 ["Value"] = {
-                                    ["_data"] = {["id"] = "Lucky", ["tn"] = 4},
-                                    ["_stackKey"] = [[{"id":"Lucky","tn":4}]],
-                                    ["_exactStackKey"] = [[{"id":"Lucky","tn":4}]],
+                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 4},
+                                    ["_stackKey"] = [[{"id":"Diamonds","tn":4}]],
+                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":4}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.0625
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Treasure Hunter", ["tn"] = 6},
+                                    ["_stackKey"] = [[{"id":"Treasure Hunter","tn":6}]],
+                                    ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":6}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.0625
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Lucky", ["tn"] = 6},
+                                    ["_stackKey"] = [[{"id":"Lucky","tn":6}]],
+                                    ["_exactStackKey"] = [[{"id":"Lucky","tn":6}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.0625
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Coins", ["tn"] = 6},
+                                    ["_stackKey"] = [[{"id":"Coins","tn":6}]],
+                                    ["_exactStackKey"] = [[{"id":"Coins","tn":6}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.0625
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 3},
+                                    ["_stackKey"] = [[{"id":"Diamonds","tn":3}]],
+                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":3}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 0.125
                             },
                             {
                                 ["Value"] = {
-                                    ["_data"] = {["id"] = "Damage", ["tn"] = 4},
-                                    ["_stackKey"] = [[{"id":"Damage","tn":4}]],
-                                    ["_exactStackKey"] = [[{"id":"Damage","tn":4}]],
+                                    ["_data"] = {["id"] = "Lucky", ["tn"] = 5},
+                                    ["_stackKey"] = [[{"id":"Lucky","tn":5}]],
+                                    ["_exactStackKey"] = [[{"id":"Lucky","tn":5}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 0.125
                             },
                             {
                                 ["Value"] = {
-                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 2},
-                                    ["_stackKey"] = [[{"id":"Diamonds","tn":2}]],
-                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":2}]],
+                                    ["_data"] = {["id"] = "Treasure Hunter", ["tn"] = 5},
+                                    ["_stackKey"] = [[{"id":"Treasure Hunter","tn":5}]],
+                                    ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":5}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.125
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Damage", ["tn"] = 5},
+                                    ["_stackKey"] = [[{"id":"Damage","tn":5}]],
+                                    ["_exactStackKey"] = [[{"id":"Damage","tn":5}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.125
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Coins", ["tn"] = 5},
+                                    ["_stackKey"] = [[{"id":"Coins","tn":5}]],
+                                    ["_exactStackKey"] = [[{"id":"Coins","tn":5}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 0.125
@@ -163,22 +226,31 @@ data = {
                                     ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":4}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
-                                ["Weight"] = 0.125
+                                ["Weight"] = 0.25
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Lucky", ["tn"] = 4},
+                                    ["_stackKey"] = [[{"id":"Lucky","tn":4}]],
+                                    ["_exactStackKey"] = [[{"id":"Lucky","tn":4}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.25
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Damage", ["tn"] = 4},
+                                    ["_stackKey"] = [[{"id":"Damage","tn":4}]],
+                                    ["_exactStackKey"] = [[{"id":"Damage","tn":4}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 0.25
                             },
                             {
                                 ["Value"] = {
                                     ["_data"] = {["id"] = "Coins", ["tn"] = 4},
                                     ["_stackKey"] = [[{"id":"Coins","tn":4}]],
                                     ["_exactStackKey"] = [[{"id":"Coins","tn":4}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 0.125
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Treasure Hunter", ["tn"] = 3},
-                                    ["_stackKey"] = [[{"id":"Treasure Hunter","tn":3}]],
-                                    ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":3}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 0.25
@@ -190,7 +262,25 @@ data = {
                                     ["_exactStackKey"] = [[{"id":"Lucky","tn":3}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
-                                ["Weight"] = 0.25
+                                ["Weight"] = 1
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Treasure Hunter", ["tn"] = 3},
+                                    ["_stackKey"] = [[{"id":"Treasure Hunter","tn":3}]],
+                                    ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":3}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 1
+                            },
+                            {
+                                ["Value"] = {
+                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 2},
+                                    ["_stackKey"] = [[{"id":"Diamonds","tn":2}]],
+                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":2}]],
+                                    ["_maxAmount"] = 1000000000000000
+                                },
+                                ["Weight"] = 1
                             },
                             {
                                 ["Value"] = {
@@ -199,58 +289,13 @@ data = {
                                     ["_exactStackKey"] = [[{"id":"Damage","tn":3}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
-                                ["Weight"] = 0.25
+                                ["Weight"] = 1
                             },
                             {
                                 ["Value"] = {
                                     ["_data"] = {["id"] = "Coins", ["tn"] = 3},
                                     ["_stackKey"] = [[{"id":"Coins","tn":3}]],
                                     ["_exactStackKey"] = [[{"id":"Coins","tn":3}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 0.25
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Diamonds", ["tn"] = 1},
-                                    ["_stackKey"] = [[{"id":"Diamonds","tn":1}]],
-                                    ["_exactStackKey"] = [[{"id":"Diamonds","tn":1}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 0.5
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Treasure Hunter", ["tn"] = 2},
-                                    ["_stackKey"] = [[{"id":"Treasure Hunter","tn":2}]],
-                                    ["_exactStackKey"] = [[{"id":"Treasure Hunter","tn":2}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 1
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Damage", ["tn"] = 2},
-                                    ["_stackKey"] = [[{"id":"Damage","tn":2}]],
-                                    ["_exactStackKey"] = [[{"id":"Damage","tn":2}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 1
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Lucky", ["tn"] = 2},
-                                    ["_stackKey"] = [[{"id":"Lucky","tn":2}]],
-                                    ["_exactStackKey"] = [[{"id":"Lucky","tn":2}]],
-                                    ["_maxAmount"] = 1000000000000000
-                                },
-                                ["Weight"] = 1
-                            },
-                            {
-                                ["Value"] = {
-                                    ["_data"] = {["id"] = "Coins", ["tn"] = 2},
-                                    ["_stackKey"] = [[{"id":"Coins","tn":2}]],
-                                    ["_exactStackKey"] = [[{"id":"Coins","tn":2}]],
                                     ["_maxAmount"] = 1000000000000000
                                 },
                                 ["Weight"] = 1
@@ -273,7 +318,7 @@ data = {
             ["_id"] = "Rare",
             ["Color"] = Color3.fromRGB(113, 255, 62),
             ["DisplayName"] = "Rare",
-            ["Message"] = "function: 0x00000000c268f24b",
+            ["Message"] = "function: 0x8b8eb006ee24b377",
             ["ItemSlot"] = "ItemSlot",
             ["Gradient"] = "Gradient",
             ["Announce"] = false,
@@ -293,28 +338,28 @@ data = {
                             ["entries"] = {
                                 {
                                     ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 1000},
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 7500},
                                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                                        ["_maxAmount"] = 999999999
+                                        ["_maxAmount"] = 25000000000
                                     },
                                     ["Weight"] = 0.08
+                                },
+                                {
+                                    ["Value"] = {
+                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 2250},
+                                        ["_stackKey"] = [[{"id":"Diamonds"}]],
+                                        ["_exactStackKey"] = [[{"id":"Diamonds"}]],
+                                        ["_maxAmount"] = 25000000000
+                                    },
+                                    ["Weight"] = 0.3
                                 },
                                 {
                                     ["Value"] = {
                                         ["_data"] = {["id"] = "Diamonds", ["_am"] = 750},
                                         ["_stackKey"] = [[{"id":"Diamonds"}]],
                                         ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                                        ["_maxAmount"] = 999999999
-                                    },
-                                    ["Weight"] = 0.3
-                                },
-                                {
-                                    ["Value"] = {
-                                        ["_data"] = {["id"] = "Diamonds", ["_am"] = 250},
-                                        ["_stackKey"] = [[{"id":"Diamonds"}]],
-                                        ["_exactStackKey"] = [[{"id":"Diamonds"}]],
-                                        ["_maxAmount"] = 999999999
+                                        ["_maxAmount"] = 25000000000
                                     },
                                     ["Weight"] = 1
                                 }
