@@ -1,6 +1,6 @@
 data = {
     ["QueueMenuDisplayType"] = {["FULL"] = "full", ["SQUARE"] = "square"},
-    ["getQueueGroupMeta"] = "function: 0x6ee3d6adeb9105f1",
+    ["getQueueGroupMeta"] = "function: 0x3df7bca0f840631c",
     ["QueueGroupMeta"] = {
         ["fast_casual"] = {
             ["subtitle"] = "LTM",
@@ -20,6 +20,21 @@ data = {
             },
             ["queues"] = {{["queueType"] = "fast_casual", ["title"] = "Quick Play"}},
             ["description"] = "🏃‍♂️ Play a fast, simplified, more casual-friendly mode with streamlined game mechanics."
+        },
+        ["winstreak"] = {
+            ["subtitle"] = "1 V 1",
+            ["title"] = "WINSTREAK",
+            ["menuDisplay"] = {
+                ["instantQueue"] = true,
+                ["gradientColor"] = Color3.fromRGB(255, 248, 88),
+                ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
+                ["backgroundImage"] = "rbxassetid://8268259203",
+                ["backgroundColor"] = Color3.fromRGB(236, 70, 48),
+                ["icon"] = "rbxassetid://8268259203",
+                ["displayType"] = "square"
+            },
+            ["queues"] = {{["queueType"] = "winstreak_1v1", ["title"] = "WINSTREAK 1v1"}},
+            ["description"] = "🔥 Fortune favors the bold! In this BedWars variant you must 1v1 players on the same winstreak."
         },
         ["survival"] = {
             ["subtitle"] = "Roblox Classic",
@@ -226,20 +241,19 @@ First team to 50 kills wins!]]
 🏹 Each kill gives you an extra arrow, first to 30 wins!
 ]]
         },
-        ["winstreak"] = {
-            ["subtitle"] = "1 V 1",
-            ["title"] = "WINSTREAK",
+        ["pvp_arena"] = {
             ["menuDisplay"] = {
                 ["instantQueue"] = true,
-                ["gradientColor"] = Color3.fromRGB(255, 248, 88),
+                ["gradientColor"] = Color3.fromRGB(217, 255, 255),
                 ["helperIcons"] = {["text"] = {{"⏰", "Limited Time Mode"}}},
-                ["backgroundImage"] = "rbxassetid://8268259203",
-                ["backgroundColor"] = Color3.fromRGB(236, 70, 48),
-                ["icon"] = "rbxassetid://8268259203",
+                ["backgroundImage"] = "rbxassetid://18771915681",
+                ["backgroundColor"] = Color3.fromRGB(56, 171, 224),
+                ["icon"] = "rbxassetid://18771884016",
                 ["displayType"] = "square"
             },
-            ["queues"] = {{["queueType"] = "winstreak_1v1", ["title"] = "WINSTREAK 1v1"}},
-            ["description"] = "🔥 Fortune favors the bold! In this BedWars variant you must 1v1 players on the same winstreak."
+            ["subtitle"] = "NO KITS",
+            ["title"] = "Arena Duels",
+            ["queues"] = {{["queueType"] = "pvp_arena", ["title"] = "Arena Duels"}}
         },
         ["bridge_duel"] = {
             ["subtitle"] = "1v1",
@@ -472,14 +486,14 @@ First to 2500 wins!
                 ["layoutOrder"] = 1,
                 ["instantQueue"] = true,
                 ["gradientColor"] = Color3.fromRGB(255, 248, 88),
-                ["backgroundImage"] = "rbxassetid://17017846628",
+                ["backgroundImage"] = "rbxassetid://18961842219",
                 ["backgroundColor"] = Color3.fromRGB(236, 70, 48),
                 ["icon"] = "rbxassetid://7904292926",
                 ["displayType"] = "square"
             },
-            ["subtitle"] = "Squads ",
+            ["subtitle"] = "5v5 ",
             ["title"] = "RANKED",
-            ["queues"] = {{["queueType"] = "bedwars_ranked_s10", ["title"] = "Squads"}}
+            ["queues"] = {{["queueType"] = "bedwars_ranked_s11", ["title"] = "5v5"}}
         },
         ["murderer"] = {
             ["menuDisplay"] = {
