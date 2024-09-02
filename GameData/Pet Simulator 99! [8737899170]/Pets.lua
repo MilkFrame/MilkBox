@@ -91,6 +91,29 @@ data = {
         ["thumbnail"] = "rbxassetid://16043367219",
         ["fromEgg"] = "Cloud Garden Egg"
     },
+    ["Lunar Bat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 174",
+            ["faceTopLeftPixel"] = "92, 62",
+            ["imageSize"] = "250, 208"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882337072",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18882336919",
+        ["preventFuseMachine"] = true,
+        ["_id"] = "Lunar Bat",
+        ["_script"] = "Lunar Bat",
+        ["cachedPower"] = {16829382468219},
+        ["name"] = "Lunar Bat",
+        ["preventRainbowMachine"] = true,
+        ["cachedZoneNumber"] = 222.20833333333334,
+        ["zoneNumber"] = 222.20833333333334
+    },
     ["Huge Balloon Monkey"] = {
         ["goldenThumbnail"] = "rbxassetid://14976359470",
         ["_id"] = "Huge Balloon Monkey",
@@ -247,38 +270,30 @@ data = {
         ["thumbnail"] = "rbxassetid://14976472289",
         ["_script"] = "Huge King Cobra"
     },
-    ["Firefighter Dalmatian"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 175",
-            ["faceTopLeftPixel"] = "54, 47",
-            ["imageSize"] = "250, 214"
-        },
-        ["_script"] = "Firefighter Dalmatian",
-        ["name"] = "Firefighter Dalmatian",
-        ["_id"] = "Firefighter Dalmatian",
+    ["Huge Chroma Balloon Dragon"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976380691",
+        ["_id"] = "Huge Chroma Balloon Dragon",
+        ["animations"] = {["balloon"] = true},
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968237776",
-        ["goldenThumbnail"] = "rbxassetid://14968237708"
-    },
-    ["Evil Bat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 167",
-            ["faceTopLeftPixel"] = "92, 55",
-            ["imageSize"] = "250, 201"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18256797746",
-        ["_id"] = "Evil Bat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {10495834125259},
-        ["name"] = "Evil Bat",
-        ["zoneNumber"] = 218.2,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Huge Chroma Balloon Dragon",
         ["fly"] = true,
-        ["cachedZoneNumber"] = 218.2,
-        ["thumbnail"] = "rbxassetid://18256797857",
-        ["_script"] = "Evil Bat"
+        ["thumbnail"] = "rbxassetid://14976380948",
+        ["_script"] = "Huge Chroma Balloon Dragon"
+    },
+    ["Huge Tropical Toucan"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644414363",
+        ["_id"] = "Huge Tropical Toucan",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Tropical Toucan",
+        ["_script"] = "Huge Tropical Toucan",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the (Epic, Mythical) Series 3 Merch Gifts!",
+        ["thumbnail"] = "rbxassetid://18644414181",
+        ["hideSerial"] = true
     },
     ["Chocolate Frog"] = {
         ["iconSettings"] = {
@@ -618,6 +633,22 @@ data = {
         ["thumbnail"] = "rbxassetid://14968172578",
         ["weld"] = true
     },
+    ["Old Wizard Owl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://18644344108",
+        ["_id"] = "Old Wizard Owl",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Old Wizard Owl",
+        ["_script"] = "Old Wizard Owl",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 195",
+            ["faceTopLeftPixel"] = "97, 85",
+            ["imageSize"] = "250, 233"
+        },
+        ["thumbnail"] = "rbxassetid://18644344198",
+        ["hideSerial"] = true
+    },
     ["Exquisite Cat"] = {
         ["exclusiveLevel"] = 3,
         ["goldenThumbnail"] = "rbxassetid://14976332148",
@@ -694,31 +725,27 @@ data = {
         ["thumbnail"] = "rbxassetid://14968235413",
         ["_script"] = "Festive Agony"
     },
-    ["Domortuus Astra"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 196",
-            ["faceTopLeftPixel"] = "99, 101",
-            ["imageSize"] = "250, 225"
-        },
-        ["_script"] = "Domortuus Astra",
-        ["name"] = "Domortuus Astra",
-        ["_id"] = "Domortuus Astra",
-        ["exclusiveLevel"] = 3,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968211535",
-        ["goldenThumbnail"] = "rbxassetid://14968211409"
+    ["Huge Grinch Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976448160",
+        ["_id"] = "Huge Grinch Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Grinch Cat",
+        ["indexDesc"] = "Found in the Exclusive Jolly Egg!",
+        ["thumbnail"] = "rbxassetid://14976448309",
+        ["_script"] = "Huge Grinch Cat"
     },
-    ["Huge Warrior Wolf"] = {
-        ["goldenThumbnail"] = "rbxassetid://18256895855",
-        ["_id"] = "Huge Warrior Wolf",
+    ["Huge Mech Dino"] = {
+        ["goldenThumbnail"] = "rbxassetid://18673257211",
+        ["_id"] = "Huge Mech Dino",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Warrior Wolf",
-        ["fly"] = true,
-        ["_script"] = "Huge Warrior Wolf",
-        ["thumbnail"] = "rbxassetid://18256895705",
-        ["indexDesc"] = "Found in the Good vs. Evil Pack!"
+        ["name"] = "Huge Mech Dino",
+        ["indexDesc"] = "Found in the Dino Pack!",
+        ["thumbnail"] = "rbxassetid://18673257007",
+        ["_script"] = "Huge Mech Dino"
     },
     ["Neon Twilight Cat"] = {
         ["iconSettings"] = {
@@ -748,6 +775,24 @@ data = {
         ["fly"] = true,
         ["thumbnail"] = "rbxassetid://14968360564",
         ["_script"] = "Wild Frost Agony"
+    },
+    ["Temporal Owl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "199, 159",
+            ["faceTopLeftPixel"] = "95, 63",
+            ["imageSize"] = "250, 187"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882335988",
+        ["_id"] = "Temporal Owl",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["_script"] = "Temporal Owl",
+        ["name"] = "Temporal Owl",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882335787",
+        ["preventFuseMachine"] = true
     },
     ["Huge Blue Balloon Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976365612",
@@ -927,26 +972,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968350999",
         ["goldenThumbnail"] = "rbxassetid://14968350892"
     },
-    ["Black Hole Angelus"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 158",
-            ["faceTopLeftPixel"] = "85, 53",
-            ["imageSize"] = "232, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17276416269",
-        ["_id"] = "Black Hole Angelus",
-        ["animations"] = {["spinZ"] = true},
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
-        ["cachedZoneNumber"] = 202.12580075976186,
-        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
-        ["cachedPower"] = {1579897516716},
-        ["name"] = "Black Hole Angelus",
-        ["zoneNumber"] = 202.12580075976186,
-        ["fly"] = true,
-        ["_script"] = "Black Hole Angelus",
-        ["thumbnail"] = "rbxassetid://17276416395",
-        ["fromEgg"] = "Void Spiral Egg"
+    ["Huge Dino Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://18673256315",
+        ["_id"] = "Huge Dino Dog",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Dino Dog",
+        ["indexDesc"] = "Earned from the Dino Tycoon's final egg!",
+        ["thumbnail"] = "rbxassetid://18673255790",
+        ["_script"] = "Huge Dino Dog"
     },
     ["Hellish Axolotl"] = {
         ["iconSettings"] = {
@@ -1227,24 +1262,19 @@ data = {
         ["thumbnail"] = "rbxassetid://15804006339",
         ["_script"] = "Huge Knight Beagle"
     },
-    ["Wizard Westie"] = {
+    ["Doodle Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 207",
-            ["faceTopLeftPixel"] = "86, 91",
-            ["imageSize"] = "250, 240"
+            ["faceBottomRightPixel"] = "219, 208",
+            ["faceTopLeftPixel"] = "61, 65",
+            ["imageSize"] = "226, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968361253",
-        ["_id"] = "Wizard Westie",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 73,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {508717},
-        ["name"] = "Wizard Westie",
-        ["zoneNumber"] = 75.2051014671703,
-        ["cachedZoneNumber"] = 75.2051014671703,
-        ["_script"] = "Wizard Westie",
-        ["thumbnail"] = "rbxassetid://14968361410",
-        ["fromEgg"] = "Wizard Egg"
+        ["_script"] = "Doodle Fox",
+        ["name"] = "Doodle Fox",
+        ["_id"] = "Doodle Fox",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968216406",
+        ["goldenThumbnail"] = "rbxassetid://14968216302"
     },
     ["Pony"] = {
         ["iconSettings"] = {
@@ -1446,25 +1476,16 @@ data = {
         ["thumbnail"] = "rbxassetid://18127447536",
         ["_script"] = "Evil Ram"
     },
-    ["Happy Computer"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 169",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968253382",
-        ["_id"] = "Happy Computer",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 128,
-        ["cachedZoneNumber"] = 129.1525251416353,
+    ["Huge Mantis Shrimp"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976486574",
+        ["_id"] = "Huge Mantis Shrimp",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {292361886},
-        ["name"] = "Happy Computer",
-        ["zoneNumber"] = 129.1525251416353,
-        ["fly"] = true,
-        ["_script"] = "Happy Computer",
-        ["thumbnail"] = "rbxassetid://14968253514",
-        ["fromEgg"] = "Tech Nexus Egg"
+        ["name"] = "Huge Mantis Shrimp",
+        ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!",
+        ["thumbnail"] = "rbxassetid://14976486671",
+        ["_script"] = "Huge Mantis Shrimp"
     },
     ["Junkyard Hound"] = {
         ["iconSettings"] = {
@@ -2028,16 +2049,37 @@ data = {
         ["thumbnail"] = "rbxassetid://17821211666",
         ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!"
     },
-    ["Huge Mushroom Raccoon"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976495433",
-        ["_id"] = "Huge Mushroom Raccoon",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Dino Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 171",
+            ["faceTopLeftPixel"] = "59, 37",
+            ["imageSize"] = "250, 212"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673189493",
+        ["_id"] = "Dino Axolotl",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Mushroom Raccoon",
-        ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!",
-        ["thumbnail"] = "rbxassetid://14976495649",
-        ["_script"] = "Huge Mushroom Raccoon"
+        ["cachedPower"] = {11689227029745},
+        ["name"] = "Dino Axolotl",
+        ["zoneNumber"] = 219.11764705882354,
+        ["cachedZoneNumber"] = 219.11764705882354,
+        ["thumbnail"] = "rbxassetid://18673189643",
+        ["_script"] = "Dino Axolotl"
+    },
+    ["Keyboard Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "195, 183",
+            ["faceTopLeftPixel"] = "54, 56",
+            ["imageSize"] = "250, 220"
+        },
+        ["_script"] = "Keyboard Cat",
+        ["name"] = "Keyboard Cat",
+        ["_id"] = "Keyboard Cat",
+        ["exclusiveLevel"] = 1,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968270057",
+        ["goldenThumbnail"] = "rbxassetid://14968269943"
     },
     ["Doodle Fish"] = {
         ["iconSettings"] = {
@@ -2476,6 +2518,18 @@ data = {
         ["thumbnail"] = "rbxassetid://15805724092",
         ["fromEgg"] = "Firefly Egg"
     },
+    ["Huge Inferno Stealth Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644412228",
+        ["_id"] = "Huge Inferno Stealth Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Inferno Stealth Cat",
+        ["indexDesc"] = "Found in the (Basic, Rare, Mythical) Series 3 Merch Gifts!",
+        ["_script"] = "Huge Inferno Stealth Cat",
+        ["thumbnail"] = "rbxassetid://18644412090",
+        ["hideSerial"] = true
+    },
     ["Huge Pristine Snake"] = {
         ["fromWorldNumber"] = 3,
         ["goldenThumbnail"] = "rbxassetid://18556268101",
@@ -2649,17 +2703,16 @@ data = {
         ["thumbnail"] = "rbxassetid://17026769153",
         ["fromEgg"] = "Motherboard Egg"
     },
-    ["Huge Avenging Griffin"] = {
-        ["goldenThumbnail"] = "rbxassetid://18150841572",
-        ["_id"] = "Huge Avenging Griffin",
-        ["indexObtainable"] = true,
+    ["Huge Festive Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://15281989314",
+        ["_id"] = "Huge Festive Cat",
+        ["indexObtainable"] = false,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Avenging Griffin",
-        ["fly"] = true,
-        ["_script"] = "Huge Avenging Griffin",
-        ["thumbnail"] = "rbxassetid://18150841344",
-        ["indexDesc"] = "Earned from the Good vs. Evil World and Good Gifts!"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Festive Cat",
+        ["indexDesc"] = "From the 2021 Insane Christmas Exclusive Egg!",
+        ["thumbnail"] = "rbxassetid://15281989250",
+        ["_script"] = "Huge Festive Cat"
     },
     ["Titanic Valkyrie Pegasus"] = {
         ["titanic"] = true,
@@ -2676,25 +2729,16 @@ data = {
         ["thumbnail"] = "rbxassetid://18465212052",
         ["weld"] = true
     },
-    ["Empyrean Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 152",
-            ["faceTopLeftPixel"] = "104, 50",
-            ["imageSize"] = "250, 185"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968228607",
-        ["_id"] = "Empyrean Axolotl",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 97,
-        ["cachedZoneNumber"] = 97.51486267931344,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {7045723},
-        ["name"] = "Empyrean Axolotl",
-        ["zoneNumber"] = 97.51486267931344,
-        ["fly"] = true,
-        ["_script"] = "Empyrean Axolotl",
-        ["thumbnail"] = "rbxassetid://14968228755",
-        ["fromEgg"] = "Heaven Castle Egg"
+    ["Huge Reindeer Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://15281988902",
+        ["_id"] = "Huge Reindeer Dog",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Reindeer Dog",
+        ["indexDesc"] = "Comes with the Reindeer Dog plush!",
+        ["thumbnail"] = "rbxassetid://15281988831",
+        ["_script"] = "Huge Reindeer Dog"
     },
     ["Huge Dark Lord"] = {
         ["goldenThumbnail"] = "rbxassetid://18152338268",
@@ -2901,6 +2945,24 @@ data = {
         ["_script"] = "Snowflake Dominus",
         ["thumbnail"] = "rbxassetid://15715877322",
         ["fromEgg"] = "Teddy Egg"
+    },
+    ["Egg Triceratops"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "173, 203",
+            ["faceTopLeftPixel"] = "51, 71",
+            ["imageSize"] = "188, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741612330",
+        ["_id"] = "Egg Triceratops",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12451567922990},
+        ["name"] = "Egg Triceratops",
+        ["zoneNumber"] = 219.64705882352942,
+        ["cachedZoneNumber"] = 219.64705882352942,
+        ["thumbnail"] = "rbxassetid://18741612556",
+        ["_script"] = "Egg Triceratops"
     },
     ["Huge Rainbow Slime"] = {
         ["goldenThumbnail"] = "rbxassetid://14976531847",
@@ -3114,24 +3176,16 @@ data = {
             ["imageSize"] = "250, 219"
         }
     },
-    ["Bleebo The Alien"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "184, 214",
-            ["faceTopLeftPixel"] = "51, 96",
-            ["imageSize"] = "206, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968182666",
-        ["_id"] = "Bleebo The Alien",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 149,
+    ["Titanic Lovemelon"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16306754911",
+        ["_id"] = "Titanic Lovemelon",
+        ["indexObtainable"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3468260800},
-        ["name"] = "Bleebo The Alien",
-        ["zoneNumber"] = 150.15230027300467,
-        ["cachedZoneNumber"] = 150.15230027300467,
-        ["_script"] = "Bleebo The Alien",
-        ["thumbnail"] = "rbxassetid://14968182805",
-        ["fromEgg"] = "Alien Lab Egg"
+        ["name"] = "Titanic Lovemelon",
+        ["indexDesc"] = "Found in the Exclusive Valentine's Egg!",
+        ["thumbnail"] = "rbxassetid://16306754796",
+        ["_script"] = "Titanic Lovemelon"
     },
     ["Elegant Eagle"] = {
         ["iconSettings"] = {
@@ -3369,19 +3423,21 @@ data = {
         ["thumbnail"] = "rbxassetid://18352469980",
         ["_script"] = "Titanic Kitsune Fox"
     },
-    ["Chill Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 181",
-            ["faceTopLeftPixel"] = "58, 48",
-            ["imageSize"] = "250, 222"
-        },
-        ["_script"] = "Chill Axolotl",
-        ["name"] = "Chill Axolotl",
-        ["_id"] = "Chill Axolotl",
+    ["Santa Dragon"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968326285",
+        ["_id"] = "Santa Dragon",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968193849",
-        ["goldenThumbnail"] = "rbxassetid://14968193678"
+        ["name"] = "Santa Dragon",
+        ["fly"] = true,
+        ["_script"] = "Santa Dragon",
+        ["thumbnail"] = "rbxassetid://14968326381",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 198",
+            ["faceTopLeftPixel"] = "89, 79",
+            ["imageSize"] = "250, 233"
+        }
     },
     ["Tech Ninja Cow"] = {
         ["iconSettings"] = {
@@ -3487,19 +3543,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14976479237",
         ["indexDesc"] = "Hatched from eggs in PSX!"
     },
-    ["Present Chest Mimic"] = {
+    ["Phoenix"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 197",
-            ["faceTopLeftPixel"] = "73, 86",
-            ["imageSize"] = "250, 231"
+            ["faceBottomRightPixel"] = "206, 137",
+            ["faceTopLeftPixel"] = "101, 42",
+            ["imageSize"] = "250, 166"
         },
-        ["_script"] = "Present Chest Mimic",
-        ["name"] = "Present Chest Mimic",
-        ["_id"] = "Present Chest Mimic",
-        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968301020",
+        ["_id"] = "Phoenix",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 43,
+        ["cachedZoneNumber"] = 43.87843152643661,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968311832",
-        ["goldenThumbnail"] = "rbxassetid://14968311645"
+        ["cachedPower"] = {12701},
+        ["name"] = "Phoenix",
+        ["zoneNumber"] = 43.87843152643661,
+        ["fly"] = true,
+        ["_script"] = "Phoenix",
+        ["thumbnail"] = "rbxassetid://14968301259",
+        ["fromEgg"] = "Magma Egg"
     },
     ["Jelly Cat"] = {
         ["iconSettings"] = {
@@ -3680,6 +3742,21 @@ data = {
         ["thumbnail"] = "rbxassetid://18539512677",
         ["_script"] = "Huge Kawaii Tiger"
     },
+    ["Classic Cat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Classic Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Classic Cat",
+        ["_script"] = "Classic Cat",
+        ["thumbnail"] = "rbxassetid://18883358456",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "230, 194",
+            ["faceTopLeftPixel"] = "63, 70",
+            ["imageSize"] = "250, 249"
+        }
+    },
     ["Reindeer Corgi"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "199, 212",
@@ -3753,6 +3830,33 @@ data = {
         },
         ["thumbnail"] = "rbxassetid://14968342742",
         ["hideSerial"] = true
+    },
+    ["Huge Electric Dino"] = {
+        ["goldenThumbnail"] = "rbxassetid://18673256887",
+        ["_id"] = "Huge Electric Dino",
+        ["animations"] = {
+            ["fadeFrames"] = {
+                {
+                    ["instant"] = true,
+                    ["duration"] = 1,
+                    ["iconThumbnail"] = "rbxassetid://18671776352",
+                    ["textureName"] = "frame1"
+                },
+                {
+                    ["instant"] = true,
+                    ["duration"] = 2,
+                    ["iconThumbnail"] = "rbxassetid://18671776118",
+                    ["textureName"] = "frame2"
+                }
+            }
+        },
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Electric Dino",
+        ["indexDesc"] = "Earned from the Dino Gifts!",
+        ["thumbnail"] = "rbxassetid://18673256682",
+        ["_script"] = "Huge Electric Dino"
     },
     ["Fire Cat"] = {
         ["iconSettings"] = {
@@ -3828,17 +3932,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968293937",
         ["goldenThumbnail"] = "rbxassetid://14968293791"
     },
-    ["Titanic Nightfall Wolf"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://16394133269",
-        ["_id"] = "Titanic Nightfall Wolf",
-        ["indexObtainable"] = true,
-        ["hidden"] = true,
+    ["Werewolf"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "219, 207",
+            ["faceTopLeftPixel"] = "73, 75",
+            ["imageSize"] = "250, 247"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968358254",
+        ["_id"] = "Werewolf",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 75,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Nightfall Wolf",
-        ["indexDesc"] = "Comes with the Titanic Nightfall Wolf plush!",
-        ["thumbnail"] = "rbxassetid://16394133066",
-        ["_script"] = "Titanic Nightfall Wolf"
+        ["cachedPower"] = {545465},
+        ["name"] = "Werewolf",
+        ["zoneNumber"] = 75.79781425904602,
+        ["cachedZoneNumber"] = 75.79781425904602,
+        ["_script"] = "Werewolf",
+        ["thumbnail"] = "rbxassetid://14968358411",
+        ["fromEgg"] = "Eerie Egg"
     },
     ["Huge Forcefield Monkey"] = {
         ["goldenThumbnail"] = "",
@@ -4186,6 +4297,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14968329861",
         ["fromEgg"] = "Beach Egg"
     },
+    ["Inferno Stealth Bobcat"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644342040",
+        ["_id"] = "Inferno Stealth Bobcat",
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Inferno Stealth Bobcat",
+        ["_script"] = "Inferno Stealth Bobcat",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "230, 175",
+            ["faceTopLeftPixel"] = "107, 64",
+            ["imageSize"] = "250, 209"
+        },
+        ["thumbnail"] = "rbxassetid://18644342174",
+        ["hideSerial"] = true
+    },
     ["Huge Emoji Monkey"] = {
         ["goldenThumbnail"] = "rbxassetid://16044355802",
         ["_id"] = "Huge Emoji Monkey",
@@ -4246,16 +4372,16 @@ data = {
         ["thumbnail"] = "rbxassetid://17835926180",
         ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!"
     },
-    ["Huge Santa Paws"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976542654",
-        ["_id"] = "Huge Santa Paws",
+    ["Huge Snowman"] = {
+        ["goldenThumbnail"] = "rbxassetid://15199736147",
+        ["_id"] = "Huge Snowman",
         ["indexObtainable"] = false,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {8275329393, 8275329490}, ["walk"] = {}},
-        ["name"] = "Huge Santa Paws",
-        ["indexDesc"] = "From the 2021 Insane Christmas Exclusive Egg!",
-        ["thumbnail"] = "rbxassetid://14976542836",
-        ["_script"] = "Huge Santa Paws"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Snowman",
+        ["indexDesc"] = "Earned from 2022 Christmas Event in PSX!",
+        ["thumbnail"] = "rbxassetid://15199736050",
+        ["_script"] = "Huge Snowman"
     },
     ["Clout Cat"] = {
         ["iconSettings"] = {
@@ -4829,6 +4955,17 @@ data = {
         ["indexDesc"] = "Comes with the Santa Monkey plush!",
         ["thumbnail"] = "rbxassetid://15281988558",
         ["_script"] = "Huge Santa Monkey"
+    },
+    ["Huge Ice Cream Cone"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976462105",
+        ["_id"] = "Huge Ice Cream Cone",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Ice Cream Cone",
+        ["indexDesc"] = "Reward in the 2024 Ice Cream Clan Battle!",
+        ["thumbnail"] = "rbxassetid://14976462189",
+        ["_script"] = "Huge Ice Cream Cone"
     },
     ["Tech Bull"] = {
         ["iconSettings"] = {
@@ -5539,6 +5676,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14976586764",
         ["indexDesc"] = "Found in the Exclusive Balloon Egg!"
     },
+    ["Tropical Flamingo"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644344299",
+        ["_id"] = "Tropical Flamingo",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Tropical Flamingo",
+        ["_script"] = "Tropical Flamingo",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 215"
+        },
+        ["thumbnail"] = "rbxassetid://18644344373",
+        ["hideSerial"] = true
+    },
     ["Titanic Hubert"] = {
         ["titanic"] = true,
         ["goldenThumbnail"] = "rbxassetid://12422515522",
@@ -5643,24 +5795,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968249267",
         ["fromEgg"] = "Glitch Aqua Egg"
     },
-    ["Chocolate Hippo"] = {
+    ["Sailor Seal"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 145",
-            ["faceTopLeftPixel"] = "59, 10",
-            ["imageSize"] = "250, 188"
+            ["faceBottomRightPixel"] = "216, 173",
+            ["faceTopLeftPixel"] = "69, 40",
+            ["imageSize"] = "250, 200"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968195341",
-        ["_id"] = "Chocolate Hippo",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 85,
+        ["goldenThumbnail"] = "rbxassetid://14968324248",
+        ["_id"] = "Sailor Seal",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 208,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1968585},
-        ["name"] = "Chocolate Hippo",
-        ["zoneNumber"] = 86.69128757570932,
-        ["cachedZoneNumber"] = 86.69128757570932,
-        ["_script"] = "Chocolate Hippo",
-        ["thumbnail"] = "rbxassetid://14968195465",
-        ["fromEgg"] = "Ice Cream Egg"
+        ["cachedPower"] = {4093236919523},
+        ["name"] = "Sailor Seal",
+        ["zoneNumber"] = 210.2051014671703,
+        ["cachedZoneNumber"] = 210.2051014671703,
+        ["_script"] = "Sailor Seal",
+        ["thumbnail"] = "rbxassetid://14968324382",
+        ["fromEgg"] = "Summer Beachball Egg"
     },
     ["Willow Wisp"] = {
         ["iconSettings"] = {
@@ -5912,18 +6064,6 @@ data = {
         ["thumbnail"] = "rbxassetid://14968336033",
         ["goldenThumbnail"] = "rbxassetid://14968335901"
     },
-    ["Huge Dalmatian"] = {
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Huge Dalmatian",
-        ["indexObtainable"] = true,
-        ["hidden"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Dalmatian",
-        ["indexDesc"] = "TODO",
-        ["thumbnail"] = "",
-        ["_script"] = "Huge Dalmatian"
-    },
     ["Titanic Axolotl"] = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["titanic"] = true,
@@ -6139,24 +6279,21 @@ data = {
         ["thumbnail"] = "rbxassetid://17749017162",
         ["goldenThumbnail"] = "rbxassetid://17749016995"
     },
-    ["Cyborg Ducky"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 167",
-            ["faceTopLeftPixel"] = "68, 11",
-            ["imageSize"] = "250, 215"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968205242",
-        ["_id"] = "Cyborg Ducky",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 101,
+    ["Huge Temporal Owl"] = {
+        ["goldenThumbnail"] = "rbxassetid://18882975615",
+        ["_id"] = "Huge Temporal Owl",
+        ["_script"] = "Huge Temporal Owl",
+        ["indexObtainable"] = true,
+        ["indexDesc"] = "1 in 50,000,000 base chance from the RNG Event",
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {12959690},
-        ["name"] = "Cyborg Ducky",
-        ["zoneNumber"] = 102.69128757570932,
-        ["cachedZoneNumber"] = 102.69128757570932,
-        ["_script"] = "Cyborg Ducky",
-        ["thumbnail"] = "rbxassetid://14968205362",
-        ["fromEgg"] = "Tech City Egg"
+        ["weld"] = true,
+        ["name"] = "Huge Temporal Owl",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882992626",
+        ["preventFuseMachine"] = true
     },
     ["Relic Bat"] = {
         ["iconSettings"] = {
@@ -6223,7 +6360,6 @@ data = {
         ["goldenThumbnail"] = "rbxassetid://17269848775",
         ["_id"] = "Titanic Orange Axolotl",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Titanic Orange Axolotl",
         ["indexDesc"] = "Comes with the Titanic Orange Axolotl plush!",
@@ -6573,6 +6709,29 @@ data = {
         ["thumbnail"] = "rbxassetid://17285296068",
         ["indexDesc"] = "Found in the Exclusive Black Hole Egg!"
     },
+    ["Comet Pony"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "208, 182",
+            ["faceTopLeftPixel"] = "89, 74",
+            ["imageSize"] = "250, 214"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977984319",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18977984420",
+        ["preventFuseMachine"] = true,
+        ["_id"] = "Comet Pony",
+        ["_script"] = "Comet Pony",
+        ["cachedPower"] = {18025379191849},
+        ["name"] = "Comet Pony",
+        ["preventRainbowMachine"] = true,
+        ["cachedZoneNumber"] = 222.79166666666666,
+        ["zoneNumber"] = 222.79166666666666
+    },
     ["Steampunk Crocodile"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "232, 183",
@@ -6722,24 +6881,24 @@ data = {
             }
         }
     },
-    ["Rudolf"] = {
+    ["Steampunk Octopus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 212",
-            ["faceTopLeftPixel"] = "59, 88",
-            ["imageSize"] = "205, 250"
+            ["faceBottomRightPixel"] = "197, 114",
+            ["faceTopLeftPixel"] = "98, 25",
+            ["imageSize"] = "250, 134"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968321872",
-        ["_id"] = "Rudolf",
-        ["fromWorldNumber"] = 1,
-        ["hidden"] = false,
+        ["goldenThumbnail"] = "rbxassetid://14968343395",
+        ["_id"] = "Steampunk Octopus",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 156,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1373},
-        ["name"] = "Rudolf",
-        ["zoneNumber"] = 25,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 25,
-        ["thumbnail"] = "rbxassetid://14968321951",
-        ["_script"] = "Rudolf"
+        ["cachedPower"] = {7343859556},
+        ["name"] = "Steampunk Octopus",
+        ["zoneNumber"] = 156.51486267931344,
+        ["cachedZoneNumber"] = 156.51486267931344,
+        ["_script"] = "Steampunk Octopus",
+        ["thumbnail"] = "rbxassetid://14968343518",
+        ["fromEgg"] = "Steampunk Clockwork Egg"
     },
     ["Huge Holiday Pegasus"] = {
         ["goldenThumbnail"] = "rbxassetid://15716049676",
@@ -6859,13 +7018,12 @@ data = {
         ["_id"] = "Rave Unicorn",
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
-        ["cachedZoneNumber"] = 220,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
+        ["cachedPower"] = {12959795185153},
         ["name"] = "Rave Unicorn",
         ["zoneNumber"] = 220,
         ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedPower"] = {12959795185153},
+        ["cachedZoneNumber"] = 220,
         ["thumbnail"] = "rbxassetid://18447210854",
         ["_script"] = "Rave Unicorn"
     },
@@ -6881,20 +7039,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14976579205",
         ["indexDesc"] = "Found in the Huge Machine Blurred Dominus Egg!"
     },
-    ["Nightmare Cat"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://15260346522",
-        ["_id"] = "Nightmare Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Nightmare Cat",
-        ["_script"] = "Nightmare Cat",
-        ["thumbnail"] = "rbxassetid://15260346522",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 208",
-            ["faceTopLeftPixel"] = "61, 69",
-            ["imageSize"] = "222, 250"
-        }
+    ["Huge Hydra Dino"] = {
+        ["goldenThumbnail"] = "rbxassetid://18741937315",
+        ["_id"] = "Huge Hydra Dino",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Hydra Dino",
+        ["indexDesc"] = "Found in the Dino Pack!",
+        ["thumbnail"] = "rbxassetid://18741937148",
+        ["_script"] = "Huge Hydra Dino"
     },
     ["Huge Anime Unicorn"] = {
         ["goldenThumbnail"] = "rbxassetid://14976351858",
@@ -7095,7 +7249,7 @@ data = {
         ["fly"] = true,
         ["_script"] = "Huge Purple Dragon",
         ["thumbnail"] = "rbxassetid://16251004392",
-        ["indexDesc"] = "Found in the Season 2 Merch Gifts!"
+        ["indexDesc"] = "Tied to the Huge Plush merch in stores!"
     },
     ["404 Demon"] = {
         ["iconSettings"] = {
@@ -7150,6 +7304,40 @@ data = {
             ["faceTopLeftPixel"] = "90, 47",
             ["imageSize"] = "250, 174"
         }
+    },
+    ["Electric Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "177, 118",
+            ["faceTopLeftPixel"] = "74, 22",
+            ["imageSize"] = "250, 147"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673190648",
+        ["_id"] = "Electric Dino",
+        ["animations"] = {
+            ["fadeFrames"] = {
+                {
+                    ["instant"] = true,
+                    ["duration"] = 1,
+                    ["iconThumbnail"] = "rbxassetid://18671776352",
+                    ["textureName"] = "frame1"
+                },
+                {
+                    ["instant"] = true,
+                    ["duration"] = 2,
+                    ["iconThumbnail"] = "rbxassetid://18671776118",
+                    ["textureName"] = "frame2"
+                }
+            }
+        },
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12197454291908},
+        ["name"] = "Electric Dino",
+        ["zoneNumber"] = 219.47058823529412,
+        ["cachedZoneNumber"] = 219.47058823529412,
+        ["thumbnail"] = "rbxassetid://18673191249",
+        ["_script"] = "Electric Dino"
     },
     ["Huge Vampire Bat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976574132",
@@ -7220,7 +7408,6 @@ data = {
         ["goldenThumbnail"] = "rbxassetid://17269957190",
         ["_id"] = "Titanic Dolphin",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Titanic Dolphin",
         ["indexDesc"] = "Comes with the Titanic Dolphin plush!",
@@ -7374,7 +7561,7 @@ data = {
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Huge Red Panda",
-        ["indexDesc"] = "Found occasionally in Active Huge Pets and inside Season 2 Merch Gifts!",
+        ["indexDesc"] = "Found occasionally in Active Huge Pets and tied to the Huge Plush merch in stores!",
         ["thumbnail"] = "rbxassetid://14976533293",
         ["_script"] = "Huge Red Panda"
     },
@@ -7395,20 +7582,37 @@ data = {
         ["thumbnail"] = "rbxassetid://14968258075",
         ["exclusiveLevel"] = 3
     },
-    ["Reindeer Axolotl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968318837",
-        ["_id"] = "Reindeer Axolotl",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Reindeer Axolotl",
-        ["_script"] = "Reindeer Axolotl",
-        ["thumbnail"] = "rbxassetid://14968318965",
+    ["Cosmic Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 216",
-            ["faceTopLeftPixel"] = "49, 105",
-            ["imageSize"] = "211, 250"
-        }
+            ["faceBottomRightPixel"] = "209, 163",
+            ["faceTopLeftPixel"] = "96, 59",
+            ["imageSize"] = "250, 194"
+        },
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Cosmic Dragon",
+        ["animations"] = {
+            ["parallax"] = {
+                {
+                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
+                    ["FixedScale"] = Vector3.new(2, 2, 2),
+                    ["LogScale"] = 0.01,
+                    ["TextureId"] = "rbxassetid://14155237344",
+                    ["Transparency"] = 0.5,
+                    ["AnimSpeed"] = Vector3.new(0.25, 0.25, 0),
+                    ["TransparencyNoiseRange"] = {0, 1},
+                    ["Brightness"] = Vector3.new(3, 3, 3),
+                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
+                    ["ZIndex"] = 2
+                }
+            }
+        },
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Cosmic Dragon",
+        ["_script"] = "Cosmic Dragon",
+        ["fly"] = true,
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://15201619975",
+        ["exclusiveLevel"] = 2
     },
     ["Rave Butterfly"] = {
         ["iconSettings"] = {
@@ -7418,12 +7622,11 @@ data = {
         },
         ["goldenThumbnail"] = "rbxassetid://18447212560",
         ["_id"] = "Rave Butterfly",
-        ["cachedZoneNumber"] = 220.2,
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
-        ["cachedPower"] = {13283790064781},
+        ["cachedZoneNumber"] = 220.2,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
+        ["cachedPower"] = {13283790064781},
         ["name"] = "Rave Butterfly",
         ["zoneNumber"] = 220.2,
         ["fly"] = true,
@@ -7810,6 +8013,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968325159",
         ["fromEgg"] = "Sakura Egg"
     },
+    ["Quantum Agony"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 174",
+            ["faceTopLeftPixel"] = "119, 82",
+            ["imageSize"] = "250, 202"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18886073595",
+        ["_id"] = "Quantum Agony",
+        ["hidden"] = true,
+        ["_script"] = "Quantum Agony",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Quantum Agony",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18886073836",
+        ["preventFuseMachine"] = true
+    },
+    ["Nuclear Wild Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "195, 166",
+            ["faceTopLeftPixel"] = "91, 74",
+            ["imageSize"] = "250, 194"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977985155",
+        ["_id"] = "Nuclear Wild Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["_script"] = "Nuclear Wild Dog",
+        ["name"] = "Nuclear Wild Dog",
+        ["preventGoldMachine"] = true,
+        ["weld"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977985340",
+        ["preventFuseMachine"] = true
+    },
     ["Frostbyte Walrus"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "210, 139",
@@ -7828,6 +8068,23 @@ data = {
         ["_script"] = "Frostbyte Walrus",
         ["thumbnail"] = "rbxassetid://16746704421",
         ["fromEgg"] = "Tech Glacier Egg"
+    },
+    ["Shuriken Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 155",
+            ["faceTopLeftPixel"] = "96, 65",
+            ["imageSize"] = "250, 182"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977985519",
+        ["_id"] = "Shuriken Corgi",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Shuriken Corgi",
+        ["preventGoldMachine"] = true,
+        ["_script"] = "Shuriken Corgi",
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977985618",
+        ["preventFuseMachine"] = true
     },
     ["Shadow Panther"] = {
         ["iconSettings"] = {
@@ -7848,17 +8105,18 @@ data = {
         ["thumbnail"] = "rbxassetid://15565565781",
         ["fromEgg"] = "Dark Tech Brick Egg"
     },
-    ["Huge Stealth Bobcat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976557539",
-        ["_id"] = "Huge Stealth Bobcat",
+    ["Huge Super Tiger"] = {
+        ["goldenThumbnail"] = "rbxassetid://16746767734",
+        ["_id"] = "Huge Super Tiger",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Stealth Bobcat",
-        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 2 Merch Gifts!",
-        ["_script"] = "Huge Stealth Bobcat",
-        ["thumbnail"] = "rbxassetid://14976557639",
-        ["hideSerial"] = true
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Super Tiger",
+        ["_script"] = "Huge Super Tiger",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the Exclusive Superhero Egg!",
+        ["thumbnail"] = "rbxassetid://16746767650",
+        ["weld"] = true
     },
     ["Wireframe Dog"] = {
         ["iconSettings"] = {
@@ -7891,6 +8149,25 @@ data = {
         ["thumbnail"] = "rbxassetid://17277236803",
         ["_script"] = "Huge Forcefield Agony"
     },
+    ["Skeleton"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "214, 128",
+            ["faceTopLeftPixel"] = "81, 8",
+            ["imageSize"] = "250, 165"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968331188",
+        ["_id"] = "Skeleton",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 78,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {809645},
+        ["name"] = "Skeleton",
+        ["zoneNumber"] = 79.15252514163531,
+        ["cachedZoneNumber"] = 79.15252514163531,
+        ["_script"] = "Skeleton",
+        ["thumbnail"] = "rbxassetid://14968331286",
+        ["fromEgg"] = "Dungeon Egg"
+    },
     ["Huge Doodle Fairy"] = {
         ["goldenThumbnail"] = "rbxassetid://14976404659",
         ["_id"] = "Huge Doodle Fairy",
@@ -7920,6 +8197,33 @@ data = {
         ["thumbnail"] = "rbxassetid://15260346230",
         ["weld"] = true
     },
+    ["Surfboard Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 168",
+            ["faceTopLeftPixel"] = "56, 35",
+            ["imageSize"] = "250, 245"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968349519",
+        ["_id"] = "Surfboard Axolotl",
+        ["animations"] = {
+            ["flyHeightChange"] = 0.025,
+            ["swerve"] = true,
+            ["swerveMaxAngle"] = 60,
+            ["flyHeight"] = 0.09,
+            ["swerveAggression"] = 0.2
+        },
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 208,
+        ["cachedZoneNumber"] = 209.6913108454411,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3854035289192},
+        ["name"] = "Surfboard Axolotl",
+        ["zoneNumber"] = 209.6913108454411,
+        ["fly"] = true,
+        ["_script"] = "Surfboard Axolotl",
+        ["thumbnail"] = "rbxassetid://14968349863",
+        ["fromEgg"] = "Summer Beachball Egg"
+    },
     ["Huge Balloon Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976358265",
         ["_id"] = "Huge Balloon Cat",
@@ -7932,6 +8236,46 @@ data = {
         ["_script"] = "Huge Balloon Cat",
         ["thumbnail"] = "rbxassetid://14976358748",
         ["indexDesc"] = "Hatched from eggs in PSX!"
+    },
+    ["Demolition Husky"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 178",
+            ["faceTopLeftPixel"] = "86, 69",
+            ["imageSize"] = "250, 210"
+        },
+        ["cachedZoneNumber"] = 222.64583333333334,
+        ["goldenThumbnail"] = "rbxassetid://18977984543",
+        ["_id"] = "Demolition Husky",
+        ["zoneNumber"] = 222.64583333333334,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Demolition Husky",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {17726380010942},
+        ["name"] = "Demolition Husky",
+        ["preventGoldMachine"] = true,
+        ["weld"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977984672",
+        ["preventFuseMachine"] = true
+    },
+    ["Chimera"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "174, 221",
+            ["faceTopLeftPixel"] = "71, 129",
+            ["imageSize"] = "200, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18151023001",
+        ["_id"] = "Chimera",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9102078374209},
+        ["name"] = "Chimera",
+        ["zoneNumber"] = 217,
+        ["cachedZoneNumber"] = 217,
+        ["thumbnail"] = "rbxassetid://18151023293",
+        ["_script"] = "Chimera"
     },
     ["Party Dragon"] = {
         ["exclusiveLevel"] = 3,
@@ -7962,6 +8306,25 @@ data = {
         ["indexDesc"] = "Hatched from eggs in PSX!",
         ["thumbnail"] = "rbxassetid://14976447015",
         ["preventGolden"] = true
+    },
+    ["Angel Pony"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "195, 131",
+            ["faceTopLeftPixel"] = "99, 43",
+            ["imageSize"] = "250, 157"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18256796174",
+        ["_id"] = "Angel Pony",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11007826033809},
+        ["name"] = "Angel Pony",
+        ["zoneNumber"] = 218.6,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 218.6,
+        ["thumbnail"] = "rbxassetid://18256796372",
+        ["_script"] = "Angel Pony"
     },
     ["Hippo"] = {
         ["iconSettings"] = {
@@ -8008,6 +8371,48 @@ data = {
         ["thumbnail"] = "rbxassetid://14976566967",
         ["_script"] = "Huge Easter Bunny"
     },
+    ["Atomic Forged Shark"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 176",
+            ["faceTopLeftPixel"] = "95, 78",
+            ["imageSize"] = "250, 215"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977983715",
+        ["_id"] = "Atomic Forged Shark",
+        ["hidden"] = true,
+        ["_script"] = "Atomic Forged Shark",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Atomic Forged Shark",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977983896",
+        ["preventFuseMachine"] = true
+    },
+    ["Sun Parrot"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "191, 163",
+            ["faceTopLeftPixel"] = "92, 73",
+            ["imageSize"] = "250, 190"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882335124",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18882334922",
+        ["preventFuseMachine"] = true,
+        ["_id"] = "Sun Parrot",
+        ["_script"] = "Sun Parrot",
+        ["cachedPower"] = {16250368181383},
+        ["name"] = "Sun Parrot",
+        ["indexDesc"] = "1 in 650,000 base chance from the RNG Event",
+        ["preventRainbowMachine"] = true,
+        ["cachedZoneNumber"] = 221.91666666666666,
+        ["zoneNumber"] = 221.91666666666666
+    },
     ["Huge Tiedye Bunny"] = {
         ["goldenThumbnail"] = "rbxassetid://14976568507",
         ["_id"] = "Huge Tiedye Bunny",
@@ -8019,6 +8424,45 @@ data = {
         ["_script"] = "Huge Tiedye Bunny",
         ["thumbnail"] = "rbxassetid://14976568628",
         ["hideSerial"] = true
+    },
+    ["Corrupt Butterfly"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "211, 179",
+            ["faceTopLeftPixel"] = "97, 76",
+            ["imageSize"] = "250, 209"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882339736",
+        ["_id"] = "Corrupt Butterfly",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["_script"] = "Corrupt Butterfly",
+        ["name"] = "Corrupt Butterfly",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882339614",
+        ["preventFuseMachine"] = true
+    },
+    ["Cloud Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 207",
+            ["faceTopLeftPixel"] = "65, 71",
+            ["imageSize"] = "250, 248"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882340169",
+        ["_id"] = "Cloud Cat",
+        ["cachedZoneNumber"] = 219.58333333333334,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Cloud Cat",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12359804667321, 16879614256232},
+        ["name"] = "Cloud Cat",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 219.58333333333334,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882339868",
+        ["preventFuseMachine"] = true
     },
     ["Blue Slime"] = {
         ["iconSettings"] = {
@@ -8038,6 +8482,81 @@ data = {
         ["_script"] = "Blue Slime",
         ["thumbnail"] = "rbxassetid://16043366874",
         ["fromEgg"] = "Shadow Egg"
+    },
+    ["Love Cow"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 154",
+            ["faceTopLeftPixel"] = "93, 51",
+            ["imageSize"] = "250, 185"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882337450",
+        ["_id"] = "Love Cow",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Love Cow",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18882337248",
+        ["_script"] = "Love Cow"
+    },
+    ["Angel Cow"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "195, 170",
+            ["faceTopLeftPixel"] = "100, 82",
+            ["imageSize"] = "250, 196"
+        },
+        ["cachedZoneNumber"] = 221.33333333333334,
+        ["goldenThumbnail"] = "rbxassetid://18886073193",
+        ["_id"] = "Angel Cow",
+        ["zoneNumber"] = 221.33333333333334,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Angel Cow",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {15187259982601},
+        ["name"] = "Angel Cow",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18886073398",
+        ["preventFuseMachine"] = true
+    },
+    ["Floatie Flamingo"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "197, 111",
+            ["faceTopLeftPixel"] = "86, 7",
+            ["imageSize"] = "250, 142"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968239052",
+        ["_id"] = "Floatie Flamingo",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 206,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {2653434476017},
+        ["name"] = "Floatie Flamingo",
+        ["zoneNumber"] = 206.51992027368178,
+        ["cachedZoneNumber"] = 206.51992027368178,
+        ["_script"] = "Floatie Flamingo",
+        ["thumbnail"] = "rbxassetid://14968239203",
+        ["fromEgg"] = "Summer Floatie Egg"
+    },
+    ["Robber Goblin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "188, 147",
+            ["faceTopLeftPixel"] = "71, 41",
+            ["imageSize"] = "250, 177"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043357021",
+        ["_id"] = "Robber Goblin",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 80,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1024707},
+        ["name"] = "Robber Goblin",
+        ["zoneNumber"] = 81.15252514163531,
+        ["cachedZoneNumber"] = 81.15252514163531,
+        ["_script"] = "Robber Goblin",
+        ["thumbnail"] = "rbxassetid://16043356911",
+        ["fromEgg"] = "Treasure Egg"
     },
     ["Huge Poseidon Corgi"] = {
         ["goldenThumbnail"] = "rbxassetid://15477703494",
@@ -8064,6 +8583,47 @@ data = {
         ["thumbnail"] = "rbxassetid://14968268169",
         ["goldenThumbnail"] = "rbxassetid://14968268017"
     },
+    ["Plasma Bull"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 200",
+            ["faceTopLeftPixel"] = "72, 81",
+            ["imageSize"] = "250, 237"
+        },
+        ["cachedZoneNumber"] = 221.625,
+        ["goldenThumbnail"] = "rbxassetid://18882336750",
+        ["_id"] = "Plasma Bull",
+        ["zoneNumber"] = 221.625,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Plasma Bull",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {15718814081992},
+        ["name"] = "Plasma Bull",
+        ["preventGoldMachine"] = true,
+        ["weld"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882336565",
+        ["preventFuseMachine"] = true
+    },
+    ["Abyssal Jellyfish"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "175, 171",
+            ["faceTopLeftPixel"] = "48, 57",
+            ["imageSize"] = "181, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882336392",
+        ["_id"] = "Abyssal Jellyfish",
+        ["hidden"] = true,
+        ["_script"] = "Abyssal Jellyfish",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Abyssal Jellyfish",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882336176",
+        ["preventFuseMachine"] = true
+    },
     ["Lunar Moth"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "189, 172",
@@ -8084,17 +8644,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15565567426",
         ["fromEgg"] = "Colorful Mosaic Egg"
     },
-    ["Huge Evolved Hell Rock"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976425729",
-        ["_id"] = "Huge Evolved Hell Rock",
-        ["indexObtainable"] = true,
+    ["Huge Pony"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976525395",
+        ["_id"] = "Huge Pony",
+        ["indexObtainable"] = false,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Evolved Hell Rock",
-        ["indexDesc"] = "Earned from evolving Huge Hell Rocks in PSX!",
-        ["_script"] = "Huge Evolved Hell Rock",
-        ["thumbnail"] = "rbxassetid://14976425869",
-        ["evolved"] = true
+        ["name"] = "Huge Pony",
+        ["indexDesc"] = "Found in an original non-tradable Exclusive Egg!",
+        ["thumbnail"] = "rbxassetid://14976525582",
+        ["_script"] = "Huge Pony"
     },
     ["Stacked Dominus"] = {
         ["iconSettings"] = {
@@ -8135,6 +8694,42 @@ data = {
         ["thumbnail"] = "rbxassetid://17026774776",
         ["fromEgg"] = "Space Forge Egg"
     },
+    ["Ice Bunny"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "173, 217",
+            ["faceTopLeftPixel"] = "49, 105",
+            ["imageSize"] = "180, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882337782",
+        ["_id"] = "Ice Bunny",
+        ["cachedZoneNumber"] = 220.16666666666666,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Ice Bunny",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {13229790918176, 18149294163116, 16759324979333},
+        ["name"] = "Ice Bunny",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 220.16666666666666,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882337633",
+        ["preventFuseMachine"] = true
+    },
+    ["Tiedye Bunny"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968352356",
+        ["_id"] = "Tiedye Bunny",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Tiedye Bunny",
+        ["_script"] = "Tiedye Bunny",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "173, 216",
+            ["faceTopLeftPixel"] = "49, 104",
+            ["imageSize"] = "180, 250"
+        },
+        ["thumbnail"] = "rbxassetid://14968352460",
+        ["hideSerial"] = true
+    },
     ["Electric Corgi"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "180, 215",
@@ -8154,6 +8749,17 @@ data = {
         ["thumbnail"] = "rbxassetid://16746702949",
         ["fromEgg"] = "Electric Forest Egg"
     },
+    ["Huge Safari Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976538687",
+        ["_id"] = "Huge Safari Dog",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Safari Dog",
+        ["indexDesc"] = "Earned from Scavanger Eggs in PSX!",
+        ["thumbnail"] = "rbxassetid://14976538804",
+        ["_script"] = "Huge Safari Dog"
+    },
     ["Party Monkey"] = {
         ["exclusiveLevel"] = 1,
         ["goldenThumbnail"] = "rbxassetid://14968297333",
@@ -8168,6 +8774,84 @@ data = {
             ["faceTopLeftPixel"] = "58, 77",
             ["imageSize"] = "250, 250"
         }
+    },
+    ["Umbrella Bear"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "185, 216",
+            ["faceTopLeftPixel"] = "61, 106",
+            ["imageSize"] = "213, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882334759",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18882334573",
+        ["preventFuseMachine"] = true,
+        ["_id"] = "Umbrella Bear",
+        ["_script"] = "Umbrella Bear",
+        ["cachedPower"] = {12779798029803, 17283388987905},
+        ["name"] = "Umbrella Bear",
+        ["preventRainbowMachine"] = true,
+        ["cachedZoneNumber"] = 219.875,
+        ["zoneNumber"] = 219.875
+    },
+    ["Arcane Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "182, 97",
+            ["faceTopLeftPixel"] = "118, 38",
+            ["imageSize"] = "250, 115"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882340846",
+        ["_id"] = "Arcane Cat",
+        ["hidden"] = true,
+        ["_script"] = "Arcane Cat",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Arcane Cat",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882340601",
+        ["preventFuseMachine"] = true
+    },
+    ["Love Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 161",
+            ["faceTopLeftPixel"] = "93, 58",
+            ["imageSize"] = "250, 192"
+        },
+        ["cachedZoneNumber"] = 220.75,
+        ["goldenThumbnail"] = "rbxassetid://18883451050",
+        ["_id"] = "Love Corgi",
+        ["zoneNumber"] = 220.75,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Love Corgi",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {14174775983761, 19249179210967, 17967873469295},
+        ["name"] = "Love Corgi",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18883451183",
+        ["preventFuseMachine"] = true
+    },
+    ["Noob"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "240, 168",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 217"
+        },
+        ["_script"] = "Noob",
+        ["name"] = "Noob",
+        ["_id"] = "Noob",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968292162",
+        ["goldenThumbnail"] = "rbxassetid://14968291996"
     },
     ["Holographic Monkey"] = {
         ["iconSettings"] = {
@@ -8187,6 +8871,40 @@ data = {
         ["_script"] = "Holographic Monkey",
         ["thumbnail"] = "rbxassetid://17270074390",
         ["fromEgg"] = "Holographic Tree Egg"
+    },
+    ["Encrusted Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 184",
+            ["faceTopLeftPixel"] = "89, 67",
+            ["imageSize"] = "250, 220"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043361076",
+        ["_id"] = "Encrusted Dragon",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 82,
+        ["cachedZoneNumber"] = 83.69128757570932,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1382600},
+        ["name"] = "Encrusted Dragon",
+        ["zoneNumber"] = 83.69128757570932,
+        ["fly"] = true,
+        ["_script"] = "Encrusted Dragon",
+        ["thumbnail"] = "rbxassetid://16043360960",
+        ["fromEgg"] = "Mythic Egg"
+    },
+    ["Mushroom King"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "226, 207",
+            ["faceTopLeftPixel"] = "100, 114",
+            ["imageSize"] = "250, 248"
+        },
+        ["_script"] = "Mushroom King",
+        ["name"] = "Mushroom King",
+        ["_id"] = "Mushroom King",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968284903",
+        ["goldenThumbnail"] = "rbxassetid://14968284821"
     },
     ["Ninja Turtle"] = {
         ["iconSettings"] = {
@@ -8226,6 +8944,35 @@ data = {
         ["thumbnail"] = "rbxassetid://18151022725",
         ["_script"] = "Avenging Griffin"
     },
+    ["Classic Bunny"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "187, 206",
+            ["faceTopLeftPixel"] = "52, 106",
+            ["imageSize"] = "194, 250"
+        },
+        ["_script"] = "Classic Bunny",
+        ["name"] = "Classic Bunny",
+        ["_id"] = "Classic Bunny",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://18883358224",
+        ["goldenThumbnail"] = ""
+    },
+    ["Classic Dragon"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Classic Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Classic Dragon",
+        ["fly"] = true,
+        ["_script"] = "Classic Dragon",
+        ["thumbnail"] = "rbxassetid://18883358889",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 148",
+            ["faceTopLeftPixel"] = "62, 47",
+            ["imageSize"] = "250, 192"
+        }
+    },
     ["Hacker Cat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "210, 209",
@@ -8246,38 +8993,129 @@ data = {
         ["fromEgg"] = "Hacker Electric Egg"
     },
     ["Safari Cat"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968322975",
-        ["_id"] = "Safari Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Safari Cat",
-        ["_script"] = "Safari Cat",
-        ["thumbnail"] = "rbxassetid://14968323113",
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "223, 183",
             ["faceTopLeftPixel"] = "83, 53",
             ["imageSize"] = "250, 222"
-        }
-    },
-    ["Puffin"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "68, 11",
-            ["imageSize"] = "250, 216"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968313800",
-        ["_id"] = "Puffin",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 38,
+        ["goldenThumbnail"] = "rbxassetid://14968322975",
+        ["_id"] = "Safari Cat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Safari Cat",
+        ["zoneNumber"] = 219.76470588235293,
+        ["cachedZoneNumber"] = 219.76470588235293,
+        ["cachedPower"] = {12620977010377},
+        ["thumbnail"] = "rbxassetid://14968323113",
+        ["_script"] = "Safari Cat"
+    },
+    ["Huge Inferno Stealth Bobcat"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644411976",
+        ["_id"] = "Huge Inferno Stealth Bobcat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Inferno Stealth Bobcat",
+        ["indexDesc"] = "Found in the (Rare, Mythical) Series 3 Merch Gifts!",
+        ["_script"] = "Huge Inferno Stealth Bobcat",
+        ["thumbnail"] = "rbxassetid://18644411865",
+        ["hideSerial"] = true
+    },
+    ["Raptor"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "219, 154",
+            ["faceTopLeftPixel"] = "63, 9",
+            ["imageSize"] = "250, 197"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18758698348",
+        ["_id"] = "Raptor",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {6677},
-        ["name"] = "Puffin",
-        ["zoneNumber"] = 38.41035292468697,
-        ["cachedZoneNumber"] = 38.41035292468697,
-        ["_script"] = "Puffin",
-        ["thumbnail"] = "rbxassetid://14968313879",
-        ["fromEgg"] = "Icicle Egg"
+        ["isFromLastZone"] = true,
+        ["name"] = "Raptor",
+        ["zoneNumber"] = 219.94117647058823,
+        ["cachedZoneNumber"] = 219.94117647058823,
+        ["cachedPower"] = {12875090641459},
+        ["thumbnail"] = "rbxassetid://18758698199",
+        ["_script"] = "Raptor"
+    },
+    ["Hydra Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "210, 214",
+            ["faceTopLeftPixel"] = "99, 114",
+            ["imageSize"] = "250, 243"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741612820",
+        ["_id"] = "Hydra Dino",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Hydra Dino",
+        ["zoneNumber"] = 220,
+        ["cachedZoneNumber"] = 220,
+        ["cachedPower"] = {12959795185153},
+        ["thumbnail"] = "rbxassetid://18741613102",
+        ["_script"] = "Hydra Dino"
+    },
+    ["Egg Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "193, 194",
+            ["faceTopLeftPixel"] = "58, 53",
+            ["imageSize"] = "210, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741611206",
+        ["_id"] = "Egg Dino",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12366863379296},
+        ["name"] = "Egg Dino",
+        ["zoneNumber"] = 219.58823529411765,
+        ["cachedZoneNumber"] = 219.58823529411765,
+        ["thumbnail"] = "rbxassetid://18741611563",
+        ["_script"] = "Egg Dino"
+    },
+    ["Research Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "226, 206",
+            ["faceTopLeftPixel"] = "64, 59",
+            ["imageSize"] = "234, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741613362",
+        ["_id"] = "Research Dog",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Research Dog",
+        ["zoneNumber"] = 219.8235294117647,
+        ["cachedZoneNumber"] = 219.8235294117647,
+        ["cachedPower"] = {12705681554071},
+        ["thumbnail"] = "rbxassetid://18741613571",
+        ["_script"] = "Research Dog"
+    },
+    ["Stegosaurus"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "228, 205",
+            ["faceTopLeftPixel"] = "65, 57",
+            ["imageSize"] = "236, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741613822",
+        ["_id"] = "Stegosaurus",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Stegosaurus",
+        ["zoneNumber"] = 219.88235294117646,
+        ["cachedZoneNumber"] = 219.88235294117646,
+        ["cachedPower"] = {12790386097765},
+        ["thumbnail"] = "rbxassetid://18741614095",
+        ["_script"] = "Stegosaurus"
     },
     ["Huge Bat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976360354",
@@ -8290,6 +9128,24 @@ data = {
         ["_script"] = "Huge Bat",
         ["thumbnail"] = "rbxassetid://14976360459",
         ["indexDesc"] = "Found in the Huge Machine Blurred Dominus Egg!"
+    },
+    ["Egg Spitting Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "194, 171",
+            ["faceTopLeftPixel"] = "73, 43",
+            ["imageSize"] = "250, 221"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18741611801",
+        ["_id"] = "Egg Spitting Dino",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12536272466683},
+        ["name"] = "Egg Spitting Dino",
+        ["zoneNumber"] = 219.7058823529412,
+        ["cachedZoneNumber"] = 219.7058823529412,
+        ["thumbnail"] = "rbxassetid://18741612079",
+        ["_script"] = "Egg Spitting Dino"
     },
     ["Electric Cat"] = {
         ["iconSettings"] = {
@@ -8310,6 +9166,21 @@ data = {
         ["thumbnail"] = "rbxassetid://16746702740",
         ["fromEgg"] = "Electric Forest Egg"
     },
+    ["Elf Dog"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968227786",
+        ["_id"] = "Elf Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Elf Dog",
+        ["_script"] = "Elf Dog",
+        ["thumbnail"] = "rbxassetid://14968227863",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 212",
+            ["faceTopLeftPixel"] = "56, 85",
+            ["imageSize"] = "204, 250"
+        }
+    },
     ["Holographic Dragon"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "218, 207",
@@ -8329,6 +9200,39 @@ data = {
         ["_script"] = "Holographic Dragon",
         ["thumbnail"] = "rbxassetid://17270074170",
         ["fromEgg"] = "Holographic Crystal Egg"
+    },
+    ["Fortress Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 197",
+            ["faceTopLeftPixel"] = "69, 40",
+            ["imageSize"] = "250, 244"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556249185",
+        ["_id"] = "Fortress Dog",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 215,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {8789864520766},
+        ["name"] = "Fortress Dog",
+        ["zoneNumber"] = 216.6912875757093,
+        ["cachedZoneNumber"] = 216.6912875757093,
+        ["_script"] = "Fortress Dog",
+        ["thumbnail"] = "rbxassetid://18556249292",
+        ["fromEgg"] = "Growing Egg"
+    },
+    ["Rave Crab"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "183, 142",
+            ["faceTopLeftPixel"] = "81, 50",
+            ["imageSize"] = "250, 166"
+        },
+        ["_script"] = "Rave Crab",
+        ["name"] = "Rave Crab",
+        ["_id"] = "Rave Crab",
+        ["exclusiveLevel"] = 1,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968316850",
+        ["goldenThumbnail"] = "rbxassetid://14968316730"
     },
     ["Springy Axolotl"] = {
         ["iconSettings"] = {
@@ -8357,6 +9261,52 @@ data = {
             ["faceBottomRightPixel"] = "242, 151",
             ["faceTopLeftPixel"] = "86, 10",
             ["imageSize"] = "250, 195"
+        }
+    },
+    ["Inferno Stealth Dragon"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644342531",
+        ["_id"] = "Inferno Stealth Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Inferno Stealth Dragon",
+        ["_script"] = "Inferno Stealth Dragon",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 193",
+            ["faceTopLeftPixel"] = "89, 77",
+            ["imageSize"] = "250, 228"
+        },
+        ["thumbnail"] = "rbxassetid://18644342706",
+        ["hideSerial"] = true
+    },
+    ["Inferno Stealth Cat"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644342277",
+        ["_id"] = "Inferno Stealth Cat",
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Inferno Stealth Cat",
+        ["_script"] = "Inferno Stealth Cat",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "226, 197",
+            ["faceTopLeftPixel"] = "74, 59",
+            ["imageSize"] = "250, 238"
+        },
+        ["thumbnail"] = "rbxassetid://18644342367",
+        ["hideSerial"] = true
+    },
+    ["Celestial Dragon"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://15163401960",
+        ["_id"] = "Celestial Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Celestial Dragon",
+        ["fly"] = true,
+        ["_script"] = "Celestial Dragon",
+        ["thumbnail"] = "rbxassetid://15163402047",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "187, 223",
+            ["faceTopLeftPixel"] = "86, 131",
+            ["imageSize"] = "223, 250"
         }
     },
     ["Nuclear Squirrel"] = {
@@ -8451,6 +9401,24 @@ data = {
         ["thumbnail"] = "rbxassetid://18351496333",
         ["_script"] = "Rave Bunny"
     },
+    ["Angry Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "235, 196",
+            ["faceTopLeftPixel"] = "67, 43",
+            ["imageSize"] = "250, 242"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673189179",
+        ["_id"] = "Angry Dino",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12028045204521},
+        ["name"] = "Angry Dino",
+        ["zoneNumber"] = 219.35294117647058,
+        ["cachedZoneNumber"] = 219.35294117647058,
+        ["thumbnail"] = "rbxassetid://18673189344",
+        ["_script"] = "Angry Dino"
+    },
     ["BIG Maskot"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "241, 150",
@@ -8533,6 +9501,22 @@ data = {
         ["thumbnail"] = "rbxassetid://14968238473",
         ["fromEgg"] = "Blossom Egg"
     },
+    ["Tropical Toucan"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644344848",
+        ["_id"] = "Tropical Toucan",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Tropical Toucan",
+        ["_script"] = "Tropical Toucan",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "210, 114",
+            ["faceTopLeftPixel"] = "92, 7",
+            ["imageSize"] = "250, 147"
+        },
+        ["thumbnail"] = "rbxassetid://18644345027",
+        ["hideSerial"] = true
+    },
     ["Mystic Corgi"] = {
         ["exclusiveLevel"] = 3,
         ["goldenThumbnail"] = "rbxassetid://14968285375",
@@ -8547,6 +9531,42 @@ data = {
             ["faceTopLeftPixel"] = "66, 64",
             ["imageSize"] = "250, 235"
         }
+    },
+    ["Triceratops"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 207",
+            ["faceTopLeftPixel"] = "75, 78",
+            ["imageSize"] = "250, 245"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673192189",
+        ["_id"] = "Triceratops",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12112749748214},
+        ["name"] = "Triceratops",
+        ["zoneNumber"] = 219.41176470588235,
+        ["cachedZoneNumber"] = 219.41176470588235,
+        ["thumbnail"] = "rbxassetid://18673192313",
+        ["_script"] = "Triceratops"
+    },
+    ["Dino Monkey"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 172",
+            ["faceTopLeftPixel"] = "59, 38",
+            ["imageSize"] = "250, 212"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673190187",
+        ["_id"] = "Dino Monkey",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11773931573439},
+        ["name"] = "Dino Monkey",
+        ["zoneNumber"] = 219.1764705882353,
+        ["cachedZoneNumber"] = 219.1764705882353,
+        ["thumbnail"] = "rbxassetid://18673190450",
+        ["_script"] = "Dino Monkey"
     },
     ["Huge Jelly Corgi"] = {
         ["goldenThumbnail"] = "rbxassetid://14976465768",
@@ -8606,6 +9626,55 @@ data = {
         ["indexDesc"] = "Found in Series 2 Lucky Block 4-Pack Playset or Collector Clips!",
         ["thumbnail"] = "rbxassetid://14976441222",
         ["_script"] = "Huge Ghost"
+    },
+    ["Super Corgi"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968349230",
+        ["_id"] = "Super Corgi",
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Super Corgi",
+        ["fly"] = true,
+        ["_script"] = "Super Corgi",
+        ["thumbnail"] = "rbxassetid://14968349380",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "242, 206",
+            ["faceTopLeftPixel"] = "93, 71",
+            ["imageSize"] = "250, 247"
+        }
+    },
+    ["Rave Troll"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "193, 151",
+            ["faceTopLeftPixel"] = "68, 38",
+            ["imageSize"] = "250, 185"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18351497548",
+        ["_id"] = "Rave Troll",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9898510231952},
+        ["name"] = "Rave Troll",
+        ["zoneNumber"] = 217.7,
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 217.7,
+        ["thumbnail"] = "rbxassetid://18351497686",
+        ["_script"] = "Rave Troll"
+    },
+    ["SpongeBob SquarePants"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://18313092057",
+        ["_id"] = "SpongeBob SquarePants",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "SpongeBob SquarePants",
+        ["_script"] = "SpongeBob SquarePants",
+        ["thumbnail"] = "rbxassetid://18313092057",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "226, 148",
+            ["faceTopLeftPixel"] = "74, 9",
+            ["imageSize"] = "250, 189"
+        }
     },
     ["Huge Fox"] = {
         ["goldenThumbnail"] = "rbxassetid://14976436252",
@@ -8718,6 +9787,20 @@ data = {
         ["thumbnail"] = "rbxassetid://17269911360",
         ["_script"] = "Titanic Strawberry Corgi"
     },
+    ["Reversed Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "231, 177",
+            ["faceTopLeftPixel"] = "63, 28",
+            ["imageSize"] = "240, 250"
+        },
+        ["_script"] = "Reversed Cat",
+        ["name"] = "Reversed Cat",
+        ["_id"] = "Reversed Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968320115",
+        ["goldenThumbnail"] = "rbxassetid://14968319938"
+    },
     ["Relic Goblin"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "188, 112",
@@ -8748,6 +9831,20 @@ data = {
         ["_script"] = "Huge Angel Dog",
         ["thumbnail"] = "rbxassetid://15281990069",
         ["indexDesc"] = "Achievement reward!"
+    },
+    ["Kawaii Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "223, 202",
+            ["faceTopLeftPixel"] = "61, 68",
+            ["imageSize"] = "249, 250"
+        },
+        ["_script"] = "Kawaii Cat",
+        ["name"] = "Kawaii Cat",
+        ["_id"] = "Kawaii Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14976318763",
+        ["goldenThumbnail"] = "rbxassetid://14968268897"
     },
     ["Doodle Dolphin"] = {
         ["iconSettings"] = {
@@ -8794,6 +9891,25 @@ data = {
         ["thumbnail"] = "rbxassetid://15260480737",
         ["hideSerial"] = true
     },
+    ["Knight Beagle"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "183, 221",
+            ["faceTopLeftPixel"] = "70, 121",
+            ["imageSize"] = "198, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15565568452",
+        ["_id"] = "Knight Beagle",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 57,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {78612},
+        ["name"] = "Knight Beagle",
+        ["zoneNumber"] = 59.3471428679772,
+        ["cachedZoneNumber"] = 59.3471428679772,
+        ["_script"] = "Knight Beagle",
+        ["thumbnail"] = "rbxassetid://15565568400",
+        ["fromEgg"] = "Crowned Egg"
+    },
     ["Huge RGB Balloon Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976535865",
         ["_id"] = "Huge RGB Balloon Cat",
@@ -8805,6 +9921,25 @@ data = {
         ["fly"] = true,
         ["thumbnail"] = "rbxassetid://14976535949",
         ["_script"] = "Huge RGB Balloon Cat"
+    },
+    ["Treasure Turtle"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "67, 10",
+            ["imageSize"] = "250, 217"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556250992",
+        ["_id"] = "Treasure Turtle",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 217,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11127635805365},
+        ["name"] = "Treasure Turtle",
+        ["zoneNumber"] = 218.6936028632922,
+        ["cachedZoneNumber"] = 218.6936028632922,
+        ["_script"] = "Treasure Turtle",
+        ["thumbnail"] = "rbxassetid://18556251133",
+        ["fromEgg"] = "Established Egg"
     },
     ["Leaf Hedgehog"] = {
         ["iconSettings"] = {
@@ -8859,6 +9994,66 @@ data = {
         ["thumbnail"] = "rbxassetid://14968316589",
         ["goldenThumbnail"] = "rbxassetid://14968316424"
     },
+    ["Humble Rabbit"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "174, 217",
+            ["faceTopLeftPixel"] = "49, 103",
+            ["imageSize"] = "180, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556249893",
+        ["_id"] = "Humble Rabbit",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 215,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {8244991420763},
+        ["name"] = "Humble Rabbit",
+        ["zoneNumber"] = 216.1525251416353,
+        ["cachedZoneNumber"] = 216.1525251416353,
+        ["_script"] = "Humble Rabbit",
+        ["thumbnail"] = "rbxassetid://18556249987",
+        ["fromEgg"] = "Growing Egg"
+    },
+    ["Pristine Poodle"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "213, 190",
+            ["faceTopLeftPixel"] = "68, 58",
+            ["imageSize"] = "250, 230"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556250595",
+        ["_id"] = "Pristine Poodle",
+        ["animations"] = {
+            ["vertexColorAnim"] = {
+                {["Time"] = 0, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.100000023841858)},
+                {["Time"] = 0.5, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.5)},
+                {["Time"] = 1, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.100000023841858)}
+            },
+            ["vertexColorAnimSpeed"] = 0.5
+        },
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 217,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {10437990065210},
+        ["name"] = "Pristine Poodle",
+        ["zoneNumber"] = 218.15480861389918,
+        ["cachedZoneNumber"] = 218.15480861389918,
+        ["_script"] = "Pristine Poodle",
+        ["thumbnail"] = "rbxassetid://18556250696",
+        ["fromEgg"] = "Established Egg"
+    },
+    ["Valentines Bear"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 163",
+            ["faceTopLeftPixel"] = "81, 49",
+            ["imageSize"] = "250, 200"
+        },
+        ["_script"] = "Valentines Bear",
+        ["name"] = "Valentine's Bear",
+        ["_id"] = "Valentines Bear",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968357106",
+        ["goldenThumbnail"] = "rbxassetid://14968356962"
+    },
     ["Titanic Sock Cat"] = {
         ["titanic"] = true,
         ["goldenThumbnail"] = "rbxassetid://16393837514",
@@ -8892,6 +10087,121 @@ data = {
         ["thumbnail"] = "rbxassetid://18352502490",
         ["_script"] = "Huge Kitsune Fox"
     },
+    ["Fortress Owl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 211",
+            ["faceTopLeftPixel"] = "57, 78",
+            ["imageSize"] = "214, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556249416",
+        ["_id"] = "Fortress Owl",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 216,
+        ["cachedZoneNumber"] = 217.15480861389918,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9278213391298},
+        ["name"] = "Fortress Owl",
+        ["zoneNumber"] = 217.15480861389918,
+        ["fly"] = true,
+        ["_script"] = "Fortress Owl",
+        ["thumbnail"] = "rbxassetid://18556249535",
+        ["fromEgg"] = "Sturdy Egg"
+    },
+    ["Old Wizard Dragon"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://18644343640",
+        ["_id"] = "Old Wizard Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Old Wizard Dragon",
+        ["_script"] = "Old Wizard Dragon",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 195",
+            ["faceTopLeftPixel"] = "97, 84",
+            ["imageSize"] = "250, 233"
+        },
+        ["thumbnail"] = "rbxassetid://18644343940",
+        ["hideSerial"] = true
+    },
+    ["Luxe Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "216, 161",
+            ["faceTopLeftPixel"] = "107, 62",
+            ["imageSize"] = "250, 192"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556250074",
+        ["_id"] = "Luxe Axolotl",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["cachedZoneNumber"] = 221.64910754401694,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Luxe Axolotl",
+        ["zoneNumber"] = 221.64910754401694,
+        ["cachedPower"] = {15762749386615},
+        ["_script"] = "Luxe Axolotl",
+        ["thumbnail"] = "rbxassetid://18556250211",
+        ["fromEgg"] = "Luxe Egg"
+    },
+    ["Angel Pegasus"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "193, 175",
+            ["faceTopLeftPixel"] = "90, 81",
+            ["imageSize"] = "250, 202"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18151021545",
+        ["_id"] = "Angel Pegasus",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9329630333564},
+        ["name"] = "Angel Pegasus",
+        ["zoneNumber"] = 217.2,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 217.2,
+        ["thumbnail"] = "rbxassetid://18151021778",
+        ["_script"] = "Angel Pegasus"
+    },
+    ["Humble Hen"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "234, 206",
+            ["faceTopLeftPixel"] = "70, 58",
+            ["imageSize"] = "242, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556249642",
+        ["_id"] = "Humble Hen",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 215,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {7197630118855},
+        ["name"] = "Humble Hen",
+        ["zoneNumber"] = 215.0065235605867,
+        ["cachedZoneNumber"] = 215.0065235605867,
+        ["_script"] = "Humble Hen",
+        ["thumbnail"] = "rbxassetid://18556249774",
+        ["fromEgg"] = "Growing Egg"
+    },
+    ["Diamond Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "208, 151",
+            ["faceTopLeftPixel"] = "98, 51",
+            ["imageSize"] = "250, 181"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18556248780",
+        ["_id"] = "Diamond Dragon",
+        ["cachedZoneNumber"] = 219.6936028632922,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 218,
+        ["cachedPower"] = {12518590281036},
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["isFromLastZone"] = true,
+        ["name"] = "Diamond Dragon",
+        ["zoneNumber"] = 219.6936028632922,
+        ["fly"] = true,
+        ["_script"] = "Diamond Dragon",
+        ["thumbnail"] = "rbxassetid://18556248893",
+        ["fromEgg"] = "Elegant Egg"
+    },
     ["Nutcracker Cat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "193, 215",
@@ -8910,6 +10220,38 @@ data = {
         ["thumbnail"] = "rbxassetid://14968292963",
         ["_script"] = "Nutcracker Cat"
     },
+    ["Party Piggy"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968298111",
+        ["_id"] = "Party Piggy",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Party Piggy",
+        ["_script"] = "Party Piggy",
+        ["thumbnail"] = "rbxassetid://14968298316",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 210",
+            ["faceTopLeftPixel"] = "58, 76",
+            ["imageSize"] = "213, 250"
+        }
+    },
+    ["Blue Balloon Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 197",
+            ["faceTopLeftPixel"] = "62, 71",
+            ["imageSize"] = "207, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14976265403",
+        ["_id"] = "Blue Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Blue Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Blue Balloon Cat",
+        ["thumbnail"] = "rbxassetid://14976265479",
+        ["exclusiveLevel"] = 3
+    },
     ["Mosaic Dove"] = {
         ["exclusiveLevel"] = 2,
         ["goldenThumbnail"] = "rbxassetid://14968283455",
@@ -8925,6 +10267,22 @@ data = {
         },
         ["thumbnail"] = "rbxassetid://14968283582",
         ["hideSerial"] = true
+    },
+    ["Valkyrie Dragon"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18464815436",
+        ["_id"] = "Valkyrie Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["_script"] = "Valkyrie Dragon",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 159",
+            ["faceTopLeftPixel"] = "107, 72",
+            ["imageSize"] = "250, 185"
+        },
+        ["thumbnail"] = "rbxassetid://18464815436",
+        ["name"] = "Valkyrie Dragon"
     },
     ["Sock Cat"] = {
         ["iconSettings"] = {
@@ -8955,6 +10313,25 @@ data = {
         },
         ["thumbnail"] = "rbxassetid://14968353613",
         ["hideSerial"] = true
+    },
+    ["Rave Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 142",
+            ["faceTopLeftPixel"] = "58, 9",
+            ["imageSize"] = "250, 184"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18447213002",
+        ["_id"] = "Rave Axolotl",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12239806563755},
+        ["name"] = "Rave Axolotl",
+        ["zoneNumber"] = 219.5,
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 219.5,
+        ["thumbnail"] = "rbxassetid://18447212767",
+        ["_script"] = "Rave Axolotl"
     },
     ["Huge Devil Dominus"] = {
         ["goldenThumbnail"] = "rbxassetid://18256894972",
@@ -9016,6 +10393,45 @@ data = {
         ["thumbnail"] = "rbxassetid://14968215596",
         ["_script"] = "Doodle Fairy"
     },
+    ["Disco Ball Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 185",
+            ["faceTopLeftPixel"] = "89, 67",
+            ["imageSize"] = "250, 220"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18447213533",
+        ["_id"] = "Disco Ball Dragon",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["cachedZoneNumber"] = 220.4,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {13607784944410},
+        ["name"] = "Disco Ball Dragon",
+        ["zoneNumber"] = 220.4,
+        ["fly"] = true,
+        ["_script"] = "Disco Ball Dragon",
+        ["thumbnail"] = "rbxassetid://18447213231",
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!"
+    },
+    ["Rave Jaguar"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "63, 61",
+            ["imageSize"] = "231, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18447211542",
+        ["_id"] = "Rave Jaguar",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12671799736594},
+        ["name"] = "Rave Jaguar",
+        ["zoneNumber"] = 219.8,
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 219.8,
+        ["thumbnail"] = "rbxassetid://18447211319",
+        ["_script"] = "Rave Jaguar"
+    },
     ["Flex Fluffy Cat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "196, 145",
@@ -9029,6 +10445,25 @@ data = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["thumbnail"] = "rbxassetid://18127448974",
         ["goldenThumbnail"] = "rbxassetid://18127448974"
+    },
+    ["Rave Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 208",
+            ["faceTopLeftPixel"] = "62, 67",
+            ["imageSize"] = "236, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18447211927",
+        ["_id"] = "Rave Cat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11951811115196},
+        ["name"] = "Rave Cat",
+        ["zoneNumber"] = 219.3,
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 219.3,
+        ["thumbnail"] = "rbxassetid://18447211749",
+        ["_script"] = "Rave Cat"
     },
     ["Huge UV Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://18351655595",
@@ -9071,6 +10506,36 @@ data = {
         ["thumbnail"] = "rbxassetid://14968307304",
         ["goldenThumbnail"] = "rbxassetid://14968307048"
     },
+    ["Mech Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 180",
+            ["faceTopLeftPixel"] = "58, 45",
+            ["imageSize"] = "250, 219"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673191559",
+        ["_id"] = "Mech Dino",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {12282158835602},
+        ["name"] = "Mech Dino",
+        ["zoneNumber"] = 219.52941176470588,
+        ["cachedZoneNumber"] = 219.52941176470588,
+        ["thumbnail"] = "rbxassetid://18673191757",
+        ["_script"] = "Mech Dino"
+    },
+    ["Huge Old Wizard Corgi"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644412681",
+        ["_id"] = "Huge Old Wizard Corgi",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Old Wizard Corgi",
+        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 3 Merch Gifts!",
+        ["_script"] = "Huge Old Wizard Corgi",
+        ["thumbnail"] = "rbxassetid://18644412561",
+        ["hideSerial"] = true
+    },
     ["Cyborg Bat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "216, 167",
@@ -9091,6 +10556,80 @@ data = {
         ["thumbnail"] = "rbxassetid://16471610188",
         ["fromEgg"] = "Tech Forest Egg"
     },
+    ["Rave Meebo in a Spaceship"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "175, 130",
+            ["faceTopLeftPixel"] = "94, 53",
+            ["imageSize"] = "250, 175"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18351496779",
+        ["_id"] = "Rave Meebo in a Spaceship",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["cachedZoneNumber"] = 219.1,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11663815666637},
+        ["name"] = "Rave Meebo in a Spaceship",
+        ["zoneNumber"] = 219.1,
+        ["fly"] = true,
+        ["_script"] = "Rave Meebo in a Spaceship",
+        ["thumbnail"] = "rbxassetid://18351497185",
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!"
+    },
+    ["UV Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 208",
+            ["faceTopLeftPixel"] = "63, 62",
+            ["imageSize"] = "228, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18351497816",
+        ["_id"] = "UV Cat",
+        ["animations"] = {
+            ["vertexColorAnim"] = {
+                {["Time"] = 0, ["Value"] = Vector3.new(1.7999999523162842, 1, 1)},
+                {["Time"] = 0.1, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.2, ["Value"] = Vector3.new(1.399999976158142, 1, 1.7999999523162842)},
+                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.4, ["Value"] = Vector3.new(1.7999999523162842, 1.100000023841858, 1.600000023841858)},
+                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.6, ["Value"] = Vector3.new(1.7999999523162842, 1.7999999523162842, 1)},
+                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.8, ["Value"] = Vector3.new(1.399999976158142, 1.7999999523162842, 1)},
+                {["Time"] = 0.9, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 1, ["Value"] = Vector3.new(1.7999999523162842, 1, 1)}
+            },
+            ["vertexColorAnimSpeed"] = 0.075
+        },
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {8596407353419},
+        ["name"] = "UV Cat",
+        ["zoneNumber"] = 216.5,
+        ["indexDesc"] = "Hatched from the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 216.5,
+        ["thumbnail"] = "rbxassetid://18351497965",
+        ["_script"] = "UV Cat"
+    },
+    ["Rave Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "202, 210",
+            ["faceTopLeftPixel"] = "57, 79",
+            ["imageSize"] = "210, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18351496480",
+        ["_id"] = "Rave Corgi",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9000944170051},
+        ["name"] = "Rave Corgi",
+        ["zoneNumber"] = 216.9,
+        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
+        ["cachedZoneNumber"] = 216.9,
+        ["thumbnail"] = "rbxassetid://18351496648",
+        ["_script"] = "Rave Corgi"
+    },
     ["Mechanical Spider"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "208, 161",
@@ -9110,24 +10649,30 @@ data = {
         ["thumbnail"] = "rbxassetid://14968279152",
         ["fromEgg"] = "Steampunk Lantern Egg"
     },
-    ["Enchanted Cat"] = {
+    ["Titanic SpongeBob SquarePants"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://18313091924",
+        ["_id"] = "Titanic SpongeBob SquarePants",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Titanic SpongeBob SquarePants",
+        ["indexDesc"] = "Found in the Exclusive SpongeBob Egg!",
+        ["thumbnail"] = "rbxassetid://18313091924",
+        ["_script"] = "Titanic SpongeBob SquarePants"
+    },
+    ["Doodle Turtle"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "66, 64",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "67, 10",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968231342",
-        ["_id"] = "Enchanted Cat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 15,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {442},
-        ["name"] = "Enchanted Cat",
-        ["zoneNumber"] = 15.438815211462497,
-        ["cachedZoneNumber"] = 15.438815211462497,
-        ["_script"] = "Enchanted Cat",
-        ["thumbnail"] = "rbxassetid://14968231444",
-        ["fromEgg"] = "Spirit Egg"
+        ["_script"] = "Doodle Turtle",
+        ["name"] = "Doodle Turtle",
+        ["_id"] = "Doodle Turtle",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968222454",
+        ["goldenThumbnail"] = "rbxassetid://14968222329"
     },
     ["Huge Celestial Dragon"] = {
         ["goldenThumbnail"] = "rbxassetid://15163489578",
@@ -9140,6 +10685,65 @@ data = {
         ["_script"] = "Huge Celestial Dragon",
         ["thumbnail"] = "rbxassetid://15163489240",
         ["indexDesc"] = "Found in the Exclusive Dragon Egg!"
+    },
+    ["Lucki Wolf"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 179",
+            ["faceTopLeftPixel"] = "90, 65",
+            ["imageSize"] = "250, 214"
+        },
+        ["_script"] = "Lucki Wolf",
+        ["name"] = "Lucki Wolf",
+        ["_id"] = "Lucki Wolf",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968276787",
+        ["goldenThumbnail"] = "rbxassetid://14968276672"
+    },
+    ["Good vs Evil Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 187",
+            ["faceTopLeftPixel"] = "83, 76",
+            ["imageSize"] = "250, 221"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18256798226",
+        ["_id"] = "Good vs Evil Dragon",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11007826033809},
+        ["name"] = "Good vs Evil Dragon",
+        ["zoneNumber"] = 218.6,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 218.6,
+        ["thumbnail"] = "rbxassetid://18256798311",
+        ["_script"] = "Good vs Evil Dragon"
+    },
+    ["Huge Bee"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976362543",
+        ["_id"] = "Huge Bee",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Bee",
+        ["fly"] = true,
+        ["_script"] = "Huge Bee",
+        ["thumbnail"] = "rbxassetid://14976362778",
+        ["indexDesc"] = "Found occasionally in Active Huge Pets!"
+    },
+    ["Techno Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "235, 207",
+            ["faceTopLeftPixel"] = "78, 63",
+            ["imageSize"] = "246, 250"
+        },
+        ["_script"] = "Techno Cat",
+        ["name"] = "Techno Cat",
+        ["_id"] = "Techno Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968350782",
+        ["goldenThumbnail"] = "rbxassetid://14968350616"
     },
     ["Griffin"] = {
         ["iconSettings"] = {
@@ -9160,6 +10764,22 @@ data = {
         ["_script"] = "Griffin",
         ["thumbnail"] = "rbxassetid://14968251552",
         ["fromEgg"] = "Spike Egg"
+    },
+    ["Jelly Axolotl"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://16483035084",
+        ["_id"] = "Jelly Axolotl",
+        ["animations"] = {["jelly"] = true},
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Jelly Axolotl",
+        ["_script"] = "Jelly Axolotl",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 147",
+            ["faceTopLeftPixel"] = "57, 16",
+            ["imageSize"] = "250, 192"
+        },
+        ["thumbnail"] = "rbxassetid://16483035003",
+        ["weld"] = true
     },
     ["Blue Lucky Block"] = {
         ["exclusiveLevel"] = 3,
@@ -9205,6 +10825,25 @@ data = {
         ["indexDesc"] = "Found in the Lucky Block Merch!",
         ["thumbnail"] = "rbxassetid://14976576861",
         ["_script"] = "Huge White Tiger"
+    },
+    ["Evil Bat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 167",
+            ["faceTopLeftPixel"] = "92, 55",
+            ["imageSize"] = "250, 201"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18256797746",
+        ["_id"] = "Evil Bat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {10495834125259},
+        ["name"] = "Evil Bat",
+        ["zoneNumber"] = 218.2,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 218.2,
+        ["thumbnail"] = "rbxassetid://18256797857",
+        ["_script"] = "Evil Bat"
     },
     ["Zebra"] = {
         ["iconSettings"] = {
@@ -9258,6 +10897,25 @@ data = {
         },
         ["thumbnail"] = "rbxassetid://14968284378",
         ["hideSerial"] = true
+    },
+    ["Devil Agony"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "214, 150",
+            ["faceTopLeftPixel"] = "121, 65",
+            ["imageSize"] = "250, 175"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18256797088",
+        ["_id"] = "Devil Agony",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11263821988083},
+        ["name"] = "Devil Agony",
+        ["zoneNumber"] = 218.8,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 218.8,
+        ["thumbnail"] = "rbxassetid://18256797251",
+        ["_script"] = "Devil Agony"
     },
     ["Sketch Cat"] = {
         ["exclusiveLevel"] = 3,
@@ -9422,43 +11080,60 @@ data = {
         ["thumbnail"] = "rbxassetid://16746707153",
         ["_script"] = "Bat Cat"
     },
-    ["Treasure Turtle"] = {
+    ["Pastel Angel Cow"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "67, 10",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "196, 131",
+            ["faceTopLeftPixel"] = "99, 43",
+            ["imageSize"] = "250, 157"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556250992",
-        ["_id"] = "Treasure Turtle",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 217,
+        ["goldenThumbnail"] = "rbxassetid://18882341379",
+        ["_id"] = "Pastel Angel Cow",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11127635805365},
-        ["name"] = "Treasure Turtle",
-        ["zoneNumber"] = 218.6936028632922,
-        ["cachedZoneNumber"] = 218.6936028632922,
-        ["_script"] = "Treasure Turtle",
-        ["thumbnail"] = "rbxassetid://18556251133",
-        ["fromEgg"] = "Established Egg"
+        ["name"] = "Pastel Angel Cow",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18882341187",
+        ["_script"] = "Pastel Angel Cow"
     },
-    ["Humble Rabbit"] = {
+    ["Plague Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "174, 217",
-            ["faceTopLeftPixel"] = "49, 103",
-            ["imageSize"] = "180, 250"
+            ["faceBottomRightPixel"] = "218, 182",
+            ["faceTopLeftPixel"] = "89, 67",
+            ["imageSize"] = "250, 222"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556249893",
-        ["_id"] = "Humble Rabbit",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 215,
+        ["goldenThumbnail"] = "rbxassetid://17374943172",
+        ["_id"] = "Plague Dragon",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8244991420763},
-        ["name"] = "Humble Rabbit",
-        ["zoneNumber"] = 216.1525251416353,
-        ["cachedZoneNumber"] = 216.1525251416353,
-        ["_script"] = "Humble Rabbit",
-        ["thumbnail"] = "rbxassetid://18556249987",
-        ["fromEgg"] = "Growing Egg"
+        ["cachedPower"] = {1574881081107},
+        ["name"] = "Plague Dragon",
+        ["zoneNumber"] = 202.1,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 202.1,
+        ["thumbnail"] = "rbxassetid://17374942910",
+        ["_script"] = "Plague Dragon"
+    },
+    ["Black Hole Angelus"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "202, 158",
+            ["faceTopLeftPixel"] = "85, 53",
+            ["imageSize"] = "232, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17276416269",
+        ["_id"] = "Black Hole Angelus",
+        ["animations"] = {["spinZ"] = true},
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
+        ["cachedZoneNumber"] = 202.12580075976186,
+        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
+        ["cachedPower"] = {1579897516716},
+        ["name"] = "Black Hole Angelus",
+        ["zoneNumber"] = 202.12580075976186,
+        ["fly"] = true,
+        ["_script"] = "Black Hole Angelus",
+        ["thumbnail"] = "rbxassetid://17276416395",
+        ["fromEgg"] = "Void Spiral Egg"
     },
     ["Warrior Wolf"] = {
         ["iconSettings"] = {
@@ -9479,32 +11154,23 @@ data = {
         ["thumbnail"] = "rbxassetid://18256799617",
         ["_script"] = "Warrior Wolf"
     },
-    ["Pristine Poodle"] = {
+    ["Sage Axolotl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 190",
-            ["faceTopLeftPixel"] = "68, 58",
-            ["imageSize"] = "250, 230"
+            ["faceBottomRightPixel"] = "202, 177",
+            ["faceTopLeftPixel"] = "101, 86",
+            ["imageSize"] = "250, 208"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556250595",
-        ["_id"] = "Pristine Poodle",
-        ["animations"] = {
-            ["vertexColorAnim"] = {
-                {["Time"] = 0, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.100000023841858)},
-                {["Time"] = 0.5, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.5)},
-                {["Time"] = 1, ["Value"] = Vector3.new(1.100000023841858, 1.100000023841858, 1.100000023841858)}
-            },
-            ["vertexColorAnimSpeed"] = 0.5
-        },
+        ["goldenThumbnail"] = "rbxassetid://18256799049",
+        ["_id"] = "Sage Axolotl",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 217,
+        ["fromZoneNumber"] = 214,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {10437990065210},
-        ["name"] = "Pristine Poodle",
-        ["zoneNumber"] = 218.15480861389918,
-        ["cachedZoneNumber"] = 218.15480861389918,
-        ["_script"] = "Pristine Poodle",
-        ["thumbnail"] = "rbxassetid://18556250696",
-        ["fromEgg"] = "Established Egg"
+        ["cachedPower"] = {11263821988083},
+        ["name"] = "Sage Axolotl",
+        ["zoneNumber"] = 218.8,
+        ["cachedZoneNumber"] = 218.8,
+        ["thumbnail"] = "rbxassetid://18256799375",
+        ["_script"] = "Sage Axolotl"
     },
     ["Doodle Ugly Duckling"] = {
         ["iconSettings"] = {
@@ -9601,16 +11267,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14976557966",
         ["hideSerial"] = true
     },
-    ["Huge Painted Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976507026",
-        ["_id"] = "Huge Painted Cat",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Painted Cat",
-        ["indexDesc"] = "Earned from the 2023 Easter Event in PSX!",
-        ["thumbnail"] = "rbxassetid://14976507206",
-        ["_script"] = "Huge Painted Cat"
+    ["Robot Bee"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "213, 207",
+            ["faceTopLeftPixel"] = "61, 69",
+            ["imageSize"] = "221, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16747972888",
+        ["_id"] = "Robot Bee",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 146,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {2435937601},
+        ["name"] = "Robot Bee",
+        ["zoneNumber"] = 147.1525251416353,
+        ["cachedZoneNumber"] = 147.1525251416353,
+        ["_script"] = "Robot Bee",
+        ["thumbnail"] = "rbxassetid://16747972982",
+        ["fromEgg"] = "Tech Hive Egg"
     },
     ["Forcefield Bunny"] = {
         ["exclusiveLevel"] = 2,
@@ -9638,44 +11312,38 @@ data = {
         ["thumbnail"] = "rbxassetid://15260480028",
         ["_script"] = "Huge Sleipnir"
     },
-    ["Fortress Owl"] = {
+    ["Angel Seal"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 211",
-            ["faceTopLeftPixel"] = "57, 78",
-            ["imageSize"] = "214, 250"
+            ["faceBottomRightPixel"] = "196, 127",
+            ["faceTopLeftPixel"] = "98, 40",
+            ["imageSize"] = "250, 145"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556249416",
-        ["_id"] = "Fortress Owl",
+        ["goldenThumbnail"] = "rbxassetid://18151022013",
+        ["_id"] = "Angel Seal",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 216,
-        ["cachedZoneNumber"] = 217.15480861389918,
+        ["fromZoneNumber"] = 214,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9278213391298},
-        ["name"] = "Fortress Owl",
-        ["zoneNumber"] = 217.15480861389918,
+        ["cachedPower"] = {8899809965893},
+        ["name"] = "Angel Seal",
+        ["zoneNumber"] = 216.8,
         ["fly"] = true,
-        ["_script"] = "Fortress Owl",
-        ["thumbnail"] = "rbxassetid://18556249535",
-        ["fromEgg"] = "Sturdy Egg"
+        ["cachedZoneNumber"] = 216.8,
+        ["thumbnail"] = "rbxassetid://18151022248",
+        ["_script"] = "Angel Seal"
     },
-    ["Fortress Dog"] = {
+    ["Flex Tiger"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 197",
-            ["faceTopLeftPixel"] = "69, 40",
-            ["imageSize"] = "250, 244"
+            ["faceBottomRightPixel"] = "196, 136",
+            ["faceTopLeftPixel"] = "92, 40",
+            ["imageSize"] = "250, 171"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556249185",
-        ["_id"] = "Fortress Dog",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 215,
+        ["_script"] = "Flex Tiger",
+        ["name"] = "Flex Tiger",
+        ["_id"] = "Flex Tiger",
+        ["exclusiveLevel"] = 3,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8789864520766},
-        ["name"] = "Fortress Dog",
-        ["zoneNumber"] = 216.6912875757093,
-        ["cachedZoneNumber"] = 216.6912875757093,
-        ["_script"] = "Fortress Dog",
-        ["thumbnail"] = "rbxassetid://18556249292",
-        ["fromEgg"] = "Growing Egg"
+        ["thumbnail"] = "rbxassetid://18127449266",
+        ["goldenThumbnail"] = "rbxassetid://18127449266"
     },
     ["Goober"] = {
         ["exclusiveLevel"] = 3,
@@ -9692,41 +11360,37 @@ data = {
             ["imageSize"] = "250, 188"
         }
     },
-    ["Luxe Axolotl"] = {
+    ["Flex Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 161",
-            ["faceTopLeftPixel"] = "107, 62",
-            ["imageSize"] = "250, 192"
+            ["faceBottomRightPixel"] = "197, 147",
+            ["faceTopLeftPixel"] = "91, 54",
+            ["imageSize"] = "250, 182"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556250074",
-        ["_id"] = "Luxe Axolotl",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 219,
-        ["cachedZoneNumber"] = 221.64910754401694,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
-        ["name"] = "Luxe Axolotl",
-        ["zoneNumber"] = 221.64910754401694,
-        ["cachedPower"] = {15762749386615},
-        ["_script"] = "Luxe Axolotl",
-        ["thumbnail"] = "rbxassetid://18556250211",
-        ["fromEgg"] = "Luxe Egg"
-    },
-    ["Valkyrie Dragon"] = {
+        ["_script"] = "Flex Bear",
+        ["name"] = "Flex Bear",
+        ["_id"] = "Flex Bear",
         ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://18464815436",
-        ["_id"] = "Valkyrie Dragon",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["_script"] = "Valkyrie Dragon",
-        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://18127448624",
+        ["goldenThumbnail"] = "rbxassetid://18127448624"
+    },
+    ["Demon Serpents"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 159",
-            ["faceTopLeftPixel"] = "107, 72",
-            ["imageSize"] = "250, 185"
+            ["faceBottomRightPixel"] = "204, 202",
+            ["faceTopLeftPixel"] = "111, 117",
+            ["imageSize"] = "250, 217"
         },
-        ["thumbnail"] = "rbxassetid://18464815436",
-        ["name"] = "Valkyrie Dragon"
+        ["goldenThumbnail"] = "rbxassetid://18151025807",
+        ["_id"] = "Demon Serpents",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9784734252274},
+        ["name"] = "Demon Serpents",
+        ["zoneNumber"] = 217.6,
+        ["cachedZoneNumber"] = 217.6,
+        ["thumbnail"] = "rbxassetid://18151025964",
+        ["_script"] = "Demon Serpents"
     },
     ["Pink Marshmallow Chick"] = {
         ["iconSettings"] = {
@@ -9747,60 +11411,64 @@ data = {
         ["thumbnail"] = "rbxassetid://14968302868",
         ["fromEgg"] = "Sweets Egg"
     },
-    ["Humble Hen"] = {
+    ["Arcane Pyro Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "234, 206",
-            ["faceTopLeftPixel"] = "70, 58",
-            ["imageSize"] = "242, 250"
+            ["faceBottomRightPixel"] = "181, 96",
+            ["faceTopLeftPixel"] = "117, 37",
+            ["imageSize"] = "250, 114"
         },
-        ["goldenThumbnail"] = "rbxassetid://18556249642",
-        ["_id"] = "Humble Hen",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 215,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {7197630118855},
-        ["name"] = "Humble Hen",
-        ["zoneNumber"] = 215.0065235605867,
-        ["cachedZoneNumber"] = 215.0065235605867,
-        ["_script"] = "Humble Hen",
-        ["thumbnail"] = "rbxassetid://18556249774",
-        ["fromEgg"] = "Growing Egg"
-    },
-    ["Diamond Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 151",
-            ["faceTopLeftPixel"] = "98, 51",
-            ["imageSize"] = "250, 181"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18556248780",
-        ["_id"] = "Diamond Dragon",
-        ["cachedZoneNumber"] = 219.6936028632922,
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 218,
-        ["cachedPower"] = {12518590281036},
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
-        ["name"] = "Diamond Dragon",
-        ["zoneNumber"] = 219.6936028632922,
-        ["fly"] = true,
-        ["_script"] = "Diamond Dragon",
-        ["thumbnail"] = "rbxassetid://18556248893",
-        ["fromEgg"] = "Elegant Egg"
-    },
-    ["Party Crown Elephant"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968296409",
-        ["_id"] = "Party Crown Elephant",
+        ["goldenThumbnail"] = "rbxassetid://18977984776",
+        ["_id"] = "Arcane Pyro Cat",
         ["hidden"] = true,
+        ["_script"] = "Arcane Pyro Cat",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Party Crown Elephant",
-        ["_script"] = "Party Crown Elephant",
-        ["thumbnail"] = "rbxassetid://14968296547",
+        ["weld"] = true,
+        ["name"] = "Arcane Pyro Cat",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977984967",
+        ["preventFuseMachine"] = true
+    },
+    ["Blurred Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 176",
-            ["faceTopLeftPixel"] = "64, 53",
-            ["imageSize"] = "250, 214"
-        }
+            ["faceBottomRightPixel"] = "205, 200",
+            ["faceTopLeftPixel"] = "59, 67",
+            ["imageSize"] = "250, 240"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977984033",
+        ["_id"] = "Blurred Monkey",
+        ["cachedZoneNumber"] = 221.1875,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Blurred Monkey",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {14921482932905},
+        ["name"] = "Blurred Monkey",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 221.1875,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977984197",
+        ["preventFuseMachine"] = true
+    },
+    ["Evil Imp"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "188, 165",
+            ["faceTopLeftPixel"] = "63, 51",
+            ["imageSize"] = "250, 199"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18127446978",
+        ["_id"] = "Evil Imp",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9329630333564},
+        ["name"] = "Evil Imp",
+        ["zoneNumber"] = 217.2,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 217.2,
+        ["thumbnail"] = "rbxassetid://18127447146",
+        ["_script"] = "Evil Imp"
     },
     ["Titanic Sock Monkey"] = {
         ["titanic"] = true,
@@ -9824,21 +11492,23 @@ data = {
         ["thumbnail"] = "rbxassetid://14976485216",
         ["_script"] = "Huge Lucky Cat"
     },
-    ["Balloon Axolotl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968178373",
-        ["_id"] = "Balloon Axolotl",
-        ["animations"] = {["balloon"] = true},
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Balloon Axolotl",
-        ["fly"] = true,
-        ["_script"] = "Balloon Axolotl",
-        ["thumbnail"] = "rbxassetid://14968178558",
+    ["Evil Deer"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "192, 138",
-            ["faceTopLeftPixel"] = "73, 28",
-            ["imageSize"] = "250, 193"
-        }
+            ["faceBottomRightPixel"] = "210, 215",
+            ["faceTopLeftPixel"] = "94, 112",
+            ["imageSize"] = "235, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18127447670",
+        ["_id"] = "Evil Deer",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 214,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9557182292919},
+        ["name"] = "Evil Deer",
+        ["zoneNumber"] = 217.4,
+        ["cachedZoneNumber"] = 217.4,
+        ["thumbnail"] = "rbxassetid://18127447880",
+        ["_script"] = "Evil Deer"
     },
     ["Easter Axolotl"] = {
         ["iconSettings"] = {
@@ -9933,24 +11603,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968350214",
         ["fromEgg"] = "Summer Beachball Egg"
     },
-    ["Rave Axolotl"] = {
+    ["Heavenly Dove"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 142",
-            ["faceTopLeftPixel"] = "58, 9",
-            ["imageSize"] = "250, 184"
+            ["faceBottomRightPixel"] = "204, 148",
+            ["faceTopLeftPixel"] = "94, 47",
+            ["imageSize"] = "250, 179"
         },
-        ["goldenThumbnail"] = "rbxassetid://18447213002",
-        ["_id"] = "Rave Axolotl",
+        ["goldenThumbnail"] = "rbxassetid://18151024934",
+        ["_id"] = "Heavenly Dove",
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {12239806563755},
-        ["name"] = "Rave Axolotl",
-        ["zoneNumber"] = 219.5,
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedZoneNumber"] = 219.5,
-        ["thumbnail"] = "rbxassetid://18447212767",
-        ["_script"] = "Rave Axolotl"
+        ["cachedPower"] = {9102078374209},
+        ["name"] = "Heavenly Dove",
+        ["zoneNumber"] = 217,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 217,
+        ["thumbnail"] = "rbxassetid://18151025112",
+        ["_script"] = "Heavenly Dove"
     },
     ["Cyberpunk Lemur"] = {
         ["iconSettings"] = {
@@ -9990,26 +11660,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14968271702",
         ["fromEgg"] = "Pumpkin Egg"
     },
-    ["Disco Ball Dragon"] = {
+    ["Balloon Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 185",
-            ["faceTopLeftPixel"] = "89, 67",
-            ["imageSize"] = "250, 220"
+            ["faceBottomRightPixel"] = "198, 197",
+            ["faceTopLeftPixel"] = "62, 71",
+            ["imageSize"] = "207, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18447213533",
-        ["_id"] = "Disco Ball Dragon",
-        ["cachedZoneNumber"] = 220.4,
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["cachedPower"] = {13607784944410},
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
-        ["name"] = "Disco Ball Dragon",
-        ["zoneNumber"] = 220.4,
+        ["goldenThumbnail"] = "rbxassetid://14968178657",
+        ["_id"] = "Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Balloon Cat",
         ["fly"] = true,
-        ["_script"] = "Disco Ball Dragon",
-        ["thumbnail"] = "rbxassetid://18447213231",
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!"
+        ["thumbnail"] = "rbxassetid://14968178733",
+        ["_script"] = "Balloon Cat"
     },
     ["Cyborg Mortuus"] = {
         ["iconSettings"] = {
@@ -10025,25 +11690,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14968205519",
         ["goldenThumbnail"] = "rbxassetid://14968205450"
     },
-    ["Rave Jaguar"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "63, 61",
-            ["imageSize"] = "231, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18447211542",
-        ["_id"] = "Rave Jaguar",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["cachedZoneNumber"] = 219.8,
+    ["Rainbow Swirl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://17825124339",
+        ["_id"] = "Rainbow Swirl",
+        ["preventGolden"] = true,
+        ["secret"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["isFromLastZone"] = true,
-        ["name"] = "Rave Jaguar",
-        ["zoneNumber"] = 219.8,
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedPower"] = {12671799736594},
-        ["thumbnail"] = "rbxassetid://18447211319",
-        ["_script"] = "Rave Jaguar"
+        ["name"] = "Rainbow Swirl",
+        ["_script"] = "Rainbow Swirl",
+        ["thumbnail"] = "rbxassetid://17825124339",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 184",
+            ["faceTopLeftPixel"] = "70, 56",
+            ["imageSize"] = "250, 217"
+        }
     },
     ["Pinata Cat"] = {
         ["iconSettings"] = {
@@ -10059,43 +11720,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968301921",
         ["goldenThumbnail"] = "rbxassetid://14968301773"
     },
-    ["Rave Cat"] = {
+    ["Puffin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 208",
-            ["faceTopLeftPixel"] = "62, 67",
-            ["imageSize"] = "236, 250"
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 216"
         },
-        ["goldenThumbnail"] = "rbxassetid://18447211927",
-        ["_id"] = "Rave Cat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["goldenThumbnail"] = "rbxassetid://14968313800",
+        ["_id"] = "Puffin",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 38,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11951811115196},
-        ["name"] = "Rave Cat",
-        ["zoneNumber"] = 219.3,
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedZoneNumber"] = 219.3,
-        ["thumbnail"] = "rbxassetid://18447211749",
-        ["_script"] = "Rave Cat"
+        ["cachedPower"] = {6677},
+        ["name"] = "Puffin",
+        ["zoneNumber"] = 38.41035292468697,
+        ["cachedZoneNumber"] = 38.41035292468697,
+        ["_script"] = "Puffin",
+        ["thumbnail"] = "rbxassetid://14968313879",
+        ["fromEgg"] = "Icicle Egg"
     },
-    ["Rave Troll"] = {
+    ["Virus Griffin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "193, 151",
-            ["faceTopLeftPixel"] = "68, 38",
-            ["imageSize"] = "250, 185"
+            ["faceBottomRightPixel"] = "218, 182",
+            ["faceTopLeftPixel"] = "89, 67",
+            ["imageSize"] = "250, 222"
         },
-        ["goldenThumbnail"] = "rbxassetid://18351497548",
-        ["_id"] = "Rave Troll",
+        ["goldenThumbnail"] = "rbxassetid://17825046728",
+        ["_id"] = "Virus Griffin",
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9898510231952},
-        ["name"] = "Rave Troll",
-        ["zoneNumber"] = 217.7,
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedZoneNumber"] = 217.7,
-        ["thumbnail"] = "rbxassetid://18351497686",
-        ["_script"] = "Rave Troll"
+        ["cachedPower"] = {10239838170985},
+        ["name"] = "Virus Griffin",
+        ["zoneNumber"] = 218,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 218,
+        ["thumbnail"] = "rbxassetid://17825046852",
+        ["_script"] = "Virus Griffin"
     },
     ["Huge Sage Axolotl"] = {
         ["goldenThumbnail"] = "rbxassetid://18256895564",
@@ -10108,60 +11769,43 @@ data = {
         ["thumbnail"] = "rbxassetid://18256895424",
         ["_script"] = "Huge Sage Axolotl"
     },
-    ["Rave Meebo in a Spaceship"] = {
+    ["Hacker Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "175, 130",
-            ["faceTopLeftPixel"] = "94, 53",
-            ["imageSize"] = "250, 175"
+            ["faceBottomRightPixel"] = "208, 208",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "247, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18351496779",
-        ["_id"] = "Rave Meebo in a Spaceship",
+        ["goldenThumbnail"] = "rbxassetid://17774385014",
+        ["_id"] = "Hacker Bear",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["cachedZoneNumber"] = 219.1,
+        ["fromZoneNumber"] = 212,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11663815666637},
-        ["name"] = "Rave Meebo in a Spaceship",
-        ["zoneNumber"] = 219.1,
-        ["fly"] = true,
-        ["_script"] = "Rave Meebo in a Spaceship",
-        ["thumbnail"] = "rbxassetid://18351497185",
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!"
+        ["cachedPower"] = {5792181445408},
+        ["name"] = "Hacker Bear",
+        ["zoneNumber"] = 213.1545812475089,
+        ["cachedZoneNumber"] = 213.1545812475089,
+        ["_script"] = "Hacker Bear",
+        ["thumbnail"] = "rbxassetid://17774385235",
+        ["fromEgg"] = "Hacker Crystal Egg"
     },
-    ["UV Cat"] = {
+    ["Hooded Piggy"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 208",
-            ["faceTopLeftPixel"] = "63, 62",
-            ["imageSize"] = "228, 250"
+            ["faceBottomRightPixel"] = "241, 186",
+            ["faceTopLeftPixel"] = "68, 29",
+            ["imageSize"] = "250, 234"
         },
-        ["goldenThumbnail"] = "rbxassetid://18351497816",
-        ["_id"] = "UV Cat",
-        ["animations"] = {
-            ["vertexColorAnim"] = {
-                {["Time"] = 0, ["Value"] = Vector3.new(1.7999999523162842, 1, 1)},
-                {["Time"] = 0.1, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.2, ["Value"] = Vector3.new(1.399999976158142, 1, 1.7999999523162842)},
-                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.4, ["Value"] = Vector3.new(1.7999999523162842, 1.100000023841858, 1.600000023841858)},
-                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.6, ["Value"] = Vector3.new(1.7999999523162842, 1.7999999523162842, 1)},
-                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.8, ["Value"] = Vector3.new(1.399999976158142, 1.7999999523162842, 1)},
-                {["Time"] = 0.9, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 1, ["Value"] = Vector3.new(1.7999999523162842, 1, 1)}
-            },
-            ["vertexColorAnimSpeed"] = 0.075
-        },
+        ["goldenThumbnail"] = "rbxassetid://17774385358",
+        ["_id"] = "Hooded Piggy",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 210,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8596407353419},
-        ["name"] = "UV Cat",
-        ["zoneNumber"] = 216.5,
-        ["indexDesc"] = "Hatched from the Lucky Tile Event!",
-        ["cachedZoneNumber"] = 216.5,
-        ["thumbnail"] = "rbxassetid://18351497965",
-        ["_script"] = "UV Cat"
+        ["cachedPower"] = {4576538426002},
+        ["name"] = "Hooded Piggy",
+        ["zoneNumber"] = 211.1545812475089,
+        ["cachedZoneNumber"] = 211.1545812475089,
+        ["_script"] = "Hooded Piggy",
+        ["thumbnail"] = "rbxassetid://17774385487",
+        ["fromEgg"] = "Hacker Circuit Egg"
     },
     ["Relic Agony"] = {
         ["iconSettings"] = {
@@ -10215,43 +11859,36 @@ data = {
         ["thumbnail"] = "rbxassetid://14968318336",
         ["goldenThumbnail"] = "rbxassetid://14968318248"
     },
-    ["Rave Corgi"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 210",
-            ["faceTopLeftPixel"] = "57, 79",
-            ["imageSize"] = "210, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18351496480",
-        ["_id"] = "Rave Corgi",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+    ["Blazing Bat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://17749016378",
+        ["_id"] = "Blazing Bat",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9000944170051},
-        ["name"] = "Rave Corgi",
-        ["zoneNumber"] = 216.9,
-        ["indexDesc"] = "Hatched from eggs in the Lucky Tile Event!",
-        ["cachedZoneNumber"] = 216.9,
-        ["thumbnail"] = "rbxassetid://18351496648",
-        ["_script"] = "Rave Corgi"
+        ["name"] = "Blazing Bat",
+        ["fly"] = true,
+        ["_script"] = "Blazing Bat",
+        ["thumbnail"] = "rbxassetid://17749016455",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "208, 186",
+            ["faceTopLeftPixel"] = "94, 90",
+            ["imageSize"] = "250, 217"
+        }
     },
-    ["Werewolf"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 207",
-            ["faceTopLeftPixel"] = "73, 75",
-            ["imageSize"] = "250, 247"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968358254",
-        ["_id"] = "Werewolf",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 75,
+    ["Tropical Parrot"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://18644344488",
+        ["_id"] = "Tropical Parrot",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {545465},
-        ["name"] = "Werewolf",
-        ["zoneNumber"] = 75.79781425904602,
-        ["cachedZoneNumber"] = 75.79781425904602,
-        ["_script"] = "Werewolf",
-        ["thumbnail"] = "rbxassetid://14968358411",
-        ["fromEgg"] = "Eerie Egg"
+        ["name"] = "Tropical Parrot",
+        ["_script"] = "Tropical Parrot",
+        ["fly"] = true,
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "213, 119",
+            ["faceTopLeftPixel"] = "91, 7",
+            ["imageSize"] = "250, 152"
+        },
+        ["thumbnail"] = "rbxassetid://18644344647",
+        ["hideSerial"] = true
     },
     ["Huge Giraffe"] = {
         ["goldenThumbnail"] = "rbxassetid://14976442477",
@@ -10313,19 +11950,25 @@ data = {
         ["thumbnail"] = "rbxassetid://16471607419",
         ["fromEgg"] = "Tech Snow Egg"
     },
-    ["Stacked Cat"] = {
+    ["Empyrean Axolotl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "189, 213",
-            ["faceTopLeftPixel"] = "54, 91",
-            ["imageSize"] = "196, 250"
+            ["faceBottomRightPixel"] = "217, 152",
+            ["faceTopLeftPixel"] = "104, 50",
+            ["imageSize"] = "250, 185"
         },
-        ["_script"] = "Stacked Cat",
-        ["name"] = "Stacked Cat",
-        ["_id"] = "Stacked Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968338038",
-        ["goldenThumbnail"] = "rbxassetid://14968337892"
+        ["goldenThumbnail"] = "rbxassetid://14968228607",
+        ["_id"] = "Empyrean Axolotl",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 97,
+        ["cachedZoneNumber"] = 97.51486267931344,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {7045723},
+        ["name"] = "Empyrean Axolotl",
+        ["zoneNumber"] = 97.51486267931344,
+        ["fly"] = true,
+        ["_script"] = "Empyrean Axolotl",
+        ["thumbnail"] = "rbxassetid://14968228755",
+        ["fromEgg"] = "Heaven Castle Egg"
     },
     ["Storm Wolf"] = {
         ["iconSettings"] = {
@@ -10399,49 +12042,63 @@ data = {
         ["thumbnail"] = "rbxassetid://17749018649",
         ["fromEgg"] = "Hacker Wireframe Egg"
     },
-    ["Good vs Evil Dragon"] = {
+    ["Hooded Bobcat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 187",
-            ["faceTopLeftPixel"] = "83, 76",
-            ["imageSize"] = "250, 221"
+            ["faceBottomRightPixel"] = "206, 210",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "214, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18256798226",
-        ["_id"] = "Good vs Evil Dragon",
+        ["goldenThumbnail"] = "rbxassetid://17749017735",
+        ["_id"] = "Hooded Bobcat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 210,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3993851426175},
+        ["name"] = "Hooded Bobcat",
+        ["zoneNumber"] = 210.00587819392337,
+        ["cachedZoneNumber"] = 210.00587819392337,
+        ["_script"] = "Hooded Bobcat",
+        ["thumbnail"] = "rbxassetid://17749017903",
+        ["fromEgg"] = "Hacker Circuit Egg"
+    },
+    ["Hacker Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 205",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "250, 245"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17749015754",
+        ["_id"] = "Hacker Axolotl",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 213,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {5686599705693},
+        ["name"] = "Hacker Axolotl",
+        ["zoneNumber"] = 213.00593692707918,
+        ["cachedZoneNumber"] = 213.00593692707918,
+        ["_script"] = "Hacker Axolotl",
+        ["thumbnail"] = "rbxassetid://17749015842",
+        ["fromEgg"] = "Hacker Electric Egg"
+    },
+    ["Hacked Computer"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "197, 129",
+            ["faceTopLeftPixel"] = "100, 41",
+            ["imageSize"] = "250, 168"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17749017298",
+        ["_id"] = "Hacked Computer",
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
+        ["cachedZoneNumber"] = 214.00000609036573,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11007826033809},
-        ["name"] = "Good vs Evil Dragon",
-        ["zoneNumber"] = 218.6,
+        ["cachedPower"] = {6392685425835},
+        ["name"] = "Hacked Computer",
+        ["zoneNumber"] = 214.00000609036573,
         ["fly"] = true,
-        ["cachedZoneNumber"] = 218.6,
-        ["thumbnail"] = "rbxassetid://18256798311",
-        ["_script"] = "Good vs Evil Dragon"
-    },
-    ["Titanic Strawberry Cow"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14977573985",
-        ["_id"] = "Titanic Strawberry Cow",
-        ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Strawberry Cow",
-        ["indexDesc"] = "Comes with the Titanic Strawberry Cow plush!",
-        ["thumbnail"] = "rbxassetid://14976827001",
-        ["_script"] = "Titanic Strawberry Cow"
-    },
-    ["Nightmare Bear"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 204",
-            ["faceTopLeftPixel"] = "64, 56",
-            ["imageSize"] = "237, 250"
-        },
-        ["_script"] = "Nightmare Bear",
-        ["name"] = "Nightmare Bear",
-        ["_id"] = "Nightmare Bear",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968289661",
-        ["goldenThumbnail"] = "rbxassetid://14968289559"
+        ["_script"] = "Hacked Computer",
+        ["thumbnail"] = "rbxassetid://17749017401",
+        ["fromEgg"] = "Hacker Secure Egg"
     },
     ["Relic Cyclops"] = {
         ["iconSettings"] = {
@@ -10560,34 +12217,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968217744",
         ["goldenThumbnail"] = "rbxassetid://14968217603"
     },
-    ["Abyssal Shark"] = {
+    ["Quantum Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 169",
-            ["faceTopLeftPixel"] = "100, 50",
-            ["imageSize"] = "250, 188"
+            ["faceBottomRightPixel"] = "216, 202",
+            ["faceTopLeftPixel"] = "62, 63",
+            ["imageSize"] = "250, 245"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471611544",
-        ["_id"] = "Abyssal Shark",
-        ["animations"] = {
-            ["vertexColorAnim"] = {
-                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.3, ["Value"] = Vector3.new(1.5, 1, 1.5)},
-                {["Time"] = 0.5, ["Value"] = Vector3.new(1.7999999523162842, 1, 1.7999999523162842)},
-                {["Time"] = 0.7, ["Value"] = Vector3.new(1.5, 1, 1.5)},
-                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
-            },
-            ["vertexColorAnimSpeed"] = 0.3
-        },
+        ["goldenThumbnail"] = "rbxassetid://17270074801",
+        ["_id"] = "Quantum Fox",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 113,
+        ["fromZoneNumber"] = 194,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {53262910},
-        ["name"] = "Abyssal Shark",
-        ["zoneNumber"] = 114.69128757570932,
-        ["cachedZoneNumber"] = 114.69128757570932,
-        ["_script"] = "Abyssal Shark",
-        ["thumbnail"] = "rbxassetid://16471611487",
-        ["fromEgg"] = "Tech Coral Egg"
+        ["cachedPower"] = {695003892085},
+        ["name"] = "Quantum Fox",
+        ["zoneNumber"] = 195.1525251416353,
+        ["cachedZoneNumber"] = 195.1525251416353,
+        ["_script"] = "Quantum Fox",
+        ["thumbnail"] = "rbxassetid://17270074857",
+        ["fromEgg"] = "Quantum Leafy Egg"
     },
     ["Chef Monkey"] = {
         ["iconSettings"] = {
@@ -10661,58 +12308,62 @@ data = {
         ["thumbnail"] = "rbxassetid://14968306539",
         ["fromEgg"] = "Dragon Egg"
     },
-    ["Devil Agony"] = {
+    ["Ender Bunny"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 150",
-            ["faceTopLeftPixel"] = "121, 65",
-            ["imageSize"] = "250, 175"
+            ["faceBottomRightPixel"] = "193, 213",
+            ["faceTopLeftPixel"] = "55, 87",
+            ["imageSize"] = "201, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18256797088",
-        ["_id"] = "Devil Agony",
+        ["goldenThumbnail"] = "rbxassetid://17450285097",
+        ["_id"] = "Ender Bunny",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1228988132186},
+        ["name"] = "Ender Bunny",
+        ["zoneNumber"] = 200,
+        ["cachedZoneNumber"] = 200,
+        ["thumbnail"] = "rbxassetid://17450285216",
+        ["_script"] = "Ender Bunny"
+    },
+    ["Hacked Skeleton"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 130",
+            ["faceTopLeftPixel"] = "81, 8",
+            ["imageSize"] = "250, 166"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17749017535",
+        ["_id"] = "Hacked Skeleton",
         ["fromWorldNumber"] = 3,
         ["fromZoneNumber"] = 214,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11263821988083},
-        ["name"] = "Devil Agony",
-        ["zoneNumber"] = 218.8,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 218.8,
-        ["thumbnail"] = "rbxassetid://18256797251",
-        ["_script"] = "Devil Agony"
+        ["cachedPower"] = {8747206079634},
+        ["name"] = "Hacked Skeleton",
+        ["zoneNumber"] = 216.64910754227037,
+        ["cachedZoneNumber"] = 216.64910754227037,
+        ["_script"] = "Hacked Skeleton",
+        ["thumbnail"] = "rbxassetid://17749017634",
+        ["fromEgg"] = "Hacker Secure Egg"
     },
-    ["Angel Pony"] = {
+    ["Sun Agony"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "195, 131",
-            ["faceTopLeftPixel"] = "99, 43",
-            ["imageSize"] = "250, 157"
+            ["faceBottomRightPixel"] = "197, 162",
+            ["faceTopLeftPixel"] = "106, 79",
+            ["imageSize"] = "250, 186"
         },
-        ["goldenThumbnail"] = "rbxassetid://18256796174",
-        ["_id"] = "Angel Pony",
+        ["goldenThumbnail"] = "rbxassetid://17671730557",
+        ["_id"] = "Sun Agony",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 209,
+        ["cachedZoneNumber"] = 212.1822601567647,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11007826033809},
-        ["name"] = "Angel Pony",
-        ["zoneNumber"] = 218.6,
+        ["cachedPower"] = {5166081524323},
+        ["name"] = "Sun Agony",
+        ["zoneNumber"] = 212.1822601567647,
         ["fly"] = true,
-        ["cachedZoneNumber"] = 218.6,
-        ["thumbnail"] = "rbxassetid://18256796372",
-        ["_script"] = "Angel Pony"
-    },
-    ["Stargazing Axolotl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Stargazing Axolotl",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["_script"] = "Stargazing Axolotl",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 142",
-            ["faceTopLeftPixel"] = "57, 8",
-            ["imageSize"] = "250, 183"
-        },
-        ["thumbnail"] = "rbxassetid://17603089445",
-        ["name"] = "Stargazing Axolotl"
+        ["_script"] = "Sun Agony",
+        ["thumbnail"] = "rbxassetid://17671730343",
+        ["fromEgg"] = "Summer Sun Egg"
     },
     ["Huge Party Crown Ducky"] = {
         ["goldenThumbnail"] = "rbxassetid://14976509358",
@@ -10737,126 +12388,110 @@ data = {
         ["thumbnail"] = "rbxassetid://14976361583",
         ["_script"] = "Huge Beans Balloon Cat"
     },
-    ["Prison Monkey"] = {
+    ["Flower Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 201",
-            ["faceTopLeftPixel"] = "58, 67",
-            ["imageSize"] = "250, 240"
+            ["faceBottomRightPixel"] = "197, 190",
+            ["faceTopLeftPixel"] = "65, 70",
+            ["imageSize"] = "250, 226"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512184150",
-        ["_id"] = "Prison Monkey",
+        ["goldenThumbnail"] = "rbxassetid://17673257243",
+        ["_id"] = "Flower Cat",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 200,
+        ["fromZoneNumber"] = 207,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1329672284513},
-        ["name"] = "Prison Monkey",
-        ["zoneNumber"] = 200.65539544078774,
-        ["cachedZoneNumber"] = 200.65539544078774,
-        ["_script"] = "Prison Monkey",
-        ["thumbnail"] = "rbxassetid://17512183910",
-        ["fromEgg"] = "Rusty Egg"
+        ["cachedPower"] = {3340982138194},
+        ["name"] = "Flower Cat",
+        ["zoneNumber"] = 208.47610390860547,
+        ["cachedZoneNumber"] = 208.47610390860547,
+        ["_script"] = "Flower Cat",
+        ["thumbnail"] = "rbxassetid://17671731182",
+        ["fromEgg"] = "Summer Melon Egg"
     },
-    ["Sage Axolotl"] = {
+    ["Pineapple Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 177",
-            ["faceTopLeftPixel"] = "101, 86",
-            ["imageSize"] = "250, 208"
+            ["faceBottomRightPixel"] = "181, 215",
+            ["faceTopLeftPixel"] = "51, 99",
+            ["imageSize"] = "220, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18256799049",
-        ["_id"] = "Sage Axolotl",
+        ["goldenThumbnail"] = "rbxassetid://17673257117",
+        ["_id"] = "Pineapple Monkey",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 209,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {11263821988083},
-        ["name"] = "Sage Axolotl",
-        ["zoneNumber"] = 218.8,
-        ["cachedZoneNumber"] = 218.8,
-        ["thumbnail"] = "rbxassetid://18256799375",
-        ["_script"] = "Sage Axolotl"
+        ["cachedPower"] = {4853191381696},
+        ["name"] = "Pineapple Monkey",
+        ["zoneNumber"] = 211.64752783608222,
+        ["cachedZoneNumber"] = 211.64752783608222,
+        ["_script"] = "Pineapple Monkey",
+        ["thumbnail"] = "rbxassetid://17673256954",
+        ["fromEgg"] = "Summer Sun Egg"
     },
-    ["Shadow Kraken"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 136",
-            ["faceTopLeftPixel"] = "98, 48",
-            ["imageSize"] = "250, 156"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17270075615",
-        ["_id"] = "Shadow Kraken",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 181,
+    ["Huge Raptor"] = {
+        ["goldenThumbnail"] = "rbxassetid://18758705217",
+        ["_id"] = "Huge Raptor",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {150311502539},
-        ["name"] = "Shadow Kraken",
-        ["zoneNumber"] = 182.15229558790114,
-        ["cachedZoneNumber"] = 182.15229558790114,
-        ["_script"] = "Shadow Kraken",
-        ["thumbnail"] = "rbxassetid://17270075776",
-        ["fromEgg"] = "Dark Tech Relic Egg"
+        ["name"] = "Huge Raptor",
+        ["indexDesc"] = "Earned from the Dino Tycoon's secret lab rooms!",
+        ["thumbnail"] = "rbxassetid://18758705093",
+        ["_script"] = "Huge Raptor"
     },
-    ["Angel Seal"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 127",
-            ["faceTopLeftPixel"] = "98, 40",
-            ["imageSize"] = "250, 145"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18151022013",
-        ["_id"] = "Angel Seal",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8899809965893},
-        ["name"] = "Angel Seal",
-        ["zoneNumber"] = 216.8,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 216.8,
-        ["thumbnail"] = "rbxassetid://18151022248",
-        ["_script"] = "Angel Seal"
-    },
-    ["Flex Tiger"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 136",
-            ["faceTopLeftPixel"] = "92, 40",
-            ["imageSize"] = "250, 171"
-        },
-        ["_script"] = "Flex Tiger",
-        ["name"] = "Flex Tiger",
-        ["_id"] = "Flex Tiger",
+    ["Stargazing Axolotl"] = {
         ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Stargazing Axolotl",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://18127449266",
-        ["goldenThumbnail"] = "rbxassetid://18127449266"
-    },
-    ["Flex Bear"] = {
+        ["weld"] = true,
+        ["_script"] = "Stargazing Axolotl",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 147",
-            ["faceTopLeftPixel"] = "91, 54",
-            ["imageSize"] = "250, 182"
+            ["faceBottomRightPixel"] = "205, 142",
+            ["faceTopLeftPixel"] = "57, 8",
+            ["imageSize"] = "250, 183"
         },
-        ["_script"] = "Flex Bear",
-        ["name"] = "Flex Bear",
-        ["_id"] = "Flex Bear",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://18127448624",
-        ["goldenThumbnail"] = "rbxassetid://18127448624"
+        ["thumbnail"] = "rbxassetid://17603089445",
+        ["name"] = "Stargazing Axolotl"
     },
-    ["Demon Serpents"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 202",
-            ["faceTopLeftPixel"] = "111, 117",
-            ["imageSize"] = "250, 217"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18151025807",
-        ["_id"] = "Demon Serpents",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+    ["Huge Hell Rock"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976455275",
+        ["_id"] = "Huge Hell Rock",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9784734252274},
-        ["name"] = "Demon Serpents",
-        ["zoneNumber"] = 217.6,
-        ["cachedZoneNumber"] = 217.6,
-        ["thumbnail"] = "rbxassetid://18151025964",
-        ["_script"] = "Demon Serpents"
+        ["name"] = "Huge Hell Rock",
+        ["indexDesc"] = "Earned from the limited-time Hell Rock Event in PSX!",
+        ["thumbnail"] = "rbxassetid://14976455394",
+        ["_script"] = "Huge Hell Rock"
+    },
+    ["Stargazing Bull"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Stargazing Bull",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["_script"] = "Stargazing Bull",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 153",
+            ["faceTopLeftPixel"] = "71, 33",
+            ["imageSize"] = "250, 190"
+        },
+        ["thumbnail"] = "rbxassetid://17602385308",
+        ["name"] = "Stargazing Bull"
+    },
+    ["Titanic Blazing Dragon"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://17749522423",
+        ["_id"] = "Titanic Blazing Dragon",
+        ["indexObtainable"] = true,
+        ["flyingTitanic"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Titanic Blazing Dragon",
+        ["flyingTitanicAlwaysFly"] = true,
+        ["fly"] = true,
+        ["_script"] = "Titanic Blazing Dragon",
+        ["thumbnail"] = "rbxassetid://17749522423",
+        ["indexDesc"] = "Found in the Exclusive Blazing Egg!"
     },
     ["Lovemelon"] = {
         ["exclusiveLevel"] = 3,
@@ -10928,35 +12563,35 @@ data = {
         ["hideSerial"] = true
     },
     ["Huge Three Headed Dragon"] = {
-        ["goldenThumbnail"] = "",
+        ["goldenThumbnail"] = "rbxassetid://14976567323",
         ["_id"] = "Huge Three Headed Dragon",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Huge Three Headed Dragon",
         ["fly"] = true,
         ["_script"] = "Huge Three Headed Dragon",
-        ["thumbnail"] = "",
-        ["indexDesc"] = "TODO"
+        ["thumbnail"] = "rbxassetid://14976567497",
+        ["indexDesc"] = "Comes with Series 3 Purple Dragon Collector Bundle!"
     },
-    ["Chimera"] = {
+    ["Prison Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "174, 221",
-            ["faceTopLeftPixel"] = "71, 129",
-            ["imageSize"] = "200, 250"
+            ["faceBottomRightPixel"] = "205, 201",
+            ["faceTopLeftPixel"] = "58, 67",
+            ["imageSize"] = "250, 240"
         },
-        ["goldenThumbnail"] = "rbxassetid://18151023001",
-        ["_id"] = "Chimera",
+        ["goldenThumbnail"] = "rbxassetid://17512184150",
+        ["_id"] = "Prison Monkey",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 200,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9102078374209},
-        ["name"] = "Chimera",
-        ["zoneNumber"] = 217,
-        ["cachedZoneNumber"] = 217,
-        ["thumbnail"] = "rbxassetid://18151023293",
-        ["_script"] = "Chimera"
+        ["cachedPower"] = {1329672284513},
+        ["name"] = "Prison Monkey",
+        ["zoneNumber"] = 200.65539544078774,
+        ["cachedZoneNumber"] = 200.65539544078774,
+        ["_script"] = "Prison Monkey",
+        ["thumbnail"] = "rbxassetid://17512183910",
+        ["fromEgg"] = "Rusty Egg"
     },
     ["Giraffe"] = {
         ["iconSettings"] = {
@@ -10977,43 +12612,39 @@ data = {
         ["thumbnail"] = "rbxassetid://14968247427",
         ["fromEgg"] = "Zebra Egg"
     },
-    ["Jaguar"] = {
+    ["Prince Donkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "64, 61",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "218, 211",
+            ["faceTopLeftPixel"] = "96, 101",
+            ["imageSize"] = "242, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968264925",
-        ["_id"] = "Jaguar",
+        ["goldenThumbnail"] = "rbxassetid://15565567105",
+        ["_id"] = "Prince Donkey",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 18,
+        ["fromZoneNumber"] = 58,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {725},
-        ["name"] = "Jaguar",
-        ["zoneNumber"] = 19.56634648546422,
-        ["cachedZoneNumber"] = 19.56634648546422,
-        ["_script"] = "Jaguar",
-        ["thumbnail"] = "rbxassetid://14968265120",
-        ["fromEgg"] = "Jungle Egg"
+        ["cachedPower"] = {67123},
+        ["name"] = "Prince Donkey",
+        ["zoneNumber"] = 58.0180711054307,
+        ["cachedZoneNumber"] = 58.0180711054307,
+        ["_script"] = "Prince Donkey",
+        ["thumbnail"] = "rbxassetid://15565567040",
+        ["fromEgg"] = "Royal Egg"
     },
-    ["Evil Imp"] = {
+    ["Lucki Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 165",
-            ["faceTopLeftPixel"] = "63, 51",
-            ["imageSize"] = "250, 199"
+            ["faceBottomRightPixel"] = "212, 142",
+            ["faceTopLeftPixel"] = "93, 34",
+            ["imageSize"] = "250, 176"
         },
-        ["goldenThumbnail"] = "rbxassetid://18127446978",
-        ["_id"] = "Evil Imp",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["goldenThumbnail"] = "rbxassetid://14968276253",
+        ["_id"] = "Lucki Monkey",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9329630333564},
-        ["name"] = "Evil Imp",
-        ["zoneNumber"] = 217.2,
+        ["name"] = "Lucki Monkey",
         ["fly"] = true,
-        ["cachedZoneNumber"] = 217.2,
-        ["thumbnail"] = "rbxassetid://18127447146",
-        ["_script"] = "Evil Imp"
+        ["thumbnail"] = "rbxassetid://14968276400",
+        ["_script"] = "Lucki Monkey"
     },
     ["Bread Shiba"] = {
         ["iconSettings"] = {
@@ -11071,23 +12702,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17026769389",
         ["fromEgg"] = "Aura Egg"
     },
-    ["Evil Deer"] = {
+    ["Prison Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 215",
-            ["faceTopLeftPixel"] = "94, 112",
-            ["imageSize"] = "235, 250"
+            ["faceBottomRightPixel"] = "214, 202",
+            ["faceTopLeftPixel"] = "58, 62",
+            ["imageSize"] = "250, 244"
         },
-        ["goldenThumbnail"] = "rbxassetid://18127447670",
-        ["_id"] = "Evil Deer",
+        ["goldenThumbnail"] = "rbxassetid://17512185456",
+        ["_id"] = "Prison Cat",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 200,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9557182292919},
-        ["name"] = "Evil Deer",
-        ["zoneNumber"] = 217.4,
-        ["cachedZoneNumber"] = 217.4,
-        ["thumbnail"] = "rbxassetid://18127447880",
-        ["_script"] = "Evil Deer"
+        ["cachedPower"] = {1238045066360},
+        ["name"] = "Prison Cat",
+        ["zoneNumber"] = 200.05895538899185,
+        ["cachedZoneNumber"] = 200.05895538899185,
+        ["_script"] = "Prison Cat",
+        ["thumbnail"] = "rbxassetid://17512185186",
+        ["fromEgg"] = "Rusty Egg"
     },
     ["Glitched Dragon"] = {
         ["iconSettings"] = {
@@ -11166,24 +12798,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968294565",
         ["fromEgg"] = "Lantern Egg"
     },
-    ["Angel Pegasus"] = {
+    ["Prison Bunny"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "193, 175",
-            ["faceTopLeftPixel"] = "90, 81",
-            ["imageSize"] = "250, 202"
+            ["faceBottomRightPixel"] = "173, 216",
+            ["faceTopLeftPixel"] = "48, 104",
+            ["imageSize"] = "180, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://18151021545",
-        ["_id"] = "Angel Pegasus",
+        ["goldenThumbnail"] = "rbxassetid://17512185812",
+        ["_id"] = "Prison Bunny",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["fromZoneNumber"] = 202,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9329630333564},
-        ["name"] = "Angel Pegasus",
-        ["zoneNumber"] = 217.2,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 217.2,
-        ["thumbnail"] = "rbxassetid://18151021778",
-        ["_script"] = "Angel Pegasus"
+        ["cachedPower"] = {1687008313151},
+        ["name"] = "Prison Bunny",
+        ["zoneNumber"] = 202.6766978792541,
+        ["cachedZoneNumber"] = 202.6766978792541,
+        ["_script"] = "Prison Bunny",
+        ["thumbnail"] = "rbxassetid://17512185613",
+        ["fromEgg"] = "Cinderblocks Egg"
     },
     ["Grinch Cat"] = {
         ["iconSettings"] = {
@@ -11224,85 +12856,6 @@ data = {
         ["thumbnail"] = "rbxassetid://14968274956",
         ["goldenThumbnail"] = "rbxassetid://14968274808"
     },
-    ["Heavenly Dove"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 148",
-            ["faceTopLeftPixel"] = "94, 47",
-            ["imageSize"] = "250, 179"
-        },
-        ["goldenThumbnail"] = "rbxassetid://18151024934",
-        ["_id"] = "Heavenly Dove",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9102078374209},
-        ["name"] = "Heavenly Dove",
-        ["zoneNumber"] = 217,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 217,
-        ["thumbnail"] = "rbxassetid://18151025112",
-        ["_script"] = "Heavenly Dove"
-    },
-    ["Red Fluffy"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "192, 163",
-            ["faceTopLeftPixel"] = "93, 74",
-            ["imageSize"] = "250, 190"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968317608",
-        ["_id"] = "Red Fluffy",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 136,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {750137600},
-        ["name"] = "Red Fluffy",
-        ["zoneNumber"] = 137.1525251416353,
-        ["cachedZoneNumber"] = 137.1525251416353,
-        ["_script"] = "Red Fluffy",
-        ["thumbnail"] = "rbxassetid://14968317699",
-        ["fromEgg"] = "Tech Mars Egg"
-    },
-    ["Rainbow Swirl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://17825124339",
-        ["_id"] = "Rainbow Swirl",
-        ["preventGolden"] = true,
-        ["secret"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Rainbow Swirl",
-        ["_script"] = "Rainbow Swirl",
-        ["thumbnail"] = "rbxassetid://17825124339",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 184",
-            ["faceTopLeftPixel"] = "70, 56",
-            ["imageSize"] = "250, 217"
-        }
-    },
-    ["Huge Enchanted Deer"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976423098",
-        ["_id"] = "Huge Enchanted Deer",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Enchanted Deer",
-        ["indexDesc"] = "Comes with the Series 1 Grey Cat Collector Bundle!",
-        ["thumbnail"] = "rbxassetid://14976423228",
-        ["_script"] = "Huge Enchanted Deer"
-    },
-    ["Valentines Bear"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 163",
-            ["faceTopLeftPixel"] = "81, 49",
-            ["imageSize"] = "250, 200"
-        },
-        ["_script"] = "Valentines Bear",
-        ["name"] = "Valentine's Bear",
-        ["_id"] = "Valentines Bear",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968357106",
-        ["goldenThumbnail"] = "rbxassetid://14968356962"
-    },
     ["Wizard Unicorn"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "211, 200",
@@ -11321,6 +12874,92 @@ data = {
         ["_script"] = "Wizard Unicorn",
         ["thumbnail"] = "rbxassetid://17026783042",
         ["fromEgg"] = "Wizard Tower Egg"
+    },
+    ["Guard Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "216, 208",
+            ["faceTopLeftPixel"] = "65, 71",
+            ["imageSize"] = "224, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17512187151",
+        ["_id"] = "Guard Corgi",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 204,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {2902493651778},
+        ["name"] = "Guard Corgi",
+        ["zoneNumber"] = 207.28411118798192,
+        ["cachedZoneNumber"] = 207.28411118798192,
+        ["_script"] = "Guard Corgi",
+        ["thumbnail"] = "rbxassetid://17512187005",
+        ["fromEgg"] = "Lootbag Egg"
+    },
+    ["Demolition Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 169",
+            ["faceTopLeftPixel"] = "86, 62",
+            ["imageSize"] = "250, 202"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968206548",
+        ["_id"] = "Demolition Cat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 11,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {296},
+        ["name"] = "Demolition Cat",
+        ["zoneNumber"] = 12.283310521096283,
+        ["cachedZoneNumber"] = 12.283310521096283,
+        ["_script"] = "Demolition Cat",
+        ["thumbnail"] = "rbxassetid://14968206706",
+        ["fromEgg"] = "Geode Egg"
+    },
+    ["Huge Enchanted Deer"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976423098",
+        ["_id"] = "Huge Enchanted Deer",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Enchanted Deer",
+        ["indexDesc"] = "Comes with the Series 1 Grey Cat Collector Bundle!",
+        ["thumbnail"] = "rbxassetid://14976423228",
+        ["_script"] = "Huge Enchanted Deer"
+    },
+    ["Detective Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "221, 206",
+            ["faceTopLeftPixel"] = "63, 63",
+            ["imageSize"] = "229, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17512187460",
+        ["_id"] = "Detective Cat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 202,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1783180012358},
+        ["name"] = "Detective Cat",
+        ["zoneNumber"] = 203.15229558790114,
+        ["cachedZoneNumber"] = 203.15229558790114,
+        ["_script"] = "Detective Cat",
+        ["thumbnail"] = "rbxassetid://17512187366",
+        ["fromEgg"] = "Cinderblocks Egg"
+    },
+    ["Police Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 207",
+            ["faceTopLeftPixel"] = "67, 70",
+            ["imageSize"] = "230, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17512186853",
+        ["_id"] = "Police Cat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 204,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3192735201358},
+        ["name"] = "Police Cat",
+        ["zoneNumber"] = 208.1,
+        ["cachedZoneNumber"] = 208.1,
+        ["thumbnail"] = "rbxassetid://17512186681",
+        ["_script"] = "Police Cat"
     },
     ["Bejeweled Unicorn"] = {
         ["iconSettings"] = {
@@ -11359,24 +12998,23 @@ data = {
         ["thumbnail"] = "rbxassetid://14976449581",
         ["_script"] = "Huge Hacked Cat"
     },
-    ["Hacker Bear"] = {
+    ["Police Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 208",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "247, 250"
+            ["faceBottomRightPixel"] = "221, 207",
+            ["faceTopLeftPixel"] = "65, 66",
+            ["imageSize"] = "229, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17774385014",
-        ["_id"] = "Hacker Bear",
+        ["goldenThumbnail"] = "rbxassetid://17512186518",
+        ["_id"] = "Police Dog",
         ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 212,
+        ["fromZoneNumber"] = 204,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {5792181445408},
-        ["name"] = "Hacker Bear",
-        ["zoneNumber"] = 213.1545812475089,
-        ["cachedZoneNumber"] = 213.1545812475089,
-        ["_script"] = "Hacker Bear",
-        ["thumbnail"] = "rbxassetid://17774385235",
-        ["fromEgg"] = "Hacker Crystal Egg"
+        ["cachedPower"] = {3065726530796},
+        ["name"] = "Police Dog",
+        ["zoneNumber"] = 207.75,
+        ["cachedZoneNumber"] = 207.75,
+        ["thumbnail"] = "rbxassetid://17512186358",
+        ["_script"] = "Police Dog"
     },
     ["Huge Bejeweled Unicorn"] = {
         ["goldenThumbnail"] = "rbxassetid://17450309513",
@@ -11464,24 +13102,20 @@ data = {
         ["thumbnail"] = "rbxassetid://17026780365",
         ["fromEgg"] = "Tech Kyoto Egg"
     },
-    ["Hooded Piggy"] = {
+    ["Chef Cat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968192092",
+        ["_id"] = "Chef Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Chef Cat",
+        ["_script"] = "Chef Cat",
+        ["thumbnail"] = "rbxassetid://14968192267",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 186",
-            ["faceTopLeftPixel"] = "68, 29",
-            ["imageSize"] = "250, 234"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17774385358",
-        ["_id"] = "Hooded Piggy",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 210,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4576538426002},
-        ["name"] = "Hooded Piggy",
-        ["zoneNumber"] = 211.1545812475089,
-        ["cachedZoneNumber"] = 211.1545812475089,
-        ["_script"] = "Hooded Piggy",
-        ["thumbnail"] = "rbxassetid://17774385487",
-        ["fromEgg"] = "Hacker Circuit Egg"
+            ["faceBottomRightPixel"] = "198, 211",
+            ["faceTopLeftPixel"] = "56, 82",
+            ["imageSize"] = "206, 250"
+        }
     },
     ["Masked Fox"] = {
         ["iconSettings"] = {
@@ -11502,20 +13136,19 @@ data = {
         ["thumbnail"] = "rbxassetid://17749018458",
         ["fromEgg"] = "Hacker Secure Egg"
     },
-    ["Blazing Bat"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://17749016378",
-        ["_id"] = "Blazing Bat",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Blazing Bat",
-        ["fly"] = true,
-        ["_script"] = "Blazing Bat",
-        ["thumbnail"] = "rbxassetid://17749016455",
+    ["Puurple Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 186",
-            ["faceTopLeftPixel"] = "94, 90",
-            ["imageSize"] = "250, 217"
-        }
+            ["faceBottomRightPixel"] = "220, 207",
+            ["faceTopLeftPixel"] = "63, 63",
+            ["imageSize"] = "228, 250"
+        },
+        ["_script"] = "Puurple Cat",
+        ["name"] = "Puurple Cat",
+        ["_id"] = "Puurple Cat",
+        ["exclusiveLevel"] = 3,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://17450286457",
+        ["goldenThumbnail"] = "rbxassetid://17450286320"
     },
     ["Inferno Dominus"] = {
         ["iconSettings"] = {
@@ -11550,59 +13183,51 @@ data = {
         ["thumbnail"] = "rbxassetid://14968263246",
         ["fromEgg"] = "Fossil Egg"
     },
-    ["Frostbyte Snow Leopard"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "235, 205",
-            ["faceTopLeftPixel"] = "71, 52",
-            ["imageSize"] = "242, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471606739",
-        ["_id"] = "Frostbyte Snow Leopard",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 122,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {153743794},
-        ["name"] = "Frostbyte Snow Leopard",
-        ["zoneNumber"] = 123.69128757570932,
-        ["cachedZoneNumber"] = 123.69128757570932,
-        ["_script"] = "Frostbyte Snow Leopard",
-        ["thumbnail"] = "rbxassetid://16471606444",
-        ["fromEgg"] = "Tech Mossy Egg"
-    },
-    ["Bluebird"] = {
+    ["Bejeweled Griffin"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968185588",
-        ["_id"] = "Bluebird",
+        ["goldenThumbnail"] = "rbxassetid://17450284287",
+        ["_id"] = "Bejeweled Griffin",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Bluebird",
+        ["name"] = "Bejeweled Griffin",
         ["fly"] = true,
-        ["_script"] = "Bluebird",
-        ["thumbnail"] = "rbxassetid://14968185744",
+        ["_script"] = "Bejeweled Griffin",
+        ["thumbnail"] = "rbxassetid://17450284407",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 135",
-            ["faceTopLeftPixel"] = "102, 9",
-            ["imageSize"] = "250, 173"
+            ["faceBottomRightPixel"] = "215, 155",
+            ["faceTopLeftPixel"] = "109, 60",
+            ["imageSize"] = "250, 185"
         }
     },
-    ["Hooded Bobcat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 210",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "214, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17749017735",
-        ["_id"] = "Hooded Bobcat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 210,
+    ["Huge Bison"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976363240",
+        ["_id"] = "Huge Bison",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3993851426175},
-        ["name"] = "Hooded Bobcat",
-        ["zoneNumber"] = 210.00587819392337,
-        ["cachedZoneNumber"] = 210.00587819392337,
-        ["_script"] = "Hooded Bobcat",
-        ["thumbnail"] = "rbxassetid://17749017903",
-        ["fromEgg"] = "Hacker Circuit Egg"
+        ["name"] = "Huge Bison",
+        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
+        ["thumbnail"] = "rbxassetid://14976363344",
+        ["_script"] = "Huge Bison"
+    },
+    ["Ender Hades"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "174, 143",
+            ["faceTopLeftPixel"] = "82, 47",
+            ["imageSize"] = "250, 181"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17374943779",
+        ["_id"] = "Ender Hades",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1662374474502},
+        ["name"] = "Ender Hades",
+        ["zoneNumber"] = 202.55,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 202.55,
+        ["thumbnail"] = "rbxassetid://17374943619",
+        ["_script"] = "Ender Hades"
     },
     ["Chimpanzee"] = {
         ["iconSettings"] = {
@@ -11623,24 +13248,31 @@ data = {
         ["thumbnail"] = "rbxassetid://14968194141",
         ["fromEgg"] = "Mossy Egg"
     },
-    ["Hacker Axolotl"] = {
+    ["Ender Slime"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 205",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "250, 245"
+            ["faceBottomRightPixel"] = "242, 161",
+            ["faceTopLeftPixel"] = "77, 10",
+            ["imageSize"] = "250, 194"
         },
-        ["goldenThumbnail"] = "rbxassetid://17749015754",
-        ["_id"] = "Hacker Axolotl",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 213,
+        ["goldenThumbnail"] = "rbxassetid://17374943495",
+        ["_id"] = "Ender Slime",
+        ["animations"] = {
+            ["flyHeightChange"] = 0,
+            ["swerve"] = true,
+            ["swerveMaxAngle"] = 60,
+            ["flyHeight"] = 0.025,
+            ["swerveAggression"] = 0.2
+        },
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {5686599705693},
-        ["name"] = "Hacker Axolotl",
-        ["zoneNumber"] = 213.00593692707918,
-        ["cachedZoneNumber"] = 213.00593692707918,
-        ["_script"] = "Hacker Axolotl",
-        ["thumbnail"] = "rbxassetid://17749015842",
-        ["fromEgg"] = "Hacker Electric Egg"
+        ["cachedPower"] = {1147055590040},
+        ["name"] = "Ender Slime",
+        ["zoneNumber"] = 199.4,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 199.4,
+        ["thumbnail"] = "rbxassetid://17374943332",
+        ["_script"] = "Ender Slime"
     },
     ["Hi-Tech Sloth"] = {
         ["iconSettings"] = {
@@ -11692,25 +13324,23 @@ data = {
         ["thumbnail"] = "rbxassetid://14976546605",
         ["indexDesc"] = "Found in the Lucky Block Merch!"
     },
-    ["Hacked Computer"] = {
+    ["Corrupt Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 129",
-            ["faceTopLeftPixel"] = "100, 41",
-            ["imageSize"] = "250, 168"
+            ["faceBottomRightPixel"] = "202, 138",
+            ["faceTopLeftPixel"] = "104, 50",
+            ["imageSize"] = "250, 164"
         },
-        ["goldenThumbnail"] = "rbxassetid://17749017298",
-        ["_id"] = "Hacked Computer",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["cachedZoneNumber"] = 214.00000609036573,
+        ["goldenThumbnail"] = "rbxassetid://17374946122",
+        ["_id"] = "Corrupt Cat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {6392685425835},
-        ["name"] = "Hacked Computer",
-        ["zoneNumber"] = 214.00000609036573,
-        ["fly"] = true,
-        ["_script"] = "Hacked Computer",
-        ["thumbnail"] = "rbxassetid://17749017401",
-        ["fromEgg"] = "Hacker Secure Egg"
+        ["cachedPower"] = {1623488521882},
+        ["name"] = "Corrupt Cat",
+        ["zoneNumber"] = 202.35,
+        ["cachedZoneNumber"] = 202.35,
+        ["thumbnail"] = "rbxassetid://17374945948",
+        ["_script"] = "Corrupt Cat"
     },
     ["Santa Paws"] = {
         ["iconSettings"] = {
@@ -11731,39 +13361,42 @@ data = {
         ["thumbnail"] = "rbxassetid://14968326864",
         ["fromZoneNumber"] = 63
     },
-    ["Elf Dog"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968227786",
-        ["_id"] = "Elf Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Elf Dog",
-        ["_script"] = "Elf Dog",
-        ["thumbnail"] = "rbxassetid://14968227863",
+    ["Corrupt Skeleton"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 212",
-            ["faceTopLeftPixel"] = "56, 85",
-            ["imageSize"] = "204, 250"
-        }
-    },
-    ["Hacked Skeleton"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 130",
-            ["faceTopLeftPixel"] = "81, 8",
-            ["imageSize"] = "250, 166"
+            ["faceBottomRightPixel"] = "206, 129",
+            ["faceTopLeftPixel"] = "94, 27",
+            ["imageSize"] = "250, 162"
         },
-        ["goldenThumbnail"] = "rbxassetid://17749017535",
-        ["_id"] = "Hacked Skeleton",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
+        ["goldenThumbnail"] = "rbxassetid://17374945289",
+        ["_id"] = "Corrupt Skeleton",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8747206079634},
-        ["name"] = "Hacked Skeleton",
-        ["zoneNumber"] = 216.64910754227037,
-        ["cachedZoneNumber"] = 216.64910754227037,
-        ["_script"] = "Hacked Skeleton",
-        ["thumbnail"] = "rbxassetid://17749017634",
-        ["fromEgg"] = "Hacker Secure Egg"
+        ["cachedPower"] = {1201677284804},
+        ["name"] = "Corrupt Skeleton",
+        ["zoneNumber"] = 199.8,
+        ["cachedZoneNumber"] = 199.8,
+        ["thumbnail"] = "rbxassetid://17374945083",
+        ["_script"] = "Corrupt Skeleton"
+    },
+    ["Blue Fluffy"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "192, 163",
+            ["faceTopLeftPixel"] = "93, 74",
+            ["imageSize"] = "250, 190"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968184154",
+        ["_id"] = "Blue Fluffy",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 137,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {843881038},
+        ["name"] = "Blue Fluffy",
+        ["zoneNumber"] = 138.15229558790114,
+        ["cachedZoneNumber"] = 138.15229558790114,
+        ["_script"] = "Blue Fluffy",
+        ["thumbnail"] = "rbxassetid://14968184345",
+        ["fromEgg"] = "Tech Saturn Egg"
     },
     ["Sloth"] = {
         ["iconSettings"] = {
@@ -11797,25 +13430,23 @@ data = {
         ["thumbnail"] = "rbxassetid://14976576332",
         ["indexDesc"] = "Found in the Series 1 CoolBeanz! [RARE]"
     },
-    ["Sun Agony"] = {
+    ["Creepy Yeti"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 162",
-            ["faceTopLeftPixel"] = "106, 79",
-            ["imageSize"] = "250, 186"
+            ["faceBottomRightPixel"] = "226, 199",
+            ["faceTopLeftPixel"] = "75, 63",
+            ["imageSize"] = "250, 240"
         },
-        ["goldenThumbnail"] = "rbxassetid://17671730557",
-        ["_id"] = "Sun Agony",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 209,
-        ["cachedZoneNumber"] = 212.1822601567647,
+        ["goldenThumbnail"] = "rbxassetid://17374944579",
+        ["_id"] = "Creepy Yeti",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {5166081524323},
-        ["name"] = "Sun Agony",
-        ["zoneNumber"] = 212.1822601567647,
-        ["fly"] = true,
-        ["_script"] = "Sun Agony",
-        ["thumbnail"] = "rbxassetid://17671730343",
-        ["fromEgg"] = "Summer Sun Egg"
+        ["cachedPower"] = {1068157586492},
+        ["name"] = "Creepy Yeti",
+        ["zoneNumber"] = 198.8,
+        ["cachedZoneNumber"] = 198.8,
+        ["thumbnail"] = "rbxassetid://17374944347",
+        ["_script"] = "Creepy Yeti"
     },
     ["Luau Cat"] = {
         ["iconSettings"] = {
@@ -11898,43 +13529,39 @@ data = {
         ["thumbnail"] = "rbxassetid://14976670848",
         ["indexDesc"] = "Comes with the Titanic Shadow Griffin plush!"
     },
-    ["Flower Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 190",
-            ["faceTopLeftPixel"] = "65, 70",
-            ["imageSize"] = "250, 226"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17673257243",
-        ["_id"] = "Flower Cat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 207,
+    ["Titanic Arcane Pyro Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://18978058202",
+        ["_id"] = "Titanic Arcane Pyro Cat",
+        ["animations"] = {["ridingCameraOffset"] = Vector3.new(0, 3.25, 0)},
+        ["indexObtainable"] = true,
+        ["flyingTitanic"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3340982138194},
-        ["name"] = "Flower Cat",
-        ["zoneNumber"] = 208.47610390860547,
-        ["cachedZoneNumber"] = 208.47610390860547,
-        ["_script"] = "Flower Cat",
-        ["thumbnail"] = "rbxassetid://17671731182",
-        ["fromEgg"] = "Summer Melon Egg"
+        ["_script"] = "Titanic Arcane Pyro Cat",
+        ["name"] = "Titanic Arcane Pyro Cat",
+        ["flyingTitanicAlwaysFly"] = true,
+        ["fly"] = true,
+        ["indexDesc"] = "Earned from rolling in the RNG Event!",
+        ["thumbnail"] = "rbxassetid://18978058000",
+        ["weld"] = true
     },
-    ["Pineapple Monkey"] = {
+    ["Creepy Wolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "181, 215",
-            ["faceTopLeftPixel"] = "51, 99",
-            ["imageSize"] = "220, 250"
+            ["faceBottomRightPixel"] = "207, 184",
+            ["faceTopLeftPixel"] = "84, 64",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://17673257117",
-        ["_id"] = "Pineapple Monkey",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 209,
+        ["goldenThumbnail"] = "rbxassetid://17374944886",
+        ["_id"] = "Creepy Wolf",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4853191381696},
-        ["name"] = "Pineapple Monkey",
-        ["zoneNumber"] = 211.64752783608222,
-        ["cachedZoneNumber"] = 211.64752783608222,
-        ["_script"] = "Pineapple Monkey",
-        ["thumbnail"] = "rbxassetid://17673256954",
-        ["fromEgg"] = "Summer Sun Egg"
+        ["cachedPower"] = {1520872813580},
+        ["name"] = "Creepy Wolf",
+        ["zoneNumber"] = 201.8,
+        ["cachedZoneNumber"] = 201.8,
+        ["thumbnail"] = "rbxassetid://17374944716",
+        ["_script"] = "Creepy Wolf"
     },
     ["Titanic Capybara"] = {
         ["titanic"] = true,
@@ -11966,16 +13593,19 @@ data = {
         ["thumbnail"] = "rbxassetid://18256796655",
         ["_script"] = "Archangel Cat"
     },
-    ["Huge Shark"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976546759",
-        ["_id"] = "Huge Shark",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Easter Fox"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "189, 213",
+            ["faceTopLeftPixel"] = "55, 92",
+            ["imageSize"] = "196, 250"
+        },
+        ["_script"] = "Easter Fox",
+        ["name"] = "Easter Fox",
+        ["_id"] = "Easter Fox",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Shark",
-        ["indexDesc"] = "Found in the Lucky Block Merch!",
-        ["thumbnail"] = "rbxassetid://14976546876",
-        ["_script"] = "Huge Shark"
+        ["thumbnail"] = "rbxassetid://14968226173",
+        ["goldenThumbnail"] = "rbxassetid://14968226022"
     },
     ["Huge Hologram Shark"] = {
         ["goldenThumbnail"] = "rbxassetid://14976457245",
@@ -12022,34 +13652,35 @@ data = {
             ["imageSize"] = "250, 217"
         }
     },
-    ["Stargazing Bull"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Stargazing Bull",
-        ["hidden"] = true,
+    ["Black Hole Immortuus"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://17285711302",
+        ["_id"] = "Black Hole Immortuus",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["weld"] = true,
-        ["_script"] = "Stargazing Bull",
+        ["_script"] = "Black Hole Immortuus",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 153",
-            ["faceTopLeftPixel"] = "71, 33",
-            ["imageSize"] = "250, 190"
+            ["faceBottomRightPixel"] = "210, 205",
+            ["faceTopLeftPixel"] = "101, 107",
+            ["imageSize"] = "250, 234"
         },
-        ["thumbnail"] = "rbxassetid://17602385308",
-        ["name"] = "Stargazing Bull"
+        ["thumbnail"] = "rbxassetid://17285745121",
+        ["name"] = "Black Hole Immortuus"
     },
-    ["Titanic Pink Balloon"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14977806706",
-        ["_id"] = "Titanic Pink Balloon",
-        ["animations"] = {["balloon"] = true},
-        ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Titanic Pink Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "Titanic Pink Balloon",
-        ["thumbnail"] = "rbxassetid://14976657520",
-        ["indexDesc"] = "Comes with the Titanic Pink Balloon plush!"
+    ["Black Hole Kitsune"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://17285711649",
+        ["_id"] = "Black Hole Kitsune",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["_script"] = "Black Hole Kitsune",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "240, 197",
+            ["faceTopLeftPixel"] = "113, 82",
+            ["imageSize"] = "250, 232"
+        },
+        ["thumbnail"] = "rbxassetid://17285711731",
+        ["name"] = "Black Hole Kitsune"
     },
     ["Angel Fawn"] = {
         ["iconSettings"] = {
@@ -12070,17 +13701,16 @@ data = {
         ["thumbnail"] = "rbxassetid://18256795515",
         ["_script"] = "Angel Fawn"
     },
-    ["Huge Fairy"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976427804",
-        ["_id"] = "Huge Fairy",
+    ["Titanic Pineapple Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://17269939076",
+        ["_id"] = "Titanic Pineapple Cat",
         ["indexObtainable"] = true,
-        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Fairy",
-        ["fly"] = true,
-        ["_script"] = "Huge Fairy",
-        ["thumbnail"] = "rbxassetid://14976428656",
-        ["indexDesc"] = "Found in the Lucky Block Merch!"
+        ["name"] = "Titanic Pineapple Cat",
+        ["indexDesc"] = "Comes with the Titanic Pineapple Cat plush!",
+        ["thumbnail"] = "rbxassetid://17269938973",
+        ["_script"] = "Titanic Pineapple Cat"
     },
     ["Lucki Cat"] = {
         ["iconSettings"] = {
@@ -12149,40 +13779,45 @@ data = {
         ["thumbnail"] = "rbxassetid://14968219589",
         ["goldenThumbnail"] = "rbxassetid://14968219417"
     },
-    ["Enchanted Elephant"] = {
+    ["Void Alien"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 132",
-            ["faceTopLeftPixel"] = "64, 9",
-            ["imageSize"] = "250, 171"
+            ["faceBottomRightPixel"] = "201, 197",
+            ["faceTopLeftPixel"] = "56, 66",
+            ["imageSize"] = "213, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968232162",
-        ["_id"] = "Enchanted Elephant",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 15,
+        ["goldenThumbnail"] = "rbxassetid://17276416611",
+        ["_id"] = "Void Alien",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {450},
-        ["name"] = "Enchanted Elephant",
-        ["zoneNumber"] = 15.584644548562538,
-        ["cachedZoneNumber"] = 15.584644548562538,
-        ["_script"] = "Enchanted Elephant",
-        ["thumbnail"] = "rbxassetid://14968232250",
-        ["fromEgg"] = "Spirit Egg"
+        ["cachedPower"] = {1472870513798},
+        ["name"] = "Void Alien",
+        ["zoneNumber"] = 201.52225143726233,
+        ["cachedZoneNumber"] = 201.52225143726233,
+        ["_script"] = "Void Alien",
+        ["thumbnail"] = "rbxassetid://17276416688",
+        ["fromEgg"] = "Void Spiral Egg"
     },
-    ["Bejeweled Griffin"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://17450284287",
-        ["_id"] = "Bejeweled Griffin",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Bejeweled Griffin",
-        ["fly"] = true,
-        ["_script"] = "Bejeweled Griffin",
-        ["thumbnail"] = "rbxassetid://17450284407",
+    ["Atomic Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 155",
-            ["faceTopLeftPixel"] = "109, 60",
-            ["imageSize"] = "250, 185"
-        }
+            ["faceBottomRightPixel"] = "191, 177",
+            ["faceTopLeftPixel"] = "90, 85",
+            ["imageSize"] = "223, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17270072897",
+        ["_id"] = "Atomic Monkey",
+        ["cachedZoneNumber"] = 198.6912875757093,
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 197,
+        ["weld"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1054961904588},
+        ["name"] = "Atomic Monkey",
+        ["zoneNumber"] = 198.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Atomic Monkey",
+        ["thumbnail"] = "rbxassetid://17270072951",
+        ["fromEgg"] = "Void Crystal Egg"
     },
     ["Titanic Toilet Cat"] = {
         ["titanic"] = true,
@@ -12206,55 +13841,25 @@ data = {
         ["thumbnail"] = "rbxassetid://15281989941",
         ["_script"] = "Huge Chef Cat"
     },
-    ["Prison Cat"] = {
+    ["Galaxy Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 202",
-            ["faceTopLeftPixel"] = "58, 62",
-            ["imageSize"] = "250, 244"
+            ["faceBottomRightPixel"] = "212, 221",
+            ["faceTopLeftPixel"] = "104, 124",
+            ["imageSize"] = "250, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512185456",
-        ["_id"] = "Prison Cat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 200,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1238045066360},
-        ["name"] = "Prison Cat",
-        ["zoneNumber"] = 200.05895538899185,
-        ["cachedZoneNumber"] = 200.05895538899185,
-        ["_script"] = "Prison Cat",
-        ["thumbnail"] = "rbxassetid://17512185186",
-        ["fromEgg"] = "Rusty Egg"
-    },
-    ["Prison Bunny"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 216",
-            ["faceTopLeftPixel"] = "48, 104",
-            ["imageSize"] = "180, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17512185812",
-        ["_id"] = "Prison Bunny",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 202,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1687008313151},
-        ["name"] = "Prison Bunny",
-        ["zoneNumber"] = 202.6766978792541,
-        ["cachedZoneNumber"] = 202.6766978792541,
-        ["_script"] = "Prison Bunny",
-        ["thumbnail"] = "rbxassetid://17512185613",
-        ["fromEgg"] = "Cinderblocks Egg"
-    },
-    ["Huge Lunar Moth"] = {
-        ["goldenThumbnail"] = "rbxassetid://17028306770",
-        ["_id"] = "Huge Lunar Moth",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Lunar Moth",
+        ["goldenThumbnail"] = "rbxassetid://14968243367",
+        ["_id"] = "Galaxy Fox",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 139,
+        ["cachedZoneNumber"] = 140.6912875757093,
+        ["sounds"] = {["random"] = {7986567168, 7986566973}, ["walk"] = {}},
+        ["cachedPower"] = {1138650589},
+        ["name"] = "Galaxy Fox",
+        ["zoneNumber"] = 140.6912875757093,
         ["fly"] = true,
-        ["_script"] = "Huge Lunar Moth",
-        ["thumbnail"] = "rbxassetid://17028306654",
-        ["indexDesc"] = "Found in the Global Event Gift!"
+        ["_script"] = "Galaxy Fox",
+        ["thumbnail"] = "rbxassetid://14968243570",
+        ["fromEgg"] = "Tech Galaxy Egg"
     },
     ["Fragmented Dominus"] = {
         ["iconSettings"] = {
@@ -12274,6 +13879,38 @@ data = {
         ["_script"] = "Fragmented Dominus",
         ["thumbnail"] = "rbxassetid://17270073102",
         ["fromEgg"] = "Quantum Egg"
+    },
+    ["Huge Lunar Moth"] = {
+        ["goldenThumbnail"] = "rbxassetid://17028306770",
+        ["_id"] = "Huge Lunar Moth",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Lunar Moth",
+        ["fly"] = true,
+        ["_script"] = "Huge Lunar Moth",
+        ["thumbnail"] = "rbxassetid://17028306654",
+        ["indexDesc"] = "Found in the Global Event Gift!"
+    },
+    ["Quantum Griffin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 167",
+            ["faceTopLeftPixel"] = "98, 59",
+            ["imageSize"] = "250, 199"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17270075114",
+        ["_id"] = "Quantum Griffin",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 196,
+        ["cachedZoneNumber"] = 197.1525251416353,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {879614300920},
+        ["name"] = "Quantum Griffin",
+        ["zoneNumber"] = 197.1525251416353,
+        ["fly"] = true,
+        ["_script"] = "Quantum Griffin",
+        ["thumbnail"] = "rbxassetid://17270075186",
+        ["fromEgg"] = "Quantum Galaxy Egg"
     },
     ["Cookie Mouse"] = {
         ["iconSettings"] = {
@@ -12309,24 +13946,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968295353",
         ["fromEgg"] = "Paw Egg"
     },
-    ["Guard Corgi"] = {
+    ["Quantum Goat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 208",
-            ["faceTopLeftPixel"] = "65, 71",
-            ["imageSize"] = "224, 250"
+            ["faceBottomRightPixel"] = "207, 210",
+            ["faceTopLeftPixel"] = "61, 79",
+            ["imageSize"] = "245, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512187151",
-        ["_id"] = "Guard Corgi",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 204,
+        ["goldenThumbnail"] = "rbxassetid://17270074955",
+        ["_id"] = "Quantum Goat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 194,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2902493651778},
-        ["name"] = "Guard Corgi",
-        ["zoneNumber"] = 207.28411118798192,
-        ["cachedZoneNumber"] = 207.28411118798192,
-        ["_script"] = "Guard Corgi",
-        ["thumbnail"] = "rbxassetid://17512187005",
-        ["fromEgg"] = "Lootbag Egg"
+        ["cachedPower"] = {740933463854},
+        ["name"] = "Quantum Goat",
+        ["zoneNumber"] = 195.6912875757093,
+        ["cachedZoneNumber"] = 195.6912875757093,
+        ["_script"] = "Quantum Goat",
+        ["thumbnail"] = "rbxassetid://17270075053",
+        ["fromEgg"] = "Quantum Leafy Egg"
     },
     ["Huge Pegasus"] = {
         ["goldenThumbnail"] = "rbxassetid://14976514449",
@@ -12381,24 +14018,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17749018233",
         ["fromEgg"] = "Hacker Wireframe Egg"
     },
-    ["Detective Cat"] = {
+    ["Quantum Dominus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 206",
-            ["faceTopLeftPixel"] = "63, 63",
-            ["imageSize"] = "229, 250"
+            ["faceBottomRightPixel"] = "217, 203",
+            ["faceTopLeftPixel"] = "61, 62",
+            ["imageSize"] = "250, 245"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512187460",
-        ["_id"] = "Detective Cat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 202,
+        ["goldenThumbnail"] = "rbxassetid://17270074647",
+        ["_id"] = "Quantum Dominus",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 196,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1783180012358},
-        ["name"] = "Detective Cat",
-        ["zoneNumber"] = 203.15229558790114,
-        ["cachedZoneNumber"] = 203.15229558790114,
-        ["_script"] = "Detective Cat",
-        ["thumbnail"] = "rbxassetid://17512187366",
-        ["fromEgg"] = "Cinderblocks Egg"
+        ["cachedPower"] = {937743915190},
+        ["name"] = "Quantum Dominus",
+        ["zoneNumber"] = 197.6912875757093,
+        ["cachedZoneNumber"] = 197.6912875757093,
+        ["_script"] = "Quantum Dominus",
+        ["thumbnail"] = "rbxassetid://17270074741",
+        ["fromEgg"] = "Quantum Galaxy Egg"
     },
     ["Huge Black Hole Axolotl"] = {
         ["goldenThumbnail"] = "rbxassetid://17285736535",
@@ -12412,41 +14049,43 @@ data = {
         ["thumbnail"] = "rbxassetid://17285736425",
         ["name"] = "Huge Black Hole Axolotl"
     },
-    ["Police Cat"] = {
+    ["Holographic Axolotl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 207",
-            ["faceTopLeftPixel"] = "67, 70",
-            ["imageSize"] = "230, 250"
+            ["faceBottomRightPixel"] = "210, 187",
+            ["faceTopLeftPixel"] = "72, 60",
+            ["imageSize"] = "250, 223"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512186853",
-        ["_id"] = "Police Cat",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 204,
+        ["goldenThumbnail"] = "rbxassetid://17270073295",
+        ["_id"] = "Holographic Axolotl",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 178,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3192735201358},
-        ["name"] = "Police Cat",
-        ["zoneNumber"] = 208.1,
-        ["cachedZoneNumber"] = 208.1,
-        ["thumbnail"] = "rbxassetid://17512186681",
-        ["_script"] = "Police Cat"
+        ["cachedPower"] = {105568572428},
+        ["name"] = "Holographic Axolotl",
+        ["zoneNumber"] = 179.15229558790114,
+        ["cachedZoneNumber"] = 179.15229558790114,
+        ["_script"] = "Holographic Axolotl",
+        ["thumbnail"] = "rbxassetid://17270073365",
+        ["fromEgg"] = "Holographic Tree Egg"
     },
-    ["Police Dog"] = {
+    ["Wireframe Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 207",
-            ["faceTopLeftPixel"] = "65, 66",
-            ["imageSize"] = "229, 250"
+            ["faceBottomRightPixel"] = "219, 207",
+            ["faceTopLeftPixel"] = "62, 63",
+            ["imageSize"] = "228, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17512186518",
-        ["_id"] = "Police Dog",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 204,
+        ["goldenThumbnail"] = "rbxassetid://17270076087",
+        ["_id"] = "Wireframe Cat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 198,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3065726530796},
-        ["name"] = "Police Dog",
-        ["zoneNumber"] = 207.75,
-        ["cachedZoneNumber"] = 207.75,
-        ["thumbnail"] = "rbxassetid://17512186358",
-        ["_script"] = "Police Dog"
+        ["cachedPower"] = {1186832142662},
+        ["name"] = "Wireframe Cat",
+        ["zoneNumber"] = 199.6912875757093,
+        ["cachedZoneNumber"] = 199.6912875757093,
+        ["_script"] = "Wireframe Cat",
+        ["thumbnail"] = "rbxassetid://17270076280",
+        ["fromEgg"] = "Void Fracture Egg"
     },
     ["Electric Slime"] = {
         ["iconSettings"] = {
@@ -12475,43 +14114,38 @@ data = {
         ["thumbnail"] = "rbxassetid://18465100470",
         ["weld"] = true
     },
-    ["Angel Dog"] = {
+    ["Blobfish"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 196",
-            ["faceTopLeftPixel"] = "88, 79",
-            ["imageSize"] = "250, 231"
+            ["faceBottomRightPixel"] = "228, 153",
+            ["faceTopLeftPixel"] = "70, 11",
+            ["imageSize"] = "250, 179"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968171537",
-        ["_id"] = "Angel Dog",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 95,
-        ["cachedZoneNumber"] = 96.15252514163531,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {5996357},
-        ["name"] = "Angel Dog",
-        ["zoneNumber"] = 96.15252514163531,
-        ["fly"] = true,
-        ["_script"] = "Angel Dog",
-        ["thumbnail"] = "rbxassetid://14968171653",
-        ["fromEgg"] = "Angel Egg"
-    },
-    ["Ender Bunny"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "193, 213",
-            ["faceTopLeftPixel"] = "55, 87",
-            ["imageSize"] = "201, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17450285097",
-        ["_id"] = "Ender Bunny",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+        ["_script"] = "Blobfish",
+        ["name"] = "Blobfish",
+        ["_id"] = "Blobfish",
+        ["exclusiveLevel"] = 1,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1228988132186},
-        ["name"] = "Ender Bunny",
-        ["zoneNumber"] = 200,
-        ["cachedZoneNumber"] = 200,
-        ["thumbnail"] = "rbxassetid://17450285216",
-        ["_script"] = "Ender Bunny"
+        ["thumbnail"] = "rbxassetid://14968183467",
+        ["goldenThumbnail"] = "rbxassetid://14968183329"
+    },
+    ["Shadow Kraken"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 136",
+            ["faceTopLeftPixel"] = "98, 48",
+            ["imageSize"] = "250, 156"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17270075615",
+        ["_id"] = "Shadow Kraken",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 181,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {150311502539},
+        ["name"] = "Shadow Kraken",
+        ["zoneNumber"] = 182.15229558790114,
+        ["cachedZoneNumber"] = 182.15229558790114,
+        ["_script"] = "Shadow Kraken",
+        ["thumbnail"] = "rbxassetid://17270075776",
+        ["fromEgg"] = "Dark Tech Relic Egg"
     },
     ["Hi-Tech Flamingo"] = {
         ["iconSettings"] = {
@@ -12532,19 +14166,20 @@ data = {
         ["thumbnail"] = "rbxassetid://16471604692",
         ["fromEgg"] = "Tech Oasis Egg"
     },
-    ["Puurple Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 207",
-            ["faceTopLeftPixel"] = "63, 63",
-            ["imageSize"] = "228, 250"
-        },
-        ["_script"] = "Puurple Cat",
-        ["name"] = "Puurple Cat",
-        ["_id"] = "Puurple Cat",
-        ["exclusiveLevel"] = 3,
+    ["Forcefield Monkey"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Forcefield Monkey",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://17450286457",
-        ["goldenThumbnail"] = "rbxassetid://17450286320"
+        ["name"] = "Forcefield Monkey",
+        ["_script"] = "Forcefield Monkey",
+        ["thumbnail"] = "rbxassetid://17270152685",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 201",
+            ["faceTopLeftPixel"] = "58, 68",
+            ["imageSize"] = "250, 240"
+        }
     },
     ["Prison Cow"] = {
         ["iconSettings"] = {
@@ -12565,24 +14200,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17512184722",
         ["fromEgg"] = "Lootbag Egg"
     },
-    ["Enchanted Deer"] = {
+    ["Sapphire Carbuncle"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "194, 214",
-            ["faceTopLeftPixel"] = "63, 96",
-            ["imageSize"] = "201, 250"
+            ["faceBottomRightPixel"] = "182, 215",
+            ["faceTopLeftPixel"] = "52, 97",
+            ["imageSize"] = "189, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968231615",
-        ["_id"] = "Enchanted Deer",
+        ["goldenThumbnail"] = "rbxassetid://14968326949",
+        ["_id"] = "Sapphire Carbuncle",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 15,
+        ["fromZoneNumber"] = 12,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {490},
-        ["name"] = "Enchanted Deer",
-        ["zoneNumber"] = 16.283310521096283,
-        ["cachedZoneNumber"] = 16.283310521096283,
-        ["_script"] = "Enchanted Deer",
-        ["thumbnail"] = "rbxassetid://14968231993",
-        ["fromEgg"] = "Spirit Egg"
+        ["cachedPower"] = {296},
+        ["name"] = "Sapphire Carbuncle",
+        ["zoneNumber"] = 12.286143059642114,
+        ["cachedZoneNumber"] = 12.286143059642114,
+        ["_script"] = "Sapphire Carbuncle",
+        ["thumbnail"] = "rbxassetid://14968327028",
+        ["fromEgg"] = "Hut Egg"
     },
     ["Huge Party Penguin"] = {
         ["goldenThumbnail"] = "rbxassetid://14976511102",
@@ -12610,24 +14245,20 @@ data = {
             ["imageSize"] = "250, 238"
         }
     },
-    ["Ender Hades"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "174, 143",
-            ["faceTopLeftPixel"] = "82, 47",
-            ["imageSize"] = "250, 181"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17374943779",
-        ["_id"] = "Ender Hades",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+    ["Sketch Corgi"] = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1662374474502},
-        ["name"] = "Ender Hades",
-        ["zoneNumber"] = 202.55,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 202.55,
-        ["thumbnail"] = "rbxassetid://17374943619",
-        ["_script"] = "Ender Hades"
+        ["_script"] = "Sketch Corgi",
+        ["name"] = "Sketch Corgi",
+        ["_id"] = "Sketch Corgi",
+        ["animations"] = {
+            ["particlesSketch"] = {
+                ["Idle"] = {["Left"] = "idle left", ["Right"] = "idle right"},
+                ["Farm"] = {["Left"] = "farm left", ["Right"] = "farm right"}
+            }
+        },
+        ["exclusiveLevel"] = 1,
+        ["thumbnail"] = "rbxassetid://17027101955",
+        ["goldenThumbnail"] = "rbxassetid://17028976493"
     },
     ["Doodle Black Bear"] = {
         ["iconSettings"] = {
@@ -12714,31 +14345,34 @@ data = {
         ["thumbnail"] = "rbxassetid://14968216688",
         ["goldenThumbnail"] = "rbxassetid://14968216518"
     },
-    ["Ender Slime"] = {
+    ["Abyssal Dolphin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 161",
-            ["faceTopLeftPixel"] = "77, 10",
-            ["imageSize"] = "250, 194"
+            ["faceBottomRightPixel"] = "224, 184",
+            ["faceTopLeftPixel"] = "82, 56",
+            ["imageSize"] = "250, 207"
         },
-        ["goldenThumbnail"] = "rbxassetid://17374943495",
-        ["_id"] = "Ender Slime",
+        ["goldenThumbnail"] = "rbxassetid://16471612338",
+        ["_id"] = "Abyssal Dolphin",
         ["animations"] = {
-            ["flyHeightChange"] = 0,
-            ["swerve"] = true,
-            ["swerveMaxAngle"] = 60,
-            ["flyHeight"] = 0.025,
-            ["swerveAggression"] = 0.2
+            ["vertexColorAnim"] = {
+                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
+                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 2, 1)},
+                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
+                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
+            },
+            ["vertexColorAnimSpeed"] = 0.3
         },
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+        ["fromZoneNumber"] = 114,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1147055590040},
-        ["name"] = "Ender Slime",
-        ["zoneNumber"] = 199.4,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 199.4,
-        ["thumbnail"] = "rbxassetid://17374943332",
-        ["_script"] = "Ender Slime"
+        ["cachedPower"] = {59920774},
+        ["name"] = "Abyssal Dolphin",
+        ["zoneNumber"] = 115.69128757570932,
+        ["cachedZoneNumber"] = 115.69128757570932,
+        ["_script"] = "Abyssal Dolphin",
+        ["thumbnail"] = "rbxassetid://16471612276",
+        ["fromEgg"] = "Tech Ship Egg"
     },
     ["Jolly Penguin"] = {
         ["iconSettings"] = {
@@ -12759,23 +14393,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14968268575",
         ["fromEgg"] = "Frosted Geode Egg"
     },
-    ["Corrupt Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 138",
-            ["faceTopLeftPixel"] = "104, 50",
-            ["imageSize"] = "250, 164"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17374946122",
-        ["_id"] = "Corrupt Cat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+    ["Turtle in a Bucket"] = {
+        ["goldenThumbnail"] = "rbxassetid://14968355435",
+        ["_id"] = "Turtle in a Bucket",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 27,
+        ["_script"] = "Turtle in a Bucket",
+        ["cachedPower"] = {1764},
+        ["name"] = "Turtle in a Bucket",
+        ["zoneNumber"] = 27.119049317608074,
+        ["cachedZoneNumber"] = 27.119049317608074,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1623488521882},
-        ["name"] = "Corrupt Cat",
-        ["zoneNumber"] = 202.35,
-        ["cachedZoneNumber"] = 202.35,
-        ["thumbnail"] = "rbxassetid://17374945948",
-        ["_script"] = "Corrupt Cat"
+        ["thumbnail"] = "rbxassetid://14968355544",
+        ["fromEgg"] = "Sunny Egg"
     },
     ["Electric Bunny"] = {
         ["iconSettings"] = {
@@ -12796,73 +14426,82 @@ data = {
         ["thumbnail"] = "rbxassetid://16746702462",
         ["fromEgg"] = "Electric Garden Egg"
     },
-    ["Corrupt Skeleton"] = {
+    ["Tech Samurai Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 129",
-            ["faceTopLeftPixel"] = "94, 27",
-            ["imageSize"] = "250, 162"
+            ["faceBottomRightPixel"] = "212, 178",
+            ["faceTopLeftPixel"] = "86, 65",
+            ["imageSize"] = "250, 213"
         },
-        ["goldenThumbnail"] = "rbxassetid://17374945289",
-        ["_id"] = "Corrupt Skeleton",
+        ["goldenThumbnail"] = "rbxassetid://17026781280",
+        ["_id"] = "Tech Samurai Dragon",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+        ["fromZoneNumber"] = 170,
+        ["cachedZoneNumber"] = 171.6912875757093,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1201677284804},
-        ["name"] = "Corrupt Skeleton",
-        ["zoneNumber"] = 199.8,
-        ["cachedZoneNumber"] = 199.8,
-        ["thumbnail"] = "rbxassetid://17374945083",
-        ["_script"] = "Corrupt Skeleton"
+        ["cachedPower"] = {43865054286},
+        ["name"] = "Tech Samurai Dragon",
+        ["zoneNumber"] = 171.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Tech Samurai Dragon",
+        ["thumbnail"] = "rbxassetid://17026781487",
+        ["fromEgg"] = "Tech Samurai Egg"
     },
-    ["Rave Crab"] = {
+    ["Tech Samurai Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "183, 142",
-            ["faceTopLeftPixel"] = "81, 50",
-            ["imageSize"] = "250, 166"
-        },
-        ["_script"] = "Rave Crab",
-        ["name"] = "Rave Crab",
-        ["_id"] = "Rave Crab",
-        ["exclusiveLevel"] = 1,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968316850",
-        ["goldenThumbnail"] = "rbxassetid://14968316730"
-    },
-    ["Creepy Yeti"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "226, 199",
-            ["faceTopLeftPixel"] = "75, 63",
-            ["imageSize"] = "250, 240"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17374944579",
-        ["_id"] = "Creepy Yeti",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1068157586492},
-        ["name"] = "Creepy Yeti",
-        ["zoneNumber"] = 198.8,
-        ["cachedZoneNumber"] = 198.8,
-        ["thumbnail"] = "rbxassetid://17374944347",
-        ["_script"] = "Creepy Yeti"
-    },
-    ["Creepy Wolf"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 184",
-            ["faceTopLeftPixel"] = "84, 64",
+            ["faceBottomRightPixel"] = "208, 180",
+            ["faceTopLeftPixel"] = "69, 55",
             ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://17374944886",
-        ["_id"] = "Creepy Wolf",
+        ["goldenThumbnail"] = "rbxassetid://17026781007",
+        ["_id"] = "Tech Samurai Cat",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+        ["fromZoneNumber"] = 170,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1520872813580},
-        ["name"] = "Creepy Wolf",
-        ["zoneNumber"] = 201.8,
-        ["cachedZoneNumber"] = 201.8,
-        ["thumbnail"] = "rbxassetid://17374944716",
-        ["_script"] = "Creepy Wolf"
+        ["cachedPower"] = {41145912477},
+        ["name"] = "Tech Samurai Cat",
+        ["zoneNumber"] = 171.1525251416353,
+        ["cachedZoneNumber"] = 171.1525251416353,
+        ["_script"] = "Tech Samurai Cat",
+        ["thumbnail"] = "rbxassetid://17026781127",
+        ["fromEgg"] = "Tech Samurai Egg"
+    },
+    ["Cyberpunk Spider"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 126",
+            ["faceTopLeftPixel"] = "88, 20",
+            ["imageSize"] = "250, 155"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17026772623",
+        ["_id"] = "Cyberpunk Spider",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 168,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {32510350599},
+        ["name"] = "Cyberpunk Spider",
+        ["zoneNumber"] = 169.1525251416353,
+        ["cachedZoneNumber"] = 169.1525251416353,
+        ["_script"] = "Cyberpunk Spider",
+        ["thumbnail"] = "rbxassetid://17026773017",
+        ["fromEgg"] = "Cyberpunk Road Egg"
+    },
+    ["Cyberpunk Meerkat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "220, 203",
+            ["faceTopLeftPixel"] = "68, 79",
+            ["imageSize"] = "250, 244"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17026772124",
+        ["_id"] = "Cyberpunk Meerkat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 166,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {27384737442},
+        ["name"] = "Cyberpunk Meerkat",
+        ["zoneNumber"] = 167.6912875757093,
+        ["cachedZoneNumber"] = 167.6912875757093,
+        ["_script"] = "Cyberpunk Meerkat",
+        ["thumbnail"] = "rbxassetid://17026772356",
+        ["fromEgg"] = "Cyberpunk Industrial Egg"
     },
     ["Abyssal Kraken"] = {
         ["iconSettings"] = {
@@ -12936,92 +14575,92 @@ data = {
         ["thumbnail"] = "rbxassetid://14968347006",
         ["goldenThumbnail"] = "rbxassetid://14968346853"
     },
-    ["Plague Dragon"] = {
+    ["Pirate Panda"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 182",
-            ["faceTopLeftPixel"] = "89, 67",
-            ["imageSize"] = "250, 222"
+            ["faceBottomRightPixel"] = "185, 185",
+            ["faceTopLeftPixel"] = "54, 64",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://17374943172",
-        ["_id"] = "Plague Dragon",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1574881081107},
-        ["name"] = "Plague Dragon",
-        ["zoneNumber"] = 202.1,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 202.1,
-        ["thumbnail"] = "rbxassetid://17374942910",
-        ["_script"] = "Plague Dragon"
-    },
-    ["Turkey"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "244, 186",
-            ["faceTopLeftPixel"] = "120, 74",
-            ["imageSize"] = "250, 219"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968355157",
-        ["_id"] = "Turkey",
+        ["goldenThumbnail"] = "rbxassetid://14968303283",
+        ["_id"] = "Pirate Panda",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 5,
+        ["fromZoneNumber"] = 28,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {75},
-        ["name"] = "Turkey",
-        ["zoneNumber"] = 5.916477751675625,
-        ["cachedZoneNumber"] = 5.916477751675625,
-        ["_script"] = "Turkey",
-        ["thumbnail"] = "rbxassetid://14968355260",
-        ["fromEgg"] = "Hive Egg"
+        ["cachedPower"] = {2104},
+        ["name"] = "Pirate Panda",
+        ["zoneNumber"] = 28.60848751918909,
+        ["cachedZoneNumber"] = 28.60848751918909,
+        ["_script"] = "Pirate Panda",
+        ["thumbnail"] = "rbxassetid://14968303410",
+        ["fromEgg"] = "Ship Egg"
     },
-    ["Black Hole Immortuus"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://17285711302",
-        ["_id"] = "Black Hole Immortuus",
+    ["Titanic Nightfall Wolf"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16394133269",
+        ["_id"] = "Titanic Nightfall Wolf",
+        ["indexObtainable"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["_script"] = "Black Hole Immortuus",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 205",
-            ["faceTopLeftPixel"] = "101, 107",
-            ["imageSize"] = "250, 234"
-        },
-        ["thumbnail"] = "rbxassetid://17285745121",
-        ["name"] = "Black Hole Immortuus"
+        ["name"] = "Titanic Nightfall Wolf",
+        ["indexDesc"] = "Comes with the Titanic Nightfall Wolf plush!",
+        ["thumbnail"] = "rbxassetid://16394133066",
+        ["_script"] = "Titanic Nightfall Wolf"
     },
-    ["Black Hole Kitsune"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://17285711649",
-        ["_id"] = "Black Hole Kitsune",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["_script"] = "Black Hole Kitsune",
+    ["Cyberpunk Gecko"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 197",
-            ["faceTopLeftPixel"] = "113, 82",
-            ["imageSize"] = "250, 232"
+            ["faceBottomRightPixel"] = "241, 176",
+            ["faceTopLeftPixel"] = "70, 19",
+            ["imageSize"] = "250, 225"
         },
-        ["thumbnail"] = "rbxassetid://17285711731",
-        ["name"] = "Black Hole Kitsune"
-    },
-    ["Void Alien"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 197",
-            ["faceTopLeftPixel"] = "56, 66",
-            ["imageSize"] = "213, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17276416611",
-        ["_id"] = "Void Alien",
+        ["goldenThumbnail"] = "rbxassetid://17026771041",
+        ["_id"] = "Cyberpunk Gecko",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
+        ["fromZoneNumber"] = 165,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1472870513798},
-        ["name"] = "Void Alien",
-        ["zoneNumber"] = 201.52225143726233,
-        ["cachedZoneNumber"] = 201.52225143726233,
-        ["_script"] = "Void Alien",
-        ["thumbnail"] = "rbxassetid://17276416688",
-        ["fromEgg"] = "Void Spiral Egg"
+        ["cachedPower"] = {22833058308},
+        ["name"] = "Cyberpunk Gecko",
+        ["zoneNumber"] = 166.1525251416353,
+        ["cachedZoneNumber"] = 166.1525251416353,
+        ["_script"] = "Cyberpunk Gecko",
+        ["thumbnail"] = "rbxassetid://17026771137",
+        ["fromEgg"] = "Cyberpunk Undercity Egg"
+    },
+    ["Cyberpunk Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "221, 209",
+            ["faceTopLeftPixel"] = "67, 71",
+            ["imageSize"] = "236, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17026770829",
+        ["_id"] = "Cyberpunk Dog",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 167,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {30807829622},
+        ["name"] = "Cyberpunk Dog",
+        ["zoneNumber"] = 168.6912875757093,
+        ["cachedZoneNumber"] = 168.6912875757093,
+        ["_script"] = "Cyberpunk Dog",
+        ["thumbnail"] = "rbxassetid://17026770948",
+        ["fromEgg"] = "Cyberpunk City Egg"
+    },
+    ["Cyberpunk Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "221, 209",
+            ["faceTopLeftPixel"] = "67, 74",
+            ["imageSize"] = "237, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17026770610",
+        ["_id"] = "Cyberpunk Cat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 167,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {28898089421},
+        ["name"] = "Cyberpunk Cat",
+        ["zoneNumber"] = 168.1525251416353,
+        ["cachedZoneNumber"] = 168.1525251416353,
+        ["_script"] = "Cyberpunk Cat",
+        ["thumbnail"] = "rbxassetid://17026770713",
+        ["fromEgg"] = "Cyberpunk City Egg"
     },
     ["Guilded Raven"] = {
         ["iconSettings"] = {
@@ -13042,40 +14681,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968252788",
         ["fromEgg"] = "Spike Egg"
     },
-    ["Atomic Monkey"] = {
+    ["Cyberpunk Bunny"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "191, 177",
-            ["faceTopLeftPixel"] = "90, 85",
-            ["imageSize"] = "223, 250"
+            ["faceBottomRightPixel"] = "184, 216",
+            ["faceTopLeftPixel"] = "55, 110",
+            ["imageSize"] = "193, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270072897",
-        ["_id"] = "Atomic Monkey",
-        ["cachedZoneNumber"] = 198.6912875757093,
+        ["goldenThumbnail"] = "rbxassetid://17026770373",
+        ["_id"] = "Cyberpunk Bunny",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 197,
-        ["weld"] = true,
+        ["fromZoneNumber"] = 166,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1054961904588},
-        ["name"] = "Atomic Monkey",
-        ["zoneNumber"] = 198.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Atomic Monkey",
-        ["thumbnail"] = "rbxassetid://17270072951",
-        ["fromEgg"] = "Void Crystal Egg"
+        ["cachedPower"] = {25687190597},
+        ["name"] = "Cyberpunk Bunny",
+        ["zoneNumber"] = 167.1525251416353,
+        ["cachedZoneNumber"] = 167.1525251416353,
+        ["_script"] = "Cyberpunk Bunny",
+        ["thumbnail"] = "rbxassetid://17026770495",
+        ["fromEgg"] = "Cyberpunk Industrial Egg"
     },
-    ["Clover Unicorn"] = {
+    ["Runic Wolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 211",
-            ["faceTopLeftPixel"] = "58, 80",
-            ["imageSize"] = "210, 250"
+            ["faceBottomRightPixel"] = "206, 209",
+            ["faceTopLeftPixel"] = "59, 76",
+            ["imageSize"] = "237, 250"
         },
-        ["_script"] = "Clover Unicorn",
-        ["name"] = "Clover Unicorn",
-        ["_id"] = "Clover Unicorn",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://17026779130",
+        ["_id"] = "Runic Wolf",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 164,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968197550",
-        ["goldenThumbnail"] = "rbxassetid://14968197341"
+        ["cachedPower"] = {20296051830},
+        ["name"] = "Runic Wolf",
+        ["zoneNumber"] = 165.1525251416353,
+        ["cachedZoneNumber"] = 165.1525251416353,
+        ["_script"] = "Runic Wolf",
+        ["thumbnail"] = "rbxassetid://17026779290",
+        ["fromEgg"] = "Wizard Dungeon Egg"
     },
     ["Prison Axolotl"] = {
         ["iconSettings"] = {
@@ -13175,25 +14817,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968276872",
         ["_script"] = "Lucki"
     },
-    ["Quantum Griffin"] = {
+    ["Relic Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 167",
-            ["faceTopLeftPixel"] = "98, 59",
-            ["imageSize"] = "250, 199"
+            ["faceBottomRightPixel"] = "218, 208",
+            ["faceTopLeftPixel"] = "63, 65",
+            ["imageSize"] = "226, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270075114",
-        ["_id"] = "Quantum Griffin",
+        ["goldenThumbnail"] = "rbxassetid://17026776930",
+        ["_id"] = "Relic Fox",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 196,
-        ["cachedZoneNumber"] = 197.1525251416353,
+        ["fromZoneNumber"] = 162,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {879614300920},
-        ["name"] = "Quantum Griffin",
-        ["zoneNumber"] = 197.1525251416353,
-        ["fly"] = true,
-        ["_script"] = "Quantum Griffin",
-        ["thumbnail"] = "rbxassetid://17270075186",
-        ["fromEgg"] = "Quantum Galaxy Egg"
+        ["cachedPower"] = {16036386631},
+        ["name"] = "Relic Fox",
+        ["zoneNumber"] = 163.1525251416353,
+        ["cachedZoneNumber"] = 163.1525251416353,
+        ["_script"] = "Relic Fox",
+        ["thumbnail"] = "rbxassetid://17026777052",
+        ["fromEgg"] = "Wizard Forest Egg"
     },
     ["Huge Valentines Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://16291099415",
@@ -13239,81 +14880,81 @@ data = {
         ["thumbnail"] = "rbxassetid://14968175223",
         ["fromEgg"] = "Icicle Egg"
     },
-    ["Quantum Goat"] = {
+    ["Frostbyte Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 210",
-            ["faceTopLeftPixel"] = "61, 79",
-            ["imageSize"] = "245, 250"
+            ["faceBottomRightPixel"] = "235, 204",
+            ["faceTopLeftPixel"] = "70, 57",
+            ["imageSize"] = "243, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270074955",
-        ["_id"] = "Quantum Goat",
+        ["goldenThumbnail"] = "rbxassetid://16471609371",
+        ["_id"] = "Frostbyte Bear",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 194,
+        ["fromZoneNumber"] = 124,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {740933463854},
-        ["name"] = "Quantum Goat",
-        ["zoneNumber"] = 195.6912875757093,
-        ["cachedZoneNumber"] = 195.6912875757093,
-        ["_script"] = "Quantum Goat",
-        ["thumbnail"] = "rbxassetid://17270075053",
-        ["fromEgg"] = "Quantum Leafy Egg"
+        ["cachedPower"] = {182520191},
+        ["name"] = "Frostbyte Bear",
+        ["zoneNumber"] = 125.15252982223366,
+        ["cachedZoneNumber"] = 125.15252982223366,
+        ["_script"] = "Frostbyte Bear",
+        ["thumbnail"] = "rbxassetid://16471609155",
+        ["fromEgg"] = "Tech Flurry Egg"
     },
-    ["Quantum Fox"] = {
+    ["Wizard Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 202",
-            ["faceTopLeftPixel"] = "62, 63",
-            ["imageSize"] = "250, 245"
+            ["faceBottomRightPixel"] = "210, 201",
+            ["faceTopLeftPixel"] = "89, 89",
+            ["imageSize"] = "250, 232"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270074801",
-        ["_id"] = "Quantum Fox",
+        ["goldenThumbnail"] = "rbxassetid://17026782475",
+        ["_id"] = "Wizard Cat",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 194,
+        ["fromZoneNumber"] = 163,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {695003892085},
-        ["name"] = "Quantum Fox",
-        ["zoneNumber"] = 195.1525251416353,
-        ["cachedZoneNumber"] = 195.1525251416353,
-        ["_script"] = "Quantum Fox",
-        ["thumbnail"] = "rbxassetid://17270074857",
-        ["fromEgg"] = "Quantum Leafy Egg"
+        ["cachedPower"] = {18040934960},
+        ["name"] = "Wizard Cat",
+        ["zoneNumber"] = 164.1525251416353,
+        ["cachedZoneNumber"] = 164.1525251416353,
+        ["_script"] = "Wizard Cat",
+        ["thumbnail"] = "rbxassetid://17026782764",
+        ["fromEgg"] = "Wizard Tower Egg"
     },
-    ["Quantum Dominus"] = {
+    ["Circuit Slime"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 203",
-            ["faceTopLeftPixel"] = "61, 62",
-            ["imageSize"] = "250, 245"
+            ["faceBottomRightPixel"] = "234, 162",
+            ["faceTopLeftPixel"] = "69, 11",
+            ["imageSize"] = "250, 188"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270074647",
-        ["_id"] = "Quantum Dominus",
+        ["goldenThumbnail"] = "rbxassetid://17026769782",
+        ["_id"] = "Circuit Slime",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 196,
+        ["fromZoneNumber"] = 158,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {937743915190},
-        ["name"] = "Quantum Dominus",
-        ["zoneNumber"] = 197.6912875757093,
-        ["cachedZoneNumber"] = 197.6912875757093,
-        ["_script"] = "Quantum Dominus",
-        ["thumbnail"] = "rbxassetid://17270074741",
-        ["fromEgg"] = "Quantum Galaxy Egg"
+        ["cachedPower"] = {10673046506},
+        ["name"] = "Circuit Slime",
+        ["zoneNumber"] = 159.6912875757093,
+        ["cachedZoneNumber"] = 159.6912875757093,
+        ["_script"] = "Circuit Slime",
+        ["thumbnail"] = "rbxassetid://17026769942",
+        ["fromEgg"] = "Motherboard Egg"
     },
-    ["Holographic Axolotl"] = {
+    ["Ice Snowman"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 187",
-            ["faceTopLeftPixel"] = "72, 60",
-            ["imageSize"] = "250, 223"
+            ["faceBottomRightPixel"] = "191, 230",
+            ["faceTopLeftPixel"] = "68, 120",
+            ["imageSize"] = "205, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270073295",
-        ["_id"] = "Holographic Axolotl",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 178,
+        ["goldenThumbnail"] = "rbxassetid://15715879440",
+        ["_id"] = "Ice Snowman",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 64,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {105568572428},
-        ["name"] = "Holographic Axolotl",
-        ["zoneNumber"] = 179.15229558790114,
-        ["cachedZoneNumber"] = 179.15229558790114,
-        ["_script"] = "Holographic Axolotl",
-        ["thumbnail"] = "rbxassetid://17270073365",
-        ["fromEgg"] = "Holographic Tree Egg"
+        ["cachedPower"] = {151158},
+        ["name"] = "Ice Snowman",
+        ["zoneNumber"] = 64.90669143998151,
+        ["cachedZoneNumber"] = 64.90669143998151,
+        ["_script"] = "Ice Snowman",
+        ["thumbnail"] = "rbxassetid://15715879340",
+        ["fromEgg"] = "Ice Sculpture Egg"
     },
     ["Huge Cool Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976385365",
@@ -13345,38 +14986,39 @@ data = {
         ["thumbnail"] = "rbxassetid://14968282134",
         ["fromEgg"] = "Melted Egg"
     },
-    ["Wireframe Cat"] = {
+    ["Koi Fish"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 207",
-            ["faceTopLeftPixel"] = "62, 63",
-            ["imageSize"] = "228, 250"
+            ["faceBottomRightPixel"] = "206, 147",
+            ["faceTopLeftPixel"] = "70, 23",
+            ["imageSize"] = "250, 169"
         },
-        ["goldenThumbnail"] = "rbxassetid://17270076087",
-        ["_id"] = "Wireframe Cat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 198,
+        ["goldenThumbnail"] = "rbxassetid://15565568346",
+        ["_id"] = "Koi Fish",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 53,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1186832142662},
-        ["name"] = "Wireframe Cat",
-        ["zoneNumber"] = 199.6912875757093,
-        ["cachedZoneNumber"] = 199.6912875757093,
-        ["_script"] = "Wireframe Cat",
-        ["thumbnail"] = "rbxassetid://17270076280",
-        ["fromEgg"] = "Void Fracture Egg"
+        ["cachedPower"] = {41376},
+        ["name"] = "Koi Fish",
+        ["zoneNumber"] = 53.906691439981515,
+        ["cachedZoneNumber"] = 53.906691439981515,
+        ["_script"] = "Koi Fish",
+        ["thumbnail"] = "rbxassetid://15565567792",
+        ["fromEgg"] = "Bonsai Egg"
     },
-    ["Blobfish"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 153",
-            ["faceTopLeftPixel"] = "70, 11",
-            ["imageSize"] = "250, 179"
-        },
-        ["_script"] = "Blobfish",
-        ["name"] = "Blobfish",
-        ["_id"] = "Blobfish",
-        ["exclusiveLevel"] = 1,
+    ["Empyrean Agony"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968228350",
+        ["_id"] = "Empyrean Agony",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968183467",
-        ["goldenThumbnail"] = "rbxassetid://14968183329"
+        ["name"] = "Empyrean Agony",
+        ["fly"] = true,
+        ["_script"] = "Empyrean Agony",
+        ["thumbnail"] = "rbxassetid://14968228476",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "243, 157",
+            ["faceTopLeftPixel"] = "132, 56",
+            ["imageSize"] = "250, 188"
+        }
     },
     ["Error Dog"] = {
         ["iconSettings"] = {
@@ -13411,34 +15053,36 @@ data = {
         ["thumbnail"] = "rbxassetid://18256795926",
         ["_script"] = "Angel Moth"
     },
-    ["Doodle Monkey"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 201",
-            ["faceTopLeftPixel"] = "58, 68",
-            ["imageSize"] = "250, 240"
-        },
-        ["_script"] = "Doodle Monkey",
-        ["name"] = "Doodle Monkey",
-        ["_id"] = "Doodle Monkey",
-        ["hidden"] = true,
+    ["Huge Prickly Panda"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976527196",
+        ["_id"] = "Huge Prickly Panda",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968218515",
-        ["goldenThumbnail"] = "rbxassetid://14968218157"
+        ["name"] = "Huge Prickly Panda",
+        ["indexDesc"] = "Found in the Exclusive Elemental Egg!",
+        ["thumbnail"] = "rbxassetid://14976527289",
+        ["_script"] = "Huge Prickly Panda"
     },
-    ["Forcefield Monkey"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Forcefield Monkey",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Forcefield Monkey",
-        ["_script"] = "Forcefield Monkey",
-        ["thumbnail"] = "rbxassetid://17270152685",
+    ["Electric Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 201",
-            ["faceTopLeftPixel"] = "58, 68",
-            ["imageSize"] = "250, 240"
-        }
+            ["faceBottomRightPixel"] = "209, 195",
+            ["faceTopLeftPixel"] = "93, 89",
+            ["imageSize"] = "250, 226"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16747972338",
+        ["_id"] = "Electric Dragon",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 143,
+        ["cachedZoneNumber"] = 144.6912875757093,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1823898075},
+        ["name"] = "Electric Dragon",
+        ["zoneNumber"] = 144.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Electric Dragon",
+        ["thumbnail"] = "rbxassetid://16747972405",
+        ["fromEgg"] = "Electric Egg"
     },
     ["Scary Cat"] = {
         ["iconSettings"] = {
@@ -13508,72 +15152,16 @@ data = {
         ["thumbnail"] = "rbxassetid://16483328135",
         ["weld"] = true
     },
-    ["Surfboard Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 168",
-            ["faceTopLeftPixel"] = "56, 35",
-            ["imageSize"] = "250, 245"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968349519",
-        ["_id"] = "Surfboard Axolotl",
-        ["animations"] = {
-            ["flyHeightChange"] = 0.025,
-            ["swerve"] = true,
-            ["swerveMaxAngle"] = 60,
-            ["flyHeight"] = 0.09,
-            ["swerveAggression"] = 0.2
-        },
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 208,
-        ["cachedZoneNumber"] = 209.6913108454411,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3854035289192},
-        ["name"] = "Surfboard Axolotl",
-        ["zoneNumber"] = 209.6913108454411,
-        ["fly"] = true,
-        ["_script"] = "Surfboard Axolotl",
-        ["thumbnail"] = "rbxassetid://14968349863",
-        ["fromEgg"] = "Summer Beachball Egg"
-    },
-    ["Huge Cupcake"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976388553",
-        ["_id"] = "Huge Cupcake",
-        ["indexObtainable"] = false,
+    ["Huge Mystical Fox"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976496147",
+        ["_id"] = "Huge Mystical Fox",
+        ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Cupcake",
-        ["indexDesc"] = "Earned from gift rewards in PSX!",
-        ["thumbnail"] = "rbxassetid://14976389145",
-        ["_script"] = "Huge Cupcake"
-    },
-    ["Grumpy Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "66, 63",
-            ["imageSize"] = "231, 250"
-        },
-        ["_script"] = "Grumpy Cat",
-        ["name"] = "Grumpy Cat",
-        ["_id"] = "Grumpy Cat",
-        ["exclusiveLevel"] = 1,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968252224",
-        ["goldenThumbnail"] = "rbxassetid://14968252063"
-    },
-    ["Sketch Corgi"] = {
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["_script"] = "Sketch Corgi",
-        ["name"] = "Sketch Corgi",
-        ["_id"] = "Sketch Corgi",
-        ["animations"] = {
-            ["particlesSketch"] = {
-                ["Idle"] = {["Left"] = "idle left", ["Right"] = "idle right"},
-                ["Farm"] = {["Left"] = "farm left", ["Right"] = "farm right"}
-            }
-        },
-        ["exclusiveLevel"] = 1,
-        ["thumbnail"] = "rbxassetid://17027101955",
-        ["goldenThumbnail"] = "rbxassetid://17028976493"
+        ["name"] = "Huge Mystical Fox",
+        ["indexDesc"] = "Reward in the 2024 Raid Clan Battle!",
+        ["thumbnail"] = "rbxassetid://14976496299",
+        ["_script"] = "Huge Mystical Fox"
     },
     ["Electric Unicorn"] = {
         ["iconSettings"] = {
@@ -13594,63 +15182,116 @@ data = {
         ["thumbnail"] = "rbxassetid://16747972522",
         ["fromEgg"] = "Electric Egg"
     },
-    ["Dino Cat"] = {
+    ["Grumpy Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 206",
-            ["faceTopLeftPixel"] = "64, 63",
-            ["imageSize"] = "229, 250"
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "66, 63",
+            ["imageSize"] = "231, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968208254",
-        ["_id"] = "Dino Cat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 31,
+        ["_script"] = "Grumpy Cat",
+        ["name"] = "Grumpy Cat",
+        ["_id"] = "Grumpy Cat",
+        ["exclusiveLevel"] = 1,
         ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {3824},
-        ["name"] = "Dino Cat",
-        ["zoneNumber"] = 33.68124921157154,
-        ["cachedZoneNumber"] = 33.68124921157154,
-        ["_script"] = "Dino Cat",
-        ["thumbnail"] = "rbxassetid://14968208485",
-        ["fromEgg"] = "Egyptian Egg"
+        ["thumbnail"] = "rbxassetid://14968252224",
+        ["goldenThumbnail"] = "rbxassetid://14968252063"
     },
-    ["Tech Samurai Dragon"] = {
+    ["Astronaut Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 178",
-            ["faceTopLeftPixel"] = "86, 65",
-            ["imageSize"] = "250, 213"
+            ["faceBottomRightPixel"] = "234, 204",
+            ["faceTopLeftPixel"] = "66, 50",
+            ["imageSize"] = "243, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026781280",
-        ["_id"] = "Tech Samurai Dragon",
+        ["goldenThumbnail"] = "rbxassetid://16746701992",
+        ["_id"] = "Astronaut Dog",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 170,
-        ["cachedZoneNumber"] = 171.6912875757093,
+        ["fromZoneNumber"] = 133,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {43865054286},
-        ["name"] = "Tech Samurai Dragon",
-        ["zoneNumber"] = 171.6912875757093,
+        ["cachedPower"] = {561662386},
+        ["name"] = "Astronaut Dog",
+        ["zoneNumber"] = 134.6912875757093,
+        ["cachedZoneNumber"] = 134.6912875757093,
+        ["_script"] = "Astronaut Dog",
+        ["thumbnail"] = "rbxassetid://16746702070",
+        ["fromEgg"] = "Tech Rocket Egg"
+    },
+    ["Nuclear Mortuus"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "212, 209",
+            ["faceTopLeftPixel"] = "100, 107",
+            ["imageSize"] = "250, 239"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16746706194",
+        ["_id"] = "Nuclear Mortuus",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 132,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {468307211},
+        ["name"] = "Nuclear Mortuus",
+        ["zoneNumber"] = 133.1525251416353,
+        ["cachedZoneNumber"] = 133.1525251416353,
+        ["_script"] = "Nuclear Mortuus",
+        ["thumbnail"] = "rbxassetid://16746706290",
+        ["fromEgg"] = "Nuclear Egg"
+    },
+    ["Nuclear Agony"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "225, 145",
+            ["faceTopLeftPixel"] = "121, 51",
+            ["imageSize"] = "250, 176"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16746705619",
+        ["_id"] = "Nuclear Agony",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 132,
+        ["cachedZoneNumber"] = 133.6912875757093,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {499255454},
+        ["name"] = "Nuclear Agony",
+        ["zoneNumber"] = 133.6912875757093,
         ["fly"] = true,
-        ["_script"] = "Tech Samurai Dragon",
-        ["thumbnail"] = "rbxassetid://17026781487",
-        ["fromEgg"] = "Tech Samurai Egg"
+        ["_script"] = "Nuclear Agony",
+        ["thumbnail"] = "rbxassetid://16746705737",
+        ["fromEgg"] = "Nuclear Egg"
     },
-    ["Tech Samurai Cat"] = {
+    ["Frost Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 180",
-            ["faceTopLeftPixel"] = "69, 55",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "213, 208",
+            ["faceTopLeftPixel"] = "61, 70",
+            ["imageSize"] = "221, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026781007",
-        ["_id"] = "Tech Samurai Cat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 170,
+        ["goldenThumbnail"] = "rbxassetid://15637923839",
+        ["_id"] = "Frost Fox",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 64,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {41145912477},
-        ["name"] = "Tech Samurai Cat",
-        ["zoneNumber"] = 171.1525251416353,
-        ["cachedZoneNumber"] = 171.1525251416353,
-        ["_script"] = "Tech Samurai Cat",
-        ["thumbnail"] = "rbxassetid://17026781127",
-        ["fromEgg"] = "Tech Samurai Egg"
+        ["cachedPower"] = {143010},
+        ["name"] = "Frost Fox",
+        ["zoneNumber"] = 64.42659924650711,
+        ["cachedZoneNumber"] = 64.42659924650711,
+        ["_script"] = "Frost Fox",
+        ["thumbnail"] = "rbxassetid://15637923791",
+        ["fromEgg"] = "Ice Sculpture Egg"
+    },
+    ["Electric Griffin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "199, 184",
+            ["faceTopLeftPixel"] = "98, 92",
+            ["imageSize"] = "250, 211"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16746703344",
+        ["_id"] = "Electric Griffin",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 141,
+        ["cachedZoneNumber"] = 142.6912875757093,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1441104652},
+        ["name"] = "Electric Griffin",
+        ["zoneNumber"] = 142.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Electric Griffin",
+        ["thumbnail"] = "rbxassetid://16746703468",
+        ["fromEgg"] = "Electric City Egg"
     },
     ["Glitched Immortuus"] = {
         ["iconSettings"] = {
@@ -13686,59 +15327,54 @@ data = {
             ["imageSize"] = "250, 219"
         }
     },
-    ["Cyberpunk Spider"] = {
+    ["Electric Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 126",
-            ["faceTopLeftPixel"] = "88, 20",
-            ["imageSize"] = "250, 155"
+            ["faceBottomRightPixel"] = "188, 215",
+            ["faceTopLeftPixel"] = "60, 98",
+            ["imageSize"] = "195, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026772623",
-        ["_id"] = "Cyberpunk Spider",
+        ["goldenThumbnail"] = "rbxassetid://16746703097",
+        ["_id"] = "Electric Fox",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 168,
+        ["fromZoneNumber"] = 140,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {32510350599},
-        ["name"] = "Cyberpunk Spider",
-        ["zoneNumber"] = 169.1525251416353,
-        ["cachedZoneNumber"] = 169.1525251416353,
-        ["_script"] = "Cyberpunk Spider",
-        ["thumbnail"] = "rbxassetid://17026773017",
-        ["fromEgg"] = "Cyberpunk Road Egg"
+        ["cachedPower"] = {1201575389},
+        ["name"] = "Electric Fox",
+        ["zoneNumber"] = 141.1525251416353,
+        ["cachedZoneNumber"] = 141.1525251416353,
+        ["_script"] = "Electric Fox",
+        ["thumbnail"] = "rbxassetid://16746703212",
+        ["fromEgg"] = "Electric Garden Egg"
     },
-    ["Cyberpunk Meerkat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 203",
-            ["faceTopLeftPixel"] = "68, 79",
-            ["imageSize"] = "250, 244"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17026772124",
-        ["_id"] = "Cyberpunk Meerkat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 166,
+    ["Super Tiger"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://16746708772",
+        ["_id"] = "Super Tiger",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {27384737442},
-        ["name"] = "Cyberpunk Meerkat",
-        ["zoneNumber"] = 167.6912875757093,
-        ["cachedZoneNumber"] = 167.6912875757093,
-        ["_script"] = "Cyberpunk Meerkat",
-        ["thumbnail"] = "rbxassetid://17026772356",
-        ["fromEgg"] = "Cyberpunk Industrial Egg"
-    },
-    ["Balloon Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 197",
-            ["faceTopLeftPixel"] = "62, 71",
-            ["imageSize"] = "207, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968178657",
-        ["_id"] = "Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Balloon Cat",
+        ["weld"] = true,
+        ["_script"] = "Super Tiger",
         ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968178733",
-        ["_script"] = "Balloon Cat"
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 207",
+            ["faceTopLeftPixel"] = "62, 67",
+            ["imageSize"] = "243, 250"
+        },
+        ["thumbnail"] = "rbxassetid://16746708885",
+        ["name"] = "Super Tiger"
+    },
+    ["Jester Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 198",
+            ["faceTopLeftPixel"] = "68, 40",
+            ["imageSize"] = "250, 245"
+        },
+        ["_script"] = "Jester Dog",
+        ["name"] = "Jester Dog",
+        ["_id"] = "Jester Dog",
+        ["exclusiveLevel"] = 1,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://16746704663",
+        ["goldenThumbnail"] = "rbxassetid://16746704524"
     },
     ["Titanic Scary Corgi"] = {
         ["titanic"] = true,
@@ -13752,75 +15388,83 @@ data = {
         ["thumbnail"] = "rbxassetid://14976669980",
         ["indexDesc"] = "Comes with the Titanic Scary Corgi plush!"
     },
-    ["Huge Nightmare Spirit"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976825201",
-        ["_id"] = "Huge Nightmare Spirit",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Nuclear Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 185",
+            ["faceTopLeftPixel"] = "89, 67",
+            ["imageSize"] = "250, 220"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16746707233",
+        ["_id"] = "Nuclear Dragon",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 129,
+        ["cachedZoneNumber"] = 130.6912875757093,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Nightmare Spirit",
-        ["_script"] = "Huge Nightmare Spirit",
+        ["cachedPower"] = {350643063},
+        ["name"] = "Nuclear Dragon",
+        ["zoneNumber"] = 130.6912875757093,
         ["fly"] = true,
-        ["indexDesc"] = "Found in the Exclusive Nightmare Egg!",
-        ["thumbnail"] = "rbxassetid://14976825431",
-        ["weld"] = true
+        ["_script"] = "Nuclear Dragon",
+        ["thumbnail"] = "rbxassetid://16746708235",
+        ["fromEgg"] = "Nuclear Crack Egg"
     },
-    ["Cyberpunk Gecko"] = {
+    ["Evil Computer"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 176",
-            ["faceTopLeftPixel"] = "70, 19",
-            ["imageSize"] = "250, 225"
+            ["faceBottomRightPixel"] = "241, 169",
+            ["faceTopLeftPixel"] = "67, 10",
+            ["imageSize"] = "250, 220"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026771041",
-        ["_id"] = "Cyberpunk Gecko",
+        ["goldenThumbnail"] = "rbxassetid://16746703541",
+        ["_id"] = "Evil Computer",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 165,
+        ["fromZoneNumber"] = 128,
+        ["cachedZoneNumber"] = 129.6912875757093,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {22833058308},
-        ["name"] = "Cyberpunk Gecko",
-        ["zoneNumber"] = 166.1525251416353,
-        ["cachedZoneNumber"] = 166.1525251416353,
-        ["_script"] = "Cyberpunk Gecko",
-        ["thumbnail"] = "rbxassetid://17026771137",
-        ["fromEgg"] = "Cyberpunk Undercity Egg"
+        ["cachedPower"] = {311682722},
+        ["name"] = "Evil Computer",
+        ["zoneNumber"] = 129.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Evil Computer",
+        ["thumbnail"] = "rbxassetid://16746703643",
+        ["fromEgg"] = "Tech Nexus Egg"
     },
-    ["Cyberpunk Dog"] = {
+    ["Nuclear Axolotl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 209",
-            ["faceTopLeftPixel"] = "67, 71",
-            ["imageSize"] = "236, 250"
+            ["faceBottomRightPixel"] = "205, 142",
+            ["faceTopLeftPixel"] = "58, 9",
+            ["imageSize"] = "250, 184"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026770829",
-        ["_id"] = "Cyberpunk Dog",
+        ["goldenThumbnail"] = "rbxassetid://16746705903",
+        ["_id"] = "Nuclear Axolotl",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 167,
+        ["fromZoneNumber"] = 129,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {30807829622},
-        ["name"] = "Cyberpunk Dog",
-        ["zoneNumber"] = 168.6912875757093,
-        ["cachedZoneNumber"] = 168.6912875757093,
-        ["_script"] = "Cyberpunk Dog",
-        ["thumbnail"] = "rbxassetid://17026770948",
-        ["fromEgg"] = "Cyberpunk City Egg"
+        ["cachedPower"] = {328907122},
+        ["name"] = "Nuclear Axolotl",
+        ["zoneNumber"] = 130.1525251416353,
+        ["cachedZoneNumber"] = 130.1525251416353,
+        ["_script"] = "Nuclear Axolotl",
+        ["thumbnail"] = "rbxassetid://16746706084",
+        ["fromEgg"] = "Nuclear Crack Egg"
     },
-    ["Cyberpunk Cat"] = {
+    ["Red Woofy"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 209",
-            ["faceTopLeftPixel"] = "67, 74",
-            ["imageSize"] = "237, 250"
+            ["faceBottomRightPixel"] = "213, 159",
+            ["faceTopLeftPixel"] = "83, 41",
+            ["imageSize"] = "250, 194"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026770610",
-        ["_id"] = "Cyberpunk Cat",
+        ["goldenThumbnail"] = "rbxassetid://16764657640",
+        ["_id"] = "Red Woofy",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 167,
+        ["fromZoneNumber"] = 136,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {28898089421},
-        ["name"] = "Cyberpunk Cat",
-        ["zoneNumber"] = 168.1525251416353,
-        ["cachedZoneNumber"] = 168.1525251416353,
-        ["_script"] = "Cyberpunk Cat",
-        ["thumbnail"] = "rbxassetid://17026770713",
-        ["fromEgg"] = "Cyberpunk City Egg"
+        ["cachedPower"] = {799710702},
+        ["name"] = "Red Woofy",
+        ["zoneNumber"] = 137.6912875757093,
+        ["cachedZoneNumber"] = 137.6912875757093,
+        ["_script"] = "Red Woofy",
+        ["thumbnail"] = "rbxassetid://16746706891",
+        ["fromEgg"] = "Tech Mars Egg"
     },
     ["Gorilla"] = {
         ["iconSettings"] = {
@@ -13841,43 +15485,41 @@ data = {
         ["thumbnail"] = "rbxassetid://14968250591",
         ["fromEgg"] = "Cactus Egg"
     },
-    ["Cyberpunk Bunny"] = {
+    ["Atlantean Dolphin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "184, 216",
-            ["faceTopLeftPixel"] = "55, 110",
-            ["imageSize"] = "193, 250"
+            ["faceBottomRightPixel"] = "210, 159",
+            ["faceTopLeftPixel"] = "104, 64",
+            ["imageSize"] = "250, 177"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026770373",
-        ["_id"] = "Cyberpunk Bunny",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 166,
+        ["goldenThumbnail"] = "rbxassetid://14968175998",
+        ["_id"] = "Atlantean Dolphin",
+        ["indexObtainable"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {25687190597},
-        ["name"] = "Cyberpunk Bunny",
-        ["zoneNumber"] = 167.1525251416353,
-        ["cachedZoneNumber"] = 167.1525251416353,
-        ["_script"] = "Cyberpunk Bunny",
-        ["thumbnail"] = "rbxassetid://17026770495",
-        ["fromEgg"] = "Cyberpunk Industrial Egg"
+        ["name"] = "Atlantean Dolphin",
+        ["_script"] = "Atlantean Dolphin",
+        ["indexDesc"] = "Found in the Exclusive Atlantean Egg!",
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://14968176121",
+        ["exclusiveLevel"] = 3
     },
-    ["Runic Wolf"] = {
+    ["Frostbyte Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 209",
-            ["faceTopLeftPixel"] = "59, 76",
-            ["imageSize"] = "237, 250"
+            ["faceBottomRightPixel"] = "225, 207",
+            ["faceTopLeftPixel"] = "67, 64",
+            ["imageSize"] = "233, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026779130",
-        ["_id"] = "Runic Wolf",
+        ["goldenThumbnail"] = "rbxassetid://16746703785",
+        ["_id"] = "Frostbyte Cat",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 164,
+        ["fromZoneNumber"] = 125,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {20296051830},
-        ["name"] = "Runic Wolf",
-        ["zoneNumber"] = 165.1525251416353,
-        ["cachedZoneNumber"] = 165.1525251416353,
-        ["_script"] = "Runic Wolf",
-        ["thumbnail"] = "rbxassetid://17026779290",
-        ["fromEgg"] = "Wizard Dungeon Egg"
+        ["cachedPower"] = {180425231},
+        ["name"] = "Frostbyte Cat",
+        ["zoneNumber"] = 125.05895538899186,
+        ["cachedZoneNumber"] = 125.05895538899186,
+        ["_script"] = "Frostbyte Cat",
+        ["thumbnail"] = "rbxassetid://16746703911",
+        ["fromEgg"] = "Tech Ice Circuit Egg"
     },
     ["Huge Sensei Penguin"] = {
         ["goldenThumbnail"] = "rbxassetid://16029125841",
@@ -13908,24 +15550,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968196669",
         ["_script"] = "Clover Axolotl"
     },
-    ["Virus Griffin"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 182",
-            ["faceTopLeftPixel"] = "89, 67",
-            ["imageSize"] = "250, 222"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17825046728",
-        ["_id"] = "Virus Griffin",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 214,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {10239838170985},
-        ["name"] = "Virus Griffin",
-        ["zoneNumber"] = 218,
-        ["fly"] = true,
-        ["cachedZoneNumber"] = 218,
-        ["thumbnail"] = "rbxassetid://17825046852",
-        ["_script"] = "Virus Griffin"
+    ["Huge Dino Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976397095",
+        ["_id"] = "Huge Dino Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Dino Cat",
+        ["indexDesc"] = "Tied to the Huge Plush merch in stores!",
+        ["thumbnail"] = "rbxassetid://14976397288",
+        ["_script"] = "Huge Dino Cat"
     },
     ["Doodle Griffin"] = {
         ["iconSettings"] = {
@@ -14020,24 +15654,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968196023",
         ["exclusiveLevel"] = 2
     },
-    ["Relic Fox"] = {
+    ["Horse"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 208",
-            ["faceTopLeftPixel"] = "63, 65",
-            ["imageSize"] = "226, 250"
+            ["faceBottomRightPixel"] = "215, 207",
+            ["faceTopLeftPixel"] = "61, 67",
+            ["imageSize"] = "223, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026776930",
-        ["_id"] = "Relic Fox",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 162,
+        ["goldenThumbnail"] = "rbxassetid://14968259574",
+        ["_id"] = "Horse",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 34,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {16036386631},
-        ["name"] = "Relic Fox",
-        ["zoneNumber"] = 163.1525251416353,
-        ["cachedZoneNumber"] = 163.1525251416353,
-        ["_script"] = "Relic Fox",
-        ["thumbnail"] = "rbxassetid://17026777052",
-        ["fromEgg"] = "Wizard Forest Egg"
+        ["cachedPower"] = {4267},
+        ["name"] = "Horse",
+        ["zoneNumber"] = 34.60882625947201,
+        ["cachedZoneNumber"] = 34.60882625947201,
+        ["_script"] = "Horse",
+        ["thumbnail"] = "rbxassetid://14968259839",
+        ["fromEgg"] = "Canyon Egg"
     },
     ["Doodle Sloth"] = {
         ["iconSettings"] = {
@@ -14053,24 +15687,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968220876",
         ["goldenThumbnail"] = "rbxassetid://14968220785"
     },
-    ["Robot Bee"] = {
+    ["Lunar Deer"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 207",
-            ["faceTopLeftPixel"] = "61, 69",
-            ["imageSize"] = "221, 250"
+            ["faceBottomRightPixel"] = "177, 216",
+            ["faceTopLeftPixel"] = "50, 101",
+            ["imageSize"] = "184, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16747972888",
-        ["_id"] = "Robot Bee",
+        ["goldenThumbnail"] = "rbxassetid://16746704728",
+        ["_id"] = "Lunar Deer",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 146,
+        ["fromZoneNumber"] = 135,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2435937601},
-        ["name"] = "Robot Bee",
-        ["zoneNumber"] = 147.1525251416353,
-        ["cachedZoneNumber"] = 147.1525251416353,
-        ["_script"] = "Robot Bee",
-        ["thumbnail"] = "rbxassetid://16747972982",
-        ["fromEgg"] = "Tech Hive Egg"
+        ["cachedPower"] = {710853957},
+        ["name"] = "Lunar Deer",
+        ["zoneNumber"] = 136.6912875757093,
+        ["cachedZoneNumber"] = 136.6912875757093,
+        ["_script"] = "Lunar Deer",
+        ["thumbnail"] = "rbxassetid://16746704804",
+        ["fromEgg"] = "Tech Moon Egg"
     },
     ["Huge Puurple Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://17450362996",
@@ -14083,81 +15717,84 @@ data = {
         ["thumbnail"] = "rbxassetid://17450362839",
         ["_script"] = "Huge Puurple Cat"
     },
-    ["Wizard Cat"] = {
+    ["Frostbyte Narwhal"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 201",
-            ["faceTopLeftPixel"] = "89, 89",
-            ["imageSize"] = "250, 232"
+            ["faceBottomRightPixel"] = "225, 151",
+            ["faceTopLeftPixel"] = "82, 21",
+            ["imageSize"] = "250, 174"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026782475",
-        ["_id"] = "Wizard Cat",
+        ["goldenThumbnail"] = "rbxassetid://16764660881",
+        ["_id"] = "Frostbyte Narwhal",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 163,
+        ["fromZoneNumber"] = 126,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {18040934960},
-        ["name"] = "Wizard Cat",
-        ["zoneNumber"] = 164.1525251416353,
-        ["cachedZoneNumber"] = 164.1525251416353,
-        ["_script"] = "Wizard Cat",
-        ["thumbnail"] = "rbxassetid://17026782764",
-        ["fromEgg"] = "Wizard Tower Egg"
+        ["cachedPower"] = {246267830},
+        ["name"] = "Frostbyte Narwhal",
+        ["zoneNumber"] = 127.69128757570932,
+        ["cachedZoneNumber"] = 127.69128757570932,
+        ["_script"] = "Frostbyte Narwhal",
+        ["thumbnail"] = "rbxassetid://16746704071",
+        ["fromEgg"] = "Tech Glacier Egg"
     },
-    ["Circuit Slime"] = {
+    ["Frostbyte Penguin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "234, 162",
-            ["faceTopLeftPixel"] = "69, 11",
-            ["imageSize"] = "250, 188"
+            ["faceBottomRightPixel"] = "230, 163",
+            ["faceTopLeftPixel"] = "76, 22",
+            ["imageSize"] = "250, 205"
         },
-        ["goldenThumbnail"] = "rbxassetid://17026769782",
-        ["_id"] = "Circuit Slime",
+        ["goldenThumbnail"] = "rbxassetid://16746704136",
+        ["_id"] = "Frostbyte Penguin",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 158,
+        ["fromZoneNumber"] = 125,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {10673046506},
-        ["name"] = "Circuit Slime",
-        ["zoneNumber"] = 159.6912875757093,
-        ["cachedZoneNumber"] = 159.6912875757093,
-        ["_script"] = "Circuit Slime",
-        ["thumbnail"] = "rbxassetid://17026769942",
-        ["fromEgg"] = "Motherboard Egg"
+        ["cachedPower"] = {193778430},
+        ["name"] = "Frostbyte Penguin",
+        ["zoneNumber"] = 125.65539544078774,
+        ["cachedZoneNumber"] = 125.65539544078774,
+        ["_script"] = "Frostbyte Penguin",
+        ["thumbnail"] = "rbxassetid://16746704253",
+        ["fromEgg"] = "Tech Ice Circuit Egg"
     },
-    ["Cloud Dog"] = {
+    ["Melted Rock"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 202",
-            ["faceTopLeftPixel"] = "63, 57",
-            ["imageSize"] = "250, 245"
+            ["faceBottomRightPixel"] = "242, 171",
+            ["faceTopLeftPixel"] = "74, 16",
+            ["imageSize"] = "250, 218"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043366417",
-        ["_id"] = "Cloud Dog",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 93,
+        ["goldenThumbnail"] = "rbxassetid://16746705175",
+        ["_id"] = "Melted Rock",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 127,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {5050966},
-        ["name"] = "Cloud Dog",
-        ["zoneNumber"] = 94.69128757570932,
-        ["cachedZoneNumber"] = 94.69128757570932,
-        ["_script"] = "Cloud Dog",
-        ["thumbnail"] = "rbxassetid://16043366316",
-        ["fromEgg"] = "Cloud House Egg"
+        ["cachedPower"] = {277051309},
+        ["name"] = "Melted Rock",
+        ["zoneNumber"] = 128.6912875757093,
+        ["cachedZoneNumber"] = 128.6912875757093,
+        ["_script"] = "Melted Rock",
+        ["thumbnail"] = "rbxassetid://16746705286",
+        ["fromEgg"] = "Tech Melted Egg Egg"
     },
-    ["Silver Moose"] = {
+    ["Umbrella Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 195",
-            ["faceTopLeftPixel"] = "97, 97",
-            ["imageSize"] = "250, 224"
+            ["faceBottomRightPixel"] = "173, 216",
+            ["faceTopLeftPixel"] = "49, 105",
+            ["imageSize"] = "241, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715877930",
-        ["_id"] = "Silver Moose",
+        ["cachedZoneNumber"] = 10.301785007572551,
+        ["goldenThumbnail"] = "rbxassetid://14968356213",
+        ["_id"] = "Umbrella Cat",
+        ["animations"] = {["flyHeight"] = 1, ["flyHeightChange"] = 4, ["flySpeed"] = 0.4},
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 66,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {179481},
-        ["name"] = "Silver Moose",
-        ["zoneNumber"] = 66.35602035742559,
-        ["cachedZoneNumber"] = 66.35602035742559,
-        ["_script"] = "Silver Moose",
-        ["thumbnail"] = "rbxassetid://15715877677",
-        ["fromEgg"] = "Ice Castle Egg Egg"
+        ["fromZoneNumber"] = 10,
+        ["weld"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {222},
+        ["name"] = "Umbrella Cat",
+        ["zoneNumber"] = 10.301785007572551,
+        ["fly"] = true,
+        ["_script"] = "Umbrella Cat",
+        ["thumbnail"] = "rbxassetid://14968356324",
+        ["fromEgg"] = "Dragon Egg"
     },
     ["Titanic Valentines Cat"] = {
         ["titanic"] = true,
@@ -14170,19 +15807,25 @@ data = {
         ["thumbnail"] = "rbxassetid://16234782048",
         ["_script"] = "Titanic Valentines Cat"
     },
-    ["Doodle Lamb"] = {
+    ["Frostbyte Bat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 151",
-            ["faceTopLeftPixel"] = "57, 19",
-            ["imageSize"] = "250, 191"
+            ["faceBottomRightPixel"] = "217, 167",
+            ["faceTopLeftPixel"] = "91, 56",
+            ["imageSize"] = "250, 201"
         },
-        ["_script"] = "Doodle Lamb",
-        ["name"] = "Doodle Lamb",
-        ["_id"] = "Doodle Lamb",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16471609563",
+        ["_id"] = "Frostbyte Bat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 123,
+        ["cachedZoneNumber"] = 124.69128757570932,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968217417",
-        ["goldenThumbnail"] = "rbxassetid://14968217225"
+        ["cachedPower"] = {172961768},
+        ["name"] = "Frostbyte Bat",
+        ["zoneNumber"] = 124.69128757570932,
+        ["fly"] = true,
+        ["_script"] = "Frostbyte Bat",
+        ["thumbnail"] = "rbxassetid://16471609451",
+        ["fromEgg"] = "Tech Ice Crystal Egg"
     },
     ["Tech Cowboy Dog"] = {
         ["iconSettings"] = {
@@ -14223,25 +15866,34 @@ data = {
         ["thumbnail"] = "rbxassetid://17026776805",
         ["fromEgg"] = "Wizard Temple Egg"
     },
-    ["Electric Dragon"] = {
+    ["Abyssal Shark"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 195",
-            ["faceTopLeftPixel"] = "93, 89",
-            ["imageSize"] = "250, 226"
+            ["faceBottomRightPixel"] = "228, 169",
+            ["faceTopLeftPixel"] = "100, 50",
+            ["imageSize"] = "250, 188"
         },
-        ["goldenThumbnail"] = "rbxassetid://16747972338",
-        ["_id"] = "Electric Dragon",
+        ["goldenThumbnail"] = "rbxassetid://16471611544",
+        ["_id"] = "Abyssal Shark",
+        ["animations"] = {
+            ["vertexColorAnim"] = {
+                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.3, ["Value"] = Vector3.new(1.5, 1, 1.5)},
+                {["Time"] = 0.5, ["Value"] = Vector3.new(1.7999999523162842, 1, 1.7999999523162842)},
+                {["Time"] = 0.7, ["Value"] = Vector3.new(1.5, 1, 1.5)},
+                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
+            },
+            ["vertexColorAnimSpeed"] = 0.3
+        },
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 143,
-        ["cachedZoneNumber"] = 144.6912875757093,
+        ["fromZoneNumber"] = 113,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1823898075},
-        ["name"] = "Electric Dragon",
-        ["zoneNumber"] = 144.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Electric Dragon",
-        ["thumbnail"] = "rbxassetid://16747972405",
-        ["fromEgg"] = "Electric Egg"
+        ["cachedPower"] = {53262910},
+        ["name"] = "Abyssal Shark",
+        ["zoneNumber"] = 114.69128757570932,
+        ["cachedZoneNumber"] = 114.69128757570932,
+        ["_script"] = "Abyssal Shark",
+        ["thumbnail"] = "rbxassetid://16471611487",
+        ["fromEgg"] = "Tech Coral Egg"
     },
     ["Doodle Crocodile"] = {
         ["iconSettings"] = {
@@ -14257,24 +15909,34 @@ data = {
         ["thumbnail"] = "rbxassetid://14968214440",
         ["goldenThumbnail"] = "rbxassetid://14968214321"
     },
-    ["Toy Mouse"] = {
+    ["Abyssal Fish"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "192, 211",
-            ["faceTopLeftPixel"] = "55, 86",
-            ["imageSize"] = "201, 250"
+            ["faceBottomRightPixel"] = "211, 169",
+            ["faceTopLeftPixel"] = "94, 63",
+            ["imageSize"] = "250, 188"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968354944",
-        ["_id"] = "Toy Mouse",
+        ["goldenThumbnail"] = "rbxassetid://16471612199",
+        ["_id"] = "Abyssal Fish",
+        ["animations"] = {
+            ["vertexColorAnim"] = {
+                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
+                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
+                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 2, 1)},
+                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
+                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
+            },
+            ["vertexColorAnimSpeed"] = 0.3
+        },
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 155,
+        ["fromZoneNumber"] = 114,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {6527875161},
-        ["name"] = "Toy Mouse",
-        ["zoneNumber"] = 155.51486267931344,
-        ["cachedZoneNumber"] = 155.51486267931344,
-        ["_script"] = "Toy Mouse",
-        ["thumbnail"] = "rbxassetid://14968355065",
-        ["fromEgg"] = "Steampunk Lantern Egg"
+        ["cachedPower"] = {56206357},
+        ["name"] = "Abyssal Fish",
+        ["zoneNumber"] = 115.15252514163531,
+        ["cachedZoneNumber"] = 115.15252514163531,
+        ["_script"] = "Abyssal Fish",
+        ["thumbnail"] = "rbxassetid://16471612106",
+        ["fromEgg"] = "Tech Ship Egg"
     },
     ["Dominus Mushrooms"] = {
         ["iconSettings"] = {
@@ -14295,43 +15957,36 @@ data = {
         ["thumbnail"] = "rbxassetid://17026773570",
         ["fromEgg"] = "Dominus Frigidus Egg"
     },
-    ["Astronaut Dog"] = {
+    ["Silver Moose"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "234, 204",
-            ["faceTopLeftPixel"] = "66, 50",
-            ["imageSize"] = "243, 250"
+            ["faceBottomRightPixel"] = "205, 195",
+            ["faceTopLeftPixel"] = "97, 97",
+            ["imageSize"] = "250, 224"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746701992",
-        ["_id"] = "Astronaut Dog",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 133,
+        ["goldenThumbnail"] = "rbxassetid://15715877930",
+        ["_id"] = "Silver Moose",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 66,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {561662386},
-        ["name"] = "Astronaut Dog",
-        ["zoneNumber"] = 134.6912875757093,
-        ["cachedZoneNumber"] = 134.6912875757093,
-        ["_script"] = "Astronaut Dog",
-        ["thumbnail"] = "rbxassetid://16746702070",
-        ["fromEgg"] = "Tech Rocket Egg"
+        ["cachedPower"] = {179481},
+        ["name"] = "Silver Moose",
+        ["zoneNumber"] = 66.35602035742559,
+        ["cachedZoneNumber"] = 66.35602035742559,
+        ["_script"] = "Silver Moose",
+        ["thumbnail"] = "rbxassetid://15715877677",
+        ["fromEgg"] = "Ice Castle Egg Egg"
     },
-    ["Nuclear Mortuus"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 209",
-            ["faceTopLeftPixel"] = "100, 107",
-            ["imageSize"] = "250, 239"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746706194",
-        ["_id"] = "Nuclear Mortuus",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 132,
+    ["Huge Tropical Flamingo"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644413430",
+        ["_id"] = "Huge Tropical Flamingo",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {468307211},
-        ["name"] = "Nuclear Mortuus",
-        ["zoneNumber"] = 133.1525251416353,
-        ["cachedZoneNumber"] = 133.1525251416353,
-        ["_script"] = "Nuclear Mortuus",
-        ["thumbnail"] = "rbxassetid://16746706290",
-        ["fromEgg"] = "Nuclear Egg"
+        ["name"] = "Huge Tropical Flamingo",
+        ["indexDesc"] = "Found in the (Epic, Mythical) Series 3 Merch Gifts!",
+        ["_script"] = "Huge Tropical Flamingo",
+        ["thumbnail"] = "rbxassetid://18644413250",
+        ["hideSerial"] = true
     },
     ["Doodle Cow"] = {
         ["iconSettings"] = {
@@ -14347,25 +16002,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968214167",
         ["goldenThumbnail"] = "rbxassetid://14968213966"
     },
-    ["Nuclear Agony"] = {
+    ["Moray Eel"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 145",
-            ["faceTopLeftPixel"] = "121, 51",
-            ["imageSize"] = "250, 176"
+            ["faceBottomRightPixel"] = "241, 193",
+            ["faceTopLeftPixel"] = "69, 36",
+            ["imageSize"] = "250, 224"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746705619",
-        ["_id"] = "Nuclear Agony",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 132,
-        ["cachedZoneNumber"] = 133.6912875757093,
+        ["goldenThumbnail"] = "rbxassetid://14968282264",
+        ["_id"] = "Moray Eel",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 24,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {499255454},
-        ["name"] = "Nuclear Agony",
-        ["zoneNumber"] = 133.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Nuclear Agony",
-        ["thumbnail"] = "rbxassetid://16746705737",
-        ["fromEgg"] = "Nuclear Egg"
+        ["cachedPower"] = {1310},
+        ["name"] = "Moray Eel",
+        ["zoneNumber"] = 24.581682352507816,
+        ["cachedZoneNumber"] = 24.581682352507816,
+        ["_script"] = "Moray Eel",
+        ["thumbnail"] = "rbxassetid://14968282484",
+        ["fromEgg"] = "Beach Egg"
     },
     ["Huge Strawberry Corgi"] = {
         ["goldenThumbnail"] = "rbxassetid://15634002856",
@@ -14378,44 +16032,43 @@ data = {
         ["thumbnail"] = "rbxassetid://15634002728",
         ["_script"] = "Huge Strawberry Corgi"
     },
-    ["Pastel Elephant"] = {
+    ["Hi-Tech Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 138",
-            ["faceTopLeftPixel"] = "75, 28",
-            ["imageSize"] = "250, 173"
+            ["faceBottomRightPixel"] = "205, 182",
+            ["faceTopLeftPixel"] = "63, 56",
+            ["imageSize"] = "250, 220"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043358753",
-        ["_id"] = "Pastel Elephant",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 98,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {7926438},
-        ["name"] = "Pastel Elephant",
-        ["zoneNumber"] = 98.51486267931344,
-        ["cachedZoneNumber"] = 98.51486267931344,
-        ["_script"] = "Pastel Elephant",
-        ["thumbnail"] = "rbxassetid://16043358433",
-        ["fromEgg"] = "Colorful Cloud Egg"
-    },
-    ["Electric Griffin"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "199, 184",
-            ["faceTopLeftPixel"] = "98, 92",
-            ["imageSize"] = "250, 211"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746703344",
-        ["_id"] = "Electric Griffin",
+        ["goldenThumbnail"] = "rbxassetid://16471604430",
+        ["_id"] = "Hi-Tech Monkey",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 141,
-        ["cachedZoneNumber"] = 142.6912875757093,
+        ["fromZoneNumber"] = 109,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1441104652},
-        ["name"] = "Electric Griffin",
-        ["zoneNumber"] = 142.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Electric Griffin",
-        ["thumbnail"] = "rbxassetid://16746703468",
-        ["fromEgg"] = "Electric City Egg"
+        ["cachedPower"] = {31190535},
+        ["name"] = "Hi-Tech Monkey",
+        ["zoneNumber"] = 110.15252514163531,
+        ["cachedZoneNumber"] = 110.15252514163531,
+        ["_script"] = "Hi-Tech Monkey",
+        ["thumbnail"] = "rbxassetid://16471604319",
+        ["fromEgg"] = "Tech Overgrown Egg"
+    },
+    ["Frostbyte Deer"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "197, 213",
+            ["faceTopLeftPixel"] = "57, 86",
+            ["imageSize"] = "204, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471609087",
+        ["_id"] = "Frostbyte Deer",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 122,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {144213401},
+        ["name"] = "Frostbyte Deer",
+        ["zoneNumber"] = 123.15252514163531,
+        ["cachedZoneNumber"] = 123.15252514163531,
+        ["_script"] = "Frostbyte Deer",
+        ["thumbnail"] = "rbxassetid://16471608117",
+        ["fromEgg"] = "Tech Mossy Egg"
     },
     ["Blurred Bear"] = {
         ["iconSettings"] = {
@@ -14431,24 +16084,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14968186755",
         ["goldenThumbnail"] = "rbxassetid://14968186681"
     },
-    ["Electric Fox"] = {
+    ["Frostbyte Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 215",
-            ["faceTopLeftPixel"] = "60, 98",
-            ["imageSize"] = "195, 250"
+            ["faceBottomRightPixel"] = "219, 185",
+            ["faceTopLeftPixel"] = "89, 70",
+            ["imageSize"] = "250, 220"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746703097",
-        ["_id"] = "Electric Fox",
+        ["goldenThumbnail"] = "rbxassetid://16471607913",
+        ["_id"] = "Frostbyte Dragon",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 140,
+        ["fromZoneNumber"] = 121,
+        ["cachedZoneNumber"] = 122.69128757570932,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1201575389},
-        ["name"] = "Electric Fox",
-        ["zoneNumber"] = 141.1525251416353,
-        ["cachedZoneNumber"] = 141.1525251416353,
-        ["_script"] = "Electric Fox",
-        ["thumbnail"] = "rbxassetid://16746703212",
-        ["fromEgg"] = "Electric Garden Egg"
+        ["cachedPower"] = {136661150},
+        ["name"] = "Frostbyte Dragon",
+        ["zoneNumber"] = 122.69128757570932,
+        ["fly"] = true,
+        ["_script"] = "Frostbyte Dragon",
+        ["thumbnail"] = "rbxassetid://16471607717",
+        ["fromEgg"] = "Tech Snow Egg"
     },
     ["Camel"] = {
         ["iconSettings"] = {
@@ -14469,158 +16123,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14968189415",
         ["fromEgg"] = "Sandstone Egg"
     },
-    ["Super Tiger"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://16746708772",
-        ["_id"] = "Super Tiger",
+    ["Hi-Tech Parrot"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 100",
+            ["faceTopLeftPixel"] = "98, 6",
+            ["imageSize"] = "250, 127"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471604164",
+        ["_id"] = "Hi-Tech Parrot",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 109,
+        ["cachedZoneNumber"] = 110.69128757570932,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["_script"] = "Super Tiger",
+        ["cachedPower"] = {33251773},
+        ["name"] = "Hi-Tech Parrot",
+        ["zoneNumber"] = 110.69128757570932,
         ["fly"] = true,
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 207",
-            ["faceTopLeftPixel"] = "62, 67",
-            ["imageSize"] = "243, 250"
-        },
-        ["thumbnail"] = "rbxassetid://16746708885",
-        ["name"] = "Super Tiger"
-    },
-    ["Jester Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 198",
-            ["faceTopLeftPixel"] = "68, 40",
-            ["imageSize"] = "250, 245"
-        },
-        ["_script"] = "Jester Dog",
-        ["name"] = "Jester Dog",
-        ["_id"] = "Jester Dog",
-        ["exclusiveLevel"] = 1,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://16746704663",
-        ["goldenThumbnail"] = "rbxassetid://16746704524"
-    },
-    ["Nuclear Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 185",
-            ["faceTopLeftPixel"] = "89, 67",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746707233",
-        ["_id"] = "Nuclear Dragon",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 129,
-        ["cachedZoneNumber"] = 130.6912875757093,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {350643063},
-        ["name"] = "Nuclear Dragon",
-        ["zoneNumber"] = 130.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Nuclear Dragon",
-        ["thumbnail"] = "rbxassetid://16746708235",
-        ["fromEgg"] = "Nuclear Crack Egg"
-    },
-    ["Evil Computer"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 169",
-            ["faceTopLeftPixel"] = "67, 10",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746703541",
-        ["_id"] = "Evil Computer",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 128,
-        ["cachedZoneNumber"] = 129.6912875757093,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {311682722},
-        ["name"] = "Evil Computer",
-        ["zoneNumber"] = 129.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Evil Computer",
-        ["thumbnail"] = "rbxassetid://16746703643",
-        ["fromEgg"] = "Tech Nexus Egg"
-    },
-    ["Nuclear Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 142",
-            ["faceTopLeftPixel"] = "58, 9",
-            ["imageSize"] = "250, 184"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746705903",
-        ["_id"] = "Nuclear Axolotl",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 129,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {328907122},
-        ["name"] = "Nuclear Axolotl",
-        ["zoneNumber"] = 130.1525251416353,
-        ["cachedZoneNumber"] = 130.1525251416353,
-        ["_script"] = "Nuclear Axolotl",
-        ["thumbnail"] = "rbxassetid://16746706084",
-        ["fromEgg"] = "Nuclear Crack Egg"
-    },
-    ["Party Cat"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968295686",
-        ["_id"] = "Party Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Party Cat",
-        ["_script"] = "Party Cat",
-        ["thumbnail"] = "rbxassetid://14968295863",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 210",
-            ["faceTopLeftPixel"] = "58, 77",
-            ["imageSize"] = "212, 250"
-        }
-    },
-    ["Huge Firefighter Dalmation"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976432733",
-        ["_id"] = "Huge Firefighter Dalmation",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Firefighter Dalmatian",
-        ["indexDesc"] = "Hatched from eggs in PSX!",
-        ["thumbnail"] = "rbxassetid://14976432950",
-        ["_script"] = "Huge Firefighter Dalmation"
-    },
-    ["Cyborg Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 184",
-            ["faceTopLeftPixel"] = "89, 68",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968204990",
-        ["_id"] = "Cyborg Dragon",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 49,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {27127},
-        ["name"] = "Cyborg Dragon",
-        ["zoneNumber"] = 50.314366329259784,
-        ["cachedZoneNumber"] = 50.314366329259784,
-        ["_script"] = "Cyborg Dragon",
-        ["thumbnail"] = "rbxassetid://14968205100",
-        ["fromEgg"] = "Metal Egg"
-    },
-    ["Red Woofy"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 159",
-            ["faceTopLeftPixel"] = "83, 41",
-            ["imageSize"] = "250, 194"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16764657640",
-        ["_id"] = "Red Woofy",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 136,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {799710702},
-        ["name"] = "Red Woofy",
-        ["zoneNumber"] = 137.6912875757093,
-        ["cachedZoneNumber"] = 137.6912875757093,
-        ["_script"] = "Red Woofy",
-        ["thumbnail"] = "rbxassetid://16746706891",
-        ["fromEgg"] = "Tech Mars Egg"
+        ["_script"] = "Hi-Tech Parrot",
+        ["thumbnail"] = "rbxassetid://16471604009",
+        ["fromEgg"] = "Tech Overgrown Egg"
     },
     ["Abyssal Seal"] = {
         ["iconSettings"] = {
@@ -14651,6 +16172,140 @@ data = {
         ["thumbnail"] = "rbxassetid://16471611609",
         ["fromEgg"] = "Tech Palm Egg"
     },
+    ["Frostbyte Snow Leopard"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "235, 205",
+            ["faceTopLeftPixel"] = "71, 52",
+            ["imageSize"] = "242, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471606739",
+        ["_id"] = "Frostbyte Snow Leopard",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 122,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {153743794},
+        ["name"] = "Frostbyte Snow Leopard",
+        ["zoneNumber"] = 123.69128757570932,
+        ["cachedZoneNumber"] = 123.69128757570932,
+        ["_script"] = "Frostbyte Snow Leopard",
+        ["thumbnail"] = "rbxassetid://16471606444",
+        ["fromEgg"] = "Tech Mossy Egg"
+    },
+    ["Hi-Tech Ladybug"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 208",
+            ["faceTopLeftPixel"] = "70, 74",
+            ["imageSize"] = "229, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471604612",
+        ["_id"] = "Hi-Tech Ladybug",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 108,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {29557131},
+        ["name"] = "Hi-Tech Ladybug",
+        ["zoneNumber"] = 109.69128757570932,
+        ["cachedZoneNumber"] = 109.69128757570932,
+        ["_script"] = "Hi-Tech Ladybug",
+        ["thumbnail"] = "rbxassetid://16471604503",
+        ["fromEgg"] = "Tech Incubator Egg"
+    },
+    ["Tech Camel"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 207",
+            ["faceTopLeftPixel"] = "61, 67",
+            ["imageSize"] = "223, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471603013",
+        ["_id"] = "Tech Camel",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 116,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {71136171},
+        ["name"] = "Tech Camel",
+        ["zoneNumber"] = 117.15252514163531,
+        ["cachedZoneNumber"] = 117.15252514163531,
+        ["_script"] = "Tech Camel",
+        ["thumbnail"] = "rbxassetid://16471602889",
+        ["fromEgg"] = "Tech Dusty Egg"
+    },
+    ["Party Cat"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968295686",
+        ["_id"] = "Party Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Party Cat",
+        ["_script"] = "Party Cat",
+        ["thumbnail"] = "rbxassetid://14968295863",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 210",
+            ["faceTopLeftPixel"] = "58, 77",
+            ["imageSize"] = "212, 250"
+        }
+    },
+    ["Huge Firefighter Dalmation"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976432733",
+        ["_id"] = "Huge Firefighter Dalmation",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Firefighter Dalmatian",
+        ["indexDesc"] = "Hatched from eggs in PSX!",
+        ["thumbnail"] = "rbxassetid://14976432950",
+        ["_script"] = "Huge Firefighter Dalmation"
+    },
+    ["Huge Lucki"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976478194",
+        ["_id"] = "Huge Lucki",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Lucki",
+        ["fly"] = true,
+        ["_script"] = "Huge Lucki",
+        ["thumbnail"] = "rbxassetid://14976484952",
+        ["indexDesc"] = "Earned from the Lucky Block Event in PSX!"
+    },
+    ["Hi-Tech Bee"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "232, 191",
+            ["faceTopLeftPixel"] = "92, 68",
+            ["imageSize"] = "250, 229"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471605210",
+        ["_id"] = "Hi-Tech Bee",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 108,
+        ["cachedZoneNumber"] = 109.15252514163531,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {27724920},
+        ["name"] = "Hi-Tech Bee",
+        ["zoneNumber"] = 109.15252514163531,
+        ["fly"] = true,
+        ["_script"] = "Hi-Tech Bee",
+        ["thumbnail"] = "rbxassetid://16471605103",
+        ["fromEgg"] = "Tech Incubator Egg"
+    },
+    ["Tech Horse"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 208",
+            ["faceTopLeftPixel"] = "61, 68",
+            ["imageSize"] = "223, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471601941",
+        ["_id"] = "Tech Horse",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 118,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {90031717},
+        ["name"] = "Tech Horse",
+        ["zoneNumber"] = 119.15252514163531,
+        ["cachedZoneNumber"] = 119.15252514163531,
+        ["_script"] = "Tech Horse",
+        ["thumbnail"] = "rbxassetid://16471601862",
+        ["fromEgg"] = "Tech Cactus Egg"
+    },
     ["Huge Atlantean Dolphin"] = {
         ["goldenThumbnail"] = "rbxassetid://14976354324",
         ["_id"] = "Huge Atlantean Dolphin",
@@ -14663,38 +16318,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14976354622",
         ["weld"] = true
     },
-    ["Frostbyte Cat"] = {
+    ["Tech Puma"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 207",
-            ["faceTopLeftPixel"] = "67, 64",
-            ["imageSize"] = "233, 250"
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "64, 60",
+            ["imageSize"] = "231, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746703785",
-        ["_id"] = "Frostbyte Cat",
+        ["goldenThumbnail"] = "rbxassetid://16471601761",
+        ["_id"] = "Tech Puma",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 125,
+        ["fromZoneNumber"] = 116,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {180425231},
-        ["name"] = "Frostbyte Cat",
-        ["zoneNumber"] = 125.05895538899186,
-        ["cachedZoneNumber"] = 125.05895538899186,
-        ["_script"] = "Frostbyte Cat",
-        ["thumbnail"] = "rbxassetid://16746703911",
-        ["fromEgg"] = "Tech Ice Circuit Egg"
+        ["cachedPower"] = {75837230},
+        ["name"] = "Tech Puma",
+        ["zoneNumber"] = 117.69128757570932,
+        ["cachedZoneNumber"] = 117.69128757570932,
+        ["_script"] = "Tech Puma",
+        ["thumbnail"] = "rbxassetid://16471601645",
+        ["fromEgg"] = "Tech Dusty Egg"
     },
-    ["Neon Twilight Wolf"] = {
+    ["Tech Scorpion"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 183",
-            ["faceTopLeftPixel"] = "87, 72",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "189, 208",
+            ["faceTopLeftPixel"] = "71, 103",
+            ["imageSize"] = "250, 235"
         },
-        ["_script"] = "Neon Twilight Wolf",
-        ["name"] = "Neon Twilight Wolf",
-        ["_id"] = "Neon Twilight Wolf",
-        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://16471601561",
+        ["_id"] = "Tech Scorpion",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 117,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://15260347743",
-        ["goldenThumbnail"] = "rbxassetid://15260347843"
+        ["cachedPower"] = {80028193},
+        ["name"] = "Tech Scorpion",
+        ["zoneNumber"] = 118.15252514163531,
+        ["cachedZoneNumber"] = 118.15252514163531,
+        ["_script"] = "Tech Scorpion",
+        ["thumbnail"] = "rbxassetid://16471601490",
+        ["fromEgg"] = "Tech Luminati Egg"
     },
     ["Titanic Red Balloon Cat"] = {
         ["titanic"] = true,
@@ -14714,43 +16374,35 @@ data = {
         ["thumbnail"] = "rbxassetid://14976586155",
         ["indexDesc"] = "Comes with the Titanic Red Balloon Cat plush!"
     },
-    ["Lunar Deer"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "177, 216",
-            ["faceTopLeftPixel"] = "50, 101",
-            ["imageSize"] = "184, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16746704728",
-        ["_id"] = "Lunar Deer",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 135,
+    ["Huge Hippo"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976456310",
+        ["_id"] = "Huge Hippo",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {710853957},
-        ["name"] = "Lunar Deer",
-        ["zoneNumber"] = 136.6912875757093,
-        ["cachedZoneNumber"] = 136.6912875757093,
-        ["_script"] = "Lunar Deer",
-        ["thumbnail"] = "rbxassetid://16746704804",
-        ["fromEgg"] = "Tech Moon Egg"
+        ["name"] = "Huge Hippo",
+        ["indexDesc"] = "Comes with Series 3 Dalmatian Collector Bundle!",
+        ["thumbnail"] = "rbxassetid://14976456459",
+        ["_script"] = "Huge Hippo"
     },
-    ["Frostbyte Narwhal"] = {
+    ["Tech Sphinx"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 151",
-            ["faceTopLeftPixel"] = "82, 21",
-            ["imageSize"] = "250, 174"
+            ["faceBottomRightPixel"] = "210, 158",
+            ["faceTopLeftPixel"] = "98, 57",
+            ["imageSize"] = "250, 188"
         },
-        ["goldenThumbnail"] = "rbxassetid://16764660881",
-        ["_id"] = "Frostbyte Narwhal",
+        ["goldenThumbnail"] = "rbxassetid://16471601398",
+        ["_id"] = "Tech Sphinx",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 126,
+        ["fromZoneNumber"] = 117,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {246267830},
-        ["name"] = "Frostbyte Narwhal",
-        ["zoneNumber"] = 127.69128757570932,
-        ["cachedZoneNumber"] = 127.69128757570932,
-        ["_script"] = "Frostbyte Narwhal",
-        ["thumbnail"] = "rbxassetid://16746704071",
-        ["fromEgg"] = "Tech Glacier Egg"
+        ["cachedPower"] = {85316883},
+        ["name"] = "Tech Sphinx",
+        ["zoneNumber"] = 118.69128757570932,
+        ["cachedZoneNumber"] = 118.69128757570932,
+        ["_script"] = "Tech Sphinx",
+        ["thumbnail"] = "rbxassetid://16471601286",
+        ["fromEgg"] = "Tech Luminati Egg"
     },
     ["Huge Neon Griffin"] = {
         ["goldenThumbnail"] = "rbxassetid://14976498154",
@@ -14778,24 +16430,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968183240",
         ["goldenThumbnail"] = "rbxassetid://14968183149"
     },
-    ["Frostbyte Penguin"] = {
+    ["Cyber Ducky"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "230, 163",
-            ["faceTopLeftPixel"] = "76, 22",
-            ["imageSize"] = "250, 205"
+            ["faceBottomRightPixel"] = "242, 169",
+            ["faceTopLeftPixel"] = "68, 10",
+            ["imageSize"] = "250, 216"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746704136",
-        ["_id"] = "Frostbyte Penguin",
+        ["goldenThumbnail"] = "rbxassetid://16471610556",
+        ["_id"] = "Cyber Ducky",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 125,
+        ["fromZoneNumber"] = 104,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {193778430},
-        ["name"] = "Frostbyte Penguin",
-        ["zoneNumber"] = 125.65539544078774,
-        ["cachedZoneNumber"] = 125.65539544078774,
-        ["_script"] = "Frostbyte Penguin",
-        ["thumbnail"] = "rbxassetid://16746704253",
-        ["fromEgg"] = "Tech Ice Circuit Egg"
+        ["cachedPower"] = {18452371},
+        ["name"] = "Cyber Ducky",
+        ["zoneNumber"] = 105.69128757570932,
+        ["cachedZoneNumber"] = 105.69128757570932,
+        ["_script"] = "Cyber Ducky",
+        ["thumbnail"] = "rbxassetid://16471610472",
+        ["fromEgg"] = "Tech Data Egg"
     },
     ["Wicked Agony"] = {
         ["exclusiveLevel"] = 3,
@@ -14825,24 +16477,59 @@ data = {
         ["thumbnail"] = "rbxassetid://14976666952",
         ["_script"] = "Titanic Sad Cat"
     },
-    ["Melted Rock"] = {
+    ["Cyborg Cow"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 171",
-            ["faceTopLeftPixel"] = "74, 16",
-            ["imageSize"] = "250, 218"
+            ["faceBottomRightPixel"] = "202, 183",
+            ["faceTopLeftPixel"] = "62, 54",
+            ["imageSize"] = "250, 221"
         },
-        ["goldenThumbnail"] = "rbxassetid://16746705175",
-        ["_id"] = "Melted Rock",
+        ["goldenThumbnail"] = "rbxassetid://16471610031",
+        ["_id"] = "Cyborg Cow",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 127,
+        ["fromZoneNumber"] = 103,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {277051309},
-        ["name"] = "Melted Rock",
-        ["zoneNumber"] = 128.6912875757093,
-        ["cachedZoneNumber"] = 128.6912875757093,
-        ["_script"] = "Melted Rock",
-        ["thumbnail"] = "rbxassetid://16746705286",
-        ["fromEgg"] = "Tech Melted Egg Egg"
+        ["cachedPower"] = {16402108},
+        ["name"] = "Cyborg Cow",
+        ["zoneNumber"] = 104.69128757570932,
+        ["cachedZoneNumber"] = 104.69128757570932,
+        ["_script"] = "Cyborg Cow",
+        ["thumbnail"] = "rbxassetid://16471609970",
+        ["fromEgg"] = "Tech Silo Egg"
+    },
+    ["Cyber Slime"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 169",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 197"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16471610401",
+        ["_id"] = "Cyber Slime",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 105,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {18077368},
+        ["name"] = "Cyber Slime",
+        ["zoneNumber"] = 105.51465650424447,
+        ["cachedZoneNumber"] = 105.51465650424447,
+        ["_script"] = "Cyber Slime",
+        ["thumbnail"] = "rbxassetid://16471610337",
+        ["fromEgg"] = "Tech Cuboid Egg"
+    },
+    ["Heart Balloon Cat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://16306672226",
+        ["_id"] = "Heart Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Heart Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Heart Balloon Cat",
+        ["thumbnail"] = "rbxassetid://16306670734",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 179",
+            ["faceTopLeftPixel"] = "47, 69",
+            ["imageSize"] = "234, 250"
+        }
     },
     ["Cyborg Corgi"] = {
         ["iconSettings"] = {
@@ -14862,45 +16549,6 @@ data = {
         ["_script"] = "Cyborg Corgi",
         ["thumbnail"] = "rbxassetid://16471610090",
         ["fromEgg"] = "Tech City Egg"
-    },
-    ["Frostbyte Bat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 167",
-            ["faceTopLeftPixel"] = "91, 56",
-            ["imageSize"] = "250, 201"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471609563",
-        ["_id"] = "Frostbyte Bat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 123,
-        ["cachedZoneNumber"] = 124.69128757570932,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {172961768},
-        ["name"] = "Frostbyte Bat",
-        ["zoneNumber"] = 124.69128757570932,
-        ["fly"] = true,
-        ["_script"] = "Frostbyte Bat",
-        ["thumbnail"] = "rbxassetid://16471609451",
-        ["fromEgg"] = "Tech Ice Crystal Egg"
-    },
-    ["Frostbyte Bear"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "235, 204",
-            ["faceTopLeftPixel"] = "70, 57",
-            ["imageSize"] = "243, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471609371",
-        ["_id"] = "Frostbyte Bear",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 124,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {182520191},
-        ["name"] = "Frostbyte Bear",
-        ["zoneNumber"] = 125.15252982223366,
-        ["cachedZoneNumber"] = 125.15252982223366,
-        ["_script"] = "Frostbyte Bear",
-        ["thumbnail"] = "rbxassetid://16471609155",
-        ["fromEgg"] = "Tech Flurry Egg"
     },
     ["Huge Unicorn Dragon"] = {
         ["goldenThumbnail"] = "rbxassetid://15163489798",
@@ -14945,97 +16593,71 @@ data = {
         ["thumbnail"] = "rbxassetid://18256796953",
         ["_script"] = "Demon Dog"
     },
-    ["Abyssal Fish"] = {
+    ["Jelly Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "211, 169",
-            ["faceTopLeftPixel"] = "94, 63",
-            ["imageSize"] = "250, 188"
+            ["faceBottomRightPixel"] = "223, 148",
+            ["faceTopLeftPixel"] = "89, 41",
+            ["imageSize"] = "250, 187"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471612199",
-        ["_id"] = "Abyssal Fish",
-        ["animations"] = {
-            ["vertexColorAnim"] = {
-                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
-                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 2, 1)},
-                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
-                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
-            },
-            ["vertexColorAnimSpeed"] = 0.3
-        },
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 114,
+        ["goldenThumbnail"] = "rbxassetid://16483034909",
+        ["_id"] = "Jelly Dragon",
+        ["animations"] = {["jelly"] = true},
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {56206357},
-        ["name"] = "Abyssal Fish",
-        ["zoneNumber"] = 115.15252514163531,
-        ["cachedZoneNumber"] = 115.15252514163531,
-        ["_script"] = "Abyssal Fish",
-        ["thumbnail"] = "rbxassetid://16471612106",
-        ["fromEgg"] = "Tech Ship Egg"
+        ["name"] = "Jelly Dragon",
+        ["_script"] = "Jelly Dragon",
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://16483034792",
+        ["exclusiveLevel"] = 1
     },
-    ["Abyssal Dolphin"] = {
+    ["Fire Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "224, 184",
-            ["faceTopLeftPixel"] = "82, 56",
-            ["imageSize"] = "250, 207"
+            ["faceBottomRightPixel"] = "241, 197",
+            ["faceTopLeftPixel"] = "69, 40",
+            ["imageSize"] = "250, 245"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471612338",
-        ["_id"] = "Abyssal Dolphin",
-        ["animations"] = {
-            ["vertexColorAnim"] = {
-                {["Time"] = 0, ["Value"] = Vector3.new(1, 1, 1)},
-                {["Time"] = 0.3, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
-                {["Time"] = 0.5, ["Value"] = Vector3.new(1, 2, 1)},
-                {["Time"] = 0.7, ["Value"] = Vector3.new(1, 1.7000000476837158, 1)},
-                {["Time"] = 1, ["Value"] = Vector3.new(1, 1, 1)}
-            },
-            ["vertexColorAnimSpeed"] = 0.3
-        },
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 114,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {59920774},
-        ["name"] = "Abyssal Dolphin",
-        ["zoneNumber"] = 115.69128757570932,
-        ["cachedZoneNumber"] = 115.69128757570932,
-        ["_script"] = "Abyssal Dolphin",
-        ["thumbnail"] = "rbxassetid://16471612276",
-        ["fromEgg"] = "Tech Ship Egg"
-    },
-    ["Cloud Monkey"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "230.399994, 172.800003",
-            ["faceTopLeftPixel"] = "70, 56.6666679",
-            ["imageSize"] = "242, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16043365955",
-        ["_id"] = "Cloud Monkey",
+        ["goldenThumbnail"] = "rbxassetid://14968237034",
+        ["_id"] = "Fire Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 90,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3547455},
-        ["name"] = "Cloud Monkey",
-        ["zoneNumber"] = 91.69128757570932,
-        ["cachedZoneNumber"] = 91.69128757570932,
-        ["_script"] = "Cloud Monkey",
-        ["thumbnail"] = "rbxassetid://16043365782",
-        ["fromEgg"] = "Cloud Egg"
+        ["fromZoneNumber"] = 46,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {17131},
+        ["name"] = "Fire Dog",
+        ["zoneNumber"] = 46.41023875740115,
+        ["cachedZoneNumber"] = 46.41023875740115,
+        ["_script"] = "Fire Dog",
+        ["thumbnail"] = "rbxassetid://14968237194",
+        ["fromEgg"] = "Bone Egg"
     },
-    ["Nightfall Tiger"] = {
+    ["Nightmare Corgi"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://15260347226",
-        ["_id"] = "Nightfall Tiger",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Nightfall Tiger",
-        ["_script"] = "Nightfall Tiger",
+        ["goldenThumbnail"] = "rbxassetid://16250877429",
+        ["_id"] = "Nightmare Corgi",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Nightmare Corgi",
+        ["_script"] = "Nightmare Corgi",
+        ["thumbnail"] = "rbxassetid://16250877327",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 208",
-            ["faceTopLeftPixel"] = "61, 68",
-            ["imageSize"] = "223, 250"
-        },
-        ["thumbnail"] = "rbxassetid://15260347082",
-        ["hideSerial"] = true
+            ["faceBottomRightPixel"] = "241, 169",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 197"
+        }
+    },
+    ["Diamond Dog"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://16250877669",
+        ["_id"] = "Diamond Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Diamond Dog",
+        ["_script"] = "Diamond Dog",
+        ["thumbnail"] = "rbxassetid://16250877568",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "209, 209",
+            ["faceTopLeftPixel"] = "59, 75",
+            ["imageSize"] = "230, 250"
+        }
     },
     ["Clover Dragon"] = {
         ["exclusiveLevel"] = 3,
@@ -15053,56 +16675,64 @@ data = {
             ["imageSize"] = "250, 211"
         }
     },
-    ["Huge Exquisite Parrot"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976427618",
-        ["_id"] = "Huge Exquisite Parrot",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Exquisite Parrot",
-        ["_script"] = "Huge Exquisite Parrot",
-        ["fly"] = true,
-        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 2 Merch Gifts!",
-        ["thumbnail"] = "rbxassetid://14976427729",
-        ["hideSerial"] = true
-    },
-    ["Hi-Tech Monkey"] = {
+    ["Enchanted Squirrel"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 182",
-            ["faceTopLeftPixel"] = "63, 56",
-            ["imageSize"] = "250, 220"
+            ["faceBottomRightPixel"] = "222, 208",
+            ["faceTopLeftPixel"] = "70, 71",
+            ["imageSize"] = "230, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471604430",
-        ["_id"] = "Hi-Tech Monkey",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 109,
+        ["goldenThumbnail"] = "rbxassetid://18882338585",
+        ["_id"] = "Enchanted Squirrel",
+        ["cachedZoneNumber"] = 219.29166666666666,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Enchanted Squirrel",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {31190535},
-        ["name"] = "Hi-Tech Monkey",
-        ["zoneNumber"] = 110.15252514163531,
-        ["cachedZoneNumber"] = 110.15252514163531,
-        ["_script"] = "Hi-Tech Monkey",
-        ["thumbnail"] = "rbxassetid://16471604319",
-        ["fromEgg"] = "Tech Overgrown Egg"
+        ["cachedPower"] = {11939811304840, 16474641992389},
+        ["name"] = "Enchanted Squirrel",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 219.29166666666666,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882338352",
+        ["preventFuseMachine"] = true
     },
-    ["Frostbyte Deer"] = {
+    ["Knight Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 213",
-            ["faceTopLeftPixel"] = "57, 86",
-            ["imageSize"] = "204, 250"
+            ["faceBottomRightPixel"] = "184, 220",
+            ["faceTopLeftPixel"] = "68, 115",
+            ["imageSize"] = "199, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471609087",
-        ["_id"] = "Frostbyte Deer",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 122,
+        ["goldenThumbnail"] = "rbxassetid://16043359430",
+        ["_id"] = "Knight Cat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 80,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {144213401},
-        ["name"] = "Frostbyte Deer",
-        ["zoneNumber"] = 123.15252514163531,
-        ["cachedZoneNumber"] = 123.15252514163531,
-        ["_script"] = "Frostbyte Deer",
-        ["thumbnail"] = "rbxassetid://16471608117",
-        ["fromEgg"] = "Tech Mossy Egg"
+        ["cachedPower"] = {1092425},
+        ["name"] = "Knight Cat",
+        ["zoneNumber"] = 81.69128757570932,
+        ["cachedZoneNumber"] = 81.69128757570932,
+        ["_script"] = "Knight Cat",
+        ["thumbnail"] = "rbxassetid://16043359236",
+        ["fromEgg"] = "Treasure Egg"
+    },
+    ["Stacked King Slime"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "197, 227",
+            ["faceTopLeftPixel"] = "55, 99",
+            ["imageSize"] = "205, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043356152",
+        ["_id"] = "Stacked King Slime",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 79,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {971044},
+        ["name"] = "Stacked King Slime",
+        ["zoneNumber"] = 80.69128757570932,
+        ["cachedZoneNumber"] = 80.69128757570932,
+        ["_script"] = "Stacked King Slime",
+        ["thumbnail"] = "rbxassetid://16043356028",
+        ["fromEgg"] = "Shadow Egg"
     },
     ["Festive Elf"] = {
         ["iconSettings"] = {
@@ -15165,25 +16795,20 @@ data = {
         ["thumbnail"] = "rbxassetid://14968180415",
         ["fromEgg"] = "Summer Floatie Egg"
     },
-    ["Frostbyte Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 185",
-            ["faceTopLeftPixel"] = "89, 70",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471607913",
-        ["_id"] = "Frostbyte Dragon",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 121,
-        ["cachedZoneNumber"] = 122.69128757570932,
+    ["Old Wizard Corgi"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://18644342993",
+        ["_id"] = "Old Wizard Corgi",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {136661150},
-        ["name"] = "Frostbyte Dragon",
-        ["zoneNumber"] = 122.69128757570932,
-        ["fly"] = true,
-        ["_script"] = "Frostbyte Dragon",
-        ["thumbnail"] = "rbxassetid://16471607717",
-        ["fromEgg"] = "Tech Snow Egg"
+        ["name"] = "Old Wizard Corgi",
+        ["_script"] = "Old Wizard Corgi",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 195",
+            ["faceTopLeftPixel"] = "97, 84",
+            ["imageSize"] = "250, 233"
+        },
+        ["thumbnail"] = "rbxassetid://18644343315",
+        ["hideSerial"] = true
     },
     ["Crowned Corgi"] = {
         ["iconSettings"] = {
@@ -15199,25 +16824,38 @@ data = {
         ["thumbnail"] = "rbxassetid://14968200575",
         ["goldenThumbnail"] = "rbxassetid://14968200350"
     },
-    ["Hi-Tech Parrot"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 100",
-            ["faceTopLeftPixel"] = "98, 6",
-            ["imageSize"] = "250, 127"
+    ["Emoji Corgi"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://16043363636",
+        ["_id"] = "Emoji Corgi",
+        ["animations"] = {
+            ["fadeFrames"] = {
+                {
+                    ["instant"] = true,
+                    ["duration"] = 2,
+                    ["iconThumbnail"] = "rbxassetid://16047312867",
+                    ["textureName"] = "frame1"
+                },
+                {
+                    ["instant"] = true,
+                    ["duration"] = 3,
+                    ["iconThumbnail"] = "rbxassetid://16047313283",
+                    ["textureName"] = "frame2"
+                }
+            },
+            ["idleActionAnimations"] = {{"CorgiJumping", 1}},
+            ["customAnimations"] = true
         },
-        ["goldenThumbnail"] = "rbxassetid://16471604164",
-        ["_id"] = "Hi-Tech Parrot",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 109,
-        ["cachedZoneNumber"] = 110.69128757570932,
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {33251773},
-        ["name"] = "Hi-Tech Parrot",
-        ["zoneNumber"] = 110.69128757570932,
-        ["fly"] = true,
-        ["_script"] = "Hi-Tech Parrot",
-        ["thumbnail"] = "rbxassetid://16471604009",
-        ["fromEgg"] = "Tech Overgrown Egg"
+        ["name"] = "Emoji Corgi",
+        ["_script"] = "Emoji Corgi",
+        ["thumbnail"] = "rbxassetid://16043363519",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "210, 207",
+            ["faceTopLeftPixel"] = "49, 74",
+            ["imageSize"] = "217, 250"
+        }
     },
     ["Thunder Bear"] = {
         ["iconSettings"] = {
@@ -15263,63 +16901,56 @@ data = {
         ["thumbnail"] = "rbxassetid://14968233738",
         ["hideSerial"] = true
     },
-    ["Hi-Tech Ladybug"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 208",
-            ["faceTopLeftPixel"] = "70, 74",
-            ["imageSize"] = "229, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471604612",
-        ["_id"] = "Hi-Tech Ladybug",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 108,
+    ["Huge Exquisite Parrot"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976427618",
+        ["_id"] = "Huge Exquisite Parrot",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {29557131},
-        ["name"] = "Hi-Tech Ladybug",
-        ["zoneNumber"] = 109.69128757570932,
-        ["cachedZoneNumber"] = 109.69128757570932,
-        ["_script"] = "Hi-Tech Ladybug",
-        ["thumbnail"] = "rbxassetid://16471604503",
-        ["fromEgg"] = "Tech Incubator Egg"
-    },
-    ["Tech Camel"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 207",
-            ["faceTopLeftPixel"] = "61, 67",
-            ["imageSize"] = "223, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471603013",
-        ["_id"] = "Tech Camel",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 116,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {71136171},
-        ["name"] = "Tech Camel",
-        ["zoneNumber"] = 117.15252514163531,
-        ["cachedZoneNumber"] = 117.15252514163531,
-        ["_script"] = "Tech Camel",
-        ["thumbnail"] = "rbxassetid://16471602889",
-        ["fromEgg"] = "Tech Dusty Egg"
-    },
-    ["Hi-Tech Bee"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "232, 191",
-            ["faceTopLeftPixel"] = "92, 68",
-            ["imageSize"] = "250, 229"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471605210",
-        ["_id"] = "Hi-Tech Bee",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 108,
-        ["cachedZoneNumber"] = 109.15252514163531,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {27724920},
-        ["name"] = "Hi-Tech Bee",
-        ["zoneNumber"] = 109.15252514163531,
+        ["name"] = "Huge Exquisite Parrot",
+        ["_script"] = "Huge Exquisite Parrot",
         ["fly"] = true,
-        ["_script"] = "Hi-Tech Bee",
-        ["thumbnail"] = "rbxassetid://16471605103",
-        ["fromEgg"] = "Tech Incubator Egg"
+        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 2 Merch Gifts!",
+        ["thumbnail"] = "rbxassetid://14976427729",
+        ["hideSerial"] = true
+    },
+    ["Pastel Deer"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "191, 215",
+            ["faceTopLeftPixel"] = "61, 98",
+            ["imageSize"] = "199, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043359123",
+        ["_id"] = "Pastel Deer",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 92,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {4489748},
+        ["name"] = "Pastel Deer",
+        ["zoneNumber"] = 93.69128757570932,
+        ["cachedZoneNumber"] = 93.69128757570932,
+        ["_script"] = "Pastel Deer",
+        ["thumbnail"] = "rbxassetid://16043358958",
+        ["fromEgg"] = "Cloud Forest Egg"
+    },
+    ["Cloud Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 202",
+            ["faceTopLeftPixel"] = "63, 57",
+            ["imageSize"] = "250, 245"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043366417",
+        ["_id"] = "Cloud Dog",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 93,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {5050966},
+        ["name"] = "Cloud Dog",
+        ["zoneNumber"] = 94.69128757570932,
+        ["cachedZoneNumber"] = 94.69128757570932,
+        ["_script"] = "Cloud Dog",
+        ["thumbnail"] = "rbxassetid://16043366316",
+        ["fromEgg"] = "Cloud House Egg"
     },
     ["Cupcake Pegasus"] = {
         ["iconSettings"] = {
@@ -15335,154 +16966,153 @@ data = {
         ["thumbnail"] = "rbxassetid://14968201741",
         ["goldenThumbnail"] = "rbxassetid://14968201670"
     },
-    ["Tech Horse"] = {
+    ["Pastel Griffin"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 208",
-            ["faceTopLeftPixel"] = "61, 68",
-            ["imageSize"] = "223, 250"
+            ["faceBottomRightPixel"] = "229, 203",
+            ["faceTopLeftPixel"] = "79, 67",
+            ["imageSize"] = "250, 244"
         },
-        ["goldenThumbnail"] = "rbxassetid://16471601941",
-        ["_id"] = "Tech Horse",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 118,
+        ["goldenThumbnail"] = "rbxassetid://16043358020",
+        ["_id"] = "Pastel Griffin",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 98,
+        ["cachedZoneNumber"] = 99.15252514163531,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {90031717},
-        ["name"] = "Tech Horse",
-        ["zoneNumber"] = 119.15252514163531,
-        ["cachedZoneNumber"] = 119.15252514163531,
-        ["_script"] = "Tech Horse",
-        ["thumbnail"] = "rbxassetid://16471601862",
-        ["fromEgg"] = "Tech Cactus Egg"
-    },
-    ["Tech Puma"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "64, 60",
-            ["imageSize"] = "231, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471601761",
-        ["_id"] = "Tech Puma",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 116,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {75837230},
-        ["name"] = "Tech Puma",
-        ["zoneNumber"] = 117.69128757570932,
-        ["cachedZoneNumber"] = 117.69128757570932,
-        ["_script"] = "Tech Puma",
-        ["thumbnail"] = "rbxassetid://16471601645",
-        ["fromEgg"] = "Tech Dusty Egg"
-    },
-    ["Tech Scorpion"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "189, 208",
-            ["faceTopLeftPixel"] = "71, 103",
-            ["imageSize"] = "250, 235"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471601561",
-        ["_id"] = "Tech Scorpion",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 117,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {80028193},
-        ["name"] = "Tech Scorpion",
-        ["zoneNumber"] = 118.15252514163531,
-        ["cachedZoneNumber"] = 118.15252514163531,
-        ["_script"] = "Tech Scorpion",
-        ["thumbnail"] = "rbxassetid://16471601490",
-        ["fromEgg"] = "Tech Luminati Egg"
-    },
-    ["Tech Sphinx"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 158",
-            ["faceTopLeftPixel"] = "98, 57",
-            ["imageSize"] = "250, 188"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471601398",
-        ["_id"] = "Tech Sphinx",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 117,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {85316883},
-        ["name"] = "Tech Sphinx",
-        ["zoneNumber"] = 118.69128757570932,
-        ["cachedZoneNumber"] = 118.69128757570932,
-        ["_script"] = "Tech Sphinx",
-        ["thumbnail"] = "rbxassetid://16471601286",
-        ["fromEgg"] = "Tech Luminati Egg"
-    },
-    ["Cyber Ducky"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 169",
-            ["faceTopLeftPixel"] = "68, 10",
-            ["imageSize"] = "250, 216"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471610556",
-        ["_id"] = "Cyber Ducky",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 104,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {18452371},
-        ["name"] = "Cyber Ducky",
-        ["zoneNumber"] = 105.69128757570932,
-        ["cachedZoneNumber"] = 105.69128757570932,
-        ["_script"] = "Cyber Ducky",
-        ["thumbnail"] = "rbxassetid://16471610472",
-        ["fromEgg"] = "Tech Data Egg"
-    },
-    ["Cyborg Cow"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 183",
-            ["faceTopLeftPixel"] = "62, 54",
-            ["imageSize"] = "250, 221"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471610031",
-        ["_id"] = "Cyborg Cow",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 103,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {16402108},
-        ["name"] = "Cyborg Cow",
-        ["zoneNumber"] = 104.69128757570932,
-        ["cachedZoneNumber"] = 104.69128757570932,
-        ["_script"] = "Cyborg Cow",
-        ["thumbnail"] = "rbxassetid://16471609970",
-        ["fromEgg"] = "Tech Silo Egg"
-    },
-    ["Cyber Slime"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 169",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 197"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16471610401",
-        ["_id"] = "Cyber Slime",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 105,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {18077368},
-        ["name"] = "Cyber Slime",
-        ["zoneNumber"] = 105.51465650424447,
-        ["cachedZoneNumber"] = 105.51465650424447,
-        ["_script"] = "Cyber Slime",
-        ["thumbnail"] = "rbxassetid://16471610337",
-        ["fromEgg"] = "Tech Cuboid Egg"
-    },
-    ["Heart Balloon Cat"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://16306672226",
-        ["_id"] = "Heart Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Heart Balloon Cat",
+        ["cachedPower"] = {8537782},
+        ["name"] = "Pastel Griffin",
+        ["zoneNumber"] = 99.15252514163531,
         ["fly"] = true,
-        ["_script"] = "Heart Balloon Cat",
-        ["thumbnail"] = "rbxassetid://16306670734",
+        ["_script"] = "Pastel Griffin",
+        ["thumbnail"] = "rbxassetid://16043357891",
+        ["fromEgg"] = "Colorful Cloud Egg"
+    },
+    ["Cloud Hedgehog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 179",
-            ["faceTopLeftPixel"] = "47, 69",
-            ["imageSize"] = "234, 250"
-        }
+            ["faceBottomRightPixel"] = "230, 178",
+            ["faceTopLeftPixel"] = "76, 40",
+            ["imageSize"] = "250, 220"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043366163",
+        ["_id"] = "Cloud Hedgehog",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 92,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {4211433},
+        ["name"] = "Cloud Hedgehog",
+        ["zoneNumber"] = 93.15252514163531,
+        ["cachedZoneNumber"] = 93.15252514163531,
+        ["_script"] = "Cloud Hedgehog",
+        ["thumbnail"] = "rbxassetid://16043366050",
+        ["fromEgg"] = "Cloud Forest Egg"
+    },
+    ["Cloud Monkey"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "230.399994, 172.800003",
+            ["faceTopLeftPixel"] = "70, 56.6666679",
+            ["imageSize"] = "242, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043365955",
+        ["_id"] = "Cloud Monkey",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 90,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3547455},
+        ["name"] = "Cloud Monkey",
+        ["zoneNumber"] = 91.69128757570932,
+        ["cachedZoneNumber"] = 91.69128757570932,
+        ["_script"] = "Cloud Monkey",
+        ["thumbnail"] = "rbxassetid://16043365782",
+        ["fromEgg"] = "Cloud Egg"
+    },
+    ["Encrusted Wolf"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 210",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "238, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043360783",
+        ["_id"] = "Encrusted Wolf",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 82,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1296895},
+        ["name"] = "Encrusted Wolf",
+        ["zoneNumber"] = 83.15252514163531,
+        ["cachedZoneNumber"] = 83.15252514163531,
+        ["_script"] = "Encrusted Wolf",
+        ["thumbnail"] = "rbxassetid://16043360588",
+        ["fromEgg"] = "Mythic Egg"
+    },
+    ["Pastel Elephant"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 138",
+            ["faceTopLeftPixel"] = "75, 28",
+            ["imageSize"] = "250, 173"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043358753",
+        ["_id"] = "Pastel Elephant",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 98,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {7926438},
+        ["name"] = "Pastel Elephant",
+        ["zoneNumber"] = 98.51486267931344,
+        ["cachedZoneNumber"] = 98.51486267931344,
+        ["_script"] = "Pastel Elephant",
+        ["thumbnail"] = "rbxassetid://16043358433",
+        ["fromEgg"] = "Colorful Cloud Egg"
+    },
+    ["Pastel Goat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 187",
+            ["faceTopLeftPixel"] = "67, 63",
+            ["imageSize"] = "250, 224"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043358267",
+        ["_id"] = "Pastel Goat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 98,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {9102005},
+        ["name"] = "Pastel Goat",
+        ["zoneNumber"] = 99.69128757570932,
+        ["cachedZoneNumber"] = 99.69128757570932,
+        ["_script"] = "Pastel Goat",
+        ["thumbnail"] = "rbxassetid://16043358145",
+        ["fromEgg"] = "Colorful Cloud Egg"
+    },
+    ["Vibrant Cobra"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 130",
+            ["faceTopLeftPixel"] = "55, 7",
+            ["imageSize"] = "250, 155"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043355910",
+        ["_id"] = "Vibrant Cobra",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 99,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {10239761},
+        ["name"] = "Vibrant Cobra",
+        ["zoneNumber"] = 100.69129232292755,
+        ["cachedZoneNumber"] = 100.69129232292755,
+        ["_script"] = "Vibrant Cobra",
+        ["thumbnail"] = "rbxassetid://16043355769",
+        ["fromEgg"] = "Rainbow Egg"
+    },
+    ["Stacked Doge Noob"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 209",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "215, 250"
+        },
+        ["_script"] = "Stacked Doge Noob",
+        ["name"] = "Stacked Doge Noob",
+        ["_id"] = "Stacked Doge Noob",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968339288",
+        ["goldenThumbnail"] = "rbxassetid://14968339038"
     },
     ["Melted Slime"] = {
         ["iconSettings"] = {
@@ -15524,21 +17154,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14976335216",
         ["fromEgg"] = "Summer Melon Egg"
     },
-    ["Jelly Axolotl"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://16483035084",
-        ["_id"] = "Jelly Axolotl",
-        ["animations"] = {["jelly"] = true},
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Jelly Axolotl",
-        ["_script"] = "Jelly Axolotl",
+    ["Cotton Candy Cow"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 147",
-            ["faceTopLeftPixel"] = "57, 16",
-            ["imageSize"] = "250, 192"
+            ["faceBottomRightPixel"] = "202, 183",
+            ["faceTopLeftPixel"] = "62, 54",
+            ["imageSize"] = "250, 221"
         },
-        ["thumbnail"] = "rbxassetid://16483035003",
-        ["weld"] = true
+        ["goldenThumbnail"] = "rbxassetid://16043365467",
+        ["_id"] = "Cotton Candy Cow",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 83,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1459007},
+        ["name"] = "Cotton Candy Cow",
+        ["zoneNumber"] = 84.15252514163531,
+        ["cachedZoneNumber"] = 84.15252514163531,
+        ["_script"] = "Cotton Candy Cow",
+        ["thumbnail"] = "rbxassetid://16043365309",
+        ["fromEgg"] = "Cotton Candy Egg"
     },
     ["Agony"] = {
         ["iconSettings"] = {
@@ -15560,37 +17193,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968169798",
         ["fromEgg"] = "Sprout Egg"
     },
-    ["Jelly Dragon"] = {
+    ["Gummy Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 148",
-            ["faceTopLeftPixel"] = "89, 41",
-            ["imageSize"] = "250, 187"
+            ["faceBottomRightPixel"] = "213, 199",
+            ["faceTopLeftPixel"] = "47, 58",
+            ["imageSize"] = "220, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16483034909",
-        ["_id"] = "Jelly Dragon",
-        ["animations"] = {["jelly"] = true},
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16043360472",
+        ["_id"] = "Gummy Bear",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 84,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Jelly Dragon",
-        ["_script"] = "Jelly Dragon",
-        ["weld"] = true,
-        ["thumbnail"] = "rbxassetid://16483034792",
-        ["exclusiveLevel"] = 1
+        ["cachedPower"] = {1641382},
+        ["name"] = "Gummy Bear",
+        ["zoneNumber"] = 85.15252514163531,
+        ["cachedZoneNumber"] = 85.15252514163531,
+        ["_script"] = "Gummy Bear",
+        ["thumbnail"] = "rbxassetid://16043360293",
+        ["fromEgg"] = "Gummy Egg"
     },
-    ["Unicorn Dragon"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://15163402478",
-        ["_id"] = "Unicorn Dragon",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Unicorn Dragon",
-        ["fly"] = true,
-        ["_script"] = "Unicorn Dragon",
-        ["thumbnail"] = "rbxassetid://15163402536",
+    ["Gummy Raccoon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 139",
-            ["faceTopLeftPixel"] = "107, 51",
-            ["imageSize"] = "250, 165"
-        }
+            ["faceBottomRightPixel"] = "210, 197",
+            ["faceTopLeftPixel"] = "50, 60",
+            ["imageSize"] = "216, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://16043359832",
+        ["_id"] = "Gummy Raccoon",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 84,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1523852},
+        ["name"] = "Gummy Raccoon",
+        ["zoneNumber"] = 84.51486267931344,
+        ["cachedZoneNumber"] = 84.51486267931344,
+        ["_script"] = "Gummy Raccoon",
+        ["thumbnail"] = "rbxassetid://16043359584",
+        ["fromEgg"] = "Gummy Egg"
     },
     ["Pog Immortuus"] = {
         ["iconSettings"] = {
@@ -15641,35 +17280,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968361712",
         ["fromEgg"] = "Volcano Egg"
     },
-    ["Nightmare Corgi"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://16250877429",
-        ["_id"] = "Nightmare Corgi",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Nightmare Corgi",
-        ["_script"] = "Nightmare Corgi",
-        ["thumbnail"] = "rbxassetid://16250877327",
+    ["Rock Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 169",
-            ["faceTopLeftPixel"] = "68, 11",
-            ["imageSize"] = "250, 197"
-        }
+            ["faceBottomRightPixel"] = "220, 207",
+            ["faceTopLeftPixel"] = "62, 63",
+            ["imageSize"] = "228, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15805727771",
+        ["_id"] = "Rock Cat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 71,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {329579},
+        ["name"] = "Rock Cat",
+        ["zoneNumber"] = 71.51486267931344,
+        ["cachedZoneNumber"] = 71.51486267931344,
+        ["_script"] = "Rock Cat",
+        ["thumbnail"] = "rbxassetid://15805727880",
+        ["fromEgg"] = "Ruins Egg"
     },
-    ["Diamond Dog"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://16250877669",
-        ["_id"] = "Diamond Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Diamond Dog",
-        ["_script"] = "Diamond Dog",
-        ["thumbnail"] = "rbxassetid://16250877568",
+    ["Cold Ladybug"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 209",
-            ["faceTopLeftPixel"] = "59, 75",
-            ["imageSize"] = "230, 250"
-        }
+            ["faceBottomRightPixel"] = "223, 205",
+            ["faceTopLeftPixel"] = "62, 61",
+            ["imageSize"] = "231, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15805724487",
+        ["_id"] = "Cold Ladybug",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 68,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {221461},
+        ["name"] = "Cold Ladybug",
+        ["zoneNumber"] = 68.14653959173314,
+        ["cachedZoneNumber"] = 68.14653959173314,
+        ["_script"] = "Cold Ladybug",
+        ["thumbnail"] = "rbxassetid://15805724703",
+        ["fromEgg"] = "Firefly Egg"
     },
     ["Jolly Husky"] = {
         ["iconSettings"] = {
@@ -15685,62 +17332,59 @@ data = {
         ["thumbnail"] = "rbxassetid://14968267605",
         ["goldenThumbnail"] = "rbxassetid://14968267349"
     },
-    ["Robber Goblin"] = {
+    ["Golden Retriever"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 147",
-            ["faceTopLeftPixel"] = "71, 41",
-            ["imageSize"] = "250, 177"
+            ["faceBottomRightPixel"] = "242, 195",
+            ["faceTopLeftPixel"] = "68, 38",
+            ["imageSize"] = "250, 243"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043357021",
-        ["_id"] = "Robber Goblin",
+        ["goldenThumbnail"] = "rbxassetid://15805725673",
+        ["_id"] = "Golden Retriever",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 80,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1024707},
-        ["name"] = "Robber Goblin",
-        ["zoneNumber"] = 81.15252514163531,
-        ["cachedZoneNumber"] = 81.15252514163531,
-        ["_script"] = "Robber Goblin",
-        ["thumbnail"] = "rbxassetid://16043356911",
-        ["fromEgg"] = "Treasure Egg"
+        ["fromZoneNumber"] = 69,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {280171},
+        ["name"] = "Golden Retriever",
+        ["zoneNumber"] = 70.14316622055873,
+        ["cachedZoneNumber"] = 70.14316622055873,
+        ["_script"] = "Golden Retriever",
+        ["thumbnail"] = "rbxassetid://15805725808",
+        ["fromEgg"] = "Golden Brick Egg"
     },
-    ["Knight Cat"] = {
+    ["Orange Parrot"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "184, 220",
-            ["faceTopLeftPixel"] = "68, 115",
-            ["imageSize"] = "199, 250"
+            ["faceBottomRightPixel"] = "213, 119",
+            ["faceTopLeftPixel"] = "91, 7",
+            ["imageSize"] = "250, 152"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043359430",
-        ["_id"] = "Knight Cat",
+        ["goldenThumbnail"] = "rbxassetid://15805726243",
+        ["_id"] = "Orange Parrot",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 80,
+        ["fromZoneNumber"] = 69,
+        ["cachedZoneNumber"] = 69.41712584197178,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1092425},
-        ["name"] = "Knight Cat",
-        ["zoneNumber"] = 81.69128757570932,
-        ["cachedZoneNumber"] = 81.69128757570932,
-        ["_script"] = "Knight Cat",
-        ["thumbnail"] = "rbxassetid://16043359236",
-        ["fromEgg"] = "Treasure Egg"
+        ["cachedPower"] = {257419},
+        ["name"] = "Orange Parrot",
+        ["zoneNumber"] = 69.41712584197178,
+        ["fly"] = true,
+        ["_script"] = "Orange Parrot",
+        ["thumbnail"] = "rbxassetid://15805726424",
+        ["fromEgg"] = "Golden Brick Egg"
     },
-    ["Stacked King Slime"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 227",
-            ["faceTopLeftPixel"] = "55, 99",
-            ["imageSize"] = "205, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://16043356152",
-        ["_id"] = "Stacked King Slime",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 79,
+    ["Kawaii Tiger"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968269707",
+        ["_id"] = "Kawaii Tiger",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {971044},
-        ["name"] = "Stacked King Slime",
-        ["zoneNumber"] = 80.69128757570932,
-        ["cachedZoneNumber"] = 80.69128757570932,
-        ["_script"] = "Stacked King Slime",
-        ["thumbnail"] = "rbxassetid://16043356028",
-        ["fromEgg"] = "Shadow Egg"
+        ["name"] = "Kawaii Tiger",
+        ["_script"] = "Kawaii Tiger",
+        ["thumbnail"] = "rbxassetid://14968269808",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 197",
+            ["faceTopLeftPixel"] = "64, 76",
+            ["imageSize"] = "227, 250"
+        }
     },
     ["Huge Matrix Monkey"] = {
         ["goldenThumbnail"] = "rbxassetid://17861579071",
@@ -15753,74 +17397,55 @@ data = {
         ["thumbnail"] = "rbxassetid://17861579273",
         ["_script"] = "Huge Matrix Monkey"
     },
-    ["Sun Angelus"] = {
+    ["Rock Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "192, 163",
-            ["faceTopLeftPixel"] = "83, 66",
-            ["imageSize"] = "228, 250"
+            ["faceBottomRightPixel"] = "241, 198",
+            ["faceTopLeftPixel"] = "67, 39",
+            ["imageSize"] = "250, 245"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968348019",
-        ["_id"] = "Sun Angelus",
-        ["animations"] = {["angelusSpin"] = true},
+        ["goldenThumbnail"] = "rbxassetid://15805727980",
+        ["_id"] = "Rock Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 99,
-        ["cachedZoneNumber"] = 102.12716263976822,
-        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
-        ["cachedPower"] = {12118516},
-        ["name"] = "Sun Angelus",
-        ["zoneNumber"] = 102.12716263976822,
-        ["fly"] = true,
-        ["_script"] = "Sun Angelus",
-        ["thumbnail"] = "rbxassetid://14968348199",
-        ["fromEgg"] = "Rainbow Egg"
+        ["fromZoneNumber"] = 71,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {354999},
+        ["name"] = "Rock Dog",
+        ["zoneNumber"] = 72.15252514163531,
+        ["cachedZoneNumber"] = 72.15252514163531,
+        ["_script"] = "Rock Dog",
+        ["thumbnail"] = "rbxassetid://15805728089",
+        ["fromEgg"] = "Ruins Egg"
     },
-    ["Emoji Corgi"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://16043363636",
-        ["_id"] = "Emoji Corgi",
-        ["animations"] = {
-            ["fadeFrames"] = {
-                {
-                    ["instant"] = true,
-                    ["duration"] = 2,
-                    ["iconThumbnail"] = "rbxassetid://16047312867",
-                    ["textureName"] = "frame1"
-                },
-                {
-                    ["instant"] = true,
-                    ["duration"] = 3,
-                    ["iconThumbnail"] = "rbxassetid://16047313283",
-                    ["textureName"] = "frame2"
-                }
-            },
-            ["idleActionAnimations"] = {{"CorgiJumping", 1}},
-            ["customAnimations"] = true
+    ["Huge Easter Dominus"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976417034",
+        ["_id"] = "Huge Easter Dominus",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Easter Dominus",
+        ["indexDesc"] = "Earned from the 2023 Easter Gift in PSX!",
+        ["thumbnail"] = "rbxassetid://14976417278",
+        ["_script"] = "Huge Easter Dominus"
+    },
+    ["Broomstick Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 193",
+            ["faceTopLeftPixel"] = "83, 83",
+            ["imageSize"] = "236, 250"
         },
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Emoji Corgi",
-        ["_script"] = "Emoji Corgi",
-        ["thumbnail"] = "rbxassetid://16043363519",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 207",
-            ["faceTopLeftPixel"] = "49, 74",
-            ["imageSize"] = "217, 250"
-        }
-    },
-    ["Love Lamb"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968274559",
-        ["_id"] = "Love Lamb",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Love Lamb",
-        ["_script"] = "Love Lamb",
-        ["thumbnail"] = "rbxassetid://14968274630",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 154",
-            ["faceTopLeftPixel"] = "93, 52",
-            ["imageSize"] = "250, 186"
-        }
+        ["goldenThumbnail"] = "rbxassetid://15810014383",
+        ["_id"] = "Broomstick Corgi",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 74,
+        ["cachedZoneNumber"] = 76.5243067761205,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {594571},
+        ["name"] = "Broomstick Corgi",
+        ["zoneNumber"] = 76.5243067761205,
+        ["fly"] = true,
+        ["_script"] = "Broomstick Corgi",
+        ["thumbnail"] = "rbxassetid://15805723781",
+        ["fromEgg"] = "Witch Egg"
     },
     ["Mystical Fox"] = {
         ["iconSettings"] = {
@@ -15841,20 +17466,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14968285793",
         ["fromEgg"] = "Overgrown Egg"
     },
-    ["Tiedye Corgi"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968353106",
-        ["_id"] = "Tiedye Corgi",
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Tiedye Corgi",
-        ["_script"] = "Tiedye Corgi",
+    ["Holiday Balloon Cat"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://15715880914",
+        ["_id"] = "Holiday Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Holiday Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Holiday Balloon Cat",
+        ["thumbnail"] = "rbxassetid://15715880811",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 208",
-            ["faceTopLeftPixel"] = "59, 72",
-            ["imageSize"] = "218, 250"
-        },
-        ["thumbnail"] = "rbxassetid://14968353197",
-        ["hideSerial"] = true
+            ["faceBottomRightPixel"] = "160, 215",
+            ["faceTopLeftPixel"] = "37, 102",
+            ["imageSize"] = "171, 250"
+        }
     },
     ["Knife Cat"] = {
         ["iconSettings"] = {
@@ -15870,35 +17496,38 @@ data = {
         ["thumbnail"] = "rbxassetid://14968270716",
         ["goldenThumbnail"] = "rbxassetid://14968270529"
     },
-    ["Huge Glitched Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://16468736159",
-        ["_id"] = "Huge Glitched Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Glitched Cat",
-        ["indexDesc"] = "Found in Chest Raid minigame!",
-        ["thumbnail"] = "rbxassetid://16468736057",
-        ["_script"] = "Huge Glitched Cat"
-    },
-    ["Pastel Deer"] = {
+    ["Flower Panda"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "191, 215",
-            ["faceTopLeftPixel"] = "61, 98",
-            ["imageSize"] = "199, 250"
+            ["faceBottomRightPixel"] = "246, 204",
+            ["faceTopLeftPixel"] = "101, 77",
+            ["imageSize"] = "250, 245"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043359123",
-        ["_id"] = "Pastel Deer",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 92,
+        ["_script"] = "Flower Panda",
+        ["name"] = "Flower Panda",
+        ["_id"] = "Flower Panda",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4489748},
-        ["name"] = "Pastel Deer",
-        ["zoneNumber"] = 93.69128757570932,
-        ["cachedZoneNumber"] = 93.69128757570932,
-        ["_script"] = "Pastel Deer",
-        ["thumbnail"] = "rbxassetid://16043358958",
-        ["fromEgg"] = "Cloud Forest Egg"
+        ["thumbnail"] = "rbxassetid://14968240441",
+        ["goldenThumbnail"] = "rbxassetid://14968240348"
+    },
+    ["Ice Penguin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "231, 151",
+            ["faceTopLeftPixel"] = "76, 10",
+            ["imageSize"] = "250, 193"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15715879649",
+        ["_id"] = "Ice Penguin",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 65,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {175110},
+        ["name"] = "Ice Penguin",
+        ["zoneNumber"] = 66.15252514163531,
+        ["cachedZoneNumber"] = 66.15252514163531,
+        ["_script"] = "Ice Penguin",
+        ["thumbnail"] = "rbxassetid://15715879541",
+        ["fromEgg"] = "Hot Cocoa Egg"
     },
     ["Forged Hedgehog"] = {
         ["iconSettings"] = {
@@ -15933,25 +17562,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968305284",
         ["goldenThumbnail"] = "rbxassetid://14968305055"
     },
-    ["Pastel Griffin"] = {
+    ["Pajamas Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "229, 203",
-            ["faceTopLeftPixel"] = "79, 67",
-            ["imageSize"] = "250, 244"
+            ["faceBottomRightPixel"] = "204, 210",
+            ["faceTopLeftPixel"] = "56, 76",
+            ["imageSize"] = "212, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043358020",
-        ["_id"] = "Pastel Griffin",
+        ["goldenThumbnail"] = "rbxassetid://15715878925",
+        ["_id"] = "Pajamas Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 98,
-        ["cachedZoneNumber"] = 99.15252514163531,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8537782},
-        ["name"] = "Pastel Griffin",
-        ["zoneNumber"] = 99.15252514163531,
-        ["fly"] = true,
-        ["_script"] = "Pastel Griffin",
-        ["thumbnail"] = "rbxassetid://16043357891",
-        ["fromEgg"] = "Colorful Cloud Egg"
+        ["fromZoneNumber"] = 67,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {197553},
+        ["name"] = "Pajamas Dog",
+        ["zoneNumber"] = 67.1754375469642,
+        ["cachedZoneNumber"] = 67.1754375469642,
+        ["_script"] = "Pajamas Dog",
+        ["thumbnail"] = "rbxassetid://15715878740",
+        ["fromEgg"] = "Teddy Egg"
     },
     ["Huge Purple Balloon Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976529949",
@@ -15991,43 +17619,45 @@ data = {
         ["thumbnail"] = "rbxassetid://14976521054",
         ["indexDesc"] = "Comes with Series 2 Ultimate Bundle Pixel Chest!"
     },
-    ["Sapphire Carbuncle"] = {
+    ["Angelus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "182, 215",
-            ["faceTopLeftPixel"] = "52, 97",
-            ["imageSize"] = "189, 250"
+            ["faceBottomRightPixel"] = "207, 163",
+            ["faceTopLeftPixel"] = "90, 58",
+            ["imageSize"] = "247, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968326949",
-        ["_id"] = "Sapphire Carbuncle",
+        ["goldenThumbnail"] = "rbxassetid://14968171792",
+        ["_id"] = "Angelus",
+        ["animations"] = {["angelusSpin"] = true},
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 12,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {296},
-        ["name"] = "Sapphire Carbuncle",
-        ["zoneNumber"] = 12.286143059642114,
-        ["cachedZoneNumber"] = 12.286143059642114,
-        ["_script"] = "Sapphire Carbuncle",
-        ["thumbnail"] = "rbxassetid://14968327028",
-        ["fromEgg"] = "Hut Egg"
+        ["fromZoneNumber"] = 96,
+        ["cachedZoneNumber"] = 97.69128757570932,
+        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
+        ["cachedPower"] = {7191707},
+        ["name"] = "Angelus",
+        ["zoneNumber"] = 97.69128757570932,
+        ["fly"] = true,
+        ["_script"] = "Angelus",
+        ["thumbnail"] = "rbxassetid://14968171896",
+        ["fromEgg"] = "Heaven Egg"
     },
-    ["Cloud Hedgehog"] = {
+    ["Hot Cocoa Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "230, 178",
-            ["faceTopLeftPixel"] = "76, 40",
-            ["imageSize"] = "250, 220"
+            ["faceBottomRightPixel"] = "221, 207",
+            ["faceTopLeftPixel"] = "62, 62",
+            ["imageSize"] = "229, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043366163",
-        ["_id"] = "Cloud Hedgehog",
+        ["goldenThumbnail"] = "rbxassetid://15715880134",
+        ["_id"] = "Hot Cocoa Cat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 92,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4211433},
-        ["name"] = "Cloud Hedgehog",
-        ["zoneNumber"] = 93.15252514163531,
-        ["cachedZoneNumber"] = 93.15252514163531,
-        ["_script"] = "Cloud Hedgehog",
-        ["thumbnail"] = "rbxassetid://16043366050",
-        ["fromEgg"] = "Cloud Forest Egg"
+        ["fromZoneNumber"] = 64,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {145509},
+        ["name"] = "Hot Cocoa Cat",
+        ["zoneNumber"] = 64.57382418696156,
+        ["cachedZoneNumber"] = 64.57382418696156,
+        ["_script"] = "Hot Cocoa Cat",
+        ["thumbnail"] = "rbxassetid://15715879987",
+        ["fromEgg"] = "Ice Sculpture Egg"
     },
     ["Hi-Tech Elephant"] = {
         ["iconSettings"] = {
@@ -16067,24 +17697,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968315310",
         ["fromEgg"] = "Crimson Egg"
     },
-    ["Encrusted Wolf"] = {
+    ["Train Conductor Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 210",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "238, 250"
+            ["faceBottomRightPixel"] = "215, 207",
+            ["faceTopLeftPixel"] = "61, 71",
+            ["imageSize"] = "223, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043360783",
-        ["_id"] = "Encrusted Wolf",
+        ["goldenThumbnail"] = "rbxassetid://15715876978",
+        ["_id"] = "Train Conductor Cat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 82,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1296895},
-        ["name"] = "Encrusted Wolf",
-        ["zoneNumber"] = 83.15252514163531,
-        ["cachedZoneNumber"] = 83.15252514163531,
-        ["_script"] = "Encrusted Wolf",
-        ["thumbnail"] = "rbxassetid://16043360588",
-        ["fromEgg"] = "Mythic Egg"
+        ["fromZoneNumber"] = 67,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {203810},
+        ["name"] = "Train Conductor Cat",
+        ["zoneNumber"] = 67.43437254820127,
+        ["cachedZoneNumber"] = 67.43437254820127,
+        ["_script"] = "Train Conductor Cat",
+        ["thumbnail"] = "rbxassetid://15715876878",
+        ["fromEgg"] = "Teddy Egg"
     },
     ["Nuclear Mining Dog"] = {
         ["iconSettings"] = {
@@ -16105,62 +17735,61 @@ data = {
         ["thumbnail"] = "rbxassetid://16746708632",
         ["fromEgg"] = "Nuclear Mine Egg"
     },
-    ["Pastel Goat"] = {
+    ["Mr Krabs"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 187",
-            ["faceTopLeftPixel"] = "67, 63",
-            ["imageSize"] = "250, 224"
+            ["faceBottomRightPixel"] = "203, 185",
+            ["faceTopLeftPixel"] = "94, 87",
+            ["imageSize"] = "250, 214"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043358267",
-        ["_id"] = "Pastel Goat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 98,
+        ["_script"] = "Mr Krabs",
+        ["name"] = "Mr. Krabs",
+        ["_id"] = "Mr Krabs",
+        ["exclusiveLevel"] = 1,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9102005},
-        ["name"] = "Pastel Goat",
-        ["zoneNumber"] = 99.69128757570932,
-        ["cachedZoneNumber"] = 99.69128757570932,
-        ["_script"] = "Pastel Goat",
-        ["thumbnail"] = "rbxassetid://16043358145",
-        ["fromEgg"] = "Colorful Cloud Egg"
+        ["thumbnail"] = "rbxassetid://18313092388",
+        ["goldenThumbnail"] = "rbxassetid://18313092388"
     },
-    ["Vibrant Cobra"] = {
+    ["Nightmare Kraken"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 130",
-            ["faceTopLeftPixel"] = "55, 7",
-            ["imageSize"] = "250, 155"
+            ["faceBottomRightPixel"] = "193, 94",
+            ["faceTopLeftPixel"] = "95, 6",
+            ["imageSize"] = "250, 115"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043355910",
-        ["_id"] = "Vibrant Cobra",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 99,
+        ["goldenThumbnail"] = "rbxassetid://14968290148",
+        ["_id"] = "Nightmare Kraken",
+        ["animations"] = {
+            ["flyHeightChange"] = 0,
+            ["swerve"] = true,
+            ["swerveMaxAngle"] = 60,
+            ["flyHeight"] = 0.025,
+            ["swerveAggression"] = 0.2
+        },
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {10239761},
-        ["name"] = "Vibrant Cobra",
-        ["zoneNumber"] = 100.69129232292755,
-        ["cachedZoneNumber"] = 100.69129232292755,
-        ["_script"] = "Vibrant Cobra",
-        ["thumbnail"] = "rbxassetid://16043355769",
-        ["fromEgg"] = "Rainbow Egg"
+        ["name"] = "Nightmare Kraken",
+        ["_script"] = "Nightmare Kraken",
+        ["fly"] = true,
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://14968290312",
+        ["exclusiveLevel"] = 3
     },
-    ["Knight Beagle"] = {
+    ["Scuba Shark"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "183, 221",
-            ["faceTopLeftPixel"] = "70, 121",
-            ["imageSize"] = "198, 250"
+            ["faceBottomRightPixel"] = "229, 184",
+            ["faceTopLeftPixel"] = "79, 48",
+            ["imageSize"] = "250, 209"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565568452",
-        ["_id"] = "Knight Beagle",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 57,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {78612},
-        ["name"] = "Knight Beagle",
-        ["zoneNumber"] = 59.3471428679772,
-        ["cachedZoneNumber"] = 59.3471428679772,
-        ["_script"] = "Knight Beagle",
-        ["thumbnail"] = "rbxassetid://15565568400",
-        ["fromEgg"] = "Crowned Egg"
+        ["goldenThumbnail"] = "rbxassetid://14968328893",
+        ["_id"] = "Scuba Shark",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 205,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {2334861553216},
+        ["name"] = "Scuba Shark",
+        ["zoneNumber"] = 205.43414027035385,
+        ["cachedZoneNumber"] = 205.43414027035385,
+        ["_script"] = "Scuba Shark",
+        ["thumbnail"] = "rbxassetid://14968328992",
+        ["fromEgg"] = "Summer Beach Egg"
     },
     ["Nature Axolotl"] = {
         ["iconSettings"] = {
@@ -16176,43 +17805,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968286158",
         ["goldenThumbnail"] = "rbxassetid://14968286066"
     },
-    ["Tiki Dominus"] = {
+    ["Hamster"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 155",
-            ["faceTopLeftPixel"] = "86, 51",
-            ["imageSize"] = "250, 189"
+            ["faceBottomRightPixel"] = "233, 204",
+            ["faceTopLeftPixel"] = "65, 51",
+            ["imageSize"] = "242, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968354069",
-        ["_id"] = "Tiki Dominus",
+        ["goldenThumbnail"] = "rbxassetid://15637924187",
+        ["_id"] = "Hamster",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 26,
+        ["fromZoneNumber"] = 59,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1970},
-        ["name"] = "Tiki Dominus",
-        ["zoneNumber"] = 28.060472901972343,
-        ["cachedZoneNumber"] = 28.060472901972343,
-        ["_script"] = "Tiki Dominus",
-        ["thumbnail"] = "rbxassetid://14968354226",
-        ["fromEgg"] = "Tiki Egg"
+        ["cachedPower"] = {78103},
+        ["name"] = "Hamster",
+        ["zoneNumber"] = 59.29304903337264,
+        ["cachedZoneNumber"] = 59.29304903337264,
+        ["_script"] = "Hamster",
+        ["thumbnail"] = "rbxassetid://15637924096",
+        ["fromEgg"] = "Dandelion Egg"
     },
-    ["Cotton Candy Cow"] = {
+    ["Frost Rabbit"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 183",
-            ["faceTopLeftPixel"] = "62, 54",
-            ["imageSize"] = "250, 221"
+            ["faceBottomRightPixel"] = "174, 217",
+            ["faceTopLeftPixel"] = "49, 104",
+            ["imageSize"] = "181, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043365467",
-        ["_id"] = "Cotton Candy Cow",
+        ["goldenThumbnail"] = "rbxassetid://15637924384",
+        ["_id"] = "Frost Rabbit",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 83,
+        ["fromZoneNumber"] = 64,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1459007},
-        ["name"] = "Cotton Candy Cow",
-        ["zoneNumber"] = 84.15252514163531,
-        ["cachedZoneNumber"] = 84.15252514163531,
-        ["_script"] = "Cotton Candy Cow",
-        ["thumbnail"] = "rbxassetid://16043365309",
-        ["fromEgg"] = "Cotton Candy Egg"
+        ["cachedPower"] = {141268},
+        ["name"] = "Frost Rabbit",
+        ["zoneNumber"] = 64.32391591975734,
+        ["cachedZoneNumber"] = 64.32391591975734,
+        ["_script"] = "Frost Rabbit",
+        ["thumbnail"] = "rbxassetid://15637924287",
+        ["fromEgg"] = "Ice Sculpture Egg"
     },
     ["Dragonfruit Dragon"] = {
         ["iconSettings"] = {
@@ -16247,74 +17876,81 @@ data = {
         ["thumbnail"] = "rbxassetid://14968273169",
         ["fromEgg"] = "Sandcastle Egg"
     },
-    ["Huge Clown Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://18520054270",
-        ["_id"] = "Huge Clown Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Clown Cat",
-        ["indexDesc"] = "Reward in the 2024 Clown Clan Battle!",
-        ["thumbnail"] = "rbxassetid://18520054035",
-        ["_script"] = "Huge Clown Cat"
-    },
-    ["Encrusted Dragon"] = {
+    ["Ninja Maskot"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 184",
-            ["faceTopLeftPixel"] = "89, 67",
-            ["imageSize"] = "250, 220"
+            ["faceBottomRightPixel"] = "228, 170",
+            ["faceTopLeftPixel"] = "83, 39",
+            ["imageSize"] = "250, 209"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043361076",
-        ["_id"] = "Encrusted Dragon",
+        ["goldenThumbnail"] = "rbxassetid://14968291044",
+        ["_id"] = "Ninja Maskot",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 82,
-        ["cachedZoneNumber"] = 83.69128757570932,
+        ["fromZoneNumber"] = 50,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1382600},
-        ["name"] = "Encrusted Dragon",
-        ["zoneNumber"] = 83.69128757570932,
-        ["fly"] = true,
-        ["_script"] = "Encrusted Dragon",
-        ["thumbnail"] = "rbxassetid://16043360960",
-        ["fromEgg"] = "Mythic Egg"
+        ["cachedPower"] = {28240},
+        ["name"] = "Ninja Maskot",
+        ["zoneNumber"] = 50.65541582807153,
+        ["cachedZoneNumber"] = 50.65541582807153,
+        ["_script"] = "Ninja Maskot",
+        ["thumbnail"] = "rbxassetid://14968291771",
+        ["fromEgg"] = "Sakura Egg"
     },
-    ["Gummy Bear"] = {
+    ["Colorful Wisp"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 199",
-            ["faceTopLeftPixel"] = "47, 58",
-            ["imageSize"] = "220, 250"
+            ["faceBottomRightPixel"] = "241, 169",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043360472",
-        ["_id"] = "Gummy Bear",
+        ["goldenThumbnail"] = "rbxassetid://15637923947",
+        ["_id"] = "Colorful Wisp",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 84,
+        ["fromZoneNumber"] = 60,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1641382},
-        ["name"] = "Gummy Bear",
-        ["zoneNumber"] = 85.15252514163531,
-        ["cachedZoneNumber"] = 85.15252514163531,
-        ["_script"] = "Gummy Bear",
-        ["thumbnail"] = "rbxassetid://16043360293",
-        ["fromEgg"] = "Gummy Egg"
+        ["cachedPower"] = {103596},
+        ["name"] = "Colorful Wisp",
+        ["zoneNumber"] = 61.691287575709325,
+        ["cachedZoneNumber"] = 61.691287575709325,
+        ["_script"] = "Colorful Wisp",
+        ["thumbnail"] = "rbxassetid://15637923898",
+        ["fromEgg"] = "Colorful Egg"
     },
-    ["Gummy Raccoon"] = {
+    ["Colorful Rock"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 197",
-            ["faceTopLeftPixel"] = "50, 60",
-            ["imageSize"] = "216, 250"
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://16043359832",
-        ["_id"] = "Gummy Raccoon",
+        ["goldenThumbnail"] = "rbxassetid://15637923649",
+        ["_id"] = "Colorful Rock",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 84,
+        ["fromZoneNumber"] = 61,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1523852},
-        ["name"] = "Gummy Raccoon",
-        ["zoneNumber"] = 84.51486267931344,
-        ["cachedZoneNumber"] = 84.51486267931344,
-        ["_script"] = "Gummy Raccoon",
-        ["thumbnail"] = "rbxassetid://16043359584",
-        ["fromEgg"] = "Gummy Egg"
+        ["cachedPower"] = {116545},
+        ["name"] = "Colorful Rock",
+        ["zoneNumber"] = 62.691287575709325,
+        ["cachedZoneNumber"] = 62.691287575709325,
+        ["_script"] = "Colorful Rock",
+        ["thumbnail"] = "rbxassetid://15637923583",
+        ["fromEgg"] = "Colorful Geode Egg"
+    },
+    ["Calico Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "219, 207",
+            ["faceTopLeftPixel"] = "63, 63",
+            ["imageSize"] = "228, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15637923529",
+        ["_id"] = "Calico Cat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 59,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {81517},
+        ["name"] = "Calico Cat",
+        ["zoneNumber"] = 59.65559720677148,
+        ["cachedZoneNumber"] = 59.65559720677148,
+        ["_script"] = "Calico Cat",
+        ["thumbnail"] = "rbxassetid://15637923438",
+        ["fromEgg"] = "Dandelion Egg"
     },
     ["Leprechaun Cat"] = {
         ["iconSettings"] = {
@@ -16373,38 +18009,35 @@ data = {
         ["thumbnail"] = "rbxassetid://14968315758",
         ["fromEgg"] = "Pumpkin Egg"
     },
-    ["Pog Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 197",
-            ["faceTopLeftPixel"] = "68, 40",
-            ["imageSize"] = "250, 244"
-        },
-        ["_script"] = "Pog Dog",
-        ["name"] = "Pog Dog",
-        ["_id"] = "Pog Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968308010",
-        ["goldenThumbnail"] = "rbxassetid://14968307703"
+    ["Huge Patrick Star"] = {
+        ["goldenThumbnail"] = "rbxassetid://18313092558",
+        ["_id"] = "Huge Patrick Star",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Patrick Star",
+        ["indexDesc"] = "Found in the Exclusive SpongeBob Egg!",
+        ["thumbnail"] = "rbxassetid://18313092558",
+        ["_script"] = "Huge Patrick Star"
     },
-    ["Rock Cat"] = {
+    ["King Cow"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 207",
-            ["faceTopLeftPixel"] = "62, 63",
-            ["imageSize"] = "228, 250"
+            ["faceBottomRightPixel"] = "210, 210",
+            ["faceTopLeftPixel"] = "93, 104",
+            ["imageSize"] = "250, 247"
         },
-        ["goldenThumbnail"] = "rbxassetid://15805727771",
-        ["_id"] = "Rock Cat",
+        ["goldenThumbnail"] = "rbxassetid://15565567223",
+        ["_id"] = "King Cow",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 71,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {329579},
-        ["name"] = "Rock Cat",
-        ["zoneNumber"] = 71.51486267931344,
-        ["cachedZoneNumber"] = 71.51486267931344,
-        ["_script"] = "Rock Cat",
-        ["thumbnail"] = "rbxassetid://15805727880",
-        ["fromEgg"] = "Ruins Egg"
+        ["fromZoneNumber"] = 57,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {62703},
+        ["name"] = "King Cow",
+        ["zoneNumber"] = 57.42638030682413,
+        ["cachedZoneNumber"] = 57.42638030682413,
+        ["_script"] = "King Cow",
+        ["thumbnail"] = "rbxassetid://15565567168",
+        ["fromEgg"] = "Crowned Egg"
     },
     ["Huge Chroma Lucki"] = {
         ["goldenThumbnail"] = "rbxassetid://14976381485",
@@ -16481,63 +18114,57 @@ data = {
         ["thumbnail"] = "rbxassetid://14976381547",
         ["preventGolden"] = true
     },
-    ["Cold Ladybug"] = {
+    ["Queen Piggy"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 205",
-            ["faceTopLeftPixel"] = "62, 61",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "210, 213",
+            ["faceTopLeftPixel"] = "93, 108",
+            ["imageSize"] = "233, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15805724487",
-        ["_id"] = "Cold Ladybug",
+        ["goldenThumbnail"] = "rbxassetid://15565566869",
+        ["_id"] = "Queen Piggy",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 68,
+        ["fromZoneNumber"] = 57,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {221461},
-        ["name"] = "Cold Ladybug",
-        ["zoneNumber"] = 68.14653959173314,
-        ["cachedZoneNumber"] = 68.14653959173314,
-        ["_script"] = "Cold Ladybug",
-        ["thumbnail"] = "rbxassetid://15805724703",
-        ["fromEgg"] = "Firefly Egg"
+        ["cachedPower"] = {63360},
+        ["name"] = "Queen Piggy",
+        ["zoneNumber"] = 57.51466483910313,
+        ["cachedZoneNumber"] = 57.51466483910313,
+        ["_script"] = "Queen Piggy",
+        ["thumbnail"] = "rbxassetid://15565566823",
+        ["fromEgg"] = "Crowned Egg"
     },
-    ["Golden Retriever"] = {
+    ["Gary the Snail"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 195",
-            ["faceTopLeftPixel"] = "68, 38",
-            ["imageSize"] = "250, 243"
+            ["faceBottomRightPixel"] = "241, 196",
+            ["faceTopLeftPixel"] = "68, 39",
+            ["imageSize"] = "250, 227"
         },
-        ["goldenThumbnail"] = "rbxassetid://15805725673",
-        ["_id"] = "Golden Retriever",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 69,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {280171},
-        ["name"] = "Golden Retriever",
-        ["zoneNumber"] = 70.14316622055873,
-        ["cachedZoneNumber"] = 70.14316622055873,
-        ["_script"] = "Golden Retriever",
-        ["thumbnail"] = "rbxassetid://15805725808",
-        ["fromEgg"] = "Golden Brick Egg"
-    },
-    ["Orange Parrot"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 119",
-            ["faceTopLeftPixel"] = "91, 7",
-            ["imageSize"] = "250, 152"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15805726243",
-        ["_id"] = "Orange Parrot",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 69,
-        ["cachedZoneNumber"] = 69.41712584197178,
+        ["_script"] = "Gary the Snail",
+        ["name"] = "Gary the Snail",
+        ["_id"] = "Gary the Snail",
+        ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {257419},
-        ["name"] = "Orange Parrot",
-        ["zoneNumber"] = 69.41712584197178,
-        ["fly"] = true,
-        ["_script"] = "Orange Parrot",
-        ["thumbnail"] = "rbxassetid://15805726424",
-        ["fromEgg"] = "Golden Brick Egg"
+        ["thumbnail"] = "rbxassetid://18313099619",
+        ["goldenThumbnail"] = "rbxassetid://18313099619"
+    },
+    ["Royal Peacock"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "227, 174",
+            ["faceTopLeftPixel"] = "112, 67",
+            ["imageSize"] = "250, 210"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15565566458",
+        ["_id"] = "Royal Peacock",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 57,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {66276},
+        ["name"] = "Royal Peacock",
+        ["zoneNumber"] = 57.90648557485885,
+        ["cachedZoneNumber"] = 57.90648557485885,
+        ["_script"] = "Royal Peacock",
+        ["thumbnail"] = "rbxassetid://15565566377",
+        ["fromEgg"] = "Crowned Egg"
     },
     ["Prison Dog"] = {
         ["iconSettings"] = {
@@ -16649,24 +18276,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15201628877",
         ["weld"] = true
     },
-    ["Rock Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 198",
-            ["faceTopLeftPixel"] = "67, 39",
-            ["imageSize"] = "250, 245"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15805727980",
-        ["_id"] = "Rock Dog",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 71,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {354999},
-        ["name"] = "Rock Dog",
-        ["zoneNumber"] = 72.15252514163531,
-        ["cachedZoneNumber"] = 72.15252514163531,
-        ["_script"] = "Rock Dog",
-        ["thumbnail"] = "rbxassetid://15805728089",
-        ["fromEgg"] = "Ruins Egg"
+    ["Huge Clown Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://18520054270",
+        ["_id"] = "Huge Clown Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Clown Cat",
+        ["indexDesc"] = "Reward in the 2024 Clown Clan Battle!",
+        ["thumbnail"] = "rbxassetid://18520054035",
+        ["_script"] = "Huge Clown Cat"
     },
     ["Owl"] = {
         ["iconSettings"] = {
@@ -16721,25 +18340,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968201936",
         ["goldenThumbnail"] = "rbxassetid://14968201855"
     },
-    ["Shadow Griffin"] = {
+    ["Tulip Hedgehog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 170",
-            ["faceTopLeftPixel"] = "94, 68",
-            ["imageSize"] = "250, 201"
+            ["faceBottomRightPixel"] = "208, 172",
+            ["faceTopLeftPixel"] = "88, 64",
+            ["imageSize"] = "250, 205"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968329549",
-        ["_id"] = "Shadow Griffin",
+        ["goldenThumbnail"] = "rbxassetid://15565565376",
+        ["_id"] = "Tulip Hedgehog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 14,
-        ["cachedZoneNumber"] = 14.878998239561794,
+        ["fromZoneNumber"] = 59,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {413},
-        ["name"] = "Shadow Griffin",
-        ["zoneNumber"] = 14.878998239561794,
-        ["fly"] = true,
-        ["_script"] = "Shadow Griffin",
-        ["thumbnail"] = "rbxassetid://14968329630",
-        ["fromEgg"] = "Sprout Egg"
+        ["cachedPower"] = {78696},
+        ["name"] = "Tulip Hedgehog",
+        ["zoneNumber"] = 59.356020357425585,
+        ["cachedZoneNumber"] = 59.356020357425585,
+        ["_script"] = "Tulip Hedgehog",
+        ["thumbnail"] = "rbxassetid://15565565329",
+        ["fromEgg"] = "Dandelion Egg"
     },
     ["Sailor Dolphin"] = {
         ["iconSettings"] = {
@@ -16760,41 +18378,44 @@ data = {
         ["thumbnail"] = "rbxassetid://14968323899",
         ["fromEgg"] = "Pirate Egg"
     },
-    ["Broomstick Corgi"] = {
+    ["Starry Owl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 193",
-            ["faceTopLeftPixel"] = "83, 83",
-            ["imageSize"] = "236, 250"
+            ["faceBottomRightPixel"] = "203, 211",
+            ["faceTopLeftPixel"] = "57, 79",
+            ["imageSize"] = "214, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15810014383",
-        ["_id"] = "Broomstick Corgi",
+        ["goldenThumbnail"] = "rbxassetid://15565565564",
+        ["_id"] = "Starry Owl",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 74,
-        ["cachedZoneNumber"] = 76.5243067761205,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {594571},
-        ["name"] = "Broomstick Corgi",
-        ["zoneNumber"] = 76.5243067761205,
+        ["fromZoneNumber"] = 56,
+        ["cachedZoneNumber"] = 56.906474734789576,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {58912},
+        ["name"] = "Starry Owl",
+        ["zoneNumber"] = 56.906474734789576,
         ["fly"] = true,
-        ["_script"] = "Broomstick Corgi",
-        ["thumbnail"] = "rbxassetid://15805723781",
-        ["fromEgg"] = "Witch Egg"
+        ["_script"] = "Starry Owl",
+        ["thumbnail"] = "rbxassetid://15565565517",
+        ["fromEgg"] = "Pedal Egg"
     },
-    ["Holiday Balloon Cat"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://15715880914",
-        ["_id"] = "Holiday Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Holiday Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "Holiday Balloon Cat",
-        ["thumbnail"] = "rbxassetid://15715880811",
+    ["Shadow Dominus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "160, 215",
-            ["faceTopLeftPixel"] = "37, 102",
-            ["imageSize"] = "171, 250"
-        }
+            ["faceBottomRightPixel"] = "211, 114",
+            ["faceTopLeftPixel"] = "94, 7",
+            ["imageSize"] = "250, 146"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15565566053",
+        ["_id"] = "Shadow Dominus",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 184,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {214023771174},
+        ["name"] = "Shadow Dominus",
+        ["zoneNumber"] = 185.1525251416353,
+        ["cachedZoneNumber"] = 185.1525251416353,
+        ["_script"] = "Shadow Dominus",
+        ["thumbnail"] = "rbxassetid://15565565989",
+        ["fromEgg"] = "Dark Tech Spike Egg"
     },
     ["Cyborg Panda"] = {
         ["iconSettings"] = {
@@ -16815,36 +18436,44 @@ data = {
         ["thumbnail"] = "rbxassetid://14968205745",
         ["fromEgg"] = "Metal Egg"
     },
-    ["Titanic Pineapple Cat"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://17269939076",
-        ["_id"] = "Titanic Pineapple Cat",
-        ["indexObtainable"] = true,
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Pineapple Cat",
-        ["indexDesc"] = "Comes with the Titanic Pineapple Cat plush!",
-        ["thumbnail"] = "rbxassetid://17269938973",
-        ["_script"] = "Titanic Pineapple Cat"
-    },
-    ["Ice Penguin"] = {
+    ["Shadow Bull"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "231, 151",
-            ["faceTopLeftPixel"] = "76, 10",
-            ["imageSize"] = "250, 193"
+            ["faceBottomRightPixel"] = "203, 162",
+            ["faceTopLeftPixel"] = "71, 43",
+            ["imageSize"] = "250, 198"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715879649",
-        ["_id"] = "Ice Penguin",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 65,
+        ["goldenThumbnail"] = "rbxassetid://15565566193",
+        ["_id"] = "Shadow Bull",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 183,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {175110},
-        ["name"] = "Ice Penguin",
-        ["zoneNumber"] = 66.15252514163531,
-        ["cachedZoneNumber"] = 66.15252514163531,
-        ["_script"] = "Ice Penguin",
-        ["thumbnail"] = "rbxassetid://15715879541",
-        ["fromEgg"] = "Hot Cocoa Egg"
+        ["cachedPower"] = {179977948101},
+        ["name"] = "Shadow Bull",
+        ["zoneNumber"] = 183.6766978792541,
+        ["cachedZoneNumber"] = 183.6766978792541,
+        ["_script"] = "Shadow Bull",
+        ["thumbnail"] = "rbxassetid://15565566144",
+        ["fromEgg"] = "Dark Tech Brick Egg"
+    },
+    ["Rose Butterfly"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "211, 178",
+            ["faceTopLeftPixel"] = "98, 75",
+            ["imageSize"] = "250, 209"
+        },
+        ["goldenThumbnail"] = "rbxassetid://15565566601",
+        ["_id"] = "Rose Butterfly",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 54,
+        ["cachedZoneNumber"] = 54.426368775824685,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {44038},
+        ["name"] = "Rose Butterfly",
+        ["zoneNumber"] = 54.426368775824685,
+        ["fly"] = true,
+        ["_script"] = "Rose Butterfly",
+        ["thumbnail"] = "rbxassetid://15565566558",
+        ["fromEgg"] = "Garden Egg"
     },
     ["Lion"] = {
         ["iconSettings"] = {
@@ -16876,62 +18505,53 @@ data = {
         ["thumbnail"] = "rbxassetid://16125357082",
         ["_script"] = "Titanic Corgi"
     },
-    ["Ice Snowman"] = {
+    ["Doodle Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "191, 230",
-            ["faceTopLeftPixel"] = "68, 120",
-            ["imageSize"] = "205, 250"
+            ["faceBottomRightPixel"] = "219, 185",
+            ["faceTopLeftPixel"] = "88, 67",
+            ["imageSize"] = "250, 220"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715879440",
-        ["_id"] = "Ice Snowman",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 64,
+        ["goldenThumbnail"] = "rbxassetid://14968214722",
+        ["_id"] = "Doodle Dragon",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {151158},
-        ["name"] = "Ice Snowman",
-        ["zoneNumber"] = 64.90669143998151,
-        ["cachedZoneNumber"] = 64.90669143998151,
-        ["_script"] = "Ice Snowman",
-        ["thumbnail"] = "rbxassetid://15715879340",
-        ["fromEgg"] = "Ice Sculpture Egg"
+        ["name"] = "Doodle Dragon",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968214828",
+        ["_script"] = "Doodle Dragon"
     },
-    ["Pajamas Dog"] = {
+    ["Ninja Raccoon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 210",
-            ["faceTopLeftPixel"] = "56, 76",
-            ["imageSize"] = "212, 250"
+            ["faceBottomRightPixel"] = "229, 205",
+            ["faceTopLeftPixel"] = "65, 56",
+            ["imageSize"] = "237, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715878925",
-        ["_id"] = "Pajamas Dog",
+        ["goldenThumbnail"] = "rbxassetid://15565567378",
+        ["_id"] = "Ninja Raccoon",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 67,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {197553},
-        ["name"] = "Pajamas Dog",
-        ["zoneNumber"] = 67.1754375469642,
-        ["cachedZoneNumber"] = 67.1754375469642,
-        ["_script"] = "Pajamas Dog",
-        ["thumbnail"] = "rbxassetid://15715878740",
-        ["fromEgg"] = "Teddy Egg"
+        ["fromZoneNumber"] = 51,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {30157},
+        ["name"] = "Ninja Raccoon",
+        ["zoneNumber"] = 51.21601568127838,
+        ["cachedZoneNumber"] = 51.21601568127838,
+        ["_script"] = "Ninja Raccoon",
+        ["thumbnail"] = "rbxassetid://15565567332",
+        ["fromEgg"] = "Ninja Egg"
     },
-    ["Hot Cocoa Cat"] = {
+    ["Lion Cub"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 207",
-            ["faceTopLeftPixel"] = "62, 62",
-            ["imageSize"] = "229, 250"
+            ["faceBottomRightPixel"] = "227, 205",
+            ["faceTopLeftPixel"] = "64, 57",
+            ["imageSize"] = "235, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715880134",
-        ["_id"] = "Hot Cocoa Cat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 64,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {145509},
-        ["name"] = "Hot Cocoa Cat",
-        ["zoneNumber"] = 64.57382418696156,
-        ["cachedZoneNumber"] = 64.57382418696156,
-        ["_script"] = "Hot Cocoa Cat",
-        ["thumbnail"] = "rbxassetid://15715879987",
-        ["fromEgg"] = "Ice Sculpture Egg"
+        ["_script"] = "Lion Cub",
+        ["name"] = "Lion Cub",
+        ["_id"] = "Lion Cub",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://15565567592",
+        ["goldenThumbnail"] = "rbxassetid://15565567641"
     },
     ["Circuit Griffin"] = {
         ["iconSettings"] = {
@@ -16953,24 +18573,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17026769669",
         ["fromEgg"] = "Aura Egg"
     },
-    ["Train Conductor Cat"] = {
+    ["Kitsune Fox"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 207",
-            ["faceTopLeftPixel"] = "61, 71",
-            ["imageSize"] = "223, 250"
+            ["faceBottomRightPixel"] = "243, 199",
+            ["faceTopLeftPixel"] = "113, 82",
+            ["imageSize"] = "250, 234"
         },
-        ["goldenThumbnail"] = "rbxassetid://15715876978",
-        ["_id"] = "Train Conductor Cat",
+        ["goldenThumbnail"] = "rbxassetid://15565568541",
+        ["_id"] = "Kitsune Fox",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 67,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {203810},
-        ["name"] = "Train Conductor Cat",
-        ["zoneNumber"] = 67.43437254820127,
-        ["cachedZoneNumber"] = 67.43437254820127,
-        ["_script"] = "Train Conductor Cat",
-        ["thumbnail"] = "rbxassetid://15715876878",
-        ["fromEgg"] = "Teddy Egg"
+        ["fromZoneNumber"] = 51,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {33665},
+        ["name"] = "Kitsune Fox",
+        ["zoneNumber"] = 52.15252514163531,
+        ["cachedZoneNumber"] = 52.15252514163531,
+        ["_script"] = "Kitsune Fox",
+        ["thumbnail"] = "rbxassetid://15565568489",
+        ["fromEgg"] = "Ninja Egg"
     },
     ["Butterfly"] = {
         ["iconSettings"] = {
@@ -17038,19 +18658,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14968178287",
         ["fromEgg"] = "Beach Ball Egg"
     },
-    ["Arcade Cat"] = {
+    ["Fairy Ladybug"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 202",
-            ["faceTopLeftPixel"] = "63, 68",
-            ["imageSize"] = "226, 250"
+            ["faceBottomRightPixel"] = "222, 206",
+            ["faceTopLeftPixel"] = "62, 61",
+            ["imageSize"] = "231, 250"
         },
-        ["_script"] = "Arcade Cat",
-        ["name"] = "Arcade Cat",
-        ["_id"] = "Arcade Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968174053",
-        ["goldenThumbnail"] = "rbxassetid://14968173940"
+        ["goldenThumbnail"] = "rbxassetid://15565568653",
+        ["_id"] = "Fairy Ladybug",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 55,
+        ["cachedZoneNumber"] = 55.426368775824685,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {49543},
+        ["name"] = "Fairy Ladybug",
+        ["zoneNumber"] = 55.426368775824685,
+        ["fly"] = true,
+        ["_script"] = "Fairy Ladybug",
+        ["thumbnail"] = "rbxassetid://15565568611",
+        ["fromEgg"] = "Pixie Egg"
     },
     ["Sensei Penguin"] = {
         ["iconSettings"] = {
@@ -17066,24 +18692,25 @@ data = {
         ["thumbnail"] = "rbxassetid://15565566222",
         ["goldenThumbnail"] = "rbxassetid://15565566296"
     },
-    ["Demolition Cat"] = {
+    ["Fairy Bee"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 169",
-            ["faceTopLeftPixel"] = "86, 62",
-            ["imageSize"] = "250, 202"
+            ["faceBottomRightPixel"] = "212, 207",
+            ["faceTopLeftPixel"] = "60, 69",
+            ["imageSize"] = "221, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968206548",
-        ["_id"] = "Demolition Cat",
+        ["goldenThumbnail"] = "rbxassetid://15565568742",
+        ["_id"] = "Fairy Bee",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 11,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {296},
-        ["name"] = "Demolition Cat",
-        ["zoneNumber"] = 12.283310521096283,
-        ["cachedZoneNumber"] = 12.283310521096283,
-        ["_script"] = "Demolition Cat",
-        ["thumbnail"] = "rbxassetid://14968206706",
-        ["fromEgg"] = "Geode Egg"
+        ["fromZoneNumber"] = 55,
+        ["cachedZoneNumber"] = 55.29884527389772,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {48793},
+        ["name"] = "Fairy Bee",
+        ["zoneNumber"] = 55.29884527389772,
+        ["fly"] = true,
+        ["_script"] = "Fairy Bee",
+        ["thumbnail"] = "rbxassetid://15565568703",
+        ["fromEgg"] = "Pixie Egg"
     },
     ["Bladee"] = {
         ["exclusiveLevel"] = 3,
@@ -17143,115 +18770,104 @@ data = {
             ["imageSize"] = "250, 189"
         }
     },
-    ["Keyboard Cat"] = {
+    ["Blossom Bunny"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "195, 183",
-            ["faceTopLeftPixel"] = "54, 56",
-            ["imageSize"] = "250, 220"
+            ["faceBottomRightPixel"] = "173, 217",
+            ["faceTopLeftPixel"] = "48, 103",
+            ["imageSize"] = "195, 250"
         },
-        ["_script"] = "Keyboard Cat",
-        ["name"] = "Keyboard Cat",
-        ["_id"] = "Keyboard Cat",
-        ["exclusiveLevel"] = 1,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968270057",
-        ["goldenThumbnail"] = "rbxassetid://14968269943"
-    },
-    ["Hamster"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "233, 204",
-            ["faceTopLeftPixel"] = "65, 51",
-            ["imageSize"] = "242, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15637924187",
-        ["_id"] = "Hamster",
+        ["goldenThumbnail"] = "rbxassetid://15565568848",
+        ["_id"] = "Blossom Bunny",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 59,
+        ["fromZoneNumber"] = 54,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {78103},
-        ["name"] = "Hamster",
-        ["zoneNumber"] = 59.29304903337264,
-        ["cachedZoneNumber"] = 59.29304903337264,
-        ["_script"] = "Hamster",
-        ["thumbnail"] = "rbxassetid://15637924096",
-        ["fromEgg"] = "Dandelion Egg"
+        ["cachedPower"] = {43436},
+        ["name"] = "Blossom Bunny",
+        ["zoneNumber"] = 54.311155571114725,
+        ["cachedZoneNumber"] = 54.311155571114725,
+        ["_script"] = "Blossom Bunny",
+        ["thumbnail"] = "rbxassetid://15565568796",
+        ["fromEgg"] = "Garden Egg"
     },
-    ["Blimp Dragon"] = {
+    ["Ancient Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 193",
-            ["faceTopLeftPixel"] = "107, 107",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968182927",
-        ["_id"] = "Blimp Dragon",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 157,
-        ["cachedZoneNumber"] = 158.6912875757093,
-        ["sounds"] = {["random"] = {7621655327, 7621655439, 7621655241}, ["walk"] = {}},
-        ["cachedPower"] = {9487152450},
-        ["name"] = "Blimp Dragon",
-        ["zoneNumber"] = 158.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Blimp Dragon",
-        ["thumbnail"] = "rbxassetid://14968183021",
-        ["fromEgg"] = "Steampunk Airship Egg"
-    },
-    ["Frost Rabbit"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "174, 217",
-            ["faceTopLeftPixel"] = "49, 104",
-            ["imageSize"] = "181, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15637924384",
-        ["_id"] = "Frost Rabbit",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 64,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {141268},
-        ["name"] = "Frost Rabbit",
-        ["zoneNumber"] = 64.32391591975734,
-        ["cachedZoneNumber"] = 64.32391591975734,
-        ["_script"] = "Frost Rabbit",
-        ["thumbnail"] = "rbxassetid://15637924287",
-        ["fromEgg"] = "Ice Sculpture Egg"
-    },
-    ["Frost Fox"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 208",
-            ["faceTopLeftPixel"] = "61, 70",
-            ["imageSize"] = "221, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15637923839",
-        ["_id"] = "Frost Fox",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 64,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {143010},
-        ["name"] = "Frost Fox",
-        ["zoneNumber"] = 64.42659924650711,
-        ["cachedZoneNumber"] = 64.42659924650711,
-        ["_script"] = "Frost Fox",
-        ["thumbnail"] = "rbxassetid://15637923791",
-        ["fromEgg"] = "Ice Sculpture Egg"
-    },
-    ["Colorful Wisp"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 169",
-            ["faceTopLeftPixel"] = "68, 11",
+            ["faceBottomRightPixel"] = "205, 184",
+            ["faceTopLeftPixel"] = "82, 72",
             ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://15637923947",
-        ["_id"] = "Colorful Wisp",
+        ["goldenThumbnail"] = "rbxassetid://15565568923",
+        ["_id"] = "Ancient Dragon",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 60,
+        ["fromZoneNumber"] = 52,
+        ["cachedZoneNumber"] = 54.2048914768929,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {103596},
-        ["name"] = "Colorful Wisp",
-        ["zoneNumber"] = 61.691287575709325,
-        ["cachedZoneNumber"] = 61.691287575709325,
-        ["_script"] = "Colorful Wisp",
-        ["thumbnail"] = "rbxassetid://15637923898",
-        ["fromEgg"] = "Colorful Egg"
+        ["cachedPower"] = {42881},
+        ["name"] = "Ancient Dragon",
+        ["zoneNumber"] = 54.2048914768929,
+        ["fly"] = true,
+        ["_script"] = "Ancient Dragon",
+        ["thumbnail"] = "rbxassetid://15565568888",
+        ["fromEgg"] = "Lantern Egg"
+    },
+    ["Titanic Shiba"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16393850204",
+        ["_id"] = "Titanic Shiba",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Titanic Shiba",
+        ["indexDesc"] = "Comes with the Titanic Shiba plush!",
+        ["thumbnail"] = "rbxassetid://16393850015",
+        ["_script"] = "Titanic Shiba"
+    },
+    ["Research Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 207",
+            ["faceTopLeftPixel"] = "63, 61",
+            ["imageSize"] = "230, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18673191907",
+        ["_id"] = "Research Cat",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {11943340660827},
+        ["name"] = "Research Cat",
+        ["zoneNumber"] = 219.2941176470588,
+        ["cachedZoneNumber"] = 219.2941176470588,
+        ["thumbnail"] = "rbxassetid://18673192043",
+        ["_script"] = "Research Cat"
+    },
+    ["Unicorn Dragon"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://15163402478",
+        ["_id"] = "Unicorn Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Unicorn Dragon",
+        ["fly"] = true,
+        ["_script"] = "Unicorn Dragon",
+        ["thumbnail"] = "rbxassetid://15163402536",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 139",
+            ["faceTopLeftPixel"] = "107, 51",
+            ["imageSize"] = "250, 165"
+        }
+    },
+    ["Huge Sorcerer Bear"] = {
+        ["goldenThumbnail"] = "rbxassetid://18978051137",
+        ["_id"] = "Huge Sorcerer Bear",
+        ["_script"] = "Huge Sorcerer Bear",
+        ["indexObtainable"] = true,
+        ["indexDesc"] = "Found in the RNG Event",
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Huge Sorcerer Bear",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18978051040",
+        ["preventFuseMachine"] = true
     },
     ["Huge Present Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://15637230140",
@@ -17283,35 +18899,39 @@ data = {
         ["thumbnail"] = "rbxassetid://14968190542",
         ["fromEgg"] = "Carnival Egg"
     },
-    ["Colorful Rock"] = {
+    ["Hell Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "205, 201",
+            ["faceTopLeftPixel"] = "59, 68",
+            ["imageSize"] = "250, 241"
         },
-        ["goldenThumbnail"] = "rbxassetid://15637923649",
-        ["_id"] = "Colorful Rock",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 61,
+        ["goldenThumbnail"] = "rbxassetid://18882338137",
+        ["_id"] = "Hell Monkey",
+        ["cachedZoneNumber"] = 220.45833333333334,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Hell Monkey",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {116545},
-        ["name"] = "Colorful Rock",
-        ["zoneNumber"] = 62.691287575709325,
-        ["cachedZoneNumber"] = 62.691287575709325,
-        ["_script"] = "Colorful Rock",
-        ["thumbnail"] = "rbxassetid://15637923583",
-        ["fromEgg"] = "Colorful Geode Egg"
+        ["cachedPower"] = {13702283450969, 18794383073852, 17364490568642},
+        ["name"] = "Hell Monkey",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 220.45833333333334,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882337967",
+        ["preventFuseMachine"] = true
     },
-    ["Huge Gecko"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976440435",
-        ["_id"] = "Huge Gecko",
+    ["Huge Nightmare Spirit"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976825201",
+        ["_id"] = "Huge Nightmare Spirit",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Gecko",
-        ["indexDesc"] = "Found in the Huge Machine Kraken Egg!",
-        ["thumbnail"] = "rbxassetid://14976440578",
-        ["_script"] = "Huge Gecko"
+        ["name"] = "Huge Nightmare Spirit",
+        ["_script"] = "Huge Nightmare Spirit",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the Exclusive Nightmare Egg!",
+        ["thumbnail"] = "rbxassetid://14976825431",
+        ["weld"] = true
     },
     ["Mermaid Cat"] = {
         ["iconSettings"] = {
@@ -17346,62 +18966,52 @@ data = {
         ["thumbnail"] = "rbxassetid://14968345764",
         ["goldenThumbnail"] = "rbxassetid://14968345630"
     },
-    ["Calico Cat"] = {
+    ["Tiedye Corgi"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968353106",
+        ["_id"] = "Tiedye Corgi",
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Tiedye Corgi",
+        ["_script"] = "Tiedye Corgi",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 207",
-            ["faceTopLeftPixel"] = "63, 63",
-            ["imageSize"] = "228, 250"
+            ["faceBottomRightPixel"] = "210, 208",
+            ["faceTopLeftPixel"] = "59, 72",
+            ["imageSize"] = "218, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15637923529",
-        ["_id"] = "Calico Cat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 59,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {81517},
-        ["name"] = "Calico Cat",
-        ["zoneNumber"] = 59.65559720677148,
-        ["cachedZoneNumber"] = 59.65559720677148,
-        ["_script"] = "Calico Cat",
-        ["thumbnail"] = "rbxassetid://15637923438",
-        ["fromEgg"] = "Dandelion Egg"
+        ["thumbnail"] = "rbxassetid://14968353197",
+        ["hideSerial"] = true
     },
-    ["King Cow"] = {
+    ["Dino Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 210",
-            ["faceTopLeftPixel"] = "93, 104",
-            ["imageSize"] = "250, 247"
+            ["faceBottomRightPixel"] = "241, 201",
+            ["faceTopLeftPixel"] = "69, 43",
+            ["imageSize"] = "250, 249"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565567223",
-        ["_id"] = "King Cow",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 57,
+        ["goldenThumbnail"] = "rbxassetid://18673189798",
+        ["_id"] = "Dino Dog",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {62703},
-        ["name"] = "King Cow",
-        ["zoneNumber"] = 57.42638030682413,
-        ["cachedZoneNumber"] = 57.42638030682413,
-        ["_script"] = "King Cow",
-        ["thumbnail"] = "rbxassetid://15565567168",
-        ["fromEgg"] = "Crowned Egg"
+        ["cachedPower"] = {11604522486052},
+        ["name"] = "Dino Dog",
+        ["zoneNumber"] = 219.05882352941177,
+        ["cachedZoneNumber"] = 219.05882352941177,
+        ["thumbnail"] = "rbxassetid://18673189973",
+        ["_script"] = "Dino Dog"
     },
-    ["Queen Piggy"] = {
+    ["Stunt Corgi"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 213",
-            ["faceTopLeftPixel"] = "93, 108",
-            ["imageSize"] = "233, 250"
+            ["faceBottomRightPixel"] = "242, 208",
+            ["faceTopLeftPixel"] = "93, 85",
+            ["imageSize"] = "250, 249"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565566869",
-        ["_id"] = "Queen Piggy",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 57,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {63360},
-        ["name"] = "Queen Piggy",
-        ["zoneNumber"] = 57.51466483910313,
-        ["cachedZoneNumber"] = 57.51466483910313,
-        ["_script"] = "Queen Piggy",
-        ["thumbnail"] = "rbxassetid://15565566823",
-        ["fromEgg"] = "Crowned Egg"
+        ["_script"] = "Stunt Corgi",
+        ["name"] = "Stunt Corgi",
+        ["_id"] = "Stunt Corgi",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968347214",
+        ["goldenThumbnail"] = "rbxassetid://14968347124"
     },
     ["Huge Amethyst Dragon"] = {
         ["goldenThumbnail"] = "rbxassetid://14976350162",
@@ -17435,24 +19045,19 @@ data = {
         ["thumbnail"] = "rbxassetid://16043355332",
         ["fromEgg"] = "Rainbow Egg"
     },
-    ["Prince Donkey"] = {
+    ["Stacked Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 211",
-            ["faceTopLeftPixel"] = "96, 101",
-            ["imageSize"] = "242, 250"
+            ["faceBottomRightPixel"] = "198, 211",
+            ["faceTopLeftPixel"] = "56, 83",
+            ["imageSize"] = "206, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565567105",
-        ["_id"] = "Prince Donkey",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 58,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {67123},
-        ["name"] = "Prince Donkey",
-        ["zoneNumber"] = 58.0180711054307,
-        ["cachedZoneNumber"] = 58.0180711054307,
-        ["_script"] = "Prince Donkey",
-        ["thumbnail"] = "rbxassetid://15565567040",
-        ["fromEgg"] = "Royal Egg"
+        ["_script"] = "Stacked Dog",
+        ["name"] = "Stacked Dog",
+        ["_id"] = "Stacked Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968338540",
+        ["goldenThumbnail"] = "rbxassetid://14968338310"
     },
     ["Panther"] = {
         ["iconSettings"] = {
@@ -17473,24 +19078,28 @@ data = {
         ["thumbnail"] = "rbxassetid://14968294740",
         ["fromEgg"] = "Mossy Egg"
     },
-    ["Cheerful Yeti"] = {
+    ["Skateboard Bulldog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "226, 198",
-            ["faceTopLeftPixel"] = "74, 63",
-            ["imageSize"] = "250, 240"
+            ["faceBottomRightPixel"] = "204, 168",
+            ["faceTopLeftPixel"] = "57, 34",
+            ["imageSize"] = "212, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968191676",
-        ["_id"] = "Cheerful Yeti",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 40,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {9768},
-        ["name"] = "Cheerful Yeti",
-        ["zoneNumber"] = 41.64157161918323,
-        ["cachedZoneNumber"] = 41.64157161918323,
-        ["_script"] = "Cheerful Yeti",
-        ["thumbnail"] = "rbxassetid://14968191769",
-        ["fromEgg"] = "Yeti Egg"
+        ["goldenThumbnail"] = "rbxassetid://14968330910",
+        ["_id"] = "Skateboard Bulldog",
+        ["animations"] = {
+            ["flyHeightChange"] = 0,
+            ["swerve"] = true,
+            ["swerveMaxAngle"] = 60,
+            ["flyHeight"] = 0.025,
+            ["swerveAggression"] = 1
+        },
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Skateboard Bulldog",
+        ["fly"] = true,
+        ["_script"] = "Skateboard Bulldog",
+        ["thumbnail"] = "rbxassetid://14968331053",
+        ["weld"] = true
     },
     ["Party Squirrel"] = {
         ["exclusiveLevel"] = 2,
@@ -17507,140 +19116,115 @@ data = {
             ["imageSize"] = "222, 250"
         }
     },
-    ["Tulip Hedgehog"] = {
+    ["Scary Corgi"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "208, 172",
-            ["faceTopLeftPixel"] = "88, 64",
-            ["imageSize"] = "250, 205"
+            ["faceBottomRightPixel"] = "217, 172",
+            ["faceTopLeftPixel"] = "92, 59",
+            ["imageSize"] = "250, 206"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565565376",
-        ["_id"] = "Tulip Hedgehog",
+        ["goldenThumbnail"] = "rbxassetid://14968327953",
+        ["_id"] = "Scary Corgi",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 59,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {78696},
-        ["name"] = "Tulip Hedgehog",
-        ["zoneNumber"] = 59.356020357425585,
-        ["cachedZoneNumber"] = 59.356020357425585,
-        ["_script"] = "Tulip Hedgehog",
-        ["thumbnail"] = "rbxassetid://15565565329",
-        ["fromEgg"] = "Dandelion Egg"
-    },
-    ["Starry Owl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 211",
-            ["faceTopLeftPixel"] = "57, 79",
-            ["imageSize"] = "214, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15565565564",
-        ["_id"] = "Starry Owl",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 56,
-        ["cachedZoneNumber"] = 56.906474734789576,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {58912},
-        ["name"] = "Starry Owl",
-        ["zoneNumber"] = 56.906474734789576,
+        ["fromZoneNumber"] = 75,
+        ["cachedZoneNumber"] = 75.14654392045381,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {505087},
+        ["name"] = "Scary Corgi",
+        ["zoneNumber"] = 75.14654392045381,
         ["fly"] = true,
-        ["_script"] = "Starry Owl",
-        ["thumbnail"] = "rbxassetid://15565565517",
-        ["fromEgg"] = "Pedal Egg"
+        ["_script"] = "Scary Corgi",
+        ["thumbnail"] = "rbxassetid://14968328035",
+        ["fromEgg"] = "Eerie Egg"
     },
-    ["Shadow Dominus"] = {
+    ["Sandcastle Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "211, 114",
-            ["faceTopLeftPixel"] = "94, 7",
-            ["imageSize"] = "250, 146"
+            ["faceBottomRightPixel"] = "184, 214",
+            ["faceTopLeftPixel"] = "52, 95",
+            ["imageSize"] = "191, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565566053",
-        ["_id"] = "Shadow Dominus",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 184,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {214023771174},
-        ["name"] = "Shadow Dominus",
-        ["zoneNumber"] = 185.1525251416353,
-        ["cachedZoneNumber"] = 185.1525251416353,
-        ["_script"] = "Shadow Dominus",
-        ["thumbnail"] = "rbxassetid://15565565989",
-        ["fromEgg"] = "Dark Tech Spike Egg"
-    },
-    ["Shadow Bull"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 162",
-            ["faceTopLeftPixel"] = "71, 43",
-            ["imageSize"] = "250, 198"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15565566193",
-        ["_id"] = "Shadow Bull",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 183,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {179977948101},
-        ["name"] = "Shadow Bull",
-        ["zoneNumber"] = 183.6766978792541,
-        ["cachedZoneNumber"] = 183.6766978792541,
-        ["_script"] = "Shadow Bull",
-        ["thumbnail"] = "rbxassetid://15565566144",
-        ["fromEgg"] = "Dark Tech Brick Egg"
-    },
-    ["Rose Butterfly"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "211, 178",
-            ["faceTopLeftPixel"] = "98, 75",
-            ["imageSize"] = "250, 209"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15565566601",
-        ["_id"] = "Rose Butterfly",
+        ["goldenThumbnail"] = "rbxassetid://14968326049",
+        ["_id"] = "Sandcastle Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 54,
-        ["cachedZoneNumber"] = 54.426368775824685,
+        ["fromZoneNumber"] = 26,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {1749},
+        ["name"] = "Sandcastle Dog",
+        ["zoneNumber"] = 27.0486721265066,
+        ["cachedZoneNumber"] = 27.0486721265066,
+        ["_script"] = "Sandcastle Dog",
+        ["thumbnail"] = "rbxassetid://14968326174",
+        ["fromEgg"] = "Sand Bucket Egg"
+    },
+    ["Flower Gecko"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "194, 208",
+            ["faceTopLeftPixel"] = "61, 88",
+            ["imageSize"] = "250, 246"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968240140",
+        ["_id"] = "Flower Gecko",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 25,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {44038},
-        ["name"] = "Rose Butterfly",
-        ["zoneNumber"] = 54.426368775824685,
+        ["cachedPower"] = {1396},
+        ["name"] = "Flower Gecko",
+        ["zoneNumber"] = 25.12890735289248,
+        ["cachedZoneNumber"] = 25.12890735289248,
+        ["_script"] = "Flower Gecko",
+        ["thumbnail"] = "rbxassetid://14968240285",
+        ["fromEgg"] = "Coconut Egg"
+    },
+    ["Super Capybara"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968348636",
+        ["_id"] = "Super Capybara",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Super Capybara",
         ["fly"] = true,
-        ["_script"] = "Rose Butterfly",
-        ["thumbnail"] = "rbxassetid://15565566558",
-        ["fromEgg"] = "Garden Egg"
-    },
-    ["Kangaroo"] = {
+        ["_script"] = "Super Capybara",
+        ["thumbnail"] = "rbxassetid://14968348781",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "200, 214",
-            ["faceTopLeftPixel"] = "58, 82",
-            ["imageSize"] = "240, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968268680",
-        ["_id"] = "Kangaroo",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 30,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2805},
-        ["name"] = "Kangaroo",
-        ["zoneNumber"] = 31.05938607201224,
-        ["cachedZoneNumber"] = 31.05938607201224,
-        ["_script"] = "Kangaroo",
-        ["thumbnail"] = "rbxassetid://14968268764",
-        ["fromEgg"] = "Fossil Egg"
+            ["faceBottomRightPixel"] = "242, 188",
+            ["faceTopLeftPixel"] = "97, 56",
+            ["imageSize"] = "250, 228"
+        }
     },
-    ["Ninja Raccoon"] = {
+    ["Present Dog"] = {
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Present Dog",
+        ["_id"] = "Present Dog",
+        ["_script"] = "Present Dog",
+        ["hidden"] = true,
+        ["thumbnail"] = "rbxassetid://14968312250",
+        ["goldenThumbnail"] = "rbxassetid://14968312032"
+    },
+    ["Pog Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "229, 205",
-            ["faceTopLeftPixel"] = "65, 56",
-            ["imageSize"] = "237, 250"
+            ["faceBottomRightPixel"] = "241, 197",
+            ["faceTopLeftPixel"] = "68, 40",
+            ["imageSize"] = "250, 244"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565567378",
-        ["_id"] = "Ninja Raccoon",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 51,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {30157},
-        ["name"] = "Ninja Raccoon",
-        ["zoneNumber"] = 51.21601568127838,
-        ["cachedZoneNumber"] = 51.21601568127838,
-        ["_script"] = "Ninja Raccoon",
-        ["thumbnail"] = "rbxassetid://15565567332",
-        ["fromEgg"] = "Ninja Egg"
+        ["_script"] = "Pog Dog",
+        ["name"] = "Pog Dog",
+        ["_id"] = "Pog Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968308010",
+        ["goldenThumbnail"] = "rbxassetid://14968307703"
+    },
+    ["Pixel Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "233, 207",
+            ["faceTopLeftPixel"] = "80, 72",
+            ["imageSize"] = "246, 250"
+        },
+        ["_script"] = "Pixel Corgi",
+        ["name"] = "Pixel Corgi",
+        ["_id"] = "Pixel Corgi",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968304232",
+        ["goldenThumbnail"] = "rbxassetid://14968304134"
     },
     ["Huge Luxe Peacock"] = {
         ["goldenThumbnail"] = "rbxassetid://18556267433",
@@ -17673,19 +19257,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14968299954",
         ["fromEgg"] = "Toy Egg"
     },
-    ["Lion Cub"] = {
+    ["Pinata Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "227, 205",
-            ["faceTopLeftPixel"] = "64, 57",
-            ["imageSize"] = "235, 250"
+            ["faceBottomRightPixel"] = "236, 194",
+            ["faceTopLeftPixel"] = "67, 37",
+            ["imageSize"] = "250, 238"
         },
-        ["_script"] = "Lion Cub",
-        ["name"] = "Lion Cub",
-        ["_id"] = "Lion Cub",
+        ["_script"] = "Pinata Dog",
+        ["name"] = "Piñata Dog",
+        ["_id"] = "Pinata Dog",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://15565567592",
-        ["goldenThumbnail"] = "rbxassetid://15565567641"
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968302180",
+        ["goldenThumbnail"] = "rbxassetid://14968302075"
     },
     ["Huge 404 Demon"] = {
         ["goldenThumbnail"] = "rbxassetid://17288680856",
@@ -17699,24 +19283,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17288680692",
         ["indexDesc"] = "Found in Glitched Gifts!"
     },
-    ["Koi Fish"] = {
+    ["Pastel Sock Corgi"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 147",
-            ["faceTopLeftPixel"] = "70, 23",
-            ["imageSize"] = "250, 169"
+            ["faceBottomRightPixel"] = "210, 208",
+            ["faceTopLeftPixel"] = "59, 72",
+            ["imageSize"] = "218, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565568346",
-        ["_id"] = "Koi Fish",
+        ["goldenThumbnail"] = "rbxassetid://14968299714",
+        ["_id"] = "Pastel Sock Corgi",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 53,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {41376},
-        ["name"] = "Koi Fish",
-        ["zoneNumber"] = 53.906691439981515,
-        ["cachedZoneNumber"] = 53.906691439981515,
-        ["_script"] = "Koi Fish",
-        ["thumbnail"] = "rbxassetid://15565567792",
-        ["fromEgg"] = "Bonsai Egg"
+        ["fromZoneNumber"] = 87,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {2337046},
+        ["name"] = "Pastel Sock Corgi",
+        ["zoneNumber"] = 88.15252514163531,
+        ["cachedZoneNumber"] = 88.15252514163531,
+        ["_script"] = "Pastel Sock Corgi",
+        ["thumbnail"] = "rbxassetid://14968299814",
+        ["fromEgg"] = "Toy Egg"
     },
     ["Sad Cat"] = {
         ["iconSettings"] = {
@@ -17732,44 +19316,35 @@ data = {
         ["thumbnail"] = "rbxassetid://14968322801",
         ["goldenThumbnail"] = "rbxassetid://14968322675"
     },
-    ["Kitsune Fox"] = {
+    ["Party Dog"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968296631",
+        ["_id"] = "Party Dog",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Party Dog",
+        ["_script"] = "Party Dog",
+        ["thumbnail"] = "rbxassetid://14968296738",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "243, 199",
-            ["faceTopLeftPixel"] = "113, 82",
-            ["imageSize"] = "250, 234"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15565568541",
-        ["_id"] = "Kitsune Fox",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 51,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {33665},
-        ["name"] = "Kitsune Fox",
-        ["zoneNumber"] = 52.15252514163531,
-        ["cachedZoneNumber"] = 52.15252514163531,
-        ["_script"] = "Kitsune Fox",
-        ["thumbnail"] = "rbxassetid://15565568489",
-        ["fromEgg"] = "Ninja Egg"
+            ["faceBottomRightPixel"] = "206, 210",
+            ["faceTopLeftPixel"] = "58, 76",
+            ["imageSize"] = "214, 250"
+        }
     },
-    ["Fairy Ladybug"] = {
+    ["Mosaic Corgi"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968283236",
+        ["_id"] = "Mosaic Corgi",
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Mosaic Corgi",
+        ["_script"] = "Mosaic Corgi",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 206",
-            ["faceTopLeftPixel"] = "62, 61",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "211, 209",
+            ["faceTopLeftPixel"] = "59, 72",
+            ["imageSize"] = "218, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565568653",
-        ["_id"] = "Fairy Ladybug",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 55,
-        ["cachedZoneNumber"] = 55.426368775824685,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {49543},
-        ["name"] = "Fairy Ladybug",
-        ["zoneNumber"] = 55.426368775824685,
-        ["fly"] = true,
-        ["_script"] = "Fairy Ladybug",
-        ["thumbnail"] = "rbxassetid://15565568611",
-        ["fromEgg"] = "Pixie Egg"
+        ["thumbnail"] = "rbxassetid://14968283350",
+        ["hideSerial"] = true
     },
     ["Hell Chick"] = {
         ["iconSettings"] = {
@@ -17790,24 +19365,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968255858",
         ["fromEgg"] = "Volcano Egg"
     },
-    ["Royal Peacock"] = {
+    ["Steampunk Wolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "227, 174",
-            ["faceTopLeftPixel"] = "112, 67",
-            ["imageSize"] = "250, 210"
+            ["faceBottomRightPixel"] = "206, 210",
+            ["faceTopLeftPixel"] = "59, 77",
+            ["imageSize"] = "238, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565566458",
-        ["_id"] = "Royal Peacock",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 57,
+        ["goldenThumbnail"] = "rbxassetid://14968343689",
+        ["_id"] = "Steampunk Wolf",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 157,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {66276},
-        ["name"] = "Royal Peacock",
-        ["zoneNumber"] = 57.90648557485885,
-        ["cachedZoneNumber"] = 57.90648557485885,
-        ["_script"] = "Royal Peacock",
-        ["thumbnail"] = "rbxassetid://15565566377",
-        ["fromEgg"] = "Crowned Egg"
+        ["cachedPower"] = {8261842001},
+        ["name"] = "Steampunk Wolf",
+        ["zoneNumber"] = 157.51486267931344,
+        ["cachedZoneNumber"] = 157.51486267931344,
+        ["_script"] = "Steampunk Wolf",
+        ["thumbnail"] = "rbxassetid://14968343794",
+        ["fromEgg"] = "Steampunk Airship Egg"
     },
     ["Huge Shadow Dominus"] = {
         ["goldenThumbnail"] = "rbxassetid://15804010470",
@@ -17820,25 +19395,20 @@ data = {
         ["thumbnail"] = "rbxassetid://15804010569",
         ["_script"] = "Huge Shadow Dominus"
     },
-    ["Fairy Bee"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 207",
-            ["faceTopLeftPixel"] = "60, 69",
-            ["imageSize"] = "221, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15565568742",
-        ["_id"] = "Fairy Bee",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 55,
-        ["cachedZoneNumber"] = 55.29884527389772,
+    ["Huge Shuriken Corgi"] = {
+        ["goldenThumbnail"] = "rbxassetid://18978050941",
+        ["_id"] = "Huge Shuriken Corgi",
+        ["indexObtainable"] = true,
+        ["_script"] = "Huge Shuriken Corgi",
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {48793},
-        ["name"] = "Fairy Bee",
-        ["zoneNumber"] = 55.29884527389772,
-        ["fly"] = true,
-        ["_script"] = "Fairy Bee",
-        ["thumbnail"] = "rbxassetid://15565568703",
-        ["fromEgg"] = "Pixie Egg"
+        ["weld"] = true,
+        ["name"] = "Huge Shuriken Corgi",
+        ["preventGoldMachine"] = true,
+        ["indexDesc"] = "Found in the RNG Event",
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18978050838",
+        ["preventFuseMachine"] = true
     },
     ["Sabretooth Tiger"] = {
         ["iconSettings"] = {
@@ -17898,24 +19468,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14968306091",
         ["goldenThumbnail"] = "rbxassetid://14968305909"
     },
-    ["Blossom Bunny"] = {
+    ["Jelly Corgi"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968266009",
+        ["_id"] = "Jelly Corgi",
+        ["animations"] = {["jelly"] = true},
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Jelly Corgi",
+        ["_script"] = "Jelly Corgi",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 217",
-            ["faceTopLeftPixel"] = "48, 103",
-            ["imageSize"] = "195, 250"
+            ["faceBottomRightPixel"] = "233, 209",
+            ["faceTopLeftPixel"] = "76, 74",
+            ["imageSize"] = "234, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565568848",
-        ["_id"] = "Blossom Bunny",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 54,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {43436},
-        ["name"] = "Blossom Bunny",
-        ["zoneNumber"] = 54.311155571114725,
-        ["cachedZoneNumber"] = 54.311155571114725,
-        ["_script"] = "Blossom Bunny",
-        ["thumbnail"] = "rbxassetid://15565568796",
-        ["fromEgg"] = "Garden Egg"
+        ["thumbnail"] = "rbxassetid://14968266152",
+        ["weld"] = true
     },
     ["Apple Capybara"] = {
         ["exclusiveLevel"] = 3,
@@ -17932,40 +19499,38 @@ data = {
             ["imageSize"] = "230, 250"
         }
     },
-    ["Ancient Dragon"] = {
+    ["Yee-haw Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 184",
-            ["faceTopLeftPixel"] = "82, 72",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "228, 208",
+            ["faceTopLeftPixel"] = "78, 73",
+            ["imageSize"] = "244, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://15565568923",
-        ["_id"] = "Ancient Dragon",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 52,
-        ["cachedZoneNumber"] = 54.2048914768929,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {42881},
-        ["name"] = "Ancient Dragon",
-        ["zoneNumber"] = 54.2048914768929,
-        ["fly"] = true,
-        ["_script"] = "Ancient Dragon",
-        ["thumbnail"] = "rbxassetid://15565568888",
-        ["fromEgg"] = "Lantern Egg"
+        ["_script"] = "Yee-haw Cat",
+        ["name"] = "Yee-haw Cat",
+        ["_id"] = "Yee-haw Cat",
+        ["exclusiveLevel"] = 1,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968199662",
+        ["goldenThumbnail"] = "rbxassetid://14968199510"
     },
-    ["Celestial Dragon"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://15163401960",
-        ["_id"] = "Celestial Dragon",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Celestial Dragon",
-        ["fly"] = true,
-        ["_script"] = "Celestial Dragon",
-        ["thumbnail"] = "rbxassetid://15163402047",
+    ["Glitched Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "187, 223",
-            ["faceTopLeftPixel"] = "86, 131",
-            ["imageSize"] = "223, 250"
-        }
+            ["faceBottomRightPixel"] = "207, 147",
+            ["faceTopLeftPixel"] = "107, 58",
+            ["imageSize"] = "250, 174"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968248012",
+        ["_id"] = "Glitched Dog",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 189,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {411165434530},
+        ["name"] = "Glitched Dog",
+        ["zoneNumber"] = 190.6912875757093,
+        ["cachedZoneNumber"] = 190.6912875757093,
+        ["_script"] = "Glitched Dog",
+        ["thumbnail"] = "rbxassetid://14968248121",
+        ["fromEgg"] = "Glitch Tree Egg"
     },
     ["Huge Scary Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://15281988492",
@@ -18025,20 +19590,19 @@ data = {
         ["thumbnail"] = "rbxassetid://15581758974",
         ["_script"] = "Titanic Reindeer"
     },
-    ["Jetpack Tiger"] = {
+    ["Festive Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 169",
-            ["faceTopLeftPixel"] = "96, 50",
-            ["imageSize"] = "250, 205"
+            ["faceBottomRightPixel"] = "187, 213",
+            ["faceTopLeftPixel"] = "54, 93",
+            ["imageSize"] = "195, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968267030",
-        ["_id"] = "Jetpack Tiger",
+        ["_script"] = "Festive Dog",
+        ["name"] = "Festive Dog",
+        ["_id"] = "Festive Dog",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Jetpack Tiger",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968267180",
-        ["_script"] = "Jetpack Tiger"
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968236258",
+        ["goldenThumbnail"] = "rbxassetid://14968236069"
     },
     ["Midnight Axolotl"] = {
         ["iconSettings"] = {
@@ -18115,34 +19679,38 @@ data = {
             ["imageSize"] = "228, 250"
         }
     },
-    ["Super Corgi"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968349230",
-        ["_id"] = "Super Corgi",
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Super Corgi",
-        ["fly"] = true,
-        ["_script"] = "Super Corgi",
-        ["thumbnail"] = "rbxassetid://14968349380",
+    ["Doodle Corgi"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 206",
-            ["faceTopLeftPixel"] = "93, 71",
-            ["imageSize"] = "250, 247"
-        }
-    },
-    ["Stunt Corgi"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 208",
-            ["faceTopLeftPixel"] = "93, 85",
-            ["imageSize"] = "250, 249"
+            ["faceBottomRightPixel"] = "212, 209",
+            ["faceTopLeftPixel"] = "59, 72",
+            ["imageSize"] = "218, 250"
         },
-        ["_script"] = "Stunt Corgi",
-        ["name"] = "Stunt Corgi",
-        ["_id"] = "Stunt Corgi",
+        ["_script"] = "Doodle Corgi",
+        ["name"] = "Doodle Corgi",
+        ["_id"] = "Doodle Corgi",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968347214",
-        ["goldenThumbnail"] = "rbxassetid://14968347124"
+        ["thumbnail"] = "rbxassetid://14968213833",
+        ["goldenThumbnail"] = "rbxassetid://14968213301"
+    },
+    ["Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "240, 197",
+            ["faceTopLeftPixel"] = "68, 41",
+            ["imageSize"] = "250, 244"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968209024",
+        ["_id"] = "Dog",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 1,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {1},
+        ["name"] = "Dog",
+        ["cachedZoneNumber"] = 1,
+        ["power"] = 1,
+        ["_script"] = "Dog",
+        ["thumbnail"] = "rbxassetid://14968209124",
+        ["fromEgg"] = "Cracked Egg"
     },
     ["Meerkat"] = {
         ["iconSettings"] = {
@@ -18184,33 +19752,38 @@ data = {
             ["imageSize"] = "250, 195"
         }
     },
-    ["Stacked Doge Noob"] = {
+    ["Cyborg Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 209",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "215, 250"
+            ["faceBottomRightPixel"] = "205, 209",
+            ["faceTopLeftPixel"] = "58, 76",
+            ["imageSize"] = "213, 250"
         },
-        ["_script"] = "Stacked Doge Noob",
-        ["name"] = "Stacked Doge Noob",
-        ["_id"] = "Stacked Doge Noob",
+        ["goldenThumbnail"] = "rbxassetid://14968204443",
+        ["_id"] = "Cyborg Dog",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 100,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {10197468},
+        ["name"] = "Cyborg Dog",
+        ["zoneNumber"] = 100.65539544078774,
+        ["cachedZoneNumber"] = 100.65539544078774,
+        ["_script"] = "Cyborg Dog",
+        ["thumbnail"] = "rbxassetid://14968204634",
+        ["fromEgg"] = "Tech Ciruit Egg"
+    },
+    ["Cupid Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "213, 164",
+            ["faceTopLeftPixel"] = "96, 55",
+            ["imageSize"] = "250, 233"
+        },
+        ["_script"] = "Cupid Corgi",
+        ["name"] = "Cupid Corgi",
+        ["_id"] = "Cupid Corgi",
         ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968339288",
-        ["goldenThumbnail"] = "rbxassetid://14968339038"
-    },
-    ["Stacked Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 211",
-            ["faceTopLeftPixel"] = "56, 83",
-            ["imageSize"] = "206, 250"
-        },
-        ["_script"] = "Stacked Dog",
-        ["name"] = "Stacked Dog",
-        ["_id"] = "Stacked Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968338540",
-        ["goldenThumbnail"] = "rbxassetid://14968338310"
+        ["thumbnail"] = "rbxassetid://14968202482",
+        ["goldenThumbnail"] = "rbxassetid://14968202287"
     },
     ["Pirate Parrot"] = {
         ["iconSettings"] = {
@@ -18232,28 +19805,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968303717",
         ["fromEgg"] = "Ship Egg"
     },
-    ["Skateboard Bulldog"] = {
+    ["Cowboy Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 168",
-            ["faceTopLeftPixel"] = "57, 34",
-            ["imageSize"] = "212, 250"
+            ["faceBottomRightPixel"] = "222, 200",
+            ["faceTopLeftPixel"] = "75, 68",
+            ["imageSize"] = "237, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968330910",
-        ["_id"] = "Skateboard Bulldog",
-        ["animations"] = {
-            ["flyHeightChange"] = 0,
-            ["swerve"] = true,
-            ["swerveMaxAngle"] = 60,
-            ["flyHeight"] = 0.025,
-            ["swerveAggression"] = 1
-        },
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968361944",
+        ["_id"] = "Cowboy Dog",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 34,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Skateboard Bulldog",
-        ["fly"] = true,
-        ["_script"] = "Skateboard Bulldog",
-        ["thumbnail"] = "rbxassetid://14968331053",
-        ["weld"] = true
+        ["cachedPower"] = {4493},
+        ["name"] = "Yee-haw Dog",
+        ["zoneNumber"] = 35.05815760803597,
+        ["cachedZoneNumber"] = 35.05815760803597,
+        ["_script"] = "Cowboy Dog",
+        ["thumbnail"] = "rbxassetid://14968362070",
+        ["fromEgg"] = "Canyon Egg"
     },
     ["Nightfall Ram"] = {
         ["exclusiveLevel"] = 3,
@@ -18297,59 +19866,51 @@ data = {
         ["thumbnail"] = "rbxassetid://17277934726",
         ["indexDesc"] = "Reward in the 2024 Bubble Clan Battle!"
     },
-    ["Stunt Unicorn"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968347369",
-        ["_id"] = "Stunt Unicorn",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Stunt Unicorn",
+    ["Huge Peppermint Angelus"] = {
+        ["goldenThumbnail"] = "rbxassetid://15716049351",
+        ["_id"] = "Huge Peppermint Angelus",
+        ["animations"] = {["angelusSpin"] = true},
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
+        ["name"] = "Huge Peppermint Angelus",
         ["fly"] = true,
-        ["_script"] = "Stunt Unicorn",
-        ["thumbnail"] = "rbxassetid://14968347562",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "190, 186",
-            ["faceTopLeftPixel"] = "91, 102",
-            ["imageSize"] = "250, 213"
-        }
+        ["_script"] = "Huge Peppermint Angelus",
+        ["thumbnail"] = "rbxassetid://15716049163",
+        ["indexDesc"] = "Found in the Exclusive Xmas Egg!"
     },
-    ["Scary Corgi"] = {
+    ["Cool Corgi"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 172",
-            ["faceTopLeftPixel"] = "92, 59",
-            ["imageSize"] = "250, 206"
+            ["faceBottomRightPixel"] = "209, 208",
+            ["faceTopLeftPixel"] = "59, 72",
+            ["imageSize"] = "217, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968327953",
-        ["_id"] = "Scary Corgi",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 75,
-        ["cachedZoneNumber"] = 75.14654392045381,
+        ["_script"] = "Cool Corgi",
+        ["name"] = "Cool Corgi",
+        ["_id"] = "Cool Corgi",
+        ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {505087},
-        ["name"] = "Scary Corgi",
-        ["zoneNumber"] = 75.14654392045381,
-        ["fly"] = true,
-        ["_script"] = "Scary Corgi",
-        ["thumbnail"] = "rbxassetid://14968328035",
-        ["fromEgg"] = "Eerie Egg"
+        ["thumbnail"] = "rbxassetid://14968198599",
+        ["goldenThumbnail"] = "rbxassetid://14968198512"
     },
-    ["Sandcastle Dog"] = {
+    ["Chocolate Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "184, 214",
-            ["faceTopLeftPixel"] = "52, 95",
-            ["imageSize"] = "191, 250"
+            ["faceBottomRightPixel"] = "240, 196",
+            ["faceTopLeftPixel"] = "68, 41",
+            ["imageSize"] = "250, 244"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968326049",
-        ["_id"] = "Sandcastle Dog",
+        ["goldenThumbnail"] = "rbxassetid://14968194661",
+        ["_id"] = "Chocolate Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 26,
+        ["fromZoneNumber"] = 85,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {1749},
-        ["name"] = "Sandcastle Dog",
-        ["zoneNumber"] = 27.0486721265066,
-        ["cachedZoneNumber"] = 27.0486721265066,
-        ["_script"] = "Sandcastle Dog",
-        ["thumbnail"] = "rbxassetid://14968326174",
-        ["fromEgg"] = "Sand Bucket Egg"
+        ["cachedPower"] = {1704778},
+        ["name"] = "Chocolate Dog",
+        ["zoneNumber"] = 85.46740476366732,
+        ["cachedZoneNumber"] = 85.46740476366732,
+        ["_script"] = "Chocolate Dog",
+        ["thumbnail"] = "rbxassetid://14968194774",
+        ["fromEgg"] = "Ice Cream Egg"
     },
     ["Huge Bearserker"] = {
         ["goldenThumbnail"] = "rbxassetid://14976362247",
@@ -18362,81 +19923,81 @@ data = {
         ["thumbnail"] = "rbxassetid://14976362435",
         ["_script"] = "Huge Bearserker"
     },
-    ["Spitting Dino"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "178, 118",
-            ["faceTopLeftPixel"] = "74, 23",
-            ["imageSize"] = "250, 147"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968336766",
-        ["_id"] = "Spitting Dino",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 31,
+    ["Huge Lovemelon"] = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3137},
-        ["name"] = "Spitting Dino",
-        ["zoneNumber"] = 32.01062418420541,
-        ["cachedZoneNumber"] = 32.01062418420541,
-        ["_script"] = "Spitting Dino",
-        ["thumbnail"] = "rbxassetid://14968336870",
-        ["fromEgg"] = "Egyptian Egg"
-    },
-    ["Desert Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 206",
-            ["faceTopLeftPixel"] = "63, 63",
-            ["imageSize"] = "228, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968207121",
-        ["_id"] = "Desert Cat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 32,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {3169},
-        ["name"] = "Desert Cat",
-        ["zoneNumber"] = 32.093703222113476,
-        ["cachedZoneNumber"] = 32.093703222113476,
-        ["_script"] = "Desert Cat",
-        ["thumbnail"] = "rbxassetid://14968207221",
-        ["fromEgg"] = "Sandstone Egg"
-    },
-    ["Santa Monkey"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968326493",
-        ["_id"] = "Santa Monkey",
+        ["_script"] = "Huge Lovemelon",
+        ["name"] = "Huge Lovemelon",
+        ["_id"] = "Huge Lovemelon",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Santa Monkey",
-        ["_script"] = "Santa Monkey",
-        ["thumbnail"] = "rbxassetid://14968326630",
+        ["goldenThumbnail"] = "rbxassetid://14976477470",
+        ["thumbnail"] = "rbxassetid://14976477569",
+        ["huge"] = true
+    },
+    ["Bubble Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "194, 212",
-            ["faceTopLeftPixel"] = "55, 84",
-            ["imageSize"] = "237, 250"
+            ["faceBottomRightPixel"] = "171, 182",
+            ["faceTopLeftPixel"] = "47, 68",
+            ["imageSize"] = "214, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968187900",
+        ["_id"] = "Bubble Dog",
+        ["balloon"] = true,
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Bubble Dog",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968188079",
+        ["_script"] = "Bubble Dog"
+    },
+    ["Atomic Corgi"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "188, 173",
+            ["faceTopLeftPixel"] = "85, 80",
+            ["imageSize"] = "232, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968177430",
+        ["_id"] = "Atomic Corgi",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["weld"] = true,
+        ["fly"] = true,
+        ["_script"] = "Atomic Corgi",
+        ["thumbnail"] = "rbxassetid://14968177503",
+        ["name"] = "Atomic Corgi"
+    },
+    ["Anime Unicorn"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968173393",
+        ["_id"] = "Anime Unicorn",
+        ["animations"] = {["hybridFly"] = true},
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Anime Unicorn",
+        ["_script"] = "Anime Unicorn",
+        ["thumbnail"] = "rbxassetid://14968173600",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 157",
+            ["faceTopLeftPixel"] = "92, 62",
+            ["imageSize"] = "250, 189"
         }
     },
-    ["Present Dog"] = {
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Present Dog",
-        ["_id"] = "Present Dog",
-        ["_script"] = "Present Dog",
-        ["hidden"] = true,
-        ["thumbnail"] = "rbxassetid://14968312250",
-        ["goldenThumbnail"] = "rbxassetid://14968312032"
-    },
-    ["Pixel Corgi"] = {
+    ["Chocolate Hippo"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "233, 207",
-            ["faceTopLeftPixel"] = "80, 72",
-            ["imageSize"] = "246, 250"
+            ["faceBottomRightPixel"] = "208, 145",
+            ["faceTopLeftPixel"] = "59, 10",
+            ["imageSize"] = "250, 188"
         },
-        ["_script"] = "Pixel Corgi",
-        ["name"] = "Pixel Corgi",
-        ["_id"] = "Pixel Corgi",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968304232",
-        ["goldenThumbnail"] = "rbxassetid://14968304134"
+        ["goldenThumbnail"] = "rbxassetid://14968195341",
+        ["_id"] = "Chocolate Hippo",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 85,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1968585},
+        ["name"] = "Chocolate Hippo",
+        ["zoneNumber"] = 86.69128757570932,
+        ["cachedZoneNumber"] = 86.69128757570932,
+        ["_script"] = "Chocolate Hippo",
+        ["thumbnail"] = "rbxassetid://14968195465",
+        ["fromEgg"] = "Ice Cream Egg"
     },
     ["Honey Badger"] = {
         ["iconSettings"] = {
@@ -18523,19 +20084,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14968330093",
         ["fromEgg"] = "Colorful Mosaic Egg"
     },
-    ["Pinata Dog"] = {
+    ["Angel Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "236, 194",
-            ["faceTopLeftPixel"] = "67, 37",
-            ["imageSize"] = "250, 238"
+            ["faceBottomRightPixel"] = "216, 196",
+            ["faceTopLeftPixel"] = "88, 79",
+            ["imageSize"] = "250, 231"
         },
-        ["_script"] = "Pinata Dog",
-        ["name"] = "Piñata Dog",
-        ["_id"] = "Pinata Dog",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968171537",
+        ["_id"] = "Angel Dog",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 95,
+        ["cachedZoneNumber"] = 96.15252514163531,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968302180",
-        ["goldenThumbnail"] = "rbxassetid://14968302075"
+        ["cachedPower"] = {5996357},
+        ["name"] = "Angel Dog",
+        ["zoneNumber"] = 96.15252514163531,
+        ["fly"] = true,
+        ["_script"] = "Angel Dog",
+        ["thumbnail"] = "rbxassetid://14968171653",
+        ["fromEgg"] = "Angel Egg"
     },
     ["Huge Sailor Shark"] = {
         ["goldenThumbnail"] = "rbxassetid://14976539918",
@@ -18565,100 +20132,119 @@ data = {
         ["thumbnail"] = "rbxassetid://14968176660",
         ["exclusiveLevel"] = 3
     },
-    ["Pastel Sock Corgi"] = {
+    ["African Wild Dog"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 208",
-            ["faceTopLeftPixel"] = "59, 72",
-            ["imageSize"] = "218, 250"
+            ["faceBottomRightPixel"] = "216, 206",
+            ["faceTopLeftPixel"] = "62, 67",
+            ["imageSize"] = "250, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968299714",
-        ["_id"] = "Pastel Sock Corgi",
+        ["goldenThumbnail"] = "rbxassetid://14968169351",
+        ["_id"] = "African Wild Dog",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 87,
+        ["fromZoneNumber"] = 28,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {2337046},
-        ["name"] = "Pastel Sock Corgi",
-        ["zoneNumber"] = 88.15252514163531,
-        ["cachedZoneNumber"] = 88.15252514163531,
-        ["_script"] = "Pastel Sock Corgi",
-        ["thumbnail"] = "rbxassetid://14968299814",
-        ["fromEgg"] = "Toy Egg"
+        ["cachedPower"] = {2234},
+        ["name"] = "African Wild Dog",
+        ["zoneNumber"] = 29.123105482322973,
+        ["cachedZoneNumber"] = 29.123105482322973,
+        ["_script"] = "African Wild Dog",
+        ["thumbnail"] = "rbxassetid://14968169510",
+        ["fromEgg"] = "Ship Egg"
     },
-    ["Party Dog"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968296631",
-        ["_id"] = "Party Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Party Dog",
-        ["_script"] = "Party Dog",
-        ["thumbnail"] = "rbxassetid://14968296738",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 210",
-            ["faceTopLeftPixel"] = "58, 76",
-            ["imageSize"] = "214, 250"
-        }
-    },
-    ["Mosaic Corgi"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968283236",
-        ["_id"] = "Mosaic Corgi",
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Mosaic Corgi",
-        ["_script"] = "Mosaic Corgi",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "211, 209",
-            ["faceTopLeftPixel"] = "59, 72",
-            ["imageSize"] = "218, 250"
+    ["Huge Cosmic Agony"] = {
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Huge Cosmic Agony",
+        ["animations"] = {
+            ["parallax"] = {
+                {
+                    ["BrightnessNoiseRange"] = {
+                        Vector3.new(0.25, 0.0625, 0.0625),
+                        Vector3.new(1, 0.6000000238418579, 2)
+                    },
+                    ["FixedScale"] = Vector3.new(2, 2, 2),
+                    ["LogScale"] = 0.01,
+                    ["TextureId"] = "rbxassetid://14150094108",
+                    ["Transparency"] = 0.5,
+                    ["AnimSpeed"] = Vector3.new(-0.5, 0.5, 0),
+                    ["TransparencyNoiseRange"] = {0, 1},
+                    ["Brightness"] = Vector3.new(3, 3, 3),
+                    ["CameraDirection"] = Vector3.new(-0.4000000059604645, -0.4000000059604645, -0.4000000059604645),
+                    ["ZIndex"] = 1
+                },
+                {
+                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
+                    ["FixedScale"] = Vector3.new(2, 2, 2),
+                    ["LogScale"] = 0.01,
+                    ["TextureId"] = "rbxassetid://14150094328",
+                    ["Transparency"] = 0.5,
+                    ["AnimSpeed"] = Vector3.new(0.5, 0.5, 0),
+                    ["TransparencyNoiseRange"] = {0, 1},
+                    ["Brightness"] = Vector3.new(2, 2, 2),
+                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
+                    ["ZIndex"] = 2
+                }
+            }
         },
-        ["thumbnail"] = "rbxassetid://14968283350",
-        ["hideSerial"] = true
-    },
-    ["Steampunk Octopus"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 114",
-            ["faceTopLeftPixel"] = "98, 25",
-            ["imageSize"] = "250, 134"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968343395",
-        ["_id"] = "Steampunk Octopus",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 156,
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {7343859556},
-        ["name"] = "Steampunk Octopus",
-        ["zoneNumber"] = 156.51486267931344,
-        ["cachedZoneNumber"] = 156.51486267931344,
-        ["_script"] = "Steampunk Octopus",
-        ["thumbnail"] = "rbxassetid://14968343518",
-        ["fromEgg"] = "Steampunk Clockwork Egg"
-    },
-    ["Jelly Corgi"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968266009",
-        ["_id"] = "Jelly Corgi",
-        ["animations"] = {["jelly"] = true},
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Jelly Corgi",
-        ["_script"] = "Jelly Corgi",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "233, 209",
-            ["faceTopLeftPixel"] = "76, 74",
-            ["imageSize"] = "234, 250"
-        },
-        ["thumbnail"] = "rbxassetid://14968266152",
+        ["name"] = "Huge Cosmic Agony",
+        ["_script"] = "Huge Cosmic Agony",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the Exclusive Cosmic Egg!",
+        ["thumbnail"] = "rbxassetid://15201636010",
         ["weld"] = true
     },
+    ["Huge Fragmented Dominus"] = {
+        ["goldenThumbnail"] = "rbxassetid://17421845769",
+        ["_id"] = "Huge Fragmented Dominus",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Fragmented Dominus",
+        ["indexDesc"] = "Reward in the 2024 Fragmented Clan Battle!",
+        ["thumbnail"] = "rbxassetid://17421845704",
+        ["_script"] = "Huge Fragmented Dominus"
+    },
+    ["Titanic Fawn"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14977522484",
+        ["_id"] = "Titanic Fawn",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Titanic Fawn",
+        ["indexDesc"] = "Comes with the Titanic Fawn plush!",
+        ["thumbnail"] = "rbxassetid://14976619071",
+        ["_script"] = "Titanic Fawn"
+    },
+    ["Cyber Bunny"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "173, 216",
+            ["faceTopLeftPixel"] = "49, 105",
+            ["imageSize"] = "180, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968202610",
+        ["_id"] = "Cyber Bunny",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 106,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {26145499},
+        ["name"] = "Cyber Bunny",
+        ["zoneNumber"] = 108.64910749860594,
+        ["cachedZoneNumber"] = 108.64910749860594,
+        ["_script"] = "Cyber Bunny",
+        ["thumbnail"] = "rbxassetid://14968202676",
+        ["fromEgg"] = "Tech Sprout Egg"
+    },
     ["Huge Shiba"] = {
-        ["goldenThumbnail"] = "",
+        ["goldenThumbnail"] = "rbxassetid://14976546956",
         ["_id"] = "Huge Shiba",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
         ["name"] = "Huge Shiba",
-        ["indexDesc"] = "TODO",
-        ["thumbnail"] = "",
+        ["indexDesc"] = "Comes with Series 3 Brown Dog Collector Bundle!",
+        ["thumbnail"] = "rbxassetid://14976547077",
         ["_script"] = "Huge Shiba"
     },
     ["Huge Party Monkey"] = {
@@ -18672,68 +20258,65 @@ data = {
         ["thumbnail"] = "rbxassetid://14976510684",
         ["_script"] = "Huge Party Monkey"
     },
-    ["Huge Reindeer Dog"] = {
-        ["goldenThumbnail"] = "rbxassetid://15281988902",
-        ["_id"] = "Huge Reindeer Dog",
+    ["Huge Classic Dragon"] = {
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Huge Classic Dragon",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Reindeer Dog",
-        ["indexDesc"] = "Comes with the Reindeer Dog plush!",
-        ["thumbnail"] = "rbxassetid://15281988831",
-        ["_script"] = "Huge Reindeer Dog"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Classic Dragon",
+        ["fly"] = true,
+        ["_script"] = "Huge Classic Dragon",
+        ["thumbnail"] = "rbxassetid://18883372375",
+        ["indexDesc"] = "Found in the Exclusive Classic Egg!"
     },
-    ["Glitched Dog"] = {
+    ["Easter Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 147",
-            ["faceTopLeftPixel"] = "107, 58",
-            ["imageSize"] = "250, 174"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968248012",
-        ["_id"] = "Glitched Dog",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 189,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {411165434530},
-        ["name"] = "Glitched Dog",
-        ["zoneNumber"] = 190.6912875757093,
-        ["cachedZoneNumber"] = 190.6912875757093,
-        ["_script"] = "Glitched Dog",
-        ["thumbnail"] = "rbxassetid://14968248121",
-        ["fromEgg"] = "Glitch Tree Egg"
-    },
-    ["Fire Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 197",
-            ["faceTopLeftPixel"] = "69, 40",
-            ["imageSize"] = "250, 245"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968237034",
-        ["_id"] = "Fire Dog",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 46,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {17131},
-        ["name"] = "Fire Dog",
-        ["zoneNumber"] = 46.41023875740115,
-        ["cachedZoneNumber"] = 46.41023875740115,
-        ["_script"] = "Fire Dog",
-        ["thumbnail"] = "rbxassetid://14968237194",
-        ["fromEgg"] = "Bone Egg"
-    },
-    ["Festive Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "187, 213",
+            ["faceBottomRightPixel"] = "188, 214",
             ["faceTopLeftPixel"] = "54, 93",
             ["imageSize"] = "195, 250"
         },
-        ["_script"] = "Festive Dog",
-        ["name"] = "Festive Dog",
-        ["_id"] = "Festive Dog",
+        ["_script"] = "Easter Cat",
+        ["name"] = "Easter Cat",
+        ["_id"] = "Easter Cat",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968236258",
-        ["goldenThumbnail"] = "rbxassetid://14968236069"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968225646",
+        ["goldenThumbnail"] = "rbxassetid://14968225483"
+    },
+    ["Fluffy Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "209, 202",
+            ["faceTopLeftPixel"] = "64, 70",
+            ["imageSize"] = "250, 243"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968240534",
+        ["_id"] = "Fluffy Cat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 57,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {61846},
+        ["name"] = "Fluffy Cat",
+        ["zoneNumber"] = 57.311170128336975,
+        ["cachedZoneNumber"] = 57.311170128336975,
+        ["_script"] = "Fluffy Cat",
+        ["thumbnail"] = "rbxassetid://14968240656",
+        ["fromEgg"] = "Crowned Egg"
+    },
+    ["Evolved Pixel Cat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14976268595",
+        ["_id"] = "Evolved Pixel Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Evolved Pixel Cat",
+        ["_script"] = "Evolved Pixel Cat",
+        ["thumbnail"] = "rbxassetid://14976268731",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "238, 205",
+            ["faceTopLeftPixel"] = "87, 71",
+            ["imageSize"] = "250, 247"
+        }
     },
     ["Detective Terrier"] = {
         ["iconSettings"] = {
@@ -18754,38 +20337,38 @@ data = {
         ["thumbnail"] = "rbxassetid://14968207596",
         ["fromEgg"] = "Cursed Egg"
     },
-    ["Doodle Corgi"] = {
+    ["Error Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 209",
-            ["faceTopLeftPixel"] = "59, 72",
-            ["imageSize"] = "218, 250"
+            ["faceBottomRightPixel"] = "220, 206",
+            ["faceTopLeftPixel"] = "63, 64",
+            ["imageSize"] = "228, 250"
         },
-        ["_script"] = "Doodle Corgi",
-        ["name"] = "Doodle Corgi",
-        ["_id"] = "Doodle Corgi",
+        ["_script"] = "Error Cat",
+        ["name"] = "Error Cat",
+        ["_id"] = "Error Cat",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968213833",
-        ["goldenThumbnail"] = "rbxassetid://14968213301"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968232784",
+        ["goldenThumbnail"] = "rbxassetid://14968232686"
     },
-    ["Dog"] = {
+    ["Enchanted Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 197",
-            ["faceTopLeftPixel"] = "68, 41",
-            ["imageSize"] = "250, 244"
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "66, 64",
+            ["imageSize"] = "231, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968209024",
-        ["_id"] = "Dog",
+        ["goldenThumbnail"] = "rbxassetid://14968231342",
+        ["_id"] = "Enchanted Cat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 1,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {1},
-        ["name"] = "Dog",
-        ["cachedZoneNumber"] = 1,
-        ["power"] = 1,
-        ["_script"] = "Dog",
-        ["thumbnail"] = "rbxassetid://14968209124",
-        ["fromEgg"] = "Cracked Egg"
+        ["fromZoneNumber"] = 15,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {442},
+        ["name"] = "Enchanted Cat",
+        ["zoneNumber"] = 15.438815211462497,
+        ["cachedZoneNumber"] = 15.438815211462497,
+        ["_script"] = "Enchanted Cat",
+        ["thumbnail"] = "rbxassetid://14968231444",
+        ["fromEgg"] = "Spirit Egg"
     },
     ["Storm Dominus"] = {
         ["iconSettings"] = {
@@ -18801,20 +20384,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15260344456",
         ["goldenThumbnail"] = "rbxassetid://15260344540"
     },
-    ["Mimic Tech Chest"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14976269820",
-        ["_id"] = "Mimic Tech Chest",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Mimic Tech Chest",
-        ["_script"] = "Mimic Tech Chest",
-        ["thumbnail"] = "rbxassetid://14976270021",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 176",
-            ["faceTopLeftPixel"] = "78, 50",
-            ["imageSize"] = "250, 212"
-        }
+    ["Huge Hot Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://16250978273",
+        ["_id"] = "Huge Hot Dog",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Hot Dog",
+        ["indexDesc"] = "Tied to the Huge Plush merch in stores!",
+        ["thumbnail"] = "rbxassetid://16250978135",
+        ["_script"] = "Huge Hot Dog"
     },
     ["Huge Doodle Snow Owl"] = {
         ["goldenThumbnail"] = "rbxassetid://14976412229",
@@ -18887,24 +20466,20 @@ data = {
         ["thumbnail"] = "rbxassetid://14976647316",
         ["_script"] = "Titanic Mystic Corgi"
     },
-    ["Cyborg Dog"] = {
+    ["Elf Cat"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968227588",
+        ["_id"] = "Elf Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Elf Cat",
+        ["_script"] = "Elf Cat",
+        ["thumbnail"] = "rbxassetid://14968227689",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 209",
-            ["faceTopLeftPixel"] = "58, 76",
-            ["imageSize"] = "213, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968204443",
-        ["_id"] = "Cyborg Dog",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 100,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {10197468},
-        ["name"] = "Cyborg Dog",
-        ["zoneNumber"] = 100.65539544078774,
-        ["cachedZoneNumber"] = 100.65539544078774,
-        ["_script"] = "Cyborg Dog",
-        ["thumbnail"] = "rbxassetid://14968204634",
-        ["fromEgg"] = "Tech Ciruit Egg"
+            ["faceBottomRightPixel"] = "195, 212",
+            ["faceTopLeftPixel"] = "55, 85",
+            ["imageSize"] = "203, 250"
+        }
     },
     ["Garden Cat"] = {
         ["iconSettings"] = {
@@ -18925,19 +20500,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14968244437",
         ["fromEgg"] = "Garden Egg"
     },
-    ["Cupid Corgi"] = {
+    ["Doodle Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 164",
-            ["faceTopLeftPixel"] = "96, 55",
-            ["imageSize"] = "250, 233"
+            ["faceBottomRightPixel"] = "220, 207",
+            ["faceTopLeftPixel"] = "63, 63",
+            ["imageSize"] = "228, 250"
         },
-        ["_script"] = "Cupid Corgi",
-        ["name"] = "Cupid Corgi",
-        ["_id"] = "Cupid Corgi",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968202482",
-        ["goldenThumbnail"] = "rbxassetid://14968202287"
+        ["_script"] = "Doodle Cat",
+        ["name"] = "Doodle Cat",
+        ["_id"] = "Doodle Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968212948",
+        ["goldenThumbnail"] = "rbxassetid://14968212872"
     },
     ["Red Dragon"] = {
         ["iconSettings"] = {
@@ -18959,76 +20534,71 @@ data = {
         ["thumbnail"] = "rbxassetid://16043357132",
         ["fromEgg"] = "Treasure Egg"
     },
-    ["Cowboy Dog"] = {
+    ["Dino Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 200",
-            ["faceTopLeftPixel"] = "75, 68",
-            ["imageSize"] = "237, 250"
+            ["faceBottomRightPixel"] = "221, 206",
+            ["faceTopLeftPixel"] = "64, 63",
+            ["imageSize"] = "229, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968361944",
-        ["_id"] = "Cowboy Dog",
+        ["goldenThumbnail"] = "rbxassetid://14968208254",
+        ["_id"] = "Dino Cat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 34,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {4493},
-        ["name"] = "Yee-haw Dog",
-        ["zoneNumber"] = 35.05815760803597,
-        ["cachedZoneNumber"] = 35.05815760803597,
-        ["_script"] = "Cowboy Dog",
-        ["thumbnail"] = "rbxassetid://14968362070",
-        ["fromEgg"] = "Canyon Egg"
+        ["fromZoneNumber"] = 31,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {3824},
+        ["name"] = "Dino Cat",
+        ["zoneNumber"] = 33.68124921157154,
+        ["cachedZoneNumber"] = 33.68124921157154,
+        ["_script"] = "Dino Cat",
+        ["thumbnail"] = "rbxassetid://14968208485",
+        ["fromEgg"] = "Egyptian Egg"
     },
-    ["Cool Corgi"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 208",
-            ["faceTopLeftPixel"] = "59, 72",
-            ["imageSize"] = "217, 250"
-        },
-        ["_script"] = "Cool Corgi",
-        ["name"] = "Cool Corgi",
-        ["_id"] = "Cool Corgi",
+    ["Jelly Panda"] = {
         ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968198599",
-        ["goldenThumbnail"] = "rbxassetid://14968198512"
-    },
-    ["Blue Fluffy"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "192, 163",
-            ["faceTopLeftPixel"] = "93, 74",
-            ["imageSize"] = "250, 190"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968184154",
-        ["_id"] = "Blue Fluffy",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 137,
+        ["goldenThumbnail"] = "rbxassetid://14968266252",
+        ["_id"] = "Jelly Panda",
+        ["animations"] = {["jelly"] = true},
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {843881038},
-        ["name"] = "Blue Fluffy",
-        ["zoneNumber"] = 138.15229558790114,
-        ["cachedZoneNumber"] = 138.15229558790114,
-        ["_script"] = "Blue Fluffy",
-        ["thumbnail"] = "rbxassetid://14968184345",
-        ["fromEgg"] = "Tech Saturn Egg"
-    },
-    ["Chocolate Dog"] = {
+        ["name"] = "Jelly Panda",
+        ["_script"] = "Jelly Panda",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 196",
-            ["faceTopLeftPixel"] = "68, 41",
-            ["imageSize"] = "250, 244"
+            ["faceBottomRightPixel"] = "243, 207",
+            ["faceTopLeftPixel"] = "84, 68",
+            ["imageSize"] = "245, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968194661",
-        ["_id"] = "Chocolate Dog",
+        ["thumbnail"] = "rbxassetid://14968266382",
+        ["weld"] = true
+    },
+    ["Huge Ancient Dragon"] = {
+        ["goldenThumbnail"] = "rbxassetid://18626987216",
+        ["_id"] = "Huge Ancient Dragon",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Ancient Dragon",
+        ["fly"] = true,
+        ["_script"] = "Huge Ancient Dragon",
+        ["thumbnail"] = "rbxassetid://18626986876",
+        ["indexDesc"] = "Comes with Series 3 Treasure Chest Ultimate Bundle!"
+    },
+    ["Desert Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "219, 206",
+            ["faceTopLeftPixel"] = "63, 63",
+            ["imageSize"] = "228, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968207121",
+        ["_id"] = "Desert Cat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 85,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {1704778},
-        ["name"] = "Chocolate Dog",
-        ["zoneNumber"] = 85.46740476366732,
-        ["cachedZoneNumber"] = 85.46740476366732,
-        ["_script"] = "Chocolate Dog",
-        ["thumbnail"] = "rbxassetid://14968194774",
-        ["fromEgg"] = "Ice Cream Egg"
+        ["fromZoneNumber"] = 32,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {3169},
+        ["name"] = "Desert Cat",
+        ["zoneNumber"] = 32.093703222113476,
+        ["cachedZoneNumber"] = 32.093703222113476,
+        ["_script"] = "Desert Cat",
+        ["thumbnail"] = "rbxassetid://14968207221",
+        ["fromEgg"] = "Sandstone Egg"
     },
     ["Huge Doodle Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976402329",
@@ -19056,37 +20626,34 @@ data = {
             ["imageSize"] = "250, 178"
         }
     },
-    ["Bubble Dog"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "171, 182",
-            ["faceTopLeftPixel"] = "47, 68",
-            ["imageSize"] = "214, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968187900",
-        ["_id"] = "Bubble Dog",
-        ["balloon"] = true,
+    ["Santa Monkey"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968326493",
+        ["_id"] = "Santa Monkey",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Bubble Dog",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968188079",
-        ["_script"] = "Bubble Dog"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Santa Monkey",
+        ["_script"] = "Santa Monkey",
+        ["thumbnail"] = "rbxassetid://14968326630",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "194, 212",
+            ["faceTopLeftPixel"] = "55, 84",
+            ["imageSize"] = "237, 250"
+        }
     },
-    ["Atomic Corgi"] = {
+    ["Crowned Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 173",
-            ["faceTopLeftPixel"] = "85, 80",
-            ["imageSize"] = "232, 250"
+            ["faceBottomRightPixel"] = "218, 207",
+            ["faceTopLeftPixel"] = "63, 64",
+            ["imageSize"] = "227, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968177430",
-        ["_id"] = "Atomic Corgi",
+        ["_script"] = "Crowned Cat",
+        ["name"] = "Crowned Cat",
+        ["_id"] = "Crowned Cat",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["weld"] = true,
-        ["fly"] = true,
-        ["_script"] = "Atomic Corgi",
-        ["thumbnail"] = "rbxassetid://14968177503",
-        ["name"] = "Atomic Corgi"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968200229",
+        ["goldenThumbnail"] = "rbxassetid://14976332052"
     },
     ["Huge Pastel Elephant"] = {
         ["goldenThumbnail"] = "rbxassetid://16498746040",
@@ -19099,22 +20666,18 @@ data = {
         ["thumbnail"] = "rbxassetid://16498745846",
         ["_script"] = "Huge Pastel Elephant"
     },
-    ["Propeller Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 206",
-            ["faceTopLeftPixel"] = "62, 62",
-            ["imageSize"] = "229, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968313068",
-        ["_id"] = "Propeller Cat",
-        ["animations"] = {["swerveAggression"] = 1, ["swerve"] = true, ["swerveMaxAngle"] = 60},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Propeller Cat",
+    ["Huge Tropical Parrot"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644414013",
+        ["_id"] = "Huge Tropical Parrot",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Tropical Parrot",
+        ["_script"] = "Huge Tropical Parrot",
         ["fly"] = true,
-        ["_script"] = "Propeller Cat",
-        ["thumbnail"] = "rbxassetid://14968313157",
-        ["weld"] = true
+        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 3 Merch Gifts!",
+        ["thumbnail"] = "rbxassetid://18644413700",
+        ["hideSerial"] = true
     },
     ["Candycane"] = {
         ["iconSettings"] = {
@@ -19172,19 +20735,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968200101",
         ["fromEgg"] = "Sandcastle Egg"
     },
-    ["Prickly Panda"] = {
+    ["Rudolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 197",
-            ["faceTopLeftPixel"] = "80, 65",
-            ["imageSize"] = "250, 237"
+            ["faceBottomRightPixel"] = "197, 212",
+            ["faceTopLeftPixel"] = "59, 88",
+            ["imageSize"] = "205, 250"
         },
-        ["_script"] = "Prickly Panda",
-        ["name"] = "Prickly Panda",
-        ["_id"] = "Prickly Panda",
-        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968321872",
+        ["_id"] = "Rudolf",
+        ["fromWorldNumber"] = 1,
+        ["hidden"] = false,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968312942",
-        ["goldenThumbnail"] = "rbxassetid://14968312852"
+        ["cachedPower"] = {1373},
+        ["name"] = "Rudolf",
+        ["zoneNumber"] = 25,
+        ["fly"] = true,
+        ["cachedZoneNumber"] = 25,
+        ["thumbnail"] = "rbxassetid://14968321951",
+        ["_script"] = "Rudolf"
     },
     ["Koala"] = {
         ["iconSettings"] = {
@@ -19214,24 +20782,24 @@ data = {
         ["thumbnail"] = "rbxassetid://17450284180",
         ["goldenThumbnail"] = "rbxassetid://17450283974"
     },
-    ["African Wild Dog"] = {
+    ["Bobcat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 206",
-            ["faceTopLeftPixel"] = "62, 67",
-            ["imageSize"] = "250, 250"
+            ["faceBottomRightPixel"] = "206, 209",
+            ["faceTopLeftPixel"] = "58, 75",
+            ["imageSize"] = "214, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968169351",
-        ["_id"] = "African Wild Dog",
+        ["goldenThumbnail"] = "rbxassetid://14968187069",
+        ["_id"] = "Bobcat",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 28,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {2234},
-        ["name"] = "African Wild Dog",
-        ["zoneNumber"] = 29.123105482322973,
-        ["cachedZoneNumber"] = 29.123105482322973,
-        ["_script"] = "African Wild Dog",
-        ["thumbnail"] = "rbxassetid://14968169510",
-        ["fromEgg"] = "Ship Egg"
+        ["fromZoneNumber"] = 17,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {590},
+        ["name"] = "Bobcat",
+        ["zoneNumber"] = 17.841145488495158,
+        ["cachedZoneNumber"] = 17.841145488495158,
+        ["_script"] = "Bobcat",
+        ["thumbnail"] = "rbxassetid://14968187219",
+        ["fromEgg"] = "Overgrown Egg"
     },
     ["Valkyrie Dog"] = {
         ["exclusiveLevel"] = 1,
@@ -19249,29 +20817,33 @@ data = {
         ["thumbnail"] = "rbxassetid://18464815689",
         ["name"] = "Valkyrie Dog"
     },
-    ["Huge Evolved Hacked Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976425481",
-        ["_id"] = "Huge Evolved Hacked Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Evolved Hacked Cat",
-        ["indexDesc"] = "Earned from evolving Huge Hacked Cats in PSX!",
-        ["_script"] = "Huge Evolved Hacked Cat",
-        ["thumbnail"] = "rbxassetid://14976425579",
-        ["evolved"] = true
+    ["Black Balloon Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 197",
+            ["faceTopLeftPixel"] = "62, 71",
+            ["imageSize"] = "207, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14976265026",
+        ["_id"] = "Black Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Black Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Black Balloon Cat",
+        ["thumbnail"] = "rbxassetid://14976265229",
+        ["exclusiveLevel"] = 3
     },
-    ["Huge Black Hole Kitsune"] = {
-        ["goldenThumbnail"] = "rbxassetid://17285736725",
-        ["_id"] = "Huge Black Hole Kitsune",
+    ["Huge Corgi"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976386012",
+        ["_id"] = "Huge Corgi",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["weld"] = true,
-        ["indexDesc"] = "Found in the Exclusive Black Hole Egg!",
-        ["_script"] = "Huge Black Hole Kitsune",
-        ["thumbnail"] = "rbxassetid://17285736637",
-        ["name"] = "Huge Black Hole Kitsune"
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Corgi",
+        ["indexDesc"] = "Comes with the Corgi plush!",
+        ["thumbnail"] = "rbxassetid://14976386115",
+        ["_script"] = "Huge Corgi"
     },
     ["Lava Slime"] = {
         ["iconSettings"] = {
@@ -19312,82 +20884,89 @@ data = {
         ["thumbnail"] = "rbxassetid://18151024486",
         ["_script"] = "Divinus"
     },
-    ["Fluffy Cat"] = {
+    ["Astronaut Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 202",
-            ["faceTopLeftPixel"] = "64, 70",
-            ["imageSize"] = "250, 243"
+            ["faceBottomRightPixel"] = "226, 205",
+            ["faceTopLeftPixel"] = "64, 57",
+            ["imageSize"] = "235, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968240534",
-        ["_id"] = "Fluffy Cat",
+        ["goldenThumbnail"] = "rbxassetid://14968175706",
+        ["_id"] = "Astronaut Cat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 133,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {526845612},
+        ["name"] = "Astronaut Cat",
+        ["zoneNumber"] = 134.1525251416353,
+        ["cachedZoneNumber"] = 134.1525251416353,
+        ["_script"] = "Astronaut Cat",
+        ["thumbnail"] = "rbxassetid://14968175851",
+        ["fromEgg"] = "Tech Rocket Egg"
+    },
+    ["Arcade Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 202",
+            ["faceTopLeftPixel"] = "63, 68",
+            ["imageSize"] = "226, 250"
+        },
+        ["_script"] = "Arcade Cat",
+        ["name"] = "Arcade Cat",
+        ["_id"] = "Arcade Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968174053",
+        ["goldenThumbnail"] = "rbxassetid://14968173940"
+    },
+    ["Jaguar"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "64, 61",
+            ["imageSize"] = "231, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968264925",
+        ["_id"] = "Jaguar",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 57,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {61846},
-        ["name"] = "Fluffy Cat",
-        ["zoneNumber"] = 57.311170128336975,
-        ["cachedZoneNumber"] = 57.311170128336975,
-        ["_script"] = "Fluffy Cat",
-        ["thumbnail"] = "rbxassetid://14968240656",
-        ["fromEgg"] = "Crowned Egg"
+        ["fromZoneNumber"] = 18,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {725},
+        ["name"] = "Jaguar",
+        ["zoneNumber"] = 19.56634648546422,
+        ["cachedZoneNumber"] = 19.56634648546422,
+        ["_script"] = "Jaguar",
+        ["thumbnail"] = "rbxassetid://14968265120",
+        ["fromEgg"] = "Jungle Egg"
     },
-    ["Evolved Pixel Cat"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14976268595",
-        ["_id"] = "Evolved Pixel Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Evolved Pixel Cat",
-        ["_script"] = "Evolved Pixel Cat",
-        ["thumbnail"] = "rbxassetid://14976268731",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "238, 205",
-            ["faceTopLeftPixel"] = "87, 71",
-            ["imageSize"] = "250, 247"
-        }
-    },
-    ["Error Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 206",
-            ["faceTopLeftPixel"] = "63, 64",
-            ["imageSize"] = "228, 250"
-        },
-        ["_script"] = "Error Cat",
-        ["name"] = "Error Cat",
-        ["_id"] = "Error Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968232784",
-        ["goldenThumbnail"] = "rbxassetid://14968232686"
-    },
-    ["Elf Cat"] = {
+    ["Arcade Dragon"] = {
         ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968227588",
-        ["_id"] = "Elf Cat",
+        ["goldenThumbnail"] = "rbxassetid://14968174697",
+        ["_id"] = "Arcade Dragon",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Elf Cat",
-        ["_script"] = "Elf Cat",
-        ["thumbnail"] = "rbxassetid://14968227689",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Arcade Dragon",
+        ["fly"] = true,
+        ["_script"] = "Arcade Dragon",
+        ["thumbnail"] = "rbxassetid://14968174963",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "195, 212",
-            ["faceTopLeftPixel"] = "55, 85",
-            ["imageSize"] = "203, 250"
+            ["faceBottomRightPixel"] = "213, 178",
+            ["faceTopLeftPixel"] = "90, 72",
+            ["imageSize"] = "250, 216"
         }
     },
-    ["Easter Cat"] = {
+    ["Coin"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://17825174910",
+        ["_id"] = "Coin",
+        ["preventGolden"] = true,
+        ["secret"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Coin",
+        ["_script"] = "Coin",
+        ["thumbnail"] = "rbxassetid://17825174910",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 214",
-            ["faceTopLeftPixel"] = "54, 93",
-            ["imageSize"] = "195, 250"
-        },
-        ["_script"] = "Easter Cat",
-        ["name"] = "Easter Cat",
-        ["_id"] = "Easter Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968225646",
-        ["goldenThumbnail"] = "rbxassetid://14968225483"
+            ["faceBottomRightPixel"] = "225, 194",
+            ["faceTopLeftPixel"] = "73, 41",
+            ["imageSize"] = "248, 250"
+        }
     },
     ["Huge Santa Dragon"] = {
         ["goldenThumbnail"] = "rbxassetid://15281988773",
@@ -19441,19 +21020,26 @@ data = {
         ["thumbnail"] = "rbxassetid://17208307820",
         ["_script"] = "Huge Kangaroo"
     },
-    ["Doodle Cat"] = {
+    ["Sun Angelus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 207",
-            ["faceTopLeftPixel"] = "63, 63",
+            ["faceBottomRightPixel"] = "192, 163",
+            ["faceTopLeftPixel"] = "83, 66",
             ["imageSize"] = "228, 250"
         },
-        ["_script"] = "Doodle Cat",
-        ["name"] = "Doodle Cat",
-        ["_id"] = "Doodle Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968212948",
-        ["goldenThumbnail"] = "rbxassetid://14968212872"
+        ["goldenThumbnail"] = "rbxassetid://14968348019",
+        ["_id"] = "Sun Angelus",
+        ["animations"] = {["angelusSpin"] = true},
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 99,
+        ["cachedZoneNumber"] = 102.12716263976822,
+        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
+        ["cachedPower"] = {12118516},
+        ["name"] = "Sun Angelus",
+        ["zoneNumber"] = 102.12716263976822,
+        ["fly"] = true,
+        ["_script"] = "Sun Angelus",
+        ["thumbnail"] = "rbxassetid://14968348199",
+        ["fromEgg"] = "Rainbow Egg"
     },
     ["Huge Pixel Shark"] = {
         ["goldenThumbnail"] = "rbxassetid://17024851744",
@@ -19501,19 +21087,22 @@ data = {
         ["_script"] = "Super Corgi 2"
     },
     ["Safari Dog"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968323255",
-        ["_id"] = "Safari Dog",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Safari Dog",
-        ["_script"] = "Safari Dog",
-        ["thumbnail"] = "rbxassetid://14968323471",
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "224, 181",
             ["faceTopLeftPixel"] = "83, 51",
             ["imageSize"] = "250, 220"
-        }
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968323255",
+        ["_id"] = "Safari Dog",
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {11858636117133},
+        ["name"] = "Safari Dog",
+        ["zoneNumber"] = 219.23529411764707,
+        ["cachedZoneNumber"] = 219.23529411764707,
+        ["thumbnail"] = "rbxassetid://14968323471",
+        ["_script"] = "Safari Dog"
     },
     ["Mining Cat"] = {
         ["iconSettings"] = {
@@ -19566,19 +21155,25 @@ data = {
             ["imageSize"] = "250, 237"
         }
     },
-    ["Crowned Cat"] = {
+    ["Firefly"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 207",
-            ["faceTopLeftPixel"] = "63, 64",
-            ["imageSize"] = "227, 250"
+            ["faceBottomRightPixel"] = "224, 138",
+            ["faceTopLeftPixel"] = "113, 38",
+            ["imageSize"] = "250, 170"
         },
-        ["_script"] = "Crowned Cat",
-        ["name"] = "Crowned Cat",
-        ["_id"] = "Crowned Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968200229",
-        ["goldenThumbnail"] = "rbxassetid://14976332052"
+        ["goldenThumbnail"] = "rbxassetid://14968237865",
+        ["_id"] = "Firefly",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 10,
+        ["cachedZoneNumber"] = 10.95871812309338,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {245},
+        ["name"] = "Firefly",
+        ["zoneNumber"] = 10.95871812309338,
+        ["fly"] = true,
+        ["_script"] = "Firefly",
+        ["thumbnail"] = "rbxassetid://14968237983",
+        ["fromEgg"] = "Rock Egg"
     },
     ["Huge Capybara"] = {
         ["goldenThumbnail"] = "rbxassetid://14976373565",
@@ -19587,23 +21182,28 @@ data = {
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Huge Capybara",
-        ["indexDesc"] = "Found in the Exclusive Capybara Egg!",
+        ["indexDesc"] = "Tied to the Huge Plush merch in stores and Exclusive Capybara Egg!",
         ["thumbnail"] = "rbxassetid://14976373698",
         ["_script"] = "Huge Capybara"
     },
-    ["Yee-haw Cat"] = {
+    ["Ladybug"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 208",
-            ["faceTopLeftPixel"] = "78, 73",
-            ["imageSize"] = "244, 250"
+            ["faceBottomRightPixel"] = "222, 205",
+            ["faceTopLeftPixel"] = "62, 61",
+            ["imageSize"] = "231, 250"
         },
-        ["_script"] = "Yee-haw Cat",
-        ["name"] = "Yee-haw Cat",
-        ["_id"] = "Yee-haw Cat",
-        ["exclusiveLevel"] = 1,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968199662",
-        ["goldenThumbnail"] = "rbxassetid://14968199510"
+        ["goldenThumbnail"] = "rbxassetid://14968271288",
+        ["_id"] = "Ladybug",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 8,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {172},
+        ["name"] = "Ladybug",
+        ["zoneNumber"] = 8.8650318341369,
+        ["cachedZoneNumber"] = 8.8650318341369,
+        ["_script"] = "Ladybug",
+        ["thumbnail"] = "rbxassetid://14968271410",
+        ["fromEgg"] = "Corgi Egg"
     },
     ["Mining Axolotl"] = {
         ["iconSettings"] = {
@@ -19635,20 +21235,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14976538607",
         ["_script"] = "Huge Safari Cat"
     },
-    ["Chef Cat"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968192092",
-        ["_id"] = "Chef Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Chef Cat",
-        ["_script"] = "Chef Cat",
-        ["thumbnail"] = "rbxassetid://14968192267",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 211",
-            ["faceTopLeftPixel"] = "56, 82",
-            ["imageSize"] = "206, 250"
-        }
+    ["Huge Mechatronic Robot"] = {
+        ["goldenThumbnail"] = "rbxassetid://18882976037",
+        ["_id"] = "Huge Mechatronic Robot",
+        ["_script"] = "Huge Mechatronic Robot",
+        ["indexObtainable"] = true,
+        ["indexDesc"] = "1 in 30,000,000 base chance from the RNG Event",
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Huge Mechatronic Robot",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882975779",
+        ["preventFuseMachine"] = true
     },
     ["Sleipnir"] = {
         ["iconSettings"] = {
@@ -19683,24 +21284,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968332999",
         ["fromEgg"] = "Snow Egg"
     },
-    ["Bobcat"] = {
+    ["Tiki Dominus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 209",
-            ["faceTopLeftPixel"] = "58, 75",
-            ["imageSize"] = "214, 250"
+            ["faceBottomRightPixel"] = "205, 155",
+            ["faceTopLeftPixel"] = "86, 51",
+            ["imageSize"] = "250, 189"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968187069",
-        ["_id"] = "Bobcat",
+        ["goldenThumbnail"] = "rbxassetid://14968354069",
+        ["_id"] = "Tiki Dominus",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 17,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {590},
-        ["name"] = "Bobcat",
-        ["zoneNumber"] = 17.841145488495158,
-        ["cachedZoneNumber"] = 17.841145488495158,
-        ["_script"] = "Bobcat",
-        ["thumbnail"] = "rbxassetid://14968187219",
-        ["fromEgg"] = "Overgrown Egg"
+        ["fromZoneNumber"] = 26,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1970},
+        ["name"] = "Tiki Dominus",
+        ["zoneNumber"] = 28.060472901972343,
+        ["cachedZoneNumber"] = 28.060472901972343,
+        ["_script"] = "Tiki Dominus",
+        ["thumbnail"] = "rbxassetid://14968354226",
+        ["fromEgg"] = "Tiki Egg"
     },
     ["Frost Bear"] = {
         ["iconSettings"] = {
@@ -19721,39 +21322,36 @@ data = {
         ["thumbnail"] = "rbxassetid://14968242362",
         ["fromEgg"] = "Frosted Geode Egg"
     },
-    ["Blue Balloon Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 197",
-            ["faceTopLeftPixel"] = "62, 71",
-            ["imageSize"] = "207, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14976265403",
-        ["_id"] = "Blue Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Blue Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "Blue Balloon Cat",
-        ["thumbnail"] = "rbxassetid://14976265479",
-        ["exclusiveLevel"] = 3
+    ["Huge Evolved Hacked Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976425481",
+        ["_id"] = "Huge Evolved Hacked Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Evolved Hacked Cat",
+        ["indexDesc"] = "Earned from evolving Huge Hacked Cats in PSX!",
+        ["_script"] = "Huge Evolved Hacked Cat",
+        ["thumbnail"] = "rbxassetid://14976425579",
+        ["evolved"] = true
     },
-    ["Black Balloon Cat"] = {
+    ["Luau Seal"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 197",
-            ["faceTopLeftPixel"] = "62, 71",
-            ["imageSize"] = "207, 250"
+            ["faceBottomRightPixel"] = "216, 167",
+            ["faceTopLeftPixel"] = "69, 35",
+            ["imageSize"] = "250, 194"
         },
-        ["goldenThumbnail"] = "rbxassetid://14976265026",
-        ["_id"] = "Black Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Black Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "Black Balloon Cat",
-        ["thumbnail"] = "rbxassetid://14976265229",
-        ["exclusiveLevel"] = 3
+        ["goldenThumbnail"] = "rbxassetid://14968275392",
+        ["_id"] = "Luau Seal",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 26,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1645},
+        ["name"] = "Luau Seal",
+        ["zoneNumber"] = 26.518815549969094,
+        ["cachedZoneNumber"] = 26.518815549969094,
+        ["_script"] = "Luau Seal",
+        ["thumbnail"] = "rbxassetid://14968275539",
+        ["fromEgg"] = "Tiki Egg"
     },
     ["Lava Scorpion"] = {
         ["iconSettings"] = {
@@ -19781,20 +21379,19 @@ data = {
         ["thumbnail"] = "rbxassetid://15809137117",
         ["indexDesc"] = "Reward in the 2024 New Year's Clan Battle!"
     },
-    ["Super Capybara"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968348636",
-        ["_id"] = "Super Capybara",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Super Capybara",
-        ["fly"] = true,
-        ["_script"] = "Super Capybara",
-        ["thumbnail"] = "rbxassetid://14968348781",
+    ["Patrick Star"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 188",
-            ["faceTopLeftPixel"] = "97, 56",
-            ["imageSize"] = "250, 228"
-        }
+            ["faceBottomRightPixel"] = "220, 213",
+            ["faceTopLeftPixel"] = "76, 83",
+            ["imageSize"] = "238, 250"
+        },
+        ["_script"] = "Patrick Star",
+        ["name"] = "Patrick Star",
+        ["_id"] = "Patrick Star",
+        ["exclusiveLevel"] = 3,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://18313092193",
+        ["goldenThumbnail"] = "rbxassetid://18313092193"
     },
     ["Tiedye Axolotl"] = {
         ["exclusiveLevel"] = 2,
@@ -19873,35 +21470,35 @@ data = {
         ["thumbnail"] = "rbxassetid://17026779953",
         ["fromEgg"] = "Tech Kyoto Egg"
     },
-    ["Huge Red Fluffy"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976532871",
-        ["_id"] = "Huge Red Fluffy",
+    ["Huge Shark"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976546759",
+        ["_id"] = "Huge Shark",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Red Fluffy",
-        ["indexDesc"] = "Found in the Huge Machine Blurred Dominus Egg!",
-        ["thumbnail"] = "rbxassetid://14976533036",
-        ["_script"] = "Huge Red Fluffy"
+        ["name"] = "Huge Shark",
+        ["indexDesc"] = "Found in the Lucky Block Merch!",
+        ["thumbnail"] = "rbxassetid://14976546876",
+        ["_script"] = "Huge Shark"
     },
-    ["Astronaut Cat"] = {
+    ["Sailor Shark"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "226, 205",
-            ["faceTopLeftPixel"] = "64, 57",
-            ["imageSize"] = "235, 250"
+            ["faceBottomRightPixel"] = "228, 208",
+            ["faceTopLeftPixel"] = "77, 70",
+            ["imageSize"] = "250, 232"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968175706",
-        ["_id"] = "Astronaut Cat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 133,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {526845612},
-        ["name"] = "Astronaut Cat",
-        ["zoneNumber"] = 134.1525251416353,
-        ["cachedZoneNumber"] = 134.1525251416353,
-        ["_script"] = "Astronaut Cat",
-        ["thumbnail"] = "rbxassetid://14968175851",
-        ["fromEgg"] = "Tech Rocket Egg"
+        ["goldenThumbnail"] = "rbxassetid://14968324478",
+        ["_id"] = "Sailor Shark",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 27,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1955},
+        ["name"] = "Sailor Shark",
+        ["zoneNumber"] = 27.996414637797095,
+        ["cachedZoneNumber"] = 27.996414637797095,
+        ["_script"] = "Sailor Shark",
+        ["thumbnail"] = "rbxassetid://14968324575",
+        ["fromEgg"] = "Sunny Egg"
     },
     ["Strawberry Corgi"] = {
         ["exclusiveLevel"] = 3,
@@ -19951,21 +21548,26 @@ data = {
         ["thumbnail"] = "rbxassetid://14968255585",
         ["goldenThumbnail"] = "rbxassetid://14968255468"
     },
-    ["Arcade Dragon"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968174697",
-        ["_id"] = "Arcade Dragon",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Arcade Dragon",
-        ["fly"] = true,
-        ["_script"] = "Arcade Dragon",
-        ["thumbnail"] = "rbxassetid://14968174963",
+    ["Demon Cyclops"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 178",
-            ["faceTopLeftPixel"] = "90, 72",
-            ["imageSize"] = "250, 216"
-        }
+            ["faceBottomRightPixel"] = "208, 175",
+            ["faceTopLeftPixel"] = "115, 91",
+            ["imageSize"] = "250, 200"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882339396",
+        ["_id"] = "Demon Cyclops",
+        ["cachedZoneNumber"] = 222.5,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Demon Cyclops",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {17427380830034},
+        ["name"] = "Demon Cyclops",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 222.5,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882339207",
+        ["preventFuseMachine"] = true
     },
     ["Rich Cat"] = {
         ["iconSettings"] = {
@@ -19981,21 +21583,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14968320862",
         ["goldenThumbnail"] = "rbxassetid://14968320783"
     },
-    ["Coin"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://17825174910",
-        ["_id"] = "Coin",
-        ["preventGolden"] = true,
-        ["secret"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Coin",
-        ["_script"] = "Coin",
-        ["thumbnail"] = "rbxassetid://17825174910",
+    ["Nightmare Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 194",
-            ["faceTopLeftPixel"] = "73, 41",
-            ["imageSize"] = "248, 250"
-        }
+            ["faceBottomRightPixel"] = "228, 204",
+            ["faceTopLeftPixel"] = "64, 56",
+            ["imageSize"] = "237, 250"
+        },
+        ["_script"] = "Nightmare Bear",
+        ["name"] = "Nightmare Bear",
+        ["_id"] = "Nightmare Bear",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968289661",
+        ["goldenThumbnail"] = "rbxassetid://14968289559"
     },
     ["Emoji Monkey"] = {
         ["exclusiveLevel"] = 3,
@@ -20070,19 +21670,21 @@ data = {
         ["thumbnail"] = "rbxassetid://14976372228",
         ["indexDesc"] = "Earned from an egg event in PSX!"
     },
-    ["Turtle in a Bucket"] = {
-        ["goldenThumbnail"] = "rbxassetid://14968355435",
-        ["_id"] = "Turtle in a Bucket",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 27,
-        ["_script"] = "Turtle in a Bucket",
-        ["cachedPower"] = {1764},
-        ["name"] = "Turtle in a Bucket",
-        ["zoneNumber"] = 27.119049317608074,
-        ["cachedZoneNumber"] = 27.119049317608074,
+    ["Bluebird"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968185588",
+        ["_id"] = "Bluebird",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968355544",
-        ["fromEgg"] = "Sunny Egg"
+        ["name"] = "Bluebird",
+        ["fly"] = true,
+        ["_script"] = "Bluebird",
+        ["thumbnail"] = "rbxassetid://14968185744",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "240, 135",
+            ["faceTopLeftPixel"] = "102, 9",
+            ["imageSize"] = "250, 173"
+        }
     },
     ["Rift Dragon"] = {
         ["exclusiveLevel"] = 2,
@@ -20099,24 +21701,16 @@ data = {
             ["imageSize"] = "250, 190"
         }
     },
-    ["Flower Gecko"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "194, 208",
-            ["faceTopLeftPixel"] = "61, 88",
-            ["imageSize"] = "250, 246"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968240140",
-        ["_id"] = "Flower Gecko",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 25,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1396},
-        ["name"] = "Flower Gecko",
-        ["zoneNumber"] = 25.12890735289248,
-        ["cachedZoneNumber"] = 25.12890735289248,
-        ["_script"] = "Flower Gecko",
-        ["thumbnail"] = "rbxassetid://14968240285",
-        ["fromEgg"] = "Coconut Egg"
+    ["Titanic Tiedye Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://15547850956",
+        ["_id"] = "Titanic Tiedye Cat",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Titanic Tiedye Cat",
+        ["indexDesc"] = "Comes with the Titanic Tiedye Cat plush!",
+        ["thumbnail"] = "rbxassetid://15547792344",
+        ["_script"] = "Titanic Tiedye Cat"
     },
     ["Balloon Monkey"] = {
         ["iconSettings"] = {
@@ -20195,22 +21789,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14976514269",
         ["_script"] = "Huge Peacock"
     },
-    ["Atlantean Dolphin"] = {
+    ["Sombrero Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 159",
-            ["faceTopLeftPixel"] = "104, 64",
-            ["imageSize"] = "250, 177"
+            ["faceBottomRightPixel"] = "217, 175",
+            ["faceTopLeftPixel"] = "88, 59",
+            ["imageSize"] = "250, 211"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968175998",
-        ["_id"] = "Atlantean Dolphin",
-        ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Atlantean Dolphin",
-        ["_script"] = "Atlantean Dolphin",
-        ["indexDesc"] = "Found in the Exclusive Atlantean Egg!",
-        ["weld"] = true,
-        ["thumbnail"] = "rbxassetid://14968176121",
-        ["exclusiveLevel"] = 3
+        ["_script"] = "Sombrero Cat",
+        ["name"] = "Sombrero Cat",
+        ["_id"] = "Sombrero Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968335537",
+        ["goldenThumbnail"] = "rbxassetid://14968335430"
     },
     ["Huge Pop Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976525736",
@@ -20228,25 +21819,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14976525879",
         ["_script"] = "Huge Pop Cat"
     },
-    ["Firefly"] = {
+    ["Wizard Westie"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "224, 138",
-            ["faceTopLeftPixel"] = "113, 38",
-            ["imageSize"] = "250, 170"
+            ["faceBottomRightPixel"] = "213, 207",
+            ["faceTopLeftPixel"] = "86, 91",
+            ["imageSize"] = "250, 240"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968237865",
-        ["_id"] = "Firefly",
+        ["goldenThumbnail"] = "rbxassetid://14968361253",
+        ["_id"] = "Wizard Westie",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 10,
-        ["cachedZoneNumber"] = 10.95871812309338,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {245},
-        ["name"] = "Firefly",
-        ["zoneNumber"] = 10.95871812309338,
-        ["fly"] = true,
-        ["_script"] = "Firefly",
-        ["thumbnail"] = "rbxassetid://14968237983",
-        ["fromEgg"] = "Rock Egg"
+        ["fromZoneNumber"] = 73,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {508717},
+        ["name"] = "Wizard Westie",
+        ["zoneNumber"] = 75.2051014671703,
+        ["cachedZoneNumber"] = 75.2051014671703,
+        ["_script"] = "Wizard Westie",
+        ["thumbnail"] = "rbxassetid://14968361410",
+        ["fromEgg"] = "Wizard Egg"
     },
     ["Snow Squirrel"] = {
         ["iconSettings"] = {
@@ -20267,43 +21857,33 @@ data = {
         ["thumbnail"] = "rbxassetid://14968333979",
         ["fromEgg"] = "Icicle Egg"
     },
-    ["Ladybug"] = {
+    ["Robber Pug"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 205",
-            ["faceTopLeftPixel"] = "62, 61",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "243, 160",
+            ["faceTopLeftPixel"] = "113, 41",
+            ["imageSize"] = "250, 197"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968271288",
-        ["_id"] = "Ladybug",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 8,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {172},
-        ["name"] = "Ladybug",
-        ["zoneNumber"] = 8.8650318341369,
-        ["cachedZoneNumber"] = 8.8650318341369,
-        ["_script"] = "Ladybug",
-        ["thumbnail"] = "rbxassetid://14968271410",
-        ["fromEgg"] = "Corgi Egg"
+        ["_script"] = "Robber Pug",
+        ["name"] = "Robber Pug",
+        ["_id"] = "Robber Pug",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968321127",
+        ["goldenThumbnail"] = "rbxassetid://14968320968"
     },
-    ["Scuba Shark"] = {
+    ["Emerald Monkey"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "229, 184",
-            ["faceTopLeftPixel"] = "79, 48",
-            ["imageSize"] = "250, 209"
+            ["faceBottomRightPixel"] = "209, 203",
+            ["faceTopLeftPixel"] = "61, 69",
+            ["imageSize"] = "250, 244"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968328893",
-        ["_id"] = "Scuba Shark",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 205,
+        ["_script"] = "Emerald Monkey",
+        ["name"] = "Emerald Monkey",
+        ["_id"] = "Emerald Monkey",
+        ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2334861553216},
-        ["name"] = "Scuba Shark",
-        ["zoneNumber"] = 205.43414027035385,
-        ["cachedZoneNumber"] = 205.43414027035385,
-        ["_script"] = "Scuba Shark",
-        ["thumbnail"] = "rbxassetid://14968328992",
-        ["fromEgg"] = "Summer Beach Egg"
+        ["thumbnail"] = "rbxassetid://14968228249",
+        ["goldenThumbnail"] = "rbxassetid://14968228161"
     },
     ["Huge Coin"] = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
@@ -20349,117 +21929,112 @@ data = {
         ["thumbnail"] = "rbxassetid://16043355041",
         ["fromEgg"] = "Heaven Castle Egg"
     },
-    ["Huge Peppermint Angelus"] = {
-        ["goldenThumbnail"] = "rbxassetid://15716049351",
-        ["_id"] = "Huge Peppermint Angelus",
-        ["animations"] = {["angelusSpin"] = true},
+    ["Basketball Retriever"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 211",
+            ["faceTopLeftPixel"] = "56, 84",
+            ["imageSize"] = "204, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968179819",
+        ["_id"] = "Basketball Retriever",
+        ["animations"] = {["ballBounceHeight"] = 2},
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 89,
+        ["cachedZoneNumber"] = 90.69128757570932,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["cachedPower"] = {3153293},
+        ["name"] = "Basketball Retriever",
+        ["zoneNumber"] = 90.69128757570932,
+        ["weld"] = true,
+        ["_script"] = "Basketball Retriever",
+        ["thumbnail"] = "rbxassetid://14968179950",
+        ["fromEgg"] = "Hot Air Balloon Egg"
+    },
+    ["Propeller Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "221, 206",
+            ["faceTopLeftPixel"] = "62, 62",
+            ["imageSize"] = "229, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968313068",
+        ["_id"] = "Propeller Cat",
+        ["animations"] = {["swerveAggression"] = 1, ["swerve"] = true, ["swerveMaxAngle"] = 60},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Propeller Cat",
+        ["fly"] = true,
+        ["_script"] = "Propeller Cat",
+        ["thumbnail"] = "rbxassetid://14968313157",
+        ["weld"] = true
+    },
+    ["Firefighter Dalmatian"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "196, 175",
+            ["faceTopLeftPixel"] = "54, 47",
+            ["imageSize"] = "250, 214"
+        },
+        ["_script"] = "Firefighter Dalmatian",
+        ["name"] = "Firefighter Dalmatian",
+        ["_id"] = "Firefighter Dalmatian",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968237776",
+        ["goldenThumbnail"] = "rbxassetid://14968237708"
+    },
+    ["Mosaic Elephant"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968283743",
+        ["_id"] = "Mosaic Elephant",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Mosaic Elephant",
+        ["_script"] = "Mosaic Elephant",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "200, 132",
+            ["faceTopLeftPixel"] = "64, 8",
+            ["imageSize"] = "250, 171"
+        },
+        ["thumbnail"] = "rbxassetid://14968283881",
+        ["hideSerial"] = true
+    },
+    ["Huge Egg Dino"] = {
+        ["goldenThumbnail"] = "rbxassetid://18741936966",
+        ["_id"] = "Huge Egg Dino",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
-        ["name"] = "Huge Peppermint Angelus",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Egg Dino",
+        ["indexDesc"] = "Earned from the Dino Tycoon's final egg!",
+        ["thumbnail"] = "rbxassetid://18741936725",
+        ["_script"] = "Huge Egg Dino"
+    },
+    ["Easter Yeti"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "202, 214",
+            ["faceTopLeftPixel"] = "67, 93",
+            ["imageSize"] = "223, 250"
+        },
+        ["_script"] = "Easter Yeti",
+        ["name"] = "Easter Yeti",
+        ["_id"] = "Easter Yeti",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968226666",
+        ["goldenThumbnail"] = "rbxassetid://14968226541"
+    },
+    ["Lucki Tiger"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "216, 163",
+            ["faceTopLeftPixel"] = "90, 48",
+            ["imageSize"] = "250, 198"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968276529",
+        ["_id"] = "Lucki Tiger",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Lucki Tiger",
         ["fly"] = true,
-        ["_script"] = "Huge Peppermint Angelus",
-        ["thumbnail"] = "rbxassetid://15716049163",
-        ["indexDesc"] = "Found in the Exclusive Xmas Egg!"
-    },
-    ["Luau Seal"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 167",
-            ["faceTopLeftPixel"] = "69, 35",
-            ["imageSize"] = "250, 194"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968275392",
-        ["_id"] = "Luau Seal",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 26,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1645},
-        ["name"] = "Luau Seal",
-        ["zoneNumber"] = 26.518815549969094,
-        ["cachedZoneNumber"] = 26.518815549969094,
-        ["_script"] = "Luau Seal",
-        ["thumbnail"] = "rbxassetid://14968275539",
-        ["fromEgg"] = "Tiki Egg"
-    },
-    ["Reversed Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "231, 177",
-            ["faceTopLeftPixel"] = "63, 28",
-            ["imageSize"] = "240, 250"
-        },
-        ["_script"] = "Reversed Cat",
-        ["name"] = "Reversed Cat",
-        ["_id"] = "Reversed Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968320115",
-        ["goldenThumbnail"] = "rbxassetid://14968319938"
-    },
-    ["Pirate Panda"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "185, 185",
-            ["faceTopLeftPixel"] = "54, 64",
-            ["imageSize"] = "250, 217"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968303283",
-        ["_id"] = "Pirate Panda",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 28,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2104},
-        ["name"] = "Pirate Panda",
-        ["zoneNumber"] = 28.60848751918909,
-        ["cachedZoneNumber"] = 28.60848751918909,
-        ["_script"] = "Pirate Panda",
-        ["thumbnail"] = "rbxassetid://14968303410",
-        ["fromEgg"] = "Ship Egg"
-    },
-    ["Sailor Shark"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 208",
-            ["faceTopLeftPixel"] = "77, 70",
-            ["imageSize"] = "250, 232"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968324478",
-        ["_id"] = "Sailor Shark",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 27,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1955},
-        ["name"] = "Sailor Shark",
-        ["zoneNumber"] = 27.996414637797095,
-        ["cachedZoneNumber"] = 27.996414637797095,
-        ["_script"] = "Sailor Shark",
-        ["thumbnail"] = "rbxassetid://14968324575",
-        ["fromEgg"] = "Sunny Egg"
-    },
-    ["Ice Cream Cone"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "159, 219",
-            ["faceTopLeftPixel"] = "45, 116",
-            ["imageSize"] = "166, 250"
-        },
-        ["_script"] = "Ice Cream Cone",
-        ["name"] = "Ice Cream Cone",
-        ["_id"] = "Ice Cream Cone",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968263480",
-        ["goldenThumbnail"] = "rbxassetid://14968263341"
-    },
-    ["Kawaii Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 202",
-            ["faceTopLeftPixel"] = "61, 68",
-            ["imageSize"] = "249, 250"
-        },
-        ["_script"] = "Kawaii Cat",
-        ["name"] = "Kawaii Cat",
-        ["_id"] = "Kawaii Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14976318763",
-        ["goldenThumbnail"] = "rbxassetid://14968268897"
+        ["thumbnail"] = "rbxassetid://14968276602",
+        ["_script"] = "Lucki Tiger"
     },
     ["Jolly Owl"] = {
         ["iconSettings"] = {
@@ -20555,6 +22130,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14976460483",
         ["_script"] = "Huge Husky"
     },
+    ["Enchanted Elephant"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 132",
+            ["faceTopLeftPixel"] = "64, 9",
+            ["imageSize"] = "250, 171"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968232162",
+        ["_id"] = "Enchanted Elephant",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 15,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {450},
+        ["name"] = "Enchanted Elephant",
+        ["zoneNumber"] = 15.584644548562538,
+        ["cachedZoneNumber"] = 15.584644548562538,
+        ["_script"] = "Enchanted Elephant",
+        ["thumbnail"] = "rbxassetid://14968232250",
+        ["fromEgg"] = "Spirit Egg"
+    },
     ["Huge Sun Agony"] = {
         ["goldenThumbnail"] = "rbxassetid://17687869302",
         ["_id"] = "Huge Sun Agony",
@@ -20566,25 +22160,6 @@ data = {
         ["_script"] = "Huge Sun Agony",
         ["thumbnail"] = "rbxassetid://17687869169",
         ["indexDesc"] = "Found in the Summer Pack!"
-    },
-    ["Floatie Flamingo"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "197, 111",
-            ["faceTopLeftPixel"] = "86, 7",
-            ["imageSize"] = "250, 142"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968239052",
-        ["_id"] = "Floatie Flamingo",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 206,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2653434476017},
-        ["name"] = "Floatie Flamingo",
-        ["zoneNumber"] = 206.51992027368178,
-        ["cachedZoneNumber"] = 206.51992027368178,
-        ["_script"] = "Floatie Flamingo",
-        ["thumbnail"] = "rbxassetid://14968239203",
-        ["fromEgg"] = "Summer Floatie Egg"
     },
     ["Doodle Axolotl"] = {
         ["iconSettings"] = {
@@ -20647,54 +22222,45 @@ data = {
         ["thumbnail"] = "rbxassetid://14968252525",
         ["goldenThumbnail"] = "rbxassetid://14968252371"
     },
-    ["Doodle Fox"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 208",
-            ["faceTopLeftPixel"] = "61, 65",
-            ["imageSize"] = "226, 250"
-        },
-        ["_script"] = "Doodle Fox",
-        ["name"] = "Doodle Fox",
-        ["_id"] = "Doodle Fox",
+    ["Reindeer Axolotl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968318837",
+        ["_id"] = "Reindeer Axolotl",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968216406",
-        ["goldenThumbnail"] = "rbxassetid://14968216302"
-    },
-    ["Nightmare Kraken"] = {
+        ["name"] = "Reindeer Axolotl",
+        ["_script"] = "Reindeer Axolotl",
+        ["thumbnail"] = "rbxassetid://14968318965",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "193, 94",
-            ["faceTopLeftPixel"] = "95, 6",
-            ["imageSize"] = "250, 115"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968290148",
-        ["_id"] = "Nightmare Kraken",
-        ["animations"] = {
-            ["flyHeightChange"] = 0,
-            ["swerve"] = true,
-            ["swerveMaxAngle"] = 60,
-            ["flyHeight"] = 0.025,
-            ["swerveAggression"] = 0.2
-        },
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Nightmare Kraken",
-        ["_script"] = "Nightmare Kraken",
-        ["fly"] = true,
-        ["weld"] = true,
-        ["thumbnail"] = "rbxassetid://14968290312",
-        ["exclusiveLevel"] = 3
+            ["faceBottomRightPixel"] = "173, 216",
+            ["faceTopLeftPixel"] = "49, 105",
+            ["imageSize"] = "211, 250"
+        }
     },
-    ["Huge Love Lamb"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976476867",
-        ["_id"] = "Huge Love Lamb",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
+    ["Party Penguin"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968297871",
+        ["_id"] = "Party Penguin",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Love Lamb",
-        ["fly"] = true,
-        ["_script"] = "Huge Love Lamb",
-        ["thumbnail"] = "rbxassetid://14976476986",
-        ["indexDesc"] = "Hatched from the 2023 Valentine's Event in PSX!"
+        ["name"] = "Party Penguin",
+        ["_script"] = "Party Penguin",
+        ["thumbnail"] = "rbxassetid://14968297976",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 210",
+            ["faceTopLeftPixel"] = "72, 78",
+            ["imageSize"] = "237, 250"
+        }
+    },
+    ["Titanic Classic Cat"] = {
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["titanic"] = true,
+        ["name"] = "Titanic Classic Cat",
+        ["_id"] = "Titanic Classic Cat",
+        ["_script"] = "Titanic Classic Cat",
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://18883420114",
+        ["goldenThumbnail"] = ""
     },
     ["Evil Minotaur"] = {
         ["iconSettings"] = {
@@ -20728,17 +22294,17 @@ data = {
         ["thumbnail"] = "rbxassetid://14968335355",
         ["goldenThumbnail"] = "rbxassetid://14968335243"
     },
-    ["Huge Bee"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976362543",
-        ["_id"] = "Huge Bee",
-        ["indexObtainable"] = true,
+    ["Huge Love Lamb"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976476867",
+        ["_id"] = "Huge Love Lamb",
+        ["indexObtainable"] = false,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Bee",
+        ["name"] = "Huge Love Lamb",
         ["fly"] = true,
-        ["_script"] = "Huge Bee",
-        ["thumbnail"] = "rbxassetid://14976362778",
-        ["indexDesc"] = "Found occasionally in Active Huge Pets!"
+        ["_script"] = "Huge Love Lamb",
+        ["thumbnail"] = "rbxassetid://14976476986",
+        ["indexDesc"] = "Hatched from the 2023 Valentine's Event in PSX!"
     },
     ["Doodle Piggy"] = {
         ["iconSettings"] = {
@@ -20786,50 +22352,51 @@ data = {
         ["thumbnail"] = "rbxassetid://15260349697",
         ["goldenThumbnail"] = "rbxassetid://14968246007"
     },
-    ["Huge Chroma Balloon Dragon"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976380691",
-        ["_id"] = "Huge Chroma Balloon Dragon",
-        ["animations"] = {["balloon"] = true},
+    ["Titanic Strawberry Cow"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14977573985",
+        ["_id"] = "Titanic Strawberry Cow",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Titanic Strawberry Cow",
+        ["indexDesc"] = "Comes with the Titanic Strawberry Cow plush!",
+        ["thumbnail"] = "rbxassetid://14976827001",
+        ["_script"] = "Titanic Strawberry Cow"
+    },
+    ["Jetpack Tiger"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "228, 169",
+            ["faceTopLeftPixel"] = "96, 50",
+            ["imageSize"] = "250, 205"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968267030",
+        ["_id"] = "Jetpack Tiger",
         ["hidden"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Huge Chroma Balloon Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Jetpack Tiger",
         ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14976380948",
-        ["_script"] = "Huge Chroma Balloon Dragon"
+        ["thumbnail"] = "rbxassetid://14968267180",
+        ["_script"] = "Jetpack Tiger"
     },
-    ["Mushroom King"] = {
+    ["Happy Computer"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "226, 207",
-            ["faceTopLeftPixel"] = "100, 114",
-            ["imageSize"] = "250, 248"
+            ["faceBottomRightPixel"] = "240, 169",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 220"
         },
-        ["_script"] = "Mushroom King",
-        ["name"] = "Mushroom King",
-        ["_id"] = "Mushroom King",
-        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968253382",
+        ["_id"] = "Happy Computer",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 128,
+        ["cachedZoneNumber"] = 129.1525251416353,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968284903",
-        ["goldenThumbnail"] = "rbxassetid://14968284821"
-    },
-    ["Skeleton"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 128",
-            ["faceTopLeftPixel"] = "81, 8",
-            ["imageSize"] = "250, 165"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968331188",
-        ["_id"] = "Skeleton",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 78,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {809645},
-        ["name"] = "Skeleton",
-        ["zoneNumber"] = 79.15252514163531,
-        ["cachedZoneNumber"] = 79.15252514163531,
-        ["_script"] = "Skeleton",
-        ["thumbnail"] = "rbxassetid://14968331286",
-        ["fromEgg"] = "Dungeon Egg"
+        ["cachedPower"] = {292361886},
+        ["name"] = "Happy Computer",
+        ["zoneNumber"] = 129.1525251416353,
+        ["fly"] = true,
+        ["_script"] = "Happy Computer",
+        ["thumbnail"] = "rbxassetid://14968253514",
+        ["fromEgg"] = "Tech Nexus Egg"
     },
     ["Huge Skeleton"] = {
         ["goldenThumbnail"] = "rbxassetid://14976548178",
@@ -20842,18 +22409,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14976548258",
         ["_script"] = "Huge Skeleton"
     },
-    ["Huge Super Tiger"] = {
-        ["goldenThumbnail"] = "rbxassetid://16746767734",
-        ["_id"] = "Huge Super Tiger",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Doodle Monkey"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 201",
+            ["faceTopLeftPixel"] = "58, 68",
+            ["imageSize"] = "250, 240"
+        },
+        ["_script"] = "Doodle Monkey",
+        ["name"] = "Doodle Monkey",
+        ["_id"] = "Doodle Monkey",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Super Tiger",
-        ["_script"] = "Huge Super Tiger",
-        ["fly"] = true,
-        ["indexDesc"] = "Found in the Exclusive Superhero Egg!",
-        ["thumbnail"] = "rbxassetid://16746767650",
-        ["weld"] = true
+        ["thumbnail"] = "rbxassetid://14968218515",
+        ["goldenThumbnail"] = "rbxassetid://14968218157"
     },
     ["Blazing Dragon"] = {
         ["exclusiveLevel"] = 1,
@@ -20890,19 +22458,16 @@ data = {
         ["thumbnail"] = "rbxassetid://18351514950",
         ["_script"] = "DJ Panda"
     },
-    ["Doodle Turtle"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "67, 10",
-            ["imageSize"] = "250, 217"
-        },
-        ["_script"] = "Doodle Turtle",
-        ["name"] = "Doodle Turtle",
-        ["_id"] = "Doodle Turtle",
-        ["hidden"] = true,
+    ["Huge Glitched Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://16468736159",
+        ["_id"] = "Huge Glitched Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968222454",
-        ["goldenThumbnail"] = "rbxassetid://14968222329"
+        ["name"] = "Huge Glitched Cat",
+        ["indexDesc"] = "Found in Chest Raid minigame!",
+        ["thumbnail"] = "rbxassetid://16468736057",
+        ["_script"] = "Huge Glitched Cat"
     },
     ["Royal Cloud Cat"] = {
         ["iconSettings"] = {
@@ -20973,20 +22538,21 @@ data = {
         ["thumbnail"] = "rbxassetid://16471602267",
         ["fromEgg"] = "Tech Canyon Egg"
     },
-    ["Tiedye Bunny"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968352356",
-        ["_id"] = "Tiedye Bunny",
+    ["Jelly Piggy"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968266535",
+        ["_id"] = "Jelly Piggy",
+        ["animations"] = {["jelly"] = true},
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Tiedye Bunny",
-        ["_script"] = "Tiedye Bunny",
+        ["name"] = "Jelly Piggy",
+        ["_script"] = "Jelly Piggy",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 216",
-            ["faceTopLeftPixel"] = "49, 104",
-            ["imageSize"] = "180, 250"
+            ["faceBottomRightPixel"] = "248, 189",
+            ["faceTopLeftPixel"] = "91, 40",
+            ["imageSize"] = "250, 230"
         },
-        ["thumbnail"] = "rbxassetid://14968352460",
-        ["hideSerial"] = true
+        ["thumbnail"] = "rbxassetid://14968266649",
+        ["weld"] = true
     },
     ["Strawberry Pig"] = {
         ["iconSettings"] = {
@@ -21044,22 +22610,6 @@ data = {
         ["thumbnail"] = "rbxassetid://14968207912",
         ["goldenThumbnail"] = "rbxassetid://14968207729"
     },
-    ["Santa Dragon"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968326285",
-        ["_id"] = "Santa Dragon",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Santa Dragon",
-        ["fly"] = true,
-        ["_script"] = "Santa Dragon",
-        ["thumbnail"] = "rbxassetid://14968326381",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 198",
-            ["faceTopLeftPixel"] = "89, 79",
-            ["imageSize"] = "250, 233"
-        }
-    },
     ["Green Cobra"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "241, 167",
@@ -21079,6 +22629,20 @@ data = {
         ["thumbnail"] = "rbxassetid://14968250862",
         ["fromEgg"] = "Grave Egg"
     },
+    ["Nyan Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "216, 177",
+            ["faceTopLeftPixel"] = "80, 54",
+            ["imageSize"] = "250, 214"
+        },
+        ["_script"] = "Nyan Cat",
+        ["name"] = "Nyan Cat",
+        ["_id"] = "Nyan Cat",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968293166",
+        ["goldenThumbnail"] = "rbxassetid://14968293066"
+    },
     ["Huge Cyber Agony"] = {
         ["goldenThumbnail"] = "rbxassetid://16472011745",
         ["_id"] = "Huge Cyber Agony",
@@ -21091,19 +22655,24 @@ data = {
         ["thumbnail"] = "rbxassetid://16472011675",
         ["indexDesc"] = "Earned from the Tech Chest!"
     },
-    ["Sombrero Cat"] = {
+    ["Goat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 175",
-            ["faceTopLeftPixel"] = "88, 59",
-            ["imageSize"] = "250, 211"
+            ["faceBottomRightPixel"] = "202, 193",
+            ["faceTopLeftPixel"] = "62, 66",
+            ["imageSize"] = "250, 231"
         },
-        ["_script"] = "Sombrero Cat",
-        ["name"] = "Sombrero Cat",
-        ["_id"] = "Sombrero Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968335537",
-        ["goldenThumbnail"] = "rbxassetid://14968335430"
+        ["goldenThumbnail"] = "rbxassetid://14968249667",
+        ["_id"] = "Goat",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 35,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {4804},
+        ["name"] = "Goat",
+        ["zoneNumber"] = 35.61662552951014,
+        ["cachedZoneNumber"] = 35.61662552951014,
+        ["_script"] = "Goat",
+        ["thumbnail"] = "rbxassetid://14968249753",
+        ["fromEgg"] = "Hyena Egg"
     },
     ["Empyrean Dragon"] = {
         ["iconSettings"] = {
@@ -21213,33 +22782,32 @@ data = {
         ["thumbnail"] = "rbxassetid://14968346408",
         ["goldenThumbnail"] = "rbxassetid://14968346293"
     },
-    ["Huge Anime Agony"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976351221",
-        ["_id"] = "Huge Anime Agony",
-        ["animations"] = {["hybridFly"] = true},
+    ["Cool Dragon"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968198703",
+        ["_id"] = "Cool Dragon",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Cool Dragon",
+        ["fly"] = true,
+        ["_script"] = "Cool Dragon",
+        ["thumbnail"] = "rbxassetid://14968198861",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "217, 184",
+            ["faceTopLeftPixel"] = "89, 68",
+            ["imageSize"] = "250, 220"
+        }
+    },
+    ["Huge Comet Cyclops"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976384911",
+        ["_id"] = "Huge Comet Cyclops",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Anime Agony",
-        ["indexDesc"] = "Found in the Exclusive Anime Egg!",
-        ["_script"] = "Huge Anime Agony",
-        ["thumbnail"] = "rbxassetid://14976351312",
-        ["weld"] = true
-    },
-    ["Anime Unicorn"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968173393",
-        ["_id"] = "Anime Unicorn",
-        ["animations"] = {["hybridFly"] = true},
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Anime Unicorn",
-        ["_script"] = "Anime Unicorn",
-        ["thumbnail"] = "rbxassetid://14968173600",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 157",
-            ["faceTopLeftPixel"] = "92, 62",
-            ["imageSize"] = "250, 189"
-        }
+        ["name"] = "Huge Comet Cyclops",
+        ["fly"] = true,
+        ["_script"] = "Huge Comet Cyclops",
+        ["thumbnail"] = "rbxassetid://14976385072",
+        ["indexDesc"] = "Earned from comets in PSX!"
     },
     ["Parachute Monkey"] = {
         ["iconSettings"] = {
@@ -21256,88 +22824,81 @@ data = {
         ["thumbnail"] = "rbxassetid://14968294961",
         ["_script"] = "Parachute Monkey"
     },
-    ["Huge Comet Cyclops"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976384911",
-        ["_id"] = "Huge Comet Cyclops",
+    ["Huge Warrior Wolf"] = {
+        ["goldenThumbnail"] = "rbxassetid://18256895855",
+        ["_id"] = "Huge Warrior Wolf",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Comet Cyclops",
+        ["name"] = "Huge Warrior Wolf",
         ["fly"] = true,
-        ["_script"] = "Huge Comet Cyclops",
-        ["thumbnail"] = "rbxassetid://14976385072",
-        ["indexDesc"] = "Earned from comets in PSX!"
+        ["_script"] = "Huge Warrior Wolf",
+        ["thumbnail"] = "rbxassetid://18256895705",
+        ["indexDesc"] = "Found in the Good vs. Evil Pack!"
     },
-    ["Robber Pug"] = {
+    ["RGB Balloon Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "243, 160",
-            ["faceTopLeftPixel"] = "113, 41",
-            ["imageSize"] = "250, 197"
+            ["faceBottomRightPixel"] = "198, 197",
+            ["faceTopLeftPixel"] = "62, 71",
+            ["imageSize"] = "206, 250"
         },
-        ["_script"] = "Robber Pug",
-        ["name"] = "Robber Pug",
-        ["_id"] = "Robber Pug",
+        ["goldenThumbnail"] = "rbxassetid://14976272360",
+        ["_id"] = "RGB Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "RGB Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "RGB Balloon Cat",
+        ["thumbnail"] = "rbxassetid://14976272445",
+        ["exclusiveLevel"] = 3
+    },
+    ["Sombrero Chihuahua"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "195, 158",
+            ["faceTopLeftPixel"] = "80, 53",
+            ["imageSize"] = "250, 190"
+        },
+        ["_script"] = "Sombrero Chihuahua",
+        ["name"] = "Sombrero Chihuahua",
+        ["_id"] = "Sombrero Chihuahua",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968321127",
-        ["goldenThumbnail"] = "rbxassetid://14968320968"
+        ["thumbnail"] = "rbxassetid://14968335751",
+        ["goldenThumbnail"] = "rbxassetid://14968335638"
     },
-    ["Punkey"] = {
+    ["Ice Cream Cone"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "179, 215",
-            ["faceTopLeftPixel"] = "51, 100",
-            ["imageSize"] = "219, 250"
+            ["faceBottomRightPixel"] = "159, 219",
+            ["faceTopLeftPixel"] = "45, 116",
+            ["imageSize"] = "166, 250"
         },
-        ["_script"] = "Punkey",
-        ["name"] = "Punkey",
-        ["_id"] = "Punkey",
+        ["_script"] = "Ice Cream Cone",
+        ["name"] = "Ice Cream Cone",
+        ["_id"] = "Ice Cream Cone",
         ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968314943",
-        ["goldenThumbnail"] = "rbxassetid://14968314806"
+        ["thumbnail"] = "rbxassetid://14968263480",
+        ["goldenThumbnail"] = "rbxassetid://14968263341"
     },
-    ["Umbrella Cat"] = {
+    ["Ugly Duckling"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 216",
-            ["faceTopLeftPixel"] = "49, 105",
-            ["imageSize"] = "241, 250"
+            ["faceBottomRightPixel"] = "241, 167",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 215"
         },
-        ["cachedZoneNumber"] = 10.301785007572551,
-        ["goldenThumbnail"] = "rbxassetid://14968356213",
-        ["_id"] = "Umbrella Cat",
-        ["animations"] = {["flyHeight"] = 1, ["flyHeightChange"] = 4, ["flySpeed"] = 0.4},
+        ["goldenThumbnail"] = "rbxassetid://14968355913",
+        ["_id"] = "Ugly Duckling",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 10,
-        ["weld"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {222},
-        ["name"] = "Umbrella Cat",
-        ["zoneNumber"] = 10.301785007572551,
-        ["fly"] = true,
-        ["_script"] = "Umbrella Cat",
-        ["thumbnail"] = "rbxassetid://14968356324",
-        ["fromEgg"] = "Dragon Egg"
-    },
-    ["Basketball Retriever"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 211",
-            ["faceTopLeftPixel"] = "56, 84",
-            ["imageSize"] = "204, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968179819",
-        ["_id"] = "Basketball Retriever",
-        ["animations"] = {["ballBounceHeight"] = 2},
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 89,
-        ["cachedZoneNumber"] = 90.69128757570932,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["cachedPower"] = {3153293},
-        ["name"] = "Basketball Retriever",
-        ["zoneNumber"] = 90.69128757570932,
-        ["weld"] = true,
-        ["_script"] = "Basketball Retriever",
-        ["thumbnail"] = "rbxassetid://14968179950",
-        ["fromEgg"] = "Hot Air Balloon Egg"
+        ["fromZoneNumber"] = 8,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {191},
+        ["name"] = "Ugly Duckling",
+        ["zoneNumber"] = 9.423365651144652,
+        ["cachedZoneNumber"] = 9.423365651144652,
+        ["_script"] = "Ugly Duckling",
+        ["thumbnail"] = "rbxassetid://14968356058",
+        ["fromEgg"] = "Cat Egg"
     },
     ["Plane Dragon"] = {
         ["iconSettings"] = {
@@ -21369,46 +22930,53 @@ data = {
             ["imageSize"] = "249, 135"
         }
     },
-    ["Mosaic Elephant"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968283743",
-        ["_id"] = "Mosaic Elephant",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Mosaic Elephant",
-        ["_script"] = "Mosaic Elephant",
+    ["Pixel Cat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "200, 132",
-            ["faceTopLeftPixel"] = "64, 8",
-            ["imageSize"] = "250, 171"
+            ["faceBottomRightPixel"] = "238, 205",
+            ["faceTopLeftPixel"] = "86, 71",
+            ["imageSize"] = "250, 247"
         },
-        ["thumbnail"] = "rbxassetid://14968283881",
-        ["hideSerial"] = true
-    },
-    ["Lucki Tiger"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 163",
-            ["faceTopLeftPixel"] = "90, 48",
-            ["imageSize"] = "250, 198"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968276529",
-        ["_id"] = "Lucki Tiger",
+        ["_script"] = "Pixel Cat",
+        ["name"] = "Pixel Cat",
+        ["_id"] = "Pixel Cat",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Lucki Tiger",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968276602",
-        ["_script"] = "Lucki Tiger"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968303881",
+        ["goldenThumbnail"] = "rbxassetid://14968303819"
     },
-    ["Huge Crowned Corgi"] = {
-        ["goldenThumbnail"] = "rbxassetid://15281989771",
-        ["_id"] = "Huge Crowned Corgi",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Crowned Corgi",
-        ["indexDesc"] = "Gifted to top 50 spenders on PSX!",
-        ["thumbnail"] = "rbxassetid://15281989661",
-        ["_script"] = "Huge Crowned Corgi"
+    ["Present Chest Mimic"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 197",
+            ["faceTopLeftPixel"] = "73, 86",
+            ["imageSize"] = "250, 231"
+        },
+        ["_script"] = "Present Chest Mimic",
+        ["name"] = "Present Chest Mimic",
+        ["_id"] = "Present Chest Mimic",
+        ["exclusiveLevel"] = 3,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968311832",
+        ["goldenThumbnail"] = "rbxassetid://14968311645"
+    },
+    ["Blimp Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 193",
+            ["faceTopLeftPixel"] = "107, 107",
+            ["imageSize"] = "250, 220"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968182927",
+        ["_id"] = "Blimp Dragon",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 157,
+        ["cachedZoneNumber"] = 158.6912875757093,
+        ["sounds"] = {["random"] = {7621655327, 7621655439, 7621655241}, ["walk"] = {}},
+        ["cachedPower"] = {9487152450},
+        ["name"] = "Blimp Dragon",
+        ["zoneNumber"] = 158.6912875757093,
+        ["fly"] = true,
+        ["_script"] = "Blimp Dragon",
+        ["thumbnail"] = "rbxassetid://14968183021",
+        ["fromEgg"] = "Steampunk Airship Egg"
     },
     ["Huge Flex Tiger"] = {
         ["goldenThumbnail"] = "rbxassetid://18127488955",
@@ -21464,16 +23032,18 @@ data = {
         ["thumbnail"] = "rbxassetid://15260349138",
         ["fromEgg"] = "Tech Factory Egg"
     },
-    ["Titanic Fawn"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14977522484",
-        ["_id"] = "Titanic Fawn",
+    ["Huge Old Wizard Owl"] = {
+        ["goldenThumbnail"] = "rbxassetid://18644413103",
+        ["_id"] = "Huge Old Wizard Owl",
         ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Fawn",
-        ["indexDesc"] = "Comes with the Titanic Fawn plush!",
-        ["thumbnail"] = "rbxassetid://14976619071",
-        ["_script"] = "Titanic Fawn"
+        ["name"] = "Huge Old Wizard Owl",
+        ["_script"] = "Huge Old Wizard Owl",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 3 Merch Gifts!",
+        ["thumbnail"] = "rbxassetid://18644413008",
+        ["hideSerial"] = true
     },
     ["Huge Sandcastle Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976541695",
@@ -21486,78 +23056,51 @@ data = {
         ["thumbnail"] = "rbxassetid://14976541813",
         ["_script"] = "Huge Sandcastle Cat"
     },
-    ["Lucki Monkey"] = {
+    ["M-10 PROTOTYPE"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 142",
-            ["faceTopLeftPixel"] = "93, 34",
-            ["imageSize"] = "250, 176"
+            ["faceBottomRightPixel"] = "221, 177",
+            ["faceTopLeftPixel"] = "113, 80",
+            ["imageSize"] = "250, 207"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968276253",
-        ["_id"] = "Lucki Monkey",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Lucki Monkey",
+        ["goldenThumbnail"] = "rbxassetid://15260348775",
+        ["_id"] = "M-10 PROTOTYPE",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 145,
+        ["cachedZoneNumber"] = 146.6912875757093,
+        ["sounds"] = {["random"] = {7503171384, 7503171323, 7503171418}, ["walk"] = {}},
+        ["cachedPower"] = {2308371002},
+        ["name"] = "M-10 PROTOTYPE",
+        ["zoneNumber"] = 146.6912875757093,
         ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968276400",
-        ["_script"] = "Lucki Monkey"
+        ["_script"] = "M-10 PROTOTYPE",
+        ["thumbnail"] = "rbxassetid://15260348651",
+        ["fromEgg"] = "Tech Robot Egg"
     },
-    ["Huge Cosmic Agony"] = {
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Huge Cosmic Agony",
-        ["animations"] = {
-            ["parallax"] = {
-                {
-                    ["BrightnessNoiseRange"] = {
-                        Vector3.new(0.25, 0.0625, 0.0625),
-                        Vector3.new(1, 0.6000000238418579, 2)
-                    },
-                    ["FixedScale"] = Vector3.new(2, 2, 2),
-                    ["LogScale"] = 0.01,
-                    ["TextureId"] = "rbxassetid://14150094108",
-                    ["Transparency"] = 0.5,
-                    ["AnimSpeed"] = Vector3.new(-0.5, 0.5, 0),
-                    ["TransparencyNoiseRange"] = {0, 1},
-                    ["Brightness"] = Vector3.new(3, 3, 3),
-                    ["CameraDirection"] = Vector3.new(-0.4000000059604645, -0.4000000059604645, -0.4000000059604645),
-                    ["ZIndex"] = 1
-                },
-                {
-                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
-                    ["FixedScale"] = Vector3.new(2, 2, 2),
-                    ["LogScale"] = 0.01,
-                    ["TextureId"] = "rbxassetid://14150094328",
-                    ["Transparency"] = 0.5,
-                    ["AnimSpeed"] = Vector3.new(0.5, 0.5, 0),
-                    ["TransparencyNoiseRange"] = {0, 1},
-                    ["Brightness"] = Vector3.new(2, 2, 2),
-                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
-                    ["ZIndex"] = 2
-                }
-            }
-        },
-        ["indexObtainable"] = true,
+    ["Nightmare Cat"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://15260346522",
+        ["_id"] = "Nightmare Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Nightmare Cat",
+        ["_script"] = "Nightmare Cat",
+        ["thumbnail"] = "rbxassetid://15260346522",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "214, 208",
+            ["faceTopLeftPixel"] = "61, 69",
+            ["imageSize"] = "222, 250"
+        }
+    },
+    ["Huge Crowned Corgi"] = {
+        ["goldenThumbnail"] = "rbxassetid://15281989771",
+        ["_id"] = "Huge Crowned Corgi",
+        ["indexObtainable"] = false,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Cosmic Agony",
-        ["_script"] = "Huge Cosmic Agony",
-        ["fly"] = true,
-        ["indexDesc"] = "Found in the Exclusive Cosmic Egg!",
-        ["thumbnail"] = "rbxassetid://15201636010",
-        ["weld"] = true
-    },
-    ["Lucki Wolf"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 179",
-            ["faceTopLeftPixel"] = "90, 65",
-            ["imageSize"] = "250, 214"
-        },
-        ["_script"] = "Lucki Wolf",
-        ["name"] = "Lucki Wolf",
-        ["_id"] = "Lucki Wolf",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968276787",
-        ["goldenThumbnail"] = "rbxassetid://14968276672"
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Crowned Corgi",
+        ["indexDesc"] = "Gifted to top 50 spenders on PSX!",
+        ["thumbnail"] = "rbxassetid://15281989661",
+        ["_script"] = "Huge Crowned Corgi"
     },
     ["Gingerbread Cat"] = {
         ["iconSettings"] = {
@@ -21577,24 +23120,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968246488",
         ["_script"] = "Gingerbread Cat"
     },
-    ["Ugly Duckling"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 167",
-            ["faceTopLeftPixel"] = "68, 11",
-            ["imageSize"] = "250, 215"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968355913",
-        ["_id"] = "Ugly Duckling",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 8,
+    ["Huge Present Chest Mimic"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976526959",
+        ["_id"] = "Huge Present Chest Mimic",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {191},
-        ["name"] = "Ugly Duckling",
-        ["zoneNumber"] = 9.423365651144652,
-        ["cachedZoneNumber"] = 9.423365651144652,
-        ["_script"] = "Ugly Duckling",
-        ["thumbnail"] = "rbxassetid://14968356058",
-        ["fromEgg"] = "Cat Egg"
+        ["name"] = "Huge Present Chest Mimic",
+        ["indexDesc"] = "Found in the Exclusive Jolly Egg!",
+        ["thumbnail"] = "rbxassetid://14976527111",
+        ["_script"] = "Huge Present Chest Mimic"
     },
     ["Huge Robber Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://17604035769",
@@ -21607,19 +23142,19 @@ data = {
         ["thumbnail"] = "rbxassetid://17604035571",
         ["_script"] = "Huge Robber Cat"
     },
-    ["Kawaii Tiger"] = {
+    ["Amethyst Dragon"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968269707",
-        ["_id"] = "Kawaii Tiger",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968170930",
+        ["_id"] = "Amethyst Dragon",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Kawaii Tiger",
-        ["_script"] = "Kawaii Tiger",
-        ["thumbnail"] = "rbxassetid://14968269808",
+        ["name"] = "Amethyst Dragon",
+        ["fly"] = true,
+        ["_script"] = "Amethyst Dragon",
+        ["thumbnail"] = "rbxassetid://14968171079",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 197",
-            ["faceTopLeftPixel"] = "64, 76",
-            ["imageSize"] = "227, 250"
+            ["faceBottomRightPixel"] = "207, 150",
+            ["faceTopLeftPixel"] = "98, 52",
+            ["imageSize"] = "250, 181"
         }
     },
     ["Huge Empyrean Axolotl"] = {
@@ -21648,20 +23183,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968264482",
         ["goldenThumbnail"] = "rbxassetid://14968264352"
     },
-    ["Party Penguin"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968297871",
-        ["_id"] = "Party Penguin",
-        ["hidden"] = true,
+    ["Huge Mr Krabs"] = {
+        ["goldenThumbnail"] = "rbxassetid://18313092725",
+        ["_id"] = "Huge Mr Krabs",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Party Penguin",
-        ["_script"] = "Party Penguin",
-        ["thumbnail"] = "rbxassetid://14968297976",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "218, 210",
-            ["faceTopLeftPixel"] = "72, 78",
-            ["imageSize"] = "237, 250"
-        }
+        ["name"] = "Huge Mr. Krabs",
+        ["indexDesc"] = "Found in the Exclusive SpongeBob Egg!",
+        ["thumbnail"] = "rbxassetid://18313092725",
+        ["_script"] = "Huge Mr Krabs"
     },
     ["Painted Cat"] = {
         ["exclusiveLevel"] = 3,
@@ -21697,59 +23228,48 @@ data = {
         ["thumbnail"] = "rbxassetid://17512183615",
         ["fromEgg"] = "Striped Egg"
     },
-    ["Cosmic Axolotl"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Cosmic Axolotl",
-        ["animations"] = {
-            ["parallax"] = {
-                {
-                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
-                    ["FixedScale"] = Vector3.new(2, 2, 2),
-                    ["LogScale"] = 0.01,
-                    ["TextureId"] = "rbxassetid://14155237545",
-                    ["Transparency"] = 0.5,
-                    ["AnimSpeed"] = Vector3.new(0.25, 0.25, 0),
-                    ["TransparencyNoiseRange"] = {0, 1},
-                    ["Brightness"] = Vector3.new(3, 3, 3),
-                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
-                    ["ZIndex"] = 2
-                }
-            }
-        },
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Cosmic Axolotl",
-        ["_script"] = "Cosmic Axolotl",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 124",
-            ["faceTopLeftPixel"] = "95, 21",
-            ["imageSize"] = "250, 155"
-        },
-        ["thumbnail"] = "rbxassetid://15201620186",
-        ["weld"] = true
-    },
-    ["Huge Turtle"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976572239",
-        ["_id"] = "Huge Turtle",
+    ["Huge Black Hole Kitsune"] = {
+        ["goldenThumbnail"] = "rbxassetid://17285736725",
+        ["_id"] = "Huge Black Hole Kitsune",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Turtle",
-        ["indexDesc"] = "Found in Series 2 Mystery Egg Plush! [RARE]",
-        ["thumbnail"] = "rbxassetid://14976572325",
-        ["_script"] = "Huge Turtle"
+        ["weld"] = true,
+        ["indexDesc"] = "Found in the Exclusive Black Hole Egg!",
+        ["_script"] = "Huge Black Hole Kitsune",
+        ["thumbnail"] = "rbxassetid://17285736637",
+        ["name"] = "Huge Black Hole Kitsune"
     },
-    ["Titanic Bat Cat"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://16746763506",
-        ["_id"] = "Titanic Bat Cat",
-        ["indexObtainable"] = true,
+    ["Spring Griffin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 169",
+            ["faceTopLeftPixel"] = "94, 68",
+            ["imageSize"] = "250, 200"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968337193",
+        ["_id"] = "Spring Griffin",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Bat Cat",
+        ["name"] = "Spring Griffin",
         ["fly"] = true,
-        ["_script"] = "Titanic Bat Cat",
-        ["thumbnail"] = "rbxassetid://16746763420",
-        ["indexDesc"] = "Found in the Exclusive Superhero Egg!"
+        ["thumbnail"] = "rbxassetid://14968337328",
+        ["_script"] = "Spring Griffin"
+    },
+    ["Marshmallow Agony"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968278302",
+        ["_id"] = "Marshmallow Agony",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Marshmallow Agony",
+        ["fly"] = true,
+        ["_script"] = "Marshmallow Agony",
+        ["thumbnail"] = "rbxassetid://14968278365",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "241, 165",
+            ["faceTopLeftPixel"] = "127, 62",
+            ["imageSize"] = "250, 197"
+        }
     },
     ["Cyber Fox"] = {
         ["iconSettings"] = {
@@ -21799,65 +23319,46 @@ data = {
         ["thumbnail"] = "rbxassetid://14968211859",
         ["_script"] = "Doodle Agony"
     },
-    ["Titanic Blazing Dragon"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://17749522423",
-        ["_id"] = "Titanic Blazing Dragon",
+    ["Huge Turtle"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976572239",
+        ["_id"] = "Huge Turtle",
         ["indexObtainable"] = true,
-        ["flyingTitanic"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Blazing Dragon",
-        ["flyingTitanicAlwaysFly"] = true,
-        ["fly"] = true,
-        ["_script"] = "Titanic Blazing Dragon",
-        ["thumbnail"] = "rbxassetid://17749522423",
-        ["indexDesc"] = "Found in the Exclusive Blazing Egg!"
+        ["name"] = "Huge Turtle",
+        ["indexDesc"] = "Found in Series 2 Mystery Egg Plush! [RARE]",
+        ["thumbnail"] = "rbxassetid://14976572325",
+        ["_script"] = "Huge Turtle"
     },
-    ["RGB Balloon Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 197",
-            ["faceTopLeftPixel"] = "62, 71",
-            ["imageSize"] = "206, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14976272360",
-        ["_id"] = "RGB Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "RGB Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "RGB Balloon Cat",
-        ["thumbnail"] = "rbxassetid://14976272445",
-        ["exclusiveLevel"] = 3
-    },
-    ["Super Cat"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968348891",
-        ["_id"] = "Super Cat",
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Super Cat",
-        ["fly"] = true,
-        ["_script"] = "Super Cat",
-        ["thumbnail"] = "rbxassetid://14968349033",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 194",
-            ["faceTopLeftPixel"] = "94, 59",
-            ["imageSize"] = "250, 235"
-        }
-    },
-    ["Flower Panda"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "246, 204",
-            ["faceTopLeftPixel"] = "101, 77",
-            ["imageSize"] = "250, 245"
-        },
-        ["_script"] = "Flower Panda",
-        ["name"] = "Flower Panda",
-        ["_id"] = "Flower Panda",
-        ["hidden"] = true,
+    ["Titanic Bat Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://16746763506",
+        ["_id"] = "Titanic Bat Cat",
+        ["indexObtainable"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968240441",
-        ["goldenThumbnail"] = "rbxassetid://14968240348"
+        ["name"] = "Titanic Bat Cat",
+        ["fly"] = true,
+        ["_script"] = "Titanic Bat Cat",
+        ["thumbnail"] = "rbxassetid://16746763420",
+        ["indexDesc"] = "Found in the Exclusive Superhero Egg!"
+    },
+    ["Basket Bunny"] = {
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Basket Bunny",
+        ["_id"] = "Basket Bunny",
+        ["_script"] = "Basket Bunny",
+        ["hidden"] = true,
+        ["thumbnail"] = "rbxassetid://14968179716",
+        ["goldenThumbnail"] = "rbxassetid://14968179563"
+    },
+    ["Egg Chick"] = {
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Egg Chick",
+        ["_id"] = "Egg Chick",
+        ["_script"] = "Egg Chick",
+        ["hidden"] = true,
+        ["thumbnail"] = "rbxassetid://14968227020",
+        ["goldenThumbnail"] = "rbxassetid://14968226812"
     },
     ["Stargazing Wolf"] = {
         ["exclusiveLevel"] = 1,
@@ -21874,6 +23375,62 @@ data = {
         ["thumbnail"] = "rbxassetid://17602385201",
         ["name"] = "Stargazing Wolf"
     },
+    ["Stunt Unicorn"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968347369",
+        ["_id"] = "Stunt Unicorn",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Stunt Unicorn",
+        ["fly"] = true,
+        ["_script"] = "Stunt Unicorn",
+        ["thumbnail"] = "rbxassetid://14968347562",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "190, 186",
+            ["faceTopLeftPixel"] = "91, 102",
+            ["imageSize"] = "250, 213"
+        }
+    },
+    ["Huge Redstone Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976533446",
+        ["_id"] = "Huge Redstone Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Redstone Cat",
+        ["indexDesc"] = "Found in the Exclusive Crystal Egg!",
+        ["thumbnail"] = "rbxassetid://14976533671",
+        ["_script"] = "Huge Redstone Cat"
+    },
+    ["Super Cat"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968348891",
+        ["_id"] = "Super Cat",
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Super Cat",
+        ["fly"] = true,
+        ["_script"] = "Super Cat",
+        ["thumbnail"] = "rbxassetid://14968349033",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "242, 194",
+            ["faceTopLeftPixel"] = "94, 59",
+            ["imageSize"] = "250, 235"
+        }
+    },
+    ["Spring Bee"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "202, 175",
+            ["faceTopLeftPixel"] = "74, 58",
+            ["imageSize"] = "250, 211"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968336998",
+        ["_id"] = "Spring Bee",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Spring Bee",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968337103",
+        ["_script"] = "Spring Bee"
+    },
     ["Huge Hologram Axolotl"] = {
         ["goldenThumbnail"] = "rbxassetid://14976456793",
         ["_id"] = "Huge Hologram Axolotl",
@@ -21888,92 +23445,35 @@ data = {
         ["thumbnail"] = "rbxassetid://14976456919",
         ["weld"] = true
     },
-    ["Huge Redstone Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976533446",
-        ["_id"] = "Huge Redstone Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Redstone Cat",
-        ["indexDesc"] = "Found in the Exclusive Crystal Egg!",
-        ["thumbnail"] = "rbxassetid://14976533671",
-        ["_script"] = "Huge Redstone Cat"
-    },
-    ["Jelly Piggy"] = {
+    ["Monkey Bro"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968266535",
-        ["_id"] = "Jelly Piggy",
-        ["animations"] = {["jelly"] = true},
+        ["goldenThumbnail"] = "rbxassetid://14968281533",
+        ["_id"] = "Monkey Bro",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Jelly Piggy",
-        ["_script"] = "Jelly Piggy",
+        ["name"] = "Monkey Bro",
+        ["_script"] = "Monkey Bro",
+        ["thumbnail"] = "rbxassetid://14968281626",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "248, 189",
-            ["faceTopLeftPixel"] = "91, 40",
-            ["imageSize"] = "250, 230"
-        },
-        ["thumbnail"] = "rbxassetid://14968266649",
-        ["weld"] = true
+            ["faceBottomRightPixel"] = "191, 213",
+            ["faceTopLeftPixel"] = "54, 89",
+            ["imageSize"] = "233, 250"
+        }
     },
-    ["Jelly Panda"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968266252",
-        ["_id"] = "Jelly Panda",
-        ["animations"] = {["jelly"] = true},
+    ["Ninja Axolotl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968291172",
+        ["_id"] = "Ninja Axolotl",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Jelly Panda",
-        ["_script"] = "Jelly Panda",
+        ["name"] = "Ninja Axolotl",
+        ["_script"] = "Ninja Axolotl",
+        ["thumbnail"] = "rbxassetid://14968291374",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "243, 207",
-            ["faceTopLeftPixel"] = "84, 68",
-            ["imageSize"] = "245, 250"
-        },
-        ["thumbnail"] = "rbxassetid://14968266382",
-        ["weld"] = true
-    },
-    ["Nyan Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 177",
-            ["faceTopLeftPixel"] = "80, 54",
-            ["imageSize"] = "250, 214"
-        },
-        ["_script"] = "Nyan Cat",
-        ["name"] = "Nyan Cat",
-        ["_id"] = "Nyan Cat",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968293166",
-        ["goldenThumbnail"] = "rbxassetid://14968293066"
-    },
-    ["Goat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 193",
-            ["faceTopLeftPixel"] = "62, 66",
-            ["imageSize"] = "250, 231"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968249667",
-        ["_id"] = "Goat",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 35,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4804},
-        ["name"] = "Goat",
-        ["zoneNumber"] = 35.61662552951014,
-        ["cachedZoneNumber"] = 35.61662552951014,
-        ["_script"] = "Goat",
-        ["thumbnail"] = "rbxassetid://14968249753",
-        ["fromEgg"] = "Hyena Egg"
-    },
-    ["Huge Mantis Shrimp"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976486574",
-        ["_id"] = "Huge Mantis Shrimp",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Mantis Shrimp",
-        ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!",
-        ["thumbnail"] = "rbxassetid://14976486671",
-        ["_script"] = "Huge Mantis Shrimp"
+            ["faceBottomRightPixel"] = "209, 180",
+            ["faceTopLeftPixel"] = "60, 59",
+            ["imageSize"] = "250, 226"
+        }
     },
     ["Candycane Unicorn"] = {
         ["iconSettings"] = {
@@ -21994,34 +23494,99 @@ data = {
         ["thumbnail"] = "rbxassetid://14968189945",
         ["fromZoneNumber"] = 63
     },
-    ["Cool Dragon"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968198703",
-        ["_id"] = "Cool Dragon",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Cool Dragon",
-        ["fly"] = true,
-        ["_script"] = "Cool Dragon",
-        ["thumbnail"] = "rbxassetid://14968198861",
+    ["Prickly Panda"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "217, 184",
+            ["faceBottomRightPixel"] = "225, 197",
+            ["faceTopLeftPixel"] = "80, 65",
+            ["imageSize"] = "250, 237"
+        },
+        ["_script"] = "Prickly Panda",
+        ["name"] = "Prickly Panda",
+        ["_id"] = "Prickly Panda",
+        ["exclusiveLevel"] = 1,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968312942",
+        ["goldenThumbnail"] = "rbxassetid://14968312852"
+    },
+    ["Cyborg Dragon"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "218, 184",
             ["faceTopLeftPixel"] = "89, 68",
             ["imageSize"] = "250, 220"
-        }
-    },
-    ["Sombrero Chihuahua"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "195, 158",
-            ["faceTopLeftPixel"] = "80, 53",
-            ["imageSize"] = "250, 190"
         },
-        ["_script"] = "Sombrero Chihuahua",
-        ["name"] = "Sombrero Chihuahua",
-        ["_id"] = "Sombrero Chihuahua",
+        ["goldenThumbnail"] = "rbxassetid://14968204990",
+        ["_id"] = "Cyborg Dragon",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 49,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {27127},
+        ["name"] = "Cyborg Dragon",
+        ["zoneNumber"] = 50.314366329259784,
+        ["cachedZoneNumber"] = 50.314366329259784,
+        ["_script"] = "Cyborg Dragon",
+        ["thumbnail"] = "rbxassetid://14968205100",
+        ["fromEgg"] = "Metal Egg"
+    },
+    ["Hologram Tiger"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "222, 205",
+            ["faceTopLeftPixel"] = "64, 62",
+            ["imageSize"] = "230, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968258995",
+        ["_id"] = "Hologram Tiger",
+        ["animations"] = {["flyHeightChange"] = 0},
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Hologram Tiger",
+        ["_script"] = "Hologram Tiger",
+        ["fly"] = true,
+        ["weld"] = true,
+        ["thumbnail"] = "rbxassetid://14968259117",
+        ["exclusiveLevel"] = 2
+    },
+    ["Doodle Flamingo"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "242, 168",
+            ["faceTopLeftPixel"] = "68, 10",
+            ["imageSize"] = "250, 215"
+        },
+        ["_script"] = "Doodle Flamingo",
+        ["name"] = "Doodle Flamingo",
+        ["_id"] = "Doodle Flamingo",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968335751",
-        ["goldenThumbnail"] = "rbxassetid://14968335638"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968216185",
+        ["goldenThumbnail"] = "rbxassetid://14968216044"
+    },
+    ["Butterfly Llama"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "215, 161",
+            ["faceTopLeftPixel"] = "94, 51",
+            ["imageSize"] = "250, 194"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968188728",
+        ["_id"] = "Butterfly Llama",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Butterfly Llama",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968188805",
+        ["_script"] = "Butterfly Llama"
+    },
+    ["Masked Owl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "213, 175",
+            ["faceTopLeftPixel"] = "86, 65",
+            ["imageSize"] = "250, 211"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968278686",
+        ["_id"] = "Masked Owl",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Masked Owl",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968278850",
+        ["_script"] = "Masked Owl"
     },
     ["Titanic Stargazing Bull"] = {
         ["titanic"] = true,
@@ -22035,44 +23600,23 @@ data = {
         ["thumbnail"] = "rbxassetid://17602420874",
         ["name"] = "Titanic Stargazing Bull"
     },
-    ["Pixel Cat"] = {
+    ["Ender Goat"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "238, 205",
-            ["faceTopLeftPixel"] = "86, 71",
-            ["imageSize"] = "250, 247"
+            ["faceBottomRightPixel"] = "202, 193",
+            ["faceTopLeftPixel"] = "62, 65",
+            ["imageSize"] = "250, 231"
         },
-        ["_script"] = "Pixel Cat",
-        ["name"] = "Pixel Cat",
-        ["_id"] = "Pixel Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968303881",
-        ["goldenThumbnail"] = "rbxassetid://14968303819"
-    },
-    ["Emerald Monkey"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 203",
-            ["faceTopLeftPixel"] = "61, 69",
-            ["imageSize"] = "250, 244"
-        },
-        ["_script"] = "Emerald Monkey",
-        ["name"] = "Emerald Monkey",
-        ["_id"] = "Emerald Monkey",
-        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://17374944094",
+        ["_id"] = "Ender Goat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 199,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968228249",
-        ["goldenThumbnail"] = "rbxassetid://14968228161"
-    },
-    ["Huge Bison"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976363240",
-        ["_id"] = "Huge Bison",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Bison",
-        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
-        ["thumbnail"] = "rbxassetid://14976363344",
-        ["_script"] = "Huge Bison"
+        ["cachedPower"] = {995328660140},
+        ["name"] = "Ender Goat",
+        ["zoneNumber"] = 198.2,
+        ["cachedZoneNumber"] = 198.2,
+        ["thumbnail"] = "rbxassetid://17374943944",
+        ["_script"] = "Ender Goat"
     },
     ["Ducky Magician"] = {
         ["iconSettings"] = {
@@ -22093,55 +23637,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14968224321",
         ["fromEgg"] = "Steampunk Lantern Egg"
     },
-    ["Ender Goat"] = {
+    ["Dino Bear"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 193",
-            ["faceTopLeftPixel"] = "62, 65",
-            ["imageSize"] = "250, 231"
+            ["faceBottomRightPixel"] = "221, 210",
+            ["faceTopLeftPixel"] = "74, 81",
+            ["imageSize"] = "225, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://17374944094",
-        ["_id"] = "Ender Goat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 199,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {995328660140},
-        ["name"] = "Ender Goat",
-        ["zoneNumber"] = 198.2,
-        ["cachedZoneNumber"] = 198.2,
-        ["thumbnail"] = "rbxassetid://17374943944",
-        ["_script"] = "Ender Goat"
-    },
-    ["Huge Chroma Balloon Axolotl"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976379956",
-        ["_id"] = "Huge Chroma Balloon Axolotl",
-        ["animations"] = {["balloon"] = true},
+        ["_script"] = "Dino Bear",
+        ["name"] = "Dino Bear",
+        ["_id"] = "Dino Bear",
         ["hidden"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Huge Chroma Balloon Axolotl",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14976380139",
-        ["_script"] = "Huge Chroma Balloon Axolotl"
-    },
-    ["M-10 PROTOTYPE"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 177",
-            ["faceTopLeftPixel"] = "113, 80",
-            ["imageSize"] = "250, 207"
-        },
-        ["goldenThumbnail"] = "rbxassetid://15260348775",
-        ["_id"] = "M-10 PROTOTYPE",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 145,
-        ["cachedZoneNumber"] = 146.6912875757093,
-        ["sounds"] = {["random"] = {7503171384, 7503171323, 7503171418}, ["walk"] = {}},
-        ["cachedPower"] = {2308371002},
-        ["name"] = "M-10 PROTOTYPE",
-        ["zoneNumber"] = 146.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "M-10 PROTOTYPE",
-        ["thumbnail"] = "rbxassetid://15260348651",
-        ["fromEgg"] = "Tech Robot Egg"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968208171",
+        ["goldenThumbnail"] = "rbxassetid://14968208088"
     },
     ["Peppermint Angelus"] = {
         ["exclusiveLevel"] = 3,
@@ -22216,20 +23724,17 @@ data = {
             ["imageSize"] = "250, 186"
         }
     },
-    ["Amethyst Dragon"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968170930",
-        ["_id"] = "Amethyst Dragon",
+    ["Huge Fairy"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976427804",
+        ["_id"] = "Huge Fairy",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Amethyst Dragon",
+        ["name"] = "Huge Fairy",
         ["fly"] = true,
-        ["_script"] = "Amethyst Dragon",
-        ["thumbnail"] = "rbxassetid://14968171079",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 150",
-            ["faceTopLeftPixel"] = "98, 52",
-            ["imageSize"] = "250, 181"
-        }
+        ["_script"] = "Huge Fairy",
+        ["thumbnail"] = "rbxassetid://14976428656",
+        ["indexDesc"] = "Found in the Lucky Block Merch!"
     },
     ["Balloon Dragon"] = {
         ["exclusiveLevel"] = 1,
@@ -22247,6 +23752,25 @@ data = {
             ["imageSize"] = "243, 250"
         }
     },
+    ["Blue Fish"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "220, 164",
+            ["faceTopLeftPixel"] = "76, 33",
+            ["imageSize"] = "250, 188"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968183893",
+        ["_id"] = "Blue Fish",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 21,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {880},
+        ["name"] = "Blue Fish",
+        ["zoneNumber"] = 21.212782330631505,
+        ["cachedZoneNumber"] = 21.212782330631505,
+        ["_script"] = "Blue Fish",
+        ["thumbnail"] = "rbxassetid://14968184034",
+        ["fromEgg"] = "Coral Egg"
+    },
     ["Doodle Bunny"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "174, 216",
@@ -22261,88 +23785,74 @@ data = {
         ["thumbnail"] = "rbxassetid://14968212719",
         ["goldenThumbnail"] = "rbxassetid://14968212581"
     },
-    ["Evolved Cupcake"] = {
+    ["Mimic Tech Chest"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14976267024",
-        ["_id"] = "Evolved Cupcake",
+        ["goldenThumbnail"] = "rbxassetid://14976269820",
+        ["_id"] = "Mimic Tech Chest",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Evolved Cupcake",
-        ["_script"] = "Evolved Cupcake",
-        ["thumbnail"] = "rbxassetid://14976267163",
+        ["name"] = "Mimic Tech Chest",
+        ["_script"] = "Mimic Tech Chest",
+        ["thumbnail"] = "rbxassetid://14976270021",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "234, 203",
-            ["faceTopLeftPixel"] = "65, 51",
-            ["imageSize"] = "243, 250"
+            ["faceBottomRightPixel"] = "225, 176",
+            ["faceTopLeftPixel"] = "78, 50",
+            ["imageSize"] = "250, 212"
         }
     },
-    ["Spring Griffin"] = {
+    ["Storm Axolotl"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 169",
-            ["faceTopLeftPixel"] = "94, 68",
-            ["imageSize"] = "250, 200"
+            ["faceBottomRightPixel"] = "204, 180",
+            ["faceTopLeftPixel"] = "82, 70",
+            ["imageSize"] = "250, 213"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968337193",
-        ["_id"] = "Spring Griffin",
+        ["_script"] = "Storm Axolotl",
+        ["name"] = "Storm Axolotl",
+        ["_id"] = "Storm Axolotl",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Spring Griffin",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968337328",
-        ["_script"] = "Spring Griffin"
+        ["thumbnail"] = "rbxassetid://15260344656",
+        ["goldenThumbnail"] = "rbxassetid://15260344759"
     },
-    ["Ninja Axolotl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968291172",
-        ["_id"] = "Ninja Axolotl",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Ninja Axolotl",
-        ["_script"] = "Ninja Axolotl",
-        ["thumbnail"] = "rbxassetid://14968291374",
+    ["Clover Unicorn"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 180",
-            ["faceTopLeftPixel"] = "60, 59",
-            ["imageSize"] = "250, 226"
-        }
-    },
-    ["Marshmallow Agony"] = {
-        ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968278302",
-        ["_id"] = "Marshmallow Agony",
+            ["faceBottomRightPixel"] = "202, 211",
+            ["faceTopLeftPixel"] = "58, 80",
+            ["imageSize"] = "210, 250"
+        },
+        ["_script"] = "Clover Unicorn",
+        ["name"] = "Clover Unicorn",
+        ["_id"] = "Clover Unicorn",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Marshmallow Agony",
-        ["fly"] = true,
-        ["_script"] = "Marshmallow Agony",
-        ["thumbnail"] = "rbxassetid://14968278365",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 165",
-            ["faceTopLeftPixel"] = "127, 62",
-            ["imageSize"] = "250, 197"
-        }
+        ["thumbnail"] = "rbxassetid://14968197550",
+        ["goldenThumbnail"] = "rbxassetid://14968197341"
     },
-    ["Huge Safari Dog"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976538687",
-        ["_id"] = "Huge Safari Dog",
+    ["Huge Pixel Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976518950",
+        ["_id"] = "Huge Pixel Cat",
         ["indexObtainable"] = false,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Safari Dog",
-        ["indexDesc"] = "Earned from Scavanger Eggs in PSX!",
-        ["thumbnail"] = "rbxassetid://14976538804",
-        ["_script"] = "Huge Safari Dog"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Pixel Cat",
+        ["indexDesc"] = "Hatched from eggs in PSX!",
+        ["thumbnail"] = "rbxassetid://14976519049",
+        ["_script"] = "Huge Pixel Cat"
     },
-    ["Huge Inferno Dominus"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976463700",
-        ["_id"] = "Huge Inferno Dominus",
+    ["Huge Nuclear Wild Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://18978050771",
+        ["_id"] = "Huge Nuclear Wild Dog",
         ["indexObtainable"] = true,
+        ["_script"] = "Huge Nuclear Wild Dog",
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Inferno Dominus",
-        ["indexDesc"] = "Found in the Exclusive Dominus Egg!",
-        ["thumbnail"] = "rbxassetid://14976463903",
-        ["_script"] = "Huge Inferno Dominus"
+        ["weld"] = true,
+        ["name"] = "Huge Nuclear Wild Dog",
+        ["preventGoldMachine"] = true,
+        ["indexDesc"] = "Found in the RNG Event",
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18978050650",
+        ["preventFuseMachine"] = true
     },
     ["Squirrel"] = {
         ["iconSettings"] = {
@@ -22374,24 +23884,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15842479817",
         ["_script"] = "Titanic Red Panda"
     },
-    ["Horse"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 207",
-            ["faceTopLeftPixel"] = "61, 67",
-            ["imageSize"] = "223, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968259574",
-        ["_id"] = "Horse",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 34,
+    ["Huge Inferno Dominus"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976463700",
+        ["_id"] = "Huge Inferno Dominus",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4267},
-        ["name"] = "Horse",
-        ["zoneNumber"] = 34.60882625947201,
-        ["cachedZoneNumber"] = 34.60882625947201,
-        ["_script"] = "Horse",
-        ["thumbnail"] = "rbxassetid://14968259839",
-        ["fromEgg"] = "Canyon Egg"
+        ["name"] = "Huge Inferno Dominus",
+        ["indexDesc"] = "Found in the Exclusive Dominus Egg!",
+        ["thumbnail"] = "rbxassetid://14976463903",
+        ["_script"] = "Huge Inferno Dominus"
     },
     ["Huge Chest Mimic"] = {
         ["goldenThumbnail"] = "rbxassetid://14976376743",
@@ -22404,25 +23906,37 @@ data = {
         ["thumbnail"] = "rbxassetid://14976376935",
         ["_script"] = "Huge Chest Mimic"
     },
-    ["Titanic Dino Cat"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14977503494",
-        ["_id"] = "Titanic Dino Cat",
-        ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Titanic Dino Cat",
-        ["indexDesc"] = "Comes with the Titanic Dino Cat plush!",
-        ["thumbnail"] = "rbxassetid://14976604955",
-        ["_script"] = "Titanic Dino Cat"
-    },
-    ["Basket Bunny"] = {
+    ["Kangaroo"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "200, 214",
+            ["faceTopLeftPixel"] = "58, 82",
+            ["imageSize"] = "240, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968268680",
+        ["_id"] = "Kangaroo",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 30,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Basket Bunny",
-        ["_id"] = "Basket Bunny",
-        ["_script"] = "Basket Bunny",
-        ["hidden"] = true,
-        ["thumbnail"] = "rbxassetid://14968179716",
-        ["goldenThumbnail"] = "rbxassetid://14968179563"
+        ["cachedPower"] = {2805},
+        ["name"] = "Kangaroo",
+        ["zoneNumber"] = 31.05938607201224,
+        ["cachedZoneNumber"] = 31.05938607201224,
+        ["_script"] = "Kangaroo",
+        ["thumbnail"] = "rbxassetid://14968268764",
+        ["fromEgg"] = "Fossil Egg"
+    },
+    ["Titanic Pink Balloon"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14977806706",
+        ["_id"] = "Titanic Pink Balloon",
+        ["animations"] = {["balloon"] = true},
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Titanic Pink Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Titanic Pink Balloon",
+        ["thumbnail"] = "rbxassetid://14976657520",
+        ["indexDesc"] = "Comes with the Titanic Pink Balloon plush!"
     },
     ["Green Fish"] = {
         ["iconSettings"] = {
@@ -22443,6 +23957,17 @@ data = {
         ["thumbnail"] = "rbxassetid://14968251113",
         ["fromEgg"] = "Coral Egg"
     },
+    ["Titanic Dino Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14977503494",
+        ["_id"] = "Titanic Dino Cat",
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Titanic Dino Cat",
+        ["indexDesc"] = "Comes with the Titanic Dino Cat plush!",
+        ["thumbnail"] = "rbxassetid://14976604955",
+        ["_script"] = "Titanic Dino Cat"
+    },
     ["Purple Balloon Cat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "198, 197",
@@ -22459,15 +23984,6 @@ data = {
         ["_script"] = "Purple Balloon Cat",
         ["thumbnail"] = "rbxassetid://14976271611",
         ["exclusiveLevel"] = 3
-    },
-    ["Egg Chick"] = {
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Egg Chick",
-        ["_id"] = "Egg Chick",
-        ["_script"] = "Egg Chick",
-        ["hidden"] = true,
-        ["thumbnail"] = "rbxassetid://14968227020",
-        ["goldenThumbnail"] = "rbxassetid://14968226812"
     },
     ["Party Crown Ducky"] = {
         ["exclusiveLevel"] = 1,
@@ -22501,34 +24017,25 @@ data = {
         ["thumbnail"] = "rbxassetid://15687351099",
         ["indexDesc"] = "Found in the 2023 Titanic Present & Exclusive Xmas Egg!"
     },
-    ["Easter Yeti"] = {
+    ["Comet Cyclops"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 214",
-            ["faceTopLeftPixel"] = "67, 93",
-            ["imageSize"] = "223, 250"
+            ["faceBottomRightPixel"] = "204, 178",
+            ["faceTopLeftPixel"] = "88, 74",
+            ["imageSize"] = "250, 210"
         },
-        ["_script"] = "Easter Yeti",
-        ["name"] = "Easter Yeti",
-        ["_id"] = "Easter Yeti",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968197898",
+        ["_id"] = "Comet Cyclops",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 138,
+        ["cachedZoneNumber"] = 139.1525251416353,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968226666",
-        ["goldenThumbnail"] = "rbxassetid://14968226541"
-    },
-    ["Spring Bee"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 175",
-            ["faceTopLeftPixel"] = "74, 58",
-            ["imageSize"] = "250, 211"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968336998",
-        ["_id"] = "Spring Bee",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Spring Bee",
+        ["cachedPower"] = {949392900},
+        ["name"] = "Comet Cyclops",
+        ["zoneNumber"] = 139.1525251416353,
         ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968337103",
-        ["_script"] = "Spring Bee"
+        ["_script"] = "Comet Cyclops",
+        ["thumbnail"] = "rbxassetid://14968198011",
+        ["fromEgg"] = "Tech Comet Egg"
     },
     ["Huge Evolved Peacock"] = {
         ["goldenThumbnail"] = "rbxassetid://14976426244",
@@ -22541,32 +24048,6 @@ data = {
         ["_script"] = "Huge Evolved Peacock",
         ["thumbnail"] = "rbxassetid://14976426399",
         ["evolved"] = true
-    },
-    ["Huge Meebo in a Spaceship"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976488209",
-        ["_id"] = "Huge Meebo in a Spaceship",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Meebo in a Spaceship",
-        ["fly"] = true,
-        ["_script"] = "Huge Meebo in a Spaceship",
-        ["thumbnail"] = "rbxassetid://14976488429",
-        ["indexDesc"] = "Earned from Daycare!"
-    },
-    ["Storm Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 180",
-            ["faceTopLeftPixel"] = "82, 70",
-            ["imageSize"] = "250, 213"
-        },
-        ["_script"] = "Storm Axolotl",
-        ["name"] = "Storm Axolotl",
-        ["_id"] = "Storm Axolotl",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://15260344656",
-        ["goldenThumbnail"] = "rbxassetid://15260344759"
     },
     ["Hell Spider"] = {
         ["iconSettings"] = {
@@ -22587,20 +24068,66 @@ data = {
         ["thumbnail"] = "rbxassetid://14968256548",
         ["fromEgg"] = "Obsidian Egg"
     },
-    ["Monkey Bro"] = {
+    ["Huge Meebo in a Spaceship"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976488209",
+        ["_id"] = "Huge Meebo in a Spaceship",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Meebo in a Spaceship",
+        ["fly"] = true,
+        ["_script"] = "Huge Meebo in a Spaceship",
+        ["thumbnail"] = "rbxassetid://14976488429",
+        ["indexDesc"] = "Earned from Daycare!"
+    },
+    ["Love Lamb"] = {
         ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968281533",
-        ["_id"] = "Monkey Bro",
+        ["goldenThumbnail"] = "rbxassetid://14968274559",
+        ["_id"] = "Love Lamb",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Monkey Bro",
-        ["_script"] = "Monkey Bro",
-        ["thumbnail"] = "rbxassetid://14968281626",
+        ["name"] = "Love Lamb",
+        ["_script"] = "Love Lamb",
+        ["thumbnail"] = "rbxassetid://14968274630",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "191, 213",
-            ["faceTopLeftPixel"] = "54, 89",
-            ["imageSize"] = "233, 250"
+            ["faceBottomRightPixel"] = "206, 154",
+            ["faceTopLeftPixel"] = "93, 52",
+            ["imageSize"] = "250, 186"
         }
+    },
+    ["Nightfall Wolf"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://15260346933",
+        ["_id"] = "Nightfall Wolf",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Nightfall Wolf",
+        ["_script"] = "Nightfall Wolf",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 211",
+            ["faceTopLeftPixel"] = "58, 80",
+            ["imageSize"] = "231, 250"
+        },
+        ["thumbnail"] = "rbxassetid://15260346749",
+        ["hideSerial"] = true
+    },
+    ["Enchanted Deer"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "194, 214",
+            ["faceTopLeftPixel"] = "63, 96",
+            ["imageSize"] = "201, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968231615",
+        ["_id"] = "Enchanted Deer",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 15,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {490},
+        ["name"] = "Enchanted Deer",
+        ["zoneNumber"] = 16.283310521096283,
+        ["cachedZoneNumber"] = 16.283310521096283,
+        ["_script"] = "Enchanted Deer",
+        ["thumbnail"] = "rbxassetid://14968231993",
+        ["fromEgg"] = "Spirit Egg"
     },
     ["Huge Storm Dominus"] = {
         ["goldenThumbnail"] = "rbxassetid://15260479136",
@@ -22650,403 +24177,6 @@ data = {
         ["_script"] = "Empyrean Fox",
         ["thumbnail"] = "rbxassetid://14968229607",
         ["fromEgg"] = "Empyrean Egg"
-    },
-    ["Ninja Maskot"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 170",
-            ["faceTopLeftPixel"] = "83, 39",
-            ["imageSize"] = "250, 209"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968291044",
-        ["_id"] = "Ninja Maskot",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 50,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {28240},
-        ["name"] = "Ninja Maskot",
-        ["zoneNumber"] = 50.65541582807153,
-        ["cachedZoneNumber"] = 50.65541582807153,
-        ["_script"] = "Ninja Maskot",
-        ["thumbnail"] = "rbxassetid://14968291771",
-        ["fromEgg"] = "Sakura Egg"
-    },
-    ["Hologram Tiger"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "222, 205",
-            ["faceTopLeftPixel"] = "64, 62",
-            ["imageSize"] = "230, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968258995",
-        ["_id"] = "Hologram Tiger",
-        ["animations"] = {["flyHeightChange"] = 0},
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Hologram Tiger",
-        ["_script"] = "Hologram Tiger",
-        ["fly"] = true,
-        ["weld"] = true,
-        ["thumbnail"] = "rbxassetid://14968259117",
-        ["exclusiveLevel"] = 2
-    },
-    ["Emerald Carbuncle"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "180, 96",
-            ["faceTopLeftPixel"] = "82, 7",
-            ["imageSize"] = "250, 125"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968227948",
-        ["_id"] = "Emerald Carbuncle",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 12,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {309},
-        ["name"] = "Emerald Carbuncle",
-        ["zoneNumber"] = 12.597509949085122,
-        ["cachedZoneNumber"] = 12.597509949085122,
-        ["_script"] = "Emerald Carbuncle",
-        ["thumbnail"] = "rbxassetid://14968228041",
-        ["fromEgg"] = "Hut Egg"
-    },
-    ["Butterfly Llama"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "215, 161",
-            ["faceTopLeftPixel"] = "94, 51",
-            ["imageSize"] = "250, 194"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968188728",
-        ["_id"] = "Butterfly Llama",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Butterfly Llama",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968188805",
-        ["_script"] = "Butterfly Llama"
-    },
-    ["Evolved Pterodactyl"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14976268864",
-        ["_id"] = "Evolved Pterodactyl",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Evolved Pterodactyl",
-        ["fly"] = true,
-        ["_script"] = "Evolved Pterodactyl",
-        ["thumbnail"] = "rbxassetid://14976269023",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 134",
-            ["faceTopLeftPixel"] = "96, 40",
-            ["imageSize"] = "250, 163"
-        }
-    },
-    ["Masked Owl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 175",
-            ["faceTopLeftPixel"] = "86, 65",
-            ["imageSize"] = "250, 211"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968278686",
-        ["_id"] = "Masked Owl",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Masked Owl",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968278850",
-        ["_script"] = "Masked Owl"
-    },
-    ["Huge Samurai Bull"] = {
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["_script"] = "Huge Samurai Bull",
-        ["name"] = "Huge Samurai Bull",
-        ["_id"] = "Huge Samurai Bull",
-        ["goldenThumbnail"] = "rbxassetid://14976540267",
-        ["hidden"] = true,
-        ["thumbnail"] = "rbxassetid://14976540625",
-        ["huge"] = true
-    },
-    ["Huge Tech Samurai Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://17028331329",
-        ["_id"] = "Huge Tech Samurai Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Tech Samurai Cat",
-        ["indexDesc"] = "Found in the Clan Gift!",
-        ["thumbnail"] = "rbxassetid://17028331108",
-        ["_script"] = "Huge Tech Samurai Cat"
-    },
-    ["Huge Cyborg Capybara"] = {
-        ["goldenThumbnail"] = "rbxassetid://15260482775",
-        ["_id"] = "Huge Cyborg Capybara",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Cyborg Capybara",
-        ["fly"] = true,
-        ["_script"] = "Huge Cyborg Capybara",
-        ["thumbnail"] = "rbxassetid://15260482561",
-        ["indexDesc"] = "Found in the Exclusive Capybara Egg!"
-    },
-    ["Huge Cupid Corgi"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976389236",
-        ["_id"] = "Huge Cupid Corgi",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Cupid Corgi",
-        ["fly"] = true,
-        ["_script"] = "Huge Cupid Corgi",
-        ["thumbnail"] = "rbxassetid://14976389349",
-        ["indexDesc"] = "Hatched from eggs in PSX!"
-    },
-    ["Huge Cyborg Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976391512",
-        ["_id"] = "Huge Cyborg Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Cyborg Cat",
-        ["indexDesc"] = "Comes with Series 2 Cyborg Cat Collector Bundle!",
-        ["thumbnail"] = "rbxassetid://14976391620",
-        ["_script"] = "Huge Cyborg Cat"
-    },
-    ["Doodle Ducky"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 169",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 216"
-        },
-        ["_script"] = "Doodle Ducky",
-        ["name"] = "Doodle Ducky",
-        ["_id"] = "Doodle Ducky",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968215066",
-        ["goldenThumbnail"] = "rbxassetid://14968214980"
-    },
-    ["Dino Bear"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 210",
-            ["faceTopLeftPixel"] = "74, 81",
-            ["imageSize"] = "225, 250"
-        },
-        ["_script"] = "Dino Bear",
-        ["name"] = "Dino Bear",
-        ["_id"] = "Dino Bear",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968208171",
-        ["goldenThumbnail"] = "rbxassetid://14968208088"
-    },
-    ["Huge Fluffy Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://15803982279",
-        ["_id"] = "Huge Fluffy Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Fluffy Cat",
-        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
-        ["thumbnail"] = "rbxassetid://15803982174",
-        ["_script"] = "Huge Fluffy Cat"
-    },
-    ["Huge Prickly Panda"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976527196",
-        ["_id"] = "Huge Prickly Panda",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Prickly Panda",
-        ["indexDesc"] = "Found in the Exclusive Elemental Egg!",
-        ["thumbnail"] = "rbxassetid://14976527289",
-        ["_script"] = "Huge Prickly Panda"
-    },
-    ["Empyrean Snake"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "188, 178",
-            ["faceTopLeftPixel"] = "94, 94",
-            ["imageSize"] = "250, 194"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968229723",
-        ["_id"] = "Empyrean Snake",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 81,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1070250},
-        ["name"] = "Empyrean Snake",
-        ["zoneNumber"] = 81.51486267931344,
-        ["cachedZoneNumber"] = 81.51486267931344,
-        ["_script"] = "Empyrean Snake",
-        ["thumbnail"] = "rbxassetid://14968229797",
-        ["fromEgg"] = "Empyrean Egg"
-    },
-    ["Atomic Axolotl"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "186, 162",
-            ["faceTopLeftPixel"] = "88, 73",
-            ["imageSize"] = "224, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://17270072669",
-        ["_id"] = "Atomic Axolotl",
-        ["cachedZoneNumber"] = 198.1525251416353,
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 197,
-        ["weld"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {989566088535},
-        ["name"] = "Atomic Axolotl",
-        ["zoneNumber"] = 198.1525251416353,
-        ["fly"] = true,
-        ["_script"] = "Atomic Axolotl",
-        ["thumbnail"] = "rbxassetid://17270072788",
-        ["fromEgg"] = "Void Crystal Egg"
-    },
-    ["Pixel Pink Slime"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "231, 167",
-            ["faceTopLeftPixel"] = "77, 31",
-            ["imageSize"] = "250, 201"
-        },
-        ["_script"] = "Pixel Pink Slime",
-        ["name"] = "Pixel Pink Slime",
-        ["_id"] = "Pixel Pink Slime",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968305547",
-        ["goldenThumbnail"] = "rbxassetid://14968305398"
-    },
-    ["Comet Cyclops"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 178",
-            ["faceTopLeftPixel"] = "88, 74",
-            ["imageSize"] = "250, 210"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968197898",
-        ["_id"] = "Comet Cyclops",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 138,
-        ["cachedZoneNumber"] = 139.1525251416353,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {949392900},
-        ["name"] = "Comet Cyclops",
-        ["zoneNumber"] = 139.1525251416353,
-        ["fly"] = true,
-        ["_script"] = "Comet Cyclops",
-        ["thumbnail"] = "rbxassetid://14968198011",
-        ["fromEgg"] = "Tech Comet Egg"
-    },
-    ["Huge Arcade Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976352499",
-        ["_id"] = "Huge Arcade Cat",
-        ["animations"] = {
-            ["flipbookAnimationGold"] = {"rbxassetid://13982245670", "rbxassetid://13982466789"},
-            ["flipbookAnimationSpeed"] = 1,
-            ["flipbookAnimation"] = {"rbxassetid://13982245778", "rbxassetid://13982466934"}
-        },
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Arcade Cat",
-        ["indexDesc"] = "Earned from Claw Machine Event in PSX!",
-        ["thumbnail"] = "rbxassetid://14976352617",
-        ["_script"] = "Huge Arcade Cat"
-    },
-    ["Galaxy Fox"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 221",
-            ["faceTopLeftPixel"] = "104, 124",
-            ["imageSize"] = "250, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968243367",
-        ["_id"] = "Galaxy Fox",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 139,
-        ["cachedZoneNumber"] = 140.6912875757093,
-        ["sounds"] = {["random"] = {7986567168, 7986566973}, ["walk"] = {}},
-        ["cachedPower"] = {1138650589},
-        ["name"] = "Galaxy Fox",
-        ["zoneNumber"] = 140.6912875757093,
-        ["fly"] = true,
-        ["_script"] = "Galaxy Fox",
-        ["thumbnail"] = "rbxassetid://14968243570",
-        ["fromEgg"] = "Tech Galaxy Egg"
-    },
-    ["Fawn"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 210",
-            ["faceTopLeftPixel"] = "58, 78",
-            ["imageSize"] = "212, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968234834",
-        ["_id"] = "Fawn",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 36,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {6113},
-        ["name"] = "Fawn",
-        ["zoneNumber"] = 37.66211806051345,
-        ["cachedZoneNumber"] = 37.66211806051345,
-        ["_script"] = "Fawn",
-        ["thumbnail"] = "rbxassetid://14968235057",
-        ["fromEgg"] = "Melted Egg"
-    },
-    ["Goldfish"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 164",
-            ["faceTopLeftPixel"] = "76, 33",
-            ["imageSize"] = "250, 188"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968250171",
-        ["_id"] = "Goldfish",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 21,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {953},
-        ["name"] = "Goldfish",
-        ["zoneNumber"] = 21.894232646320678,
-        ["cachedZoneNumber"] = 21.894232646320678,
-        ["_script"] = "Goldfish",
-        ["thumbnail"] = "rbxassetid://14968250275",
-        ["fromEgg"] = "Coral Egg"
-    },
-    ["Cyborg Cat"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 206",
-            ["faceTopLeftPixel"] = "62, 63",
-            ["imageSize"] = "228, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968204190",
-        ["_id"] = "Cyborg Cat",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 100,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["cachedPower"] = {9494765},
-        ["name"] = "Cyborg Cat",
-        ["zoneNumber"] = 100.05895538899186,
-        ["cachedZoneNumber"] = 100.05895538899186,
-        ["_script"] = "Cyborg Cat",
-        ["thumbnail"] = "rbxassetid://14968204327",
-        ["fromEgg"] = "Tech Ciruit Egg"
-    },
-    ["Huge Festive Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://15281989314",
-        ["_id"] = "Huge Festive Cat",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Festive Cat",
-        ["indexDesc"] = "From the 2021 Insane Christmas Exclusive Egg!",
-        ["thumbnail"] = "rbxassetid://15281989250",
-        ["_script"] = "Huge Festive Cat"
-    },
-    ["Huge Angel Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://15281990316",
-        ["_id"] = "Huge Angel Cat",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Angel Cat",
-        ["fly"] = true,
-        ["_script"] = "Huge Angel Cat",
-        ["thumbnail"] = "rbxassetid://15281990207",
-        ["indexDesc"] = "Found in Series 2 Collector Clips! [SUPER RARE]"
     },
     ["Goblin"] = {
         ["iconSettings"] = {
@@ -23101,6 +24231,413 @@ data = {
             ["imageSize"] = "250, 207"
         }
     },
+    ["Huge Tech Samurai Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://17028331329",
+        ["_id"] = "Huge Tech Samurai Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Tech Samurai Cat",
+        ["indexDesc"] = "Found in the Clan Gift!",
+        ["thumbnail"] = "rbxassetid://17028331108",
+        ["_script"] = "Huge Tech Samurai Cat"
+    },
+    ["Evolved Pterodactyl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14976268864",
+        ["_id"] = "Evolved Pterodactyl",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Evolved Pterodactyl",
+        ["fly"] = true,
+        ["_script"] = "Evolved Pterodactyl",
+        ["thumbnail"] = "rbxassetid://14976269023",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 134",
+            ["faceTopLeftPixel"] = "96, 40",
+            ["imageSize"] = "250, 163"
+        }
+    },
+    ["Huge Cupid Corgi"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976389236",
+        ["_id"] = "Huge Cupid Corgi",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Cupid Corgi",
+        ["fly"] = true,
+        ["_script"] = "Huge Cupid Corgi",
+        ["thumbnail"] = "rbxassetid://14976389349",
+        ["indexDesc"] = "Hatched from eggs in PSX!"
+    },
+    ["Huge Samurai Bull"] = {
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["_script"] = "Huge Samurai Bull",
+        ["name"] = "Huge Samurai Bull",
+        ["_id"] = "Huge Samurai Bull",
+        ["goldenThumbnail"] = "rbxassetid://14976540267",
+        ["hidden"] = true,
+        ["thumbnail"] = "rbxassetid://14976540625",
+        ["huge"] = true
+    },
+    ["Huge Fluffy Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://15803982279",
+        ["_id"] = "Huge Fluffy Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Fluffy Cat",
+        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
+        ["thumbnail"] = "rbxassetid://15803982174",
+        ["_script"] = "Huge Fluffy Cat"
+    },
+    ["Huge Cyborg Capybara"] = {
+        ["goldenThumbnail"] = "rbxassetid://15260482775",
+        ["_id"] = "Huge Cyborg Capybara",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Cyborg Capybara",
+        ["fly"] = true,
+        ["_script"] = "Huge Cyborg Capybara",
+        ["thumbnail"] = "rbxassetid://15260482561",
+        ["indexDesc"] = "Found in the Exclusive Capybara Egg!"
+    },
+    ["Armadillo"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 209",
+            ["faceTopLeftPixel"] = "59, 76",
+            ["imageSize"] = "215, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968175339",
+        ["_id"] = "Armadillo",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 30,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {2656},
+        ["name"] = "Armadillo",
+        ["zoneNumber"] = 30.58467831225335,
+        ["cachedZoneNumber"] = 30.58467831225335,
+        ["_script"] = "Armadillo",
+        ["thumbnail"] = "rbxassetid://14968175530",
+        ["fromEgg"] = "Fossil Egg"
+    },
+    ["Pink Balloon Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 197",
+            ["faceTopLeftPixel"] = "62, 71",
+            ["imageSize"] = "207, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14976270848",
+        ["_id"] = "Pink Balloon Cat",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Pink Balloon Cat",
+        ["fly"] = true,
+        ["_script"] = "Pink Balloon Cat",
+        ["thumbnail"] = "rbxassetid://14976270962",
+        ["exclusiveLevel"] = 3
+    },
+    ["Doodle Ducky"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "242, 169",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 216"
+        },
+        ["_script"] = "Doodle Ducky",
+        ["name"] = "Doodle Ducky",
+        ["_id"] = "Doodle Ducky",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968215066",
+        ["goldenThumbnail"] = "rbxassetid://14968214980"
+    },
+    ["Bleebo The Alien"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "184, 214",
+            ["faceTopLeftPixel"] = "51, 96",
+            ["imageSize"] = "206, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968182666",
+        ["_id"] = "Bleebo The Alien",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 149,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3468260800},
+        ["name"] = "Bleebo The Alien",
+        ["zoneNumber"] = 150.15230027300467,
+        ["cachedZoneNumber"] = 150.15230027300467,
+        ["_script"] = "Bleebo The Alien",
+        ["thumbnail"] = "rbxassetid://14968182805",
+        ["fromEgg"] = "Alien Lab Egg"
+    },
+    ["Chick"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "240, 202",
+            ["faceTopLeftPixel"] = "68, 45",
+            ["imageSize"] = "250, 249"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968192966",
+        ["_id"] = "Chick",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 1,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {3},
+        ["name"] = "Chick",
+        ["cachedZoneNumber"] = 1.6666666666666665,
+        ["power"] = 3,
+        ["_script"] = "Chick",
+        ["thumbnail"] = "rbxassetid://14968193170",
+        ["fromEgg"] = "Spotted Egg"
+    },
+    ["Chill Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 181",
+            ["faceTopLeftPixel"] = "58, 48",
+            ["imageSize"] = "250, 222"
+        },
+        ["_script"] = "Chill Axolotl",
+        ["name"] = "Chill Axolotl",
+        ["_id"] = "Chill Axolotl",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968193849",
+        ["goldenThumbnail"] = "rbxassetid://14968193678"
+    },
+    ["Empyrean Snake"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "188, 178",
+            ["faceTopLeftPixel"] = "94, 94",
+            ["imageSize"] = "250, 194"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968229723",
+        ["_id"] = "Empyrean Snake",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 81,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {1070250},
+        ["name"] = "Empyrean Snake",
+        ["zoneNumber"] = 81.51486267931344,
+        ["cachedZoneNumber"] = 81.51486267931344,
+        ["_script"] = "Empyrean Snake",
+        ["thumbnail"] = "rbxassetid://14968229797",
+        ["fromEgg"] = "Empyrean Egg"
+    },
+    ["Atomic Axolotl"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "186, 162",
+            ["faceTopLeftPixel"] = "88, 73",
+            ["imageSize"] = "224, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://17270072669",
+        ["_id"] = "Atomic Axolotl",
+        ["cachedZoneNumber"] = 198.1525251416353,
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 197,
+        ["weld"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {989566088535},
+        ["name"] = "Atomic Axolotl",
+        ["zoneNumber"] = 198.1525251416353,
+        ["fly"] = true,
+        ["_script"] = "Atomic Axolotl",
+        ["thumbnail"] = "rbxassetid://17270072788",
+        ["fromEgg"] = "Void Crystal Egg"
+    },
+    ["Stacked Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "189, 213",
+            ["faceTopLeftPixel"] = "54, 91",
+            ["imageSize"] = "196, 250"
+        },
+        ["_script"] = "Stacked Cat",
+        ["name"] = "Stacked Cat",
+        ["_id"] = "Stacked Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968338038",
+        ["goldenThumbnail"] = "rbxassetid://14968337892"
+    },
+    ["Huge Otter"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976506504",
+        ["_id"] = "Huge Otter",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Otter",
+        ["indexDesc"] = "Found in the Lucky Block Merch!",
+        ["thumbnail"] = "rbxassetid://14976506594",
+        ["_script"] = "Huge Otter"
+    },
+    ["Huge Arcade Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976352499",
+        ["_id"] = "Huge Arcade Cat",
+        ["animations"] = {
+            ["flipbookAnimationGold"] = {"rbxassetid://13982245670", "rbxassetid://13982466789"},
+            ["flipbookAnimationSpeed"] = 1,
+            ["flipbookAnimation"] = {"rbxassetid://13982245778", "rbxassetid://13982466934"}
+        },
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Arcade Cat",
+        ["indexDesc"] = "Earned from Claw Machine Event in PSX!",
+        ["thumbnail"] = "rbxassetid://14976352617",
+        ["_script"] = "Huge Arcade Cat"
+    },
+    ["Huge Avenging Griffin"] = {
+        ["goldenThumbnail"] = "rbxassetid://18150841572",
+        ["_id"] = "Huge Avenging Griffin",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Avenging Griffin",
+        ["fly"] = true,
+        ["_script"] = "Huge Avenging Griffin",
+        ["thumbnail"] = "rbxassetid://18150841344",
+        ["indexDesc"] = "Earned from the Good vs. Evil World and Good Gifts!"
+    },
+    ["Huge Angel Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://15281990316",
+        ["_id"] = "Huge Angel Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Angel Cat",
+        ["fly"] = true,
+        ["_script"] = "Huge Angel Cat",
+        ["thumbnail"] = "rbxassetid://15281990207",
+        ["indexDesc"] = "Found in Series 2 Collector Clips! [SUPER RARE]"
+    },
+    ["Goldfish"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "221, 164",
+            ["faceTopLeftPixel"] = "76, 33",
+            ["imageSize"] = "250, 188"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968250171",
+        ["_id"] = "Goldfish",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 21,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {953},
+        ["name"] = "Goldfish",
+        ["zoneNumber"] = 21.894232646320678,
+        ["cachedZoneNumber"] = 21.894232646320678,
+        ["_script"] = "Goldfish",
+        ["thumbnail"] = "rbxassetid://14968250275",
+        ["fromEgg"] = "Coral Egg"
+    },
+    ["Cyborg Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "219, 206",
+            ["faceTopLeftPixel"] = "62, 63",
+            ["imageSize"] = "228, 250"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968204190",
+        ["_id"] = "Cyborg Cat",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 100,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["cachedPower"] = {9494765},
+        ["name"] = "Cyborg Cat",
+        ["zoneNumber"] = 100.05895538899186,
+        ["cachedZoneNumber"] = 100.05895538899186,
+        ["_script"] = "Cyborg Cat",
+        ["thumbnail"] = "rbxassetid://14968204327",
+        ["fromEgg"] = "Tech Ciruit Egg"
+    },
+    ["Sorcerer Bear"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "198, 158",
+            ["faceTopLeftPixel"] = "104, 71",
+            ["imageSize"] = "250, 228"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18977985724",
+        ["_id"] = "Sorcerer Bear",
+        ["hidden"] = true,
+        ["_script"] = "Sorcerer Bear",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Sorcerer Bear",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18977985807",
+        ["preventFuseMachine"] = true
+    },
+    ["Reaper"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "228, 152",
+            ["faceTopLeftPixel"] = "88, 26",
+            ["imageSize"] = "250, 190"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968316950",
+        ["_id"] = "Reaper",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 78,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {863151},
+        ["name"] = "Reaper",
+        ["zoneNumber"] = 79.69128757570932,
+        ["cachedZoneNumber"] = 79.69128757570932,
+        ["_script"] = "Reaper",
+        ["thumbnail"] = "rbxassetid://14968317238",
+        ["fromEgg"] = "Dungeon Egg"
+    },
+    ["Cow"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "202, 182",
+            ["faceTopLeftPixel"] = "62, 55",
+            ["imageSize"] = "250, 221"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968199307",
+        ["_id"] = "Cow",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 8,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {144},
+        ["name"] = "Cow",
+        ["zoneNumber"] = 8.053631135273257,
+        ["cachedZoneNumber"] = 8.053631135273257,
+        ["_script"] = "Cow",
+        ["thumbnail"] = "rbxassetid://14968199389",
+        ["fromEgg"] = "Corgi Egg"
+    },
+    ["Party Crown Elephant"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968296409",
+        ["_id"] = "Party Crown Elephant",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Party Crown Elephant",
+        ["_script"] = "Party Crown Elephant",
+        ["thumbnail"] = "rbxassetid://14968296547",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "201, 176",
+            ["faceTopLeftPixel"] = "64, 53",
+            ["imageSize"] = "250, 214"
+        }
+    },
+    ["Mechatronic Robot"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 165",
+            ["faceTopLeftPixel"] = "75, 47",
+            ["imageSize"] = "250, 214"
+        },
+        ["goldenThumbnail"] = "rbxassetid://18882335575",
+        ["_id"] = "Mechatronic Robot",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["_script"] = "Mechatronic Robot",
+        ["name"] = "Mechatronic Robot",
+        ["preventGoldMachine"] = true,
+        ["weld"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882335370",
+        ["preventFuseMachine"] = true
+    },
     ["Turtle"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "240, 168",
@@ -23139,16 +24676,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968279726",
         ["fromEgg"] = "Tech Planets Egg"
     },
-    ["Titanic Tiedye Cat"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://15547850956",
-        ["_id"] = "Titanic Tiedye Cat",
+    ["Huge Triceratops"] = {
+        ["goldenThumbnail"] = "rbxassetid://18758757408",
+        ["_id"] = "Huge Triceratops",
         ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Titanic Tiedye Cat",
-        ["indexDesc"] = "Comes with the Titanic Tiedye Cat plush!",
-        ["thumbnail"] = "rbxassetid://15547792344",
-        ["_script"] = "Titanic Tiedye Cat"
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Triceratops",
+        ["indexDesc"] = "Earned from the Dino Tycoon's meteor showers!",
+        ["thumbnail"] = "rbxassetid://18758757156",
+        ["_script"] = "Huge Triceratops"
     },
     ["Fire Dragon"] = {
         ["iconSettings"] = {
@@ -23202,19 +24739,24 @@ data = {
         ["thumbnail"] = "rbxassetid://14968203766",
         ["fromEgg"] = "Metal Egg"
     },
-    ["Doodle Tiger"] = {
+    ["Happy Rock"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "223, 206",
-            ["faceTopLeftPixel"] = "64, 61",
-            ["imageSize"] = "231, 250"
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "67, 11",
+            ["imageSize"] = "250, 217"
         },
-        ["_script"] = "Doodle Tiger",
-        ["name"] = "Doodle Tiger",
-        ["_id"] = "Doodle Tiger",
-        ["hidden"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968253742",
+        ["_id"] = "Happy Rock",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 11,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968222226",
-        ["goldenThumbnail"] = "rbxassetid://14968222124"
+        ["cachedPower"] = {263},
+        ["name"] = "Happy Rock",
+        ["zoneNumber"] = 11.438815211462499,
+        ["cachedZoneNumber"] = 11.438815211462499,
+        ["_script"] = "Happy Rock",
+        ["thumbnail"] = "rbxassetid://14968253894",
+        ["fromEgg"] = "Geode Egg"
     },
     ["Sketch Dragon"] = {
         ["exclusiveLevel"] = 3,
@@ -23232,24 +24774,16 @@ data = {
         ["thumbnail"] = "rbxassetid://17027101695",
         ["_script"] = "Sketch Dragon"
     },
-    ["Armadillo"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 209",
-            ["faceTopLeftPixel"] = "59, 76",
-            ["imageSize"] = "215, 250"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968175339",
-        ["_id"] = "Armadillo",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 30,
+    ["Huge Cupcake"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976388553",
+        ["_id"] = "Huge Cupcake",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {2656},
-        ["name"] = "Armadillo",
-        ["zoneNumber"] = 30.58467831225335,
-        ["cachedZoneNumber"] = 30.58467831225335,
-        ["_script"] = "Armadillo",
-        ["thumbnail"] = "rbxassetid://14968175530",
-        ["fromEgg"] = "Fossil Egg"
+        ["name"] = "Huge Cupcake",
+        ["indexDesc"] = "Earned from gift rewards in PSX!",
+        ["thumbnail"] = "rbxassetid://14976389145",
+        ["_script"] = "Huge Cupcake"
     },
     ["Huge Bear"] = {
         ["goldenThumbnail"] = "rbxassetid://14976361752",
@@ -23281,45 +24815,54 @@ data = {
         ["thumbnail"] = "rbxassetid://14968302642",
         ["fromEgg"] = "Coconut Egg"
     },
-    ["Pink Balloon Cat"] = {
+    ["Snow Ram"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "198, 197",
-            ["faceTopLeftPixel"] = "62, 71",
-            ["imageSize"] = "207, 250"
+            ["faceBottomRightPixel"] = "202, 173",
+            ["faceTopLeftPixel"] = "83, 65",
+            ["imageSize"] = "250, 206"
         },
-        ["goldenThumbnail"] = "rbxassetid://14976270848",
-        ["_id"] = "Pink Balloon Cat",
-        ["animations"] = {["balloon"] = true},
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Pink Balloon Cat",
-        ["fly"] = true,
-        ["_script"] = "Pink Balloon Cat",
-        ["thumbnail"] = "rbxassetid://14976270962",
-        ["exclusiveLevel"] = 3
-    },
-    ["Huge Lucki"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976478194",
-        ["_id"] = "Huge Lucki",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
+        ["goldenThumbnail"] = "rbxassetid://14968333229",
+        ["_id"] = "Snow Ram",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 36,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Lucki",
-        ["fly"] = true,
-        ["_script"] = "Huge Lucki",
-        ["thumbnail"] = "rbxassetid://14976484952",
-        ["indexDesc"] = "Earned from the Lucky Block Event in PSX!"
+        ["cachedPower"] = {5642},
+        ["name"] = "Snow Ram",
+        ["zoneNumber"] = 36.99547739461894,
+        ["cachedZoneNumber"] = 36.99547739461894,
+        ["_script"] = "Snow Ram",
+        ["thumbnail"] = "rbxassetid://14968333395",
+        ["fromEgg"] = "Melted Egg"
     },
-    ["Titanic Lovemelon"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://16306754911",
-        ["_id"] = "Titanic Lovemelon",
+    ["Huge Dog"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976397595",
+        ["_id"] = "Huge Dog",
         ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Dog",
+        ["indexDesc"] = "Comes with the Dog plush!",
+        ["thumbnail"] = "rbxassetid://14976397743",
+        ["_script"] = "Huge Dog"
+    },
+    ["Emerald Carbuncle"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "180, 96",
+            ["faceTopLeftPixel"] = "82, 7",
+            ["imageSize"] = "250, 125"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968227948",
+        ["_id"] = "Emerald Carbuncle",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 12,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Titanic Lovemelon",
-        ["indexDesc"] = "Found in the Exclusive Valentine's Egg!",
-        ["thumbnail"] = "rbxassetid://16306754796",
-        ["_script"] = "Titanic Lovemelon"
+        ["cachedPower"] = {309},
+        ["name"] = "Emerald Carbuncle",
+        ["zoneNumber"] = 12.597509949085122,
+        ["cachedZoneNumber"] = 12.597509949085122,
+        ["_script"] = "Emerald Carbuncle",
+        ["thumbnail"] = "rbxassetid://14968228041",
+        ["fromEgg"] = "Hut Egg"
     },
     ["Luxe Peacock"] = {
         ["iconSettings"] = {
@@ -23341,24 +24884,24 @@ data = {
         ["thumbnail"] = "rbxassetid://18556250480",
         ["fromEgg"] = "Luxe Egg"
     },
-    ["Chick"] = {
+    ["Cyborg Ducky"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 202",
-            ["faceTopLeftPixel"] = "68, 45",
-            ["imageSize"] = "250, 249"
+            ["faceBottomRightPixel"] = "240, 167",
+            ["faceTopLeftPixel"] = "68, 11",
+            ["imageSize"] = "250, 215"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968192966",
-        ["_id"] = "Chick",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968205242",
+        ["_id"] = "Cyborg Ducky",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 101,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {3},
-        ["name"] = "Chick",
-        ["cachedZoneNumber"] = 1.6666666666666665,
-        ["power"] = 3,
-        ["_script"] = "Chick",
-        ["thumbnail"] = "rbxassetid://14968193170",
-        ["fromEgg"] = "Spotted Egg"
+        ["cachedPower"] = {12959690},
+        ["name"] = "Cyborg Ducky",
+        ["zoneNumber"] = 102.69128757570932,
+        ["cachedZoneNumber"] = 102.69128757570932,
+        ["_script"] = "Cyborg Ducky",
+        ["thumbnail"] = "rbxassetid://14968205362",
+        ["fromEgg"] = "Tech City Egg"
     },
     ["Huge Scarecrow Cat"] = {
         ["goldenThumbnail"] = "rbxassetid://14976543596",
@@ -23371,16 +24914,20 @@ data = {
         ["thumbnail"] = "rbxassetid://14976543713",
         ["_script"] = "Huge Scarecrow Cat"
     },
-    ["Huge Dog"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976397595",
-        ["_id"] = "Huge Dog",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Dog",
-        ["indexDesc"] = "Comes with the Dog plush!",
-        ["thumbnail"] = "rbxassetid://14976397743",
-        ["_script"] = "Huge Dog"
+    ["Party Tiger"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968299154",
+        ["_id"] = "Party Tiger",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Party Tiger",
+        ["_script"] = "Party Tiger",
+        ["thumbnail"] = "rbxassetid://14968299260",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 210",
+            ["faceTopLeftPixel"] = "59, 76",
+            ["imageSize"] = "214, 250"
+        }
     },
     ["Shadow Dolphin"] = {
         ["iconSettings"] = {
@@ -23403,27 +24950,36 @@ data = {
     },
     ["Titanic Nightfall Pegasus"] = {
         ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14977549118",
+        ["goldenThumbnail"] = "rbxassetid://18640616459",
         ["_id"] = "Titanic Nightfall Pegasus",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
+        ["flyingTitanic"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Titanic Nightfall Pegasus",
+        ["flyingTitanicAlwaysFly"] = true,
         ["fly"] = true,
         ["_script"] = "Titanic Nightfall Pegasus",
-        ["thumbnail"] = "rbxassetid://14976649170",
+        ["thumbnail"] = "rbxassetid://18640616333",
         ["indexDesc"] = "Comes with the Titanic Nightfall Pegasus plush!"
     },
-    ["Huge Pony"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976525395",
-        ["_id"] = "Huge Pony",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
+    ["Cheerful Yeti"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "226, 198",
+            ["faceTopLeftPixel"] = "74, 63",
+            ["imageSize"] = "250, 240"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968191676",
+        ["_id"] = "Cheerful Yeti",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 40,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Pony",
-        ["indexDesc"] = "Found in an original non-tradable Exclusive Egg!",
-        ["thumbnail"] = "rbxassetid://14976525582",
-        ["_script"] = "Huge Pony"
+        ["cachedPower"] = {9768},
+        ["name"] = "Cheerful Yeti",
+        ["zoneNumber"] = 41.64157161918323,
+        ["cachedZoneNumber"] = 41.64157161918323,
+        ["_script"] = "Cheerful Yeti",
+        ["thumbnail"] = "rbxassetid://14968191769",
+        ["fromEgg"] = "Yeti Egg"
     },
     ["Pixie Squirrel"] = {
         ["iconSettings"] = {
@@ -23464,57 +25020,34 @@ data = {
         ["thumbnail"] = "rbxassetid://14968197850",
         ["fromEgg"] = "Tech Comet Egg"
     },
-    ["Cosmic Dragon"] = {
+    ["Doodle Pegasus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 163",
-            ["faceTopLeftPixel"] = "96, 59",
-            ["imageSize"] = "250, 194"
+            ["faceBottomRightPixel"] = "214, 175",
+            ["faceTopLeftPixel"] = "84, 55",
+            ["imageSize"] = "250, 211"
         },
-        ["goldenThumbnail"] = "",
-        ["_id"] = "Cosmic Dragon",
-        ["animations"] = {
-            ["parallax"] = {
-                {
-                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
-                    ["FixedScale"] = Vector3.new(2, 2, 2),
-                    ["LogScale"] = 0.01,
-                    ["TextureId"] = "rbxassetid://14155237344",
-                    ["Transparency"] = 0.5,
-                    ["AnimSpeed"] = Vector3.new(0.25, 0.25, 0),
-                    ["TransparencyNoiseRange"] = {0, 1},
-                    ["Brightness"] = Vector3.new(3, 3, 3),
-                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
-                    ["ZIndex"] = 2
-                }
-            }
-        },
+        ["goldenThumbnail"] = "rbxassetid://14968219261",
+        ["_id"] = "Doodle Pegasus",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Cosmic Dragon",
-        ["_script"] = "Cosmic Dragon",
+        ["name"] = "Doodle Pegasus",
         ["fly"] = true,
-        ["weld"] = true,
-        ["thumbnail"] = "rbxassetid://15201619975",
-        ["exclusiveLevel"] = 2
+        ["thumbnail"] = "rbxassetid://14968219332",
+        ["_script"] = "Doodle Pegasus"
     },
-    ["Phoenix"] = {
+    ["Doodle Lion"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 137",
-            ["faceTopLeftPixel"] = "101, 42",
-            ["imageSize"] = "250, 166"
+            ["faceBottomRightPixel"] = "212, 193",
+            ["faceTopLeftPixel"] = "60, 56",
+            ["imageSize"] = "250, 234"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968301020",
-        ["_id"] = "Phoenix",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 43,
-        ["cachedZoneNumber"] = 43.87843152643661,
+        ["_script"] = "Doodle Lion",
+        ["name"] = "Doodle Lion",
+        ["_id"] = "Doodle Lion",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {12701},
-        ["name"] = "Phoenix",
-        ["zoneNumber"] = 43.87843152643661,
-        ["fly"] = true,
-        ["_script"] = "Phoenix",
-        ["thumbnail"] = "rbxassetid://14968301259",
-        ["fromEgg"] = "Magma Egg"
+        ["thumbnail"] = "rbxassetid://14968217990",
+        ["goldenThumbnail"] = "rbxassetid://14968217858"
     },
     ["Junkyard Bat"] = {
         ["iconSettings"] = {
@@ -23536,43 +25069,33 @@ data = {
         ["thumbnail"] = "rbxassetid://17026775468",
         ["fromEgg"] = "Space Junkyard Egg"
     },
-    ["Reaper"] = {
+    ["Doodle Tiger"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 152",
-            ["faceTopLeftPixel"] = "88, 26",
-            ["imageSize"] = "250, 190"
+            ["faceBottomRightPixel"] = "223, 206",
+            ["faceTopLeftPixel"] = "64, 61",
+            ["imageSize"] = "231, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968316950",
-        ["_id"] = "Reaper",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 78,
+        ["_script"] = "Doodle Tiger",
+        ["name"] = "Doodle Tiger",
+        ["_id"] = "Doodle Tiger",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {863151},
-        ["name"] = "Reaper",
-        ["zoneNumber"] = 79.69128757570932,
-        ["cachedZoneNumber"] = 79.69128757570932,
-        ["_script"] = "Reaper",
-        ["thumbnail"] = "rbxassetid://14968317238",
-        ["fromEgg"] = "Dungeon Egg"
+        ["thumbnail"] = "rbxassetid://14968222226",
+        ["goldenThumbnail"] = "rbxassetid://14968222124"
     },
-    ["Cow"] = {
+    ["Doodle Squirrel"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 182",
-            ["faceTopLeftPixel"] = "62, 55",
-            ["imageSize"] = "250, 221"
+            ["faceBottomRightPixel"] = "221, 209",
+            ["faceTopLeftPixel"] = "69, 71",
+            ["imageSize"] = "229, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968199307",
-        ["_id"] = "Cow",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 8,
+        ["_script"] = "Doodle Squirrel",
+        ["name"] = "Doodle Squirrel",
+        ["_id"] = "Doodle Squirrel",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {144},
-        ["name"] = "Cow",
-        ["zoneNumber"] = 8.053631135273257,
-        ["cachedZoneNumber"] = 8.053631135273257,
-        ["_script"] = "Cow",
-        ["thumbnail"] = "rbxassetid://14968199389",
-        ["fromEgg"] = "Corgi Egg"
+        ["thumbnail"] = "rbxassetid://14968222033",
+        ["goldenThumbnail"] = "rbxassetid://14968221953"
     },
     ["Floppa"] = {
         ["iconSettings"] = {
@@ -23636,20 +25159,6 @@ data = {
         ["thumbnail"] = "rbxassetid://14968234743",
         ["goldenThumbnail"] = "rbxassetid://14976335407"
     },
-    ["Noob"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "240, 168",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 217"
-        },
-        ["_script"] = "Noob",
-        ["name"] = "Noob",
-        ["_id"] = "Noob",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968292162",
-        ["goldenThumbnail"] = "rbxassetid://14968291996"
-    },
     ["Huge Angelus"] = {
         ["goldenThumbnail"] = "rbxassetid://14976350736",
         ["_id"] = "Huge Angelus",
@@ -23662,6 +25171,17 @@ data = {
         ["_script"] = "Huge Angelus",
         ["thumbnail"] = "rbxassetid://14976350830",
         ["indexDesc"] = "Found in the Huge Machine Angelus Egg!"
+    },
+    ["Huge Santa Paws"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976542654",
+        ["_id"] = "Huge Santa Paws",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {8275329393, 8275329490}, ["walk"] = {}},
+        ["name"] = "Huge Santa Paws",
+        ["indexDesc"] = "From the 2021 Insane Christmas Exclusive Egg!",
+        ["thumbnail"] = "rbxassetid://14976542836",
+        ["_script"] = "Huge Santa Paws"
     },
     ["Easter Agony"] = {
         ["iconSettings"] = {
@@ -23678,43 +25198,36 @@ data = {
         ["thumbnail"] = "rbxassetid://14968224861",
         ["_script"] = "Easter Agony"
     },
-    ["Happy Rock"] = {
+    ["Doodle Parrot"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "67, 11",
-            ["imageSize"] = "250, 217"
+            ["faceBottomRightPixel"] = "212, 119",
+            ["faceTopLeftPixel"] = "90, 7",
+            ["imageSize"] = "250, 152"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968253742",
-        ["_id"] = "Happy Rock",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 11,
+        ["goldenThumbnail"] = "rbxassetid://14968219051",
+        ["_id"] = "Doodle Parrot",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {263},
-        ["name"] = "Happy Rock",
-        ["zoneNumber"] = 11.438815211462499,
-        ["cachedZoneNumber"] = 11.438815211462499,
-        ["_script"] = "Happy Rock",
-        ["thumbnail"] = "rbxassetid://14968253894",
-        ["fromEgg"] = "Geode Egg"
+        ["name"] = "Doodle Parrot",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968219210",
+        ["_script"] = "Doodle Parrot"
     },
-    ["Snow Ram"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "202, 173",
-            ["faceTopLeftPixel"] = "83, 65",
-            ["imageSize"] = "250, 206"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968333229",
-        ["_id"] = "Snow Ram",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 36,
+    ["Huge Abyssal Jellyfish"] = {
+        ["goldenThumbnail"] = "rbxassetid://18882975285",
+        ["_id"] = "Huge Abyssal Jellyfish",
+        ["_script"] = "Huge Abyssal Jellyfish",
+        ["indexObtainable"] = true,
+        ["indexDesc"] = "1 in 40,000,000 base chance from the RNG Event",
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {5642},
-        ["name"] = "Snow Ram",
-        ["zoneNumber"] = 36.99547739461894,
-        ["cachedZoneNumber"] = 36.99547739461894,
-        ["_script"] = "Snow Ram",
-        ["thumbnail"] = "rbxassetid://14968333395",
-        ["fromEgg"] = "Melted Egg"
+        ["weld"] = true,
+        ["name"] = "Huge Abyssal Jellyfish",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882975166",
+        ["preventFuseMachine"] = true
     },
     ["Purple Marshmallow Chick"] = {
         ["iconSettings"] = {
@@ -23789,41 +25302,31 @@ data = {
         ["thumbnail"] = "rbxassetid://17825046551",
         ["_script"] = "Matrix Monkey"
     },
-    ["Angelus"] = {
+    ["Doodle Lamb"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 163",
-            ["faceTopLeftPixel"] = "90, 58",
-            ["imageSize"] = "247, 250"
+            ["faceBottomRightPixel"] = "204, 151",
+            ["faceTopLeftPixel"] = "57, 19",
+            ["imageSize"] = "250, 191"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968171792",
-        ["_id"] = "Angelus",
-        ["animations"] = {["angelusSpin"] = true},
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 96,
-        ["cachedZoneNumber"] = 97.69128757570932,
-        ["sounds"] = {["random"] = {7359350031, 7359349966, 7359350095}, ["walk"] = {}},
-        ["cachedPower"] = {7191707},
-        ["name"] = "Angelus",
-        ["zoneNumber"] = 97.69128757570932,
-        ["fly"] = true,
-        ["_script"] = "Angelus",
-        ["thumbnail"] = "rbxassetid://14968171896",
-        ["fromEgg"] = "Heaven Egg"
-    },
-    ["Party Tiger"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968299154",
-        ["_id"] = "Party Tiger",
+        ["_script"] = "Doodle Lamb",
+        ["name"] = "Doodle Lamb",
+        ["_id"] = "Doodle Lamb",
         ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Party Tiger",
-        ["_script"] = "Party Tiger",
-        ["thumbnail"] = "rbxassetid://14968299260",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 210",
-            ["faceTopLeftPixel"] = "59, 76",
-            ["imageSize"] = "214, 250"
-        }
+        ["thumbnail"] = "rbxassetid://14968217417",
+        ["goldenThumbnail"] = "rbxassetid://14968217225"
+    },
+    ["Huge Elegant Eagle"] = {
+        ["goldenThumbnail"] = "rbxassetid://18556265842",
+        ["_id"] = "Huge Elegant Eagle",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Elegant Eagle",
+        ["fly"] = true,
+        ["_script"] = "Huge Elegant Eagle",
+        ["thumbnail"] = "rbxassetid://18556265741",
+        ["indexDesc"] = "Earned from Millionaire World's huge raffles!"
     },
     ["Cyberpunk Ghost"] = {
         ["iconSettings"] = {
@@ -23844,17 +25347,19 @@ data = {
         ["thumbnail"] = "rbxassetid://17026771369",
         ["fromEgg"] = "Cyberpunk Road Egg"
     },
-    ["Huge Elegant Eagle"] = {
-        ["goldenThumbnail"] = "rbxassetid://18556265842",
-        ["_id"] = "Huge Elegant Eagle",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Doodle Snow Ram"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "203, 173",
+            ["faceTopLeftPixel"] = "83, 65",
+            ["imageSize"] = "250, 206"
+        },
+        ["_script"] = "Doodle Snow Ram",
+        ["name"] = "Doodle Snow Ram",
+        ["_id"] = "Doodle Snow Ram",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Elegant Eagle",
-        ["fly"] = true,
-        ["_script"] = "Huge Elegant Eagle",
-        ["thumbnail"] = "rbxassetid://18556265741",
-        ["indexDesc"] = "Earned from Millionaire World's huge raffles!"
+        ["thumbnail"] = "rbxassetid://14968221813",
+        ["goldenThumbnail"] = "rbxassetid://14968221571"
     },
     ["Huge Clover Unicorn"] = {
         ["goldenThumbnail"] = "rbxassetid://14976383732",
@@ -23901,20 +25406,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15565564817",
         ["fromEgg"] = "Bonsai Egg"
     },
-    ["Doodle Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "219, 185",
-            ["faceTopLeftPixel"] = "88, 67",
-            ["imageSize"] = "250, 220"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968214722",
-        ["_id"] = "Doodle Dragon",
-        ["hidden"] = true,
+    ["Huge Unicorn"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976573095",
+        ["_id"] = "Huge Unicorn",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Doodle Dragon",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968214828",
-        ["_script"] = "Doodle Dragon"
+        ["name"] = "Huge Unicorn",
+        ["indexDesc"] = "Found in the Lucky Block Merch!",
+        ["thumbnail"] = "rbxassetid://14976573179",
+        ["_script"] = "Huge Unicorn"
     },
     ["Huge Sketch Corgi"] = {
         ["goldenThumbnail"] = "rbxassetid://17028962868",
@@ -23933,59 +25434,64 @@ data = {
         ["thumbnail"] = "rbxassetid://17027110720",
         ["_script"] = "Huge Sketch Corgi"
     },
-    ["Doodle Pegasus"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 175",
-            ["faceTopLeftPixel"] = "84, 55",
-            ["imageSize"] = "250, 211"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968219261",
-        ["_id"] = "Doodle Pegasus",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Doodle Pegasus",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968219332",
-        ["_script"] = "Doodle Pegasus"
-    },
-    ["Huge Unicorn"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976573095",
-        ["_id"] = "Huge Unicorn",
+    ["Huge Punksky"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976529681",
+        ["_id"] = "Huge Punksky",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Unicorn",
-        ["indexDesc"] = "Found in the Lucky Block Merch!",
-        ["thumbnail"] = "rbxassetid://14976573179",
-        ["_script"] = "Huge Unicorn"
+        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
+        ["name"] = "Huge Punksky",
+        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
+        ["thumbnail"] = "rbxassetid://14976529792",
+        ["_script"] = "Huge Punksky"
     },
-    ["Chest Mimic"] = {
+    ["Balloon Axolotl"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968178373",
+        ["_id"] = "Balloon Axolotl",
+        ["animations"] = {["balloon"] = true},
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Balloon Axolotl",
+        ["fly"] = true,
+        ["_script"] = "Balloon Axolotl",
+        ["thumbnail"] = "rbxassetid://14968178558",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "225, 176",
-            ["faceTopLeftPixel"] = "78, 50",
-            ["imageSize"] = "250, 216"
-        },
-        ["_script"] = "Chest Mimic",
-        ["name"] = "Chest Mimic",
-        ["_id"] = "Chest Mimic",
-        ["exclusiveLevel"] = 2,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968192663",
-        ["goldenThumbnail"] = "rbxassetid://14968192582"
+            ["faceBottomRightPixel"] = "192, 138",
+            ["faceTopLeftPixel"] = "73, 28",
+            ["imageSize"] = "250, 193"
+        }
     },
-    ["Doodle Lion"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 193",
-            ["faceTopLeftPixel"] = "60, 56",
-            ["imageSize"] = "250, 234"
-        },
-        ["_script"] = "Doodle Lion",
-        ["name"] = "Doodle Lion",
-        ["_id"] = "Doodle Lion",
-        ["hidden"] = true,
+    ["Huge Gargoyle Dragon"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976439736",
+        ["_id"] = "Huge Gargoyle Dragon",
+        ["indexObtainable"] = false,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968217990",
-        ["goldenThumbnail"] = "rbxassetid://14968217858"
+        ["name"] = "Huge Gargoyle Dragon",
+        ["fly"] = true,
+        ["_script"] = "Huge Gargoyle Dragon",
+        ["thumbnail"] = "rbxassetid://14976439876",
+        ["indexDesc"] = "Found in one of the first non-tradable Exclusive Eggs!"
+    },
+    ["Shadow Griffin"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 170",
+            ["faceTopLeftPixel"] = "94, 68",
+            ["imageSize"] = "250, 201"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968329549",
+        ["_id"] = "Shadow Griffin",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 14,
+        ["cachedZoneNumber"] = 14.878998239561794,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {413},
+        ["name"] = "Shadow Griffin",
+        ["zoneNumber"] = 14.878998239561794,
+        ["fly"] = true,
+        ["_script"] = "Shadow Griffin",
+        ["thumbnail"] = "rbxassetid://14968329630",
+        ["fromEgg"] = "Sprout Egg"
     },
     ["Huge Blazing Shark"] = {
         ["goldenThumbnail"] = "rbxassetid://17749191048",
@@ -23998,16 +25504,16 @@ data = {
         ["thumbnail"] = "rbxassetid://17749190912",
         ["_script"] = "Huge Blazing Shark"
     },
-    ["Huge Punksky"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976529681",
-        ["_id"] = "Huge Punksky",
+    ["Huge Holographic Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://17515615360",
+        ["_id"] = "Huge Holographic Cat",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Punksky",
-        ["indexDesc"] = "Found occasionally in Active Huge Pets!",
-        ["thumbnail"] = "rbxassetid://14976529792",
-        ["_script"] = "Huge Punksky"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Holographic Cat",
+        ["indexDesc"] = "Earned from the Void Chest!",
+        ["thumbnail"] = "rbxassetid://17515615256",
+        ["_script"] = "Huge Holographic Cat"
     },
     ["Huge Blurred Dominus"] = {
         ["goldenThumbnail"] = "rbxassetid://14976369867",
@@ -24020,16 +25526,19 @@ data = {
         ["thumbnail"] = "rbxassetid://14976370033",
         ["_script"] = "Huge Blurred Dominus"
     },
-    ["Huge Fragmented Dominus"] = {
-        ["goldenThumbnail"] = "rbxassetid://17421845769",
-        ["_id"] = "Huge Fragmented Dominus",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Pixel Pink Slime"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "231, 167",
+            ["faceTopLeftPixel"] = "77, 31",
+            ["imageSize"] = "250, 201"
+        },
+        ["_script"] = "Pixel Pink Slime",
+        ["name"] = "Pixel Pink Slime",
+        ["_id"] = "Pixel Pink Slime",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Fragmented Dominus",
-        ["indexDesc"] = "Reward in the 2024 Fragmented Clan Battle!",
-        ["thumbnail"] = "rbxassetid://17421845704",
-        ["_script"] = "Huge Fragmented Dominus"
+        ["thumbnail"] = "rbxassetid://14968305547",
+        ["goldenThumbnail"] = "rbxassetid://14968305398"
     },
     ["Huge Masked Owl"] = {
         ["goldenThumbnail"] = "rbxassetid://14976487383",
@@ -24085,19 +25594,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14976571122",
         ["_script"] = "Huge Tiki Dominus"
     },
-    ["Doodle Squirrel"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "221, 209",
-            ["faceTopLeftPixel"] = "69, 71",
-            ["imageSize"] = "229, 250"
-        },
-        ["_script"] = "Doodle Squirrel",
-        ["name"] = "Doodle Squirrel",
-        ["_id"] = "Doodle Squirrel",
-        ["hidden"] = true,
+    ["Huge Mushroom Raccoon"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976495433",
+        ["_id"] = "Huge Mushroom Raccoon",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968222033",
-        ["goldenThumbnail"] = "rbxassetid://14968221953"
+        ["name"] = "Huge Mushroom Raccoon",
+        ["indexDesc"] = "Found in the Huge Machine Butterfly Egg!",
+        ["thumbnail"] = "rbxassetid://14976495649",
+        ["_script"] = "Huge Mushroom Raccoon"
     },
     ["Huge Pineapple Monkey"] = {
         ["goldenThumbnail"] = "rbxassetid://17689399677",
@@ -24151,16 +25657,16 @@ data = {
         ["thumbnail"] = "rbxassetid://15805728356",
         ["fromEgg"] = "Ruins Egg"
     },
-    ["Huge Holographic Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://17515615360",
-        ["_id"] = "Huge Holographic Cat",
+    ["Huge Classic Dog"] = {
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Huge Classic Dog",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Holographic Cat",
-        ["indexDesc"] = "Earned from the Void Chest!",
-        ["thumbnail"] = "rbxassetid://17515615256",
-        ["_script"] = "Huge Holographic Cat"
+        ["name"] = "Huge Classic Dog",
+        ["indexDesc"] = "Found in the Exclusive Classic Egg!",
+        ["thumbnail"] = "rbxassetid://18883372166",
+        ["_script"] = "Huge Classic Dog"
     },
     ["Huge Clover Fairy"] = {
         ["goldenThumbnail"] = "rbxassetid://16744695639",
@@ -24186,57 +25692,6 @@ data = {
         ["thumbnail"] = "rbxassetid://14976565468",
         ["indexDesc"] = "Found in one of the first non-tradable Exclusive Eggs!"
     },
-    ["Titanic Shiba"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://16393850204",
-        ["_id"] = "Titanic Shiba",
-        ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Titanic Shiba",
-        ["indexDesc"] = "Comes with the Titanic Shiba plush!",
-        ["thumbnail"] = "rbxassetid://16393850015",
-        ["_script"] = "Titanic Shiba"
-    },
-    ["Doodle Parrot"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "212, 119",
-            ["faceTopLeftPixel"] = "90, 7",
-            ["imageSize"] = "250, 152"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968219051",
-        ["_id"] = "Doodle Parrot",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Doodle Parrot",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968219210",
-        ["_script"] = "Doodle Parrot"
-    },
-    ["Doodle Flamingo"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "242, 168",
-            ["faceTopLeftPixel"] = "68, 10",
-            ["imageSize"] = "250, 215"
-        },
-        ["_script"] = "Doodle Flamingo",
-        ["name"] = "Doodle Flamingo",
-        ["_id"] = "Doodle Flamingo",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968216185",
-        ["goldenThumbnail"] = "rbxassetid://14968216044"
-    },
-    ["Huge Easter Dominus"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976417034",
-        ["_id"] = "Huge Easter Dominus",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Easter Dominus",
-        ["indexDesc"] = "Earned from the 2023 Easter Gift in PSX!",
-        ["thumbnail"] = "rbxassetid://14976417278",
-        ["_script"] = "Huge Easter Dominus"
-    },
     ["Scarecrow Cat"] = {
         ["iconSettings"] = {
             ["faceBottomRightPixel"] = "224, 183",
@@ -24256,16 +25711,37 @@ data = {
         ["thumbnail"] = "rbxassetid://14968327391",
         ["fromEgg"] = "Hive Egg"
     },
-    ["Huge Night Terror Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://17451173125",
-        ["_id"] = "Huge Night Terror Cat",
+    ["Red Fluffy"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "192, 163",
+            ["faceTopLeftPixel"] = "93, 74",
+            ["imageSize"] = "250, 190"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968317608",
+        ["_id"] = "Red Fluffy",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 136,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {750137600},
+        ["name"] = "Red Fluffy",
+        ["zoneNumber"] = 137.1525251416353,
+        ["cachedZoneNumber"] = 137.1525251416353,
+        ["_script"] = "Red Fluffy",
+        ["thumbnail"] = "rbxassetid://14968317699",
+        ["fromEgg"] = "Tech Mars Egg"
+    },
+    ["Huge Anime Agony"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976351221",
+        ["_id"] = "Huge Anime Agony",
+        ["animations"] = {["hybridFly"] = true},
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Night Terror Cat",
-        ["indexDesc"] = "Earned from the 2024 Deep Backrooms Event!",
-        ["thumbnail"] = "rbxassetid://17451173023",
-        ["_script"] = "Huge Night Terror Cat"
+        ["name"] = "Huge Anime Agony",
+        ["indexDesc"] = "Found in the Exclusive Anime Egg!",
+        ["_script"] = "Huge Anime Agony",
+        ["thumbnail"] = "rbxassetid://14976351312",
+        ["weld"] = true
     },
     ["Huge Fossil Dragon"] = {
         ["iconSettings"] = {
@@ -24284,16 +25760,56 @@ data = {
         ["thumbnail"] = "rbxassetid://14976436145",
         ["indexDesc"] = "Found in Digsite!"
     },
-    ["Huge Snowman"] = {
-        ["goldenThumbnail"] = "rbxassetid://15199736147",
-        ["_id"] = "Huge Snowman",
-        ["indexObtainable"] = false,
+    ["Huge Gecko"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976440435",
+        ["_id"] = "Huge Gecko",
+        ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Snowman",
-        ["indexDesc"] = "Earned from 2022 Christmas Event in PSX!",
-        ["thumbnail"] = "rbxassetid://15199736050",
-        ["_script"] = "Huge Snowman"
+        ["name"] = "Huge Gecko",
+        ["indexDesc"] = "Found in the Huge Machine Kraken Egg!",
+        ["thumbnail"] = "rbxassetid://14976440578",
+        ["_script"] = "Huge Gecko"
+    },
+    ["Huge Night Terror Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://17451173125",
+        ["_id"] = "Huge Night Terror Cat",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Night Terror Cat",
+        ["indexDesc"] = "Earned from the 2024 Deep Backrooms Event!",
+        ["thumbnail"] = "rbxassetid://17451173023",
+        ["_script"] = "Huge Night Terror Cat"
+    },
+    ["Safety Cat"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "181, 215",
+            ["faceTopLeftPixel"] = "52, 98",
+            ["imageSize"] = "188, 250"
+        },
+        ["_script"] = "Safety Cat",
+        ["name"] = "Safety Cat",
+        ["_id"] = "Safety Cat",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968323684",
+        ["goldenThumbnail"] = "rbxassetid://14968323567"
+    },
+    ["Evolved Cupcake"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14976267024",
+        ["_id"] = "Evolved Cupcake",
+        ["hidden"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Evolved Cupcake",
+        ["_script"] = "Evolved Cupcake",
+        ["thumbnail"] = "rbxassetid://14976267163",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "234, 203",
+            ["faceTopLeftPixel"] = "65, 51",
+            ["imageSize"] = "243, 250"
+        }
     },
     ["Arcade Dog"] = {
         ["iconSettings"] = {
@@ -24324,19 +25840,16 @@ data = {
             ["imageSize"] = "250, 171"
         }
     },
-    ["Doodle Snow Ram"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 173",
-            ["faceTopLeftPixel"] = "83, 65",
-            ["imageSize"] = "250, 206"
-        },
-        ["_script"] = "Doodle Snow Ram",
-        ["name"] = "Doodle Snow Ram",
-        ["_id"] = "Doodle Snow Ram",
-        ["hidden"] = true,
+    ["Huge Squirrel"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976555554",
+        ["_id"] = "Huge Squirrel",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968221813",
-        ["goldenThumbnail"] = "rbxassetid://14968221571"
+        ["name"] = "Huge Squirrel",
+        ["indexDesc"] = "Comes with the Series 1 Dragon Collector Bundle!",
+        ["thumbnail"] = "rbxassetid://14976555755",
+        ["_script"] = "Huge Squirrel"
     },
     ["Titanic Chroma Balloon Monkey"] = {
         ["titanic"] = true,
@@ -24360,31 +25873,30 @@ data = {
         ["goldenThumbnail"] = "rbxassetid://17269862235",
         ["_id"] = "Titanic Blueberry Cow",
         ["indexObtainable"] = true,
-        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
         ["name"] = "Titanic Blueberry Cow",
         ["indexDesc"] = "Comes with the Titanic Blueberry Cow plush!",
         ["thumbnail"] = "rbxassetid://17269862161",
         ["_script"] = "Titanic Blueberry Cow"
     },
-    ["Moray Eel"] = {
+    ["Kraken"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 193",
-            ["faceTopLeftPixel"] = "69, 36",
-            ["imageSize"] = "250, 224"
+            ["faceBottomRightPixel"] = "196, 135",
+            ["faceTopLeftPixel"] = "98, 48",
+            ["imageSize"] = "250, 155"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968282264",
-        ["_id"] = "Moray Eel",
+        ["goldenThumbnail"] = "rbxassetid://14968271035",
+        ["_id"] = "Kraken",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 24,
+        ["fromZoneNumber"] = 22,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1310},
-        ["name"] = "Moray Eel",
-        ["zoneNumber"] = 24.581682352507816,
-        ["cachedZoneNumber"] = 24.581682352507816,
-        ["_script"] = "Moray Eel",
-        ["thumbnail"] = "rbxassetid://14968282484",
-        ["fromEgg"] = "Beach Egg"
+        ["cachedPower"] = {1085},
+        ["name"] = "Kraken",
+        ["zoneNumber"] = 23.003245806061777,
+        ["cachedZoneNumber"] = 23.003245806061777,
+        ["_script"] = "Kraken",
+        ["thumbnail"] = "rbxassetid://14968271149",
+        ["fromEgg"] = "Anchor Egg"
     },
     ["Huge Chameleon"] = {
         ["goldenThumbnail"] = "rbxassetid://14976375270",
@@ -24413,31 +25925,30 @@ data = {
         ["thumbnail"] = "rbxassetid://18464815266",
         ["name"] = "Valkyrie Pegasus"
     },
-    ["Crowned Pegasus"] = {
+    ["Phantom Wolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "214, 174",
-            ["faceTopLeftPixel"] = "85, 57",
-            ["imageSize"] = "250, 210"
+            ["faceBottomRightPixel"] = "203, 184",
+            ["faceTopLeftPixel"] = "86, 71",
+            ["imageSize"] = "250, 214"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968200699",
-        ["_id"] = "Crowned Pegasus",
+        ["_script"] = "Phantom Wolf",
+        ["name"] = "Phantom Wolf",
+        ["_id"] = "Phantom Wolf",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Crowned Pegasus",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968200816",
-        ["_script"] = "Crowned Pegasus"
+        ["sounds"] = {["random"] = {7327784427, 7327784476, 7327784343}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968300948",
+        ["goldenThumbnail"] = "rbxassetid://14968300857"
     },
-    ["Huge Rainbow Unicorn"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976532056",
-        ["_id"] = "Huge Rainbow Unicorn",
+    ["Huge Painted Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976507026",
+        ["_id"] = "Huge Painted Cat",
         ["indexObtainable"] = false,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Rainbow Unicorn",
-        ["indexDesc"] = "Found in one of the first non-tradable Exclusive Eggs!",
-        ["thumbnail"] = "rbxassetid://14976532168",
-        ["_script"] = "Huge Rainbow Unicorn"
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Huge Painted Cat",
+        ["indexDesc"] = "Earned from the 2023 Easter Event in PSX!",
+        ["thumbnail"] = "rbxassetid://14976507206",
+        ["_script"] = "Huge Painted Cat"
     },
     ["Stealth Bobcat"] = {
         ["exclusiveLevel"] = 3,
@@ -24479,16 +25990,15 @@ data = {
         ["thumbnail"] = "rbxassetid://16306792637",
         ["indexDesc"] = "Found in the Exclusive Valentine's Egg!"
     },
-    ["Huge Squirrel"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976555554",
-        ["_id"] = "Huge Squirrel",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Huge Rainbow Lucky Block"] = {
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Squirrel",
-        ["indexDesc"] = "Comes with the Series 1 Dragon Collector Bundle!",
-        ["thumbnail"] = "rbxassetid://14976555755",
-        ["_script"] = "Huge Squirrel"
+        ["_script"] = "Huge Rainbow Lucky Block",
+        ["name"] = "Huge Rainbow Lucky Block",
+        ["_id"] = "Huge Rainbow Lucky Block",
+        ["goldenThumbnail"] = "rbxassetid://14976531591",
+        ["hidden"] = true,
+        ["thumbnail"] = "rbxassetid://14976531694",
+        ["huge"] = true
     },
     ["Huge Zebra"] = {
         ["goldenThumbnail"] = "rbxassetid://15803989875",
@@ -24513,81 +26023,82 @@ data = {
         ["thumbnail"] = "rbxassetid://14976522632",
         ["_script"] = "Huge Pixel Wolf"
     },
-    ["Elephant"] = {
+    ["Neon Twilight Wolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "200, 132",
-            ["faceTopLeftPixel"] = "64, 9",
-            ["imageSize"] = "250, 171"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968227368",
-        ["_id"] = "Elephant",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 3,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {14},
-        ["name"] = "Elephant",
-        ["zoneNumber"] = 3.1637876828573894,
-        ["cachedZoneNumber"] = 3.1637876828573894,
-        ["_script"] = "Elephant",
-        ["thumbnail"] = "rbxassetid://14968227455",
-        ["fromEgg"] = "Grass Egg"
-    },
-    ["Phantom Wolf"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "203, 184",
-            ["faceTopLeftPixel"] = "86, 71",
-            ["imageSize"] = "250, 214"
-        },
-        ["_script"] = "Phantom Wolf",
-        ["name"] = "Phantom Wolf",
-        ["_id"] = "Phantom Wolf",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {7327784427, 7327784476, 7327784343}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968300948",
-        ["goldenThumbnail"] = "rbxassetid://14968300857"
-    },
-    ["Huge Lovemelon"] = {
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["_script"] = "Huge Lovemelon",
-        ["name"] = "Huge Lovemelon",
-        ["_id"] = "Huge Lovemelon",
-        ["hidden"] = true,
-        ["goldenThumbnail"] = "rbxassetid://14976477470",
-        ["thumbnail"] = "rbxassetid://14976477569",
-        ["huge"] = true
-    },
-    ["Easter Fox"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "189, 213",
-            ["faceTopLeftPixel"] = "55, 92",
-            ["imageSize"] = "196, 250"
-        },
-        ["_script"] = "Easter Fox",
-        ["name"] = "Easter Fox",
-        ["_id"] = "Easter Fox",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968226173",
-        ["goldenThumbnail"] = "rbxassetid://14968226022"
-    },
-    ["Ghost"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "241, 168",
-            ["faceTopLeftPixel"] = "67, 12",
+            ["faceBottomRightPixel"] = "210, 183",
+            ["faceTopLeftPixel"] = "87, 72",
             ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968245406",
-        ["_id"] = "Ghost",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 78,
+        ["_script"] = "Neon Twilight Wolf",
+        ["name"] = "Neon Twilight Wolf",
+        ["_id"] = "Neon Twilight Wolf",
+        ["exclusiveLevel"] = 1,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {751671},
-        ["name"] = "Ghost",
-        ["zoneNumber"] = 78.51486267931344,
-        ["cachedZoneNumber"] = 78.51486267931344,
-        ["_script"] = "Ghost",
-        ["thumbnail"] = "rbxassetid://14968245811",
-        ["fromEgg"] = "Dungeon Egg"
+        ["thumbnail"] = "rbxassetid://15260347743",
+        ["goldenThumbnail"] = "rbxassetid://15260347843"
+    },
+    ["Huge Balloon Axolotl"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976357920",
+        ["_id"] = "Huge Balloon Axolotl",
+        ["animations"] = {["balloon"] = true},
+        ["indexObtainable"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Huge Balloon Axolotl",
+        ["fly"] = true,
+        ["_script"] = "Huge Balloon Axolotl",
+        ["thumbnail"] = "rbxassetid://14976358125",
+        ["indexDesc"] = "Found in the Exclusive Balloon Egg!"
+    },
+    ["Huge Atomic Forged Shark"] = {
+        ["goldenThumbnail"] = "rbxassetid://18978050572",
+        ["_id"] = "Huge Atomic Forged Shark",
+        ["_script"] = "Huge Atomic Forged Shark",
+        ["indexObtainable"] = true,
+        ["indexDesc"] = "Found in the RNG Event",
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["weld"] = true,
+        ["name"] = "Huge Atomic Forged Shark",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18978050454",
+        ["preventFuseMachine"] = true
+    },
+    ["Lightning Bat"] = {
+        ["exclusiveLevel"] = 2,
+        ["goldenThumbnail"] = "rbxassetid://14968273641",
+        ["_id"] = "Lightning Bat",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Lightning Bat",
+        ["fly"] = true,
+        ["_script"] = "Lightning Bat",
+        ["thumbnail"] = "rbxassetid://14968273789",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "204, 161",
+            ["faceTopLeftPixel"] = "103, 70",
+            ["imageSize"] = "250, 189"
+        }
+    },
+    ["Turkey"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "244, 186",
+            ["faceTopLeftPixel"] = "120, 74",
+            ["imageSize"] = "250, 219"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968355157",
+        ["_id"] = "Turkey",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 5,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {75},
+        ["name"] = "Turkey",
+        ["zoneNumber"] = 5.916477751675625,
+        ["cachedZoneNumber"] = 5.916477751675625,
+        ["_script"] = "Turkey",
+        ["thumbnail"] = "rbxassetid://14968355260",
+        ["fromEgg"] = "Hive Egg"
     },
     ["Huge Reindeer Axolotl"] = {
         ["goldenThumbnail"] = "rbxassetid://15281989183",
@@ -24600,24 +26111,20 @@ data = {
         ["thumbnail"] = "rbxassetid://15281989034",
         ["_script"] = "Huge Reindeer Axolotl"
     },
-    ["Blue Fish"] = {
+    ["Crowned Pegasus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "220, 164",
-            ["faceTopLeftPixel"] = "76, 33",
-            ["imageSize"] = "250, 188"
+            ["faceBottomRightPixel"] = "214, 174",
+            ["faceTopLeftPixel"] = "85, 57",
+            ["imageSize"] = "250, 210"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968183893",
-        ["_id"] = "Blue Fish",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 21,
+        ["goldenThumbnail"] = "rbxassetid://14968200699",
+        ["_id"] = "Crowned Pegasus",
+        ["hidden"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {880},
-        ["name"] = "Blue Fish",
-        ["zoneNumber"] = 21.212782330631505,
-        ["cachedZoneNumber"] = 21.212782330631505,
-        ["_script"] = "Blue Fish",
-        ["thumbnail"] = "rbxassetid://14968184034",
-        ["fromEgg"] = "Coral Egg"
+        ["name"] = "Crowned Pegasus",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968200816",
+        ["_script"] = "Crowned Pegasus"
     },
     ["Pufferfish"] = {
         ["iconSettings"] = {
@@ -24653,32 +26160,35 @@ data = {
         ["thumbnail"] = "rbxassetid://14968320428",
         ["goldenThumbnail"] = "rbxassetid://14968320256"
     },
-    ["Safety Cat"] = {
+    ["Nightfall Tiger"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://15260347226",
+        ["_id"] = "Nightfall Tiger",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Nightfall Tiger",
+        ["_script"] = "Nightfall Tiger",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "181, 215",
-            ["faceTopLeftPixel"] = "52, 98",
-            ["imageSize"] = "188, 250"
+            ["faceBottomRightPixel"] = "215, 208",
+            ["faceTopLeftPixel"] = "61, 68",
+            ["imageSize"] = "223, 250"
         },
-        ["_script"] = "Safety Cat",
-        ["name"] = "Safety Cat",
-        ["_id"] = "Safety Cat",
-        ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968323684",
-        ["goldenThumbnail"] = "rbxassetid://14968323567"
+        ["thumbnail"] = "rbxassetid://15260347082",
+        ["hideSerial"] = true
     },
-    ["Huge Balloon Axolotl"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976357920",
-        ["_id"] = "Huge Balloon Axolotl",
-        ["animations"] = {["balloon"] = true},
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
-        ["name"] = "Huge Balloon Axolotl",
+    ["Fairy Queen"] = {
+        ["exclusiveLevel"] = 3,
+        ["goldenThumbnail"] = "rbxassetid://14968234397",
+        ["_id"] = "Fairy Queen",
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Fairy Queen",
         ["fly"] = true,
-        ["_script"] = "Huge Balloon Axolotl",
-        ["thumbnail"] = "rbxassetid://14976358125",
-        ["indexDesc"] = "Found in the Exclusive Balloon Egg!"
+        ["_script"] = "Fairy Queen",
+        ["thumbnail"] = "rbxassetid://14968234492",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "210, 148",
+            ["faceTopLeftPixel"] = "103, 51",
+            ["imageSize"] = "250, 183"
+        }
     },
     ["Festive Dragon"] = {
         ["iconSettings"] = {
@@ -24729,41 +26239,51 @@ data = {
         ["thumbnail"] = "rbxassetid://14968247900",
         ["fromEgg"] = "Glitch Tree Egg"
     },
-    ["Party Piggy"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968298111",
-        ["_id"] = "Party Piggy",
-        ["hidden"] = true,
+    ["Tiedye Bear"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "rbxassetid://14968352100",
+        ["_id"] = "Tiedye Bear",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Party Piggy",
-        ["_script"] = "Party Piggy",
-        ["thumbnail"] = "rbxassetid://14968298316",
+        ["name"] = "Tiedye Bear",
+        ["_script"] = "Tiedye Bear",
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "205, 210",
-            ["faceTopLeftPixel"] = "58, 76",
-            ["imageSize"] = "213, 250"
-        }
+            ["faceBottomRightPixel"] = "228, 204",
+            ["faceTopLeftPixel"] = "64, 55",
+            ["imageSize"] = "237, 250"
+        },
+        ["thumbnail"] = "rbxassetid://14968352252",
+        ["hideSerial"] = true
     },
-    ["Huge Rainbow Lucky Block"] = {
+    ["Elephant"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "200, 132",
+            ["faceTopLeftPixel"] = "64, 9",
+            ["imageSize"] = "250, 171"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968227368",
+        ["_id"] = "Elephant",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 3,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["_script"] = "Huge Rainbow Lucky Block",
-        ["name"] = "Huge Rainbow Lucky Block",
-        ["_id"] = "Huge Rainbow Lucky Block",
-        ["goldenThumbnail"] = "rbxassetid://14976531591",
-        ["hidden"] = true,
-        ["thumbnail"] = "rbxassetid://14976531694",
-        ["huge"] = true
+        ["cachedPower"] = {14},
+        ["name"] = "Elephant",
+        ["zoneNumber"] = 3.1637876828573894,
+        ["cachedZoneNumber"] = 3.1637876828573894,
+        ["_script"] = "Elephant",
+        ["thumbnail"] = "rbxassetid://14968227455",
+        ["fromEgg"] = "Grass Egg"
     },
-    ["Huge Hot Dog"] = {
-        ["goldenThumbnail"] = "rbxassetid://16250978273",
-        ["_id"] = "Huge Hot Dog",
+    ["Huge Evolved Hell Rock"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976425729",
+        ["_id"] = "Huge Evolved Hell Rock",
         ["indexObtainable"] = true,
         ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Hot Dog",
-        ["indexDesc"] = "Found in the Season 2 Merch Gifts!",
-        ["thumbnail"] = "rbxassetid://16250978135",
-        ["_script"] = "Huge Hot Dog"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Evolved Hell Rock",
+        ["indexDesc"] = "Earned from evolving Huge Hell Rocks in PSX!",
+        ["_script"] = "Huge Evolved Hell Rock",
+        ["thumbnail"] = "rbxassetid://14976425869",
+        ["evolved"] = true
     },
     ["Pumpkin Cat"] = {
         ["iconSettings"] = {
@@ -24819,20 +26339,25 @@ data = {
             ["imageSize"] = "250, 219"
         }
     },
-    ["Lightning Bat"] = {
-        ["exclusiveLevel"] = 2,
-        ["goldenThumbnail"] = "rbxassetid://14968273641",
-        ["_id"] = "Lightning Bat",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Lightning Bat",
-        ["fly"] = true,
-        ["_script"] = "Lightning Bat",
-        ["thumbnail"] = "rbxassetid://14968273789",
+    ["Cyborg Dominus"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "204, 161",
-            ["faceTopLeftPixel"] = "103, 70",
-            ["imageSize"] = "250, 189"
-        }
+            ["faceBottomRightPixel"] = "213, 128",
+            ["faceTopLeftPixel"] = "81, 9",
+            ["imageSize"] = "250, 165"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968204710",
+        ["_id"] = "Cyborg Dominus",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 49,
+        ["cachedZoneNumber"] = 52.28452328587959,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {34210},
+        ["overrideZoneNumber"] = 52,
+        ["zoneNumber"] = 52.28452328587959,
+        ["name"] = "Cyborg Dominus",
+        ["_script"] = "Cyborg Dominus",
+        ["thumbnail"] = "rbxassetid://14968204801",
+        ["fromEgg"] = "Metal Egg"
     },
     ["Night Terror Cat"] = {
         ["iconSettings"] = {
@@ -24888,34 +26413,31 @@ data = {
         ["thumbnail"] = "rbxassetid://16471603384",
         ["fromEgg"] = "Tech Magma Egg"
     },
-    ["Nightfall Wolf"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://15260346933",
-        ["_id"] = "Nightfall Wolf",
+    ["Huge Red Fluffy"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976532871",
+        ["_id"] = "Huge Red Fluffy",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Nightfall Wolf",
-        ["_script"] = "Nightfall Wolf",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "201, 211",
-            ["faceTopLeftPixel"] = "58, 80",
-            ["imageSize"] = "231, 250"
-        },
-        ["thumbnail"] = "rbxassetid://15260346749",
-        ["hideSerial"] = true
+        ["name"] = "Huge Red Fluffy",
+        ["indexDesc"] = "Found in the Huge Machine Blurred Dominus Egg!",
+        ["thumbnail"] = "rbxassetid://14976533036",
+        ["_script"] = "Huge Red Fluffy"
     },
-    ["Techno Cat"] = {
+    ["Pixel Dragon"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "235, 207",
-            ["faceTopLeftPixel"] = "78, 63",
-            ["imageSize"] = "246, 250"
+            ["faceBottomRightPixel"] = "209, 170",
+            ["faceTopLeftPixel"] = "93, 67",
+            ["imageSize"] = "250, 202"
         },
-        ["_script"] = "Techno Cat",
-        ["name"] = "Techno Cat",
-        ["_id"] = "Techno Cat",
+        ["goldenThumbnail"] = "rbxassetid://14968304690",
+        ["_id"] = "Pixel Dragon",
         ["hidden"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["thumbnail"] = "rbxassetid://14968350782",
-        ["goldenThumbnail"] = "rbxassetid://14968350616"
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Pixel Dragon",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14968304786",
+        ["_script"] = "Pixel Dragon"
     },
     ["Puma"] = {
         ["iconSettings"] = {
@@ -24936,24 +26458,17 @@ data = {
         ["thumbnail"] = "rbxassetid://14968314442",
         ["fromEgg"] = "Cowboy Egg"
     },
-    ["Sailor Seal"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "216, 173",
-            ["faceTopLeftPixel"] = "69, 40",
-            ["imageSize"] = "250, 200"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968324248",
-        ["_id"] = "Sailor Seal",
-        ["fromWorldNumber"] = 3,
-        ["fromZoneNumber"] = 208,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4093236919523},
-        ["name"] = "Sailor Seal",
-        ["zoneNumber"] = 210.2051014671703,
-        ["cachedZoneNumber"] = 210.2051014671703,
-        ["_script"] = "Sailor Seal",
-        ["thumbnail"] = "rbxassetid://14968324382",
-        ["fromEgg"] = "Summer Beachball Egg"
+    ["Huge Chroma Balloon Axolotl"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976379956",
+        ["_id"] = "Huge Chroma Balloon Axolotl",
+        ["animations"] = {["balloon"] = true},
+        ["hidden"] = true,
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {11604085784, 11604085865}, ["walk"] = {}},
+        ["name"] = "Huge Chroma Balloon Axolotl",
+        ["fly"] = true,
+        ["thumbnail"] = "rbxassetid://14976380139",
+        ["_script"] = "Huge Chroma Balloon Axolotl"
     },
     ["Stargazing Bear"] = {
         ["exclusiveLevel"] = 2,
@@ -24982,61 +26497,64 @@ data = {
         ["thumbnail"] = "rbxassetid://14976518880",
         ["indexDesc"] = "Hatched from eggs in PSX!"
     },
-    ["Tiedye Bear"] = {
+    ["Punkey"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "179, 215",
+            ["faceTopLeftPixel"] = "51, 100",
+            ["imageSize"] = "219, 250"
+        },
+        ["_script"] = "Punkey",
+        ["name"] = "Punkey",
+        ["_id"] = "Punkey",
+        ["exclusiveLevel"] = 2,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968314943",
+        ["goldenThumbnail"] = "rbxassetid://14968314806"
+    },
+    ["Classic Dog"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "206, 177",
+            ["faceTopLeftPixel"] = "60, 70",
+            ["imageSize"] = "250, 226"
+        },
+        ["_script"] = "Classic Dog",
+        ["name"] = "Classic Dog",
+        ["_id"] = "Classic Dog",
         ["exclusiveLevel"] = 1,
-        ["goldenThumbnail"] = "rbxassetid://14968352100",
-        ["_id"] = "Tiedye Bear",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Tiedye Bear",
-        ["_script"] = "Tiedye Bear",
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "228, 204",
-            ["faceTopLeftPixel"] = "64, 55",
-            ["imageSize"] = "237, 250"
-        },
-        ["thumbnail"] = "rbxassetid://14968352252",
-        ["hideSerial"] = true
+        ["thumbnail"] = "rbxassetid://18883358629",
+        ["goldenThumbnail"] = ""
     },
-    ["Huge Kraken"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976473129",
-        ["_id"] = "Huge Kraken",
+    ["Huge Evil Imp"] = {
+        ["goldenThumbnail"] = "rbxassetid://18150534263",
+        ["_id"] = "Huge Evil Imp",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Kraken",
-        ["indexDesc"] = "Found in the Huge Machine Kraken Egg!",
-        ["thumbnail"] = "rbxassetid://14976473284",
-        ["_script"] = "Huge Kraken"
+        ["name"] = "Huge Evil Imp",
+        ["fly"] = true,
+        ["_script"] = "Huge Evil Imp",
+        ["thumbnail"] = "rbxassetid://18150534002",
+        ["indexDesc"] = "Earned from the Good vs. Evil World and Evil Gifts!"
     },
-    ["Huge Neon Twilight Wolf"] = {
-        ["goldenThumbnail"] = "rbxassetid://15260481663",
-        ["_id"] = "Huge Neon Twilight Wolf",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Neon Twilight Wolf",
-        ["indexDesc"] = "Found in the Exclusive Neon Twilight Egg!",
-        ["thumbnail"] = "rbxassetid://15260481429",
-        ["_script"] = "Huge Neon Twilight Wolf"
-    },
-    ["Steampunk Wolf"] = {
+    ["Fawn"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "206, 210",
-            ["faceTopLeftPixel"] = "59, 77",
-            ["imageSize"] = "238, 250"
+            ["faceBottomRightPixel"] = "204, 210",
+            ["faceTopLeftPixel"] = "58, 78",
+            ["imageSize"] = "212, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968343689",
-        ["_id"] = "Steampunk Wolf",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 157,
+        ["goldenThumbnail"] = "rbxassetid://14968234834",
+        ["_id"] = "Fawn",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 36,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {8261842001},
-        ["name"] = "Steampunk Wolf",
-        ["zoneNumber"] = 157.51486267931344,
-        ["cachedZoneNumber"] = 157.51486267931344,
-        ["_script"] = "Steampunk Wolf",
-        ["thumbnail"] = "rbxassetid://14968343794",
-        ["fromEgg"] = "Steampunk Airship Egg"
+        ["cachedPower"] = {6113},
+        ["name"] = "Fawn",
+        ["zoneNumber"] = 37.66211806051345,
+        ["cachedZoneNumber"] = 37.66211806051345,
+        ["_script"] = "Fawn",
+        ["thumbnail"] = "rbxassetid://14968235057",
+        ["fromEgg"] = "Melted Egg"
     },
     ["Cool Cat"] = {
         ["iconSettings"] = {
@@ -25086,36 +26604,52 @@ data = {
         ["thumbnail"] = "rbxassetid://17749184083",
         ["_script"] = "Huge Masked Fox"
     },
-    ["Jelly Alien"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "207, 161",
-            ["faceTopLeftPixel"] = "97, 61",
-            ["imageSize"] = "250, 179"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968265282",
-        ["_id"] = "Jelly Alien",
-        ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 149,
-        ["cachedZoneNumber"] = 151.52412094338194,
+    ["Titanic Arcane Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://18882936384",
+        ["_id"] = "Titanic Arcane Cat",
+        ["animations"] = {["ridingCameraOffset"] = Vector3.new(0, 3.25, 0)},
+        ["indexObtainable"] = true,
+        ["flyingTitanic"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {4079751448},
-        ["name"] = "Jelly Alien",
-        ["zoneNumber"] = 151.52412094338194,
+        ["_script"] = "Titanic Arcane Cat",
+        ["name"] = "Titanic Arcane Cat",
+        ["flyingTitanicAlwaysFly"] = true,
         ["fly"] = true,
-        ["_script"] = "Jelly Alien",
-        ["thumbnail"] = "rbxassetid://14968265425",
-        ["fromEgg"] = "Alien Lab Egg"
+        ["indexDesc"] = "1 in 3,000,000,000 base chance from the RNG Event",
+        ["thumbnail"] = "rbxassetid://18882936169",
+        ["weld"] = true
     },
-    ["Huge Hell Rock"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976455275",
-        ["_id"] = "Huge Hell Rock",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
+    ["Cosmic Axolotl"] = {
+        ["exclusiveLevel"] = 1,
+        ["goldenThumbnail"] = "",
+        ["_id"] = "Cosmic Axolotl",
+        ["animations"] = {
+            ["parallax"] = {
+                {
+                    ["BrightnessNoiseRange"] = {Vector3.new(0.25, 0.25, 0.25), Vector3.new(2, 2, 2)},
+                    ["FixedScale"] = Vector3.new(2, 2, 2),
+                    ["LogScale"] = 0.01,
+                    ["TextureId"] = "rbxassetid://14155237545",
+                    ["Transparency"] = 0.5,
+                    ["AnimSpeed"] = Vector3.new(0.25, 0.25, 0),
+                    ["TransparencyNoiseRange"] = {0, 1},
+                    ["Brightness"] = Vector3.new(3, 3, 3),
+                    ["CameraDirection"] = Vector3.new(0.4000000059604645, 0.4000000059604645, 0.4000000059604645),
+                    ["ZIndex"] = 2
+                }
+            }
+        },
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Hell Rock",
-        ["indexDesc"] = "Earned from the limited-time Hell Rock Event in PSX!",
-        ["thumbnail"] = "rbxassetid://14976455394",
-        ["_script"] = "Huge Hell Rock"
+        ["name"] = "Cosmic Axolotl",
+        ["_script"] = "Cosmic Axolotl",
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 124",
+            ["faceTopLeftPixel"] = "95, 21",
+            ["imageSize"] = "250, 155"
+        },
+        ["thumbnail"] = "rbxassetid://15201620186",
+        ["weld"] = true
     },
     ["Easter Lamb"] = {
         ["iconSettings"] = {
@@ -25131,20 +26665,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14968226361",
         ["goldenThumbnail"] = "rbxassetid://14968226274"
     },
-    ["Pixel Dragon"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "209, 170",
-            ["faceTopLeftPixel"] = "93, 67",
-            ["imageSize"] = "250, 202"
-        },
-        ["goldenThumbnail"] = "rbxassetid://14968304690",
-        ["_id"] = "Pixel Dragon",
-        ["hidden"] = true,
+    ["Huge Kraken"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976473129",
+        ["_id"] = "Huge Kraken",
+        ["indexObtainable"] = true,
+        ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Pixel Dragon",
-        ["fly"] = true,
-        ["thumbnail"] = "rbxassetid://14968304786",
-        ["_script"] = "Pixel Dragon"
+        ["name"] = "Huge Kraken",
+        ["indexDesc"] = "Found in the Huge Machine Kraken Egg!",
+        ["thumbnail"] = "rbxassetid://14976473284",
+        ["_script"] = "Huge Kraken"
     },
     ["Bloo Cat"] = {
         ["iconSettings"] = {
@@ -25171,16 +26701,25 @@ data = {
         ["thumbnail"] = "rbxassetid://14976443059",
         ["_script"] = "Huge Gleebo The Alien"
     },
-    ["Huge Corgi"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976386012",
-        ["_id"] = "Huge Corgi",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {4478157336, 4478159184}, ["walk"] = {}},
-        ["name"] = "Huge Corgi",
-        ["indexDesc"] = "Comes with the Corgi plush!",
-        ["thumbnail"] = "rbxassetid://14976386115",
-        ["_script"] = "Huge Corgi"
+    ["Jelly Alien"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "207, 161",
+            ["faceTopLeftPixel"] = "97, 61",
+            ["imageSize"] = "250, 179"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968265282",
+        ["_id"] = "Jelly Alien",
+        ["fromWorldNumber"] = 2,
+        ["fromZoneNumber"] = 149,
+        ["cachedZoneNumber"] = 151.52412094338194,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["cachedPower"] = {4079751448},
+        ["name"] = "Jelly Alien",
+        ["zoneNumber"] = 151.52412094338194,
+        ["fly"] = true,
+        ["_script"] = "Jelly Alien",
+        ["thumbnail"] = "rbxassetid://14968265425",
+        ["fromEgg"] = "Alien Lab Egg"
     },
     ["Fox"] = {
         ["iconSettings"] = {
@@ -25245,16 +26784,16 @@ data = {
         ["thumbnail"] = "rbxassetid://14976579774",
         ["_script"] = "Huge Wizard Westie"
     },
-    ["Huge Present Chest Mimic"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976526959",
-        ["_id"] = "Huge Present Chest Mimic",
-        ["indexObtainable"] = true,
+    ["Huge Rainbow Unicorn"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976532056",
+        ["_id"] = "Huge Rainbow Unicorn",
+        ["indexObtainable"] = false,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Present Chest Mimic",
-        ["indexDesc"] = "Found in the Exclusive Jolly Egg!",
-        ["thumbnail"] = "rbxassetid://14976527111",
-        ["_script"] = "Huge Present Chest Mimic"
+        ["name"] = "Huge Rainbow Unicorn",
+        ["indexDesc"] = "Found in one of the first non-tradable Exclusive Eggs!",
+        ["thumbnail"] = "rbxassetid://14976532168",
+        ["_script"] = "Huge Rainbow Unicorn"
     },
     ["Dalmatian"] = {
         ["iconSettings"] = {
@@ -25275,39 +26814,41 @@ data = {
         ["thumbnail"] = "rbxassetid://14968206257",
         ["fromEgg"] = "Spotted Egg"
     },
-    ["Fairy Queen"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968234397",
-        ["_id"] = "Fairy Queen",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Fairy Queen",
-        ["fly"] = true,
-        ["_script"] = "Fairy Queen",
-        ["thumbnail"] = "rbxassetid://14968234492",
+    ["Electric Werewolf"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "210, 148",
-            ["faceTopLeftPixel"] = "103, 51",
-            ["imageSize"] = "250, 183"
-        }
-    },
-    ["Kraken"] = {
-        ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "196, 135",
-            ["faceTopLeftPixel"] = "98, 48",
-            ["imageSize"] = "250, 155"
+            ["faceBottomRightPixel"] = "197, 214",
+            ["faceTopLeftPixel"] = "66, 96",
+            ["imageSize"] = "234, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968271035",
-        ["_id"] = "Kraken",
-        ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 22,
+        ["goldenThumbnail"] = "rbxassetid://18882339024",
+        ["_id"] = "Electric Werewolf",
+        ["cachedZoneNumber"] = 221.04166666666666,
+        ["fromWorldNumber"] = 3,
+        ["fromZoneNumber"] = 219,
+        ["_script"] = "Electric Werewolf",
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {1085},
-        ["name"] = "Kraken",
-        ["zoneNumber"] = 23.003245806061777,
-        ["cachedZoneNumber"] = 23.003245806061777,
-        ["_script"] = "Kraken",
-        ["thumbnail"] = "rbxassetid://14968271149",
-        ["fromEgg"] = "Anchor Egg"
+        ["cachedPower"] = {14655705883210},
+        ["name"] = "Electric Werewolf",
+        ["preventGoldMachine"] = true,
+        ["zoneNumber"] = 221.04166666666666,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882338864",
+        ["preventFuseMachine"] = true
+    },
+    ["Huge Corrupt Butterfly"] = {
+        ["goldenThumbnail"] = "rbxassetid://18882974998",
+        ["_id"] = "Huge Corrupt Butterfly",
+        ["indexObtainable"] = true,
+        ["_script"] = "Huge Corrupt Butterfly",
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["indexDesc"] = "1 in 49,999,999 base chance from the RNG Event",
+        ["name"] = "Huge Corrupt Butterfly",
+        ["preventGoldMachine"] = true,
+        ["fly"] = true,
+        ["preventRainbowMachine"] = true,
+        ["thumbnail"] = "rbxassetid://18882974863",
+        ["preventFuseMachine"] = true
     },
     ["Mining Dog"] = {
         ["iconSettings"] = {
@@ -25328,35 +26869,43 @@ data = {
         ["thumbnail"] = "rbxassetid://14968281023",
         ["fromEgg"] = "Geode Egg"
     },
-    ["Cyber Bunny"] = {
+    ["Toy Mouse"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "173, 216",
-            ["faceTopLeftPixel"] = "49, 105",
-            ["imageSize"] = "180, 250"
+            ["faceBottomRightPixel"] = "192, 211",
+            ["faceTopLeftPixel"] = "55, 86",
+            ["imageSize"] = "201, 250"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968202610",
-        ["_id"] = "Cyber Bunny",
+        ["goldenThumbnail"] = "rbxassetid://14968354944",
+        ["_id"] = "Toy Mouse",
         ["fromWorldNumber"] = 2,
-        ["fromZoneNumber"] = 106,
+        ["fromZoneNumber"] = 155,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {26145499},
-        ["name"] = "Cyber Bunny",
-        ["zoneNumber"] = 108.64910749860594,
-        ["cachedZoneNumber"] = 108.64910749860594,
-        ["_script"] = "Cyber Bunny",
-        ["thumbnail"] = "rbxassetid://14968202676",
-        ["fromEgg"] = "Tech Sprout Egg"
+        ["cachedPower"] = {6527875161},
+        ["name"] = "Toy Mouse",
+        ["zoneNumber"] = 155.51486267931344,
+        ["cachedZoneNumber"] = 155.51486267931344,
+        ["_script"] = "Toy Mouse",
+        ["thumbnail"] = "rbxassetid://14968355065",
+        ["fromEgg"] = "Steampunk Lantern Egg"
     },
-    ["Huge Otter"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976506504",
-        ["_id"] = "Huge Otter",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
+    ["Spitting Dino"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "178, 118",
+            ["faceTopLeftPixel"] = "74, 23",
+            ["imageSize"] = "250, 147"
+        },
+        ["goldenThumbnail"] = "rbxassetid://14968336766",
+        ["_id"] = "Spitting Dino",
+        ["fromWorldNumber"] = 1,
+        ["fromZoneNumber"] = 31,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Otter",
-        ["indexDesc"] = "Found in the Lucky Block Merch!",
-        ["thumbnail"] = "rbxassetid://14976506594",
-        ["_script"] = "Huge Otter"
+        ["cachedPower"] = {3137},
+        ["name"] = "Spitting Dino",
+        ["zoneNumber"] = 32.01062418420541,
+        ["cachedZoneNumber"] = 32.01062418420541,
+        ["_script"] = "Spitting Dino",
+        ["thumbnail"] = "rbxassetid://14968336870",
+        ["fromEgg"] = "Egyptian Egg"
     },
     ["Mantis Shrimp"] = {
         ["iconSettings"] = {
@@ -25430,16 +26979,16 @@ data = {
             ["imageSize"] = "250, 184"
         }
     },
-    ["Huge Pixel Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976518950",
-        ["_id"] = "Huge Pixel Cat",
-        ["indexObtainable"] = false,
+    ["Huge Cyborg Cat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976391512",
+        ["_id"] = "Huge Cyborg Cat",
+        ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Pixel Cat",
-        ["indexDesc"] = "Hatched from eggs in PSX!",
-        ["thumbnail"] = "rbxassetid://14976519049",
-        ["_script"] = "Huge Pixel Cat"
+        ["name"] = "Huge Cyborg Cat",
+        ["indexDesc"] = "Comes with Series 2 Cyborg Cat Collector Bundle!",
+        ["thumbnail"] = "rbxassetid://14976391620",
+        ["_script"] = "Huge Cyborg Cat"
     },
     ["M-B PROTOTYPE"] = {
         ["iconSettings"] = {
@@ -25461,17 +27010,6 @@ data = {
         ["thumbnail"] = "rbxassetid://16747972793",
         ["fromEgg"] = "Tech Hive Egg"
     },
-    ["Huge Mystical Fox"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976496147",
-        ["_id"] = "Huge Mystical Fox",
-        ["indexObtainable"] = true,
-        ["huge"] = true,
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Mystical Fox",
-        ["indexDesc"] = "Reward in the 2024 Raid Clan Battle!",
-        ["thumbnail"] = "rbxassetid://14976496299",
-        ["_script"] = "Huge Mystical Fox"
-    },
     ["Huge Wild Fire Agony"] = {
         ["goldenThumbnail"] = "rbxassetid://14976578410",
         ["_id"] = "Huge Wild Fire Agony",
@@ -25483,6 +27021,20 @@ data = {
         ["_script"] = "Huge Wild Fire Agony",
         ["thumbnail"] = "rbxassetid://14976578547",
         ["indexDesc"] = "Hatched from eggs in PSX!"
+    },
+    ["Domortuus Astra"] = {
+        ["iconSettings"] = {
+            ["faceBottomRightPixel"] = "205, 196",
+            ["faceTopLeftPixel"] = "99, 101",
+            ["imageSize"] = "250, 225"
+        },
+        ["_script"] = "Domortuus Astra",
+        ["name"] = "Domortuus Astra",
+        ["_id"] = "Domortuus Astra",
+        ["exclusiveLevel"] = 3,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["thumbnail"] = "rbxassetid://14968211535",
+        ["goldenThumbnail"] = "rbxassetid://14968211409"
     },
     ["Titanic Jelly Dragon"] = {
         ["titanic"] = true,
@@ -25540,63 +27092,62 @@ data = {
         ["thumbnail"] = "rbxassetid://16483343520",
         ["weld"] = true
     },
-    ["Cyborg Dominus"] = {
+    ["Ghost"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "213, 128",
-            ["faceTopLeftPixel"] = "81, 9",
-            ["imageSize"] = "250, 165"
+            ["faceBottomRightPixel"] = "241, 168",
+            ["faceTopLeftPixel"] = "67, 12",
+            ["imageSize"] = "250, 217"
         },
-        ["goldenThumbnail"] = "rbxassetid://14968204710",
-        ["_id"] = "Cyborg Dominus",
+        ["goldenThumbnail"] = "rbxassetid://14968245406",
+        ["_id"] = "Ghost",
         ["fromWorldNumber"] = 1,
-        ["fromZoneNumber"] = 49,
-        ["cachedZoneNumber"] = 52.28452328587959,
+        ["fromZoneNumber"] = 78,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["cachedPower"] = {34210},
-        ["overrideZoneNumber"] = 52,
-        ["zoneNumber"] = 52.28452328587959,
-        ["name"] = "Cyborg Dominus",
-        ["_script"] = "Cyborg Dominus",
-        ["thumbnail"] = "rbxassetid://14968204801",
-        ["fromEgg"] = "Metal Egg"
+        ["cachedPower"] = {751671},
+        ["name"] = "Ghost",
+        ["zoneNumber"] = 78.51486267931344,
+        ["cachedZoneNumber"] = 78.51486267931344,
+        ["_script"] = "Ghost",
+        ["thumbnail"] = "rbxassetid://14968245811",
+        ["fromEgg"] = "Dungeon Egg"
     },
-    ["Huge Grinch Cat"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976448160",
-        ["_id"] = "Huge Grinch Cat",
+    ["Titanic Nightmare Cat"] = {
+        ["titanic"] = true,
+        ["goldenThumbnail"] = "rbxassetid://15260478739",
+        ["_id"] = "Titanic Nightmare Cat",
+        ["animations"] = {["balloon"] = true, ["balloonSpeed"] = 0.25, ["balloonScale"] = Vector3.new(0, 0, 1)},
+        ["indexObtainable"] = true,
+        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
+        ["name"] = "Titanic Nightmare Cat",
+        ["indexDesc"] = "Found in the Exclusive Nightmare Egg!",
+        ["thumbnail"] = "rbxassetid://15260478604",
+        ["_script"] = "Titanic Nightmare Cat"
+    },
+    ["Huge Stealth Bobcat"] = {
+        ["goldenThumbnail"] = "rbxassetid://14976557539",
+        ["_id"] = "Huge Stealth Bobcat",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Huge Grinch Cat",
-        ["indexDesc"] = "Found in the Exclusive Jolly Egg!",
-        ["thumbnail"] = "rbxassetid://14976448309",
-        ["_script"] = "Huge Grinch Cat"
+        ["name"] = "Huge Stealth Bobcat",
+        ["indexDesc"] = "Found in the (Legendary, Mythical) Series 2 Merch Gifts!",
+        ["_script"] = "Huge Stealth Bobcat",
+        ["thumbnail"] = "rbxassetid://14976557639",
+        ["hideSerial"] = true
     },
-    ["Empyrean Agony"] = {
-        ["exclusiveLevel"] = 3,
-        ["goldenThumbnail"] = "rbxassetid://14968228350",
-        ["_id"] = "Empyrean Agony",
-        ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Empyrean Agony",
-        ["fly"] = true,
-        ["_script"] = "Empyrean Agony",
-        ["thumbnail"] = "rbxassetid://14968228476",
+    ["Chest Mimic"] = {
         ["iconSettings"] = {
-            ["faceBottomRightPixel"] = "243, 157",
-            ["faceTopLeftPixel"] = "132, 56",
-            ["imageSize"] = "250, 188"
-        }
-    },
-    ["Huge Gargoyle Dragon"] = {
-        ["goldenThumbnail"] = "rbxassetid://14976439736",
-        ["_id"] = "Huge Gargoyle Dragon",
-        ["indexObtainable"] = false,
-        ["huge"] = true,
+            ["faceBottomRightPixel"] = "225, 176",
+            ["faceTopLeftPixel"] = "78, 50",
+            ["imageSize"] = "250, 216"
+        },
+        ["_script"] = "Chest Mimic",
+        ["name"] = "Chest Mimic",
+        ["_id"] = "Chest Mimic",
+        ["exclusiveLevel"] = 2,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Gargoyle Dragon",
-        ["fly"] = true,
-        ["_script"] = "Huge Gargoyle Dragon",
-        ["thumbnail"] = "rbxassetid://14976439876",
-        ["indexDesc"] = "Found in one of the first non-tradable Exclusive Eggs!"
+        ["thumbnail"] = "rbxassetid://14968192663",
+        ["goldenThumbnail"] = "rbxassetid://14968192582"
     },
     ["Doodle Hydra"] = {
         ["iconSettings"] = {
@@ -25643,28 +27194,28 @@ data = {
         ["thumbnail"] = "rbxassetid://15281989490",
         ["_script"] = "Huge Crowned Pegasus"
     },
-    ["Huge Evil Imp"] = {
-        ["goldenThumbnail"] = "rbxassetid://18150534263",
-        ["_id"] = "Huge Evil Imp",
+    ["Huge Neon Twilight Wolf"] = {
+        ["goldenThumbnail"] = "rbxassetid://15260481663",
+        ["_id"] = "Huge Neon Twilight Wolf",
         ["indexObtainable"] = true,
         ["huge"] = true,
         ["sounds"] = {["random"] = {}, ["walk"] = {}},
-        ["name"] = "Huge Evil Imp",
-        ["fly"] = true,
-        ["_script"] = "Huge Evil Imp",
-        ["thumbnail"] = "rbxassetid://18150534002",
-        ["indexDesc"] = "Earned from the Good vs. Evil World and Evil Gifts!"
+        ["name"] = "Huge Neon Twilight Wolf",
+        ["indexDesc"] = "Found in the Exclusive Neon Twilight Egg!",
+        ["thumbnail"] = "rbxassetid://15260481429",
+        ["_script"] = "Huge Neon Twilight Wolf"
     },
-    ["Titanic Nightmare Cat"] = {
-        ["titanic"] = true,
-        ["goldenThumbnail"] = "rbxassetid://15260478739",
-        ["_id"] = "Titanic Nightmare Cat",
-        ["animations"] = {["balloon"] = true, ["balloonSpeed"] = 0.25, ["balloonScale"] = Vector3.new(0, 0, 1)},
+    ["Huge Quantum Agony"] = {
+        ["goldenThumbnail"] = "rbxassetid://18886114341",
+        ["_id"] = "Huge Quantum Agony",
         ["indexObtainable"] = true,
-        ["sounds"] = {["random"] = {4478156278, 4478156615}, ["walk"] = {}},
-        ["name"] = "Titanic Nightmare Cat",
-        ["indexDesc"] = "Found in the Exclusive Nightmare Egg!",
-        ["thumbnail"] = "rbxassetid://15260478604",
-        ["_script"] = "Titanic Nightmare Cat"
+        ["huge"] = true,
+        ["sounds"] = {["random"] = {}, ["walk"] = {}},
+        ["name"] = "Huge Quantum Agony",
+        ["_script"] = "Huge Quantum Agony",
+        ["fly"] = true,
+        ["indexDesc"] = "Found in the The Aura Pack!",
+        ["thumbnail"] = "rbxassetid://18886114160",
+        ["weld"] = true
     }
 }
