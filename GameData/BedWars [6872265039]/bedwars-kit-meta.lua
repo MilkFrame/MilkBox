@@ -6,12 +6,13 @@ data = {
         ["season10"] = {"styx", "tinker", "nyoka", "agni", "falconer"},
         ["season7"] = {"queen_bee", "blood_assassin", "drill", "hatter"},
         ["season8"] = {"ignis", "elektra", "card"},
-        ["season4"] = {"metal_detector", "alchemist", "vesta", "beast", "sheep_herder", "midnight"},
         ["season3"] = {"yeti", "santa", "frosty", "gingerbread_man", "smoke", "aery"},
         ["season2"] = {"ghost_catcher", "oil_man", "trapper", "spearman", "fisherman"},
+        ["season11"] = {},
+        ["season4"] = {"metal_detector", "alchemist", "vesta", "beast", "sheep_herder", "midnight"},
         ["season1"] = {"raven", "bounty_hunter", "warrior", "spirit_catcher", "pyro", "jade", "beekeeper"}
     },
-    ["getBedwarsKitMeta"] = "function: 0x4d6151f29b6f2361",
+    ["getBedwarsKitMeta"] = "function: 0x5a003bd2f37c831c",
     ["BedwarsKitMeta"] = {
         ["flower_bee"] = {
             ["forgeGearSubstitutes"] = {
@@ -21,27 +22,30 @@ data = {
             },
             ["priceRobux"] = 399,
             ["name"] = "Lyla",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 27, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 169772861,
             ["renderImage"] = "rbxassetid://13279871191",
             ["kitClass"] = 7,
             ["description"] = "Your bow is replaced with the Floral Bow! Shooting an enemy twice will bloom a flower on their head, attracting a swarm of bees!"
         },
         ["baker"] = {
+            ["description"] = "Gain access to health-gain apples and speed-boost cakes.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 19086951,
-            ["description"] = "Gain access to health-gain apples and speed-boost cakes.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 5, ["priceBedCoins"] = 10000},
             ["name"] = "Baker",
             ["renderImage"] = "rbxassetid://9155463919",
             ["kitClass"] = 6,
             ["previewItems"] = {"pie"}
         },
         ["ice_queen"] = {
+            ["description"] = "Dealing damage will apply stacks of Frost. At four stacks, Frost is consumed and applies Frostbite to the target, making them fragile. Emerald Sword is replaced by the Ice Sword, which applies two stacks per hit. Use your Frost Explosion ability to immediately deal damage to nearby targets with stacks of Frost.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 18, ["priceBedCoins"] = 10000},
             ["forgeGearSubstitutes"] = {["diamond_sword"] = "ice_sword"},
             ["priceRobux"] = 399,
             ["name"] = "Freiya",
-            ["gamepassId"] = 25647124,
-            ["description"] = "Dealing damage will apply stacks of Frost. At four stacks, Frost is consumed and applies Frostbite to the target, making them fragile. Emerald Sword is replaced by the Ice Sword, which applies two stacks per hit. Use your Frost Explosion ability to immediately deal damage to nearby targets with stacks of Frost.",
             ["renderImage"] = "rbxassetid://9155466204",
+            ["gamepassId"] = 25647124,
             ["kitClass"] = 0,
             ["previewItems"] = {"ice_sword"}
         },
@@ -80,8 +84,6 @@ data = {
             ["previewItems"] = {"raven"}
         },
         ["spirit_assassin"] = {
-            ["priceRobux"] = 399,
-            ["name"] = "Evelynn",
             ["lore"] = {
                 ["story"] = [[    Evelynn passes through the iridescent veil as wispy spirits dance around her. She enters the familiar magical world and lets out a sigh of frustration. The Spirit Owl perched on Evelynn’s shoulder disappears, hinting to her that Whisper has left his meditative state and is probably stomping on his way to confront her.
     Evelynn sits under an enormous glowing tree to enjoy the calm before the storm. She observes the realm while she waits. She can hear a peaceful hum ringing while it ​​encompasses her soul with peace.
@@ -117,16 +119,20 @@ data = {
                 ["author"] = "Grishma",
                 ["storyTitle"] = "Spiritual Dilemma"
             },
+            ["priceRobux"] = 399,
+            ["name"] = "Evelynn",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 22, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://10406002412",
             ["gamepassId"] = 72590411,
             ["kitClass"] = 0,
             ["description"] = "Damage enemies to attract nearby spirits. Consume spirits to instantly teleport and gain an attack buff for a short duration."
         },
         ["bigman"] = {
+            ["description"] = "Collect tree orbs around the map to increase size and max HP. Cannot buy armor.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 20245233,
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 10, ["priceBedCoins"] = 10000},
             ["forceSkin"] = true,
-            ["description"] = "Collect tree orbs around the map to increase size and max HP. Cannot buy armor.",
             ["renderImage"] = "rbxassetid://9155467211",
             ["kitClass"] = 1,
             ["name"] = "Eldertree"
@@ -179,6 +185,24 @@ data = {
             ["battlepassSeason"] = "season2",
             ["previewItems"] = {}
         },
+        ["owl"] = {
+            ["notGiftable"] = true,
+            ["name"] = "Whisper",
+            ["renderImage"] = "rbxassetid://12509401147",
+            ["kitClass"] = 6,
+            ["description"] = "Control a Spirit Owl to support ally players. Unlocked at Player Level 10."
+        },
+        ["rebellion_leader"] = {
+            ["description"] = "The leader of the citizens’ rebellion, who encourages and buffs his allies with healing and damage auras!",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 36, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Silas",
+            ["gamepassId"] = 893892894,
+            ["disableKitRenting"] = true,
+            ["kitClass"] = 6,
+            ["renderImage"] = "rbxassetid://18926409564"
+        },
         ["oil_man"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Jack",
@@ -191,13 +215,26 @@ data = {
         ["axolotl"] = {
             ["priceRobux"] = 399,
             ["name"] = "Axolotl Amy",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 16, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 24393543,
             ["renderImage"] = "rbxassetid://9155466713",
             ["kitClass"] = 6,
             ["description"] = "Use your pet axolotls to empower yourself and nearby teammates with shields, increased attack damage, faster break speed, and health regen."
         },
+        ["sorcerer"] = {
+            ["description"] = "Charge up explosive comets to rain destruction on your enemy's base. Collect alchemy crystals to unlock even stronger abilities!",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 35, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Death Adder",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 893960773,
+            ["kitClass"] = 4,
+            ["renderImage"] = "rbxassetid://97940108361528"
+        },
         ["barbarian"] = {
             ["description"] = "Build rage by damaging enemies. Instead of buying swords, your sword is upgraded upon reaching max rage. You lose half your rage upon death. Emerald Sword is replaced by the Rageblade.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 3, ["priceBedCoins"] = 10000},
             ["priceRobux"] = 399,
             ["gamepassId"] = 19551065,
             ["lore"] = {
@@ -256,15 +293,31 @@ data = {
                 ["author"] = "Grishma",
                 ["storyTitle"] = "In Solitude"
             },
-            ["renderImage"] = "rbxassetid://9166207628",
             ["name"] = "Barbarian",
+            ["renderImage"] = "rbxassetid://9166207628",
             ["kitClass"] = 0,
             ["previewItems"] = {"rageblade"}
+        },
+        ["nazar"] = {
+            ["description"] = "Give up out-of-combat health regeneration to manipulate your life force and empower your attacks or heal. Gain life force by landing shots with life arrows and attacking.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 33, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Nazar",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 893913917,
+            ["abilities"] = {
+                {["innate"] = true, ["abilityId"] = "consume_life_foce"},
+                {["innate"] = true, ["abilityId"] = "enable_life_force_attack"}
+            },
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://18926951849"
         },
         ["hannah"] = {
             ["unlockedInBattlePass"] = false,
             ["priceRobux"] = 399,
             ["name"] = "Hannah",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 23, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 83730490,
             ["renderImage"] = "rbxassetid://10726577232",
             ["kitClass"] = 0,
@@ -288,31 +341,47 @@ data = {
             ["description"] = "Use a Metal Detector to find treasure around the map."
         },
         ["builder"] = {
+            ["description"] = "Fortify blocks with extra health and blast protection using the Builder's hammer. Purchase the Hammer from the Item Shop.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 19088340,
-            ["description"] = "Fortify blocks with extra health and blast protection using the Builder's hammer. Purchase the Hammer from the Item Shop.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 4, ["priceBedCoins"] = 10000},
             ["name"] = "Builder",
             ["renderImage"] = "rbxassetid://9155463708",
             ["kitClass"] = 2,
             ["previewItems"] = {"hammer"}
         },
+        ["black_market_trader"] = {
+            ["description"] = "Summon a secret black market offering powerful potions and random deals. Earn a cut from every sale, and use shadow coins gathered from fallen players to upgrade your shop.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 34, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Wren",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 893911891,
+            ["abilities"] = {
+                {["innate"] = true, ["abilityId"] = "open_black_market"},
+                {["abilityId"] = "close_black_market"}
+            },
+            ["kitClass"] = 5,
+            ["renderImage"] = "rbxassetid://18922642482"
+        },
         ["jellyfish"] = {
             ["priceRobux"] = 399,
             ["name"] = "Marina",
-            ["description"] = "Deploy jellyfish and electrify them with your Electric Pulse ability, causing them to zap nearby enemies. Connect jellyfish to increase the range and power of your ability.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 32, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 850765902,
             ["renderImage"] = "rbxassetid://18129974852",
             ["kitClass"] = 2,
-            ["featured"] = true
+            ["description"] = "Deploy jellyfish and electrify them with your Electric Pulse ability, causing them to zap nearby enemies. Connect jellyfish to increase the range and power of your ability."
         },
         ["harpoon"] = {
             ["priceRobux"] = 399,
             ["name"] = "Triton",
-            ["description"] = "An agile warrior with a Trident! Hurl your trident toward a wall, or your opponents, to quickly travel and dominate the battlefield.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 31, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 845519348,
             ["renderImage"] = "rbxassetid://18250634847",
             ["kitClass"] = 3,
-            ["featured"] = true
+            ["description"] = "An agile warrior with a Trident! Hurl your trident toward a wall, or your opponents, to quickly travel and dominate the battlefield."
         },
         ["styx"] = {
             ["unlockedInBattlePass"] = true,
@@ -339,18 +408,20 @@ data = {
             ["description"] = "Connect your Confluence portal to a slain enemy to teleport you and your allies to their location."
         },
         ["archer"] = {
+            ["description"] = "Deal 20% more projectile damage and gain access to the Tactical Crossbow in the Item Shop.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 6, ["priceBedCoins"] = 10000},
             ["forgeGearSubstitutes"] = {["wood_crossbow"] = "tactical_crossbow", ["headhunter"] = "tactical_headhunter"},
             ["priceRobux"] = 399,
             ["gamepassId"] = 19275795,
-            ["description"] = "Deal 20% more projectile damage and gain access to the Tactical Crossbow in the Item Shop.",
-            ["renderImage"] = "rbxassetid://9224796984",
             ["name"] = "Archer",
+            ["renderImage"] = "rbxassetid://9224796984",
             ["kitClass"] = 7,
             ["previewItems"] = {"tactical_crossbow"}
         },
         ["mimic"] = {
             ["priceRobux"] = 399,
             ["name"] = "Milo",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 28, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 255781462,
             ["renderImage"] = "rbxassetid://14783283296",
             ["kitClass"] = 5,
@@ -376,6 +447,7 @@ data = {
             ["forgeGearSubstitutes"] = {["wood_sword"] = "frosty_hammer"},
             ["priceRobux"] = 399,
             ["name"] = "Adetunde",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 26, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 111620008,
             ["renderImage"] = "rbxassetid://11838567073",
             ["kitClass"] = 0,
@@ -391,9 +463,10 @@ data = {
             ["previewItems"] = {"mending_canopy_staff_tier_3"}
         },
         ["vulcan"] = {
+            ["description"] = "Use a high-tech tablet to control camera turrets across the map.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 21421966,
-            ["description"] = "Use a high-tech tablet to control camera turrets across the map.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 14, ["priceBedCoins"] = 10000},
             ["name"] = "Vulcan",
             ["renderImage"] = "rbxassetid://9155465543",
             ["kitClass"] = 2,
@@ -434,12 +507,16 @@ data = {
             ["limitedTime"] = true,
             ["previewItems"] = {"void_axe"}
         },
-        ["owl"] = {
-            ["notGiftable"] = true,
-            ["name"] = "Whisper",
-            ["renderImage"] = "rbxassetid://12509401147",
-            ["kitClass"] = 6,
-            ["description"] = "Control a Spirit Owl to support ally players. Unlocked at Player Level 10."
+        ["summoner"] = {
+            ["description"] = "Summon a powerful dragon's claw to swipe multiple enemies, or summon a dragon's head from a rune below you to damage any surrounding enemies. Upgrade your claw and spell by damaging enemies with your summon spell.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 37, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Kaida",
+            ["gamepassId"] = 893937811,
+            ["disableKitRenting"] = true,
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://18922378956"
         },
         ["wind_walker"] = {
             ["unlockedInBattlePass"] = true,
@@ -538,9 +615,10 @@ data = {
             ["description"] = "Deploy robots that search for generators and collect resources!"
         },
         ["triple_shot"] = {
+            ["description"] = "Supercharge your bow to perform a triple shot.",
             ["priceRobux"] = 399,
             ["name"] = "Vanessa",
-            ["description"] = "Supercharge your bow to perform a triple shot.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 17, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://9166208149",
             ["gamepassId"] = 24913310,
             ["kitClass"] = 7,
@@ -579,15 +657,18 @@ data = {
             ["description"] = "Buy eggs & hatch them into chickens! Chickens can either be sold back to the merchant or deployed in combat!"
         },
         ["shielder"] = {
+            ["description"] = "Spawn with a massive shield. Gain energy while holding your shield, and raise your shield to deflect incoming projectiles.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 19546564,
-            ["description"] = "Spawn with a massive shield. Gain energy while holding your shield, and raise your shield to deflect incoming projectiles.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 7, ["priceBedCoins"] = 10000},
             ["name"] = "Infernal Shielder",
             ["renderImage"] = "rbxassetid://9155464114",
             ["kitClass"] = 1,
             ["previewItems"] = {"infernal_shield"}
         },
         ["dasher"] = {
+            ["description"] = "Swords are replaced by traditional Dao Swords. Hold attack to execute a forward dash AOE attack.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 19, ["priceBedCoins"] = 10000},
             ["forgeGearSubstitutes"] = {
                 ["wood_sword"] = "wood_dao",
                 ["iron_sword"] = "iron_dao",
@@ -597,15 +678,15 @@ data = {
             },
             ["priceRobux"] = 399,
             ["name"] = "Yuzi",
-            ["description"] = "Swords are replaced by traditional Dao Swords. Hold attack to execute a forward dash AOE attack.",
-            ["renderImage"] = "rbxassetid://9155467645",
             ["gamepassId"] = 28594502,
+            ["renderImage"] = "rbxassetid://9155467645",
             ["kitClass"] = 3,
             ["previewItems"] = {"emerald_dao"}
         },
         ["cyber"] = {
             ["priceRobux"] = 399,
             ["name"] = "Cyber",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 21, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://9507126891",
             ["gamepassId"] = 42490369,
             ["kitClass"] = 5,
@@ -622,6 +703,7 @@ data = {
         ["dragon_sword"] = {
             ["priceRobux"] = 399,
             ["name"] = "Lian",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 30, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 719110861,
             ["renderImage"] = "rbxassetid://16215630104",
             ["kitClass"] = 0,
@@ -653,9 +735,10 @@ data = {
             ["description"] = "Every time you take damage you have a chance of dropping a battery on the ground. Once the battery activates you can pick it up for a small shield. After collecting 3 batteries you will overload, gaining movement speed and damage!"
         },
         ["farmer_cletus"] = {
+            ["description"] = "Invest your resources into crops that yield more diamonds and emeralds.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 18876495,
-            ["description"] = "Invest your resources into crops that yield more diamonds and emeralds.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 1, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://9155466936",
             ["name"] = "Farmer Cletus",
             ["kitClass"] = 5,
@@ -664,6 +747,7 @@ data = {
         ["disruptor"] = {
             ["priceRobux"] = 399,
             ["name"] = "Zenith",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 25, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 104797973,
             ["renderImage"] = "rbxassetid://11596993583",
             ["kitClass"] = 5,
@@ -678,9 +762,10 @@ data = {
             ["description"] = "An ascended healer, Lani can purchase the Scepter of Light. Use this Scepter to fly to your low health allies, providing healing and damage reduction!"
         },
         ["melody"] = {
+            ["description"] = "Use a guitar and the power of music to heal nearby teammates. Heal yourself for 50% of heal given.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 19722364,
-            ["description"] = "Use a guitar and the power of music to heal nearby teammates. Heal yourself for 20% of heal given.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 8, ["priceBedCoins"] = 10000},
             ["name"] = "Melody",
             ["renderImage"] = "rbxassetid://9155464915",
             ["kitClass"] = 6,
@@ -689,6 +774,7 @@ data = {
         ["necromancer"] = {
             ["priceRobux"] = 399,
             ["name"] = "Crypt",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 24, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://11343458097",
             ["gamepassId"] = 97149830,
             ["kitClass"] = 0,
@@ -757,9 +843,10 @@ data = {
             ["previewItems"] = {"bee_net"}
         },
         ["cowgirl"] = {
+            ["description"] = "Wrangle enemies towards you using a lasso.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 20645574,
-            ["description"] = "Wrangle enemies towards you using a lasso.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 11, ["priceBedCoins"] = 10000},
             ["name"] = "Lassy",
             ["renderImage"] = "rbxassetid://9155462968",
             ["kitClass"] = 0,
@@ -816,9 +903,10 @@ data = {
             ["description"] = "Place banners to empower nearby allies."
         },
         ["miner"] = {
+            ["description"] = "Killing enemies turns them into stone. The Miner can then break down the stone for valuables resources (scaled by the price of the enemy's armor + sword). Unable to purchase Axes.",
             ["priceRobux"] = 399,
             ["name"] = "Miner",
-            ["description"] = "Killing enemies turns them into stone. The Miner can then break down the stone for valuables resources (scaled by the price of the enemy's armor + sword). Unable to purchase Axes.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 20, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 33821514,
             ["renderImage"] = "rbxassetid://9166208461",
             ["kitClass"] = 5,
@@ -878,6 +966,7 @@ data = {
         },
         ["grim_reaper"] = {
             ["description"] = "Consuming enemy souls grants health regen, movespeed, and invulnerability for 2.5s. Combat is disabled while consuming.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 12, ["priceBedCoins"] = 10000},
             ["priceRobux"] = 399,
             ["gamepassId"] = 20872871,
             ["lore"] = {
@@ -902,14 +991,15 @@ data = {
                 ["author"] = "Grishma",
                 ["storyTitle"] = "Destined Threads"
             },
-            ["name"] = "Grim Reaper",
             ["renderImage"] = "rbxassetid://9155467410",
+            ["name"] = "Grim Reaper",
             ["kitClass"] = 0,
             ["previewItems"] = {}
         },
         ["davey"] = {
             ["priceRobux"] = 399,
             ["gamepassId"] = 20030035,
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 9, ["priceBedCoins"] = 10000},
             ["description"] = "Use a TNT Cannon to bombard your enemies.",
             ["renderImage"] = "rbxassetid://9155464612",
             ["kitClass"] = 4,
@@ -934,6 +1024,7 @@ data = {
         ["warlock"] = {
             ["priceRobux"] = 399,
             ["name"] = "Eldric",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 29, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://15186338366",
             ["gamepassId"] = 641095710,
             ["kitClass"] = 0,
@@ -956,9 +1047,10 @@ data = {
             ["description"] = "Summon cards to attack players! Deal damage to enhance your cards with different effects."
         },
         ["angel"] = {
+            ["description"] = "Ascend into an angelic form and switch freely between Light and Void. When you melee attack, Light form grants shield for you and allies, and Void form inflicts max health decay on your target.",
             ["priceRobux"] = 399,
             ["name"] = "Trinity",
-            ["description"] = "Upon reaching three kills, choose between a Light and Void transformation. As the Light Angel, heal nearby teammates when damaging enemies. As the Void Angel, attacks will life steal.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 15, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://9166208240",
             ["devProductId"] = 1207029649,
             ["kitClass"] = 6,
@@ -974,9 +1066,10 @@ data = {
             ["description"] = "Transform into Dragon Form, unlocking a decaying dragon breath and the ability to fly. Items can't be used while in dragon form and damage scales with the highest tier sword obtained."
         },
         ["wizard"] = {
+            ["description"] = "Use a magical staff to cast lightning spells.",
             ["priceRobux"] = 399,
             ["gamepassId"] = 21261740,
-            ["description"] = "Use a magical staff to cast lightning spells.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 13, ["priceBedCoins"] = 10000},
             ["renderImage"] = "rbxassetid://13353923546",
             ["name"] = "Zeno (Wizard)",
             ["kitClass"] = 7,
@@ -992,3 +1085,4 @@ data = {
             ["previewItems"] = {"fishing_rod"}
         }
     }
+}
