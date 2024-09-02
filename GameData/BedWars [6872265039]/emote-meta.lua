@@ -143,7 +143,13 @@ data = {
         ["gingerbread_cozy"] = {["name"] = "Gingerbread Man Cozy", ["image"] = "rbxassetid://11826383613"},
         ["amy_..."] = {["name"] = "Amy Are You Serious?", ["image"] = "rbxassetid://12501237969"},
         ["builder_leave_door"] = {["name"] = "Builder Door Is Over There", ["image"] = "rbxassetid://12501238752"},
+        ["raven_ok"] = {["image"] = "rbxassetid://71231274055075", ["name"] = "Raven Ok", ["emoteDisplayType"] = 0},
         ["hannah_ghost_moment"] = {["name"] = "Hannah Ghost Moment", ["image"] = "rbxassetid://10736278063"},
+        ["zephyr_yelling"] = {
+            ["image"] = "rbxassetid://132175515960452",
+            ["name"] = "Zephyr Yelling",
+            ["emoteDisplayType"] = 0
+        },
         ["baker_item_prot"] = {["name"] = "Item Protection", ["image"] = "rbxassetid://9869089454"},
         ["aery_pro"] = {["image"] = "rbxassetid://12501232250", ["name"] = "Pro Aery", ["emoteDisplayType"] = 0},
         ["diamond_guardian"] = {
@@ -151,8 +157,19 @@ data = {
             ["name"] = "Epilogue: Diamond Guardian Wave",
             ["emoteDisplayType"] = 0
         },
+        ["vulcan_loading"] = {
+            ["image"] = "rbxassetid://12501237081",
+            ["name"] = "Vulcan Loading...",
+            ["emoteDisplayType"] = 0
+        },
+        ["rebellion_leader_dodo"] = {
+            ["image"] = "rbxassetid://133464446529665",
+            ["name"] = "Silas Charge!!",
+            ["emoteDisplayType"] = 0
+        },
         ["tiger_well_played"] = {["name"] = "Well Played", ["image"] = "rbxassetid://9869094059"},
         ["face_palm"] = {["name"] = "Face Palm", ["animation"] = {["type"] = 435}},
+        ["dragon_kit_duel"] = {["image"] = "rbxassetid://16203046558", ["name"] = "Lian Duel", ["emoteDisplayType"] = 0},
         ["spirit_catcher_lol"] = {["image"] = "rbxassetid://12501236672", ["name"] = "LOL", ["emoteDisplayType"] = 0},
         ["lassy_emeralds"] = {
             ["image"] = "rbxassetid://7336097554",
@@ -164,6 +181,13 @@ data = {
             ["name"] = "Cletus Carrot",
             ["emoteDisplayType"] = 0
         },
+        ["hatter_shy"] = {["name"] = "Umbra Shy", ["image"] = "rbxassetid://12500888974"},
+        ["amy_floatie"] = {["image"] = "rbxassetid://18139254615", ["name"] = "Amy Floatie", ["emoteDisplayType"] = 0},
+        ["freiya_salad_meme"] = {
+            ["image"] = "rbxassetid://15374477205",
+            ["name"] = "Freiya Salad Meme",
+            ["emoteDisplayType"] = 0
+        },
         ["jade_im_the_best"] = {["name"] = "Jade I'm The Best", ["image"] = "rbxassetid://9877587939"},
         ["void_dragon_art"] = {["name"] = "Xu'rot Pose", ["image"] = "rbxassetid://12501243022"},
         ["raven_sketch"] = {["image"] = "rbxassetid://12501230009", ["name"] = "Raven Sketch", ["emoteDisplayType"] = 0},
@@ -173,13 +197,24 @@ data = {
             ["name"] = "Side to Side",
             ["animation"] = {["looped"] = true, ["type"] = 142}
         },
+        ["sword_twirl"] = {
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://82352415244830"}},
+            ["name"] = "Assassin's Sword Twirl",
+            ["animation"] = {["hideItemInHand"] = true, ["type"] = 638, ["previewItems"] = {"iron_dagger"}}
+        },
         ["cat_friend"] = {["image"] = "rbxassetid://15374476730", ["name"] = "Cat Friend", ["emoteDisplayType"] = 0},
+        ["gompy_rock"] = {["image"] = "rbxassetid://15055642610", ["name"] = "Gompy Rock", ["emoteDisplayType"] = 0},
         ["nightmare_grim_reaper"] = {
             ["image"] = "rbxassetid://15515573868",
             ["name"] = "Season 8 NM Grim Reaper",
             ["emoteDisplayType"] = 0
         },
         ["bathing_in_money"] = {["name"] = "Bathing in Money", ["image"] = "rbxassetid://12500886554"},
+        ["youre_wanted"] = {
+            ["image"] = "rbxassetid://139201500097098",
+            ["name"] = "You're Wanted",
+            ["emoteDisplayType"] = 0
+        },
         ["dance_2"] = {
             ["joinable"] = true,
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://9040055917", ["config"] = {["looped"] = true}}},
@@ -190,32 +225,70 @@ data = {
         ["crab_dance"] = {
             ["name"] = "Crab Dance",
             ["animation"] = {
-                ["type"] = 629,
+                ["type"] = 630,
                 ["previewReplicatedStorageAssets"] = {"Misc/Summer2024/CrabClawLeft", "Misc/Summer2024/CrabClawRight"},
                 ["looped"] = true
             },
             ["joinable"] = true,
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://18307525700", ["config"] = {["looped"] = true}}}
         },
+        ["terra_buff"] = {["image"] = "rbxassetid://78127638356548", ["name"] = "Terra Buff", ["emoteDisplayType"] = 0},
         ["baker_profit"] = {["name"] = "Baker Profit", ["image"] = "rbxassetid://12501238367"},
         ["bongo_cat_freiya"] = {["name"] = "Bongo Cat Freiya", ["image"] = "rbxassetid://12500886821"},
         ["easter_davey"] = {["image"] = "rbxassetid://16747971547", ["name"] = "Easter Davey", ["emoteDisplayType"] = 0},
+        ["trapper_proud"] = {
+            ["image"] = "rbxassetid://116196634524057",
+            ["name"] = "Trapper Proud",
+            ["emoteDisplayType"] = 0
+        },
         ["freiya_surprised"] = {
             ["image"] = "rbxassetid://12501234550",
             ["name"] = "Surprised Freiya",
             ["emoteDisplayType"] = 0
         },
+        ["trader_huh"] = {["image"] = "rbxassetid://110074889098241", ["name"] = "Trader Huh", ["emoteDisplayType"] = 0},
         ["builder_sheesh"] = {["name"] = "Builder Sheesh", ["image"] = "rbxassetid://12501238937"},
+        ["trader_donate"] = {
+            ["image"] = "rbxassetid://120928154469886",
+            ["name"] = "Trader Donate",
+            ["emoteDisplayType"] = 0
+        },
+        ["warrior_update_day"] = {
+            ["image"] = "rbxassetid://12501237183",
+            ["name"] = "Update Hype",
+            ["emoteDisplayType"] = 0
+        },
         ["nice"] = {["image"] = "rbxassetid://12501236114", ["name"] = "Nyx Nice", ["emoteDisplayType"] = 0},
+        ["lumen_confused"] = {
+            ["image"] = "rbxassetid://13830036199",
+            ["name"] = "Lumen Confused",
+            ["emoteDisplayType"] = 0
+        },
         ["two_year_barb"] = {
             ["image"] = "rbxassetid://13557386479",
             ["name"] = "2 Year Anniversary Barb",
             ["emoteDisplayType"] = 0
         },
+        ["sorcery_duo"] = {
+            ["image"] = "rbxassetid://128626012767369",
+            ["name"] = "Sorcery Duo",
+            ["emoteDisplayType"] = 0
+        },
         ["card"] = {["image"] = "rbxassetid://13840139907", ["name"] = "Fortuna", ["emoteDisplayType"] = 0},
+        ["sorcerer_rage"] = {
+            ["image"] = "rbxassetid://132527007341460",
+            ["name"] = "Sorcerer Rage",
+            ["emoteDisplayType"] = 0
+        },
         ["barbarian_wave"] = {
             ["image"] = "rbxassetid://12501233153",
             ["name"] = "Barbarian Wave",
+            ["emoteDisplayType"] = 0
+        },
+        ["milo_sleep"] = {["image"] = "rbxassetid://15374478928", ["name"] = "Milo Sleep", ["emoteDisplayType"] = 0},
+        ["sorcerer_laugh"] = {
+            ["image"] = "rbxassetid://100904728981868",
+            ["name"] = "Sorcerer Laugh",
             ["emoteDisplayType"] = 0
         },
         ["dragon_kit_stare"] = {
@@ -225,16 +298,26 @@ data = {
         },
         ["yeti_gift"] = {["image"] = "rbxassetid://15643379441", ["name"] = "Yeti Gift", ["emoteDisplayType"] = 0},
         ["stocking"] = {["image"] = "rbxassetid://12501230914", ["name"] = "Stocking", ["emoteDisplayType"] = 0},
+        ["sorcerer_aura"] = {
+            ["image"] = "rbxassetid://118586011127869",
+            ["name"] = "Sorcerer Aura",
+            ["emoteDisplayType"] = 0
+        },
         ["grim_reaper_lantern"] = {
             ["image"] = "rbxassetid://7336097765",
             ["name"] = "Grim Reaper Lantern",
             ["emoteDisplayType"] = 0
         },
-        ["agni_warming"] = {["name"] = "Agni Warming", ["emoteDisplayType"] = 0},
+        ["agni_warming"] = {["image"] = "rbxassetid://18566222998", ["name"] = "Agni Warming", ["emoteDisplayType"] = 0},
         ["ghost_ready"] = {["image"] = "rbxassetid://13830035275", ["name"] = "Ghost Ready", ["emoteDisplayType"] = 0},
         ["hatter_heart"] = {["name"] = "Umbra Heart", ["image"] = "rbxassetid://12500888743"},
         ["vulcan_gg"] = {["image"] = "rbxassetid://7336096512", ["name"] = "Vulcan GG", ["emoteDisplayType"] = 0},
         ["sheila_new_years"] = {["name"] = "Sheila New Year's 2023", ["image"] = "rbxassetid://11978287805"},
+        ["smoke_red_flag"] = {
+            ["image"] = "rbxassetid://112088083091397",
+            ["name"] = "Smoke Red Flag",
+            ["emoteDisplayType"] = 0
+        },
         ["metal_detector_boring"] = {["name"] = "Metal Detector Boring", ["image"] = "rbxassetid://12501241811"},
         ["vulcan_lantern"] = {
             ["image"] = "rbxassetid://8665895935",
@@ -243,9 +326,19 @@ data = {
         },
         ["cyber_mad"] = {["name"] = "Cyber Mad", ["image"] = "rbxassetid://11695283128"},
         ["pinata_party_time"] = {["name"] = "Piñata Party Time", ["image"] = "rbxassetid://12501242265"},
+        ["summon_snow"] = {
+            ["animation"] = {["hideItemInHand"] = true, ["type"] = 518},
+            ["name"] = "Summon Snow",
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://15643754843", ["config"] = {["rollOffMaxDistance"] = 50}}}
+        },
         ["surfer_hot"] = {
             ["image"] = "rbxassetid://18139255592",
             ["name"] = "Surfer Heat Wave",
+            ["emoteDisplayType"] = 0
+        },
+        ["monk_meditation"] = {
+            ["image"] = "rbxassetid://116906963693286",
+            ["name"] = "Monk Meditation",
             ["emoteDisplayType"] = 0
         },
         ["miner_laugh"] = {["image"] = "rbxassetid://12501235696", ["name"] = "Miner HAHA!", ["emoteDisplayType"] = 0},
@@ -255,6 +348,11 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["freiya_2"] = {["image"] = "rbxassetid://12501228740", ["name"] = "Freiya Hoodie", ["emoteDisplayType"] = 0},
+        ["marina_panic"] = {
+            ["image"] = "rbxassetid://83074261097952",
+            ["name"] = "Marina Panic",
+            ["emoteDisplayType"] = 0
+        },
         ["de_vanessa_speechless"] = {
             ["image"] = "rbxassetid://12501233814",
             ["name"] = "Vanessa Speechless",
@@ -265,8 +363,11 @@ data = {
             ["name"] = "Infernal Surfer Wink",
             ["emoteDisplayType"] = 0
         },
+        ["cyber_defense"] = {["name"] = "Vulcan Defense", ["image"] = "rbxassetid://9869090746"},
+        ["stella_heart"] = {["name"] = "Stella Heart", ["image"] = "rbxassetid://12501242527"},
         ["yuzi_hype"] = {["image"] = "rbxassetid://12501237381", ["name"] = "Yuzi Hype", ["emoteDisplayType"] = 0},
         ["baker_piece_of_cake"] = {["name"] = "Piece of Cake", ["image"] = "rbxassetid://9869089602"},
+        ["amy_easter_no_iron"] = {["name"] = "Amy No Iron?", ["image"] = "rbxassetid://12501238257"},
         ["ready_up"] = {["image"] = "rbxassetid://7804179628", ["name"] = "Ready Up!", ["emoteDisplayType"] = 0},
         ["raining_gems"] = {["name"] = "Raining Gems", ["image"] = "rbxassetid://9869092943"},
         ["cletus_plushie"] = {
@@ -282,15 +383,38 @@ data = {
         ["spirit_assassin_top_assassin"] = {
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://16381619795"}},
             ["name"] = "Top Assassin",
-            ["animation"] = {["hideItemInHand"] = true, ["type"] = 552, ["previewItems"] = {"spirit_dagger"}}
+            ["animation"] = {["hideItemInHand"] = true, ["type"] = 553, ["previewItems"] = {"spirit_dagger"}}
+        },
+        ["goodnight_dance"] = {
+            ["joinable"] = true,
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://118202249776048", ["config"] = {["looped"] = true}}},
+            ["name"] = "Goodnight Dance",
+            ["animation"] = {["looped"] = true, ["type"] = 636}
+        },
+        ["dragon_roar"] = {
+            ["image"] = "rbxassetid://111404453226648",
+            ["name"] = "Dragon Roar",
+            ["emoteDisplayType"] = 0
         },
         ["vulcan_lets_go"] = {
             ["image"] = "rbxassetid://7336096035",
             ["name"] = "Vulcan Let's Go!",
             ["emoteDisplayType"] = 0
         },
+        ["davey_win"] = {["image"] = "rbxassetid://78240443543545", ["name"] = "Davey Win", ["emoteDisplayType"] = 0},
+        ["builder_ready"] = {
+            ["image"] = "rbxassetid://106099340994861",
+            ["name"] = "Builder Ready",
+            ["emoteDisplayType"] = 0
+        },
+        ["cyber_dab"] = {["name"] = "Cyber Dab", ["image"] = "rbxassetid://9869090487"},
         ["clan_invite"] = {["image"] = "rbxassetid://12501233620", ["name"] = "Clan Invite", ["emoteDisplayType"] = 0},
         ["jade_bonking"] = {["name"] = "Jade Bonking", ["image"] = "rbxassetid://12500889273"},
+        ["tnt"] = {["name"] = "TNT", ["image"] = "rbxassetid://12500892311"},
+        ["MAP_CONTEST_WINNER"] = {
+            ["name"] = "Contest Winner Celebration",
+            ["animation"] = {["type"] = 565, ["noAutoPlayAnimation"] = true, ["looped"] = false}
+        },
         ["sad_gompy"] = {["image"] = "rbxassetid://12501230481", ["name"] = "Sad Gompy", ["emoteDisplayType"] = 0},
         ["xmas_lassy_catch"] = {["name"] = "Christmas Lassy Lasso", ["image"] = "rbxassetid://11826383290"},
         ["lassy_celebration"] = {
@@ -312,7 +436,11 @@ data = {
             ["name"] = "2 Year Anniversary Star Collector",
             ["emoteDisplayType"] = 0
         },
-        ["smoke_wave"] = {["name"] = "Smoke Wave", ["image"] = "rbxassetid://9869093445"},
+        ["nightmare_season_6"] = {
+            ["image"] = "rbxassetid://12739734363",
+            ["name"] = "Season 6 Nightmare",
+            ["emoteDisplayType"] = 0
+        },
         ["spirit_assassin_hearts"] = {
             ["image"] = "rbxassetid://16382243583",
             ["name"] = "Evelynn Hearts",
@@ -377,7 +505,7 @@ data = {
             ["name"] = "Winstreak +1",
             ["emoteDisplayType"] = 0
         },
-        ["dropped_this_crown"] = {["name"] = "You Dropped This Crown", ["animation"] = {["type"] = 590}},
+        ["dropped_this_crown"] = {["name"] = "You Dropped This Crown", ["animation"] = {["type"] = 591}},
         ["fire_dragon_win_streak"] = {["name"] = "Kaliyah Win Streak", ["image"] = "rbxassetid://12501240263"},
         ["krampus_ember"] = {
             ["image"] = "rbxassetid://15643379302",
@@ -420,7 +548,11 @@ data = {
         ["farmer_not_bad"] = {["name"] = "Farmer Cletus Not Bad", ["image"] = "rbxassetid://12501239966"},
         ["chilly"] = {["name"] = "Chilly", ["image"] = "rbxassetid://11826384043"},
         ["bee_cute"] = {["image"] = "rbxassetid://7804181490", ["name"] = "Bee Cute", ["emoteDisplayType"] = 0},
-        ["amy_floatie"] = {["image"] = "rbxassetid://18139254615", ["name"] = "Amy Floatie", ["emoteDisplayType"] = 0},
+        ["baker_seriously"] = {
+            ["image"] = "rbxassetid://112697019428937",
+            ["name"] = "Baker Seriously?",
+            ["emoteDisplayType"] = 0
+        },
         ["heart"] = {["image"] = "rbxassetid://12501229442", ["name"] = "Ghosty Love", ["emoteDisplayType"] = 0},
         ["void_terra_thumbs_up"] = {
             ["image"] = "rbxassetid://17003375239",
@@ -445,24 +577,23 @@ data = {
         ["hannah_fired_up"] = {["name"] = "Hannah Fired Up", ["image"] = "rbxassetid://10759063729"},
         ["pumpkin_bomb"] = {["image"] = "rbxassetid://15055643231", ["name"] = "Pumpkin Bomb", ["emoteDisplayType"] = 0},
         ["balloons"] = {["image"] = "rbxassetid://12501226981", ["name"] = "Balloons", ["emoteDisplayType"] = 0},
-        ["reaper_got_em"] = {["name"] = "Reaper Got Em", ["image"] = "rbxassetid://9869093287"},
+        ["smoke_wave"] = {["name"] = "Smoke Wave", ["image"] = "rbxassetid://9869093445"},
         ["three_year_baker"] = {
             ["image"] = "rbxassetid://17770325420",
             ["name"] = "Catch This",
             ["emoteDisplayType"] = 0
         },
-        ["selfie"] = {["image"] = "rbxassetid://12501230654", ["name"] = "Christmas Selfie", ["emoteDisplayType"] = 0},
+        ["academy_aery_read"] = {
+            ["image"] = "rbxassetid://12501231783",
+            ["name"] = "Aery Read",
+            ["emoteDisplayType"] = 0
+        },
         ["headless_cletus"] = {
             ["image"] = "rbxassetid://7804180489",
             ["name"] = "Headless Cletus",
             ["emoteDisplayType"] = 0
         },
-        ["kazotsky_kick"] = {
-            ["joinable"] = true,
-            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://9044682364", ["config"] = {["looped"] = true}}},
-            ["name"] = "Kazotsky Kick",
-            ["animation"] = {["looped"] = true, ["type"] = 437}
-        },
+        ["aery_hmph"] = {["image"] = "rbxassetid://13840384551", ["name"] = "Aery Hmph", ["emoteDisplayType"] = 0},
         ["three_year_barbarian"] = {
             ["image"] = "rbxassetid://17770326022",
             ["name"] = "3 Year Anniversary Barbarian",
@@ -493,7 +624,7 @@ data = {
         },
         ["conga_line"] = {
             ["name"] = "Conga Line",
-            ["animation"] = {["speed"] = 0.918, ["type"] = 596, ["looped"] = true},
+            ["animation"] = {["speed"] = 0.918, ["type"] = 597, ["looped"] = true},
             ["joinable"] = true,
             ["allowMovement"] = true,
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://17579855402", ["config"] = {["looped"] = true}}}
@@ -505,7 +636,7 @@ data = {
         },
         ["silly_legs_dance"] = {
             ["name"] = "Silly Legs Dance",
-            ["animation"] = {["looped"] = true, ["type"] = 591},
+            ["animation"] = {["looped"] = true, ["type"] = 592},
             ["joinable"] = true,
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://17206744950", ["config"] = {["looped"] = true}}}
         },
@@ -529,9 +660,9 @@ data = {
             ["name"] = "Knifed up Raven",
             ["emoteDisplayType"] = 0
         },
-        ["star_collector_chocolate_bunny"] = {
-            ["image"] = "rbxassetid://13030627055",
-            ["name"] = "Easter Star Collector Choco Bunny",
+        ["amy_easter_murder"] = {
+            ["image"] = "rbxassetid://13030624582",
+            ["name"] = "Easter Amy Murderous",
             ["emoteDisplayType"] = 0
         },
         ["trinity_punch"] = {
@@ -539,7 +670,7 @@ data = {
             ["name"] = "Trinity Punch",
             ["emoteDisplayType"] = 0
         },
-        ["marco_diamond_sword"] = {["name"] = "Diamond Sword Discount", ["image"] = "rbxassetid://12500890960"},
+        ["penguin_deal_with_it"] = {["name"] = "Penguin Deal With It", ["image"] = "rbxassetid://11695283005"},
         ["flowers_for_you"] = {
             ["image"] = "rbxassetid://13830034958",
             ["name"] = "Flowers For You",
@@ -564,10 +695,14 @@ data = {
             ["name"] = "Sandwich Farmer",
             ["emoteDisplayType"] = 0
         },
-        ["barb_xmas_lights"] = {["name"] = "Barb Christmas Lights", ["image"] = "rbxassetid://11826384355"},
-        ["break_bed"] = {["image"] = "rbxassetid://7336098864", ["name"] = "Bed Break", ["emoteDisplayType"] = 0},
-        ["all_good"] = {["image"] = "rbxassetid://12930117869", ["name"] = "All Good", ["emoteDisplayType"] = 0},
-        ["ghost_catcher_in_love"] = {["name"] = "Spirit Catcher In Love", ["image"] = "rbxassetid://12501240908"},
+        ["mountain_cool"] = {["name"] = "Frost Cool", ["image"] = "rbxassetid://11841613999"},
+        ["reaper_smile"] = {["image"] = "rbxassetid://7804179416", ["name"] = "Reaper Smile", ["emoteDisplayType"] = 0},
+        ["conqueror_fireball"] = {
+            ["image"] = "rbxassetid://12930118211",
+            ["name"] = "Conqueror Fireball",
+            ["emoteDisplayType"] = 0
+        },
+        ["freiya_beg"] = {["image"] = "rbxassetid://9877587705", ["name"] = "Freiya Hearts", ["disabled"] = true},
         ["gompy_caught_in_4k"] = {
             ["image"] = "rbxassetid://17003372094",
             ["name"] = "Gompy Caught in 4K",
@@ -582,7 +717,7 @@ data = {
             ["name"] = "Beach Vacation",
             ["animation"] = {["hideItemInHand"] = true, ["type"] = 184, ["looped"] = true}
         },
-        ["lani_point"] = {["name"] = "Lani Point", ["image"] = "rbxassetid://12500890276"},
+        ["lucia_whats_poppin"] = {["name"] = "Whats Poppin", ["image"] = "rbxassetid://12500890680"},
         ["baker_sad"] = {["image"] = "rbxassetid://17003370215", ["name"] = "Baker Sad", ["emoteDisplayType"] = 0},
         ["crocowolf_you_cant_run"] = {["name"] = "Crocowolf You Can't Run", ["image"] = "rbxassetid://12501239423"},
         ["agni_angry"] = {["image"] = "rbxassetid://17003369903", ["name"] = "Agni Angry", ["emoteDisplayType"] = 0},
@@ -603,17 +738,22 @@ data = {
             ["name"] = "Kaliyah Pumped Up",
             ["emoteDisplayType"] = 0
         },
-        ["stella_heart"] = {["name"] = "Stella Heart", ["image"] = "rbxassetid://12501242527"},
+        ["void_dragon_angry"] = {["name"] = "Xu'rot Angry", ["image"] = "rbxassetid://12501242804"},
         ["pirates_goodbye"] = {["name"] = "Pirate's Goodbye", ["animation"] = {["looped"] = false, ["type"] = 233}},
         ["jade_heart"] = {["image"] = "rbxassetid://12501235041", ["name"] = "Jade Heart", ["emoteDisplayType"] = 0},
         ["amy_hello"] = {["image"] = "rbxassetid://13830033671", ["name"] = "Amy Hello", ["emoteDisplayType"] = 0},
-        ["MAP_CONTEST_WINNER"] = {
-            ["name"] = "Contest Winner Celebration",
-            ["animation"] = {["type"] = 564, ["noAutoPlayAnimation"] = true, ["looped"] = false}
+        ["griddy"] = {
+            ["name"] = "Griddy",
+            ["animation"] = {["looped"] = true, ["type"] = 635},
+            ["joinable"] = true,
+            ["allowMovement"] = true,
+            ["soundsOnBegin"] = {
+                {["sound"] = "rbxassetid://18965008300", ["config"] = {["looped"] = true, ["volumeMultiplier"] = 1.25}}
+            }
         },
         ["coin_fountain"] = {
             ["name"] = "Coin Fountain",
-            ["animation"] = {["type"] = 561, ["noAutoPlayAnimation"] = true, ["looped"] = false}
+            ["animation"] = {["type"] = 562, ["noAutoPlayAnimation"] = true, ["looped"] = false}
         },
         ["bed_king"] = {["image"] = "rbxassetid://7804181673", ["name"] = "Bed Camper", ["emoteDisplayType"] = 0},
         ["lunar_freiya_celebration"] = {
@@ -626,7 +766,11 @@ data = {
             ["name"] = "Lunar Freiya Cat",
             ["emoteDisplayType"] = 0
         },
-        ["dragon_kit_duel"] = {["image"] = "rbxassetid://16203046558", ["name"] = "Lian Duel", ["emoteDisplayType"] = 0},
+        ["noelle_butterfly"] = {
+            ["image"] = "rbxassetid://111493143080212",
+            ["name"] = "Noelle Mesmerized",
+            ["emoteDisplayType"] = 0
+        },
         ["lunar_xurot_meme"] = {
             ["image"] = "rbxassetid://16203049197",
             ["name"] = "Lunar Xu'rot Meme",
@@ -643,9 +787,9 @@ data = {
             ["name"] = "Christmas Dodo",
             ["emoteDisplayType"] = 0
         },
-        ["vulcan_loading"] = {
-            ["image"] = "rbxassetid://12501237081",
-            ["name"] = "Vulcan Loading...",
+        ["summoner_summon"] = {
+            ["image"] = "rbxassetid://75151758019987",
+            ["name"] = "Summoner Summon",
             ["emoteDisplayType"] = 0
         },
         ["dragon_kit_battle"] = {
@@ -659,24 +803,20 @@ data = {
             ["animation"] = {["hideItemInHand"] = true, ["type"] = 261, ["previewItems"] = {"light_sword"}}
         },
         ["necromancer_summon"] = {["name"] = "Crypt Summon", ["image"] = "rbxassetid://11366874409"},
-        ["rock_paper_scissors"] = {
-            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://13549776715"}},
-            ["name"] = "Rock Paper Scissors",
-            ["animation"] = {["looped"] = false, ["type"] = 183}
-        },
+        ["agni_boom"] = {["image"] = "rbxassetid://76914006723826", ["name"] = "Agni Boom", ["emoteDisplayType"] = 0},
         ["kit_mastery_emote"] = {
             ["emoteDisplayType"] = 0,
             ["name"] = "Kit Mastery Emote",
-            ["animation"] = {["looped"] = false, ["type"] = 557}
+            ["animation"] = {["looped"] = false, ["type"] = 558}
         },
         ["baker_holiday_eat"] = {
             ["image"] = "rbxassetid://15643378302",
             ["name"] = "Baker Holiday Eat",
             ["emoteDisplayType"] = 0
         },
-        ["freiya_salad_meme"] = {
-            ["image"] = "rbxassetid://15374477205",
-            ["name"] = "Freiya Salad Meme",
+        ["alchemist_dizzy"] = {
+            ["image"] = "rbxassetid://94058812383452",
+            ["name"] = "Alchemist Dizzy",
             ["emoteDisplayType"] = 0
         },
         ["surrender"] = {["image"] = "rbxassetid://7804178936", ["name"] = "Surrender", ["emoteDisplayType"] = 0},
@@ -692,11 +832,7 @@ data = {
             ["name"] = "Cozy Melody Smile",
             ["emoteDisplayType"] = 0
         },
-        ["summon_snow"] = {
-            ["animation"] = {["hideItemInHand"] = true, ["type"] = 518},
-            ["name"] = "Summon Snow",
-            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://15643754843", ["config"] = {["rollOffMaxDistance"] = 50}}}
-        },
+        ["raven_hmm"] = {["image"] = "rbxassetid://74699587679988", ["name"] = "Raven Hmm", ["emoteDisplayType"] = 0},
         ["grinch_milo_2024"] = {
             ["image"] = "rbxassetid://15774116077",
             ["name"] = "Grinch Milo 2024",
@@ -726,7 +862,7 @@ data = {
         ["trick_or_treat"] = {["name"] = "Trick or Treat!", ["image"] = "rbxassetid://11338410183"},
         ["dodo_plump"] = {["image"] = "rbxassetid://15374525439", ["name"] = "Dodo Plump", ["emoteDisplayType"] = 0},
         ["barb_pin"] = {["name"] = "Barbarian Pin", ["image"] = "rbxassetid://12500886416"},
-        ["penguin_king_trophy"] = {["name"] = "Penguin King Trophy", ["image"] = "rbxassetid://10321184147"},
+        ["hannah_sorry_not"] = {["name"] = "Hannah Sorry Not Sorry", ["image"] = "rbxassetid://10736277001"},
         ["taliyah_sparkle"] = {
             ["image"] = "rbxassetid://15374480702",
             ["name"] = "Taliyah Sparkle",
@@ -741,14 +877,18 @@ data = {
             ["name"] = "Research",
             ["animation"] = {["hideItemInHand"] = true, ["type"] = 260, ["previewItems"] = {"mage_spellbook"}}
         },
-        ["nightmare_season_6"] = {
-            ["image"] = "rbxassetid://12739734363",
-            ["name"] = "Season 6 Nightmare",
+        ["victorious_celebration_season_6"] = {
+            ["image"] = "rbxassetid://12739737832",
+            ["name"] = "Season 6 Victory",
             ["emoteDisplayType"] = 0
         },
         ["hannah_angry"] = {["image"] = "rbxassetid://13830035660", ["name"] = "Hannah Angry", ["emoteDisplayType"] = 0},
         ["grim_thriller"] = {["name"] = "Grim Reaper Thriller", ["image"] = "rbxassetid://11338409943"},
-        ["milo_sleep"] = {["image"] = "rbxassetid://15374478928", ["name"] = "Milo Sleep", ["emoteDisplayType"] = 0},
+        ["sorcerer_oops"] = {
+            ["image"] = "rbxassetid://108273333887917",
+            ["name"] = "Sorcerer Oops",
+            ["emoteDisplayType"] = 0
+        },
         ["ghost_davey"] = {["name"] = "Ghost Pirate Davey", ["image"] = "rbxassetid://10753604326"},
         ["academy_killer_instinct"] = {
             ["image"] = "rbxassetid://12501227430",
@@ -757,8 +897,8 @@ data = {
         },
         ["milo_scare"] = {["image"] = "rbxassetid://15374478730", ["name"] = "Milo Scare", ["emoteDisplayType"] = 0},
         ["oh_my_stars"] = {["name"] = "Oh My Stars!", ["image"] = "rbxassetid://9869092705"},
-        ["caitlyn_rock"] = {["image"] = "rbxassetid://13830034107", ["name"] = "Caitlyn Rock", ["emoteDisplayType"] = 0},
-        ["void_dragon_angry"] = {["name"] = "Xu'rot Angry", ["image"] = "rbxassetid://12501242804"},
+        ["bed_break"] = {["image"] = "rbxassetid://7336098864", ["name"] = "Bed Break", ["emoteDisplayType"] = 0},
+        ["zephyr_smug"] = {["name"] = "Zephyr Smug", ["image"] = "rbxassetid://12501243449"},
         ["melody_suprised"] = {
             ["image"] = "rbxassetid://15374478497",
             ["name"] = "Melody Surprised",
@@ -841,15 +981,19 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["hw_yuzi_pin"] = {["image"] = "rbxassetid://15055642905", ["name"] = "Doll Yuzi Pin", ["emoteDisplayType"] = 0},
-        ["gompy_rock"] = {["image"] = "rbxassetid://15055642610", ["name"] = "Gompy Rock", ["emoteDisplayType"] = 0},
+        ["trapper_warning"] = {
+            ["image"] = "rbxassetid://105064715491242",
+            ["name"] = "Trapper Warning",
+            ["emoteDisplayType"] = 0
+        },
         ["burning_the_bed"] = {["name"] = "Burn the bed", ["image"] = "rbxassetid://12500887452"},
-        ["amy_easter_murder"] = {
-            ["image"] = "rbxassetid://13030624582",
-            ["name"] = "Easter Amy Murderous",
+        ["two_year_spirit"] = {
+            ["image"] = "rbxassetid://13562966709",
+            ["name"] = "2 Year Anniversary Spirit",
             ["emoteDisplayType"] = 0
         },
         ["pyro_coal"] = {["image"] = "rbxassetid://12501229828", ["name"] = "Pyro Coal", ["emoteDisplayType"] = 0},
-        ["kaliyah_new_years_23"] = {["name"] = "Kaliyah New Year's 2023", ["image"] = "rbxassetid://12072850419"},
+        ["assassin"] = {["name"] = "Assassin", ["image"] = "rbxassetid://12518536734"},
         ["rageblade_swords"] = {
             ["image"] = "rbxassetid://14567662447",
             ["name"] = "Barbarian Rageblade Swords",
@@ -866,7 +1010,7 @@ data = {
             ["name"] = "Easter Bunny",
             ["animation"] = {["type"] = 158, ["noAutoPlayAnimation"] = true, ["looped"] = false}
         },
-        ["mountain_cool"] = {["name"] = "Frost Cool", ["image"] = "rbxassetid://11841613999"},
+        ["bruh"] = {["name"] = "Frost Bruh", ["image"] = "rbxassetid://11841569213"},
         ["builder_hammer"] = {
             ["image"] = "rbxassetid://7336098606",
             ["name"] = "Builder Hammer",
@@ -881,11 +1025,11 @@ data = {
         ["tablet_kids"] = {["image"] = "rbxassetid://13830037284", ["name"] = "Tablet Kids", ["emoteDisplayType"] = 0},
         ["stella_omg"] = {["image"] = "rbxassetid://13830037125", ["name"] = "Stella OMG", ["emoteDisplayType"] = 0},
         ["duo"] = {["image"] = "rbxassetid://12501227951", ["name"] = "Duo", ["emoteDisplayType"] = 0},
-        ["cry_about_it"] = {["image"] = "rbxassetid://7336097326", ["name"] = "Cry About It", ["emoteDisplayType"] = 0},
-        ["freiya_beg"] = {["image"] = "rbxassetid://9877587705", ["name"] = "Freiya Hearts", ["disabled"] = true},
-        ["lumen_confused"] = {
-            ["image"] = "rbxassetid://13830036199",
-            ["name"] = "Lumen Confused",
+        ["spirit_couple"] = {["name"] = "Spirit Couple", ["image"] = "rbxassetid://12500891718"},
+        ["lumen_pain"] = {["name"] = "Lumen Pain", ["image"] = "rbxassetid://9869092095"},
+        ["summoner_dragon_buddy"] = {
+            ["image"] = "rbxassetid://132189586331544",
+            ["name"] = "Summoner Dragon Buddy",
             ["emoteDisplayType"] = 0
         },
         ["freiya_snowman"] = {
@@ -893,7 +1037,7 @@ data = {
             ["name"] = "Freiya Snowman",
             ["emoteDisplayType"] = 0
         },
-        ["push_up_glasses"] = {["name"] = "Push Up Glasses", ["animation"] = {["type"] = 588}},
+        ["push_up_glasses"] = {["name"] = "Push Up Glasses", ["animation"] = {["type"] = 589}},
         ["raven_flower"] = {
             ["image"] = "rbxassetid://7804180067",
             ["name"] = "Raven's Flower",
@@ -908,22 +1052,23 @@ data = {
             ["name"] = "Epilogue: Bee Keeper Peace",
             ["emoteDisplayType"] = 0
         },
+        ["caitlyn_rock"] = {["image"] = "rbxassetid://13830034107", ["name"] = "Caitlyn Rock", ["emoteDisplayType"] = 0},
         ["blackhole"] = {["image"] = "rbxassetid://13830033977", ["name"] = "Blackhole", ["emoteDisplayType"] = 0},
         ["bee_keeper_stare"] = {
             ["image"] = "rbxassetid://13830033828",
             ["name"] = "Bee Keeper Stare",
             ["emoteDisplayType"] = 0
         },
-        ["aery_hmph"] = {["image"] = "rbxassetid://13840384551", ["name"] = "Aery Hmph", ["emoteDisplayType"] = 0},
         ["freiya_sus"] = {["image"] = "rbxassetid://15374477332", ["name"] = "Freiya Sus", ["emoteDisplayType"] = 0},
+        ["kazotsky_kick"] = {
+            ["joinable"] = true,
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://9044682364", ["config"] = {["looped"] = true}}},
+            ["name"] = "Kazotsky Kick",
+            ["animation"] = {["looped"] = true, ["type"] = 437}
+        },
         ["two_year_bee"] = {
             ["image"] = "rbxassetid://13562983057",
             ["name"] = "2 Year Anniversary Bee",
-            ["emoteDisplayType"] = 0
-        },
-        ["two_year_spirit"] = {
-            ["image"] = "rbxassetid://13562966709",
-            ["name"] = "2 Year Anniversary Spirit",
             ["emoteDisplayType"] = 0
         },
         ["slay"] = {["image"] = "rbxassetid://12501236329", ["name"] = "Crocowolf Slay", ["emoteDisplayType"] = 0},
@@ -942,19 +1087,19 @@ data = {
             ["name"] = "Trinity Thumbs Up",
             ["emoteDisplayType"] = 0
         },
-        ["hmm_ok"] = {["image"] = "rbxassetid://12930118621", ["name"] = "Hmm... ok", ["emoteDisplayType"] = 0},
+        ["star_collector_chocolate_bunny"] = {
+            ["image"] = "rbxassetid://13030627055",
+            ["name"] = "Easter Star Collector Choco Bunny",
+            ["emoteDisplayType"] = 0
+        },
         ["baking_gingerbread"] = {["name"] = "Baker Eats Gingerbread", ["image"] = "rbxassetid://11826384537"},
         ["cute_grim_reaper"] = {
             ["image"] = "rbxassetid://7336098199",
             ["name"] = "Adorable Grim Reaper",
             ["emoteDisplayType"] = 0
         },
+        ["hmm_ok"] = {["image"] = "rbxassetid://12930118621", ["name"] = "Hmm... ok", ["emoteDisplayType"] = 0},
         ["hats_off"] = {["image"] = "rbxassetid://12930118421", ["name"] = "Hats Off", ["emoteDisplayType"] = 0},
-        ["conqueror_fireball"] = {
-            ["image"] = "rbxassetid://12930118211",
-            ["name"] = "Conqueror Fireball",
-            ["emoteDisplayType"] = 0
-        },
         ["gingerbread_man_rage"] = {
             ["image"] = "rbxassetid://15643379125",
             ["name"] = "Gingerbread Man Rage",
@@ -965,21 +1110,21 @@ data = {
             ["name"] = "Christmas Rocket",
             ["emoteDisplayType"] = 0
         },
-        ["spirit_duo_ez"] = {["name"] = "Spirit Duo EZ", ["image"] = "rbxassetid://9877588501"},
+        ["all_good"] = {["image"] = "rbxassetid://12930117869", ["name"] = "All Good", ["emoteDisplayType"] = 0},
+        ["kaliyah_fired_up"] = {
+            ["image"] = "rbxassetid://112118478642060",
+            ["name"] = "Kaliyah Fired Up",
+            ["emoteDisplayType"] = 0
+        },
+        ["mic_up"] = {["name"] = "Mic Up", ["image"] = "rbxassetid://12514732037"},
         ["nightmare_davey_think"] = {
             ["image"] = "rbxassetid://13912906530",
             ["name"] = "Season 7 NM Think",
             ["emoteDisplayType"] = 0
         },
-        ["mic_up"] = {["name"] = "Mic Up", ["image"] = "rbxassetid://12514732037"},
         ["nightmare_davey_flex"] = {
             ["image"] = "rbxassetid://13912906992",
             ["name"] = "Season 7 NM Flex",
-            ["emoteDisplayType"] = 0
-        },
-        ["victorious_celebration_season_6"] = {
-            ["image"] = "rbxassetid://12739737832",
-            ["name"] = "Season 6 Victory",
             ["emoteDisplayType"] = 0
         },
         ["robo_sparkle"] = {["image"] = "rbxassetid://15374479888", ["name"] = "Robo Sparkle", ["emoteDisplayType"] = 0},
@@ -992,18 +1137,18 @@ data = {
             ["name"] = "Icy Delight",
             ["animation"] = {
                 ["hideItemInHand"] = true,
-                ["type"] = 628,
+                ["type"] = 629,
                 ["previewReplicatedStorageAssets"] = {"Misc/IcyDelight"}
             }
         },
         ["eldertree_gg"] = {["image"] = "rbxassetid://12501228128", ["name"] = "Eldertree GG", ["emoteDisplayType"] = 0},
+        ["happy_gompy"] = {["image"] = "rbxassetid://7941918004", ["name"] = "Happy Gompy", ["emoteDisplayType"] = 0},
         ["disco_dance"] = {
             ["joinable"] = true,
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://12511630018", ["config"] = {["looped"] = true}}},
             ["name"] = "Disco Dance",
             ["animation"] = {["looped"] = true, ["type"] = 377}
         },
-        ["assassin"] = {["name"] = "Assassin", ["image"] = "rbxassetid://12518536734"},
         ["lv50_duo_wombo_combo"] = {["name"] = "Level 50 Wombo Combo", ["image"] = "rbxassetid://9877588265"},
         ["pengion_disco"] = {
             ["image"] = "rbxassetid://8605003980",
@@ -1011,40 +1156,50 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["rage_blade"] = {["name"] = "Rage Blade", ["animation"] = {["looped"] = true, ["type"] = 0}},
+        ["selfie"] = {["image"] = "rbxassetid://12501230654", ["name"] = "Christmas Selfie", ["emoteDisplayType"] = 0},
         ["vanessa_deserve"] = {["name"] = "Deserved", ["image"] = "rbxassetid://12500892561"},
-        ["tnt"] = {["name"] = "TNT", ["image"] = "rbxassetid://12500892311"},
-        ["surprise_attack"] = {["name"] = "Surprise Attack", ["image"] = "rbxassetid://12500892105"},
+        ["funky_dance"] = {
+            ["name"] = "Funky Dance",
+            ["animation"] = {["looped"] = true, ["type"] = 637},
+            ["joinable"] = true,
+            ["allowMovement"] = true,
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://18966314324", ["config"] = {["looped"] = true}}}
+        },
         ["vulcan_error"] = {["image"] = "rbxassetid://7804178661", ["name"] = "Vulcan Error", ["emoteDisplayType"] = 0},
-        ["spirit_couple"] = {["name"] = "Spirit Couple", ["image"] = "rbxassetid://12500891718"},
+        ["surprise_attack"] = {["name"] = "Surprise Attack", ["image"] = "rbxassetid://12500892105"},
         ["smug"] = {["image"] = "rbxassetid://13830036645", ["name"] = "Mean Girls", ["emoteDisplayType"] = 0},
         ["trinity_eat_popcorn"] = {
             ["image"] = "rbxassetid://17003374389",
             ["name"] = "Trinity Eat Popcorn",
             ["emoteDisplayType"] = 0
         },
-        ["hannah_sorry_not"] = {["name"] = "Hannah Sorry Not Sorry", ["image"] = "rbxassetid://10736277001"},
+        ["marco_diamond_sword"] = {["name"] = "Diamond Sword Discount", ["image"] = "rbxassetid://12500890960"},
         ["axolotls"] = {["image"] = "rbxassetid://12501226633", ["name"] = "Axolotls", ["emoteDisplayType"] = 0},
         ["zephyr_begone"] = {["name"] = "Zephyr Begone", ["image"] = "rbxassetid://10753604126"},
-        ["lucia_whats_poppin"] = {["name"] = "Whats Poppin", ["image"] = "rbxassetid://12500890680"},
+        ["spirit_teamwork"] = {
+            ["image"] = "rbxassetid://12501236788",
+            ["name"] = "Spirit Teamwork",
+            ["emoteDisplayType"] = 0
+        },
         ["vulcan_grave"] = {["image"] = "rbxassetid://7804178441", ["name"] = "Vulcan Grave", ["emoteDisplayType"] = 0},
         ["barb_menacing"] = {
             ["image"] = "rbxassetid://17003370591",
             ["name"] = "Barbarian Menacing",
             ["emoteDisplayType"] = 0
         },
-        ["lani_idk"] = {["name"] = "IDK", ["image"] = "rbxassetid://12500889994"},
+        ["lani_point"] = {["name"] = "Lani Point", ["image"] = "rbxassetid://12500890276"},
         ["freiya_hearts"] = {["name"] = "Freiya Hearts", ["image"] = "rbxassetid://9877587705"},
-        ["spirit_teamwork"] = {
-            ["image"] = "rbxassetid://12501236788",
-            ["name"] = "Spirit Teamwork",
-            ["emoteDisplayType"] = 0
-        },
+        ["lani_idk"] = {["name"] = "IDK", ["image"] = "rbxassetid://12500889994"},
         ["space_miner_rage"] = {
             ["image"] = "rbxassetid://12501236422",
             ["name"] = "Miner Rage",
             ["emoteDisplayType"] = 0
         },
-        ["hatter_shy"] = {["name"] = "Umbra Shy", ["image"] = "rbxassetid://12500888974"},
+        ["trapper_point"] = {
+            ["image"] = "rbxassetid://102846442490931",
+            ["name"] = "Trapper Point",
+            ["emoteDisplayType"] = 0
+        },
         ["pirate_balloons"] = {
             ["image"] = "rbxassetid://7336096806",
             ["name"] = "Balloon Expert",
@@ -1068,14 +1223,18 @@ data = {
         ["winstreak"] = {["image"] = "rbxassetid://12501231380", ["name"] = "Winstreak", ["emoteDisplayType"] = 0},
         ["sheep_herder_love"] = {["name"] = "Sheep Herder Love", ["image"] = "rbxassetid://12500891249"},
         ["what_did_i_see"] = {["name"] = "What did I just see...", ["image"] = "rbxassetid://12500892753"},
-        ["bruh"] = {["name"] = "Frost Bruh", ["image"] = "rbxassetid://11841569213"},
+        ["kaliyah_new_years_23"] = {["name"] = "Kaliyah New Year's 2023", ["image"] = "rbxassetid://12072850419"},
         ["kaliyah_rage"] = {["image"] = "rbxassetid://13830035857", ["name"] = "Kaliyah Rage", ["emoteDisplayType"] = 0},
         ["nyx_boba"] = {["image"] = "rbxassetid://17003373448", ["name"] = "Nyx Boba", ["emoteDisplayType"] = 0},
-        ["dino_yipeee"] = {["name"] = "Dino Yipeee", ["image"] = "rbxassetid://9869091840"},
+        ["barb_xmas_lights"] = {["name"] = "Barb Christmas Lights", ["image"] = "rbxassetid://11826384355"},
         ["smoke_dude"] = {["name"] = "Smoke Dude...", ["image"] = "rbxassetid://10753603855"},
         ["cat_deal"] = {["image"] = "rbxassetid://15374476629", ["name"] = "Cat Deal", ["emoteDisplayType"] = 0},
+        ["friendship_slimes"] = {
+            ["image"] = "rbxassetid://91063552058466",
+            ["name"] = "Friendship Slimes",
+            ["emoteDisplayType"] = 0
+        },
         ["skeleton_party"] = {["name"] = "Skeleton Party", ["image"] = "rbxassetid://11338409457"},
-        ["zen_hover"] = {["name"] = "Tranquility", ["animation"] = {["looped"] = true, ["type"] = 262}},
         ["freiya_3"] = {["image"] = "rbxassetid://12501228983", ["name"] = "Freiya Snowflake", ["emoteDisplayType"] = 0},
         ["lucky_gift"] = {
             ["image"] = "rbxassetid://12501229731",
@@ -1083,7 +1242,7 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["amy_no"] = {["image"] = "rbxassetid://12501232548", ["name"] = "Amy No", ["emoteDisplayType"] = 0},
-        ["zephyr_smug"] = {["name"] = "Zephyr Smug", ["image"] = "rbxassetid://12501243449"},
+        ["zen_hover"] = {["name"] = "Tranquility", ["animation"] = {["looped"] = true, ["type"] = 262}},
         ["bounty_hunter"] = {
             ["image"] = "rbxassetid://7804181091",
             ["name"] = "Bounty Hunter On The Move",
@@ -1092,35 +1251,39 @@ data = {
         ["lyla_popcorn"] = {["image"] = "rbxassetid://15374478242", ["name"] = "Lyla Popcorn", ["emoteDisplayType"] = 0},
         ["egg_hunt_dance_emote"] = {
             ["name"] = "Golden Goose Dance",
-            ["animation"] = {["looped"] = true, ["type"] = 567}
+            ["animation"] = {["looped"] = true, ["type"] = 568}
         },
         ["zombie_jade"] = {["name"] = "Zombie Jade", ["image"] = "rbxassetid://11345558375"},
-        ["melody_peace_out"] = {["name"] = "Melody Peace Out", ["image"] = "rbxassetid://12501241718"},
         ["lucia_pathetic"] = {["name"] = "Lucía Pathetic", ["image"] = "rbxassetid://12501241054"},
+        ["melody_peace_out"] = {["name"] = "Melody Peace Out", ["image"] = "rbxassetid://12501241718"},
         ["penguin_sleep"] = {["name"] = "Penguin Sleep", ["image"] = "rbxassetid://12501242010"},
-        ["fire_dragon_what"] = {["name"] = "Kaliyah What", ["image"] = "rbxassetid://12501240136"},
+        ["ghost_catcher_in_love"] = {["name"] = "Spirit Catcher In Love", ["image"] = "rbxassetid://12501240908"},
         ["bed_breaker"] = {["image"] = "rbxassetid://7804181847", ["name"] = "Bed Breaker", ["emoteDisplayType"] = 0},
-        ["fire_dragon_sip"] = {["name"] = "Kaliyah Sip", ["image"] = "rbxassetid://11695282781"},
+        ["fire_dragon_what"] = {["name"] = "Kaliyah What", ["image"] = "rbxassetid://12501240136"},
         ["melody_you_rock"] = {["name"] = "Melody You Rock", ["image"] = "rbxassetid://9869092278"},
-        ["mage_elemental"] = {["name"] = "Whim Elemental", ["image"] = "rbxassetid://12501241283"},
+        ["fire_dragon_sip"] = {["name"] = "Kaliyah Sip", ["image"] = "rbxassetid://11695282781"},
         ["grim_reaper_sticker"] = {
             ["image"] = "rbxassetid://12501234815",
             ["name"] = "Grim Reaper Sticker",
             ["emoteDisplayType"] = 0
         },
+        ["mage_elemental"] = {["name"] = "Whim Elemental", ["image"] = "rbxassetid://12501241283"},
         ["dom_im_done"] = {["name"] = "Dom I'm Done!", ["image"] = "rbxassetid://12501239571"},
-        ["cobalt_charged"] = {["name"] = "Cobalt Charged", ["image"] = "rbxassetid://12501239167"},
         ["archer_cheers"] = {["image"] = "rbxassetid://7336099175", ["name"] = "Cheers!", ["emoteDisplayType"] = 0},
-        ["amy_easter_no_iron"] = {["name"] = "Amy No Iron?", ["image"] = "rbxassetid://12501238257"},
-        ["hannah_ghosted"] = {["name"] = "Hannah Ghosted", ["image"] = "rbxassetid://10736277594"},
+        ["cobalt_charged"] = {["name"] = "Cobalt Charged", ["image"] = "rbxassetid://12501239167"},
+        ["eldertree_fury"] = {
+            ["image"] = "rbxassetid://100270078370389",
+            ["name"] = "Elder Tree Fury",
+            ["emoteDisplayType"] = 0
+        },
         ["banana_barbarian"] = {
             ["image"] = "rbxassetid://7336099010",
             ["name"] = "Banana Barbarian",
             ["emoteDisplayType"] = 0
         },
         ["lassy_capture"] = {["image"] = "rbxassetid://7336097697", ["name"] = "Roped", ["emoteDisplayType"] = 0},
+        ["hannah_ghosted"] = {["name"] = "Hannah Ghosted", ["image"] = "rbxassetid://10736277594"},
         ["zephyr_going_fast"] = {["name"] = "Zephyr Gotta Go Fast!", ["image"] = "rbxassetid://10736275314"},
-        ["jade_gg"] = {["image"] = "rbxassetid://12501234899", ["name"] = "Jade GG", ["emoteDisplayType"] = 0},
         ["teamwork"] = {
             ["image"] = "rbxassetid://12501231207",
             ["name"] = "Spirit Catcher Teamwork",
@@ -1137,19 +1300,19 @@ data = {
             ["name"] = "Umbra Villain",
             ["emoteDisplayType"] = 0
         },
-        ["penguin_deal_with_it"] = {["name"] = "Penguin Deal With It", ["image"] = "rbxassetid://11695283005"},
+        ["penguin_king_trophy"] = {["name"] = "Penguin King Trophy", ["image"] = "rbxassetid://10321184147"},
         ["arson"] = {["image"] = "rbxassetid://12501226126", ["name"] = "Arson Amy", ["emoteDisplayType"] = 0},
         ["vulcan_get_real"] = {["name"] = "Vulcan Get Real", ["image"] = "rbxassetid://12514732407"},
-        ["reaper_smile"] = {["image"] = "rbxassetid://7804179416", ["name"] = "Reaper Smile", ["emoteDisplayType"] = 0},
+        ["spirit_duo_ez"] = {["name"] = "Spirit Duo EZ", ["image"] = "rbxassetid://9877588501"},
         ["cheers_bottle"] = {
             ["name"] = "Cheers Bottle",
             ["animation"] = {["hideItemInHand"] = true, ["type"] = 378, ["previewItems"] = {"sparkling_apple_juice"}}
         },
         ["dead_to_me"] = {
             ["name"] = "Dead to Me",
-            ["animation"] = {["hideItemInHand"] = true, ["type"] = 605, ["previewItems"] = {"reaper_scythe"}}
+            ["animation"] = {["hideItemInHand"] = true, ["type"] = 606, ["previewItems"] = {"reaper_scythe"}}
         },
-        ["lumen_pain"] = {["name"] = "Lumen Pain", ["image"] = "rbxassetid://9869092095"},
+        ["reaper_got_em"] = {["name"] = "Reaper Got Em", ["image"] = "rbxassetid://9869093287"},
         ["sheila_sing"] = {["image"] = "rbxassetid://13830036465", ["name"] = "Sheila Sing", ["emoteDisplayType"] = 0},
         ["xmas_aery"] = {["name"] = "Christmas Aery", ["image"] = "rbxassetid://11826384832"},
         ["angry_builder"] = {
@@ -1157,22 +1320,22 @@ data = {
             ["name"] = "Angry Builder",
             ["emoteDisplayType"] = 0
         },
-        ["cyber_defense"] = {["name"] = "Vulcan Defense", ["image"] = "rbxassetid://9869090746"},
-        ["cyber_dab"] = {["name"] = "Cyber Dab", ["image"] = "rbxassetid://9869090487"},
+        ["dino_yipeee"] = {["name"] = "Dino Yipeee", ["image"] = "rbxassetid://9869091840"},
+        ["lassy_heal"] = {["image"] = "rbxassetid://118306703955684", ["name"] = "Lassy Heal", ["emoteDisplayType"] = 0},
         ["yuzi_firecrackers"] = {
             ["image"] = "rbxassetid://16203049631",
             ["name"] = "Yuzi Firecrackers",
             ["emoteDisplayType"] = 0
         },
+        ["rock_paper_scissors"] = {
+            ["soundsOnBegin"] = {{["sound"] = "rbxassetid://13549776715"}},
+            ["name"] = "Rock Paper Scissors",
+            ["animation"] = {["looped"] = false, ["type"] = 183}
+        },
         ["nightmare_1"] = {
             ["soundsOnBegin"] = {{["sound"] = "rbxassetid://9188182911", ["config"] = {["looped"] = true}}},
             ["name"] = "Nightmare",
             ["animation"] = {["looped"] = true, ["type"] = 147}
-        },
-        ["warrior_update_day"] = {
-            ["image"] = "rbxassetid://12501237183",
-            ["name"] = "Update Hype",
-            ["emoteDisplayType"] = 0
         },
         ["lunar_dragon_archer"] = {
             ["image"] = "rbxassetid://16203047545",
@@ -1191,11 +1354,7 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["smoke_again"] = {["name"] = "Smoke Again!", ["image"] = "rbxassetid://10736276378"},
-        ["academy_aery_read"] = {
-            ["image"] = "rbxassetid://12501231783",
-            ["name"] = "Aery Read",
-            ["emoteDisplayType"] = 0
-        },
+        ["jade_gg"] = {["image"] = "rbxassetid://12501234899", ["name"] = "Jade GG", ["emoteDisplayType"] = 0},
         ["three_year_cake_face"] = {
             ["image"] = "rbxassetid://17600289229",
             ["name"] = "Cake Face",
@@ -1208,7 +1367,7 @@ data = {
             ["emoteDisplayType"] = 0
         },
         ["no_bully"] = {["image"] = "rbxassetid://7804180194", ["name"] = "No Bully", ["emoteDisplayType"] = 0},
-        ["happy_gompy"] = {["image"] = "rbxassetid://7941918004", ["name"] = "Happy Gompy", ["emoteDisplayType"] = 0},
+        ["cry_about_it"] = {["image"] = "rbxassetid://7336097326", ["name"] = "Cry About It", ["emoteDisplayType"] = 0},
         ["star_collector_fun"] = {["name"] = "Stella Fun", ["image"] = "rbxassetid://9869093655"},
         ["baker_thumbs_up"] = {
             ["image"] = "rbxassetid://12501226857",
