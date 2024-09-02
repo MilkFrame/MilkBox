@@ -4,11 +4,13 @@ data = {
             ["itemType"] = "flower_crossbow",
             ["skinTag"] = "nightmare_victorious"
         },
+        ["emerald_victorious_wizard_staff_3"] = {["itemType"] = "wizard_staff_3", ["skinTag"] = "emerald_victorious"},
         ["wood_bow_demon_empress_vanessa"] = {["itemType"] = "wood_bow", ["skinTag"] = "demon_empress_vanessa"},
         ["flower_bow_frost_queen"] = {["itemType"] = "flower_bow", ["skinTag"] = "frost_queen"},
         ["cannon_ghost"] = {["itemType"] = "cannon", ["skinTag"] = "ghost"},
         ["owl_orb_fire"] = {["itemType"] = "owl_orb", ["skinTag"] = "owl_fire"},
         ["guitar_rockstar"] = {["itemType"] = "guitar", ["skinTag"] = "rockstar"},
+        ["diamond_victorious_wizard_staff_2"] = {["itemType"] = "wizard_staff_2", ["skinTag"] = "diamond_victorious"},
         ["tablet_cream_soda"] = {["itemType"] = "tablet", ["skinTag"] = "cream_soda"},
         ["iron_dao_victorious"] = {["itemType"] = "iron_dao", ["skinTag"] = "victorious"},
         ["emerald_victorious_flower_headhunter"] = {
@@ -16,10 +18,12 @@ data = {
             ["skinTag"] = "emerald_victorious"
         },
         ["miner_pickaxe_space"] = {["itemType"] = "miner_pickaxe", ["skinTag"] = "space"},
+        ["fish_tank_void_chainsaw"] = {["itemType"] = "tinker_weapon_5", ["skinTag"] = "fish_tank"},
         ["diamond_dao_tiger"] = {["itemType"] = "diamond_dao", ["skinTag"] = "tiger"},
         ["ice_sword_bunny"] = {["itemType"] = "ice_sword", ["skinTag"] = "bunny"},
         ["pie_spirit"] = {["itemType"] = "pie", ["skinTag"] = "spirit"},
         ["necromancer_staff_christmas"] = {["itemType"] = "necromancer_staff", ["skinTag"] = "christmas"},
+        ["fish_tank_iron_chainsaw"] = {["itemType"] = "tinker_weapon_2", ["skinTag"] = "fish_tank"},
         ["camera_turret_cream_soda"] = {
             ["projectileSourceOverrides"] = {
                 ["launchSound"] = {
@@ -41,6 +45,7 @@ data = {
             ["itemType"] = "wood_crossbow",
             ["skinTag"] = "demon_empress_vanessa"
         },
+        ["diamond_victorious_wizard_staff_3"] = {["itemType"] = "wizard_staff_3", ["skinTag"] = "diamond_victorious"},
         ["silentnight_spirit_dagger_left"] = {["itemType"] = "spirit_dagger_left", ["skinTag"] = "silentnight"},
         ["iron_dao_cursed"] = {["itemType"] = "iron_dao", ["skinTag"] = "cursed"},
         ["platinum_victorious_flower_headhunter"] = {
@@ -56,8 +61,10 @@ data = {
         ["stone_dao_victorious"] = {["itemType"] = "stone_dao", ["skinTag"] = "victorious"},
         ["tablet_vampire"] = {["itemType"] = "tablet", ["skinTag"] = "vampire"},
         ["gold_victorious_flower_headhunter"] = {["itemType"] = "flower_headhunter", ["skinTag"] = "gold_victorious"},
+        ["platinum_victorious_wizard_staff_2"] = {["itemType"] = "wizard_staff_2", ["skinTag"] = "platinum_victorious"},
         ["wood_dao_tiger"] = {["itemType"] = "wood_dao", ["skinTag"] = "tiger"},
         ["camera_turret_lunar"] = {["itemType"] = "camera_turret", ["skinTag"] = "lunar"},
+        ["fish_tank_diamond_chainsaw"] = {["itemType"] = "tinker_weapon_3", ["skinTag"] = "fish_tank"},
         ["diamond_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "diamond_victorious"},
         ["nightmare_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "nightmare_victorious"},
         ["camera_turret_vampire"] = {
@@ -65,7 +72,13 @@ data = {
             ["itemType"] = "camera_turret",
             ["skinTag"] = "vampire"
         },
+        ["emerald_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "emerald_victorious"},
         ["diamond_dao_victorious"] = {["itemType"] = "diamond_dao", ["skinTag"] = "victorious"},
+        ["nightmare_victorious_wizard_staff_2"] = {
+            ["itemType"] = "wizard_staff_2",
+            ["skinTag"] = "nightmare_victorious"
+        },
+        ["nightmare_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "nightmare_victorious"},
         ["nightmare_victorious_spirit_dagger_left"] = {
             ["itemType"] = "spirit_dagger_left",
             ["skinTag"] = "nightmare_victorious"
@@ -77,10 +90,20 @@ data = {
         },
         ["warlock_staff_christmas_spirit"] = {["itemType"] = "warlock_staff", ["skinTag"] = "christmas_spirit"},
         ["feather_bow_demon_empress_vanessa"] = {["itemType"] = "feather_bow", ["skinTag"] = "demon_empress_vanessa"},
+        ["emerald_victorious_wizard_staff_2"] = {["itemType"] = "wizard_staff_2", ["skinTag"] = "emerald_victorious"},
         ["tablet_lunar"] = {["itemType"] = "tablet", ["skinTag"] = "lunar"},
         ["silentnight_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "silentnight"},
         ["nightmare_victorious_flower_bow"] = {["itemType"] = "flower_bow", ["skinTag"] = "nightmare_victorious"},
+        ["nightmare_victorious_wizard_staff_3"] = {
+            ["itemType"] = "wizard_staff_3",
+            ["skinTag"] = "nightmare_victorious"
+        },
         ["stone_dao_cursed"] = {["itemType"] = "stone_dao", ["skinTag"] = "cursed"},
+        ["diamond_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "diamond_victorious"},
+        ["platinum_victorious_wizard_staff_3"] = {["itemType"] = "wizard_staff_3", ["skinTag"] = "platinum_victorious"},
+        ["platinum_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "platinum_victorious"},
+        ["gold_victorious_wizard_staff_3"] = {["itemType"] = "wizard_staff_3", ["skinTag"] = "gold_victorious"},
+        ["gold_victorious_wizard_staff_2"] = {["itemType"] = "wizard_staff_2", ["skinTag"] = "gold_victorious"},
         ["emerald_victorious_cannon"] = {
             ["davey"] = {["cannonFireSound"] = "rbxassetid://13905789864"},
             ["itemType"] = "cannon",
@@ -94,6 +117,13 @@ data = {
             ["skinTag"] = "diamond_victorious"
         },
         ["ice_sword_tiger_brawler"] = {["itemType"] = "ice_sword", ["skinTag"] = "tiger_brawler"},
+        ["platinum_victorious_cannon"] = {
+            ["davey"] = {["cannonFireSound"] = "rbxassetid://13905787991"},
+            ["itemType"] = "cannon",
+            ["skinTag"] = "platinum_victorious"
+        },
+        ["fish_tank_emerald_chainsaw"] = {["itemType"] = "tinker_weapon_4", ["skinTag"] = "fish_tank"},
+        ["fish_tank_wood_chainsaw"] = {["itemType"] = "tinker_weapon_1", ["skinTag"] = "fish_tank"},
         ["diamond_victorious_flower_headhunter"] = {
             ["itemType"] = "flower_headhunter",
             ["skinTag"] = "diamond_victorious"
@@ -122,11 +152,7 @@ data = {
         },
         ["tactical_headhunter_lunar_dragon"] = {["itemType"] = "tactical_headhunter", ["skinTag"] = "lunar_dragon"},
         ["emerald_victorious_flower_crossbow"] = {["itemType"] = "flower_crossbow", ["skinTag"] = "emerald_victorious"},
-        ["platinum_victorious_cannon"] = {
-            ["davey"] = {["cannonFireSound"] = "rbxassetid://13905787991"},
-            ["itemType"] = "cannon",
-            ["skinTag"] = "platinum_victorious"
-        },
+        ["gold_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "gold_victorious"},
         ["gold_victorious_flower_crossbow"] = {["itemType"] = "flower_crossbow", ["skinTag"] = "gold_victorious"},
         ["platinum_victorious_flower_crossbow"] = {
             ["itemType"] = "flower_crossbow",
@@ -158,5 +184,5 @@ data = {
         ["gold_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "gold_victorious"},
         ["rageblade_deep_void"] = {["itemType"] = "rageblade", ["skinTag"] = "deep_void"}
     },
-    ["getItemSkinMeta"] = "function: 0x4647e856cd590bd9"
+    ["getItemSkinMeta"] = "function: 0xef4b06fbb4c8498c"
 }
