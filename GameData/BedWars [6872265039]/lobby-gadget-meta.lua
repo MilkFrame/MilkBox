@@ -1,9 +1,24 @@
 data = {
     ["LobbyGadgetMeta"] = {
+        ["headhunter"] = {
+            ["items"] = {
+                {["itemType"] = "headhunter", ["amount"] = 1},
+                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "arrow", ["amount"] = 4}
+            },
+            ["image"] = "rbxassetid://13421692306",
+            ["name"] = "Headhunter"
+        },
         ["flying_backpack"] = {
             ["items"] = {{["itemType"] = "flying_backpack", ["amount"] = 1}},
             ["image"] = "rbxassetid://13630754419",
             ["name"] = "Flying Backpack"
+        },
+        ["invisibility_potion"] = {
+            ["items"] = {
+                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "invisibility_potion", ["amount"] = 1}
+            },
+            ["image"] = "rbxassetid://7836794914",
+            ["name"] = "Invisibility Potion"
         },
         ["snow_ball"] = {
             ["items"] = {{["refillable"] = true, ["itemType"] = "snowball", ["amount"] = 3}},
@@ -15,6 +30,21 @@ data = {
             ["items"] = {{["itemType"] = "cutlass_ghost", ["amount"] = 1}},
             ["image"] = "rbxassetid://10729541018",
             ["name"] = "Ghost Cutlass"
+        },
+        ["can_of_beans"] = {
+            ["items"] = {{["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "can_of_beans", ["amount"] = 1}},
+            ["image"] = "rbxassetid://13918757728",
+            ["name"] = "Can of Beans"
+        },
+        ["lasso"] = {
+            ["items"] = {{["itemType"] = "lasso", ["amount"] = 1}},
+            ["image"] = "rbxassetid://7192710930",
+            ["name"] = "Lasso"
+        },
+        ["hot_air_balloon"] = {
+            ["items"] = {{["refillable"] = true, ["itemType"] = "hot_air_balloon_deploy", ["amount"] = 1}},
+            ["image"] = "rbxassetid://13701861348",
+            ["name"] = "Hot Air Balloon"
         },
         ["mythic_great_hammer"] = {
             ["items"] = {{["itemType"] = "mythic_great_hammer", ["amount"] = 1}},
@@ -202,18 +232,15 @@ data = {
             ["image"] = "rbxassetid://11831565831",
             ["name"] = "Frosty Hammer"
         },
-        ["can_of_beans"] = {
-            ["items"] = {{["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "can_of_beans", ["amount"] = 1}},
-            ["image"] = "rbxassetid://13918757728",
-            ["name"] = "Can of Beans"
+        ["cloak"] = {
+            ["items"] = {{["itemType"] = "cloak", ["amount"] = 1}},
+            ["image"] = "rbxassetid://18952530979",
+            ["name"] = "Cloak"
         },
-        ["headhunter"] = {
-            ["items"] = {
-                {["itemType"] = "headhunter", ["amount"] = 1},
-                {["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "arrow", ["amount"] = 4}
-            },
-            ["image"] = "rbxassetid://13421692306",
-            ["name"] = "Headhunter"
+        ["sky_scythe"] = {
+            ["items"] = {{["refillCooldown"] = 8, ["refillable"] = true, ["itemType"] = "sky_scythe", ["amount"] = 1}},
+            ["image"] = "rbxassetid://13629036006",
+            ["name"] = "Sky Scythe"
         },
         ["grenade_launcher"] = {
             ["name"] = "Grenade Launcher",
