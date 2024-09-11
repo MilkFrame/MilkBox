@@ -1,5 +1,12 @@
 data = {
-    ["GetMaps"] = "function: 0x75fdf62688af43d9",
+    ["GetMaps"] = "function: 0x48e26b23b38b8529",
+    ["MapDifficulties"] = {
+        ["Hard"] = {["Value"] = 3, ["Color"] = Color3.fromRGB(255, 50, 50)},
+        ["Secret"] = {["Value"] = 4, ["Color"] = Color3.fromRGB(255, 255, 255)},
+        ["Medium"] = {["Value"] = 2, ["Color"] = Color3.fromRGB(255, 215, 0)},
+        ["Easy"] = {["Value"] = 1, ["Color"] = Color3.fromRGB(100, 255, 50)},
+        ["None"] = {["Value"] = 0, ["Color"] = Color3.fromRGB(0, 0, 0)}
+    },
     ["Teams"] = {
         {
             ["TeamName"] = "Sensei & Co.",
@@ -25,61 +32,79 @@ data = {
     },
     ["Maps"] = {
         ["Crossroads"] = {
-            ["Difficulty"] = 2,
+            ["Difficulty"] = "Medium",
             ["Image"] = "rbxassetid://18336297791",
             ["MaximumTeamsSupported"] = 3,
             ["MinimumPlayersRequired"] = 1
         },
         ["Onyx"] = {
-            ["Difficulty"] = 3,
+            ["Difficulty"] = "Hard",
             ["Image"] = "rbxassetid://17619337459",
             ["MaximumTeamsSupported"] = 3,
             ["MinimumPlayersRequired"] = 1
         },
         ["Shooting Range"] = {
-            ["Difficulty"] = 4,
+            ["Difficulty"] = "Secret",
             ["Image"] = "rbxassetid://18270648407",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 9
         },
         ["Big Crossroads"] = {
-            ["Difficulty"] = 2,
-            ["Image"] = "rbxassetid://17619338801",
+            ["Difficulty"] = "Medium",
+            ["Image"] = "rbxassetid://18987987536",
+            ["MaximumTeamsSupported"] = 3,
+            ["MinimumPlayersRequired"] = 5
+        },
+        ["Big Splash"] = {
+            ["Difficulty"] = "Medium",
+            ["Image"] = "rbxassetid://112550674762781",
             ["MaximumTeamsSupported"] = 3,
             ["MinimumPlayersRequired"] = 5
         },
         ["Construction"] = {
-            ["Difficulty"] = 3,
+            ["Difficulty"] = "Hard",
             ["Image"] = "rbxassetid://17528246378",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 1
         },
         ["Docks"] = {
-            ["Difficulty"] = 2,
+            ["Difficulty"] = "Medium",
             ["Image"] = "rbxassetid://17619338260",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 1
         },
+        ["Big Backrooms"] = {
+            ["Difficulty"] = "Easy",
+            ["Image"] = "rbxassetid://18987987793",
+            ["MaximumTeamsSupported"] = 3,
+            ["MinimumPlayersRequired"] = 5
+        },
+        ["Splash"] = {
+            ["Difficulty"] = "Medium",
+            ["Image"] = "rbxassetid://77611360382000",
+            ["MaximumTeamsSupported"] = 2,
+            ["MinimumPlayersRequired"] = 1
+        },
         ["Backrooms"] = {
-            ["Difficulty"] = 2,
+            ["Difficulty"] = "Easy",
             ["Image"] = "rbxassetid://17619339042",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 1
         },
         ["Arena"] = {
-            ["Difficulty"] = 1,
+            ["Difficulty"] = "Easy",
             ["Image"] = "rbxassetid://17528193900",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 1
         },
         ["Station"] = {
-            ["Difficulty"] = 2,
+            ["Difficulty"] = "Medium",
             ["Image"] = "rbxassetid://17619336674",
             ["MaximumTeamsSupported"] = 2,
             ["MinimumPlayersRequired"] = 1
         },
         ["Big Arena"] = {
-            ["Difficulty"] = 2,
+            ["Difficulty"] = "Medium",
             ["Image"] = "rbxassetid://18522249528",
             ["MaximumTeamsSupported"] = 3,
             ["MinimumPlayersRequired"] = 5
@@ -114,14 +139,17 @@ data = {
     ["MapOrder"] = {
         "Backrooms",
         "Arena",
+        "Splash",
         "Construction",
         "Station",
         "Onyx",
         "Crossroads",
         "Docks",
         "Big Arena",
+        "Big Splash",
+        "Big Backrooms",
         "Big Crossroads",
         "Shooting Range"
     },
-    ["GetTeamColor"] = "function: 0x47690b3808f08259"
+    ["GetTeamColor"] = "function: 0x69997b2f88b4b749"
 }
