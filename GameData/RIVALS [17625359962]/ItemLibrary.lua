@@ -1,5 +1,6 @@
 data = {
     ["QUICK_ATTACK_COOLDOWN"] = 0,
+    ["GetViewModelImageFromWeaponData"] = "function: 0x78f828c5fe13e5a9",
     ["ViewModels"] = {
         ["Pixel Flamethrower"] = {
             ["Image"] = "rbxassetid://17771752104",
@@ -536,10 +537,10 @@ data = {
             ["ImageHighResolution"] = "rbxassetid://18769023662",
             ["Animations"] = {
                 ["Idle"] = "scythe_idle",
-                ["AttackAnimation2"] = "scythe_attack2",
-                ["Equip"] = "scythe_equip",
+                ["AttackAnimation2"] = "scythe_keythe_attack2",
+                ["Equip"] = "scythe_keythe_equip",
                 ["Inspect"] = "scythe_inspect",
-                ["AttackAnimation1"] = "scythe_attack1",
+                ["AttackAnimation1"] = "scythe_keythe_attack1",
                 ["Sprinting"] = "scythe_sprint"
             },
             ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -600,8 +601,8 @@ data = {
             ["RootPartOffset"] = CFrame.new(-0.125, -0.25, -0.375, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["Aqua Burst"] = {
-            ["Image"] = "rbxassetid://18766866580",
-            ["ImageHighResolution"] = "rbxassetid://18769003108",
+            ["Image"] = "rbxassetid://18837670807",
+            ["ImageHighResolution"] = "rbxassetid://18837677725",
             ["Animations"] = {
                 ["Shoot1"] = "burstrifle_aquaburst_shoot1",
                 ["Idle"] = "burstrifle_idle",
@@ -724,25 +725,25 @@ data = {
             ["ImageHighResolution"] = "rbxassetid://18770201102",
             ["Animations"] = {
                 ["Shoot1"] = "assaultrifle_aug_shoot1",
-                ["Idle"] = "assaultrifle_idle",
-                ["Sprinting"] = "assaultrifle_sprint",
-                ["Equip"] = "assaultrifle_equip",
-                ["Inspect"] = "assaultrifle_inspect",
-                ["Reload"] = "assaultrifle_reload"
+                ["Idle"] = "assaultrifle_aug_idle",
+                ["Sprinting"] = "assaultrifle_aug_sprint",
+                ["Equip"] = "assaultrifle_aug_equip",
+                ["Inspect"] = "assaultrifle_aug_inspect",
+                ["Reload"] = "assaultrifle_aug_reload"
             },
             ["RootPartOffset"] = CFrame.new(
+                0.150000006,
+                -0.200000003,
+                -0.25,
+                0.99862951,
                 0,
-                -0.125,
-                -0.125,
+                -0.0523359589,
+                0,
                 1,
                 0,
+                0.0523359589,
                 0,
-                0,
-                0.999048233,
-                -0.0436193869,
-                0,
-                0.0436193869,
-                0.999048233
+                0.99862951
             )
         },
         ["Revolver"] = {
@@ -781,12 +782,13 @@ data = {
             ["Image"] = "rbxassetid://18770164868",
             ["ImageHighResolution"] = "rbxassetid://18766906510",
             ["Animations"] = {
-                ["Sprinting"] = "medkit_sprint",
-                ["Idle"] = "medkit_idle",
-                ["UseQuick"] = "medkit_use_quick",
-                ["Equip"] = "medkit_equip",
-                ["Inspect"] = "medkit_inspect",
-                ["Use"] = "medkit_use"
+                ["Sprinting"] = "medkit_laptop_sprint",
+                ["Idle"] = "medkit_laptop_idle",
+                ["UseQuick"] = "medkit_laptop_use_quick",
+                ["Equip"] = "medkit_laptop_equip",
+                ["Inspect"] = "medkit_laptop_inspect",
+                ["RareInspect"] = "medkit_laptop_inspect_rare",
+                ["Use"] = "medkit_laptop_use"
             },
             ["RootPartOffset"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
@@ -923,7 +925,7 @@ data = {
             ["Image"] = "rbxassetid://18766860359",
             ["ImageHighResolution"] = "rbxassetid://18766903480",
             ["Animations"] = {
-                ["Idle"] = "grenade_idle",
+                ["Idle"] = "molotov_idle",
                 ["LobFinish"] = "grenade_lob_finish",
                 ["LobStart"] = "grenade_lob_start",
                 ["ThrowStart"] = "grenade_throw_start",
@@ -1100,22 +1102,22 @@ data = {
             ["RootPartOffset"] = CFrame.new(0.125, -0.25, 0.125, 1, 0, 0, 0, 1, 0, 0, 0, 1)
         },
         ["Hand Gun"] = {
-            ["Image"] = "rbxassetid://18770192669",
-            ["ImageHighResolution"] = "rbxassetid://18770200739",
+            ["Image"] = "rbxassetid://18837670624",
+            ["ImageHighResolution"] = "rbxassetid://18837677423",
             ["Animations"] = {
-                ["EmptyReload"] = "handgun_reload_empty",
-                ["Shoot1"] = "handgun_shoot1",
-                ["Sprinting"] = "handgun_sprint",
-                ["FinalShoot"] = "handgun_shoot_final",
-                ["Equip"] = "handgun_equip",
-                ["Inspect"] = "handgun_inspect",
-                ["Idle"] = "handgun_idle",
-                ["Reload"] = "handgun_reload"
+                ["EmptyReload"] = "handgun_handgun_reload_empty",
+                ["Shoot1"] = "handgun_handgun_shoot1",
+                ["Sprinting"] = "handgun_handgun_sprint",
+                ["FinalShoot"] = "handgun_handgun_shoot_final",
+                ["Equip"] = "handgun_handgun_equip",
+                ["Inspect"] = "handgun_handgun_inspect",
+                ["Idle"] = "handgun_handgun_idle",
+                ["Reload"] = "handgun_handgun_reload"
             },
             ["RootPartOffset"] = CFrame.new(
                 0.25,
-                -0.125,
-                -0.125,
+                0,
+                -0.5,
                 0.981060266,
                 0.172987401,
                 0.087155737,
@@ -1454,16 +1456,16 @@ data = {
             ["Animations"] = {
                 ["Deflect3"] = "katana_lightningbolt_deflect3",
                 ["Sprinting"] = "katana_sprint2",
-                ["DeflectIdle"] = "katana_deflect_idle",
+                ["DeflectIdle"] = "katana_lightningbolt_deflect_idle",
                 ["Deflect5"] = "katana_lightningbolt_deflect5",
-                ["AttackAnimation1"] = "katana_attack1",
+                ["AttackAnimation1"] = "katana_lightningbolt_attack1",
                 ["Deflect1"] = "katana_lightningbolt_deflect1",
                 ["Deflect2"] = "katana_lightningbolt_deflect2",
                 ["Deflect4"] = "katana_lightningbolt_deflect4",
-                ["AttackAnimation2"] = "katana_attack2",
-                ["Equip"] = "katana_equip",
+                ["AttackAnimation2"] = "katana_lightningbolt_attack2",
+                ["Equip"] = "katana_lightningbolt_equip",
                 ["Inspect"] = "katana_inspect",
-                ["RareInspect"] = "katana_inspect_rare",
+                ["RareInspect"] = "katana_lightningbolt_inspect_rare",
                 ["Idle"] = "katana_idle"
             },
             ["RootPartOffset"] = CFrame.new(0, -0.125, -0.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
@@ -1691,9 +1693,10 @@ data = {
             ["Slot"] = 2
         }
     },
+    ["GetViewModelImage"] = "function: 0x5d03cf08ae6538c9",
     ["Items"] = {
         ["Shotgun"] = {
-            ["AimFOVOffset"] = -50,
+            ["AimFOVOffset"] = -20,
             ["ShootCooldown"] = 0.7,
             ["WalkSpeedMultiplier"] = 0.9,
             ["MaxAmmo"] = 7,
@@ -1708,7 +1711,7 @@ data = {
             ["MobileInputSettings"] = {["Shoot"] = false, ["Inspect"] = false, ["Reload"] = false, ["Aim"] = true},
             ["CrosshairType"] = "Spread",
             ["RaycastPierceCount"] = 0,
-            ["ShootSpread"] = 7.5,
+            ["ShootSpread"] = 10,
             ["MaxAmmoReserve"] = 35,
             ["Class"] = "Primary",
             ["InputSpammingEnabled"] = {
@@ -2062,7 +2065,7 @@ data = {
             ["ExplosionDamage"] = 140,
             ["MobileInputSettings"] = {["Shoot"] = false, ["Inspect"] = false},
             ["Name"] = "Subspace Tripmine",
-            ["Cooldown"] = 60,
+            ["Cooldown"] = 30,
             ["CriticalMultiplier"] = 1.5,
             ["QuickAttackInputs"] = {"StartShooting"},
             ["HitboxDelay"] = 1,
@@ -2720,7 +2723,7 @@ data = {
             ["Status"] = "Standard",
             ["ProjectileLifetime"] = 30,
             ["IsRaycast"] = false,
-            ["ShootDamage"] = 45,
+            ["ShootDamage"] = 50,
             ["CriticalMultiplier"] = 1.5
         },
         ["Molotov"] = {
@@ -2747,7 +2750,7 @@ data = {
             ["LobForceMax"] = 50,
             ["QuickAttackInputsMobile"] = {"StartShooting", "FinishShooting"},
             ["ThrowForceMax"] = 100,
-            ["BurnDamage"] = 40,
+            ["BurnDamage"] = 45,
             ["BurnDuration"] = 2,
             ["Name"] = "Molotov",
             ["CriticalMultiplier"] = 1.5,
