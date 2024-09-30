@@ -1,6 +1,7 @@
 data = {
     ["Eyes"] = {
         {"???", "Neutral"},
+        {{"rbxassetid://18935280307", ""}, "Feminine"},
         {{"rbxassetid://18750927898", "rbxassetid://18750931132"}, "Masculine"},
         {{"rbxassetid://18750894295", "rbxassetid://18750898651"}, "Feminine"},
         {{"rbxassetid://18727476397", ""}, "Feminine"},
@@ -84,6 +85,8 @@ data = {
     },
     ["Eyebrows"] = {
         {"???", "Neutral"},
+        {"rbxassetid://18935297930", "Feminine"},
+        {"rbxassetid://18907129566", "Feminine"},
         {"rbxassetid://18750914337", "Feminine"},
         {"rbxassetid://18749845387", "Masculine"},
         {"rbxassetid://18727442737", "Feminine"},
@@ -166,6 +169,8 @@ data = {
     },
     ["Touches"] = {
         {"???", "Neutral"},
+        {"rbxassetid://18935372823", "Feminine"},
+        {"rbxassetid://18935383450", "Feminine"},
         {"rbxassetid://18751236583", "Feminine"},
         {"rbxassetid://18750933697", "Feminine"},
         {"rbxassetid://18727237466", "Neutral"},
@@ -211,6 +216,8 @@ data = {
     },
     ["Lips"] = {
         {"???", "Neutral"},
+        {{"", "rbxassetid://18935351516"}, "Feminine"},
+        {{"", "rbxassetid://18935292899"}, "Feminine"},
         {{"", "rbxassetid://18750872933"}, "Feminine"},
         {{"rbxassetid://18749837833", "rbxassetid://18749840801"}, "Masculine"},
         {{"", "rbxassetid://18727522325"}, "Feminine"},
