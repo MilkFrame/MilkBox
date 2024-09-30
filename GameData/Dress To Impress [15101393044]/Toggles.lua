@@ -31,6 +31,14 @@ data = {
             ["Default"] = {1}
         }
     },
+    ["Apple"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Right Arm"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Rotten To The Core"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Mischievous"}
+        },
+        ["Default"] = {1}
+    },
     ["Fur Gloves 1"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Fur"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {["Fur"] = {["On"] = {["T_Fur"] = "DoNothing"}, ["Off"] = {["T_Fur"] = "Remove"}}},
@@ -44,7 +52,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -89,7 +97,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -134,6 +142,22 @@ data = {
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
     },
+    ["- Hair: Summer Riko"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Flower Basket"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
@@ -141,15 +165,13 @@ data = {
         },
         ["Default"] = {1}
     },
-    ["Met Gala Dress"] = {
-        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Reflective"}, ["ToggleTo"] = "Accessory"}},
-        ["SubToggles"] = {
-            ["Reflective"] = {
-                ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["Glass"] = {"Material", Enum.Material.SmoothPlastic}}
-            }
+    ["Tied Up Top (Sleeves)"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "3"}
         },
-        ["Default"] = {1, {["Reflective"] = "Off"}}
+        ["Default"] = {1}
     },
     ["Strapped Heels"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Straps", "Buckles"}, ["ToggleTo"] = "Accessory"}},
@@ -206,7 +228,12 @@ data = {
         ["Default"] = {1, {["Fur"] = "Off"}}
     },
     ["Fashion Hat"] = {
-        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Ribbon"}, ["ToggleTo"] = "Accessory"}},
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "3"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "4"}
+        },
         ["SubToggles"] = {["Ribbon"] = {["On"] = {["_2"] = "DoNothing"}, ["Off"] = {["_2"] = "Remove"}}},
         ["Default"] = {1, {["Ribbon"] = "On"}}
     },
@@ -243,6 +270,13 @@ data = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Beads"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {["Beads"] = {["On"] = {["T_Beads"] = "DoNothing"}, ["Off"] = {["T_Beads"] = "Remove"}}},
         ["Default"] = {1, {["Beads"] = "On"}}
+    },
+    ["Parasol"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Supports Patterns"}
+        },
+        ["Default"] = {1}
     },
     ["Bowling Bag"] = {
         ["Toggles"] = {
@@ -319,7 +353,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -340,7 +374,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -353,15 +387,29 @@ data = {
         ["SubToggles"] = {
             ["Reflective"] = {
                 ["On"] = {["T_Main"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["T_Main"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["T_Main"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
+    },
+    ["Cowboy Hat"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
+        },
+        ["Default"] = {1}
     },
     ["Angel Wings"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
             {["ToggleTo"] = "Accessory2", ["DisplayText"] = "3 Wings"}
+        },
+        ["Default"] = {1}
+    },
+    ["y2k hat"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
     },
@@ -380,7 +428,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -523,6 +571,22 @@ data = {
             ["SmallSubToggleTemplate"] = true
         }
     },
+    ["- Hair: Summer Elsa"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Softie Sleeves"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
@@ -530,6 +594,22 @@ data = {
             {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Short Sleeves"}
         },
         ["Default"] = {1}
+    },
+    ["- Hair Evan Bangs : 1"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
     },
     ["Ribbon Heels"] = {
         ["Toggles"] = {
@@ -571,10 +651,26 @@ data = {
     },
     ["Fur Legs"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
+    },
+    ["- Hair Evan: BraidBuns"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
     },
     ["Fur Gloves 2"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Fur"}, ["ToggleTo"] = "Accessory"}},
@@ -640,6 +736,22 @@ data = {
         },
         ["Default"] = {1}
     },
+    ["DTI x BRAT: - Hair 3"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Visor Devolla Glasses 2"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Seethrough"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {
@@ -672,22 +784,13 @@ data = {
         ["SubToggles"] = {["Fur"] = {["On"] = {["T_Fur"] = "DoNothing"}, ["Off"] = {["T_Fur"] = "Remove"}}},
         ["Default"] = {1, {["Fur"] = "Off"}}
     },
-    ["^^Riko's Bunny Purse"] = {
-        ["Gendered"] = true,
-        ["Man"] = {
-            ["Toggles"] = {
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "2"}
-            },
-            ["Default"] = {1}
+    ["Tiara"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"},
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "3"}
         },
-        ["Woman"] = {
-            ["Toggles"] = {
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
-                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
-            },
-            ["Default"] = {1}
-        }
+        ["Default"] = {1}
     },
     ["Limited Luxury Dress"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Seethrough"}, ["ToggleTo"] = "Accessory"}},
@@ -700,9 +803,27 @@ data = {
         ["Default"] = {1, {["Seethrough"] = "On"}}
     },
     ["Enchanted Wings 2"] = {
+        ["Gendered"] = true,
+        ["Man"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"}
+            },
+            ["Default"] = {1}
+        },
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"},
+                {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Animated"}
+            },
+            ["Default"] = {1}
+        }
+    },
+    ["20's Masquerade Mask"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "No feathers"}
         },
         ["Default"] = {1}
     },
@@ -711,15 +832,60 @@ data = {
         ["SubToggles"] = {["Fur"] = {["On"] = {["T_Fur"] = "DoNothing"}, ["Off"] = {["T_Fur"] = "Remove"}}},
         ["Default"] = {1, {["Fur"] = "On"}}
     },
+    ["iPhone"] = {
+        ["Gendered"] = true,
+        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Selfie"},
+                {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Flat"},
+                {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Flat (No head movement)"}
+            },
+            ["Default"] = {1}
+        }
+    },
     ["Versace Dress 2"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Reflective"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {
             ["Reflective"] = {
                 ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["Glass"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["Glass"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
+    },
+    ["DTI x BRAT: - Hair 1"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["- Hair: Summer Neutral"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
     },
     ["Secret Nails"] = {
         ["Toggles"] = {
@@ -735,6 +901,22 @@ data = {
         },
         ["Default"] = {1, {["Layer"] = "On"}}
     },
+    ["- Hair: Summer Half Up Half Down"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Paris Hilton Dress"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
@@ -743,15 +925,95 @@ data = {
         },
         ["Default"] = {1}
     },
+    ["- Hair: Summer Anna"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["- Hair: Side Sweep Queen"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["- Hair: Riko's Wavey Hair"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Jeans F: Y2k Miniskirt"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Demin_Texture"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
+    },
+    ["- Hair: Goddess"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["- Hair: Back Sweep Queen"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
     },
     ["Visor Devolla Glasses"] = {
         ["Toggles"] = {
@@ -768,11 +1030,139 @@ data = {
         ["SubToggles"] = {["Bow"] = {["On"] = {["_Ribbon"] = "DoNothing"}, ["Off"] = {["_Ribbon"] = "Remove"}}},
         ["Default"] = {1, {["Bow"] = "On"}}
     },
+    ["- Hair Evan: Gyaru"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["Summer: Coconut"] = {
+        ["Gendered"] = true,
+        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Drink"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Hold"}
+            },
+            ["Default"] = {1}
+        }
+    },
+    ["- Hair Evan: BraidBun"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
     ["Abaya"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
             {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"},
             {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Skirt"}
+        },
+        ["Default"] = {1}
+    },
+    ["- Hair Evan: Braids"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["- Hair Evan Bangs : 2"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["DTI x BRAT: Brat Tee"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
+        },
+        ["Default"] = {1}
+    },
+    ["DTI x BRAT: Denim Rag Skirt"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Thicker"}
+        },
+        ["Default"] = {1}
+    },
+    ["- Hair Evan: Braids 2"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["DTI x BRAT: - Hair 2"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "fdc3a8"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "caa284"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "bd9377"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "8e6e5c"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "705a49"},
+            {["ToggleTo"] = "Accessory7", ["DisplayText"] = "5d4b3d"},
+            {["ToggleTo"] = "Accessory8", ["DisplayText"] = "6b4129"},
+            {["ToggleTo"] = "Accessory9", ["DisplayText"] = "93844d"},
+            {["ToggleTo"] = "Accessory10", ["DisplayText"] = "e7d5cf"}
+        },
+        ["Default"] = {1},
+        ["Tips"] = true
+    },
+    ["Winter Fur Dress"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Fur Only"}
         },
         ["Default"] = {1}
     },
@@ -783,47 +1173,38 @@ data = {
         },
         ["Default"] = {1}
     },
-    ["Backpack"] = {
+    ["Bucket Hat"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Off Shoulder"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
     },
-    ["iPhone"] = {
-        ["Gendered"] = true,
-        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
-        ["Woman"] = {
-            ["Toggles"] = {
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Selfie"},
-                {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Flat"},
-                {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Flat (No head movement)"}
-            },
-            ["Default"] = {1}
-        }
+    ["DTI x BRAT: Fur Jacket"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
+        },
+        ["Default"] = {1}
     },
     ["^^Owen Thai Crown"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
     },
-    ["Jeans F: Skinny"] = {
-        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Demin_Texture"}, ["ToggleTo"] = "Accessory"}},
-        ["SubToggles"] = {
-            ["Demin_Texture"] = {
-                ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
-            }
+    ["Ballerina Skirt"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Make Bigger"}
         },
-        ["Default"] = {1, {["Demin_Texture"] = "On"}}
+        ["Default"] = {1}
     },
     ["Choo's Dress Top"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
     },
@@ -831,6 +1212,13 @@ data = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
             {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+        },
+        ["Default"] = {1}
+    },
+    ["Summer: Flower Heels"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Sandals"}
         },
         ["Default"] = {1}
     },
@@ -842,10 +1230,18 @@ data = {
         },
         ["Default"] = {1}
     },
-    ["Summer: Flower Heels"] = {
+    ["- Hair Bangs : Edges 4"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Sandals"}
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Lower"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Higher"}
+        },
+        ["Default"] = {1}
+    },
+    ["Sun glasses"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Above Head"}
         },
         ["Default"] = {1}
     },
@@ -871,16 +1267,16 @@ data = {
         ["SubToggles"] = {
             ["Reflective"] = {
                 ["On"] = {["T_Main"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["T_Main"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["T_Main"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
     },
-    ["- Hair Bangs : Edges 4"] = {
+    ["Summer: Diar Bag"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Lower"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Higher"}
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "On Left Hand"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "On Right Hand"}
         },
         ["Default"] = {1}
     },
@@ -895,13 +1291,15 @@ data = {
             ["Default"] = {1}
         }
     },
-    ["Summer: Diar Bag"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "On Left Hand"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "On Right Hand"}
+    ["Tinted Glasses"] = {
+        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Marble_Texture"}, ["ToggleTo"] = "Accessory"}},
+        ["SubToggles"] = {
+            ["Marble_Texture"] = {
+                ["On"] = {["_OUTLINE"] = {"Material", Enum.Material.Marble}},
+                ["Off"] = {["_OUTLINE"] = {"Material", Enum.Material.SmoothPlastic}}
+            }
         },
-        ["Default"] = {1}
+        ["Default"] = {1, {["Marble_Texture"] = "Off"}}
     },
     ["Jeans M: Baggy"] = {
         ["Toggles"] = {
@@ -911,21 +1309,18 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
     },
-    ["Valentines Heart Bag"] = {
-        ["Gendered"] = true,
-        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
-        ["Woman"] = {
-            ["Toggles"] = {
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
-            },
-            ["Default"] = {1}
-        }
+    ["- Hair Bangs : Edges 1"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Lower"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Higher"}
+        },
+        ["Default"] = {1}
     },
     ["Tank Dress"] = {
         ["Toggles"] = {
@@ -939,27 +1334,133 @@ data = {
         ["SubToggles"] = {["Logo"] = {["On"] = {["_Logo"] = "DoNothing"}, ["Off"] = {["_Logo"] = "Remove"}}},
         ["Default"] = {1, {["Logo"] = "On"}}
     },
-    ["Tied Up Top (Sleeves)"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "3"}
-        },
-        ["Default"] = {1}
-    },
-    ["- Hair Bangs : Edges 1"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Lower"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Higher"}
-        },
-        ["Default"] = {1}
-    },
     ["Summer: Oval Glasses"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
             {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Above Head"},
             {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Above Head 2"}
+        },
+        ["Default"] = {1}
+    },
+    ["^^Riko's Bunny Purse"] = {
+        ["Gendered"] = true,
+        ["Man"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "2"}
+            },
+            ["Default"] = {1}
+        },
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
+            },
+            ["Default"] = {1}
+        }
+    },
+    ["Strawberry Dress"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "No Sleeves"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Skirt only"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Top only"},
+            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "Top only (+No Sleeves)"},
+            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "Sleeves only"}
+        },
+        ["Default"] = {1}
+    },
+    ["Backpack"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Off Shoulder"}
+        },
+        ["Default"] = {1}
+    },
+    ["^^Iconic Dress"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "No Detail"}
+        },
+        ["Default"] = {1}
+    },
+    ["Enchanted Wings"] = {
+        ["Gendered"] = true,
+        ["Man"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"}
+            },
+            ["Default"] = {1}
+        },
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"},
+                {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Animated"}
+            },
+            ["Default"] = {1}
+        }
+    },
+    ["DTI x BRAT: Charli XCX Glasses"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Above Head"}
+        },
+        ["Default"] = {1}
+    },
+    ["Juicy Top Leah Ashe"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+        },
+        ["Default"] = {1}
+    },
+    ["Met Gala Dress"] = {
+        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Reflective"}, ["ToggleTo"] = "Accessory"}},
+        ["SubToggles"] = {
+            ["Reflective"] = {
+                ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
+                ["Off"] = {["Glass"] = {"Material", Enum.Material.Plastic}}
+            }
+        },
+        ["Default"] = {1, {["Reflective"] = "Off"}}
+    },
+    ["Simple Headband"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Type 3"},
+            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Type 4"}
+        },
+        ["Default"] = {1}
+    },
+    ["Valentines Heart Bag"] = {
+        ["Gendered"] = true,
+        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
+        ["Woman"] = {
+            ["Toggles"] = {
+                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+            },
+            ["Default"] = {1}
+        }
+    },
+    ["Bratz Heels"] = {
+        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Reflective"}, ["ToggleTo"] = "Accessory"}},
+        ["SubToggles"] = {
+            ["Reflective"] = {
+                ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
+                ["Off"] = {["Glass"] = {"Material", Enum.Material.SmoothPlastic}}
+            }
+        },
+        ["Default"] = {1, {["Reflective"] = "Off"}}
+    },
+    ["Rich Girl Bag"] = {
+        ["Toggles"] = {
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "On Shoulder"},
+            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "On Hand"}
         },
         ["Default"] = {1}
     },
@@ -981,80 +1482,10 @@ data = {
         },
         ["Default"] = {1, {["Half_Sleeves"] = "On", ["Tucked"] = "On"}}
     },
-    ["Strawberry Dress"] = {
+    ["Male Compression Shirt"] = {
         ["Toggles"] = {
             {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "No Sleeves"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Skirt only"},
-            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Top only"},
-            {["ToggleTo"] = "Accessory5", ["DisplayText"] = "Top only (+No Sleeves)"},
-            {["ToggleTo"] = "Accessory6", ["DisplayText"] = "Sleeves only"}
-        },
-        ["Default"] = {1}
-    },
-    ["Enchanted Wings"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Wings"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Bigger"}
-        },
-        ["Default"] = {1}
-    },
-    ["Summer: Coconut"] = {
-        ["Gendered"] = true,
-        ["Man"] = {["Toggles"] = {{["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"}}, ["Default"] = {1}},
-        ["Woman"] = {
-            ["Toggles"] = {
-                {["ToggleTo"] = "Accessory", ["DisplayText"] = "Drink"},
-                {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Hold"}
-            },
-            ["Default"] = {1}
-        }
-    },
-    ["Juicy Top Leah Ashe"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
-        },
-        ["Default"] = {1}
-    },
-    ["Sun glasses"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Above Head"}
-        },
-        ["Default"] = {1}
-    },
-    ["Simple Headband"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "Type 3"},
-            {["ToggleTo"] = "Accessory4", ["DisplayText"] = "Type 4"}
-        },
-        ["Default"] = {1}
-    },
-    ["Bratz Heels"] = {
-        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Reflective"}, ["ToggleTo"] = "Accessory"}},
-        ["SubToggles"] = {
-            ["Reflective"] = {
-                ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["Glass"] = {"Material", Enum.Material.SmoothPlastic}}
-            }
-        },
-        ["Default"] = {1, {["Reflective"] = "Off"}}
-    },
-    ["^^Iconic Dress"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "No Detail"}
-        },
-        ["Default"] = {1}
-    },
-    ["Rich Girl Bag"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "On Shoulder"},
-            {["ToggleTo"] = "Accessory3", ["DisplayText"] = "On Hand"}
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Untucked"}
         },
         ["Default"] = {1}
     },
@@ -1063,29 +1494,15 @@ data = {
         ["SubToggles"] = {
             ["Reflective"] = {
                 ["On"] = {["Glass"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["Glass"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["Glass"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
     },
-    ["Male Compression Shirt"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Untucked"}
-        },
-        ["Default"] = {1}
-    },
-    ["Ballerina Skirt"] = {
-        ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Make Bigger"}
-        },
-        ["Default"] = {1}
-    },
     ["Lana Rae's Leg Warmers"] = {
         ["Toggles"] = {
-            {["ToggleTo"] = "Accessory", ["DisplayText"] = "Default"},
-            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "Type 2"}
+            {["ToggleTo"] = "Accessory", ["DisplayText"] = "1"},
+            {["ToggleTo"] = "Accessory2", ["DisplayText"] = "2"}
         },
         ["Default"] = {1}
     },
@@ -1097,15 +1514,15 @@ data = {
         },
         ["Default"] = {1}
     },
-    ["Tinted Glasses"] = {
-        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Marble_Texture"}, ["ToggleTo"] = "Accessory"}},
+    ["Jeans F: Skinny"] = {
+        ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Demin_Texture"}, ["ToggleTo"] = "Accessory"}},
         ["SubToggles"] = {
-            ["Marble_Texture"] = {
-                ["On"] = {["_OUTLINE"] = {"Material", Enum.Material.Marble}},
-                ["Off"] = {["_OUTLINE"] = {"Material", Enum.Material.SmoothPlastic}}
+            ["Demin_Texture"] = {
+                ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
-        ["Default"] = {1, {["Marble_Texture"] = "Off"}}
+        ["Default"] = {1, {["Demin_Texture"] = "On"}}
     },
     ["- Hair 10"] = {
         ["Toggles"] = {{["DisplayText"] = "", ["SubToggles"] = {"Star_Hair_Clips"}, ["ToggleTo"] = "Accessory"}},
@@ -1227,7 +1644,7 @@ data = {
         ["SubToggles"] = {
             ["Reflective"] = {
                 ["On"] = {["T_Main"] = {"Material", Enum.Material.Glass}},
-                ["Off"] = {["T_Main"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["T_Main"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Reflective"] = "Off"}}
@@ -1242,7 +1659,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
@@ -1262,7 +1679,7 @@ data = {
         ["SubToggles"] = {
             ["Demin_Texture"] = {
                 ["On"] = {["MainMesh"] = {"Material", Enum.Material.LeafyGrass}},
-                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.SmoothPlastic}}
+                ["Off"] = {["MainMesh"] = {"Material", Enum.Material.Plastic}}
             }
         },
         ["Default"] = {1, {["Demin_Texture"] = "On"}}
