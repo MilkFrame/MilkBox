@@ -79,18 +79,18 @@ data = {
             },
             ["Cumulative"] = {
                 ["A"] = {"Minigame Choice", "Common"},
-                ["H"] = {"Henry the Hedgehog", "Legendary"},
+                ["H"] = {"Hammy the Hamster", "Legendary"},
                 ["C"] = {"Coins_200", "Common"},
                 ["B"] = {"The Yellow Strange", "Uncommon"},
                 ["E"] = {"Minigame Choice x2", "Uncommon"},
-                ["D"] = {"6th Seasoneer", "Rare"},
+                ["D"] = {"10th Seasoneer", "Rare"},
                 ["G"] = {"Minigame Choice x2", "Uncommon"},
                 ["F"] = {"Skele-tar", "Rare"}
             },
             ["Leaderboards"] = {
-                ["Top5Alltime"] = {"Prime Award", "Legendary"},
+                ["Top5Alltime"] = {"Anti Award", "Legendary"},
                 ["Silver"] = "2nd Place Trophy",
-                ["Top5Weekly"] = {"Wilfred the Whale", "Legendary"},
+                ["Top5Weekly"] = {"Ancient Horror", "Legendary"},
                 ["Top50Weekly"] = {"Wrathful Eye", "Rare"},
                 ["Bronze"] = "3rd Place Trophy",
                 ["Top50Alltime"] = {"Cosmology", "Rare"},
@@ -196,7 +196,7 @@ data = {
             }
         }
     },
-    ["getSeasonData"] = "function: 0xf2154473428a912c",
+    ["getSeasonData"] = "function: 0xba335bb8b58c5331",
     ["rotationTimeStart"] = 1683158400,
     ["weeklyChallenges"] = {
         {
