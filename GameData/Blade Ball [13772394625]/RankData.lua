@@ -1,5 +1,5 @@
 data = {
-    ["GetNextRank"] = "function: 0x3257d254ab69b0b0",
+    ["GetNextRank"] = "function: 0x77cd258f73a58f0c",
     ["RankList"] = {
         {
             ["Name"] = "Rookie",
@@ -165,6 +165,20 @@ data = {
             ["Icon"] = "rbxassetid://14916630439",
             ["Rewards"] = {
                 ["Normal"] = {
+                    ["8"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 8 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://127760211315275",
+                            ["DisplayName"] = "Ranked Season 8 Champion"
+                        }
+                    },
                     ["3"] = {
                         {
                             ["Value"] = 2000,
@@ -215,10 +229,24 @@ data = {
                             ["DisplayName"] = "2,000 Coins"
                         },
                         {
-                            ["Value"] = "Valor’s Rage",
+                            ["Value"] = "Valor's Rage",
                             ["Type"] = "Sword",
                             ["Icon"] = "rbxassetid://16309468217",
-                            ["DisplayName"] = "Valor’s Rage"
+                            ["DisplayName"] = "Valor's Rage"
+                        }
+                    },
+                    ["7"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 7 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18159974588",
+                            ["DisplayName"] = "Ranked Season 7 Champion"
                         }
                     },
                     ["6"] = {
@@ -257,7 +285,7 @@ data = {
             ["TextColor"] = Color3.fromRGB(0, 124, 215)
         }
     },
-    ["GetRank"] = "function: 0xb4a65225350fe420",
+    ["GetRank"] = "function: 0xefc2f3ac9864381c",
     ["Ranks"] = {
         ["Platinum"] = {
             ["Name"] = "Platinum",
@@ -391,6 +419,20 @@ data = {
             ["Icon"] = "rbxassetid://14916630439",
             ["Rewards"] = {
                 ["Normal"] = {
+                    ["8"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 8 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://127760211315275",
+                            ["DisplayName"] = "Ranked Season 8 Champion"
+                        }
+                    },
                     ["3"] = {
                         {
                             ["Value"] = 2000,
@@ -441,10 +483,24 @@ data = {
                             ["DisplayName"] = "2,000 Coins"
                         },
                         {
-                            ["Value"] = "Valor’s Rage",
+                            ["Value"] = "Valor's Rage",
                             ["Type"] = "Sword",
                             ["Icon"] = "rbxassetid://16309468217",
-                            ["DisplayName"] = "Valor’s Rage"
+                            ["DisplayName"] = "Valor's Rage"
+                        }
+                    },
+                    ["7"] = {
+                        {
+                            ["Value"] = 2000,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713779371",
+                            ["DisplayName"] = "2,000 Coins"
+                        },
+                        {
+                            ["Value"] = "Ranked Season 7 Champion",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18159974588",
+                            ["DisplayName"] = "Ranked Season 7 Champion"
                         }
                     },
                     ["6"] = {
