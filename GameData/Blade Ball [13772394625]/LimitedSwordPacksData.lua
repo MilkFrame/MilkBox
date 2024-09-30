@@ -1,7 +1,3595 @@
 data = {
     {
+        ["FFlagEndTime"] = "ObsidianSwordEndTime",
+        ["RootFFlagEndTime"] = "ObsidianPackRootEndTime",
+        ["FFlagStartTime"] = "ObsidianSwordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Obsidian Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1928508667,
+                        ["GiftName"] = "Obsidian Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Obsidian Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://81783209830038",
+                                    ["DisplayName"] = "Obsidian Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://81783209830038",
+                            ["DisplayName"] = "Obsidian Blade"
+                        },
+                        ["ProductId"] = 1928508668
+                    },
+                    {
+                        ["GiftId"] = 1928508666,
+                        ["GiftName"] = "Dual Obsidian Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Obsidian Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://112907244200467",
+                                    ["DisplayName"] = "Dual Obsidian Blade"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Shock",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://100043179570910",
+                                    ["DisplayName"] = "Obsidian Shock Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote519",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://126489915173452",
+                                    ["DisplayName"] = "Dual Obsidian Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://112907244200467",
+                            ["DisplayName"] = "Dual Obsidian Blade"
+                        },
+                        ["ProductId"] = 1928508674
+                    }
+                },
+                ["Image"] = "rbxassetid://112907244200467",
+                ["ShowRoom"] = "ObsidianBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ObsidianPackRootStartTime",
+        ["ModuleDateTime"] = "1725667200000"
+    },
+    {
+        ["FFlagEndTime"] = "ObsidianScytheEndTime",
+        ["RootFFlagEndTime"] = "ObsidianPackRootEndTime",
+        ["FFlagStartTime"] = "ObsidianScytheStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Obsidian Scythe",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1928508665,
+                        ["GiftName"] = "Obsidian Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Obsidian Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://110073215811802",
+                                    ["DisplayName"] = "Obsidian Scythe"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Chains",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://75446740560023",
+                                    ["DisplayName"] = "Obsidian Chains Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote520",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://72970497456909",
+                                    ["DisplayName"] = "Obsidian Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://110073215811802",
+                            ["DisplayName"] = "Obsidian Scythe"
+                        },
+                        ["ProductId"] = 1928508662
+                    },
+                    {
+                        ["GiftId"] = 1928508671,
+                        ["GiftName"] = "Dual Obsidian Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Obsidian Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://110613438992283",
+                                    ["DisplayName"] = "Dual Obsidian Scythe"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Chains",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://75446740560023",
+                                    ["DisplayName"] = "Obsidian Chains Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote521",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://139314219189242",
+                                    ["DisplayName"] = "Dual Obsidian Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://110613438992283",
+                            ["DisplayName"] = "Dual Obsidian Scythe"
+                        },
+                        ["ProductId"] = 1928508669
+                    }
+                },
+                ["Image"] = "rbxassetid://110613438992283",
+                ["ShowRoom"] = "ObsidianScytheShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ObsidianPackRootStartTime",
+        ["ModuleDateTime"] = "1725667200000"
+    },
+    {
+        ["FFlagEndTime"] = "ObsidianPackEndTime",
+        ["RootFFlagEndTime"] = "ObsidianPackRootEndTime",
+        ["FFlagStartTime"] = "ObsidianPackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Obsidian Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1928508670,
+                        ["GiftName"] = "Obsidian Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Obsidian Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://81783209830038",
+                                    ["DisplayName"] = "Obsidian Blade"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://110073215811802",
+                                    ["DisplayName"] = "Obsidian Scythe"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Shock",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://100043179570910",
+                                    ["DisplayName"] = "Obsidian Shock Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote520",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://72970497456909",
+                                    ["DisplayName"] = "Obsidian Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://81783209830038",
+                            ["DisplayName"] = "Obsidian Blade"
+                        },
+                        ["ProductId"] = 1928508663,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1928508664,
+                        ["GiftName"] = "Dual Obsidian Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Obsidian Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://112907244200467",
+                                    ["DisplayName"] = "Dual Obsidian Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Obsidian Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://110613438992283",
+                                    ["DisplayName"] = "Dual Obsidian Scythe"
+                                },
+                                {
+                                    ["Value"] = "Obsidian Chains",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://75446740560023",
+                                    ["DisplayName"] = "Obsidian Chains Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote519",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://126489915173452",
+                                    ["DisplayName"] = "Dual Obsidian Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote521",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://139314219189242",
+                                    ["DisplayName"] = "Dual Obsidian Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://112907244200467",
+                            ["DisplayName"] = "Dual Obsidian Blade"
+                        },
+                        ["ProductId"] = 1928508673,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://104041232976407",
+                ["ShowRoom"] = "ObsidianPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ObsidianPackRootStartTime",
+        ["ModuleDateTime"] = "1725667200000"
+    },
+    {
+        ["FFlagEndTime"] = "NinjaStarPackShowRoomEndTime",
+        ["RootFFlagEndTime"] = "NinjaStarPackRootEndTime",
+        ["FFlagStartTime"] = "NinjaStarPackShowRoomStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "SelectColors",
+                ["Name"] = "Ninja Star Pack",
+                ["TemplateType"] = "Bundle",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922608521,
+                        ["GiftName"] = "Black Ninja Star",
+                        ["Stock"] = "Black Ninja Star",
+                        ["ProductId"] = 1922608518,
+                        ["Color"] = "Black",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Black Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://103337149302938",
+                                    ["DisplayName"] = "Black Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Black Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://77180651941036",
+                                    ["DisplayName"] = "Black Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote512",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://75291237443057",
+                                    ["DisplayName"] = "Black Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://103337149302938",
+                            ["DisplayName"] = "Black Ninja Star"
+                        },
+                        ["ShowRoom"] = "BlackNinjaStarShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1922608526,
+                        ["GiftName"] = "Red Ninja Star",
+                        ["Stock"] = "Red Ninja Star",
+                        ["ProductId"] = 1922608514,
+                        ["Color"] = "Red",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Red Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://119497062693839",
+                                    ["DisplayName"] = "Red Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Red Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://103851399082067",
+                                    ["DisplayName"] = "Red Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote510",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://97000184397610",
+                                    ["DisplayName"] = "Red Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://119497062693839",
+                            ["DisplayName"] = "Red Ninja Star"
+                        },
+                        ["ShowRoom"] = "RedNinjaStarShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1922608523,
+                        ["GiftName"] = "Green Ninja Star",
+                        ["Stock"] = "Green Ninja Star",
+                        ["ProductId"] = 1922608517,
+                        ["Color"] = "Green",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Green Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://88643409244542",
+                                    ["DisplayName"] = "Green Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Green Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://128917723682342",
+                                    ["DisplayName"] = "Green Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote508",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://101121014530667",
+                                    ["DisplayName"] = "Green Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://88643409244542",
+                            ["DisplayName"] = "Green Ninja Star"
+                        },
+                        ["ShowRoom"] = "GreenNinjaStarShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1922608515,
+                        ["GiftName"] = "Blue Ninja Star",
+                        ["Stock"] = "Blue Ninja Star",
+                        ["ProductId"] = 1922608520,
+                        ["Color"] = "Blue",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Blue Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://76123991772970",
+                                    ["DisplayName"] = "Blue Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Blue Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://81658198975784",
+                                    ["DisplayName"] = "Blue Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote509",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://100249572935847",
+                                    ["DisplayName"] = "Blue Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://76123991772970",
+                            ["DisplayName"] = "Blue Ninja Star"
+                        },
+                        ["ShowRoom"] = "BlueNinjaStarShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1922608516,
+                        ["GiftName"] = "Pink Ninja Star",
+                        ["Stock"] = "Pink Ninja Star",
+                        ["ProductId"] = 1922608519,
+                        ["Color"] = "Pink",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Pink Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://106873520408888",
+                                    ["DisplayName"] = "Pink Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Pink Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://95600582015877",
+                                    ["DisplayName"] = "Pink Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote511",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://98529293251704",
+                                    ["DisplayName"] = "Pink Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://106873520408888",
+                            ["DisplayName"] = "Pink Ninja Star"
+                        },
+                        ["ShowRoom"] = "PinkNinjaStarShowRoom"
+                    },
+                    {
+                        ["Color"] = "Chroma",
+                        ["IgnoreMarket"] = true,
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Chroma Ninja Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://100313402002876",
+                                    ["DisplayName"] = "Chroma Ninja Star"
+                                },
+                                {
+                                    ["Value"] = "Chroma Ninja Star Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://80681635785508",
+                                    ["DisplayName"] = "Chroma Ninja Star Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote513",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://115652005509495",
+                                    ["DisplayName"] = "Chroma Ninja Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://100313402002876",
+                            ["DisplayName"] = "Chroma Ninja Star"
+                        },
+                        ["ShowRoom"] = "ChromaNinjaStarShowRoom"
+                    }
+                },
+                ["Image"] = "rbxassetid://79451127047464",
+                ["ShowRoom"] = "BlackNinjaStarShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NinjaStarPackRootStartTime",
+        ["ModuleDateTime"] = "1725062400000"
+    },
+    {
+        ["FFlagEndTime"] = "WonderwispGreatswordEndTime",
+        ["RootFFlagEndTime"] = "DualWonderwispGreatswordRootEndTime",
+        ["FFlagStartTime"] = "WonderwispGreatswordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Wonderwisp Greatsword",
+                ["TemplateType"] = "Sword",
+                ["Stock"] = "Wonderwisp Greatsword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922479636,
+                        ["GiftName"] = "Wonderwisp Greatsword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Wonderwisp Greatsword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://93631071099695",
+                                    ["DisplayName"] = "Wonderwisp Greatsword"
+                                },
+                                {
+                                    ["Value"] = "Ghostwisp",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://118679168139074",
+                                    ["DisplayName"] = "Ghostwisp Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote514",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://83440517819439",
+                                    ["DisplayName"] = "Wonderwisp Greatsword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://93631071099695",
+                            ["DisplayName"] = "Wonderwisp Greatsword"
+                        },
+                        ["ProductId"] = 1922479639
+                    }
+                },
+                ["Image"] = "rbxassetid://93631071099695",
+                ["ShowRoom"] = "WonderwispGreatswordShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DualWonderwispGreatswordRootStartTime",
+        ["ModuleDateTime"] = "1725062400000"
+    },
+    {
+        ["FFlagEndTime"] = "DualWonderwispGreatswordEndTime",
+        ["RootFFlagEndTime"] = "DualWonderwispGreatswordRootEndTime",
+        ["FFlagStartTime"] = "DualWonderwispGreatswordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Dual Wonderwisp Greatsword",
+                ["TemplateType"] = "Sword",
+                ["Stock"] = "Dual Wonderwisp Greatsword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922479642,
+                        ["GiftName"] = "Dual Wonderwisp Greatsword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Wonderwisp Greatsword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://95751167536297",
+                                    ["DisplayName"] = "Dual Wonderwisp Greatsword"
+                                },
+                                {
+                                    ["Value"] = "Dual Ghostwisp",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://108637270261434",
+                                    ["DisplayName"] = "Dual Ghostwisp Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote515",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://78172864207040",
+                                    ["DisplayName"] = "Dual Wonderwisp Greatsword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://95751167536297",
+                            ["DisplayName"] = "Dual Wonderwisp Greatsword"
+                        },
+                        ["ProductId"] = 1922479645
+                    }
+                },
+                ["Image"] = "rbxassetid://95751167536297",
+                ["ShowRoom"] = "DualWonderwispGreatswordShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DualWonderwispGreatswordRootStartTime",
+        ["ModuleDateTime"] = "1725062400000"
+    },
+    {
+        ["RootFFlagParasoltTime"] = "SakuraPackRootParasoltTime",
+        ["RootFFlagEndTime"] = "SakuraPackRootEndTime",
+        ["ModuleDateTime"] = "1725062400000",
+        ["FFlagParasoltTime"] = "SakuraFanParasoltTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sakura Fan",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922479632,
+                        ["GiftName"] = "Sakura Fan",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sakura Fan",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://103406566278359",
+                                    ["DisplayName"] = "Sakura Fan"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://103406566278359",
+                            ["DisplayName"] = "Sakura Fan"
+                        },
+                        ["ProductId"] = 1922479634
+                    },
+                    {
+                        ["GiftId"] = 1922479631,
+                        ["GiftName"] = "Dual Sakura Fan",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Sakura Fan",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://75196823209165",
+                                    ["DisplayName"] = "Dual Sakura Fan"
+                                },
+                                {
+                                    ["Value"] = "Hanami Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://71954020443389",
+                                    ["DisplayName"] = "Hanami Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote506",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://90865747189234",
+                                    ["DisplayName"] = "Dual Sakura Fan Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://75196823209165",
+                            ["DisplayName"] = "Dual Sakura Fan"
+                        },
+                        ["ProductId"] = 1922479648
+                    }
+                },
+                ["Image"] = "rbxassetid://75196823209165",
+                ["ShowRoom"] = "SakuraFanShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "SakuraFanEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["RootFFlagParasoltTime"] = "SakuraPackRootParasoltTime",
+        ["RootFFlagEndTime"] = "SakuraPackRootEndTime",
+        ["ModuleDateTime"] = "1725062400000",
+        ["FFlagParasoltTime"] = "SakuraParasolParasoltTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sakura Parasol",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922479650,
+                        ["GiftName"] = "Sakura Parasol",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sakura Parasol",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://124211527064218",
+                                    ["DisplayName"] = "Sakura Parasol"
+                                },
+                                {
+                                    ["Value"] = "Sakura Season",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://86321549035503",
+                                    ["DisplayName"] = "Sakura Season Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote507",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://119654118505174",
+                                    ["DisplayName"] = "Sakura Parasol Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://124211527064218",
+                            ["DisplayName"] = "Sakura Parasol"
+                        },
+                        ["ProductId"] = 1922479643
+                    }
+                },
+                ["Image"] = "rbxassetid://124211527064218",
+                ["ShowRoom"] = "SakuraParasolShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "SakuraParasolEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["RootFFlagParasoltTime"] = "SakuraPackRootParasoltTime",
+        ["RootFFlagEndTime"] = "SakuraPackRootEndTime",
+        ["ModuleDateTime"] = "1725062400000",
+        ["FFlagParasoltTime"] = "SakuraPackParasoltTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sakura Parasol Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1922480880,
+                        ["GiftName"] = "Single Sakura Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sakura Fan",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://103406566278359",
+                                    ["DisplayName"] = "Sakura Fan"
+                                },
+                                {
+                                    ["Value"] = "Sakura Parasol",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://124211527064218",
+                                    ["DisplayName"] = "Sakura Parasol"
+                                },
+                                {
+                                    ["Value"] = "Sakura Season",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://86321549035503",
+                                    ["DisplayName"] = "Sakura Season Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote507",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://119654118505174",
+                                    ["DisplayName"] = "Sakura Parasol Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://103406566278359",
+                            ["DisplayName"] = "Sakura Fan"
+                        },
+                        ["ProductId"] = 1922480879,
+                        ["DiscountedFrom"] = 2250
+                    },
+                    {
+                        ["GiftId"] = 1922479637,
+                        ["GiftName"] = "Dual Sakura Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Sakura Fan",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://75196823209165",
+                                    ["DisplayName"] = "Dual Sakura Fan"
+                                },
+                                {
+                                    ["Value"] = "Sakura Parasol",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://124211527064218",
+                                    ["DisplayName"] = "Sakura Parasol"
+                                },
+                                {
+                                    ["Value"] = "Sakura Season",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://86321549035503",
+                                    ["DisplayName"] = "Sakura Season Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote506",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://90865747189234",
+                                    ["DisplayName"] = "Dual Sakura Fan Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote507",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://119654118505174",
+                                    ["DisplayName"] = "Sakura Parasol Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://75196823209165",
+                            ["DisplayName"] = "Dual Sakura Fan"
+                        },
+                        ["ProductId"] = 1922479635,
+                        ["DiscountedFrom"] = 3500
+                    }
+                },
+                ["Image"] = "rbxassetid://127411852145685",
+                ["ShowRoom"] = "SakuraPackShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "SakuraPackEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["RootFFlagBowtTime"] = "ButterflyPackRootBowtTime",
+        ["FFlagBowtTime"] = "ButterflyBladeBowtTime",
+        ["RootFFlagEndTime"] = "ButterflyPackRootEndTime",
+        ["ModuleDateTime"] = "1724457600000",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Butterfly Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1916255434,
+                        ["GiftName"] = "Butterfly Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Butterfly Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://76614140905625",
+                                    ["DisplayName"] = "Butterfly Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://76614140905625",
+                            ["DisplayName"] = "Butterfly Blade"
+                        },
+                        ["ProductId"] = 1916255433
+                    },
+                    {
+                        ["GiftId"] = 1916255438,
+                        ["GiftName"] = "Dual Butterfly Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Butterfly Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://120688990850940",
+                                    ["DisplayName"] = "Dual Butterfly Blade"
+                                },
+                                {
+                                    ["Value"] = "Butterfly Glitter",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://132606624931826",
+                                    ["DisplayName"] = "Butterfly Glitter Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote498",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://107829769741548",
+                                    ["DisplayName"] = "Dual Butterfly Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://120688990850940",
+                            ["DisplayName"] = "Dual Butterfly Blade"
+                        },
+                        ["ProductId"] = 1916255436
+                    }
+                },
+                ["Image"] = "rbxassetid://120688990850940",
+                ["ShowRoom"] = "ButterflyBladeShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "ButterflyBladeEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["RootFFlagBowtTime"] = "ButterflyPackRootBowtTime",
+        ["FFlagBowtTime"] = "ButterflyBowBowtTime",
+        ["RootFFlagEndTime"] = "ButterflyPackRootEndTime",
+        ["ModuleDateTime"] = "1724457600000",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Butterfly Bow",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1916255431,
+                        ["GiftName"] = "Butterfly Bow",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Butterfly Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://127673735830275",
+                                    ["DisplayName"] = "Butterfly Bow"
+                                },
+                                {
+                                    ["Value"] = "Aesthetic Butterfly",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://97029580356190",
+                                    ["DisplayName"] = "Aesthetic Butterfly Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote497",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://87842612163352",
+                                    ["DisplayName"] = "Butterfly Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://127673735830275",
+                            ["DisplayName"] = "Butterfly Bow"
+                        },
+                        ["ProductId"] = 1916255439
+                    }
+                },
+                ["Image"] = "rbxassetid://127673735830275",
+                ["ShowRoom"] = "ButterflyBowShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "ButterflyBowEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["RootFFlagBowtTime"] = "ButterflyPackRootBowtTime",
+        ["FFlagBowtTime"] = "ButterflyPackBowtTime",
+        ["RootFFlagEndTime"] = "ButterflyPackRootEndTime",
+        ["ModuleDateTime"] = "1724457600000",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Butterfly Bow Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1916255429,
+                        ["GiftName"] = "Butterfly Bow Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Butterfly Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://76614140905625",
+                                    ["DisplayName"] = "Butterfly Blade"
+                                },
+                                {
+                                    ["Value"] = "Butterfly Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://127673735830275",
+                                    ["DisplayName"] = "Butterfly Bow"
+                                },
+                                {
+                                    ["Value"] = "Butterfly Glitter",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://132606624931826",
+                                    ["DisplayName"] = "Butterfly Glitter Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote497",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://87842612163352",
+                                    ["DisplayName"] = "Butterfly Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://76614140905625",
+                            ["DisplayName"] = "Butterfly Blade"
+                        },
+                        ["ProductId"] = 1916255435,
+                        ["DiscountedFrom"] = 2250
+                    },
+                    {
+                        ["GiftId"] = 1916255437,
+                        ["GiftName"] = "Dual Butterfly Bow Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Butterfly Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://120688990850940",
+                                    ["DisplayName"] = "Dual Butterfly Blade"
+                                },
+                                {
+                                    ["Value"] = "Butterfly Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://127673735830275",
+                                    ["DisplayName"] = "Butterfly Bow"
+                                },
+                                {
+                                    ["Value"] = "Aesthetic Butterfly",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://97029580356190",
+                                    ["DisplayName"] = "Aesthetic Butterfly Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote498",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://107829769741548",
+                                    ["DisplayName"] = "Dual Butterfly Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote497",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://87842612163352",
+                                    ["DisplayName"] = "Butterfly Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://120688990850940",
+                            ["DisplayName"] = "Dual Butterfly Blade"
+                        },
+                        ["ProductId"] = 1916255432,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://90460699996778",
+                ["ShowRoom"] = "ButterflyPackShowRoom"
+            }
+        },
+        ["FFlagEndTime"] = "ButterflyPackEndTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "NorthBladeEndTime",
+        ["RootFFlagEndTime"] = "NorthPackRootEndTime",
+        ["ModuleDateTime"] = "1723852800000",
+        ["FFlagStartTime"] = "NorthBladeStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "North Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1910206453,
+                        ["GiftName"] = "North Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "North Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977573453",
+                                    ["DisplayName"] = "North Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18977573453",
+                            ["DisplayName"] = "North Blade"
+                        },
+                        ["ProductId"] = 1910206454
+                    },
+                    {
+                        ["GiftId"] = 1910206458,
+                        ["GiftName"] = "Dual North Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual North Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977573153",
+                                    ["DisplayName"] = "Dual North Blade"
+                                },
+                                {
+                                    ["Value"] = "North Star Shatter",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18981357959",
+                                    ["DisplayName"] = "North Star Shatter Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote495",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18981358483",
+                                    ["DisplayName"] = "Dual North Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18977573153",
+                            ["DisplayName"] = "Dual North Blade"
+                        },
+                        ["ProductId"] = 1910206459
+                    }
+                },
+                ["Image"] = "rbxassetid://18977573153",
+                ["ShowRoom"] = "NorthBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NorthPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "NorthStarEndTime",
+        ["RootFFlagEndTime"] = "NorthPackRootEndTime",
+        ["ModuleDateTime"] = "1723852800000",
+        ["FFlagStartTime"] = "NorthStarStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "North Star",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1910206461,
+                        ["GiftName"] = "North Star",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "North Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977453012",
+                                    ["DisplayName"] = "North Star"
+                                },
+                                {
+                                    ["Value"] = "Stars Collapse",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18981358751",
+                                    ["DisplayName"] = "Stars Collapse Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote496",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18981358212",
+                                    ["DisplayName"] = "North Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18977453012",
+                            ["DisplayName"] = "North Star"
+                        },
+                        ["ProductId"] = 1910206456
+                    }
+                },
+                ["Image"] = "rbxassetid://18977453012",
+                ["ShowRoom"] = "NorthStarShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NorthPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "NorthPackEndTime",
+        ["RootFFlagEndTime"] = "NorthPackRootEndTime",
+        ["ModuleDateTime"] = "1723852800000",
+        ["FFlagStartTime"] = "NorthPackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "North Star Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1910206460,
+                        ["GiftName"] = "North Star Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "North Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977573453",
+                                    ["DisplayName"] = "North Blade"
+                                },
+                                {
+                                    ["Value"] = "North Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977453012",
+                                    ["DisplayName"] = "North Star"
+                                },
+                                {
+                                    ["Value"] = "North Star Shatter",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18981357959",
+                                    ["DisplayName"] = "North Star Shatter Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote495",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18981358483",
+                                    ["DisplayName"] = "Dual North Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18977573453",
+                            ["DisplayName"] = "North Blade"
+                        },
+                        ["ProductId"] = 1910206455,
+                        ["DiscountedFrom"] = 2500
+                    },
+                    {
+                        ["GiftId"] = 1910206452,
+                        ["GiftName"] = "Dual North Star Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual North Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977573153",
+                                    ["DisplayName"] = "Dual North Blade"
+                                },
+                                {
+                                    ["Value"] = "North Star",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18977453012",
+                                    ["DisplayName"] = "North Star"
+                                },
+                                {
+                                    ["Value"] = "Stars Collapse",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18981358751",
+                                    ["DisplayName"] = "Stars Collapse Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote495",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18981358483",
+                                    ["DisplayName"] = "Dual North Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote496",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18981358212",
+                                    ["DisplayName"] = "North Star Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18977573153",
+                            ["DisplayName"] = "Dual North Blade"
+                        },
+                        ["ProductId"] = 1910206463,
+                        ["DiscountedFrom"] = 3500
+                    }
+                },
+                ["Image"] = "rbxassetid://18977631379",
+                ["ShowRoom"] = "NorthPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NorthPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "ArachneSwordEndTime",
+        ["RootFFlagEndTime"] = "ArachnePackRootEndTime",
+        ["FFlagStartTime"] = "ArachneSwordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Arachne Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1903817274,
+                        ["GiftName"] = "Arachne Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Arachne Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888928057",
+                                    ["DisplayName"] = "Arachne Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888928057",
+                            ["DisplayName"] = "Arachne Blade"
+                        },
+                        ["ProductId"] = 1903817287
+                    },
+                    {
+                        ["GiftId"] = 1903817278,
+                        ["GiftName"] = "Dual Arachne Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Arachne Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888928348",
+                                    ["DisplayName"] = "Dual Arachne Blade"
+                                },
+                                {
+                                    ["Value"] = "Web Slinger",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18889798869",
+                                    ["DisplayName"] = "Web Slinger Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote480",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18906708495",
+                                    ["DisplayName"] = "Dual Arachne Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888928348",
+                            ["DisplayName"] = "Dual Arachne Blade"
+                        },
+                        ["ProductId"] = 1903817280
+                    }
+                },
+                ["Image"] = "rbxassetid://18888928348",
+                ["ShowRoom"] = "ArachneBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ArachnePackRootStartTime",
+        ["ModuleDateTime"] = "1723248000000"
+    },
+    {
+        ["FFlagEndTime"] = "ArachneScytheEndTime",
+        ["RootFFlagEndTime"] = "ArachnePackRootEndTime",
+        ["FFlagStartTime"] = "ArachneScytheStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Arachne Scythe",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1903817286,
+                        ["GiftName"] = "Arachne Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Arachne Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888927339",
+                                    ["DisplayName"] = "Arachne Scythe"
+                                },
+                                {
+                                    ["Value"] = "Spider's Prey",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18906708216",
+                                    ["DisplayName"] = "Spider's Prey Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote478",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18887513573",
+                                    ["DisplayName"] = "Arachne Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888927339",
+                            ["DisplayName"] = "Arachne Scythe"
+                        },
+                        ["ProductId"] = 1903817277
+                    },
+                    {
+                        ["GiftId"] = 1903817275,
+                        ["GiftName"] = "Dual Arachne Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Arachne Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888927794",
+                                    ["DisplayName"] = "Dual Arachne Scythe"
+                                },
+                                {
+                                    ["Value"] = "Spider's Prey",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18906708216",
+                                    ["DisplayName"] = "Spider's Prey Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote479",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18906708705",
+                                    ["DisplayName"] = "Dual Arachne Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888927794",
+                            ["DisplayName"] = "Dual Arachne Scythe"
+                        },
+                        ["ProductId"] = 1903817276
+                    }
+                },
+                ["Image"] = "rbxassetid://18888927794",
+                ["ShowRoom"] = "ArachneScytheShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ArachnePackRootStartTime",
+        ["ModuleDateTime"] = "1723248000000"
+    },
+    {
+        ["FFlagEndTime"] = "ArachnePackEndTime",
+        ["RootFFlagEndTime"] = "ArachnePackRootEndTime",
+        ["FFlagStartTime"] = "ArachnePackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Arachne Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1903817279,
+                        ["GiftName"] = "Arachne Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Arachne Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888928057",
+                                    ["DisplayName"] = "Arachne Blade"
+                                },
+                                {
+                                    ["Value"] = "Arachne Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888927339",
+                                    ["DisplayName"] = "Arachne Scythe"
+                                },
+                                {
+                                    ["Value"] = "Web Slinger",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18889798869",
+                                    ["DisplayName"] = "Web Slinger Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote478",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18887513573",
+                                    ["DisplayName"] = "Arachne Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888928057",
+                            ["DisplayName"] = "Arachne Blade"
+                        },
+                        ["ProductId"] = 1903817283,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1903817284,
+                        ["GiftName"] = "Dual Arachne Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Arachne Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888928348",
+                                    ["DisplayName"] = "Dual Arachne Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Arachne Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18888927794",
+                                    ["DisplayName"] = "Dual Arachne Scythe"
+                                },
+                                {
+                                    ["Value"] = "Spider's Prey",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18906708216",
+                                    ["DisplayName"] = "Spider's Prey Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote480",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18906708495",
+                                    ["DisplayName"] = "Dual Arachne Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote479",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18906708705",
+                                    ["DisplayName"] = "Dual Arachne Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18888928348",
+                            ["DisplayName"] = "Dual Arachne Blade"
+                        },
+                        ["ProductId"] = 1903817282,
+                        ["DiscountedFrom"] = 3250
+                    }
+                },
+                ["Image"] = "rbxassetid://18888539143",
+                ["ShowRoom"] = "ArachnePackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "ArachnePackRootStartTime",
+        ["ModuleDateTime"] = "1723248000000"
+    },
+    {
+        ["FFlagEndTime"] = "NebulaSniperEndTime",
+        ["RootFFlagEndTime"] = "NebulaSniperPackRootEndTime",
+        ["FFlagStartTime"] = "NebulaSniperStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Stock"] = "Nebula Sniper",
+                ["Name"] = "Nebula Sniper",
+                ["TemplateType"] = "Bundle",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1896542208,
+                        ["GiftName"] = "Nebula Sniper",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Nebula Sniper",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785627995",
+                                    ["DisplayName"] = "Nebula Sniper"
+                                },
+                                {
+                                    ["Value"] = "Cosmic Accuracy",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18786775193",
+                                    ["DisplayName"] = "Cosmic Accuracy Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote468",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786775444",
+                                    ["DisplayName"] = "Nebula Sniper Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785627995",
+                            ["DisplayName"] = "Nebula Sniper"
+                        },
+                        ["ProductId"] = 1896542209
+                    }
+                },
+                ["Image"] = "rbxassetid://18784548277",
+                ["ShowRoom"] = "NebulaPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NebulaSniperPackRootStartTime",
+        ["ModuleDateTime"] = "1722643200000"
+    },
+    {
+        ["FFlagEndTime"] = "JellyfishParasolEndTime",
+        ["RootFFlagEndTime"] = "JellyfishParasolPackRootEndTime",
+        ["FFlagStartTime"] = "JellyfishParasolStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Stock"] = "Jellyfish Parasol",
+                ["Name"] = "Jellyfish Parasol",
+                ["TemplateType"] = "Bundle",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1896542210,
+                        ["GiftName"] = "Jellyfish Parasol",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Jellyfish Parasol",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785627473",
+                                    ["DisplayName"] = "Jellyfish Parasol"
+                                },
+                                {
+                                    ["Value"] = "Jellyfish Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18785952839",
+                                    ["DisplayName"] = "Jellyfish Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote469",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18785745039",
+                                    ["DisplayName"] = "Jellyfish Parasol Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785627473",
+                            ["DisplayName"] = "Jellyfish Parasol"
+                        },
+                        ["ProductId"] = 1896542212
+                    }
+                },
+                ["Image"] = "rbxassetid://18784569099",
+                ["ShowRoom"] = "JellyfishParasolShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "JellyfishParasolPackRootStartTime",
+        ["ModuleDateTime"] = "1722643200000"
+    },
+    {
+        ["FFlagEndTime"] = "PhantomSwordEndTime",
+        ["RootFFlagEndTime"] = "PhantomPackRootEndTime",
+        ["FFlagStartTime"] = "PhantomSwordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Phantom Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1896542193,
+                        ["GiftName"] = "Phantom Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Phantom Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175529",
+                                    ["DisplayName"] = "Phantom Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785175529",
+                            ["DisplayName"] = "Phantom Blade"
+                        },
+                        ["ProductId"] = 1896542198
+                    },
+                    {
+                        ["GiftId"] = 1896542197,
+                        ["GiftName"] = "Dual Phantom Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Phantom Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175111",
+                                    ["DisplayName"] = "Dual Phantom Blade"
+                                },
+                                {
+                                    ["Value"] = "Phantom Torch",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18785008862",
+                                    ["DisplayName"] = "Phantom Torch Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote470",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786482387",
+                                    ["DisplayName"] = "Dual Phantom Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785175111",
+                            ["DisplayName"] = "Dual Phantom Blade"
+                        },
+                        ["ProductId"] = 1896542200
+                    }
+                },
+                ["Image"] = "rbxassetid://18785175111",
+                ["ShowRoom"] = "PhantomBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "PhantomPackRootStartTime",
+        ["ModuleDateTime"] = "1722643200000"
+    },
+    {
+        ["FFlagEndTime"] = "PhantomBlasterEndTime",
+        ["RootFFlagEndTime"] = "PhantomPackRootEndTime",
+        ["FFlagStartTime"] = "PhantomBlasterStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Phantom Scythe",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1896542204,
+                        ["GiftName"] = "Phantom Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Phantom Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175863",
+                                    ["DisplayName"] = "Phantom Scythe"
+                                },
+                                {
+                                    ["Value"] = "Chromium Phantom",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18784995438",
+                                    ["DisplayName"] = "Chromium Phantom Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote471",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786038613",
+                                    ["DisplayName"] = "Phantom Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785175863",
+                            ["DisplayName"] = "Phantom Scythe"
+                        },
+                        ["ProductId"] = 1896542196
+                    },
+                    {
+                        ["GiftId"] = 1896542194,
+                        ["GiftName"] = "Dual Phantom Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Phantom Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785929684",
+                                    ["DisplayName"] = "Dual Phantom Scythe"
+                                },
+                                {
+                                    ["Value"] = "Chromium Phantom",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18784995438",
+                                    ["DisplayName"] = "Chromium Phantom Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote472",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786061100",
+                                    ["DisplayName"] = "Dual Phantom Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785929684",
+                            ["DisplayName"] = "Dual Phantom Scythe"
+                        },
+                        ["ProductId"] = 1896542195
+                    }
+                },
+                ["Image"] = "rbxassetid://18785929684",
+                ["ShowRoom"] = "PhantomScytheShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "PhantomPackRootStartTime",
+        ["ModuleDateTime"] = "1722643200000"
+    },
+    {
+        ["FFlagEndTime"] = "PhantomPackEndTime",
+        ["RootFFlagEndTime"] = "PhantomPackRootEndTime",
+        ["FFlagStartTime"] = "PhantomPackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Phantom Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1896542206,
+                        ["GiftName"] = "Phantom Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Phantom Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175529",
+                                    ["DisplayName"] = "Phantom Blade"
+                                },
+                                {
+                                    ["Value"] = "Phantom Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175863",
+                                    ["DisplayName"] = "Phantom Scythe"
+                                },
+                                {
+                                    ["Value"] = "Phantom Torch",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18785008862",
+                                    ["DisplayName"] = "Phantom Torch Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote471",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786038613",
+                                    ["DisplayName"] = "Phantom Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785175529",
+                            ["DisplayName"] = "Phantom Blade"
+                        },
+                        ["ProductId"] = 1896542199,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1896542205,
+                        ["GiftName"] = "Dual Phantom Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Phantom Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785175111",
+                                    ["DisplayName"] = "Dual Phantom Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Phantom Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18785929684",
+                                    ["DisplayName"] = "Dual Phantom Scythe"
+                                },
+                                {
+                                    ["Value"] = "Chromium Phantom",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18784995438",
+                                    ["DisplayName"] = "Chromium Phantom Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote470",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786482387",
+                                    ["DisplayName"] = "Dual Phantom Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote472",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18786061100",
+                                    ["DisplayName"] = "Dual Phantom Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18785175111",
+                            ["DisplayName"] = "Dual Phantom Blade"
+                        },
+                        ["ProductId"] = 1896542207,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://18784933136",
+                ["ShowRoom"] = "PhantomPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "PhantomPackRootStartTime",
+        ["ModuleDateTime"] = "1722643200000"
+    },
+    {
+        ["FFlagEndTime"] = "DivineSwordEndTime",
+        ["RootFFlagEndTime"] = "DivinePackRootEndTime",
+        ["ModuleDateTime"] = "1722038400000",
+        ["FFlagStartTime"] = "DivineSwordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Divine Sword",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1889292956,
+                        ["GiftName"] = "Divine Sword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Divine Sword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228752",
+                                    ["DisplayName"] = "Divine Sword"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681228752",
+                            ["DisplayName"] = "Divine Sword"
+                        },
+                        ["ProductId"] = 1889292949
+                    },
+                    {
+                        ["GiftId"] = 1889292953,
+                        ["GiftName"] = "Dual Divine Sword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Divine Sword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228400",
+                                    ["DisplayName"] = "Dual Divine Sword"
+                                },
+                                {
+                                    ["Value"] = "Judge Gavel",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681316779",
+                                    ["DisplayName"] = "Judge Gavel Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote456",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680618475",
+                                    ["DisplayName"] = "Dual Divine Sword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681228400",
+                            ["DisplayName"] = "Dual Divine Sword"
+                        },
+                        ["ProductId"] = 1889292963
+                    }
+                },
+                ["Image"] = "rbxassetid://18681228400",
+                ["ShowRoom"] = "DivineSwordShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DivinePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "DivineBlasterEndTime",
+        ["RootFFlagEndTime"] = "DivinePackRootEndTime",
+        ["ModuleDateTime"] = "1722038400000",
+        ["FFlagStartTime"] = "DivineBlasterStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Divine Blaster",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1889292964,
+                        ["GiftName"] = "Divine Blaster",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Divine Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228967",
+                                    ["DisplayName"] = "Divine Blaster"
+                                },
+                                {
+                                    ["Value"] = "Court Justice",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681316476",
+                                    ["DisplayName"] = "Court Justice Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote457",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680619208",
+                                    ["DisplayName"] = "Divine Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681228967",
+                            ["DisplayName"] = "Divine Blaster"
+                        },
+                        ["ProductId"] = 1889292955
+                    },
+                    {
+                        ["GiftId"] = 1889292954,
+                        ["GiftName"] = "Dual Divine Blaster",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Divine Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681229284",
+                                    ["DisplayName"] = "Dual Divine Blaster"
+                                },
+                                {
+                                    ["Value"] = "Court Justice",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681316476",
+                                    ["DisplayName"] = "Court Justice Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote455",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680618913",
+                                    ["DisplayName"] = "Dual Divine Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681229284",
+                            ["DisplayName"] = "Dual Divine Blaster"
+                        },
+                        ["ProductId"] = 1889292962
+                    }
+                },
+                ["Image"] = "rbxassetid://18681229284",
+                ["ShowRoom"] = "DivineBlasterShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DivinePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "DivinePackEndTime",
+        ["RootFFlagEndTime"] = "DivinePackRootEndTime",
+        ["ModuleDateTime"] = "1722038400000",
+        ["FFlagStartTime"] = "DivinePackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Divine Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1889292960,
+                        ["GiftName"] = "Divine Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Divine Sword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228752",
+                                    ["DisplayName"] = "Divine Sword"
+                                },
+                                {
+                                    ["Value"] = "Divine Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228967",
+                                    ["DisplayName"] = "Divine Blaster"
+                                },
+                                {
+                                    ["Value"] = "Judge Gavel",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681316779",
+                                    ["DisplayName"] = "Judge Gavel Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote457",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680619208",
+                                    ["DisplayName"] = "Divine Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681228752",
+                            ["DisplayName"] = "Divine Sword"
+                        },
+                        ["ProductId"] = 1889292957,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1889292950,
+                        ["GiftName"] = "Dual Divine Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Divine Sword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681228400",
+                                    ["DisplayName"] = "Dual Divine Sword"
+                                },
+                                {
+                                    ["Value"] = "Dual Divine Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18681229284",
+                                    ["DisplayName"] = "Dual Divine Blaster"
+                                },
+                                {
+                                    ["Value"] = "Court Justice",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681316476",
+                                    ["DisplayName"] = "Court Justice Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote455",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680618913",
+                                    ["DisplayName"] = "Dual Divine Blaster Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote456",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18680618475",
+                                    ["DisplayName"] = "Dual Divine Sword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18681228400",
+                            ["DisplayName"] = "Dual Divine Sword"
+                        },
+                        ["ProductId"] = 1889292951,
+                        ["DiscountedFrom"] = 3250
+                    }
+                },
+                ["Image"] = "rbxassetid://18681229941",
+                ["ShowRoom"] = "DivinePackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DivinePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "NinjaKatanaPackShowRoomEndTime",
+        ["RootFFlagEndTime"] = "NinjaKatanaPackRootEndTime",
+        ["FFlagStartTime"] = "NinjaKatanaPackShowRoomStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "SelectColors",
+                ["Name"] = "Ninja Katana Pack",
+                ["TemplateType"] = "Bundle",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1888967611,
+                        ["GiftName"] = "Black Ninja Katana",
+                        ["Stock"] = "Black Ninja Katana",
+                        ["ProductId"] = 1888967614,
+                        ["Color"] = "Black",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Black Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18679384887",
+                                    ["DisplayName"] = "Black Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Black Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681007005",
+                                    ["DisplayName"] = "Katana Black Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote449",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681462360",
+                                    ["DisplayName"] = "Black Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18679384887",
+                            ["DisplayName"] = "Black Ninja Katana"
+                        },
+                        ["ShowRoom"] = "BlackNinjaKatanaShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1888967615,
+                        ["GiftName"] = "Red Ninja Katana",
+                        ["Stock"] = "Red Ninja Katana",
+                        ["ProductId"] = 1888967608,
+                        ["Color"] = "Red",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Red Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18679383698",
+                                    ["DisplayName"] = "Red Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Red Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681007385",
+                                    ["DisplayName"] = "Katana Red Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote450",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681461818",
+                                    ["DisplayName"] = "Red Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18679383698",
+                            ["DisplayName"] = "Red Ninja Katana"
+                        },
+                        ["ShowRoom"] = "RedNinjaKatanaShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1888967613,
+                        ["GiftName"] = "Green Ninja Katana",
+                        ["Stock"] = "Green Ninja Katana",
+                        ["ProductId"] = 1888967609,
+                        ["Color"] = "Green",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Green Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18679384360",
+                                    ["DisplayName"] = "Green Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Green Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681008316",
+                                    ["DisplayName"] = "Katana Green Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote451",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681460001",
+                                    ["DisplayName"] = "Green Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18679384360",
+                            ["DisplayName"] = "Green Ninja Katana"
+                        },
+                        ["ShowRoom"] = "GreenNinjaKatanaShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1888967607,
+                        ["GiftName"] = "Blue Ninja Katana",
+                        ["Stock"] = "Blue Ninja Katana",
+                        ["ProductId"] = 1888967612,
+                        ["Color"] = "Blue",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Blue Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18679384637",
+                                    ["DisplayName"] = "Blue Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Blue Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681008917",
+                                    ["DisplayName"] = "Katana Blue Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote452",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681459571",
+                                    ["DisplayName"] = "Blue Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18679384637",
+                            ["DisplayName"] = "Blue Ninja Katana"
+                        },
+                        ["ShowRoom"] = "BlueNinjaKatanaShowRoom"
+                    },
+                    {
+                        ["GiftId"] = 1888967616,
+                        ["GiftName"] = "Pink Ninja Katana",
+                        ["Stock"] = "Pink Ninja Katana",
+                        ["ProductId"] = 1888967610,
+                        ["Color"] = "Pink",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Pink Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18679384013",
+                                    ["DisplayName"] = "Pink Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Pink Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681008686",
+                                    ["DisplayName"] = "Katana Pink Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote453",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681461321",
+                                    ["DisplayName"] = "Pink Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18679384013",
+                            ["DisplayName"] = "Pink Ninja Katana"
+                        },
+                        ["ShowRoom"] = "PinkNinjaKatanaShowRoom"
+                    },
+                    {
+                        ["Color"] = "Chroma",
+                        ["IgnoreMarket"] = true,
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Chroma Ninja Katana",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18682017960",
+                                    ["DisplayName"] = "Chroma Ninja Katana"
+                                },
+                                {
+                                    ["Value"] = "Katana Chroma Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18681006659",
+                                    ["DisplayName"] = "Katana Chroma Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote454",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18681459118",
+                                    ["DisplayName"] = "Chroma Ninja Katana Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18682017960",
+                            ["DisplayName"] = "Chroma Ninja Katana"
+                        },
+                        ["ShowRoom"] = "ChromaNinjaKatanaShowRoom"
+                    }
+                },
+                ["Image"] = "rbxassetid://18682107296",
+                ["ShowRoom"] = "BlackNinjaKatanaShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "NinjaKatanaPackRootStartTime",
+        ["ModuleDateTime"] = "1722038400000"
+    },
+    {
+        ["FFlagEndTime"] = "SinisterBladeEndTime",
+        ["RootFFlagEndTime"] = "SinisterPackRootEndTime",
+        ["ModuleDateTime"] = "1721433600000",
+        ["FFlagStartTime"] = "SinisterBladeStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sinister Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1880798601,
+                        ["GiftName"] = "Sinister Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sinister Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575749029",
+                                    ["DisplayName"] = "Sinister Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575749029",
+                            ["DisplayName"] = "Sinister Blade"
+                        },
+                        ["ProductId"] = 1880798600
+                    },
+                    {
+                        ["GiftId"] = 1880798606,
+                        ["GiftName"] = "Dual Sinister Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Sinister Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575748227",
+                                    ["DisplayName"] = "Dual Sinister Blade"
+                                },
+                                {
+                                    ["Value"] = "Sinister Smurk",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18578529711",
+                                    ["DisplayName"] = "Sinister Smurk Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote442",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18581531223",
+                                    ["DisplayName"] = "Dual Sinister Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575748227",
+                            ["DisplayName"] = "Dual Sinister Blade"
+                        },
+                        ["ProductId"] = 1880798610
+                    }
+                },
+                ["Image"] = "rbxassetid://18575748227",
+                ["ShowRoom"] = "SinisterBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "SinisterPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "SinisterBlasterEndTime",
+        ["RootFFlagEndTime"] = "SinisterPackRootEndTime",
+        ["ModuleDateTime"] = "1721433600000",
+        ["FFlagStartTime"] = "SinisterBlasterStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sinister Blaster",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1880798599,
+                        ["GiftName"] = "Sinister Blaster",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sinister Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575748653",
+                                    ["DisplayName"] = "Sinister Blaster"
+                                },
+                                {
+                                    ["Value"] = "Sinister Shaft",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18578529419",
+                                    ["DisplayName"] = "Sinister Shaft Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote443",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18581532758",
+                                    ["DisplayName"] = "Sinister Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575748653",
+                            ["DisplayName"] = "Sinister Blaster"
+                        },
+                        ["ProductId"] = 1880798604
+                    },
+                    {
+                        ["GiftId"] = 1880798603,
+                        ["GiftName"] = "Dual Sinister Blasters",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Sinister Blasters",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575747942",
+                                    ["DisplayName"] = "Dual Sinister Blasters"
+                                },
+                                {
+                                    ["Value"] = "Sinister Shaft",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18578529419",
+                                    ["DisplayName"] = "Sinister Shaft Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote444",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18580267797",
+                                    ["DisplayName"] = "Dual Sinister Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575747942",
+                            ["DisplayName"] = "Dual Sinister Blasters"
+                        },
+                        ["ProductId"] = 1880798602
+                    }
+                },
+                ["Image"] = "rbxassetid://18575747942",
+                ["ShowRoom"] = "SinisterBlasterShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "SinisterPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "SinisterPackEndTime",
+        ["RootFFlagEndTime"] = "SinisterPackRootEndTime",
+        ["ModuleDateTime"] = "1721433600000",
+        ["FFlagStartTime"] = "SinisterPackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Sinister Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1880798608,
+                        ["GiftName"] = "Sinister Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Sinister Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575749029",
+                                    ["DisplayName"] = "Sinister Blade"
+                                },
+                                {
+                                    ["Value"] = "Sinister Blaster",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575748653",
+                                    ["DisplayName"] = "Sinister Blaster"
+                                },
+                                {
+                                    ["Value"] = "Sinister Smurk",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18578529711",
+                                    ["DisplayName"] = "Sinister Smurk Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote443",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18581532758",
+                                    ["DisplayName"] = "Sinister Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575749029",
+                            ["DisplayName"] = "Sinister Blade"
+                        },
+                        ["ProductId"] = 1880798598,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1880798607,
+                        ["GiftName"] = "Dual Sinister Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Sinister Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575748227",
+                                    ["DisplayName"] = "Dual Sinister Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Sinister Blasters",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18575747942",
+                                    ["DisplayName"] = "Dual Sinister Blasters"
+                                },
+                                {
+                                    ["Value"] = "Sinister Shaft",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18578529419",
+                                    ["DisplayName"] = "Sinister Shaft Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote442",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18581531223",
+                                    ["DisplayName"] = "Dual Sinister Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote444",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18580267797",
+                                    ["DisplayName"] = "Dual Sinister Blaster Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18575748227",
+                            ["DisplayName"] = "Dual Sinister Blade"
+                        },
+                        ["ProductId"] = 1880798609,
+                        ["DiscountedFrom"] = 3250
+                    }
+                },
+                ["Image"] = "rbxassetid://18578585317",
+                ["ShowRoom"] = "SinisterPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "SinisterPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "SharkPackShowRoomEndTime",
+        ["RootFFlagEndTime"] = "SharkPackRootEndTime",
+        ["FFlagStartTime"] = "SharkPackShowRoomStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Shark Pack",
+                ["TemplateType"] = "Bundle",
+                ["Stock"] = "Shark",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1882022287,
+                        ["GiftName"] = "Shark Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Shark",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18576978455",
+                                    ["DisplayName"] = "Shark"
+                                },
+                                {
+                                    ["Value"] = "Shark Feast",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18579320628",
+                                    ["DisplayName"] = "Shark Feast Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote438",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18579178121",
+                                    ["DisplayName"] = "Summon Shark Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18576978455",
+                            ["DisplayName"] = "Shark"
+                        },
+                        ["ProductId"] = 1882022286
+                    }
+                },
+                ["Image"] = "rbxassetid://18577991650",
+                ["ShowRoom"] = "SharkPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "SharkPackRootStartTime",
+        ["ModuleDateTime"] = "1721433600000"
+    },
+    {
+        ["FFlagEndTime"] = "InfiniteBladeEndTime",
+        ["RootFFlagEndTime"] = "InfinitePackRootEndTime",
+        ["ModuleDateTime"] = "1720742400000",
+        ["FFlagStartTime"] = "InfiniteBladeStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Infinite Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1873904914,
+                        ["GiftName"] = "Infinite Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Infinite Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458214640",
+                                    ["DisplayName"] = "Infinite Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458214640",
+                            ["DisplayName"] = "Infinite Blade"
+                        },
+                        ["ProductId"] = 1873904912
+                    },
+                    {
+                        ["GiftId"] = 1873904903,
+                        ["GiftName"] = "Dual Infinite Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Infinite Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458214876",
+                                    ["DisplayName"] = "Dual Infinite Blade"
+                                },
+                                {
+                                    ["Value"] = "Infinite Hole",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18458088099",
+                                    ["DisplayName"] = "Infinite Hole Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote426",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468722199",
+                                    ["DisplayName"] = "Dual Infinite Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458214876",
+                            ["DisplayName"] = "Dual Infinite Blade"
+                        },
+                        ["ProductId"] = 1873904904
+                    }
+                },
+                ["Image"] = "rbxassetid://18458214876",
+                ["ShowRoom"] = "InfiniteBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "InfinitePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "InfiniteScytheEndTime",
+        ["RootFFlagEndTime"] = "InfinitePackRootEndTime",
+        ["ModuleDateTime"] = "1720742400000",
+        ["FFlagStartTime"] = "InfiniteScytheStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Infinite Scythe",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1873904911,
+                        ["GiftName"] = "Infinite Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Infinite Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458215165",
+                                    ["DisplayName"] = "Infinite Scythe"
+                                },
+                                {
+                                    ["Value"] = "Infinite Loop",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18458088381",
+                                    ["DisplayName"] = "Infinite Loop Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote427",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468721971",
+                                    ["DisplayName"] = "Infinite Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458215165",
+                            ["DisplayName"] = "Infinite Scythe"
+                        },
+                        ["ProductId"] = 1873904908
+                    },
+                    {
+                        ["GiftId"] = 1873904906,
+                        ["GiftName"] = "Dual Infinite Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Infinite Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458215559",
+                                    ["DisplayName"] = "Dual Infinite Scythe"
+                                },
+                                {
+                                    ["Value"] = "Infinite Loop",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18458088381",
+                                    ["DisplayName"] = "Infinite Loop Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote428",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468721692",
+                                    ["DisplayName"] = "Dual Infinite Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458215559",
+                            ["DisplayName"] = "Dual Infinite Scythe"
+                        },
+                        ["ProductId"] = 1873904909
+                    }
+                },
+                ["Image"] = "rbxassetid://18458215559",
+                ["ShowRoom"] = "InfiniteScytheShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "InfinitePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "InfinitePackEndTime",
+        ["RootFFlagEndTime"] = "InfinitePackRootEndTime",
+        ["ModuleDateTime"] = "1720742400000",
+        ["FFlagStartTime"] = "InfinitePackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Infinite Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1873904907,
+                        ["GiftName"] = "Infinite Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Infinite Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458214640",
+                                    ["DisplayName"] = "Infinite Blade"
+                                },
+                                {
+                                    ["Value"] = "Infinite Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458215165",
+                                    ["DisplayName"] = "Infinite Scythe"
+                                },
+                                {
+                                    ["Value"] = "Infinite Hole",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18458088099",
+                                    ["DisplayName"] = "Infinite Hole Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote427",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468721971",
+                                    ["DisplayName"] = "Infinite Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458214640",
+                            ["DisplayName"] = "Infinite Blade"
+                        },
+                        ["ProductId"] = 1873904910,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1873904913,
+                        ["GiftName"] = "Dual Infinite Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Infinite Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458214876",
+                                    ["DisplayName"] = "Dual Infinite Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Infinite Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18458215559",
+                                    ["DisplayName"] = "Dual Infinite Scythe"
+                                },
+                                {
+                                    ["Value"] = "Infinite Loop",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18458088381",
+                                    ["DisplayName"] = "Infinite Loop Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote426",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468722199",
+                                    ["DisplayName"] = "Dual Infinite Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote428",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18468721692",
+                                    ["DisplayName"] = "Dual Infinite Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18458214876",
+                            ["DisplayName"] = "Dual Infinite Blade"
+                        },
+                        ["ProductId"] = 1873904905,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://18465328771",
+                ["ShowRoom"] = "InfinitePackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "InfinitePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "RoseBladeEndTime",
+        ["RootFFlagEndTime"] = "RosePackRootEndTime",
+        ["ModuleDateTime"] = "1720224000000",
+        ["FFlagStartTime"] = "RoseBladeStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Rose Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1867170532,
+                        ["GiftName"] = "Rose Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Rose Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133955",
+                                    ["DisplayName"] = "Rose Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18353133955",
+                            ["DisplayName"] = "Rose Blade"
+                        },
+                        ["ProductId"] = 1867169483
+                    },
+                    {
+                        ["GiftId"] = 1867170531,
+                        ["GiftName"] = "Dual Rose Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Rose Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133506",
+                                    ["DisplayName"] = "Dual Rose Blade"
+                                },
+                                {
+                                    ["Value"] = "Flower's Garden",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18353521574",
+                                    ["DisplayName"] = "Flower's Garden Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote421",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18355445194",
+                                    ["DisplayName"] = "Dual Rose Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18353133506",
+                            ["DisplayName"] = "Dual Rose Blade"
+                        },
+                        ["ProductId"] = 1867169479
+                    }
+                },
+                ["Image"] = "rbxassetid://18353133506",
+                ["ShowRoom"] = "RoseBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "RosePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "RoseBowEndTime",
+        ["RootFFlagEndTime"] = "RosePackRootEndTime",
+        ["ModuleDateTime"] = "1720224000000",
+        ["FFlagStartTime"] = "RoseBowStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Rose Bow",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1867170534,
+                        ["GiftName"] = "Rose Bow",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Rose Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133118",
+                                    ["DisplayName"] = "Rose Bow"
+                                },
+                                {
+                                    ["Value"] = "Bloom Awakening",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18353521961",
+                                    ["DisplayName"] = "Bloom Awakening Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote422",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18354341943",
+                                    ["DisplayName"] = "Rose Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18353133118",
+                            ["DisplayName"] = "Rose Bow"
+                        },
+                        ["ProductId"] = 1867169480
+                    }
+                },
+                ["Image"] = "rbxassetid://18353133118",
+                ["ShowRoom"] = "RoseBowShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "RosePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "RosePackEndTime",
+        ["RootFFlagEndTime"] = "RosePackRootEndTime",
+        ["ModuleDateTime"] = "1720224000000",
+        ["FFlagStartTime"] = "RosePackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Roses Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1867170533,
+                        ["GiftName"] = "Roses Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Rose Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133955",
+                                    ["DisplayName"] = "Rose Blade"
+                                },
+                                {
+                                    ["Value"] = "Rose Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133118",
+                                    ["DisplayName"] = "Rose Bow"
+                                },
+                                {
+                                    ["Value"] = "Flower's Garden",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18353521574",
+                                    ["DisplayName"] = "Flower's Garden Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote422",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18354341943",
+                                    ["DisplayName"] = "Rose Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18353133955",
+                            ["DisplayName"] = "Rose Blade"
+                        },
+                        ["ProductId"] = 1867169478,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1867170536,
+                        ["GiftName"] = "Dual Roses Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Rose Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133506",
+                                    ["DisplayName"] = "Dual Rose Blade"
+                                },
+                                {
+                                    ["Value"] = "Rose Bow",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18353133118",
+                                    ["DisplayName"] = "Rose Bow"
+                                },
+                                {
+                                    ["Value"] = "Bloom Awakening",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18353521961",
+                                    ["DisplayName"] = "Bloom Awakening Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote421",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18355445194",
+                                    ["DisplayName"] = "Dual Rose Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote422",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18354341943",
+                                    ["DisplayName"] = "Rose Bow Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18353133506",
+                            ["DisplayName"] = "Dual Rose Blade"
+                        },
+                        ["ProductId"] = 1867169481,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://18354775920",
+                ["ShowRoom"] = "RosesPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "RosePackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "AetherialKunaiEndTime",
+        ["RootFFlagEndTime"] = "AetherialPackv2RootEndTime",
+        ["ModuleDateTime"] = "1719619200000",
+        ["FFlagStartTime"] = "AetherialKunaiStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Aetherial Kunai",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1860034591,
+                        ["GiftName"] = "Aetherial Kunai",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Aetherial Kunai",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261419185",
+                                    ["DisplayName"] = "Aetherial Kunai"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18261419185",
+                            ["DisplayName"] = "Aetherial Kunai"
+                        },
+                        ["ProductId"] = 1860034585
+                    },
+                    {
+                        ["GiftId"] = 1860034586,
+                        ["GiftName"] = "Dual Aetherial Kunai",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Aetherial Kunai",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261420089",
+                                    ["DisplayName"] = "Dual Aetherial Kunai"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Gate",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18261432872",
+                                    ["DisplayName"] = "Aetherial Gate Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote410",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18261400472",
+                                    ["DisplayName"] = "Dual Aetherial Kunai Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18261420089",
+                            ["DisplayName"] = "Dual Aetherial Kunai"
+                        },
+                        ["ProductId"] = 1860034587
+                    }
+                },
+                ["Image"] = "rbxassetid://18261420089",
+                ["ShowRoom"] = "AetherialKunaiShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "AetherialPackv2RootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "AetherialLanceEndTime",
+        ["RootFFlagEndTime"] = "AetherialPackv2RootEndTime",
+        ["ModuleDateTime"] = "1719619200000",
+        ["FFlagStartTime"] = "AetherialLanceStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Aetherial Lance",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1860034589,
+                        ["GiftName"] = "Aetherial Lance",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Aetherial Lance",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261419645",
+                                    ["DisplayName"] = "Aetherial Lance"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Blackhole",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18261367967",
+                                    ["DisplayName"] = "Aetherial Blackhole Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote411",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18261400735",
+                                    ["DisplayName"] = "Aetherial Lance Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18261419645",
+                            ["DisplayName"] = "Aetherial Lance"
+                        },
+                        ["ProductId"] = 1860034588
+                    }
+                },
+                ["Image"] = "rbxassetid://18261419645",
+                ["ShowRoom"] = "AetherialLanceShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "AetherialPackv2RootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "AetherialPackv2EndTime",
+        ["RootFFlagEndTime"] = "AetherialPackv2RootEndTime",
+        ["ModuleDateTime"] = "1719619200000",
+        ["FFlagStartTime"] = "AetherialPackv2StartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Aetherial Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1860034593,
+                        ["GiftName"] = "Aetherial Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Aetherial Kunai",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261419185",
+                                    ["DisplayName"] = "Aetherial Kunai"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Lance",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261419645",
+                                    ["DisplayName"] = "Aetherial Lance"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Gate",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18261432872",
+                                    ["DisplayName"] = "Aetherial Gate Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote411",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18261400735",
+                                    ["DisplayName"] = "Aetherial Lance Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18261419185",
+                            ["DisplayName"] = "Aetherial Kunai"
+                        },
+                        ["ProductId"] = 1860034590,
+                        ["DiscountedFrom"] = 2250
+                    },
+                    {
+                        ["GiftId"] = 1860034592,
+                        ["GiftName"] = "Dual Aetherial Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Aetherial Kunai",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261420089",
+                                    ["DisplayName"] = "Dual Aetherial Kunai"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Lance",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18261419645",
+                                    ["DisplayName"] = "Aetherial Lance"
+                                },
+                                {
+                                    ["Value"] = "Aetherial Blackhole",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18261367967",
+                                    ["DisplayName"] = "Aetherial Blackhole Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote410",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18261400472",
+                                    ["DisplayName"] = "Dual Aetherial Kunai Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote411",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18261400735",
+                                    ["DisplayName"] = "Aetherial Lance Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18261420089",
+                            ["DisplayName"] = "Dual Aetherial Kunai"
+                        },
+                        ["ProductId"] = 1860034584,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://18261577397",
+                ["ShowRoom"] = "AetherialPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "AetherialPackv2RootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "TwilightBladeEndTime",
+        ["RootFFlagEndTime"] = "TwilightPackRootEndTime",
+        ["ModuleDateTime"] = "1718928000000",
+        ["FFlagStartTime"] = "TwilightBladeStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Twilight Blade",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855083673,
+                        ["GiftName"] = "Twilight Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Twilight Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972958",
+                                    ["DisplayName"] = "Twilight Blade"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972958",
+                            ["DisplayName"] = "Twilight Blade"
+                        },
+                        ["ProductId"] = 1855083682
+                    },
+                    {
+                        ["GiftId"] = 1855083680,
+                        ["GiftName"] = "Dual Twilight Blade",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Twilight Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972743",
+                                    ["DisplayName"] = "Dual Twilight Blade"
+                                },
+                                {
+                                    ["Value"] = "Destination Beacon",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18151711166",
+                                    ["DisplayName"] = "Destination Beacon Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote388",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18152042951",
+                                    ["DisplayName"] = "Dual Twilight Blade Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972743",
+                            ["DisplayName"] = "Dual Twilight Blade"
+                        },
+                        ["ProductId"] = 1855083672
+                    }
+                },
+                ["Image"] = "rbxassetid://18151972743",
+                ["ShowRoom"] = "TwilightBladeShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "TwilightPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "TwilightScytheEndTime",
+        ["RootFFlagEndTime"] = "TwilightPackRootEndTime",
+        ["ModuleDateTime"] = "1718928000000",
+        ["FFlagStartTime"] = "TwilightScytheStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Twilight Scythe",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855083676,
+                        ["GiftName"] = "Twilight Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Twilight Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972095",
+                                    ["DisplayName"] = "Twilight Scythe"
+                                },
+                                {
+                                    ["Value"] = "Final Arrival",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18151706575",
+                                    ["DisplayName"] = "Final Arrival Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote389",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18152045841",
+                                    ["DisplayName"] = "Twilight Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972095",
+                            ["DisplayName"] = "Twilight Scythe"
+                        },
+                        ["ProductId"] = 1855083681
+                    },
+                    {
+                        ["GiftId"] = 1855083678,
+                        ["GiftName"] = "Dual Twilight Scythe",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Twilight Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972449",
+                                    ["DisplayName"] = "Dual Twilight Scythe"
+                                },
+                                {
+                                    ["Value"] = "Final Arrival",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18151706575",
+                                    ["DisplayName"] = "Final Arrival Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote390",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18159030508",
+                                    ["DisplayName"] = "Dual Twilight Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972449",
+                            ["DisplayName"] = "Dual Twilight Scythe"
+                        },
+                        ["ProductId"] = 1855083679
+                    }
+                },
+                ["Image"] = "rbxassetid://18151972449",
+                ["ShowRoom"] = "TwilightScytheShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "TwilightPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "TwilightPackEndTime",
+        ["RootFFlagEndTime"] = "TwilightPackRootEndTime",
+        ["ModuleDateTime"] = "1718928000000",
+        ["FFlagStartTime"] = "TwilightPackStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Twilight Pack",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855083685,
+                        ["GiftName"] = "Twilight Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Twilight Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972958",
+                                    ["DisplayName"] = "Twilight Blade"
+                                },
+                                {
+                                    ["Value"] = "Twilight Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972095",
+                                    ["DisplayName"] = "Twilight Scythe"
+                                },
+                                {
+                                    ["Value"] = "Destination Beacon",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18151711166",
+                                    ["DisplayName"] = "Destination Beacon Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote389",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18152045841",
+                                    ["DisplayName"] = "Twilight Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972958",
+                            ["DisplayName"] = "Twilight Blade"
+                        },
+                        ["ProductId"] = 1855083674,
+                        ["DiscountedFrom"] = 2000
+                    },
+                    {
+                        ["GiftId"] = 1855083683,
+                        ["GiftName"] = "Dual Twilight Pack",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Twilight Blade",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972743",
+                                    ["DisplayName"] = "Dual Twilight Blade"
+                                },
+                                {
+                                    ["Value"] = "Dual Twilight Scythe",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18151972449",
+                                    ["DisplayName"] = "Dual Twilight Scythe"
+                                },
+                                {
+                                    ["Value"] = "Final Arrival",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18151706575",
+                                    ["DisplayName"] = "Final Arrival Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote388",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18152042951",
+                                    ["DisplayName"] = "Dual Twilight Blade Emote Emote"
+                                },
+                                {
+                                    ["Value"] = "Emote390",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18159030508",
+                                    ["DisplayName"] = "Dual Twilight Scythe Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18151972743",
+                            ["DisplayName"] = "Dual Twilight Blade"
+                        },
+                        ["ProductId"] = 1855083675,
+                        ["DiscountedFrom"] = 3000
+                    }
+                },
+                ["Image"] = "rbxassetid://18151914549",
+                ["ShowRoom"] = "TwilightPackShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "TwilightPackRootStartTime",
+        ["Reconcile"] = true
+    },
+    {
+        ["FFlagEndTime"] = "YinYangParasolEndTime",
+        ["RootFFlagEndTime"] = "DualYinYangGreatswordRootEndTime",
+        ["FFlagStartTime"] = "YinYangParasolStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Yin Yang Parasol",
+                ["Stock"] = "Yin Yang Parasol",
+                ["TemplateType"] = "Sword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855579235,
+                        ["GiftName"] = "Yin Yang Parasol",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Yin Yang Parasol",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18155800696",
+                                    ["DisplayName"] = "Yin Yang Parasol"
+                                },
+                                {
+                                    ["Value"] = "Yin Yang Parasol Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18158473448",
+                                    ["DisplayName"] = "Yin Yang Parasol Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote392",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18161632750",
+                                    ["DisplayName"] = "Yin Yang Parasol Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18155800696",
+                            ["DisplayName"] = "Yin Yang Parasol"
+                        },
+                        ["ProductId"] = 1855579236
+                    }
+                },
+                ["Image"] = "rbxassetid://18155800696",
+                ["ShowRoom"] = "YinYangParasolShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DualYinYangGreatswordRootStartTime",
+        ["ModuleDateTime"] = "1718928000000"
+    },
+    {
+        ["FFlagEndTime"] = "YinYangGreatswordEndTime",
+        ["RootFFlagEndTime"] = "DualYinYangGreatswordRootEndTime",
+        ["FFlagStartTime"] = "YinYangGreatswordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Yin Yang Greatsword",
+                ["TemplateType"] = "Sword",
+                ["Stock"] = "Yin Yang Greatsword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855579230,
+                        ["GiftName"] = "Yin Yang Greatsword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Yin Yang Greatsword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18156235966",
+                                    ["DisplayName"] = "Yin Yang Greatsword"
+                                },
+                                {
+                                    ["Value"] = "Yin Yang Greatsword Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18158495302",
+                                    ["DisplayName"] = "Yin Yang Greatsword Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote393",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18158502776",
+                                    ["DisplayName"] = "Yin Yang Greatsword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18156235966",
+                            ["DisplayName"] = "Yin Yang Greatsword"
+                        },
+                        ["ProductId"] = 1855579231
+                    }
+                },
+                ["Image"] = "rbxassetid://18156235966",
+                ["ShowRoom"] = "YinYangGreatswordShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DualYinYangGreatswordRootStartTime",
+        ["ModuleDateTime"] = "1718928000000"
+    },
+    {
+        ["FFlagEndTime"] = "DualYinYangGreatswordEndTime",
+        ["RootFFlagEndTime"] = "DualYinYangGreatswordRootEndTime",
+        ["FFlagStartTime"] = "DualYinYangGreatswordStartTime",
+        ["Rewards"] = {
+            {
+                ["Type"] = "Bundle",
+                ["Name"] = "Dual Yin Yang Greatsword",
+                ["TemplateType"] = "Sword",
+                ["Stock"] = "Dual Yin Yang Greatsword",
+                ["Rewards"] = {
+                    {
+                        ["GiftId"] = 1855579232,
+                        ["GiftName"] = "Dual Yin Yang Greatsword",
+                        ["Item"] = {
+                            ["Value"] = {
+                                {
+                                    ["Value"] = "Dual Yin Yang Greatsword",
+                                    ["Type"] = "Sword",
+                                    ["Icon"] = "rbxassetid://18156235788",
+                                    ["DisplayName"] = "Dual Yin Yang Greatsword"
+                                },
+                                {
+                                    ["Value"] = "Dual Yin Yang Greatsword Explosion",
+                                    ["Type"] = "Explosion",
+                                    ["Icon"] = "rbxassetid://18158473679",
+                                    ["DisplayName"] = "Dual Yin Yang Greatsword Explosion Explosion"
+                                },
+                                {
+                                    ["Value"] = "Emote394",
+                                    ["Type"] = "Emote",
+                                    ["Icon"] = "rbxassetid://18160280901",
+                                    ["DisplayName"] = "Dual Yin Yang Greatsword Emote Emote"
+                                }
+                            },
+                            ["Type"] = "List",
+                            ["Icon"] = "rbxassetid://18156235788",
+                            ["DisplayName"] = "Dual Yin Yang Greatsword"
+                        },
+                        ["ProductId"] = 1855579234
+                    }
+                },
+                ["Image"] = "rbxassetid://18156235788",
+                ["ShowRoom"] = "DualYinYangGreatswordShowRoom"
+            }
+        },
+        ["RootFFlagStartTime"] = "DualYinYangGreatswordRootStartTime",
+        ["ModuleDateTime"] = "1718928000000"
+    },
+    {
         ["FFlagEndTime"] = "ResurrectionBladeEndTime",
         ["RootFFlagEndTime"] = "Resurrection1PackRootEndTime",
+        ["ModuleDateTime"] = "1718409600000",
         ["FFlagStartTime"] = "ResurrectionBladeStartTime",
         ["Rewards"] = {
             {
@@ -68,6 +3656,7 @@ data = {
     {
         ["FFlagEndTime"] = "ResurrectionScytheEndTime",
         ["RootFFlagEndTime"] = "Resurrection1PackRootEndTime",
+        ["ModuleDateTime"] = "1718409600000",
         ["FFlagStartTime"] = "ResurrectionScytheStartTime",
         ["Rewards"] = {
             {
@@ -146,6 +3735,7 @@ data = {
     {
         ["FFlagEndTime"] = "ResurrectionPackEndTime",
         ["RootFFlagEndTime"] = "Resurrection1PackRootEndTime",
+        ["ModuleDateTime"] = "1718409600000",
         ["FFlagStartTime"] = "ResurrectionPackStartTime",
         ["Rewards"] = {
             {
@@ -243,6 +3833,7 @@ data = {
     {
         ["FFlagEndTime"] = "AbyssalBladeEndTime",
         ["RootFFlagEndTime"] = "AbyssalPackRootEndTime",
+        ["ModuleDateTime"] = "1717804800000",
         ["FFlagStartTime"] = "AbyssalBladeStartTime",
         ["Rewards"] = {
             {
@@ -289,7 +3880,7 @@ data = {
                                     ["Value"] = "Emote375",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17779280904",
-                                    ["DisplayName"] = "Dual Abyssal Blade Emote"
+                                    ["DisplayName"] = "Dual Abyssal Blade Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -309,6 +3900,7 @@ data = {
     {
         ["FFlagEndTime"] = "AbyssalShieldEndTime",
         ["RootFFlagEndTime"] = "AbyssalPackRootEndTime",
+        ["ModuleDateTime"] = "1717804800000",
         ["FFlagStartTime"] = "AbyssalShieldStartTime",
         ["Rewards"] = {
             {
@@ -387,6 +3979,7 @@ data = {
     {
         ["FFlagEndTime"] = "AbyssalPackEndTime",
         ["RootFFlagEndTime"] = "AbyssalPackRootEndTime",
+        ["ModuleDateTime"] = "1717804800000",
         ["FFlagStartTime"] = "AbyssalPackStartTime",
         ["Rewards"] = {
             {
@@ -457,7 +4050,7 @@ data = {
                                     ["Value"] = "Emote375",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17779280904",
-                                    ["DisplayName"] = "Dual Abyssal Blade Emote"
+                                    ["DisplayName"] = "Dual Abyssal Blade Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Emote377",
@@ -484,6 +4077,7 @@ data = {
     {
         ["FFlagEndTime"] = "EclipseGleamEndTime",
         ["RootFFlagEndTime"] = "EclipsePackRootEndTime",
+        ["ModuleDateTime"] = "1717200000000",
         ["FFlagStartTime"] = "EclipseGleamStartTime",
         ["Rewards"] = {
             {
@@ -550,6 +4144,7 @@ data = {
     {
         ["FFlagEndTime"] = "EclipseBlasterEndTime",
         ["RootFFlagEndTime"] = "EclipsePackRootEndTime",
+        ["ModuleDateTime"] = "1717200000000",
         ["FFlagStartTime"] = "EclipseBlasterStartTime",
         ["Rewards"] = {
             {
@@ -628,6 +4223,7 @@ data = {
     {
         ["FFlagEndTime"] = "EclipsePackEndTime",
         ["RootFFlagEndTime"] = "EclipsePackRootEndTime",
+        ["ModuleDateTime"] = "1717200000000",
         ["FFlagStartTime"] = "EclipsePackStartTime",
         ["Rewards"] = {
             {
@@ -725,6 +4321,7 @@ data = {
     {
         ["FFlagEndTime"] = "RunicBladeEndTime",
         ["RootFFlagEndTime"] = "RunicPackRootEndTime",
+        ["FFlagStartTime"] = "RunicBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -785,11 +4382,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "RunicPackRootStartTime",
-        ["FFlagStartTime"] = "RunicBladeStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "RunicScytheEndTime",
         ["RootFFlagEndTime"] = "RunicPackRootEndTime",
+        ["FFlagStartTime"] = "RunicScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -862,11 +4460,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "RunicPackRootStartTime",
-        ["FFlagStartTime"] = "RunicScytheStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "RunicPackEndTime",
         ["RootFFlagEndTime"] = "RunicPackRootEndTime",
+        ["FFlagStartTime"] = "RunicPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -958,11 +4557,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "RunicPackRootStartTime",
-        ["FFlagStartTime"] = "RunicPackStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "ChromaBladeEndTime",
         ["RootFFlagEndTime"] = "ChromaSetRootEndTime",
+        ["FFlagStartTime"] = "ChromaBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1006,11 +4606,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "ChromaSetRootStartTime",
-        ["FFlagStartTime"] = "ChromaBladeStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "RunicScytheEndTime",
         ["RootFFlagEndTime"] = "ChromaSetRootEndTime",
+        ["FFlagStartTime"] = "RunicScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1054,11 +4655,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "ChromaSetRootStartTime",
-        ["FFlagStartTime"] = "RunicScytheStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "DualChromaSetEndTime",
         ["RootFFlagEndTime"] = "ChromaSetRootEndTime",
+        ["FFlagStartTime"] = "DualChromaSetStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1102,11 +4704,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "ChromaSetRootStartTime",
-        ["FFlagStartTime"] = "DualChromaSetStartTime"
+        ["ModuleDateTime"] = "1716595200000"
     },
     {
         ["FFlagEndTime"] = "FrigidBladeEndTime",
         ["RootFFlagEndTime"] = "FrigidPackRootEndTime",
+        ["FFlagStartTime"] = "FrigidBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1167,11 +4770,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "FrigidPackRootStartTime",
-        ["FFlagStartTime"] = "FrigidBladeStartTime"
+        ["ModuleDateTime"] = "1715990400000"
     },
     {
         ["FFlagEndTime"] = "FrigidScytheEndTime",
         ["RootFFlagEndTime"] = "FrigidPackRootEndTime",
+        ["FFlagStartTime"] = "FrigidScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1244,11 +4848,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "FrigidPackRootStartTime",
-        ["FFlagStartTime"] = "FrigidScytheStartTime"
+        ["ModuleDateTime"] = "1715990400000"
     },
     {
         ["FFlagEndTime"] = "FrigidPackEndTime",
         ["RootFFlagEndTime"] = "FrigidPackRootEndTime",
+        ["FFlagStartTime"] = "FrigidPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1340,11 +4945,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "FrigidPackRootStartTime",
-        ["FFlagStartTime"] = "FrigidPackStartTime"
+        ["ModuleDateTime"] = "1715990400000"
     },
     {
         ["FFlagEndTime"] = "LightningDaggerEndTime",
         ["RootFFlagEndTime"] = "LightningPackRootEndTime",
+        ["FFlagStartTime"] = "LightningDaggerStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1405,11 +5011,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "LightningPackRootStartTime",
-        ["FFlagStartTime"] = "LightningDaggerStartTime"
+        ["ModuleDateTime"] = "1715385600000"
     },
     {
         ["FFlagEndTime"] = "LightningSickleEndTime",
         ["RootFFlagEndTime"] = "LightningPackRootEndTime",
+        ["FFlagStartTime"] = "LightningSickleStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1482,11 +5089,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "LightningPackRootStartTime",
-        ["FFlagStartTime"] = "LightningSickleStartTime"
+        ["ModuleDateTime"] = "1715385600000"
     },
     {
         ["FFlagEndTime"] = "LightningPackEndTime",
         ["RootFFlagEndTime"] = "LightningPackRootEndTime",
+        ["FFlagStartTime"] = "LightningPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1578,11 +5186,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "LightningPackRootStartTime",
-        ["FFlagStartTime"] = "LightningPackStartTime"
+        ["ModuleDateTime"] = "1715385600000"
     },
     {
         ["FFlagEndTime"] = "SereneBladeEndTime",
         ["RootFFlagEndTime"] = "SerenePackRootEndTime",
+        ["FFlagStartTime"] = "SereneBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1643,11 +5252,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "SerenePackRootStartTime",
-        ["FFlagStartTime"] = "SereneBladeStartTime"
+        ["ModuleDateTime"] = "1714780800000"
     },
     {
         ["FFlagEndTime"] = "SereneScytheEndTime",
         ["RootFFlagEndTime"] = "SerenePackRootEndTime",
+        ["FFlagStartTime"] = "SereneScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1720,11 +5330,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "SerenePackRootStartTime",
-        ["FFlagStartTime"] = "SereneScytheStartTime"
+        ["ModuleDateTime"] = "1714780800000"
     },
     {
         ["FFlagEndTime"] = "SerenePackEndTime",
         ["RootFFlagEndTime"] = "SerenePackRootEndTime",
+        ["ModuleDateTime"] = "1714780800000",
         ["FFlagStartTime"] = "SerenePackStartTime",
         ["Rewards"] = {
             {
@@ -1822,6 +5433,7 @@ data = {
     {
         ["FFlagEndTime"] = "AstralSwordEndTime",
         ["FFlagStartTime"] = "AstralSwordStartTime",
+        ["RootFFlagEndTime"] = "AstralPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1880,11 +5492,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "AstralPackStartTime",
-        ["RootFFlagEndTime"] = "AstralPackEndTime"
+        ["ModuleDateTime"] = "1714176000000"
     },
     {
         ["FFlagEndTime"] = "AstralBowEndTime",
         ["FFlagStartTime"] = "AstralBowStartTime",
+        ["RootFFlagEndTime"] = "AstralPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -1926,11 +5539,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "AstralPackStartTime",
-        ["RootFFlagEndTime"] = "AstralPackEndTime"
+        ["ModuleDateTime"] = "1714176000000"
     },
     {
         ["FFlagEndTime"] = "AstralPackEndTime",
         ["FFlagStartTime"] = "AstralPackStartTime",
+        ["RootFFlagEndTime"] = "AstralPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2020,11 +5634,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "AstralPackStartTime",
-        ["RootFFlagEndTime"] = "AstralPackEndTime"
+        ["ModuleDateTime"] = "1714176000000"
     },
     {
         ["FFlagEndTime"] = "DesertBladeEndTime",
         ["FFlagStartTime"] = "DesertBladeStartTime",
+        ["RootFFlagEndTime"] = "DesertPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2083,11 +5698,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "DesertPackStartTime",
-        ["RootFFlagEndTime"] = "DesertPackEndTime"
+        ["ModuleDateTime"] = "1713571200000"
     },
     {
         ["FFlagEndTime"] = "DesertClawEndTime",
         ["FFlagStartTime"] = "DesertClawsStartTime",
+        ["RootFFlagEndTime"] = "DesertPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2129,11 +5745,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "DesertClawsStartTime",
-        ["RootFFlagEndTime"] = "DesertPackEndTime"
+        ["ModuleDateTime"] = "1713571200000"
     },
     {
         ["FFlagEndTime"] = "DesertPackEndTime",
         ["FFlagStartTime"] = "DesertPackStartTime",
+        ["RootFFlagEndTime"] = "DesertPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2223,11 +5840,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "DesertPackStartTime",
-        ["RootFFlagEndTime"] = "DesertPackEndTime"
+        ["ModuleDateTime"] = "1713571200000"
     },
     {
         ["FFlagEndTime"] = "HeavenlySwordEndTime",
         ["FFlagStartTime"] = "HeavenlySwordStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2265,7 +5883,7 @@ data = {
                                     ["Value"] = "Emote268",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17126020911",
-                                    ["DisplayName"] = "Dual Heavenly Sword Emote"
+                                    ["DisplayName"] = "Dual Heavenly Sword Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Heavenly Explosion",
@@ -2286,11 +5904,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
         ["FFlagEndTime"] = "HeavenlyChakramEndTime",
         ["FFlagStartTime"] = "HeavenlyChakramStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2311,7 +5930,7 @@ data = {
                                     ["Value"] = "Emote253",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17118878558",
-                                    ["DisplayName"] = "Chakram Emote Emote"
+                                    ["DisplayName"] = "Heavenly Chakram Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Heavenly Explosion",
@@ -2332,11 +5951,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
         ["FFlagEndTime"] = "HeavenlyPackEndTime",
         ["FFlagStartTime"] = "HeavenlyPackStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2369,7 +5989,7 @@ data = {
                                     ["Value"] = "Emote253",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17118878558",
-                                    ["DisplayName"] = "Chakram Emote Emote"
+                                    ["DisplayName"] = "Heavenly Chakram Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2405,13 +6025,13 @@ data = {
                                     ["Value"] = "Emote268",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17126020911",
-                                    ["DisplayName"] = "Dual Heavenly Sword Emote"
+                                    ["DisplayName"] = "Dual Heavenly Sword Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Emote253",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17118878558",
-                                    ["DisplayName"] = "Chakram Emote Emote"
+                                    ["DisplayName"] = "Heavenly Chakram Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2426,11 +6046,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
         ["FFlagEndTime"] = "DevilGreatswordEndTime",
         ["FFlagStartTime"] = "DevilGreatswordStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2473,11 +6094,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
         ["FFlagEndTime"] = "AngelGreatswordEndTime",
         ["FFlagStartTime"] = "AngelGreatswordStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2520,11 +6142,12 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
         ["FFlagEndTime"] = "DualEternalGreatswordEndTime",
         ["FFlagStartTime"] = "DualEternalGreatswordStartTime",
+        ["RootFFlagEndTime"] = "EternalPackEndTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2567,11 +6190,9 @@ data = {
             }
         },
         ["RootFFlagStartTime"] = "EternalPackStartTime",
-        ["RootFFlagEndTime"] = "EternalPackEndTime"
+        ["ModuleDateTime"] = "1712966400000"
     },
     {
-        ["FFlagEndTime"] = "DemonicBladeEndTime",
-        ["FFlagStartTime"] = "DemonicBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2609,7 +6230,7 @@ data = {
                                     ["Value"] = "Emote250",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034236137",
-                                    ["DisplayName"] = "Dual Demonic Blade Emote"
+                                    ["DisplayName"] = "Dual Demonic Blade Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Demonic Chain",
@@ -2628,11 +6249,12 @@ data = {
                 ["Image"] = "rbxassetid://17031430362",
                 ["ShowRoom"] = "DemonicBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "DemonicBladeEndTime",
+        ["FFlagStartTime"] = "DemonicBladeStartTime",
+        ["ModuleDateTime"] = "1712361600000"
     },
     {
-        ["FFlagEndTime"] = "DemonicScytheEndTime",
-        ["FFlagStartTime"] = "DemonicScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2659,7 +6281,7 @@ data = {
                                     ["Value"] = "Emote252",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034235766",
-                                    ["DisplayName"] = "Demonic Scythe Emote"
+                                    ["DisplayName"] = "Demonic Scythe Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2688,7 +6310,7 @@ data = {
                                     ["Value"] = "Emote251",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034235498",
-                                    ["DisplayName"] = "Dual Demonic Scythe Emote"
+                                    ["DisplayName"] = "Dual Demonic Scythe Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2701,11 +6323,12 @@ data = {
                 ["Image"] = "rbxassetid://17031430652",
                 ["ShowRoom"] = "DemonicScytheShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "DemonicScytheEndTime",
+        ["FFlagStartTime"] = "DemonicScytheStartTime",
+        ["ModuleDateTime"] = "1712361600000"
     },
     {
-        ["FFlagEndTime"] = "DemonicPackEndTime",
-        ["FFlagStartTime"] = "DemonicPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2738,7 +6361,7 @@ data = {
                                     ["Value"] = "Emote252",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034235766",
-                                    ["DisplayName"] = "Demonic Scythe Emote"
+                                    ["DisplayName"] = "Demonic Scythe Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2774,13 +6397,13 @@ data = {
                                     ["Value"] = "Emote251",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034235498",
-                                    ["DisplayName"] = "Dual Demonic Scythe Emote"
+                                    ["DisplayName"] = "Dual Demonic Scythe Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Emote250",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://17034236137",
-                                    ["DisplayName"] = "Dual Demonic Blade Emote"
+                                    ["DisplayName"] = "Dual Demonic Blade Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -2793,11 +6416,12 @@ data = {
                 ["Image"] = "rbxassetid://17027094022",
                 ["ShowRoom"] = "DemonicPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "DemonicPackEndTime",
+        ["FFlagStartTime"] = "DemonicPackStartTime",
+        ["ModuleDateTime"] = "1712361600000"
     },
     {
-        ["FFlagEndTime"] = "BlossomBladeEndTime",
-        ["FFlagStartTime"] = "BlossomBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2854,11 +6478,12 @@ data = {
                 ["Image"] = "rbxassetid://16933831364",
                 ["ShowRoom"] = "BlossomBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "BlossomBladeEndTime",
+        ["FFlagStartTime"] = "BlossomBladeStartTime",
+        ["ModuleDateTime"] = "1711756800000"
     },
     {
-        ["FFlagEndTime"] = "BlossomScytheEndTime",
-        ["FFlagStartTime"] = "BlossomScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -2927,9 +6552,14 @@ data = {
                 ["Image"] = "rbxassetid://16939639426",
                 ["ShowRoom"] = "BlossomScytheShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "BlossomScytheEndTime",
+        ["FFlagStartTime"] = "BlossomScytheStartTime",
+        ["ModuleDateTime"] = "1711756800000"
     },
     {
+        ["FFlagEndTime"] = "BlossomPackEndTime",
+        ["FFlagStartTime"] = "BlossomPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3018,13 +6648,10 @@ data = {
                 ["ShowRoom"] = "BlossomPackShowRoom"
             }
         },
-        ["FFlagEndTime"] = "BlossomPackEndTime",
-        ["FFlagStartTime"] = "BlossomPackStartTime",
+        ["ModuleDateTime"] = "1711756800000",
         ["Reconcile"] = true
     },
     {
-        ["FFlagEndTime"] = "StellarBladeEndTime",
-        ["FFlagStartTime"] = "StellarBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3062,7 +6689,7 @@ data = {
                                     ["Value"] = "Emote223",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16844075159",
-                                    ["DisplayName"] = "Dual Stellar Blades Emote Emote"
+                                    ["DisplayName"] = "Dual Stellar Blade Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3075,11 +6702,12 @@ data = {
                 ["Image"] = "rbxassetid://16842768510",
                 ["ShowRoom"] = "StellarBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StellarBladeEndTime",
+        ["FFlagStartTime"] = "StellarBladeStartTime",
+        ["ModuleDateTime"] = "1711152000000"
     },
     {
-        ["FFlagEndTime"] = "StellarRevolverEndTime",
-        ["FFlagStartTime"] = "StellarRevolverStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3106,7 +6734,7 @@ data = {
                                     ["Value"] = "Emote221",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16844849004",
-                                    ["DisplayName"] = "Stellar Revolver Emote"
+                                    ["DisplayName"] = "Stellar Revolver Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3148,11 +6776,12 @@ data = {
                 ["Image"] = "rbxassetid://16842769152",
                 ["ShowRoom"] = "StellarRevolverShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StellarRevolverEndTime",
+        ["FFlagStartTime"] = "StellarRevolverStartTime",
+        ["ModuleDateTime"] = "1711152000000"
     },
     {
-        ["FFlagEndTime"] = "StellarPackEndTime",
-        ["FFlagStartTime"] = "StellarPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3185,7 +6814,7 @@ data = {
                                     ["Value"] = "Emote221",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16844849004",
-                                    ["DisplayName"] = "Stellar Revolver Emote"
+                                    ["DisplayName"] = "Stellar Revolver Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3227,7 +6856,7 @@ data = {
                                     ["Value"] = "Emote223",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16844075159",
-                                    ["DisplayName"] = "Dual Stellar Blades Emote Emote"
+                                    ["DisplayName"] = "Dual Stellar Blade Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3240,11 +6869,12 @@ data = {
                 ["Image"] = "rbxassetid://16838922387",
                 ["ShowRoom"] = "StellarPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StellarPackEndTime",
+        ["FFlagStartTime"] = "StellarPackStartTime",
+        ["ModuleDateTime"] = "1711152000000"
     },
     {
-        ["FFlagEndTime"] = "PrincessKatanaEndTime",
-        ["FFlagStartTime"] = "PrincessKatanaStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3288,7 +6918,7 @@ data = {
                                     ["Value"] = "Emote212",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16762254489",
-                                    ["DisplayName"] = "Princess Katana Emote Emote"
+                                    ["DisplayName"] = "Dual Princess Katana Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3301,11 +6931,12 @@ data = {
                 ["Image"] = "rbxassetid://16762208168",
                 ["ShowRoom"] = "PrincessKatanaShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "PrincessKatanaEndTime",
+        ["FFlagStartTime"] = "PrincessKatanaStartTime",
+        ["ModuleDateTime"] = "1710547200000"
     },
     {
-        ["FFlagEndTime"] = "KingBladeEndTime",
-        ["FFlagStartTime"] = "KingBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3346,11 +6977,12 @@ data = {
                 ["Image"] = "rbxassetid://16758469114",
                 ["ShowRoom"] = "KingBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "KingBladeEndTime",
+        ["FFlagStartTime"] = "KingBladeStartTime",
+        ["ModuleDateTime"] = "1710547200000"
     },
     {
-        ["FFlagEndTime"] = "QueenBladeEndTime",
-        ["FFlagStartTime"] = "QueenBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3391,11 +7023,12 @@ data = {
                 ["Image"] = "rbxassetid://16758178836",
                 ["ShowRoom"] = "QueenBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "QueenBladeEndTime",
+        ["FFlagStartTime"] = "QueenBladeStartTime",
+        ["ModuleDateTime"] = "1710547200000"
     },
     {
-        ["FFlagEndTime"] = "DualRoyalBladesEndTime",
-        ["FFlagStartTime"] = "DualRoyalBladesStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3436,11 +7069,12 @@ data = {
                 ["Image"] = "rbxassetid://16762501975",
                 ["ShowRoom"] = "DualRoyalBladesShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "DualRoyalBladesEndTime",
+        ["FFlagStartTime"] = "DualRoyalBladesStartTime",
+        ["ModuleDateTime"] = "1710547200000"
     },
     {
-        ["FFlagEndTime"] = "StardustKatanaEndTime",
-        ["FFlagStartTime"] = "StardustKatanaStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3497,11 +7131,12 @@ data = {
                 ["Image"] = "rbxassetid://16674533436",
                 ["ShowRoom"] = "StardustKatanaShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StardustKatanaEndTime",
+        ["FFlagStartTime"] = "StardustKatanaStartTime",
+        ["ModuleDateTime"] = "1709942400000"
     },
     {
-        ["FFlagEndTime"] = "StardustBowEndTime",
-        ["FFlagStartTime"] = "StardustBowStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3541,11 +7176,12 @@ data = {
                 ["Image"] = "rbxassetid://16680453282",
                 ["ShowRoom"] = "StardustBowShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StardustBowEndTime",
+        ["FFlagStartTime"] = "StardustBowStartTime",
+        ["ModuleDateTime"] = "1709942400000"
     },
     {
-        ["FFlagEndTime"] = "StardustPackEndTime",
-        ["FFlagStartTime"] = "StardustPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3633,11 +7269,12 @@ data = {
                 ["Image"] = "rbxassetid://16686412739",
                 ["ShowRoom"] = "StardustPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "StardustPackEndTime",
+        ["FFlagStartTime"] = "StardustPackStartTime",
+        ["ModuleDateTime"] = "1709942400000"
     },
     {
-        ["FFlagEndTime"] = "VoidBladeEndTime",
-        ["FFlagStartTime"] = "VoidBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3688,11 +7325,12 @@ data = {
                 ["Image"] = "rbxassetid://16572798638",
                 ["ShowRoom"] = "VoidBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoidBladeEndTime",
+        ["FFlagStartTime"] = "VoidBladeStartTime",
+        ["ModuleDateTime"] = "1709337600000"
     },
     {
-        ["FFlagEndTime"] = "VoidScytheEndTime",
-        ["FFlagStartTime"] = "VoidScytheStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3719,7 +7357,7 @@ data = {
                                     ["Value"] = "Emote161",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16587698558",
-                                    ["DisplayName"] = "Void Scythe Emote"
+                                    ["DisplayName"] = "Void Scythe Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3748,7 +7386,7 @@ data = {
                                     ["Value"] = "Emote162",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16587698823",
-                                    ["DisplayName"] = "Dual Void Scythes Emote"
+                                    ["DisplayName"] = "Dual Void Scythes Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3761,11 +7399,12 @@ data = {
                 ["Image"] = "rbxassetid://16572798803",
                 ["ShowRoom"] = "VoidScytheShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoidScytheEndTime",
+        ["FFlagStartTime"] = "VoidScytheStartTime",
+        ["ModuleDateTime"] = "1709337600000"
     },
     {
-        ["FFlagEndTime"] = "VoidPackEndTime",
-        ["FFlagStartTime"] = "VoidPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3798,7 +7437,7 @@ data = {
                                     ["Value"] = "Emote161",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16587698558",
-                                    ["DisplayName"] = "Void Scythe Emote"
+                                    ["DisplayName"] = "Void Scythe Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3834,7 +7473,7 @@ data = {
                                     ["Value"] = "Emote162",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16587698823",
-                                    ["DisplayName"] = "Dual Void Scythes Emote"
+                                    ["DisplayName"] = "Dual Void Scythes Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -3847,11 +7486,12 @@ data = {
                 ["Image"] = "rbxassetid://16580666541",
                 ["ShowRoom"] = "VoidPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoidPackEndTime",
+        ["FFlagStartTime"] = "VoidPackStartTime",
+        ["ModuleDateTime"] = "1709337600000"
     },
     {
-        ["FFlagEndTime"] = "CrystalHammerEndTime",
-        ["FFlagStartTime"] = "CrystalHammerStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3902,11 +7542,12 @@ data = {
                 ["Image"] = "rbxassetid://16498783175",
                 ["ShowRoom"] = "CrystalHammerShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "CrystalHammerEndTime",
+        ["FFlagStartTime"] = "CrystalHammerStartTime",
+        ["ModuleDateTime"] = "1708732800000"
     },
     {
-        ["FFlagEndTime"] = "CrystalScissorsEndTime",
-        ["FFlagStartTime"] = "CrystalScissorsStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3946,11 +7587,12 @@ data = {
                 ["Image"] = "rbxassetid://16498110859",
                 ["ShowRoom"] = "CrystalScissorsShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "CrystalScissorsEndTime",
+        ["FFlagStartTime"] = "CrystalScissorsStartTime",
+        ["ModuleDateTime"] = "1708732800000"
     },
     {
-        ["FFlagEndTime"] = "CrystalsPackEndTime",
-        ["FFlagStartTime"] = "CrystalsPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -3996,11 +7638,12 @@ data = {
                 ["Image"] = "rbxassetid://16499084489",
                 ["ShowRoom"] = "CrystalsPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "CrystalsPackEndTime",
+        ["FFlagStartTime"] = "CrystalsPackStartTime",
+        ["ModuleDateTime"] = "1708732800000"
     },
     {
-        ["FFlagEndTime"] = "ShadowDaggersEndTime",
-        ["FFlagStartTime"] = "ShadowDaggersStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4051,11 +7694,12 @@ data = {
                 ["Image"] = "rbxassetid://16401123893",
                 ["ShowRoom"] = "ShadowDaggersShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "ShadowDaggersEndTime",
+        ["FFlagStartTime"] = "ShadowDaggersStartTime",
+        ["ModuleDateTime"] = "1708128000000"
     },
     {
-        ["FFlagEndTime"] = "ShadowMirageEndTime",
-        ["FFlagStartTime"] = "ShadowMirageStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4124,11 +7768,12 @@ data = {
                 ["Image"] = "rbxassetid://16401123431",
                 ["ShowRoom"] = "ShadowMirageShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "ShadowMirageEndTime",
+        ["FFlagStartTime"] = "ShadowMirageStartTime",
+        ["ModuleDateTime"] = "1708128000000"
     },
     {
-        ["FFlagEndTime"] = "ShadowPackEndTime",
-        ["FFlagStartTime"] = "ShadowPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4210,11 +7855,12 @@ data = {
                 ["Image"] = "rbxassetid://16402393722",
                 ["ShowRoom"] = "ShadowPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "ShadowPackEndTime",
+        ["FFlagStartTime"] = "ShadowPackStartTime",
+        ["ModuleDateTime"] = "1708128000000"
     },
     {
-        ["FFlagEndTime"] = "LoveBladeEndTime",
-        ["FFlagStartTime"] = "LoveBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4265,11 +7911,12 @@ data = {
                 ["Image"] = "rbxassetid://16300592271",
                 ["ShowRoom"] = "LoveBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "LoveBladeEndTime",
+        ["FFlagStartTime"] = "LoveBladeStartTime",
+        ["ModuleDateTime"] = "1707523200000"
     },
     {
-        ["FFlagEndTime"] = "CupidsBowEndTime",
-        ["FFlagStartTime"] = "CupidsBowStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4290,7 +7937,7 @@ data = {
                                     ["Value"] = "Emote142",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16313951987",
-                                    ["DisplayName"] = "Cupid's Bow Emote"
+                                    ["DisplayName"] = "Cupid's Bow Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -4303,11 +7950,12 @@ data = {
                 ["Image"] = "rbxassetid://16300592527",
                 ["ShowRoom"] = "CupidsBowShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "CupidsBowEndTime",
+        ["FFlagStartTime"] = "CupidsBowStartTime",
+        ["ModuleDateTime"] = "1707523200000"
     },
     {
-        ["FFlagEndTime"] = "ValentinesPackEndTime",
-        ["FFlagStartTime"] = "ValentinesPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4340,7 +7988,7 @@ data = {
                                     ["Value"] = "Emote142",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16313951987",
-                                    ["DisplayName"] = "Cupid's Bow Emote"
+                                    ["DisplayName"] = "Cupid's Bow Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -4376,7 +8024,7 @@ data = {
                                     ["Value"] = "Emote142",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16313951987",
-                                    ["DisplayName"] = "Cupid's Bow Emote"
+                                    ["DisplayName"] = "Cupid's Bow Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -4389,11 +8037,12 @@ data = {
                 ["Image"] = "rbxassetid://16312165945",
                 ["ShowRoom"] = "ValentinesPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "ValentinesPackEndTime",
+        ["FFlagStartTime"] = "ValentinesPackStartTime",
+        ["ModuleDateTime"] = "1707523200000"
     },
     {
-        ["FFlagEndTime"] = "LunarParasolEndTime",
-        ["FFlagStartTime"] = "LunarParasolStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4415,7 +8064,7 @@ data = {
                                     ["Value"] = "Emote141",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16313951656",
-                                    ["DisplayName"] = "Lunar Parasol Emote"
+                                    ["DisplayName"] = "Lunar Parasol Emote Emote"
                                 },
                                 {
                                     ["Value"] = "Lunar Burst",
@@ -4434,11 +8083,12 @@ data = {
                 ["Image"] = "rbxassetid://16312140008",
                 ["ShowRoom"] = "LunarParasolShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "LunarParasolEndTime",
+        ["FFlagStartTime"] = "LunarParasolStartTime",
+        ["ModuleDateTime"] = "1707523200000"
     },
     {
-        ["FFlagEndTime"] = "VoltfireLashEndTime",
-        ["FFlagStartTime"] = "VoltfireLashStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4495,11 +8145,12 @@ data = {
                 ["Image"] = "rbxassetid://16215252467",
                 ["ShowRoom"] = "VoltfireLashShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoltfireLashEndTime",
+        ["FFlagStartTime"] = "VoltfireLashStartTime",
+        ["ModuleDateTime"] = "1706918400000"
     },
     {
-        ["FFlagEndTime"] = "VoltfireBladeEndTime",
-        ["FFlagStartTime"] = "VoltfireBladeStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Sword",
@@ -4529,11 +8180,12 @@ data = {
                 ["Image"] = "rbxassetid://16215252940",
                 ["ShowRoom"] = "VoltfireBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoltfireBladeEndTime",
+        ["FFlagStartTime"] = "VoltfireBladeStartTime",
+        ["ModuleDateTime"] = "1706918400000"
     },
     {
-        ["FFlagEndTime"] = "VoltfirePackEndTime",
-        ["FFlagStartTime"] = "VoltfirePackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4615,11 +8267,12 @@ data = {
                 ["Image"] = "rbxassetid://16223384536",
                 ["ShowRoom"] = "VoltfirePackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "VoltfirePackEndTime",
+        ["FFlagStartTime"] = "VoltfirePackStartTime",
+        ["ModuleDateTime"] = "1706918400000"
     },
     {
-        ["FFlagEndTime"] = "NebulaKatanaPackEndTime",
-        ["FFlagStartTime"] = "NebulaKatanaPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4671,11 +8324,12 @@ data = {
                 ["Image"] = "rbxassetid://16135499894",
                 ["ShowRoom"] = "NebulaKatanaShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "NebulaKatanaPackEndTime",
+        ["FFlagStartTime"] = "NebulaKatanaPackStartTime",
+        ["ModuleDateTime"] = "1706313600000"
     },
     {
-        ["FFlagEndTime"] = "NightfallPackEndTime",
-        ["FFlagStartTime"] = "NightfallPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4696,7 +8350,7 @@ data = {
                                     ["Value"] = "Emote122",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16137923421",
-                                    ["DisplayName"] = "Nightfall Violin Emote"
+                                    ["DisplayName"] = "Nightfall Violin Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -4740,7 +8394,7 @@ data = {
                                     ["Value"] = "Emote122",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://16137923421",
-                                    ["DisplayName"] = "Nightfall Violin Emote"
+                                    ["DisplayName"] = "Nightfall Violin Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -4753,11 +8407,12 @@ data = {
                 ["Image"] = "rbxassetid://16137600993",
                 ["ShowRoom"] = "NightfallShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "NightfallPackEndTime",
+        ["FFlagStartTime"] = "NightfallPackStartTime",
+        ["ModuleDateTime"] = "1706313600000"
     },
     {
-        ["FFlagEndTime"] = "CrystalPackEndTime",
-        ["FFlagStartTime"] = "CrystalPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4924,11 +8579,12 @@ data = {
                 ["Image"] = "rbxassetid://16052784475",
                 ["ShowRoom"] = "CrystalPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "CrystalPackEndTime",
+        ["FFlagStartTime"] = "CrystalPackStartTime",
+        ["ModuleDateTime"] = "1705708800000"
     },
     {
-        ["FFlagEndTime"] = "NebulaPackEndTime",
-        ["FFlagStartTime"] = "NebulaPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Bundle",
@@ -4981,11 +8637,12 @@ data = {
                 ["Image"] = "rbxassetid://15965814580",
                 ["ShowRoom"] = "NebulaBladeShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "NebulaPackEndTime",
+        ["FFlagStartTime"] = "NebulaPackStartTime",
+        ["ModuleDateTime"] = "1705449600000"
     },
     {
-        ["FFlagEndTime"] = "AetherialPackEndTime",
-        ["FFlagStartTime"] = "AetherialPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Sword",
@@ -5123,11 +8780,12 @@ data = {
                 ["Image"] = "rbxassetid://15963974672",
                 ["ShowRoom"] = "AetherialAzurePackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "AetherialPackEndTime",
+        ["FFlagStartTime"] = "AetherialPackStartTime",
+        ["ModuleDateTime"] = "1705104000000"
     },
     {
-        ["FFlagEndTime"] = "PrismaticPackEndTime",
-        ["FFlagStartTime"] = "PrismaticPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Sword",
@@ -5216,7 +8874,7 @@ data = {
                                     ["Value"] = "Emote78",
                                     ["Type"] = "Emote",
                                     ["Icon"] = "rbxassetid://15887541734",
-                                    ["DisplayName"] = "Prismatic Harvester Emote"
+                                    ["DisplayName"] = "Prismatic Harvester Emote Emote"
                                 }
                             },
                             ["Type"] = "List",
@@ -5265,11 +8923,12 @@ data = {
                 ["Image"] = "rbxassetid://15890452696",
                 ["ShowRoom"] = "PrismaticPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "PrismaticPackEndTime",
+        ["FFlagStartTime"] = "PrismaticPackStartTime",
+        ["ModuleDateTime"] = "1704585600000"
     },
     {
-        ["FFlagEndTime"] = "SwordPackEndTime",
-        ["FFlagStartTime"] = "SwordPackStartTime",
         ["Rewards"] = {
             {
                 ["Type"] = "Sword",
@@ -5407,6 +9066,9 @@ data = {
                 ["Image"] = "rbxassetid://15887850180",
                 ["ShowRoom"] = "CrimsonPackShowRoom"
             }
-        }
+        },
+        ["FFlagEndTime"] = "SwordPackEndTime",
+        ["FFlagStartTime"] = "SwordPackStartTime",
+        ["ModuleDateTime"] = "1704585600000"
     }
 }
