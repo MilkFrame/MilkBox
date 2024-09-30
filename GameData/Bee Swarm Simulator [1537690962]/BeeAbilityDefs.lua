@@ -2,7 +2,9 @@ data = {
     ["Red Pulse"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = "Fires a pulse thats hops between your Red Bees, collecting pollen around them (+10% per lvl). Power increase with each hop. If you own Cobalt Bee, fires a Blue Pulse as well.",
+        ["Description"] = [[Fires a pulse thats hops between your Red Bees, collecting pollen around them (+10% per lvl). Power increase with each hop. If you own Cobalt Bee, fires a Blue Pulse as well.
+
+• If Gifted, the pulse also causes bees to instantly convert Pollen equal to 25% of their Convert Amount when it hops to them (+25% per Field Boost stack).]],
         ["Collectible"] = {
             ["ColorType"] = "Red",
             ["Type"] = "Pulse",
@@ -70,11 +72,11 @@ data = {
         ["Contexts"] = {"Gather", "Battle"},
         ["Description"] = [[Corrupts the field you're in for 20s (+1s per lvl), granting collected Ability Tokens a chance to be duplicated (or "Duped").
 
-• Duped Tokens hover over the field for a duration equal to the lifespan of the original Ability Token x2 (+10% per Digital Bee lvl). <stroke color="#29241d" joins="round" thickness="1.5" transparency="0"><font color="#f5e264">Standing beneath</font></stroke> a Duped Token for 1s causes it to activate.
+• Duped Tokens hover over the field for a duration equal to the lifespan of the original Ability Token x2 (+5% per Digital Bee lvl). <stroke color="#29241d" joins="round" thickness="1.5" transparency="0"><font color="#f5e264">Standing beneath</font></stroke> a Duped Token for 1s causes it to activate.
 
 • Increasing a field's Corruption increases the chance for abilities to be duplicated and boosts the pollen collection and instant conversion of Duped Abilities. <stroke color="#29241d" joins="round" thickness="1.5" transparency="0"><font color="#f5e264">Enhancing Digital Bee with Drives causes this ability to grant more Corruption</font></stroke>: Colored Drives increase Corruption of fields with matching flowers while Glitched Drives increase Corruption of all fields.
 
-• While this is active, Digital Bee will occasionally spawn <stroke color="#29241d" joins="round" thickness="1.5" transparency="0"><font color="#f5e264">â˜º tokens</font></stroke>. Activating a â˜º token temporarily increases the field's Corruption, causes all Duped Tokens to be activated, hacks a nearby non-boss enemy, and collects and doubles pollen equal to 50% of Digital Bee's gather amount (+50% pollen multiplier per Duped Token activated) from a random arrangement of flowers, with 50% being instantly converted. The flowers collected are stamped for 10s, granting them a x2 pollen multiplier. The frequency of â˜º tokens increases with the number of Glitched Drives Digital Bee has been enhanced with.]],
+• While this is active, Digital Bee will occasionally spawn <stroke color="#29241d" joins="round" thickness="1.5" transparency="0"><font color="#f5e264">☺ tokens</font></stroke>. Activating a ☺ token temporarily increases the field's Corruption, causes all Duped Tokens to be activated, hacks a nearby non-boss enemy, and collects pollen equal to 50% of Digital Bee's gather amount (boosted by +50% per Duped Token activated) from a random arrangement of flowers, with 50% being instantly converted. The flowers collected are stamped for 10s, granting them a x2 pollen multiplier. The frequency of ☺ tokens increases with the number of Glitched Drives Digital Bee has been enhanced with.]],
         ["Success"] = 0.3333333333333333,
         ["TryCooldown"] = 10,
         ["Collectible"] = {
@@ -98,7 +100,7 @@ data = {
     ["Map Corruption"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = [[Digital Bee corrupts a random field by a small amount for all players in the server for 3 minutes (+10s per lvl). The amount of Corruption is increased by the number of Drives Digital Bee has been enhanced with.
+        ["Description"] = [[Digital Bee corrupts a random field by a small amount for all players in the server for 3 minutes (+15s per lvl). The amount of Corruption is increased by the number of Drives Digital Bee has been enhanced with.
 
 • Fields with more flowers matching the color of the most recent colored Drive you've used are more likely to be selected. If your most recent Drive is a Glitched Drive, the field is completely random but gains 25% more Corruption.]],
         ["Success"] = 0.125,
@@ -157,7 +159,7 @@ data = {
         ["Description"] = "Transforms you into a random bear! Grants x2 pollen and boosts speed and jump power. If Gifted, has a 20% chance to transform you into a rare bear that gives special boosts.",
         ["Success"] = 0.5,
         ["TryCooldown"] = 15,
-        ["Collectible"] = "function: 0x00000000453d734d",
+        ["Collectible"] = "function: 0x12e457803ca02117",
         ["UseCooldown"] = 45
     },
     ["Inferno"] = {
@@ -173,9 +175,9 @@ data = {
         ["UseCooldown"] = 30
     },
     ["Rage"] = {
-        ["Description"] = "Grants your bees +1 attack for 45s. Stacks up to 3 times.",
-        ["Success"] = 1,
-        ["TryCooldown"] = 15,
+        ["Description"] = "Grants your bees +1 Attack 45s. Stacks up to 4 times.",
+        ["Success"] = 0.5,
+        ["TryCooldown"] = 3,
         ["Context"] = "Battle",
         ["Collectible"] = {
             ["Tags"] = {"Red", "Red Ability", "Battle", "Ability", "Rage"},
@@ -198,10 +200,17 @@ data = {
         ["UseCooldown"] = 300
     },
     ["Tabby Love"] = {
-        ["Contexts"] = {"Gather"},
+        ["Contexts"] = {"Gather", "Battle"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = "Permanently grants Tabby Bee +1% Gather Amount, Convert Amount, and pollen from Scratch. Stacks up to 1,000 times.",
-        ["Collectible"] = {["Tags"] = {"Ability", "Tabby Love"}, ["Dur"] = 16, ["Buff"] = "Tabby Love"},
+        ["Description"] = [[Permanently grants Tabby Bee +1% Gather Amount, Convert Amount, and pollen from Scratch. Stacks up to 1,000 times.
+
+• If at max stacks, Tabby Love grants +1% Critical Chance and +25% Critical Power for 20 seconds (+2s per lvl). If Gifted, grants +1% Super-Crit Chance as well.]],
+        ["Collectible"] = {
+            ["Tags"] = {"Ability", "Tabby Love"},
+            ["Dur"] = 16,
+            ["OnCollect"] = "function: 0x98dea7c1d2afd297",
+            ["Buff"] = "Tabby Love"
+        },
         ["Success"] = 0.2,
         ["TryCooldown"] = 60,
         ["UseCooldown"] = 120
@@ -271,7 +280,7 @@ data = {
     },
     ["Rain Cloud"] = {
         ["Contexts"] = {"Gather"},
-        ["Description"] = "Summons a Cloud in a different field which lasts for 60s (+5s per lvl). Clouds make flowers grow and grant +25% Pollen to nearby players.",
+        ["Description"] = "Summons a Cloud in a different field which lasts for 60s (+10s per lvl). Clouds make flowers grow and grant +25% Pollen and +10% Unique Instant Conversion to nearby players.",
         ["Success"] = 0.5,
         ["TryCooldown"] = 20,
         ["Collectible"] = {["Type"] = "Rain Call", ["Dur"] = 24, ["Tags"] = {"Ability", "Rain Cloud"}},
@@ -301,7 +310,7 @@ data = {
     ["Surprise Party"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = [[Summons a Gold Balloon (+1 every 5 lvls) for all players, then causes all Balloons to spawn random ability tokens for a few seconds. Gold Balloons gain bonus pollen (increases with bee lvl) and transform nearby Bubbles into Gold Bubbles, which collect 50% more pollen and have a chance to spawn Honey Tokens. If you have triggered a Surprise Party within the last 8 minutes, performs "Inflate Balloons" instead (always spawns a Gold Balloon).]],
+        ["Description"] = [[Summons a Gold Balloon (+1 every 5 lvls) for all players, then causes all Balloons to spawn random ability tokens for a few seconds. Gold Balloons gain bonus pollen (increases with bee lvl) and transform nearby Bubbles into Gold Bubbles, which are Instantly Converted and gain x2 Pollen (+100% per Field Boost Stack), and have a 10% chance to spawn a Honey Token equal the amount collected. If you have triggered a Surprise Party within the last 8 minutes, performs "Inflate Balloons" instead (always spawns a Gold Balloon).]],
         ["Success"] = 0.125,
         ["TryCooldown"] = 15,
         ["Collectible"] = {
@@ -325,7 +334,7 @@ data = {
         ["StartWithFullCooldown"] = true,
         ["Description"] = [[Hacks the minds of up to 3 nearby enemies (+1 every 3 lvls), stunning them for 3s (+0.1s per lvl). While hacked, the enemies take 25% more damage (+0.1% per Glitched Drive Digital Bee has been enhanced with). Hacking is only half as effective against bosses.
 
-• If in a field, this spawns a â˜º token as well.]],
+• If in a field, this spawns a ☺ token as well.]],
         ["Success"] = 0.3333333333333333,
         ["TryCooldown"] = 2,
         ["Collectible"] = {
@@ -358,7 +367,7 @@ data = {
     },
     ["Flame Fuel"] = {
         ["Contexts"] = {"Gather", "Battle"},
-        ["Description"] = "For 15 seconds, tosses oil into any Flames that spawn, causing them to last 50% longer and instantly convert 50k pollen + 10% of your hive's total convert amount.",
+        ["Description"] = "For 15 seconds, tosses oil into any Flames that spawn, causing them to last 50% longer and instantly convert 50k pollen + 10% of your hive's total convert amount (+5% per Field Boost Stack).",
         ["Collectible"] = {
             ["Tags"] = {"Gather", "Battle", "Red", "Red Ability", "Ability", "Flame Fuel"},
             ["Dur"] = 8,
@@ -397,7 +406,7 @@ data = {
     ["Red Bomb Sync"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = "Allows Red Bombs to collect from White flowers for 30s. If Blue Bomb Sync is active, applies to Blue flowers as well.",
+        ["Description"] = "Grants +10% Red Pollen and Instant Red Conversion and allows Red Bombs to collect from White flowers for 30s. If Blue Bomb Sync is active, applies to Blue flowers as well.",
         ["Collectible"] = {
             ["Tags"] = {"Red", "Red Ability", "Ability", "Red Bomb Sync"},
             ["Dur"] = 24,
@@ -445,7 +454,9 @@ data = {
     ["Blue Pulse"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = "Fires a pulse thats hops between your Blue Bees, collecting pollen around them (+10% per lvl). Power increases with each hop. If you own Crimson Bee, fires a Red Pulse as well.",
+        ["Description"] = [[Fires a pulse thats hops between your Blue Bees, collecting pollen around them (+10% per lvl). Power increases with each hop. If you own Crimson Bee, fires a Red Pulse as well.
+
+• If Gifted, the pulse also causes bees to instantly convert Pollen equal to 25% of their Convert Amount when it hops to them (+25% per Field Boost stack).]],
         ["Collectible"] = {
             ["ColorType"] = "Blue",
             ["Type"] = "Pulse",
@@ -458,16 +469,16 @@ data = {
     },
     ["Puppy Love"] = {
         ["Contexts"] = {"Gather", "Idle"},
-        ["Description"] = "Increases your bond with up to 10 nearby bees by 30 (+10 per lvl).",
-        ["Success"] = 0.4,
+        ["Description"] = "Increases your bond with up to 10 nearby bees by 60 (+20 per lvl). Grants +10% Bee Movespeed and +50% Bee Gather Amount for 10 seconds (+1s per lvl).",
+        ["Success"] = 0.2,
         ["TryCooldown"] = 10,
         ["Collectible"] = {["Type"] = "Puppy Love", ["Dur"] = 8, ["Tags"] = {"Ability", "Puppy Love"}},
-        ["UseCooldown"] = 40
+        ["UseCooldown"] = 80
     },
     ["Blue Bomb Sync"] = {
         ["Contexts"] = {"Gather"},
         ["StartWithFullCooldown"] = true,
-        ["Description"] = "Allows Blue Bombs to collect from White flowers for 30s. If Red Bomb Sync is active, applies to Red flowers as well.",
+        ["Description"] = "Grants +10% Blue Pollen and Instant Blue Conversion and allows Blue Bombs to collect from White flowers for 30s. If Red Bomb Sync is active, applies to Red flowers as well.",
         ["Collectible"] = {
             ["Tags"] = {"Blue", "Blue Ability", "Ability", "Blue Bomb Sync"},
             ["Dur"] = 24,
@@ -539,7 +550,7 @@ data = {
     },
     ["Summon Frog"] = {
         ["Contexts"] = {"Gather", "Battle"},
-        ["Description"] = [[Summons a frog that lasts for 20s (+2s per lvl). Frogs create Bubbles when they hop and use their tongues to collect tokens. They also attack nearby enemies with attack equal to 10x this bee's attack.
+        ["Description"] = [[Summons a frog that lasts for 20s (+2s per lvl). Frogs create Bubbles when they hop and use their tongues to collect tokens. They also attack nearby enemies with attack equal to 5x this bee's attack.
 
 • If Gifted, this has a 10% (+2% per lvl) chance to summon a Gifted Frog instead, which has increased tongue range, Token gathering and attack speed, 50% more attack, has a chance to summon Gold Bubbles, and can hit Balloons with its tongue to convert pollen to Honey Tokens.]],
         ["Success"] = 0.25,
@@ -608,7 +619,9 @@ data = {
     },
     ["Beamstorm"] = {
         ["Contexts"] = {"Gather"},
-        ["Description"] = "Fires 25 (+2 per lvl) beams from the sky which collect and double ALL pollen from flowers. If Gifted, the pollen is instantly converted.",
+        ["Description"] = [[Fires 25 (+2 per lvl) beams from the sky which collect and double ALL pollen from flowers.
+
+• If Gifted, the pollen is instantly converted, and any White pollen collected is tripled instead.]],
         ["Success"] = 0.3333333333333333,
         ["TryCooldown"] = 10,
         ["Collectible"] = {["Type"] = "Beamstorm", ["Dur"] = 12, ["Tags"] = {"Ability", "Beamstorm"}},
