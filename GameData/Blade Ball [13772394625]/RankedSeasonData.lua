@@ -1,5 +1,5 @@
 data = {
-    ["GetCurrentSeason"] = "function: 0xc1d3c980460096f0",
+    ["GetCurrentSeason"] = "function: 0x725b1ed16176e8bc",
     ["Seasons"] = {
         ["Normal"] = {
             {["EndTime"] = "1699722000000", ["StartTime"] = "1696122000000"},
@@ -8,17 +8,19 @@ data = {
             {["EndTime"] = "1710349200000", ["StartTime"] = "1706374800000"},
             {["EndTime"] = "1714582800000", ["StartTime"] = "1710349200000"},
             {["EndTime"] = "1719079200000", ["StartTime"] = "1714582800000"},
-            {["EndTime"] = "1723312800000", ["StartTime"] = "1719079200000"}
+            {["EndTime"] = "1724263200000", ["StartTime"] = "1719079200000"},
+            {["EndTime"] = "1728151200000", ["StartTime"] = "1724263200000"}
         },
         ["NoAbility"] = {
             {["EndTime"] = "1706374800000", ["StartTime"] = "1704906000000"},
             {["EndTime"] = "1710021600000", ["StartTime"] = "1706374800000"},
             {["EndTime"] = "1714582800000", ["StartTime"] = "1710021600000"},
             {["EndTime"] = "1719079200000", ["StartTime"] = "1714582800000"},
-            {["EndTime"] = "1723312800000", ["StartTime"] = "1719079200000"}
+            {["EndTime"] = "1724263200000", ["StartTime"] = "1719079200000"},
+            {["EndTime"] = "1728151200000", ["StartTime"] = "1724263200000"}
         }
     },
-    ["GetRankedType"] = "function: 0x6d49ae10242295e0",
+    ["GetRankedType"] = "function: 0xe5ac3f552e3658cc",
     ["Rewards"] = {
         ["Normal"] = {
             ["1"] = {
@@ -32,6 +34,26 @@ data = {
                 },
                 {
                     ["Rewards"] = {{["Icon"] = "rbxassetid://14923478749", ["Sword"] = "Ranked Season 1 Top 200 Sword"}},
+                    ["Rank"] = 200
+                }
+            },
+            ["8"] = {
+                {
+                    ["Rewards"] = {
+                        {["Icon"] = "rbxassetid://139495977339184", ["Sword"] = "Ranked Season 8 Top 1 Sword"}
+                    },
+                    ["Rank"] = 1
+                },
+                {
+                    ["Rewards"] = {
+                        {["Icon"] = "rbxassetid://101196873263203", ["Sword"] = "Ranked Season 8 Top 50 Sword"}
+                    },
+                    ["Rank"] = 50
+                },
+                {
+                    ["Rewards"] = {
+                        {["Icon"] = "rbxassetid://71984471821473", ["Sword"] = "Ranked Season 8 Top 200 Sword"}
+                    },
                     ["Rank"] = 200
                 }
             },
@@ -92,9 +114,18 @@ data = {
                 }
             },
             ["7"] = {
-                {["Rewards"] = {{["Icon"] = "", ["Sword"] = "Ranked Season 7 Top 1 Sword"}}, ["Rank"] = 1},
-                {["Rewards"] = {{["Icon"] = "", ["Sword"] = "Ranked Season 7 Top 50 Sword"}}, ["Rank"] = 50},
-                {["Rewards"] = {{["Icon"] = "", ["Sword"] = "Ranked Season 7 Top 200 Sword"}}, ["Rank"] = 200}
+                {
+                    ["Rewards"] = {{["Icon"] = "rbxassetid://18154005151", ["Sword"] = "Ranked Season 7 Top 1 Sword"}},
+                    ["Rank"] = 1
+                },
+                {
+                    ["Rewards"] = {{["Icon"] = "rbxassetid://18153995632", ["Sword"] = "Ranked Season 7 Top 50 Sword"}},
+                    ["Rank"] = 50
+                },
+                {
+                    ["Rewards"] = {{["Icon"] = "rbxassetid://18153985876", ["Sword"] = "Ranked Season 7 Top 200 Sword"}},
+                    ["Rank"] = 200
+                }
             },
             ["6"] = {
                 {
