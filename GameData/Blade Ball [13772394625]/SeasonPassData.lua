@@ -2932,15 +2932,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         },
                         ["XP"] = 100,
                         ["Free"] = {
                             ["Value"] = 25,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "25 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "25 Chips"
                         }
                     },
                     {
@@ -2964,23 +2964,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         },
                         ["XP"] = 220,
                         ["Free"] = {
                             ["Value"] = 35,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "35 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "35 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         },
                         ["XP"] = 290,
                         ["Free"] = {
@@ -2994,14 +2994,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Galaxy Spins"
                         },
                         ["XP"] = 360,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -3046,16 +3046,16 @@ data = {
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 710,
                         ["Free"] = {
@@ -3069,30 +3069,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         },
                         ["XP"] = 810,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 915,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -3133,8 +3133,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1260,
                         ["Free"] = {
@@ -3148,14 +3148,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Galaxy Spins"
                         },
                         ["XP"] = 1385,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -3163,8 +3163,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1515,
                         ["Free"] = {
@@ -3179,45 +3179,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1655,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1805,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 1955,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
@@ -3239,8 +3239,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 2275,
                         ["Free"] = {
@@ -3254,23 +3254,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2445,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 2615,
                         ["Free"] = {
@@ -3285,8 +3285,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 145,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "145 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "145 Chips"
                         },
                         ["XP"] = 2795,
                         ["Free"] = {
@@ -3300,23 +3300,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 2975,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3165,
                         ["Free"] = {
@@ -3331,38 +3331,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3365,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3575,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3795,
                         ["Free"] = {
@@ -3376,15 +3376,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 4025,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
@@ -3408,23 +3408,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4515,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4775,
                         ["Free"] = {
@@ -3439,15 +3439,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5045,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -3471,15 +3471,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5615,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -3503,30 +3503,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 170,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "170 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "170 Chips"
                         },
                         ["XP"] = 6215,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6515,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
@@ -3548,23 +3548,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 180,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "180 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "180 Chips"
                         },
                         ["XP"] = 7115,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 7415,
                         ["Free"] = {
@@ -3579,8 +3579,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 190,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "190 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "190 Chips"
                         },
                         ["XP"] = 7715,
                         ["Free"] = {
@@ -3602,16 +3602,16 @@ data = {
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 8315,
                         ["Free"] = {
@@ -3625,15 +3625,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 8615,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -3657,15 +3657,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 9215,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -3679,8 +3679,8 @@ data = {
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -3719,30 +3719,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10415,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10715,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
@@ -3764,44 +3764,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11315,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11615,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 250,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "250 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "250 Chips"
                         },
                         ["XP"] = 11915,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -3809,15 +3809,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 300,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "300 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "300 Chips"
                         },
                         ["XP"] = 12215,
                         ["Free"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         }
                     },
                     {
@@ -3825,7 +3825,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 12515,
@@ -3833,7 +3833,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -3875,29 +3875,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -3905,30 +3905,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -3950,8 +3950,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -3966,44 +3966,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4011,15 +4011,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -4058,45 +4058,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -4118,38 +4118,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -4164,45 +4164,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -4226,59 +4226,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4287,7 +4287,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 8375,
@@ -4295,7 +4295,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -4337,29 +4337,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4367,30 +4367,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -4412,8 +4412,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -4428,44 +4428,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4473,15 +4473,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -4520,45 +4520,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -4580,38 +4580,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -4626,45 +4626,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -4688,59 +4688,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4749,7 +4749,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -4757,7 +4757,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -4799,29 +4799,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4829,30 +4829,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -4874,8 +4874,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -4890,44 +4890,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -4935,15 +4935,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -4982,45 +4982,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -5042,38 +5042,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -5088,45 +5088,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -5150,59 +5150,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Galaxy Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Galaxy Spins"
                         }
                     },
@@ -5211,7 +5211,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -5219,7 +5219,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -5250,15 +5250,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         },
                         ["XP"] = 100,
                         ["Free"] = {
                             ["Value"] = 25,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "25 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "25 Chips"
                         }
                     },
                     {
@@ -5282,23 +5282,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         },
                         ["XP"] = 220,
                         ["Free"] = {
                             ["Value"] = 35,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "35 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "35 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         },
                         ["XP"] = 290,
                         ["Free"] = {
@@ -5312,14 +5312,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Eternal Spins"
                         },
                         ["XP"] = 360,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -5357,15 +5357,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 615,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
@@ -5387,30 +5387,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         },
                         ["XP"] = 810,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 915,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -5451,8 +5451,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1260,
                         ["Free"] = {
@@ -5466,14 +5466,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Eternal Spins"
                         },
                         ["XP"] = 1385,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -5481,8 +5481,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1515,
                         ["Free"] = {
@@ -5497,30 +5497,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1655,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1805,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
@@ -5534,8 +5534,8 @@ data = {
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
@@ -5557,8 +5557,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 2275,
                         ["Free"] = {
@@ -5572,23 +5572,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2445,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 2615,
                         ["Free"] = {
@@ -5618,23 +5618,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 2975,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3165,
                         ["Free"] = {
@@ -5649,38 +5649,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3365,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3575,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3795,
                         ["Free"] = {
@@ -5694,15 +5694,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 4025,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
@@ -5726,23 +5726,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4515,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4775,
                         ["Free"] = {
@@ -5757,15 +5757,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5045,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -5789,15 +5789,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5615,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -5821,30 +5821,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 170,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "170 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "170 Chips"
                         },
                         ["XP"] = 6215,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6515,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
@@ -5866,23 +5866,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 180,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "180 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "180 Chips"
                         },
                         ["XP"] = 7115,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 7415,
                         ["Free"] = {
@@ -5897,8 +5897,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 190,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "190 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "190 Chips"
                         },
                         ["XP"] = 7715,
                         ["Free"] = {
@@ -5920,16 +5920,16 @@ data = {
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 8315,
                         ["Free"] = {
@@ -5943,15 +5943,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 8615,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -5975,15 +5975,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 9215,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -5997,8 +5997,8 @@ data = {
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -6037,30 +6037,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10415,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10715,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
@@ -6082,44 +6082,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11315,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11615,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 250,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "250 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "250 Chips"
                         },
                         ["XP"] = 11915,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6127,15 +6127,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 300,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "300 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "300 Chips"
                         },
                         ["XP"] = 12215,
                         ["Free"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         }
                     },
                     {
@@ -6143,7 +6143,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 12515,
@@ -6151,7 +6151,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -6193,29 +6193,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6223,30 +6223,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -6268,8 +6268,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -6284,44 +6284,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6329,15 +6329,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -6376,45 +6376,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -6436,38 +6436,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -6482,45 +6482,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -6544,59 +6544,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6605,7 +6605,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 8375,
@@ -6613,7 +6613,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -6655,29 +6655,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6685,30 +6685,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -6730,8 +6730,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -6746,44 +6746,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -6791,15 +6791,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -6838,45 +6838,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -6898,38 +6898,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -6944,45 +6944,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -7006,59 +7006,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -7067,7 +7067,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -7075,7 +7075,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -7117,29 +7117,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -7147,30 +7147,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -7192,8 +7192,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -7208,44 +7208,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -7253,15 +7253,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -7300,45 +7300,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -7360,38 +7360,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -7406,45 +7406,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -7468,59 +7468,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Eternal Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Eternal Spins"
                         }
                     },
@@ -7529,7 +7529,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -7537,7 +7537,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -7568,15 +7568,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         },
                         ["XP"] = 100,
                         ["Free"] = {
                             ["Value"] = 25,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "25 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "25 Chips"
                         }
                     },
                     {
@@ -7600,23 +7600,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         },
                         ["XP"] = 220,
                         ["Free"] = {
                             ["Value"] = 35,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "35 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "35 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         },
                         ["XP"] = 290,
                         ["Free"] = {
@@ -7630,14 +7630,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Mythical Spins"
                         },
                         ["XP"] = 360,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -7675,15 +7675,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 615,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
@@ -7705,30 +7705,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         },
                         ["XP"] = 810,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 915,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -7769,8 +7769,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1260,
                         ["Free"] = {
@@ -7784,14 +7784,14 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 2,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x2 Mythical Spins"
                         },
                         ["XP"] = 1385,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -7799,8 +7799,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1515,
                         ["Free"] = {
@@ -7815,30 +7815,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1655,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 125,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "125 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
                         },
                         ["XP"] = 1805,
                         ["Free"] = {
                             ["Value"] = 55,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "55 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
                         }
                     },
                     {
@@ -7852,8 +7852,8 @@ data = {
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
@@ -7875,8 +7875,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 2275,
                         ["Free"] = {
@@ -7890,23 +7890,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2445,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 2615,
                         ["Free"] = {
@@ -7936,23 +7936,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 2975,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3165,
                         ["Free"] = {
@@ -7967,38 +7967,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 3365,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3575,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 155,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "155 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
                         },
                         ["XP"] = 3795,
                         ["Free"] = {
@@ -8012,15 +8012,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 4025,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
@@ -8044,23 +8044,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4515,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 4775,
                         ["Free"] = {
@@ -8075,15 +8075,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5045,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -8107,15 +8107,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 165,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "165 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
                         },
                         ["XP"] = 5615,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
@@ -8139,30 +8139,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 170,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "170 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "170 Chips"
                         },
                         ["XP"] = 6215,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6515,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
@@ -8184,23 +8184,23 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 180,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "180 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "180 Chips"
                         },
                         ["XP"] = 7115,
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 7415,
                         ["Free"] = {
@@ -8215,8 +8215,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 190,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "190 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "190 Chips"
                         },
                         ["XP"] = 7715,
                         ["Free"] = {
@@ -8238,16 +8238,16 @@ data = {
                         ["Free"] = {
                             ["Value"] = 85,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "85 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 8315,
                         ["Free"] = {
@@ -8261,15 +8261,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 8615,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -8293,15 +8293,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 205,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "205 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
                         },
                         ["XP"] = 9215,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -8315,8 +8315,8 @@ data = {
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
@@ -8355,30 +8355,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10415,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 210,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "210 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
                         },
                         ["XP"] = 10715,
                         ["Free"] = {
                             ["Value"] = 95,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "95 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
                         }
                     },
                     {
@@ -8400,44 +8400,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11315,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 225,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "225 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
                         },
                         ["XP"] = 11615,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 250,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "250 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "250 Chips"
                         },
                         ["XP"] = 11915,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -8445,15 +8445,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 300,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "300 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "300 Chips"
                         },
                         ["XP"] = 12215,
                         ["Free"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         }
                     },
                     {
@@ -8461,7 +8461,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 12515,
@@ -8469,7 +8469,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -8511,29 +8511,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -8541,30 +8541,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -8586,8 +8586,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -8602,44 +8602,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -8647,15 +8647,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -8694,45 +8694,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -8754,38 +8754,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -8800,45 +8800,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -8861,59 +8861,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -8922,7 +8922,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Premium",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["DisplayName"] = "+1 Premium Selection Crate"
                         },
                         ["XP"] = 8375,
@@ -8930,7 +8930,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["CrateType"] = "Normal",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["DisplayName"] = "+1  Selection Crate"
                         }
                     }
@@ -8972,29 +8972,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9002,30 +9002,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -9047,8 +9047,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -9063,44 +9063,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9108,15 +9108,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -9155,45 +9155,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -9215,38 +9215,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -9261,45 +9261,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -9322,59 +9322,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9383,7 +9383,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -9391,7 +9391,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -9433,29 +9433,29 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 180,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 260,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9463,30 +9463,30 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         },
                         ["XP"] = 350,
                         ["Free"] = {
                             ["Value"] = 40,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "40 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 450,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
@@ -9508,8 +9508,8 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 695,
                         ["Free"] = {
@@ -9524,44 +9524,44 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 840,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         },
                         ["XP"] = 1000,
                         ["Free"] = {
                             ["Value"] = 45,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "45 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 1175,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9569,15 +9569,15 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         },
                         ["XP"] = 1375,
                         ["Free"] = {
                             ["Value"] = 50,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "50 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
                         }
                     },
                     {
@@ -9616,45 +9616,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2000,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 120,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "120 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
                         },
                         ["XP"] = 2250,
                         ["Free"] = {
                             ["Value"] = 60,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "60 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 2525,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
@@ -9676,38 +9676,38 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 130,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "130 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
                         },
                         ["XP"] = 3150,
                         ["Free"] = {
                             ["Value"] = 65,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "65 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3500,
                         ["Free"] = {
                             ["Value"] = 70,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "70 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 140,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "140 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
                         },
                         ["XP"] = 3875,
                         ["Free"] = {
@@ -9722,45 +9722,45 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4275,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 150,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "150 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
                         },
                         ["XP"] = 4700,
                         ["Free"] = {
                             ["Value"] = 75,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "75 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 5150,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
@@ -9783,59 +9783,59 @@ data = {
                         ["Premium"] = {
                             ["Value"] = 160,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "160 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
                         },
                         ["XP"] = 6125,
                         ["Free"] = {
                             ["Value"] = 80,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "80 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 175,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "175 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
                         },
                         ["XP"] = 6650,
                         ["Free"] = {
                             ["Value"] = 90,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "90 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 200,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "200 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
                         },
                         ["XP"] = 7200,
                         ["Free"] = {
                             ["Value"] = 100,
                             ["Type"] = "SeasonPassCurrency",
-                            ["Icon"] = "rbxassetid://17515245060",
-                            ["DisplayName"] = "100 Crystals"
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
                         }
                     },
                     {
                         ["Premium"] = {
                             ["Value"] = 3,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x3 Mythical Spins"
                         },
                         ["XP"] = 7775,
                         ["Free"] = {
                             ["Value"] = 1,
                             ["Type"] = "GachaSpins",
-                            ["Icon"] = "rbxassetid://17528237586",
+                            ["Icon"] = "rbxassetid://18890616009",
                             ["DisplayName"] = "x1 Mythical Spins"
                         }
                     },
@@ -9844,7 +9844,7 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1 Premium Selection Crate",
-                            ["Icon"] = "rbxassetid://17528289284",
+                            ["Icon"] = "rbxassetid://18886220168",
                             ["CrateType"] = "Premium"
                         },
                         ["XP"] = 8375,
@@ -9852,7 +9852,4637 @@ data = {
                             ["Type"] = "BattlepassSelectionCrate",
                             ["Value"] = 1,
                             ["DisplayName"] = "+1  Selection Crate",
-                            ["Icon"] = "rbxassetid://17528288889",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["CrateType"] = "Normal"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            ["EndTime"] = "1723309200000",
+            ["StartTime"] = "1719676800000",
+            ["Rewards"] = {
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Tidebringer",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18259813069",
+                            ["DisplayName"] = "Tidebringer"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        },
+                        ["XP"] = 100,
+                        ["Free"] = {
+                            ["Value"] = 25,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "25 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 160,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        },
+                        ["XP"] = 220,
+                        ["Free"] = {
+                            ["Value"] = 35,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "35 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        },
+                        ["XP"] = 290,
+                        ["Free"] = {
+                            ["Value"] = "Emote404",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18252278627",
+                            ["DisplayName"] = "Heatwave Emote"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 2,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x2 Tropical Spins"
+                        },
+                        ["XP"] = 360,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 400,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "400 Coins"
+                        },
+                        ["XP"] = 440,
+                        ["Free"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 525,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 615,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Island Cutter",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18259815865",
+                            ["DisplayName"] = "Island Cutter"
+                        },
+                        ["XP"] = 710,
+                        ["Free"] = {
+                            ["Value"] = "Sand Dagger",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18260545411",
+                            ["DisplayName"] = "Sand Dagger"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        },
+                        ["XP"] = 810,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 915,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1025,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        },
+                        ["XP"] = 1140,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1260,
+                        ["Free"] = {
+                            ["Value"] = "Emote403",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18252278848",
+                            ["DisplayName"] = "Cold Breeze Emote"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 2,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x2 Tropical Spins"
+                        },
+                        ["XP"] = 1385,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1515,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 125,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
+                        },
+                        ["XP"] = 1655,
+                        ["Free"] = {
+                            ["Value"] = 55,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 125,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
+                        },
+                        ["XP"] = 1805,
+                        ["Free"] = {
+                            ["Value"] = 55,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Emote402",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18252300965",
+                            ["DisplayName"] = "Surf's Up Emote"
+                        },
+                        ["XP"] = 1955,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 2115,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 2275,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2445,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 2615,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Sundrop's Edge",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18261645634",
+                            ["DisplayName"] = "Sundrop's Edge"
+                        },
+                        ["XP"] = 2795,
+                        ["Free"] = {
+                            ["Value"] = 300,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "300 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 2975,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 3165,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 3365,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 155,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
+                        },
+                        ["XP"] = 3575,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 155,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
+                        },
+                        ["XP"] = 3795,
+                        ["Free"] = {
+                            ["Value"] = "Sunflare Blade",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18260544833",
+                            ["DisplayName"] = "Sunflare Blade"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 4025,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 4265,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 4515,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 4775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 5045,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        },
+                        ["XP"] = 5325,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 5615,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 3,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 5915,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 170,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "170 Chips"
+                        },
+                        ["XP"] = 6215,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6515,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 6815,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 180,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "180 Chips"
+                        },
+                        ["XP"] = 7115,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 7415,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 190,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "190 Chips"
+                        },
+                        ["XP"] = 7715,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Emote401",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18250900130",
+                            ["DisplayName"] = "Beachball Duel Emote"
+                        },
+                        ["XP"] = 8015,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 8315,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 205,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
+                        },
+                        ["XP"] = 8615,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 8915,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 205,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
+                        },
+                        ["XP"] = 9215,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Dune Slicer",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18259803182",
+                            ["DisplayName"] = "Dune Slicer"
+                        },
+                        ["XP"] = 9515,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 9815,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        },
+                        ["XP"] = 10115,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TropicalExplosion",
+                            ["Icon"] = "rbxassetid://18256197584",
+                            ["DisplayName"] = "Tropical Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 210,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
+                        },
+                        ["XP"] = 10415,
+                        ["Free"] = {
+                            ["Value"] = 95,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 210,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
+                        },
+                        ["XP"] = 10715,
+                        ["Free"] = {
+                            ["Value"] = 95,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Aquamarine's Revenge",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18256339635",
+                            ["DisplayName"] = "Aquamarine's Revenge"
+                        },
+                        ["XP"] = 11015,
+                        ["Free"] = {
+                            ["Value"] = "Coral Blade",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18259803461",
+                            ["DisplayName"] = "Coral Blade"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 225,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
+                        },
+                        ["XP"] = 11315,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 225,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
+                        },
+                        ["XP"] = 11615,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "250 Chips"
+                        },
+                        ["XP"] = 11915,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 300,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "300 Chips"
+                        },
+                        ["XP"] = 12215,
+                        ["Free"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Premium",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["DisplayName"] = "+1 Premium Selection Crate"
+                        },
+                        ["XP"] = 12515,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Normal",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["DisplayName"] = "+1  Selection Crate"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Premium",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["DisplayName"] = "+1 Premium Selection Crate"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Normal",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["DisplayName"] = "+1  Selection Crate"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1 Premium Selection Crate",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["CrateType"] = "Premium"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1  Selection Crate",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["CrateType"] = "Normal"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Tropical Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Tropical Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1 Premium Selection Crate",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["CrateType"] = "Premium"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1  Selection Crate",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["CrateType"] = "Normal"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            ["EndTime"] = "1726938000000",
+            ["StartTime"] = "1723309200000",
+            ["Rewards"] = {
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Circuit Slasher",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881422347",
+                            ["DisplayName"] = "Circuit Slasher"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        },
+                        ["XP"] = 100,
+                        ["Free"] = {
+                            ["Value"] = 25,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "25 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 160,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        },
+                        ["XP"] = 220,
+                        ["Free"] = {
+                            ["Value"] = 35,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "35 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        },
+                        ["XP"] = 290,
+                        ["Free"] = {
+                            ["Value"] = "Emote404",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18252278627",
+                            ["DisplayName"] = "Heatwave Emote"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 2,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x2 Techno Spins"
+                        },
+                        ["XP"] = 360,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 400,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "400 Coins"
+                        },
+                        ["XP"] = 440,
+                        ["Free"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 525,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 615,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Photon Rapier",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881414536",
+                            ["DisplayName"] = "Photon Rapier"
+                        },
+                        ["XP"] = 710,
+                        ["Free"] = {
+                            ["Value"] = "Digital Saber",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881420781",
+                            ["DisplayName"] = "Digital Saber"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        },
+                        ["XP"] = 810,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 915,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1025,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        },
+                        ["XP"] = 1140,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1260,
+                        ["Free"] = {
+                            ["Value"] = "Emote403",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18252278848",
+                            ["DisplayName"] = "Cold Breeze Emote"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 2,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x2 Techno Spins"
+                        },
+                        ["XP"] = 1385,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1515,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 125,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
+                        },
+                        ["XP"] = 1655,
+                        ["Free"] = {
+                            ["Value"] = 55,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 125,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "125 Chips"
+                        },
+                        ["XP"] = 1805,
+                        ["Free"] = {
+                            ["Value"] = 55,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "55 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Emote483",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18889004108",
+                            ["DisplayName"] = "Digital Dance Emote"
+                        },
+                        ["XP"] = 1955,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 2115,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 2275,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2445,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 2615,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Neon Scimitar",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881416403",
+                            ["DisplayName"] = "Neon Scimitar"
+                        },
+                        ["XP"] = 2795,
+                        ["Free"] = {
+                            ["Value"] = 300,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "300 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 2975,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 3165,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 3365,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 155,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
+                        },
+                        ["XP"] = 3575,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 155,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "155 Chips"
+                        },
+                        ["XP"] = 3795,
+                        ["Free"] = {
+                            ["Value"] = "Cyber Edge",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881419993",
+                            ["DisplayName"] = "Cyber Edge"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 4025,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 4265,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 4515,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 4775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 5045,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        },
+                        ["XP"] = 5325,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 165,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "165 Chips"
+                        },
+                        ["XP"] = 5615,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 3,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 5915,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 170,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "170 Chips"
+                        },
+                        ["XP"] = 6215,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6515,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 6815,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 180,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "180 Chips"
+                        },
+                        ["XP"] = 7115,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 7415,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 190,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "190 Chips"
+                        },
+                        ["XP"] = 7715,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Emote474",
+                            ["Type"] = "Emote",
+                            ["Icon"] = "rbxassetid://18889265680",
+                            ["DisplayName"] = "Digital Merge Emote"
+                        },
+                        ["XP"] = 8015,
+                        ["Free"] = {
+                            ["Value"] = 85,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "85 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 8315,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 205,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
+                        },
+                        ["XP"] = 8615,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 8915,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 205,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "205 Chips"
+                        },
+                        ["XP"] = 9215,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Plasma Blade",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881413816",
+                            ["DisplayName"] = "Plasma Blade"
+                        },
+                        ["XP"] = 9515,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 9815,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        },
+                        ["XP"] = 10115,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "TechnoExplosion",
+                            ["Icon"] = "rbxassetid://18890088985",
+                            ["DisplayName"] = "Techno Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 210,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
+                        },
+                        ["XP"] = 10415,
+                        ["Free"] = {
+                            ["Value"] = 95,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 210,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "210 Chips"
+                        },
+                        ["XP"] = 10715,
+                        ["Free"] = {
+                            ["Value"] = 95,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "95 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = "Neon Edge",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881416143",
+                            ["DisplayName"] = "Neon Edge"
+                        },
+                        ["XP"] = 11015,
+                        ["Free"] = {
+                            ["Value"] = "Electric Katana",
+                            ["Type"] = "Sword",
+                            ["Icon"] = "rbxassetid://18881420363",
+                            ["DisplayName"] = "Electric Katana"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 225,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
+                        },
+                        ["XP"] = 11315,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 225,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "225 Chips"
+                        },
+                        ["XP"] = 11615,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "250 Chips"
+                        },
+                        ["XP"] = 11915,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 300,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "300 Chips"
+                        },
+                        ["XP"] = 12215,
+                        ["Free"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Premium",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["DisplayName"] = "+1 Premium Selection Crate"
+                        },
+                        ["XP"] = 12515,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Normal",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["DisplayName"] = "+1  Selection Crate"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Premium",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["DisplayName"] = "+1 Premium Selection Crate"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["CrateType"] = "Normal",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["DisplayName"] = "+1  Selection Crate"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1 Premium Selection Crate",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["CrateType"] = "Premium"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1  Selection Crate",
+                            ["Icon"] = "rbxassetid://18886216800",
+                            ["CrateType"] = "Normal"
+                        }
+                    }
+                },
+                {
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "200 Coins"
+                        },
+                        ["XP"] = 50,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "100 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 1800,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 30 Minutes"
+                        },
+                        ["XP"] = 110,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 180,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 260,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        },
+                        ["XP"] = 350,
+                        ["Free"] = {
+                            ["Value"] = 40,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "40 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 450,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 565,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 695,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 840,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        },
+                        ["XP"] = 1000,
+                        ["Free"] = {
+                            ["Value"] = 45,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "45 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 1175,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        },
+                        ["XP"] = 1375,
+                        ["Free"] = {
+                            ["Value"] = 50,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "50 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 500,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "500 Coins"
+                        },
+                        ["XP"] = 1575,
+                        ["Free"] = {
+                            ["Value"] = 250,
+                            ["Type"] = "Coins",
+                            ["Icon"] = "rbxassetid://14713797174",
+                            ["DisplayName"] = "250 Coins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 2,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        },
+                        ["XP"] = 1775,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2000,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 120,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "120 Chips"
+                        },
+                        ["XP"] = 2250,
+                        ["Free"] = {
+                            ["Value"] = 60,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "60 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 2525,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x3 Wheel Spin"
+                        },
+                        ["XP"] = 2825,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "WheelSpin",
+                            ["Icon"] = "rbxassetid://15051770001",
+                            ["DisplayName"] = "x1 Wheel Spin"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 130,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "130 Chips"
+                        },
+                        ["XP"] = 3150,
+                        ["Free"] = {
+                            ["Value"] = 65,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "65 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3500,
+                        ["Free"] = {
+                            ["Value"] = 70,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "70 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 140,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "140 Chips"
+                        },
+                        ["XP"] = 3875,
+                        ["Free"] = {
+                            ["Type"] = "Boost",
+                            ["Value"] = "Coins2x",
+                            ["Duration"] = 900,
+                            ["Icon"] = "rbxassetid://15289112140",
+                            ["DisplayName"] = "2x Coins - 15 Minutes"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4275,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 150,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "150 Chips"
+                        },
+                        ["XP"] = 4700,
+                        ["Free"] = {
+                            ["Value"] = 75,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "75 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5150,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 5625,
+                        ["Free"] = {
+                            ["Type"] = "CrateKey",
+                            ["Amount"] = 1,
+                            ["Value"] = "PremiumSword",
+                            ["Icon"] = "rbxassetid://16039967646",
+                            ["DisplayName"] = "Premium Sword Crate"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 160,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "160 Chips"
+                        },
+                        ["XP"] = 6125,
+                        ["Free"] = {
+                            ["Value"] = 80,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "80 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 175,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "175 Chips"
+                        },
+                        ["XP"] = 6650,
+                        ["Free"] = {
+                            ["Value"] = 90,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "90 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 200,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "200 Chips"
+                        },
+                        ["XP"] = 7200,
+                        ["Free"] = {
+                            ["Value"] = 100,
+                            ["Type"] = "SeasonPassCurrency",
+                            ["Icon"] = "rbxassetid://18886185625",
+                            ["DisplayName"] = "100 Chips"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Value"] = 3,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x3 Techno Spins"
+                        },
+                        ["XP"] = 7775,
+                        ["Free"] = {
+                            ["Value"] = 1,
+                            ["Type"] = "GachaSpins",
+                            ["Icon"] = "rbxassetid://18890616009",
+                            ["DisplayName"] = "x1 Techno Spins"
+                        }
+                    },
+                    {
+                        ["Premium"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1 Premium Selection Crate",
+                            ["Icon"] = "rbxassetid://18886220168",
+                            ["CrateType"] = "Premium"
+                        },
+                        ["XP"] = 8375,
+                        ["Free"] = {
+                            ["Type"] = "BattlepassSelectionCrate",
+                            ["Value"] = 1,
+                            ["DisplayName"] = "+1  Selection Crate",
+                            ["Icon"] = "rbxassetid://18886216800",
                             ["CrateType"] = "Normal"
                         }
                     }
@@ -9860,18 +14490,18 @@ data = {
             }
         }
     },
-    ["GiftSeasonPassProductId"] = 1830441902,
+    ["GiftSeasonPassProductId"] = 1903171141,
     ["CurrentSeasonData"] = {
-        ["EndTime"] = "1719676800000",
-        ["StartTime"] = "1716033600000",
+        ["EndTime"] = "1726938000000",
+        ["StartTime"] = "1723309200000",
         ["Rewards"] = {
             {
                 {
                     ["Premium"] = {
-                        ["Value"] = "Elven Moonblade",
+                        ["Value"] = "Circuit Slasher",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514165176",
-                        ["DisplayName"] = "Elven Moonblade"
+                        ["Icon"] = "rbxassetid://18881422347",
+                        ["DisplayName"] = "Circuit Slasher"
                     },
                     ["XP"] = 50,
                     ["Free"] = {
@@ -9885,15 +14515,15 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 50,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "50 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "50 Chips"
                     },
                     ["XP"] = 100,
                     ["Free"] = {
                         ["Value"] = 25,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "25 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "25 Chips"
                     }
                 },
                 {
@@ -9917,45 +14547,45 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     },
                     ["XP"] = 220,
                     ["Free"] = {
                         ["Value"] = 35,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "35 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "35 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 85,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "85 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "85 Chips"
                     },
                     ["XP"] = 290,
                     ["Free"] = {
-                        ["Value"] = "Emote334",
+                        ["Value"] = "Emote404",
                         ["Type"] = "Emote",
-                        ["Icon"] = "rbxassetid://17515276148",
-                        ["DisplayName"] = "Believe Emote"
+                        ["Icon"] = "rbxassetid://18252278627",
+                        ["DisplayName"] = "Heatwave Emote"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 2,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x2 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x2 Techno Spins"
                     },
                     ["XP"] = 360,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
@@ -9992,60 +14622,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 615,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Doryu's Blade",
+                        ["Value"] = "Photon Rapier",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514166347",
-                        ["DisplayName"] = "Doryu's Blade"
+                        ["Icon"] = "rbxassetid://18881414536",
+                        ["DisplayName"] = "Photon Rapier"
                     },
                     ["XP"] = 710,
                     ["Free"] = {
-                        ["Value"] = "Fireforge Dagger",
+                        ["Value"] = "Digital Saber",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514164822",
-                        ["DisplayName"] = "Fireforge Dagger"
+                        ["Icon"] = "rbxassetid://18881420781",
+                        ["DisplayName"] = "Digital Saber"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     },
                     ["XP"] = 810,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 915,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
@@ -10069,55 +14699,55 @@ data = {
                     ["Premium"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 2,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     },
                     ["XP"] = 1140,
                     ["Free"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 1,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 1260,
                     ["Free"] = {
-                        ["Value"] = "Emote321",
+                        ["Value"] = "Emote403",
                         ["Type"] = "Emote",
-                        ["Icon"] = "rbxassetid://17525774559",
-                        ["DisplayName"] = "Victorious Pose Emote"
+                        ["Icon"] = "rbxassetid://18252278848",
+                        ["DisplayName"] = "Cold Breeze Emote"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 2,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x2 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x2 Techno Spins"
                     },
                     ["XP"] = 1385,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     },
                     ["XP"] = 1515,
                     ["Free"] = {
@@ -10132,45 +14762,45 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 125,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "125 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "125 Chips"
                     },
                     ["XP"] = 1655,
                     ["Free"] = {
                         ["Value"] = 55,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "55 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "55 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 125,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "125 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "125 Chips"
                     },
                     ["XP"] = 1805,
                     ["Free"] = {
                         ["Value"] = 55,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "55 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "55 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Emote323",
+                        ["Value"] = "Emote483",
                         ["Type"] = "Emote",
-                        ["Icon"] = "rbxassetid://17526359334",
-                        ["DisplayName"] = "Worm Dance Emote"
+                        ["Icon"] = "rbxassetid://18889004108",
+                        ["DisplayName"] = "Digital Dance Emote"
                     },
                     ["XP"] = 1955,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
@@ -10192,8 +14822,8 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     },
                     ["XP"] = 2275,
                     ["Free"] = {
@@ -10207,23 +14837,23 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2445,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 2615,
                     ["Free"] = {
@@ -10236,10 +14866,10 @@ data = {
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Cerberus' Fang",
+                        ["Value"] = "Neon Scimitar",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514166490",
-                        ["DisplayName"] = "Cerberus' Fang"
+                        ["Icon"] = "rbxassetid://18881416403",
+                        ["DisplayName"] = "Neon Scimitar"
                     },
                     ["XP"] = 2795,
                     ["Free"] = {
@@ -10253,23 +14883,23 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 2975,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 3165,
                     ["Free"] = {
@@ -10284,60 +14914,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 3365,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 155,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "155 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "155 Chips"
                     },
                     ["XP"] = 3575,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 155,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "155 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "155 Chips"
                     },
                     ["XP"] = 3795,
                     ["Free"] = {
-                        ["Value"] = "Dune's Edge",
+                        ["Value"] = "Cyber Edge",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514165360",
-                        ["DisplayName"] = "Dune's Edge"
+                        ["Icon"] = "rbxassetid://18881419993",
+                        ["DisplayName"] = "Cyber Edge"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 4025,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
@@ -10361,78 +14991,78 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 165,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "165 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "165 Chips"
                     },
                     ["XP"] = 4515,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 165,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "165 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "165 Chips"
                     },
                     ["XP"] = 4775,
                     ["Free"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 1,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 165,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "165 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "165 Chips"
                     },
                     ["XP"] = 5045,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 2,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     },
                     ["XP"] = 5325,
                     ["Free"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 1,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 165,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "165 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "165 Chips"
                     },
                     ["XP"] = 5615,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
@@ -10456,30 +15086,30 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 170,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "170 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "170 Chips"
                     },
                     ["XP"] = 6215,
                     ["Free"] = {
                         ["Value"] = 85,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "85 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "85 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 175,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "175 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "175 Chips"
                     },
                     ["XP"] = 6515,
                     ["Free"] = {
                         ["Value"] = 85,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "85 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "85 Chips"
                     }
                 },
                 {
@@ -10501,39 +15131,39 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 180,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "180 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "180 Chips"
                     },
                     ["XP"] = 7115,
                     ["Free"] = {
                         ["Value"] = 85,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "85 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "85 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 7415,
                     ["Free"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 1,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 190,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "190 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "190 Chips"
                     },
                     ["XP"] = 7715,
                     ["Free"] = {
@@ -10546,25 +15176,25 @@ data = {
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Emote335",
+                        ["Value"] = "Emote474",
                         ["Type"] = "Emote",
-                        ["Icon"] = "rbxassetid://17555132952",
-                        ["DisplayName"] = "Closer Emote"
+                        ["Icon"] = "rbxassetid://18889265680",
+                        ["DisplayName"] = "Digital Merge Emote"
                     },
                     ["XP"] = 8015,
                     ["Free"] = {
                         ["Value"] = 85,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "85 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "85 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 200,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "200 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "200 Chips"
                     },
                     ["XP"] = 8315,
                     ["Free"] = {
@@ -10578,15 +15208,15 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 205,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "205 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "205 Chips"
                     },
                     ["XP"] = 8615,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
@@ -10610,30 +15240,30 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 205,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "205 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "205 Chips"
                     },
                     ["XP"] = 9215,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Fairy's Edge",
+                        ["Value"] = "Plasma Blade",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514164976",
-                        ["DisplayName"] = "Fairy's Edge"
+                        ["Icon"] = "rbxassetid://18881413816",
+                        ["DisplayName"] = "Plasma Blade"
                     },
                     ["XP"] = 9515,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
@@ -10655,122 +15285,122 @@ data = {
                     ["Premium"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 2,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     },
                     ["XP"] = 10115,
                     ["Free"] = {
                         ["Type"] = "CrateKey",
                         ["Amount"] = 1,
-                        ["Value"] = "MagicalExplosion",
-                        ["Icon"] = "rbxassetid://17515280567",
-                        ["DisplayName"] = "Magical Crate"
+                        ["Value"] = "TechnoExplosion",
+                        ["Icon"] = "rbxassetid://18890088985",
+                        ["DisplayName"] = "Techno Crate"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 210,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "210 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "210 Chips"
                     },
                     ["XP"] = 10415,
                     ["Free"] = {
                         ["Value"] = 95,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "95 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "95 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 210,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "210 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "210 Chips"
                     },
                     ["XP"] = 10715,
                     ["Free"] = {
                         ["Value"] = 95,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "95 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "95 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Bloodthirster",
+                        ["Value"] = "Neon Edge",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514153374",
-                        ["DisplayName"] = "Bloodthirster"
+                        ["Icon"] = "rbxassetid://18881416143",
+                        ["DisplayName"] = "Neon Edge"
                     },
                     ["XP"] = 11015,
                     ["Free"] = {
-                        ["Value"] = "Reaver Blade",
+                        ["Value"] = "Electric Katana",
                         ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514164013",
-                        ["DisplayName"] = "Reaver Blade"
+                        ["Icon"] = "rbxassetid://18881420363",
+                        ["DisplayName"] = "Electric Katana"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 225,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "225 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "225 Chips"
                     },
                     ["XP"] = 11315,
                     ["Free"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 225,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "225 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "225 Chips"
                     },
                     ["XP"] = 11615,
                     ["Free"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 250,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "250 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "250 Chips"
                     },
                     ["XP"] = 11915,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 300,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "300 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "300 Chips"
                     },
                     ["XP"] = 12215,
                     ["Free"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     }
                 },
                 {
@@ -10778,7 +15408,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["CrateType"] = "Premium",
-                        ["Icon"] = "rbxassetid://17528289284",
+                        ["Icon"] = "rbxassetid://18886220168",
                         ["DisplayName"] = "+1 Premium Selection Crate"
                     },
                     ["XP"] = 12515,
@@ -10786,7 +15416,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["CrateType"] = "Normal",
-                        ["Icon"] = "rbxassetid://17528288889",
+                        ["Icon"] = "rbxassetid://18886216800",
                         ["DisplayName"] = "+1  Selection Crate"
                     }
                 }
@@ -10828,60 +15458,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 180,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 260,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 350,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 450,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
@@ -10903,8 +15533,8 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 695,
                     ["Free"] = {
@@ -10919,60 +15549,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 840,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 1000,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 1175,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     },
                     ["XP"] = 1375,
                     ["Free"] = {
                         ["Value"] = 50,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "50 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "50 Chips"
                     }
                 },
                 {
@@ -11011,45 +15641,45 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2000,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2250,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 2525,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
@@ -11071,38 +15701,38 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 3150,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3500,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3875,
                     ["Free"] = {
@@ -11117,53 +15747,53 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4275,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4700,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5150,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Cerberus' Fang",
-                        ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514166490",
-                        ["DisplayName"] = "Cerberus' Fang"
+                        ["Value"] = 160,
+                        ["Type"] = "SeasonPassCurrency",
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5625,
                     ["Free"] = {
@@ -11178,60 +15808,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 6125,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 175,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "175 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "175 Chips"
                     },
                     ["XP"] = 6650,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 200,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "200 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "200 Chips"
                     },
                     ["XP"] = 7200,
                     ["Free"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 7775,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
@@ -11239,7 +15869,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["CrateType"] = "Premium",
-                        ["Icon"] = "rbxassetid://17528289284",
+                        ["Icon"] = "rbxassetid://18886220168",
                         ["DisplayName"] = "+1 Premium Selection Crate"
                     },
                     ["XP"] = 8375,
@@ -11247,7 +15877,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["CrateType"] = "Normal",
-                        ["Icon"] = "rbxassetid://17528288889",
+                        ["Icon"] = "rbxassetid://18886216800",
                         ["DisplayName"] = "+1  Selection Crate"
                     }
                 }
@@ -11289,60 +15919,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 180,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 260,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 350,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 450,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
@@ -11364,8 +15994,8 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 695,
                     ["Free"] = {
@@ -11380,60 +16010,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 840,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 1000,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 1175,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     },
                     ["XP"] = 1375,
                     ["Free"] = {
                         ["Value"] = 50,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "50 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "50 Chips"
                     }
                 },
                 {
@@ -11472,45 +16102,45 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2000,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2250,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 2525,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
@@ -11532,38 +16162,38 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 3150,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3500,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3875,
                     ["Free"] = {
@@ -11578,53 +16208,53 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4275,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4700,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5150,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Cerberus' Fang",
-                        ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514166490",
-                        ["DisplayName"] = "Cerberus' Fang"
+                        ["Value"] = 160,
+                        ["Type"] = "SeasonPassCurrency",
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5625,
                     ["Free"] = {
@@ -11639,60 +16269,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 6125,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 175,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "175 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "175 Chips"
                     },
                     ["XP"] = 6650,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 200,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "200 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "200 Chips"
                     },
                     ["XP"] = 7200,
                     ["Free"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 7775,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
@@ -11700,7 +16330,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["DisplayName"] = "+1 Premium Selection Crate",
-                        ["Icon"] = "rbxassetid://17528289284",
+                        ["Icon"] = "rbxassetid://18886220168",
                         ["CrateType"] = "Premium"
                     },
                     ["XP"] = 8375,
@@ -11708,7 +16338,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["DisplayName"] = "+1  Selection Crate",
-                        ["Icon"] = "rbxassetid://17528288889",
+                        ["Icon"] = "rbxassetid://18886216800",
                         ["CrateType"] = "Normal"
                     }
                 }
@@ -11750,60 +16380,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 180,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 260,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     },
                     ["XP"] = 350,
                     ["Free"] = {
                         ["Value"] = 40,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "40 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "40 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 450,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
@@ -11825,8 +16455,8 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 695,
                     ["Free"] = {
@@ -11841,60 +16471,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 840,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     },
                     ["XP"] = 1000,
                     ["Free"] = {
                         ["Value"] = 45,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "45 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "45 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 1175,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     },
                     ["XP"] = 1375,
                     ["Free"] = {
                         ["Value"] = 50,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "50 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "50 Chips"
                     }
                 },
                 {
@@ -11933,45 +16563,45 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2000,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 120,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "120 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "120 Chips"
                     },
                     ["XP"] = 2250,
                     ["Free"] = {
                         ["Value"] = 60,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "60 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "60 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 2525,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
@@ -11993,38 +16623,38 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 130,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "130 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "130 Chips"
                     },
                     ["XP"] = 3150,
                     ["Free"] = {
                         ["Value"] = 65,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "65 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "65 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3500,
                     ["Free"] = {
                         ["Value"] = 70,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "70 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "70 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 140,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "140 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "140 Chips"
                     },
                     ["XP"] = 3875,
                     ["Free"] = {
@@ -12039,53 +16669,53 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4275,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 150,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "150 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "150 Chips"
                     },
                     ["XP"] = 4700,
                     ["Free"] = {
                         ["Value"] = 75,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "75 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "75 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5150,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
-                        ["Value"] = "Cerberus' Fang",
-                        ["Type"] = "Sword",
-                        ["Icon"] = "rbxassetid://17514166490",
-                        ["DisplayName"] = "Cerberus' Fang"
+                        ["Value"] = 160,
+                        ["Type"] = "SeasonPassCurrency",
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 5625,
                     ["Free"] = {
@@ -12100,60 +16730,60 @@ data = {
                     ["Premium"] = {
                         ["Value"] = 160,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "160 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "160 Chips"
                     },
                     ["XP"] = 6125,
                     ["Free"] = {
                         ["Value"] = 80,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "80 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "80 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 175,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "175 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "175 Chips"
                     },
                     ["XP"] = 6650,
                     ["Free"] = {
                         ["Value"] = 90,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "90 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "90 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 200,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "200 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "200 Chips"
                     },
                     ["XP"] = 7200,
                     ["Free"] = {
                         ["Value"] = 100,
                         ["Type"] = "SeasonPassCurrency",
-                        ["Icon"] = "rbxassetid://17515245060",
-                        ["DisplayName"] = "100 Crystals"
+                        ["Icon"] = "rbxassetid://18886185625",
+                        ["DisplayName"] = "100 Chips"
                     }
                 },
                 {
                     ["Premium"] = {
                         ["Value"] = 3,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x3 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x3 Techno Spins"
                     },
                     ["XP"] = 7775,
                     ["Free"] = {
                         ["Value"] = 1,
                         ["Type"] = "GachaSpins",
-                        ["Icon"] = "rbxassetid://17528237586",
-                        ["DisplayName"] = "x1 Mythical Spins"
+                        ["Icon"] = "rbxassetid://18890616009",
+                        ["DisplayName"] = "x1 Techno Spins"
                     }
                 },
                 {
@@ -12161,7 +16791,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["DisplayName"] = "+1 Premium Selection Crate",
-                        ["Icon"] = "rbxassetid://17528289284",
+                        ["Icon"] = "rbxassetid://18886220168",
                         ["CrateType"] = "Premium"
                     },
                     ["XP"] = 8375,
@@ -12169,7 +16799,7 @@ data = {
                         ["Type"] = "BattlepassSelectionCrate",
                         ["Value"] = 1,
                         ["DisplayName"] = "+1  Selection Crate",
-                        ["Icon"] = "rbxassetid://17528288889",
+                        ["Icon"] = "rbxassetid://18886216800",
                         ["CrateType"] = "Normal"
                     }
                 }
@@ -12177,12 +16807,30 @@ data = {
         }
     },
     ["ExplosionCratePrice"] = 150,
-    ["CurrencyName"] = "Crystals",
-    ["PreviousSeasonPassProductIds"] = {1665530884, 1693004822, 1712415917, 1741195867, 1771584321, 1804499612},
+    ["CurrencyName"] = "Chips",
+    ["PreviousSeasonPassProductIds"] = {
+        1830441833,
+        1665530884,
+        1693004822,
+        1712415917,
+        1741195867,
+        1771584321,
+        1804499612,
+        1858489355
+    },
     ["BattlepassShopRefreshTime"] = 43200,
-    ["CurrencyIcon"] = "rbxassetid://17515245060",
-    ["CurrentSeason"] = 7,
-    ["PreviousGiftSeasonPassProductId"] = {1665530884, 1693011426, 1712415917, 1741195694, 1771584320, 1804499610},
-    ["SeasonPassProductId"] = 1830441833,
-    ["CurrencyColor"] = Color3.fromRGB(146, 61, 224)
+    ["CurrencyIcon"] = "rbxassetid://18886185625",
+    ["CurrentSeason"] = 9,
+    ["PreviousGiftSeasonPassProductId"] = {
+        1830441902,
+        1665530884,
+        1693011426,
+        1712415917,
+        1741195694,
+        1771584320,
+        1804499610,
+        1858489359
+    },
+    ["SeasonPassProductId"] = 1903171136,
+    ["CurrencyColor"] = Color3.fromRGB(45, 208, 255)
 }
