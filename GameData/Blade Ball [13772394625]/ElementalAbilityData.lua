@@ -1,14 +1,14 @@
 data = {
-    ["GetAbilityData"] = "function: 0x845d5713f7626430",
+    ["GetAbilityData"] = "function: 0x057fd5b28c069c4c",
     ["_elementalAbilityData"] = {
         ["Water"] = {
             ["Water"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Increase movement speed by 2.5% per second while moving (up to 50%), user is slowed down when they parry the ball",
                 ["Order"] = 4,
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16180205851",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             },
             ["Geyser"] = {
                 ["Type"] = "MOVEMENT",
@@ -41,12 +41,12 @@ data = {
                 ["Icon"] = "rbxassetid://16197075529"
             },
             ["Static Shock"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Unleash a lightning aura that slowly damages nearby players",
                 ["Order"] = 4,
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16197074798",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             },
             ["Spark Beam"] = {
                 ["Type"] = "",
@@ -65,12 +65,12 @@ data = {
         },
         ["Nebula"] = {
             ["Gravitation"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Gain a speed boost when close to players",
                 ["Order"] = "4",
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://17032058469",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             },
             ["Shooting Star"] = {
                 ["Type"] = "",
@@ -110,12 +110,12 @@ data = {
                 ["Icon"] = "rbxassetid://16303481968"
             },
             ["Fire Breath"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Build up fire charges over time that empower your next parry",
                 ["Order"] = "4",
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16303482096",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             },
             ["Dragon Mount"] = {
                 ["Type"] = "",
@@ -134,12 +134,12 @@ data = {
                 ["Icon"] = "rbxassetid://16169199611"
             },
             ["Fire Tact"] = {
-                ["Type"] = "",
+                ["Passive"] = true,
                 ["Description"] = "Increase the curve of the ball",
                 ["Order"] = "4",
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16180194638",
-                ["Passive"] = true
+                ["Type"] = ""
             },
             ["Raging Flames"] = {
                 ["Type"] = "",
@@ -158,12 +158,12 @@ data = {
         },
         ["Earth"] = {
             ["Sunbloom"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Spawn a sun from eliminated players to regain 20% of health",
                 ["Order"] = 4,
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16207126011",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             },
             ["Sprout"] = {
                 ["Type"] = "",
@@ -210,17 +210,17 @@ data = {
                 ["Icon"] = "rbxassetid://16186501354"
             },
             ["Frostbite"] = {
-                ["Type"] = "PASSIVE",
+                ["Passive"] = true,
                 ["Description"] = "Unleash an Ice Aura that slows down close players",
                 ["Order"] = 4,
                 ["Level"] = 50,
                 ["Icon"] = "rbxassetid://16186492515",
-                ["Passive"] = true
+                ["Type"] = "PASSIVE"
             }
         }
     },
-    ["Start"] = "function: 0xa009779fecf567a0",
-    ["GetAbilitiesForType"] = "function: 0x3f396193348c2c50",
+    ["Start"] = "function: 0xc445239d2700ed0c",
+    ["GetAbilitiesForType"] = "function: 0x9d302bf93d4d3dec",
     ["_elementalAbilityIndex"] = {
         ["Permafrost Bolt"] = {
             ["Type"] = "",
@@ -258,12 +258,12 @@ data = {
             ["Icon"] = "rbxassetid://17032010734"
         },
         ["Water"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Increase movement speed by 2.5% per second while moving (up to 50%), user is slowed down when they parry the ball",
             ["Order"] = 4,
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16180205851",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Shooting Star"] = {
             ["Type"] = "",
@@ -280,28 +280,28 @@ data = {
             ["Icon"] = "http://www.roblox.com/asset/?id=16169199837"
         },
         ["Static Shock"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Unleash a lightning aura that slowly damages nearby players",
             ["Order"] = 4,
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16197074798",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Frostbite"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Unleash an Ice Aura that slows down close players",
             ["Order"] = 4,
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16186492515",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Gravitation"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Gain a speed boost when close to players",
             ["Order"] = "4",
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://17032058469",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Bolt"] = {
             ["Type"] = "",
@@ -325,12 +325,12 @@ data = {
             ["Icon"] = "rbxassetid://16303481816"
         },
         ["Sunbloom"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Spawn a sun from eliminated players to regain 20% of health",
             ["Order"] = 4,
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16207126011",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Dragon Mount"] = {
             ["Type"] = "",
@@ -382,12 +382,12 @@ data = {
             ["Icon"] = "rbxassetid://16207562066"
         },
         ["Fire Breath"] = {
-            ["Type"] = "PASSIVE",
+            ["Passive"] = true,
             ["Description"] = "Build up fire charges over time that empower your next parry",
             ["Order"] = "4",
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16303482096",
-            ["Passive"] = true
+            ["Type"] = "PASSIVE"
         },
         ["Smite"] = {
             ["Type"] = "",
@@ -411,12 +411,12 @@ data = {
             ["Icon"] = "rbxassetid://16169199611"
         },
         ["Fire Tact"] = {
-            ["Type"] = "",
+            ["Passive"] = true,
             ["Description"] = "Increase the curve of the ball",
             ["Order"] = "4",
             ["Level"] = 50,
             ["Icon"] = "rbxassetid://16180194638",
-            ["Passive"] = true
+            ["Type"] = ""
         },
         ["Shark Bite"] = {
             ["Type"] = "ENVIRONMENT",
