@@ -503,121 +503,187 @@ data = {
         }
     },
     ["specials"] = {
-        ["Apeiron"] = {
-            ["tiers"] = {
-                {
-                    ["requires"] = {["tp"] = 128000000000000, ["alter"] = 14},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 20000},
-                    ["run"] = "function: 0xb623960d6ed7ac61",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 384000000000000},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 30000},
-                    ["run"] = "function: 0xde715fb2ef693e81",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["alter"] = 15, ["tp"] = 512000000000000, ["podium"] = 200},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 35000},
-                    ["run"] = "function: 0x779ce7e88fe42f21",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 1536000000000000},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 40000},
-                    ["run"] = "function: 0xaf3b0f058c609cc1",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 2048000000000000},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 50000},
-                    ["run"] = "function: 0x07697757f02deee1",
-                    ["world"] = 1
-                }
-            },
-            ["world"] = 1
-        },
-        ["Syveloper"] = {
-            ["tiers"] = {
-                {
-                    ["requires"] = {["tp"] = 160000000000, ["alter"] = 11},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 10000},
-                    ["run"] = "function: 0xfb91c4fb05dccf61",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 480000000000},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 15000},
-                    ["run"] = "function: 0xa04e9aa1f1413f81",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["alter"] = 12, ["tp"] = 640000000000, ["podium"] = 100},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 20000},
-                    ["run"] = "function: 0x34f49017234e4e21",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 1920000000000},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 25000},
-                    ["run"] = "function: 0xc859c9d52bc69fc1",
-                    ["world"] = 1
-                },
-                {
-                    ["requires"] = {["tp"] = 2560000000000, ["nextWorld"] = 5},
-                    ["dialogue"] = "Quest1",
-                    ["rewards"] = {["cash"] = 30000},
-                    ["run"] = "function: 0x65b825a4cc794fe1",
-                    ["world"] = 1
-                }
-            },
-            ["world"] = 1
-        },
         ["Arawn"] = {
             ["tiers"] = {
                 {
                     ["requires"] = {["tp"] = 50},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 50},
-                    ["run"] = "function: 0x049f02f5da9883a1",
+                    ["run"] = "function: 0xcc4b1bdcb3d1a1c2",
                     ["world"] = 1
                 },
                 {
                     ["requires"] = {["buyPowerUps"] = {["Chocolate Bar"] = 1}, ["tp"] = 300},
                     ["dialogue"] = "Quest2",
                     ["rewards"] = {["cash"] = 500},
-                    ["run"] = "function: 0x9075d5243a6eda41",
+                    ["run"] = "function: 0x3a4c2b038af553a2",
                     ["world"] = 1
                 },
                 {
                     ["requires"] = {["podium"] = 1},
                     ["dialogue"] = "Quest3",
                     ["rewards"] = {["cash"] = 1000},
-                    ["run"] = "function: 0x242b5d5a13f20861",
+                    ["run"] = "function: 0xa663330f82ccfea2",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["tp"] = 750, ["alter"] = 2},
+                    ["requires"] = {["tp"] = 500, ["alter"] = 2},
                     ["dialogue"] = "Quest4",
                     ["rewards"] = {["cash"] = 1000},
-                    ["run"] = "function: 0xcbae81f003133a81",
+                    ["run"] = "function: 0xf2929243ce419e42",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["nextWorld"] = 2, ["tp"] = 5000, ["alter"] = 3},
+                    ["requires"] = {["nextWorld"] = 2, ["tp"] = 2500, ["alter"] = 3},
                     ["dialogue"] = "Quest5",
                     ["rewards"] = {["cash"] = 2500},
-                    ["run"] = "function: 0x5349e83e188c9321",
+                    ["run"] = "function: 0x6c0af2017f409722",
+                    ["world"] = 1
+                }
+            },
+            ["world"] = 1
+        },
+        ["P_3NT"] = {
+            ["tiers"] = {
+                {
+                    ["requires"] = {["tp"] = 8e+25, ["alter"] = 25},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 2500000},
+                    ["run"] = "function: 0x265ce6219e9551e2",
+                    ["world"] = 9
+                },
+                {
+                    ["requires"] = {["tp"] = 1.25e+27},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 4500000},
+                    ["run"] = "function: 0x045da52488e0d162",
+                    ["world"] = 9
+                },
+                {
+                    ["requires"] = {["alter"] = 27},
+                    ["dialogue"] = "Quest3",
+                    ["rewards"] = {["cash"] = 8500000},
+                    ["run"] = "function: 0xda91e23c8ee4fbe2",
+                    ["world"] = 9
+                }
+            },
+            ["world"] = 9
+        },
+        ["Apeiron"] = {
+            ["tiers"] = {
+                {
+                    ["requires"] = {["tp"] = 100000000000000, ["alter"] = 14},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 20000},
+                    ["run"] = "function: 0xff68f2baba2fdde2",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 200000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 30000},
+                    ["run"] = "function: 0x48aa1586569afe82",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["alter"] = 15, ["tp"] = 475000000000000, ["podium"] = 200},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 35000},
+                    ["run"] = "function: 0x00cc95cb13759fa2",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 950000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 40000},
+                    ["run"] = "function: 0xd943740fbc713f42",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 1800000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 50000},
+                    ["run"] = "function: 0xbcd3148cdf930b82",
+                    ["world"] = 1
+                }
+            },
+            ["world"] = 1
+        },
+        ["Arpeax"] = {
+            ["tiers"] = {
+                {
+                    ["requires"] = {["stamina"] = 1000000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 45000},
+                    ["run"] = "function: 0x3b06ced264f78c62",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["tp"] = 5e+23, ["buyPowerUps"] = {["Ramen"] = 5}},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 50000},
+                    ["run"] = "function: 0x4dc5f2d753617f22",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["podium"] = 250, ["alter"] = 24},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 75000},
+                    ["run"] = "function: 0x1d51b32a177d5fc2",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["tp"] = 2.5e+23, ["usePowerUps"] = {["Hopeful Curry"] = 3}},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 90000},
+                    ["run"] = "function: 0x7520b51af70a25c2",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["buyPowerUps"] = {["Chakra Rations"] = 10}, ["alter"] = 24},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 100000},
+                    ["run"] = "function: 0xc6e4b4ba578b2fa2",
+                    ["world"] = 6
+                }
+            },
+            ["world"] = 6
+        },
+        ["Syveloper"] = {
+            ["tiers"] = {
+                {
+                    ["requires"] = {["tp"] = 125000000000, ["alter"] = 11},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 10000},
+                    ["run"] = "function: 0x5d6e7c5cae5696e2",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 250000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 15000},
+                    ["run"] = "function: 0x14d10cb4feb1e782",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["alter"] = 12, ["tp"] = 500000000000, ["podium"] = 100},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 20000},
+                    ["run"] = "function: 0xc4c192d52b2c26a2",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 1000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 25000},
+                    ["run"] = "function: 0x7c51f20a50d73642",
+                    ["world"] = 1
+                },
+                {
+                    ["requires"] = {["tp"] = 2000000000000, ["nextWorld"] = 5},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 30000},
+                    ["run"] = "function: 0x28e993cb1be475a2",
                     ["world"] = 1
                 }
             },
@@ -629,35 +695,75 @@ data = {
                     ["requires"] = {["stamina"] = 427500000000},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 20000},
-                    ["run"] = "function: 0x71fe69dc4273a961",
+                    ["run"] = "function: 0xc4ea86c17d18e4a2",
                     ["world"] = 6
                 },
                 {
-                    ["requires"] = {["tp"] = 20480000000000000, ["buyPowerUps"] = {["Secret Beans"] = 3}},
+                    ["requires"] = {["tp"] = 36000000000000000, ["buyPowerUps"] = {["Secret Beans"] = 3}},
                     ["dialogue"] = "Quest2",
                     ["rewards"] = {["cash"] = 30000},
-                    ["run"] = "function: 0x1da0010fcb9d3981",
+                    ["run"] = "function: 0x6a4ac546c4325462",
                     ["world"] = 6
                 },
                 {
                     ["requires"] = {["podium"] = 250, ["alter"] = 16},
                     ["dialogue"] = "Quest2",
                     ["rewards"] = {["cash"] = 40000},
-                    ["run"] = "function: 0xb936d5782b362c21",
+                    ["run"] = "function: 0xfd54a506859161c2",
                     ["world"] = 6
                 },
                 {
-                    ["requires"] = {["tp"] = 1024000000000000000, ["usePowerUps"] = {["Death Potion"] = 3}},
+                    ["requires"] = {["tp"] = 1000000000000000000, ["usePowerUps"] = {["Death Potion"] = 3}},
                     ["dialogue"] = "Quest2",
                     ["rewards"] = {["cash"] = 50000},
-                    ["run"] = "function: 0x12cc6cb2208fd1c1",
+                    ["run"] = "function: 0x8c6a45fcc2167ee2",
                     ["world"] = 6
                 },
                 {
                     ["requires"] = {["buyPowerUps"] = {["Angel Potion"] = 10}, ["alter"] = 17},
                     ["dialogue"] = "Quest2",
                     ["rewards"] = {["cash"] = 60000},
-                    ["run"] = "function: 0xe28b8204f40591e1",
+                    ["run"] = "function: 0xabe405bfcd744422",
+                    ["world"] = 6
+                }
+            },
+            ["world"] = 6
+        },
+        ["NoahWho"] = {
+            ["tiers"] = {
+                {
+                    ["requires"] = {["stamina"] = 1000000000000},
+                    ["dialogue"] = "Quest1",
+                    ["rewards"] = {["cash"] = 40000},
+                    ["run"] = "function: 0x2a89e20590a4de42",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["tp"] = 5000000000000000000, ["buyPowerUps"] = {["Cash Fruit"] = 3}},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 30000},
+                    ["run"] = "function: 0xc090228a36a2ec82",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["podium"] = 250, ["alter"] = 19},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 40000},
+                    ["run"] = "function: 0xeda9a30f96a0f7c2",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["tp"] = 20000000000000000000, ["usePowerUps"] = {["Toning Fruit"] = 3}},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 50000},
+                    ["run"] = "function: 0x8ba5638968aed202",
+                    ["world"] = 6
+                },
+                {
+                    ["requires"] = {["buyPowerUps"] = {["Divine Fruit"] = 10}, ["alter"] = 20},
+                    ["dialogue"] = "Quest2",
+                    ["rewards"] = {["cash"] = 60000},
+                    ["run"] = "function: 0x0ac683589dfe50a2",
                     ["world"] = 6
                 }
             },
@@ -666,38 +772,38 @@ data = {
         ["YzsTest"] = {
             ["tiers"] = {
                 {
-                    ["requires"] = {["tp"] = 200000000, ["alter"] = 8},
+                    ["requires"] = {["tp"] = 40000000, ["alter"] = 8},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 5000},
-                    ["run"] = "function: 0x05d41910f5e53081",
+                    ["run"] = "function: 0x1cef9f32c4f39aa2",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["tp"] = 400000000},
+                    ["requires"] = {["tp"] = 320000000},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 10000},
-                    ["run"] = "function: 0xf1aa42d9415bcd21",
+                    ["run"] = "function: 0x3a6ffe7dc6fdefe2",
                     ["world"] = 1
                 },
                 {
                     ["requires"] = {["alter"] = 9, ["tp"] = 800000000, ["podium"] = 50},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 15000},
-                    ["run"] = "function: 0x2a6fb463342d9ec1",
+                    ["run"] = "function: 0xe44f3ff3c4d80662",
                     ["world"] = 1
                 },
                 {
                     ["requires"] = {["tp"] = 1600000000},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 20000},
-                    ["run"] = "function: 0x5acafa3dd7b6c8e1",
+                    ["run"] = "function: 0xb26c78705ec5bce2",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["tp"] = 3200000000, ["nextWorld"] = 4},
+                    ["requires"] = {["tp"] = 2500000000, ["nextWorld"] = 4},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 25000},
-                    ["run"] = "function: 0xf28543cf675e7e01",
+                    ["run"] = "function: 0x1a2cc90f124266c2",
                     ["world"] = 1
                 }
             },
@@ -706,38 +812,38 @@ data = {
         ["FireAtacck"] = {
             ["tiers"] = {
                 {
-                    ["requires"] = {["tp"] = 100000, ["alter"] = 5},
+                    ["requires"] = {["tp"] = 40000, ["alter"] = 5},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 1500},
-                    ["run"] = "function: 0xa6fad443f90f3d81",
+                    ["run"] = "function: 0x6ea348e0ac78b142",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["buyPowerUps"] = {["Protein Bar"] = 3}, ["tp"] = 200000},
+                    ["requires"] = {["buyPowerUps"] = {["Protein Bar"] = 3}, ["tp"] = 100000},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 2500},
-                    ["run"] = "function: 0x2f5f0ea99d96a021",
+                    ["run"] = "function: 0x2329c22e5015ae42",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["alter"] = 6, ["tp"] = 1000000, ["podium"] = 10},
+                    ["requires"] = {["alter"] = 6, ["tp"] = 600000, ["podium"] = 10},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 3500},
-                    ["run"] = "function: 0x87b960fcb0719dc1",
+                    ["run"] = "function: 0x692e43272a39c7c2",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["tp"] = 2000000},
+                    ["requires"] = {["tp"] = 1000000},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 5000},
-                    ["run"] = "function: 0x1fcab94e9ceb6de1",
+                    ["run"] = "function: 0x87ce20d99d64ea22",
                     ["world"] = 1
                 },
                 {
-                    ["requires"] = {["tp"] = 4000000, ["nextWorld"] = 3},
+                    ["requires"] = {["tp"] = 1500000, ["nextWorld"] = 3},
                     ["dialogue"] = "Quest1",
                     ["rewards"] = {["cash"] = 7000},
-                    ["run"] = "function: 0xb46ff5997b28f901",
+                    ["run"] = "function: 0xe1ae817a6563bf02",
                     ["world"] = 1
                 }
             },
