@@ -13,7 +13,7 @@ data = {
         ["animations"] = {["rigIdle"] = "rbxassetid://17531894469", ["rig"] = "rbxassetid://17531881762"},
         ["earnings"] = {["Biceps"] = 0.7, ["Forearm"] = 0.3}
     },
-    ["required"] = "function: 0x4dfdbb6c4e3f6311",
+    ["required"] = "function: 0x1645701e98c780b2",
     ["chestpress"] = {
         ["type"] = "weight",
         ["weightType"] = "barSmall",
@@ -42,7 +42,7 @@ data = {
         ["display"] = "Treadmill",
         ["type"] = "treadmill",
         ["animations"] = {["rig"] = "rbxassetid://913376220"},
-        ["earnings"] = {["Stamina"] = 3.2}
+        ["earnings"] = {["Stamina"] = 1}
     },
     ["wristcurl"] = {
         ["type"] = "weight",
@@ -51,20 +51,57 @@ data = {
         ["animations"] = {["rigIdle"] = "rbxassetid://17700536637", ["rig"] = "rbxassetid://17700507674"},
         ["earnings"] = {["Biceps"] = 0.3, ["Forearm"] = 0.7}
     },
-    ["pushup"] = {
+    ["rowing"] = {
         ["type"] = "weight",
-        ["weightType"] = "torsoBack",
-        ["display"] = "Push Up",
-        ["animations"] = {["rigIdle"] = "rbxassetid://17607350685", ["rig"] = "rbxassetid://17607342377"},
-        ["earnings"] = {["Chest"] = 0.4, ["Shoulder"] = 0.3, ["Triceps"] = 0.3}
+        ["weightType"] = "barBig",
+        ["display"] = "Rowing",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18874749454",
+            ["rigIdle"] = "rbxassetid://18874754233",
+            ["rig"] = "rbxassetid://18874752045"
+        },
+        ["earnings"] = {["Biceps"] = 0.3, ["Legs"] = 0.1, ["Back"] = 0.6}
     },
-    ["giveStats"] = "function: 0x18cf185e85a11691",
+    ["shoulderpress"] = {
+        ["display"] = "Shoulder Press",
+        ["type"] = "machine",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18889575770",
+            ["rigIdle"] = "rbxassetid://18874892995",
+            ["rig"] = "rbxassetid://18874889757"
+        },
+        ["earnings"] = {["Shoulder"] = 1}
+    },
+    ["giveStats"] = "function: 0x568c98f797377b02",
+    ["chestfly"] = {
+        ["display"] = "Chest Fly",
+        ["type"] = "machine",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18874657920",
+            ["rigIdle"] = "rbxassetid://18874666903",
+            ["rig"] = "rbxassetid://18874662729"
+        },
+        ["earnings"] = {["Chest"] = 0.5, ["Biceps"] = 0.5}
+    },
+    ["recommended"] = "function: 0x721a606b6e1dec42",
     ["benchpress"] = {
         ["type"] = "weight",
         ["weightType"] = "barBig",
         ["display"] = "Bench Press",
         ["animations"] = {["rigIdle"] = "rbxassetid://17544303700", ["rig"] = "rbxassetid://17544298485"},
         ["earnings"] = {["Chest"] = 0.6, ["Shoulder"] = 0.2, ["Triceps"] = 0.2}
+    },
+    ["oPunchingBag"] = {
+        ["display"] = "Punching Bag",
+        ["earnings"] = {["Boxing"] = 1},
+        ["animations"] = {["equipment"] = "rbxassetid://18653830318", ["rig"] = "rbxassetid://18653834930"}
+    },
+    ["oDeadlift"] = {
+        ["type"] = "weight",
+        ["weightType"] = "barBig",
+        ["display"] = "Deadlift",
+        ["animations"] = {["rig"] = "rbxassetid://18653990841"},
+        ["earnings"] = {["Deadlift"] = 1}
     },
     ["abs"] = {
         ["type"] = "weight",
@@ -73,28 +110,6 @@ data = {
         ["animations"] = {["rigIdle"] = "rbxassetid://17607141800", ["rig"] = "rbxassetid://17607133863"},
         ["earnings"] = {["Abs"] = 0.7, ["Legs"] = 0.3}
     },
-    ["frontsquat"] = {
-        ["type"] = "weight",
-        ["weightType"] = "barBig",
-        ["display"] = "Front Squat",
-        ["animations"] = {["rigIdle"] = "rbxassetid://17534745117", ["rig"] = "rbxassetid://17534737959"},
-        ["earnings"] = {["Calves"] = 0.7, ["Legs"] = 0.3}
-    },
-    ["recommended"] = "function: 0x2176179ce09e0281",
-    ["deadlift"] = {
-        ["type"] = "weight",
-        ["weightType"] = "barBig",
-        ["display"] = "Deadlift",
-        ["animations"] = {["rigIdle"] = "rbxassetid://17535060966", ["rig"] = "rbxassetid://17535053762"},
-        ["earnings"] = {["Abs"] = 0.3, ["Legs"] = 0.2, ["Back"] = 0.5}
-    },
-    ["tricepscurl"] = {
-        ["type"] = "weight",
-        ["weightType"] = "barSmall",
-        ["display"] = "Triceps Curl",
-        ["animations"] = {["rigIdle"] = "rbxassetid://17531977250", ["rig"] = "rbxassetid://17531967644"},
-        ["earnings"] = {["Triceps"] = 0.7, ["Forearm"] = 0.3}
-    },
     ["weights"] = {
         ["treadmill"] = {
             {0, 5, 10, 15, 20},
@@ -102,7 +117,10 @@ data = {
             {0, 144, 320, 528, 768},
             {0, 768, 3072, 8256, 24576},
             {0, 24576, 98304, 294912, 786432},
-            {0, 786432, 6291456, 9437184, 50331648}
+            {0, 786432, 6291456, 18874368, 50331648},
+            {0, 50331648, 201326592, 805306368, 3221225472},
+            {0, 3221225472, 12884901888, 51539607552, 206158430208},
+            {0, 206158430208, 5153960755200, 20536158430208, 824564633720832}
         },
         ["machine"] = {
             {1, 2, 4, 8, 15, 25, 40, 60, 80, 100},
@@ -132,6 +150,42 @@ data = {
                 600000000000,
                 800000000000,
                 1000000000000
+            },
+            {
+                1000000000000,
+                2000000000000,
+                4000000000000,
+                8000000000000,
+                15000000000000,
+                25000000000000,
+                40000000000000,
+                60000000000000,
+                80000000000000,
+                100000000000000
+            },
+            {
+                100000000000000,
+                200000000000000,
+                400000000000000,
+                800000000000000,
+                1500000000000000,
+                2500000000000000,
+                4000000000000000,
+                6000000000000000,
+                8000000000000000,
+                10000000000000000
+            },
+            {
+                10000000000000000,
+                20000000000000000,
+                40000000000000000,
+                80000000000000000,
+                150000000000000000,
+                250000000000000000,
+                400000000000000000,
+                600000000000000000,
+                800000000000000000,
+                1000000000000000000
             }
         },
         ["weight"] = {
@@ -140,8 +194,30 @@ data = {
             {1000, 25000, 50000, 75000, 100000, 200000},
             {100000, 2500000, 5000000, 7500000, 10000000, 20000000},
             {10000000, 250000000, 500000000, 750000000, 1000000000, 2000000000},
-            {1000000000, 25000000000, 50000000000, 75000000000, 100000000000, 200000000000}
+            {1000000000, 25000000000, 50000000000, 75000000000, 100000000000, 200000000000},
+            {100000000000, 2500000000000, 5000000000000, 7500000000000, 10000000000000, 20000000000000},
+            {10000000000000, 250000000000000, 500000000000000, 750000000000000, 1000000000000000, 2000000000000000},
+            {
+                1000000000000000,
+                25000000000000000,
+                50000000000000000,
+                75000000000000000,
+                100000000000000000,
+                200000000000000000
+            }
         }
+    },
+    ["oTreadmill"] = {
+        ["display"] = "Treadmill",
+        ["earnings"] = {["Track"] = 1},
+        ["animations"] = {["rig"] = "rbxassetid://913376220"}
+    },
+    ["pushup"] = {
+        ["type"] = "weight",
+        ["weightType"] = "torsoBack",
+        ["display"] = "Push Up",
+        ["animations"] = {["rigIdle"] = "rbxassetid://17607350685", ["rig"] = "rbxassetid://17607342377"},
+        ["earnings"] = {["Chest"] = 0.4, ["Shoulder"] = 0.3, ["Triceps"] = 0.3}
     },
     ["barfix"] = {
         ["type"] = "weight",
@@ -149,6 +225,58 @@ data = {
         ["display"] = "Barfix",
         ["animations"] = {["rigIdle"] = "rbxassetid://17607513596", ["rig"] = "rbxassetid://17607509283"},
         ["earnings"] = {["Biceps"] = 0.4, ["Chest"] = 0.2, ["Back"] = 0.4}
+    },
+    ["chestpressmachine"] = {
+        ["display"] = "Chest Press",
+        ["type"] = "machine",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18874521624",
+            ["rigIdle"] = "rbxassetid://18874541567",
+            ["rig"] = "rbxassetid://18874524695"
+        },
+        ["earnings"] = {["Chest"] = 0.8, ["Triceps"] = 0.2}
+    },
+    ["frontsquat"] = {
+        ["type"] = "weight",
+        ["weightType"] = "barBig",
+        ["display"] = "Front Squat",
+        ["animations"] = {["rigIdle"] = "rbxassetid://17534745117", ["rig"] = "rbxassetid://17534737959"},
+        ["earnings"] = {["Calves"] = 0.7, ["Legs"] = 0.3}
+    },
+    ["deadlift"] = {
+        ["type"] = "weight",
+        ["weightType"] = "barBig",
+        ["display"] = "Deadlift",
+        ["animations"] = {["rigIdle"] = "rbxassetid://17535060966", ["rig"] = "rbxassetid://17535053762"},
+        ["earnings"] = {["Abs"] = 0.3, ["Legs"] = 0.2, ["Back"] = 0.5}
+    },
+    ["tricepscurl"] = {
+        ["type"] = "weight",
+        ["weightType"] = "barSmall",
+        ["display"] = "Triceps Curl",
+        ["animations"] = {["rigIdle"] = "rbxassetid://17531977250", ["rig"] = "rbxassetid://17531967644"},
+        ["earnings"] = {["Triceps"] = 0.7, ["Forearm"] = 0.3}
+    },
+    ["barcable"] = {
+        ["display"] = "Bar Cable",
+        ["type"] = "machine",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18867330215",
+            ["rigIdle"] = "rbxassetid://18867753486",
+            ["rig"] = "rbxassetid://18867510440"
+        },
+        ["earnings"] = {["Biceps"] = 1}
+    },
+    ["triceppushdown"] = {
+        ["display"] = "Tricep Pushdown",
+        ["type"] = "machine",
+        ["animations"] = {
+            ["equipment"] = "rbxassetid://18867897002",
+            ["rigIdle"] = "rbxassetid://18867903850",
+            ["equipmentIdle"] = "rbxassetid://18874501488",
+            ["rig"] = "rbxassetid://18867899924"
+        },
+        ["earnings"] = {["Triceps"] = 1}
     },
     ["pulldown"] = {
         ["display"] = "Lat Pulldown",
