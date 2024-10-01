@@ -44,6 +44,15 @@ data = {
         ["type"] = "boolean"
     },
     {
+        ["options"] = {
+            {["display"] = "On", ["background"] = Color3.fromRGB(85, 255, 0)},
+            {["display"] = "Off", ["background"] = Color3.fromRGB(255, 0, 0)}
+        },
+        ["image"] = "rbxassetid://17628725664",
+        ["name"] = "Show Others Gear",
+        ["type"] = "boolean"
+    },
+    {
         ["image"] = "rbxassetid://17703349783",
         ["name"] = "Bigger Muscles",
         ["gamepass"] = {"MutatedGenes", "MuscleMan"},
@@ -51,6 +60,24 @@ data = {
             {["display"] = "Off", ["background"] = Color3.fromRGB(255, 0, 0)},
             {["display"] = "On", ["background"] = Color3.fromRGB(85, 255, 0)}
         },
+        ["type"] = "boolean"
+    },
+    {
+        ["options"] = {
+            {["display"] = "Off", ["background"] = Color3.fromRGB(255, 0, 0)},
+            {["display"] = "On", ["background"] = Color3.fromRGB(85, 255, 0)}
+        },
+        ["image"] = "rbxassetid://18262130373",
+        ["name"] = "Hide Boosts Mobile",
+        ["type"] = "boolean"
+    },
+    {
+        ["options"] = {
+            {["display"] = "Off", ["background"] = Color3.fromRGB(255, 0, 0)},
+            {["display"] = "On", ["background"] = Color3.fromRGB(85, 255, 0)}
+        },
+        ["image"] = "",
+        ["name"] = "Consume All",
         ["type"] = "boolean"
     }
 }
