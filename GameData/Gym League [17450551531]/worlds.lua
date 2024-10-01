@@ -1,104 +1,209 @@
 data = {
     {
+        ["staminaBoost"] = 2,
+        ["price"] = 0,
+        ["boost"] = 2,
+        ["crate_price"] = 3000,
         ["image"] = "rbxassetid://17739151800",
-        ["color"] = Color3.fromRGB(255, 201, 135),
         ["display"] = "Beach GYM",
         ["spin_price"] = 1500,
-        ["place"] = 17450551531,
-        ["price"] = 0
+        ["color"] = Color3.fromRGB(255, 201, 135),
+        ["place"] = 17450551531
     },
     {
+        ["staminaBoost"] = 2.3,
+        ["price"] = 1000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 4000,
         ["image"] = "rbxassetid://17739153186",
-        ["color"] = Color3.fromRGB(147, 199, 52),
         ["display"] = "Underground GYM",
         ["spin_price"] = 2000,
-        ["place"] = 17593437943,
-        ["price"] = 1000
+        ["color"] = Color3.fromRGB(147, 199, 52),
+        ["place"] = 17593437943
     },
     {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 20000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 5000,
         ["image"] = "rbxassetid://17739152795",
-        ["color"] = Color3.fromRGB(255, 137, 107),
         ["display"] = "The GYM",
         ["spin_price"] = 2500,
-        ["place"] = 17593439780,
-        ["price"] = 10000
+        ["color"] = Color3.fromRGB(255, 137, 107),
+        ["place"] = 17593439780
     },
     {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 75000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 6000,
         ["image"] = "rbxassetid://17739152361",
-        ["color"] = Color3.fromRGB(255, 245, 107),
         ["display"] = "Golden GYM",
         ["spin_price"] = 3000,
-        ["place"] = 17593439630,
-        ["price"] = 50000
+        ["color"] = Color3.fromRGB(255, 245, 107),
+        ["place"] = 17593439630
     },
     {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 200000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 9000,
         ["image"] = "rbxassetid://17739151430",
-        ["color"] = Color3.fromRGB(119, 201, 255),
         ["display"] = "Cyber GYM",
         ["spin_price"] = 4500,
-        ["place"] = 17593441072,
-        ["price"] = 100000
+        ["color"] = Color3.fromRGB(119, 201, 255),
+        ["place"] = 17593441072
     },
     {
+        ["staminaBoost"] = 1.9,
+        ["price"] = 800000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 12000,
         ["image"] = "rbxassetid://17882974902",
-        ["color"] = Color3.fromRGB(255, 156, 69),
         ["display"] = "Gravity GYM",
         ["spin_price"] = 6000,
-        ["place"] = 17883015202,
-        ["price"] = 500000
-    },
-    ["Gravity GYM"] = {
-        ["image"] = "rbxassetid://17882974902",
-        ["order"] = 6,
         ["color"] = Color3.fromRGB(255, 156, 69),
-        ["display"] = "Gravity GYM",
-        ["spin_price"] = 6000,
-        ["place"] = 17883015202,
-        ["price"] = 500000
+        ["place"] = 17883015202
     },
-    ["Golden GYM"] = {
-        ["image"] = "rbxassetid://17739152361",
-        ["order"] = 4,
-        ["color"] = Color3.fromRGB(255, 245, 107),
-        ["display"] = "Golden GYM",
-        ["spin_price"] = 3000,
-        ["place"] = 17593439630,
-        ["price"] = 50000
+    {
+        ["staminaBoost"] = 1.5,
+        ["price"] = 2000000,
+        ["boost"] = 1.7,
+        ["crate_price"] = 25000,
+        ["image"] = "rbxassetid://18470076586",
+        ["display"] = "Pirate GYM",
+        ["spin_price"] = 10000,
+        ["color"] = Color3.fromRGB(64, 214, 255),
+        ["place"] = 18471848155
     },
-    ["Beach GYM"] = {
-        ["image"] = "rbxassetid://17739151800",
-        ["order"] = 1,
-        ["color"] = Color3.fromRGB(255, 201, 135),
-        ["display"] = "Beach GYM",
-        ["spin_price"] = 1500,
-        ["place"] = 17450551531,
-        ["price"] = 0
+    {
+        ["staminaBoost"] = 1.5,
+        ["price"] = 5500000,
+        ["boost"] = 1.7,
+        ["crate_price"] = 60000,
+        ["image"] = "rbxassetid://18576268303",
+        ["display"] = "Hidden GYM",
+        ["spin_price"] = 27500,
+        ["color"] = Color3.fromRGB(229, 231, 125),
+        ["place"] = 18524420267
     },
-    ["The GYM"] = {
-        ["image"] = "rbxassetid://17739152795",
-        ["order"] = 3,
-        ["color"] = Color3.fromRGB(255, 137, 107),
-        ["display"] = "The GYM",
-        ["spin_price"] = 2500,
-        ["place"] = 17593439780,
-        ["price"] = 10000
+    {
+        ["staminaBoost"] = 1.3,
+        ["price"] = 15500000,
+        ["boost"] = 1.5,
+        ["crate_price"] = 145000,
+        ["image"] = "rbxassetid://133412455069928",
+        ["display"] = "Prison GYM",
+        ["spin_price"] = 52500,
+        ["color"] = Color3.fromRGB(231, 125, 72),
+        ["place"] = 128775837101761
+    },
+    ["Hidden GYM"] = {
+        ["staminaBoost"] = 1.5,
+        ["price"] = 5500000,
+        ["boost"] = 1.7,
+        ["crate_price"] = 60000,
+        ["image"] = "rbxassetid://18576268303",
+        ["order"] = 8,
+        ["display"] = "Hidden GYM",
+        ["spin_price"] = 27500,
+        ["color"] = Color3.fromRGB(229, 231, 125),
+        ["place"] = 18524420267
+    },
+    ["Pirate GYM"] = {
+        ["staminaBoost"] = 1.5,
+        ["price"] = 2000000,
+        ["boost"] = 1.7,
+        ["crate_price"] = 25000,
+        ["image"] = "rbxassetid://18470076586",
+        ["order"] = 7,
+        ["display"] = "Pirate GYM",
+        ["spin_price"] = 10000,
+        ["color"] = Color3.fromRGB(64, 214, 255),
+        ["place"] = 18471848155
     },
     ["Cyber GYM"] = {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 200000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 9000,
         ["image"] = "rbxassetid://17739151430",
         ["order"] = 5,
-        ["color"] = Color3.fromRGB(119, 201, 255),
         ["display"] = "Cyber GYM",
         ["spin_price"] = 4500,
-        ["place"] = 17593441072,
-        ["price"] = 100000
+        ["color"] = Color3.fromRGB(119, 201, 255),
+        ["place"] = 17593441072
+    },
+    ["Gravity GYM"] = {
+        ["staminaBoost"] = 1.9,
+        ["price"] = 800000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 12000,
+        ["image"] = "rbxassetid://17882974902",
+        ["order"] = 6,
+        ["display"] = "Gravity GYM",
+        ["spin_price"] = 6000,
+        ["color"] = Color3.fromRGB(255, 156, 69),
+        ["place"] = 17883015202
+    },
+    ["Golden GYM"] = {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 75000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 6000,
+        ["image"] = "rbxassetid://17739152361",
+        ["order"] = 4,
+        ["display"] = "Golden GYM",
+        ["spin_price"] = 3000,
+        ["color"] = Color3.fromRGB(255, 245, 107),
+        ["place"] = 17593439630
+    },
+    ["Beach GYM"] = {
+        ["staminaBoost"] = 2,
+        ["price"] = 0,
+        ["boost"] = 2,
+        ["crate_price"] = 3000,
+        ["image"] = "rbxassetid://17739151800",
+        ["order"] = 1,
+        ["display"] = "Beach GYM",
+        ["spin_price"] = 1500,
+        ["color"] = Color3.fromRGB(255, 201, 135),
+        ["place"] = 17450551531
+    },
+    ["The GYM"] = {
+        ["staminaBoost"] = 2.5,
+        ["price"] = 20000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 5000,
+        ["image"] = "rbxassetid://17739152795",
+        ["order"] = 3,
+        ["display"] = "The GYM",
+        ["spin_price"] = 2500,
+        ["color"] = Color3.fromRGB(255, 137, 107),
+        ["place"] = 17593439780
+    },
+    ["Prison GYM"] = {
+        ["staminaBoost"] = 1.3,
+        ["price"] = 15500000,
+        ["boost"] = 1.5,
+        ["crate_price"] = 145000,
+        ["image"] = "rbxassetid://133412455069928",
+        ["order"] = 9,
+        ["display"] = "Prison GYM",
+        ["spin_price"] = 52500,
+        ["color"] = Color3.fromRGB(231, 125, 72),
+        ["place"] = 128775837101761
     },
     ["Underground GYM"] = {
+        ["staminaBoost"] = 2.3,
+        ["price"] = 1000,
+        ["boost"] = 2.2,
+        ["crate_price"] = 4000,
         ["image"] = "rbxassetid://17739153186",
         ["order"] = 2,
-        ["color"] = Color3.fromRGB(147, 199, 52),
         ["display"] = "Underground GYM",
         ["spin_price"] = 2000,
-        ["place"] = 17593437943,
-        ["price"] = 1000
+        ["color"] = Color3.fromRGB(147, 199, 52),
+        ["place"] = 17593437943
     }
 }
