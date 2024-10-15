@@ -1,5 +1,9 @@
 data = {
     {"???", "Neutral"},
+    {"rbxassetid://118954672523451", "Feminine"},
+    {"rbxassetid://92981794882737", "Feminine"},
+    {"rbxassetid://113729049907548", "Feminine"},
+    {"rbxassetid://95507426396636", "Feminine"},
     {"rbxassetid://18969742547", "Masculine"},
     {"rbxassetid://18935403036", "Feminine"},
     {"rbxassetid://18935318663", "Feminine"},
