@@ -1,4 +1,9 @@
 data = {
+    "- Hair Sep 28 2024 (Lolita Buns)",
+    "- Hair Sep 28 2024 (Regal Curls)",
+    "- Hair Sep 28 2024 (Baddie Ponytail)",
+    "- Hair Sep 28 2024 (Bantu Knots)",
+    "- Hair Sep 28 2024 (Black Hairstyle)",
     "DTI x BRAT: - Hair 4",
     "DTI x BRAT: - Hair 3",
     "DTI x BRAT: - Hair 2",
