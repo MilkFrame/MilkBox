@@ -1,38 +1,5 @@
 data = {
     ["Mythical"] = {
-        ["DarthVader"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Mythical",
-            ["Animations"] = {["Idle"] = "18687705949"},
-            ["DisplayName"] = "Dark Overlord",
-            ["Image"] = "rbxassetid://18731773000",
-            ["Category"] = "Default",
-            ["Value"] = 600000000000,
-            ["RawProbability"] = 3.3333333333333335e-11,
-            ["Probability"] = 300000000
-        },
-        ["SaulGoodman"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Mythical",
-            ["Animations"] = {["Idle"] = "18655535237"},
-            ["DisplayName"] = "Sol Goatman",
-            ["Image"] = "rbxassetid://17433135831",
-            ["Category"] = "Default",
-            ["Value"] = 150000000000,
-            ["RawProbability"] = 1e-10,
-            ["Probability"] = 100000000
-        },
-        ["DrDoom"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Mythical",
-            ["Animations"] = {["Idle"] = "119344241019279"},
-            ["DisplayName"] = "Dr. Dread",
-            ["Image"] = "rbxassetid://18941258182",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 700000000000,
-            ["RawProbability"] = 2.8571428571428573e-11,
-            ["Probability"] = 350000000
-        },
         ["ColossalTitan"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Mythical",
@@ -44,6 +11,18 @@ data = {
             ["RawProbability"] = 2e-11,
             ["Footsteps"] = "Giant",
             ["Probability"] = 500000000
+        },
+        ["Frieren"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Mythical",
+            ["Animations"] = {["Idle"] = "80437058081929"},
+            ["DisplayName"] = "Fiora",
+            ["Image"] = "rbxassetid://92336760141678",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 500000000000,
+            ["RawProbability"] = 4e-11,
+            ["TitleOffset"] = 1.5,
+            ["Probability"] = 250000000
         },
         ["Spiderman"] = {
             ["Type"] = "Character",
@@ -57,16 +36,17 @@ data = {
             ["TitleOffset"] = 6.5,
             ["Probability"] = 75000000
         },
-        ["LuffyGear5"] = {
+        ["PeterGriffin"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Mythical",
-            ["Animations"] = {["Idle"] = "18602674807"},
-            ["DisplayName"] = "Luffus: Gear 5",
-            ["Image"] = "rbxassetid://18556405927",
-            ["Category"] = "Default",
-            ["Value"] = 400000000000,
-            ["RawProbability"] = 5e-11,
-            ["Probability"] = 200000000
+            ["Animations"] = {["Idle"] = "18646375271", ["Walking"] = "18646379856"},
+            ["DisplayName"] = "Peter Grinton",
+            ["Image"] = "rbxassetid://18216225802",
+            ["Category"] = "Crafting",
+            ["Value"] = 75000000000,
+            ["RawProbability"] = 2e-10,
+            ["WalkSpeed"] = 80,
+            ["Probability"] = 50000000
         },
         ["WalterWhite"] = {
             ["Type"] = "Character",
@@ -80,17 +60,49 @@ data = {
             ["TitleOffset"] = 1,
             ["Probability"] = 100000000
         },
-        ["PeterGriffin"] = {
+        ["SaulGoodman"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Mythical",
-            ["Animations"] = {["Idle"] = "18646375271", ["Walking"] = "18646379856"},
-            ["DisplayName"] = "Peter Grinton",
-            ["Image"] = "rbxassetid://18216225802",
-            ["Category"] = "Crafting",
-            ["Value"] = 75000000000,
-            ["RawProbability"] = 2e-10,
-            ["WalkSpeed"] = 80,
-            ["Probability"] = 50000000
+            ["Animations"] = {["Idle"] = "18655535237"},
+            ["DisplayName"] = "Sol Goatman",
+            ["Image"] = "rbxassetid://17433135831",
+            ["Category"] = "Default",
+            ["Value"] = 150000000000,
+            ["RawProbability"] = 1e-10,
+            ["Probability"] = 100000000
+        },
+        ["DarthVader"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Mythical",
+            ["Animations"] = {["Idle"] = "18687705949"},
+            ["DisplayName"] = "Dark Overlord",
+            ["Image"] = "rbxassetid://18731773000",
+            ["Category"] = "Default",
+            ["Value"] = 600000000000,
+            ["RawProbability"] = 3.3333333333333335e-11,
+            ["Probability"] = 300000000
+        },
+        ["LuffyGear5"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Mythical",
+            ["Animations"] = {["Idle"] = "18602674807"},
+            ["DisplayName"] = "Luffus: Gear 5",
+            ["Image"] = "rbxassetid://18556405927",
+            ["Category"] = "Default",
+            ["Value"] = 400000000000,
+            ["RawProbability"] = 5e-11,
+            ["Probability"] = 200000000
+        },
+        ["DrDoom"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Mythical",
+            ["Animations"] = {["Idle"] = "119344241019279"},
+            ["DisplayName"] = "Dr. Dread",
+            ["Image"] = "rbxassetid://18941258182",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 950000000000,
+            ["RawProbability"] = 2.8571428571428573e-11,
+            ["Probability"] = 350000000
         }
     },
     ["Legendary"] = {
@@ -117,6 +129,18 @@ data = {
             ["Footsteps"] = "Giant",
             ["Probability"] = 10000000
         },
+        ["Mahoraga"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Legendary",
+            ["Animations"] = {["Idle"] = "111375986614692"},
+            ["DisplayName"] = "Maharos",
+            ["Image"] = "rbxassetid://78355931705624",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 20000000000,
+            ["RawProbability"] = 3.80952380952381e-09,
+            ["TitleOffset"] = 2.5,
+            ["Probability"] = 35000000
+        },
         ["HarryPotter"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Legendary",
@@ -124,7 +148,7 @@ data = {
             ["DisplayName"] = "Henry Porter",
             ["Image"] = "rbxassetid://104566403014580",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 10000000000,
+            ["Value"] = 15000000000,
             ["RawProbability"] = 5.333333333333333e-09,
             ["Probability"] = 25000000
         },
@@ -150,6 +174,17 @@ data = {
             ["RawProbability"] = 1.7777777777777777e-08,
             ["Probability"] = 7500000
         },
+        ["IronMan"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Legendary",
+            ["Animations"] = {["Idle"] = "121784588149128"},
+            ["DisplayName"] = "Metal Man",
+            ["Image"] = "rbxassetid://98775598772923",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 10000000000,
+            ["RawProbability"] = 5.333333333333333e-09,
+            ["Probability"] = 25000000
+        },
         ["Homelander"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Legendary",
@@ -162,6 +197,18 @@ data = {
             ["TitleOffset"] = 3,
             ["Probability"] = 30000000
         },
+        ["Thor"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Legendary",
+            ["Animations"] = {["Idle"] = "101993700707925"},
+            ["DisplayName"] = "Thorst",
+            ["Image"] = "rbxassetid://96989831840262",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 25000000000,
+            ["RawProbability"] = 2.962962962962963e-09,
+            ["TitleOffset"] = 3.5,
+            ["Probability"] = 45000000
+        },
         ["Muzan"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Legendary",
@@ -169,7 +216,7 @@ data = {
             ["DisplayName"] = "Muzaro",
             ["Image"] = "rbxassetid://18941258394",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 20000000000,
+            ["Value"] = 25000000000,
             ["RawProbability"] = 3.80952380952381e-09,
             ["TitleOffset"] = 2,
             ["Probability"] = 35000000
@@ -229,22 +276,54 @@ data = {
             ["DisplayName"] = "Shigoru",
             ["Image"] = "rbxassetid://92490189281667",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 100000000,
+            ["Value"] = 150000000,
             ["RawProbability"] = 3.3333333333333335e-07,
             ["Probability"] = 1000000
+        },
+        ["EvangelionUnit1"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Enchanted",
+            ["Animations"] = {["Idle"] = "HunchedIdle", ["FillRemainingAnimations"] = "Robot"},
+            ["DisplayName"] = "Aegis Unit 01",
+            ["Image"] = "rbxassetid://110895713183348",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 500000000,
+            ["RawProbability"] = 4.444444444444445e-08,
+            ["Probability"] = 7500000
         },
         ["Rengoku"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Enchanted",
             ["Animations"] = {["Idle"] = "125665484532660"},
-            ["IsPaidItem"] = true,
             ["DisplayName"] = "Rengiro",
             ["Image"] = "rbxassetid://18941257947",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 200000000,
+            ["Value"] = 250000000,
             ["RawProbability"] = 1.3333333333333334e-07,
             ["TitleOffset"] = 1.5,
             ["Probability"] = 2500000
+        },
+        ["Kiryu"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Enchanted",
+            ["Animations"] = {["Idle"] = "124544515220793", ["FillRemainingAnimations"] = "Superhero"},
+            ["DisplayName"] = "Kenzo",
+            ["Image"] = "rbxassetid://112154611973500",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 100000000,
+            ["RawProbability"] = 3.3333333333333335e-07,
+            ["Probability"] = 1000000
+        },
+        ["Hulk"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Enchanted",
+            ["Animations"] = {["Idle"] = "80726629050984", ["Walking"] = "120467156668372"},
+            ["DisplayName"] = "Green Giant",
+            ["Image"] = "rbxassetid://100898390154497",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 350000000,
+            ["RawProbability"] = 6.666666666666667e-08,
+            ["Probability"] = 5000000
         },
         ["Gojo"] = {
             ["Type"] = "Character",
@@ -264,7 +343,7 @@ data = {
             ["DisplayName"] = "Kronos",
             ["Image"] = "rbxassetid://105578645888158",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 350000000,
+            ["Value"] = 450000000,
             ["RawProbability"] = 6.666666666666667e-08,
             ["Probability"] = 5000000
         },
@@ -286,7 +365,7 @@ data = {
             ["DisplayName"] = "Atom Breaker",
             ["Image"] = "rbxassetid://121626128773187",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 500000000,
+            ["Value"] = 650000000,
             ["RawProbability"] = 4.444444444444445e-08,
             ["Probability"] = 7500000
         },
@@ -348,64 +427,16 @@ data = {
         }
     },
     ["Common"] = {
-        ["Sakura"] = {
+        ["Shinji"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Common",
-            ["Animations"] = "Bubbly",
-            ["DisplayName"] = "Sakina",
-            ["Image"] = "rbxassetid://17506815534",
-            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Font"] = Enum.Font.Oswald},
-            ["Category"] = "Default",
-            ["Value"] = 5,
-            ["RawProbability"] = 0.16666666666666666,
-            ["Probability"] = 6
-        },
-        ["Tracer"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["Animations"] = "Ninja",
-            ["DisplayName"] = "Tracker",
-            ["Image"] = "rbxassetid://74029753579243",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 15,
-            ["RawProbability"] = 0.03571428571428571,
-            ["WalkSpeed"] = 35,
-            ["Probability"] = 28
-        },
-        ["Kaiju8"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["Animations"] = "Knight",
-            ["DisplayName"] = "Monster 8",
-            ["Image"] = "rbxassetid://135436592424849",
-            ["Category"] = "AutumnPass2024",
+            ["Animations"] = "Elder",
+            ["DisplayName"] = "Shiro",
+            ["Image"] = "rbxassetid://96682482632199",
+            ["Category"] = "HalloweenPass2024",
             ["Value"] = 65,
             ["RawProbability"] = 0.006666666666666667,
-            ["WalkSpeed"] = 35,
             ["Probability"] = 150
-        },
-        ["Usopp"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["DisplayName"] = "Uso",
-            ["Image"] = "rbxassetid://17508380270",
-            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(83, 54, 40), ["Font"] = Enum.Font.Antique},
-            ["Category"] = "Default",
-            ["Value"] = 10,
-            ["RawProbability"] = 0.08333333333333333,
-            ["Probability"] = 12
-        },
-        ["Sanji"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["Animations"] = "Stylish",
-            ["DisplayName"] = "Soren",
-            ["Image"] = "rbxassetid://17441461404",
-            ["Category"] = "Default",
-            ["Value"] = 200,
-            ["RawProbability"] = 0.002,
-            ["Chance"] = 5,
-            ["Probability"] = 500
         },
         ["Gon"] = {
             ["Type"] = "Character",
@@ -414,7 +445,7 @@ data = {
             ["DisplayName"] = "Ron",
             ["Image"] = "rbxassetid://115862030348059",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 5,
+            ["Value"] = 10,
             ["RawProbability"] = 0.25,
             ["WalkSpeed"] = 35,
             ["Probability"] = 4
@@ -430,16 +461,6 @@ data = {
             ["RawProbability"] = 0.25,
             ["Probability"] = 4
         },
-        ["Guest"] = {
-            ["Type"] = "Character",
-            ["Image"] = "rbxassetid://17366953765",
-            ["Rarity"] = "Common",
-            ["Category"] = "Default",
-            ["Value"] = 5,
-            ["RawProbability"] = 0.5,
-            ["Probability"] = 2,
-            ["DisplayName"] = "Guest"
-        },
         ["Chopper"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Common",
@@ -450,6 +471,109 @@ data = {
             ["Value"] = 25,
             ["RawProbability"] = 0.020833333333333332,
             ["Probability"] = 48
+        },
+        ["ZeroTwo"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Bubbly",
+            ["DisplayName"] = "Niro Tsu",
+            ["Image"] = "rbxassetid://103702362699467",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 15,
+            ["RawProbability"] = 0.07142857142857142,
+            ["WalkSpeed"] = 35,
+            ["Probability"] = 14
+        },
+        ["Ochaco"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Bubbly",
+            ["DisplayName"] = "Orina",
+            ["Image"] = "rbxassetid://17506815864",
+            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Font"] = Enum.Font.Oswald},
+            ["Category"] = "Default",
+            ["Value"] = 15,
+            ["RawProbability"] = 0.041666666666666664,
+            ["Probability"] = 24
+        },
+        ["PowerArmor"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Robot",
+            ["DisplayName"] = "Power Suit",
+            ["Image"] = "rbxassetid://18759124720",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 45,
+            ["RawProbability"] = 0.013333333333333334,
+            ["WalkSpeed"] = 35,
+            ["Probability"] = 75
+        },
+        ["Sakura"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Bubbly",
+            ["DisplayName"] = "Sakina",
+            ["Image"] = "rbxassetid://17506815534",
+            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Font"] = Enum.Font.Oswald},
+            ["Category"] = "Default",
+            ["Value"] = 5,
+            ["RawProbability"] = 0.16666666666666666,
+            ["Probability"] = 6
+        },
+        ["Usopp"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["DisplayName"] = "Uso",
+            ["Image"] = "rbxassetid://17508380270",
+            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(83, 54, 40), ["Font"] = Enum.Font.Antique},
+            ["Category"] = "Default",
+            ["Value"] = 10,
+            ["RawProbability"] = 0.08333333333333333,
+            ["Probability"] = 12
+        },
+        ["Reigen"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Cartoony",
+            ["DisplayName"] = "Raymond",
+            ["Image"] = "rbxassetid://81509065999302",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 15,
+            ["RawProbability"] = 0.03571428571428571,
+            ["Probability"] = 28
+        },
+        ["Aang"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Levitate",
+            ["DisplayName"] = "Oong",
+            ["Image"] = "rbxassetid://128730045848819",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 5,
+            ["RawProbability"] = 0.25,
+            ["WalkSpeed"] = 35,
+            ["Probability"] = 4
+        },
+        ["Guest"] = {
+            ["Type"] = "Character",
+            ["Image"] = "rbxassetid://17366953765",
+            ["Rarity"] = "Common",
+            ["Category"] = "Default",
+            ["Value"] = 5,
+            ["RawProbability"] = 0.5,
+            ["Probability"] = 2,
+            ["DisplayName"] = "Guest"
+        },
+        ["Reiner"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Knight",
+            ["DisplayName"] = "Ryner",
+            ["Image"] = "rbxassetid://79586490103905",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 35,
+            ["RawProbability"] = 0.013333333333333334,
+            ["Probability"] = 75
         },
         ["Noob"] = {
             ["Type"] = "Character",
@@ -474,17 +598,41 @@ data = {
             ["Animations"] = "Bubbly",
             ["Probability"] = 200
         },
-        ["ZeroTwo"] = {
+        ["Tracer"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Common",
-            ["Animations"] = "Bubbly",
-            ["DisplayName"] = "Niro Tsu",
-            ["Image"] = "rbxassetid://103702362699467",
+            ["Animations"] = "Ninja",
+            ["DisplayName"] = "Tracker",
+            ["Image"] = "rbxassetid://74029753579243",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 10,
-            ["RawProbability"] = 0.07142857142857142,
+            ["Value"] = 20,
+            ["RawProbability"] = 0.03571428571428571,
             ["WalkSpeed"] = 35,
-            ["Probability"] = 14
+            ["Probability"] = 28
+        },
+        ["Kaiju8"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Knight",
+            ["DisplayName"] = "Monster 8",
+            ["Image"] = "rbxassetid://135436592424849",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 85,
+            ["RawProbability"] = 0.006666666666666667,
+            ["WalkSpeed"] = 35,
+            ["Probability"] = 150
+        },
+        ["Sanji"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Common",
+            ["Animations"] = "Stylish",
+            ["DisplayName"] = "Soren",
+            ["Image"] = "rbxassetid://17441461404",
+            ["Category"] = "Default",
+            ["Value"] = 200,
+            ["RawProbability"] = 0.002,
+            ["Chance"] = 5,
+            ["Probability"] = 500
         },
         ["Tanjiro"] = {
             ["Type"] = "Character",
@@ -499,50 +647,26 @@ data = {
             ["RawProbability"] = 0.010416666666666666,
             ["ChancesTextProperties"] = {["Color"] = Color3.fromRGB(42, 42, 42), ["Font"] = Enum.Font.Fantasy},
             ["Probability"] = 96
-        },
-        ["Ochaco"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["Animations"] = "Bubbly",
-            ["DisplayName"] = "Orina",
-            ["Image"] = "rbxassetid://17506815864",
-            ["TitleTextProperties"] = {["Color"] = Color3.fromRGB(255, 170, 255), ["Font"] = Enum.Font.Oswald},
-            ["Category"] = "Default",
-            ["Value"] = 15,
-            ["RawProbability"] = 0.041666666666666664,
-            ["Probability"] = 24
-        },
-        ["PowerArmor"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Common",
-            ["Animations"] = "Robot",
-            ["DisplayName"] = "Power Suit",
-            ["Image"] = "rbxassetid://18759124720",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 35,
-            ["RawProbability"] = 0.013333333333333334,
-            ["WalkSpeed"] = 35,
-            ["Probability"] = 75
         }
     },
     ["Epic"] = {
-        ["Geto"] = {
+        ["Ryuk"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
-            ["Animations"] = "Mage",
-            ["DisplayName"] = "Goro",
-            ["Image"] = "rbxassetid://18556406146",
-            ["Category"] = "Default",
-            ["Value"] = 650000,
-            ["RawProbability"] = 0.000005,
-            ["Probability"] = 200000
+            ["Animations"] = {["Idle"] = "Float1"},
+            ["DisplayName"] = "Ryren",
+            ["Image"] = "rbxassetid://87672567612385",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 600000,
+            ["RawProbability"] = 0.000006666666666666667,
+            ["Probability"] = 150000
         },
         ["Ronaldo"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
             ["Animations"] = "Ninja",
             ["IsPaidItem"] = true,
-            ["DisplayName"] = "Ronaldo",
+            ["DisplayName"] = "Ronald",
             ["Image"] = "rbxassetid://18351967988",
             ["Category"] = "Paid",
             ["Value"] = 35000,
@@ -560,6 +684,62 @@ data = {
             ["WalkSpeed"] = 45,
             ["Probability"] = 50000
         },
+        ["Akaza"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = {["Idle"] = "Float4"},
+            ["DisplayName"] = "Akano",
+            ["Image"] = "rbxassetid://85015252220142",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 1500000,
+            ["RawProbability"] = 0.0000033333333333333333,
+            ["Probability"] = 300000
+        },
+        ["GhostRider"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = {["Idle"] = "89419539702689", ["Walking"] = "72639055603285"},
+            ["DisplayName"] = "Ghoul Biker",
+            ["Image"] = "rbxassetid://133726543786969",
+            ["Category"] = "AutumnPass2024",
+            ["Value"] = 350000,
+            ["RawProbability"] = 0.00001,
+            ["WalkSpeed"] = 50,
+            ["Probability"] = 100000
+        },
+        ["Negan"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = {["Idle"] = "HoldingBatLeft", ["FillRemainingAnimations"] = "Knight"},
+            ["DisplayName"] = "Nolan",
+            ["Image"] = "rbxassetid://18351968618",
+            ["Category"] = "Default",
+            ["Value"] = 1000000,
+            ["RawProbability"] = 0.0000033333333333333333,
+            ["Probability"] = 300000
+        },
+        ["Majima"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = "Zombie",
+            ["DisplayName"] = "Majiro",
+            ["Image"] = "rbxassetid://140648853085902",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 1000000,
+            ["RawProbability"] = 0.0000033333333333333333,
+            ["Probability"] = 300000
+        },
+        ["Spike"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = {["Idle"] = "HoldingGun", ["FillRemainingAnimations"] = "Robot"},
+            ["DisplayName"] = "Striker",
+            ["Image"] = "rbxassetid://118465276963736",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 250000,
+            ["RawProbability"] = 0.00001,
+            ["Probability"] = 100000
+        },
         ["Yuta"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
@@ -571,28 +751,16 @@ data = {
             ["RawProbability"] = 0.000008,
             ["Probability"] = 125000
         },
-        ["OnePunchMan"] = {
+        ["Shanks"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "Float4", ["Walking"] = "FlyingWalk"},
-            ["DisplayName"] = "Single-Strike Man",
-            ["Image"] = "rbxassetid://17506815751",
+            ["Animations"] = {["Idle"] = "HoldingBatRight", ["FillRemainingAnimations"] = "Ninja"},
+            ["DisplayName"] = "Sharps",
+            ["Image"] = "rbxassetid://17508380583",
             ["Category"] = "Default",
-            ["Value"] = 35000,
-            ["RawProbability"] = 0.00002857142857142857,
-            ["WalkSpeed"] = 45,
-            ["Probability"] = 35000
-        },
-        ["Akaza"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "Float4"},
-            ["DisplayName"] = "Akano",
-            ["Image"] = "rbxassetid://85015252220142",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 1000000,
-            ["RawProbability"] = 0.0000033333333333333333,
-            ["Probability"] = 300000
+            ["Value"] = 700000,
+            ["RawProbability"] = 0.0000045454545454545455,
+            ["Probability"] = 220000
         },
         ["Stormtrooper"] = {
             ["Type"] = "Character",
@@ -628,39 +796,39 @@ data = {
             ["RawProbability"] = 0.000013333333333333333,
             ["Probability"] = 75000
         },
-        ["Ryuk"] = {
+        ["Geto"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "Float1"},
-            ["DisplayName"] = "Ryren",
-            ["Image"] = "rbxassetid://87672567612385",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 450000,
-            ["RawProbability"] = 0.000006666666666666667,
-            ["Probability"] = 150000
-        },
-        ["GhostRider"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "89419539702689", ["Walking"] = "72639055603285"},
-            ["DisplayName"] = "Ghoul Biker",
-            ["Image"] = "rbxassetid://133726543786969",
-            ["Category"] = "AutumnPass2024",
-            ["Value"] = 250000,
-            ["RawProbability"] = 0.00001,
-            ["WalkSpeed"] = 50,
-            ["Probability"] = 100000
-        },
-        ["Negan"] = {
-            ["Type"] = "Character",
-            ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "HoldingBatLeft", ["FillRemainingAnimations"] = "Knight"},
-            ["DisplayName"] = "Nolan",
-            ["Image"] = "rbxassetid://18351968618",
+            ["Animations"] = "Mage",
+            ["DisplayName"] = "Goro",
+            ["Image"] = "rbxassetid://18556406146",
             ["Category"] = "Default",
-            ["Value"] = 1000000,
-            ["RawProbability"] = 0.0000033333333333333333,
-            ["Probability"] = 300000
+            ["Value"] = 650000,
+            ["RawProbability"] = 0.000005,
+            ["Probability"] = 200000
+        },
+        ["OnePunchMan"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = {["Idle"] = "Float4", ["Walking"] = "FlyingWalk"},
+            ["DisplayName"] = "Single-Strike Man",
+            ["Image"] = "rbxassetid://17506815751",
+            ["Category"] = "Default",
+            ["Value"] = 35000,
+            ["RawProbability"] = 0.00002857142857142857,
+            ["WalkSpeed"] = 45,
+            ["Probability"] = 35000
+        },
+        ["Nanami"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Epic",
+            ["Animations"] = "Robot",
+            ["DisplayName"] = "Natsumi",
+            ["Image"] = "rbxassetid://124544488177759",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 650000,
+            ["RawProbability"] = 0.000005,
+            ["Probability"] = 200000
         },
         ["JohnWick"] = {
             ["Type"] = "Character",
@@ -674,16 +842,16 @@ data = {
             ["RawProbability"] = 0.00002,
             ["Probability"] = 50000
         },
-        ["Shanks"] = {
+        ["Piccolo"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Epic",
-            ["Animations"] = {["Idle"] = "HoldingBatRight", ["FillRemainingAnimations"] = "Ninja"},
-            ["DisplayName"] = "Sharps",
-            ["Image"] = "rbxassetid://17508380583",
-            ["Category"] = "Default",
-            ["Value"] = 700000,
-            ["RawProbability"] = 0.0000045454545454545455,
-            ["Probability"] = 220000
+            ["Animations"] = "Knight",
+            ["DisplayName"] = "Paccino",
+            ["Image"] = "rbxassetid://140019313896074",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 450000,
+            ["RawProbability"] = 0.000006666666666666667,
+            ["Probability"] = 150000
         }
     },
     ["Exotic"] = {
@@ -698,6 +866,24 @@ data = {
             ["RawProbability"] = 0.0000025,
             ["WalkSpeed"] = 65,
             ["Probability"] = 400000
+        },
+        ["Superman"] = {
+            ["Image"] = "rbxassetid://18128952542",
+            ["Rarity"] = "Exotic",
+            ["Category"] = "Rewards",
+            ["Animations"] = {["Idle"] = "Float1"},
+            ["Type"] = "Character",
+            ["Value"] = 2000000,
+            ["DisplayName"] = "Superhero"
+        },
+        ["Sukuna"] = {
+            ["Image"] = "rbxassetid://18130179679",
+            ["Rarity"] = "Exotic",
+            ["Category"] = "Rewards",
+            ["Animations"] = {["Idle"] = "Float1"},
+            ["Type"] = "Character",
+            ["Value"] = 2000000,
+            ["DisplayName"] = "Sukino"
         },
         ["OmniMan"] = {
             ["Type"] = "Character",
@@ -732,23 +918,38 @@ data = {
             ["RawProbability"] = 0.0000028571428571428573,
             ["Probability"] = 350000
         },
-        ["Superman"] = {
-            ["Image"] = "rbxassetid://18128952542",
-            ["Rarity"] = "Exotic",
-            ["Category"] = "Rewards",
-            ["Animations"] = {["Idle"] = "Float1"},
+        ["Jinx"] = {
             ["Type"] = "Character",
-            ["Value"] = 2000000,
-            ["DisplayName"] = "Superhero"
+            ["Rarity"] = "Exotic",
+            ["Animations"] = {["Idle"] = "86741696254419", ["FillRemainingAnimations"] = "Zombie"},
+            ["DisplayName"] = "Jynt",
+            ["Image"] = "rbxassetid://93861033216326",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 85000000,
+            ["RawProbability"] = 0.000001,
+            ["Probability"] = 1000000
         },
-        ["Sukuna"] = {
-            ["Image"] = "rbxassetid://18130179679",
-            ["Rarity"] = "Exotic",
-            ["Category"] = "Rewards",
-            ["Animations"] = {["Idle"] = "Float1"},
+        ["Wolverine"] = {
             ["Type"] = "Character",
+            ["Rarity"] = "Exotic",
+            ["Animations"] = {["Idle"] = "BeastIdle", ["FillRemainingAnimations"] = "Werewolf"},
+            ["DisplayName"] = "Iron Wolf",
+            ["Image"] = "rbxassetid://137188986206823",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 20000000,
+            ["RawProbability"] = 0.000002,
+            ["Probability"] = 500000
+        },
+        ["Deadpool"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Exotic",
+            ["Animations"] = {["Idle"] = "94351199540046", ["FillRemainingAnimations"] = "Ninja"},
+            ["DisplayName"] = "Red Ninja",
+            ["Image"] = "rbxassetid://78174472007703",
+            ["Category"] = "HalloweenPass2024",
             ["Value"] = 2000000,
-            ["DisplayName"] = "Sukino"
+            ["RawProbability"] = 0.0000028571428571428573,
+            ["Probability"] = 350000
         },
         ["Vegeta"] = {
             ["Type"] = "Character",
@@ -780,7 +981,7 @@ data = {
             ["DisplayName"] = "Gray",
             ["Image"] = "rbxassetid://86272195514108",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 85000000,
+            ["Value"] = 100000000,
             ["RawProbability"] = 0.000001,
             ["Probability"] = 1000000
         },
@@ -803,7 +1004,7 @@ data = {
             ["DisplayName"] = "Skrell",
             ["Image"] = "rbxassetid://115682686609186",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 2000000,
+            ["Value"] = 2500000,
             ["RawProbability"] = 0.0000028571428571428573,
             ["Probability"] = 350000
         },
@@ -827,7 +1028,7 @@ data = {
             ["DisplayName"] = "Buzzsaw Guy",
             ["Image"] = "rbxassetid://117770937878770",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 20000000,
+            ["Value"] = 30000000,
             ["RawProbability"] = 0.000002,
             ["WalkSpeed"] = 50,
             ["Probability"] = 500000
@@ -852,7 +1053,7 @@ data = {
             ["DisplayName"] = "Yona Furjer",
             ["Image"] = "rbxassetid://117539279739430",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 600,
+            ["Value"] = 800,
             ["RawProbability"] = 0.0006666666666666666,
             ["Probability"] = 1500
         },
@@ -863,9 +1064,20 @@ data = {
             ["DisplayName"] = "Sunlight",
             ["Image"] = "rbxassetid://18759125105",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 900,
+            ["Value"] = 1000,
             ["RawProbability"] = 0.00025,
             ["Probability"] = 4000
+        },
+        ["Deku"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Uncommon",
+            ["Animations"] = "Elder",
+            ["DisplayName"] = "Dekan",
+            ["Image"] = "rbxassetid://17432783757",
+            ["Category"] = "Default",
+            ["Value"] = 550,
+            ["RawProbability"] = 0.001,
+            ["Probability"] = 1000
         },
         ["BlackNoir"] = {
             ["Type"] = "Character",
@@ -889,14 +1101,25 @@ data = {
             ["RawProbability"] = 0.0004,
             ["Probability"] = 2500
         },
+        ["Asuka"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Uncommon",
+            ["Animations"] = "Bubbly",
+            ["DisplayName"] = "Asumi",
+            ["Image"] = "rbxassetid://117911636033121",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 550,
+            ["RawProbability"] = 0.001,
+            ["Probability"] = 1000
+        },
         ["Flash"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Uncommon",
-            ["Animations"] = "Ninja",
+            ["Animations"] = "Sports",
             ["DisplayName"] = "The Speedster",
             ["Image"] = "rbxassetid://87869945683299",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 550,
+            ["Value"] = 750,
             ["RawProbability"] = 0.001,
             ["WalkSpeed"] = 64,
             ["Probability"] = 1000
@@ -912,6 +1135,17 @@ data = {
             ["RawProbability"] = 0.00023529411764705883,
             ["Probability"] = 4250
         },
+        ["Franky"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Uncommon",
+            ["Animations"] = "Robot",
+            ["DisplayName"] = "Franco",
+            ["Image"] = "rbxassetid://72726531613140",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 1000,
+            ["RawProbability"] = 0.0002,
+            ["Probability"] = 5000
+        },
         ["Nobara"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Uncommon",
@@ -922,6 +1156,17 @@ data = {
             ["Value"] = 850,
             ["RawProbability"] = 0.0002666666666666667,
             ["Probability"] = 3750
+        },
+        ["Krillin"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Uncommon",
+            ["Animations"] = {["Idle"] = "Float1"},
+            ["DisplayName"] = "Korin",
+            ["Image"] = "rbxassetid://75650459440449",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 600,
+            ["RawProbability"] = 0.0006666666666666666,
+            ["Probability"] = 1500
         },
         ["Zoro"] = {
             ["Type"] = "Character",
@@ -934,16 +1179,16 @@ data = {
             ["RawProbability"] = 0.0002,
             ["Probability"] = 5000
         },
-        ["Deku"] = {
+        ["DavidMartinez"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Uncommon",
-            ["Animations"] = "Elder",
-            ["DisplayName"] = "Dekan",
-            ["Image"] = "rbxassetid://17432783757",
-            ["Category"] = "Default",
-            ["Value"] = 550,
-            ["RawProbability"] = 0.001,
-            ["Probability"] = 1000
+            ["Animations"] = "Werewolf",
+            ["DisplayName"] = "Daniel M.",
+            ["Image"] = "rbxassetid://78421143186122",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 750,
+            ["RawProbability"] = 0.0003333333333333333,
+            ["Probability"] = 3000
         },
         ["Butcher"] = {
             ["Type"] = "Character",
@@ -987,8 +1232,20 @@ data = {
             ["DisplayName"] = "Echiga",
             ["Image"] = "rbxassetid://104421221238015",
             ["Category"] = "AutumnPass2024",
+            ["Value"] = 10000,
+            ["RawProbability"] = 0.00006666666666666667,
+            ["Probability"] = 15000
+        },
+        ["BlackPanther"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Rare",
+            ["Animations"] = "Werewolf",
+            ["DisplayName"] = "Night Prowler",
+            ["Image"] = "rbxassetid://106376588735919",
+            ["Category"] = "HalloweenPass2024",
             ["Value"] = 8500,
             ["RawProbability"] = 0.00006666666666666667,
+            ["WalkSpeed"] = 45,
             ["Probability"] = 15000
         },
         ["SungJinWoo"] = {
@@ -1032,6 +1289,28 @@ data = {
             ["RawProbability"] = 0.0001,
             ["Probability"] = 10000
         },
+        ["Vi"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Rare",
+            ["Animations"] = {["Idle"] = "HoldingFistIdle", ["FillRemainingAnimations"] = "Knight"},
+            ["DisplayName"] = "Vyra",
+            ["Image"] = "rbxassetid://117134109323230",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 25000,
+            ["RawProbability"] = 0.00002,
+            ["Probability"] = 50000
+        },
+        ["Itachi"] = {
+            ["Type"] = "Character",
+            ["Rarity"] = "Rare",
+            ["Animations"] = "Ninja",
+            ["DisplayName"] = "Izan",
+            ["Image"] = "rbxassetid://70625433471731",
+            ["Category"] = "HalloweenPass2024",
+            ["Value"] = 5000,
+            ["RawProbability"] = 0.000125,
+            ["Probability"] = 8000
+        },
         ["Jotaro"] = {
             ["Type"] = "Character",
             ["Rarity"] = "Rare",
@@ -1050,7 +1329,7 @@ data = {
             ["DisplayName"] = "Mikuro",
             ["Image"] = "rbxassetid://18941257135",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 25000,
+            ["Value"] = 35000,
             ["RawProbability"] = 0.00002,
             ["WalkSpeed"] = 50,
             ["Probability"] = 50000
@@ -1095,9 +1374,18 @@ data = {
             ["DisplayName"] = "Stellar Moon",
             ["Image"] = "rbxassetid://120659055562411",
             ["Category"] = "AutumnPass2024",
-            ["Value"] = 5000,
+            ["Value"] = 7000,
             ["RawProbability"] = 0.000125,
             ["Probability"] = 8000
+        },
+        ["Milim"] = {
+            ["Image"] = "rbxassetid://98546081862232",
+            ["Rarity"] = "Rare",
+            ["Category"] = "Codes",
+            ["Animations"] = {["Idle"] = "Float1", ["FillRemainingAnimations"] = "Levitate"},
+            ["Type"] = "Character",
+            ["Value"] = 5000,
+            ["DisplayName"] = "Maria"
         },
         ["Levi"] = {
             ["Type"] = "Character",
