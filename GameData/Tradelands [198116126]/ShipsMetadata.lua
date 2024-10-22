@@ -1,53 +1,36 @@
 data = {
-    ["Onager"] = {
+    ["Destroyer"] = {
+        ["PaintCost"] = 50,
+        ["WindResist"] = 6,
+        ["Power_Row"] = 2,
+        ["Seat"] = {},
+        ["WaveResist"] = 9,
+        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "A", ["MaxSize"] = 5},
-            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "A", ["MaxSize"] = 5},
-            ["Cannon_4"] = {["Restriction"] = "A", ["MaxSize"] = 5},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "A", ["MaxSize"] = 5},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            ["Cannon_4"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
         },
-        ["SteamEngine"] = {["Fuel"] = 0},
-        ["WindResist"] = 10,
-        ["Turning_Max"] = 7,
-        ["Power_Steam"] = 7,
-        ["Base"] = {["Health"] = 6000, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["PaintCost"] = 0,
-        ["Gunners"] = 7,
-        ["WaveResist"] = 20
+        ["Turning_Max"] = 16,
+        ["Gunners"] = 0,
+        ["Cargo"] = {["CrateMarker"] = {}}
     },
-    ["esooG"] = {
-        ["PaintCost"] = 80,
-        ["Power_Lateen"] = 5,
-        ["WindResist"] = 10,
-        ["Power_Square"] = 6,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "90,13800,100"}},
-        ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 1200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Cargo"] = {["CrateMarker"] = {}},
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-        },
+    ["Veteran Sparrow II"] = {
+        ["PaintCost"] = 20,
         ["CargoHold"] = {["Cargo"] = 0},
-        ["Gunners"] = 4,
-        ["Turning_Max"] = 9
+        ["Turning_Max"] = 16,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "10,500,100"}},
+        ["WaveResist"] = 8,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 330},
+        ["Power_FAA"] = 6,
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Cannons"] = {
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["Gunners"] = 1,
+        ["WindResist"] = 5
     },
     ["Mortar Platform"] = {
         ["Cannons"] = {["Cannon_1"] = {["Restriction"] = "M", ["MaxSize"] = 2}},
@@ -101,25 +84,153 @@ data = {
         ["Gunners"] = 4,
         ["Turning_Max"] = 9
     },
+    ["Gargoyle"] = {
+        ["PaintCost"] = 210,
+        ["Power_Lateen"] = 6,
+        ["WindResist"] = 9,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "260,180000,100"},
+            ["ColorMod_Crest"] = {["MetalAllowed"] = true, ["Cost"] = "50,75000,50"},
+            ["ColorMod_Crest 2"] = {["MetalAllowed"] = true, ["Cost"] = "50,75000,50"},
+            ["ColorMod_Hatches"] = {["Cost"] = "100,50000,50", ["OnlyMetal"] = true},
+            ["ColorMod_Trim"] = {["MetalAllowed"] = true, ["Cost"] = "130,90000,250"},
+            ["ColorMod_Furniture2"] = {["Cost"] = "130,112500,100"},
+            ["ColorMod_Furniture1"] = {["Cost"] = "130,112500,100"}
+        },
+        ["WaveResist"] = 16,
+        ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_13"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_14"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["Gunners"] = 5,
+        ["Turning_Max"] = 9
+    },
     ["Falcon"] = {
         ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_17"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_18"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_Square"] = 6,
-        ["WaveResist"] = 12,
-        ["Base"] = {["Health"] = 700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["PaintCost"] = 60,
-        ["Power_FAA"] = 5,
-        ["Turning_Max"] = 12,
+        ["WindResist"] = 6,
+        ["Turning_Max"] = 9,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "280,480000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "140,240000,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "210,420000,400"}
+        },
+        ["WaveResist"] = 16,
+        ["Base"] = {["Health"] = 2100, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 4,
         ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 3,
-        ["WindResist"] = 6
+        ["PaintCost"] = 160,
+        ["Gunners"] = 8,
+        ["Power_Square"] = 6
+    },
+    ["Onager"] = {
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 5},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 5},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "A", ["MaxSize"] = 5},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 7,
+        ["Power_Steam"] = 5,
+        ["Base"] = {["Health"] = 3000, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["PaintCost"] = 100,
+        ["Gunners"] = 7,
+        ["WaveResist"] = 20
+    },
+    ["Hind"] = {
+        ["PaintCost"] = 90,
+        ["WindResist"] = 15,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "400,1000000,100"},
+            ["ColorMod_Stripe 2"] = {["Cost"] = "300,700000,400"},
+            ["ColorMod_Stripe 1"] = {["Cost"] = "300,700000,400"},
+            ["ColorMod_Furniture 2"] = {["Cost"] = "100,10000,50"},
+            ["ColorMod_Trim"] = {["Cost"] = "200,500000,250"},
+            ["ColorMod_Furniture 1"] = {["Cost"] = "100,10000,50"},
+            ["ColorMod_Detail (Metal)"] = {["Cost"] = "50,10000,50"}
+        },
+        ["WaveResist"] = 25,
+        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_26"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_23"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_24"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_22"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_21"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_25"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Power_FAA"] = 5,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 12,
+        ["Turning_Max"] = 7
     },
     ["Kestrel"] = {
         ["Cannons"] = {
@@ -210,28 +321,21 @@ data = {
         ["Gunners"] = 20,
         ["Turning_Max"] = 8
     },
-    ["Pillager"] = {
-        ["PaintCost"] = 60,
-        ["Power_Lateen"] = 6,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_Square"] = 9,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "100,160000,100"},
-            ["ColorMod_Hull Secondary"] = {["Cost"] = "50,80000,250"}
-        },
-        ["WaveResist"] = 10,
-        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["WindResist"] = 5,
+    ["Super Steamfish"] = {
         ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
         },
-        ["Gunners"] = 3,
-        ["Turning_Max"] = 14
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 15,
+        ["Turning_Max"] = 16,
+        ["Power_Steam"] = 4,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 120},
+        ["Power_FAA"] = 5,
+        ["PaintCost"] = 30,
+        ["WoodOverride"] = "Dark taupe",
+        ["Gunners"] = 2,
+        ["WaveResist"] = 15
     },
     ["MiniOtter"] = {
         ["PaintCost"] = 90,
@@ -338,6 +442,81 @@ data = {
         ["Gunners"] = 0,
         ["WindResist"] = 10
     },
+    ["Honeybadger"] = {
+        ["PaintCost"] = 90,
+        ["WindResist"] = 10,
+        ["Power_Square"] = 8,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "110,17600,100"},
+            ["ColorMod_Stripe2"] = {["Cost"] = "85,15400,400"},
+            ["ColorMod_Stripe"] = {["Cost"] = "85,15400,400"},
+            ["ColorMod_Furniture2"] = {["Cost"] = "55,15000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "55,15000,100"},
+            ["ColorMod_Roof"] = {["Cost"] = "55,15000,100"},
+            ["ColorMod_Furniture1"] = {["Cost"] = "55,15000,100"}
+        },
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 1550, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 7,
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_10"] = {["Restriction"] = "M", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_8"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "CAR", ["MaxSize"] = 3},
+            ["Cannon_9"] = {["Restriction"] = "M", ["MaxSize"] = 1}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 3,
+        ["Turning_Max"] = 9
+    },
+    ["Covenant"] = {
+        ["PaintCost"] = 260,
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 7,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "360,720000,100"},
+            ["ColorMod_Stripe 2"] = {["Cost"] = "270,630000,400"},
+            ["ColorMod_Stripe 1"] = {["Cost"] = "270,630000,400"},
+            ["ColorMod_Trim"] = {["Cost"] = "180,360000,250"}
+        },
+        ["WaveResist"] = 18,
+        ["Base"] = {["Health"] = 2500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 4,
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_22"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_21"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_20"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Gunners"] = 9,
+        ["Power_Square"] = 6
+    },
     ["Heron"] = {
         ["Cannons"] = {
             ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
@@ -345,14 +524,17 @@ data = {
         },
         ["WindResist"] = 5,
         ["Turning_Max"] = 12,
-        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "10,2000,100"}},
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "20,2000,100"},
+            ["ColorMod_Sides"] = {["Cost"] = "15,1800,400"},
+            ["ColorMod_Detail"] = {["Cost"] = "10,1000,250"}
+        },
         ["WaveResist"] = 8,
-        ["Base"] = {["Health"] = 500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Power_FAA"] = 5,
-        ["PaintCost"] = 30,
-        ["Cargo"] = {["CrateMarker"] = {}},
+        ["Base"] = {["Health"] = 500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["CargoHold"] = {["Cargo"] = 0},
         ["Gunners"] = 1,
-        ["CargoHold"] = {["Cargo"] = 0}
+        ["PaintCost"] = 30
     },
     ["Starling"] = {
         ["Cannons"] = {
@@ -371,6 +553,200 @@ data = {
         ["Gunners"] = 2,
         ["WindResist"] = 6
     },
+    ["Reaper"] = {
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+        },
+        ["Power_Lateen"] = 8,
+        ["WindResist"] = 9,
+        ["Turning_Max"] = 10,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "200,100000,100"},
+            ["ColorMod_Railing"] = {["Cost"] = "100,50000,50"},
+            ["ColorMod_Hull"] = {["Cost"] = "500,300000,100"},
+            ["ColorMod_Background"] = {["MetalAllowed"] = true, ["Cost"] = "20,10000,25"},
+            ["ColorMod_Trim"] = {["Cost"] = "200,100000,100"},
+            ["ColorMod_Ram"] = {["OnlyMetal"] = true, ["Cost"] = "240,200000,100"},
+            ["ColorMod_Skeleton"] = {["OnlyMetal"] = true, ["Cost"] = "50,10000,25"}
+        },
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 1500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 4,
+        ["PaintCost"] = 100
+    },
+    ["Mongoose"] = {
+        ["PaintCost"] = 200,
+        ["WindResist"] = 10,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "210,100000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "110,50000,250"},
+            ["ColorMod_Stripe 1"] = {["Cost"] = "160,90000,400"},
+            ["ColorMod_Stripe 2"] = {["Cost"] = "160,90000,400"}
+        },
+        ["WaveResist"] = 16,
+        ["Base"] = {["Health"] = 1750, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 5,
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "A", ["MaxSize"] = 1},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_14"] = {["Restriction"] = "A", ["MaxSize"] = 1},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Turning_Max"] = 9,
+        ["Gunners"] = 5,
+        ["Magazine"] = {["Ammo"] = 0}
+    },
+    ["Ares Medusa"] = {
+        ["PaintCost"] = 250,
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 10,
+        ["Power_Square"] = 5,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"},
+            ["ColorMod_Anchors"] = {["OnlyMetal"] = true, ["Cost"] = "50,50000,50"},
+            ["ColorMod_Pipes"] = {["OnlyMetal"] = true, ["Cost"] = "50,100000,100"},
+            ["ColorMod_Funnels"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"},
+            ["ColorMod_Railings"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Base"] = {["Health"] = 2800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_Steam"] = 5,
+        ["Power_FAA"] = 4,
+        ["WaveResist"] = 20,
+        ["Turning_Max"] = 7,
+        ["Gunners"] = 10,
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_22"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_21"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        }
+    },
+    ["Ares Hydra"] = {
+        ["Cannons"] = {
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_4"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_3"] = {["Restriction"] = "A", ["MaxSize"] = 8}
+        },
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 5,
+        ["Hull"] = {
+            ["ColorMod_Railings"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"},
+            ["ColorMod_Anchors"] = {["OnlyMetal"] = true, ["Cost"] = "50,50000,50"},
+            ["ColorMod_Pipes"] = {["Cost"] = "50,100000,100", ["OnlyMetal"] = true},
+            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"},
+            ["ColorMod_Funnels"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"}
+        },
+        ["WaveResist"] = 20,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 2800},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Turning_Max"] = 7,
+        ["Power_FAA"] = 4,
+        ["PaintCost"] = 250,
+        ["WindResist"] = 10,
+        ["Gunners"] = 3,
+        ["Power_Steam"] = 5
+    },
+    ["Ares Cyclops"] = {
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 8},
+            ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+        },
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 7,
+        ["Hull"] = {
+            ["ColorMod_Railings"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true},
+            ["ColorMod_Pipes"] = {["OnlyMetal"] = true, ["Cost"] = "50,100000,100"},
+            ["ColorMod_Funnels"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true},
+            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"}
+        },
+        ["WaveResist"] = 20,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 2800},
+        ["Power_Square"] = 5,
+        ["Power_FAA"] = 3,
+        ["PaintCost"] = 190,
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 5,
+        ["Power_Steam"] = 5
+    },
+    ["Pelican"] = {
+        ["PaintCost"] = 40,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "35,3200,250"},
+            ["ColorMod_Sides"] = {["Cost"] = "25,2800,400"},
+            ["ColorMod_Detail"] = {["Cost"] = "20,1600,250"}
+        },
+        ["WaveResist"] = 8,
+        ["Base"] = {["Health"] = 500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 6,
+        ["WindResist"] = 5,
+        ["Cannons"] = {
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["Gunners"] = 1,
+        ["Turning_Max"] = 12
+    },
     ["Lark"] = {
         ["PaintCost"] = 20,
         ["Power_Lateen"] = 7,
@@ -384,6 +760,28 @@ data = {
         },
         ["Gunners"] = 1,
         ["WindResist"] = 5
+    },
+    ["Broadseidon"] = {
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 8,
+        ["Hull"] = {["ColorMod_Stacks"] = {["Cost"] = "100,50000,50", ["OnlyMetal"] = true}},
+        ["WaveResist"] = 20,
+        ["Base"] = {["Health"] = 1800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 200},
+        ["PaintCost"] = 10,
+        ["Gunners"] = 2,
+        ["Power_Steam"] = 5
     },
     ["Ptarmigan"] = {
         ["PaintCost"] = 160,
@@ -421,24 +819,47 @@ data = {
             ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
         }
     },
-    ["Destroyer"] = {
-        ["PaintCost"] = 50,
-        ["WindResist"] = 6,
-        ["Power_Row"] = 2,
-        ["Seat"] = {},
-        ["WaveResist"] = 9,
-        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cannons"] = {
-            ["Cannon_4"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_3"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
-        },
-        ["Turning_Max"] = 16,
-        ["Gunners"] = 0,
-        ["Cargo"] = {["CrateMarker"] = {}}
-    },
     ["Pangolin2"] = {
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_20"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Power_Lateen"] = 3,
+        ["WindResist"] = 12,
+        ["Turning_Max"] = 7,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "300,480000,100"},
+            ["ColorMod_Details"] = {["Cost"] = "150,240000,250"}
+        },
+        ["WaveResist"] = 21,
+        ["Sail_2_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
+        ["Sail_1_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
+        ["Sail_3_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
+        ["Base"] = {["Health"] = 2400, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["PaintCost"] = 200,
+        ["Gunners"] = 8,
+        ["Power_Square"] = 6
+    },
+    ["Pangolin"] = {
         ["PaintCost"] = 200,
         ["Power_Lateen"] = 4,
         ["WindResist"] = 12,
@@ -452,6 +873,7 @@ data = {
         ["Sail_1_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
         ["Sail_3_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
         ["Base"] = {["Health"] = 2400, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
         ["Cannons"] = {
             ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
             ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
@@ -481,9 +903,9 @@ data = {
         ["PaintCost"] = 120,
         ["Power_Lateen"] = 8,
         ["WindResist"] = 9,
-        ["Turning_Max"] = 11,
+        ["Turning_Max"] = 10,
         ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 925, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Base"] = {["Health"] = 1050, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Power_FAA"] = 8,
         ["Magazine"] = {["Ammo"] = 0},
         ["CargoHold"] = {["Cargo"] = 0},
@@ -679,53 +1101,86 @@ data = {
         ["Gunners"] = 4,
         ["Magazine"] = {["Ammo"] = 0}
     },
-    ["Manta"] = {
+    ["Ibis"] = {
         ["Cannons"] = {
-            ["Cannon_7"] = {["Restriction"] = "M", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
             ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
-        ["WindResist"] = 8,
-        ["Power_Square"] = 8,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "65,11000,100"}, ["ColorMod_Details"] = {["Cost"] = "35,5500,250"}},
-        ["WaveResist"] = 12,
-        ["Base"] = {["Steering"] = 0, ["Acceleration"] = 0, ["Health"] = 880, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Power_FAA"] = 5,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 80,
-        ["Gunners"] = 3,
-        ["Turning_Max"] = 10
-    },
-    ["Mercury"] = {
-        ["PaintCost"] = 10,
-        ["SteamEngine"] = {["Fuel"] = 0},
-        ["WindResist"] = 10,
-        ["Turning_Max"] = 10,
+        ["Power_Lateen"] = 8,
+        ["WindResist"] = 6,
+        ["Turning_Max"] = 14,
         ["Hull"] = {
-            ["ColorMod_Deck"] = {["MetalAllowed"] = true, ["Cost"] = "150,200000,100"},
-            ["ColorMod_Band"] = {["OnlyMetal"] = true, ["Cost"] = "200,200000,200"},
-            ["ColorMod_Interior Braces"] = {["Cost"] = "50,100000,259"},
-            ["ColorMod_Engine"] = {["Cost"] = "100,50000,50", ["OnlyMetal"] = true},
-            ["ColorMod_Piping"] = {["Cost"] = "50,50000,50", ["OnlyMetal"] = true}
+            ["ColorMod_Deck"] = {["Cost"] = "160,40000,100"},
+            ["ColorMod_Trim Hull"] = {["Cost"] = "80,20000,250"},
+            ["ColorMod_Trim Roof"] = {["Cost"] = "80,20000,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "120,35000,400"},
+            ["ColorMod_Roof"] = {["Cost"] = "80,20000,250"},
+            ["ColorMod_Railings"] = {["Cost"] = "80,20000,250"}
         },
-        ["Power_Steam"] = 5,
-        ["Base"] = {["Health"] = 1750, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cannons"] = {
-            ["Cannon_5"] = {["AddMaxPitch"] = 3, ["MaxSize"] = 2, ["Restriction"] = "C"},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_4"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"},
-            ["Cannon_6"] = {["AddMaxPitch"] = 3, ["MaxSize"] = 2, ["Restriction"] = "C"},
-            ["Cannon_2"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"},
-            ["Cannon_3"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"}
-        },
-        ["WaveResist"] = 20,
-        ["Gunners"] = 2,
+        ["WaveResist"] = 12,
+        ["Base"] = {["Health"] = 1050, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 7,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["PaintCost"] = 140,
+        ["Gunners"] = 3,
         ["Magazine"] = {["Ammo"] = 0}
+    },
+    ["Hind (Auction)"] = {
+        ["PaintCost"] = 90,
+        ["WindResist"] = 15,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Furniture 1"] = {["Cost"] = "100,10000,50"},
+            ["ColorMod_Furniture 2"] = {["Cost"] = "100,10000,50"},
+            ["ColorMod_Trim"] = {["Cost"] = "200,500000,250"},
+            ["ColorMod_Nameplate"] = {["Cost"] = "50,10000,50"},
+            ["ColorMod_Detail (Metal)"] = {["Cost"] = "50,10000,50"},
+            ["ColorMod_Deck"] = {["Cost"] = "400,1000000,100"},
+            ["ColorMod_Stripe 1"] = {["Cost"] = "300,700000,400"},
+            ["ColorMod_Bell"] = {["Cost"] = "100,10000,100"},
+            ["ColorMod_Stripe 2"] = {["Cost"] = "300,700000,400"}
+        },
+        ["WaveResist"] = 25,
+        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_FAA"] = 5,
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_26"] = {["Restriction"] = "A", ["MaxSize"] = 2},
+            ["Cannon_23"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_24"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_22"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_21"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_25"] = {["Restriction"] = "A", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 12,
+        ["Turning_Max"] = 7
     },
     ["Partyfish"] = {
         ["Cannons"] = {
@@ -861,69 +1316,6 @@ data = {
         ["Gunners"] = 3,
         ["Turning_Max"] = 7
     },
-    ["Ares Hydra"] = {
-        ["Cannons"] = {
-            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4},
-            ["Cannon_4"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
-            ["Cannon_3"] = {["Restriction"] = "A", ["MaxSize"] = 8}
-        },
-        ["SteamEngine"] = {["Fuel"] = 0},
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_Square"] = 5,
-        ["Hull"] = {
-            ["ColorMod_Railings"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"},
-            ["ColorMod_Anchors"] = {["OnlyMetal"] = true, ["Cost"] = "50,50000,50"},
-            ["ColorMod_Pipes"] = {["Cost"] = "50,100000,100", ["OnlyMetal"] = true},
-            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"},
-            ["ColorMod_Funnels"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"}
-        },
-        ["WaveResist"] = 20,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 2800},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Turning_Max"] = 7,
-        ["Power_FAA"] = 4,
-        ["PaintCost"] = 250,
-        ["WindResist"] = 10,
-        ["Gunners"] = 3,
-        ["Power_Steam"] = 5
-    },
-    ["Ares Cyclops"] = {
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 4},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 8},
-            ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
-        },
-        ["SteamEngine"] = {["Fuel"] = 0},
-        ["WindResist"] = 10,
-        ["Turning_Max"] = 7,
-        ["Hull"] = {
-            ["ColorMod_Railings"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true},
-            ["ColorMod_Pipes"] = {["OnlyMetal"] = true, ["Cost"] = "50,100000,100"},
-            ["ColorMod_Funnels"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true},
-            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"}
-        },
-        ["WaveResist"] = 20,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 2800},
-        ["Power_Square"] = 5,
-        ["Power_FAA"] = 3,
-        ["PaintCost"] = 190,
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 5,
-        ["Power_Steam"] = 5
-    },
     ["Corsair"] = {
         ["PaintCost"] = 120,
         ["Power_Lateen"] = 8,
@@ -957,49 +1349,38 @@ data = {
         ["Gunners"] = 3,
         ["WindResist"] = 8
     },
-    ["Ares Medusa"] = {
-        ["PaintCost"] = 250,
+    ["Wyvern"] = {
+        ["PaintCost"] = 110,
         ["SteamEngine"] = {["Fuel"] = 0},
         ["WindResist"] = 10,
-        ["Power_Square"] = 5,
+        ["Turning_Max"] = 8,
         ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "200,400000,100"},
-            ["ColorMod_Anchors"] = {["OnlyMetal"] = true, ["Cost"] = "50,50000,50"},
-            ["ColorMod_Pipes"] = {["OnlyMetal"] = true, ["Cost"] = "50,100000,100"},
-            ["ColorMod_Funnels"] = {["OnlyMetal"] = true, ["Cost"] = "100,200000,50"},
-            ["ColorMod_Railings"] = {["Cost"] = "100,200000,50", ["OnlyMetal"] = true}
+            ["ColorMod_Deck"] = {["Cost"] = "200,320000,100"},
+            ["ColorMod_Stripe"] = {["Cost"] = "150,280000,400"},
+            ["ColorMod_Trim"] = {["Cost"] = "100,160000,250"},
+            ["ColorMod_Pipes"] = {["OnlyMetal"] = true, ["Cost"] = "80,160000,250"},
+            ["ColorMod_Roof"] = {["Cost"] = "100,160000,250"},
+            ["ColorMod_Engine Trim"] = {["OnlyMetal"] = true, ["Cost"] = "80,160000,250"}
         },
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 1700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Magazine"] = {["Ammo"] = 0},
-        ["Base"] = {["Health"] = 2800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_Steam"] = 5,
-        ["Power_FAA"] = 4,
-        ["WaveResist"] = 20,
-        ["Turning_Max"] = 7,
-        ["Gunners"] = 10,
+        ["Power_FAA"] = 5,
         ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_22"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_21"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 4},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        }
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 4, ["SlowedEffect"] = 0}
+        },
+        ["Power_Steam"] = 4,
+        ["Gunners"] = 5,
+        ["Power_Square"] = 8
     },
     ["Panokseon Bomber"] = {
         ["PaintCost"] = 200,
@@ -1211,11 +1592,13 @@ data = {
     ["Komodo"] = {
         ["PaintCost"] = 280,
         ["Power_Lateen"] = 6,
-        ["WindResist"] = 10,
+        ["CargoHold"] = {["Cargo"] = 0},
         ["Turning_Max"] = 8,
+        ["Hull"] = {["Furniture"] = {["Bed (Large)"] = {["PreviewOffset"] = Vector3.new(0, -2.5, 0)}}},
         ["WaveResist"] = 18,
-        ["Power_FAA"] = 6,
         ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 6,
+        ["Magazine"] = {["Ammo"] = 0},
         ["Cannons"] = {
             ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_13"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
@@ -1239,26 +1622,78 @@ data = {
             ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
         ["Gunners"] = 6,
-        ["CargoHold"] = {["Cargo"] = 0}
+        ["WindResist"] = 10
     },
-    ["Bullet"] = {
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+    ["Concord"] = {
+        ["PaintCost"] = 240,
+        ["WindResist"] = 10,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "270,340000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "140,170000,250"},
+            ["ColorMod_Stripe 1"] = {["Cost"] = "200,300000,400"},
+            ["ColorMod_Stripe 2"] = {["Cost"] = "200,300000,400"}
         },
-        ["Cargo"] = {["CrateMarker"] = {}},
-        ["Turning_Max"] = 13,
-        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "30,4500,400"}},
-        ["WaveResist"] = 10,
-        ["Base"] = {["Health"] = 575, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_FAA"] = 9,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 45,
-        ["Gunners"] = 2,
-        ["WindResist"] = 4
+        ["WaveResist"] = 18,
+        ["Base"] = {["Health"] = 2100, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 4,
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "A", ["MaxSize"] = 1},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "A", ["MaxSize"] = 1},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 7,
+        ["Turning_Max"] = 8
+    },
+    ["Brigand"] = {
+        ["PaintCost"] = 80,
+        ["Power_Lateen"] = 7,
+        ["WindResist"] = 9,
+        ["Turning_Max"] = 9,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "250,260000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "125,130000,250"},
+            ["ColorMod_Roof"] = {["Cost"] = "125,130000,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "190,230000,400"}
+        },
+        ["WaveResist"] = 15,
+        ["Base"] = {["Health"] = 1600, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 5,
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_13"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_14"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["Gunners"] = 6,
+        ["CargoHold"] = {["Cargo"] = 0}
     },
     ["Behemoth"] = {
         ["PaintCost"] = 90,
@@ -1312,57 +1747,6 @@ data = {
         ["Gunners"] = 2,
         ["Magazine"] = {["Ammo"] = 0}
     },
-    ["Hind (Auction)"] = {
-        ["PaintCost"] = 90,
-        ["WindResist"] = 15,
-        ["Power_Square"] = 6,
-        ["Hull"] = {
-            ["ColorMod_Furniture 1"] = {["Cost"] = "100,10000,50"},
-            ["ColorMod_Furniture 2"] = {["Cost"] = "100,10000,50"},
-            ["ColorMod_Trim"] = {["Cost"] = "200,500000,250"},
-            ["ColorMod_Nameplate"] = {["Cost"] = "50,10000,50"},
-            ["ColorMod_Detail (Metal)"] = {["Cost"] = "50,10000,50"},
-            ["ColorMod_Deck"] = {["Cost"] = "400,1000000,100"},
-            ["ColorMod_Stripe 1"] = {["Cost"] = "300,700000,400"},
-            ["ColorMod_Bell"] = {["Cost"] = "100,10000,100"},
-            ["ColorMod_Stripe 2"] = {["Cost"] = "300,700000,400"}
-        },
-        ["WaveResist"] = 25,
-        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_FAA"] = 5,
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_26"] = {["Restriction"] = "A", ["MaxSize"] = 2},
-            ["Cannon_23"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_24"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_22"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_21"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_25"] = {["Restriction"] = "A", ["MaxSize"] = 2},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        },
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 12,
-        ["Turning_Max"] = 7
-    },
     ["Neptune"] = {
         ["PaintCost"] = 120,
         ["SteamEngine"] = {["Fuel"] = 0},
@@ -1390,25 +1774,30 @@ data = {
         ["Gunners"] = 4,
         ["Magazine"] = {["Ammo"] = 0}
     },
-    ["Boreas"] = {
-        ["PaintCost"] = 380,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_Square"] = 7,
-        ["Hull"] = {
-            ["ColorMod_Railings"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Deck"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Stripe"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Detail"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Bottom"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Roof"] = {["Cost"] = "1,1,1"},
-            ["ColorMod_Anchor"] = {["OnlyMetal"] = true, ["Cost"] = "1,1,1"}
+    ["esooG"] = {
+        ["PaintCost"] = 80,
+        ["Power_Lateen"] = 5,
+        ["WindResist"] = 10,
+        ["Power_Square"] = 6,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "90,13800,100"}},
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 1200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Cargo"] = {["CrateMarker"] = {}},
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
         },
-        ["WaveResist"] = 12,
-        ["Power_FAA"] = 5,
-        ["Base"] = {["Health"] = 2500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["WindResist"] = 6,
-        ["Gunners"] = 0,
-        ["Turning_Max"] = 6
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Gunners"] = 4,
+        ["Turning_Max"] = 9
     },
     ["Stiletto"] = {
         ["Cannons"] = {
@@ -1485,39 +1874,25 @@ data = {
         ["Gunners"] = 3,
         ["Turning_Max"] = 9
     },
-    ["Brigand"] = {
-        ["PaintCost"] = 80,
-        ["Power_Lateen"] = 7,
-        ["WindResist"] = 9,
-        ["Turning_Max"] = 9,
+    ["Boreas"] = {
+        ["PaintCost"] = 380,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 7,
         ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "250,260000,100"},
-            ["ColorMod_Trim"] = {["Cost"] = "125,130000,250"},
-            ["ColorMod_Roof"] = {["Cost"] = "125,130000,250"},
-            ["ColorMod_Stripe"] = {["Cost"] = "190,230000,400"}
+            ["ColorMod_Railings"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Deck"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Stripe"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Detail"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Bottom"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Roof"] = {["Cost"] = "1,1,1"},
+            ["ColorMod_Anchor"] = {["OnlyMetal"] = true, ["Cost"] = "1,1,1"}
         },
-        ["WaveResist"] = 15,
-        ["Base"] = {["Health"] = 1600, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["WaveResist"] = 12,
         ["Power_FAA"] = 5,
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_13"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_14"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-        },
-        ["Gunners"] = 6,
-        ["CargoHold"] = {["Cargo"] = 0}
+        ["Base"] = {["Health"] = 2500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["WindResist"] = 6,
+        ["Gunners"] = 0,
+        ["Turning_Max"] = 6
     },
     ["Marlin"] = {
         ["PaintCost"] = 75,
@@ -1599,6 +1974,50 @@ data = {
         ["Gunners"] = 6,
         ["WaveResist"] = 16
     },
+    ["Bullet"] = {
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+        },
+        ["Cargo"] = {["CrateMarker"] = {}},
+        ["Turning_Max"] = 13,
+        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "30,4500,400"}},
+        ["WaveResist"] = 10,
+        ["Base"] = {["Health"] = 575, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 9,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["PaintCost"] = 45,
+        ["Gunners"] = 2,
+        ["WindResist"] = 4
+    },
+    ["Mastiff"] = {
+        ["PaintCost"] = 240,
+        ["WindResist"] = 10,
+        ["Power_Square"] = 6,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "185,35200,100"}},
+        ["WaveResist"] = 18,
+        ["Base"] = {["Health"] = 1950, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Power_FAA"] = 5,
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Gunners"] = 5,
+        ["Turning_Max"] = 8
+    },
     ["Camel"] = {
         ["PaintCost"] = 280,
         ["Power_Lateen"] = 5,
@@ -1610,7 +2029,7 @@ data = {
             ["ColorMod_Details"] = {["Cost"] = "135,130000,250"}
         },
         ["WaveResist"] = 18,
-        ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Base"] = {["Health"] = 2200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Magazine"] = {["Ammo"] = 0},
         ["Power_FAA"] = 6,
         ["Cannons"] = {
@@ -1633,31 +2052,6 @@ data = {
         },
         ["CargoHold"] = {["Cargo"] = 0},
         ["Gunners"] = 6,
-        ["Turning_Max"] = 8
-    },
-    ["Mastiff"] = {
-        ["PaintCost"] = 240,
-        ["WindResist"] = 10,
-        ["Power_Square"] = 6,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "185,35200,100"}},
-        ["WaveResist"] = 18,
-        ["Base"] = {["Health"] = 2200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Power_FAA"] = 5,
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        },
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Gunners"] = 5,
         ["Turning_Max"] = 8
     },
     ["Camel (Pine Deck)"] = {
@@ -1690,41 +2084,6 @@ data = {
         ["CargoHold"] = {["Cargo"] = 0},
         ["Gunners"] = 6,
         ["Turning_Max"] = 8
-    },
-    ["Cutlass"] = {
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
-        },
-        ["Power_Lateen"] = 8,
-        ["WindResist"] = 6,
-        ["Turning_Max"] = 11,
-        ["Hull"] = {
-            ["ColorMod_Railing"] = {["Cost"] = "70,11500,250"},
-            ["ColorMod_Stripe"] = {["Cost"] = "100,20000,400"},
-            ["ColorMod_Top Stripe"] = {["Cost"] = "100,20000,400"},
-            ["ColorMod_Interior Trim"] = {["Cost"] = "70,11500,250"},
-            ["ColorMod_Deck"] = {["Cost"] = "135,23000,100"},
-            ["ColorMod_Mural1"] = {["OnlyMetallic"] = true, ["Cost"] = "50,14500,50"},
-            ["ColorMod_Furniture2"] = {["Cost"] = "65,14500,100"},
-            ["ColorMod_Furniture1"] = {["Cost"] = "65,14500,100"},
-            ["ColorMod_Bottom Stripe"] = {["Cost"] = "100,20000,400"},
-            ["ColorMod_Exterior Trim"] = {["MetallicAllowed"] = true, ["Cost"] = "70,11500,250"},
-            ["ColorMod_Mural2"] = {["Cost"] = "50,14500,50"}
-        },
-        ["WaveResist"] = 12,
-        ["Base"] = {["Health"] = 1100, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 110,
-        ["Gunners"] = 2,
-        ["Power_Square"] = 8
     },
     ["Sigil"] = {
         ["Cannons"] = {
@@ -1759,6 +2118,34 @@ data = {
         ["Gunners"] = 6,
         ["Turning_Max"] = 9
     },
+    ["Combat Log"] = {
+        ["PaintCost"] = 80,
+        ["WindResist"] = 7,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Bark"] = {["Cost"] = "145,200000,100"},
+            ["ColorMod_Platforms"] = {["Cost"] = "145,200000,100"}
+        },
+        ["WaveResist"] = 14,
+        ["Power_FAA"] = 6,
+        ["Base"] = {["Health"] = 1200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+        },
+        ["Gunners"] = 2,
+        ["Turning_Max"] = 12
+    },
+    ["Goldfish"] = {
+        ["PaintCost"] = 10,
+        ["WindResist"] = 5,
+        ["Turning_Max"] = 16,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 120},
+        ["WaveResist"] = 8,
+        ["Gunners"] = 0,
+        ["Power_FAA"] = 6
+    },
     ["Chimera"] = {
         ["PaintCost"] = 220,
         ["Power_Lateen"] = 6,
@@ -1789,34 +2176,6 @@ data = {
         },
         ["Gunners"] = 4,
         ["Turning_Max"] = 9
-    },
-    ["Goldfish"] = {
-        ["PaintCost"] = 10,
-        ["WindResist"] = 5,
-        ["Turning_Max"] = 16,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 120},
-        ["WaveResist"] = 8,
-        ["Gunners"] = 0,
-        ["Power_FAA"] = 6
-    },
-    ["Combat Log"] = {
-        ["PaintCost"] = 80,
-        ["WindResist"] = 7,
-        ["Power_Square"] = 6,
-        ["Hull"] = {
-            ["ColorMod_Bark"] = {["Cost"] = "145,200000,100"},
-            ["ColorMod_Platforms"] = {["Cost"] = "145,200000,100"}
-        },
-        ["WaveResist"] = 14,
-        ["Power_FAA"] = 6,
-        ["Base"] = {["Health"] = 1200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cannons"] = {
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
-        },
-        ["Gunners"] = 2,
-        ["Turning_Max"] = 12
     },
     ["Camel (Spruce Deck)"] = {
         ["Cannons"] = {
@@ -1861,24 +2220,29 @@ data = {
         ["PaintCost"] = 120,
         ["WindResist"] = 6,
         ["Power_Square"] = 7,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "270,55000,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "100,30000,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "140,50000,400"}
+        },
         ["WaveResist"] = 16,
         ["Base"] = {["Health"] = 1700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Power_FAA"] = 3,
-        ["Magazine"] = {["Ammo"] = 0},
         ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
             ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
+        ["Magazine"] = {["Ammo"] = 0},
         ["Gunners"] = 6,
         ["Turning_Max"] = 9
     },
@@ -1910,23 +2274,40 @@ data = {
         ["Gunners"] = 4,
         ["CargoHold"] = {["Cargo"] = 0}
     },
-    ["Dart"] = {
+    ["Cutlass"] = {
         ["Cannons"] = {
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+            ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
         },
-        ["WindResist"] = 4,
-        ["Turning_Max"] = 13,
-        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "20,3000,400"}},
-        ["WaveResist"] = 10,
-        ["Base"] = {["Health"] = 600, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_FAA"] = 9,
+        ["Power_Lateen"] = 8,
+        ["WindResist"] = 6,
+        ["Turning_Max"] = 11,
+        ["Hull"] = {
+            ["ColorMod_Railing"] = {["Cost"] = "70,11500,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "100,20000,400"},
+            ["ColorMod_Top Stripe"] = {["Cost"] = "100,20000,400"},
+            ["ColorMod_Interior Trim"] = {["Cost"] = "70,11500,250"},
+            ["ColorMod_Deck"] = {["Cost"] = "135,23000,100"},
+            ["ColorMod_Mural1"] = {["OnlyMetallic"] = true, ["Cost"] = "50,14500,50"},
+            ["ColorMod_Furniture2"] = {["Cost"] = "65,14500,100"},
+            ["ColorMod_Furniture1"] = {["Cost"] = "65,14500,100"},
+            ["ColorMod_Bottom Stripe"] = {["Cost"] = "100,20000,400"},
+            ["ColorMod_Exterior Trim"] = {["MetallicAllowed"] = true, ["Cost"] = "70,11500,250"},
+            ["ColorMod_Mural2"] = {["Cost"] = "50,14500,50"}
+        },
+        ["WaveResist"] = 12,
+        ["Base"] = {["Health"] = 1100, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
         ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 40,
+        ["PaintCost"] = 110,
         ["Gunners"] = 2,
-        ["Cargo"] = {["CrateMarker"] = {}}
+        ["Power_Square"] = 8
     },
     ["Shark"] = {
         ["Cannons"] = {
@@ -1967,34 +2348,23 @@ data = {
         ["Gunners"] = 2,
         ["Power_Steam"] = 5
     },
-    ["Mule"] = {
+    ["Dart"] = {
         ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1}
         },
-        ["WindResist"] = 10,
-        ["Power_Square"] = 6,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "230,110000,100"},
-            ["ColorMod_Cargo Hatch"] = {["Cost"] = "100,50000,50"}
-        },
-        ["WaveResist"] = 18,
-        ["Base"] = {["Health"] = 2250, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Power_FAA"] = 6,
+        ["WindResist"] = 4,
+        ["Turning_Max"] = 13,
+        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "20,3000,400"}},
+        ["WaveResist"] = 10,
+        ["Base"] = {["Health"] = 600, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 9,
         ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 280,
-        ["Gunners"] = 5,
-        ["Turning_Max"] = 8
+        ["PaintCost"] = 40,
+        ["Gunners"] = 2,
+        ["Cargo"] = {["CrateMarker"] = {}}
     },
     ["Badger"] = {
         ["PaintCost"] = 90,
@@ -2052,35 +2422,20 @@ data = {
         ["Gunners"] = 2,
         ["Turning_Max"] = 16
     },
-    ["Ibis"] = {
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-        },
-        ["Power_Lateen"] = 8,
-        ["WindResist"] = 6,
-        ["Turning_Max"] = 14,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "160,40000,100"},
-            ["ColorMod_Trim Hull"] = {["Cost"] = "80,20000,250"},
-            ["ColorMod_Trim Roof"] = {["Cost"] = "80,20000,250"},
-            ["ColorMod_Stripe"] = {["Cost"] = "120,35000,400"},
-            ["ColorMod_Roof"] = {["Cost"] = "80,20000,250"},
-            ["ColorMod_Railings"] = {["Cost"] = "80,20000,250"}
-        },
-        ["WaveResist"] = 12,
-        ["Base"] = {["Health"] = 1150, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_FAA"] = 7,
+    ["Swallow"] = {
+        ["PaintCost"] = 20,
         ["CargoHold"] = {["Cargo"] = 0},
-        ["PaintCost"] = 140,
-        ["Gunners"] = 3,
-        ["Magazine"] = {["Ammo"] = 0}
+        ["Turning_Max"] = 16,
+        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "5,500,100"}, ["ColorMod_Deck"] = {["Cost"] = "10,500,400"}},
+        ["WaveResist"] = 8,
+        ["Power_FAA"] = 6,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Health"] = 330, ["Steering"] = 0},
+        ["Cannons"] = {
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
+        },
+        ["Gunners"] = 1,
+        ["WindResist"] = 5
     },
     ["Koi"] = {
         ["Base"] = {["Health"] = 120, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
@@ -2151,34 +2506,25 @@ data = {
         ["Gunners"] = 3,
         ["Power_Square"] = 7
     },
-    ["Albatross"] = {
-        ["PaintCost"] = 210,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Power_Square"] = 7,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "270,260000,100"},
-            ["ColorMod_Furniture 1"] = {["Cost"] = "100,50000,100"},
-            ["ColorMod_Furniture 2"] = {["Cost"] = "50,25000,50"},
-            ["ColorMod_Roofing"] = {["Cost"] = "125,120000,100"},
-            ["ColorMod_Details"] = {["Cost"] = "135,130000,250"}
-        },
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Base"] = {["Health"] = 1500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["WindResist"] = 6,
-        ["Power_FAA"] = 6,
-        ["WaveResist"] = 12,
-        ["Turning_Max"] = 8,
-        ["Gunners"] = 3,
+    ["Falcon (Old/Backup)"] = {
         ["Cannons"] = {
             ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
             ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
             ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
             ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        }
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 6,
+        ["WaveResist"] = 12,
+        ["Base"] = {["Health"] = 700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["PaintCost"] = 60,
+        ["Power_FAA"] = 5,
+        ["Turning_Max"] = 12,
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 3,
+        ["WindResist"] = 6
     },
     ["War Koi"] = {
         ["Cannons"] = {["Cannon_1"] = {["Restriction"] = "A", ["MaxSize"] = 3}},
@@ -2223,59 +2569,60 @@ data = {
         ["Gunners"] = 3,
         ["WaveResist"] = 14
     },
-    ["Gargoyle"] = {
+    ["Albatross"] = {
         ["PaintCost"] = 210,
-        ["Power_Lateen"] = 6,
-        ["WindResist"] = 9,
-        ["Power_Square"] = 6,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 7,
         ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "260,180000,100"},
-            ["ColorMod_Crest"] = {["MetalAllowed"] = true, ["Cost"] = "50,75000,50"},
-            ["ColorMod_Crest 2"] = {["MetalAllowed"] = true, ["Cost"] = "50,75000,50"},
-            ["ColorMod_Hatches"] = {["Cost"] = "100,50000,50", ["OnlyMetal"] = true},
-            ["ColorMod_Trim"] = {["MetalAllowed"] = true, ["Cost"] = "130,90000,250"},
-            ["ColorMod_Furniture2"] = {["Cost"] = "130,112500,100"},
-            ["ColorMod_Furniture1"] = {["Cost"] = "130,112500,100"}
+            ["ColorMod_Deck"] = {["Cost"] = "270,260000,100"},
+            ["ColorMod_Furniture 1"] = {["Cost"] = "100,50000,100"},
+            ["ColorMod_Furniture 2"] = {["Cost"] = "50,25000,50"},
+            ["ColorMod_Roofing"] = {["Cost"] = "125,120000,100"},
+            ["ColorMod_Details"] = {["Cost"] = "135,130000,250"}
         },
-        ["WaveResist"] = 16,
-        ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Magazine"] = {["Ammo"] = 0},
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_13"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_14"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_15"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
-        },
-        ["Gunners"] = 5,
-        ["Turning_Max"] = 9
-    },
-    ["Veteran Sparrow II"] = {
-        ["PaintCost"] = 20,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Turning_Max"] = 16,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "10,500,100"}},
-        ["WaveResist"] = 8,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 330},
+        ["Base"] = {["Health"] = 1500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["WindResist"] = 6,
         ["Power_FAA"] = 6,
-        ["Magazine"] = {["Ammo"] = 0},
+        ["WaveResist"] = 12,
+        ["Turning_Max"] = 8,
+        ["Gunners"] = 3,
         ["Cannons"] = {
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        }
+    },
+    ["Megalodon"] = {
+        ["PaintCost"] = 250,
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 30,
+        ["Turning_Max"] = 8,
+        ["Hull"] = {
+            ["ColorMod_Railings"] = {["OnlyMetal"] = true, ["Cost"] = "200,150000,250"},
+            ["ColorMod_Funnel"] = {["OnlyMetal"] = true, ["Cost"] = "200,150000,250"},
+            ["ColorMod_Halloween Detail"] = {["MetalAllowed"] = true, ["Cost"] = "1,1000,0"},
+            ["ColorMod_Superstructure"] = {["OnlyMetal"] = true, ["Cost"] = "200,150000,250"}
         },
-        ["Gunners"] = 1,
-        ["WindResist"] = 5
+        ["Power_Steam"] = 5,
+        ["Base"] = {["Health"] = 1800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["WaveResist"] = 20,
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 5},
+            ["Cannon_6"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 4},
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+        },
+        ["Gunners"] = 2,
+        ["Magazine"] = {["Ammo"] = 0}
     },
     ["Binglehopper2"] = {
         ["Cannons"] = {
@@ -2354,22 +2701,34 @@ data = {
             ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         }
     },
-    ["Pelican"] = {
-        ["PaintCost"] = 40,
-        ["WindResist"] = 5,
-        ["Power_Square"] = 6,
-        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "25,3000,200"}},
-        ["WaveResist"] = 8,
-        ["Base"] = {["Health"] = 500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Turning_Max"] = 12,
-        ["Power_FAA"] = 6,
+    ["Mule"] = {
         ["Cannons"] = {
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
         },
+        ["WindResist"] = 10,
+        ["Power_Square"] = 6,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "230,110000,100"},
+            ["ColorMod_Cargo Hatch"] = {["Cost"] = "100,50000,50"}
+        },
+        ["WaveResist"] = 18,
+        ["Base"] = {["Health"] = 2050, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Power_FAA"] = 6,
         ["CargoHold"] = {["Cargo"] = 0},
-        ["Gunners"] = 1,
-        ["Cargo"] = {["CrateMarker"] = {}}
+        ["PaintCost"] = 280,
+        ["Gunners"] = 5,
+        ["Turning_Max"] = 8
     },
     ["Kraken"] = {
         ["PaintCost"] = 200,
@@ -2378,7 +2737,6 @@ data = {
         ["Turning_Max"] = 9,
         ["WaveResist"] = 16,
         ["Base"] = {["Health"] = 1850, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Hull"] = {["ColorMod_Roof"] = {["Cost"] = "90,17000,100"}, ["ColorMod_Details"] = {["Cost"] = "90,17000,250"}},
         ["Magazine"] = {["Ammo"] = 0},
         ["Sail_2_FAA"] = {["Sail"] = {["SizeFactor"] = 0.3}},
         ["Power_FAA"] = 6,
@@ -2404,38 +2762,39 @@ data = {
         ["Gunners"] = 6,
         ["Sail_3_FAA"] = {["Sail"] = {["SizeFactor"] = 0.3}}
     },
-    ["Pangolin"] = {
-        ["PaintCost"] = 200,
-        ["Power_Lateen"] = 5,
-        ["WindResist"] = 16,
-        ["Turning_Max"] = 7,
-        ["WaveResist"] = 25,
-        ["Sail_2_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
-        ["Sail_1_Lateen"] = {["Sail"] = {["SizeFactor"] = 0.3}},
-        ["Base"] = {["Health"] = 2200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+    ["Alliance (Pine Deck)"] = {
+        ["PaintCost"] = 240,
+        ["WindResist"] = 10,
         ["Power_Square"] = 6,
+        ["CustomSize"] = Vector3.new(30, 30, 135),
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_FAA"] = 4,
+        ["Turning_Max"] = 8,
         ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_20"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
         },
         ["Gunners"] = 8,
-        ["Magazine"] = {["Ammo"] = 0}
+        ["WaveResist"] = 18
     },
     ["Alpha Hook"] = {
         ["Cannons"] = {
@@ -2470,105 +2829,76 @@ data = {
         ["Gunners"] = 0,
         ["Power_Steam"] = 5
     },
-    ["Reaper"] = {
+    ["Manta"] = {
         ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_12"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_7"] = {["Restriction"] = "M", ["MaxSize"] = 3},
             ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 3},
-            ["Cannon_10"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_9"] = {["Restriction"] = "SG", ["MaxSize"] = 1}
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
         },
-        ["Power_Lateen"] = 8,
-        ["WindResist"] = 9,
-        ["Turning_Max"] = 10,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "200,100000,100"},
-            ["ColorMod_Railing"] = {["Cost"] = "100,50000,50"},
-            ["ColorMod_Hull"] = {["Cost"] = "500,300000,100"},
-            ["ColorMod_Background"] = {["MetalAllowed"] = true, ["Cost"] = "20,10000,25"},
-            ["ColorMod_Trim"] = {["Cost"] = "200,100000,100"},
-            ["ColorMod_Ram"] = {["OnlyMetal"] = true, ["Cost"] = "240,200000,100"},
-            ["ColorMod_Skeleton"] = {["OnlyMetal"] = true, ["Cost"] = "50,10000,25"}
-        },
-        ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 1500, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["CargoHold"] = {["Cargo"] = 0},
+        ["WindResist"] = 8,
+        ["Power_Square"] = 8,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "65,11000,100"}, ["ColorMod_Details"] = {["Cost"] = "35,5500,250"}},
+        ["WaveResist"] = 12,
+        ["Base"] = {["Steering"] = 0, ["Acceleration"] = 0, ["Health"] = 880, ["Heading"] = 0},
         ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 4,
-        ["PaintCost"] = 100
-    },
-    ["Raider"] = {
-        ["PaintCost"] = 1,
-        ["Cargo"] = {["CrateMarker"] = {}},
-        ["Turning_Max"] = 16,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "150,75000,100"}},
-        ["WaveResist"] = 9,
-        ["Seat"] = {},
-        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_Row"] = 2.5,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Cannons"] = {
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-        },
-        ["Gunners"] = 5,
-        ["WindResist"] = 6
-    },
-    ["Hind"] = {
-        ["PaintCost"] = 90,
-        ["WindResist"] = 15,
-        ["Power_Square"] = 6,
-        ["Hull"] = {
-            ["ColorMod_Deck"] = {["Cost"] = "400,1000000,100"},
-            ["ColorMod_Stripe 2"] = {["Cost"] = "300,700000,400"},
-            ["ColorMod_Stripe 1"] = {["Cost"] = "300,700000,400"},
-            ["ColorMod_Furniture 2"] = {["Cost"] = "100,10000,50"},
-            ["ColorMod_Trim"] = {["Cost"] = "200,500000,250"},
-            ["ColorMod_Furniture 1"] = {["Cost"] = "100,10000,50"},
-            ["ColorMod_Detail (Metal)"] = {["Cost"] = "50,10000,50"}
-        },
-        ["WaveResist"] = 25,
-        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_26"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_23"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_24"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_22"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_21"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_25"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        },
         ["Power_FAA"] = 5,
         ["CargoHold"] = {["Cargo"] = 0},
+        ["PaintCost"] = 80,
+        ["Gunners"] = 3,
+        ["Turning_Max"] = 10
+    },
+    ["Widgeon"] = {
+        ["PaintCost"] = 80,
+        ["Power_Lateen"] = 6,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Turning_Max"] = 9,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "90,13600,100"}},
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 1300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
         ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 12,
-        ["Turning_Max"] = 7
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["WindResist"] = 10,
+        ["Gunners"] = 4,
+        ["Power_Square"] = 6
+    },
+    ["Veteran Sparrow III"] = {
+        ["PaintCost"] = 20,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Turning_Max"] = 16,
+        ["Hull"] = {
+            ["ColorMod_Sides"] = {["Cost"] = "5,500,100"},
+            ["ColorMod_Metal"] = {["OnlyMetal"] = true, ["Cost"] = "5,500,100"},
+            ["ColorMod_Stakes"] = {["Cost"] = "5,500,100"},
+            ["ColorMod_Bark"] = {["Cost"] = "5,500,100"},
+            ["ColorMod_Shields 2"] = {["Cost"] = "5,500,100"},
+            ["ColorMod_Shields 1"] = {["Cost"] = "5,500,100"},
+            ["ColorMod_Deck"] = {["Cost"] = "10,500,100"}
+        },
+        ["WaveResist"] = 8,
+        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 330},
+        ["Power_FAA"] = 6,
+        ["Cannons"] = {
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 3},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 3}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 1,
+        ["WindResist"] = 5
     },
     ["Kirin"] = {
         ["Cannons"] = {
@@ -2606,21 +2936,6 @@ data = {
         ["Gunners"] = 5,
         ["PaintCost"] = 240
     },
-    ["Swallow"] = {
-        ["PaintCost"] = 20,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Turning_Max"] = 16,
-        ["Hull"] = {["ColorMod_Sides"] = {["Cost"] = "5,500,100"}, ["ColorMod_Deck"] = {["Cost"] = "10,500,400"}},
-        ["WaveResist"] = 8,
-        ["Power_FAA"] = 6,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Health"] = 330, ["Steering"] = 0},
-        ["Cannons"] = {
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-        },
-        ["Gunners"] = 1,
-        ["WindResist"] = 5
-    },
     ["Minnow"] = {
         ["PaintCost"] = 10,
         ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 100},
@@ -2630,40 +2945,6 @@ data = {
         ["WaveResist"] = 8,
         ["Gunners"] = 0,
         ["Power_FAA"] = 6
-    },
-    ["Alliance (Pine Deck)"] = {
-        ["PaintCost"] = 240,
-        ["WindResist"] = 10,
-        ["Power_Square"] = 6,
-        ["CustomSize"] = Vector3.new(30, 30, 135),
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Base"] = {["Health"] = 2300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Power_FAA"] = 4,
-        ["Turning_Max"] = 8,
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_19"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_20"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-        },
-        ["Gunners"] = 8,
-        ["WaveResist"] = 18
     },
     ["Kringlehopper"] = {
         ["Cannons"] = {
@@ -2680,6 +2961,55 @@ data = {
         ["PaintCost"] = 120,
         ["Gunners"] = 1,
         ["Magazine"] = {["Ammo"] = 0}
+    },
+    ["Weasel"] = {
+        ["PaintCost"] = 90,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Turning_Max"] = 12,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "55,6500,100"},
+            ["ColorMod_Trim"] = {["Cost"] = "30,3500,250"},
+            ["ColorMod_Roof"] = {["Cost"] = "30,3500,250"},
+            ["ColorMod_Stripe"] = {["Cost"] = "40,5500,400"}
+        },
+        ["WaveResist"] = 14,
+        ["Power_FAA"] = 8,
+        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_7"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "SG", ["MaxSize"] = 1},
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Gunners"] = 3,
+        ["WindResist"] = 10
+    },
+    ["Pillager"] = {
+        ["PaintCost"] = 60,
+        ["Power_Lateen"] = 6,
+        ["CargoHold"] = {["Cargo"] = 0},
+        ["Power_Square"] = 9,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["Cost"] = "100,160000,100"},
+            ["ColorMod_Hull Secondary"] = {["Cost"] = "50,80000,250"}
+        },
+        ["WaveResist"] = 10,
+        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["WindResist"] = 5,
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Gunners"] = 3,
+        ["Turning_Max"] = 14
     },
     ["Serpent"] = {
         ["Cannons"] = {
@@ -2717,80 +3047,31 @@ data = {
         ["Sail_3_FAA"] = {["Sail"] = {["SizeFactor"] = 0.3}},
         ["Gunners"] = 4
     },
-    ["Super Steamfish"] = {
-        ["Cannons"] = {
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        },
+    ["Mercury"] = {
+        ["PaintCost"] = 10,
         ["SteamEngine"] = {["Fuel"] = 0},
-        ["WindResist"] = 15,
-        ["Turning_Max"] = 16,
-        ["Power_Steam"] = 4,
-        ["Base"] = {["Acceleration"] = 0, ["Heading"] = 0, ["Steering"] = 0, ["Health"] = 120},
-        ["Power_FAA"] = 5,
-        ["PaintCost"] = 30,
-        ["WoodOverride"] = "Dark taupe",
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 10,
+        ["Hull"] = {
+            ["ColorMod_Deck"] = {["MetalAllowed"] = true, ["Cost"] = "150,200000,100"},
+            ["ColorMod_Band"] = {["OnlyMetal"] = true, ["Cost"] = "200,200000,200"},
+            ["ColorMod_Interior Braces"] = {["Cost"] = "50,100000,259"},
+            ["ColorMod_Engine"] = {["Cost"] = "100,50000,50", ["OnlyMetal"] = true},
+            ["ColorMod_Piping"] = {["Cost"] = "50,50000,50", ["OnlyMetal"] = true}
+        },
+        ["Power_Steam"] = 5,
+        ["Base"] = {["Health"] = 1750, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_5"] = {["AddMaxPitch"] = 3, ["MaxSize"] = 2, ["Restriction"] = "C"},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_4"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"},
+            ["Cannon_6"] = {["AddMaxPitch"] = 3, ["MaxSize"] = 2, ["Restriction"] = "C"},
+            ["Cannon_2"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"},
+            ["Cannon_3"] = {["AddMaxPitch"] = 2, ["MaxSize"] = 2, ["Restriction"] = "C"}
+        },
+        ["WaveResist"] = 20,
         ["Gunners"] = 2,
-        ["WaveResist"] = 15
-    },
-    ["Widgeon"] = {
-        ["PaintCost"] = 80,
-        ["Power_Lateen"] = 6,
-        ["CargoHold"] = {["Cargo"] = 0},
-        ["Turning_Max"] = 9,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "90,13600,100"}},
-        ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 1300, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
-        },
-        ["WindResist"] = 10,
-        ["Gunners"] = 4,
-        ["Power_Square"] = 6
-    },
-    ["Pigeon"] = {
-        ["PaintCost"] = 100,
-        ["Power_Lateen"] = 5,
-        ["WindResist"] = 10,
-        ["Turning_Max"] = 9,
-        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "280,280000,100"}},
-        ["WaveResist"] = 14,
-        ["Base"] = {["Health"] = 2200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
-        ["Cannons"] = {
-            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 1},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 1}
-        },
-        ["Magazine"] = {["Ammo"] = 0},
-        ["Gunners"] = 9,
-        ["Power_Square"] = 6
+        ["Magazine"] = {["Ammo"] = 0}
     },
     ["Minnowclad"] = {
         ["PaintCost"] = 30,
@@ -2805,6 +3086,69 @@ data = {
         },
         ["Gunners"] = 2,
         ["Cargo"] = {["CrateMarker"] = {}}
+    },
+    ["Pigeon"] = {
+        ["PaintCost"] = 100,
+        ["Power_Lateen"] = 5,
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 9,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "280,280000,100"}},
+        ["WaveResist"] = 14,
+        ["Base"] = {["Health"] = 2200, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_11"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_20"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_15"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_12"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_17"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_5"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_19"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_14"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_18"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "CAR", ["MaxSize"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_13"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_16"] = {["Restriction"] = "C", ["MaxSize"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2}
+        },
+        ["Magazine"] = {["Ammo"] = 0},
+        ["Gunners"] = 9,
+        ["Power_Square"] = 6
+    },
+    ["Nautilus"] = {
+        ["PaintCost"] = 10,
+        ["SteamEngine"] = {["Fuel"] = 0},
+        ["WindResist"] = 10,
+        ["Turning_Max"] = 8,
+        ["Hull"] = {
+            ["ColorMod_Pipes"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
+            ["ColorMod_Railing"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
+            ["ColorMod_Ribs"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
+            ["ColorMod_Shroud"] = {["OnlyMetal"] = true, ["Cost"] = "250,300000,250"}
+        },
+        ["WaveResist"] = 20,
+        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Cannons"] = {
+            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
+            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2}
+        },
+        ["Magazine"] = {["Ammo"] = 200},
+        ["Gunners"] = 5,
+        ["Power_Steam"] = 6
     },
     ["Prometheus"] = {
         ["PaintCost"] = 130,
@@ -2925,33 +3269,21 @@ data = {
         ["Gunners"] = 0,
         ["WaveResist"] = 8
     },
-    ["Nautilus"] = {
-        ["PaintCost"] = 10,
-        ["SteamEngine"] = {["Fuel"] = 0},
-        ["WindResist"] = 10,
-        ["Turning_Max"] = 8,
-        ["Hull"] = {
-            ["ColorMod_Pipes"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
-            ["ColorMod_Railing"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
-            ["ColorMod_Ribs"] = {["Cost"] = "250,300000,250", ["OnlyMetal"] = true},
-            ["ColorMod_Shroud"] = {["OnlyMetal"] = true, ["Cost"] = "250,300000,250"}
-        },
-        ["WaveResist"] = 20,
-        ["Base"] = {["Health"] = 2700, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+    ["Raider"] = {
+        ["PaintCost"] = 1,
+        ["Cargo"] = {["CrateMarker"] = {}},
+        ["Turning_Max"] = 16,
+        ["Hull"] = {["ColorMod_Deck"] = {["Cost"] = "150,75000,100"}},
+        ["WaveResist"] = 9,
+        ["Seat"] = {},
+        ["Base"] = {["Health"] = 800, ["Acceleration"] = 0, ["Steering"] = 0, ["Heading"] = 0},
+        ["Power_Row"] = 2.5,
+        ["CargoHold"] = {["Cargo"] = 0},
         ["Cannons"] = {
-            ["Cannon_5"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_7"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_6"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_4"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_10"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_8"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_3"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2},
-            ["Cannon_9"] = {["Restriction"] = "C", ["MaxSize"] = 2, ["AddMaxPitch"] = 2}
+            ["Cannon_2"] = {["Restriction"] = "C", ["MaxSize"] = 1},
+            ["Cannon_1"] = {["Restriction"] = "C", ["MaxSize"] = 1}
         },
-        ["Magazine"] = {["Ammo"] = 200},
         ["Gunners"] = 5,
-        ["Power_Steam"] = 6
+        ["WindResist"] = 6
     }
 }
