@@ -221,8 +221,8 @@ data = {
         }
     },
     {
-        {"Pheasant", "Pheasant", "Topsail Schooner", 600, "All", 5},
-        {{"ANY_WOOD", 270}, {"Iron", 40}, {"Doubloons", 16000}},
+        {"Pheasant", "Pheasant", "Topsail Schooner", 800, "All", 5},
+        {{"ANY_WOOD", 270}, {"Iron", 40}, {"Doubloons", 20000}},
         {
             "The Pheasant's superior cargo capacity makes up for her lack of speed and firepower.",
             "Type: Topsail Schooner",
@@ -236,18 +236,18 @@ data = {
         }
     },
     {
-        {"Falcon", "Falcon", "Brigantine", 700, "All", 999999},
-        {{"ANY_WOOD", 280}, {"Iron", 45}, {"Doubloons", 16000}},
+        {"Weasel", "Weasel", "Cutter", 800, "All", 5},
+        {{"ANY_WOOD", 270}, {"Iron", 40}, {"Doubloons", 20000}},
         {
-            "The Falcon's balanced armament, cargo, and speed make her a well-rounded ship",
-            "Type: Brigantine",
-            "Role: Combat",
-            "Hull Strength: 7000",
+            "A sister ship to the Pheasant, the Weasel is quicker in a crosswind.",
+            "Type: Cutter",
+            "Role: Trading",
+            "Hull Strength: 8000",
             "Max Armament:",
             "		6 x Medium Cannon",
-            "Max Cargo: 5",
-            "Speed: 7",
-            "Storage for 30 Cannon Balls"
+            "		2 x Swivel Gun",
+            "Max Cargo: 12",
+            "Speed: 10"
         }
     },
     {
@@ -393,8 +393,8 @@ data = {
         }
     },
     {
-        {"esooG", "esooG", "tyulF", 1200, "All", 999999},
-        {{"ANY_WOOD", 450}, {"Iron", 80}, {"Doubloons", 34500}, {"Premium Token", 800}},
+        {"esooG", "esooG", "tyulF", 1200, "All", 99999},
+        {{"ANY_WOOD", 450}, {"Iron", 80}, {"Doubloons", 34500}, {"Premium Token", 900}},
         {
             ".demra yltneced gnieb llits elihw ograc fo ecnadnuba na yrrac ot reh swolla lluh ediw s'esooG ehT",
             "Type: Backwards Fluyt",
@@ -477,13 +477,13 @@ data = {
         }
     },
     {
-        {"Ibis", "Ibis", "Dhow", 1150, "All", 8},
+        {"Ibis", "Ibis", "Dhow", 1050, "All", 8},
         {{"ANY_WOOD", 800}, {"Iron", 100}, {"Doubloons", 100000}},
         {
             "The Ibis's speed and versatility makes it useful to a lot of captains.",
             "Type: Dhow",
             "Role: Multi-Purpose",
-            "Hull Strength: 11500",
+            "Hull Strength: 10500",
             "Max Armament:",
             "		6 x Heavy Cannon",
             "		2 x Swivel Gun",
@@ -579,13 +579,13 @@ data = {
         }
     },
     {
-        {"Fang", "Fang", "Junk", 925, "All", 9},
+        {"Fang", "Fang", "Junk", 1050, "All", 9},
         {{"ANY_WOOD", 920}, {"Iron", 200}, {"Doubloons", 140000}, {"Fang Voucher", 1}},
         {
             "The Fang is a small and nimble vessel that packs a surprising punch.",
             "Type: Junk",
             "Role: Raider",
-            "Hull Strength: 9250",
+            "Hull Strength: 1050",
             "Max Armament:",
             "		6 x Heavy Cannon",
             "		2 x Swivel Gun",
@@ -729,13 +729,13 @@ data = {
         }
     },
     {
-        {"Mastiff", "Mastiff", "Barque", 2200, "All", 10},
+        {"Mastiff", "Mastiff", "Barque", 1950, "All", 10},
         {{"ANY_WOOD", 920}, {"Iron", 240}, {"Doubloons", 88000}},
         {
             "The Mastiff's awesome cargo capacity and armament more than makes up for her lack of speed.",
             "Type: Barque",
             "Role: Trading",
-            "Hull Strength: 22000",
+            "Hull Strength: 19500",
             "Max Armament:",
             "		10 x Medium Cannon",
             "Max Cargo: 22",
@@ -808,7 +808,7 @@ data = {
             "		2 x Light Mortar (Bow)",
             "Max Cargo: 10",
             "Speed: 6",
-            "Speed with Engine: 4",
+            "Speed with Engine: 6",
             "Storage for 120 Cannon Balls"
         }
     },
@@ -860,6 +860,24 @@ data = {
         }
     },
     {
+        {"Mongoose", "Mongoose", "Brig", 1750, "All", 10},
+        {{"ANY_WOOD", 1050}, {"Iron", 240}, {"Doubloons", 250000}},
+        {
+            "The Mongoose is a great mid-size combat ship, sporting a modest broadside for a modestly sized crew.",
+            "Type: Brig",
+            "Role: Combat",
+            "Hull Strength: 1750",
+            "Max Armament:",
+            "		10 x Medium Cannon",
+            "		2 x Light Cannon or Mortar (Bow)",
+            "		2 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Storage for 150 Cannon Balls",
+            "Variants available."
+        }
+    },
+    {
         {"Pigeon", "Pigeon", "Fluyt", 2200, "All", 10},
         {{"ANY_WOOD", 1400}, {"Iron", 280}, {"Doubloons", 700000}},
         {
@@ -868,11 +886,13 @@ data = {
             "Role: Combat",
             "Hull Strength: 22000",
             "Max Armament:",
-            "		18 x Light Cannon",
+            "		14 x Medium Cannon",
+            "		4 x Medium Carronade",
             "		2 x Light Cannon (Bow)",
             "Max Cargo: 0",
             "Speed: 6",
-            "Storage for 200 Cannon Balls"
+            "Storage for 200 Cannon Balls",
+            "Variants available."
         }
     },
     {
@@ -947,13 +967,13 @@ data = {
         }
     },
     {
-        {"Mule", "Mule", "Barque", 2250, "All", 12},
+        {"Mule", "Mule", "Barque", 2050, "All", 12},
         {{"ANY_WOOD", 1150}, {"Iron", 240}, {"Doubloons", 275000}},
         {
             "The Mule is a worthy addition to any trading fleet.",
             "Type: Barque",
             "Role: Trading",
-            "Hull Strength: 22500",
+            "Hull Strength: 20500",
             "Max Armament:",
             "		10 x Medium Cannon",
             "		1 x Swivel Gun",
@@ -976,24 +996,6 @@ data = {
             "Max Cargo: 23",
             "Speed: 6",
             "Storage for 180 Cannon Balls",
-            "Variants available."
-        }
-    },
-    {
-        {"Sigil", "Sigil", "Brig", 1950, "All", 12},
-        {{"ANY_WOOD", 1200}, {"Iron", 260}, {"Doubloons", 500000}, {"Premium Token", 400}},
-        {
-            "The Sigil's immpressive firepower and small size make it an excellent warship.",
-            "Type: Brig",
-            "Role: Combat",
-            "Hull Strength: 19500",
-            "Max Armament:",
-            "		12 x Medium Cannon",
-            "		2 x Light Cannon (Bow)",
-            "		2 x Swivel Guns",
-            "Max Cargo: 0",
-            "Speed: 6",
-            "Storage for 150 Cannon Balls",
             "Variants available."
         }
     },
@@ -1033,6 +1035,42 @@ data = {
         }
     },
     {
+        {"Sigil", "Sigil", "Brig", 1950, "All", 12},
+        {{"ANY_WOOD", 1200}, {"Iron", 260}, {"Doubloons", 500000}, {"Premium Token", 400}},
+        {
+            "The Sigil's immpressive firepower and small size make it an excellent warship.",
+            "Type: Brig",
+            "Role: Combat",
+            "Hull Strength: 19500",
+            "Max Armament:",
+            "		12 x Medium Cannon",
+            "		2 x Light Cannon (Bow)",
+            "		2 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Storage for 150 Cannon Balls",
+            "Variants available."
+        }
+    },
+    {
+        {"Concord", "Concord", "Sloop of War", 2100, "All", 12},
+        {{"ANY_WOOD", 1350}, {"Iron", 280}, {"Doubloons", 850000}, {"Premium Token", 700}},
+        {
+            "The Concord is the next step up from the Sigil, packing an extra two guns while keeping a compact form.",
+            "Type: Sloop of War",
+            "Role: Combat",
+            "Hull Strength: 21000",
+            "Max Armament:",
+            "		14 x Medium Cannon",
+            "		2 x Light Cannon or Mortar (Bow)",
+            "		2 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Storage for 200 Cannon Balls",
+            "Variants available."
+        }
+    },
+    {
         {"Alliance", "Alliance", "Sloop of War", 2300, "All", 12},
         {{"ANY_WOOD", 1500}, {"Iron", 300}, {"Doubloons", 1200000}, {"Premium Token", 1000}},
         {
@@ -1048,6 +1086,22 @@ data = {
             "Speed: 6",
             "Storage for 200 Cannon Balls",
             "Variants available."
+        }
+    },
+    {
+        {"Falcon", "Falcon", "Snow Brig", 2100, "All", 12},
+        {{"ANY_WOOD", 1400}, {"Iron", 300}, {"Doubloons", 1200000}, {"Premium Token", 950}},
+        {
+            "The Falcon is a relatively nimble ship for her size, packing a strong broadside and stern chasers to dissuade pursuers.",
+            "Type: Snow Brig",
+            "Role: Combat",
+            "Hull Strength: 21000",
+            "Max Armament:",
+            "		16 x Heavy Cannon",
+            "		2 x Medium Carronade (Stern)",
+            "Max Cargo: 0",
+            "Speed: 8",
+            "Storage for 240 Cannon Balls"
         }
     },
     {
@@ -1069,13 +1123,13 @@ data = {
         }
     },
     {
-        {"Camel", "Camel", "Indiaman", 2300, "All", 16},
+        {"Camel", "Camel", "Indiaman", 2200, "All", 16},
         {{"ANY_WOOD", 1350}, {"Iron", 270}, {"Doubloons", 650000}, {"Premium Token", 200}},
         {
             "The Camel's size and firepower make it great for traders and pirates alike.",
             "Type: Indiaman",
             "Role: Multi-Purpose",
-            "Hull Strength: 23000",
+            "Hull Strength: 22000",
             "Max Armament:",
             "		12 x Medium Cannon",
             "		2 x Light Cannon (Stern)",
@@ -1083,6 +1137,24 @@ data = {
             "Max Cargo: 26",
             "Speed: 6",
             "Storage for 150 Cannon Balls"
+        }
+    },
+    {
+        {"Covenant", "Covenant", "Frigate", 2500, "All", 16},
+        {{"ANY_WOOD", 1800}, {"Iron", 350}, {"Doubloons", 1800000}, {"Premium Token", 1200}},
+        {
+            "The Covenant packs an impressive nine gun broadside and medium bow cannons, making it one of the heaviest armed warships afloat.",
+            "Type: Frigate",
+            "Role: Combat",
+            "Hull Strength: 25000",
+            "Max Armament:",
+            "		18 x Medium Cannon",
+            "		2 x Medium Cannon (Bow)",
+            "		2 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 6",
+            "Storage for 250 Cannon Balls",
+            "Variants available."
         }
     },
     {
@@ -1145,12 +1217,42 @@ data = {
             "		4 x Swivel Guns",
             "Max Cargo: 30",
             "Speed: 7",
-            "Speed with Engine: 7",
+            "Speed with Engine: 6",
             "Storage for 100 Cannon Balls"
         }
     },
     {
-        {"Nautilus", "Nautilus", "Ironclad", 2700, "All", 10},
+        {"Veteran Sparrow III", "Veteran Sparrow III", "Cutter", 330, "All", 99999},
+        {{"ANY_WOOD", 400}, {"Iron", 50}, {"Doubloons", 10000}},
+        {
+            "The Sparrow's increased maximum armament makes up for her lack of cargo capacity.  This one has many a story to tell.",
+            "Type: Cutter",
+            "Role: Escort",
+            "Hull Strength: 3300",
+            "Max Armament:",
+            "		2 x Heavy Cannon",
+            "Max Cargo: 4",
+            "Speed: 6"
+        }
+    },
+    {
+        {"Broadseidon", "Broadseidon", "Ironclad", 1800, "All", 99999},
+        {{"ANY_WOOD", 800}, {"Iron", 1500}, {"Doubloons", 500000}, {"Advanced Engine", 1}},
+        {
+            "The Broadseidon's all-iron hull makes it extremely tough.  Press E to toggle steam engine on and off.  Requires coal to run. *HAS NO SAILS*",
+            "Type: Ironclad",
+            "Role: Combat",
+            "Hull Strength: 18000",
+            "Max Armament:",
+            "		8 x Heavy Cannon",
+            "Max Cargo: 0",
+            "Speed: 5",
+            "Speed with Engine: 7",
+            "Storage for 200 Cannon Balls"
+        }
+    },
+    {
+        {"Nautilus", "Nautilus", "Ironclad", 2700, "All", 1},
         {{"ANY_WOOD", 500}, {"Iron", 2500}, {"Doubloons", 1500000}, {"Advanced Engine", 1}, {"Nautilus Blueprint", 1}},
         {
             "The Nautilus has a very unusual design, allowing her to reach higher speeds than your average ironclad.  Press E to toggle steam engine on and off.  Requires coal to run. *HAS NO SAILS*",
@@ -1163,6 +1265,43 @@ data = {
             "Speed: 6",
             "Speed with Engine: 8",
             "Storage for 200 Cannon Balls"
+        }
+    },
+    {
+        {"Wyvern", "Wyvern", "Ironclad", 1700, "All", 1},
+        {{"ANY_WOOD", 1000}, {"Iron", 800}, {"Doubloons", 800000}, {"Advanced Engine", 1}, {"Wyvern Blueprint", 1}},
+        {
+            "The Wyvern is a unique ironclad schooner featuring studsails and turrets in addition to its standard broadside. Press E to toggle steam engine on and off.  Requires coal to use engine.",
+            "Type: Ironclad",
+            "Role: Combat",
+            "Hull Strength: 17000",
+            "Max Armament:",
+            "		6 x Medium Cannon",
+            "		2 x Medium Turret",
+            "		2 x Swivel guns",
+            "Max Cargo: 0",
+            "Speed: 10",
+            "Speed with Engine: 7",
+            "Storage for 150 Cannon Balls"
+        }
+    },
+    {
+        {"Megalodon", "Megalodon", "Ironclad", 1800, "All", 1},
+        {{"ANY_WOOD", 500}, {"Iron", 2000}, {"Doubloons", 750000}, {"Advanced Engine", 1}, {"Megalodon Blueprint", 1}},
+        {
+            "The Megalodon is the Poseidon's larger, meaner cousin, capable of mounting a heavy turret on the front.  Press E to toggle steam engine on and off.  Requires coal to run. *HAS NO SAILS*",
+            "Type: Ironclad",
+            "Role: Combat",
+            "Hull Strength: 18000",
+            "Max Armament:",
+            "		1 x Heavy Turret",
+            "		1 x Medium Turret",
+            "		5 x Swivel Guns",
+            "Max Cargo: 0",
+            "Speed: 5",
+            "Speed with Engine: 7",
+            "Storage for 250 Cannon Balls",
+            "Variants available."
         }
     }
 }
