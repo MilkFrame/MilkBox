@@ -3,12 +3,13 @@ data = {
         {{"CAT_Candles", "Velas"}},
         {{"Candle", "Light source.", 0, 10}, {"ANY_DYE", 10}, {"CANDLE_MATERIAL", 6}},
         {{"Wide Candle", "Light source.", 300, 12}, {"ANY_DYE", 10}, {"CANDLE_MATERIAL", 8}},
-        {{"Tall Candle", "Light source.", 1000, 12}, {"ANY_DYE", 10}, {"CANDLE_MATERIAL", 8}}
+        {{"Tall Candle", "Light source.", 1000, 12}, {"ANY_DYE", 10}, {"CANDLE_MATERIAL", 8}},
+        {{"Cursed Candle", "Unusual light source.", 6200, 22}, {"ANY_DYE", 10}, {"CANDLE_MATERIAL", 6}}
     },
     ["Blacksmithing"] = {
-        {{"CAT_Basic Weapons", "Armas BÃ¡sicas"}},
-        {{"Dagger", "Common Dagger", 0, 7}, {"ANY_MATERIAL", 4}, {"ANY_METAL", 10}},
-        {{"Short Sword", "Common Sword", 100, 12}, {"ANY_MATERIAL", 5}, {"ANY_METAL", 15}},
+        {{"CAT_Basic Weapons", "Armas Básicas"}},
+        {{"Dagger", "Common Dagger", 0, 7}, {"ANY_MATERIAL", 2}, {"ANY_METAL", 5}},
+        {{"Short Sword", "Common Sword", 0, 11}, {"ANY_MATERIAL", 3}, {"ANY_METAL", 8}},
         {{"Rapier", "High-Quality Sword", 600, 21}, {"ANY_MATERIAL", 5}, {"ANY_METAL", 20}, {"High-Quality Mold", 1}},
         {
             {"Smallsword", "High-Quality Sword", 600, 19},
@@ -87,7 +88,7 @@ data = {
         {{"Noble Guard", "Custom Weapon Blade", 10400, 10}, {"ANY_METAL", 6}, {"ANY_MATERIAL", 4}, {"Premium Token", 5}},
         {{"Mythic Guard", "Custom Weapon Blade", 10400, 10}, {"ANY_METAL", 10}, {"Premium Token", 5}},
         {{"Exotic Guard", "Custom Weapon Guard", 10400, 6}, {"ANY_METAL", 6}, {"Premium Token", 3}},
-        {{"CAT_Hilts", "EmpuÃ±aduras"}},
+        {{"CAT_Hilts", "Empuñaduras"}},
         {{"Basic Hilt", "Custom Weapon Hilt", 600, 5}, {"ANY_MATERIAL", 5}},
         {{"Classy Hilt", "Custom Weapon Hilt", 1000, 9}, {"ANY_MATERIAL", 5}, {"ANY_METAL", 4}},
         {{"Hilt w/ Guard", "Custom Weapon Hilt", 1500, 10}, {"ANY_MATERIAL", 5}, {"ANY_METAL", 5}},
@@ -99,64 +100,57 @@ data = {
         {{"Noble Hilt", "Custom Weapon Hilt", 10400, 10}, {"ANY_MATERIAL", 4}, {"ANY_METAL", 6}, {"Premium Token", 5}},
         {{"Mythic Hilt", "Custom Weapon Hilt", 10400, 10}, {"ANY_MATERIAL", 4}, {"ANY_METAL", 6}, {"Premium Token", 5}},
         {{"CAT_Ranged Weapons", "Armas a Distancia"}},
-        {{"Flintlock Pistol", "Flintlock Weapon", 4100, 30}, {"ANY_WOOD", 10}, {"ANY_METAL", 10}, {"Iron", 5}},
+        {{"Flintlock Pistol", "Light Flintlock Weapon", 100, 30}, {"ANY_WOOD", 10}, {"ANY_METAL", 10}, {"Iron", 5}},
         {
-            {"Musket", "Flintlock Weapon", 6200, 55},
+            {"Musket", "Light Flintlock Weapon", 300, 55},
             {"ANY_WOOD", 18},
             {"ANY_METAL", 18},
             {"Iron", 8},
             {"High-Quality Mold", 2}
         },
         {
-            {"Officer's Pistol", "Flintlock Weapon", 6200, 35},
+            {"Officer's Pistol", "Medium Flintlock Weapon", 6200, 35},
             {"ANY_MATERIAL", 14},
             {"ANY_METAL", 15},
             {"Iron", 5},
             {"High-Quality Mold", 2}
         },
         {
-            {"Long Musket", "Flintlock Weapon", 6200, 55},
+            {"Long Musket", "Medium Flintlock Weapon", 6200, 55},
             {"ANY_WOOD", 20},
             {"ANY_METAL", 20},
             {"Iron", 8},
             {"High-Quality Mold", 3}
         },
         {
-            {"Caplock Pistol", "Caplock Weapon", 10400, 35},
+            {"Caplock Pistol", "Light Caplock Weapon", 10400, 35},
             {"ANY_MATERIAL", 14},
             {"ANY_METAL", 15},
             {"Iron", 5},
             {"High-Quality Mold", 3}
         },
         {
-            {"Caplock Musket", "Caplock Weapon", 10400, 65},
+            {"Caplock Musket", "Medium Caplock Weapon", 10400, 65},
             {"ANY_WOOD", 24},
             {"ANY_METAL", 24},
             {"Iron", 8},
             {"High-Quality Mold", 4}
         },
         {
-            {"Flintlock Rifle", "Flintlock Weapon", 10400, 65},
+            {"Flintlock Rifle", "Heavy Flintlock Weapon", 10400, 65},
             {"ANY_WOOD", 24},
             {"ANY_METAL", 24},
             {"Iron", 8},
             {"High-Quality Mold", 4}
+        },
+        {
+            {"Royal Wyvern Long Gun Turret", "Size 4 Turret", 10400, 368, {1718215200, 1719287999}},
+            {"ANY_METAL", 300},
+            {"ANY_METAL", 60},
+            {"Iron", 8},
+            {"Premium Token", 200}
         },
         {{"CAT_Spyglasses", "Catalejos"}},
-        {
-            {"Whitecrestian Spyglass", "Used to get a better view of the king in style.", 0, 40},
-            {"ANY_WOOD", 10},
-            {"ANY_METALLIC", 25},
-            {"Cast Iron", 2},
-            {"Premium Token", 1000}
-        },
-        {
-            {"Nova Balreskan Spyglass", "Used to spy on Whitecrest in style.", 0, 40},
-            {"ANY_WOOD", 10},
-            {"ANY_METALLIC", 25},
-            {"Silver", 2},
-            {"Premium Token", 1000}
-        },
         {
             {"Officer's Spyglass", "Used to view distant objects in style.", 3000, 38},
             {"ANY_WOOD", 10},
@@ -181,7 +175,7 @@ data = {
         {{"Fireplace Grill", "Fits in the fireplace.", 1500, 25}, {"ANY_METAL", 25}},
         {{"Hanging Pans", "Common kitchen item", 1500, 24}, {"ANY_WOOD", 8}, {"ANY_METAL", 16}},
         {{"Kettle", "Classic tea kettle", 10400, 20}, {"ANY_METAL", 20}, {"Premium Token", 100}},
-        {{"CAT_Lighting", "IluminaciÃ³n"}},
+        {{"CAT_Lighting", "Iluminación"}},
         {{"Candle Holder", "Place a candle in the holder to create a light source.", 0, 12}, {"ANY_METAL", 12}},
         {{"Lantern Stand", "Place a lantern or candle holder on top.", 1000, 36}, {"ANY_MATERIAL", 10}},
         {{"Tall Lantern Stand", "Place a lantern or candle holder on top.", 1000, 36}, {"ANY_MATERIAL", 20}},
@@ -197,6 +191,13 @@ data = {
         },
         {{"Lantern", "Light source", 3000, 50}, {"ANY_METAL", 5}, {"ANY_METALLIC", 30}, {"Fish Oil", 20}},
         {{"Hanging Lantern", "Light source", 4100, 55}, {"ANY_METAL", 10}, {"ANY_METALLIC", 30}, {"Fish Oil", 20}},
+        {
+            {"Inyolan Lantern", "Light source", 0, 50, {1703178000, 1708365600}},
+            {"ANY_MATERIAL", 5},
+            {"ANY_METALLIC", 30},
+            {"Fish Oil", 20},
+            {"Premium Token", 5}
+        },
         {{"CAT_Scrap Rewards", "Premios de Chaterra"}},
         {{"Teacup", "A common teacup.", 0, 8}, {"ANY_METAL", 8}, {"Scrap", 150}},
         {{"Peony Vase", "A vase of peonies.", 0, 6}, {"ANY_METAL", 6}, {"Scrap", 200}},
@@ -362,6 +363,10 @@ data = {
         {{"Saucer", "Common kitchen item", 300, 5}, {"ANY_WOOD", 5}},
         {{"Tankard", "Common kitchen item", 300, 8}, {"ANY_WOOD", 8}},
         {{"Rolling Pin", "Common kitchen item", 600, 12}, {"ANY_WOOD", 4}, {"ANY_WOOD", 8}},
+        {{"CAT_Bowcrafting", "Armas a Distancia"}},
+        {{"Hand Crossbow", "Light Ranged Weapon", 600, 14}, {"ANY_WOOD", 8}, {"ANY_METAL", 6}},
+        {{"Light Crossbow", "Medium Ranged Weapon", 0, 14}, {"ANY_WOOD", 8}, {"ANY_METAL", 6}},
+        {{"Heavy Crossbow", "Heavy Ranged Weapon", 1500, 24}, {"ANY_WOOD", 14}, {"ANY_METAL", 10}},
         {{"CAT_Displays", "Exhibiciones"}},
         {
             {"Small Weapon Display", "Good for small items like daggers and flintlocks.", 3000, 35},
@@ -421,6 +426,22 @@ data = {
             {"ANY_METAL", 8},
             {"ANY_WOOD", 60},
             {"Premium Token", 50}
+        },
+        {
+            {"Basic Art Frame", "Place over a painting and the frame will snap to it.", 0, 20},
+            {"ANY_MATERIAL", 20},
+            {"Premium Token", 20}
+        },
+        {
+            {"Beveled Art Frame", "Place over a painting and the frame will snap to it.", 0, 20},
+            {"ANY_MATERIAL", 25},
+            {"Premium Token", 40}
+        },
+        {
+            {"Fancy Art Frame", "Place over a painting and the frame will snap to it.", 0, 20},
+            {"ANY_MATERIAL", 15},
+            {"ANY_MATERIAL", 15},
+            {"Premium Token", 40}
         },
         {{"CAT_Trophies", "Trofeos"}},
         {
@@ -484,6 +505,37 @@ data = {
         {{"Booster Crystal 3", "Reward Item", 0, 10}, {"ANY_MATERIAL", 15}, {"ANY_MATERIAL", 15}, {"Booster Token", 5}},
         {{"Ship Painting", "By woozyway", 1000, 1}, {"ANY_MATERIAL", 10}, {"ANY_MATERIAL", 10}, {"Premium Token", 55}},
         {{"Kraken Painting", "By Kryfist", 1000, 1}, {"ANY_MATERIAL", 10}, {"ANY_MATERIAL", 10}, {"Premium Token", 65}},
+        {
+            {
+                "Mystery Crate Trophy (Xmas 2023)",
+                "Furniture item. Scrap to get crate back.",
+                0,
+                5,
+                {1702918800, 1703091600}
+            },
+            {"Mystery Crate (Xmas 2023)", 1},
+            {"Premium Token", 5}
+        },
+        {
+            {"Mystery Crate Trophy (Boneless Box)", "Furniture item. Scrap to get crate back.", 0, 5},
+            {"Mystery Crate (Boneless Box)", 1},
+            {"Premium Token", 5}
+        },
+        {
+            {"Mystery Crate Trophy (Lunar New Year 2024)", "Furniture item. Scrap to get crate back.", 0, 5},
+            {"Mystery Crate (Lunar New Year 2024)", 1},
+            {"Premium Token", 5}
+        },
+        {
+            {"Mystery Crate Trophy (9th Anniversary)", "Furniture item. Scrap to get crate back.", 0, 5},
+            {"Mystery Crate (9th Anniversary)", 1},
+            {"Premium Token", 5}
+        },
+        {
+            {"Mystery Crate Trophy (Halloween 2024)", "Furniture item. Scrap to get crate back.", 0, 5},
+            {"Mystery Crate (Halloween 2024)", 1},
+            {"Premium Token", 5}
+        },
         {{"CAT_Models", "Modelos"}},
         {
             {"Tiny Ship Stand", "Click after placing to display one of your ships. 1:64 Scale.", 10400, 160},
@@ -585,6 +637,45 @@ data = {
             {"Premium Token", 100}
         },
         {{"CAT_Event Prizes", "Event Prizes"}},
+        {
+            {"Wicked Candle Holder (Halloween '23)", "Place a candle in the holder to create a light source.", 0, 12},
+            {"ANY_WOOD", 8},
+            {"ANY_METALLIC", 10},
+            {"Cursed Coins", 10}
+        },
+        {
+            {"Brazier (Halloween '24)", "A light source.", 0, 12},
+            {"ANY_MATERIAL", 20},
+            {"ANY_METALLIC", 20},
+            {"Haunted Bones", 20}
+        },
+        {{"Ponderous Orb (Halloween '23)", "", 0, 12}, {"ANY_WOOD", 2}, {"ANY_WOOD", 10}, {"Cursed Coins", 20}},
+        {
+            {
+                "Dead Man's Display (Halloween '23)",
+                "Good for items that are too big to fit on smaller displays.",
+                3000,
+                70
+            },
+            {"ANY_MATERIAL", 60},
+            {"Cursed Coins", 40}
+        },
+        {
+            {
+                "Dead Man's Display (Halloween '24)",
+                "Good for items that are too big to fit on smaller displays.",
+                3000,
+                70
+            },
+            {"ANY_MATERIAL", 60},
+            {"Haunted Bones", 40}
+        },
+        {
+            {"Skeletal Knight (Halloween '24)", "Furniture Item.", 0, 12},
+            {"ANY_WOOD", 30},
+            {"ANY_METALLIC", 60},
+            {"Haunted Bones", 50}
+        },
         {{"Crown", "", 0, 30}, {"ANY_MATERIAL", 5}, {"ANY_MATERIAL", 5}, {"Burkeland Prize Token", 1}},
         {{"Throne", "", 0, 80}, {"ANY_WOOD", 30}, {"ANY_WOOD", 30}, {"Burkeland Prize Token", 1}},
         {{"Grandfather Clock (Tulip)", "", 0, 150}, {"ANY_METAL", 30}, {"ANY_WOOD", 100}, {"Burkeland Prize Token", 1}},
@@ -670,6 +761,48 @@ data = {
         {{"Messy Doubloons", "Decorative item", 10400, 10}, {"Doubloons", 1000}, {"Premium Token", 10}},
         {{"Pile of Doubloons", "Decorative item", 10400, 0}, {"Doubloons", 10000}, {"Premium Token", 1}},
         {{"Mound of Doubloons", "Decorative item", 10400, 0}, {"Doubloons", 100000}, {"Premium Token", 1}},
-        {{"Mountain of Doubloons", "Decorative item", 10400, 0}, {"Doubloons", 1000000}, {"Premium Token", 1}}
+        {{"Mountain of Doubloons", "Decorative item", 10400, 0}, {"Doubloons", 1000000}, {"Premium Token", 1}},
+        {
+            {"Inyolan Lantern", "Light source", 0, 50, {1703178000, 1708365600}},
+            {"ANY_MATERIAL", 5},
+            {"ANY_WOOD", 30},
+            {"Fish Oil", 20},
+            {"Premium Token", 5}
+        },
+        {
+            {"Toboggan (Xmas '23)", "Decorative item", 0, 18, {1702918800, 1703091600}},
+            {"ANY_WOOD", 8},
+            {"ANY_WOOD", 10},
+            {"Tickets (Xmas '23)", 1500}
+        },
+        {
+            {"Red Poinsettia (Xmas '23)", "Decorative item", 0, 18, {1702573200, 1702746000}},
+            {"ANY_WOOD", 5},
+            {"ANY_WOOD", 8},
+            {"Tickets (Xmas '23)", 1500}
+        },
+        {
+            {"White Poinsettia (Xmas '23)", "Decorative item", 0, 18, {1702573200, 1702746000}},
+            {"ANY_WOOD", 5},
+            {"ANY_WOOD", 8},
+            {"Tickets (Xmas '23)", 1500}
+        },
+        {
+            {"Marshmallow Roast (Xmas '23)", "Weapon", 0, 18, {1702659600, 1702832400}},
+            {"ANY_WOOD", 5},
+            {"Tickets (Xmas '23)", 1500}
+        },
+        {
+            {"Rocking Horse (Xmas '23)", "Decorative item", 0, 18, {1703437200, 1703610000}},
+            {"ANY_WOOD", 20},
+            {"ANY_WOOD", 30},
+            {"Tickets (Xmas '23)", 1500}
+        },
+        {
+            {"Deer Head Mount (Xmas '23)", "Decorative item", 0, 18, {1703178000, 1703350800}},
+            {"ANY_WOOD", 10},
+            {"ANY_WOOD", 15},
+            {"Tickets (Xmas '23)", 1500}
+        }
     }
 }
