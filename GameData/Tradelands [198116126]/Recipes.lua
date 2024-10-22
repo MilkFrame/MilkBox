@@ -7,8 +7,8 @@ data = {
     {{"Fishing Rod", 1, "Used for fishing.", 1000, 15}, {"ANY_METAL", 4}, {"ANY_WOOD", 10}},
     {{"Paddle", 1, "Used to row.", 1500, 21}, {"ANY_METAL", 1}, {"ANY_WOOD", 20}},
     {{"CAT_Weapons", "Armas"}},
-    {{"Dagger", 1, "Common Dagger", 0, 8}, {"ANY_METAL", 10}, {"ANY_WOOD", 4}},
-    {{"Short Sword", 1, "Common Sword", 100, 13}, {"ANY_METAL", 15}, {"ANY_WOOD", 5}},
+    {{"Dagger", 1, "Common Dagger", 0, 7}, {"ANY_METAL", 5}, {"ANY_WOOD", 2}},
+    {{"Short Sword", 1, "Common Sword", 0, 11}, {"ANY_METAL", 8}, {"ANY_WOOD", 3}},
     {{"Rapier", 1, "High-Quality Sword", 600, 20}, {"ANY_METAL", 20}, {"ANY_WOOD", 5}, {"High-Quality Mold", 1}},
     {{"Smallsword", 1, "High-Quality Sword", 600, 20}, {"ANY_METAL", 17}, {"ANY_WOOD", 5}, {"High-Quality Mold", 1}},
     {{"Stiletto", 1, "High-Quality Sword", 600, 20}, {"ANY_METAL", 10}, {"ANY_WOOD", 4}, {"High-Quality Mold", 1}},
@@ -16,20 +16,15 @@ data = {
     {{"Sabre", 1, "Fancy Sword", 4100, 25}, {"ANY_METAL", 22}, {"ANY_WOOD", 5}, {"Gold", 6}},
     {{"Battleaxe", 1, "Large Axe", 6200, 30}, {"ANY_METAL", 16}, {"ANY_WOOD", 16}, {"High-Quality Mold", 1}},
     {{"CAT_Ranged Weapons", "Armas a Distancia"}},
-    {{"Crossbow", 1, "Crossbow", 2100, 25}, {"ANY_METAL", 12}, {"ANY_WOOD", 10}},
-    {{"Flintlock Pistol", 1, "Common Firearm", 4100, 30}, {"ANY_METAL", 10}, {"ANY_WOOD", 10}, {"Iron", 5}},
-    {
-        {"Musket", 1, "More Powerful Firearm", 6200, 55},
-        {"ANY_METAL", 20},
-        {"ANY_WOOD", 20},
-        {"Iron", 8},
-        {"High-Quality Mold", 2}
-    },
-    {{"CAT_Ammunition", "MuniciÃ³n"}},
+    {{"Light Crossbow", 1, "Crossbow", 0, 14}, {"ANY_METAL", 6}, {"ANY_WOOD", 8}},
+    {{"Flintlock Pistol", 1, "Light Pistol", 100, 30}, {"ANY_METAL", 10}, {"ANY_WOOD", 10}, {"Iron", 5}},
+    {{"Musket", 1, "Light Musket", 600, 55}, {"ANY_METAL", 20}, {"ANY_WOOD", 20}, {"Iron", 8}, {"High-Quality Mold", 2}},
+    {{"CAT_Ammunition", "Munición"}},
     {{"Round Shot", 10, "Ammunition for cannons. (10 Rounds)", 0, 3}, {"Iron", 4}},
-    {{"Bolt", 10, "Ammunition for crossbows. (10 Rounds)", 1000, 5}, {"Iron", 1}, {"Oak", 5}},
+    {{"Broadhead Bolt", 10, "Ammunition for crossbows. (10 Rounds)", 0, 5}, {"Iron", 1}, {"Oak", 5}},
+    {{"Bodkin Bolt", 10, "Ammunition for crossbows. (10 Rounds)", 600, 5}, {"Iron", 1}, {"Oak", 5}},
     {
-        {"Flintlock Ammunition", 10, "Ammunition for flintlock firearms. (10 Rounds)", 2100, 12},
+        {"Flintlock Ammunition", 10, "Ammunition for flintlock firearms. (10 Rounds)", 0, 12},
         {"Iron", 5},
         {"Gunpowder", 3}
     },
@@ -79,7 +74,7 @@ data = {
         {"Salt", 3},
         {"Pursteel", 2}
     },
-    {{"Gunpowder", 1, "Crafting Material", 2100, 3}, {"Coal", 2}, {"Saltpeter", 1}},
+    {{"Gunpowder", 1, "Crafting Material", 0, 3}, {"Coal", 2}, {"Saltpeter", 1}},
     {{"Fish Oil", 1, "Crafting Material", 4100, 5}, {"Tarpon", 3}},
     {
         {
@@ -110,7 +105,7 @@ data = {
         {"ANY_WOOD", 500},
         {"Doubloons", 50000}
     },
-    {{"CAT_Cannons", "CaÃ±ones"}},
+    {{"CAT_Cannons", "Cañones"}},
     {{"Swivel Gun", 1, "Swivel Gun", 300, 26}, {"ANY_METAL", 20}, {"ANY_WOOD", 5}},
     {{"Light Long Gun", 1, "Size 1 Cannon", 0, 56}, {"ANY_METAL", 35}, {"ANY_WOOD", 20}},
     {{"Light Carronade", 1, "Size 1 Cannon", 0, 36}, {"ANY_METAL", 20}, {"ANY_WOOD", 15}},
@@ -123,6 +118,7 @@ data = {
     {{"Heavy Mortar", 1, "Size 3 Mortar", 6200, 131}, {"ANY_METAL", 80}, {"ANY_WOOD", 50}},
     {{"Demeter Long Gun", 1, "Size 4 Turret", 10400, 400}, {"ANY_METAL", 300}, {"ANY_WOOD", 60}},
     {{"Poseidon Long Gun", 1, "Size 4 Turret", 10400, 450}, {"ANY_METAL", 350}, {"ANY_WOOD", 60}},
+    {{"Poseidon Carronade", 1, "Size 4 Turret", 10400, 450}, {"ANY_METAL", 340}, {"ANY_WOOD", 60}},
     {{"Neptune Howitzer (Long Gun)", 1, "Size 5 Turret", 10400, 480}, {"ANY_METAL", 380}, {"ANY_WOOD", 60}},
     {{"Neptune Twin Long Guns", 1, "Size 5 Turret", 10400, 500}, {"ANY_METAL", 400}, {"ANY_WOOD", 60}},
     {{"Neptune Super-Carronade", 1, "Size 5 Turret", 10400, 525}, {"ANY_METAL", 425}, {"ANY_WOOD", 70}},
