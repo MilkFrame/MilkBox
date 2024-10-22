@@ -1,6 +1,6 @@
 data = {
-    ["GetFishInfo"] = "function: 0x00000000b7b1fc88",
-    ["ArtName"] = "function: 0x0000000017f75290",
+    ["GetFishInfo"] = "function: 0x5e0d6b5b5b01bf13",
+    ["ArtName"] = "function: 0xe9e859d88276c583",
     ["Fish"] = {
         {"Ballyhoo", 10, 5, 1, 0.5},
         {"Mullet", 14, 8, 2, 1},
@@ -11,7 +11,7 @@ data = {
         {"Tuna", 80, 36, 18, 8},
         {"Marlin", 104, 52, 22, 11}
     },
-    ["PreviewArt"] = "function: 0x00000000b790d528",
+    ["PreviewArt"] = "function: 0x56ad746b6496ad13",
     ["Artwork"] = {
         {"Purshovian Night", 15858637732, 8, 1.79, "Koxinov"},
         {"Boiling Rock", 15859171369, 8, 2.22, "Nahr_Nahrstein"},
@@ -23,7 +23,7 @@ data = {
         {"Starling Starlight", 16016812567, 6, 1.25, "AndropolisTM"},
         {"Night of the Nautilus", 16016822608, 6, 1.25, "AndropolisTM"},
         {"Capture", 16016755622, 8, 1.63, "AlwaysNegativeBoi"},
-        {"The Unifying Handshake", 16016879113, 5, 1, "Kircata"},
+        {"The Unifying Handshake", 16016879113, 5, 1, "TanSZ"},
         {"Minnowclad Drawings", 16017150718, 5, 1.33, "CrazyGunner02"},
         {"Average Purshovian Crewman", 16018873296, 4, 1, "MarkedKaiBoy"},
         {"Harmless Balloon", 16020741126, 4, 0.71, "Vermoq"},
@@ -33,10 +33,11 @@ data = {
         {"Hog Rider", 16039686777, 6, 1.6, "Zachgaudioman"},
         {"le dementor", 16039695352, 6, 2.04, "CaptainLosticJr"},
         {"tradelands", 16039698366, 4, 1, "legolegolego456"},
-        {"The Boys", 16039700485, 8, 1.78, "zcole96"}
+        {"The Boys", 16039700485, 8, 1.78, "zcole96"},
+        {"Quacken", 16114456299, 6, 2.02, "SepremelyMisspelled"}
     },
-    ["ScaleFish"] = "function: 0x00000000aa2191c8",
-    ["GetSpecialItemInfo"] = "function: 0x00000000e7f168d8",
-    ["GetWeight"] = "function: 0x00000000d72fcaf0",
-    ["SetupArtwork"] = "function: 0x00000000661306e0"
+    ["ScaleFish"] = "function: 0x1d53b3dca2ac9513",
+    ["GetSpecialItemInfo"] = "function: 0xeee038cce7522bb3",
+    ["GetWeight"] = "function: 0xfb1869881e466783",
+    ["SetupArtwork"] = "function: 0x28906315a56c8503"
 }
