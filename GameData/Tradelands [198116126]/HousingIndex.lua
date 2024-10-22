@@ -9,9 +9,9 @@ data = {
             ["Remove Rafters"] = {0, 0}
         },
         ["UpgradesList"] = {"Second Floor", "Remove Trim", "Remove Rafters", "Attic", "Open Ceiling"},
-        ["Cost"] = {0, 10000}
+        ["Cost"] = {100000, 82500}
     },
-    ["Shack 2A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 32750}},
+    ["Shack 2A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {150000, 32750}},
     ["Shack"] = {
         ["Upgrades"] = {
             ["Chimney"] = {15000, 1500, "Expansion 2"},
@@ -31,10 +31,10 @@ data = {
             ["Spacious Attic"] = {0, 0, "Attic"}
         },
         ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 33750}
+        ["Cost"] = {150000, 33750}
     },
-    ["Shack 1"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 20000}},
-    ["Shack 3"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 32750}},
+    ["Shack 1"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {70000, 20000}},
+    ["Shack 3"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {175000, 32750}},
     ["House 1B"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -44,9 +44,9 @@ data = {
             ["Remove Beams"] = {0, 0}
         },
         ["UpgradesList"] = {"Open Ceiling", "Remove Beams", "Attic (Ladder)", "Attic (Stairs)"},
-        ["Cost"] = {0, 34500}
+        ["Cost"] = {150000, 34500}
     },
-    ["Shack 4C"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 65500}},
+    ["Shack 4C"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {250000, 65500}},
     ["Aukai Longhouse"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -117,12 +117,12 @@ data = {
         },
         ["Cost"] = {80000, 10000}
     },
-    ["Shack 5"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 56000}},
+    ["Shack 5"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {225000, 56000}},
     ["Graystone Manor"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {["Remove Rafters"] = {0, 0}},
         ["UpgradesList"] = {"Remove Rafters"},
-        ["Cost"] = {0, 10000}
+        ["Cost"] = {100000, 125000}
     },
     ["Styles"] = {
         "Shack",
@@ -167,8 +167,10 @@ data = {
         "Cabin 2A",
         "Cabin 2B",
         "Cabin 2C",
-        "Cabin 2D"
+        "Cabin 2D",
+        "Tower 1"
     },
+    ["Tower 1"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 80000}},
     ["House 2D"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -179,21 +181,10 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 69000}
+        ["Cost"] = {250000, 69000}
     },
-    ["House 2B"] = {
-        ["Restricted"] = true,
-        ["Upgrades"] = {
-            ["Remove Beams 1"] = {0, 0},
-            ["Second Floor B"] = {0, 0, "Second Floor A"},
-            ["Attic Access"] = {0, 0},
-            ["Second Floor A"] = {0, 0, "Second Fllor B"},
-            ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
-        },
-        ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 69000}
-    },
-    ["Shack 1C"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 20000}},
+    ["Shack 2B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {150000, 32750}},
+    ["Shack 1C"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {70000, 20000}},
     ["House 2A"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -204,10 +195,19 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 69000}
+        ["Cost"] = {250000, 69000}
     },
-    ["Shack 2B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 32750}},
-    ["Shack 1B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 20000}},
+    ["Shack 1B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {70000, 20000}},
+    ["Cabin 2D"] = {
+        ["Restricted"] = true,
+        ["Upgrades"] = {
+            ["Attic"] = {0, 0, "Open Ceiling"},
+            ["Open Ceiling"] = {0, 0},
+            ["Spacious Attic"] = {0, 0, "Attic"}
+        },
+        ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
+        ["Cost"] = {150000, 33750}
+    },
     ["House 3A"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -218,9 +218,9 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 48000}
+        ["Cost"] = {175000, 48000}
     },
-    ["Cabin 2D"] = {
+    ["Cabin 2C"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
             ["Attic"] = {0, 0, "Open Ceiling"},
@@ -228,7 +228,7 @@ data = {
             ["Spacious Attic"] = {0, 0, "Attic"}
         },
         ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 33750}
+        ["Cost"] = {150000, 33750}
     },
     ["House 3B"] = {
         ["Restricted"] = true,
@@ -240,10 +240,10 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 48000}
+        ["Cost"] = {175000, 48000}
     },
-    ["Shack 4A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 65500}},
-    ["Cabin 2C"] = {
+    ["Shack 4A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {250000, 65500}},
+    ["Cabin 2B"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
             ["Attic"] = {0, 0, "Open Ceiling"},
@@ -251,7 +251,7 @@ data = {
             ["Spacious Attic"] = {0, 0, "Attic"}
         },
         ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 33750}
+        ["Cost"] = {150000, 33750}
     },
     ["Admiral's Quarters"] = {
         ["Premium"] = true,
@@ -266,16 +266,6 @@ data = {
         ["UpgradesList"] = {"Remove Mast", "Map Room", "Map Table", "Private Quarters", "Bed", "Lower Deck"},
         ["Cost"] = {100000, 8000}
     },
-    ["Cabin 2B"] = {
-        ["Restricted"] = true,
-        ["Upgrades"] = {
-            ["Attic"] = {0, 0, "Open Ceiling"},
-            ["Open Ceiling"] = {0, 0},
-            ["Spacious Attic"] = {0, 0, "Attic"}
-        },
-        ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 33750}
-    },
     ["Cabin 1B"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -284,9 +274,9 @@ data = {
             ["Spacious Attic"] = {0, 0, "Attic"}
         },
         ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 22500}
+        ["Cost"] = {75000, 22500}
     },
-    ["Apartment 1"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 12500}},
+    ["Apartment 1"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {20000, 12500}},
     ["House 4A"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
@@ -296,9 +286,21 @@ data = {
             ["Remove Beams"] = {0, 0}
         },
         ["UpgradesList"] = {"Open Ceiling", "Remove Beams", "Attic Access 1", "Attic Access 2"},
-        ["Cost"] = {0, 24000}
+        ["Cost"] = {75000, 24000}
     },
-    ["Shack 4B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 65500}},
+    ["House 2B"] = {
+        ["Restricted"] = true,
+        ["Upgrades"] = {
+            ["Remove Beams 1"] = {0, 0},
+            ["Second Floor B"] = {0, 0, "Second Floor A"},
+            ["Attic Access"] = {0, 0},
+            ["Second Floor A"] = {0, 0, "Second Fllor B"},
+            ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
+        },
+        ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
+        ["Cost"] = {250000, 69000}
+    },
+    ["Shack 4B"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {250000, 65500}},
     ["Freeport"] = {
         ["Upgrades"] = {
             ["Back Room"] = {30000, 6000, "Expansion 1"},
@@ -351,7 +353,7 @@ data = {
             ["Remove Beams"] = {0, 0}
         },
         ["UpgradesList"] = {"Open Ceiling", "Remove Beams", "Attic (Ladder)", "Attic (Stairs)"},
-        ["Cost"] = {0, 34500}
+        ["Cost"] = {150000, 34500}
     },
     ["House 2C"] = {
         ["Restricted"] = true,
@@ -363,7 +365,7 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 69000}
+        ["Cost"] = {250000, 69000}
     },
     ["House 3C"] = {
         ["Restricted"] = true,
@@ -375,7 +377,7 @@ data = {
             ["Remove Beams 2"] = {0, 0, "Remove Beams 1"}
         },
         ["UpgradesList"] = {"Second Floor A", "Second Floor B", "Attic Access", "Remove Beams 1", "Remove Beams 2"},
-        ["Cost"] = {0, 60500}
+        ["Cost"] = {250000, 60500}
     },
     ["Inyolan"] = {
         ["Upgrades"] = {
@@ -398,7 +400,7 @@ data = {
             ["Remove Beams"] = {0, 0}
         },
         ["UpgradesList"] = {"Open Ceiling", "Remove Beams", "Attic Access 1", "Attic Access 2"},
-        ["Cost"] = {0, 24000}
+        ["Cost"] = {75000, 24000}
     },
     ["Cabin 1A"] = {
         ["Restricted"] = true,
@@ -408,9 +410,9 @@ data = {
             ["Spacious Attic"] = {0, 0, "Attic"}
         },
         ["UpgradesList"] = {"Open Ceiling", "Attic", "Spacious Attic"},
-        ["Cost"] = {0, 22500}
+        ["Cost"] = {75000, 22500}
     },
-    ["Shack 6A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {0, 16100}},
+    ["Shack 6A"] = {["Restricted"] = true, ["Upgrades"] = {}, ["UpgradesList"] = {}, ["Cost"] = {25000, 16100}},
     ["Fort Gallant"] = {
         ["Restricted"] = true,
         ["Upgrades"] = {
