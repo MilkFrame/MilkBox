@@ -1,0 +1,23 @@
+data = {
+    "Do not stand where artillery shells land",
+    "Turn on simplified tracks and no shadow if you're lagging too much",
+    "Cooperate with your crew",
+    "Aim for ammo",
+    "Measure armour to know where to shoot",
+    "People die when they are shot",
+    "The settings tab includes a list of all keybinds",
+    "Don't stand in the open",
+    "Consult a physician before exposing yourself to enemy fire",
+    "Resupply your tank at capture points and at spawn",
+    "Standard fuel capacity lasts 800 seconds",
+    "You can votekick players, open it in the menu on the top left of your screen",
+    "Having a loader will double your reload speed",
+    "Use the server browser to find your favorite map and loadout",
+    "Use the settings menu to toggle settings and reduce lag",
+    "You can defuse dynamite with a fire extinguisher.",
+    "DU rounds cause way more internal damage",
+    "Use the ArmourMeasureV2 to check the more advanced stats about armour",
+    "Hawk Republic never captures points",
+    "Eagle Federation always goes hull down",
+    "Use hulldown positions for increased odds of survival"
+}
