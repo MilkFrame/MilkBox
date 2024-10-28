@@ -1,0 +1,22 @@
+data = {
+    ["SecondaryPotion"] = 15,
+    ["BasicElementalPotion"] = 15,
+    ["SecondaryMaterialPotion"] = 15,
+    ["PrimaryPotion"] = 15,
+    ["PrimaryMaterialPotion"] = 15,
+    ["ColorShufflePotion"] = 5,
+    ["MaterialOrderPotion"] = 5,
+    ["GenderPotion"] = 25,
+    ["ColorOrderPotion"] = 5,
+    ["TertiaryMaterialPotion"] = 15,
+    ["AridMaterialPotion"] = 100,
+    ["AshMaterialPotion"] = 100,
+    ["TertiaryPotion"] = 15,
+    ["PersonalityPotion"] = 25,
+    ["MutationPotion"] = 250,
+    ["ArcticMaterialPotion"] = 100,
+    ["PupilPotion"] = 25,
+    ["MaterialShufflePotion"] = 5,
+    ["MutationCurePotion"] = 250,
+    ["BasicPersonalityPotion"] = 15
+}
