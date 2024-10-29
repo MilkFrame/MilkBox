@@ -62,9 +62,9 @@ data = {
         ["LureSpeed"] = 1,
         ["Luck"] = 0,
         ["Control"] = 0.4,
-        ["Color"] = Color3.fromRGB(249, 162, 255),
-        ["BobberTop"] = Color3.fromRGB(250, 112, 255),
-        ["BobberBottom"] = Color3.fromRGB(231, 157, 255),
+        ["Color"] = Color3.fromRGB(255, 42, 42),
+        ["BobberTop"] = Color3.fromRGB(255, 0, 0),
+        ["BobberBottom"] = Color3.fromRGB(39, 39, 39),
         ["Resilience"] = 0
     },
     ["Fortune Rod"] = {
@@ -95,7 +95,19 @@ data = {
         ["BobberBottom"] = Color3.fromRGB(255, 105, 105),
         ["Resilience"] = -12
     },
-    ["RegisteredNumberOfRods"] = 18,
+    ["Trident Rod"] = {
+        ["LineDistance"] = 100,
+        ["Description"] = "Was originally the King of the Sea's way of defending his kingdom. [Has a chance to stab a fish while catching it]",
+        ["Price"] = 150000,
+        ["Strength"] = 6000,
+        ["LureSpeed"] = 80,
+        ["Luck"] = 100,
+        ["Control"] = 0,
+        ["Color"] = Color3.fromRGB(255, 191, 80),
+        ["BobberTop"] = Color3.fromRGB(255, 178, 53),
+        ["BobberBottom"] = Color3.fromRGB(255, 152, 48),
+        ["Resilience"] = 0
+    },
     ["Rapid Rod"] = {
         ["LineDistance"] = 21,
         ["Description"] = "Extremely fast rod that catches fish at record speeds! -It even has racing wings!",
@@ -110,6 +122,7 @@ data = {
         ["BobberBottom"] = Color3.fromRGB(255, 255, 255),
         ["Resilience"] = -20
     },
+    ["RegisteredNumberOfRods"] = 20,
     ["Long Rod"] = {
         ["LineDistance"] = 300,
         ["Description"] = "Not the strongest, but it’s sure the longest! Is this really needed?",
@@ -121,6 +134,19 @@ data = {
         ["Color"] = Color3.fromRGB(220, 204, 167),
         ["BobberTop"] = Color3.fromRGB(134, 38, 38),
         ["BobberBottom"] = Color3.fromRGB(255, 255, 255),
+        ["Resilience"] = 0
+    },
+    ["Reinforced Rod"] = {
+        ["LineDistance"] = 32,
+        ["Description"] = "Crafted by a metal stronger than diamond, making it capable of fishing in any harmful liquid.",
+        ["Price"] = 20000,
+        ["Strength"] = inf,
+        ["LureSpeed"] = 100,
+        ["Luck"] = 15,
+        ["Control"] = 0.05,
+        ["Color"] = Color3.fromRGB(255, 178, 89),
+        ["BobberTop"] = Color3.fromRGB(244, 152, 86),
+        ["BobberBottom"] = Color3.fromRGB(39, 31, 25),
         ["Resilience"] = 0
     },
     ["Haunted Rod"] = {
