@@ -1,5 +1,5 @@
 data = {
-    ["MutateModel"] = "function: 0xccd3898baf3fad9f",
+    ["MutateModel"] = "function: 0x174099ede5b55950",
     ["Mutations"] = {
         ["Blessed"] = {
             ["PriceMultiply"] = 10,
@@ -42,6 +42,12 @@ data = {
             ["Color"] = Color3.fromRGB(206, 238, 255),
             ["Display"] = "Silver",
             ["Chance"] = 15
+        },
+        ["Unsellable"] = {
+            ["PriceMultiply"] = 0,
+            ["Color"] = Color3.fromRGB(255, 76, 76),
+            ["Display"] = "Unsellable",
+            ["Chance"] = 0
         },
         ["Frozen"] = {
             ["PriceMultiply"] = 1.3,
