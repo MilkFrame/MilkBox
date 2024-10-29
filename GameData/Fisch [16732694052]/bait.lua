@@ -20,6 +20,7 @@ data = {
         ["Rarity"] = "Legendary",
         ["Resilience"] = -15
     },
+    ["Give"] = "function: 0xc1f9cf0294be5330",
     ["Weird Algae"] = {
         ["LureSpeed"] = -35,
         ["Luck"] = 0,
@@ -28,7 +29,6 @@ data = {
         ["Resilience"] = 0
     },
     ["Minnow"] = {["LureSpeed"] = 0, ["Luck"] = 65, ["GenerelLuck"] = 0, ["Rarity"] = "Unusual", ["Resilience"] = -10},
-    ["Give"] = "function: 0xf11becd41b4b99ff",
     ["Fish Head"] = {
         ["LureSpeed"] = 10,
         ["Luck"] = 150,
@@ -36,7 +36,6 @@ data = {
         ["Rarity"] = "Legendary",
         ["Resilience"] = -10
     },
-    ["Maggot"] = {["LureSpeed"] = -10, ["Luck"] = 0, ["GenerelLuck"] = 35, ["Rarity"] = "Uncommon", ["Resilience"] = 0},
     ["Night Shrimp"] = {
         ["LureSpeed"] = 15,
         ["Luck"] = 0,
@@ -51,7 +50,16 @@ data = {
         ["Rarity"] = "Rare",
         ["Resilience"] = -15
     },
+    ["Maggot"] = {["LureSpeed"] = -10, ["Luck"] = 0, ["GenerelLuck"] = 35, ["Rarity"] = "Uncommon", ["Resilience"] = 0},
+    ["Coral"] = {["LureSpeed"] = 20, ["Luck"] = 0, ["GenerelLuck"] = 0, ["Rarity"] = "Unusual", ["Resilience"] = 20},
     ["Flakes"] = {["LureSpeed"] = 10, ["Luck"] = 55, ["GenerelLuck"] = 0, ["Rarity"] = "Common", ["Resilience"] = -3},
+    ["Deep Coral"] = {
+        ["LureSpeed"] = 0,
+        ["Luck"] = -10,
+        ["GenerelLuck"] = 0,
+        ["Rarity"] = "Legendary",
+        ["Resilience"] = 50
+    },
     ["Bagel"] = {["LureSpeed"] = 0, ["Luck"] = 25, ["GenerelLuck"] = 0, ["Rarity"] = "Common", ["Resilience"] = 15},
     ["Truffle Worm"] = {
         ["LureSpeed"] = -10,
