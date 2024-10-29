@@ -15,6 +15,14 @@ data = {
         ["Banner"] = "rbxassetid://18791315983",
         ["BadgeId"] = 2994442057572213
     },
+    ["Brine Pool"] = {
+        ["Bobber"] = "Brine",
+        ["Name"] = "Brine Pool",
+        ["Color"] = Color3.fromRGB(140, 255, 140),
+        ["Rewards"] = {["Xp"] = 2000, ["Coins"] = 2000},
+        ["Banner"] = "rbxassetid://86510876700490",
+        ["BadgeId"] = 1535329670769985
+    },
     ["Roslit Volcano"] = {
         ["Bobber"] = "Lava",
         ["Name"] = "Roslit Volcano",
@@ -22,6 +30,14 @@ data = {
         ["Rewards"] = {["Xp"] = 2000, ["Coins"] = 2000},
         ["Banner"] = "rbxassetid://108037427819021",
         ["BadgeId"] = 4479912445209985
+    },
+    ["Desolate Deep"] = {
+        ["Bobber"] = "Infested",
+        ["Name"] = "Desolate Deep",
+        ["Color"] = Color3.fromRGB(151, 187, 255),
+        ["Rewards"] = {["Xp"] = 2000, ["Coins"] = 2000},
+        ["Banner"] = "rbxassetid://81573600788931",
+        ["BadgeId"] = 3161443122784523
     },
     ["Ocean"] = {
         ["Bobber"] = "Anchor",
