@@ -1,4 +1,22 @@
 data = {
+    ["Desolate Deep"] = {
+        ["Pool"] = {"Stalactite", "Sea Mine", "Horseshoe Crab", "Rockstar Hermit Crab"},
+        ["Priority"] = 4
+    },
+    ["Desolate"] = {
+        ["Pool"] = {
+            "Tire",
+            "Boot",
+            "Driftwood",
+            "Stalactite",
+            "Horseshoe Crab",
+            "Rockstar Hermit Crab",
+            "Sea Mine",
+            "Rock",
+            "Mussel"
+        },
+        ["Priority"] = 0
+    },
     ["Ocean"] = {
         ["Pool"] = {
             "Tire",
