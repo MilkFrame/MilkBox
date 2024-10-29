@@ -49,6 +49,13 @@ data = {
             ["Display"] = "Steady",
             ["StrokeColor"] = Color3.fromRGB(21, 19, 18)
         },
+        ["Noir"] = {
+            ["StatIncrease"] = 10,
+            ["Description"] = "Increases albino & darkened chances by 10%",
+            ["Color"] = Color3.fromRGB(255, 255, 255),
+            ["Display"] = "Noir",
+            ["StrokeColor"] = Color3.fromRGB(0, 0, 0)
+        },
         ["Controlled"] = {
             ["StatIncrease"] = 0.05,
             ["Description"] = "Increased rod control bar size",
@@ -63,12 +70,26 @@ data = {
             ["Display"] = "Mutated",
             ["StrokeColor"] = Color3.fromRGB(45, 58, 39)
         },
+        ["Quality"] = {
+            ["StatIncrease"] = 0,
+            ["Description"] = "Increases luck by 15%, Resilience by 5%, and Lure Speed by 15%",
+            ["Color"] = Color3.fromRGB(158, 255, 55),
+            ["Display"] = "Quality",
+            ["StrokeColor"] = Color3.fromRGB(56, 90, 19)
+        },
         ["Unbreakable"] = {
             ["StatIncrease"] = 10000,
             ["Description"] = "Increases strength by 10,000kg",
             ["Color"] = Color3.fromRGB(225, 179, 229),
             ["Display"] = "Unbreakable",
             ["StrokeColor"] = Color3.fromRGB(16, 13, 16)
+        },
+        ["Hasty"] = {
+            ["StatIncrease"] = 55,
+            ["Description"] = "Decreases lure time by 55%",
+            ["Color"] = Color3.fromRGB(229, 209, 92),
+            ["Display"] = "Hasty",
+            ["StrokeColor"] = Color3.fromRGB(50, 42, 12)
         },
         ["Insight"] = {
             ["StatIncrease"] = 1.5,
@@ -120,5 +141,5 @@ data = {
             ["StrokeColor"] = Color3.fromRGB(46, 79, 61)
         }
     },
-    ["LoadVisual"] = "function: 0x9af8c383ed1b90ff"
+    ["LoadVisual"] = "function: 0x2353660ac6805850"
 }
