@@ -1,4 +1,21 @@
 data = {
+    ["Vertigo"] = {
+        ["Pool"] = {
+            "Carbon Crate",
+            "Rock",
+            "Quality Bait Crate",
+            "Common Crate",
+            "Bait Crate",
+            "Twilight Eel",
+            "Fangborn Gar",
+            "Crystalfish",
+            "Spiderfish",
+            "Abyssacuda",
+            "Voidfin Mahi",
+            "Rubber Ducky"
+        },
+        ["Priority"] = 2
+    },
     ["Moosewood Ocean Mythical"] = {
         ["Pool"] = {
             "Tire",
@@ -19,6 +36,51 @@ data = {
         },
         ["Priority"] = 4
     },
+    ["Isonade"] = {
+        ["Pool"] = {
+            "Isonade",
+            "Tire",
+            "Boot",
+            "Common Crate",
+            "Bait Crate",
+            "Fish Barrel",
+            "Seaweed",
+            "Carbon Crate",
+            "Quality Bait Crate",
+            "Mackerel",
+            "Cod",
+            "Amberjack",
+            "Sardine",
+            "Sea Bass",
+            "Barracuda",
+            "Haddock"
+        },
+        ["Priority"] = 101
+    },
+    ["Harvesters Spike"] = {
+        ["Pool"] = {
+            "Carbon Crate",
+            "Common Crate",
+            "Bait Crate",
+            "Mackerel",
+            "Cod",
+            "Amberjack",
+            "Nurse Shark",
+            "Sardine",
+            "Halibut",
+            "Salmon",
+            "Bluefin Tuna",
+            "Sockeye Salmon",
+            "Barracuda",
+            "Sea Bass",
+            "Chinook Salmon",
+            "Sea Pickle",
+            "Pufferfish",
+            "Swordfish",
+            "Sawfish"
+        },
+        ["Priority"] = 3
+    },
     ["Sunstone"] = {
         ["Pool"] = {
             "Seaweed",
@@ -34,7 +96,8 @@ data = {
             "Chinfish",
             "Sailfish",
             "Sunfish",
-            "Wiifish"
+            "Wiifish",
+            "Voltfish"
         },
         ["Priority"] = 2
     },
@@ -53,32 +116,22 @@ data = {
         },
         ["Priority"] = 2
     },
-    ["Snowcap Ocean"] = {
+    ["Great Hammerhead Shark"] = {
         ["Pool"] = {
-            "Ice",
-            "Tire",
-            "Carbon Crate",
-            "Common Crate",
-            "Bait Crate",
-            "Fish Barrel",
+            "Great Hammerhead Shark",
+            "Mackerel",
             "Cod",
+            "Amberjack",
             "Sardine",
-            "Salmon",
             "Sea Bass",
+            "Barracuda",
+            "Haddock",
+            "Sailfish",
             "Porgy",
-            "Arctic Char",
-            "Pollock",
-            "Red Drum",
-            "Herring",
-            "Bluegill",
-            "Lingcod",
-            "Skipjack Tuna",
-            "Glacierfish",
-            "Moonfish",
-            "Colossal Squid",
-            "Ringle"
+            "Driftwood",
+            "Common Crate"
         },
-        ["Priority"] = 2
+        ["Priority"] = 100
     },
     ["Deep Ocean"] = {
         ["Pool"] = {
@@ -117,59 +170,6 @@ data = {
         },
         ["Priority"] = 1
     },
-    ["Isonade"] = {
-        ["Pool"] = {
-            "Isonade",
-            "Tire",
-            "Boot",
-            "Common Crate",
-            "Bait Crate",
-            "Fish Barrel",
-            "Seaweed",
-            "Carbon Crate",
-            "Quality Bait Crate",
-            "Mackerel",
-            "Cod",
-            "Amberjack",
-            "Sardine",
-            "Sea Bass",
-            "Barracuda",
-            "Haddock"
-        },
-        ["Priority"] = 101
-    },
-    ["Moosewood Pond"] = {
-        ["Pool"] = {
-            "Tire",
-            "Driftwood",
-            "Common Crate",
-            "Largemouth Bass",
-            "Trout",
-            "Goldfish",
-            "Carp",
-            "Bream",
-            "Pike",
-            "Eel"
-        },
-        ["Priority"] = 2
-    },
-    ["Great Hammerhead Shark"] = {
-        ["Pool"] = {
-            "Great Hammerhead Shark",
-            "Mackerel",
-            "Cod",
-            "Amberjack",
-            "Sardine",
-            "Sea Bass",
-            "Barracuda",
-            "Haddock",
-            "Sailfish",
-            "Porgy",
-            "Driftwood",
-            "Common Crate"
-        },
-        ["Priority"] = 100
-    },
     ["Great White Shark"] = {
         ["Pool"] = {
             "Great White Shark",
@@ -187,6 +187,41 @@ data = {
         },
         ["Priority"] = 100
     },
+    ["Moosewood Pond"] = {
+        ["Pool"] = {
+            "Tire",
+            "Driftwood",
+            "Common Crate",
+            "Largemouth Bass",
+            "Trout",
+            "Goldfish",
+            "Carp",
+            "Bream",
+            "Pike",
+            "Eel",
+            "Whiptail Catfish"
+        },
+        ["Priority"] = 2
+    },
+    ["Terrapin Olm"] = {
+        ["Pool"] = {
+            "Log",
+            "Driftwood",
+            "Common Crate",
+            "Fish Barrel",
+            "Sea Bass",
+            "Largemouth Bass",
+            "Smallmouth Bass",
+            "White Bass",
+            "Redeye Bass",
+            "Chinook Salmon",
+            "Gudgeon",
+            "Walleye",
+            "Olm"
+        },
+        ["Priority"] = 3
+    },
+    ["Debug"] = {["Priority"] = 10, ["Pool"] = {"Colossal Squid"}, ["CantBeWhormholed"] = true},
     ["Lava"] = {
         ["Pool"] = {
             "Volcanic Geode",
@@ -202,40 +237,40 @@ data = {
         },
         ["Priority"] = 2
     },
-    ["Snowcap Pond"] = {
+    ["Whale Shark"] = {
         ["Pool"] = {
-            "Common Crate",
-            "Quality Bait Crate",
-            "Ice",
-            "Boot",
-            "Blackfish",
-            "Burbot",
-            "Grayling",
-            "Glacier Pike",
-            "Sturgeon",
-            "Pond Emperor"
+            "Whale Shark",
+            "Mackerel",
+            "Cod",
+            "Amberjack",
+            "Sardine",
+            "Sea Bass",
+            "Barracuda",
+            "Haddock",
+            "Sailfish",
+            "Porgy",
+            "Driftwood",
+            "Common Crate"
         },
-        ["Priority"] = 2
+        ["Priority"] = 100
     },
-    ["Vertigo"] = {
+    ["Brine Pool Water"] = {
         ["Pool"] = {
-            "Carbon Crate",
             "Rock",
-            "Quality Bait Crate",
+            "Stalactite",
+            "Bone",
+            "Coral Geode",
             "Common Crate",
-            "Bait Crate",
-            "Twilight Eel",
-            "Fangborn Gar",
-            "Crystalfish",
-            "Spiderfish",
-            "Abyssacuda",
-            "Voidfin Mahi",
-            "Rubber Ducky"
+            "Stalactite",
+            "Gazerfish",
+            "Brine Shrimp",
+            "Globe Jellyfish",
+            "Dweller Catfish",
+            "Eyefestation",
+            "Spectral Serpent"
         },
         ["Priority"] = 2
     },
-    ["Debug"] = {["Priority"] = 10, ["Pool"] = {"Sockeye Salmon"}, ["CantBeWhormholed"] = true},
-    ["Scallop Ocean"] = {["Pool"] = {"Tire", "Boot", "Seaweed", "Scallop"}, ["Priority"] = 3},
     ["The Arch"] = {
         ["Pool"] = {
             "Tire",
@@ -261,6 +296,11 @@ data = {
             "Rabbitfish",
             "Moonfish"
         },
+        ["Priority"] = 3
+    },
+    ["Scallop Ocean"] = {["Pool"] = {"Tire", "Boot", "Seaweed", "Scallop"}, ["Priority"] = 3},
+    ["Keepers Altar"] = {
+        ["Pool"] = {"Tire", "Boot", "Seaweed", "Bluefish", "Keepers Guardian", "Lapisjack", "Pale Tang", "Umbral Shark"},
         ["Priority"] = 3
     },
     ["Roslit Bay Ocean"] = {
@@ -289,29 +329,20 @@ data = {
         },
         ["Priority"] = 2
     },
-    ["Harvesters Spike"] = {
+    ["Sunstone Hidden"] = {
         ["Pool"] = {
-            "Carbon Crate",
             "Common Crate",
+            "Carbon Crate",
             "Bait Crate",
-            "Mackerel",
-            "Cod",
-            "Amberjack",
-            "Nurse Shark",
-            "Sardine",
-            "Halibut",
-            "Salmon",
-            "Bluefin Tuna",
-            "Sockeye Salmon",
-            "Barracuda",
-            "Sea Bass",
-            "Chinook Salmon",
-            "Sea Pickle",
-            "Pufferfish",
-            "Swordfish",
-            "Sawfish"
+            "Fish Barrel",
+            "Quality Bait Crate",
+            "Tire",
+            "Seaweed",
+            "Driftwood",
+            "Boot",
+            "Rock"
         },
-        ["Priority"] = 3
+        ["Priority"] = 2
     },
     ["Ocean"] = {
         ["Pool"] = {
@@ -348,23 +379,45 @@ data = {
         },
         ["Priority"] = 0
     },
-    ["Keepers Altar"] = {
-        ["Pool"] = {"Tire", "Boot", "Seaweed", "Bluefish", "Keepers Guardian", "Lapisjack", "Pale Tang", "Umbral Shark"},
-        ["Priority"] = 3
-    },
-    ["Sunstone Hidden"] = {
+    ["Snowcap Ocean"] = {
         ["Pool"] = {
-            "Common Crate",
+            "Ice",
+            "Tire",
             "Carbon Crate",
+            "Common Crate",
             "Bait Crate",
             "Fish Barrel",
+            "Cod",
+            "Sardine",
+            "Salmon",
+            "Sea Bass",
+            "Porgy",
+            "Arctic Char",
+            "Pollock",
+            "Red Drum",
+            "Herring",
+            "Bluegill",
+            "Lingcod",
+            "Skipjack Tuna",
+            "Glacierfish",
+            "Moonfish",
+            "Colossal Squid",
+            "Ringle"
+        },
+        ["Priority"] = 2
+    },
+    ["Snowcap Pond"] = {
+        ["Pool"] = {
+            "Common Crate",
             "Quality Bait Crate",
-            "Tire",
-            "Seaweed",
-            "Driftwood",
+            "Ice",
             "Boot",
-            "Rock",
-            "Sea Pickle"
+            "Blackfish",
+            "Burbot",
+            "Grayling",
+            "Glacier Pike",
+            "Sturgeon",
+            "Pond Emperor"
         },
         ["Priority"] = 2
     },
@@ -416,7 +469,8 @@ data = {
             "Pumpkinseed",
             "Trout",
             "Arapaima",
-            "Suckermouth Catfish"
+            "Suckermouth Catfish",
+            "Axolotl"
         },
         ["Priority"] = 3
     },
@@ -473,27 +527,29 @@ data = {
             "Chinook Salmon",
             "Gudgeon",
             "Walleye",
-            "Golden Smallmouth Bass"
+            "Golden Smallmouth Bass",
+            "Sea Turtle"
         },
         ["Priority"] = 2
     },
-    ["Terrapin Olm"] = {
+    ["Desolate Deep"] = {
         ["Pool"] = {
             "Log",
-            "Driftwood",
+            "Rock",
             "Common Crate",
-            "Fish Barrel",
-            "Sea Bass",
-            "Largemouth Bass",
-            "Smallmouth Bass",
-            "White Bass",
-            "Redeye Bass",
-            "Chinook Salmon",
-            "Gudgeon",
-            "Walleye",
-            "Olm"
+            "Stalactite",
+            "Coral Geode",
+            "Slate Tuna",
+            "Phantom Ray",
+            "Rockstar Hermit Crab",
+            "Horseshoe Crab",
+            "Banditfish",
+            "Cockatoo Squid",
+            "Midnight Axolotl",
+            "Barbed Shark",
+            "Emperor Jellyfish"
         },
-        ["Priority"] = 3
+        ["Priority"] = 2
     },
     ["Roslit Bay"] = {
         ["Pool"] = {
@@ -515,7 +571,7 @@ data = {
         ["Priority"] = 3
     },
     ["Roslit Pond"] = {
-        ["Pool"] = {"Driftwood", "Alligator Gar", "Perch", "Minnow", "Pumpkinseed", "Chub", "Arapaima", "Bull Shark"},
+        ["Pool"] = {"Driftwood", "Alligator Gar", "Perch", "Minnow", "Pumpkinseed", "Chub", "Arapaima", "Axolotl"},
         ["Priority"] = 2
     }
 }
