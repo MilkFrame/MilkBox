@@ -1,0 +1,155 @@
+data = {
+    ["Bosses"] = {
+        ["Double Dungeon"] = {
+            ["Spear Statue"] = {["Dialogue"] = "Prepare to be skewered like all the others who dared to defy me!"},
+            ["God Statue"] = {
+                ["Dialogue"] = "Thou Shall Worship God. Thou Shall Praise God. Thou shall prove thy faith. Those who fail to obey these commandments shall not be spared."
+            },
+            ["Shield Statue"] = {
+                ["Dialogue"] = "This shield is more than mere protection—it's the wall between you and your demise!"
+            },
+            ["Axe Statue"] = {
+                ["Dialogue"] = "Your courage is commendable, but it will not save you. Prepare to be carved into stone, just like those who came before you."
+            },
+            ["Sword Statue"] = {
+                ["Dialogue"] = "Draw your weapon, if you dare, and prepare to be cut down where you stand!"
+            },
+            ["Mace Statue"] = {
+                ["Dialogue"] = "This mace has shattered empires and crushed heroes! Your bones will be no different."
+            }
+        },
+        ["Planet Namak"] = {
+            ["Guldy"] = {["Dialogue"] = "It's time for the great Guldy, Gyeh-hee-heh!"},
+            ["Butter"] = {["Dialogue"] = "I'm the fastest in the universe!"},
+            ["Recroom"] = {["Dialogue"] = "Recroom Super Fight Bomb!"},
+            ["Giyu"] = {["Dialogue"] = "Let's keep this up! Giyu Force, let's go! Yea!"},
+            ["Friezo"] = {["Dialogue"] = "You dare defy me? I will crush you like an insect!"},
+            ["Argon (Transformed)"] = {
+                ["Dialogue"] = "It's been too long. Doria should've been back by now. Something must've happened."
+            },
+            ["Vogita"] = {["Dialogue"] = "I'm the real thing—the Almighty Prince Vogita!"},
+            ["Argon"] = {
+                ["Dialogue"] = "Aha ha ha ha.. so you've learned some new tricks then? It doesn't change a thing."
+            },
+            ["Jiece"] = {["Dialogue"] = "Got ya mate. This is what you get for messin' with the Giyu!"},
+            ["Doria"] = {
+                ["Dialogue"] = "Lord Friezo. I'm picking up that power level again. Up there. It came from just over that ridge. I think someone's been watching."
+            },
+            ["Friezo (Full Power)"] = {
+                ["Dialogue"] = "Back to die at my hands again, are you? Seems you didn't learn the first time."
+            },
+            ["Friezo (Final Form)"] = {["Dialogue"] = "So which one of you wants to be the first to feel my wrath?"}
+        },
+        ["Shibuya"] = {
+            ["Reanimated Tuji"] = {
+                ["Dialogue"] = "You guys with all your blessings lost to a monkey like me who can't even use Jujutsu."
+            },
+            ["Gotoe"] = {
+                ["Dialogue"] = "You dare challenge me, a powerful sorcerer compared to a mere monkey like you?"
+            },
+            ["Jag-o"] = {
+                ["Dialogue"] = "Humans are built on lies. Behind every good deed and positive emotion, there's always a catch. But things like hatred and hostility? That's as real as it gets."
+            },
+            ["Shogamo"] = {["Dialogue"] = "Hahaha you had be scared for a moment, I thought died!"},
+            ["Dogon"] = {
+                ["Dialogue"] = "My name is not cursed spirit... My name is Dogon. Honomi, Jag-o and Mohato. WE ALL BEAR NAMES."
+            },
+            ["Chaso"] = {["Dialogue"] = "When you get to the other side, be sure to ask for my brothers’ forgiveness."},
+            ["SukonoEnemy"] = {
+                ["Dialogue"] = "Know your place, fool.",
+                ["Name"] = "Sukono",
+                ["Model"] = "Enemies/Shibuya/Bosses/Sukono"
+            },
+            ["Transfigured Mohato"] = {
+                ["Dialogue"] = "I'm the Only Person in This World Who Understands the Composition of Souls."
+            },
+            ["Mohato"] = {["Dialogue"] = "Tell me, which do you think came first — the soul or the body?"}
+        },
+        ["Blood-Red Chamber"] = {
+            ["IgrosPhaseTwo"] = {
+                ["Dialogue"] = "I didn't think you could get this far...",
+                ["Name"] = "Blood-Red Commander, Igros",
+                ["Model"] = "Enemies/Blood-Red Chamber/Bosses/Igros"
+            },
+            ["IgrosPhaseOne"] = {
+                ["Dialogue"] = "So... You've come to challenge me...",
+                ["Name"] = "Blood-Red Commander, Igros",
+                ["Model"] = "Enemies/Blood-Red Chamber/Bosses/Igros"
+            },
+            ["IgrosPhaseThree"] = {
+                ["Dialogue"] = "ENOUGH, YOU CANNOT DEFEAT ME!",
+                ["Name"] = "Blood-Red Commander, Igros",
+                ["Model"] = "Enemies/Blood-Red Chamber/Bosses/Igros"
+            }
+        },
+        ["Spider Forest"] = {
+            ["Demon Father"] = {["Dialogue"] = "Stay away... from... my family!"},
+            ["Tui"] = {
+                ["Dialogue"] = "Don't tell me you actually think you can defeat one of the Twelve Moons like me!"
+            },
+            ["Yababa"] = {["Dialogue"] = "What a grimy little urchin you are."},
+            ["Kyogan"] = {
+                ["Dialogue"] = "I'm going to get my hands on some marechi and reclaim my place among the Twelve Moons!"
+            },
+            ["Demon Mother"] = {["Dialogue"] = "Arrgh! Die! Die now! If you don't, I'll suffer an awful fate!"},
+            ["Susanmoru"] = {["Dialogue"] = "Let's keep playing until dawn, until your life ends!"}
+        },
+        ["Sand Village"] = {
+            ["Third Kazekage"] = {
+                ["Dialogue"] = "I don't like to wait and I don't like to keep others waiting. So let's make this quick and sweet."
+            },
+            ["Sosora (Second Phase)"] = {
+                ["Dialogue"] = "If you insist on defying me, you give me no choice... how about I add you to my puppet collection?"
+            },
+            ["Sosora"] = {
+                ["Dialogue"] = "Give it up... this body feels no pain. If all you do is hit me, your fist is all that will hurt."
+            },
+            ["Dodera"] = {["Dialogue"] = "Cower in awe! Cry your heart out! Because my art... is an EXPLOSION!"},
+            ["Hirko"] = {["Dialogue"] = "True beauty lies in things that last forever, never rotting or fading."},
+            ["Kimase"] = {["Dialogue"] = "I think I will play with you a bit before killing you!"},
+            ["Itochi"] = {["Dialogue"] = "Any technique is worthless before my eyes."}
+        }
+    },
+    ["Misc"] = {
+        ["MohatoMove3"] = {
+            ["Dialogue"] = "See ya!!! Catch me if you can!! Hahahahaha!",
+            ["Name"] = "Mohato",
+            ["Model"] = "Enemies/Shibuya/Bosses/Mohato"
+        },
+        ["MohatoMove2"] = {
+            ["Dialogue"] = "That wont work on me, hehehehe...",
+            ["Name"] = "Mohato",
+            ["Model"] = "Enemies/Shibuya/Bosses/Mohato"
+        },
+        ["MohatoAppear"] = {
+            ["Dialogue"] = "Hey! Over here!! Come and catch me!!!",
+            ["Name"] = "Mohato",
+            ["Model"] = "Enemies/Shibuya/Bosses/Mohato"
+        },
+        ["MohatoMove1"] = {
+            ["Dialogue"] = "You wont find me here...",
+            ["Name"] = "Mohato",
+            ["Model"] = "Enemies/Shibuya/Bosses/Mohato"
+        }
+    },
+    ["Units"] = {
+        ["StatuesAppear"] = {
+            ["Dialogue"] = "The statues... they're... alive?",
+            ["Name"] = "Song Jinwu",
+            ["Model"] = "Units/Song Jinwu"
+        },
+        ["Gujo (Infinity)"] = {["Dialogue"] = "Now I'll put on a show for you... Territory Release: Expanding Void."},
+        ["Tuji (Sorcerer Killer)"] = {["Dialogue"] = "No... this is all fine. These are all things I can handle!"},
+        ["Jag-o (Volcanic)"] = {
+            ["Dialogue"] = "DONT UNDERESTIMATE ME, WEAKLING!!! I'm going to enjoy wiping that smug look off your face... Territory Release: Iron Coffin."
+        },
+        ["Song Jinwu (Monarch)"] = {["Dialogue"] = "The weaker you are, the faster you get thrown away."},
+        ["Sukono"] = {
+            ["Dialogue"] = "You might have defeated me in the state I was in back then... Territory Release: Sinister Sanctum."
+        },
+        ["Alocard (Vampire King)"] = {
+            ["Dialogue"] = "Only a human can destroy a monster. Only a human could dare hope to."
+        },
+        ["Todu (Unleashed)"] = {["Dialogue"] = "The act of applause... is an acclamation of the soul!"}
+    }
+}
