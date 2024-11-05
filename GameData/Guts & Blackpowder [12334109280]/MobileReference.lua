@@ -1,0 +1,21 @@
+data = {
+    ["_Jump"] = "rbxassetid://14228571492",
+    ["bMode"] = "rbxassetid://14228573603",
+    ["Flip"] = "rbxassetid://8848554011",
+    ["Shield"] = "rbxassetid://395920626",
+    ["CancelCannon"] = "rbxassetid://14228573143",
+    ["_Callout"] = "rbxassetid://17310513186",
+    ["Shove"] = "rbxassetid://15727004113",
+    ["Build"] = "rbxassetid://14228573603",
+    ["B_ADS"] = "rbxassetid://13137621651",
+    ["GetIt"] = "rbxassetid://12122755689",
+    ["B_Toggle"] = "rbxassetid://14228572871",
+    ["StandDown"] = "rbxassetid://14229391966",
+    ["Entrenchment"] = "rbxassetid://10098013519",
+    ["CancelCap"] = "rbxassetid://14228573143",
+    ["PickaxeCharge"] = "rbxassetid://8848554011",
+    ["_CamSwitch"] = "rbxassetid://14228572177",
+    ["Charge"] = "rbxassetid://14228574464",
+    ["Cancel"] = "rbxassetid://14228573143",
+    ["Shovel"] = "rbxassetid://10098013519"
+}
