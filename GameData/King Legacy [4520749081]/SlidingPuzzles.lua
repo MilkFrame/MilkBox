@@ -1,0 +1,49 @@
+data = {
+    ["Sea BeastO"] = {
+        "rbxassetid://16138139402",
+        "rbxassetid://16138140745",
+        "rbxassetid://16138141983",
+        "rbxassetid://16138143502",
+        "rbxassetid://16138145140",
+        "rbxassetid://16138147446",
+        "rbxassetid://16138148941",
+        "rbxassetid://16138150465",
+        "rbxassetid://16161659237"
+    },
+    ["Triple Saber"] = {
+        "rbxassetid://17110156214",
+        "rbxassetid://17110156932",
+        "rbxassetid://17110157391",
+        "rbxassetid://17110161278",
+        "rbxassetid://17110162915",
+        "rbxassetid://17110163776",
+        "rbxassetid://17110169583",
+        "rbxassetid://17110170513",
+        "rbxassetid://17110171292",
+        "rbxassetid://17110171834",
+        "rbxassetid://17110172552",
+        "rbxassetid://17110173456",
+        "rbxassetid://17110174434",
+        "rbxassetid://17110177325",
+        "rbxassetid://17110187447",
+        "rbxassetid://17110188637"
+    },
+    ["Sea Beast"] = {
+        "rbxassetid://16991583334",
+        "rbxassetid://16991583165",
+        "rbxassetid://16991582974",
+        "rbxassetid://16991582856",
+        "rbxassetid://16991582713",
+        "rbxassetid://16991582586",
+        "rbxassetid://16991582233",
+        "rbxassetid://16991582022",
+        "rbxassetid://16991581798",
+        "rbxassetid://16991581537",
+        "rbxassetid://16991581157",
+        "rbxassetid://16991580817",
+        "rbxassetid://16991580585",
+        "rbxassetid://16991580411",
+        "rbxassetid://16991580091",
+        "rbxassetid://16991579806"
+    }
+}
