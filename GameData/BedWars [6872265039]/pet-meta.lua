@@ -3,13 +3,13 @@ data = {
         ["crab"] = {
             ["animations"] = {
                 ["passiveActions"] = {
-                    {["id"] = 624, ["type"] = 1},
-                    {["id"] = 625, ["type"] = 1},
-                    {["id"] = 626, ["type"] = 0}
+                    {["id"] = 627, ["type"] = 1},
+                    {["id"] = 628, ["type"] = 1},
+                    {["id"] = 629, ["type"] = 0}
                 },
-                ["dance"] = 627,
-                ["idle"] = 622,
-                ["walk"] = 623
+                ["dance"] = 630,
+                ["idle"] = 625,
+                ["walk"] = 626
             },
             ["rotationOffset"] = -90,
             ["model"] = "Crab"
@@ -17,15 +17,25 @@ data = {
         ["turtle"] = {
             ["animations"] = {
                 ["passiveActions"] = {
-                    {["id"] = 618, ["type"] = 1},
-                    {["id"] = 619, ["type"] = 1},
-                    {["id"] = 620, ["type"] = 0}
+                    {["id"] = 621, ["type"] = 1},
+                    {["id"] = 622, ["type"] = 1},
+                    {["id"] = 623, ["type"] = 0}
                 },
-                ["dance"] = 621,
-                ["idle"] = 616,
-                ["walk"] = 617
+                ["dance"] = 624,
+                ["idle"] = 619,
+                ["walk"] = 620
             },
             ["model"] = "VictoriousTurtle"
+        },
+        ["default_spider"] = {
+            ["animations"] = {
+                ["passiveActions"] = {{["id"] = 668, ["type"] = 0}, {["id"] = 669, ["type"] = 0}},
+                ["dance"] = 666,
+                ["idle"] = 670,
+                ["walk"] = 665
+            },
+            ["scaleMultiplier"] = 1.25,
+            ["model"] = "SpiderQueenSpiderling"
         }
     }
 }
