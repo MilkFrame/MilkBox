@@ -1,23 +1,51 @@
 data = {
-    ["LEADERBOARD_DISABLED"] = false,
-    ["LEADERBOARD_DEFAULT_BOARD"] = "RankPoints_S9",
     ["LEADERBOARD_REFRESH_INTERVAL"] = 300,
+    ["getLeaderboardsToDisplay"] = "function: 0x8fc00e87dedb247a",
+    ["getLeaderboardMeta"] = "function: 0xa4e5a23c6719b4ba",
     ["LeaderboardMeta"] = {
-        ["RankPoints_S9"] = {
+        ["gift_leaderboard"] = {
+            ["databaseContext"] = "roblox_datastore",
+            ["description"] = "The most generous players (100 Gifts = Patron Rank)",
+            ["statName"] = "gifts",
+            ["metric"] = "gifts",
+            ["displayInLobby"] = true,
+            ["maxUsersDisplayed"] = 100,
+            ["displayName"] = "Top Gifters"
+        },
+        ["OverallWins"] = {
+            ["databaseContext"] = "playfab",
+            ["description"] = "Players with the highest number of overall wins",
+            ["statName"] = "wins",
+            ["displayName"] = "Overall Wins",
+            ["maxUsersDisplayed"] = 100,
+            ["aggregationType"] = "last",
+            ["metric"] = "wins",
+            ["displayInLobby"] = true,
+            ["displayTopEntityInLobby"] = true
+        },
+        ["RankPoints_S11"] = {
+            ["databaseContext"] = "playfab",
             ["description"] = "Players with the highest Rank Points",
             ["statName"] = "rank",
-            ["metric"] = "RP",
-            ["aggregationType"] = "last",
+            ["displayName"] = "Ranked Season 11",
             ["maxUsersDisplayed"] = 200,
-            ["displayName"] = "Ranked Season 9"
+            ["aggregationType"] = "last",
+            ["metric"] = "RP",
+            ["displayInLobby"] = true,
+            ["displayTopEntityInLobby"] = true
         },
         ["Wins"] = {
+            ["databaseContext"] = "playfab",
             ["description"] = "Players with the highest number of wins this month",
             ["statName"] = "wins",
-            ["metric"] = "wins",
-            ["aggregationType"] = "sum",
+            ["displayName"] = "Monthly Wins",
             ["maxUsersDisplayed"] = 100,
-            ["displayName"] = "Monthly Wins"
+            ["aggregationType"] = "sum",
+            ["metric"] = "wins",
+            ["displayInLobby"] = true,
+            ["displayTopEntityInLobby"] = true
         }
-    }
+    },
+    ["LEADERBOARD_DISABLED"] = false,
+    ["DEFAULT_LEADERBOARD_TO_DISPLAY"] = "RankPoints_S11"
 }
