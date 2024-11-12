@@ -8,6 +8,7 @@ data = {
         ["penguin_crush"] = {["name"] = "Penguin Crush", ["image"] = "rbxassetid://15645004593"},
         ["alchemy_circle"] = {["name"] = "Transmutation", ["image"] = "rbxassetid://18961510854"},
         ["confetti"] = {["name"] = "Confetti"},
+        ["webbed_up"] = {["name"] = "Webbed Up", ["image"] = "rbxassetid://128729689652891"},
         ["boxingglove"] = {["name"] = "Boxing Glove", ["image"] = "rbxassetid://13839928576"},
         ["broom"] = {["name"] = "Broom Sweep", ["image"] = "rbxassetid://15373469283"},
         ["summer_pet_dance"] = {["name"] = "Summer Pet Dance", ["image"] = "rbxassetid://18251034658"},
