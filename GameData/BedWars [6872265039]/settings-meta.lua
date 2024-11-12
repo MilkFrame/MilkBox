@@ -1,5 +1,5 @@
 data = {
-    ["getSettingMeta"] = "function: 0xa31608aa1a90fbc9",
+    ["getSettingMeta"] = "function: 0x5d3dec57db2fadea",
     ["SettingMeta"] = {
         ["enable_auto_deposit"] = {
             ["name"] = "Auto Deposit",
@@ -74,6 +74,18 @@ data = {
             ["mobileOnly"] = true,
             ["defaultValue"] = false,
             ["inputType"] = "toggle"
+        },
+        ["profile_visibility"] = {
+            ["name"] = "Profile Visibility",
+            ["section"] = "privacy",
+            ["inputType"] = "toggle",
+            ["toggleOptionsOverride"] = {
+                {["value"] = "public", ["text"] = "Public"},
+                {["value"] = "friends_only", ["text"] = "Friends Only", ["activeColor"] = Color3.fromRGB(85, 87, 254)},
+                {["value"] = "private", ["text"] = "Private", ["activeColor"] = Color3.fromRGB(235, 87, 87)}
+            },
+            ["defaultValue"] = "public",
+            ["description"] = "Toggle who can view your profile."
         },
         ["mobile_auto_bridge_button"] = {
             ["name"] = "Mobile Auto Bridge Button",
