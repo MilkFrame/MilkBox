@@ -1044,6 +1044,202 @@ data = {
                 }
             }
         },
+        ["halloween_2024"] = {
+            ["npcCollectionTag"] = "EventNPC",
+            ["active"] = true,
+            ["currencies"] = {"candy_2024"},
+            ["endDate"] = 1731366000,
+            ["navbarImage"] = "rbxassetid://11340018523",
+            ["name"] = "Halloween Event 2024",
+            ["startDate"] = 1729288800,
+            ["missionGenerators"] = {
+                {
+                    ["layoutOrder"] = 2,
+                    ["name"] = "Daily",
+                    ["id"] = "daily",
+                    ["selectAmount"] = 2,
+                    ["pool"] = {
+                        {
+                            ["metaId"] = "1",
+                            ["stages"] = {{["progress"] = 2, ["type"] = "BedBreak"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Break 2 beds"
+                        },
+                        {
+                            ["metaId"] = "2",
+                            ["stages"] = {{["progress"] = 2, ["type"] = "FinalKill"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Perform 2 final kills"
+                        },
+                        {
+                            ["metaId"] = "3",
+                            ["stages"] = {{["progress"] = 1000, ["type"] = "PlayerDamage"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Deal 1,000 damage to other players"
+                        },
+                        {
+                            ["metaId"] = "4",
+                            ["stages"] = {{["progress"] = 4, ["type"] = "PlayerKill"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Kill 4 other players"
+                        },
+                        {
+                            ["metaId"] = "5",
+                            ["stages"] = {{["progress"] = 1, ["type"] = "ShopPurchase", ["resource"] = "wood_crossbow"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Purchase the Crossbow"
+                        },
+                        {
+                            ["metaId"] = "6",
+                            ["stages"] = {{["progress"] = 2, ["type"] = "GetEnchant"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Research 2 enchants"
+                        },
+                        {
+                            ["metaId"] = "7",
+                            ["stages"] = {{["progress"] = 2, ["type"] = "ShopPurchase", ["resource"] = "obsidian"}},
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 1000,
+                            ["name"] = "Purchase Obsidian Blocks"
+                        }
+                    },
+                    ["resetTime"] = {["intervalSeconds"] = 86400}
+                },
+                {
+                    ["layoutOrder"] = 1,
+                    ["name"] = "Event",
+                    ["id"] = "event",
+                    ["selectAmount"] = 1,
+                    ["pool"] = {
+                        {
+                            ["layoutOrder"] = 1,
+                            ["metaId"] = "ltm_victory",
+                            ["name"] = "Win at Arachne's Lair",
+                            ["rewardAmount"] = 1,
+                            ["stages"] = {{["progress"] = 1, ["type"] = "Manual"}},
+                            ["reward"] = {
+                                ["id"] = "kit",
+                                ["rewards"] = {
+                                    {["kit"] = "spider_queen", ["paid"] = false},
+                                    {["title"] = "spider_slayer", ["paid"] = false}
+                                },
+                                ["name"] = "Arachne Kit",
+                                ["icon"] = "rbxassetid://95237509752482"
+                            }
+                        }
+                    }
+                },
+                {
+                    ["layoutOrder"] = 3,
+                    ["name"] = "Weekly",
+                    ["id"] = "weekly",
+                    ["selectAmount"] = 3,
+                    ["pool"] = {
+                        {
+                            ["metaId"] = "1",
+                            ["name"] = "Play 15 Games",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 15, ["type"] = "GamePlay"}}
+                        },
+                        {
+                            ["metaId"] = "2",
+                            ["name"] = "Spend 70 Diamonds",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 70, ["type"] = "SpendResource", ["resource"] = "diamond"}}
+                        },
+                        {
+                            ["metaId"] = "3",
+                            ["name"] = "Break 8 Beds",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 8, ["type"] = "BedBreak"}}
+                        },
+                        {
+                            ["metaId"] = "4",
+                            ["name"] = "Perform 15 final kills",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 15, ["type"] = "FinalKill"}}
+                        },
+                        {
+                            ["metaId"] = "5",
+                            ["name"] = "Deal 12,000 damage to other players",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 12000, ["type"] = "PlayerDamage"}}
+                        },
+                        {
+                            ["metaId"] = "6",
+                            ["name"] = "Kill 40 other players",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 40, ["type"] = "PlayerKill"}}
+                        },
+                        {
+                            ["metaId"] = "7",
+                            ["name"] = "Win 12 Games",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 12, ["type"] = "GameWin"}}
+                        },
+                        {
+                            ["metaId"] = "8",
+                            ["name"] = "Earn 21,600 points from time spent playing games",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 6000,
+                            ["stages"] = {{["progress"] = 21600, ["type"] = "GamePlayTime"}}
+                        },
+                        {
+                            ["metaId"] = "9",
+                            ["name"] = "Spend 80 Emeralds",
+                            ["currencyReward"] = "candy_2024",
+                            ["rewardAmount"] = 5000,
+                            ["stages"] = {{["progress"] = 80, ["type"] = "SpendResource", ["resource"] = "emerald"}}
+                        }
+                    },
+                    ["resetTime"] = {["intervalSeconds"] = 604800}
+                }
+            },
+            ["npcConfig"] = {["NpcName"] = "wren_halloween_big"},
+            ["shops"] = {
+                {
+                    ["name"] = "Halloween Event Shop",
+                    ["items"] = {
+                        "hw_2024_title_1",
+                        "hw_2024_title_2",
+                        "hw_2024_title_3",
+                        "hw_2024_title_4",
+                        "hw_2024_title_5",
+                        "hw_2024_emote_1",
+                        "hw_2024_emote_2",
+                        "hw_2024_emote_3",
+                        "hw_2024_emote_4",
+                        "hw_2024_emote_5",
+                        "hw_2024_emote_6",
+                        "hw_2024_emote_7",
+                        "hw_2024_emote_8",
+                        "mummy_nazar_kitskin",
+                        "great_wolf_silas_kitskin",
+                        "halloween_wren_kitskin",
+                        "witch_Kaida",
+                        "ghostify_bed_break",
+                        "spider_queen_pet",
+                        "battle_pass_2x",
+                        "lucky_crate",
+                        "kit_rental_limited_7",
+                        "webbed_up_kill_effect"
+                    }
+                }
+            }
+        },
         ["halloween_event_2022"] = {
             ["npcCollectionTag"] = "EventNPC",
             ["active"] = false,
