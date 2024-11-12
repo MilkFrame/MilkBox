@@ -1,5 +1,10 @@
 data = {
     ["LobbyGadgetMeta"] = {
+        ["halloween_2024_spider"] = {
+            ["image"] = "rbxassetid://126845989227505",
+            ["name"] = "Halloween 2024 Spider",
+            ["pet"] = "default_spider"
+        },
         ["headhunter"] = {
             ["items"] = {
                 {["itemType"] = "headhunter", ["amount"] = 1},
