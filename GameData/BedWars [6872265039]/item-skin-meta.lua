@@ -60,18 +60,36 @@ data = {
         },
         ["stone_dao_victorious"] = {["itemType"] = "stone_dao", ["skinTag"] = "victorious"},
         ["tablet_vampire"] = {["itemType"] = "tablet", ["skinTag"] = "vampire"},
+        ["halloween_black_market_shop"] = {["itemType"] = "black_market_shop", ["skinTag"] = "halloween"},
         ["gold_victorious_flower_headhunter"] = {["itemType"] = "flower_headhunter", ["skinTag"] = "gold_victorious"},
         ["platinum_victorious_wizard_staff_2"] = {["itemType"] = "wizard_staff_2", ["skinTag"] = "platinum_victorious"},
         ["wood_dao_tiger"] = {["itemType"] = "wood_dao", ["skinTag"] = "tiger"},
         ["camera_turret_lunar"] = {["itemType"] = "camera_turret", ["skinTag"] = "lunar"},
         ["fish_tank_diamond_chainsaw"] = {["itemType"] = "tinker_weapon_3", ["skinTag"] = "fish_tank"},
         ["diamond_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "diamond_victorious"},
+        ["life_headhunter_mummy"] = {
+            ["projectileSourceOverrides"] = {
+                ["launchSound"] = {"rbxassetid://106223645750634"},
+                ["hitSounds"] = {{"rbxassetid://115274354625296", "rbxassetid://127593021841220"}}
+            },
+            ["itemType"] = "life_headhunter",
+            ["skinTag"] = "mummy"
+        },
         ["nightmare_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "nightmare_victorious"},
+        ["life_crossbow_mummy"] = {
+            ["projectileSourceOverrides"] = {
+                ["launchSound"] = {"rbxassetid://108984326889695"},
+                ["hitSounds"] = {{"rbxassetid://115274354625296", "rbxassetid://127593021841220"}}
+            },
+            ["itemType"] = "life_crossbow",
+            ["skinTag"] = "mummy"
+        },
         ["camera_turret_vampire"] = {
             ["projectileSourceOverrides"] = {["launchSound"] = {"rbxassetid://11466817898"}},
             ["itemType"] = "camera_turret",
             ["skinTag"] = "vampire"
         },
+        ["rageblade_deep_void"] = {["itemType"] = "rageblade", ["skinTag"] = "deep_void"},
         ["emerald_victorious_wizard_staff"] = {["itemType"] = "wizard_staff", ["skinTag"] = "emerald_victorious"},
         ["diamond_dao_victorious"] = {["itemType"] = "diamond_dao", ["skinTag"] = "victorious"},
         ["nightmare_victorious_wizard_staff_2"] = {
@@ -182,7 +200,14 @@ data = {
             ["skinTag"] = "diamond_victorious"
         },
         ["gold_victorious_spirit_dagger"] = {["itemType"] = "spirit_dagger", ["skinTag"] = "gold_victorious"},
-        ["rageblade_deep_void"] = {["itemType"] = "rageblade", ["skinTag"] = "deep_void"}
+        ["life_bow_mummy"] = {
+            ["projectileSourceOverrides"] = {
+                ["launchSound"] = {"rbxassetid://108984326889695"},
+                ["hitSounds"] = {{"rbxassetid://115274354625296", "rbxassetid://127593021841220"}}
+            },
+            ["itemType"] = "life_bow",
+            ["skinTag"] = "mummy"
+        }
     },
-    ["getItemSkinMeta"] = "function: 0xef4b06fbb4c8498c"
+    ["getItemSkinMeta"] = "function: 0xfbcf10f547c1863a"
 }
