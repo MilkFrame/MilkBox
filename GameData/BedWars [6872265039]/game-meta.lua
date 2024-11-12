@@ -11,8 +11,11 @@ data = {
         ["capture_the_points"] = {["title"] = "Capture the Points"},
         ["FLAG_CAPTURE"] = {["title"] = "Capture The Flag", ["image"] = "rbxassetid://11108528694"},
         ["skull-drop"] = {["title"] = "Hunter"},
+        ["halloween-2024-event"] = {["title"] = "Halloween 2024 Event"},
         ["tnt-wars"] = {["title"] = "TNT Wars", ["image"] = "rbxassetid://11104071738"},
         ["halloween-event"] = {["title"] = "Halloween Event 2022"},
+        ["battle-royale"] = {["title"] = "Battle Royale", ["image"] = "rbxassetid://18771884016"},
+        ["pvp-arena"] = {["title"] = "Arena Duels", ["image"] = "rbxassetid://18771884016"},
         ["fast_casual"] = {["title"] = "Fast & Casual"},
         ["lasso-wars"] = {["title"] = "Lasso Wars"},
         ["egg-hunt"] = {["title"] = "Egg Hunt"},
@@ -24,5 +27,5 @@ data = {
         ["winter-event"] = {["title"] = "Winter Event 2022"},
         ["block-hunt"] = {["title"] = "Block Hunt"}
     },
-    ["getGameMeta"] = "function: 0x04b9fa736e2271e9"
+    ["getGameMeta"] = "function: 0x814f10052287f85a"
 }
