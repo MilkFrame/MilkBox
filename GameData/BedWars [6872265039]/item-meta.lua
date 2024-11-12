@@ -4,12 +4,12 @@ data = {
         ["fake_bed"] = {
             ["image"] = "rbxassetid://7911164143",
             ["block"] = {
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["breakType"] = "wood",
                 ["health"] = 18,
                 ["seeThrough"] = true,
                 ["blastProof"] = true,
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockId"] = 8023}},
                 ["disableInventoryPickup"] = true
             },
@@ -19,7 +19,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x500f41949908409c",
+                ["placeSound"] = "function: 0x77af45711e06a3ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765812",
@@ -30,7 +30,7 @@ data = {
                         "rbxassetid://16991765812"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 13, ["blockId"] = 159},
@@ -54,15 +54,15 @@ data = {
                 ["disableAnimation"] = true,
                 ["cancelOnDamage"] = true
             },
-            ["displayName"] = "Spawn Egg"
+            ["displayName"] = "Duck Egg"
         },
         ["large_bush"] = {
             ["block"] = {
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["breakType"] = "grass",
                 ["dontPlaceInPublicMatch"] = true,
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 12000}},
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["seeThrough"] = true,
                 ["canReplace"] = true,
                 ["unbreakable"] = true
@@ -75,7 +75,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"party_hat_missile"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x935fba41a03cb73c",
+                ["projectileType"] = "function: 0x91144b5e607029fa",
                 ["launchSound"] = {"rbxassetid://8649937489"},
                 ["fireDelaySec"] = 2.2
             },
@@ -98,8 +98,8 @@ data = {
                         "rbxassetid://16991767936"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 5}}
             },
             ["image"] = "rbxassetid://7884373190",
@@ -127,10 +127,10 @@ data = {
                     "rbxassetid://13833151323"
                 },
                 ["knockbackMultiplier"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                ["swingAnimations"] = {400, 401},
+                ["swingAnimations"] = {401, 402},
                 ["attackRange"] = 10.5,
                 ["respectAttackSpeedForEffects"] = true,
-                ["firstPersonSwingAnimations"] = {403, 402},
+                ["firstPersonSwingAnimations"] = {404, 403},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 8
             },
@@ -150,7 +150,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"telepearl"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xcf076bed132e4d9c",
+                ["projectileType"] = "function: 0x68aa2b1b5ea16eba",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -166,12 +166,12 @@ data = {
         ["party_cannon"] = {
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12018}},
                 ["breakType"] = "stone",
                 ["health"] = 300,
                 ["disableInventoryPickup"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"cannon-type"},
                 ["unbreakableByTeammates"] = true,
                 ["denyPlaceOn"] = true
@@ -200,8 +200,11 @@ data = {
         ["wool_brown"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["wool"] = true,
-                ["blastResistance"] = 0.65,
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
+                ["flammable"] = true,
+                ["breakType"] = "wool",
                 ["health"] = 8,
                 ["greedyMesh"] = {
                     ["textures"] = {
@@ -213,10 +216,8 @@ data = {
                         "rbxassetid://15380238175"
                     }
                 },
-                ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
-                ["flammable"] = true
+                ["wool"] = true,
+                ["blastResistance"] = 0.65
             },
             ["image"] = "rbxassetid://15380238075",
             ["displayName"] = "Brown Wool"
@@ -229,18 +230,35 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"glitch_popup_cube"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xfc31b58ee5bcc01c",
+                ["projectileType"] = "function: 0x384242cbc580833a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
             ["displayName"] = "Popup Tower?"
         },
+        ["royale_bed"] = {
+            ["footstepSound"] = 2,
+            ["block"] = {
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
+                ["minecraftConversions"] = {{["blockId"] = 12005}},
+                ["blastProof"] = true,
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["breakType"] = "wood",
+                ["health"] = 18,
+                ["seeThrough"] = true,
+                ["collectionServiceTags"] = {"royale-bed"},
+                ["healthType"] = 1,
+                ["disableInventoryPickup"] = true,
+                ["blastResistance"] = 10000000
+            },
+            ["displayName"] = "Bed"
+        },
         ["vending_machine"] = {
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0x6fb147ad1ff714dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x3df2787585a93ffa",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["collectionServiceTags"] = {"VendingMachine"},
                 ["minecraftConversions"] = {{["blockId"] = 8009}},
                 ["seeThrough"] = true
@@ -258,7 +276,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"dizzy_toad"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa7f10c1a2859507c",
+                ["projectileType"] = "function: 0x33e8faf411c886da",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -270,7 +288,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://8296848659",
@@ -281,7 +299,7 @@ data = {
                         "rbxassetid://8296848659"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockId"] = 4}}
             },
             ["image"] = "rbxassetid://8296848529",
@@ -295,6 +313,14 @@ data = {
             ["sword"] = {["attackRange"] = 17, ["attackSpeed"] = 0.35, ["damage"] = 20},
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Iron Chainsaw"
+        },
+        ["unstable_portal"] = {
+            ["image"] = "rbxassetid://100881763858968",
+            ["description"] = "Teleport you to a random location",
+            ["maxStackSize"] = 2,
+            ["sharingDisabled"] = true,
+            ["consumable"] = {["blockingStatusEffects"] = {"grounded"}, ["consumeTime"] = 0.5},
+            ["displayName"] = "Unstable Portal"
         },
         ["sky_scythe"] = {
             ["image"] = "rbxassetid://13629036006",
@@ -315,7 +341,7 @@ data = {
             ["replaces"] = {"wood_gauntlets", "stone_gauntlets", "iron_gauntlets"},
             ["description"] = "Punch rapidly to deal more damage with combos. Downgrades to Iron Gauntlets upon death.",
             ["sword"] = {
-                ["idleAnimation"] = 427,
+                ["idleAnimation"] = 428,
                 ["swingSounds"] = {},
                 ["ignoreDamageCooldown"] = true,
                 ["attackSpeed"] = 0.21,
@@ -337,7 +363,7 @@ data = {
         ["wizard_stick"] = {
             ["image"] = "rbxassetid://13420388305",
             ["sharingDisabled"] = true,
-            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 10},
+            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 13},
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Zeno's Twig"
         },
@@ -345,7 +371,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x405454d25366185c",
+                ["placeSound"] = "function: 0xec2f5b2fbea9a0fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859697603",
@@ -356,7 +382,7 @@ data = {
                         "rbxassetid://10859697603"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 168}}
             },
@@ -366,8 +392,9 @@ data = {
         ["wool_pink"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -391,13 +418,13 @@ data = {
         ["melon"] = {
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0xb191d7b8b0d1cc5c",
+                ["placeSound"] = "function: 0x178d8e429239e47a",
                 ["minecraftConversions"] = {{["blockId"] = 8015}},
                 ["breakType"] = "wood",
                 ["health"] = 5,
                 ["seeThrough"] = true,
                 ["disableFlamableByTeammates"] = true,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["disableInventoryPickup"] = true,
                 ["placedBy"] = {["itemType"] = "melon_seeds"}
             },
@@ -407,8 +434,9 @@ data = {
         ["wool_orange"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -432,10 +460,10 @@ data = {
         ["gum_block"] = {
             ["footstepSound"] = 8,
             ["block"] = {
-                ["placeSound"] = "function: 0xba37416c6b83079c",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
                 ["breakType"] = "wool",
                 ["health"] = 4,
-                ["breakSound"] = "function: 0x298e945051644c5c",
+                ["breakSound"] = "function: 0x3a1371774ab9867a",
                 ["minecraftConversions"] = {{["blockId"] = 8026}},
                 ["collectionServiceTags"] = {"GumBlock"},
                 ["disableEnemyInventoryPickup"] = true,
@@ -447,7 +475,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc5a6e10998af699c",
+                ["placeSound"] = "function: 0x94c0f7c10e3ab2ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765869",
@@ -458,7 +486,7 @@ data = {
                         "rbxassetid://16991765869"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 9, ["blockId"] = 159}}
             },
@@ -482,7 +510,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"glue_projectile_charging"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa781fd092bab4f5c",
+                ["projectileType"] = "function: 0x108533519ad19dfa",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -498,9 +526,9 @@ data = {
         ["broken_snow_cone_machine"] = {
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12010}},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"BrokenSnowConeMachine"},
                 ["noSuffocation"] = true,
                 ["seeThrough"] = true
@@ -511,10 +539,10 @@ data = {
             ["block"] = {
                 ["breakType"] = "wood",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["blastProof"] = true,
                 ["collectionServiceTags"] = {"broken-altar-block"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
             },
             ["displayName"] = "Broken Altar"
         },
@@ -526,7 +554,7 @@ data = {
                     ["maxStrengthChargeSec"] = 0.25,
                     ["fireDelaySec"] = 0.8,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0x61599dcde134c4fc",
+                    ["projectileType"] = "function: 0x64a3883c1368905a",
                     ["launchSound"] = {
                         "rbxassetid://10969529576",
                         "rbxassetid://10969529368",
@@ -538,7 +566,7 @@ data = {
                     ["maxStrengthChargeSec"] = 0.25,
                     ["fireDelaySec"] = 1.2,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0xae5451fe1d10f03c",
+                    ["projectileType"] = "function: 0x3cada8ad69f98c9a",
                     ["launchSound"] = {
                         "rbxassetid://10969529727",
                         "rbxassetid://10969529817",
@@ -550,7 +578,7 @@ data = {
                     ["maxStrengthChargeSec"] = 0.25,
                     ["fireDelaySec"] = 0.8,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0xa1739df757029a5c",
+                    ["projectileType"] = "function: 0x90bb307746b072fa",
                     ["launchSound"] = {
                         "rbxassetid://10969529606",
                         "rbxassetid://10969529694",
@@ -562,7 +590,7 @@ data = {
                     ["maxStrengthChargeSec"] = 0.25,
                     ["fireDelaySec"] = 0.8,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0x60bf5514acdb0f1c",
+                    ["projectileType"] = "function: 0x68a200fcff5fbe3a",
                     ["launchSound"] = {
                         "rbxassetid://10969529190",
                         "rbxassetid://10969529321",
@@ -578,7 +606,7 @@ data = {
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x1a5b2acc5f43c29c",
+                ["placeSound"] = "function: 0x8a11f60a5ebe55ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7852097294",
@@ -589,7 +617,7 @@ data = {
                         "rbxassetid://7852097294"
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["minecraftConversions"] = {{["blockId"] = 3}}
             },
             ["image"] = "rbxassetid://7884368936",
@@ -600,8 +628,8 @@ data = {
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 18,
-                ["breakSound"] = "function: 0xd0c0707b6a677bdc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x6d0be930f3f8e8fa",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["collectionServiceTags"] = {"snap_trap"},
                 ["minecraftConversions"] = {{["blockId"] = 8001}},
                 ["seeThrough"] = true
@@ -618,8 +646,8 @@ data = {
         ["merchant_region_block"] = {
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc"
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a"
             },
             ["displayName"] = "Merchant Region Block"
         },
@@ -633,7 +661,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xff6ee2293dd318dc",
+                ["placeSound"] = "function: 0xee0a1f27c37a2a7a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://12948863341",
@@ -644,24 +672,29 @@ data = {
                         "rbxassetid://12948863341"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockId"] = 45}}
             },
             ["image"] = "rbxassetid://7884366460",
             ["displayName"] = "Brick"
+        },
+        ["pogo_stick"] = {
+            ["image"] = "rbxassetid://105174521741104",
+            ["description"] = "",
+            ["displayName"] = "Pogo Stick"
         },
         ["camera_turret"] = {
             ["image"] = "rbxassetid://7290567966",
             ["sharingDisabled"] = true,
             ["skins"] = {"camera_turret_lunar", "camera_turret_vampire", "camera_turret_cream_soda"},
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x3b122efc98afc09c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xc33cfc6aeed9023a",
                 ["minecraftConversions"] = {{["blockId"] = 8019}},
                 ["projectileSource"] = {
                     ["fireDelaySec"] = 0.25,
                     ["relativeOverride"] = {["relX"] = 0, ["relY"] = 0, ["relZ"] = 0},
-                    ["projectileType"] = "function: 0x59439a1198dec11c",
+                    ["projectileType"] = "function: 0x2bf799d5d940c83a",
                     ["launchSound"] = {"rbxassetid://7290187805"},
                     ["hitSounds"] = {{"rbxassetid://6866062188"}}
                 },
@@ -680,9 +713,9 @@ data = {
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 100,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"HealingTurret"},
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["noSuffocation"] = true
             },
             ["displayName"] = "Healing Fountain"
@@ -695,7 +728,7 @@ data = {
                 ["maxStrengthChargeSec"] = 1.5,
                 ["ammoItemTypes"] = {"spirit"},
                 ["minStrengthScalar"] = 0.2,
-                ["projectileType"] = "function: 0x49499747524cbbbc",
+                ["projectileType"] = "function: 0xb590008fbee9c61a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["fireDelaySec"] = 0.6
             },
@@ -719,7 +752,7 @@ data = {
             ["replaces"] = {"wood_gauntlets", "stone_gauntlets"},
             ["description"] = "Punch rapidly to deal more damage with combos. Downgrades to Stone Gauntlets upon death.",
             ["sword"] = {
-                ["idleAnimation"] = 427,
+                ["idleAnimation"] = 428,
                 ["swingSounds"] = {},
                 ["ignoreDamageCooldown"] = true,
                 ["attackSpeed"] = 0.21,
@@ -740,7 +773,7 @@ data = {
         ["murderer_throwing_knife"] = {
             ["image"] = "rbxassetid://8479269961",
             ["description"] = "Deadly.",
-            ["projectileSource"] = {["fireDelaySec"] = 7, ["projectileType"] = "function: 0x68db562f73dbd91c"},
+            ["projectileSource"] = {["fireDelaySec"] = 7, ["projectileType"] = "function: 0x2fab8f5f4cc0503a"},
             ["sharingDisabled"] = true,
             ["displayName"] = "Throwing Knife"
         },
@@ -748,7 +781,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7861529819",
@@ -760,17 +793,17 @@ data = {
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 57}},
-                ["breakSound"] = "function: 0x261f4310d851065c"
+                ["breakSound"] = "function: 0xa6993df3be3a16fa"
             },
             ["image"] = "rbxassetid://7884368860",
             ["displayName"] = "Diamond Block"
         },
         ["huge_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 150,
-                ["breakSound"] = "function: 0x7d5dd79af8a472dc",
+                ["breakSound"] = "function: 0x9afa6fa058fb45fa",
                 ["blastProof"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 9010}},
                 ["luckyBlock"] = {
@@ -803,7 +836,7 @@ data = {
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["multiShotChargeTime"] = 1,
                 ["fireDelaySec"] = 0.6,
-                ["projectileType"] = "function: 0xc59b8938d598279c",
+                ["projectileType"] = "function: 0x82896255018a045a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "volley_arrow", "iron_arrow"},
@@ -851,14 +884,14 @@ data = {
                 ["lightning_strike"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x78f6163c2982ee3c",
+                    ["projectileType"] = "function: 0x9d826147abc97e9a",
                     ["thirdPerson"] = {["fireAnimation"] = 25},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 },
                 ["electric_orb"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x49d413b4e0b0f89c",
+                    ["projectileType"] = "function: 0xbb8a5aaa06e153ba",
                     ["thirdPerson"] = {["fireAnimation"] = 26},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 }
@@ -869,13 +902,13 @@ data = {
             ["image"] = "rbxassetid://11403476091",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x22107f625439b81c",
+                ["placeSound"] = "function: 0x7e97e7843a39f3ba",
                 ["minecraftConversions"] = {{["blockId"] = 8015}},
                 ["breakType"] = "wood",
                 ["health"] = 5,
                 ["seeThrough"] = true,
                 ["disableFlamableByTeammates"] = true,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["disableInventoryPickup"] = true,
                 ["placedBy"] = {["itemType"] = "pumpkin_seeds"}
             },
@@ -890,9 +923,9 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc6dffcdaf318561c",
+                ["placeSound"] = "function: 0xac723a02e46fb53a",
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 155}},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["greedyMesh"] = {
                     ["textures"] = {
@@ -922,7 +955,7 @@ data = {
                 ["activeReload"] = true,
                 ["ammoItemTypes"] = {"easter_egg_projectile"},
                 ["fireDelaySec"] = 2.2,
-                ["projectileType"] = "function: 0x9bbf72349a87847c",
+                ["projectileType"] = "function: 0x7df9244944484ada",
                 ["launchSound"] = {"rbxassetid://13024113952"},
                 ["thirdPerson"] = {["fireAnimation"] = 51, ["aimAnimation"] = 53}
             },
@@ -932,7 +965,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x33f1ecac5678675c",
+                ["placeSound"] = "function: 0x862c1860ae2e5dfa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072552916",
@@ -943,7 +976,7 @@ data = {
                         "rbxassetid://9072552916"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 6, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://9072552793",
@@ -956,7 +989,7 @@ data = {
             ["displayName"] = "Hot Air Balloon"
         },
         ["party_popper"] = {
-            ["thirdPerson"] = {["holdAnimation"] = 349},
+            ["thirdPerson"] = {["holdAnimation"] = 350},
             ["image"] = "rbxassetid://11967427626",
             ["description"] = "Time to party!",
             ["displayName"] = "Party Popper"
@@ -966,6 +999,20 @@ data = {
             ["image"] = "rbxassetid://17016629772",
             ["description"] = "Unlocks Self-Destruct ability",
             ["displayName"] = "Diamond Mech Upgrade"
+        },
+        ["iron_pickaxe_sword"] = {
+            ["sword"] = {
+                ["swingAnimations"] = {},
+                ["attackSpeed"] = 1,
+                ["swingSounds"] = {"rbxassetid://11715551373"},
+                ["respectAttackSpeedForEffects"] = true,
+                ["knockbackMultiplier"] = {["disabled"] = true},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 1
+            },
+            ["image"] = "rbxassetid://6875481325",
+            ["description"] = "Handy tool for mining crystals",
+            ["displayName"] = "Iron PickAxe"
         },
         ["invisibility_potion"] = {
             ["image"] = "rbxassetid://7836794914",
@@ -983,7 +1030,7 @@ data = {
             ["footstepSound"] = 7,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x4e4ac783ebd448dc",
+                ["placeSound"] = "function: 0xf4fa0335188f5a7a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766460",
@@ -994,7 +1041,7 @@ data = {
                         "rbxassetid://16991766460"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockId"] = 79}, {["blockId"] = 174}, {["blockId"] = 212}}
             },
@@ -1004,10 +1051,10 @@ data = {
         ["solar_panel"] = {
             ["image"] = "rbxassetid://11775182157",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 30,
-                ["breakSound"] = "function: 0xe303e600181607dc",
+                ["breakSound"] = "function: 0x2a6995fd8d5bb4fa",
                 ["minecraftConversions"] = {{["blockId"] = 12017}},
                 ["collectionServiceTags"] = {"SolarPanel"},
                 ["noSuffocation"] = true,
@@ -1019,7 +1066,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc2c366ed652721dc",
+                ["placeSound"] = "function: 0x746b5ea711f9eb7a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766637",
@@ -1030,7 +1077,7 @@ data = {
                         "rbxassetid://16991766587"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 155}}
             },
@@ -1040,8 +1087,8 @@ data = {
         ["void_turret"] = {
             ["image"] = "rbxassetid://9942058258",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xe8afc714cb56a1dc",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xed72f61b3f294afa",
                 ["minecraftConversions"] = {{["blockId"] = 8011}},
                 ["breakType"] = "stone",
                 ["health"] = 25,
@@ -1063,7 +1110,7 @@ data = {
             ["footstepSound"] = 4,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9839888790",
@@ -1075,17 +1122,17 @@ data = {
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 112}},
-                ["breakSound"] = "function: 0xefcc0bcfc508db9c"
+                ["breakSound"] = "function: 0xba7b85bec9ca08ba"
             },
             ["image"] = "rbxassetid://9839888714",
             ["displayName"] = "Galactite Brick"
         },
-        ["iron_arrow"] = {
-            ["image"] = "rbxassetid://15579506183",
-            ["sharingDisabled"] = true,
-            ["description"] = "Increased projectile damage",
-            ["hotbarFillRight"] = true,
-            ["displayName"] = "Iron Arrow"
+        ["anniversary_balloon"] = {
+            ["image"] = "rbxassetid://17580323788",
+            ["description"] = "Use up to three times to gain slowfall and jump boost.",
+            ["maxStackSize"] = 3,
+            ["cooldownId"] = "balloon",
+            ["displayName"] = "Balloon"
         },
         ["carrot_rocket"] = {
             ["image"] = "rbxassetid://9133691017",
@@ -1101,7 +1148,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://12938322729",
@@ -1112,7 +1159,7 @@ data = {
                         "rbxassetid://10859697821"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockId"] = 202}}
             },
             ["image"] = "rbxassetid://10859697750",
@@ -1122,7 +1169,7 @@ data = {
             ["projectileSource"] = {
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0xe5d30a8fa086149c",
+                ["projectileType"] = "function: 0x6c70a3ceebf6756a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["ammoItemTypes"] = {"arrow", "iron_arrow"},
                 ["walkSpeedMultiplier"] = 0.25,
@@ -1148,14 +1195,14 @@ data = {
                 ["lightning_strike"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x5aba4fafaaa2f37c",
+                    ["projectileType"] = "function: 0x15bb33eb5d0b31da",
                     ["thirdPerson"] = {["fireAnimation"] = 25},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 },
                 ["electric_orb"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x4a21f21675548ddc",
+                    ["projectileType"] = "function: 0xef90ba38b9772f7a",
                     ["thirdPerson"] = {["fireAnimation"] = 26},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 }
@@ -1167,7 +1214,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"banana_peel"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x5729d4f435f1e5bc",
+                ["projectileType"] = "function: 0x94f786880ba7681a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -1198,7 +1245,7 @@ data = {
                     ["multiShotChargeTime"] = 0.5,
                     ["fireDelaySec"] = 1,
                     ["minStrengthScalar"] = 1,
-                    ["projectileType"] = "function: 0xb2339c8c19cc6e5c",
+                    ["projectileType"] = "function: 0x252d82f748f7cc5a",
                     ["launchSound"] = {
                         "rbxassetid://16111537253",
                         "rbxassetid://16111537565",
@@ -1213,7 +1260,7 @@ data = {
                     ["multiShotChargeTime"] = 0.5,
                     ["fireDelaySec"] = 1,
                     ["minStrengthScalar"] = 1,
-                    ["projectileType"] = "function: 0xb38984c7d35f9c3c",
+                    ["projectileType"] = "function: 0x13181dc08f90d6fa",
                     ["launchSound"] = {
                         "rbxassetid://16111537253",
                         "rbxassetid://16111537565",
@@ -1234,7 +1281,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"fireball"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xff8507f629303b3c",
+                ["projectileType"] = "function: 0x6d5de355750f239a",
                 ["launchSound"] = {"rbxassetid://7192289445"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -1277,8 +1324,8 @@ data = {
                         "rbxassetid://16991765391"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 17}}
             },
             ["image"] = "rbxassetid://7884365859",
@@ -1294,7 +1341,7 @@ data = {
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"sleep_splash_potion"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0xbd82433a9c9063dc",
+                ["projectileType"] = "function: 0x205849537231d57a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {}
             },
@@ -1332,7 +1379,7 @@ data = {
                 ["walkSpeedMultiplier"] = 0.6,
                 ["ammoItemTypes"] = {"hot_potato"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0xcd1be64e66a26ebc",
+                ["projectileType"] = "function: 0x144cc11d6468bb1a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 54}
             },
@@ -1341,8 +1388,8 @@ data = {
         },
         ["lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x3365e80229cf339c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xa5304a53d6a90d3a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 15,
@@ -1368,7 +1415,7 @@ data = {
             ["footstepSound"] = 3,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x5e2c56b78ad0f2dc",
+                ["placeSound"] = "function: 0x940384d8431eb87a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072732694",
@@ -1379,7 +1426,7 @@ data = {
                         "rbxassetid://9072732694"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 12}}
             },
             ["image"] = "rbxassetid://9072732616",
@@ -1389,7 +1436,7 @@ data = {
             ["footstepSound"] = 6,
             ["block"] = {
                 ["breakType"] = "wool",
-                ["placeSound"] = "function: 0x49c61c257ef1571c",
+                ["placeSound"] = "function: 0xbcdd11b19479ce3a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766975",
@@ -1400,7 +1447,7 @@ data = {
                         "rbxassetid://16991766975"
                     }
                 },
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba",
                 ["health"] = 1,
                 ["minecraftConversions"] = {{["blockId"] = 78}, {["blockId"] = 80}}
             },
@@ -1414,8 +1461,8 @@ data = {
             ["block"] = {
                 ["blastResistance"] = 1.73,
                 ["health"] = 75,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone"
             },
             ["displayName"] = "Stone Wall Builder"
@@ -1428,7 +1475,7 @@ data = {
                 ["attackSpeed"] = 0.4,
                 ["hitSound"] = "rbxassetid://11753700711",
                 ["swingSounds"] = {"rbxassetid://11753700600", "rbxassetid://11753700890", "rbxassetid://11753700803"},
-                ["swingAnimations"] = {328, 327},
+                ["swingAnimations"] = {329, 328},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 42
             },
@@ -1445,8 +1492,8 @@ data = {
         ["invisible_landmine"] = {
             ["image"] = "rbxassetid://9434319010",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x2c850f1e8aace99c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x65c958f95be7eb3a",
                 ["maxPlaced"] = 6,
                 ["breakType"] = "stone",
                 ["health"] = 25,
@@ -1461,13 +1508,13 @@ data = {
         ["carrot"] = {
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x7168a79f5819a6dc",
+                ["placeSound"] = "function: 0xffa1a28078e96bfa",
                 ["minecraftConversions"] = {{["blockId"] = 8016}},
                 ["breakType"] = "wood",
                 ["health"] = 5,
                 ["seeThrough"] = true,
                 ["disableFlamableByTeammates"] = true,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["disableInventoryPickup"] = true,
                 ["placedBy"] = {["itemType"] = "carrot_seeds"}
             },
@@ -1503,8 +1550,8 @@ data = {
             ["footstepSound"] = 5,
             ["block"] = {
                 ["breakType"] = "wool",
-                ["placeSound"] = "function: 0x60f7eaae4b71149c",
-                ["breakSound"] = "function: 0x204b735ba0b5f9dc",
+                ["placeSound"] = "function: 0x35cac329b30a67ba",
+                ["breakSound"] = "function: 0xfdcceeb9fabe237a",
                 ["health"] = 8,
                 ["wool"] = true,
                 ["blastResistance"] = 0.65,
@@ -1518,7 +1565,7 @@ data = {
             ["projectileSource"] = {
                 ["multiShotCount"] = 3,
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0xbfc651f1c362fa9c",
+                ["projectileType"] = "function: 0x1850678a122095ba",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["multiShot"] = true,
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
@@ -1535,7 +1582,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7852098030",
@@ -1547,7 +1594,7 @@ data = {
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 42}},
-                ["breakSound"] = "function: 0x251a9bbf447d9b1c"
+                ["breakSound"] = "function: 0xfab06376732e323a"
             },
             ["image"] = "rbxassetid://7884369517",
             ["displayName"] = "Iron Block"
@@ -1559,7 +1606,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"pumpkin_bomb_2"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x60fb09ca01f4a0dc",
+                ["projectileType"] = "function: 0xc0f6ff6e35f1ea7a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -1572,7 +1619,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"pumpkin_bomb_1"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x601d299b774eb9bc",
+                ["projectileType"] = "function: 0x14e989a6c2a8941a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -1581,12 +1628,12 @@ data = {
         ["manual_cannon"] = {
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12011}},
                 ["breakType"] = "stone",
                 ["health"] = 50,
                 ["disableInventoryPickup"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"cannon-type"},
                 ["unbreakableByTeammates"] = true,
                 ["denyPlaceOn"] = true
@@ -1618,7 +1665,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x7168821515e7745c",
+                ["placeSound"] = "function: 0x23e27ad0d7aee4fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7872906008",
@@ -1629,7 +1676,7 @@ data = {
                         "rbxassetid://7872906008"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 5, ["blockId"] = 159}}
             },
@@ -1642,16 +1689,23 @@ data = {
             ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 38},
             ["displayName"] = "Sparkler Sword"
         },
-        ["baseball_bat"] = {
+        ["infernal_saber"] = {
+            ["image"] = "rbxassetid://9620506030",
+            ["sharingDisabled"] = true,
+            ["skins"] = {"infernal_saber_krampus"},
             ["sword"] = {
-                ["attackSpeed"] = 6,
-                ["swingSounds"] = {},
-                ["respectAttackSpeedForEffects"] = true,
-                ["knockbackMultiplier"] = {["horizontal"] = 5},
-                ["applyCooldownOnMiss"] = true,
-                ["damage"] = 100
+                ["knockbackMultiplier"] = {["horizontal"] = 0.5},
+                ["chargedAttack"] = {
+                    ["minChargeTimeSec"] = 1,
+                    ["walkSpeedModifier"] = {["multiplier"] = 1},
+                    ["maxChargeTimeSec"] = 1,
+                    ["attackCooldown"] = 0.5
+                },
+                ["attackSpeed"] = 0.3,
+                ["damage"] = 40
             },
-            ["displayName"] = "Baseball Bat"
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Infernal Saber"
         },
         ["natures_essence_3"] = {
             ["image"] = "rbxassetid://11003449842",
@@ -1682,8 +1736,8 @@ data = {
                     {["blockData"] = 14, ["blockId"] = 95},
                     {["blockData"] = 15, ["blockId"] = 95}
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["seeThrough"] = true
             },
             ["image"] = "rbxassetid://6909521321",
@@ -1697,8 +1751,8 @@ data = {
         ["diamond_capture_block"] = {
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc"
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a"
             },
             ["removeFromCustoms"] = true,
             ["displayName"] = "Diamond Capture Block"
@@ -1717,7 +1771,7 @@ data = {
                     ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
                     ["bonusDamage"] = 4
                 },
-                ["idleAnimation"] = 412,
+                ["idleAnimation"] = 413,
                 ["attackSpeed"] = 0.4,
                 ["respectAttackSpeedForEffects"] = true,
                 ["swingAnimations"] = {},
@@ -1732,7 +1786,7 @@ data = {
                 ["waitForHit"] = true,
                 ["fireDelaySec"] = 1,
                 ["thirdPerson"] = {["fireAnimation"] = 151, ["aimAnimation"] = 150},
-                ["projectileType"] = "function: 0x6803a078d602751c",
+                ["projectileType"] = "function: 0xe9e585423241943a",
                 ["launchSound"] = {"rbxassetid://13488974503"},
                 ["blockingStatusEffects"] = {"grounded"}
             },
@@ -1747,7 +1801,7 @@ data = {
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.6,
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa6b545bfb490559c",
+                ["projectileType"] = "function: 0xe89421114363a6ba",
                 ["launchSound"] = {"rbxassetid://10999341919"},
                 ["maxStrengthChargeSec"] = 0.25
             },
@@ -1755,10 +1809,10 @@ data = {
         },
         ["chicken_deploy"] = {
             ["projectileSource"] = {
-                ["thirdPerson"] = {["fireAnimation"] = 448, ["idleAnimation"] = 449},
+                ["thirdPerson"] = {["fireAnimation"] = 449, ["idleAnimation"] = 450},
                 ["ammoItemTypes"] = {"chicken_deploy"},
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0xcc18fbf96f06a75c",
+                ["projectileType"] = "function: 0x176ee58e015325fa",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -1781,12 +1835,12 @@ data = {
         ["spear"] = {
             ["image"] = "rbxassetid://7808151805",
             ["sharingDisabled"] = true,
-            ["maxStackSize"] = 8,
+            ["maxStackSize"] = 10,
             ["projectileSource"] = {
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"spear"},
                 ["walkSpeedMultiplier"] = 0.2,
-                ["projectileType"] = "function: 0xb1cd2eed8915fa7c",
+                ["projectileType"] = "function: 0x14219556d559bcda",
                 ["maxStrengthChargeSec"] = 0.25,
                 ["fireDelaySec"] = 0.7
             },
@@ -1797,9 +1851,9 @@ data = {
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 15,
-                ["breakSound"] = "function: 0xe966313d7f157ddc",
+                ["breakSound"] = "function: 0xaa67105021e99efa",
                 ["blastProof"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["luckyBlock"] = {["categories"] = {"flying"}, ["drops"] = {{["luckMultiplier"] = 2}}},
                 ["disableInventoryPickup"] = true
             },
@@ -1808,24 +1862,21 @@ data = {
         ["growing_halloween_lucky_block"] = {
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["seeThrough"] = true,
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["collectionServiceTags"] = {"GrowingHalloweenLuckyBlock"},
                 ["breakType"] = "grass",
                 ["unbreakable"] = true
             },
             ["displayName"] = "Growing Halloween Lucky Block"
         },
-        ["stone_dao"] = {
-            ["daoSword"] = {["armorMultiplier"] = 0.8, ["dashDamage"] = 19.8},
-            ["image"] = "rbxassetid://8665071212",
-            ["description"] = "Charge to dash forward. Downgrades to a Wood Dao upon death.",
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["skins"] = {"stone_dao_tiger", "stone_dao_victorious", "stone_dao_cursed"},
-            ["sword"] = {["daoDash"] = true, ["attackSpeed"] = 0.3, ["damage"] = 25},
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Stone Dao"
+        ["portable_vending_machine"] = {
+            ["image"] = "rbxassetid://11272093702",
+            ["description"] = "Visit the Shop anywhere and unlock the Blind-Box in the Shop. Purchasing an item will put the vending machine on cooldown.",
+            ["maxStackSize"] = 1,
+            ["backpack"] = {["activeAbility"] = true},
+            ["displayName"] = "Portable Vending Machine"
         },
         ["infernal_shield"] = {
             ["image"] = "rbxassetid://7051149149",
@@ -1842,29 +1893,29 @@ data = {
             ["damage"] = 48,
             ["sword"] = {
                 ["attackSpeed"] = 0.6,
-                ["swingAnimations"] = {413, 414},
+                ["swingAnimations"] = {414, 415},
                 ["respectAttackSpeedForEffects"] = true,
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9},
                     ["minChargeTimeSec"] = 0.75,
-                    ["chargedSwingAnimations"] = {415},
+                    ["chargedSwingAnimations"] = {416},
                     ["attackCooldown"] = 0.65,
                     ["showHoldProgressAfterSec"] = 0.25,
                     ["maxChargeTimeSec"] = 0.75,
                     ["chargedSwingSounds"] = {"rbxassetid://11715550908"},
                     ["bonusDamage"] = 16.799999999999997,
-                    ["firstPersonChargedSwingAnimations"] = {419},
+                    ["firstPersonChargedSwingAnimations"] = {420},
                     ["chargingEffects"] = {
-                        ["thirdPersonAnim"] = 416,
+                        ["thirdPersonAnim"] = 417,
                         ["sound"] = "rbxassetid://9252451221",
-                        ["firstPersonAnim"] = 420
+                        ["firstPersonAnim"] = 421
                     },
                     ["bonusKnockback"] = {["vertical"] = 0.1, ["horizontal"] = 0.2}
                 },
                 ["multiHitCheckDurationSec"] = 0.25,
                 ["knockbackMultiplier"] = {["vertical"] = 1.1, ["horizontal"] = 1.2},
                 ["attackRange"] = 15,
-                ["firstPersonSwingAnimations"] = {417, 418},
+                ["firstPersonSwingAnimations"] = {418, 419},
                 ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 48
@@ -1881,7 +1932,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xd43c4e1e4b8fb39c",
+                ["placeSound"] = "function: 0xb7879bb7f34990ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765574",
@@ -1892,7 +1943,7 @@ data = {
                         "rbxassetid://16991765574"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 11, ["blockId"] = 251}}
             },
@@ -1913,7 +1964,7 @@ data = {
                     ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
                     ["bonusDamage"] = 4
                 },
-                ["idleAnimation"] = 412,
+                ["idleAnimation"] = 413,
                 ["attackSpeed"] = 0.4,
                 ["respectAttackSpeedForEffects"] = true,
                 ["swingAnimations"] = {},
@@ -1933,7 +1984,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x16bf6b41f5ea389c",
+                ["placeSound"] = "function: 0xcbcacb0da40a3bba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072525939",
@@ -1944,7 +1995,7 @@ data = {
                         "rbxassetid://9072525939"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://9072553261",
@@ -1957,20 +2008,20 @@ data = {
             ["backpack"] = {["cooldown"] = 10},
             ["displayName"] = "Rocket Belt"
         },
-        ["glitch_robbery_ball"] = {
-            ["glitched"] = true,
-            ["image"] = "rbxassetid://7977038485",
-            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
-            ["projectileSource"] = {
-                ["fireDelaySec"] = 0.15,
-                ["maxStrengthChargeSec"] = 0.25,
-                ["ammoItemTypes"] = {"glitch_robbery_ball"},
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xeccc74212ba91abc",
-                ["launchSound"] = {"rbxassetid://6866223756"},
-                ["firstPerson"] = {["fireAnimation"] = 14}
+        ["tesla_trap"] = {
+            ["image"] = "rbxassetid://7498163110",
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x1d1b66972d1f19fa",
+                ["maxPlaced"] = 1,
+                ["breakType"] = "stone",
+                ["health"] = 18,
+                ["seeThrough"] = true,
+                ["collectionServiceTags"] = {"tesla-trap"},
+                ["minecraftConversions"] = {{["blockId"] = 8022}},
+                ["disableInventoryPickup"] = true
             },
-            ["displayName"] = "Robbery Ball?"
+            ["displayName"] = "Tesla Coil Trap"
         },
         ["zipline"] = {
             ["image"] = "rbxassetid://7051148904",
@@ -1979,7 +2030,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"zipline"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xddb2bfe8b314a9fc",
+                ["projectileType"] = "function: 0xbd7ff6eaaed8df5a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
             },
@@ -1989,7 +2040,7 @@ data = {
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://15958116043",
@@ -2001,7 +2052,7 @@ data = {
                     }
                 },
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 3}},
-                ["breakSound"] = "function: 0x2b24bb0abcc2b41c"
+                ["breakSound"] = "function: 0x2abfa55460e6073a"
             },
             ["displayName"] = "Void Dirt"
         },
@@ -2023,7 +2074,7 @@ data = {
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x1cd3a48886fba71c",
+                ["placeSound"] = "function: 0xba013ac3e9eafe3a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10866261237",
@@ -2041,7 +2092,7 @@ data = {
                         Color3.fromRGB(0, 232, 118)
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["minecraftConversions"] = {{["blockId"] = 48}}
             },
             ["image"] = "rbxassetid://10866497548",
@@ -2051,14 +2102,14 @@ data = {
             ["footstepSound"] = 2,
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockId"] = 12006}},
                 ["blastProof"] = true,
                 ["breakType"] = "wood",
                 ["health"] = 18,
                 ["disableInventoryPickup"] = true,
                 ["collectionServiceTags"] = {"flag"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["seeThrough"] = true
             },
             ["displayName"] = "Flag"
@@ -2072,7 +2123,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc63ec479de4687dc",
+                ["placeSound"] = "function: 0x146242d67a37497a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7843853920",
@@ -2083,7 +2134,7 @@ data = {
                         "rbxassetid://7843853920"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 179}}
             },
@@ -2114,11 +2165,11 @@ data = {
             ["image"] = "rbxassetid://3677675280",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x0b49611d88db851c",
+                ["placeSound"] = "function: 0x329b3b3eafcbc6ba",
                 ["minecraftConversions"] = {{["blockId"] = 8424}},
                 ["unbreakable"] = true,
                 ["breakType"] = "wood",
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["disableInventoryPickup"] = true,
                 ["disableFlamableByTeammates"] = true,
                 ["collectionServiceTags"] = {"egg-block"},
@@ -2152,6 +2203,7 @@ data = {
         ["stone_brick"] = {
             ["footstepSound"] = 1,
             ["block"] = {
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
                 ["health"] = 75,
                 ["greedyMesh"] = {
@@ -2164,8 +2216,8 @@ data = {
                         "rbxassetid://16991767326"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["regenSpeed"] = 0.1,
                 ["minecraftConversions"] = {{["blockId"] = 98}, {["blockData"] = 6, ["blockId"] = 1}},
                 ["blastResistance"] = 2
             },
@@ -2174,8 +2226,8 @@ data = {
         },
         ["rainbow_pot_of_gold"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x637524864881c8dc",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x7bcd53ad33a8e3fa",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 1000,
@@ -2212,8 +2264,8 @@ data = {
                         "rbxassetid://16991767778"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 5}}
             },
             ["image"] = "rbxassetid://7884372787",
@@ -2222,10 +2274,11 @@ data = {
         ["bed"] = {
             ["footstepSound"] = 2,
             ["block"] = {
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockId"] = 12005}},
                 ["blastProof"] = true,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["noRegen"] = true,
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["breakType"] = "wood",
                 ["health"] = 18,
                 ["seeThrough"] = true,
@@ -2243,7 +2296,7 @@ data = {
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"snowball"},
                 ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0xd3cf369f1b39cf3c",
+                ["projectileType"] = "function: 0xac3be3dae00be79a",
                 ["launchSound"] = {"rbxassetid://8165640372"},
                 ["fireDelaySec"] = 0.22
             },
@@ -2269,10 +2322,10 @@ data = {
             ["description"] = "Used to create a global generator above its position.",
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 9005}},
                 ["collectionServiceTags"] = {"CreativeGadget"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakableOnlyByHosts"] = true
             },
             ["displayName"] = "Global Generator Gadget"
@@ -2280,7 +2333,7 @@ data = {
         ["blunderbuss"] = {
             ["image"] = "rbxassetid://10722841562",
             ["projectileSource"] = {
-                ["projectileType"] = "function: 0xa5a379a4c47e253c",
+                ["projectileType"] = "function: 0x6c30de7d4b999d9a",
                 ["launchSound"] = {"rbxassetid://10714200509"},
                 ["fireDelaySec"] = 0.7
             },
@@ -2291,8 +2344,8 @@ data = {
             ["sharingDisabled"] = true,
             ["footstepSound"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xaa83781fe311342c",
-                ["breakSound"] = "function: 0xd4afdcb0a9cf1c3c",
+                ["placeSound"] = "function: 0xe2b91ad47e41f6ea",
+                ["breakSound"] = "function: 0xa5826daad9a5a6da",
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 35,
@@ -2320,7 +2373,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x498dde4cc07e031c",
+                ["placeSound"] = "function: 0x7cf228fdb9e69a3a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766313",
@@ -2331,7 +2384,7 @@ data = {
                         "rbxassetid://16991766313"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 159}}
             },
@@ -2345,40 +2398,25 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"robbery_ball"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xec51fa828af02e1c",
+                ["projectileType"] = "function: 0x18093c456100a53a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
             ["displayName"] = "Robbery Ball"
         },
         ["chicken_shop_item"] = {["image"] = "rbxassetid://13990235477", ["displayName"] = "Egg"},
-        ["galactite"] = {
-            ["footstepSound"] = 4,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://15966093089",
-                        "rbxassetid://15966093089",
-                        "rbxassetid://15966093089",
-                        "rbxassetid://15966093089",
-                        "rbxassetid://15966093089",
-                        "rbxassetid://15966093089"
-                    }
-                },
-                ["minecraftConversions"] = {{["blockId"] = 87}},
-                ["breakSound"] = "function: 0xec48d33a5354f6dc"
-            },
-            ["image"] = "rbxassetid://15966082316",
-            ["displayName"] = "Galactite"
+        ["leather_boots"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.08, ["slot"] = 2},
+            ["image"] = "rbxassetid://6855466456",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Leather Boots"
         },
         ["feather_bow"] = {
             ["skins"] = {"feather_bow_demon_empress_vanessa"},
             ["projectileSource"] = {
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["fireDelaySec"] = 1,
-                ["projectileType"] = "function: 0xdd89cfd45d54867c",
+                ["projectileType"] = "function: 0x94b3bd1c03f960da",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["ammoItemTypes"] = {"arrow"},
                 ["walkSpeedMultiplier"] = 0.25,
@@ -2398,7 +2436,7 @@ data = {
         ["dragon_beath"] = {
             ["projectileSource"] = {
                 ["activeReload"] = true,
-                ["projectileType"] = "function: 0xcde0e4827afd513c",
+                ["projectileType"] = "function: 0x2da2e7c00db9419a",
                 ["launchSound"] = {"rbxassetid://9252994838"},
                 ["fireDelaySec"] = 3
             },
@@ -2429,7 +2467,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"rocket_launcher_missile"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xba4fcb702c2636dc",
+                ["projectileType"] = "function: 0x9f95b8721b90fc7a",
                 ["launchSound"] = {"rbxassetid://7681584765"},
                 ["fireDelaySec"] = 2.2
             },
@@ -2449,10 +2487,10 @@ data = {
         ["zipline_base"] = {
             ["image"] = "rbxassetid://7051148904",
             ["block"] = {
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["breakType"] = "wood",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0x5e53ae6ccc6d0b9c",
+                ["breakSound"] = "function: 0x23a87721b47b173a",
                 ["blastProof"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 8017}},
                 ["disableInventoryPickup"] = true,
@@ -2476,8 +2514,8 @@ data = {
             ["image"] = "rbxassetid://10866119664",
             ["pickUpOverlaySound"] = "rbxassetid://10859056155",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x5c596e657b80479c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xe6834c5e8c99593a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 17,
@@ -2493,7 +2531,7 @@ data = {
                 },
                 ["disableInventoryPickup"] = true,
                 ["collectionServiceTags"] = {"GlitchedLuckyBlock"},
-                ["luckyBlock"] = {["drops"] = {{["luckMultiplier"] = 2}}},
+                ["luckyBlock"] = {["categories"] = {"glitch"}, ["drops"] = {{["luckMultiplier"] = 2}}},
                 ["minecraftConversions"] = {{["blockId"] = 12014}}
             },
             ["displayName"] = "Glitched Lucky Block"
@@ -2506,7 +2544,7 @@ data = {
                     ["thirdPerson"] = {["fireAnimation"] = 25},
                     ["fireDelaySec"] = 8,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0xbe699a53b21f363c",
+                    ["projectileType"] = "function: 0x9d9c3aeede4fd69a",
                     ["launchSound"] = {
                         "rbxassetid://10969529727",
                         "rbxassetid://10969529817",
@@ -2520,7 +2558,7 @@ data = {
                     ["thirdPerson"] = {["fireAnimation"] = 25},
                     ["fireDelaySec"] = 8,
                     ["minStrengthScalar"] = 0.7692307692307692,
-                    ["projectileType"] = "function: 0xae579880f8eb345c",
+                    ["projectileType"] = "function: 0xf3a18dcaf870acfa",
                     ["launchSound"] = {
                         "rbxassetid://10969529727",
                         "rbxassetid://10969529817",
@@ -2568,11 +2606,11 @@ data = {
         ["gumdrop_bounce_pad"] = {
             ["image"] = "rbxassetid://8270466544",
             ["block"] = {
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba",
                 ["breakType"] = "wool",
                 ["health"] = 2,
                 ["seeThrough"] = true,
-                ["placeSound"] = "function: 0xba37416c6b83079c",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
                 ["collectionServiceTags"] = {"launch-pad"},
                 ["disableEnemyInventoryPickup"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 8005}}
@@ -2596,14 +2634,14 @@ data = {
                 ["lightning_strike"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x48425fa2de6916fc",
+                    ["projectileType"] = "function: 0x6d876f24047f4a5a",
                     ["thirdPerson"] = {["fireAnimation"] = 25},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 },
                 ["electric_orb"] = {
                     ["cooldownId"] = "wizard_staff",
                     ["fireDelaySec"] = 1,
-                    ["projectileType"] = "function: 0x47c8d3b313f4dc5c",
+                    ["projectileType"] = "function: 0x77857f1dae3354fa",
                     ["thirdPerson"] = {["fireAnimation"] = 26},
                     ["firstPerson"] = {["fireAnimation"] = 14}
                 }
@@ -2615,36 +2653,27 @@ data = {
             ["description"] = "Alchemist crafting material.",
             ["displayName"] = "Thorns"
         },
-        ["clay_light_brown"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x48aaad80382fe69c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://7872905675",
-                        "rbxassetid://7872905675",
-                        "rbxassetid://7872905675",
-                        "rbxassetid://7872905675",
-                        "rbxassetid://7872905675",
-                        "rbxassetid://7872905675"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {
-                    {["blockData"] = 12, ["blockId"] = 159},
-                    {["blockData"] = 12, ["blockId"] = 251}
-                }
+        ["lasso"] = {
+            ["image"] = "rbxassetid://7192710930",
+            ["sharingDisabled"] = true,
+            ["skins"] = {"lasso_mummy"},
+            ["projectileSource"] = {
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23},
+                ["maxStrengthChargeSec"] = 0.5,
+                ["minStrengthScalar"] = 0.5,
+                ["fireDelaySec"] = 8,
+                ["walkSpeedMultiplier"] = 0.25,
+                ["projectileType"] = "function: 0xf59dc67806b8d51a",
+                ["launchSound"] = {"rbxassetid://7192289548"},
+                ["hitSounds"] = {{"rbxassetid://7192289603"}}
             },
-            ["image"] = "rbxassetid://7884367792",
-            ["displayName"] = "Light Brown Clay"
+            ["displayName"] = "Lasso"
         },
         ["rainbow_bow"] = {
             ["projectileSource"] = {
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0xada445626403809c",
+                ["projectileType"] = "function: 0xc76fa3b4b5e0fbba",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
                 ["ammoItemTypes"] = {"rainbow_arrow"},
@@ -2660,8 +2689,8 @@ data = {
         ["halloween_lucky_block"] = {
             ["image"] = "rbxassetid://15093670805",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd6f6866579ebd4dc",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xb7a783af6552a33a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 15,
@@ -2684,8 +2713,8 @@ data = {
         ["chicken_emerald"] = {["image"] = "rbxassetid://13980233671", ["displayName"] = "Emerald Chicken"},
         ["beehive"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x5e1e20e52f77f45c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x34df1bf8358b0e7a",
                 ["breakType"] = "stone",
                 ["health"] = 25,
                 ["seeThrough"] = true,
@@ -2698,13 +2727,20 @@ data = {
             ["sharingDisabled"] = true,
             ["displayName"] = "Beehive"
         },
+        ["block_repair_tool"] = {
+            ["image"] = "rbxassetid://130181835534959",
+            ["description"] = "Use to repair blocks",
+            ["blockRepair"] = {},
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Repair Tool"
+        },
         ["flower_purple"] = {
             ["block"] = {
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["breakType"] = "grass",
                 ["dontPlaceInPublicMatch"] = true,
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 31}, {["blockId"] = 37}},
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["seeThrough"] = true,
                 ["canReplace"] = true,
                 ["unbreakable"] = true
@@ -2725,8 +2761,8 @@ data = {
             ["block"] = {
                 ["breakType"] = "wool",
                 ["health"] = 1,
-                ["breakSound"] = "function: 0xcca3f7cec165175c",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
+                ["breakSound"] = "function: 0x9cb8219ab23acdfa",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://14719641761",
@@ -2745,8 +2781,8 @@ data = {
             ["description"] = "Place banner that grants 'Fire II' to yourself and any team member inside banner radius.",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0xeb8020e086c16f9c",
-                ["breakSound"] = "function: 0xedb4a2821ba6755c",
+                ["placeSound"] = "function: 0xf51980e302ce54ba",
+                ["breakSound"] = "function: 0xc5739f47aaba4ffa",
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 40,
@@ -2781,11 +2817,11 @@ data = {
         },
         ["small_bush"] = {
             ["block"] = {
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["breakType"] = "grass",
                 ["dontPlaceInPublicMatch"] = true,
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 175}},
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["seeThrough"] = true,
                 ["canReplace"] = true,
                 ["unbreakable"] = true
@@ -2796,7 +2832,7 @@ data = {
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x3ac728fa2b9a325c",
+                ["placeSound"] = "function: 0x6607dabf175632fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7911371279",
@@ -2807,7 +2843,7 @@ data = {
                         "rbxassetid://7911371120"
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["minecraftConversions"] = {{["blockId"] = 2}}
             },
             ["image"] = "rbxassetid://7911370722",
@@ -2816,9 +2852,9 @@ data = {
         ["stone_player_block"] = {
             ["footstepSound"] = 0,
             ["block"] = {
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x6dfc983be21e831c",
+                ["placeSound"] = "function: 0xeded98142ebb64ba",
                 ["disableInventoryPickup"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 8008}},
                 ["health"] = 6,
@@ -2858,10 +2894,10 @@ data = {
             ["description"] = "When an enemy steps on the Spider Web trap they will be stunned and attacked by a spider.",
             ["maxStackSize"] = 7,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 1,
-                ["breakSound"] = "function: 0x168906732ba526dc",
+                ["breakSound"] = "function: 0x1a1f374eff1881fa",
                 ["minecraftConversions"] = {{["blockId"] = 8003}},
                 ["collectionServiceTags"] = {"spider_web"},
                 ["maxPlaced"] = 7,
@@ -2873,7 +2909,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x2cfeb6db60c9975c",
+                ["placeSound"] = "function: 0x8bd0d736b6d9757a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://12946930317",
@@ -2884,7 +2920,7 @@ data = {
                         "rbxassetid://12946930317"
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["pointLight"] = {
                     ["Color"] = Color3.fromRGB(219, 255, 255),
                     ["Brightness"] = 0.7,
@@ -2903,7 +2939,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"popup_cube"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xfc4bbc33576625fc",
+                ["projectileType"] = "function: 0xfc1dcdac1769a35a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -2937,7 +2973,7 @@ data = {
             ["projectileSource"] = {
                 ["multiShotChargeTime"] = 1.3,
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x672843471b2e432c",
+                ["projectileType"] = "function: 0x1621cc7c6078e29a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["ammoItemTypes"] = {"arrow", "iron_arrow"},
@@ -2976,7 +3012,7 @@ data = {
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"smoke_grenade"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0xdf7580972bbc741c",
+                ["projectileType"] = "function: 0x787fcbd63e835f3a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {}
             },
@@ -2987,8 +3023,9 @@ data = {
         ["wool_red"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -3015,29 +3052,29 @@ data = {
             ["description"] = "Deal large amounts of knockback to enemies.",
             ["sword"] = {
                 ["attackSpeed"] = 0.6,
-                ["swingAnimations"] = {413, 414},
+                ["swingAnimations"] = {414, 415},
                 ["respectAttackSpeedForEffects"] = true,
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9},
                     ["minChargeTimeSec"] = 0.75,
-                    ["chargedSwingAnimations"] = {415},
+                    ["chargedSwingAnimations"] = {416},
                     ["attackCooldown"] = 0.65,
                     ["showHoldProgressAfterSec"] = 0.25,
                     ["maxChargeTimeSec"] = 0.75,
                     ["chargedSwingSounds"] = {"rbxassetid://11715550908"},
                     ["bonusDamage"] = 8.049999999999999,
-                    ["firstPersonChargedSwingAnimations"] = {419},
+                    ["firstPersonChargedSwingAnimations"] = {420},
                     ["chargingEffects"] = {
-                        ["thirdPersonAnim"] = 416,
+                        ["thirdPersonAnim"] = 417,
                         ["sound"] = "rbxassetid://9252451221",
-                        ["firstPersonAnim"] = 420
+                        ["firstPersonAnim"] = 421
                     },
                     ["bonusKnockback"] = {["vertical"] = 0.1, ["horizontal"] = 0.2}
                 },
                 ["multiHitCheckDurationSec"] = 0.25,
                 ["knockbackMultiplier"] = {["vertical"] = 1.1, ["horizontal"] = 1.2},
                 ["attackRange"] = 15,
-                ["firstPersonSwingAnimations"] = {417, 418},
+                ["firstPersonSwingAnimations"] = {418, 419},
                 ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 23
@@ -3049,7 +3086,7 @@ data = {
             ["replaces"] = {"wood_gauntlets"},
             ["description"] = "Punch rapidly to deal more damage with combos. Downgrades to Wood Gauntlets upon death.",
             ["sword"] = {
-                ["idleAnimation"] = 427,
+                ["idleAnimation"] = 428,
                 ["swingSounds"] = {},
                 ["ignoreDamageCooldown"] = true,
                 ["attackSpeed"] = 0.21,
@@ -3062,23 +3099,24 @@ data = {
             ["disableFirstPersonHoldAnimation"] = true,
             ["firstPerson"] = {["scale"] = 1, ["verticalOffset"] = -1.2}
         },
-        ["pirate_flag"] = {
-            ["block"] = {
-                ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x565a505603fccf1c",
-                ["breakSound"] = "function: 0x37de127496c6e0dc",
-                ["maxPlaced"] = 1,
-                ["breakType"] = "stone",
-                ["health"] = 40,
-                ["disableInventoryPickup"] = true,
-                ["minecraftConversions"] = {{["blockId"] = 12022}},
-                ["collectionServiceTags"] = {"pirate-flag"},
-                ["unbreakableByTeammates"] = true,
-                ["seeThrough"] = true
+        ["orions_belt_bow"] = {
+            ["projectileSource"] = {
+                ["multiShotCount"] = 3,
+                ["chargeBeginSound"] = {"rbxassetid://7987032429"},
+                ["fireDelaySec"] = 0.3,
+                ["projectileType"] = "function: 0x749a77e7b47bad1a",
+                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
+                ["minStrengthScalar"] = 0.25,
+                ["multiShot"] = true,
+                ["ammoItemTypes"] = {"star"},
+                ["walkSpeedMultiplier"] = 0.25,
+                ["maxStrengthChargeSec"] = 0.5,
+                ["launchSound"] = {"rbxassetid://10969529761"},
+                ["multiShotDelay"] = 0.1
             },
-            ["image"] = "rbxassetid://10797226392",
-            ["description"] = "Periodically collects nearby dropped items",
-            ["displayName"] = "Pirate Flag"
+            ["image"] = "rbxassetid://11774789128",
+            ["description"] = "Shoots a constellation of explosive stars.",
+            ["displayName"] = "Constellation Bow"
         },
         ["rageblade"] = {
             ["image"] = "rbxassetid://7051149237",
@@ -3098,7 +3136,7 @@ data = {
                 ["ignoreDamageCooldown"] = false,
                 ["respectAttackSpeedForEffects"] = true,
                 ["firstPersonSwingAnimations"] = {15},
-                ["swingAnimations"] = {334, 335, 336},
+                ["swingAnimations"] = {335, 336, 337},
                 ["hitSound"] = "rbxassetid://11715551081",
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 25
@@ -3131,7 +3169,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xd2177a31b75f3a1c",
+                ["placeSound"] = "function: 0xef42e46db0ea693a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7861526072",
@@ -3142,7 +3180,7 @@ data = {
                         "rbxassetid://7861526072"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockId"] = 82}}
             },
@@ -3166,7 +3204,7 @@ data = {
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"frozen_fortress"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x971634f9a7220c1c",
+                ["projectileType"] = "function: 0xff33456f7081c73a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -3194,7 +3232,7 @@ data = {
             ["image"] = "rbxassetid://7807308581",
             ["sharingDisabled"] = true,
             ["projectileSource"] = {
-                ["projectileType"] = "function: 0xb6b352e4c305ecdc",
+                ["projectileType"] = "function: 0x40e417a8af10a67a",
                 ["launchSound"] = {"rbxassetid://7806060976"},
                 ["fireDelaySec"] = 0
             },
@@ -3204,7 +3242,7 @@ data = {
         ["portal_gun"] = {
             ["projectileSource"] = {
                 ["thirdPerson"] = {["fireAnimation"] = 151, ["aimAnimation"] = 150},
-                ["projectileType"] = "function: 0xfca6c255c469095c",
+                ["projectileType"] = "function: 0xb059e870e4f143fa",
                 ["activeReload"] = true,
                 ["fireDelaySec"] = 3
             },
@@ -3242,7 +3280,7 @@ data = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859697716",
@@ -3254,7 +3292,7 @@ data = {
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 15}},
-                ["breakSound"] = "function: 0x214ef069159dee1c"
+                ["breakSound"] = "function: 0xad4cee290da61d3a"
             },
             ["image"] = "rbxassetid://10859697667",
             ["displayName"] = "Steel Block"
@@ -3263,7 +3301,7 @@ data = {
             ["footstepSound"] = 2,
             ["block"] = {
                 ["breakType"] = "wood",
-                ["placeSound"] = "function: 0x7494cc5db6ca8b9c",
+                ["placeSound"] = "function: 0xa6fdc1d949f8853a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://14968393691",
@@ -3274,7 +3312,7 @@ data = {
                         "rbxassetid://14968393626"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["minecraftConversions"] = {{["blockId"] = 84}}
             },
             ["image"] = "rbxassetid://14968393558",
@@ -3302,8 +3340,8 @@ data = {
                         "rbxassetid://10866119486"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockId"] = 47}}
             },
             ["image"] = "rbxassetid://10866360547",
@@ -3311,8 +3349,8 @@ data = {
         },
         ["styx_exit_portal"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["disableEnemyInventoryPickup"] = true,
                 ["health"] = 20,
                 ["disableInventoryPickup"] = true,
@@ -3338,15 +3376,15 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://17858940835",
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xf92ab8d870ffba1c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x137a3c9c5d8909ba",
                 ["breakType"] = "stone",
                 ["health"] = 8,
                 ["seeThrough"] = true,
                 ["collectionServiceTags"] = {"Ballista"},
                 ["projectileSource"] = {
                     ["relativeOverride"] = {["relX"] = 0, ["relY"] = 0, ["relZ"] = 0},
-                    ["projectileType"] = "function: 0xcd1d7bebf97f121c",
+                    ["projectileType"] = "function: 0x9b68d638ec01f93a",
                     ["launchSound"] = {
                         "rbxassetid://17845137969",
                         "rbxassetid://17845138487",
@@ -3399,7 +3437,7 @@ Item Discounts: 15%->20%]],
                     ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
                     ["bonusDamage"] = 4
                 },
-                ["idleAnimation"] = 412,
+                ["idleAnimation"] = 413,
                 ["attackSpeed"] = 0.4,
                 ["respectAttackSpeedForEffects"] = true,
                 ["swingAnimations"] = {},
@@ -3412,7 +3450,7 @@ Item Discounts: 15%->20%]],
         ["magma_block"] = {
             ["footstepSound"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 213}},
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
@@ -3427,7 +3465,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://9439108691"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"MagmaBlock"},
                 ["pointLight"] = {
                     ["Color"] = Color3.fromRGB(255, 130, 130),
@@ -3493,7 +3531,7 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://7681398025",
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.4,
-                ["projectileType"] = "function: 0x5310e7094f59043c",
+                ["projectileType"] = "function: 0xfcca61c5f758d09a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["ammoItemTypes"] = {"large_rock"}
             },
@@ -3506,8 +3544,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["breakType"] = "wool",
                 ["health"] = 1,
-                ["breakSound"] = "function: 0x0b7a3984597b3e1c",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
+                ["breakSound"] = "function: 0x91ab2d6c2998f5ba",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
                 ["minecraftConversions"] = {{["blockId"] = 8005}},
                 ["disableInventoryPickup"] = true
             },
@@ -3519,7 +3557,7 @@ Item Discounts: 15%->20%]],
             ["skins"] = {"tactical_crossbow_lunar_dragon"},
             ["projectileSource"] = {
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x5d18cabbfdb2c78c",
+                ["projectileType"] = "function: 0x7cfdccea0662226a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
@@ -3542,7 +3580,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 3,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x7fe01ed027beed1c",
+                ["placeSound"] = "function: 0x1c0db49bf2a7643a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7843856590",
@@ -3553,7 +3591,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://7843856590"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 12}}
             },
@@ -3570,7 +3608,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"meteor_shower"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xe58c40655c7b7a1c",
+                ["projectileType"] = "function: 0x988a46ae1600613a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -3590,8 +3628,8 @@ Item Discounts: 15%->20%]],
             ["description"] = "Place banner that grants 'Anti Knockback' to yourself and any team member inside banner radius.",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x2e68baddee9e801c",
-                ["breakSound"] = "function: 0x28af38cf42712fdc",
+                ["placeSound"] = "function: 0x6d1de1e3fd1a3b3a",
+                ["breakSound"] = "function: 0x1d3fd39f07cec17a",
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 40,
@@ -3672,7 +3710,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"pumpkin_bomb_3"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa1132906fb662e7c",
+                ["projectileType"] = "function: 0x9cf7ef436eb8e8da",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -3685,7 +3723,7 @@ Item Discounts: 15%->20%]],
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"c4_bomb"},
                 ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0x6b1c5d6a4e62605c",
+                ["projectileType"] = "function: 0x303394e1651790fa",
                 ["launchSound"] = {"rbxassetid://8165640372"},
                 ["fireDelaySec"] = 0.15
             },
@@ -3696,7 +3734,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x35f019e8ff660edc",
+                ["placeSound"] = "function: 0x1391be1338fa6c7a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766060",
@@ -3707,7 +3745,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991766060"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 6, ["blockId"] = 159},
@@ -3720,8 +3758,8 @@ Item Discounts: 15%->20%]],
         },
         ["forge_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xb0ccdd7283da0c6c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xf65c681ecd56e82a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 15,
@@ -3746,7 +3784,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x11867a1eda23521c",
+                ["placeSound"] = "function: 0x6a2d38c2c7ba213a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072525496",
@@ -3757,7 +3795,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://9072525496"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 3, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://9072525407",
@@ -3767,8 +3805,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0x2a8947f02180fb5c",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x154039682c79d17a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["collectionServiceTags"] = {"VoidPortal"},
                 ["minecraftConversions"] = {{["blockId"] = 8010}},
                 ["seeThrough"] = true
@@ -3787,7 +3825,7 @@ Item Discounts: 15%->20%]],
                 ["walkSpeedMultiplier"] = 0.5,
                 ["ammoItemTypes"] = {"oil_consumable"},
                 ["minStrengthScalar"] = 0.25,
-                ["projectileType"] = "function: 0xd2c8f0c65129019c",
+                ["projectileType"] = "function: 0x2824e51ef5a0a2ba",
                 ["maxStrengthChargeSec"] = 0.25,
                 ["fireDelaySec"] = 1.5
             },
@@ -3806,7 +3844,7 @@ Item Discounts: 15%->20%]],
                     ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
                     ["bonusDamage"] = 4
                 },
-                ["idleAnimation"] = 412,
+                ["idleAnimation"] = 413,
                 ["attackSpeed"] = 0.4,
                 ["respectAttackSpeedForEffects"] = true,
                 ["swingAnimations"] = {},
@@ -3820,33 +3858,22 @@ Item Discounts: 15%->20%]],
             ["damage"] = 54,
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
-        ["glowstone"] = {
-            ["footstepSound"] = 1,
+        ["smoke_block"] = {
+            ["image"] = "rbxassetid://8538034673",
+            ["sharingDisabled"] = true,
+            ["footstepSound"] = 0,
             ["block"] = {
+                ["placeSound"] = "function: 0x952f885d6719207a",
+                ["minecraftConversions"] = {{["blockId"] = 8006}},
+                ["maxPlaced"] = 20,
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x2eb3bcad0bf2021c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://12946930610",
-                        "rbxassetid://12946930610",
-                        "rbxassetid://12946930610",
-                        "rbxassetid://12946930610",
-                        "rbxassetid://12946930610",
-                        "rbxassetid://12946930610"
-                    }
-                },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
-                ["pointLight"] = {
-                    ["Color"] = Color3.fromRGB(255, 247, 214),
-                    ["Brightness"] = 0.7,
-                    ["Range"] = 27,
-                    ["Shadows"] = true
-                },
-                ["health"] = 10,
-                ["minecraftConversions"] = {{["blockId"] = 89}}
+                ["health"] = 6,
+                ["seeThrough"] = true,
+                ["collectionServiceTags"] = {"smoke_block"},
+                ["breakSound"] = "function: 0x35132364237a0c3a",
+                ["greedyMesh"] = {["textures"] = {"rbxassetid://8536406963"}}
             },
-            ["image"] = "rbxassetid://12948863407",
-            ["displayName"] = "Glowstone"
+            ["displayName"] = "Smoke Block"
         },
         ["stone_great_hammer"] = {
             ["image"] = "rbxassetid://13832631765",
@@ -3855,29 +3882,29 @@ Item Discounts: 15%->20%]],
             ["damage"] = 29,
             ["sword"] = {
                 ["attackSpeed"] = 0.6,
-                ["swingAnimations"] = {413, 414},
+                ["swingAnimations"] = {414, 415},
                 ["respectAttackSpeedForEffects"] = true,
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9},
                     ["minChargeTimeSec"] = 0.75,
-                    ["chargedSwingAnimations"] = {415},
+                    ["chargedSwingAnimations"] = {416},
                     ["attackCooldown"] = 0.65,
                     ["showHoldProgressAfterSec"] = 0.25,
                     ["maxChargeTimeSec"] = 0.75,
                     ["chargedSwingSounds"] = {"rbxassetid://11715550908"},
                     ["bonusDamage"] = 10.149999999999999,
-                    ["firstPersonChargedSwingAnimations"] = {419},
+                    ["firstPersonChargedSwingAnimations"] = {420},
                     ["chargingEffects"] = {
-                        ["thirdPersonAnim"] = 416,
+                        ["thirdPersonAnim"] = 417,
                         ["sound"] = "rbxassetid://9252451221",
-                        ["firstPersonAnim"] = 420
+                        ["firstPersonAnim"] = 421
                     },
                     ["bonusKnockback"] = {["vertical"] = 0.1, ["horizontal"] = 0.2}
                 },
                 ["multiHitCheckDurationSec"] = 0.25,
                 ["knockbackMultiplier"] = {["vertical"] = 1.1, ["horizontal"] = 1.2},
                 ["attackRange"] = 15,
-                ["firstPersonSwingAnimations"] = {417, 418},
+                ["firstPersonSwingAnimations"] = {418, 419},
                 ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 29
@@ -3889,7 +3916,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://15957915625",
@@ -3901,7 +3928,7 @@ Item Discounts: 15%->20%]],
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 214}},
-                ["breakSound"] = "function: 0x686743f407ea23dc"
+                ["breakSound"] = "function: 0x9e9dfc924d4a0d7a"
             },
             ["displayName"] = "Void Growth"
         },
@@ -3914,7 +3941,7 @@ Item Discounts: 15%->20%]],
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"ghost_orb"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0x96a47cef72d7dbfc",
+                ["projectileType"] = "function: 0x85c944b42d58dd5a",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -3924,10 +3951,10 @@ Item Discounts: 15%->20%]],
         ["spike_trap"] = {
             ["image"] = "rbxassetid://10322206238",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0xd86a0fab272e3c9c",
+                ["breakSound"] = "function: 0x455b06cc6a38c63a",
                 ["minecraftConversions"] = {{["blockId"] = 12003}},
                 ["collectionServiceTags"] = {"spike_trap"},
                 ["maxPlaced"] = 14,
@@ -3955,19 +3982,19 @@ Item Discounts: 15%->20%]],
             },
             ["projectileSource"] = {
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x248aa75b93e1640c",
+                ["projectileType"] = "function: 0xd25ca4cde2a1a43a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
                 ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 392, ["aimAnimation"] = 394},
+                ["thirdPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395},
                 ["launchSound"] = {
                     "rbxassetid://13406717420",
                     "rbxassetid://13406717139",
                     "rbxassetid://13406717258",
                     "rbxassetid://13406717028"
                 },
-                ["firstPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395}
+                ["firstPerson"] = {["fireAnimation"] = 394, ["aimAnimation"] = 396}
             },
             ["sharingDisabled"] = true,
             ["displayName"] = "Floral Headhunter"
@@ -3978,10 +4005,10 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 2,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 8024}},
                 ["collectionServiceTags"] = {"ExplosiveBarrel"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc"
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a"
             },
             ["displayName"] = "Gunpowder Barrel"
         },
@@ -3995,15 +4022,16 @@ Item Discounts: 15%->20%]],
             ["replaces"] = {"life_crossbow"},
             ["description"] = "Does not use arrows, instead consuming health when fired. Gain life force on successful hits.",
             ["sharingDisabled"] = true,
+            ["skins"] = {"life_headhunter_mummy"},
             ["projectileSource"] = {
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x94d60b07486cd8bc",
+                ["projectileType"] = "function: 0xa123a87889b1e37a",
                 ["hitSounds"] = {{"rbxassetid://128364711264624", "rbxassetid://97099816203576"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 392, ["aimAnimation"] = 394},
+                ["thirdPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395},
                 ["launchSound"] = {"rbxassetid://101272423230044"},
-                ["firstPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395}
+                ["firstPerson"] = {["fireAnimation"] = 394, ["aimAnimation"] = 396}
             },
             ["image"] = "rbxassetid://96063940465952",
             ["displayName"] = "Life Headhunter"
@@ -4023,7 +4051,7 @@ Item Discounts: 15%->20%]],
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.2,
                 ["relativeOverride"] = {["relX"] = 0.01, ["relY"] = 0.01, ["relZ"] = 0.01},
-                ["projectileType"] = "function: 0x9b222c7d2e305b7c",
+                ["projectileType"] = "function: 0x2d7f5a7c6919d9da",
                 ["launchSound"] = {"rbxassetid://7290187805"},
                 ["hitSounds"] = {{"rbxassetid://6866062188"}}
             },
@@ -4033,7 +4061,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x1daa60bba2538d9c",
+                ["placeSound"] = "function: 0x1a6d798372c666ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072525162",
@@ -4044,7 +4072,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://9072525162"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 5, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://9072552631",
@@ -4058,7 +4086,7 @@ Item Discounts: 15%->20%]],
         ["bedrock"] = {
             ["footstepSound"] = 1,
             ["block"] = {
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
                 ["health"] = 10,
                 ["greedyMesh"] = {
@@ -4072,26 +4100,28 @@ Item Discounts: 15%->20%]],
                     }
                 },
                 ["blastProof"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 7}},
                 ["breakableOnlyByHosts"] = true
             },
             ["image"] = "rbxassetid://9207283973",
             ["displayName"] = "Bedrock"
         },
-        ["lucky_block_item_smelter"] = {
-            ["footstepSound"] = 2,
-            ["image"] = "rbxassetid://8562772907",
-            ["block"] = {
-                ["breakType"] = "wood",
-                ["health"] = 30,
-                ["seeThrough"] = true,
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"chest"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
+        ["frying_pan"] = {
+            ["image"] = "rbxassetid://9253246741",
+            ["description"] = "Charge weapon to increase damage and knockback.",
+            ["sword"] = {
+                ["chargedAttack"] = {
+                    ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
+                    ["maxChargeTimeSec"] = 1,
+                    ["bonusDamage"] = 4
+                },
+                ["knockbackMultiplier"] = {["horizontal"] = 1},
+                ["attackSpeed"] = 0.3,
+                ["damage"] = 18
             },
-            ["displayName"] = "Smelter"
+            ["firstPerson"] = {["scale"] = 0.8},
+            ["displayName"] = "Frying Pan"
         },
         ["mythic_great_hammer"] = {
             ["replaces"] = {"wood_great_hammer", "stone_great_hammer", "iron_great_hammer", "diamond_great_hammer"},
@@ -4101,29 +4131,29 @@ Item Discounts: 15%->20%]],
             ["itemCatalog"] = {["collection"] = 1},
             ["sword"] = {
                 ["attackSpeed"] = 0.6,
-                ["swingAnimations"] = {413, 414},
+                ["swingAnimations"] = {414, 415},
                 ["respectAttackSpeedForEffects"] = true,
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9},
                     ["minChargeTimeSec"] = 0.75,
-                    ["chargedSwingAnimations"] = {415},
+                    ["chargedSwingAnimations"] = {416},
                     ["attackCooldown"] = 0.65,
                     ["showHoldProgressAfterSec"] = 0.25,
                     ["maxChargeTimeSec"] = 0.75,
                     ["chargedSwingSounds"] = {"rbxassetid://11715550908"},
                     ["bonusDamage"] = 23.45,
-                    ["firstPersonChargedSwingAnimations"] = {419},
+                    ["firstPersonChargedSwingAnimations"] = {420},
                     ["chargingEffects"] = {
-                        ["thirdPersonAnim"] = 416,
+                        ["thirdPersonAnim"] = 417,
                         ["sound"] = "rbxassetid://9252451221",
-                        ["firstPersonAnim"] = 420
+                        ["firstPersonAnim"] = 421
                     },
                     ["bonusKnockback"] = {["vertical"] = 0.1, ["horizontal"] = 0.2}
                 },
                 ["multiHitCheckDurationSec"] = 0.25,
                 ["knockbackMultiplier"] = {["vertical"] = 1.1, ["horizontal"] = 1.2},
                 ["attackRange"] = 15,
-                ["firstPersonSwingAnimations"] = {417, 418},
+                ["firstPersonSwingAnimations"] = {418, 419},
                 ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 67
@@ -4138,7 +4168,7 @@ Item Discounts: 15%->20%]],
             ["thirdPerson"] = {["holdAnimation"] = 229},
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.4,
-                ["projectileType"] = "function: 0xa629254b0fccaf9c",
+                ["projectileType"] = "function: 0xa9d5ee3ca5217cba",
                 ["thirdPerson"] = {["fireAnimation"] = 228},
                 ["walkSpeedMultiplier"] = 0.4,
                 ["launchScreenShake"] = {["config"] = {["duration"] = 0.11, ["magnitude"] = 0.04, ["cycles"] = 1}},
@@ -4160,18 +4190,11 @@ Item Discounts: 15%->20%]],
             ["guidedProjectileSource"] = {["guidedProjectile"] = "drone"},
             ["displayName"] = "Drone"
         },
-        ["frosted_snowball"] = {
-            ["projectileSource"] = {
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["ammoItemTypes"] = {"frosted_snowball"},
-                ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0xaf24682f3795b9dc",
-                ["launchSound"] = {"rbxassetid://8165640372"},
-                ["fireDelaySec"] = 0.3
-            },
-            ["image"] = "rbxassetid://7911163294",
+        ["diamond_chestplate"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.32, ["slot"] = 1},
+            ["image"] = "rbxassetid://6874272898",
             ["sharingDisabled"] = true,
-            ["displayName"] = "Frosted Snowball"
+            ["displayName"] = "Diamond Chestplate"
         },
         ["sand_spear"] = {
             ["image"] = "rbxassetid://13034426218",
@@ -4179,7 +4202,7 @@ Item Discounts: 15%->20%]],
             ["maxStackSize"] = 99,
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.7,
-                ["projectileType"] = "function: 0x68d90d3de0b3cedc",
+                ["projectileType"] = "function: 0x83d5ec8b9690547a",
                 ["thirdPerson"] = {["fireAnimation"] = 81},
                 ["walkSpeedMultiplier"] = 0.7,
                 ["ammoItemTypes"] = {"sand_spear"},
@@ -4197,8 +4220,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["breakType"] = "wool",
                 ["health"] = 1,
-                ["breakSound"] = "function: 0x4d6e8f205709bd9c",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
+                ["breakSound"] = "function: 0x14d31f2cc55956ba",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991767491",
@@ -4212,17 +4235,31 @@ Item Discounts: 15%->20%]],
             },
             ["displayName"] = "TNT"
         },
+        ["jump_pad"] = {
+            ["block"] = {
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba",
+                ["breakType"] = "wool",
+                ["health"] = 2,
+                ["seeThrough"] = true,
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["collectionServiceTags"] = {"launch-pad"},
+                ["disableEnemyInventoryPickup"] = true,
+                ["minecraftConversions"] = {{["blockId"] = 100005}}
+            },
+            ["image"] = "rbxassetid://9414655737",
+            ["displayName"] = "Jump Pad"
+        },
         ["barrier"] = {
             ["footstepSound"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 166}},
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 1,
                 ["seeThrough"] = true,
                 ["collectionServiceTags"] = {"BARRIER_BLOCK"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakableOnlyByHosts"] = true
             },
             ["image"] = "rbxassetid://10569969807",
@@ -4232,9 +4269,9 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://18249733341",
             ["description"] = "Throw at your target and quickly leap to them.",
             ["projectileSource"] = {
-                ["fireDelaySec"] = 11,
+                ["fireDelaySec"] = 8,
                 ["firstPerson"] = {["fireAnimation"] = 14},
-                ["projectileType"] = "function: 0xb23c7f7276223b5c",
+                ["projectileType"] = "function: 0x471040969aa83b5a",
                 ["launchSound"] = {"rbxassetid://18188220858"},
                 ["blockingStatusEffects"] = {"grounded"}
             },
@@ -4251,7 +4288,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf578b5abe4b7215c",
+                ["placeSound"] = "function: 0x4381f6bba19793fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766106",
@@ -4262,7 +4299,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991766106"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 10, ["blockId"] = 159},
@@ -4280,8 +4317,8 @@ Item Discounts: 15%->20%]],
                 ["minecraftConversions"] = {{["blockId"] = 8004}},
                 ["blastProof"] = true,
                 ["collectionServiceTags"] = {"enchant-table"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
             },
             ["displayName"] = "Enchant Table"
         },
@@ -4290,9 +4327,9 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://9369048721",
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x31740f88fe4f669c",
+                ["placeSound"] = "function: 0x052d88d2bc6f1c3a",
                 ["seeThrough"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"teleport_block"},
                 ["minecraftConversions"] = {{["blockId"] = 8002}},
                 ["health"] = 8
@@ -4312,8 +4349,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["blastResistance"] = 1.4,
                 ["health"] = 30,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["breakType"] = "wood"
             },
             ["displayName"] = "Oak Plank Wall"
@@ -4326,7 +4363,7 @@ Item Discounts: 15%->20%]],
                 ["multiShot"] = true,
                 ["ammoItemTypes"] = {"throwing_knife"},
                 ["maxStrengthChargeSec"] = 0.4,
-                ["projectileType"] = "function: 0xbee20e9479b90f7c",
+                ["projectileType"] = "function: 0x941c6cb7e20895da",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["multiShotDelay"] = 0.2
             },
@@ -4339,12 +4376,57 @@ Item Discounts: 15%->20%]],
             ["displayName"] = "Emerald Chestplate"
         },
         ["chicken_leather"] = {["image"] = "rbxassetid://13980233415", ["displayName"] = "Leather Chicken"},
+        ["knight_shield"] = {
+            ["durability"] = {["itemHealth"] = 100},
+            ["image"] = "rbxassetid://76984958562000",
+            ["description"] = "Reduces incoming damage and knockback when held and can be used to bash enemies when in a defensive stance.",
+            ["maxStackSize"] = 1,
+            ["firstPerson"] = {["verticalOffset"] = -0.9},
+            ["sword"] = {
+                ["swingAnimations"] = {693},
+                ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
+                ["attackSpeed"] = 0.8,
+                ["attackRange"] = 10.5,
+                ["respectAttackSpeedForEffects"] = true,
+                ["knockbackMultiplier"] = {["horizontal"] = 1.5},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 30
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Guard's Shield"
+        },
         ["pumpkin_seeds"] = {
             ["image"] = "rbxassetid://11164828140",
             ["description"] = "Can be harvested into a throwable explosive!",
             ["sharingDisabled"] = true,
             ["placesBlock"] = {["blockType"] = "pumpkin"},
             ["displayName"] = "Pumpkin Seeds"
+        },
+        ["crystal_ore"] = {
+            ["displayNameColor"] = Color3.fromRGB(255, 85, 255),
+            ["image"] = "rbxassetid://9866758117",
+            ["hotbarFillRight"] = true,
+            ["displayName"] = "Mysterious Crystal"
+        },
+        ["spider_queen_web"] = {
+            ["block"] = {
+                ["noSuffocation"] = true,
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["breakSound"] = "function: 0xcefdd81da8c8477a",
+                ["disableInCreative"] = true,
+                ["flammable"] = true,
+                ["blastResistance"] = 0.3,
+                ["breakType"] = "wool",
+                ["health"] = 1,
+                ["seeThrough"] = true,
+                ["flameSpreadStopChance"] = 0.1,
+                ["cannotPathfindOn"] = true,
+                ["disableInventoryPickup"] = true,
+                ["minecraftConversions"] = {{["blockId"] = 8033}}
+            },
+            ["image"] = "rbxassetid://15056224013",
+            ["description"] = "",
+            ["displayName"] = "Spider Queen's Web"
         },
         ["scythe"] = {
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
@@ -4364,7 +4446,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"sticky_firework"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa7172d5962391adc",
+                ["projectileType"] = "function: 0x01e793acfab3887a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -4372,11 +4454,48 @@ Item Discounts: 15%->20%]],
             ["description"] = "Throw at players to launch them into the sky",
             ["displayName"] = "Sticky Firework"
         },
+        ["spring_punch"] = {
+            ["image"] = "rbxassetid://89187423732739",
+            ["description"] = "Yeet your enemies with a spring loaded punch!",
+            ["maxStackSize"] = 1,
+            ["thirdPerson"] = {["holdAnimation"] = 53},
+            ["firstPerson"] = {["scale"] = 0.8},
+            ["displayName"] = "Punch Gun"
+        },
         ["guided_missile"] = {
             ["firstPerson"] = {["scale"] = 0.7},
             ["image"] = "rbxassetid://8042313266",
             ["guidedProjectileSource"] = {["guidedProjectile"] = "guided_missile", ["consumeItem"] = "guided_missile"},
             ["displayName"] = "Guided Missile"
+        },
+        ["invisible_cloak"] = {
+            ["image"] = "rbxassetid://18952530979",
+            ["description"] = "become invisible after staying still",
+            ["maxStackSize"] = 1,
+            ["sharingDisabled"] = true,
+            ["backpack"] = {["cooldown"] = 10},
+            ["displayName"] = "Cloak"
+        },
+        ["guards_spear"] = {
+            ["image"] = "rbxassetid://127232846136294",
+            ["sharingDisabled"] = true,
+            ["sword"] = {
+                ["chargedAttack"] = {
+                    ["walkSpeedModifier"] = {["multiplier"] = 1, ["delay"] = 0.2},
+                    ["minChargeTimeSec"] = 0.2,
+                    ["chargedSwingAnimations"] = {},
+                    ["firstPersonChargedSwingAnimations"] = {122},
+                    ["maxChargeTimeSec"] = 1
+                },
+                ["attackSpeed"] = 0.5,
+                ["attackRange"] = 17.5,
+                ["idleAnimation"] = 413,
+                ["swingAnimations"] = {},
+                ["respectAttackSpeedForEffects"] = true,
+                ["damage"] = 30
+            },
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Spear"
         },
         ["firework_rocket_launcher"] = {
             ["projectileSource"] = {
@@ -4384,7 +4503,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"firework_rocket_missile"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x70256e514e7b54dc",
+                ["projectileType"] = "function: 0x1d01a7efe7d854da",
                 ["launchSound"] = {"rbxassetid://8649937489"},
                 ["fireDelaySec"] = 2.2
             },
@@ -4392,6 +4511,7 @@ Item Discounts: 15%->20%]],
             ["description"] = "",
             ["displayName"] = "Firework Rocket Launcher"
         },
+        ["player_vacuum"] = {["image"] = "rbxassetid://9679750852", ["displayName"] = "Vacuum"},
         ["tinkers_wrench"] = {
             ["image"] = "rbxassetid://11533277908",
             ["description"] = "Deals a small amount of damage",
@@ -4412,7 +4532,7 @@ Item Discounts: 15%->20%]],
             ["projectileSource"] = {
                 ["multiShotChargeTime"] = 1.6,
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x0db2466673a0bd3c",
+                ["projectileType"] = "function: 0x0ce2804a4d401b0a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
@@ -4422,48 +4542,6 @@ Item Discounts: 15%->20%]],
                 ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
             },
             ["displayName"] = "Crossbow"
-        },
-        ["ninja_chakram_1"] = {
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 1,
-                ["fireDelaySec"] = 0.4,
-                ["walkSpeedMultiplier"] = 1,
-                ["projectileType"] = "function: 0xf4f00af8f90fc6bc",
-                ["minStrengthScalar"] = 1,
-                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
-            },
-            ["image"] = "rbxassetid://15515026452",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Stone Chakram"
-        },
-        ["classic_auto_turret"] = {
-            ["image"] = "rbxassetid://7290567966",
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x39d6d63990f6985c",
-                ["maxPlaced"] = 10,
-                ["minecraftConversions"] = {{["blockId"] = 12002}},
-                ["projectileSource"] = {
-                    ["fireDelaySec"] = 0.3,
-                    ["relativeOverride"] = {["relX"] = 0, ["relY"] = 0, ["relZ"] = 0},
-                    ["projectileType"] = "function: 0x5985416f9c2d4fbc",
-                    ["launchSound"] = {"rbxassetid://6866062104"},
-                    ["hitSounds"] = {{"rbxassetid://6866062188"}}
-                },
-                ["breakType"] = "stone",
-                ["health"] = 25,
-                ["seeThrough"] = true,
-                ["blastResistance"] = 4,
-                ["collectionServiceTags"] = {"Turret", "void-turret", "auto-turret"},
-                ["unbreakableByTeammates"] = true,
-                ["disableInventoryPickup"] = true
-            },
-            ["displayName"] = "Auto Turret"
-        },
-        ["cutlass_ghost"] = {
-            ["image"] = "rbxassetid://10729541018",
-            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 0},
-            ["displayName"] = "Ghost Cutlass"
         },
         ["battle_axe"] = {
             ["image"] = "rbxassetid://8795403259",
@@ -4490,6 +4568,48 @@ Item Discounts: 15%->20%]],
             ["replaces"] = {"summoner_claw_2"},
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
+        ["ninja_chakram_1"] = {
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 1,
+                ["fireDelaySec"] = 0.4,
+                ["walkSpeedMultiplier"] = 1,
+                ["projectileType"] = "function: 0x155273554628431a",
+                ["minStrengthScalar"] = 1,
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
+            },
+            ["image"] = "rbxassetid://15515026452",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Stone Chakram"
+        },
+        ["classic_auto_turret"] = {
+            ["image"] = "rbxassetid://7290567966",
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x7abc0aa38388c27a",
+                ["maxPlaced"] = 10,
+                ["minecraftConversions"] = {{["blockId"] = 12002}},
+                ["projectileSource"] = {
+                    ["fireDelaySec"] = 0.3,
+                    ["relativeOverride"] = {["relX"] = 0, ["relY"] = 0, ["relZ"] = 0},
+                    ["projectileType"] = "function: 0xf7e71a92a4788a1a",
+                    ["launchSound"] = {"rbxassetid://6866062104"},
+                    ["hitSounds"] = {{"rbxassetid://6866062188"}}
+                },
+                ["breakType"] = "stone",
+                ["health"] = 25,
+                ["seeThrough"] = true,
+                ["blastResistance"] = 4,
+                ["collectionServiceTags"] = {"Turret", "void-turret", "auto-turret"},
+                ["unbreakableByTeammates"] = true,
+                ["disableInventoryPickup"] = true
+            },
+            ["displayName"] = "Auto Turret"
+        },
+        ["cutlass_ghost"] = {
+            ["image"] = "rbxassetid://10729541018",
+            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 0},
+            ["displayName"] = "Ghost Cutlass"
+        },
         ["summoner_claw_2"] = {
             ["actsAsSwordGroup"] = true,
             ["cooldownId"] = "summoner_claw_attack",
@@ -4501,15 +4621,6 @@ Item Discounts: 15%->20%]],
             ["replaces"] = {"summoner_claw_1"},
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
-        ["snow_cone"] = {
-            ["consumable"] = {
-                ["statusEffect"] = {["incrementStacks"] = 1, ["statusEffectType"] = "snow_cone"},
-                ["consumeTime"] = 0.5
-            },
-            ["image"] = "rbxassetid://10489888403",
-            ["description"] = "Consume for 1 Snow Cone stack!",
-            ["displayName"] = "Snow Cone"
-        },
         ["summoner_claw_1"] = {
             ["actsAsSwordGroup"] = true,
             ["image"] = "rbxassetid://18974199292",
@@ -4520,9 +4631,89 @@ Item Discounts: 15%->20%]],
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Summoner Claw I"
         },
+        ["life_crossbow"] = {
+            ["replaces"] = {"life_bow"},
+            ["description"] = "Does not use arrows, instead consuming health when fired. Gain life force on successful hits.",
+            ["sharingDisabled"] = true,
+            ["skins"] = {"life_crossbow_mummy"},
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 1.15,
+                ["projectileType"] = "function: 0x3b3b5048e0d8e11a",
+                ["hitSounds"] = {{"rbxassetid://128364711264624", "rbxassetid://97099816203576"}},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["walkSpeedMultiplier"] = 0.35,
+                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
+                ["launchSound"] = {"rbxassetid://73187588463348"},
+                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
+            },
+            ["image"] = "rbxassetid://70683200838838",
+            ["displayName"] = "Life Crossbow"
+        },
+        ["life_bow"] = {
+            ["image"] = "rbxassetid://115560591356432",
+            ["description"] = "Does not use arrows, instead consuming health when fired. Gain life force on successful hits.",
+            ["sharingDisabled"] = true,
+            ["skins"] = {"life_bow_mummy"},
+            ["projectileSource"] = {
+                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
+                ["fireDelaySec"] = 0.6,
+                ["projectileType"] = "function: 0x193549e93f03dd3a",
+                ["hitSounds"] = {{"rbxassetid://128364711264624", "rbxassetid://97099816203576"}},
+                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
+                ["walkSpeedMultiplier"] = 0.35,
+                ["maxStrengthChargeSec"] = 0.65,
+                ["launchSound"] = {"rbxassetid://73187588463348"},
+                ["minStrengthScalar"] = 0.3333333333333333
+            },
+            ["firstPerson"] = {["verticalOffset"] = 0},
+            ["displayName"] = "Life Bow"
+        },
+        ["limestone"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x629ff894129fc13a",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://18880491571",
+                        "rbxassetid://18880491571",
+                        "rbxassetid://18880491571",
+                        "rbxassetid://18880491571",
+                        "rbxassetid://18880491571",
+                        "rbxassetid://18880491571"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["minecraftConversions"] = {{["blockId"] = 121}}
+            },
+            ["displayName"] = "Limestone"
+        },
+        ["snow_cone"] = {
+            ["consumable"] = {
+                ["statusEffect"] = {["incrementStacks"] = 1, ["statusEffectType"] = "snow_cone"},
+                ["consumeTime"] = 0.5
+            },
+            ["image"] = "rbxassetid://10489888403",
+            ["description"] = "Consume for 1 Snow Cone stack!",
+            ["displayName"] = "Snow Cone"
+        },
+        ["lucky_block_item_smelter"] = {
+            ["footstepSound"] = 2,
+            ["image"] = "rbxassetid://8562772907",
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 30,
+                ["seeThrough"] = true,
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"chest"},
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
+            },
+            ["displayName"] = "Smelter"
+        },
         ["black_market_upgrade_1"] = {
             ["image"] = "rbxassetid://95888205553099",
-            ["description"] = [[Unlocks: (Serpent's Touch Potion)
+            ["description"] = [[Unlocks: (Serpent's Touch Potion), (Fury Potion)
 Random Pool: +1 Items
 Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
@@ -4551,32 +4742,22 @@ Item Discounts: 15%->20%]],
                     "rbxassetid://13833151323"
                 },
                 ["knockbackMultiplier"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                ["swingAnimations"] = {400, 401},
+                ["swingAnimations"] = {401, 402},
                 ["attackRange"] = 10.5,
                 ["respectAttackSpeedForEffects"] = true,
-                ["firstPersonSwingAnimations"] = {403, 402},
+                ["firstPersonSwingAnimations"] = {404, 403},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 11
             },
             ["displayName"] = "Stone Dagger",
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
-        ["life_crossbow"] = {
-            ["replaces"] = {"life_bow"},
-            ["description"] = "Does not use arrows, instead consuming health when fired. Gain life force on successful hits.",
+        ["black_market_reroll_items"] = {
+            ["image"] = "rbxassetid://16261227767",
+            ["description"] = "Rerolls all of the below discounted items",
             ["sharingDisabled"] = true,
-            ["projectileSource"] = {
-                ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x95f8f64c0e02961c",
-                ["hitSounds"] = {{"rbxassetid://128364711264624", "rbxassetid://97099816203576"}},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
-                ["launchSound"] = {"rbxassetid://73187588463348"},
-                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
-            },
-            ["image"] = "rbxassetid://70683200838838",
-            ["displayName"] = "Life Crossbow"
+            ["consumable"] = {["consumeTime"] = 0.5, ["disableAnimation"] = true, ["soundOverride"] = "None"},
+            ["displayName"] = "Reroll Discounted Items"
         },
         ["cannon"] = {
             ["skins"] = {
@@ -4590,10 +4771,10 @@ Item Discounts: 15%->20%]],
             },
             ["image"] = "rbxassetid://7121221753",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 8,
-                ["breakSound"] = "function: 0xbccf27726042795c",
+                ["breakSound"] = "function: 0x975145cde3d91d7a",
                 ["minecraftConversions"] = {{["blockId"] = 8018}},
                 ["collectionServiceTags"] = {"cannon"},
                 ["disableInventoryPickup"] = true,
@@ -4601,23 +4782,30 @@ Item Discounts: 15%->20%]],
             },
             ["displayName"] = "Cannon"
         },
-        ["life_bow"] = {
-            ["image"] = "rbxassetid://115560591356432",
-            ["description"] = "Does not use arrows, instead consuming health when fired. Gain life force on successful hits.",
-            ["sharingDisabled"] = true,
-            ["projectileSource"] = {
-                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
-                ["fireDelaySec"] = 0.6,
-                ["projectileType"] = "function: 0xb2c23864cc10cdfc",
-                ["hitSounds"] = {{"rbxassetid://128364711264624", "rbxassetid://97099816203576"}},
-                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
-                ["walkSpeedMultiplier"] = 0.35,
-                ["maxStrengthChargeSec"] = 0.65,
-                ["launchSound"] = {"rbxassetid://73187588463348"},
-                ["minStrengthScalar"] = 0.3333333333333333
+        ["new_years_lucky_block_2024"] = {
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x69b00adb6b68d2fa",
+                ["blastProof"] = true,
+                ["breakType"] = "stone",
+                ["health"] = 15,
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://15800004825",
+                        "rbxassetid://15800004825",
+                        "rbxassetid://15800004825",
+                        "rbxassetid://15800004825",
+                        "rbxassetid://15800004825",
+                        "rbxassetid://15800004825"
+                    }
+                },
+                ["disableInventoryPickup"] = true,
+                ["collectionServiceTags"] = {"NewYearsLuckyBlock"},
+                ["luckyBlock"] = {["categories"] = {"new_years"}, ["drops"] = {{["luckMultiplier"] = 2}}},
+                ["minecraftConversions"] = {{["blockId"] = 12116}}
             },
-            ["firstPerson"] = {["verticalOffset"] = 0},
-            ["displayName"] = "Life Bow"
+            ["image"] = "rbxassetid://15800004718",
+            ["displayName"] = "New Years Lucky Block"
         },
         ["glitch_stun_grenade"] = {
             ["glitched"] = true,
@@ -4629,8 +4817,8 @@ Item Discounts: 15%->20%]],
         ["classic_shock_wave_turret"] = {
             ["image"] = "rbxassetid://10322206511",
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x5bc29f280dd96d1c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x2e9f6d07dd48ceba",
                 ["maxPlaced"] = 2,
                 ["breakType"] = "stone",
                 ["health"] = 18,
@@ -4641,57 +4829,59 @@ Item Discounts: 15%->20%]],
             },
             ["displayName"] = "Shock Wave Turret"
         },
-        ["squad_launcher"] = {
-            ["footstepSound"] = 2,
-            ["image"] = "",
-            ["block"] = {
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["breakType"] = "wood",
-                ["health"] = 30,
-                ["seeThrough"] = true,
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"squad-launcher"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
-                ["noSuffocation"] = true
-            },
-            ["displayName"] = "Squad Launcher"
-        },
-        ["limestone"] = {
+        ["clay_dark_brown"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x06ef6ab6d013bf9c",
+                ["placeSound"] = "function: 0xacdd686d747e8efa",
                 ["greedyMesh"] = {
                     ["textures"] = {
-                        "rbxassetid://18880491571",
-                        "rbxassetid://18880491571",
-                        "rbxassetid://18880491571",
-                        "rbxassetid://18880491571",
-                        "rbxassetid://18880491571",
-                        "rbxassetid://18880491571"
+                        "rbxassetid://16991765722",
+                        "rbxassetid://16991765722",
+                        "rbxassetid://16991765722",
+                        "rbxassetid://16991765722",
+                        "rbxassetid://16991765722",
+                        "rbxassetid://16991765722"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["minecraftConversions"] = {{["blockId"] = 121}}
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {
+                    {["blockData"] = 7, ["blockId"] = 159},
+                    {["blockData"] = 12, ["blockId"] = 35}
+                }
             },
-            ["displayName"] = "Limestone"
+            ["image"] = "rbxassetid://7884367299",
+            ["displayName"] = "Dark Brown Clay"
         },
-        ["baguette"] = {
-            ["firstPerson"] = {["scale"] = 0.8},
-            ["image"] = "rbxassetid://7392211056",
+        ["cloak"] = {
+            ["image"] = "",
+            ["description"] = "Move in shadow!",
+            ["removeFromCustoms"] = true,
+            ["sharingDisabled"] = true,
+            ["backpack"] = {},
+            ["displayName"] = "Cloak"
+        },
+        ["reaper_scythe"] = {
+            ["image"] = "rbxassetid://17768761460",
+            ["sharingDisabled"] = true,
             ["sword"] = {
-                ["swingSounds"] = {"rbxassetid://7396760496"},
-                ["knockbackMultiplier"] = {["horizontal"] = 1.3},
-                ["attackSpeed"] = 0.3,
-                ["damage"] = 1
+                ["firstPersonSwingAnimations"] = {407, 408},
+                ["idleAnimation"] = 413,
+                ["respectAttackSpeedForEffects"] = true,
+                ["attackSpeed"] = 1.5,
+                ["swingAnimations"] = {405, 406},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 0
             },
-            ["displayName"] = "Knockback Baguette"
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Grim Reaper's Scythe"
         },
         ["vacuum"] = {
             ["image"] = "rbxassetid://7813758517",
             ["description"] = "Used to capture a ghost. If a ghost is already caught, you can fire the ghost to deal damage.",
             ["projectileSource"] = {
-                ["projectileType"] = "function: 0x70659ed6a13590fc",
+                ["projectileType"] = "function: 0x2cd19279a229545a",
                 ["launchSound"] = {"rbxassetid://7806060367"},
                 ["fireDelaySec"] = 0
             },
@@ -4704,47 +4894,39 @@ Item Discounts: 15%->20%]],
             ["hotbarFillRight"] = true,
             ["displayName"] = "Void Crystal"
         },
-        ["black_market_reroll_items"] = {
-            ["image"] = "rbxassetid://16261227767",
-            ["description"] = "Rerolls all of the below discounted items",
-            ["sharingDisabled"] = true,
-            ["consumable"] = {["consumeTime"] = 0.5, ["disableAnimation"] = true, ["soundOverride"] = "None"},
-            ["displayName"] = "Reroll Discounted Items"
+        ["beachball"] = {
+            ["image"] = "rbxassetid://18149456734",
+            ["consumable"] = {["consumeTime"] = 1, ["disableAnimation"] = true, ["soundOverride"] = "None"},
+            ["displayName"] = "Beach Ball"
         },
-        ["villain_protector_wand"] = {
-            ["image"] = "rbxassetid://16031908526",
-            ["description"] = "Grants you the power to cast heals and bubble barriers on yourself!",
-            ["tierUpgradeElements"] = {
-                {
-                    ["tierDescription"] = {
-                        "Added Bubble Cast Ability",
-                        "Bubble Applies Knockback/Damage When Popped",
-                        "No Fall Damage Inside Bubble"
-                    }
+        ["falconer_headhunter"] = {
+            ["image"] = "rbxassetid://17014870420",
+            ["description"] = "Blessed by the wind, this lightweight weapon enables skilled archers to hunt their prey with speed and accuracy. Hit headshots for massive damage!",
+            ["replaces"] = {"falconer_crossbow", "wood_crossbow", "falconer_bow", "wood_bow"},
+            ["projectileSource"] = {
+                ["multiShotChargeTime"] = 2,
+                ["fireDelaySec"] = 1.15,
+                ["projectileType"] = "function: 0x27eaa0820cb2c7aa",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["thirdPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395},
+                ["launchSound"] = {
+                    "rbxassetid://13406717420",
+                    "rbxassetid://13406717139",
+                    "rbxassetid://13406717258",
+                    "rbxassetid://13406717028"
                 },
-                {
-                    ["tierDescription"] = {
-                        "Heal Duration Increased",
-                        "Bubble Destroys Projectiles",
-                        "Pop Knockback/Damage Increased"
-                    }
-                },
-                {
-                    ["tierDescription"] = {
-                        "Heal Affects Nearby Teammates",
-                        "Bubble Deflects Projectiles",
-                        "Pop Knockback/Damage Increased"
-                    }
-                }
+                ["firstPerson"] = {["fireAnimation"] = 394, ["aimAnimation"] = 396}
             },
-            ["itemCatalog"] = {["collection"] = 3},
-            ["displayName"] = "Villain's Protector Wand"
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Feather-light Headhunter"
         },
         ["clay_tan"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xcae736268c07fbdc",
+                ["placeSound"] = "function: 0x949d4b98dd4b857a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766219",
@@ -4755,7 +4937,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991766219"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 172}}
             },
@@ -4768,7 +4950,7 @@ Item Discounts: 15%->20%]],
             ["drawBridgeSource"] = {},
             ["footstepSound"] = 1,
             ["block"] = {
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
                 ["health"] = 10,
                 ["greedyMesh"] = {
@@ -4782,7 +4964,7 @@ Item Discounts: 15%->20%]],
                     },
                     ["rotation"] = {}
                 },
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["disableInventoryPickup"] = true,
                 ["maxPlaced"] = 24,
                 ["blastResistance"] = 1.4
@@ -4800,7 +4982,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991767248",
@@ -4811,93 +4993,34 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991767248"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://7884371892",
             ["displayName"] = "Stone"
         },
-        ["cloak"] = {
-            ["image"] = "",
-            ["description"] = "Move in shadow!",
-            ["removeFromCustoms"] = true,
+        ["wood_scythe"] = {
+            ["image"] = "rbxassetid://13832901787",
             ["sharingDisabled"] = true,
-            ["backpack"] = {},
-            ["displayName"] = "Cloak"
-        },
-        ["reaper_scythe"] = {
-            ["image"] = "rbxassetid://17768761460",
-            ["sharingDisabled"] = true,
+            ["description"] = "Attack enemies from farther away and pull them toward you.",
+            ["damage"] = 20,
             ["sword"] = {
-                ["firstPersonSwingAnimations"] = {406, 407},
-                ["idleAnimation"] = 412,
-                ["respectAttackSpeedForEffects"] = true,
-                ["attackSpeed"] = 1.5,
-                ["swingAnimations"] = {404, 405},
-                ["applyCooldownOnMiss"] = true,
-                ["damage"] = 0
-            },
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Grim Reaper's Scythe"
-        },
-        ["beachball"] = {
-            ["image"] = "rbxassetid://18149456734",
-            ["consumable"] = {["consumeTime"] = 1, ["disableAnimation"] = true, ["soundOverride"] = "None"},
-            ["displayName"] = "Beach Ball"
-        },
-        ["slate_brick"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x4358eeffc94ebc9c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://9072526507",
-                        "rbxassetid://9072526507",
-                        "rbxassetid://9072526507",
-                        "rbxassetid://9072526507",
-                        "rbxassetid://9072526507",
-                        "rbxassetid://9072526507"
-                    }
+                ["chargedAttack"] = {
+                    ["disableOnGrounded"] = true,
+                    ["showHoldProgressAfterSec"] = 0.2,
+                    ["maxChargeTimeSec"] = 2,
+                    ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
+                    ["bonusDamage"] = 4
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {{["blockData"] = 11, ["blockId"] = 159}}
+                ["idleAnimation"] = 413,
+                ["attackSpeed"] = 0.4,
+                ["respectAttackSpeedForEffects"] = true,
+                ["swingAnimations"] = {},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 20
             },
-            ["image"] = "rbxassetid://9072553631",
-            ["displayName"] = "Slate Brick"
-        },
-        ["juggernaut_crate"] = {
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["health"] = 20,
-                ["minecraftConversions"] = {{["blockId"] = 8007}},
-                ["collectionServiceTags"] = {"juggernaut-crate"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c"
-            },
-            ["displayName"] = "Juggernaut Crate"
-        },
-        ["void_boots"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.16, ["slot"] = 2},
-            ["image"] = "rbxassetid://9866786979",
-            ["displayName"] = "Void Boots"
-        },
-        ["spirit_bridge"] = {
-            ["image"] = "rbxassetid://13835255693",
-            ["description"] = "",
-            ["maxStackSize"] = 2,
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 1,
-                ["walkSpeedMultiplier"] = 0.6,
-                ["ammoItemTypes"] = {"spirit_bridge"},
-                ["minStrengthScalar"] = 0.5,
-                ["projectileType"] = "function: 0xab5db0a45d6bf39c",
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["fireDelaySec"] = 1
-            },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Spirit Bridge"
+            ["displayName"] = "Wood Scythe",
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
         ["jellyfish"] = {
             ["placesBlock"] = {["blockType"] = "jellyfish_block_snapping"},
@@ -4911,25 +5034,49 @@ Item Discounts: 15%->20%]],
             ["description"] = "Give you the Critical Strike enchant, lasts 180 seconds",
             ["displayName"] = "Criticle Strike"
         },
+        ["slate_brick"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x342c7d44471b9fba",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://9072526507",
+                        "rbxassetid://9072526507",
+                        "rbxassetid://9072526507",
+                        "rbxassetid://9072526507",
+                        "rbxassetid://9072526507",
+                        "rbxassetid://9072526507"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {{["blockData"] = 11, ["blockId"] = 159}}
+            },
+            ["image"] = "rbxassetid://9072553631",
+            ["displayName"] = "Slate Brick"
+        },
         ["static_3_enchant"] = {
             ["maxStackSize"] = 1,
             ["image"] = "rbxassetid://8268259009",
             ["description"] = "Give you the static enchant, lasts 180 seconds",
             ["displayName"] = "Element of Static"
         },
-        ["gather_bot_basic"] = {
-            ["image"] = "rbxassetid://15359021293",
-            ["description"] = "A robot that locates diamonds and returns them to the team crate",
+        ["void_boots"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.16, ["slot"] = 2},
+            ["image"] = "rbxassetid://9866786979",
+            ["displayName"] = "Void Boots"
+        },
+        ["grimoire"] = {
+            ["image"] = "rbxassetid://15107951466",
+            ["description"] = "An ancient tome of dark magic. Gain a long-term power and a temporary curse.",
+            ["itemCatalog"] = {["collection"] = 2},
             ["consumable"] = {
-                ["animationOverride"] = 498,
-                ["disableJump"] = true,
-                ["walkSpeedMultiplier"] = 0,
-                ["consumeTime"] = 1.8,
-                ["disableSoundRepeat"] = true,
-                ["soundOverride"] = "rbxassetid://15372210309"
+                ["consumeTime"] = 1.5,
+                ["soundOverride"] = "rbxassetid://15112990538",
+                ["animationOverride"] = 260
             },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Dimmy-X1"
+            ["displayName"] = "Grimoire"
         },
         ["fire_3_enchant"] = {
             ["maxStackSize"] = 1,
@@ -4966,24 +5113,12 @@ Item Discounts: 15%->20%]],
             ["disableFirstPersonWalkAnimation"] = true,
             ["displayName"] = "Handheld Drill"
         },
-        ["flamethrower"] = {
-            ["cooldownId"] = "flamethrower_use",
-            ["image"] = "rbxassetid://7343272403",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Flamethrower"
-        },
-        ["condiment_gun"] = {
-            ["firstPerson"] = {["holdAnimation"] = 452},
-            ["image"] = "rbxassetid://14191270899",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Condiment Gun"
-        },
         ["survival_crate"] = {
             ["footstepSound"] = 2,
             ["block"] = {
                 ["breakType"] = "wood",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
-                ["breakSound"] = "function: 0x57129a8b24f3d85c"
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba"
             },
             ["displayName"] = "Crate"
         },
@@ -4999,16 +5134,80 @@ Item Discounts: 15%->20%]],
         ["lasso_hook"] = {
             ["image"] = "rbxassetid://17009847852",
             ["block"] = {
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
                 ["health"] = 50,
                 ["seeThrough"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["collectionServiceTags"] = {"lasso-hook-block"},
                 ["disableEnemyInventoryPickup"] = true,
                 ["unbreakable"] = true
             },
             ["displayName"] = "Lasso Hook"
+        },
+        ["poison_splash_potion"] = {
+            ["image"] = "rbxassetid://9135917252",
+            ["description"] = "Splash potion that deals damage over time to enemies in the splash area.",
+            ["maxStackSize"] = 2,
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 0.4,
+                ["maxStrengthChargeSec"] = 1,
+                ["walkSpeedMultiplier"] = 0.4,
+                ["ammoItemTypes"] = {"poison_splash_potion"},
+                ["minStrengthScalar"] = 0.3333333333333333,
+                ["projectileType"] = "function: 0xb44d5f6408f8cfda",
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["firstPerson"] = {}
+            },
+            ["displayName"] = "Poison Splash Potion"
+        },
+        ["flamethrower"] = {
+            ["cooldownId"] = "flamethrower_use",
+            ["image"] = "rbxassetid://7343272403",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Flamethrower"
+        },
+        ["condiment_gun"] = {
+            ["firstPerson"] = {["holdAnimation"] = 453},
+            ["image"] = "rbxassetid://14191270899",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Condiment Gun"
+        },
+        ["altar_block_three"] = {
+            ["image"] = "rbxassetid://8270942991",
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 20,
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"altar-block"},
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
+            },
+            ["displayName"] = "Altar"
+        },
+        ["altar_block_two"] = {
+            ["image"] = "rbxassetid://8270942991",
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 20,
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"altar-block"},
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
+            },
+            ["displayName"] = "Altar"
+        },
+        ["altar_block_one"] = {
+            ["image"] = "rbxassetid://8270942991",
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 20,
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"altar-block"},
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
+            },
+            ["displayName"] = "Altar"
         },
         ["block_hunt_coin"] = {
             ["image"] = "rbxassetid://14978481303",
@@ -5019,53 +5218,20 @@ Item Discounts: 15%->20%]],
             ["hotbarFillRight"] = true,
             ["displayName"] = "Coin"
         },
-        ["obsidian"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["health"] = 150,
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://16991766822",
-                        "rbxassetid://16991766822",
-                        "rbxassetid://16991766822",
-                        "rbxassetid://16991766822",
-                        "rbxassetid://16991766822",
-                        "rbxassetid://16991766822"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["blastResistance"] = 10,
-                ["minecraftConversions"] = {{["blockId"] = 49}}
-            },
-            ["image"] = "rbxassetid://8105569883",
-            ["displayName"] = "Obsidian"
-        },
-        ["altar_block_three"] = {
-            ["image"] = "rbxassetid://8270942991",
-            ["block"] = {
-                ["breakType"] = "wood",
-                ["health"] = 20,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"altar-block"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
-            },
-            ["displayName"] = "Altar"
-        },
+        ["emerald_chainsaw"] = {["displayName"] = "FP Emerald Chainsaw"},
+        ["diamond_chainsaw"] = {["displayName"] = "FP Diamond Chainsaw"},
         ["hot_chocolate"] = {
-            ["consumable"] = {["consumeTime"] = 1, ["potion"] = true, ["soundOverride"] = "rbxassetid://15609606221"},
+            ["consumable"] = {["consumeTime"] = 1, ["potion"] = true, ["soundOverride"] = "rbxassetid://15609606961"},
             ["image"] = "rbxassetid://15625715830",
             ["description"] = "Drink to gain protection from the snow!",
             ["displayName"] = "Hot Chocolate"
         },
         ["healing_fountain"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 9999,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["blastProof"] = true,
                 ["collectionServiceTags"] = {"HealingFountain"},
                 ["noSuffocation"] = true,
@@ -5073,35 +5239,28 @@ Item Discounts: 15%->20%]],
             },
             ["displayName"] = "Healing Fountain"
         },
-        ["altar_block_two"] = {
-            ["image"] = "rbxassetid://8270942991",
+        ["wood_chainsaw"] = {["displayName"] = "FP Wood Chainsaw"},
+        ["styx_entrance_portal"] = {
             ["block"] = {
-                ["breakType"] = "wood",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["maxPlaced"] = 1,
+                ["disableEnemyInventoryPickup"] = true,
                 ["health"] = 20,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"altar-block"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
+                ["seeThrough"] = true,
+                ["collectionServiceTags"] = {"styx-entrance-portal"},
+                ["unbreakableByTeammates"] = true,
+                ["breakType"] = "stone"
             },
-            ["displayName"] = "Altar"
-        },
-        ["altar_block_one"] = {
-            ["image"] = "rbxassetid://8270942991",
-            ["block"] = {
-                ["breakType"] = "wood",
-                ["health"] = 20,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"altar-block"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
-            },
-            ["displayName"] = "Altar"
+            ["image"] = "rbxassetid://17009847852",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Confluence Portal"
         },
         ["emerald_block"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7843773857",
@@ -5113,13 +5272,13 @@ Item Discounts: 15%->20%]],
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 133}},
-                ["breakSound"] = "function: 0x2cb49384efb3011c"
+                ["breakSound"] = "function: 0x9bb8aec93d5e103a"
             },
             ["image"] = "rbxassetid://7884369019",
             ["displayName"] = "Emerald Block"
         },
         ["chicken_iron"] = {["image"] = "rbxassetid://13980233520", ["displayName"] = "Iron Chicken"},
-        ["emerald_chainsaw"] = {["displayName"] = "FP Emerald Chainsaw"},
+        ["void_chicken_incubator"] = {["image"] = "rbxassetid://17018554829", ["displayName"] = "Void Nest"},
         ["emerald"] = {
             ["image"] = "rbxassetid://6850538075",
             ["displayNameColor"] = Color3.fromRGB(85, 255, 85),
@@ -5127,7 +5286,7 @@ Item Discounts: 15%->20%]],
             ["hotbarFillRight"] = true,
             ["displayName"] = "Emerald"
         },
-        ["diamond_chainsaw"] = {["displayName"] = "FP Diamond Chainsaw"},
+        ["emerald_chicken_nest"] = {["image"] = "rbxassetid://17018554648", ["displayName"] = "Emerald Nest"},
         ["impulse_grenade"] = {
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.4,
@@ -5135,7 +5294,7 @@ Item Discounts: 15%->20%]],
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"impulse_grenade"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0xcc177f5cf1c943fc",
+                ["projectileType"] = "function: 0x9c6ed0a2d3d7455a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {}
             },
@@ -5143,12 +5302,13 @@ Item Discounts: 15%->20%]],
             ["description"] = "Delayed explosive grenade that deals little damage but massive knockback.",
             ["displayName"] = "Impulse Grenade"
         },
-        ["wood_chainsaw"] = {["displayName"] = "FP Wood Chainsaw"},
+        ["diamond_chicken_nest"] = {["image"] = "rbxassetid://17018554494", ["displayName"] = "Diamond Nest"},
         ["wool_cyan"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -5174,22 +5334,7 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Iron Mech Upgrade"
         },
-        ["styx_entrance_portal"] = {
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["maxPlaced"] = 1,
-                ["disableEnemyInventoryPickup"] = true,
-                ["health"] = 20,
-                ["seeThrough"] = true,
-                ["collectionServiceTags"] = {"styx-entrance-portal"},
-                ["unbreakableByTeammates"] = true,
-                ["breakType"] = "stone"
-            },
-            ["image"] = "rbxassetid://17009847852",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Confluence Portal"
-        },
+        ["iron_chicken_nest"] = {["image"] = "rbxassetid://17018554326", ["displayName"] = "Iron Nest"},
         ["repair_tool"] = {
             ["projectileSource"] = {
                 ["thirdPerson"] = {["fireAnimation"] = 5},
@@ -5197,7 +5342,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.15,
                 ["ammoItemTypes"] = {"repair_tool"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xe50ba25a11e771fc",
+                ["projectileType"] = "function: 0x44834983c1e8675a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -5211,18 +5356,27 @@ Item Discounts: 15%->20%]],
             ["description"] = "An infected Sledgehammer that poisons enemies & breaks map blocks.",
             ["displayName"] = "Noxious Sledgehammer"
         },
-        ["miner_pickaxe"] = {
-            ["breakBlock"] = {["stone"] = 30},
-            ["sharingDisabled"] = true,
-            ["skins"] = {"miner_pickaxe_space", "miner_pickaxe_winter"},
-            ["firstPerson"] = {["verticalOffset"] = -0.8},
-            ["displayName"] = "Miner Pickaxe"
+        ["glitch_grenade_launcher"] = {
+            ["glitched"] = true,
+            ["image"] = "rbxassetid://10086864148",
+            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
+            ["projectileSource"] = {
+                ["activeReload"] = true,
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"glitch_stun_grenade"},
+                ["fireDelaySec"] = 2.2,
+                ["projectileType"] = "function: 0xec4c78d94797bbda",
+                ["launchSound"] = {"rbxassetid://9135893336"},
+                ["thirdPerson"] = {["fireAnimation"] = 51, ["aimAnimation"] = 53}
+            },
+            ["displayName"] = "Rocket Launcher?"
         },
         ["granite_polished"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x32e3d2677a9a9c5c",
+                ["placeSound"] = "function: 0x27c0c95dc8f66cfa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://9072553427",
@@ -5233,14 +5387,39 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://9072553427"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 1}}
             },
             ["image"] = "rbxassetid://9072553350",
             ["displayName"] = "Polished Granite"
         },
-        ["void_chicken_incubator"] = {["image"] = "rbxassetid://17018554829", ["displayName"] = "Void Nest"},
-        ["emerald_chicken_nest"] = {["image"] = "rbxassetid://17018554648", ["displayName"] = "Emerald Nest"},
+        ["cluster_bomb"] = {
+            ["image"] = "rbxassetid://17009910977",
+            ["sharingDisabled"] = true,
+            ["maxStackSize"] = 5,
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"cluster_bomb"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0xab07511b4e386f9a",
+                ["launchSound"] = {"rbxassetid://6760544639"},
+                ["fireDelaySec"] = 0.4
+            },
+            ["displayName"] = "Cluster Bomb"
+        },
+        ["frosted_snowball"] = {
+            ["projectileSource"] = {
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["ammoItemTypes"] = {"frosted_snowball"},
+                ["maxStrengthChargeSec"] = 0.25,
+                ["projectileType"] = "function: 0xa0005de214d37b7a",
+                ["launchSound"] = {"rbxassetid://8165640372"},
+                ["fireDelaySec"] = 0.3
+            },
+            ["image"] = "rbxassetid://7911163294",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Frosted Snowball"
+        },
         ["glitch_infernal_shield"] = {
             ["glitched"] = true,
             ["image"] = "rbxassetid://7051149149",
@@ -5248,7 +5427,23 @@ Item Discounts: 15%->20%]],
             ["firstPerson"] = {["scale"] = 0.8},
             ["displayName"] = "Infernal Shield?"
         },
-        ["diamond_chicken_nest"] = {["image"] = "rbxassetid://17018554494", ["displayName"] = "Diamond Nest"},
+        ["target_dummy_block_tier_2"] = {
+            ["image"] = "rbxassetid://15635689543",
+            ["description"] = "",
+            ["maxStackSize"] = 1,
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakType"] = "stone",
+                ["health"] = 250,
+                ["breakSound"] = "function: 0x39ccb4c02897a7fa",
+                ["minecraftConversions"] = {{["blockId"] = 8030}},
+                ["collectionServiceTags"] = {"target-dummy-block"},
+                ["disableInventoryPickup"] = true,
+                ["seeThrough"] = true
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Diamond Defender"
+        },
         ["speed_boost"] = {["displayName"] = "Speed Boost"},
         ["wood_plank_birch"] = {
             ["footstepSound"] = 2,
@@ -5265,8 +5460,8 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991767611"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 5}}
             },
             ["image"] = "rbxassetid://7884372418",
@@ -5276,7 +5471,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc407b75ca608ad5c",
+                ["placeSound"] = "function: 0x3c37adff146ad7fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859697352",
@@ -5287,72 +5482,12 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://10859697352"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 98}}
             },
             ["image"] = "rbxassetid://10859697278",
             ["displayName"] = "Sandstone Polished"
-        },
-        ["iron_chicken_nest"] = {["image"] = "rbxassetid://17018554326", ["displayName"] = "Iron Nest"},
-        ["cluster_bomb"] = {
-            ["image"] = "rbxassetid://17009910977",
-            ["sharingDisabled"] = true,
-            ["maxStackSize"] = 5,
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 0.25,
-                ["ammoItemTypes"] = {"cluster_bomb"},
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x9171e490fa4aa99c",
-                ["launchSound"] = {"rbxassetid://6760544639"},
-                ["fireDelaySec"] = 0.4
-            },
-            ["displayName"] = "Cluster Bomb"
-        },
-        ["charge_shield"] = {
-            ["cooldownId"] = "charge_shield",
-            ["image"] = "rbxassetid://7745351893",
-            ["firstPerson"] = {["scale"] = 0.8},
-            ["displayName"] = "Charge Shield"
-        },
-        ["falconer_headhunter"] = {
-            ["image"] = "rbxassetid://17014870420",
-            ["description"] = "Blessed by the wind, this lightweight weapon enables skilled archers to hunt their prey with speed and accuracy. Hit headshots for massive damage!",
-            ["replaces"] = {"falconer_crossbow", "wood_crossbow", "falconer_bow", "wood_bow"},
-            ["projectileSource"] = {
-                ["multiShotChargeTime"] = 2,
-                ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x6748a8826d94713c",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["thirdPerson"] = {["fireAnimation"] = 392, ["aimAnimation"] = 394},
-                ["launchSound"] = {
-                    "rbxassetid://13406717420",
-                    "rbxassetid://13406717139",
-                    "rbxassetid://13406717258",
-                    "rbxassetid://13406717028"
-                },
-                ["firstPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395}
-            },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Feather-light Headhunter"
-        },
-        ["lasso"] = {
-            ["image"] = "rbxassetid://7192710930",
-            ["sharingDisabled"] = true,
-            ["skins"] = {"lasso_mummy"},
-            ["projectileSource"] = {
-                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23},
-                ["maxStrengthChargeSec"] = 0.5,
-                ["minStrengthScalar"] = 0.5,
-                ["fireDelaySec"] = 8,
-                ["walkSpeedMultiplier"] = 0.25,
-                ["projectileType"] = "function: 0xbb7fb7d93fcac4bc",
-                ["launchSound"] = {"rbxassetid://7192289548"},
-                ["hitSounds"] = {{"rbxassetid://7192289603"}}
-            },
-            ["displayName"] = "Lasso"
         },
         ["tinker_machine_upgrade_3"] = {
             ["sharingDisabled"] = true,
@@ -5369,6 +5504,91 @@ Item Discounts: 15%->20%]],
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Void Chainsaw"
         },
+        ["charge_shield"] = {
+            ["cooldownId"] = "charge_shield",
+            ["image"] = "rbxassetid://7745351893",
+            ["firstPerson"] = {["scale"] = 0.8},
+            ["displayName"] = "Charge Shield"
+        },
+        ["tinker_weapon_3"] = {
+            ["image"] = "rbxassetid://17016574694",
+            ["sharingDisabled"] = true,
+            ["replaces"] = {"tinker_weapon_2"},
+            ["skins"] = {"fish_tank_diamond_chainsaw"},
+            ["sword"] = {["attackRange"] = 17, ["attackSpeed"] = 0.35, ["damage"] = 20},
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Diamond Chainsaw"
+        },
+        ["clay_orange"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0xb34c37f26b5a5f7a",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://16991766008",
+                        "rbxassetid://16991766008",
+                        "rbxassetid://16991766008",
+                        "rbxassetid://16991766008",
+                        "rbxassetid://16991766008",
+                        "rbxassetid://16991766008"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {
+                    {["blockData"] = 1, ["blockId"] = 159},
+                    {["blockData"] = 1, ["blockId"] = 251}
+                }
+            },
+            ["image"] = "rbxassetid://7884367973",
+            ["displayName"] = "Orange Clay"
+        },
+        ["villain_scissor_sword"] = {
+            ["image"] = "rbxassetid://16122815086",
+            ["description"] = "Swords, like villains, can come from anywhere! Land combo hits to increase your attack speed.",
+            ["tierUpgradeElements"] = {
+                {["tierDescription"] = {"Apply the decay status on successful hits."}},
+                {["tierDescription"] = {"Unlock charged attack, performing a 3-strike combo."}},
+                {["tierDescription"] = {"The decay status now stacks, decreasing max health further."}}
+            },
+            ["sword"] = {
+                ["chargedAttack"] = {
+                    ["walkSpeedModifier"] = {["delay"] = 0.25, ["multiplier"] = 1.1},
+                    ["minChargeTimeSec"] = 1.5,
+                    ["chargedSwingAnimations"] = {552},
+                    ["attackCooldown"] = 12,
+                    ["fireAtFullCharge"] = true,
+                    ["showHoldProgressAfterSec"] = 0.25,
+                    ["maxChargeTimeSec"] = 1.5,
+                    ["chargedSwingSounds"] = {
+                        "rbxassetid://16122342556",
+                        "rbxassetid://16122342556",
+                        "rbxassetid://16122342321"
+                    },
+                    ["enableCondition"] = "function: 0xfe821988f4984a7a",
+                    ["chargingEffects"] = {["sound"] = "rbxassetid://16122343234"}
+                },
+                ["skipSwingEffects"] = true,
+                ["attackSpeed"] = 0.698,
+                ["damage"] = 25
+            },
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Villain's Scissor Sword"
+        },
+        ["scepter"] = {
+            ["image"] = "rbxassetid://11204094589",
+            ["sharingDisabled"] = true,
+            ["maxStackSize"] = 1,
+            ["consumable"] = {
+                ["animationOverride"] = 270,
+                ["cancelOnDamage"] = true,
+                ["consumeTime"] = 1,
+                ["soundOverride"] = "None",
+                ["blockingStatusEffects"] = {"grounded"}
+            },
+            ["displayName"] = "Scepter of Light"
+        },
         ["shrink_potion"] = {
             ["crafting"] = {},
             ["image"] = "rbxassetid://7911163448",
@@ -5380,10 +5600,10 @@ Item Discounts: 15%->20%]],
             ["description"] = "",
             ["maxStackSize"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 350,
-                ["breakSound"] = "function: 0x1407b422e313a35c",
+                ["breakSound"] = "function: 0x09e2ef03de38b97a",
                 ["minecraftConversions"] = {{["blockId"] = 8032}},
                 ["collectionServiceTags"] = {"target-dummy-block"},
                 ["disableInventoryPickup"] = true,
@@ -5392,48 +5612,13 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Enlightened Defender"
         },
-        ["tinker_weapon_3"] = {
-            ["image"] = "rbxassetid://17016574694",
-            ["sharingDisabled"] = true,
-            ["replaces"] = {"tinker_weapon_2"},
-            ["skins"] = {"fish_tank_diamond_chainsaw"},
-            ["sword"] = {["attackRange"] = 17, ["attackSpeed"] = 0.35, ["damage"] = 20},
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Diamond Chainsaw"
-        },
-        ["warrior_boots"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.2, ["slot"] = 2},
-            ["image"] = "rbxassetid://7343993019",
-            ["displayName"] = "Warrior Boots"
-        },
-        ["health_drop"] = {["displayName"] = "Health Drop"},
-        ["team_crate"] = {
-            ["footstepSound"] = 2,
-            ["image"] = "rbxassetid://14146743816",
-            ["block"] = {
-                ["breakType"] = "wood",
-                ["health"] = 30,
-                ["seeThrough"] = true,
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"chest", "team-crate"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
-            },
-            ["displayName"] = "Team Crate"
-        },
-        ["stopwatch"] = {
-            ["cooldownId"] = "stopwatch",
-            ["image"] = "rbxassetid://7871761250",
-            ["consumable"] = {["soundOverride"] = "None", ["consumeTime"] = 1.5, ["disableAnimation"] = true},
-            ["displayName"] = "Stopwatch"
-        },
         ["heal_banner"] = {
             ["image"] = "rbxassetid://9557924389",
             ["description"] = "Place banner that heals yourself and any team member inside banner radius.",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x68d32abafa2cba9c",
-                ["breakSound"] = "function: 0x6b4695086e18da5c",
+                ["placeSound"] = "function: 0x951d46246d86cdba",
+                ["breakSound"] = "function: 0xe4fa5646dada5afa",
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 40,
@@ -5446,13 +5631,59 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Heal Banner"
         },
+        ["health_drop"] = {["displayName"] = "Health Drop"},
+        ["blue_tile"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://16238617352",
+                        "rbxassetid://16238617352",
+                        "rbxassetid://16238617352",
+                        "rbxassetid://16238617352",
+                        "rbxassetid://16238617352",
+                        "rbxassetid://16238617352"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 22}}
+            },
+            ["displayName"] = "Blue Tile"
+        },
+        ["dragon_mortar"] = {
+            ["image"] = "rbxassetid://16212332887",
+            ["description"] = "Launch a festive dragon rocket to deal damage in an area!",
+            ["displayName"] = "Dragon Mortar"
+        },
+        ["stopwatch"] = {
+            ["cooldownId"] = "stopwatch",
+            ["image"] = "rbxassetid://7871761250",
+            ["consumable"] = {["soundOverride"] = "None", ["consumeTime"] = 1.5, ["disableAnimation"] = true},
+            ["displayName"] = "Stopwatch"
+        },
+        ["firecrackers"] = {
+            ["image"] = "rbxassetid://16211743648",
+            ["description"] = "Celebrate the lunar new year with some firecrackers!",
+            ["maxStackSize"] = 3,
+            ["projectileSource"] = {
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["ammoItemTypes"] = {"firecrackers"},
+                ["maxStrengthChargeSec"] = 0.25,
+                ["projectileType"] = "function: 0x270529258ce06aba",
+                ["launchSound"] = {"rbxassetid://8649937489"},
+                ["fireDelaySec"] = 1
+            },
+            ["displayName"] = "Firecrackers"
+        },
         ["scaffold"] = {
             ["image"] = "rbxassetid://12210853999",
             ["sharingDisabled"] = true,
             ["footstepSound"] = 2,
             ["block"] = {
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["flammable"] = true,
                 ["blastResistance"] = 1.4,
                 ["health"] = 1,
@@ -5484,8 +5715,9 @@ Item Discounts: 15%->20%]],
         ["wool_green"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -5513,120 +5745,6 @@ Item Discounts: 15%->20%]],
             ["consumable"] = {["consumeTime"] = 1},
             ["displayName"] = "Chameleon Fruit"
         },
-        ["blue_tile"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://16238617352",
-                        "rbxassetid://16238617352",
-                        "rbxassetid://16238617352",
-                        "rbxassetid://16238617352",
-                        "rbxassetid://16238617352",
-                        "rbxassetid://16238617352"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 22}}
-            },
-            ["displayName"] = "Blue Tile"
-        },
-        ["dragon_mortar"] = {
-            ["image"] = "rbxassetid://16212332887",
-            ["description"] = "Launch a festive dragon rocket to deal damage in an area!",
-            ["displayName"] = "Dragon Mortar"
-        },
-        ["firecrackers"] = {
-            ["image"] = "rbxassetid://16211743648",
-            ["description"] = "Celebrate the lunar new year with some firecrackers!",
-            ["maxStackSize"] = 3,
-            ["projectileSource"] = {
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["ammoItemTypes"] = {"firecrackers"},
-                ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0x705b432035e7227c",
-                ["launchSound"] = {"rbxassetid://8649937489"},
-                ["fireDelaySec"] = 1
-            },
-            ["displayName"] = "Firecrackers"
-        },
-        ["red_sandstone_smooth"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x4835c746f195625c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://10859697202",
-                        "rbxassetid://10859697202",
-                        "rbxassetid://10859697202",
-                        "rbxassetid://10859697202",
-                        "rbxassetid://10859697202",
-                        "rbxassetid://10859697202"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 168}}
-            },
-            ["image"] = "rbxassetid://10859697143",
-            ["displayName"] = "Red Sandstone Smooth"
-        },
-        ["villain_scissor_sword"] = {
-            ["image"] = "rbxassetid://16122815086",
-            ["description"] = "Swords, like villains, can come from anywhere! Land combo hits to increase your attack speed.",
-            ["tierUpgradeElements"] = {
-                {["tierDescription"] = {"Apply the decay status on successful hits."}},
-                {["tierDescription"] = {"Unlock charged attack, performing a 3-strike combo."}},
-                {["tierDescription"] = {"The decay status now stacks, decreasing max health further."}}
-            },
-            ["sword"] = {
-                ["chargedAttack"] = {
-                    ["walkSpeedModifier"] = {["delay"] = 0.25, ["multiplier"] = 1.1},
-                    ["minChargeTimeSec"] = 1.5,
-                    ["chargedSwingAnimations"] = {550},
-                    ["attackCooldown"] = 12,
-                    ["fireAtFullCharge"] = true,
-                    ["showHoldProgressAfterSec"] = 0.25,
-                    ["maxChargeTimeSec"] = 1.5,
-                    ["chargedSwingSounds"] = {
-                        "rbxassetid://16122342556",
-                        "rbxassetid://16122342556",
-                        "rbxassetid://16122342321"
-                    },
-                    ["enableCondition"] = "function: 0x0835a26f37ebf05c",
-                    ["chargingEffects"] = {["sound"] = "rbxassetid://16122343234"}
-                },
-                ["skipSwingEffects"] = true,
-                ["attackSpeed"] = 0.698,
-                ["damage"] = 40
-            },
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Villain's Scissor Sword"
-        },
-        ["void_block"] = {
-            ["footstepSound"] = 4,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://9871962653",
-                        "rbxassetid://9871962545",
-                        "rbxassetid://9871962545",
-                        "rbxassetid://9871962545",
-                        "rbxassetid://9871962545",
-                        "rbxassetid://9871962545"
-                    }
-                },
-                ["collectionServiceTags"] = {"void_block"},
-                ["breakSound"] = "function: 0x27789aa3bd38351c"
-            },
-            ["image"] = "rbxassetid://9871961934",
-            ["displayName"] = "Void Rock"
-        },
         ["hero_scissor_sword"] = {
             ["image"] = "rbxassetid://16122815522",
             ["description"] = "Swords, like heroes, can be forged from anything! Land combo hits to increase your attack speed.",
@@ -5640,7 +5758,7 @@ Item Discounts: 15%->20%]],
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["delay"] = 0.25, ["multiplier"] = 1.1},
                     ["minChargeTimeSec"] = 1.5,
-                    ["chargedSwingAnimations"] = {550},
+                    ["chargedSwingAnimations"] = {552},
                     ["attackCooldown"] = 12,
                     ["fireAtFullCharge"] = true,
                     ["showHoldProgressAfterSec"] = 0.25,
@@ -5650,16 +5768,130 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16122343478",
                         "rbxassetid://16122343090"
                     },
-                    ["enableCondition"] = "function: 0x0fe2ac78a083e49c",
+                    ["enableCondition"] = "function: 0xc187062740f85e3a",
                     ["ignoreEffectsOnFullyCharged"] = true,
                     ["chargingEffects"] = {["sound"] = "rbxassetid://16122343234"}
                 },
                 ["skipSwingEffects"] = true,
                 ["attackSpeed"] = 0.698,
-                ["damage"] = 40
+                ["damage"] = 25
             },
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Hero's Scissor Sword"
+        },
+        ["villain_comet_volley"] = {
+            ["image"] = "rbxassetid://16040490553",
+            ["description"] = "Ascend to celestial heights before unleashing a volley of comets on the world below! Slain foes are converted into Emerald ore deposits.",
+            ["tierUpgradeElements"] = {
+                {["tierDescription"] = {"5 Total Comets", "70 Damage Per Comet", "Low Yield Emerald Ore"}},
+                {["tierDescription"] = {"7 Total Comets", "90 Damage Per Comet", "Medium Yield Emerald Ore"}},
+                {["tierDescription"] = {"9 Total Comets", "120 Damage Per Comet", "High Yield Emerald Ore"}}
+            },
+            ["itemCatalog"] = {["collection"] = 3},
+            ["consumable"] = {["consumeTime"] = 0.8, ["soundOverride"] = "None", ["walkSpeedMultiplier"] = 0.5},
+            ["displayName"] = "Villain's Comet Volley"
+        },
+        ["enchant_table_glitched"] = {
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 20,
+                ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 8004}},
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"enchant-table"},
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
+            },
+            ["displayName"] = "Glitched Enchant Table"
+        },
+        ["red_sandstone_smooth"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x6c3c2611c1dbc2fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://10859697202",
+                        "rbxassetid://10859697202",
+                        "rbxassetid://10859697202",
+                        "rbxassetid://10859697202",
+                        "rbxassetid://10859697202",
+                        "rbxassetid://10859697202"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 168}}
+            },
+            ["image"] = "rbxassetid://10859697143",
+            ["displayName"] = "Red Sandstone Smooth"
+        },
+        ["hero_magical_girl_rapier"] = {
+            ["image"] = "rbxassetid://16101841796",
+            ["description"] = "Forged with a courageous heart. Deal critical damage to high health enemies. 'Give me the strength to face my fears!'",
+            ["tierUpgradeElements"] = {
+                {["tierDescription"] = {"+2 Projectiles On Enhanced Attack"}},
+                {["tierDescription"] = {"Projectiles Can Now Critically Strike"}},
+                {["tierDescription"] = {"+2 Projectiles On Enhanced Attack"}}
+            },
+            ["itemCatalog"] = {["collection"] = 3},
+            ["sword"] = {
+                ["attackSpeed"] = 0.5,
+                ["attackRange"] = 12,
+                ["swingSounds"] = {},
+                ["respectAttackSpeedForEffects"] = true,
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 44
+            },
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Hero's Magical Rapier"
+        },
+        ["falconer_crossbow"] = {
+            ["image"] = "rbxassetid://17014870547",
+            ["description"] = "Blessed by the wind, this lightweight weapon enables skilled archers to hunt their prey with speed and accuracy",
+            ["firstPerson"] = {["scale"] = 0.9, ["verticalOffset"] = -0.25},
+            ["replaces"] = {"falconer_bow", "wood_bow", "wood_crossbow"},
+            ["projectileSource"] = {
+                ["multiShotChargeTime"] = 1.6,
+                ["fireDelaySec"] = 1.15,
+                ["projectileType"] = "function: 0xc81fc9101d4e46ca",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Feather-light Crossbow"
+        },
+        ["villain_protector_wand"] = {
+            ["image"] = "rbxassetid://16031908526",
+            ["description"] = "Grants you the power to cast heals and bubble barriers on yourself!",
+            ["tierUpgradeElements"] = {
+                {
+                    ["tierDescription"] = {
+                        "Added Bubble Cast Ability",
+                        "Bubble Applies Knockback/Damage When Popped",
+                        "No Fall Damage Inside Bubble"
+                    }
+                },
+                {
+                    ["tierDescription"] = {
+                        "Heal Duration Increased",
+                        "Bubble Destroys Projectiles",
+                        "Pop Knockback/Damage Increased"
+                    }
+                },
+                {
+                    ["tierDescription"] = {
+                        "Heal Affects Nearby Teammates",
+                        "Bubble Deflects Projectiles",
+                        "Pop Knockback/Damage Increased"
+                    }
+                }
+            },
+            ["itemCatalog"] = {["collection"] = 3},
+            ["displayName"] = "Villain's Protector Wand"
         },
         ["heal_splash_potion"] = {
             ["image"] = "rbxassetid://9135912233",
@@ -5671,7 +5903,7 @@ Item Discounts: 15%->20%]],
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"heal_splash_potion"},
                 ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0x53fe0ac801ed4e9c",
+                ["projectileType"] = "function: 0x98436e8fa32ff1ba",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {}
             },
@@ -5680,12 +5912,12 @@ Item Discounts: 15%->20%]],
         ["spread_cannon"] = {
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12013}},
                 ["breakType"] = "stone",
                 ["health"] = 150,
                 ["disableInventoryPickup"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"cannon-type"},
                 ["unbreakableByTeammates"] = true,
                 ["denyPlaceOn"] = true
@@ -5708,7 +5940,7 @@ Item Discounts: 15%->20%]],
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["multiShotChargeTime"] = 1,
                 ["fireDelaySec"] = 0.6,
-                ["projectileType"] = "function: 0x780557a4a3b2c89c",
+                ["projectileType"] = "function: 0xe21c262d36be315a",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "volley_arrow", "iron_arrow"},
                 ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
@@ -5718,62 +5950,6 @@ Item Discounts: 15%->20%]],
             },
             ["firstPerson"] = {["verticalOffset"] = 0},
             ["displayName"] = "Feather-light Bow"
-        },
-        ["villain_comet_volley"] = {
-            ["image"] = "rbxassetid://16040490553",
-            ["description"] = "Ascend to celestial heights before unleashing a volley of comets on the world below! Slain foes are converted into Emerald ore deposits.",
-            ["tierUpgradeElements"] = {
-                {["tierDescription"] = {"5 Total Comets", "70 Damage Per Comet", "Low Yield Emerald Ore"}},
-                {["tierDescription"] = {"7 Total Comets", "90 Damage Per Comet", "Medium Yield Emerald Ore"}},
-                {["tierDescription"] = {"9 Total Comets", "120 Damage Per Comet", "High Yield Emerald Ore"}}
-            },
-            ["itemCatalog"] = {["collection"] = 3},
-            ["consumable"] = {["consumeTime"] = 0.8, ["soundOverride"] = "None", ["walkSpeedMultiplier"] = 0.5},
-            ["displayName"] = "Villain's Comet Volley"
-        },
-        ["carrot_seeds"] = {
-            ["image"] = "rbxassetid://6956387835",
-            ["placesBlock"] = {["blockType"] = "carrot"},
-            ["displayName"] = "Carrot Seeds"
-        },
-        ["gold"] = {
-            ["displayNameColor"] = Color3.fromRGB(255, 209, 0),
-            ["image"] = "rbxassetid://13465460696",
-            ["hotbarFillRight"] = true,
-            ["displayName"] = "Gold"
-        },
-        ["hero_magical_girl_rapier"] = {
-            ["image"] = "rbxassetid://16101841796",
-            ["description"] = "Forged with a courageous heart. Deal critical damage to high health enemies. 'Give me the strength to face my fears!'",
-            ["tierUpgradeElements"] = {
-                {["tierDescription"] = {"+2 Projectiles On Enhanced Attack"}},
-                {["tierDescription"] = {"Projectiles Can Now Critically Strike"}},
-                {["tierDescription"] = {"+2 Projectiles On Enhanced Attack"}}
-            },
-            ["itemCatalog"] = {["collection"] = 3},
-            ["sword"] = {
-                ["attackSpeed"] = 0.5,
-                ["attackRange"] = 12,
-                ["swingSounds"] = {},
-                ["respectAttackSpeedForEffects"] = true,
-                ["applyCooldownOnMiss"] = true,
-                ["damage"] = 44
-            },
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Hero's Magical Rapier"
-        },
-        ["drill"] = {["image"] = "rbxassetid://12955099508", ["displayName"] = "Drill"},
-        ["black_market_shop"] = {
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["disableInventoryPickup"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["maxPlaced"] = 1,
-                ["noSuffocation"] = true
-            },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "BLACK_MARKET_SHOP"
         },
         ["hero_protector_wand"] = {
             ["image"] = "rbxassetid://16031906827",
@@ -5804,18 +5980,71 @@ Item Discounts: 15%->20%]],
             ["itemCatalog"] = {["collection"] = 3},
             ["displayName"] = "Hero's Protector Wand"
         },
-        ["balloon"] = {
-            ["image"] = "rbxassetid://7122143895",
-            ["description"] = "Use up to three times to gain slowfall and jump boost.",
-            ["maxStackSize"] = 3,
-            ["cooldownId"] = "balloon",
-            ["displayName"] = "Balloon"
+        ["carrot_seeds"] = {
+            ["image"] = "rbxassetid://6956387835",
+            ["placesBlock"] = {["blockType"] = "carrot"},
+            ["displayName"] = "Carrot Seeds"
+        },
+        ["magical_hero_lucky_block"] = {
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xb473358c310aac9a",
+                ["blastProof"] = true,
+                ["breakType"] = "stone",
+                ["health"] = 15,
+                ["disableInventoryPickup"] = true,
+                ["collectionServiceTags"] = {"MagicalHeroLuckyBlock"},
+                ["luckyBlock"] = {
+                    ["categories"] = {"magical_hero", "magical_villain"},
+                    ["drops"] = {{["luckMultiplier"] = 2}}
+                },
+                ["minecraftConversions"] = {{["blockId"] = 12117}}
+            },
+            ["image"] = "rbxassetid://16114559103",
+            ["displayName"] = "Magical Hero Lucky Block"
+        },
+        ["world_guard_wand"] = {
+            ["firstPerson"] = {["verticalOffset"] = -0.8},
+            ["image"] = "rbxassetid://16009857460",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "World Guard Wand"
+        },
+        ["drill"] = {["image"] = "rbxassetid://12955099508", ["sharingDisabled"] = true, ["displayName"] = "Drill"},
+        ["black_market_shop"] = {
+            ["skins"] = {"halloween_black_market_shop"},
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["disableInventoryPickup"] = true,
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["unbreakableByTeammates"] = true,
+                ["maxPlaced"] = 1,
+                ["noSuffocation"] = true
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "BLACK_MARKET_SHOP"
+        },
+        ["firework_rocket_missile"] = {
+            ["image"] = "rbxassetid://15798141772",
+            ["hotbarFillRight"] = true,
+            ["displayName"] = "Firework Rocket"
+        },
+        ["wood_dao"] = {
+            ["daoSword"] = {["armorMultiplier"] = 0.8, ["dashDamage"] = 16.5},
+            ["image"] = "rbxassetid://8665070999",
+            ["description"] = "Charge to dash forward.",
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["skins"] = {"wood_dao_tiger", "wood_dao_victorious", "wood_dao_cursed"},
+            ["sword"] = {["daoDash"] = true, ["attackSpeed"] = 0.3, ["damage"] = 20},
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Wood Dao"
         },
         ["wool_white"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -5837,30 +6066,13 @@ Item Discounts: 15%->20%]],
             ["displayName"] = "White Wool"
         },
         ["chicken_diamond"] = {["image"] = "rbxassetid://13980233777", ["displayName"] = "Diamond Chicken"},
-        ["magical_hero_lucky_block"] = {
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x709d2b8b9d144dfc",
-                ["blastProof"] = true,
-                ["breakType"] = "stone",
-                ["health"] = 15,
-                ["disableInventoryPickup"] = true,
-                ["collectionServiceTags"] = {"MagicalHeroLuckyBlock"},
-                ["luckyBlock"] = {
-                    ["categories"] = {"magical_hero", "magical_villain"},
-                    ["drops"] = {{["luckMultiplier"] = 2}}
-                },
-                ["minecraftConversions"] = {{["blockId"] = 12117}}
-            },
-            ["image"] = "rbxassetid://16114559103",
-            ["displayName"] = "Magical Hero Lucky Block"
+        ["attack_helicopter_deploy"] = {
+            ["consumable"] = {["consumeTime"] = 3, ["disableAnimation"] = true, ["soundOverride"] = "None"},
+            ["image"] = "rbxassetid://10236878231",
+            ["description"] = "Weaponized flying death machine.",
+            ["displayName"] = "Attack Minicopter"
         },
-        ["world_guard_wand"] = {
-            ["firstPerson"] = {["verticalOffset"] = -0.8},
-            ["image"] = "rbxassetid://16009857460",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "World Guard Wand"
-        },
+        ["fork_trident_projectile"] = {["displayName"] = "Fork Trident Projectile"},
         ["broken_enchant_table"] = {
             ["block"] = {
                 ["breakType"] = "wood",
@@ -5868,35 +6080,68 @@ Item Discounts: 15%->20%]],
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 8004}},
                 ["blastProof"] = true,
                 ["collectionServiceTags"] = {"broken-enchant-table"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
             },
             ["displayName"] = "Broken Enchant Table"
         },
-        ["new_years_lucky_block_2024"] = {
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x0e3e2965cd5bc9dc",
-                ["blastProof"] = true,
-                ["breakType"] = "stone",
-                ["health"] = 15,
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://15800004825",
-                        "rbxassetid://15800004825",
-                        "rbxassetid://15800004825",
-                        "rbxassetid://15800004825",
-                        "rbxassetid://15800004825",
-                        "rbxassetid://15800004825"
-                    }
+        ["snowball_launcher"] = {
+            ["image"] = "rbxassetid://15628201582",
+            ["description"] = "Launch snowballs that can slow or freeze enemies!",
+            ["maxStackSize"] = 1,
+            ["firstPerson"] = {["verticalOffset"] = 0},
+            ["thirdPerson"] = {["holdAnimation"] = 53},
+            ["multiProjectileSource"] = {
+                ["mega_frozen_snowball"] = {
+                    ["minStrengthScalar"] = 1,
+                    ["maxStrengthChargeSec"] = 0.2,
+                    ["multiShotChargeTime"] = 1,
+                    ["ammoItemTypes"] = {"snowball"},
+                    ["fireDelaySec"] = 0.1,
+                    ["projectileType"] = "function: 0xd6db2cbea510667a",
+                    ["launchSound"] = {"rbxassetid://15628271415"},
+                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53}
                 },
-                ["disableInventoryPickup"] = true,
-                ["collectionServiceTags"] = {"NewYearsLuckyBlock"},
-                ["luckyBlock"] = {["categories"] = {"new_years"}, ["drops"] = {{["luckMultiplier"] = 2}}},
-                ["minecraftConversions"] = {{["blockId"] = 12116}}
+                ["rapid_frozen_snowball"] = {
+                    ["multiShotCount"] = 8,
+                    ["multiShotChargeTime"] = 1,
+                    ["fireDelaySec"] = 0.05,
+                    ["projectileType"] = "function: 0x19c78120968887da",
+                    ["maxStrengthChargeSec"] = 0.2,
+                    ["ammoItemTypes"] = {"snowball"},
+                    ["multiShot"] = true,
+                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53},
+                    ["minStrengthScalar"] = 1,
+                    ["multiShotDelay"] = 0.05
+                },
+                ["spread_frozen_snowball"] = {
+                    ["multiShotCount"] = 10,
+                    ["multiShotChargeTime"] = 1,
+                    ["fireDelaySec"] = 0,
+                    ["projectileType"] = "function: 0x8ac3ddfa49587cda",
+                    ["maxStrengthChargeSec"] = 0.2,
+                    ["ammoItemTypes"] = {"snowball"},
+                    ["multiShot"] = true,
+                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53},
+                    ["minStrengthScalar"] = 1,
+                    ["multiShotDelay"] = 0
+                },
+                ["frozen_snowball"] = {
+                    ["minStrengthScalar"] = 1,
+                    ["maxStrengthChargeSec"] = 0.3,
+                    ["ammoItemTypes"] = {"snowball"},
+                    ["fireDelaySec"] = 0.2,
+                    ["projectileType"] = "function: 0x0197b42d012044ba",
+                    ["launchSound"] = {
+                        "rbxassetid://15628271708",
+                        "rbxassetid://15628271169",
+                        "rbxassetid://15628271324",
+                        "rbxassetid://15628271888"
+                    },
+                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53}
+                }
             },
-            ["image"] = "rbxassetid://15800004718",
-            ["displayName"] = "New Years Lucky Block"
+            ["displayName"] = "Snowball Launcher"
         },
         ["warrior_chestplate"] = {
             ["armor"] = {["damageReductionMultiplier"] = 0.36, ["slot"] = 1},
@@ -5911,16 +6156,28 @@ Item Discounts: 15%->20%]],
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"glitch_snowball"},
                 ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0xe56db83d7a90355c",
+                ["projectileType"] = "function: 0x703baea6107087fa",
                 ["launchSound"] = {"rbxassetid://8165640372"},
                 ["fireDelaySec"] = 0.15
             },
             ["displayName"] = "Snowball?"
         },
-        ["firework_rocket_missile"] = {
-            ["image"] = "rbxassetid://15798141772",
-            ["hotbarFillRight"] = true,
-            ["displayName"] = "Firework Rocket"
+        ["target_dummy_block_tier_3"] = {
+            ["image"] = "rbxassetid://15635691654",
+            ["description"] = "",
+            ["maxStackSize"] = 1,
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakType"] = "stone",
+                ["health"] = 300,
+                ["breakSound"] = "function: 0xe1eecd679528633a",
+                ["minecraftConversions"] = {{["blockId"] = 8031}},
+                ["collectionServiceTags"] = {"target-dummy-block"},
+                ["disableInventoryPickup"] = true,
+                ["seeThrough"] = true
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Emerald Defender"
         },
         ["throwable_egg"] = {
             ["sharingDisabled"] = true,
@@ -5941,80 +6198,32 @@ Item Discounts: 15%->20%]],
             ["consumable"] = {["consumeTime"] = 0.8, ["soundOverride"] = "None", ["walkSpeedMultiplier"] = 0.5},
             ["displayName"] = "Hero's Comet Volley"
         },
-        ["snowball_launcher"] = {
-            ["image"] = "rbxassetid://15628201582",
-            ["description"] = "Launch snowballs that can slow or freeze enemies!",
-            ["maxStackSize"] = 1,
-            ["firstPerson"] = {["verticalOffset"] = 0},
-            ["thirdPerson"] = {["holdAnimation"] = 53},
-            ["multiProjectileSource"] = {
-                ["mega_frozen_snowball"] = {
-                    ["minStrengthScalar"] = 1,
-                    ["maxStrengthChargeSec"] = 0.2,
-                    ["multiShotChargeTime"] = 1,
-                    ["ammoItemTypes"] = {"snowball"},
-                    ["fireDelaySec"] = 0.1,
-                    ["projectileType"] = "function: 0x4910863bee5eb7fc",
-                    ["launchSound"] = {"rbxassetid://15628271415"},
-                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53}
-                },
-                ["rapid_frozen_snowball"] = {
-                    ["multiShotCount"] = 8,
-                    ["multiShotChargeTime"] = 1,
-                    ["fireDelaySec"] = 0.05,
-                    ["projectileType"] = "function: 0x481f488e72a6c2bc",
-                    ["maxStrengthChargeSec"] = 0.2,
-                    ["ammoItemTypes"] = {"snowball"},
-                    ["multiShot"] = true,
-                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53},
-                    ["minStrengthScalar"] = 1,
-                    ["multiShotDelay"] = 0.05
-                },
-                ["spread_frozen_snowball"] = {
-                    ["multiShotCount"] = 10,
-                    ["multiShotChargeTime"] = 1,
-                    ["fireDelaySec"] = 0,
-                    ["projectileType"] = "function: 0x58feab3aa8b4081c",
-                    ["maxStrengthChargeSec"] = 0.2,
-                    ["ammoItemTypes"] = {"snowball"},
-                    ["multiShot"] = true,
-                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53},
-                    ["minStrengthScalar"] = 1,
-                    ["multiShotDelay"] = 0
-                },
-                ["frozen_snowball"] = {
-                    ["minStrengthScalar"] = 1,
-                    ["maxStrengthChargeSec"] = 0.3,
-                    ["ammoItemTypes"] = {"snowball"},
-                    ["fireDelaySec"] = 0.2,
-                    ["projectileType"] = "function: 0xbebaa48c15e8bd5c",
-                    ["launchSound"] = {
-                        "rbxassetid://15628271708",
-                        "rbxassetid://15628271169",
-                        "rbxassetid://15628271324",
-                        "rbxassetid://15628271888"
-                    },
-                    ["thirdPerson"] = {["aimAnimation"] = 53, ["fireAnimation"] = 51, ["idleAnimation"] = 53}
-                }
-            },
-            ["displayName"] = "Snowball Launcher"
-        },
-        ["target_dummy_block_tier_3"] = {
-            ["image"] = "rbxassetid://15635691654",
-            ["description"] = "",
-            ["maxStackSize"] = 1,
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakType"] = "stone",
-                ["health"] = 300,
-                ["breakSound"] = "function: 0x74f2b1c10f12119c",
-                ["minecraftConversions"] = {{["blockId"] = 8031}},
-                ["collectionServiceTags"] = {"target-dummy-block"},
-                ["disableInventoryPickup"] = true,
-                ["seeThrough"] = true
-            },
+        ["bananarang"] = {
+            ["image"] = "rbxassetid://115717861330143",
             ["sharingDisabled"] = true,
-            ["displayName"] = "Emerald Defender"
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 0.3,
+                ["maxStrengthChargeSec"] = 1,
+                ["projectileType"] = "function: 0x7d6fae902358389a",
+                ["minStrengthScalar"] = 1,
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
+            },
+            ["description"] = "Go bananas with this bundle of boomerangs!",
+            ["displayName"] = "Bananarang"
+        },
+        ["spawn_gadget"] = {
+            ["gadget"] = true,
+            ["image"] = "rbxassetid://15579417392",
+            ["description"] = "Used to set a team spawn location at its position.",
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["minecraftConversions"] = {{["blockId"] = 9004}},
+                ["collectionServiceTags"] = {"CreativeGadget"},
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["breakableOnlyByHosts"] = true
+            },
+            ["displayName"] = "Team Spawn Gadget"
         },
         ["diamond_boots"] = {
             ["armor"] = {["damageReductionMultiplier"] = 0.2, ["slot"] = 2},
@@ -6022,33 +6231,17 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Diamond Boots"
         },
-        ["target_dummy_block_tier_2"] = {
-            ["image"] = "rbxassetid://15635689543",
-            ["description"] = "",
-            ["maxStackSize"] = 1,
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakType"] = "stone",
-                ["health"] = 250,
-                ["breakSound"] = "function: 0x1629119ffafb7cdc",
-                ["minecraftConversions"] = {{["blockId"] = 8030}},
-                ["collectionServiceTags"] = {"target-dummy-block"},
-                ["disableInventoryPickup"] = true,
-                ["seeThrough"] = true
-            },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Diamond Defender"
-        },
+        ["merchant_damage_buff"] = {["removeFromCustoms"] = true, ["displayName"] = "Damage Buff"},
         ["team_generator_gadget"] = {
             ["gadget"] = true,
             ["image"] = "rbxassetid://15579417392",
             ["description"] = "Used to create a team generator above its position.",
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 9006}},
                 ["collectionServiceTags"] = {"CreativeGadget"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakableOnlyByHosts"] = true
             },
             ["displayName"] = "Team Generator Gadget"
@@ -6059,11 +6252,18 @@ Item Discounts: 15%->20%]],
             ["consumable"] = {["potion"] = true, ["consumeTime"] = 0.8},
             ["displayName"] = "Jump Potion"
         },
-        ["leather_chestplate"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.16, ["slot"] = 1},
-            ["image"] = "rbxassetid://6876833204",
+        ["ninja_chakram_4"] = {
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 1,
+                ["fireDelaySec"] = 0.4,
+                ["walkSpeedMultiplier"] = 1,
+                ["projectileType"] = "function: 0x877f3ea0f96059ba",
+                ["minStrengthScalar"] = 1,
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
+            },
+            ["image"] = "rbxassetid://15515027427",
             ["sharingDisabled"] = true,
-            ["displayName"] = "Leather Chestplate"
+            ["displayName"] = "Emerald Chakram"
         },
         ["void_axe"] = {
             ["firstPerson"] = {["verticalOffset"] = -1.2},
@@ -6076,19 +6276,18 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://8730010865",
             ["displayName"] = "Juggernaut Chestplate"
         },
-        ["spawn_gadget"] = {
-            ["gadget"] = true,
-            ["image"] = "rbxassetid://15579417392",
-            ["description"] = "Used to set a team spawn location at its position.",
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["minecraftConversions"] = {{["blockId"] = 9004}},
-                ["collectionServiceTags"] = {"CreativeGadget"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["breakableOnlyByHosts"] = true
+        ["ninja_chakram_3"] = {
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 1,
+                ["fireDelaySec"] = 0.4,
+                ["walkSpeedMultiplier"] = 1,
+                ["projectileType"] = "function: 0xad6dadde918847da",
+                ["minStrengthScalar"] = 1,
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
             },
-            ["displayName"] = "Team Spawn Gadget"
+            ["image"] = "rbxassetid://15515023612",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Diamond Chakram"
         },
         ["headhunter"] = {
             ["replaces"] = {"wood_crossbow"},
@@ -6098,44 +6297,42 @@ Item Discounts: 15%->20%]],
             ["projectileSource"] = {
                 ["multiShotChargeTime"] = 2,
                 ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x35631ce4a869cb4c",
+                ["projectileType"] = "function: 0x0897bc513bf47cea",
                 ["hitSounds"] = {{"rbxassetid://6866062188"}},
                 ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
                 ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 392, ["aimAnimation"] = 394},
+                ["thirdPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395},
                 ["launchSound"] = {
                     "rbxassetid://13406717420",
                     "rbxassetid://13406717139",
                     "rbxassetid://13406717258",
                     "rbxassetid://13406717028"
                 },
-                ["firstPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395}
+                ["firstPerson"] = {["fireAnimation"] = 394, ["aimAnimation"] = 396}
             },
             ["sharingDisabled"] = true,
             ["displayName"] = "Headhunter"
         },
-        ["personal_chest"] = {
-            ["footstepSound"] = 2,
-            ["image"] = "rbxassetid://8164577594",
-            ["block"] = {
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["breakType"] = "wood",
-                ["health"] = 30,
-                ["minecraftConversions"] = {{["blockId"] = 130}},
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"chest", "personal-chest"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
-                ["seeThrough"] = true
+        ["ninja_chakram_2"] = {
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 1,
+                ["fireDelaySec"] = 0.4,
+                ["walkSpeedMultiplier"] = 1,
+                ["projectileType"] = "function: 0x235a5b023cf04d7a",
+                ["minStrengthScalar"] = 1,
+                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
             },
-            ["displayName"] = "Personal Chest"
+            ["image"] = "rbxassetid://15515025342",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Iron Chakram"
         },
         ["carrot_cannon"] = {
             ["image"] = "rbxassetid://9134613651",
             ["projectileSource"] = {
                 ["multiShotCount"] = 4,
                 ["fireDelaySec"] = 1,
-                ["projectileType"] = "function: 0xae18e55da249549c",
+                ["projectileType"] = "function: 0x78096381d861afba",
                 ["launchScreenShake"] = {["config"] = {["duration"] = 0.15, ["magnitude"] = 0.07, ["cycles"] = 2}},
                 ["thirdPerson"] = {["fireAnimation"] = 136},
                 ["firstPerson"] = {["fireAnimation"] = 138},
@@ -6151,60 +6348,11 @@ Item Discounts: 15%->20%]],
             ["firstPerson"] = {["holdAnimation"] = 139},
             ["displayName"] = "Carrot Cannon"
         },
-        ["ninja_chakram_4"] = {
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 1,
-                ["fireDelaySec"] = 0.4,
-                ["walkSpeedMultiplier"] = 1,
-                ["projectileType"] = "function: 0x930fa61e8eeb269c",
-                ["minStrengthScalar"] = 1,
-                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
-            },
-            ["image"] = "rbxassetid://15515027427",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Emerald Chakram"
-        },
-        ["ninja_chakram_3"] = {
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 1,
-                ["fireDelaySec"] = 0.4,
-                ["walkSpeedMultiplier"] = 1,
-                ["projectileType"] = "function: 0x948c48ea4577317c",
-                ["minStrengthScalar"] = 1,
-                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
-            },
-            ["image"] = "rbxassetid://15515023612",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Diamond Chakram"
-        },
-        ["ninja_chakram_2"] = {
-            ["projectileSource"] = {
-                ["maxStrengthChargeSec"] = 1,
-                ["fireDelaySec"] = 0.4,
-                ["walkSpeedMultiplier"] = 1,
-                ["projectileType"] = "function: 0xf40a28cb3303bbdc",
-                ["minStrengthScalar"] = 1,
-                ["firstPerson"] = {["fireAnimation"] = 14, ["aimAnimation"] = 23}
-            },
-            ["image"] = "rbxassetid://15515025342",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Iron Chakram"
-        },
-        ["void_helmet"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.2, ["slot"] = 0},
-            ["image"] = "rbxassetid://9866786767",
-            ["displayName"] = "Void Helmet"
-        },
         ["slime_tamer_flute"] = {
             ["sharingDisabled"] = true,
             ["image"] = "rbxassetid://15295083414",
             ["description"] = "Used to direct slimes around.",
             ["displayName"] = "Slime Tamer's Flute"
-        },
-        ["rainbow_key"] = {
-            ["image"] = "rbxassetid://12811672398",
-            ["firstPerson"] = {["verticalOffset"] = -0.8},
-            ["displayName"] = "Rainbow Key"
         },
         ["frosty_slime"] = {
             ["removeFromCustoms"] = true,
@@ -6212,26 +6360,52 @@ Item Discounts: 15%->20%]],
             ["description"] = "Slows the movement speed of enemies hit by this teammate.",
             ["displayName"] = "Frosty Slime"
         },
-        ["gold_block"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://13456088345",
-                        "rbxassetid://13456088345",
-                        "rbxassetid://13456088345",
-                        "rbxassetid://13456088345",
-                        "rbxassetid://13456088345",
-                        "rbxassetid://13456088345"
-                    }
-                },
-                ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 251}},
-                ["breakSound"] = "function: 0x1c16584df0082cdc"
+        ["void_slime"] = {
+            ["removeFromCustoms"] = true,
+            ["image"] = "rbxassetid://15295057154",
+            ["description"] = "Boosts damage of teammate.",
+            ["displayName"] = "Void Slime"
+        },
+        ["void_helmet"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.2, ["slot"] = 0},
+            ["image"] = "rbxassetid://9866786767",
+            ["displayName"] = "Void Helmet"
+        },
+        ["healing_slime"] = {
+            ["removeFromCustoms"] = true,
+            ["image"] = "rbxassetid://15295059428",
+            ["description"] = "Restores teammate's missing health.",
+            ["displayName"] = "Blessed Slime"
+        },
+        ["rainbow_key"] = {
+            ["image"] = "rbxassetid://12811672398",
+            ["firstPerson"] = {["verticalOffset"] = -0.8},
+            ["displayName"] = "Rainbow Key"
+        },
+        ["gather_bot_pro"] = {
+            ["image"] = "rbxassetid://15359021160",
+            ["description"] = "A robot that locates emeralds and returns them to the personal crate",
+            ["consumable"] = {
+                ["animationOverride"] = 499,
+                ["disableJump"] = true,
+                ["walkSpeedMultiplier"] = 0,
+                ["consumeTime"] = 1.8,
+                ["disableSoundRepeat"] = true,
+                ["soundOverride"] = "rbxassetid://15372210309"
             },
-            ["image"] = "rbxassetid://13465465532",
-            ["displayName"] = "Gold Block"
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Emmy-Z2"
+        },
+        ["baguette"] = {
+            ["firstPerson"] = {["scale"] = 0.8},
+            ["image"] = "rbxassetid://7392211056",
+            ["sword"] = {
+                ["swingSounds"] = {"rbxassetid://7396760496"},
+                ["knockbackMultiplier"] = {["horizontal"] = 1.3},
+                ["attackSpeed"] = 0.3,
+                ["damage"] = 1
+            },
+            ["displayName"] = "Knockback Baguette"
         },
         ["slime_block"] = {
             ["footstepSound"] = 3,
@@ -6239,8 +6413,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["elasticity"] = {["elasticityPercent"] = 0.7, ["bounceSound"] = "rbxassetid://6857999096"},
                 ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xf698f705b8b9fddc",
-                ["breakSound"] = "function: 0xd79c6fa63b8de89c",
+                ["placeSound"] = "function: 0xb46a404bc749377a",
+                ["breakSound"] = "function: 0xf39350ff90ff6bba",
                 ["minecraftConversions"] = {{["blockId"] = 165}},
                 ["fallDamageMultiplier"] = 0,
                 ["health"] = 1,
@@ -6257,11 +6431,19 @@ Item Discounts: 15%->20%]],
             },
             ["displayName"] = "Slime Block"
         },
-        ["void_slime"] = {
-            ["removeFromCustoms"] = true,
-            ["image"] = "rbxassetid://15295057154",
-            ["description"] = "Boosts damage of teammate.",
-            ["displayName"] = "Void Slime"
+        ["gather_bot_basic"] = {
+            ["image"] = "rbxassetid://15359021293",
+            ["description"] = "A robot that locates diamonds and returns them to the team crate",
+            ["consumable"] = {
+                ["animationOverride"] = 499,
+                ["disableJump"] = true,
+                ["walkSpeedMultiplier"] = 0,
+                ["consumeTime"] = 1.8,
+                ["disableSoundRepeat"] = true,
+                ["soundOverride"] = "rbxassetid://15372210309"
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Dimmy-X1"
         },
         ["speed_potion"] = {
             ["consumable"] = {["potion"] = true, ["consumeTime"] = 0.8},
@@ -6277,7 +6459,7 @@ Item Discounts: 15%->20%]],
             ["damage"] = 16,
             ["displayName"] = "Wood Gauntlets",
             ["sword"] = {
-                ["idleAnimation"] = 427,
+                ["idleAnimation"] = 428,
                 ["swingSounds"] = {},
                 ["ignoreDamageCooldown"] = true,
                 ["attackSpeed"] = 0.21,
@@ -6286,17 +6468,28 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["firstPerson"] = {["scale"] = 1, ["verticalOffset"] = -1.2}
         },
-        ["healing_slime"] = {
-            ["removeFromCustoms"] = true,
-            ["image"] = "rbxassetid://15295059428",
-            ["description"] = "Restores teammate's missing health.",
-            ["displayName"] = "Blessed Slime"
+        ["block_kicker_boot"] = {
+            ["image"] = "rbxassetid://6874272718",
+            ["sharingDisabled"] = true,
+            ["projectileSource"] = {
+                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
+                ["fireDelaySec"] = 0.5,
+                ["projectileType"] = "function: 0xb2367c52f2bc903a",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["minStrengthScalar"] = 0.5,
+                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
+                ["maxStrengthChargeSec"] = 3,
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["walkSpeedMultiplier"] = 0.01
+            },
+            ["firstPerson"] = {["verticalOffset"] = 0},
+            ["displayName"] = "Boot"
         },
         ["clay_green"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc45b66a80ff47b5c",
+                ["placeSound"] = "function: 0x1c5719a0591971fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765938",
@@ -6307,7 +6500,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991765938"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 13, ["blockId"] = 251},
@@ -6317,19 +6510,14 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://7884367698",
             ["displayName"] = "Green Clay"
         },
-        ["gather_bot_pro"] = {
-            ["image"] = "rbxassetid://15359021160",
-            ["description"] = "A robot that locates emeralds and returns them to the personal crate",
-            ["consumable"] = {
-                ["animationOverride"] = 498,
-                ["disableJump"] = true,
-                ["walkSpeedMultiplier"] = 0,
-                ["consumeTime"] = 1.8,
-                ["disableSoundRepeat"] = true,
-                ["soundOverride"] = "rbxassetid://15372210309"
+        ["arrow_board"] = {
+            ["block"] = {
+                ["collectionServiceTags"] = {"ArrowBoard"},
+                ["breakType"] = "wool",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba"
             },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Emmy-Z2"
+            ["displayName"] = "Arrow Board"
         },
         ["berserker_3_enchant"] = {
             ["maxStackSize"] = 1,
@@ -6341,7 +6529,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x6c3928e9ddad3d9c",
+                ["placeSound"] = "function: 0x27cac1bce228bf3a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://12948863498",
@@ -6352,7 +6540,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://12948863498"
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["pointLight"] = {
                     ["Color"] = Color3.fromRGB(255, 194, 166),
                     ["Brightness"] = 0.7,
@@ -6373,7 +6561,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"stun_grenade"},
                 ["fireDelaySec"] = 2.2,
-                ["projectileType"] = "function: 0xca2d6e61e6102c7c",
+                ["projectileType"] = "function: 0xf5ab1023664bc2da",
                 ["launchSound"] = {"rbxassetid://9135893336"},
                 ["thirdPerson"] = {["fireAnimation"] = 51, ["aimAnimation"] = 53}
             },
@@ -6388,10 +6576,11 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 2,
             ["block"] = {
                 ["flameSpreadStopChance"] = 0.4,
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockId"] = 5}},
+                ["regenSpeed"] = 0.15,
                 ["flammable"] = true,
-                ["blastResistance"] = 1.4,
+                ["breakType"] = "wood",
                 ["health"] = 35,
                 ["greedyMesh"] = {
                     ["textures"] = {
@@ -6403,55 +6592,11 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991767868"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["breakType"] = "wood"
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["blastResistance"] = 1.4
             },
             ["image"] = "rbxassetid://7884372987",
             ["displayName"] = "Oak Plank"
-        },
-        ["block_kicker_boot"] = {
-            ["image"] = "rbxassetid://6874272718",
-            ["sharingDisabled"] = true,
-            ["projectileSource"] = {
-                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
-                ["fireDelaySec"] = 0.5,
-                ["projectileType"] = "function: 0x0e43ccb71cdf0ecc",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["minStrengthScalar"] = 0.5,
-                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
-                ["maxStrengthChargeSec"] = 3,
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["walkSpeedMultiplier"] = 0.01
-            },
-            ["firstPerson"] = {["verticalOffset"] = 0},
-            ["displayName"] = "Boot"
-        },
-        ["frying_pan"] = {
-            ["image"] = "rbxassetid://9253246741",
-            ["description"] = "Charge weapon to increase damage and knockback.",
-            ["sword"] = {
-                ["chargedAttack"] = {
-                    ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                    ["maxChargeTimeSec"] = 1,
-                    ["bonusDamage"] = 4
-                },
-                ["knockbackMultiplier"] = {["horizontal"] = 1},
-                ["attackSpeed"] = 0.3,
-                ["damage"] = 18
-            },
-            ["firstPerson"] = {["scale"] = 0.8},
-            ["displayName"] = "Frying Pan"
-        },
-        ["grimoire"] = {
-            ["image"] = "rbxassetid://15107951466",
-            ["description"] = "An ancient tome of dark magic. Gain a long-term power and a temporary curse.",
-            ["itemCatalog"] = {["collection"] = 2},
-            ["consumable"] = {
-                ["consumeTime"] = 1.5,
-                ["soundOverride"] = "rbxassetid://15112990538",
-                ["animationOverride"] = 260
-            },
-            ["displayName"] = "Grimoire"
         },
         ["big_shield"] = {
             ["maxStackSize"] = 3,
@@ -6459,42 +6604,17 @@ Item Discounts: 15%->20%]],
             ["consumable"] = {["consumeTime"] = 1.8},
             ["displayName"] = "Big Shield"
         },
-        ["diorite_polished"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x707afb636ec34ddc",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://9072553173",
-                        "rbxassetid://9072553173",
-                        "rbxassetid://9072553173",
-                        "rbxassetid://9072553173",
-                        "rbxassetid://9072553173",
-                        "rbxassetid://9072553173"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 1}}
-            },
-            ["image"] = "rbxassetid://9072553104",
-            ["displayName"] = "Polished Diorite"
-        },
-        ["wood_dao"] = {
-            ["daoSword"] = {["armorMultiplier"] = 0.8, ["dashDamage"] = 16.5},
-            ["image"] = "rbxassetid://8665070999",
-            ["description"] = "Charge to dash forward.",
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["skins"] = {"wood_dao_tiger", "wood_dao_victorious", "wood_dao_cursed"},
-            ["sword"] = {["daoDash"] = true, ["attackSpeed"] = 0.3, ["damage"] = 20},
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Wood Dao"
+        ["orbital_satellite_tablet"] = {
+            ["consumable"] = {["consumeTime"] = 0},
+            ["image"] = "rbxassetid://11776141709",
+            ["description"] = "Controls the Orbital Satellite Laser",
+            ["displayName"] = "Orbital Satellite Tablet"
         },
         ["haybale"] = {
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x1ce0812e0212f95c",
+                ["placeSound"] = "function: 0x4a1bf2186c489b7a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://14969029474",
@@ -6505,26 +6625,39 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://14969029405"
                     }
                 },
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
+                ["breakSound"] = "function: 0x35132364237a0c3a",
                 ["minecraftConversions"] = {{["blockId"] = 170}}
             },
             ["image"] = "rbxassetid://14968393791",
             ["displayName"] = "Haybale"
         },
-        ["lightning_coil"] = {
-            ["image"] = "rbxassetid://15122132404",
-            ["description"] = "Shocking for all players!",
+        ["miner_pickaxe"] = {
+            ["breakBlock"] = {["stone"] = 30},
+            ["sharingDisabled"] = true,
+            ["skins"] = {"miner_pickaxe_space", "miner_pickaxe_winter"},
+            ["firstPerson"] = {["verticalOffset"] = -0.8},
+            ["displayName"] = "Miner Pickaxe"
+        },
+        ["diorite_polished"] = {
+            ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["health"] = 60,
-                ["breakSound"] = "function: 0x13d199e4ee80565c",
-                ["blastProof"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["minecraftConversions"] = {{["blockId"] = 8028}},
-                ["disableInventoryPickup"] = true
+                ["placeSound"] = "function: 0xbfd2e96511dbe77a",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://9072553173",
+                        "rbxassetid://9072553173",
+                        "rbxassetid://9072553173",
+                        "rbxassetid://9072553173",
+                        "rbxassetid://9072553173",
+                        "rbxassetid://9072553173"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 1}}
             },
-            ["itemCatalog"] = {["collection"] = 2},
-            ["displayName"] = "Frankenstein Lightning Coil"
+            ["image"] = "rbxassetid://9072553104",
+            ["displayName"] = "Polished Diorite"
         },
         ["mythic_gauntlets"] = {
             ["itemCatalog"] = {["collection"] = 1},
@@ -6536,7 +6669,7 @@ Item Discounts: 15%->20%]],
                     ["maxChargeTimeSec"] = 0.75,
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9}
                 },
-                ["idleAnimation"] = 427,
+                ["idleAnimation"] = 428,
                 ["swingSounds"] = {},
                 ["ignoreDamageCooldown"] = true,
                 ["attackSpeed"] = 0.21,
@@ -6550,16 +6683,56 @@ Item Discounts: 15%->20%]],
             ["disableFirstPersonHoldAnimation"] = true,
             ["firstPerson"] = {["scale"] = 1, ["verticalOffset"] = -1.2}
         },
+        ["sheriff_crossbow"] = {
+            ["image"] = "rbxassetid://7051149016",
+            ["projectileSource"] = {
+                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
+                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["fireDelaySec"] = 1.15,
+                ["walkSpeedMultiplier"] = 0.35,
+                ["projectileType"] = "function: 0xe5bb1f1a97b9b25a",
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["hitSounds"] = {{"rbxassetid://6866062188"}}
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Sheriff Crossbow"
+        },
+        ["lightning_coil"] = {
+            ["image"] = "rbxassetid://15122132404",
+            ["description"] = "Shocking for all players!",
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["health"] = 60,
+                ["breakSound"] = "function: 0x9a4a7582b10be87a",
+                ["blastProof"] = true,
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["minecraftConversions"] = {{["blockId"] = 8028}},
+                ["disableInventoryPickup"] = true
+            },
+            ["itemCatalog"] = {["collection"] = 2},
+            ["displayName"] = "Frankenstein Lightning Coil"
+        },
         ["paint_shotgun"] = {
             ["image"] = "rbxassetid://9135902677",
             ["firstPerson"] = {["holdAnimation"] = 133},
             ["displayName"] = "Paint Blaster"
         },
+        ["broken_arrow_board"] = {
+            ["block"] = {
+                ["collectionServiceTags"] = {"ArrowBoard"},
+                ["breakType"] = "wool",
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba"
+            },
+            ["displayName"] = "Broken Arrow Board"
+        },
         ["wool_blue"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -6598,8 +6771,8 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991766362"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {
                     {["blockData"] = 3, ["blockId"] = 17},
                     {["blockData"] = 0, ["blockId"] = 162}
@@ -6619,7 +6792,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc4f33f6e521d381c",
+                ["placeSound"] = "function: 0xec19af74c119533a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859697497",
@@ -6630,57 +6803,61 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://10859697497"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 3, ["blockId"] = 98}}
             },
             ["image"] = "rbxassetid://10859697439",
             ["displayName"] = "Sandstone Smooth"
         },
-        ["arrow_board"] = {
-            ["block"] = {
-                ["collectionServiceTags"] = {"ArrowBoard"},
-                ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c"
-            },
-            ["displayName"] = "Arrow Board"
-        },
-        ["broken_arrow_board"] = {
-            ["block"] = {
-                ["collectionServiceTags"] = {"ArrowBoard"},
-                ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c"
-            },
-            ["displayName"] = "Broken Arrow Board"
-        },
         ["nest"] = {
             ["block"] = {
                 ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c"
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba"
             },
             ["displayName"] = "Nest"
         },
-        ["falconer_crossbow"] = {
-            ["image"] = "rbxassetid://17014870547",
-            ["description"] = "Blessed by the wind, this lightweight weapon enables skilled archers to hunt their prey with speed and accuracy",
-            ["firstPerson"] = {["scale"] = 0.9, ["verticalOffset"] = -0.25},
-            ["replaces"] = {"falconer_bow", "wood_bow", "wood_crossbow"},
-            ["projectileSource"] = {
-                ["multiShotChargeTime"] = 1.6,
-                ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0xba20c1c8eaa114ec",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
+        ["fury_potion"] = {
+            ["image"] = "rbxassetid://122851344376912",
+            ["description"] = "A potent mixture that fills the user with uncontrollable rage and power.  Increases attack speed by 20 % for (35 seconds)",
+            ["maxStackSize"] = 1,
+            ["consumable"] = {
+                ["consumeTime"] = 0.8,
+                ["potion"] = true,
+                ["statusEffect"] = {["duration"] = 35, ["statusEffectType"] = "fury_potion"}
             },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Feather-light Crossbow"
+            ["displayName"] = "Fury Potion"
+        },
+        ["radioactive_plant"] = {
+            ["block"] = {
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xee3c60fc26cf82ba",
+                ["maxPlaced"] = 2,
+                ["breakType"] = "stone",
+                ["health"] = 18,
+                ["seeThrough"] = true,
+                ["collectionServiceTags"] = {"radioactive-plant"},
+                ["minecraftConversions"] = {{["blockId"] = 8027}},
+                ["disableInventoryPickup"] = true
+            },
+            ["image"] = "rbxassetid://14399105222",
+            ["description"] = "Consumes Iron and Diamonds to deal radiation damage to nearby enemy players and blocks.",
+            ["displayName"] = "Radioactive Plant"
+        },
+        ["gumball_launcher"] = {
+            ["image"] = "rbxassetid://14193833399",
+            ["firstPerson"] = {["verticalOffset"] = 0},
+            ["projectileSource"] = {
+                ["multiShotChargeTime"] = 1,
+                ["fireDelaySec"] = 1.5,
+                ["walkSpeedMultiplier"] = 0.35,
+                ["projectileType"] = "function: 0xb3c457fbc5d3fbfa",
+                ["launchSound"] = {"rbxassetid://14191014619", "rbxassetid://14191014232", "rbxassetid://14191013874"},
+                ["hitSounds"] = {{"rbxassetid://14191013768", "rbxassetid://14191013625", "rbxassetid://14191014109"}}
+            },
+            ["thirdPerson"] = {["holdAnimation"] = 53},
+            ["displayName"] = "Gumball Launcher"
         },
         ["villain_magical_girl_scepter"] = {
             ["image"] = "rbxassetid://16101848037",
@@ -6705,7 +6882,7 @@ Item Discounts: 15%->20%]],
                     ["multiShotChargeTime"] = 0.5,
                     ["fireDelaySec"] = 1,
                     ["minStrengthScalar"] = 1,
-                    ["projectileType"] = "function: 0x919542251fa678fc",
+                    ["projectileType"] = "function: 0xaf30fa3e65c0f23a",
                     ["launchSound"] = {
                         "rbxassetid://16111432428",
                         "rbxassetid://16111433823",
@@ -6720,7 +6897,7 @@ Item Discounts: 15%->20%]],
                     ["multiShotChargeTime"] = 0.5,
                     ["fireDelaySec"] = 1,
                     ["minStrengthScalar"] = 1,
-                    ["projectileType"] = "function: 0x9ee6e733d290431c",
+                    ["projectileType"] = "function: 0x950b9273bd69d01a",
                     ["launchSound"] = {
                         "rbxassetid://16111432428",
                         "rbxassetid://16111433823",
@@ -6736,7 +6913,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xc97a8f6b6aae129c",
+                ["placeSound"] = "function: 0x945d52513b89c5ba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859697059",
@@ -6747,78 +6924,93 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://10859697059"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockId"] = 168}}
             },
             ["image"] = "rbxassetid://10859696978",
             ["displayName"] = "Red Sandstone Polished"
         },
-        ["radioactive_plant"] = {
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x378dd976de80b11c",
-                ["maxPlaced"] = 2,
-                ["breakType"] = "stone",
-                ["health"] = 18,
-                ["seeThrough"] = true,
-                ["collectionServiceTags"] = {"radioactive-plant"},
-                ["minecraftConversions"] = {{["blockId"] = 8027}},
-                ["disableInventoryPickup"] = true
-            },
-            ["image"] = "rbxassetid://14399105222",
-            ["description"] = "Consumes Iron and Diamonds to deal radiation damage to nearby enemy players and blocks.",
-            ["displayName"] = "Radioactive Plant"
+        ["gold"] = {
+            ["displayNameColor"] = Color3.fromRGB(255, 209, 0),
+            ["image"] = "rbxassetid://13465460696",
+            ["hotbarFillRight"] = true,
+            ["displayName"] = "Gold"
         },
-        ["gumball_launcher"] = {
-            ["image"] = "rbxassetid://14193833399",
-            ["firstPerson"] = {["verticalOffset"] = 0},
-            ["projectileSource"] = {
-                ["multiShotChargeTime"] = 1,
-                ["fireDelaySec"] = 1.5,
-                ["walkSpeedMultiplier"] = 0.35,
-                ["projectileType"] = "function: 0xb621be06c94be15c",
-                ["launchSound"] = {"rbxassetid://14191014619", "rbxassetid://14191014232", "rbxassetid://14191013874"},
-                ["hitSounds"] = {{"rbxassetid://14191013768", "rbxassetid://14191013625", "rbxassetid://14191014109"}}
-            },
-            ["thirdPerson"] = {["holdAnimation"] = 53},
-            ["displayName"] = "Gumball Launcher"
+        ["warrior_boots"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.2, ["slot"] = 2},
+            ["image"] = "rbxassetid://7343993019",
+            ["displayName"] = "Warrior Boots"
         },
         ["chest"] = {
             ["footstepSound"] = 2,
             ["image"] = "rbxassetid://8562772907",
             ["block"] = {
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["breakType"] = "wood",
                 ["health"] = 30,
                 ["minecraftConversions"] = {{["blockId"] = 54}},
                 ["blastProof"] = true,
                 ["collectionServiceTags"] = {"chest"},
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["seeThrough"] = true
             },
             ["displayName"] = "Chest"
         },
-        ["fork_trident_projectile"] = {["displayName"] = "Fork Trident Projectile"},
+        ["galactite"] = {
+            ["footstepSound"] = 4,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://15966093089",
+                        "rbxassetid://15966093089",
+                        "rbxassetid://15966093089",
+                        "rbxassetid://15966093089",
+                        "rbxassetid://15966093089",
+                        "rbxassetid://15966093089"
+                    }
+                },
+                ["minecraftConversions"] = {{["blockId"] = 87}},
+                ["breakSound"] = "function: 0x6e526a28660a147a"
+            },
+            ["image"] = "rbxassetid://15966082316",
+            ["displayName"] = "Galactite"
+        },
+        ["squad_launcher"] = {
+            ["footstepSound"] = 2,
+            ["image"] = "",
+            ["block"] = {
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["breakType"] = "wood",
+                ["health"] = 30,
+                ["seeThrough"] = true,
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"squad-launcher"},
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
+                ["noSuffocation"] = true
+            },
+            ["displayName"] = "Squad Launcher"
+        },
         ["team_door"] = {
             ["image"] = "rbxassetid://10322205747",
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0xeaf2bff1bd7cd61c",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x9d56db86808b5dba",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["collectionServiceTags"] = {"CanNoclip", "TeamDoor"},
                 ["minecraftConversions"] = {{["blockId"] = 12004}},
                 ["seeThrough"] = true
             },
             ["displayName"] = "Team Door"
         },
-        ["anniversary_balloon"] = {
-            ["image"] = "rbxassetid://17580323788",
-            ["description"] = "Use up to three times to gain slowfall and jump boost.",
-            ["maxStackSize"] = 3,
-            ["cooldownId"] = "balloon",
-            ["displayName"] = "Balloon"
+        ["can_of_beans"] = {
+            ["consumable"] = {["consumeTime"] = 0.5},
+            ["image"] = "rbxassetid://13918757728",
+            ["description"] = "Explosive!",
+            ["displayName"] = "Can of beans"
         },
         ["double_edge_sword"] = {
             ["image"] = "rbxassetid://8995895533",
@@ -6827,22 +7019,10 @@ Item Discounts: 15%->20%]],
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
             ["displayName"] = "Double Edge Sword"
         },
-        ["enchant_table_glitched"] = {
-            ["block"] = {
-                ["breakType"] = "wood",
-                ["health"] = 20,
-                ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 8004}},
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"enchant-table"},
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c"
-            },
-            ["displayName"] = "Glitched Enchant Table"
-        },
         ["cosmic_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xe0086cbf8ced929c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x86638349d0e9683a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 15,
@@ -6864,35 +7044,35 @@ Item Discounts: 15%->20%]],
             ["image"] = "rbxassetid://11773163557",
             ["displayName"] = "Cosmic Lucky Block"
         },
-        ["light_sword"] = {
-            ["image"] = "rbxassetid://9620517732",
-            ["sharingDisabled"] = true,
-            ["firstPerson"] = {["scale"] = 0.8},
-            ["sword"] = {
-                ["chargedAttack"] = {
-                    ["walkSpeedModifier"] = {["multiplier"] = 0.85, ["delay"] = 0.25},
-                    ["maxChargeTimeSec"] = 1.25,
-                    ["chargedSwingAnimations"] = {164},
-                    ["firstPersonChargedSwingAnimations"] = {165},
-                    ["minChargeTimeSec"] = 0.65
-                },
-                ["knockbackMultiplier"] = {["horizontal"] = 1},
-                ["attackSpeed"] = 0.3,
-                ["damage"] = 47
+        ["team_crate"] = {
+            ["footstepSound"] = 2,
+            ["image"] = "rbxassetid://14146743816",
+            ["block"] = {
+                ["breakType"] = "wood",
+                ["health"] = 30,
+                ["seeThrough"] = true,
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"chest", "team-crate"},
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a"
             },
-            ["projectileSource"] = {
-                ["minStrengthScalar"] = 1,
-                ["projectileType"] = "function: 0x7879817903f07afc",
-                ["maxStrengthChargeSec"] = 1,
-                ["fireDelaySec"] = 0.3
-            },
-            ["displayName"] = "Light Sword"
+            ["displayName"] = "Team Crate"
         },
-        ["can_of_beans"] = {
-            ["consumable"] = {["consumeTime"] = 0.5},
-            ["image"] = "rbxassetid://13918757728",
-            ["description"] = "Explosive!",
-            ["displayName"] = "Can of beans"
+        ["spirit_bridge"] = {
+            ["image"] = "rbxassetid://13835255693",
+            ["description"] = "",
+            ["maxStackSize"] = 2,
+            ["projectileSource"] = {
+                ["maxStrengthChargeSec"] = 1,
+                ["walkSpeedMultiplier"] = 0.6,
+                ["ammoItemTypes"] = {"spirit_bridge"},
+                ["minStrengthScalar"] = 0.5,
+                ["projectileType"] = "function: 0x67c7a4661e21c8ba",
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["fireDelaySec"] = 1
+            },
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Spirit Bridge"
         },
         ["block_radar"] = {
             ["image"] = "rbxassetid://14985503526",
@@ -6902,8 +7082,9 @@ Item Discounts: 15%->20%]],
         ["wool_yellow"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -6941,8 +7122,8 @@ Item Discounts: 15%->20%]],
         ["jellyfish_block_snapping"] = {
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc"
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a"
             },
             ["removeFromCustoms"] = true,
             ["sharingDisabled"] = true,
@@ -6957,8 +7138,8 @@ Item Discounts: 15%->20%]],
             ["block"] = {
                 ["collectionServiceTags"] = {"NestDepositBlock"},
                 ["breakType"] = "wool",
-                ["placeSound"] = "function: 0xba37416c6b83079c",
-                ["breakSound"] = "function: 0xd960fc1ef7626d5c"
+                ["placeSound"] = "function: 0x7d0c16cf95d6707a",
+                ["breakSound"] = "function: 0x2d0f0663cf2e34ba"
             },
             ["displayName"] = "Nest Deposit Zone"
         },
@@ -6969,88 +7150,80 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Jellyfish Mount"
         },
+        ["pirate_flag"] = {
+            ["block"] = {
+                ["denyPlaceOn"] = true,
+                ["placeSound"] = "function: 0xbce163b9022a563a",
+                ["breakSound"] = "function: 0x73380d086d89b27a",
+                ["maxPlaced"] = 1,
+                ["breakType"] = "stone",
+                ["health"] = 40,
+                ["disableInventoryPickup"] = true,
+                ["minecraftConversions"] = {{["blockId"] = 12022}},
+                ["collectionServiceTags"] = {"pirate-flag"},
+                ["unbreakableByTeammates"] = true,
+                ["seeThrough"] = true
+            },
+            ["image"] = "rbxassetid://10797226392",
+            ["description"] = "Periodically collects nearby dropped items",
+            ["displayName"] = "Pirate Flag"
+        },
+        ["juggernaut_crate"] = {
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["health"] = 20,
+                ["minecraftConversions"] = {{["blockId"] = 8007}},
+                ["collectionServiceTags"] = {"juggernaut-crate"},
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa"
+            },
+            ["displayName"] = "Juggernaut Crate"
+        },
         ["hammer"] = {
             ["fortifiesBlock"] = {},
             ["image"] = "rbxassetid://6955848801",
             ["sharingDisabled"] = true,
             ["displayName"] = "Hammer"
         },
-        ["wood_scythe"] = {
-            ["image"] = "rbxassetid://13832901787",
-            ["sharingDisabled"] = true,
-            ["description"] = "Attack enemies from farther away and pull them toward you.",
-            ["damage"] = 20,
-            ["sword"] = {
-                ["chargedAttack"] = {
-                    ["disableOnGrounded"] = true,
-                    ["showHoldProgressAfterSec"] = 0.2,
-                    ["maxChargeTimeSec"] = 2,
-                    ["bonusKnockback"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                    ["bonusDamage"] = 4
-                },
-                ["idleAnimation"] = 412,
-                ["attackSpeed"] = 0.4,
-                ["respectAttackSpeedForEffects"] = true,
-                ["swingAnimations"] = {},
-                ["applyCooldownOnMiss"] = true,
-                ["damage"] = 20
-            },
-            ["displayName"] = "Wood Scythe",
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
-        },
-        ["smoke_block"] = {
-            ["image"] = "rbxassetid://8538034673",
-            ["sharingDisabled"] = true,
-            ["footstepSound"] = 0,
-            ["block"] = {
-                ["placeSound"] = "function: 0x53b8575676362e5c",
-                ["minecraftConversions"] = {{["blockId"] = 8006}},
-                ["maxPlaced"] = 20,
-                ["breakType"] = "grass",
-                ["health"] = 6,
-                ["seeThrough"] = true,
-                ["collectionServiceTags"] = {"smoke_block"},
-                ["breakSound"] = "function: 0x5b0b01761cabb2dc",
-                ["greedyMesh"] = {["textures"] = {"rbxassetid://8536406963"}}
-            },
-            ["displayName"] = "Smoke Block"
-        },
         ["void_teleport_portal"] = {
             ["image"] = "rbxassetid://17208701108",
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x0acce4b41c322adc",
+                ["placeSound"] = "function: 0x86bdd9354629fdfa",
                 ["minecraftConversions"] = {{["blockId"] = 8002}},
                 ["maxPlaced"] = 2,
                 ["breakType"] = "stone",
                 ["health"] = 8,
                 ["seeThrough"] = true,
                 ["collectionServiceTags"] = {"void_teleport_portal"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["disableInventoryPickup"] = true
             },
             ["displayName"] = "Teleport Block"
         },
-        ["guilded_iron"] = {
+        ["obsidian"] = {
             ["footstepSound"] = 1,
             ["block"] = {
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["health"] = 150,
                 ["greedyMesh"] = {
                     ["textures"] = {
-                        "rbxassetid://10859696347",
-                        "rbxassetid://10859696347",
-                        "rbxassetid://10859696347",
-                        "rbxassetid://10859696347",
-                        "rbxassetid://10859696347",
-                        "rbxassetid://10859696347"
+                        "rbxassetid://16991766822",
+                        "rbxassetid://16991766822",
+                        "rbxassetid://16991766822",
+                        "rbxassetid://16991766822",
+                        "rbxassetid://16991766822",
+                        "rbxassetid://16991766822"
                     }
                 },
-                ["minecraftConversions"] = {{["blockId"] = 41}},
-                ["breakSound"] = "function: 0xfde20b547c2dc19c"
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["regenSpeed"] = 0.2,
+                ["blastResistance"] = 10,
+                ["minecraftConversions"] = {{["blockId"] = 49}}
             },
-            ["image"] = "rbxassetid://10859696266",
-            ["displayName"] = "Guilded Iron Block"
+            ["image"] = "rbxassetid://8105569883",
+            ["displayName"] = "Obsidian"
         },
         ["mythic_dagger"] = {
             ["replaces"] = {"wood_dagger", "stone_dagger", "iron_dagger", "diamond_dagger"},
@@ -7071,21 +7244,42 @@ Item Discounts: 15%->20%]],
                     "rbxassetid://13833151323"
                 },
                 ["knockbackMultiplier"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                ["swingAnimations"] = {400, 401},
+                ["swingAnimations"] = {401, 402},
                 ["attackRange"] = 10.5,
                 ["respectAttackSpeedForEffects"] = true,
-                ["firstPersonSwingAnimations"] = {403, 402},
+                ["firstPersonSwingAnimations"] = {404, 403},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 28
             },
             ["displayName"] = "Deathbloom",
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
+        ["guilded_iron"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://10859696347",
+                        "rbxassetid://10859696347",
+                        "rbxassetid://10859696347",
+                        "rbxassetid://10859696347",
+                        "rbxassetid://10859696347",
+                        "rbxassetid://10859696347"
+                    }
+                },
+                ["minecraftConversions"] = {{["blockId"] = 41}},
+                ["breakSound"] = "function: 0x9562069cdc7a2aba"
+            },
+            ["image"] = "rbxassetid://10859696266",
+            ["displayName"] = "Guilded Iron Block"
+        },
         ["sandstone"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x43088c3539ecc79c",
+                ["placeSound"] = "function: 0x7409f44a99caecba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://7872908360",
@@ -7096,19 +7290,34 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://7872908360"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {{["blockData"] = 0, ["blockId"] = 24}}
             },
             ["image"] = "rbxassetid://7884371048",
             ["displayName"] = "Sandstone"
         },
-        ["candy"] = {
-            ["image"] = "rbxassetid://10013673573",
+        ["stone_dao"] = {
+            ["daoSword"] = {["armorMultiplier"] = 0.8, ["dashDamage"] = 19.8},
+            ["image"] = "rbxassetid://8665071212",
+            ["description"] = "Charge to dash forward. Downgrades to a Wood Dao upon death.",
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["skins"] = {"stone_dao_tiger", "stone_dao_victorious", "stone_dao_cursed"},
+            ["sword"] = {["daoDash"] = true, ["attackSpeed"] = 0.3, ["damage"] = 25},
             ["sharingDisabled"] = true,
-            ["displayNameColor"] = Color3.fromRGB(85, 255, 85),
-            ["hotbarFillRight"] = true,
-            ["displayName"] = "Candy"
+            ["displayName"] = "Stone Dao"
+        },
+        ["forge"] = {
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["health"] = 20,
+                ["minecraftConversions"] = {{["blockId"] = 8025}},
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"forge-block"},
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa"
+            },
+            ["displayName"] = "Forge"
         },
         ["diamond_dao"] = {
             ["daoSword"] = {["armorMultiplier"] = 0.75, ["dashDamage"] = 27.500000000000004},
@@ -7120,55 +7329,23 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Diamond Dao"
         },
-        ["fury_potion"] = {
-            ["image"] = "rbxassetid://122851344376912",
-            ["description"] = "A potent mixture that fills the user with uncontrollable rage and power.  Increases attack speed by 20 % for (45 seconds)",
-            ["maxStackSize"] = 1,
-            ["consumable"] = {
-                ["consumeTime"] = 0.8,
-                ["potion"] = true,
-                ["statusEffect"] = {["duration"] = 45, ["statusEffectType"] = "fury_potion"}
-            },
-            ["displayName"] = "Fury Potion"
-        },
-        ["kobblak"] = {
-            ["footstepSound"] = 4,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://9859003198",
-                        "rbxassetid://9859003198",
-                        "rbxassetid://9859003106",
-                        "rbxassetid://9859003106",
-                        "rbxassetid://9859003106",
-                        "rbxassetid://9859003106"
-                    }
-                },
-                ["minecraftConversions"] = {{["blockId"] = 216}},
-                ["breakSound"] = "function: 0x29d1cb992924c95c"
-            },
-            ["image"] = "rbxassetid://9859002988",
-            ["displayName"] = "Kobblak"
-        },
         ["giant_potion"] = {
             ["crafting"] = {},
             ["image"] = "rbxassetid://7911163626",
             ["consumable"] = {["potion"] = true, ["consumeTime"] = 0.8},
             ["displayName"] = "Giant Potion"
         },
-        ["forge"] = {
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["health"] = 20,
-                ["minecraftConversions"] = {{["blockId"] = 8025}},
-                ["blastProof"] = true,
-                ["collectionServiceTags"] = {"forge-block"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c"
-            },
-            ["displayName"] = "Forge"
+        ["laser_pickaxe"] = {
+            ["breakBlockCooldown"] = 0.15,
+            ["breakBlock"] = {["stone"] = 22},
+            ["description"] = "Break blocks from afar with this powerful laserbeam!",
+            ["displayName"] = "Laser Pickaxe",
+            ["image"] = "rbxassetid://92568899407180",
+            ["sharingDisabled"] = true,
+            ["breakBlockSwingAnimationOverride"] = 31,
+            ["breakBlockRange"] = 36,
+            ["disableFirstPersonWalkAnimation"] = true,
+            ["firstPerson"] = {["scale"] = 0.75, ["holdAnimation"] = 30, ["verticalOffset"] = 0.4}
         },
         ["iron_dagger"] = {
             ["replaces"] = {"wood_dagger", "stone_dagger"},
@@ -7186,21 +7363,36 @@ Item Discounts: 15%->20%]],
                     "rbxassetid://13833151323"
                 },
                 ["knockbackMultiplier"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                ["swingAnimations"] = {400, 401},
+                ["swingAnimations"] = {401, 402},
                 ["attackRange"] = 10.5,
                 ["respectAttackSpeedForEffects"] = true,
-                ["firstPersonSwingAnimations"] = {403, 402},
+                ["firstPersonSwingAnimations"] = {404, 403},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 15
             },
             ["displayName"] = "Iron Dagger",
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
-        ["void_turret_tablet"] = {
-            ["keepOnDeath"] = true,
-            ["image"] = "rbxassetid://9942058467",
-            ["hotbarFillRight"] = true,
-            ["displayName"] = "Void Turret Tablet"
+        ["kobblak"] = {
+            ["footstepSound"] = 4,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://9859003198",
+                        "rbxassetid://9859003198",
+                        "rbxassetid://9859003106",
+                        "rbxassetid://9859003106",
+                        "rbxassetid://9859003106",
+                        "rbxassetid://9859003106"
+                    }
+                },
+                ["minecraftConversions"] = {{["blockId"] = 216}},
+                ["breakSound"] = "function: 0xc69db72b149e3bfa"
+            },
+            ["image"] = "rbxassetid://9859002988",
+            ["displayName"] = "Kobblak"
         },
         ["bed_gadget"] = {
             ["gadget"] = true,
@@ -7208,19 +7400,19 @@ Item Discounts: 15%->20%]],
             ["description"] = "Used to create a bed at its position.",
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 9003}},
                 ["collectionServiceTags"] = {"CreativeGadget"},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakableOnlyByHosts"] = true
             },
             ["displayName"] = "Bed Gadget"
         },
-        ["iron"] = {
-            ["displayNameColor"] = Color3.fromRGB(255, 255, 255),
-            ["image"] = "rbxassetid://6850537969",
+        ["void_turret_tablet"] = {
+            ["keepOnDeath"] = true,
+            ["image"] = "rbxassetid://9942058467",
             ["hotbarFillRight"] = true,
-            ["displayName"] = "Iron"
+            ["displayName"] = "Void Turret Tablet"
         },
         ["oak_log"] = {
             ["footstepSound"] = 2,
@@ -7237,8 +7429,8 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://16991766678"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {
                     {["blockId"] = 17},
                     {["blockId"] = 35},
@@ -7255,7 +7447,7 @@ Item Discounts: 15%->20%]],
                 ["launchScreenShake"] = {["config"] = {["duration"] = 0.15, ["magnitude"] = 0.07, ["cycles"] = 2}},
                 ["fireDelaySec"] = 3,
                 ["thirdPerson"] = {["fireAnimation"] = 151, ["aimAnimation"] = 150},
-                ["projectileType"] = "function: 0xdaeb0b72b00e9b9c",
+                ["projectileType"] = "function: 0xeba398f15060c0ba",
                 ["launchSound"] = {"rbxassetid://9252994838"},
                 ["activeReload"] = true
             },
@@ -7266,7 +7458,7 @@ Item Discounts: 15%->20%]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://8105570960",
@@ -7277,7 +7469,7 @@ Item Discounts: 15%->20%]],
                         "rbxassetid://8105570960"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["minecraftConversions"] = {
                     {["blockData"] = 8, ["blockId"] = 43},
                     {["blockData"] = 0, ["blockId"] = 43},
@@ -7293,7 +7485,7 @@ Item Discounts: 15%->20%]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"blackhole_bomb"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xf34d7d201dd5935c",
+                ["projectileType"] = "function: 0x9012dce4bbb0e1fa",
                 ["launchSound"] = {"rbxassetid://6760544639"},
                 ["fireDelaySec"] = 0.4
             },
@@ -7301,8 +7493,8 @@ Item Discounts: 15%->20%]],
         },
         ["rainbow_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x7d2332ad97fdfc4c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x668db1213199628a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 30,
@@ -7330,7 +7522,21 @@ Item Discounts: 15%->20%]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Ember"
         },
-        ["merchant_damage_buff"] = {["removeFromCustoms"] = true, ["displayName"] = "Damage Buff"},
+        ["personal_chest"] = {
+            ["footstepSound"] = 2,
+            ["image"] = "rbxassetid://8164577594",
+            ["block"] = {
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["breakType"] = "wood",
+                ["health"] = 30,
+                ["minecraftConversions"] = {{["blockId"] = 130}},
+                ["blastProof"] = true,
+                ["collectionServiceTags"] = {"chest", "personal-chest"},
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
+                ["seeThrough"] = true
+            },
+            ["displayName"] = "Personal Chest"
+        },
         ["brewing_cauldron"] = {
             ["image"] = "rbxassetid://9134530108",
             ["sharingDisabled"] = true,
@@ -7359,8 +7565,8 @@ Item Discounts: 15%->20%]],
                 }
             },
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x7f1a9ec7431e191c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0x6ce2356a7bc91aba",
                 ["breakType"] = "stone",
                 ["health"] = 25,
                 ["seeThrough"] = true,
@@ -7380,17 +7586,23 @@ Item Discounts: 15%->20%]],
         ["chicken_egg_block"] = {
             ["block"] = {
                 ["denyPlaceOn"] = true,
-                ["placeSound"] = "function: 0x53a41f29243c311c",
+                ["placeSound"] = "function: 0xb3ebb221274738ba",
                 ["minecraftConversions"] = {{["blockId"] = 8016}},
                 ["breakType"] = "wood",
                 ["health"] = 5,
                 ["seeThrough"] = true,
                 ["disableFlamableByTeammates"] = true,
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["placedBy"] = {["itemType"] = "chicken_egg"}
             },
             ["image"] = "rbxassetid://3677675280",
             ["displayName"] = "Egg"
+        },
+        ["iron"] = {
+            ["displayNameColor"] = Color3.fromRGB(255, 255, 255),
+            ["image"] = "rbxassetid://6850537969",
+            ["hotbarFillRight"] = true,
+            ["displayName"] = "Iron"
         },
         ["treasure_chest"] = {
             ["consumable"] = {
@@ -7404,41 +7616,20 @@ Item Discounts: 15%->20%]],
             ["description"] = "Open for a chance at pirate's treasure",
             ["displayName"] = "Treasure Chest"
         },
-        ["emerald_sword"] = {
-            ["image"] = "rbxassetid://6931677551",
-            ["description"] = "Comes with an emerald shield that fully blocks the first instance of damage in a fight. Downgrades to a Diamond Sword upon death.",
-            ["itemCatalog"] = {["collection"] = 1},
-            ["sharingDisabled"] = true,
-            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 55},
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Emerald Sword"
-        },
-        ["flower_bow"] = {
-            ["image"] = "rbxassetid://13278689311",
-            ["sharingDisabled"] = true,
-            ["skins"] = {
-                "flower_bow_frost_queen",
-                "gold_victorious_flower_bow",
-                "platinum_victorious_flower_bow",
-                "diamond_victorious_flower_bow",
-                "emerald_victorious_flower_bow",
-                "nightmare_victorious_flower_bow"
-            },
+        ["glitch_robbery_ball"] = {
+            ["glitched"] = true,
+            ["image"] = "rbxassetid://7977038485",
+            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
             ["projectileSource"] = {
-                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
-                ["multiShotChargeTime"] = 0.8,
-                ["fireDelaySec"] = 0.6,
-                ["projectileType"] = "function: 0x1f1fe281b84c611c",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
-                ["ammoItemTypes"] = {"arrow", "iron_arrow"},
-                ["walkSpeedMultiplier"] = 0.35,
-                ["maxStrengthChargeSec"] = 0.65,
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["minStrengthScalar"] = 0.3333333333333333
+                ["fireDelaySec"] = 0.15,
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"glitch_robbery_ball"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0x944d5b19f129871a",
+                ["launchSound"] = {"rbxassetid://6866223756"},
+                ["firstPerson"] = {["fireAnimation"] = 14}
             },
-            ["firstPerson"] = {["verticalOffset"] = 0},
-            ["displayName"] = "Floral Bow"
+            ["displayName"] = "Robbery Ball?"
         },
         ["black_market_upgrade_2"] = {
             ["image"] = "rbxassetid://95888205553099",
@@ -7448,11 +7639,14 @@ Random Pool: +1 Items]],
             ["consumable"] = {["consumeTime"] = 0.5, ["disableAnimation"] = true, ["soundOverride"] = "None"},
             ["displayName"] = "Black Market Upgrade 2"
         },
-        ["diamond_chestplate"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.32, ["slot"] = 1},
-            ["image"] = "rbxassetid://6874272898",
+        ["emerald_sword"] = {
+            ["image"] = "rbxassetid://6931677551",
+            ["description"] = "Comes with an emerald shield that fully blocks the first instance of damage in a fight. Downgrades to a Diamond Sword upon death.",
+            ["itemCatalog"] = {["collection"] = 1},
             ["sharingDisabled"] = true,
-            ["displayName"] = "Diamond Chestplate"
+            ["sword"] = {["attackSpeed"] = 0.3, ["damage"] = 55},
+            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
+            ["displayName"] = "Emerald Sword"
         },
         ["fork_trident"] = {
             ["image"] = "rbxassetid://14315230530",
@@ -7481,7 +7675,7 @@ Random Pool: +1 Items]],
                 ["damage"] = 30
             },
             ["projectileSource"] = {
-                ["projectileType"] = "function: 0xba7bf0dd07ffe93c",
+                ["projectileType"] = "function: 0x2dc0343df088c99a",
                 ["fireDelaySec"] = 1,
                 ["ammoItemTypes"] = {"fork_trident"}
             },
@@ -7489,10 +7683,10 @@ Random Pool: +1 Items]],
         },
         ["food_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 15,
-                ["breakSound"] = "function: 0xebaace53e549689c",
+                ["breakSound"] = "function: 0x467a0fd39b5b8a3a",
                 ["blastProof"] = true,
                 ["disableInventoryPickup"] = true,
                 ["luckyBlock"] = {["categories"] = {"food"}, ["drops"] = {{["luckMultiplier"] = 2}}},
@@ -7510,34 +7704,67 @@ Random Pool: +1 Items]],
             ["image"] = "rbxassetid://14192272584",
             ["displayName"] = "Food Lucky Block"
         },
+        ["flower_bow"] = {
+            ["image"] = "rbxassetid://13278689311",
+            ["sharingDisabled"] = true,
+            ["skins"] = {
+                "flower_bow_frost_queen",
+                "gold_victorious_flower_bow",
+                "platinum_victorious_flower_bow",
+                "diamond_victorious_flower_bow",
+                "emerald_victorious_flower_bow",
+                "nightmare_victorious_flower_bow"
+            },
+            ["projectileSource"] = {
+                ["chargeBeginSound"] = {"rbxassetid://6866062236"},
+                ["multiShotChargeTime"] = 0.8,
+                ["fireDelaySec"] = 0.6,
+                ["projectileType"] = "function: 0xb6f23daee793ab7a",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
+                ["ammoItemTypes"] = {"arrow", "iron_arrow"},
+                ["walkSpeedMultiplier"] = 0.35,
+                ["maxStrengthChargeSec"] = 0.65,
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["minStrengthScalar"] = 0.3333333333333333
+            },
+            ["firstPerson"] = {["verticalOffset"] = 0},
+            ["displayName"] = "Floral Bow"
+        },
+        ["glowstone"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "grass",
+                ["placeSound"] = "function: 0x1e28e0934f8791ba",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://12946930610",
+                        "rbxassetid://12946930610",
+                        "rbxassetid://12946930610",
+                        "rbxassetid://12946930610",
+                        "rbxassetid://12946930610",
+                        "rbxassetid://12946930610"
+                    }
+                },
+                ["breakSound"] = "function: 0x35132364237a0c3a",
+                ["pointLight"] = {
+                    ["Color"] = Color3.fromRGB(255, 247, 214),
+                    ["Brightness"] = 0.7,
+                    ["Range"] = 27,
+                    ["Shadows"] = true
+                },
+                ["health"] = 10,
+                ["minecraftConversions"] = {{["blockId"] = 89}}
+            },
+            ["image"] = "rbxassetid://12948863407",
+            ["displayName"] = "Glowstone"
+        },
         ["drill_controller"] = {
             ["image"] = "rbxassetid://7290617886",
             ["sharingDisabled"] = true,
             ["displayName"] = "Tablet"
         },
-        ["fisherman_coral"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["health"] = 210,
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://7843775572",
-                        "rbxassetid://7843775572",
-                        "rbxassetid://7843775572",
-                        "rbxassetid://7843775572",
-                        "rbxassetid://7843775572",
-                        "rbxassetid://7843775572"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["minecraftConversions"] = {{["blockId"] = 8012}},
-                ["blastResistance"] = 5
-            },
-            ["image"] = "rbxassetid://7884369108",
-            ["displayName"] = "Coral"
-        },
+        ["chicken_void"] = {["image"] = "rbxassetid://13980233120", ["displayName"] = "Void Chicken"},
         ["beehive_grenade"] = {
             ["image"] = "rbxassetid://12671499151",
             ["description"] = "Explosive beehive that comes with a large kick! Hitting yourself will reset glide cooldown.",
@@ -7545,28 +7772,12 @@ Random Pool: +1 Items]],
             ["projectileSource"] = {
                 ["ammoItemTypes"] = {"beehive_grenade"},
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0x79c114b629ae13bc",
+                ["projectileType"] = "function: 0xb5d2fdd869187e1a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 54}
             },
             ["sharingDisabled"] = true,
             ["displayName"] = "Beehive Grenade"
-        },
-        ["chicken_void"] = {["image"] = "rbxassetid://13980233120", ["displayName"] = "Void Chicken"},
-        ["sheriff_crossbow"] = {
-            ["image"] = "rbxassetid://7051149016",
-            ["projectileSource"] = {
-                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
-                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["fireDelaySec"] = 1.15,
-                ["walkSpeedMultiplier"] = 0.35,
-                ["projectileType"] = "function: 0x9f3559504647aefc",
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["hitSounds"] = {{"rbxassetid://6866062188"}}
-            },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Sheriff Crossbow"
         },
         ["diamond_dagger"] = {
             ["replaces"] = {"wood_dagger", "stone_dagger", "iron_dagger"},
@@ -7584,21 +7795,22 @@ Random Pool: +1 Items]],
                     "rbxassetid://13833151323"
                 },
                 ["knockbackMultiplier"] = {["vertical"] = 0.5, ["horizontal"] = 0.5},
-                ["swingAnimations"] = {400, 401},
+                ["swingAnimations"] = {401, 402},
                 ["attackRange"] = 10.5,
                 ["respectAttackSpeedForEffects"] = true,
-                ["firstPersonSwingAnimations"] = {403, 402},
+                ["firstPersonSwingAnimations"] = {404, 403},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 21
             },
             ["displayName"] = "Diamond Dagger",
             ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2}
         },
-        ["double_rainbow_boots"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.24, ["slot"] = 2},
-            ["image"] = "rbxassetid://12813706493",
-            ["description"] = "Jump through seven colors of the rainbow!",
-            ["displayName"] = "Double Rainbow Boots"
+        ["iron_arrow"] = {
+            ["image"] = "rbxassetid://15579506183",
+            ["sharingDisabled"] = true,
+            ["description"] = "Increased projectile damage",
+            ["hotbarFillRight"] = true,
+            ["displayName"] = "Iron Arrow"
         },
         ["santa_bomb"] = {
             ["image"] = "rbxassetid://8273495195",
@@ -7609,46 +7821,64 @@ Random Pool: +1 Items]],
                 ["walkSpeedMultiplier"] = 0.4,
                 ["ammoItemTypes"] = {"santa_bomb"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xdcb64935cc8db0bc",
+                ["projectileType"] = "function: 0x347f4c3349df991a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["fireDelaySec"] = 0.2
             },
             ["displayName"] = "Santa Strafe"
+        },
+        ["fisherman_coral"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["breakType"] = "stone",
+                ["health"] = 210,
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://7843775572",
+                        "rbxassetid://7843775572",
+                        "rbxassetid://7843775572",
+                        "rbxassetid://7843775572",
+                        "rbxassetid://7843775572",
+                        "rbxassetid://7843775572"
+                    }
+                },
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["regenSpeed"] = 0.2,
+                ["minecraftConversions"] = {{["blockId"] = 8012}},
+                ["blastResistance"] = 5
+            },
+            ["image"] = "rbxassetid://7884369108",
+            ["displayName"] = "Coral"
+        },
+        ["double_rainbow_boots"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.24, ["slot"] = 2},
+            ["image"] = "rbxassetid://12813706493",
+            ["description"] = "Jump through seven colors of the rainbow!",
+            ["displayName"] = "Double Rainbow Boots"
         },
         ["teleporting_hatter"] = {
             ["image"] = "rbxassetid://12291381738",
             ["description"] = "N/A",
             ["displayName"] = "Teleporting Hatter"
         },
-        ["tactical_headhunter"] = {
-            ["image"] = "rbxassetid://13887697172",
-            ["description"] = "A tactical adaptation of the legendary Headhunter, this weapon deals massive damage!",
-            ["skins"] = {"tactical_headhunter_lunar_dragon"},
+        ["throwable_bridge"] = {
+            ["image"] = "rbxassetid://10866146253",
             ["projectileSource"] = {
-                ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x4ca7569fd24ee06c",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
-                ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 392, ["aimAnimation"] = 394},
-                ["launchSound"] = {
-                    "rbxassetid://13406717420",
-                    "rbxassetid://13406717139",
-                    "rbxassetid://13406717258",
-                    "rbxassetid://13406717028"
-                },
-                ["firstPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395}
+                ["ammoItemTypes"] = {"throwable_bridge"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0x10da6a3a1891befa",
+                ["maxStrengthChargeSec"] = 0.25,
+                ["fireDelaySec"] = 0.15
             },
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Tactical Headhunter"
+            ["displayName"] = "Portable Bridge"
         },
         ["fire_sheep_statue"] = {
             ["image"] = "rbxassetid://12291381909",
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x26215ee4a45dd71c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xafcc7e1989d8a0ba",
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 100000,
@@ -7660,96 +7890,84 @@ Random Pool: +1 Items]],
             },
             ["displayName"] = "Fire Sheep Statue"
         },
-        ["throwable_bridge"] = {
-            ["image"] = "rbxassetid://10866146253",
-            ["projectileSource"] = {
-                ["ammoItemTypes"] = {"throwable_bridge"},
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x71ba58dff4c9c65c",
-                ["maxStrengthChargeSec"] = 0.25,
-                ["fireDelaySec"] = 0.15
+        ["magic_glass"] = {
+            ["image"] = "rbxassetid://72863067929207",
+            ["description"] = "Attacks and projectiles phase through this magic window!",
+            ["footstepSound"] = 4,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x2f8da30b25695cfa",
+                ["breakSound"] = "function: 0x838f91e45bab203a",
+                ["blastProof"] = true,
+                ["health"] = 20,
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://121238080563616",
+                        "rbxassetid://121238080563616",
+                        "rbxassetid://121238080563616",
+                        "rbxassetid://121238080563616",
+                        "rbxassetid://121238080563616",
+                        "rbxassetid://121238080563616"
+                    }
+                }
             },
-            ["displayName"] = "Portable Bridge"
+            ["displayName"] = "Magic Glass"
         },
-        ["clay_dark_brown"] = {
+        ["volatile_stone"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x4f8ea961bc47ae5c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
-                        "rbxassetid://16991765722",
-                        "rbxassetid://16991765722",
-                        "rbxassetid://16991765722",
-                        "rbxassetid://16991765722",
-                        "rbxassetid://16991765722",
-                        "rbxassetid://16991765722"
+                        "rbxassetid://15380237968",
+                        "rbxassetid://15380237968",
+                        "rbxassetid://15380237968",
+                        "rbxassetid://15380237968",
+                        "rbxassetid://15380237968",
+                        "rbxassetid://15380237968"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {
-                    {["blockData"] = 7, ["blockId"] = 159},
-                    {["blockData"] = 12, ["blockId"] = 35}
-                }
+                ["minecraftConversions"] = {{["blockId"] = 12020}},
+                ["pointLight"] = {
+                    ["Color"] = Color3.fromRGB(176, 250, 191),
+                    ["Brightness"] = 0.4,
+                    ["Range"] = 12,
+                    ["Shadows"] = true
+                },
+                ["breakSound"] = "function: 0x65f351450c6a38fa"
             },
-            ["image"] = "rbxassetid://7884367299",
-            ["displayName"] = "Dark Brown Clay"
+            ["image"] = "rbxassetid://15380237898",
+            ["displayName"] = "Volatile Stone"
         },
-        ["twirlblade"] = {
-            ["image"] = "rbxassetid://8795403035",
-            ["sword"] = {
-                ["attackSpeed"] = 1,
-                ["knockbackMultiplier"] = {["horizontal"] = 1.1},
-                ["respectAttackSpeedForEffects"] = true,
-                ["swingSounds"] = {},
-                ["firstPersonSwingAnimations"] = {121, 122},
-                ["attackRange"] = 18,
-                ["swingAnimations"] = {117, 118},
-                ["cooldown"] = {["cooldownBar"] = {["color"] = Color3.fromRGB(179, 5, 5)}},
-                ["applyCooldownOnMiss"] = true,
-                ["damage"] = 50
+        ["tactical_headhunter"] = {
+            ["image"] = "rbxassetid://13887697172",
+            ["description"] = "A tactical adaptation of the legendary Headhunter, this weapon deals massive damage!",
+            ["skins"] = {"tactical_headhunter_lunar_dragon"},
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 1.15,
+                ["projectileType"] = "function: 0x28d2a5581b2a634a",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
+                ["walkSpeedMultiplier"] = 0.35,
+                ["thirdPerson"] = {["fireAnimation"] = 393, ["aimAnimation"] = 395},
+                ["launchSound"] = {
+                    "rbxassetid://13406717420",
+                    "rbxassetid://13406717139",
+                    "rbxassetid://13406717258",
+                    "rbxassetid://13406717028"
+                },
+                ["firstPerson"] = {["fireAnimation"] = 394, ["aimAnimation"] = 396}
             },
-            ["displayName"] = "Twirlblade"
-        },
-        ["excalibur"] = {
-            ["image"] = "",
-            ["block"] = {
-                ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd8e6a6ee0587d5dc",
-                ["unbreakable"] = true,
-                ["breakType"] = "stone",
-                ["health"] = 8,
-                ["disableInventoryPickup"] = true,
-                ["collectionServiceTags"] = {"Excalibur"},
-                ["seeThrough"] = true
-            },
-            ["displayName"] = "Excalibur"
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Tactical Headhunter"
         },
         ["diamond_helmet"] = {
             ["armor"] = {["damageReductionMultiplier"] = 0.24, ["slot"] = 0},
             ["image"] = "rbxassetid://6874272793",
             ["sharingDisabled"] = true,
             ["displayName"] = "Diamond Helmet"
-        },
-        ["infernal_saber"] = {
-            ["image"] = "rbxassetid://9620506030",
-            ["sharingDisabled"] = true,
-            ["skins"] = {"infernal_saber_krampus"},
-            ["sword"] = {
-                ["knockbackMultiplier"] = {["horizontal"] = 0.5},
-                ["chargedAttack"] = {
-                    ["minChargeTimeSec"] = 1,
-                    ["walkSpeedModifier"] = {["multiplier"] = 0.85},
-                    ["maxChargeTimeSec"] = 1,
-                    ["attackCooldown"] = 0.5
-                },
-                ["attackSpeed"] = 0.3,
-                ["damage"] = 40
-            },
-            ["firstPerson"] = {["scale"] = 0.8, ["verticalOffset"] = -1.2},
-            ["displayName"] = "Infernal Saber"
         },
         ["spruce_log"] = {
             ["footstepSound"] = 2,
@@ -7766,8 +7984,8 @@ Random Pool: +1 Items]],
                         "rbxassetid://16991767062"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
-                ["placeSound"] = "function: 0xb226493db82bfc9c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
+                ["placeSound"] = "function: 0x2d385cd87fbe037a",
                 ["minecraftConversions"] = {{["blockData"] = 1, ["blockId"] = 17}}
             },
             ["image"] = "rbxassetid://7884371618",
@@ -7776,12 +7994,12 @@ Random Pool: +1 Items]],
         ["auto_cannon"] = {
             ["block"] = {
                 ["noSuffocation"] = true,
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12012}},
                 ["breakType"] = "stone",
                 ["health"] = 100,
                 ["disableInventoryPickup"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"cannon-type"},
                 ["unbreakableByTeammates"] = true,
                 ["denyPlaceOn"] = true
@@ -7790,21 +8008,17 @@ Random Pool: +1 Items]],
             ["description"] = "Automatically fires TNT on an interval",
             ["displayName"] = "Auto Cannon"
         },
-        ["poison_splash_potion"] = {
-            ["image"] = "rbxassetid://9135917252",
-            ["description"] = "Splash potion that deals damage over time to enemies in the splash area.",
-            ["maxStackSize"] = 2,
-            ["projectileSource"] = {
-                ["fireDelaySec"] = 0.4,
-                ["maxStrengthChargeSec"] = 1,
-                ["walkSpeedMultiplier"] = 0.4,
-                ["ammoItemTypes"] = {"poison_splash_potion"},
-                ["minStrengthScalar"] = 0.3333333333333333,
-                ["projectileType"] = "function: 0xb21c6cbbdb85997c",
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["firstPerson"] = {}
+        ["snow_cone_machine"] = {
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 12010}},
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["collectionServiceTags"] = {"SnowConeMachine"},
+                ["noSuffocation"] = true,
+                ["seeThrough"] = true
             },
-            ["displayName"] = "Poison Splash Potion"
+            ["displayName"] = "Snow Cone Machine"
         },
         ["ballista_ammo"] = {
             ["hotbarFillRight"] = true,
@@ -7812,17 +8026,18 @@ Random Pool: +1 Items]],
             ["description"] = "Explosive ballista ammunition to smash through enemy defenses",
             ["displayName"] = "Explosive Arrow"
         },
-        ["star"] = {
+        ["candy"] = {
+            ["image"] = "rbxassetid://10013673573",
+            ["sharingDisabled"] = true,
+            ["displayNameColor"] = Color3.fromRGB(85, 255, 85),
             ["hotbarFillRight"] = true,
-            ["image"] = "rbxassetid://11774788771",
-            ["description"] = "Ammo for the Constellation Bow.",
-            ["displayName"] = "Star"
+            ["displayName"] = "Candy"
         },
         ["copper_block"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://10859696172",
@@ -7834,7 +8049,7 @@ Random Pool: +1 Items]],
                     }
                 },
                 ["minecraftConversions"] = {{["blockId"] = 14}},
-                ["breakSound"] = "function: 0x1fd2737688c1d35c"
+                ["breakSound"] = "function: 0x056d33ca57eae9fa"
             },
             ["image"] = "rbxassetid://10859696115",
             ["displayName"] = "Copper Block"
@@ -7865,60 +8080,38 @@ Random Pool: +1 Items]],
             ["backpack"] = {["activeAbility"] = false},
             ["displayName"] = "First Aid Kit"
         },
-        ["orions_belt_bow"] = {
-            ["projectileSource"] = {
-                ["multiShotCount"] = 3,
-                ["chargeBeginSound"] = {"rbxassetid://7987032429"},
-                ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0xe4ee216c9acc6cbc",
-                ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
-                ["minStrengthScalar"] = 0.25,
-                ["multiShot"] = true,
-                ["ammoItemTypes"] = {"star"},
-                ["walkSpeedMultiplier"] = 0.25,
-                ["maxStrengthChargeSec"] = 0.5,
-                ["launchSound"] = {"rbxassetid://10969529761"},
-                ["multiShotDelay"] = 0.1
+        ["twirlblade"] = {
+            ["image"] = "rbxassetid://8795403035",
+            ["sword"] = {
+                ["attackSpeed"] = 1,
+                ["knockbackMultiplier"] = {["horizontal"] = 1.1},
+                ["respectAttackSpeedForEffects"] = true,
+                ["swingSounds"] = {},
+                ["firstPersonSwingAnimations"] = {121, 122},
+                ["attackRange"] = 18,
+                ["swingAnimations"] = {117, 118},
+                ["cooldown"] = {["cooldownBar"] = {["color"] = Color3.fromRGB(179, 5, 5)}},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 50
             },
-            ["image"] = "rbxassetid://11774789128",
-            ["description"] = "Shoots a constellation of explosive stars.",
-            ["displayName"] = "Constellation Bow"
+            ["displayName"] = "Twirlblade"
         },
         ["pirate_telescope"] = {
             ["image"] = "rbxassetid://10797226885",
             ["description"] = "Grants nearby allies enhanced projectiles",
             ["displayName"] = "Pirate Telescope"
         },
-        ["clay_red"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x52245dfb60bf991c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://16991766155",
-                        "rbxassetid://16991766155",
-                        "rbxassetid://16991766155",
-                        "rbxassetid://16991766155",
-                        "rbxassetid://16991766155",
-                        "rbxassetid://16991766155"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {
-                    {["blockData"] = 14, ["blockId"] = 159},
-                    {["blockData"] = 14, ["blockId"] = 251}
-                }
-            },
-            ["image"] = "rbxassetid://7884368246",
-            ["displayName"] = "Red Clay"
+        ["star"] = {
+            ["hotbarFillRight"] = true,
+            ["image"] = "rbxassetid://11774788771",
+            ["description"] = "Ammo for the Constellation Bow.",
+            ["displayName"] = "Star"
         },
         ["pumpkin_block"] = {
             ["footstepSound"] = 2,
             ["block"] = {
                 ["breakType"] = "wood",
-                ["placeSound"] = "function: 0x3d5fc1b8aa32e41c",
+                ["placeSound"] = "function: 0x3e219ea991088fba",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://14968394203",
@@ -7929,17 +8122,36 @@ Random Pool: +1 Items]],
                         "rbxassetid://14968394120"
                     }
                 },
-                ["breakSound"] = "function: 0x57129a8b24f3d85c",
+                ["breakSound"] = "function: 0xdd277c6ab42a07ba",
                 ["minecraftConversions"] = {{["blockId"] = 86}}
             },
             ["image"] = "rbxassetid://14968393998",
             ["displayName"] = "Pumpkin Block"
         },
-        ["orbital_satellite_tablet"] = {
-            ["consumable"] = {["consumeTime"] = 0},
-            ["image"] = "rbxassetid://11776141709",
-            ["description"] = "Controls the Orbital Satellite Laser",
-            ["displayName"] = "Orbital Satellite Tablet"
+        ["clay_red"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x9feb9e9e6d5ab83a",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://16991766155",
+                        "rbxassetid://16991766155",
+                        "rbxassetid://16991766155",
+                        "rbxassetid://16991766155",
+                        "rbxassetid://16991766155",
+                        "rbxassetid://16991766155"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {
+                    {["blockData"] = 14, ["blockId"] = 159},
+                    {["blockData"] = 14, ["blockId"] = 251}
+                }
+            },
+            ["image"] = "rbxassetid://7884368246",
+            ["displayName"] = "Red Clay"
         },
         ["pie"] = {
             ["skins"] = {"pie_spirit"},
@@ -7947,7 +8159,6 @@ Random Pool: +1 Items]],
             ["consumable"] = {["consumeTime"] = 0.8},
             ["displayName"] = "Speed Pie"
         },
-        ["blunderbuss_bullet"] = {["removeFromCustoms"] = true, ["displayName"] = "Blunderbuss Bullet"},
         ["glue_trap"] = {
             ["removeFromCustoms"] = true,
             ["image"] = "rbxassetid://7192711008",
@@ -7964,7 +8175,7 @@ Random Pool: +1 Items]],
                 ["maxStrengthChargeSec"] = 0.25,
                 ["ammoItemTypes"] = {"glue_projectile"},
                 ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xa607a5a86ebe833c",
+                ["projectileType"] = "function: 0xec99aae03708bb9a",
                 ["launchSound"] = {"rbxassetid://6866223756"},
                 ["firstPerson"] = {["fireAnimation"] = 14}
             },
@@ -7976,13 +8187,13 @@ Random Pool: +1 Items]],
             ["description"] = "Send signals to disrupt your foes, earning resources on their shop purchases.",
             ["footstepSound"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 12016}},
                 ["blastProof"] = true,
                 ["maxPlaced"] = 1,
                 ["breakType"] = "stone",
                 ["health"] = 20,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["collectionServiceTags"] = {"satellite-dish"},
                 ["unbreakableByTeammates"] = true,
                 ["disableEnemyInventoryPickup"] = true
@@ -7990,12 +8201,23 @@ Random Pool: +1 Items]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Satellite Dish"
         },
+        ["baseball_bat"] = {
+            ["sword"] = {
+                ["attackSpeed"] = 6,
+                ["swingSounds"] = {},
+                ["respectAttackSpeedForEffects"] = true,
+                ["knockbackMultiplier"] = {["horizontal"] = 5},
+                ["applyCooldownOnMiss"] = true,
+                ["damage"] = 100
+            },
+            ["displayName"] = "Baseball Bat"
+        },
         ["new_years_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 15,
-                ["breakSound"] = "function: 0x27ece0cd33c9e25c",
+                ["breakSound"] = "function: 0x1bad9e99dc775c7a",
                 ["blastProof"] = true,
                 ["disableInventoryPickup"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 12016}},
@@ -8016,7 +8238,6 @@ Random Pool: +1 Items]],
         ["diamond"] = {
             ["image"] = "rbxassetid://6850538161",
             ["displayNameColor"] = Color3.fromRGB(85, 255, 255),
-            ["consumable"] = {["consumeTime"] = 1.3, ["requiresMatchMechanic"] = "delicious_diamonds"},
             ["pickUpOverlaySound"] = "rbxassetid://10649778845",
             ["hotbarFillRight"] = true,
             ["displayName"] = "Diamond"
@@ -8026,8 +8247,8 @@ Random Pool: +1 Items]],
             ["description"] = "A chilling chest. Place it down to embrace the night...and become a vampire.",
             ["footstepSound"] = 2,
             ["block"] = {
-                ["placeSound"] = "function: 0x1e580429d658d3dc",
-                ["breakSound"] = "function: 0xf1c4c9c7426c3e9c",
+                ["placeSound"] = "function: 0xea57bd3dc6b870fa",
+                ["breakSound"] = "function: 0x067183246fa9b43a",
                 ["blastProof"] = true,
                 ["maxPlaced"] = 1,
                 ["breakType"] = "wood",
@@ -8041,41 +8262,52 @@ Random Pool: +1 Items]],
             ["itemCatalog"] = {["collection"] = 2},
             ["displayName"] = "Cursed Coffin"
         },
-        ["portable_vending_machine"] = {
-            ["image"] = "rbxassetid://11272093702",
-            ["description"] = "Visit the Shop anywhere and unlock the Blind-Box in the Shop. Purchasing an item will put the vending machine on cooldown.",
-            ["maxStackSize"] = 1,
-            ["backpack"] = {["activeAbility"] = true},
-            ["displayName"] = "Portable Vending Machine"
+        ["pit"] = {
+            ["projectileSource"] = {
+                ["thirdPerson"] = {["fireAnimation"] = 5},
+                ["fireDelaySec"] = 1,
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"pit"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0xef62203ecc782dda",
+                ["launchSound"] = {"rbxassetid://6866223756"},
+                ["firstPerson"] = {["fireAnimation"] = 14}
+            },
+            ["image"] = "rbxassetid://101095778694841",
+            ["description"] = "Throw this item to create a pit at its location. Try make enemies fall into the void!",
+            ["displayName"] = "Construction Pit"
         },
         ["desert_pot"] = {
             ["footstepSound"] = 1,
             ["block"] = {
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["minecraftConversions"] = {{["blockId"] = 8023}}
             },
             ["displayName"] = "Pot"
         },
-        ["scepter"] = {
-            ["image"] = "rbxassetid://11204094589",
-            ["sharingDisabled"] = true,
-            ["maxStackSize"] = 1,
-            ["consumable"] = {
-                ["animationOverride"] = 270,
-                ["cancelOnDamage"] = true,
-                ["consumeTime"] = 1,
-                ["soundOverride"] = "None",
-                ["blockingStatusEffects"] = {"grounded"}
+        ["glitch_throwable_bridge"] = {
+            ["glitched"] = true,
+            ["image"] = "rbxassetid://10866146253",
+            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 0.15,
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"glitch_throwable_bridge"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0xe07f711f9b50997a",
+                ["launchSound"] = {"rbxassetid://6866223756"},
+                ["firstPerson"] = {["fireAnimation"] = 14}
             },
-            ["displayName"] = "Scepter of Light"
+            ["displayName"] = "Portable Bridge?"
         },
         ["wool_purple"] = {
             ["footstepSound"] = 5,
             ["block"] = {
-                ["placeSound"] = "function: 0xaedb34e708aba99c",
-                ["breakSound"] = "function: 0xb2d72ac567cc54dc",
+                ["placeSound"] = "function: 0xddbcaa4d55561e7a",
+                ["breakSound"] = "function: 0x555cae16880e123a",
+                ["regenSpeed"] = 0.05,
                 ["flammable"] = true,
                 ["blastResistance"] = 0.65,
                 ["health"] = 8,
@@ -8117,8 +8349,9 @@ Random Pool: +1 Items]],
         ["ceramic"] = {
             ["footstepSound"] = 1,
             ["block"] = {
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xd4977fe32d41821c",
+                ["placeSound"] = "function: 0x6ca7501779aaf13a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765474",
@@ -8130,49 +8363,64 @@ Random Pool: +1 Items]],
                     }
                 },
                 ["blastProof"] = true,
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["regenSpeed"] = 0.1,
                 ["minecraftConversions"] = {{["blockId"] = 8014}},
                 ["health"] = 20
             },
             ["image"] = "rbxassetid://7884366622",
             ["displayName"] = "Blastproof Ceramic"
         },
-        ["swap_ball"] = {
-            ["projectileSource"] = {
-                ["fireDelaySec"] = 0.15,
-                ["maxStrengthChargeSec"] = 0.25,
-                ["ammoItemTypes"] = {"swap_ball"},
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0x50679b0d7f5ddb1c",
-                ["launchSound"] = {"rbxassetid://6866223756"},
-                ["firstPerson"] = {["fireAnimation"] = 14}
+        ["void_block"] = {
+            ["footstepSound"] = 4,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://9871962653",
+                        "rbxassetid://9871962545",
+                        "rbxassetid://9871962545",
+                        "rbxassetid://9871962545",
+                        "rbxassetid://9871962545",
+                        "rbxassetid://9871962545"
+                    }
+                },
+                ["collectionServiceTags"] = {"void_block"},
+                ["breakSound"] = "function: 0x1d2867e4a7f9ec3a"
             },
-            ["image"] = "rbxassetid://7681107021",
-            ["description"] = "Hit players with the ball to swap positions with them.",
-            ["displayName"] = "Swap Ball"
+            ["image"] = "rbxassetid://9871961934",
+            ["displayName"] = "Void Rock"
         },
-        ["glitch_grenade_launcher"] = {
-            ["glitched"] = true,
-            ["image"] = "rbxassetid://10086864148",
-            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
-            ["projectileSource"] = {
-                ["activeReload"] = true,
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["maxStrengthChargeSec"] = 0.25,
-                ["ammoItemTypes"] = {"glitch_stun_grenade"},
-                ["fireDelaySec"] = 2.2,
-                ["projectileType"] = "function: 0xaec0118088f4e57c",
-                ["launchSound"] = {"rbxassetid://9135893336"},
-                ["thirdPerson"] = {["fireAnimation"] = 51, ["aimAnimation"] = 53}
+        ["light_sword"] = {
+            ["image"] = "rbxassetid://9620517732",
+            ["sharingDisabled"] = true,
+            ["firstPerson"] = {["scale"] = 0.8},
+            ["sword"] = {
+                ["chargedAttack"] = {
+                    ["walkSpeedModifier"] = {["multiplier"] = 0.85, ["delay"] = 0.25},
+                    ["maxChargeTimeSec"] = 1.25,
+                    ["chargedSwingAnimations"] = {164},
+                    ["firstPersonChargedSwingAnimations"] = {165},
+                    ["minChargeTimeSec"] = 0.65
+                },
+                ["knockbackMultiplier"] = {["horizontal"] = 1},
+                ["attackSpeed"] = 0.3,
+                ["damage"] = 47
             },
-            ["displayName"] = "Rocket Launcher?"
+            ["projectileSource"] = {
+                ["minStrengthScalar"] = 1,
+                ["projectileType"] = "function: 0xac1a371f4898fe5a",
+                ["maxStrengthChargeSec"] = 1,
+                ["fireDelaySec"] = 0.3
+            },
+            ["displayName"] = "Light Sword"
         },
         ["dragon_egg"] = {
             ["block"] = {
                 ["breakType"] = "stone",
                 ["health"] = 500,
-                ["breakSound"] = "function: 0x3ee4f747c0652d5c",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["breakSound"] = "function: 0x4ab9d4e2f1cfcf7a",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["unbreakable"] = true
             },
             ["displayName"] = "Dragon Egg"
@@ -8181,7 +8429,7 @@ Random Pool: +1 Items]],
             ["footstepSound"] = 0,
             ["block"] = {
                 ["breakType"] = "grass",
-                ["placeSound"] = "function: 0x740f445891dc2d1c",
+                ["placeSound"] = "function: 0xe56a5d86c8ca18fa",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://15957915501",
@@ -8193,7 +8441,7 @@ Random Pool: +1 Items]],
                     }
                 },
                 ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 3}},
-                ["breakSound"] = "function: 0x671303d5ac8a8e9c"
+                ["breakSound"] = "function: 0x0a83dc0ff79a19ba"
             },
             ["displayName"] = "Kresh"
         },
@@ -8204,35 +8452,12 @@ Random Pool: +1 Items]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Mending Canopy I"
         },
-        ["glitch_throwable_bridge"] = {
-            ["glitched"] = true,
-            ["image"] = "rbxassetid://10866146253",
-            ["pickUpOverlaySound"] = "rbxassetid://10859056155",
-            ["projectileSource"] = {
-                ["fireDelaySec"] = 0.15,
-                ["maxStrengthChargeSec"] = 0.25,
-                ["ammoItemTypes"] = {"glitch_throwable_bridge"},
-                ["minStrengthScalar"] = 0.7692307692307692,
-                ["projectileType"] = "function: 0xddca2dd0515aefdc",
-                ["launchSound"] = {"rbxassetid://6866223756"},
-                ["firstPerson"] = {["fireAnimation"] = 14}
-            },
-            ["displayName"] = "Portable Bridge?"
-        },
-        ["tesla_trap"] = {
-            ["image"] = "rbxassetid://7498163110",
-            ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x5c1166a1b5378edc",
-                ["maxPlaced"] = 1,
-                ["breakType"] = "stone",
-                ["health"] = 18,
-                ["seeThrough"] = true,
-                ["collectionServiceTags"] = {"tesla-trap"},
-                ["minecraftConversions"] = {{["blockId"] = 8022}},
-                ["disableInventoryPickup"] = true
-            },
-            ["displayName"] = "Tesla Coil Trap"
+        ["balloon"] = {
+            ["image"] = "rbxassetid://7122143895",
+            ["description"] = "Use up to three times to gain slowfall and jump boost.",
+            ["maxStackSize"] = 3,
+            ["cooldownId"] = "balloon",
+            ["displayName"] = "Balloon"
         },
         ["glitch_wood_bow"] = {
             ["glitched"] = true,
@@ -8241,7 +8466,7 @@ Random Pool: +1 Items]],
             ["projectileSource"] = {
                 ["chargeBeginSound"] = {"rbxassetid://6866062236"},
                 ["fireDelaySec"] = 1.1,
-                ["projectileType"] = "function: 0xeb6ff9c7b0868ffc",
+                ["projectileType"] = "function: 0x044a3989aa3b815a",
                 ["thirdPerson"] = {["aimAnimation"] = 124, ["fireAnimation"] = 125, ["drawAnimation"] = 126},
                 ["ammoItemTypes"] = {"firework_arrow", "arrow", "volley_arrow", "tnt"},
                 ["walkSpeedMultiplier"] = 0.35,
@@ -8251,11 +8476,12 @@ Random Pool: +1 Items]],
             },
             ["displayName"] = "Bow?"
         },
+        ["blunderbuss_bullet"] = {["removeFromCustoms"] = true, ["displayName"] = "Blunderbuss Bullet"},
         ["clay_black"] = {
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xcab3314511dfcc1c",
+                ["placeSound"] = "function: 0x2c7ba90f16398f3a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991765519",
@@ -8266,7 +8492,7 @@ Random Pool: +1 Items]],
                         "rbxassetid://16991765519"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 15, ["blockId"] = 159},
@@ -8287,7 +8513,7 @@ Random Pool: +1 Items]],
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"teleport_hat"},
                 ["maxStrengthChargeSec"] = 0.25,
-                ["projectileType"] = "function: 0xebe80e47d02215dc",
+                ["projectileType"] = "function: 0x6371763d4fb0a77a",
                 ["launchSound"] = {"rbxassetid://8165640372"},
                 ["cooldownBar"] = {["colorGradient"] = "0 0.921569 0.372549 0.705882 0 1 0.921569 0.372549 0.705882 0 "}
             },
@@ -8302,8 +8528,9 @@ Random Pool: +1 Items]],
         },
         ["iron_ore"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xd5de4d6d29ae159c",
-                ["breakSound"] = "function: 0xf31a899fbd768f5c",
+                ["placeSound"] = "function: 0x17510f59a7dffeba",
+                ["breakSound"] = "function: 0x834aecd5fc69b5fa",
+                ["noRegen"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 12021}},
                 ["breakType"] = "stone",
                 ["health"] = 100,
@@ -8315,17 +8542,26 @@ Random Pool: +1 Items]],
             },
             ["displayName"] = "Iron Ore"
         },
-        ["snow_cone_machine"] = {
+        ["gold_block"] = {
+            ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["minecraftConversions"] = {{["blockData"] = 2, ["blockId"] = 12010}},
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["collectionServiceTags"] = {"SnowConeMachine"},
-                ["noSuffocation"] = true,
-                ["seeThrough"] = true
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://13456088345",
+                        "rbxassetid://13456088345",
+                        "rbxassetid://13456088345",
+                        "rbxassetid://13456088345",
+                        "rbxassetid://13456088345",
+                        "rbxassetid://13456088345"
+                    }
+                },
+                ["minecraftConversions"] = {{["blockData"] = 4, ["blockId"] = 251}},
+                ["breakSound"] = "function: 0x2ea9751308967e7a"
             },
-            ["displayName"] = "Snow Cone Machine"
+            ["image"] = "rbxassetid://13465465532",
+            ["displayName"] = "Gold Block"
         },
         ["disco_grenade"] = {
             ["image"] = "rbxassetid://15798166322",
@@ -8334,7 +8570,7 @@ Random Pool: +1 Items]],
             ["projectileSource"] = {
                 ["ammoItemTypes"] = {"disco_grenade"},
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0x6fe70082888e8dbc",
+                ["projectileType"] = "function: 0xc31a1685db103e7a",
                 ["launchSound"] = {"rbxassetid://6866062104"},
                 ["firstPerson"] = {["fireAnimation"] = 54}
             },
@@ -8346,36 +8582,24 @@ Random Pool: +1 Items]],
             ["description"] = "Consume potion to grow yourself a bigger head.",
             ["displayName"] = "Big Head Potion"
         },
-        ["player_vacuum"] = {["image"] = "rbxassetid://9679750852", ["displayName"] = "Vacuum"},
-        ["attack_helicopter_deploy"] = {
-            ["consumable"] = {["consumeTime"] = 3, ["disableAnimation"] = true, ["soundOverride"] = "None"},
-            ["image"] = "rbxassetid://10236878231",
-            ["description"] = "Weaponized flying death machine.",
-            ["displayName"] = "Attack Minicopter"
-        },
-        ["dino_deploy"] = {
-            ["consumable"] = {["consumeTime"] = 3, ["disableAnimation"] = true, ["soundOverride"] = "None"},
-            ["image"] = "rbxassetid://9855535867",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Dino"
-        },
-        ["invisible_block"] = {
-            ["footstepSound"] = 4,
-            ["block"] = {
-                ["disableInventoryPickup"] = true,
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0x25bc22c131e55adc"
+        ["time_bomb_potion"] = {
+            ["crafting"] = {
+                ["recipe"] = {
+                    ["timeToCraft"] = 3,
+                    ["ingredients"] = {"emerald_block", "emerald_block", "emerald_block"},
+                    ["result"] = "time_bomb_potion"
+                }
             },
-            ["removeFromCustoms"] = true,
-            ["displayName"] = "Void Rock"
+            ["image"] = "rbxassetid://9135921093",
+            ["consumable"] = {["potion"] = true, ["consumeTime"] = 0.6},
+            ["displayName"] = "Time Bomb Potion"
         },
         ["boba_blaster"] = {
             ["thirdPerson"] = {["holdAnimation"] = 148},
             ["image"] = "rbxassetid://9188763408",
             ["projectileSource"] = {
                 ["fireDelaySec"] = 0.3,
-                ["projectileType"] = "function: 0x5abe446af4dd9a3c",
+                ["projectileType"] = "function: 0x1c3365503548b29a",
                 ["thirdPerson"] = {["fireAnimation"] = 149},
                 ["minStrengthScalar"] = 0.7692307692307692,
                 ["ammoItemTypes"] = {"boba_pearl"},
@@ -8385,6 +8609,48 @@ Random Pool: +1 Items]],
                 ["walkSpeedMultiplier"] = 0.4
             },
             ["displayName"] = "Boba Blaster"
+        },
+        ["dino_deploy"] = {
+            ["image"] = "rbxassetid://9855535867",
+            ["sharingDisabled"] = true,
+            ["maxStackSize"] = 1,
+            ["consumable"] = {
+                ["keepOnConsume"] = true,
+                ["consumeTime"] = 2,
+                ["disableAnimation"] = true,
+                ["soundOverride"] = "None"
+            },
+            ["displayName"] = "Dino"
+        },
+        ["invisible_block"] = {
+            ["footstepSound"] = 4,
+            ["block"] = {
+                ["disableInventoryPickup"] = true,
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xad27900edd17d07a"
+            },
+            ["removeFromCustoms"] = true,
+            ["displayName"] = "Void Rock"
+        },
+        ["wood_crossbow"] = {
+            ["replaces"] = {"wood_bow"},
+            ["sharingDisabled"] = true,
+            ["skins"] = {"wood_crossbow_demon_empress_vanessa", "wood_crossbow_valentine"},
+            ["projectileSource"] = {
+                ["multiShotChargeTime"] = 1.6,
+                ["fireDelaySec"] = 1.15,
+                ["projectileType"] = "function: 0xbe6cf1471d76179a",
+                ["hitSounds"] = {{"rbxassetid://6866062188"}},
+                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
+                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
+                ["walkSpeedMultiplier"] = 0.35,
+                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
+                ["launchSound"] = {"rbxassetid://6866062104"},
+                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
+            },
+            ["image"] = "rbxassetid://6869295265",
+            ["displayName"] = "Crossbow"
         },
         ["health_regen_axolotl"] = {["image"] = "rbxassetid://7863780097", ["displayName"] = "Health Regen Axolotl"},
         ["shears"] = {
@@ -8403,7 +8669,7 @@ Random Pool: +1 Items]],
             ["footstepSound"] = 1,
             ["block"] = {
                 ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x4b92649b559794dc",
+                ["placeSound"] = "function: 0x34d90965e78a967a",
                 ["greedyMesh"] = {
                     ["textures"] = {
                         "rbxassetid://16991766265",
@@ -8414,7 +8680,7 @@ Random Pool: +1 Items]],
                         "rbxassetid://16991766265"
                     }
                 },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
                 ["health"] = 8,
                 ["minecraftConversions"] = {
                     {["blockData"] = 0, ["blockId"] = 251},
@@ -8426,10 +8692,10 @@ Random Pool: +1 Items]],
         },
         ["lucky_block_trap"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 15,
-                ["breakSound"] = "function: 0xf6ccff4d17804c1c",
+                ["breakSound"] = "function: 0x3d01afb3251937ba",
                 ["blastProof"] = true,
                 ["minecraftConversions"] = {{["blockId"] = 9002}},
                 ["disableInventoryPickup"] = true,
@@ -8447,42 +8713,48 @@ Random Pool: +1 Items]],
             ["image"] = "rbxassetid://7884370012",
             ["displayName"] = "Lucky Block Trap"
         },
-        ["wood_crossbow"] = {
-            ["replaces"] = {"wood_bow"},
-            ["sharingDisabled"] = true,
-            ["skins"] = {"wood_crossbow_demon_empress_vanessa", "wood_crossbow_valentine"},
-            ["projectileSource"] = {
-                ["multiShotChargeTime"] = 1.6,
-                ["fireDelaySec"] = 1.15,
-                ["projectileType"] = "function: 0x4f65b0fd681a67dc",
-                ["hitSounds"] = {{"rbxassetid://6866062188"}},
-                ["reload"] = {["reloadSound"] = {"rbxassetid://6869254094"}},
-                ["ammoItemTypes"] = {"firework_arrow", "arrow", "iron_arrow"},
-                ["walkSpeedMultiplier"] = 0.35,
-                ["thirdPerson"] = {["fireAnimation"] = 128, ["aimAnimation"] = 127},
-                ["launchSound"] = {"rbxassetid://6866062104"},
-                ["firstPerson"] = {["fireAnimation"] = 17, ["aimAnimation"] = 16}
+        ["excalibur"] = {
+            ["image"] = "",
+            ["block"] = {
+                ["noSuffocation"] = true,
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xaf5d1c06963706fa",
+                ["unbreakable"] = true,
+                ["breakType"] = "stone",
+                ["health"] = 8,
+                ["disableInventoryPickup"] = true,
+                ["collectionServiceTags"] = {"Excalibur"},
+                ["seeThrough"] = true
             },
-            ["image"] = "rbxassetid://6869295265",
-            ["displayName"] = "Crossbow"
+            ["displayName"] = "Excalibur"
         },
-        ["leather_boots"] = {
-            ["armor"] = {["damageReductionMultiplier"] = 0.08, ["slot"] = 2},
-            ["image"] = "rbxassetid://6855466456",
-            ["sharingDisabled"] = true,
-            ["displayName"] = "Leather Boots"
+        ["big_apple"] = {
+            ["image"] = "rbxassetid://75449163962073",
+            ["description"] = "You'll be full after this",
+            ["maxStackSize"] = 2,
+            ["consumable"] = {["requiresMissingHealth"] = true, ["consumeTime"] = 2.75},
+            ["displayName"] = "The Big Apple"
         },
-        ["time_bomb_potion"] = {
-            ["crafting"] = {
-                ["recipe"] = {
-                    ["timeToCraft"] = 3,
-                    ["ingredients"] = {"emerald_block", "emerald_block", "emerald_block"},
-                    ["result"] = "time_bomb_potion"
-                }
+        ["stone_tiles"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://10859698016",
+                        "rbxassetid://10859698016",
+                        "rbxassetid://10859698016",
+                        "rbxassetid://10859698016",
+                        "rbxassetid://10859698016",
+                        "rbxassetid://10859698016"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["minecraftConversions"] = {{["blockId"] = 201}}
             },
-            ["image"] = "rbxassetid://9135921093",
-            ["consumable"] = {["potion"] = true, ["consumeTime"] = 0.6},
-            ["displayName"] = "Time Bomb Potion"
+            ["image"] = "rbxassetid://10859697942",
+            ["displayName"] = "Stone Tiles"
         },
         ["summoner_claw_4"] = {
             ["actsAsSwordGroup"] = true,
@@ -8506,10 +8778,10 @@ Random Pool: +1 Items]],
             ["description"] = "",
             ["maxStackSize"] = 1,
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
                 ["breakType"] = "stone",
                 ["health"] = 100,
-                ["breakSound"] = "function: 0x316ddc0279db6b1c",
+                ["breakSound"] = "function: 0x6e4ca41efc799cba",
                 ["minecraftConversions"] = {{["blockId"] = 8029}},
                 ["collectionServiceTags"] = {"target-dummy-block"},
                 ["disableInventoryPickup"] = true,
@@ -8518,10 +8790,41 @@ Random Pool: +1 Items]],
             ["sharingDisabled"] = true,
             ["displayName"] = "Iron Defender"
         },
+        ["leather_chestplate"] = {
+            ["armor"] = {["damageReductionMultiplier"] = 0.16, ["slot"] = 1},
+            ["image"] = "rbxassetid://6876833204",
+            ["sharingDisabled"] = true,
+            ["displayName"] = "Leather Chestplate"
+        },
         ["warrior_helmet"] = {
             ["armor"] = {["damageReductionMultiplier"] = 0.24, ["slot"] = 0},
             ["image"] = "rbxassetid://7343992908",
             ["displayName"] = "Warrior Helmet"
+        },
+        ["clay_light_brown"] = {
+            ["footstepSound"] = 1,
+            ["block"] = {
+                ["breakType"] = "stone",
+                ["placeSound"] = "function: 0x14bc49c6a08981ba",
+                ["greedyMesh"] = {
+                    ["textures"] = {
+                        "rbxassetid://7872905675",
+                        "rbxassetid://7872905675",
+                        "rbxassetid://7872905675",
+                        "rbxassetid://7872905675",
+                        "rbxassetid://7872905675",
+                        "rbxassetid://7872905675"
+                    }
+                },
+                ["breakSound"] = "function: 0x75d0a4a935c67d3a",
+                ["health"] = 8,
+                ["minecraftConversions"] = {
+                    {["blockData"] = 12, ["blockId"] = 159},
+                    {["blockData"] = 12, ["blockId"] = 251}
+                }
+            },
+            ["image"] = "rbxassetid://7884367792",
+            ["displayName"] = "Light Brown Clay"
         },
         ["taser"] = {
             ["image"] = "rbxassetid://7911162966",
@@ -8534,31 +8837,24 @@ Random Pool: +1 Items]],
             },
             ["displayName"] = "Taser"
         },
-        ["stone_tiles"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://10859698016",
-                        "rbxassetid://10859698016",
-                        "rbxassetid://10859698016",
-                        "rbxassetid://10859698016",
-                        "rbxassetid://10859698016",
-                        "rbxassetid://10859698016"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["minecraftConversions"] = {{["blockId"] = 201}}
+        ["swap_ball"] = {
+            ["projectileSource"] = {
+                ["fireDelaySec"] = 0.15,
+                ["maxStrengthChargeSec"] = 0.25,
+                ["ammoItemTypes"] = {"swap_ball"},
+                ["minStrengthScalar"] = 0.7692307692307692,
+                ["projectileType"] = "function: 0xa8f705b754c36a3a",
+                ["launchSound"] = {"rbxassetid://6866223756"},
+                ["firstPerson"] = {["fireAnimation"] = 14}
             },
-            ["image"] = "rbxassetid://10859697942",
-            ["displayName"] = "Stone Tiles"
+            ["image"] = "rbxassetid://7681107021",
+            ["description"] = "Hit players with the ball to swap positions with them.",
+            ["displayName"] = "Swap Ball"
         },
         ["purple_lucky_block"] = {
             ["block"] = {
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["breakSound"] = "function: 0xd229775c82e7a15c",
+                ["placeSound"] = "function: 0x05fa97358a0a09fa",
+                ["breakSound"] = "function: 0xf50749cf9ecb737a",
                 ["blastProof"] = true,
                 ["breakType"] = "stone",
                 ["health"] = 30,
@@ -8590,88 +8886,36 @@ Random Pool: +1 Items]],
             ["damage"] = 35,
             ["sword"] = {
                 ["attackSpeed"] = 0.6,
-                ["swingAnimations"] = {413, 414},
+                ["swingAnimations"] = {414, 415},
                 ["respectAttackSpeedForEffects"] = true,
                 ["chargedAttack"] = {
                     ["walkSpeedModifier"] = {["multiplier"] = 0.9},
                     ["minChargeTimeSec"] = 0.75,
-                    ["chargedSwingAnimations"] = {415},
+                    ["chargedSwingAnimations"] = {416},
                     ["attackCooldown"] = 0.65,
                     ["showHoldProgressAfterSec"] = 0.25,
                     ["maxChargeTimeSec"] = 0.75,
                     ["chargedSwingSounds"] = {"rbxassetid://11715550908"},
                     ["bonusDamage"] = 12.25,
-                    ["firstPersonChargedSwingAnimations"] = {419},
+                    ["firstPersonChargedSwingAnimations"] = {420},
                     ["chargingEffects"] = {
-                        ["thirdPersonAnim"] = 416,
+                        ["thirdPersonAnim"] = 417,
                         ["sound"] = "rbxassetid://9252451221",
-                        ["firstPersonAnim"] = 420
+                        ["firstPersonAnim"] = 421
                     },
                     ["bonusKnockback"] = {["vertical"] = 0.1, ["horizontal"] = 0.2}
                 },
                 ["multiHitCheckDurationSec"] = 0.25,
                 ["knockbackMultiplier"] = {["vertical"] = 1.1, ["horizontal"] = 1.2},
                 ["attackRange"] = 15,
-                ["firstPersonSwingAnimations"] = {417, 418},
+                ["firstPersonSwingAnimations"] = {418, 419},
                 ["swingSounds"] = {"rbxassetid://11715551373", "rbxassetid://11715550945"},
                 ["applyCooldownOnMiss"] = true,
                 ["damage"] = 35
             },
             ["description"] = "Deal large amounts of knockback to enemies. Downgrades to a Stone Great Hammer upon death.",
             ["displayName"] = "Iron Great Hammer"
-        },
-        ["volatile_stone"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0xf052b2e22063961c",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://15380237968",
-                        "rbxassetid://15380237968",
-                        "rbxassetid://15380237968",
-                        "rbxassetid://15380237968",
-                        "rbxassetid://15380237968",
-                        "rbxassetid://15380237968"
-                    }
-                },
-                ["minecraftConversions"] = {{["blockId"] = 12020}},
-                ["pointLight"] = {
-                    ["Color"] = Color3.fromRGB(176, 250, 191),
-                    ["Brightness"] = 0.4,
-                    ["Range"] = 12,
-                    ["Shadows"] = true
-                },
-                ["breakSound"] = "function: 0x66a3683c3755a05c"
-            },
-            ["image"] = "rbxassetid://15380237898",
-            ["displayName"] = "Volatile Stone"
-        },
-        ["clay_orange"] = {
-            ["footstepSound"] = 1,
-            ["block"] = {
-                ["breakType"] = "stone",
-                ["placeSound"] = "function: 0x3f030532233455dc",
-                ["greedyMesh"] = {
-                    ["textures"] = {
-                        "rbxassetid://16991766008",
-                        "rbxassetid://16991766008",
-                        "rbxassetid://16991766008",
-                        "rbxassetid://16991766008",
-                        "rbxassetid://16991766008",
-                        "rbxassetid://16991766008"
-                    }
-                },
-                ["breakSound"] = "function: 0xd3e60ccfb44be1dc",
-                ["health"] = 8,
-                ["minecraftConversions"] = {
-                    {["blockData"] = 1, ["blockId"] = 159},
-                    {["blockData"] = 1, ["blockId"] = 251}
-                }
-            },
-            ["image"] = "rbxassetid://7884367973",
-            ["displayName"] = "Orange Clay"
         }
     },
-    ["getItemMeta"] = "function: 0x442dfafa26ccc36c"
+    ["getItemMeta"] = "function: 0xb634102a0f92a74a"
 }
