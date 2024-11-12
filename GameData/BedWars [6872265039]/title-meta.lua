@@ -22,6 +22,7 @@ data = {
             ["name"] = "🥚 Egg Hunt 2023 🐇",
             ["text"] = [[<stroke color="rgb(36,36,36)" thickness="2"><font>Egg Hunt 2023</font></stroke>]]
         },
+        ["spider_emoji"] = {["name"] = "Spider Emoji", ["text"] = "🕷️"},
         ["invite_me"] = {["text"] = "Invite Me!"},
         ["aimbot"] = {["text"] = "Aimbot"},
         ["none"] = {["name"] = "None", ["text"] = ""},
@@ -432,6 +433,17 @@ data = {
             ["text"] = "NIGHTMARE (Season 8)"
         },
         ["trick_or_treat"] = {["text"] = "Trick or Treat!"},
+        ["spider_slayer"] = {
+            ["color"] = Color3.fromRGB(163, 0, 199),
+            ["text"] = "Spider Slayer",
+            ["name"] = "Spider Slayer"
+        },
+        ["tournament_champion"] = {
+            ["color"] = Color3.fromRGB(252, 194, 3),
+            ["text"] = "🏆 Tournament Champion 🏆",
+            ["name"] = "Tournament Champion",
+            ["limited"] = true
+        },
         ["royal"] = {["color"] = Color3.fromRGB(252, 194, 3), ["text"] = "👑 ROYAL 👑", ["name"] = "ROYAL"},
         ["sorcerer"] = {
             ["color"] = Color3.fromRGB(129, 10, 123),
@@ -446,12 +458,11 @@ data = {
             ["name"] = "Raven",
             ["stroke"] = {["color"] = Color3.fromRGB(0, 0, 0)}
         },
-        ["rawr"] = {["name"] = "RAWR", ["text"] = "RAWR"},
         ["assassin"] = {["color"] = Color3.fromRGB(189, 81, 81), ["text"] = "Assassin", ["name"] = "Assassin"},
         ["tank"] = {["name"] = "Tank", ["text"] = "Tank"},
         ["ranked_only"] = {["name"] = "Ranked Only", ["text"] = "Ranked Only"},
-        ["cat_face"] = {["text"] = ":3"},
         ["mask_emoji"] = {["name"] = "Mask Emoji", ["text"] = "🎭"},
+        ["rawr"] = {["name"] = "RAWR", ["text"] = "RAWR"},
         ["alchemist"] = {["name"] = "Alchemist", ["text"] = "Alchemist"},
         ["ZEPHYR"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
@@ -459,25 +470,37 @@ data = {
             ["stroke"] = {["color"] = Color3.fromRGB(56, 56, 56)},
             ["font"] = Enum.Font.Gotham
         },
-        ["halo_emoji"] = {["name"] = "Halo Emoji", ["text"] = "😇"},
-        ["festive"] = {
-            ["name"] = "Festive",
-            ["text"] = [[<font color="rgb(220,20,60)">Fe</font><font color="rgb(34,139,34)">sti</font><font color="rgb(255,215,0)">ve</font> 🎄☃️❄️]]
-        },
         ["flow"] = {
             ["text"] = "FLOW",
             ["name"] = "Flow",
             ["effects"] = {["rgb"] = {Color3.fromRGB(87, 181, 255), Color3.fromRGB(34, 52, 174)}}
         },
+        ["cat_face"] = {["text"] = ":3"},
         ["beach_emoji"] = {["text"] = "🏖️"},
+        ["you_fr"] = {["text"] = "You fr?"},
+        ["grim_reaper"] = {["color"] = Color3.fromRGB(43, 28, 71), ["text"] = "Grim Reaper", ["name"] = "Grim Reaper"},
+        ["halo_emoji"] = {["name"] = "Halo Emoji", ["text"] = "😇"},
+        ["festive"] = {
+            ["name"] = "Festive",
+            ["text"] = [[<font color="rgb(220,20,60)">Fe</font><font color="rgb(34,139,34)">sti</font><font color="rgb(255,215,0)">ve</font> 🎄☃️❄️]]
+        },
+        ["skywars_main"] = {["text"] = "Skywars Main"},
+        ["three_year_anniversary"] = {
+            ["name"] = "Three Year Anniversary",
+            ["text"] = [[<stroke color="rgb(255,255,255)" thickness="1"><font color="rgb(110,171,255)">🎉 THREE YEAR ANNIVERSARY 🎉</font></stroke>]]
+        },
         ["warlock_slayer"] = {
             ["name"] = "Warlock Slayer",
             ["text"] = [[<font color="rgb(5,255,26)">Warlock Slayer</font>]]
         },
         ["who_let_em_cook"] = {["name"] = "Who let em cook", ["text"] = "Who let em cook"},
-        ["you_fr"] = {["text"] = "You fr?"},
-        ["grim_reaper"] = {["color"] = Color3.fromRGB(43, 28, 71), ["text"] = "Grim Reaper", ["name"] = "Grim Reaper"},
-        ["skywars_main"] = {["text"] = "Skywars Main"},
+        ["featured_map_creator"] = {
+            ["text"] = "⭐ Featured Map Creator ⭐",
+            ["name"] = "Featured Map Creator",
+            ["effects"] = {["rgb"] = {Color3.fromRGB(252, 179, 43), Color3.fromRGB(255, 212, 56)}}
+        },
+        ["lil_bro"] = {["name"] = "Lil Bro", ["text"] = "Lil Bro"},
+        ["pyromaniac"] = {["name"] = "Pyromaniac", ["text"] = "Pyromaniac"},
         ["farmer"] = {["text"] = "Farmer"},
         ["rank_s4_bronze"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
@@ -487,25 +510,13 @@ data = {
             ["text"] = "Bronze (Season 4)"
         },
         ["generator"] = {["text"] = "Generator"},
-        ["three_year_anniversary"] = {
-            ["name"] = "Three Year Anniversary",
-            ["text"] = [[<stroke color="rgb(255,255,255)" thickness="1"><font color="rgb(110,171,255)">🎉 THREE YEAR ANNIVERSARY 🎉</font></stroke>]]
-        },
-        ["featured_map_creator"] = {
-            ["text"] = "⭐ Featured Map Creator ⭐",
-            ["name"] = "Featured Map Creator",
-            ["effects"] = {["rgb"] = {Color3.fromRGB(252, 179, 43), Color3.fromRGB(255, 212, 56)}}
-        },
-        ["lil_bro"] = {["name"] = "Lil Bro", ["text"] = "Lil Bro"},
-        ["pyromaniac"] = {["name"] = "Pyromaniac", ["text"] = "Pyromaniac"},
-        ["camper"] = {["text"] = "Camper"},
         ["oracle"] = {["name"] = "Oracle", ["text"] = "Oracle"},
-        ["smile"] = {["text"] = ":)"},
         ["immortal"] = {["color"] = Color3.fromRGB(163, 28, 0), ["text"] = "Immortal", ["name"] = "Immortal"},
         ["godly"] = {["color"] = Color3.fromRGB(255, 230, 3), ["text"] = "Godly", ["name"] = "Godly"},
         ["blessed"] = {["name"] = "Blessed", ["text"] = "Blessed"},
+        ["camper"] = {["text"] = "Camper"},
         ["sailor"] = {["text"] = "Sailor"},
-        ["dodo"] = {["text"] = "Dodo"},
+        ["smile"] = {["text"] = ":)"},
         ["eggtrordinary"] = {
             ["name"] = "EGGSTRAORDINARY",
             ["text"] = [[<stroke color="rgb(255,255,255)" thickness="3"><font color="rgb(255,184,82)">🥚 EGGSTRAORDINARY</font></stroke>]]
@@ -514,11 +525,31 @@ data = {
             ["name"] = "🥚 Egg Hunt 2024 🐇",
             ["text"] = [[<stroke color="rgb(36,36,36)" thickness="2"><font>Egg Hunt 2024</font></stroke>]]
         },
+        ["red_envelope"] = {["name"] = "Red Envelope Emoji", ["text"] = "🧧"},
+        ["rank_s6_gold"] = {
+            ["fontWeight"] = Enum.FontWeight.Bold,
+            ["font"] = Enum.Font.Roboto,
+            ["name"] = "Ranked Season 6 Gold",
+            ["color"] = Color3.fromRGB(253, 228, 0),
+            ["text"] = "Gold (Season 6)"
+        },
+        ["dodo"] = {["text"] = "Dodo"},
+        ["lunar_new_year_2024"] = {
+            ["name"] = "Lunar New Year 2024",
+            ["text"] = [[<font color="rgb(255,61,61)">Lunar New Year 2024</font>]]
+        },
+        ["rank_s7_silver"] = {
+            ["fontWeight"] = Enum.FontWeight.Bold,
+            ["font"] = Enum.Font.Roboto,
+            ["name"] = "Ranked Season 7 Silver",
+            ["color"] = Color3.fromRGB(207, 207, 207),
+            ["text"] = "Silver (Season 7)"
+        },
         ["mic_check"] = {["text"] = "Mic Check"},
         ["trade_offer"] = {["text"] = "⚠️ Trade Offer ⚠️"},
         ["skull_emoji"] = {["name"] = "Skull Emoji", ["text"] = "💀"},
         ["anti_bow_spammer"] = {["text"] = "Anti Bow Spammer"},
-        ["red_envelope"] = {["name"] = "Red Envelope Emoji", ["text"] = "🧧"},
+        ["present_emoji"] = {["name"] = "Present Emoji", ["text"] = "🎁"},
         ["rank_s9_diamond"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
             ["font"] = Enum.Font.Roboto,
@@ -533,17 +564,8 @@ data = {
             ["color"] = Color3.fromRGB(0, 253, 192),
             ["text"] = "Platinum (BETA Season)"
         },
-        ["rank_s6_gold"] = {
-            ["fontWeight"] = Enum.FontWeight.Bold,
-            ["font"] = Enum.Font.Roboto,
-            ["name"] = "Ranked Season 6 Gold",
-            ["color"] = Color3.fromRGB(253, 228, 0),
-            ["text"] = "Gold (Season 6)"
-        },
-        ["lunar_new_year_2024"] = {
-            ["name"] = "Lunar New Year 2024",
-            ["text"] = [[<font color="rgb(255,61,61)">Lunar New Year 2024</font>]]
-        },
+        ["new_years_2024"] = {["color"] = Color3.fromRGB(254, 171, 0), ["text"] = "2024", ["name"] = "2024"},
+        ["inventor"] = {["name"] = "Inventor", ["text"] = "Inventor"},
         ["rank_s8_gold"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
             ["font"] = Enum.Font.Roboto,
@@ -558,16 +580,7 @@ data = {
             ["color"] = Color3.fromRGB(53, 243, 255),
             ["text"] = "Diamond (Season 8)"
         },
-        ["rank_s7_silver"] = {
-            ["fontWeight"] = Enum.FontWeight.Bold,
-            ["font"] = Enum.Font.Roboto,
-            ["name"] = "Ranked Season 7 Silver",
-            ["color"] = Color3.fromRGB(207, 207, 207),
-            ["text"] = "Silver (Season 7)"
-        },
-        ["present_emoji"] = {["name"] = "Present Emoji", ["text"] = "🎁"},
-        ["rabbit"] = {["text"] = "Rabbit"},
-        ["new_years_2024"] = {["color"] = Color3.fromRGB(254, 171, 0), ["text"] = "2024", ["name"] = "2024"},
+        ["sniper"] = {["text"] = "Sniper"},
         ["lit_rgb"] = {
             ["text"] = "LIT",
             ["name"] = "Epilogue: RGB LIT",
@@ -580,7 +593,10 @@ data = {
                 }
             }
         },
-        ["sniper"] = {["text"] = "Sniper"},
+        ["rabbit"] = {["text"] = "Rabbit"},
+        ["lit"] = {["name"] = "LIT", ["text"] = "LIT"},
+        ["cat_emoji"] = {["name"] = "🐱", ["text"] = "🐱"},
+        ["genius"] = {["name"] = "Genius", ["text"] = "Genius"},
         ["rank_s7_gold"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
             ["font"] = Enum.Font.Roboto,
@@ -589,17 +605,17 @@ data = {
             ["text"] = "Gold (Season 7)"
         },
         ["chef"] = {["name"] = "Chef", ["text"] = "Chef"},
-        ["lit"] = {["name"] = "LIT", ["text"] = "LIT"},
-        ["cat_emoji"] = {["name"] = "🐱", ["text"] = "🐱"},
+        ["slime_tamer"] = {["name"] = "Slime Tamer", ["text"] = "Slime Tamer"},
+        ["mid"] = {["text"] = "Mid"},
         ["cutie"] = {["text"] = "⚔️"},
         ["arrow_magnet"] = {["text"] = "Arrow Magnet"},
         ["specialist"] = {["text"] = "Specialist"},
         ["explosives_expert"] = {["text"] = "Explosives Expert"},
         ["juggernaut"] = {["text"] = "JUGGERNAUT"},
-        ["genius"] = {["name"] = "Genius", ["text"] = "Genius"},
-        ["inventor"] = {["name"] = "Inventor", ["text"] = "Inventor"},
-        ["slime_tamer"] = {["name"] = "Slime Tamer", ["text"] = "Slime Tamer"},
-        ["mid"] = {["text"] = "Mid"},
+        ["spider_squasher"] = {["name"] = "Monster", ["text"] = [[<font color="rgb(122,10,23)">Spider Squasher</font>]]},
+        ["scary"] = {["name"] = "Monster", ["text"] = [[<font color="rgb(0,222,41)">Scary</font>]]},
+        ["arachnid"] = {["name"] = "Monster", ["text"] = [[<font color="rgb(61,10,148)">Arachnid</font>]]},
+        ["dragon_emoji"] = {["text"] = "🐲"},
         ["dedicated"] = {["text"] = "Dedicated"},
         ["rank_beta_nightmare"] = {
             ["fontWeight"] = Enum.FontWeight.Bold,
@@ -724,7 +740,7 @@ data = {
         },
         ["crown_emoji"] = {["text"] = "👑"},
         ["lone_wolf"] = {["text"] = "Lone Wolf"},
-        ["dragon_emoji"] = {["text"] = "🐲"},
+        ["monster"] = {["name"] = "Monster", ["text"] = [[<font color="rgb(214,15,227)">Monster</font>]]},
         ["bed_breaker"] = {["text"] = "Bed Breaker"},
         ["dragon"] = {["color"] = Color3.fromRGB(255, 148, 71), ["text"] = "Dragon"},
         ["super_star"] = {["text"] = "Super Star"},
