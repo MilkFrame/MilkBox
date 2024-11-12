@@ -1,18 +1,18 @@
 data = {
     ["BedwarsBPKits"] = {
-        ["season5"] = {"merchant", "star_collector", "wind_walker", "battery", "dino_tamer", "pinata"},
+        ["season5"] = {"merchant", "star_collector", "wind_walker", "dino_tamer", "battery", "pinata"},
         ["season6"] = {"paladin", "mage", "dragon_slayer", "jailor", "void_dragon"},
-        ["season9"] = {"block_kicker", "cat", "ninja", "steam_engineer", "slime_tamer"},
+        ["season9"] = {"steam_engineer", "ninja", "cat", "block_kicker", "slime_tamer"},
         ["season10"] = {"styx", "tinker", "nyoka", "agni", "falconer"},
-        ["season7"] = {"queen_bee", "blood_assassin", "drill", "hatter"},
+        ["season7"] = {"hatter", "queen_bee", "blood_assassin", "drill"},
         ["season8"] = {"ignis", "elektra", "card"},
-        ["season3"] = {"yeti", "santa", "frosty", "gingerbread_man", "smoke", "aery"},
+        ["season3"] = {"yeti", "frosty", "smoke", "gingerbread_man", "santa", "aery"},
         ["season2"] = {"ghost_catcher", "oil_man", "trapper", "spearman", "fisherman"},
         ["season11"] = {},
         ["season4"] = {"metal_detector", "alchemist", "vesta", "beast", "sheep_herder", "midnight"},
         ["season1"] = {"raven", "bounty_hunter", "warrior", "spirit_catcher", "pyro", "jade", "beekeeper"}
     },
-    ["getBedwarsKitMeta"] = "function: 0x5a003bd2f37c831c",
+    ["getBedwarsKitMeta"] = "function: 0x7af04fe323eba5ea",
     ["BedwarsKitMeta"] = {
         ["flower_bee"] = {
             ["forgeGearSubstitutes"] = {
@@ -24,7 +24,7 @@ data = {
             ["name"] = "Lyla",
             ["bedCoinProduct"] = {["bedCoinProductId"] = 27, ["priceBedCoins"] = 10000},
             ["gamepassId"] = 169772861,
-            ["renderImage"] = "rbxassetid://13279871191",
+            ["renderImage"] = "rbxassetid://101569742252812",
             ["kitClass"] = 7,
             ["description"] = "Your bow is replaced with the Floral Bow! Shooting an enemy twice will bloom a flower on their head, attracting a swarm of bees!"
         },
@@ -62,17 +62,14 @@ data = {
             ["renderImage"] = "rbxassetid://11104063651",
             ["description"] = "🧟‍♂️",
             ["disableInLobby"] = true,
-            ["kitClass"] = 0,
             ["hiddenInShop"] = true
         },
-        ["santa"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Santa",
-            ["kitClass"] = 4,
-            ["renderImage"] = "rbxassetid://9166206101",
-            ["description"] = "Play as Santa and call in high-explosive sleigh strafe runs!",
-            ["battlepassSeason"] = "season3",
-            ["previewItems"] = {"santa_bomb"}
+        ["infected_prowler"] = {
+            ["name"] = "Infected Prowler",
+            ["renderImage"] = "rbxassetid://11104063651",
+            ["description"] = "🧟‍♂️",
+            ["disableInLobby"] = true,
+            ["hiddenInShop"] = true
         },
         ["raven"] = {
             ["unlockedInBattlePass"] = true,
@@ -142,7 +139,6 @@ data = {
             ["renderImage"] = "rbxassetid://11527394782",
             ["description"] = "👑🧟",
             ["disableInLobby"] = true,
-            ["kitClass"] = 0,
             ["hiddenInShop"] = true
         },
         ["none"] = {
@@ -176,6 +172,25 @@ data = {
             ["battlepassSeason"] = "season5",
             ["description"] = "Pick up floating stars around the map. Consume them while near teammates to share permanent Max Health and Critical Strike chance!"
         },
+        ["spider_queen"] = {
+            ["description"] = "The Spider Queen uses web bridges to traverse the map and can summon spiderlings from her webs to attack enemies. Enemies are slowed if they run into her webs.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 39, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Arachne",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 952119163,
+            ["kitClass"] = 3,
+            ["renderImage"] = "rbxassetid://95237509752482"
+        },
+        ["hatter"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Umbra",
+            ["battlepassSeason"] = "season7",
+            ["renderImage"] = "rbxassetid://12509388633",
+            ["kitClass"] = 6,
+            ["description"] = "Toss a hat onto other players to gain the ability to teleport to them from anywhere on the map. Ally players near the target destination are given boosted movement speed and several seconds of invulnerability while enemy players are knocked back and briefly slowed."
+        },
         ["ghost_catcher"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Gompy",
@@ -185,12 +200,16 @@ data = {
             ["battlepassSeason"] = "season2",
             ["previewItems"] = {}
         },
-        ["owl"] = {
-            ["notGiftable"] = true,
-            ["name"] = "Whisper",
-            ["renderImage"] = "rbxassetid://12509401147",
-            ["kitClass"] = 6,
-            ["description"] = "Control a Spirit Owl to support ally players. Unlocked at Player Level 10."
+        ["sorcerer"] = {
+            ["description"] = "Charge up explosive comets to rain destruction on your enemy's base. Collect alchemy crystals to unlock even stronger abilities!",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 35, ["priceBedCoins"] = 12000},
+            ["featured"] = true,
+            ["priceRobux"] = 479,
+            ["name"] = "Death Adder",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 893960773,
+            ["kitClass"] = 4,
+            ["renderImage"] = "rbxassetid://97940108361528"
         },
         ["rebellion_leader"] = {
             ["description"] = "The leader of the citizens’ rebellion, who encourages and buffs his allies with healing and damage auras!",
@@ -198,6 +217,32 @@ data = {
             ["featured"] = true,
             ["priceRobux"] = 479,
             ["name"] = "Silas",
+            ["lore"] = {
+                ["subtitle"] = "Last Stand",
+                ["storyTitle"] = "The Weight of Honor",
+                ["story"] = [[    Dragging his feet on the dirt road, Silas walks home from the Royal Guard’s command office located in the castle's west wing. Frown lines adorn his forehead as beads of sweat glint in the harsh sun. He reaches to touch his sword, a habit of comfort, but his hand grazes over the empty sheath. Silas looks down at his waist belt and sighs.
+	The seed of doubt regarding his decision to quit starts to creep into his mind like a persistent weed in a well-tended garden. He shakes his head in an attempt to eliminate the doubt. Silas has never been a quitter. He served his nation on the battlefield before serving his king in the capital. He is a celebrated knight adorned with medals for his bravery. Silas has known only a life of service, but recent political unrest has forced him to reevaluate his moral position.
+	Silas is zapped out of his plight when something bumps into his legs. Startled by the impact, He looks down and finds a young boy dressed in rags holding onto a small piece of bread.
+	Silas bends down to the youngling’s level and asks, “Are you okay?” Behind the kid, he notices a red-faced, middle-aged man dressed in a dirty apron marching towards them.
+    “Oh, thank God, Officer Blackwater, you caught him. This filth was trying to steal from me,” the man exclaims.
+	The kid tries to take off, but the Baker quickly grabs his collar and drags him back. Shakily, the kid mumbles, “I am so sorry,” as he tries to free his collar from Baker's grip. Stunned, Silas gets up.
+    “You’re not going anywhere,” Baker declares. He looks at Silas and asks, “Are you not going to arrest him?”
+    Silas looks at the boy, who looks no older than thirteen and has a thin, almost skeletal frame. Dirt caked all over the kid’s face and bare feet.
+    “You want me to arrest him for that?” Silas points at the small piece of bread in the boy's hand as he tries to reason with the angry baker, who scoffs before responding, “The people are starving. Haven’t these guild rats taken enough from us?”
+    The commotion has slowly started to attract a small crowd of anti-guild supporters. A random voice shouts, “Arrest him!” as a few others chime in, angry and ready to claim justice.
+    Silas is overwhelmed by the situation because he lacks the authority he once had. Another group gathers in the support of the boy. Tension rises as the two groups start throwing insults at each other.
+    Further down the street, a couple of guards notice the crowd and start walking towards them. Panic sets in as Silas scrambles to get the crowd’s attention.
+    “Hey! Hey! My name is Silas Blackwater. As many of you know, I served in the Royal Guard for over a decade,” he shouts to get the crowd’s attention.
+    He keeps the volume of his voice up, continuing, “I know things have been hard in the last couple of weeks, with the trade ban affecting our business and causing a food shortage. The guild is to blame for their role in this disaster, but so is our king for not anticipating what a ban like this could do to his citizens.” The crowd seems to have settled down.
+    “The guild and the king have been using us as pawns in their power struggle, claiming that their actions are for our well-being, but instead, they have pitted us against each other while we all starve,” Silas exhales.
+    The guards seem to be getting closer and closer. Silas takes a deep breath to calm his nerves before he speaks again, “This boy here is just a child, a victim like the rest of us. All he is trying to do is survive, and yes, what he did is wrong, but he is not to blame for the poverty that has plagued our city for so long. He is not to blame for the rampant crime that this poverty has brought with it and those who take advantage of our desperate needs.”
+    Silas’s eyes search the crowd in the hope of seeing expressions of agreement as he continues to rally the crowd, “Now is the time! Now is the time for us to stand up for ourselves. To leave our grievances behind, and focus on our mutual goal of securing a better future for ourselves and our future generations. We must stand up! Stand up together!”
+    The crowd start cheering and chatting with Silas’s name. The doubt that afflicted his mind vanishes. Silas looks towards the boy, who smiles at him with tears brimming in his eyes. Silas tries to open his mouth to say something, but the guards have now circled him.
+    He does not protest; he willingly lets them put him in handcuffs. The crowd starts to protest. Silas tries to scream at the crowd to calm them down, but his voice seems to fall on deaf ears. More guards have already been summoned. They push the crowd out of the way and drag Silas away.]],
+                ["author"] = "Grishma",
+                ["backgroundImage"] = "rbxassetid://133851147493884",
+                ["disableKitImage"] = true
+            },
             ["gamepassId"] = 893892894,
             ["disableKitRenting"] = true,
             ["kitClass"] = 6,
@@ -221,16 +266,20 @@ data = {
             ["kitClass"] = 6,
             ["description"] = "Use your pet axolotls to empower yourself and nearby teammates with shields, increased attack damage, faster break speed, and health regen."
         },
-        ["sorcerer"] = {
-            ["description"] = "Charge up explosive comets to rain destruction on your enemy's base. Collect alchemy crystals to unlock even stronger abilities!",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 35, ["priceBedCoins"] = 12000},
+        ["nazar"] = {
+            ["description"] = "Give up out-of-combat health regeneration to manipulate your life force and empower your attacks or heal. Gain life force by landing shots with life arrows and attacking.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 33, ["priceBedCoins"] = 12000},
             ["featured"] = true,
             ["priceRobux"] = 479,
-            ["name"] = "Death Adder",
+            ["name"] = "Nazar",
             ["disableKitRenting"] = true,
-            ["gamepassId"] = 893960773,
-            ["kitClass"] = 4,
-            ["renderImage"] = "rbxassetid://97940108361528"
+            ["gamepassId"] = 893913917,
+            ["abilities"] = {
+                {["innate"] = true, ["abilityId"] = "consume_life_foce"},
+                {["innate"] = true, ["abilityId"] = "enable_life_force_attack"}
+            },
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://18926951849"
         },
         ["barbarian"] = {
             ["description"] = "Build rage by damaging enemies. Instead of buying swords, your sword is upgraded upon reaching max rage. You lose half your rage upon death. Emerald Sword is replaced by the Rageblade.",
@@ -298,20 +347,56 @@ data = {
             ["kitClass"] = 0,
             ["previewItems"] = {"rageblade"}
         },
-        ["nazar"] = {
-            ["description"] = "Give up out-of-combat health regeneration to manipulate your life force and empower your attacks or heal. Gain life force by landing shots with life arrows and attacking.",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 33, ["priceBedCoins"] = 12000},
+        ["black_market_trader"] = {
+            ["description"] = "Summon a secret black market offering powerful potions and random deals. Earn a cut from every sale, and use shadow coins gathered from fallen players to upgrade your shop.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 34, ["priceBedCoins"] = 12000},
             ["featured"] = true,
-            ["priceRobux"] = 479,
-            ["name"] = "Nazar",
-            ["disableKitRenting"] = true,
-            ["gamepassId"] = 893913917,
-            ["abilities"] = {
-                {["innate"] = true, ["abilityId"] = "consume_life_foce"},
-                {["innate"] = true, ["abilityId"] = "enable_life_force_attack"}
+            ["lore"] = {
+                ["subtitle"] = "In the Shadows",
+                ["storyTitle"] = "Crystal Gold",
+                ["story"] = [[    I sit around a small yet intricate oval table with a few high-ranking guild members. In front of us are piles of paper indicating the financial losses endured by the guild’s various businesses. I shift in my seat, uncomfortable from the stress radiating from every direction. The somber mood of the room is multiplied by the absence of natural light and the room's dark, depressing decor. It has been two weeks, three days, and 13 hours since we have been held here, waiting to be free.
+    Most of the guild’s operations are on pause due to the king’s decision to place a strict curfew on citizens and a ban on alchemy throughout the Kingdom. To maintain these new laws, the King has also increased the presence of Royal Guards around the city, especially around the cave and the crystal storage room. Although the rumors of the King’s paranoia are speculative, his suspicion regarding the theft of the crystals is true. The guild uses these crystals not only to amplify magic but also as a source of fuel for advanced machinery. The crystals can take a mediocre alchemist and turn him into a God. 
+	A senior guild member, Nazar, the Queenpin’s favorite soldier, is trusted to get past these restrictions and acquire the crystals. His expertise is monitoring and managing all the city's criminal activities and the guild’s lower-ranking members. On the other hand, I am responsible for the guild’s trading ventures and maintaining business relationships with other criminal syndicates around the continent. However, my talents have not gained me the favor of the Queenpin, as has Nazar’s.
+    The restriction on trading put forth by the King has partially crippled my operations enough to cause significant losses. My clientele has also been growing impatient as I have been unable to fulfill orders without being caught by the guards. In a desperate move, I contacted one of my clients, hoping their vested interest in the Kingdom’s resources might work in the guild’s favor.      
+	The room suddenly goes quiet as Death Adder, our leader, walks in and takes her seat. “What’s the progress?” She speaks in a cold, chilling voice that sends shivers down my spine. I look towards Nazar and notice his frown lines deepen.
+    He gets up from his seat and clears his throat. His voice quivers, “In the last two weeks, we have attempted to raid the cave and storage area more than a dozen times.”
+    “And?” the Queenpin impatiently asks.
+    Nazar hesitantly continues, “They’ve been monitoring our every move. It has been impossible to shake them off.”
+    Silence.
+    The Queenpin turns to look at Nazar, and her eyes start glowing bright purple as she asks, “So, you have failed?”
+    Nazar takes a step back as the stench of fear fills the room.
+    Adder gets up from her seat, and purple mist floats around her hands. Nazar takes another step back as he stumbles on the chair behind him.
+    ‘How the mighty have fallen?’ I think to myself, and as much entertaining as it is to watch Nazar squirm for longer, I realize this is my opportunity to seize the moment.
+    “If I may?” I ask the Queenpin, disrupting her concentration on her mana. She looks at me, nods in acknowledgment, and sits back on her chair.
+    I walk closer and place my ledger in front of her. The book details the fiscal losses the trade has faced since the ban and our clientele list.
+    “Are you trying to rub our failures in my face, Wren?” Death Adder asks.
+    Treading lightly, I responded, “No, in fact, I think I have a solution. As you can see, our biggest client for the past couple of years has been the Pirate Queen.”
+    “And?” she exclaims.
+    “She has shown interest in helping us raid the storage area,” I explain as I pass her the letter discussing the offer.
+    I continue, “The pirates have the numbers to distract the guards while we help secure the crystals. The King may suspect us, but he is not expecting an invasion from the outside.”
+    Death Adder chuckles and asks, “What does Pirate Queen gain in return?”
+    “Double the share of the crystals promised to her in trade,” I respond while pointing it out on the letter, hoping the demand isn’t too high for Adder's taste.
+    “An unlikely ally with a very high price,” She pauses and looks at me, “But who is to say she won’t betray us?”
+    I clear my throat, “I believe that the pirates have found a way to use the crystals to fuel their ships. The crystal's magic allows the ships to fly; lucky for us, our island is the only place one can find these. I also believe that she has a personal grudge against the King, although my sources could not confirm the origin of her resentment.”
+    I bite my lip impatiently, waiting for Adder to respond, who seems to be inspecting the letter with a keen eye.
+    “Interesting. Find out what this feud is. We just may find something to turn the tide in our favor, and in the meantime, Nazar, see to it that Wren has everything he needs to execute this plan,” she proclaims as she gets up and walks towards the door.
+    I sigh at the sight, but my relief is short-lived as Adder turns around to look at me with her glowing eyes. My heart sinks as she speaks, “Oh, and well done, Wren! Just make sure not to disappoint me. I do not like to fail; in fact, I despise it.”
+    I nod in response as my throat starts to dry up. Adder walks out of the room, slamming the door behind her. My being fills up with relief and dread at the same time. I fall back onto my seat, trying to control my breathing.
+    Slowly but surely, the thick cloud of despair in the room lifts. I look towards Nazar, who sighs deeply before questioning, “So, how do you want to go about this?”]],
+                ["author"] = "Grishma",
+                ["backgroundImage"] = "rbxassetid://101546011466562",
+                ["disableKitImage"] = true
             },
-            ["kitClass"] = 0,
-            ["renderImage"] = "rbxassetid://18926951849"
+            ["priceRobux"] = 479,
+            ["name"] = "Wren",
+            ["disableKitRenting"] = true,
+            ["gamepassId"] = 893911891,
+            ["abilities"] = {
+                {["innate"] = true, ["abilityId"] = "open_black_market"},
+                {["abilityId"] = "close_black_market"}
+            },
+            ["kitClass"] = 5,
+            ["renderImage"] = "rbxassetid://18922642482"
         },
         ["hannah"] = {
             ["unlockedInBattlePass"] = false,
@@ -349,21 +434,6 @@ data = {
             ["renderImage"] = "rbxassetid://9155463708",
             ["kitClass"] = 2,
             ["previewItems"] = {"hammer"}
-        },
-        ["black_market_trader"] = {
-            ["description"] = "Summon a secret black market offering powerful potions and random deals. Earn a cut from every sale, and use shadow coins gathered from fallen players to upgrade your shop.",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 34, ["priceBedCoins"] = 12000},
-            ["featured"] = true,
-            ["priceRobux"] = 479,
-            ["name"] = "Wren",
-            ["disableKitRenting"] = true,
-            ["gamepassId"] = 893911891,
-            ["abilities"] = {
-                {["innate"] = true, ["abilityId"] = "open_black_market"},
-                {["abilityId"] = "close_black_market"}
-            },
-            ["kitClass"] = 5,
-            ["renderImage"] = "rbxassetid://18922642482"
         },
         ["jellyfish"] = {
             ["priceRobux"] = 399,
@@ -407,6 +477,14 @@ data = {
             ["kitClass"] = 3,
             ["description"] = "Connect your Confluence portal to a slain enemy to teleport you and your allies to their location."
         },
+        ["tinker"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Hephaestus",
+            ["battlepassSeason"] = "season10",
+            ["renderImage"] = "rbxassetid://17025762404",
+            ["kitClass"] = 1,
+            ["description"] = "Upgrade your Talos Mech to increase your shield and damage! Activate Self-Destruct to deal massive damage."
+        },
         ["archer"] = {
             ["description"] = "Deal 20% more projectile damage and gain access to the Tactical Crossbow in the Item Shop.",
             ["bedCoinProduct"] = {["bedCoinProductId"] = 6, ["priceBedCoins"] = 10000},
@@ -435,13 +513,14 @@ data = {
             ["kitClass"] = 3,
             ["description"] = "Use explosive beehives to deal high damage to enemies or throw them at yourself for a massive launch."
         },
-        ["tinker"] = {
+        ["nyoka"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Hephaestus",
+            ["name"] = "Nyoka",
             ["battlepassSeason"] = "season10",
-            ["renderImage"] = "rbxassetid://17025762404",
-            ["kitClass"] = 1,
-            ["description"] = "Upgrade your Talos Mech to increase your shield and damage! Activate Self-Destruct to deal massive damage."
+            ["description"] = "Charge your Mending Canopy to shine healing light on your allies.",
+            ["renderImage"] = "rbxassetid://17022941410",
+            ["kitClass"] = 6,
+            ["previewItems"] = {"mending_canopy_staff_tier_3"}
         },
         ["frost_hammer_kit"] = {
             ["forgeGearSubstitutes"] = {["wood_sword"] = "frosty_hammer"},
@@ -452,25 +531,6 @@ data = {
             ["renderImage"] = "rbxassetid://11838567073",
             ["kitClass"] = 0,
             ["description"] = "Start with a powerful Frost Hammer. Damaging people using the hammer has a chance to drop Frost Crystals which can be used to upgrade your hammer."
-        },
-        ["nyoka"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Nyoka",
-            ["battlepassSeason"] = "season10",
-            ["description"] = "Charge your Mending Canopy to shine healing light on your allies.",
-            ["renderImage"] = "rbxassetid://17022941410",
-            ["kitClass"] = 6,
-            ["previewItems"] = {"mending_canopy_staff_tier_3"}
-        },
-        ["vulcan"] = {
-            ["description"] = "Use a high-tech tablet to control camera turrets across the map.",
-            ["priceRobux"] = 399,
-            ["gamepassId"] = 21421966,
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 14, ["priceBedCoins"] = 10000},
-            ["name"] = "Vulcan",
-            ["renderImage"] = "rbxassetid://9155465543",
-            ["kitClass"] = 2,
-            ["previewItems"] = {"tablet"}
         },
         ["agni"] = {
             ["unlockedInBattlePass"] = true,
@@ -495,6 +555,24 @@ data = {
             ["renderImage"] = "rbxassetid://17024640133",
             ["kitClass"] = 0,
             ["description"] = "Throw cluster bombs at your enemies and watch them go flying! Blast off with your Rocket Boost ability."
+        },
+        ["vulcan"] = {
+            ["description"] = "Use a high-tech tablet to control camera turrets across the map.",
+            ["priceRobux"] = 399,
+            ["gamepassId"] = 21421966,
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 14, ["priceBedCoins"] = 10000},
+            ["name"] = "Vulcan",
+            ["renderImage"] = "rbxassetid://9155465543",
+            ["kitClass"] = 2,
+            ["previewItems"] = {"tablet"}
+        },
+        ["steam_engineer"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Cogsworth",
+            ["battlepassSeason"] = "season9",
+            ["renderImage"] = "rbxassetid://15380413567",
+            ["kitClass"] = 5,
+            ["description"] = "Deploy robots that search for generators and collect resources!"
         },
         ["regent"] = {
             ["notGiftable"] = true,
@@ -556,13 +634,13 @@ data = {
             ["kitClass"] = 0,
             ["description"] = "Fulfill assassination contracts to empower your attacks with a deadly decay."
         },
-        ["block_kicker"] = {
+        ["ninja"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Terra",
+            ["name"] = "Umeko",
             ["battlepassSeason"] = "season9",
-            ["renderImage"] = "rbxassetid://15382536098",
-            ["kitClass"] = 0,
-            ["description"] = "Stomp the ground to gather protective blocks, then kick them at your enemies. Each successful hit permanently increases kick damage!"
+            ["renderImage"] = "rbxassetid://15517037848",
+            ["kitClass"] = 7,
+            ["description"] = "Use chakrams to fight at mid-range. You can turn invisible and escape from battle if you get attacked by a melee attack."
         },
         ["alchemist"] = {
             ["unlockedInBattlePass"] = true,
@@ -590,13 +668,13 @@ data = {
             ["kitClass"] = 3,
             ["description"] = "Climb and pounce with feline dexterity! Fall damage is reduced since you always land on your feet."
         },
-        ["ninja"] = {
+        ["block_kicker"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Umeko",
+            ["name"] = "Terra",
             ["battlepassSeason"] = "season9",
-            ["renderImage"] = "rbxassetid://15517037848",
-            ["kitClass"] = 7,
-            ["description"] = "Use chakrams to fight at mid-range. You can turn invisible and escape from battle if you get attacked by a melee attack."
+            ["renderImage"] = "rbxassetid://15382536098",
+            ["kitClass"] = 0,
+            ["description"] = "Stomp the ground to gather protective blocks, then kick them at your enemies. Each successful hit permanently increases kick damage!"
         },
         ["elk_master"] = {
             ["notGiftable"] = true,
@@ -606,13 +684,13 @@ data = {
             ["kitClass"] = 3,
             ["description"] = "Summon your mount, charge at your enemies and send them flying! Cannot use weapons while riding the Elk."
         },
-        ["steam_engineer"] = {
+        ["slime_tamer"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Cogsworth",
+            ["name"] = "Noelle",
             ["battlepassSeason"] = "season9",
-            ["renderImage"] = "rbxassetid://15380413567",
-            ["kitClass"] = 5,
-            ["description"] = "Deploy robots that search for generators and collect resources!"
+            ["renderImage"] = "rbxassetid://15379766168",
+            ["kitClass"] = 6,
+            ["description"] = "Tame slimes to befriend your team, providing your teammates with unique buffs that strengthen over time!"
         },
         ["triple_shot"] = {
             ["description"] = "Supercharge your bow to perform a triple shot.",
@@ -624,13 +702,12 @@ data = {
             ["kitClass"] = 7,
             ["previewItems"] = {"feather_bow"}
         },
-        ["slime_tamer"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Noelle",
-            ["battlepassSeason"] = "season9",
-            ["renderImage"] = "rbxassetid://15379766168",
-            ["kitClass"] = 6,
-            ["description"] = "Tame slimes to befriend your team, providing your teammates with unique buffs that strengthen over time!"
+        ["infected_rush"] = {
+            ["name"] = "Infected Rush",
+            ["renderImage"] = "rbxassetid://11104063651",
+            ["description"] = "🧟‍♂️",
+            ["disableInLobby"] = true,
+            ["hiddenInShop"] = true
         },
         ["warrior"] = {
             ["unlockedInBattlePass"] = true,
@@ -640,14 +717,6 @@ data = {
             ["description"] = "Armor is slightly cheaper and you can buy powerful warrior armor.",
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {}
-        },
-        ["infected_rush"] = {
-            ["name"] = "Infected Rush",
-            ["renderImage"] = "rbxassetid://11104063651",
-            ["description"] = "🧟‍♂️",
-            ["disableInLobby"] = true,
-            ["kitClass"] = 0,
-            ["hiddenInShop"] = true
         },
         ["taliyah"] = {
             ["notGiftable"] = true,
@@ -666,31 +735,22 @@ data = {
             ["kitClass"] = 1,
             ["previewItems"] = {"infernal_shield"}
         },
-        ["dasher"] = {
-            ["description"] = "Swords are replaced by traditional Dao Swords. Hold attack to execute a forward dash AOE attack.",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 19, ["priceBedCoins"] = 10000},
-            ["forgeGearSubstitutes"] = {
-                ["wood_sword"] = "wood_dao",
-                ["iron_sword"] = "iron_dao",
-                ["diamond_sword"] = "diamond_dao",
-                ["stone_sword"] = "stone_dao",
-                ["emerald_sword"] = "emerald_dao"
-            },
-            ["priceRobux"] = 399,
-            ["name"] = "Yuzi",
-            ["gamepassId"] = 28594502,
-            ["renderImage"] = "rbxassetid://9155467645",
-            ["kitClass"] = 3,
-            ["previewItems"] = {"emerald_dao"}
+        ["smoke"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Smoke",
+            ["kitClass"] = 4,
+            ["renderImage"] = "rbxassetid://9155462247",
+            ["description"] = "A stealth-focused kit that uses smoke charges to grant invisibility.",
+            ["battlepassSeason"] = "season3",
+            ["previewItems"] = {"smoke_bomb"}
         },
-        ["cyber"] = {
-            ["priceRobux"] = 399,
-            ["name"] = "Cyber",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 21, ["priceBedCoins"] = 10000},
-            ["renderImage"] = "rbxassetid://9507126891",
-            ["gamepassId"] = 42490369,
-            ["kitClass"] = 5,
-            ["description"] = "Deploy and control drones to pick up resources from around the map. Drones can also airdrop primed TNT."
+        ["dino_tamer"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Dino Tamer Dom",
+            ["kitClass"] = 4,
+            ["renderImage"] = "rbxassetid://9872357009",
+            ["battlepassSeason"] = "season5",
+            ["description"] = "Can purchase a Dino mount. Charge into defenses to knock them down!"
         },
         ["drill"] = {
             ["unlockedInBattlePass"] = true,
@@ -699,6 +759,13 @@ data = {
             ["renderImage"] = "rbxassetid://12955100280",
             ["kitClass"] = 5,
             ["description"] = "Purchase Drills to deploy on Diamond and Emerald generators. Drills automatically harvest 2x gen resources. Control them to fight off attackers."
+        },
+        ["owl"] = {
+            ["notGiftable"] = true,
+            ["name"] = "Whisper",
+            ["renderImage"] = "rbxassetid://12509401147",
+            ["kitClass"] = 6,
+            ["description"] = "Control a Spirit Owl to support ally players. Unlocked at Player Level 10."
         },
         ["dragon_sword"] = {
             ["priceRobux"] = 399,
@@ -718,21 +785,22 @@ data = {
             ["description"] = [[Start the game with an egg on your shoulder. Get kills to hatch and evolve your Seahorse, increasing its damage and unlocking passive abilities.
 <i>(Part of the Holiday 2022 Bundle)</i>]]
         },
-        ["hatter"] = {
+        ["vesta"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Umbra",
-            ["battlepassSeason"] = "season7",
-            ["renderImage"] = "rbxassetid://12509388633",
+            ["name"] = "Conqueror",
             ["kitClass"] = 6,
-            ["description"] = "Toss a hat onto other players to gain the ability to teleport to them from anywhere on the map. Ally players near the target destination are given boosted movement speed and several seconds of invulnerability while enemy players are knocked back and briefly slowed."
+            ["renderImage"] = "rbxassetid://9568930198",
+            ["battlepassSeason"] = "season4",
+            ["description"] = "Place banners to empower nearby allies."
         },
-        ["battery"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Cobalt",
-            ["kitClass"] = 1,
-            ["renderImage"] = "rbxassetid://10159166528",
-            ["battlepassSeason"] = "season5",
-            ["description"] = "Every time you take damage you have a chance of dropping a battery on the ground. Once the battery activates you can pick it up for a small shield. After collecting 3 batteries you will overload, gaining movement speed and damage!"
+        ["disruptor"] = {
+            ["priceRobux"] = 399,
+            ["name"] = "Zenith",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 25, ["priceBedCoins"] = 10000},
+            ["gamepassId"] = 104797973,
+            ["renderImage"] = "rbxassetid://11596993583",
+            ["kitClass"] = 5,
+            ["description"] = "Deploy a satellite to disrupt enemy team economies. Enemy shop prices are increased and you get a cut of each purchase!"
         },
         ["farmer_cletus"] = {
             ["description"] = "Invest your resources into crops that yield more diamonds and emeralds.",
@@ -744,15 +812,6 @@ data = {
             ["kitClass"] = 5,
             ["previewItems"] = {"watering_can"}
         },
-        ["disruptor"] = {
-            ["priceRobux"] = 399,
-            ["name"] = "Zenith",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 25, ["priceBedCoins"] = 10000},
-            ["gamepassId"] = 104797973,
-            ["renderImage"] = "rbxassetid://11596993583",
-            ["kitClass"] = 5,
-            ["description"] = "Deploy a satellite to disrupt enemy team economies. Enemy shop prices are increased and you get a cut of each purchase!"
-        },
         ["paladin"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Lani",
@@ -760,6 +819,15 @@ data = {
             ["renderImage"] = "rbxassetid://11202785737",
             ["battlepassSeason"] = "season6",
             ["description"] = "An ascended healer, Lani can purchase the Scepter of Light. Use this Scepter to fly to your low health allies, providing healing and damage reduction!"
+        },
+        ["necromancer"] = {
+            ["priceRobux"] = 399,
+            ["name"] = "Crypt",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 24, ["priceBedCoins"] = 10000},
+            ["renderImage"] = "rbxassetid://11343458097",
+            ["gamepassId"] = 97149830,
+            ["kitClass"] = 0,
+            ["description"] = "Claim souls to build your undead army! Could be unlocked for FREE by completing Crypt's Trials during the Halloween 2022 event."
         },
         ["melody"] = {
             ["description"] = "Use a guitar and the power of music to heal nearby teammates. Heal yourself for 50% of heal given.",
@@ -771,15 +839,6 @@ data = {
             ["kitClass"] = 6,
             ["previewItems"] = {"guitar"}
         },
-        ["necromancer"] = {
-            ["priceRobux"] = 399,
-            ["name"] = "Crypt",
-            ["bedCoinProduct"] = {["bedCoinProductId"] = 24, ["priceBedCoins"] = 10000},
-            ["renderImage"] = "rbxassetid://11343458097",
-            ["gamepassId"] = 97149830,
-            ["kitClass"] = 0,
-            ["description"] = "Claim souls to build your undead army! Could be unlocked for FREE by completing Crypt's Trials during the Halloween 2022 event."
-        },
         ["spirit_catcher"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Spirit Catcher",
@@ -788,6 +847,15 @@ data = {
             ["description"] = "Purchase spirits from the Item Shop and place them around the map. Spirits will chase down and explode nearby enemies.",
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {"spirit"}
+        },
+        ["mage"] = {
+            ["unlockedInBattlePass"] = true,
+            ["name"] = "Whim",
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://10982191792",
+            ["description"] = "Master arcane secrets to unlock elemental powers! Spawn with a magic spellbook. Deal 20% reduced damage with swords and take 10% increased damage from all sources.",
+            ["battlepassSeason"] = "season6",
+            ["previewItems"] = {"mage_spellbook"}
         },
         ["pyro"] = {
             ["unlockedInBattlePass"] = true,
@@ -799,14 +867,13 @@ data = {
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {"flamethrower"}
         },
-        ["mage"] = {
+        ["dragon_slayer"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Whim",
+            ["name"] = "Kaliyah",
             ["kitClass"] = 0,
-            ["renderImage"] = "rbxassetid://10982191792",
-            ["description"] = "Master arcane secrets to unlock elemental powers! Spawn with a magic spellbook. Deal 20% reduced damage with swords and take 10% increased damage from all sources.",
+            ["renderImage"] = "rbxassetid://10982192175",
             ["battlepassSeason"] = "season6",
-            ["previewItems"] = {"mage_spellbook"}
+            ["description"] = "A fearsome warrior with a fiery punch!"
         },
         ["jade"] = {
             ["unlockedInBattlePass"] = true,
@@ -817,13 +884,13 @@ data = {
             ["battlepassSeason"] = "season1",
             ["previewItems"] = {"jade_hammer"}
         },
-        ["dragon_slayer"] = {
+        ["battery"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Kaliyah",
-            ["kitClass"] = 0,
-            ["renderImage"] = "rbxassetid://10982192175",
-            ["battlepassSeason"] = "season6",
-            ["description"] = "A fearsome warrior with a fiery punch!"
+            ["name"] = "Cobalt",
+            ["kitClass"] = 1,
+            ["renderImage"] = "rbxassetid://10159166528",
+            ["battlepassSeason"] = "season5",
+            ["description"] = "Every time you take damage you have a chance of dropping a battery on the ground. Once the battery activates you can pick it up for a small shield. After collecting 3 batteries you will overload, gaining movement speed and damage!"
         },
         ["jailor"] = {
             ["unlockedInBattlePass"] = true,
@@ -869,14 +936,6 @@ data = {
             ["battlepassSeason"] = "season3",
             ["previewItems"] = {}
         },
-        ["dino_tamer"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Dino Tamer Dom",
-            ["kitClass"] = 4,
-            ["renderImage"] = "rbxassetid://9872357009",
-            ["battlepassSeason"] = "season5",
-            ["description"] = "Can purchase a Dino mount. Charge into defenses to knock them down!"
-        },
         ["lumen"] = {
             ["notGiftable"] = true,
             ["name"] = "Lumen",
@@ -886,6 +945,15 @@ data = {
             ["hiddenInShopTillUnlocked"] = true,
             ["description"] = "Charge the Sword of Light to shoot powerful waves at enemies! Hitting light waves OR killing Ember will upgrade your ability to shoot many powerful beams at once."
         },
+        ["cyber"] = {
+            ["priceRobux"] = 399,
+            ["name"] = "Cyber",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 21, ["priceBedCoins"] = 10000},
+            ["renderImage"] = "rbxassetid://9507126891",
+            ["gamepassId"] = 42490369,
+            ["kitClass"] = 5,
+            ["description"] = "Deploy and control drones to pick up resources from around the map. Drones can also airdrop primed TNT."
+        },
         ["pinata"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Lucía",
@@ -894,13 +962,14 @@ data = {
             ["battlepassSeason"] = "season5",
             ["description"] = "Use the candy you get from damaging players to fill up your piñata. When you're ready, smash it for lots of loot!"
         },
-        ["vesta"] = {
+        ["beast"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Conqueror",
-            ["kitClass"] = 6,
-            ["renderImage"] = "rbxassetid://9568930198",
+            ["name"] = "Crocowolf",
+            ["forceSkin"] = true,
+            ["kitClass"] = 0,
+            ["renderImage"] = "rbxassetid://9155465124",
             ["battlepassSeason"] = "season4",
-            ["description"] = "Place banners to empower nearby allies."
+            ["description"] = "Losing your bed transforms you into the Crocowolf Beast and empowers your movespeed + knockback."
         },
         ["miner"] = {
             ["description"] = "Killing enemies turns them into stone. The Miner can then break down the stone for valuables resources (scaled by the price of the enemy's armor + sword). Unable to purchase Axes.",
@@ -911,15 +980,6 @@ data = {
             ["renderImage"] = "rbxassetid://9166208461",
             ["kitClass"] = 5,
             ["previewItems"] = {"miner_pickaxe"}
-        },
-        ["beast"] = {
-            ["unlockedInBattlePass"] = true,
-            ["name"] = "Crocowolf",
-            ["forceSkin"] = true,
-            ["kitClass"] = 0,
-            ["renderImage"] = "rbxassetid://9155465124",
-            ["battlepassSeason"] = "season4",
-            ["description"] = "Losing your bed transforms you into the Crocowolf Beast and empowers your movespeed + knockback."
         },
         ["sheep_herder"] = {
             ["unlockedInBattlePass"] = true,
@@ -938,6 +998,23 @@ data = {
             ["battlepassSeason"] = "season4",
             ["description"] = "Trigger the darkness of Midnight to deal ramping increased damage and armor pen."
         },
+        ["dasher"] = {
+            ["description"] = "Swords are replaced by traditional Dao Swords. Hold attack to execute a forward dash AOE attack.",
+            ["bedCoinProduct"] = {["bedCoinProductId"] = 19, ["priceBedCoins"] = 10000},
+            ["forgeGearSubstitutes"] = {
+                ["wood_sword"] = "wood_dao",
+                ["iron_sword"] = "iron_dao",
+                ["diamond_sword"] = "diamond_dao",
+                ["stone_sword"] = "stone_dao",
+                ["emerald_sword"] = "emerald_dao"
+            },
+            ["priceRobux"] = 399,
+            ["name"] = "Yuzi",
+            ["gamepassId"] = 28594502,
+            ["renderImage"] = "rbxassetid://9155467645",
+            ["kitClass"] = 3,
+            ["previewItems"] = {"emerald_dao"}
+        },
         ["spearman"] = {
             ["unlockedInBattlePass"] = true,
             ["name"] = "Ares",
@@ -955,14 +1032,14 @@ data = {
             ["kitClass"] = 3,
             ["description"] = "Dash through players to deal electric damage! Hold up to two stacks of dashes and regain all stacks if you kill an enemy with your dash."
         },
-        ["smoke"] = {
+        ["santa"] = {
             ["unlockedInBattlePass"] = true,
-            ["name"] = "Smoke",
+            ["name"] = "Santa",
             ["kitClass"] = 4,
-            ["renderImage"] = "rbxassetid://9155462247",
-            ["description"] = "A stealth-focused kit that uses smoke charges to grant invisibility.",
+            ["renderImage"] = "rbxassetid://9166206101",
+            ["description"] = "Play as Santa and call in high-explosive sleigh strafe runs!",
             ["battlepassSeason"] = "season3",
-            ["previewItems"] = {"smoke_bomb"}
+            ["previewItems"] = {"santa_bomb"}
         },
         ["grim_reaper"] = {
             ["description"] = "Consuming enemy souls grants health regen, movespeed, and invulnerability for 2.5s. Combat is disabled while consuming.",
@@ -1010,7 +1087,6 @@ data = {
             ["renderImage"] = "rbxassetid://11104063651",
             ["description"] = "🧟‍♂️",
             ["disableInLobby"] = true,
-            ["kitClass"] = 0,
             ["hiddenInShop"] = true
         },
         ["aery"] = {
@@ -1035,7 +1111,6 @@ data = {
             ["renderImage"] = "rbxassetid://11104063651",
             ["description"] = "🧟‍♂️",
             ["disableInLobby"] = true,
-            ["kitClass"] = 0,
             ["hiddenInShop"] = true
         },
         ["card"] = {
