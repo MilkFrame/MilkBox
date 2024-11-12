@@ -1,0 +1,53 @@
+data = {
+    ["EnchantButton"] = {
+        ["buttonColor"] = Color3.fromRGB(255, 151, 92),
+        ["currency"] = "emerald",
+        ["name"] = "ENCHANT",
+        ["price"] = 2,
+        ["textColor"] = Color3.fromRGB(255, 151, 92)
+    },
+    ["EnchantMeta"] = {
+        ["berserker"] = {
+            ["statusEffect"] = "berserker_1",
+            ["image"] = "rbxassetid://17443716702",
+            ["name"] = "Berserker",
+            ["description"] = "The less health you have, the more damage you deal. At low health, attacks will heal you"
+        },
+        ["cloud"] = {
+            ["statusEffect"] = "cloud_3",
+            ["image"] = "rbxassetid://12072988037",
+            ["name"] = "Cloud",
+            ["description"] = "Float over the void on a cloud, recharging on land"
+        },
+        ["static"] = {
+            ["statusEffect"] = "static_1",
+            ["image"] = "rbxassetid://8268259009",
+            ["name"] = "Static",
+            ["description"] = "Attacking an enemy will apply extra static damage and chain hit to nearby enemies"
+        },
+        ["execute"] = {
+            ["statusEffect"] = "execute_3",
+            ["image"] = "rbxassetid://8268258842",
+            ["name"] = "Execute",
+            ["description"] = "Attacks on an enemy increases the threshold at which an enemy will instantly die"
+        },
+        ["fire"] = {
+            ["statusEffect"] = "fire_1",
+            ["image"] = "rbxassetid://8268259203",
+            ["name"] = "Fire",
+            ["description"] = "All attacks apply a burn status effect to enemies"
+        },
+        ["critical_strike"] = {
+            ["statusEffect"] = "critical_strike_1",
+            ["image"] = "rbxassetid://9618671880",
+            ["name"] = "Critical Strike",
+            ["description"] = "Your attacks now have a chance to critically strike an enemy for more damage"
+        },
+        ["forest"] = {
+            ["statusEffect"] = "forest_1",
+            ["image"] = "rbxassetid://12072987796",
+            ["name"] = "Forest",
+            ["description"] = "Forest attacks deal extra damage and increase your max health from new enemies"
+        }
+    }
+}
