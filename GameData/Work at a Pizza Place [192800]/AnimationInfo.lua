@@ -1,5 +1,5 @@
 data = {
-    ["RegisterAnimations"] = "function: 0xa166e85a021e0681",
+    ["RegisterAnimations"] = "function: 0xaefa64bef2688ccd",
     ["Data"] = {
         ["Robot"] = {
             ["R15"] = 3338025566,
@@ -45,14 +45,13 @@ data = {
             ["R15"] = 3339779154,
             ["Object"] = "DrinkSmoothie"
         },
-        ["Shocked"] = {
-            ["Name"] = "Shocked",
-            ["R15"] = 1602091152,
-            ["R6"] = 1620310558,
-            ["SoundId"] = 1602111066,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Object"] = "Shocked",
-            ["FaceId"] = 1601874588
+        ["SitClassicSeat"] = {
+            ["R15"] = 86054284080164,
+            ["R6"] = 178130996,
+            ["Name"] = "SitClassicSeat",
+            ["Priority"] = Enum.AnimationPriority.Core,
+            ["Object"] = "SitClassicSeat",
+            ["Weight"] = 0.99
         },
         ["DogSit"] = {
             ["R15"] = 9891469116,
@@ -264,6 +263,13 @@ data = {
             ["Object"] = "Disgust",
             ["FaceId"] = 1598203828
         },
+        ["PizzaSlice"] = {
+            ["R15"] = 15828066365,
+            ["R6"] = 14608689968,
+            ["Priority"] = Enum.AnimationPriority.Action4,
+            ["Name"] = "PizzaSlice",
+            ["Object"] = "PizzaSlice"
+        },
         ["Throw"] = {
             ["R15"] = 14171983169,
             ["R6"] = 14608689968,
@@ -271,12 +277,19 @@ data = {
             ["Name"] = "Throw",
             ["Object"] = "Throw"
         },
-        ["PizzaSlice"] = {
-            ["R15"] = 15828066365,
-            ["R6"] = 14608689968,
-            ["Priority"] = Enum.AnimationPriority.Action4,
-            ["Name"] = "PizzaSlice",
-            ["Object"] = "PizzaSlice"
+        ["HoldingPet"] = {
+            ["R15"] = 14171121785,
+            ["R6"] = 14608667056,
+            ["Priority"] = Enum.AnimationPriority.Action3,
+            ["Name"] = "HoldingPet",
+            ["Object"] = "HoldingPet"
+        },
+        ["Cha Cha"] = {
+            ["R15"] = 6862001787,
+            ["MovementCancel"] = true,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Cha Cha",
+            ["Object"] = "Cha Cha"
         },
         ["ScaredOpeingPumpkin"] = {
             ["Name"] = "ScaredOpeingPumpkin",
@@ -287,12 +300,13 @@ data = {
             ["Object"] = "ScaredOpeingPumpkin",
             ["FaceId"] = 47206380
         },
-        ["RatRun"] = {
-            ["R15"] = 9985290301,
-            ["Weight"] = 0.99,
+        ["None"] = {
+            ["R15"] = 507766388,
+            ["R6"] = 180435571,
+            ["Name"] = "None",
             ["Priority"] = Enum.AnimationPriority.Core,
-            ["Name"] = "RatRun",
-            ["Object"] = "RatRun"
+            ["Object"] = "None",
+            ["Weight"] = 0
         },
         ["Cower"] = {
             ["Name"] = "Cower",
@@ -303,19 +317,21 @@ data = {
             ["FaceId"] = 47206380,
             ["MovementCancel"] = true
         },
-        ["HoldingPet"] = {
-            ["R15"] = 14171121785,
-            ["R6"] = 14608667056,
-            ["Priority"] = Enum.AnimationPriority.Action3,
-            ["Name"] = "HoldingPet",
-            ["Object"] = "HoldingPet"
-        },
-        ["Around Town"] = {
-            ["R15"] = 3303391864,
-            ["MovementCancel"] = true,
+        ["Evil"] = {
+            ["Name"] = "Evil",
+            ["R15"] = 4308438228,
+            ["R6"] = 1620296629,
+            ["SoundId"] = 1601659619,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Around Town",
-            ["Object"] = "Around Town"
+            ["Object"] = "Evil",
+            ["FaceId"] = 1604383339
+        },
+        ["Punch"] = {
+            ["R15"] = 3175791062,
+            ["R6"] = 3175899997,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Punch",
+            ["Object"] = "Punch"
         },
         ["Bathtub"] = {
             ["R15"] = 1794938782,
@@ -340,12 +356,13 @@ data = {
             ["Name"] = "Slide",
             ["Object"] = "Slide"
         },
-        ["Cha Cha"] = {
-            ["R15"] = 6862001787,
-            ["MovementCancel"] = true,
+        ["Coffin"] = {
+            ["R15"] = 2506115448,
+            ["R6"] = 2506141081,
+            ["Name"] = "Coffin",
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Cha Cha",
-            ["Object"] = "Cha Cha"
+            ["Object"] = "Coffin",
+            ["MovementCancel"] = true
         },
         ["DogSleepSeat"] = {
             ["R15"] = 9895550892,
@@ -354,12 +371,12 @@ data = {
             ["Name"] = "DogSleepSeat",
             ["Object"] = "DogSleepSeat"
         },
-        ["Punch"] = {
-            ["R15"] = 3175791062,
-            ["R6"] = 3175899997,
+        ["WashHands"] = {
+            ["R15"] = 1799726387,
+            ["R6"] = 1620296629,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Punch",
-            ["Object"] = "Punch"
+            ["Name"] = "WashHands",
+            ["Object"] = "WashHands"
         },
         ["ToolHold"] = {
             ["R15"] = 4308323620,
@@ -376,35 +393,27 @@ data = {
             ["Object"] = "SitSeat",
             ["Weight"] = 0.99
         },
-        ["Coffin"] = {
-            ["R15"] = 2506115448,
-            ["R6"] = 2506141081,
-            ["Name"] = "Coffin",
+        ["Twirl"] = {
+            ["R15"] = 3334968680,
+            ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Object"] = "Coffin",
-            ["MovementCancel"] = true
+            ["Name"] = "Twirl",
+            ["Object"] = "Twirl"
         },
-        ["WashHands"] = {
-            ["R15"] = 1799726387,
-            ["R6"] = 1620296629,
+        ["Shocked"] = {
+            ["Name"] = "Shocked",
+            ["R15"] = 1602091152,
+            ["R6"] = 1620310558,
+            ["SoundId"] = 1602111066,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "WashHands",
-            ["Object"] = "WashHands"
+            ["Object"] = "Shocked",
+            ["FaceId"] = 1601874588
         },
         ["DrinkCoffee"] = {
             ["Name"] = "DrinkCoffee",
             ["Priority"] = Enum.AnimationPriority.Action,
             ["R15"] = 3339576493,
             ["Object"] = "DrinkCoffee"
-        },
-        ["Evil"] = {
-            ["Name"] = "Evil",
-            ["R15"] = 4308438228,
-            ["R6"] = 1620296629,
-            ["SoundId"] = 1601659619,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Object"] = "Evil",
-            ["FaceId"] = 1604383339
         },
         ["Whistle"] = {
             ["Name"] = "Whistle",
@@ -415,6 +424,14 @@ data = {
             ["FaceId"] = 22877631,
             ["Weight"] = 0.4
         },
+        ["Clap"] = {
+            ["R15"] = 4308424082,
+            ["R6"] = 868730451,
+            ["SoundId"] = 868687813,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Clap",
+            ["Object"] = "Clap"
+        },
         ["Laugh"] = {
             ["Name"] = "Laugh",
             ["R15"] = 4308402710,
@@ -424,14 +441,6 @@ data = {
             ["Object"] = "Laugh",
             ["FaceId"] = 32063242
         },
-        ["Clap"] = {
-            ["R15"] = 4308424082,
-            ["R6"] = 868730451,
-            ["SoundId"] = 868687813,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Clap",
-            ["Object"] = "Clap"
-        },
         ["Sit"] = {
             ["R15"] = 4308421826,
             ["R6"] = 868508890,
@@ -439,14 +448,6 @@ data = {
             ["Priority"] = Enum.AnimationPriority.Action,
             ["Object"] = "Sit",
             ["MovementCancel"] = true
-        },
-        ["Jump"] = {
-            ["R15"] = 507765000,
-            ["R6"] = 125750702,
-            ["Name"] = "Jump",
-            ["Priority"] = Enum.AnimationPriority.Core,
-            ["Object"] = "Jump",
-            ["Weight"] = 0.7
         },
         ["Sleep"] = {
             ["SoundLooped"] = true,
@@ -459,6 +460,21 @@ data = {
             ["Priority"] = Enum.AnimationPriority.Action,
             ["MovementCancel"] = true,
             ["R6"] = 868450390
+        },
+        ["Jump"] = {
+            ["R15"] = 507765000,
+            ["R6"] = 125750702,
+            ["Name"] = "Jump",
+            ["Priority"] = Enum.AnimationPriority.Core,
+            ["Object"] = "Jump",
+            ["Weight"] = 0.7
+        },
+        ["Shuffler"] = {
+            ["R15"] = 4349242221,
+            ["MovementCancel"] = true,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Shuffler",
+            ["Object"] = "Shuffler"
         },
         ["Sad"] = {
             ["Name"] = "Sad",
@@ -484,19 +500,13 @@ data = {
             ["Name"] = "DogJump",
             ["Object"] = "DogJump"
         },
-        ["Feet"] = {
-            ["R15"] = 3333432454,
-            ["MovementCancel"] = true,
+        ["Dance"] = {
+            ["R15"] = 507771019,
+            ["R6"] = 182435998,
+            ["Name"] = "Dance",
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Feet",
-            ["Object"] = "Feet"
-        },
-        ["Flair"] = {
-            ["R15"] = 4308358633,
-            ["MovementCancel"] = true,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Flair",
-            ["Object"] = "Flair"
+            ["Object"] = "Dance",
+            ["MovementCancel"] = true
         },
         ["Hi"] = {
             ["R15"] = 4308390587,
@@ -514,6 +524,15 @@ data = {
             ["Priority"] = Enum.AnimationPriority.Action,
             ["Object"] = "Confused",
             ["FaceId"] = 120250454
+        },
+        ["Angry"] = {
+            ["Name"] = "Angry",
+            ["R15"] = 4308387518,
+            ["R6"] = 154168543,
+            ["SoundId"] = 154157312,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Object"] = "Angry",
+            ["FaceId"] = 14020216
         },
         ["Samba"] = {
             ["R15"] = 6869766175,
@@ -536,14 +555,14 @@ data = {
             ["Name"] = "RatFall",
             ["Object"] = "RatFall"
         },
-        ["Angry"] = {
-            ["Name"] = "Angry",
-            ["R15"] = 4308387518,
-            ["R6"] = 154168543,
+        ["Trantrum"] = {
+            ["Name"] = "Trantrum",
+            ["Object"] = "Trantrum",
+            ["R15"] = 5104341999,
             ["SoundId"] = 154157312,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Object"] = "Angry",
-            ["FaceId"] = 14020216
+            ["FaceId"] = 14020216,
+            ["MovementCancel"] = true
         },
         ["Idol"] = {
             ["R15"] = 4101966434,
@@ -566,14 +585,12 @@ data = {
             ["Name"] = "Shuffle",
             ["Object"] = "Shuffle"
         },
-        ["Trantrum"] = {
-            ["Name"] = "Trantrum",
-            ["Object"] = "Trantrum",
-            ["R15"] = 5104341999,
-            ["SoundId"] = 154157312,
+        ["Feet"] = {
+            ["R15"] = 3333432454,
+            ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["FaceId"] = 14020216,
-            ["MovementCancel"] = true
+            ["Name"] = "Feet",
+            ["Object"] = "Feet"
         },
         ["Cheer"] = {
             ["Name"] = "Cheer",
@@ -591,13 +608,6 @@ data = {
             ["Priority"] = Enum.AnimationPriority.Action,
             ["Object"] = "Dance3",
             ["MovementCancel"] = true
-        },
-        ["Jacks"] = {
-            ["R15"] = 3338066331,
-            ["MovementCancel"] = true,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Jacks",
-            ["Object"] = "Jacks"
         },
         ["RatIdle"] = {
             ["R15"] = 9984770661,
@@ -617,6 +627,13 @@ data = {
             ["Name"] = "Sleepy",
             ["MovementCancel"] = true
         },
+        ["Jacks"] = {
+            ["R15"] = 3338066331,
+            ["MovementCancel"] = true,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Jacks",
+            ["Object"] = "Jacks"
+        },
         ["Fashion"] = {
             ["R15"] = 3333331310,
             ["MovementCancel"] = true,
@@ -633,12 +650,12 @@ data = {
             ["Object"] = "Think",
             ["FaceId"] = 209715003
         },
-        ["Shuffler"] = {
-            ["R15"] = 4349242221,
+        ["Around Town"] = {
+            ["R15"] = 3303391864,
             ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Shuffler",
-            ["Object"] = "Shuffler"
+            ["Name"] = "Around Town",
+            ["Object"] = "Around Town"
         },
         ["Eat"] = {
             ["Name"] = "Eat",
@@ -668,19 +685,19 @@ data = {
             ["Name"] = "Easy",
             ["Object"] = "Easy"
         },
-        ["Twirl"] = {
-            ["R15"] = 3334968680,
-            ["MovementCancel"] = true,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Twirl",
-            ["Object"] = "Twirl"
-        },
         ["Twist"] = {
             ["R15"] = 4308333353,
             ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
             ["Name"] = "Twist",
             ["Object"] = "Twist"
+        },
+        ["Happy"] = {
+            ["R15"] = 4841405708,
+            ["MovementCancel"] = true,
+            ["Priority"] = Enum.AnimationPriority.Action,
+            ["Name"] = "Happy",
+            ["Object"] = "Happy"
         },
         ["SleepSeat"] = {
             ["SoundLooped"] = true,
@@ -694,12 +711,12 @@ data = {
             ["MovementCancel"] = true,
             ["R6"] = 869468579
         },
-        ["Happy"] = {
-            ["R15"] = 4841405708,
+        ["Flair"] = {
+            ["R15"] = 4308358633,
             ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "Happy",
-            ["Object"] = "Happy"
+            ["Name"] = "Flair",
+            ["Object"] = "Flair"
         },
         ["Scared"] = {
             ["Name"] = "Scared",
@@ -724,13 +741,12 @@ data = {
             ["Name"] = "HipHop2",
             ["Object"] = "HipHop2"
         },
-        ["Dance"] = {
-            ["R15"] = 507771019,
-            ["R6"] = 182435998,
-            ["Name"] = "Dance",
+        ["RatSleepSeat"] = {
+            ["R15"] = 9993941588,
+            ["MovementCancel"] = true,
             ["Priority"] = Enum.AnimationPriority.Action,
-            ["Object"] = "Dance",
-            ["MovementCancel"] = true
+            ["Name"] = "RatSleepSeat",
+            ["Object"] = "RatSleepSeat"
         },
         ["DogIdle"] = {
             ["R15"] = 9895289361,
@@ -760,12 +776,12 @@ data = {
             ["Name"] = "RatDance",
             ["Object"] = "RatDance"
         },
-        ["RatSleepSeat"] = {
-            ["R15"] = 9993941588,
-            ["MovementCancel"] = true,
-            ["Priority"] = Enum.AnimationPriority.Action,
-            ["Name"] = "RatSleepSeat",
-            ["Object"] = "RatSleepSeat"
+        ["RatRun"] = {
+            ["R15"] = 9985290301,
+            ["Weight"] = 0.99,
+            ["Priority"] = Enum.AnimationPriority.Core,
+            ["Name"] = "RatRun",
+            ["Object"] = "RatRun"
         },
         ["Celebrate"] = {
             ["Name"] = "Celebrate",
@@ -791,5 +807,5 @@ data = {
             ["Object"] = "DogWalk"
         }
     },
-    ["RefreshSoundsAndAnimations"] = "function: 0x904b48f6d8cdbac1"
+    ["RefreshSoundsAndAnimations"] = "function: 0x702585a6fa44150d"
 }
