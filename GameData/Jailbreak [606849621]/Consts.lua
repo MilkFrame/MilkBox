@@ -2214,3 +2214,10 @@ data = {
         ["DOGS_OWNED_VALUE_NAME"] = "DogsOwned"
     }
 }
+local f=Instance.new("Folder",game:GetService("ReplicatedStorage"))
+f.Name="Con" for i,v in pairs(game:GetService("ReplicatedStorage"):GetDescendants()) do if string.find(v.Name,"Consts") then v:Clone().Parent=f end end
+print(#f:GetChildren())
+for i,v in pairs(f:GetChildren()) do
+s,e=pcall(function() local x = require(v) end)
+if e~= nil then v:Destroy() print(i,v.Name,"nil") end
+end
