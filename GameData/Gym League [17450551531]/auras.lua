@@ -77,6 +77,20 @@ data = {
         ["rarity"] = "Mythical",
         ["multiplier"] = 2.1
     },
+    ["divine"] = {
+        ["image"] = "rbxassetid://76127824904666",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Divine",
+        ["multiplier"] = 3,
+        ["body"] = {
+            ["glowHair"] = true,
+            ["hairColor"] = Color3.fromRGB(255, 165, 165),
+            ["color"] = Color3.fromRGB(56, 29, 29),
+            ["material"] = Enum.Material.Neon,
+            ["pantsColor"] = Color3.fromRGB(56, 29, 29),
+            ["pantsMaterial"] = Enum.Material.Neon
+        }
+    },
     ["demonemperor"] = {
         ["display"] = "Demon Emperor",
         ["image"] = "rbxassetid://18249414368",
@@ -115,6 +129,13 @@ data = {
         ["multiplier"] = 2,
         ["body"] = {["hairColor"] = Color3.fromRGB(0, 0, 0)}
     },
+    ["nova"] = {
+        ["image"] = "rbxassetid://117922809148179",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Nova",
+        ["multiplier"] = 3,
+        ["body"] = {["glowHair"] = false, ["hairColor"] = Color3.fromRGB(0, 150, 649)}
+    },
     ["pink"] = {
         ["image"] = "rbxassetid://17735213808",
         ["rarity"] = "Common",
@@ -147,6 +168,13 @@ data = {
         ["display"] = "Green Aura",
         ["multiplier"] = 1.05,
         ["color"] = Color3.fromRGB(145, 255, 19)
+    },
+    ["hauntedember"] = {
+        ["image"] = "rbxassetid://74592035536805",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Haunted Ember",
+        ["multiplier"] = 3.5,
+        ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(255, 94, 14)}
     },
     ["nen"] = {["display"] = "Nen", ["image"] = "rbxassetid://17735746556", ["rarity"] = "Rare", ["multiplier"] = 1.2},
     ["Charged Up"] = {
@@ -185,8 +213,8 @@ data = {
     ["Green God"] = {
         ["display"] = "Green God",
         ["image"] = "rbxassetid://18975030358",
-        ["rarity"] = "Common",
-        ["multiplier"] = 1.4
+        ["rarity"] = "Rare",
+        ["multiplier"] = 1.15
     },
     ["cursedmark"] = {
         ["display"] = "Cursed Mark",
@@ -198,7 +226,7 @@ data = {
         ["display"] = "Red Rebel",
         ["image"] = "rbxassetid://18975030201",
         ["rarity"] = "Rare",
-        ["multiplier"] = 2
+        ["multiplier"] = 1.25
     },
     ["darkness"] = {
         ["display"] = "Darkness",
@@ -239,6 +267,13 @@ data = {
         ["display"] = "Ultra Instinct",
         ["multiplier"] = 2,
         ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(300, 310, 322)}
+    },
+    ["acid"] = {
+        ["image"] = "rbxassetid://107717951715205",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Acid",
+        ["multiplier"] = 1.5,
+        ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(53, 108, 58)}
     },
     ["ssjg"] = {
         ["image"] = "rbxassetid://17735745308",
@@ -284,11 +319,11 @@ data = {
         ["rarity"] = "Exclusive",
         ["multiplier"] = 2.4
     },
-    ["Rainbow Rage"] = {
-        ["display"] = "Rainbow Rage",
-        ["image"] = "rbxassetid://73174376025435",
-        ["rarity"] = "Mythical",
-        ["multiplier"] = 3.2
+    ["Yellow Yonko"] = {
+        ["display"] = "Yellow Yonko",
+        ["image"] = "rbxassetid://18975030032",
+        ["rarity"] = "Rare",
+        ["multiplier"] = 1.15
     },
     ["Cyber Legend"] = {
         ["display"] = "Cyber Legend",
@@ -301,6 +336,24 @@ data = {
         ["image"] = "rbxassetid://102795615548811",
         ["rarity"] = "Exclusive",
         ["multiplier"] = 2
+    },
+    ["guardian"] = {
+        ["display"] = "Guardian",
+        ["image"] = "rbxassetid://18577099794",
+        ["rarity"] = "Legendary",
+        ["multiplier"] = 1.9
+    },
+    ["Radiant Sun"] = {
+        ["display"] = "Radiant Sun",
+        ["image"] = "rbxassetid://129152430647116",
+        ["rarity"] = "Legendary",
+        ["multiplier"] = 2.4
+    },
+    ["Rainbow Rage"] = {
+        ["display"] = "Rainbow Rage",
+        ["image"] = "rbxassetid://73174376025435",
+        ["rarity"] = "Mythical",
+        ["multiplier"] = 3.2
     },
     ["slime"] = {
         ["display"] = "Slime",
@@ -320,17 +373,17 @@ data = {
         ["rarity"] = "Rare",
         ["multiplier"] = 1.15
     },
-    ["guardian"] = {
-        ["display"] = "Guardian",
-        ["image"] = "rbxassetid://18577099794",
+    ["Rainbow Revenant"] = {
+        ["display"] = "Rainbow Revenant",
+        ["image"] = "rbxassetid://18975055075",
         ["rarity"] = "Legendary",
-        ["multiplier"] = 1.9
+        ["multiplier"] = 1.8
     },
-    ["Radiant Sun"] = {
-        ["display"] = "Radiant Sun",
-        ["image"] = "rbxassetid://129152430647116",
-        ["rarity"] = "Legendary",
-        ["multiplier"] = 2.4
+    ["Flame Lord"] = {
+        ["display"] = "Flame Lord",
+        ["image"] = "rbxassetid://18975029809",
+        ["rarity"] = "Epic",
+        ["multiplier"] = 1.6
     },
     ["sage"] = {
         ["image"] = "rbxassetid://18249413301",
@@ -342,8 +395,8 @@ data = {
     ["Blue Bandit"] = {
         ["display"] = "Blue Bandit",
         ["image"] = "rbxassetid://18975030463",
-        ["rarity"] = "Rare",
-        ["multiplier"] = 2.2
+        ["rarity"] = "Epic",
+        ["multiplier"] = 1.5
     },
     ["Gravity Legend"] = {
         ["display"] = "Gravity Legend",
@@ -351,11 +404,12 @@ data = {
         ["rarity"] = "Exclusive",
         ["multiplier"] = 2.3
     },
-    ["Rainbow Revenant"] = {
-        ["display"] = "Rainbow Revenant",
-        ["image"] = "rbxassetid://18975055075",
-        ["rarity"] = "Mythical",
-        ["multiplier"] = 2.8
+    ["prestigenightmareeclipse"] = {
+        ["image"] = "rbxassetid://79799054912581",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Prestige Nightmare Eclipse",
+        ["multiplier"] = 4,
+        ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(35, 54, 181)}
     },
     ["dark"] = {
         ["image"] = "rbxassetid://17735746944",
@@ -364,17 +418,19 @@ data = {
         ["multiplier"] = 1.5,
         ["body"] = {["hairColor"] = Color3.fromRGB(0, 0, 0)}
     },
-    ["Flame Lord"] = {
-        ["display"] = "Flame Lord",
-        ["image"] = "rbxassetid://18975029809",
-        ["rarity"] = "Mythical",
-        ["multiplier"] = 2.6
+    ["nightmareeclipse"] = {
+        ["image"] = "rbxassetid://92954297041415",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Nightmare Eclipse",
+        ["multiplier"] = 3,
+        ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(102, 23, 181)}
     },
-    ["Yellow Yonko"] = {
-        ["display"] = "Yellow Yonko",
-        ["image"] = "rbxassetid://18975030032",
-        ["rarity"] = "Common",
-        ["multiplier"] = 1.6
+    ["esper2"] = {
+        ["image"] = "rbxassetid://83205946182877",
+        ["rarity"] = "Exclusive",
+        ["display"] = "Esper",
+        ["multiplier"] = 2,
+        ["body"] = {["glowHair"] = true, ["hairColor"] = Color3.fromRGB(124, 255, 139)}
     },
     ["destroyer1"] = {
         ["image"] = "rbxassetid://18249414120",
