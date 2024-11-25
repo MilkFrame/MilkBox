@@ -1,0 +1,23 @@
+data = {
+    ["Sweeping Strike"] = {["Class"] = "SingleSword", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Infinity Slash"] = {["Unlock"] = 0, ["Class"] = "DualWield", ["Cooldown"] = 5, ["Cost"] = 45},
+    ["Downward Smash"] = {["Class"] = "2HSword", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Roll"] = {["Level"] = 0, ["Cooldown"] = 1, ["Cost"] = 10},
+    ["Summon Pistol"] = {["Unlock"] = 0, ["Level"] = 60, ["Cooldown"] = 4, ["Cost"] = 40},
+    ["Everfrost Strike"] = {["Unlock"] = 0, ["Level"] = 100, ["Cooldown"] = 15, ["Cost"] = 40},
+    ["Block"] = {["Level"] = 0, ["Cooldown"] = 1, ["Cost"] = 5},
+    ["Summon Tree"] = {["Unlock"] = 0, ["Cooldown"] = 30, ["Cost"] = 45},
+    ["Whirlwind Spin"] = {["Class"] = "DualWield", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Shadow Step"] = {["Unlock"] = 0, ["Cooldown"] = 1, ["Cost"] = 15},
+    ["Piercing Dash"] = {["Class"] = "Rapier", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Swordstorm Chain"] = {["Unlock"] = 0, ["Level"] = 175, ["Cooldown"] = 20, ["Cost"] = 35},
+    ["Mending Spirit"] = {["Unlock"] = 0, ["Cooldown"] = 20, ["Cost"] = 50},
+    ["Cursed Enhancement"] = {["Unlock"] = 0, ["Cooldown"] = 30, ["Cost"] = 60},
+    ["Heal"] = {["Level"] = 50, ["Cooldown"] = 25, ["Cost"] = 40},
+    ["Vampiric Rampage"] = {["Unlock"] = 0, ["Cooldown"] = 8, ["Cost"] = 15},
+    ["Sprint"] = {["Level"] = 0, ["Cooldown"] = 0, ["Cost"] = 0},
+    ["Meteor Shot"] = {["Unlock"] = 0, ["Level"] = 200, ["Cooldown"] = 15, ["Cost"] = 35},
+    ["Beam Rush"] = {["Class"] = "Spear", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Leaping Slash"] = {["Class"] = "Katana", ["Level"] = 21, ["Cooldown"] = 2, ["Cost"] = 35},
+    ["Spirit Dash"] = {["Level"] = 70, ["Cooldown"] = 5, ["Cost"] = 25}
+}
