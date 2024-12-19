@@ -179,14 +179,14 @@ data = {
                 ["C"] = {"Coins_200", "Common"},
                 ["B"] = {"Cosmic Trail", "Uncommon"},
                 ["E"] = {"Minigame Choice x2", "Uncommon"},
-                ["D"] = {"7th Seasoneer", "Rare"},
+                ["D"] = {"11th Seasoneer", "Rare"},
                 ["G"] = {"Minigame Choice x2", "Uncommon"},
                 ["F"] = {"Snowball Launcher", "Rare"}
             },
             ["Leaderboards"] = {
-                ["Top5Alltime"] = {"Opulent Award", "Legendary"},
+                ["Top5Alltime"] = {"Ostentatious Award", "Legendary"},
                 ["Silver"] = "2nd Place Trophy",
-                ["Top5Weekly"] = {"Owen the Orca", "Legendary"},
+                ["Top5Weekly"] = {"Darren the Dolphin", "Legendary"},
                 ["Top50Weekly"] = {"Aurora Sphere", "Rare"},
                 ["Bronze"] = "3rd Place Trophy",
                 ["Top50Alltime"] = {"Evolving", "Rare"},
@@ -196,7 +196,7 @@ data = {
             }
         }
     },
-    ["getSeasonData"] = "function: 0xba335bb8b58c5331",
+    ["getSeasonData"] = "function: 0x764adf96d9289681",
     ["rotationTimeStart"] = 1683158400,
     ["weeklyChallenges"] = {
         {
