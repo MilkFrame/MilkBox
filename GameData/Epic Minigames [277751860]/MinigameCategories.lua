@@ -1,5 +1,12 @@
 data = {
-    ["CustomDeathBlacklist"] = {"Survive the Spheres", "Dodgeball"},
+    ["Sounds"] = {
+        ["Other"] = "rbxassetid://16104481910",
+        ["Versus"] = "rbxassetid://16104482874",
+        ["Luck"] = "rbxassetid://16104482542",
+        ["Controller"] = "rbxassetid://16104482699",
+        ["Team"] = "rbxassetid://16104482132",
+        ["Racing"] = "rbxassetid://16104482343"
+    },
     ["MinigamesList"] = {
         ["Other"] = {
             "Avalanche",
@@ -46,7 +53,6 @@ data = {
             "Collection Contention",
             "Drawing the Line",
             "Eagle Observation",
-            "Easter Ice Thaw",
             "Fishing Frenzy",
             "Gear Battle",
             "Gladiator Grounds",
@@ -134,6 +140,7 @@ data = {
             "Lane Jumping",
             "Missile Command",
             "Paint to Perfection",
+            "Race to the Top",
             "Round Race",
             "Rowing Rush",
             "Shark Survival",
@@ -142,10 +149,19 @@ data = {
             "The Block Chain",
             "The Crusher",
             "Trial Traversing",
-            "Beat Block",
-            "Vertical Apprehension"
+            "Beat Block"
         }
     },
+    ["Images"] = {
+        ["Other"] = "rbxassetid://9129975166",
+        ["Versus"] = "rbxassetid://8887894147",
+        ["Luck"] = "rbxassetid://8854492163",
+        ["Controller"] = "rbxassetid://8888007786",
+        ["Team"] = "rbxassetid://9129927025",
+        ["Racing"] = "rbxassetid://8854590663"
+    },
+    ["isCategory"] = "function: 0x0c0083c1106b4961",
+    ["CustomDeathBlacklist"] = {"Survive the Spheres", "Dodgeball"},
     ["SoloGames"] = {
         "Avalanche",
         "Aztec Adventure",
@@ -206,10 +222,8 @@ data = {
         "Trial Traversing",
         "Turntable Scurry",
         "Uncertain Ground",
-        "Vertical Apprehension",
         "Undead Aboard"
     },
-    ["isCategory"] = "function: 0xf5515f0608e3afb2",
     ["SteelGames"] = {
         "Balloon Platoon",
         "Big Bomb Boom",
