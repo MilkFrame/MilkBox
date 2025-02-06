@@ -51,6 +51,12 @@ data = {
         ["Flair"] = "Use the ability again to drop this NPC.",
         ["DisplayName"] = "NPC"
     },
+    ["PoppyPot"] = {
+        ["SkipNotif"] = true,
+        ["OnHoldState"] = 4,
+        ["Flair"] = "Use ability to drop the pot.",
+        ["DisplayName"] = "Poppy Pot"
+    },
     ["Present"] = {["OnHoldState"] = 1, ["Flair"] = "Bring this back to the truck!", ["DisplayName"] = "Present"},
     ["GoldenSeed"] = {
         ["OnHoldState"] = 3,
