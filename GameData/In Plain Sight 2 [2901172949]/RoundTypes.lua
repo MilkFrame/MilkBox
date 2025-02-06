@@ -2,9 +2,10 @@ data = {
     {["Thumbnail"] = "", ["Flair"] = "ERROR", ["DisplayName"] = "Normal Round"},
     {["Thumbnail"] = "", ["Flair"] = "ERROR", ["DisplayName"] = "Spooky Round"},
     {
-        ["Thumbnail"] = "rbxassetid://14208938360",
-        ["Flair"] = "Banana Bonanza Round!!",
-        ["DisplayName"] = "Banana Bonanza Round"
+        ["IsEvent"] = true,
+        ["Thumbnail"] = "rbxassetid://18542687201",
+        ["Flair"] = "Banana Bonanza Time!!",
+        ["DisplayName"] = "Banana Bonanza"
     },
     {["Thumbnail"] = "rbxassetid://14208428234", ["Flair"] = "Anomalous Round...", ["DisplayName"] = "Anomalous Round"},
     {["Thumbnail"] = "rbxassetid://14209266335", ["Flair"] = "Overtime Round!", ["DisplayName"] = "Overtime Round"},
@@ -28,6 +29,13 @@ data = {
         ["Thumbnail"] = "rbxassetid://15595075614",
         ["Flair"] = "It's time for a present heist!",
         ["DisplayName"] = "Present Heist"
+    },
+    {
+        ["EscapeSFXName"] = "WarehouseAlert",
+        ["Flair"] = "Welcome to the warehouse!",
+        ["IsWeekend"] = true,
+        ["Thumbnail"] = "rbxassetid://18571679483",
+        ["DisplayName"] = "Delicious Depot Dash"
     },
     {["Thumbnail"] = "", ["Flair"] = "ERROR", ["DisplayName"] = "ERROR"}
 }
