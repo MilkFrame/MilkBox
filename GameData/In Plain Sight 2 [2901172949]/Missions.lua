@@ -1,5 +1,5 @@
 data = {
-    ["Get"] = "function: 0x22d660d757f1f11b",
+    ["Get"] = "function: 0x7c09208625fa98c5",
     ["List"] = {
         {
             ["Action"] = "Play 5 rounds",
@@ -80,6 +80,14 @@ data = {
             ["Target"] = 5,
             ["Stat"] = "SpecialItemsStolen",
             ["Reward"] = 7000
+        },
+        {
+            ["Action"] = "Steal 3 energized items",
+            ["TimeFrame"] = 86400,
+            ["Id"] = 11,
+            ["Target"] = 3,
+            ["Stat"] = "EnergizedItemsStolen",
+            ["Reward"] = 12000
         }
     }
 }
