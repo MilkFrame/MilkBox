@@ -77,7 +77,7 @@ data = {
                 ["Description"] = "Terminate half of the NPCs.",
                 ["Id"] = 6,
                 ["Cooldown"] = -1,
-                ["Thumbnail"] = "rbxassetid://3875475576",
+                ["Thumbnail"] = "rbxassetid://17837139169",
                 ["Name"] = "Terminate"
             }
         },
@@ -119,9 +119,9 @@ data = {
             ["Id"] = 10,
             ["InventoryIcon"] = {["Name"] = "FireflyLightsOut", ["Image"] = "rbxassetid://3868855588"},
             ["Active"] = {
-                ["Description"] = "Turn off all lighting in the map and enable night vision.",
+                ["Description"] = "Turn off all lights in the map and enable night vision for 5 seconds. Get 300% faster hatch switch speed during this time.",
                 ["Id"] = 10,
-                ["Cooldown"] = 48,
+                ["Cooldown"] = 32,
                 ["Thumbnail"] = "rbxassetid://3868855588",
                 ["Name"] = "Lights Out"
             }
@@ -164,9 +164,10 @@ data = {
         },
         {
             ["Id"] = 14,
+            ["ReloadSpeedMultiplier"] = 0.75,
             ["InventoryIcon"] = {["Name"] = "ChaingunBulletTime", ["Image"] = "rbxassetid://11638231076"},
             ["Active"] = {
-                ["Description"] = "No heat gain and 50% faster switch speed for 10 seconds.",
+                ["Description"] = "No heat gain and 200% faster hatch switch speed for 10 seconds. You have 25% faster reloading passively.",
                 ["Id"] = 14,
                 ["Cooldown"] = 30,
                 ["Thumbnail"] = "rbxassetid://11638231076",
@@ -235,7 +236,7 @@ data = {
             }
         },
         {
-            ["Name"] = "Class 4 Laser Product",
+            ["Description"] = "Your lasers pass through NPCs.",
             ["Active"] = {
                 ["IsToggle"] = true,
                 ["Name"] = "Explosive Shot",
@@ -246,9 +247,8 @@ data = {
                 ["Description"] = "Toggle the usage of camera lasers that create a radius of damage."
             },
             ["Id"] = 20,
-            ["HeatGainMultiplier"] = 1.26,
             ["ActiveId"] = 1,
-            ["Description"] = "Your lasers pass through NPCs but take more energy."
+            ["Name"] = "Class 4 Laser Product"
         },
         {
             ["Description"] = "Your camera makes very quiet laser and location switching sounds.",
@@ -300,7 +300,7 @@ data = {
             ["Active"] = {
                 ["Description"] = "Fire a nuke that deals 1-3 damage based on proximity.",
                 ["Id"] = 24,
-                ["Cooldown"] = 25,
+                ["Cooldown"] = 30,
                 ["Thumbnail"] = "rbxassetid://9380608570",
                 ["Name"] = "Launch Nuke"
             }
@@ -324,7 +324,7 @@ data = {
         {
             ["Id"] = 26,
             ["Active"] = {
-                ["Description"] = "Start firing flames for 2 seconds that create fire where they land.",
+                ["Description"] = "Start firing flames for 2.4 seconds that create fire where they land.",
                 ["Id"] = 26,
                 ["Cooldown"] = 50,
                 ["Thumbnail"] = "rbxassetid://9736153807",
@@ -336,7 +336,7 @@ data = {
             ["Active"] = {
                 ["Description"] = "Take a picture of what you're looking at. Better pictures of thieves and their actions are worth more money.",
                 ["Id"] = 27,
-                ["Cooldown"] = 15,
+                ["Cooldown"] = 10,
                 ["Thumbnail"] = "rbxassetid://11697298551",
                 ["Name"] = "Rule of Thirds"
             }
@@ -376,7 +376,7 @@ data = {
                 ["HoldSegments"] = 3,
                 ["Id"] = 30,
                 ["HoldActivation"] = true,
-                ["Thumbnail"] = "rbxassetid://10320349370",
+                ["Thumbnail"] = "rbxassetid://17837132740",
                 ["HoldSpeed"] = 160
             }
         },
@@ -491,7 +491,7 @@ data = {
             ["Name"] = "Firefly",
             ["Id"] = 11,
             ["Rarity"] = 5,
-            ["Thumbnail"] = "rbxassetid://3234620764",
+            ["Thumbnail"] = "rbxassetid://18140536722",
             ["Description"] = "You would not believe your lenses, If ten million fireflies..."
         },
         {
@@ -523,7 +523,7 @@ data = {
             ["Name"] = "Chaingun",
             ["Id"] = 16,
             ["Rarity"] = 5,
-            ["Thumbnail"] = "rbxassetid://3234653202",
+            ["Thumbnail"] = "rbxassetid://17838008133",
             ["Description"] = "Make sure they are dead."
         },
         {
@@ -531,7 +531,7 @@ data = {
             ["Name"] = "Trapper",
             ["Id"] = 17,
             ["Rarity"] = 3,
-            ["Thumbnail"] = "rbxassetid://3234654493",
+            ["Thumbnail"] = "rbxassetid://17838012577",
             ["Description"] = "It's the thrill of a good hunt!"
         },
         {
@@ -638,7 +638,7 @@ data = {
             ["Name"] = "Filmer",
             ["Id"] = 30,
             ["Rarity"] = 2,
-            ["Thumbnail"] = "rbxassetid://9983704662",
+            ["Thumbnail"] = "rbxassetid://17838009211",
             ["Description"] = "Lights, camera, ACTION!"
         },
         {
