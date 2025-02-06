@@ -47,6 +47,7 @@ data = {
         ["Anomalous"] = 4,
         ["Funny"] = 8,
         ["Spooky"] = 2,
+        ["Warehouse"] = 11,
         ["PresentHeist"] = 10,
         ["HauntedSchool"] = 9,
         ["Stacked"] = 7,
