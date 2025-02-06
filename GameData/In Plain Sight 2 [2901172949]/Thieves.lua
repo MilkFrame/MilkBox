@@ -50,12 +50,12 @@ data = {
             ["HealthCap"] = 1,
             ["MaxHealth"] = 1,
             ["Active"] = {
-                ["Description"] = "You have 1 heart and lose $100 instead of taking damage if you have enough money. Earn +1.75% more money when stealing per 1 weight in your bag. The active ability deposits your bag instantly.",
+                ["Description"] = "You have 1 heart and lose $100 instead of taking damage if you have enough money. Earn +2% more money when stealing per 1 weight in your bag. The active ability deposits your bag instantly.",
                 ["Id"] = 4,
                 ["ActivateOnHoldFull"] = true,
                 ["Name"] = "Made of Money",
                 ["GlitchCanUse"] = true,
-                ["Cooldown"] = 30,
+                ["Cooldown"] = 26,
                 ["HoldActivation"] = true,
                 ["Thumbnail"] = "rbxassetid://13407971526",
                 ["HoldSpeed"] = 200
@@ -63,7 +63,7 @@ data = {
         },
         {
             ["ActiveId"] = 2,
-            ["JumpPower"] = 80,
+            ["JumpPower"] = 75,
             ["Name"] = "Robber Ducky",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
@@ -77,12 +77,12 @@ data = {
                 ["HoldSpeed"] = 220
             },
             ["Id"] = 5,
-            ["Description"] = "20 Speed, 80 Jump Power, +15% Money, +200% Handsome",
-            ["WalkSpeed"] = 20,
-            ["CashMultiplier"] = 1.15
+            ["Description"] = "19 Speed, 75 Jump Power, +17% Money, +250% Handsome",
+            ["WalkSpeed"] = 19,
+            ["CashMultiplier"] = 1.17
         },
         {
-            ["Description"] = "19 Speed, 6 Hearts, and 25 Weight Capacity",
+            ["Description"] = "18 Speed, 5 Hearts, and 25 Weight Capacity",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
                 ["HoldSegments"] = 3,
@@ -95,11 +95,11 @@ data = {
                 ["HoldSpeed"] = 220
             },
             ["Id"] = 6,
-            ["HealthCap"] = 12,
+            ["HealthCap"] = 10,
             ["ActiveId"] = 2,
             ["MaxWeight"] = 25,
-            ["WalkSpeed"] = 19,
-            ["MaxHealth"] = 6,
+            ["WalkSpeed"] = 18,
+            ["MaxHealth"] = 5,
             ["Name"] = "Beefy"
         },
         {
@@ -271,7 +271,7 @@ data = {
         },
         {
             ["WalkSpeed"] = 50,
-            ["HeathCap"] = 2,
+            ["HealthCap"] = 2,
             ["Name"] = "Jetpack",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
@@ -291,12 +291,14 @@ data = {
         },
         {
             ["Id"] = 20,
+            ["HealthCap"] = 10,
+            ["MaxHealth"] = 5,
             ["Active"] = {
                 ["Name"] = "Ho Ho Ho!",
-                ["Description"] = "Other non-Santa thieves earn up to your bag's value and you gain 5 max weight capacity.",
+                ["Description"] = "Other non-Santa thieves earn up to your bag's value and you gain 6 max weight capacity. You have 5 hearts.",
                 ["Id"] = 20,
-                ["Cooldown"] = 45,
-                ["Thumbnail"] = "rbxassetid://3852167317",
+                ["Cooldown"] = 38,
+                ["Thumbnail"] = "rbxassetid://17837166970",
                 ["GlitchCanUse"] = true
             }
         },
@@ -307,7 +309,7 @@ data = {
                 ["Description"] = "Give yourself $40 periodically.",
                 ["Id"] = 21,
                 ["Cooldown"] = 15,
-                ["Thumbnail"] = "rbxassetid://3852111006",
+                ["Thumbnail"] = "rbxassetid://17837135955",
                 ["GlitchCanUse"] = true
             }
         },
@@ -342,20 +344,20 @@ data = {
         },
         {
             ["Id"] = 24,
-            ["InventoryIcon"] = {["Name"] = "BubbleShield", ["Image"] = "rbxassetid://3851908771"},
+            ["InventoryIcon"] = {["Name"] = "BubbleShield", ["Image"] = "rbxassetid://17837137378"},
             ["Active"] = {
                 ["Name"] = "Bubble Shield",
                 ["Description"] = "Place a bubble shield that cannot be shot through.",
                 ["Id"] = 24,
-                ["Cooldown"] = 40,
-                ["Thumbnail"] = "rbxassetid://3851908771",
+                ["Cooldown"] = 32,
+                ["Thumbnail"] = "rbxassetid://17837137378",
                 ["GlitchCanUse"] = true
             }
         },
         {
             ["Id"] = 25,
             ["Active"] = {
-                ["Cooldown"] = 8,
+                ["Cooldown"] = 5,
                 ["Name"] = "One Last Rep",
                 ["IsToggle"] = true,
                 ["Id"] = 25,
@@ -394,9 +396,6 @@ data = {
             }
         },
         {
-            ["Name"] = "Get up, soldier!",
-            ["ReviveSpeedMultiplier"] = 0.5,
-            ["Id"] = 28,
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
                 ["HoldSegments"] = 3,
@@ -408,8 +407,12 @@ data = {
                 ["Thumbnail"] = "rbxassetid://3518968630",
                 ["HoldSpeed"] = 220
             },
+            ["Name"] = "Get up, soldier!",
+            ["ReviveSpeedMultiplier"] = 0.5,
+            ["Id"] = 28,
             ["ActiveId"] = 2,
-            ["Description"] = "You have x2 revive speed and reviving a fellow thief gives them full health. You and the revived thief also get +4 walk speed for 3 seconds."
+            ["WalkSpeed"] = 18,
+            ["Description"] = "You have x2 revive speed, 18 walkspeed, and reviving a fellow thief gives them full health. You and the revived thief also get +6 walk speed for 10 seconds."
         },
         {
             ["Id"] = 29,
@@ -437,7 +440,7 @@ data = {
         },
         {
             ["Id"] = 31,
-            ["HeathCap"] = 10,
+            ["HealthCap"] = 10,
             ["Active"] = {
                 ["Description"] = "Drink a potion that gives you 8 Hearts and 25 Weight Capacity, but makes you huge. After drinking the potion, every 5 weight picked up will regenerate 1 heart.",
                 ["Id"] = 31,
@@ -450,7 +453,7 @@ data = {
             ["Id"] = 32,
             ["Active"] = {
                 ["Name"] = "Robbery",
-                ["Description"] = "Steal up to $150 from each thief. Each thief also loses 10 weight.",
+                ["Description"] = "Steal up to $150 from each thief. Each thief also loses 12 weight.",
                 ["Id"] = 32,
                 ["Cooldown"] = 40,
                 ["Thumbnail"] = "rbxassetid://3851832608",
@@ -459,10 +462,10 @@ data = {
         },
         {
             ["Id"] = 33,
-            ["WalkSpeed"] = 17,
+            ["WalkSpeed"] = 18,
             ["Active"] = {
                 ["Name"] = "Salvation",
-                ["Description"] = "Summon a protective shield around you and any nearby non-Celebi thieves. Cooldown increases with more thieves shielded. You also permanently have 17 walk speed.",
+                ["Description"] = "Summon a protective shield around you and any nearby non-Celebi thieves. Cooldown increases with more thieves shielded. You also permanently have 18 walk speed.",
                 ["Id"] = 33,
                 ["Cooldown"] = 35,
                 ["Thumbnail"] = "rbxassetid://3851959600",
@@ -471,7 +474,7 @@ data = {
         },
         {
             ["ReviveHealthMultiplier"] = 1,
-            ["HeathCap"] = 10,
+            ["HealthCap"] = 10,
             ["Name"] = "Reborn",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
@@ -542,7 +545,7 @@ data = {
             ["Id"] = 38,
             ["Active"] = {
                 ["Name"] = "Consume",
-                ["Description"] = "Consume an item to temporarily increase your max weight, wearing off over time.",
+                ["Description"] = "Consume an item to temporarily increase your max weight, wearing off over time. You earn half of the consumed item's value.",
                 ["Id"] = 38,
                 ["Cooldown"] = 20,
                 ["Thumbnail"] = "rbxassetid://14999863969",
@@ -597,7 +600,7 @@ data = {
             ["Description"] = "Gain +1 heart per revive and a passive x1.5 revive speed multiplier. The player revived only regains 1 heart, but gets one life back."
         },
         {
-            ["Description"] = "You have 20 walk speed, 60 jump power, and +15% more money. You can also be revived any amount of times.",
+            ["Description"] = "You have 20 walk speed, 55 jump power, 18 max weight capacity, and +20% more money. You can also be revived any amount of times.",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
                 ["HoldSegments"] = 3,
@@ -611,14 +614,15 @@ data = {
             },
             ["Id"] = 42,
             ["MaxRevives"] = 999,
-            ["ActiveId"] = 2,
-            ["JumpPower"] = 60,
             ["Name"] = "Infamous",
+            ["JumpPower"] = 55,
+            ["MaxWeight"] = 18,
+            ["ActiveId"] = 2,
             ["WalkSpeed"] = 20,
-            ["CashMultiplier"] = 1.15
+            ["CashMultiplier"] = 1.2
         },
         {
-            ["HealthCap"] = 10,
+            ["DepositSpeedMultiplier"] = 0.85,
             ["Name"] = "Endgame Carry",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
@@ -634,9 +638,10 @@ data = {
             ["Id"] = 43,
             ["MaxWeight"] = 40,
             ["ActiveId"] = 2,
-            ["Description"] = "Carries many things... Max weight is 40."
+            ["Description"] = "Carries many things... Max weight is 40. Deposits loot 15% slower."
         },
         {
+            ["ReviveHealthMultiplier"] = 1,
             ["HealthCap"] = 6,
             ["Name"] = "Blessing of Styx",
             ["Active"] = {
@@ -653,7 +658,7 @@ data = {
             ["Id"] = 44,
             ["ActiveId"] = 2,
             ["MaxHealth"] = 3,
-            ["Description"] = "You can only be damaged if hit in your heel. Your heel has 3 hearts."
+            ["Description"] = "You can only be damaged if hit in your heel. Your heel has 3 hearts. When revived, you gain all of your health back."
         },
         {
             ["Id"] = 45,
@@ -671,7 +676,7 @@ data = {
                 ["Name"] = "Insider Trading",
                 ["Description"] = "Add an additional 50% of your currently carried cash into your money bag.",
                 ["Id"] = 46,
-                ["Cooldown"] = 60,
+                ["Cooldown"] = 50,
                 ["Thumbnail"] = "rbxassetid://3852112264",
                 ["GlitchCanUse"] = true
             }
@@ -697,7 +702,7 @@ data = {
                 ["Id"] = 48,
                 ["InactiveThumbnail"] = "rbxassetid://13396913429",
                 ["Thumbnail"] = "rbxassetid://13396803079",
-                ["Description"] = "Dig a hole and hide underground for a maximum of 20 seconds."
+                ["Description"] = "Dig a hole and hide underground for a maximum of 16 seconds."
             }
         },
         {
@@ -705,8 +710,8 @@ data = {
             ["Active"] = {
                 ["Description"] = "Dig a burrow, then dig another elsewhere and the two become linked. Burrows can be used as two-way transit. Trying to dig a third burrow will replace your oldest burrow.",
                 ["Id"] = 49,
-                ["Cooldown"] = 3,
-                ["Thumbnail"] = "rbxassetid://9415414033",
+                ["Cooldown"] = 20,
+                ["Thumbnail"] = "rbxassetid://17837128668",
                 ["Name"] = "Burrow"
             }
         },
@@ -717,7 +722,7 @@ data = {
                 ["Description"] = "Send out a pulse that makes all the cameras reload.",
                 ["Id"] = 50,
                 ["Cooldown"] = 35,
-                ["Thumbnail"] = "rbxassetid://9425288838",
+                ["Thumbnail"] = "rbxassetid://98824931963734",
                 ["GlitchCanUse"] = true
             }
         },
@@ -742,12 +747,11 @@ data = {
         {
             ["Id"] = 52,
             ["Active"] = {
-                ["Name"] = "Vamonos!",
                 ["Description"] = "Call in a loud, distracting taco truck.",
                 ["Id"] = 52,
                 ["Cooldown"] = 30,
                 ["Thumbnail"] = "rbxassetid://9583885451",
-                ["GlitchCanUse"] = true
+                ["Name"] = "Vamonos!"
             }
         },
         {
@@ -806,7 +810,7 @@ data = {
             ["Active"] = {
                 ["Cooldown"] = 0.2,
                 ["Name"] = "Mold Earth",
-                ["Description"] = "Summon or remove a rock in front of you that can be pushed by thieves and cameras. Up to 10 rocks can be summoned. Fully hold down the ability to remove all rocks.",
+                ["Description"] = "Summon or remove a rock in front of you that can be pushed by thieves and cameras. Up to 20 rocks can be summoned. Fully hold down the ability to remove all rocks.",
                 ["Id"] = 57,
                 ["HoldActivation"] = true,
                 ["Thumbnail"] = "rbxassetid://9945478754",
@@ -826,9 +830,7 @@ data = {
             }
         },
         {
-            ["DepositSpeedMultiplier"] = 0.5,
-            ["InteractSpeedMultiplier"] = 0.6,
-            ["Name"] = "Dexterous",
+            ["Description"] = "Faster item pickup and deposit speed as well as having 18 walk speed. You have only 3 hearts.",
             ["Active"] = {
                 ["Description"] = "Throw/toss a smokebomb that creates a cloud of smoke. Holding the ability for longer means a farther distance.",
                 ["HoldSegments"] = 3,
@@ -841,9 +843,13 @@ data = {
                 ["HoldSpeed"] = 220
             },
             ["Id"] = 59,
-            ["ActiveId"] = 2,
+            ["DepositSpeedMultiplier"] = 0.5,
+            ["HealthCap"] = 6,
+            ["Name"] = "Dexterous",
+            ["MaxHealth"] = 3,
+            ["InteractSpeedMultiplier"] = 1.66,
             ["WalkSpeed"] = 18,
-            ["Description"] = "Faster item pickup and deposit speed as well as having 18 walk speed."
+            ["ActiveId"] = 2
         },
         {
             ["Id"] = 60,
@@ -854,7 +860,7 @@ data = {
                 ["HoldSegments"] = 3,
                 ["Id"] = 60,
                 ["HoldActivation"] = true,
-                ["Thumbnail"] = "rbxassetid://10320349370",
+                ["Thumbnail"] = "rbxassetid://17837132740",
                 ["HoldSpeed"] = 160
             }
         },
@@ -863,8 +869,8 @@ data = {
             ["Active"] = {
                 ["Description"] = "Disguise as an item. Taking damage will clear your disguise.",
                 ["Id"] = 61,
-                ["Cooldown"] = 15,
-                ["Thumbnail"] = "rbxassetid://9666144832",
+                ["Cooldown"] = 8,
+                ["Thumbnail"] = "rbxassetid://17837130616",
                 ["Name"] = "Disguise"
             }
         },
@@ -924,24 +930,26 @@ data = {
             ["Id"] = 65,
             ["Active"] = {
                 ["Name"] = "Meeting",
-                ["Description"] = "Call a meeting. Other thieves earn cash for attending and you earn half of that for each attendee.",
+                ["Description"] = "Call meetings all over the place. Attendees earn cash and stacking money multipliers. You earn a bigger cash reward for each attendee, and a money multiplier if at least one person shows up.",
                 ["Id"] = 65,
-                ["Cooldown"] = 70,
-                ["Thumbnail"] = "rbxassetid://3308181414",
+                ["Cooldown"] = 50,
+                ["Thumbnail"] = "rbxassetid://17837134224",
                 ["GlitchCanUse"] = true
             }
         },
         {
-            ["Id"] = 66,
-            ["InventoryIcon"] = {["Name"] = "GoldenTouch", ["Image"] = "rbxassetid://9138270697"},
+            ["HealthCap"] = 6,
             ["Active"] = {
                 ["Name"] = "Golden Touch",
-                ["Description"] = "Turns the whole map to gold for 10 seconds. Makes items picked up by everybody worth +100% of the original item's value.",
+                ["Description"] = "Turns the whole map to gold for 10 seconds. Makes items picked up by everybody worth +100% of the original item's value. You have 3 hearts.",
                 ["Id"] = 66,
                 ["Cooldown"] = 70,
                 ["Thumbnail"] = "rbxassetid://9138270697",
                 ["GlitchCanUse"] = true
-            }
+            },
+            ["Id"] = 66,
+            ["MaxHealth"] = 3,
+            ["InventoryIcon"] = {["Name"] = "GoldenTouch", ["Image"] = "rbxassetid://9138270697"}
         },
         {
             ["Description"] = "Standing still for 3 seconds gives +25 Walkspeed for 5 seconds.",
@@ -1052,13 +1060,13 @@ data = {
         {
             ["Id"] = 75,
             ["Active"] = {
-                ["Cooldown"] = 30,
+                ["Cooldown"] = 20,
                 ["Name"] = "Coconut Commute",
                 ["IsToggle"] = true,
                 ["Id"] = 75,
                 ["InactiveThumbnail"] = "rbxassetid://12982967237",
                 ["Thumbnail"] = "rbxassetid://12982965603",
-                ["Description"] = "Turn into and later exit a massive coconut that bounces, rolls around, and protects you. When the coconut gets zapped, you bounce around."
+                ["Description"] = "Turn into and later exit a massive coconut that bounces, rolls around, and protects you. When the coconut gets zapped or you press jump, you bounce around."
             }
         },
         {
@@ -1074,11 +1082,13 @@ data = {
         {
             ["Id"] = 77,
             ["Active"] = {
-                ["Description"] = "The floor below you becomes slippery ice. The active ability gives you a speed boost in the direction you're moving.",
+                ["Cooldown"] = 3,
+                ["Name"] = "Snow Skis",
+                ["Description"] = "The floor below you becomes slippery ice. The active ability instantly changes your movement direction with a speed boost. Holding the ability down longer gives a larger speed boost.",
                 ["Id"] = 77,
-                ["Cooldown"] = 5,
+                ["HoldActivation"] = true,
                 ["Thumbnail"] = "rbxassetid://15611411053",
-                ["Name"] = "Snow Skis"
+                ["HoldSpeed"] = 230
             }
         }
     },
@@ -1328,7 +1338,7 @@ data = {
             ["Description"] = "Error 404: Description not found."
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 22,
             ["Name"] = "Dracula",
             ["Rarity"] = 4,
@@ -1482,7 +1492,7 @@ data = {
             ["Description"] = "A terrible outfit for an undercover job."
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 34,
             ["Name"] = "The Mummy",
             ["Rarity"] = 1,
@@ -1492,7 +1502,7 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 35,
             ["Name"] = "Grim Reaper",
             ["Rarity"] = 2,
@@ -1502,7 +1512,7 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 36,
             ["Name"] = "Greymane",
             ["Rarity"] = 2,
@@ -1512,7 +1522,7 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 37,
             ["Name"] = "Skelly",
             ["Rarity"] = 3,
@@ -1522,17 +1532,16 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
             ["AbilityId"] = 38,
             ["Name"] = "Scar",
-            ["Rarity"] = 4,
+            ["CardThumbnail"] = "rbxassetid://137138005557883",
             ["Id"] = 49,
-            ["Description"] = "Horses fear him.",
-            ["Thumbnail"] = "rbxassetid://4204605939",
-            ["RarityTag"] = "Halloween"
+            ["Rarity"] = 5,
+            ["Thumbnail"] = "rbxassetid://82707303013503",
+            ["Description"] = "Horses fear him."
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 39,
             ["Name"] = "Frankenstein's Monster",
             ["Rarity"] = 1,
@@ -1542,7 +1551,7 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 40,
             ["Name"] = "Great Pumpkin",
             ["Rarity"] = 3,
@@ -1552,7 +1561,7 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 67,
             ["Name"] = "Scarecrow",
             ["Rarity"] = 2,
@@ -1562,14 +1571,13 @@ data = {
             ["RarityTag"] = "Halloween"
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
             ["AbilityId"] = 41,
             ["Name"] = "Plague Doctor",
-            ["Rarity"] = 4,
+            ["CardThumbnail"] = "rbxassetid://110974971960041",
             ["Id"] = 53,
-            ["Description"] = "The Doctor is in!",
-            ["Thumbnail"] = "rbxassetid://11297268586",
-            ["RarityTag"] = "Halloween"
+            ["Rarity"] = 4,
+            ["Thumbnail"] = "rbxassetid://128805235284453",
+            ["Description"] = "The Doctor is in!"
         },
         {
             ["AbilityId"] = 63,
@@ -1689,13 +1697,14 @@ data = {
             ["Description"] = "Any place is a great place for a company meeting."
         },
         {
+            ["CardThumbnail"] = "rbxassetid://9583854262",
             ["AbilityId"] = 52,
             ["Name"] = "Pablo",
-            ["CardThumbnail"] = "rbxassetid://9583854262",
-            ["Id"] = 67,
             ["Rarity"] = 2,
+            ["Id"] = 67,
+            ["Description"] = "Standing outside of the San Martin Bank became too boring, so Pablo stepped into the action!",
             ["Thumbnail"] = "rbxassetid://9583858276",
-            ["Description"] = "Standing outside of the San Martin Bank became too boring, so Pablo stepped into the action!"
+            ["RarityTag"] = "Hidden"
         },
         {
             ["AbilityId"] = 53,
@@ -1780,7 +1789,7 @@ data = {
             ["Description"] = "Gets out of bed a changed man."
         },
         {
-            ["CardThumbnail"] = "rbxassetid://14910875434",
+            ["CardThumbnail"] = "rbxassetid://133436375642749",
             ["AbilityId"] = 73,
             ["Name"] = "Raven",
             ["Rarity"] = 3,
@@ -1836,6 +1845,15 @@ data = {
             ["Description"] = "Got these black diamonds in the bag!",
             ["Thumbnail"] = "rbxassetid://15612679443",
             ["RarityTag"] = "Holidays"
+        },
+        {
+            ["AbilityId"] = 47,
+            ["Name"] = "Sprint (Pride)",
+            ["CardThumbnail"] = "",
+            ["Id"] = 83,
+            ["Rarity"] = 7,
+            ["Thumbnail"] = "rbxassetid://18508405653",
+            ["Description"] = "She's marketed all across country."
         }
     }
 }
