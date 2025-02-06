@@ -293,6 +293,24 @@ data = {
             ["Pattern"] = "rbxassetid://14910530840",
             ["Name"] = "Trick or Treat",
             ["Description"] = "Oho! A laser module for all the ghouls, goblins, and ghosts alike! Purchased during Halloween."
+        },
+        {
+            ["Id"] = 47,
+            ["Gradient"] = "rbxassetid://18585641696",
+            ["Name"] = "Banana",
+            ["Description"] = "Could you even ask for anything more?"
+        },
+        {
+            ["Id"] = 48,
+            ["Gradient"] = "rbxassetid://18585662933",
+            ["Name"] = "Seafoam",
+            ["Description"] = "Some say you can feel the mist on the receiving end."
+        },
+        {
+            ["Id"] = 49,
+            ["Pattern"] = "rbxassetid://18585703005",
+            ["Name"] = "Palm Tree",
+            ["Description"] = "A camera can dream."
         }
     },
     ["Moneybags"] = {
@@ -351,6 +369,100 @@ data = {
             ["Name"] = "Mug of Tea",
             ["Description"] = [[Though it may be a duffel bag, we can confirm it is full of tea.\n\n\nslosh slosh slosh]]
         },
-        {["Id"] = 34, ["Special"] = true, ["Name"] = "Dragon Lantern", ["Description"] = "Happy Lunar New Year!"}
+        {["Id"] = 34, ["Special"] = true, ["Name"] = "Dragon Lantern", ["Description"] = "Happy Lunar New Year!"},
+        {
+            ["Id"] = 35,
+            ["Special"] = true,
+            ["Name"] = "Bubble Wand",
+            ["Description"] = "Keep away from sharp objects... or... anything really."
+        },
+        {
+            ["Id"] = 36,
+            ["Special"] = true,
+            ["Name"] = "Poisonous Barrel",
+            ["Description"] = "This stuff comes faraway from a strange valley, or was it the chasm beside the forest? I can't remember."
+        },
+        {["Id"] = 37, ["Name"] = "Loaf of Bread", ["Description"] = "Fashionably late to its expiration date."},
+        {["Id"] = 38, ["Name"] = "Apple", ["Description"] = "A doctor's worst nightmare. Keep away from oranges."},
+        {
+            ["Id"] = 39,
+            ["Name"] = "Content Deleted",
+            ["Description"] = "This one was REALLY cool, but it didn't pass moderation, sorry!"
+        },
+        {["Id"] = 40, ["Name"] = "D20", ["Description"] = "Rolling for a deposit!"},
+        {["Id"] = 41, ["Name"] = "Cheese Wheel", ["Description"] = "Very Gouda."},
+        {
+            ["Id"] = 42,
+            ["Name"] = "Paint Can",
+            ["Description"] = "A nifty way of storing all of your goods!*       *Stored contents may turn orange."
+        },
+        {
+            ["Id"] = 43,
+            ["Special"] = true,
+            ["Name"] = "Atom",
+            ["Description"] = "Even though we work together, do NOT split these earnings."
+        },
+        {["Id"] = 44, ["Name"] = "Bell", ["Description"] = "To whom the bag rolls."},
+        {["Id"] = 45, ["Name"] = "Takoyaki", ["Description"] = "Be careful of the inside, it's hot!"},
+        {["Id"] = 46, ["Name"] = "Bucket", ["Description"] = "Liquidize your assets."},
+        {["Id"] = 47, ["Name"] = "Warm and Cozy", ["Description"] = "Don't catch a cold!"},
+        {["Id"] = 48, ["Name"] = "Propane Tank", ["Description"] = "Accessories aren't the only things sold here."},
+        {["Id"] = 49, ["Name"] = "Bowling Ball", ["Description"] = "Steal up to $300 for a perfect score!"},
+        {
+            ["Id"] = 50,
+            ["Special"] = true,
+            ["Name"] = "Toilet Paper",
+            ["Description"] = "There's always time for some comical vandalism."
+        },
+        {
+            ["Id"] = 51,
+            ["Name"] = "Golden Globe",
+            ["Description"] = "PLEASE do not shake this, there are VALUABLES INSIDE!"
+        },
+        {["Id"] = 52, ["Name"] = "Capsule", ["Description"] = "Didja get anything good?"},
+        {
+            ["Id"] = 53,
+            ["Name"] = "Shopping Bag",
+            ["Description"] = "Shopping sprees and crime sprees hold a lot of similarities!"
+        },
+        {
+            ["Id"] = 54,
+            ["Special"] = true,
+            ["Name"] = "Black Hole",
+            ["Description"] = "Effective and portable, Make sure not to stick your hand in!"
+        },
+        {["Id"] = 55, ["Name"] = "Space Station", ["Description"] = "zeeble gnarp glorble glep"},
+        {["Id"] = 56, ["Name"] = "Coconut", ["Description"] = "Fresh from Chloe's palm trees!"},
+        {
+            ["Id"] = 57,
+            ["Name"] = "Fire Hydrant",
+            ["Description"] = "If in need of reliable storage, this'll extinguish your problem!"
+        },
+        {["Id"] = 58, ["Name"] = "Scuba Helmet", ["Description"] = "Would you kindly rob them blind?"},
+        {["Id"] = 59, ["Name"] = "Lemonade", ["Description"] = "Leave a sour aftertaste for those cameras."},
+        {
+            ["Id"] = 60,
+            ["Name"] = "Sand Castle",
+            ["Description"] = "Watch your money flow like a low tide and build it up again."
+        },
+        {
+            ["Id"] = 61,
+            ["Name"] = "Ship in a Bottle",
+            ["Description"] = "With this, they'll be calling you Ishmael! Or your name. Unless Ishmael is your name. They'll be calling you that anyways."
+        },
+        {["Id"] = 62, ["Special"] = true, ["Name"] = "Moai", ["Description"] = "🗿"},
+        {["Id"] = 63, ["Name"] = "Ice Cream", ["Description"] = "Not recommended against any Incinerator cameras."},
+        {
+            ["Id"] = 64,
+            ["Name"] = "Beach Ball",
+            ["Description"] = "Match your pinstripe with this pinwheel colored ball!"
+        },
+        {
+            ["Id"] = 65,
+            ["Special"] = true,
+            ["Name"] = "Juice Tank",
+            ["Description"] = "What's a surefire way to hide your stolen documents? Make them unreadable, with lime flavoring!"
+        },
+        {["Id"] = 66, ["Name"] = "Bucket o' Sand", ["Description"] = "The best way to construct a heist."}
     }
 }
