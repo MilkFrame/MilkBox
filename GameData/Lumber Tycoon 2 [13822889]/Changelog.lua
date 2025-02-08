@@ -1,5 +1,30 @@
 data = {
     {
+        ["date"] = {["year"] = 2025, ["day"] = 12, ["month"] = 1},
+        ["logs"] = {
+            "Added a Collisions permission in the settings menu. If checked, your items will be able to collide with another player's items if their Collisions permission is also checked. Defaults to false to mitigate harassment and exploits using collisions. This is both a global and per-user permission.",
+            "Added a new Global Permissions tab, including the permissions: Visit Property, Sit in Seats, and Collisions. Removed the Visits from Anyone global permission from its previous location."
+        }
+    },
+    {
+        ["date"] = {["year"] = 2023, ["day"] = 18, ["month"] = 12},
+        ["logs"] = {"Added blue spruce; will spawn during the winter snow event"}
+    },
+    {
+        ["date"] = {["year"] = 2023, ["day"] = 22, ["month"] = 11},
+        ["logs"] = {
+            "Fixed bug with fast axes not registering hits on every swing",
+            "Fixed ping spike/lag when dragging items"
+        }
+    },
+    {
+        ["date"] = {["year"] = 2023, ["day"] = 14, ["month"] = 10},
+        ["logs"] = {
+            "Playstation button input icons",
+            "Added human moderation system to reduce prevalence of harmful exploits"
+        }
+    },
+    {
         ["date"] = {["year"] = 2022, ["day"] = 27, ["month"] = 11},
         ["logs"] = {"Fixed dropping tools on mobile", "Rebalanced blueprint prices and wood requirements"}
     },
