@@ -84,7 +84,7 @@ data = {
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["price"] = 999999999,
+            ["price"] = 300,
             ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 2807422571
@@ -252,6 +252,17 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 844384404
+        },
+        ["Pink Possum"] = {
+            ["rarity"] = 0,
+            ["price"] = 10000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 86463557127824
         },
         ["Casual"] = {
             ["onsale"] = true,
@@ -788,11 +799,9 @@ data = {
             ["pic"] = 82953283
         },
         ["Tinsel Ring"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 2000,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
@@ -879,6 +888,17 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 3442954539
+        },
+        ["Chef Shrimp"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 129563312707054
         },
         ["Ra'k Guitar"] = {
             ["rarity"] = 0,
@@ -1126,16 +1146,16 @@ data = {
         },
         ["Valentine's Bundle"] = {
             ["oname"] = "valentinesbundle",
-            ["pid"] = 712203783,
+            ["pid"] = 1050583133,
             ["price"] = 299,
             ["typ"] = "",
-            ["desc"] = "Receive: Love Hurts Ray Gun, Airborne Pup, Love Aura, Lovely, Lovely Explosion.",
+            ["desc"] = "Receive: Berry Sweet Boba, Pink Possum, Valentine's Crush, Lovebird, Cupid's Arrow.",
             ["_self"] = false,
             ["cat"] = "pass",
             ["rarity"] = 0,
             ["cnpic"] = 0,
             ["incn"] = true,
-            ["pic"] = 16303726977
+            ["pic"] = 93882646400909
         },
         ["Minigamer"] = {
             ["rarity"] = 0,
@@ -1323,6 +1343,20 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 12503958
         },
+        ["Heartbroken"] = {
+            ["rarity"] = 0,
+            ["price"] = 50000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 127),
+            ["textc"] = Color3.fromRGB(221, 127, 199),
+            ["pic"] = 281754128
+        },
         ["Cinco de Mayo Piñata"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -1390,17 +1424,20 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 85680244918793
         },
-        ["Epic Pumpkin"] = {
+        ["Explorer"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 1000000000000000000,
+            ["price"] = 450,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "GreenPigXD",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 11428961189
+            ["pic"] = 281754128,
+            ["textsc"] = Color3.fromRGB(202, 219, 255),
+            ["textc"] = Color3.fromRGB(0, 85, 255)
         },
         ["Killer Whale Launcher"] = {
             ["rarity"] = 0,
@@ -1465,26 +1502,24 @@ data = {
             ["incn"] = true,
             ["pic"] = 9755378913
         },
-        ["Goala Cola"] = {
+        ["Flower Crossbow"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
+            ["codenum"] = 156,
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 28501643
+            ["pic"] = 225072599
         },
         ["Roblox Snowglobe"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 50,
-            ["typ"] = "points",
-            ["marked"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 50,
+            ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 66871713
         },
@@ -1501,20 +1536,17 @@ data = {
             ["_self"] = false,
             ["pic"] = 281701625
         },
-        ["Paladin"] = {
+        ["Present Basket"] = {
             ["rarity"] = 0,
-            ["price"] = 123456678,
+            ["price"] = 999999999,
             ["typ"] = "points",
-            ["Tradeable"] = true,
             ["incn"] = true,
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "JosefinSans",
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["maker"] = "Vliec",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(110, 187, 255),
-            ["pic"] = 281754128
+            ["pic"] = 106922796719672
         },
         ["Big Rainbow Wand"] = {
             ["rarity"] = 0,
@@ -1876,7 +1908,7 @@ data = {
         ["Big Flower"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 485,
+            ["price"] = 500,
             ["typ"] = "points",
             ["_self"] = true,
             ["cat"] = "gear",
@@ -1920,14 +1952,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 389703276
         },
-        ["Disco Ball"] = {
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 1,
+        ["Bee"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "SDMittens",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 147831844
+            ["pic"] = 9657779239
         },
         ["Slush Cannon"] = {
             ["rarity"] = 0,
@@ -2158,17 +2193,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15114017165
         },
-        ["Earths"] = {
-            ["onsale"] = true,
+        ["8-bit Frog"] = {
             ["rarity"] = 0,
-            ["price"] = 830,
-            ["typ"] = "points",
-            ["showatstand"] = true,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
             ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 389703332
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2319364114
         },
         [":O"] = {
             ["rarity"] = 0,
@@ -2226,16 +2259,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 745770256
         },
-        ["Barry the Bear"] = {
+        ["Lightning Storm"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 900,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16468514941
+            ["pic"] = 106533200023407
         },
         ["Batp0ny"] = {
             ["rarity"] = 0,
@@ -2646,11 +2680,9 @@ data = {
             ["pic"] = 281754128
         },
         ["Holly Leaves"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 100,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
@@ -2897,14 +2929,12 @@ data = {
             ["pic"] = 14887713957
         },
         ["Red Pirate Juice"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 140,
-            ["typ"] = "points",
-            ["marked"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 140,
+            ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 25535396
         },
@@ -3315,16 +3345,15 @@ data = {
             ["_self"] = false,
             ["pic"] = 281700381
         },
-        ["Dance Grenade"] = {
+        ["Guitars"] = {
             ["rarity"] = 0,
-            ["price"] = 50000000,
-            ["typ"] = "points",
-            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 65514581
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2306003124
         },
         ["Bacon Frying Pan"] = {
             ["rarity"] = 0,
@@ -3381,7 +3410,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 21384819
+            ["pic"] = 94743580068972
         },
         ["Electronic Illumination Device"] = {
             ["rarity"] = 0,
@@ -3402,7 +3431,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["typ"] = "points",
-            ["pic"] = 29691646
+            ["pic"] = 96548647793205
         },
         ["Mummy"] = {
             ["rarity"] = 0,
@@ -3493,18 +3522,16 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 104938139191078
         },
-        ["Follower"] = {
+        ["Chick Horde"] = {
             ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["Tradeable"] = true,
+            ["price"] = 90,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 13,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(4, 156, 219),
-            ["pic"] = 281754128
+            ["pic"] = 16813071062
         },
         ["Dragon Companion"] = {
             ["Tradeable"] = true,
@@ -3611,17 +3638,14 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 14104492394
         },
-        ["Fire Extinguisher"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 2200,
-            ["typ"] = "points",
-            ["incn"] = true,
+        ["Ascend"] = {
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 1000,
+            ["typ"] = "points",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 27787298
+            ["pic"] = 15288986278
         },
         ["Chocolate Bunny"] = {
             ["Tradeable"] = true,
@@ -3648,26 +3672,30 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Blue sparkles"] = {
+        ["1st Seasoneer"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 496920984
-        },
-        ["Frog"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 270,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
+            ["price"] = 123456678,
             ["typ"] = "points",
-            ["pic"] = 281304204
+            ["incn"] = true,
+            ["textoverride"] = "",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["font"] = "TitilliumWeb",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Beehive"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 117466190
         },
         ["Giga Award"] = {
             ["rarity"] = 0,
@@ -3799,7 +3827,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["typ"] = "points",
-            ["pic"] = 15930781
+            ["pic"] = 70472345235861
         },
         ["Banana Dog"] = {
             ["rarity"] = 0,
@@ -3818,7 +3846,7 @@ data = {
             ["_self"] = false,
             ["cat"] = "pet",
             ["codenum"] = 200,
-            ["maker"] = "french_rxses",
+            ["maker"] = "frenchrxses",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 13982946193
@@ -4177,15 +4205,19 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 16267574204
         },
-        ["Egg Locater"] = {
+        ["Frosty"] = {
             ["rarity"] = 0,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 950,
+            ["price"] = 300,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 110335899
+            ["textsc"] = Color3.fromRGB(0, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Pop"] = {
             ["onsale"] = true,
@@ -4197,15 +4229,17 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 14638399572
         },
-        ["Ink Launcher"] = {
+        ["Caution Crazy"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 990,
+            ["price"] = 875,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 15484924608
+            ["pic"] = 15988117719
         },
         ["Angry Emojis"] = {
             ["rarity"] = 0,
@@ -4444,18 +4478,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 87863072
         },
-        ["Eggy"] = {
-            ["price"] = 540,
+        ["Lightblox Jar"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 350,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 227, 10),
-            ["pic"] = 281754128
+            ["pic"] = 115341569
         },
         ["Police Badge"] = {
             ["rarity"] = 0,
@@ -4785,11 +4818,9 @@ data = {
             ["pic"] = 281754128
         },
         ["Christmas Tree"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 250,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -4862,25 +4893,21 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 376652906
         },
-        ["Disco Balls"] = {
-            ["onsale"] = true,
+        ["Festive Owl"] = {
             ["rarity"] = 0,
-            ["price"] = 950,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["showatstand"] = true,
-            ["cat"] = "effect",
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["_self"] = false,
-            ["pic"] = 500048517
+            ["pic"] = 15555727834
         },
         ["Reindeer"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 5000,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -4959,16 +4986,16 @@ data = {
             ["textc"] = Color3.fromRGB(48, 176, 255),
             ["pic"] = 281754128
         },
-        ["Fairy Wings"] = {
+        ["Cool Moon"] = {
             ["rarity"] = 0,
-            ["price"] = 2500,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
+            ["price"] = 1000000000000000000,
             ["typ"] = "points",
-            ["pic"] = 14688742712
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 9657884968
         },
         ["Red flame"] = {
             ["_self"] = false,
@@ -5623,16 +5650,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1127303607
         },
-        ["8-Bit Fairy"] = {
+        ["Free"] = {
             ["rarity"] = 0,
+            ["textoverride"] = "",
             ["typ"] = "code",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 122,
             ["cnpic"] = 0,
-            ["pic"] = 4088439134
+            ["textsc"] = Color3.fromRGB(255, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Festive Narwhal"] = {
             ["Tradeable"] = true,
@@ -5720,6 +5750,20 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 14688790595
         },
+        ["12th Seasoneer"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187367362",
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
         ["Green Axolotl"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -5731,6 +5775,16 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 10984933577
+        },
+        ["Crowbar"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 21428816
         },
         ["Silent"] = {
             ["rarity"] = 0,
@@ -5767,18 +5821,37 @@ data = {
             ["typ"] = "points",
             ["pic"] = 14887586839
         },
-        ["Snowflakes"] = {
+        ["Binoculars"] = {
             ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 730,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 27039817
+        },
+        ["Snowflakes"] = {
             ["rarity"] = 0,
             ["price"] = 750,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 301038042
+        },
+        ["Vanish"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 540,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 16011786284
         },
         ["Myth"] = {
             ["rarity"] = 0,
@@ -5804,6 +5877,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 10984933227
         },
+        ["Stitch Bunny"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["maker"] = "DuckXander",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15180016976
+        },
         ["Winter Bliss"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -5816,27 +5901,73 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 90461182664976
         },
-        ["Wally the Wombat"] = {
-            ["rarity"] = 0,
-            ["price"] = 10000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15940617932
-        },
-        ["Evil Snowman"] = {
+        ["Gentle"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(67, 158, 227),
+            ["pic"] = 281754128
+        },
+        ["Cupid's Arrow"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 9999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 86191638320341
+        },
+        ["2025 Fireworks"] = {
+            ["rarity"] = 0,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 150,
+            ["maker"] = "Vliec",
+            ["Tradeable"] = true,
+            ["typ"] = "code",
+            ["pic"] = 76181647602542
+        },
+        ["Frost Potion"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 1000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 126954548746507
+            ["pic"] = 94523044775146
+        },
+        ["Skeleton Bat"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 133265898866649
+        },
+        ["Wispy Sparkles"] = {
+            ["rarity"] = 0,
+            ["price"] = 99999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 12117210579
         },
         ["Ice Dragon"] = {
             ["rarity"] = 0,
@@ -5849,18 +5980,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 395086996
         },
-        ["Subscriber"] = {
+        ["Disco Potion"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 213, 0),
-            ["textc"] = Color3.fromRGB(0, 0, 0),
-            ["pic"] = 281754128
+            ["pic"] = 17581427327
         },
         ["Seranok's Golden Chalice of Fame"] = {
             ["rarity"] = 0,
@@ -5873,19 +6003,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 124096461
         },
-        ["Santa title"] = {
+        ["Wooden Sword"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 550,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 0, 0),
-            ["pic"] = 281754128
+            ["pic"] = 111806057366686
         },
         ["Confetti"] = {
             ["rarity"] = 0,
@@ -5907,17 +6035,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 375901409
         },
-        ["Present Basket"] = {
+        ["11th Seasoneer"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["fontface"] = "rbxassetid://12187371324",
+            ["price"] = 123456678,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["maker"] = "Vliec",
-            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 106922796719672
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(0, 0, 0),
+            ["pic"] = 281754128
         },
         ["Tennis Balls"] = {
             ["onsale"] = true,
@@ -5986,31 +6116,7 @@ data = {
             ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
         },
-        ["Ostentatious Award"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 1000000000000000000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 146022817
-        },
-        ["11th Seasoneer"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187371324",
-            ["price"] = 123456678,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(0, 0, 0),
-            ["pic"] = 281754128
-        },
-        ["Alien Parasite"] = {
+        ["8-Bit Phoenix"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -6018,7 +6124,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 136708205737132
+            ["pic"] = 96581854491137
         },
         ["Bauble Detector"] = {
             ["rarity"] = 0,
@@ -6027,9 +6133,32 @@ data = {
             ["_self"] = true,
             ["cat"] = "gear",
             ["maker"] = "HakertowRBX",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["quest"] = "2bil,3",
             ["pic"] = 81007603985840
+        },
+        ["Ruu the Raccoon"] = {
+            ["rarity"] = 0,
+            ["price"] = 9999999,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "Vliec",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 135209400541689
+        },
+        ["Premium Chest"] = {
+            ["pid"] = 1780405436,
+            ["price"] = 99,
+            ["typ"] = "",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "product",
+            ["rarity"] = 0,
+            ["cnpic"] = 0,
+            ["pic"] = 1127302952
         },
         ["Throwing Knife Pen"] = {
             ["rarity"] = 0,
@@ -6054,16 +6183,14 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15366382877
         },
-        ["Ruu the Raccoon"] = {
-            ["rarity"] = 0,
-            ["price"] = 9999999,
-            ["cnpic"] = 0,
+        ["Drop Tokens"] = {
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Vliec",
-            ["Tradeable"] = true,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
             ["typ"] = "points",
-            ["pic"] = 135209400541689
+            ["Tradeable"] = true,
+            ["pic"] = 136151716933462
         },
         ["UFOs"] = {
             ["onsale"] = true,
@@ -6078,16 +6205,14 @@ data = {
             ["_self"] = false,
             ["pic"] = 653921340
         },
-        ["Premium Chest"] = {
-            ["pid"] = 1780405436,
-            ["price"] = 99,
-            ["typ"] = "",
-            ["incn"] = true,
+        ["Metal"] = {
             ["_self"] = false,
-            ["cat"] = "product",
+            ["cat"] = "death",
             ["rarity"] = 0,
-            ["cnpic"] = 0,
-            ["pic"] = 1127302952
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 103679916639993
         },
         ["Spray Paint"] = {
             ["rarity"] = 0,
@@ -6100,14 +6225,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 79155357
         },
-        ["Drop Tokens"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Tokenaire"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
             ["Tradeable"] = true,
-            ["pic"] = 136151716933462
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 0, 255),
+            ["pic"] = 281754128
         },
         ["Didgeridoo"] = {
             ["onsale"] = true,
@@ -6132,40 +6262,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16443585326
         },
-        ["Metal"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 103679916639993
-        },
-        ["Scatterblaster"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 13506760
-        },
-        ["Tokenaire"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 0, 255),
-            ["pic"] = 281754128
-        },
         ["Play Rewards Plus"] = {
             ["oname"] = "prplus",
             ["pid"] = 950802051,
@@ -6178,6 +6274,17 @@ data = {
             ["cnpic"] = 0,
             ["incn"] = true,
             ["pic"] = 113266451985296
+        },
+        ["Scatterblaster"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 13506760
         },
         ["Halloween Bundle"] = {
             ["oname"] = "halloweenbundle",
@@ -6192,6 +6299,27 @@ data = {
             ["incn"] = true,
             ["pic"] = 98332426039756
         },
+        ["Space Sandwich"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 280,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 12510145
+        },
+        ["Little Quokka"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 79797133261982
+        },
         ["Triangulum"] = {
             ["rarity"] = 0,
             ["price"] = 99999999999,
@@ -6204,46 +6332,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 12117210861
         },
-        ["Nice"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(179, 179, 179),
-            ["textc"] = Color3.fromRGB(0, 255, 127),
-            ["pic"] = 281754128
-        },
-        ["Little Quokka"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 79797133261982
-        },
-        ["Elven"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 410,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(85, 60, 43),
-            ["textc"] = Color3.fromRGB(70, 207, 61),
-            ["pic"] = 281754128
-        },
         ["Darren the Dolphin"] = {
             ["rarity"] = 0,
             ["typ"] = "code",
@@ -6254,6 +6342,40 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 126658871235090
+        },
+        ["Water Drop"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 86828716429805
+        },
+        ["Elven"] = {
+            ["rarity"] = 0,
+            ["price"] = 410,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(85, 60, 43),
+            ["textc"] = Color3.fromRGB(70, 207, 61),
+            ["pic"] = 281754128
+        },
+        ["Shapes"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 97949546503173
         },
         ["Fluffy Bunny"] = {
             ["rarity"] = 0,
@@ -6294,14 +6416,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 35955964
         },
-        ["Water Drop"] = {
+        ["Chubby Dragon"] = {
+            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 86828716429805
+            ["incn"] = true,
+            ["pic"] = 123352537137530
         },
         ["Lollipop Cat"] = {
             ["rarity"] = 0,
@@ -6315,14 +6438,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15123009166
         },
-        ["Bowl Over"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Bambu the Red Panda"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
             ["Tradeable"] = true,
-            ["pic"] = 127894273780051
+            ["cnpic"] = 0,
+            ["pic"] = 12117505166
         },
         ["Kenny the Koala"] = {
             ["rarity"] = 0,
@@ -6335,26 +6460,29 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 14224722604
         },
-        ["Pirate Flags"] = {
+        ["Sparkler"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 480,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 1287555634
+        },
+        ["Berry Sweet Boba"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
+            ["cat"] = "gear",
+            ["maker"] = "Vliec",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 72584687084192
-        },
-        ["Cousin Tentacles"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 129239716313021
+            ["pic"] = 79423837249116
         },
         ["Demigod"] = {
             ["rarity"] = 0,
@@ -6368,42 +6496,6 @@ data = {
             ["level"] = 36,
             ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
-        },
-        ["Feeling Down"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "khankord",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 140212647631521
-        },
-        ["Gentle"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(67, 158, 227),
-            ["pic"] = 281754128
-        },
-        ["AFK Sign"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 900,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 13607188258
         },
         ["Exuberant"] = {
             ["rarity"] = 0,
@@ -6419,7 +6511,7 @@ data = {
             ["textc"] = Color3.fromRGB(14, 213, 64),
             ["pic"] = 281754128
         },
-        ["Pumpkin Pail"] = {
+        ["Princess Mischief's Wand"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -6428,7 +6520,45 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 2463960267
+            ["pic"] = 49367516
+        },
+        ["AFK Sign"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 900,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 13607188258
+        },
+        ["Comedian"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(34, 145, 167),
+            ["textc"] = Color3.fromRGB(255, 255, 127),
+            ["pic"] = 281754128
+        },
+        [":D"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(0, 255, 0),
+            ["pic"] = 281754128
         },
         ["Cookies"] = {
             ["rarity"] = 0,
@@ -6451,19 +6581,16 @@ data = {
             ["incn"] = true,
             ["pic"] = 124510698979370
         },
-        ["Comedian"] = {
+        ["Rebel Incinitron 6530"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(34, 145, 167),
-            ["textc"] = Color3.fromRGB(255, 255, 127),
-            ["pic"] = 281754128
+            ["pic"] = 247534391
         },
         ["150 Coins"] = {
             ["pid"] = 25531432,
@@ -6489,7 +6616,7 @@ data = {
             ["textc"] = Color3.fromRGB(255, 0, 0),
             ["pic"] = 281754128
         },
-        [":D"] = {
+        ["Barista"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -6499,20 +6626,18 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(0, 255, 0),
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(79, 79, 79),
             ["pic"] = 281754128
         },
-        ["Retro Candy"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
+        ["Cossack Bottle"] = {
+            ["_self"] = false,
             ["cat"] = "gear",
-            ["Tradeable"] = true,
+            ["codenum"] = 1,
+            ["rarity"] = 0,
+            ["typ"] = "code",
             ["cnpic"] = 0,
-            ["pic"] = 65015331
+            ["pic"] = 6551559689
         },
         ["Roboarm"] = {
             ["rarity"] = 0,
@@ -6560,8 +6685,9 @@ data = {
             ["textc"] = Color3.fromRGB(61, 134, 231),
             ["pic"] = 281754128
         },
-        ["Barista"] = {
+        ["Aesthetic"] = {
             ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187377099",
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
@@ -6570,8 +6696,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(79, 79, 79),
+            ["textsc"] = Color3.fromRGB(170, 85, 255),
+            ["textc"] = Color3.fromRGB(213, 206, 255),
             ["pic"] = 281754128
         },
         ["Blackholes"] = {
@@ -6602,42 +6728,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 0, 127),
             ["pic"] = 281754128
         },
-        ["Crowbar"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 21428816
-        },
-        ["Aesthetic"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187377099",
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(170, 85, 255),
-            ["textc"] = Color3.fromRGB(213, 206, 255),
-            ["pic"] = 281754128
-        },
-        ["Blue Electro"] = {
-            ["rarity"] = 0,
-            ["price"] = 99999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 12117211932
-        },
         ["Fiery"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -6652,16 +6742,56 @@ data = {
             ["textc"] = Color3.fromRGB(255, 85, 0),
             ["pic"] = 281754128
         },
-        ["Limb Stretching Spell"] = {
+        ["Inquisitive"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 149, 244),
+            ["pic"] = 281754128
+        },
+        ["Blue Electro"] = {
+            ["rarity"] = 0,
+            ["price"] = 99999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 106639591
+            ["pic"] = 12117211932
+        },
+        ["Steel"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(204, 204, 4),
+            ["textc"] = Color3.fromRGB(106, 106, 106),
+            ["pic"] = 281754128
+        },
+        ["Fireflies"] = {
+            ["rarity"] = 0,
+            ["price"] = 99999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 16445541559
         },
         ["Quirky"] = {
             ["rarity"] = 0,
@@ -6688,18 +6818,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 59098198
         },
-        ["Steel"] = {
+        ["9th Seasoneer"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["fontface"] = "rbxassetid://12187376910",
+            ["price"] = 123456678,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(204, 204, 4),
-            ["textc"] = Color3.fromRGB(106, 106, 106),
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Dazzling Heart"] = {
@@ -6769,17 +6899,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 12552175
         },
-        ["Leafstorm Wand"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 200,
-            ["maker"] = "impjelly",
-            ["cnpic"] = 0,
-            ["pic"] = 16158157232
-        },
         ["DJ"] = {
             ["rarity"] = 0,
             ["fontface"] = "rbxassetid://12187360881",
@@ -6792,6 +6911,20 @@ data = {
             ["textoverride"] = "",
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Writer"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
@@ -6817,20 +6950,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 19362375
-        },
-        ["Writer"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
         },
         ["Happy"] = {
             ["rarity"] = 0,
@@ -6860,16 +6979,18 @@ data = {
             ["textc"] = Color3.fromRGB(142, 142, 212),
             ["pic"] = 281754128
         },
-        ["Crimson Cats"] = {
+        ["Notable"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
+            ["group"] = 2649054,
+            ["typ"] = "group",
+            ["textoverride"] = "",
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
+            ["cat"] = "title",
             ["cnpic"] = 0,
-            ["pic"] = 18724734888
+            ["rank"] = 3,
+            ["textsc"] = Color3.fromRGB(80, 37, 0),
+            ["textc"] = Color3.fromRGB(230, 126, 34),
+            ["pic"] = 281754128
         },
         ["Bizarre"] = {
             ["rarity"] = 0,
@@ -6899,15 +7020,15 @@ data = {
             ["textc"] = Color3.fromRGB(40, 80, 191),
             ["pic"] = 281754128
         },
-        ["Zombie Protest Sign"] = {
-            ["rarity"] = 0,
+        ["Zero Gravity"] = {
+            ["onsale"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 300,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 1800,
             ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 304716824
+            ["Tradeable"] = true,
+            ["pic"] = 13456477384
         },
         ["Reliable"] = {
             ["rarity"] = 0,
@@ -6921,6 +7042,20 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(187, 222, 255),
             ["textc"] = Color3.fromRGB(89, 135, 191),
+            ["pic"] = 281754128
+        },
+        ["Upbeat"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(196, 123, 255),
+            ["textc"] = Color3.fromRGB(221, 216, 60),
             ["pic"] = 281754128
         },
         ["Hammy the Hamster"] = {
@@ -6956,7 +7091,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088448096
         },
-        ["Upbeat"] = {
+        ["Basic"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -6966,8 +7101,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(196, 123, 255),
-            ["textc"] = Color3.fromRGB(221, 216, 60),
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Brave"] = {
@@ -6983,20 +7118,6 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 85, 0),
             ["textc"] = Color3.fromRGB(0, 0, 0),
-            ["pic"] = 281754128
-        },
-        ["Basic"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Doctor"] = {
@@ -7028,16 +7149,6 @@ data = {
             ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
         },
-        ["Lemons"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 2306004131
-        },
         ["Powerful"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -7052,17 +7163,15 @@ data = {
             ["textc"] = Color3.fromRGB(227, 45, 0),
             ["pic"] = 281754128
         },
-        ["Griffin"] = {
-            ["onsale"] = true,
+        ["Lemons"] = {
             ["rarity"] = 0,
-            ["price"] = 5500,
-            ["typ"] = "points",
-            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 596998569
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2306004131
         },
         ["Dangerous"] = {
             ["rarity"] = 0,
@@ -7076,6 +7185,33 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(255, 0, 0),
+            ["pic"] = 281754128
+        },
+        ["Griffin"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 5500,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 596998569
+        },
+        ["Natural"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187363887,Bold",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["typ"] = "points",
+            ["price"] = 1675,
+            ["textsc"] = Color3.fromRGB(85, 85, 0),
+            ["textc"] = Color3.fromRGB(85, 255, 0),
             ["pic"] = 281754128
         },
         ["Sk8r"] = {
@@ -7103,15 +7239,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 11766512872
         },
-        ["Ninja Frog"] = {
+        ["Divine"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 16536156856
+            ["textsc"] = Color3.fromRGB(162, 162, 162),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Nancy"] = {
             ["rarity"] = 0,
@@ -7147,19 +7287,16 @@ data = {
             ["typ"] = "points",
             ["pic"] = 633295766
         },
-        ["Divine"] = {
+        ["Korblox Ice Claws"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(162, 162, 162),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 223067194
         },
         ["Prismatic"] = {
             ["rarity"] = 0,
@@ -7190,16 +7327,20 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Spotlight"] = {
+        ["Murderer"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["font"] = "PermanentMarker",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 200,
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 8369727875
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(170, 0, 0),
+            ["pic"] = 281754128
         },
         ["Ollie Octopus"] = {
             ["rarity"] = 0,
@@ -7253,15 +7394,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16468406946
         },
-        ["Basketballs"] = {
+        ["Decoder"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
+            ["textoverride"] = "",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["pic"] = 2306001433
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 19,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(0, 255, 0),
+            ["pic"] = 281754128
         },
         ["Snowman Title"] = {
             ["rarity"] = 0,
@@ -7288,19 +7433,18 @@ data = {
             ["incn"] = true,
             ["pic"] = 12063793702
         },
-        ["Murderer"] = {
+        ["Authentic"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
-            ["font"] = "PermanentMarker",
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(170, 0, 0),
+            ["textsc"] = Color3.fromRGB(185, 150, 9),
+            ["textc"] = Color3.fromRGB(255, 209, 94),
             ["pic"] = 281754128
         },
         ["Trader"] = {
@@ -7317,18 +7461,19 @@ data = {
             ["textc"] = Color3.fromRGB(100, 65, 42),
             ["pic"] = 281754128
         },
-        ["Authentic"] = {
+        ["Baller"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["font"] = "JosefinSans",
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(185, 150, 9),
-            ["textc"] = Color3.fromRGB(255, 209, 94),
+            ["textsc"] = Color3.fromRGB(255, 0, 0),
+            ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
         },
         ["Red Divergent"] = {
@@ -7357,21 +7502,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Baller"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["font"] = "JosefinSans",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 0, 0),
-            ["textc"] = Color3.fromRGB(0, 0, 0),
-            ["pic"] = 281754128
-        },
         ["Charming"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -7384,6 +7514,20 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(117, 138, 255),
+            ["pic"] = 281754128
+        },
+        ["German"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Mouthy Moon"] = {
@@ -7408,17 +7552,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 86618389
-        },
-        ["Vine Staff"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 181326974
         },
         ["STAR"] = {
             ["rarity"] = 0,
@@ -7463,6 +7596,17 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
+        ["White Smoke"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 104655946943126
+        },
         ["Sandstorm"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -7474,17 +7618,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 16532985273
-        },
-        ["Shapes"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 97949546503173
         },
         ["Cold"] = {
             ["rarity"] = 0,
@@ -7498,6 +7631,20 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(170, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Different"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(148, 255, 248),
+            ["textc"] = Color3.fromRGB(52, 149, 191),
             ["pic"] = 281754128
         },
         ["Flying Angel"] = {
@@ -7522,7 +7669,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 329865611
         },
-        ["Different"] = {
+        ["Italian"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -7532,8 +7679,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(148, 255, 248),
-            ["textc"] = Color3.fromRGB(52, 149, 191),
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Illuminated"] = {
@@ -7550,32 +7697,6 @@ data = {
             ["textc"] = Color3.fromRGB(131, 31, 225),
             ["pic"] = 281754128
         },
-        ["Italian"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Flying Devil"] = {
-            ["rarity"] = 0,
-            ["price"] = 3000,
-            ["cnpic"] = 0,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "VortexOrbit",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 14688742483
-        },
         ["Queen"] = {
             ["rarity"] = 0,
             ["fontface"] = "rbxassetid://12187371622",
@@ -7591,6 +7712,18 @@ data = {
             ["textc"] = Color3.fromRGB(142, 85, 255),
             ["pic"] = 281754128
         },
+        ["Flying Devil"] = {
+            ["rarity"] = 0,
+            ["price"] = 3000,
+            ["cnpic"] = 0,
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "VortexOrbit",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 14688742483
+        },
         ["Freaky"] = {
             ["rarity"] = 0,
             ["fontface"] = "rbxassetid://12187376357",
@@ -7605,6 +7738,17 @@ data = {
             ["textsc"] = Color3.fromRGB(0, 0, 0),
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
+        },
+        ["Vampiric Epic faces"] = {
+            ["rarity"] = 0,
+            ["price"] = 900,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 11428961014
         },
         ["Bunch of Balloons"] = {
             ["onsale"] = true,
@@ -7662,20 +7806,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088440039
         },
-        ["German"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
         ["Sweet"] = {
             ["rarity"] = 0,
             ["fontface"] = "rbxassetid://8836875837",
@@ -7689,6 +7819,20 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(221, 96, 255),
+            ["pic"] = 281754128
+        },
+        ["NOISY"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 171, 69),
+            ["textc"] = Color3.fromRGB(191, 22, 0),
             ["pic"] = 281754128
         },
         ["Bad Seed"] = {
@@ -7734,7 +7878,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 94688373502697
         },
-        ["NOISY"] = {
+        ["Humble"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -7744,8 +7888,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 171, 69),
-            ["textc"] = Color3.fromRGB(191, 22, 0),
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
         ["Fake C4"] = {
@@ -7836,20 +7980,6 @@ data = {
             ["textc"] = Color3.fromRGB(170, 0, 0),
             ["pic"] = 281754128
         },
-        ["Humble"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
         ["Patient"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -7876,6 +8006,20 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(145, 255, 0),
+            ["pic"] = 281754128
+        },
+        ["Jubilant"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 117, 117),
             ["pic"] = 281754128
         },
         ["Mechanic"] = {
@@ -7905,7 +8049,7 @@ data = {
             ["_self"] = false,
             ["pic"] = 500049526
         },
-        ["Jubilant"] = {
+        ["Girly"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -7915,8 +8059,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 117, 117),
+            ["textsc"] = Color3.fromRGB(255, 210, 255),
+            ["textc"] = Color3.fromRGB(255, 85, 255),
             ["pic"] = 281754128
         },
         ["Big Bunny"] = {
@@ -7937,20 +8081,6 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 15604770592
         },
-        ["Girly"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 210, 255),
-            ["textc"] = Color3.fromRGB(255, 85, 255),
-            ["pic"] = 281754128
-        },
         ["Timid"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -7963,6 +8093,19 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(128, 164, 191),
+            ["pic"] = 281754128
+        },
+        ["Miner"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(105, 255, 122),
+            ["textc"] = Color3.fromRGB(74, 50, 0),
             ["pic"] = 281754128
         },
         ["Smileys"] = {
@@ -8015,32 +8158,29 @@ data = {
             ["textc"] = Color3.fromRGB(255, 170, 127),
             ["pic"] = 281754128
         },
-        ["Assassin"] = {
+        ["Fairy"] = {
             ["rarity"] = 0,
-            ["price"] = 123456678,
-            ["typ"] = "points",
-            ["font"] = "SciFi",
+            ["textoverride"] = "",
+            ["typ"] = "mission",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["textoverride"] = "",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textsc"] = Color3.fromRGB(0, 203, 0),
             ["textc"] = Color3.fromRGB(255, 55, 55),
             ["pic"] = 281754128
         },
-        ["Skulls"] = {
-            ["onsale"] = true,
+        ["Spotlight"] = {
             ["rarity"] = 0,
-            ["price"] = 380,
-            ["typ"] = "points",
-            ["showatstand"] = true,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
+            ["typ"] = "code",
+            ["incn"] = true,
             ["_self"] = false,
+            ["cat"] = "effect",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 281701444
+            ["pic"] = 8369727875
         },
         ["Protest Sign: Save the Noobs"] = {
             ["rarity"] = 0,
@@ -8082,21 +8222,7 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Inquisitive"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 149, 244),
-            ["pic"] = 281754128
-        },
-        ["Worldwide Stunna"] = {
+        ["Wild West Sarsaparilla"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -8105,31 +8231,40 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 230850651
+            ["pic"] = 55304364
         },
-        ["Caution Crazy"] = {
+        ["Fox"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 875,
+            ["price"] = 4500,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 15988117719
+            ["pic"] = 2319364522
         },
-        ["Zany Trail"] = {
+        ["Yeti"] = {
             ["rarity"] = 0,
-            ["price"] = 900,
-            ["typ"] = "points",
+            ["price"] = 1550,
+            ["cnpic"] = 0,
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "khankord",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 15603326346
+        },
+        ["Winterfang"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
             ["cnpic"] = 0,
-            ["pic"] = 14538418946
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 109672883343262
         },
         ["Rich Tea Biscuits"] = {
             ["rarity"] = 0,
@@ -8151,7 +8286,7 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 6031323370
         },
-        ["Winterfang"] = {
+        ["Wild Bunny"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8159,7 +8294,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 109672883343262
+            ["pic"] = 99566056630599
         },
         ["Robux logos"] = {
             ["onsale"] = true,
@@ -8183,7 +8318,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 188539356
         },
-        ["Wild Bunny"] = {
+        ["Epic Popper"] = {
+            ["rarity"] = 0,
+            ["price"] = 9999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 14186127455
+        },
+        ["Unhatched Egg"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8191,20 +8337,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 99566056630599
-        },
-        ["Winner"] = {
-            ["badge"] = "Winner",
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "badge",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 135, 10),
-            ["textc"] = Color3.fromRGB(59, 53, 255),
-            ["pic"] = 281754128
+            ["pic"] = 100066840592153
         },
         ["Korblox Bird"] = {
             ["rarity"] = 0,
@@ -8242,14 +8375,12 @@ data = {
             ["pic"] = 281754128
         },
         ["Frosty the Snowfriend"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 500,
-            ["typ"] = "points",
-            ["marked"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 500,
+            ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 18970925
         },
@@ -8303,16 +8434,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16536158970
         },
-        ["Unhatched Egg"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 100066840592153
-        },
         ["Trollamon"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -8353,6 +8474,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 114908063248096
         },
+        ["Bowl Over"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 127894273780051
+        },
         ["Green Epicsauce"] = {
             ["_self"] = false,
             ["cat"] = "gear",
@@ -8360,7 +8490,7 @@ data = {
             ["Tradeable"] = true,
             ["typ"] = "mission",
             ["cnpic"] = 0,
-            ["pic"] = 38161409
+            ["pic"] = 140385335595821
         },
         ["Seal"] = {
             ["onsale"] = true,
@@ -8385,17 +8515,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 8899436176
         },
-        ["Flushed"] = {
-            ["rarity"] = 0,
-            ["price"] = 650,
+        ["Scorpion"] = {
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["showatstand"] = true,
-            ["cat"] = "effect",
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "Elizwill",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["_self"] = false,
-            ["pic"] = 14564234778
+            ["pic"] = 138312623614105
         },
         ["Light Sprite"] = {
             ["onsale"] = true,
@@ -8409,7 +8538,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 119453858778291
         },
-        ["Skeleton Bat"] = {
+        ["Scary Fish"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8417,7 +8546,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 133265898866649
+            ["pic"] = 92022560339110
         },
         ["Giraffe"] = {
             ["price"] = 999999999,
@@ -8471,27 +8600,6 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 16470577919
         },
-        ["Scorpion"] = {
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Elizwill",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 138312623614105
-        },
-        ["Scary Fish"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 92022560339110
-        },
         ["Rocket Cat"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -8501,6 +8609,30 @@ data = {
             ["typ"] = "points",
             ["incn"] = true,
             ["pic"] = 93031179719295
+        },
+        ["Nice"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(179, 179, 179),
+            ["textc"] = Color3.fromRGB(0, 255, 127),
+            ["pic"] = 281754128
+        },
+        ["Raincoat Duck"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 82451441973075
         },
         ["Jingle Bell Launcher"] = {
             ["rarity"] = 0,
@@ -8513,16 +8645,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 2620404520
         },
-        ["Epic Popper"] = {
-            ["rarity"] = 0,
-            ["price"] = 9999999,
+        ["Purple Wyvern"] = {
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "pet",
+            ["maker"] = "Soulskor",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 14186127455
+            ["pic"] = 94152451805664
         },
         ["The Yellow Strange"] = {
             ["rarity"] = 0,
@@ -8604,7 +8736,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 273347998
         },
-        ["Raincoat Duck"] = {
+        ["Purple Tired Tortoise"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8612,7 +8744,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 82451441973075
+            ["pic"] = 134425224051513
         },
         ["Playful Elephant"] = {
             ["Tradeable"] = true,
@@ -8639,16 +8771,15 @@ data = {
             ["textc"] = Color3.fromRGB(0, 170, 255),
             ["pic"] = 281754128
         },
-        ["Purple Wyvern"] = {
+        ["Pumpkin Pup"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Soulskor",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 94152451805664
+            ["pic"] = 103377049699131
         },
         ["Shy"] = {
             ["rarity"] = 0,
@@ -8701,7 +8832,7 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Purple Tired Tortoise"] = {
+        ["Pumpkin Cat"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8709,7 +8840,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 134425224051513
+            ["pic"] = 113988249892408
         },
         ["Mariachi Guitar"] = {
             ["rarity"] = 0,
@@ -8735,15 +8866,15 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 0),
             ["pic"] = 281754128
         },
-        ["Pumpkin Pup"] = {
-            ["Tradeable"] = true,
+        ["Party Blaster Paint Gun"] = {
+            ["rarity"] = 0,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["price"] = 999999999,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 103377049699131
+            ["cnpic"] = 0,
+            ["pic"] = 678068860
         },
         ["Missionary"] = {
             ["rarity"] = 0,
@@ -8779,37 +8910,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 168137452
         },
-        ["Pumpkin Cat"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 113988249892408
-        },
-        ["Meowy Christmas"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 101735542811194
-        },
-        ["8-Bit Pumpkin Launcher"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 1115557487
-        },
         ["Pineapple"] = {
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -8820,6 +8920,16 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 126255215020509
+        },
+        ["Meowy Christmas"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 101735542811194
         },
         ["Pharaoh Llamhotep"] = {
             ["Tradeable"] = true,
@@ -8840,6 +8950,26 @@ data = {
             ["typ"] = "points",
             ["incn"] = true,
             ["pic"] = 131230589864978
+        },
+        ["Origami Dragon"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 100563556051976
+        },
+        ["New Years Kitty"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 138912370765109
         },
         ["Sabretooth"] = {
             ["rarity"] = 0,
@@ -8886,7 +9016,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15484962570
         },
-        ["Origami Dragon"] = {
+        ["Ne'Kotikoz Incarnate"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8894,7 +9024,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 100563556051976
+            ["pic"] = 90051808026879
         },
         ["Sea Sorcerer Staff"] = {
             ["rarity"] = 0,
@@ -8931,26 +9061,6 @@ data = {
             ["textc"] = Color3.fromRGB(196, 209, 255),
             ["pic"] = 281754128
         },
-        ["New Years Kitty"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 138912370765109
-        },
-        ["Ne'Kotikoz Incarnate"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 90051808026879
-        },
         ["Mythical Dragon"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -8960,6 +9070,27 @@ data = {
             ["typ"] = "points",
             ["incn"] = true,
             ["pic"] = 97348685291736
+        },
+        ["Mantis"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 118532227003705
+        },
+        ["Lost Animal"] = {
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "YANDRAK_S",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 101102629479149
         },
         ["Sloth"] = {
             ["onsale"] = true,
@@ -8983,7 +9114,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 471841109
         },
-        ["Mantis"] = {
+        ["Kamp Koala"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -8991,7 +9122,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 118532227003705
+            ["pic"] = 89880626851301
         },
         ["PHANTOM"] = {
             ["rarity"] = 0,
@@ -9008,26 +9139,30 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Lost Animal"] = {
+        ["Ghost Puppy"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "YANDRAK_S",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 101102629479149
+            ["pic"] = 128922879876740
         },
-        ["Kamp Koala"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
+        ["Real"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 750,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 89880626851301
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 0, 0),
+            ["pic"] = 281754128
         },
         ["2,600 Coins"] = {
             ["pid"] = 25531457,
@@ -9051,7 +9186,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 2319364338
         },
-        ["Ghost Puppy"] = {
+        ["Caltrops"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15174734
+        },
+        ["Dragonzilla"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
@@ -9059,22 +9205,7 @@ data = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 128922879876740
-        },
-        ["Noob"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 420,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 0),
-            ["textc"] = Color3.fromRGB(0, 85, 255),
-            ["pic"] = 281754128
+            ["pic"] = 87504070215496
         },
         ["Plane"] = {
             ["rarity"] = 0,
@@ -9109,27 +9240,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 128340608809256
         },
-        ["Confusion's Cauldron"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 56282013
-        },
-        ["Dragonzilla"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 87504070215496
-        },
         ["Dinner Doggie"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -9139,6 +9249,26 @@ data = {
             ["typ"] = "points",
             ["incn"] = true,
             ["pic"] = 96496026913603
+        },
+        ["Cousin Tentacles"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 129239716313021
+        },
+        ["Count Llamula"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 98547895350526
         },
         ["Bullet Barrage"] = {
             ["_self"] = false,
@@ -9161,15 +9291,55 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 30623975
         },
-        ["Count Llamula"] = {
-            ["Tradeable"] = true,
+        ["Translator"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "user",
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["users"] = {
+                ["2505822414"] = 2505822414,
+                ["39572700"] = 39572700,
+                ["63806682"] = 63806682,
+                ["133827873"] = 133827873,
+                ["502755636"] = 502755636,
+                ["1892140879"] = 1892140879,
+                ["523308161"] = 523308161,
+                ["157512226"] = 157512226,
+                ["1556467641"] = 1556467641,
+                ["38173842"] = 38173842,
+                ["812536504"] = 812536504,
+                ["58411846"] = 58411846,
+                ["30715003"] = 30715003,
+                ["705781954"] = 705781954,
+                ["1584901821"] = 1584901821,
+                ["36725804"] = 36725804,
+                ["528422976"] = 528422976,
+                ["658527621"] = 658527621,
+                ["1081802123"] = 1081802123,
+                ["483999354"] = 483999354,
+                ["545838502"] = 545838502,
+                ["1705391543"] = 1705391543,
+                ["117574488"] = 117574488,
+                ["948222820"] = 948222820,
+                ["3002083827"] = 3002083827,
+                ["314984270"] = 314984270,
+                ["340416482"] = 340416482,
+                ["1598479027"] = 1598479027,
+                ["806943528"] = 806943528,
+                ["212550361"] = 212550361,
+                ["_self"] = false,
+                ["1440773865"] = 1440773865,
+                ["389170208"] = 389170208,
+                ["1077484224"] = 1077484224,
+                ["1030019962"] = 1030019962,
+                ["870274811"] = 870274811,
+                ["136884168"] = 136884168
+            },
             ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 98547895350526
+            ["cat"] = "title",
+            ["textsc"] = Color3.fromRGB(38, 88, 255),
+            ["textc"] = Color3.fromRGB(131, 255, 129),
+            ["pic"] = 281754128
         },
         ["Yasjee"] = {
             ["rarity"] = 0,
@@ -9181,26 +9351,6 @@ data = {
             ["maker"] = "RookVanguard",
             ["Tradeable"] = true,
             ["pic"] = 18627409834
-        },
-        ["Chubby Dragon"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 123352537137530
-        },
-        ["4-String Roblocaster"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 14115908
         },
         ["Cactus Cat"] = {
             ["Tradeable"] = true,
@@ -9223,29 +9373,57 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 119327865582375
         },
-        ["Bambu the Red Panda"] = {
+        ["Golden Survivor"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["font"] = "ArialBold",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 12117505166
-        },
-        ["Survivor"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["Tradeable"] = true,
+            ["textoverride"] = "Survivor",
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(0, 170, 0),
+            ["textc"] = Color3.fromRGB(255, 215, 0),
             ["pic"] = 281754128
+        },
+        ["Superhero"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187370928",
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 0),
+            ["textc"] = Color3.fromRGB(0, 0, 255),
+            ["pic"] = 281754128
+        },
+        ["Banana"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 94509700971477
+        },
+        ["Sonic Boom"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 16532985419
         },
         ["Leader"] = {
             ["badge"] = "Leader",
@@ -9271,15 +9449,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18434778
         },
-        ["Banana"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
+        ["Baby Octopus"] = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 94509700971477
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "Elizwill",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 70910529787518
         },
         ["Second Pet"] = {
             ["oname"] = "dualpets",
@@ -9295,36 +9474,37 @@ data = {
             ["pic"] = 397142439
         },
         ["Christmas Cookie"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["price"] = 80,
             ["typ"] = "points",
-            ["marked"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 41707954
+        },
+        ["Throwing Spork"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 820,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 41707954
+            ["pic"] = 107441224
         },
-        ["Comic Thwack"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 1600,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 15933970266
-        },
-        ["Baby Octopus"] = {
+        ["Anime Fox"] = {
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
-            ["maker"] = "Elizwill",
+            ["maker"] = "Betroner",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 70910529787518
+            ["pic"] = 138223947242343
         },
         ["Parrot"] = {
             ["onsale"] = true,
@@ -9338,27 +9518,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 633295644
         },
-        ["Tiny Elephant"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 2319366010
-        },
-        ["Anime Fox"] = {
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Betroner",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 138223947242343
-        },
         ["All Nighter Potoo"] = {
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -9369,15 +9528,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 139102156307614
         },
-        ["Snowball Cannon"] = {
-            ["rarity"] = 0,
+        ["Alien Parasite"] = {
+            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
+            ["cat"] = "pet",
             ["cnpic"] = 0,
-            ["typ"] = "code",
+            ["price"] = 999999999,
+            ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 66808517
+            ["pic"] = 136708205737132
         },
         ["Adorable Fish"] = {
             ["Tradeable"] = true,
@@ -9389,6 +9548,28 @@ data = {
             ["incn"] = true,
             ["pic"] = 87855200398923
         },
+        ["Snowball Cannon"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 66808517
+        },
+        ["Pink Stars"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 82133383095940
+        },
         ["Watermelons"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -9399,15 +9580,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 2306008268
         },
-        ["8-Bit Phoenix"] = {
-            ["Tradeable"] = true,
+        ["Anti Award"] = {
+            ["rarity"] = 0,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "gear",
             ["cnpic"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 1000000000000000000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 96581854491137
+            ["pic"] = 98671811806776
         },
         ["Robo Blaster"] = {
             ["rarity"] = 0,
@@ -9431,16 +9612,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 19094041
         },
-        ["Pink Stars"] = {
+        ["10th Seasoneer"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["fontface"] = "rbxassetid://12187360881",
+            ["price"] = 123456678,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 82133383095940
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Spooky"] = {
             ["rarity"] = 0,
@@ -9467,29 +9651,29 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 9755229968
         },
-        ["Anti Award"] = {
+        ["Block Frog"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 1000000000000000000,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["pic"] = 98671811806776
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 123,
+            ["maker"] = "IlluminatedDawn",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 11995645959
         },
-        ["10th Seasoneer"] = {
+        ["Bubblehead"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187360881",
-            ["price"] = 123456678,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 122957650213115
         },
         ["Anubis Staff"] = {
             ["rarity"] = 0,
@@ -9525,41 +9709,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 127017759672621
         },
-        ["8-bit Frog"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 2319364114
-        },
-        ["Heart Radiance"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Vliec",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 94466166675046
-        },
-        ["Festive Tree"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 6000,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 11803576568
-        },
         ["Rubies"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -9570,6 +9719,39 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 97234742536768
+        },
+        ["Biohazard"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 129804794328328
+        },
+        ["Festive Tree"] = {
+            ["rarity"] = 0,
+            ["price"] = 6000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 11803576568
+        },
+        ["Pink Flowers"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 653921293
         },
         ["Pinata Bat"] = {
             ["rarity"] = 0,
@@ -9592,27 +9774,31 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 16269038070
         },
-        ["Biohazard"] = {
+        ["Noise Maker"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 400,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 129804794328328
+            ["pic"] = 20056056
         },
-        ["Pink Flowers"] = {
+        ["Ghostly"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 380,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 653921293
+            ["textsc"] = Color3.fromRGB(116, 116, 116),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Green flame"] = {
             ["_self"] = false,
@@ -9623,20 +9809,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 497102576
         },
-        ["Hyperborean"] = {
+        ["Snow Bird"] = {
             ["rarity"] = 0,
-            ["fontface"] = "SpecialElite",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
+            ["price"] = 1600,
             ["typ"] = "points",
-            ["price"] = 1675,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(99, 155, 185),
-            ["pic"] = 281754128
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15358326209
         },
         ["Beast Claws"] = {
             ["rarity"] = 0,
@@ -9686,39 +9868,6 @@ data = {
             ["textc"] = Color3.fromRGB(0, 0, 255),
             ["pic"] = 281754128
         },
-        ["Round Cat"] = {
-            ["rarity"] = 0,
-            ["price"] = 3300,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Floofurious",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14223912554
-        },
-        ["Snow Bird"] = {
-            ["rarity"] = 0,
-            ["price"] = 1600,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15358326209
-        },
-        ["Petrify"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 280,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 14638399719
-        },
         ["Union Jacks"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -9730,14 +9879,26 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 78783585201591
         },
-        ["Teleport Away"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Pirate Flags"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["pic"] = 102154703944116
+            ["cnpic"] = 0,
+            ["pic"] = 72584687084192
+        },
+        ["Petrify"] = {
+            ["onsale"] = true,
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 280,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 14638399719
         },
         ["Locks"] = {
             ["rarity"] = 0,
@@ -9749,6 +9910,26 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 138331961547674
+        },
+        ["Teleport Away"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 102154703944116
+        },
+        ["Violins"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 105598140926555
         },
         ["Talented"] = {
             ["rarity"] = 0,
@@ -9788,7 +9969,7 @@ data = {
             ["textc"] = Color3.fromRGB(0, 85, 255),
             ["pic"] = 281754128
         },
-        ["Violins"] = {
+        ["Discs"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -9797,9 +9978,9 @@ data = {
             ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 105598140926555
+            ["pic"] = 85377054873488
         },
-        ["White Smoke"] = {
+        ["Green Smoke"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -9808,7 +9989,7 @@ data = {
             ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 104655946943126
+            ["pic"] = 121395670954107
         },
         ["Watermelon"] = {
             ["onsale"] = true,
@@ -9832,7 +10013,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 301088070
         },
-        ["Discs"] = {
+        ["Pink Smoke"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -9841,7 +10022,7 @@ data = {
             ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 85377054873488
+            ["pic"] = 82100258868909
         },
         ["Atomic"] = {
             ["rarity"] = 0,
@@ -9856,28 +10037,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 201, 202),
             ["pic"] = 281754128
         },
-        ["Green Smoke"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 121395670954107
-        },
-        ["Pink Smoke"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 82100258868909
-        },
         ["Grey flame"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -9889,28 +10048,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 84581191374079
         },
-        ["Prof. Eggman"] = {
+        ["Latke"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 90,
+            ["price"] = 150,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16814562266
-        },
-        ["Magical Horseshoe"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 920,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 287437692
+            ["pic"] = 41386264
         },
         ["Green Ringed"] = {
             ["rarity"] = 0,
@@ -9924,15 +10072,25 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 99511549580338
         },
-        ["Liberty Torch"] = {
+        ["Prof. Eggman"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 1650,
+            ["price"] = 90,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 55267047
+            ["pic"] = 16814562266
+        },
+        ["Radiation"] = {
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["rarity"] = 0,
+            ["Tradeable"] = true,
+            ["typ"] = "mission",
+            ["cnpic"] = 0,
+            ["pic"] = 2306006637
         },
         ["Treasure Chests"] = {
             ["rarity"] = 0,
@@ -9968,6 +10126,30 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 121220354224020
+        },
+        ["Poisonous"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "Maxocado_Avocado",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 101663175108749
+        },
+        ["Radiowaves"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "Maxocado_Avocado",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 118072624879142
         },
         ["Community Manager"] = {
             ["textoverride"] = "",
@@ -10013,7 +10195,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 14223382407
         },
-        ["Poisonous"] = {
+        ["Red Virus"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10023,7 +10205,7 @@ data = {
             ["maker"] = "Maxocado_Avocado",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 101663175108749
+            ["pic"] = 125054588639217
         },
         ["Blorb"] = {
             ["rarity"] = 0,
@@ -10047,17 +10229,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 526283356
         },
-        ["Radiowaves"] = {
+        ["Heart Radiance"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
-            ["maker"] = "Maxocado_Avocado",
+            ["maker"] = "Vliec",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 118072624879142
+            ["pic"] = 94466166675046
         },
         ["Flamethrower"] = {
             ["rarity"] = 0,
@@ -10070,17 +10252,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 33799241
         },
-        ["Red Virus"] = {
+        ["Partygoer"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 100,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Maxocado_Avocado",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 125054588639217
+            ["textsc"] = Color3.fromRGB(0, 85, 255),
+            ["textc"] = Color3.fromRGB(255, 150, 97),
+            ["pic"] = 281754128
         },
         ["Monster Friend"] = {
             ["rarity"] = 0,
@@ -10128,29 +10312,28 @@ data = {
             ["textc"] = Color3.fromRGB(202, 181, 255),
             ["pic"] = 281754128
         },
-        ["Pink Axolotl"] = {
+        ["Flowers"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 1600,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Felgrim",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 9665090766
+            ["pic"] = 12727260482
         },
-        ["Bubblehead"] = {
+        ["Head in the Clouds"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
+            ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 122957650213115
+            ["pic"] = 124388322737300
         },
         ["Airborne Bear"] = {
             ["rarity"] = 0,
@@ -10211,17 +10394,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 176248445
         },
-        ["Abducting"] = {
+        ["Glint in My Eye"] = {
             ["rarity"] = 0,
-            ["price"] = 900,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
+            ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 10984933941
+            ["pic"] = 97663089755191
         },
         ["Elegant"] = {
             ["onsale"] = true,
@@ -10238,17 +10421,16 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 127),
             ["pic"] = 281754128
         },
-        ["Head in the Clouds"] = {
+        ["Korblox Mage Staff"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "khankord",
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 124388322737300
+            ["pic"] = 127397345
         },
         ["Alert"] = {
             ["rarity"] = 0,
@@ -10275,7 +10457,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 17825415299
         },
-        ["Glint in My Eye"] = {
+        ["Debuff"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10285,7 +10467,7 @@ data = {
             ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 97663089755191
+            ["pic"] = 87771808618840
         },
         ["Protected"] = {
             ["rarity"] = 0,
@@ -10299,16 +10481,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16445541111
         },
-        ["Mackerel"] = {
+        ["Rune Cast"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 46156602
+            ["pic"] = 133474180922625
         },
         ["Starter Pack"] = {
             ["oname"] = "starterbundle",
@@ -10344,7 +10527,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16536159702
         },
-        ["Debuff"] = {
+        ["Feeling Down"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10354,19 +10537,18 @@ data = {
             ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 87771808618840
+            ["pic"] = 140212647631521
         },
-        ["Rune Cast"] = {
+        ["Heart-Eyed Epic faces"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 13370,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
+            ["showatstand"] = true,
             ["cat"] = "effect",
-            ["maker"] = "khankord",
             ["Tradeable"] = true,
+            ["_self"] = false,
             ["cnpic"] = 0,
-            ["pic"] = 133474180922625
+            ["pic"] = 103127451445919
         },
         ["Blueberry Pie"] = {
             ["rarity"] = 0,
@@ -10393,20 +10575,17 @@ data = {
             ["textc"] = Color3.fromRGB(0, 255, 0),
             ["pic"] = 281754128
         },
-        ["Virtual"] = {
+        ["Dragon"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 750,
+            ["price"] = 8000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(0, 0, 255),
-            ["pic"] = 281754128
+            ["pic"] = 281307932
         },
         ["Radical"] = {
             ["rarity"] = 0,
@@ -10447,42 +10626,15 @@ data = {
             ["pic"] = 14834526885
         },
         ["Santa"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 200,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 19260295
-        },
-        ["Spaghettificate"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 1200,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 12923937667
-        },
-        ["Audacious"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "LuckiestGuy",
-            ["price"] = 123456678,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(250, 255, 198),
-            ["pic"] = 281754128
         },
         ["Center of the Universe"] = {
             ["rarity"] = 0,
@@ -10495,29 +10647,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 73183801397578
-        },
-        ["Starlight"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 133670261756055
-        },
-        ["The Green Strange"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 27,
-            ["maker"] = "Ciraey",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 128751801280919
         },
         ["Flame Aura"] = {
             ["rarity"] = 0,
@@ -10543,33 +10672,28 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 128613084217727
         },
-        ["Charismatic"] = {
+        ["Starlight"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187606934,Bold",
-            ["price"] = 9223372036854776000,
+            ["price"] = 999999999,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Sprinkling Snowflakes"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 1000,
-            ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 11803575977
+            ["pic"] = 133670261756055
+        },
+        ["The Green Strange"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["codenum"] = 27,
+            ["maker"] = "Ciraey",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 128751801280919
         },
         ["Frost Whirl"] = {
             ["rarity"] = 0,
@@ -10595,7 +10719,33 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 92554293676010
         },
-        ["RoVacuum"] = {
+        ["Charismatic"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187606934,Bold",
+            ["price"] = 9223372036854776000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Sprinkling Snowflakes"] = {
+            ["rarity"] = 0,
+            ["price"] = 1000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 11803575977
+        },
+        ["Red Paintball Gun"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10604,7 +10754,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 84394194
+            ["pic"] = 27133356
         },
         ["Fission"] = {
             ["rarity"] = 0,
@@ -10618,16 +10768,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 82373330955778
         },
-        ["Heart Balloon"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 101,
-            ["Tradeable"] = true,
-            ["typ"] = "code",
-            ["cnpic"] = 0,
-            ["pic"] = 146063920
-        },
         ["Planatseric"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -10639,6 +10779,38 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 77208898526925
+        },
+        ["Rock It Guitar"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 13023796
+        },
+        ["Heart Balloon"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 101,
+            ["Tradeable"] = true,
+            ["typ"] = "code",
+            ["cnpic"] = 0,
+            ["pic"] = 146063920
+        },
+        ["Smashing Drum"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 139432241
         },
         ["Raig Chair"] = {
             ["rarity"] = 0,
@@ -10661,16 +10833,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16814851724
         },
-        ["Sign: This Is NOT Epic"] = {
+        ["Spellbound Vortex"] = {
             ["rarity"] = 0,
-            ["price"] = 900,
-            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
             ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 14688742409
+            ["cnpic"] = 0,
+            ["pic"] = 95298956626558
         },
         ["RedBLOX"] = {
             ["_self"] = false,
@@ -10715,7 +10888,7 @@ data = {
             ["incn"] = true,
             ["pic"] = 2306008681
         },
-        ["Staff of Double Disasters"] = {
+        ["Worldwide Stunna"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10724,19 +10897,16 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 165711024
+            ["pic"] = 230850651
         },
-        ["Spellbound Vortex"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
+        ["Yellow flame"] = {
             ["_self"] = false,
             ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
+            ["rarity"] = 0,
             ["Tradeable"] = true,
+            ["typ"] = "mission",
             ["cnpic"] = 0,
-            ["pic"] = 95298956626558
+            ["pic"] = 497102508
         },
         ["Transistors"] = {
             ["rarity"] = 0,
@@ -10771,69 +10941,27 @@ data = {
             ["textc"] = Color3.fromRGB(190, 220, 42),
             ["pic"] = 281754128
         },
-        ["Popular"] = {
+        ["Pixel Cottontail"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "GhostedToast1",
             ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 0, 255),
-            ["pic"] = 281754128
+            ["pic"] = 13120573343
         },
-        ["Translator"] = {
+        ["Water Balloon"] = {
             ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "user",
-            ["_self"] = false,
-            ["users"] = {
-                ["2505822414"] = 2505822414,
-                ["39572700"] = 39572700,
-                ["63806682"] = 63806682,
-                ["133827873"] = 133827873,
-                ["502755636"] = 502755636,
-                ["1892140879"] = 1892140879,
-                ["523308161"] = 523308161,
-                ["157512226"] = 157512226,
-                ["1556467641"] = 1556467641,
-                ["38173842"] = 38173842,
-                ["812536504"] = 812536504,
-                ["58411846"] = 58411846,
-                ["30715003"] = 30715003,
-                ["705781954"] = 705781954,
-                ["1584901821"] = 1584901821,
-                ["36725804"] = 36725804,
-                ["528422976"] = 528422976,
-                ["658527621"] = 658527621,
-                ["1081802123"] = 1081802123,
-                ["483999354"] = 483999354,
-                ["545838502"] = 545838502,
-                ["1705391543"] = 1705391543,
-                ["117574488"] = 117574488,
-                ["948222820"] = 948222820,
-                ["3002083827"] = 3002083827,
-                ["314984270"] = 314984270,
-                ["340416482"] = 340416482,
-                ["1598479027"] = 1598479027,
-                ["806943528"] = 806943528,
-                ["212550361"] = 212550361,
-                ["_self"] = false,
-                ["1440773865"] = 1440773865,
-                ["389170208"] = 389170208,
-                ["1077484224"] = 1077484224,
-                ["1030019962"] = 1030019962,
-                ["870274811"] = 870274811,
-                ["136884168"] = 136884168
-            },
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["cat"] = "title",
-            ["textsc"] = Color3.fromRGB(38, 88, 255),
-            ["textc"] = Color3.fromRGB(131, 255, 129),
-            ["pic"] = 281754128
+            ["pic"] = 28605868
         },
         ["Exalted"] = {
             ["rarity"] = 0,
@@ -10882,16 +11010,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 266598254
         },
-        ["Wild West Sarsaparilla"] = {
+        ["Spectral Spider"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 9999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 55304364
+            ["pic"] = 14369698992
         },
         ["Leaves"] = {
             ["onsale"] = true,
@@ -10906,7 +11034,7 @@ data = {
             ["_self"] = false,
             ["pic"] = 301037971
         },
-        ["Water Balloon"] = {
+        ["Staff of Double Disasters"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10915,7 +11043,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 28605868
+            ["pic"] = 165711024
         },
         ["Mr Tentacles"] = {
             ["onsale"] = true,
@@ -10939,16 +11067,16 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 14638400518
         },
-        ["Spectral Spider"] = {
+        ["Trollin' Pumpkin"] = {
             ["rarity"] = 0,
-            ["price"] = 9999999,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 14369698992
+            ["pic"] = 62759779
         },
         ["Friendly"] = {
             ["onsale"] = true,
@@ -10965,7 +11093,7 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Subspace Debonair Disguise"] = {
+        ["Top Secret Briefcase"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -10974,7 +11102,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 48371409
+            ["pic"] = 972320155
         },
         ["Protest Sign: Touch Grass"] = {
             ["rarity"] = 0,
@@ -10998,7 +11126,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 42165567
         },
-        ["Trollin' Pumpkin"] = {
+        ["The Midas Glove"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11007,18 +11135,18 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 62759779
+            ["pic"] = 17386312
         },
-        ["Angry Canaries"] = {
+        ["The Awe Star"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 18724735391
+            ["pic"] = 18009573
         },
         ["barcode"] = {
             ["rarity"] = 0,
@@ -11044,43 +11172,38 @@ data = {
             ["incn"] = true,
             ["pic"] = 45021106
         },
-        ["The Midas Glove"] = {
+        ["Maraca"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 17386312
-        },
-        ["The Awe Star"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 18009573
-        },
-        ["Frosty"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 300,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "gear",
+            ["codenum"] = 122,
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 21339489
+        },
+        ["Jerry the Jellyfish"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 13518413961
+        },
+        ["Super Slash Cat Claws"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 287439075
         },
         ["Lil Monstrosity"] = {
             ["rarity"] = 0,
@@ -11092,19 +11215,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 14559755884
         },
-        ["Boxer"] = {
+        ["Subspace Debonair Disguise"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 0, 0),
-            ["textc"] = Color3.fromRGB(131, 0, 0),
-            ["pic"] = 281754128
+            ["pic"] = 48371409
         },
         ["Mini Typical"] = {
             ["rarity"] = 0,
@@ -11137,16 +11257,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 111900204
         },
-        ["Super Slash Cat Claws"] = {
+        ["Camouflage"] = {
+            ["onsale"] = true,
+            ["_self"] = false,
+            ["cat"] = "death",
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 240,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 287439075
+            ["pic"] = 14638401784
         },
         ["Conscience"] = {
             ["rarity"] = 0,
@@ -11188,17 +11307,14 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 412770810
         },
-        ["Easter Aura"] = {
-            ["rarity"] = 0,
-            ["price"] = 90,
-            ["typ"] = "points",
-            ["incn"] = true,
+        ["Top of Tree"] = {
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "ydcj",
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 3500,
+            ["typ"] = "points",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16814554846
+            ["pic"] = 15611777747
         },
         ["Paw prints"] = {
             ["onsale"] = true,
@@ -11225,28 +11341,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 107374927712459
         },
-        ["Tornados"] = {
-            ["rarity"] = 0,
-            ["price"] = 270,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 596987629
-        },
-        ["Smashing Drum"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 139432241
-        },
         ["Shrunken Head"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -11269,17 +11363,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 12559287
         },
-        ["Festive Moose"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 4088440433
-        },
         ["Robot Dance Gun"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -11291,12 +11374,43 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 466401463
         },
+        ["RoVacuum"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 84394194
+        },
+        ["Festive Moose"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 4088440433
+        },
+        ["Retro Candy"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 65015331
+        },
         ["Festive"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 500,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -11343,28 +11457,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 132426853571122
         },
-        ["Red Paintball Gun"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 27133356
-        },
-        ["Rebel Incinitron 6530"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 247534391
-        },
         ["Rat Plague Summoner"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -11386,6 +11478,28 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 81616223
+        },
+        ["Pumpkin Pi"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 18453189
+        },
+        ["Pumpkin Pail"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 2463960267
         },
         ["Aficionado"] = {
             ["rarity"] = 0,
@@ -11423,7 +11537,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 101080684
         },
-        ["Pumpkin Pi"] = {
+        ["Protest: More Gear Nao"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11432,7 +11546,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 18453189
+            ["pic"] = 16434995
         },
         ["Cogs"] = {
             ["onsale"] = true,
@@ -11512,7 +11626,7 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Protest: More Gear Nao"] = {
+        ["Polar Bear Cub"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11521,7 +11635,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16434995
+            ["pic"] = 85447762
         },
         ["Flashlight"] = {
             ["rarity"] = 0,
@@ -11533,18 +11647,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 983812132
         },
-        ["Princess Mischief's Wand"] = {
+        ["Herbert T. Shark"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 1200,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "Bad_B0y",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 49367516
+            ["pic"] = 14886848571
         },
-        ["Polar Bear Cub"] = {
+        ["PE Whistle"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11553,7 +11668,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 85447762
+            ["pic"] = 128121687
         },
         ["Bandleader Guinea Pig"] = {
             ["rarity"] = 0,
@@ -11576,16 +11691,16 @@ data = {
             ["typ"] = "points",
             ["pic"] = 31310688
         },
-        ["Cool Moon"] = {
+        ["Ninja Guitar"] = {
             ["rarity"] = 0,
-            ["price"] = 1000000000000000000,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 9657884968
+            ["pic"] = 13018520
         },
         ["Light Pegasus"] = {
             ["Tradeable"] = true,
@@ -11612,39 +11727,6 @@ data = {
             ["textc"] = Color3.fromRGB(24, 46, 48),
             ["pic"] = 281754128
         },
-        ["PE Whistle"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 128121687
-        },
-        ["Ninja Guitar"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 13018520
-        },
-        ["Brighteyes's Sparkling Shillelagh"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 53057311
-        },
         ["Neon Throwing Stars"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -11667,20 +11749,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18445767
         },
-        ["Poor"] = {
-            ["onsale"] = true,
+        ["Brighteyes's Sparkling Shillelagh"] = {
             ["rarity"] = 0,
-            ["price"] = 10,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(0, 170, 255),
-            ["pic"] = 281754128
+            ["pic"] = 53057311
         },
         ["Molecular Atomizer"] = {
             ["rarity"] = 0,
@@ -11703,6 +11781,21 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 2310152660
+        },
+        ["Poor"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 10,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(0, 170, 255),
+            ["pic"] = 281754128
         },
         ["Meteor Staff"] = {
             ["rarity"] = 0,
@@ -11747,6 +11840,28 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 26415326
+        },
+        ["Mackerel"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 46156602
+        },
+        ["Limb Stretching Spell"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 106639591
         },
         ["Cars"] = {
             ["rarity"] = 0,
@@ -11811,18 +11926,17 @@ data = {
             ["textc"] = Color3.fromRGB(47, 47, 47),
             ["pic"] = 281754128
         },
-        ["Korblox Mage Staff"] = {
+        ["Mini Worthy"] = {
             ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["price"] = 999999999,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 127397345
+            ["pic"] = 6276305911
         },
-        ["Korblox Ice Claws"] = {
+        ["Keith's Vengeance Launcher"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11831,7 +11945,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 223067194
+            ["pic"] = 29467199
         },
         ["Fragrant"] = {
             ["rarity"] = 0,
@@ -11858,19 +11972,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 301087861
         },
-        ["Benevolent"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "Merriweather,Bold",
-            ["price"] = 123456678,
+        ["Eggcellent"] = {
+            ["price"] = 360,
             ["typ"] = "points",
-            ["incn"] = true,
             ["Tradeable"] = true,
+            ["incn"] = true,
+            ["textoverride"] = "",
             ["_self"] = false,
             ["cat"] = "title",
-            ["textoverride"] = "",
+            ["font"] = "Fantasy",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["textsc"] = Color3.fromRGB(67, 170, 83),
+            ["textc"] = Color3.fromRGB(196, 255, 213),
             ["pic"] = 281754128
         },
         ["Silent Assassin Logos"] = {
@@ -11883,17 +11996,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1427109630
         },
-        ["The Celebrator"] = {
+        ["Instant Campfire"] = {
             ["rarity"] = 0,
-            ["price"] = 9999999,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
+            ["_self"] = true,
             ["cat"] = "gear",
-            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 14185740312
+            ["pic"] = 123020284
         },
         ["Plucky"] = {
             ["rarity"] = 0,
@@ -11932,7 +12044,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 8714287370
         },
-        ["Keith's Vengeance Launcher"] = {
+        ["Icicle Cannon"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11941,7 +12053,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 29467199
+            ["pic"] = 20518488
         },
         ["Staff of Neverending Frost"] = {
             ["rarity"] = 0,
@@ -11967,7 +12079,7 @@ data = {
             ["textc"] = Color3.fromRGB(0, 170, 0),
             ["pic"] = 281754128
         },
-        ["Instant Campfire"] = {
+        ["Ice Staff"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -11976,7 +12088,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 123020284
+            ["pic"] = 19703910
         },
         ["Hunter"] = {
             ["rarity"] = 0,
@@ -11991,28 +12103,6 @@ data = {
             ["textsc"] = Color3.fromRGB(220, 0, 0),
             ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
-        },
-        ["Icicle Cannon"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 20518488
-        },
-        ["Ice Staff"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 19703910
         },
         ["Ice Bucket"] = {
             ["rarity"] = 0,
@@ -12036,14 +12126,41 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 86282081
         },
-        ["Confetti Explosion"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Ink Launcher"] = {
             ["rarity"] = 0,
-            ["price"] = 1000,
-            ["typ"] = "points",
+            ["_self"] = false,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["pic"] = 17592705007
+            ["price"] = 990,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 15484924608
+        },
+        ["Hanukiah"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 99811043
+        },
+        ["Athlete"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187368843",
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Earth's Might Staff"] = {
             ["rarity"] = 0,
@@ -12056,7 +12173,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 102601392
         },
-        ["Hanukiah"] = {
+        ["Gridiron Guitar"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -12065,7 +12182,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 99811043
+            ["pic"] = 12888183
         },
         ["Void Sheep"] = {
             ["rarity"] = 0,
@@ -12089,20 +12206,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 10397755130
         },
-        ["Athlete"] = {
+        ["Nessie"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187368843",
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 4088442395
         },
         ["Raccoon"] = {
             ["onsale"] = true,
@@ -12116,7 +12229,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 501098702
         },
-        ["Gridiron Guitar"] = {
+        ["Tiger Warrior Club"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -12125,30 +12238,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 12888183
-        },
-        ["Stop Hitting Yourself"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 3500,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 91492679
-        },
-        ["Tom's Beans"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 220,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 103838856
+            ["pic"] = 1014121078
         },
         ["Electronic Silencer 777"] = {
             ["rarity"] = 0,
@@ -12161,16 +12251,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 104755287
         },
-        ["Top Secret Briefcase"] = {
+        ["Blue Balloon Animal"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 1200,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 972320155
+            ["pic"] = 14113973642
         },
         ["Discus"] = {
             ["rarity"] = 0,
@@ -12183,15 +12274,45 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 88405952
         },
-        ["Protest Sign: Blame John"] = {
+        ["Santa title"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 21435759
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 0, 0),
+            ["pic"] = 281754128
+        },
+        ["Imbecile"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187375716",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["typ"] = "points",
+            ["price"] = 1675,
+            ["textsc"] = Color3.fromRGB(85, 85, 127),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Confusion's Cauldron"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 56282013
         },
         ["Ferret"] = {
             ["Tradeable"] = true,
@@ -12202,17 +12323,6 @@ data = {
             ["typ"] = "points",
             ["incn"] = true,
             ["pic"] = 94699722475055
-        },
-        ["Caltrops"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15174734
         },
         ["Breath of Ice"] = {
             ["rarity"] = 0,
@@ -12236,6 +12346,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 166886129
         },
+        ["Follower"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "code",
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 13,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(4, 156, 219),
+            ["pic"] = 281754128
+        },
         ["Turkey Leg"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -12258,15 +12381,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 78479489100943
         },
-        ["Red Balloons"] = {
+        ["Boomerang"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 2306007203
+            ["pic"] = 13426134
         },
         ["The Cube"] = {
             ["rarity"] = 0,
@@ -12279,7 +12403,7 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 9831748551
         },
-        ["Boomerang"] = {
+        ["Bongos"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -12288,7 +12412,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 13426134
+            ["pic"] = 57777862
         },
         ["Visornaire"] = {
             ["rarity"] = 0,
@@ -12305,16 +12429,15 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Bongos"] = {
+        ["Protest Sign: Blame John"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
+            ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
             ["cnpic"] = 0,
-            ["pic"] = 57777862
+            ["pic"] = 21435759
         },
         ["Police Baton"] = {
             ["rarity"] = 0,
@@ -12325,17 +12448,6 @@ data = {
             ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 11845845
-        },
-        ["Earth"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 740,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 596995858
         },
         ["Bag O Christmas Tree Seeds"] = {
             ["rarity"] = 0,
@@ -12359,6 +12471,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 167579317
         },
+        ["8-Bit Pumpkin Launcher"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 1115557487
+        },
         ["Lion"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
@@ -12381,16 +12504,6 @@ data = {
             ["incn"] = true,
             ["pic"] = 94270385360190
         },
-        ["Party Blaster Paint Gun"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 678068860
-        },
         ["Drop Stars"] = {
             ["_self"] = false,
             ["cat"] = "death",
@@ -12398,6 +12511,17 @@ data = {
             ["typ"] = "points",
             ["rarity"] = 0,
             ["pic"] = 18744166898
+        },
+        ["Angry Canaries"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 18724735391
         },
         ["Dozens of Dinosaurs"] = {
             ["rarity"] = 0,
@@ -12422,17 +12546,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 13515326423
         },
-        ["Latke"] = {
-            ["onsale"] = true,
+        ["Crimson Cats"] = {
             ["rarity"] = 0,
-            ["price"] = 150,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 41386264
+            ["pic"] = 18724734888
         },
         ["Robot Dog"] = {
             ["onsale"] = true,
@@ -12486,19 +12609,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 51, 170),
             ["pic"] = 281754128
         },
-        ["Notable"] = {
-            ["rarity"] = 0,
-            ["group"] = 2649054,
-            ["typ"] = "group",
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["cnpic"] = 0,
-            ["rank"] = 3,
-            ["textsc"] = Color3.fromRGB(80, 37, 0),
-            ["textc"] = Color3.fromRGB(230, 126, 34),
-            ["pic"] = 281754128
-        },
         ["Bobo the Picnic Bear"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -12510,15 +12620,29 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18591403233
         },
-        ["Mini Worthy"] = {
+        ["Torch"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
+            ["price"] = 250,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 31596396
+        },
+        ["Fire Whirl"] = {
+            ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 6276305911
+            ["pic"] = 16532984547
         },
         ["Red Shield"] = {
             ["pricehidden"] = true,
@@ -12554,28 +12678,6 @@ data = {
             ["typ"] = "points",
             ["pic"] = 29516227
         },
-        ["Power of the Crystals"] = {
-            ["rarity"] = 0,
-            ["price"] = 99999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 17581427785
-        },
-        ["Cyan sparkles"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 120,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 596979424
-        },
         ["shrugface"] = {
             ["rarity"] = 0,
             ["price"] = 360,
@@ -12589,6 +12691,26 @@ data = {
             ["textsc"] = Color3.fromRGB(85, 0, 127),
             ["textc"] = Color3.fromRGB(170, 255, 255),
             ["pic"] = 281754128
+        },
+        ["Cyan sparkles"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["codenum"] = 120,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 596979424
+        },
+        ["Robot Spider"] = {
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["rarity"] = 0,
+            ["Tradeable"] = true,
+            ["typ"] = "mission",
+            ["cnpic"] = 0,
+            ["pic"] = 2319365585
         },
         ["Hologram"] = {
             ["rarity"] = 0,
@@ -12619,7 +12741,7 @@ data = {
             ["_self"] = false,
             ["cat"] = "pet",
             ["codenum"] = 200,
-            ["maker"] = "french_rxses",
+            ["maker"] = "frenchrxses",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 13982945920
@@ -12635,20 +12757,6 @@ data = {
             ["typ"] = "points",
             ["pic"] = 281306607
         },
-        ["Rodis Winner 2023"] = {
-            ["rarity"] = 0,
-            ["price"] = 123456678,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "TitilliumWeb",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
         ["eyesnlips"] = {
             ["rarity"] = 0,
             ["price"] = 1500,
@@ -12663,17 +12771,26 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Wolf"] = {
+        ["Disco Ball"] = {
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 1,
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["cnpic"] = 0,
+            ["pic"] = 147831844
+        },
+        ["Zzzz"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 3200,
+            ["price"] = 140,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
+            ["showatstand"] = true,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
+            ["_self"] = false,
             ["cnpic"] = 0,
-            ["pic"] = 2319366142
+            ["pic"] = 500049783
         },
         ["Haunted Cheezburger"] = {
             ["rarity"] = 0,
@@ -12696,17 +12813,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 2306007568
         },
-        ["Zzzz"] = {
-            ["onsale"] = true,
+        ["Zombie Protest Sign"] = {
             ["rarity"] = 0,
-            ["price"] = 140,
-            ["typ"] = "points",
-            ["showatstand"] = true,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
             ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 300,
+            ["typ"] = "points",
             ["cnpic"] = 0,
-            ["pic"] = 500049783
+            ["pic"] = 304716824
         },
         ["Popper"] = {
             ["rarity"] = 0,
@@ -12747,29 +12862,6 @@ data = {
             ["textc"] = Color3.fromRGB(170, 139, 197),
             ["pic"] = 281754128
         },
-        ["Zero Gravity"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 1800,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 13456477384
-        },
-        ["Winter Snowfall"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 2500,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 111821665
-        },
         ["Zee's Cotton Candy"] = {
             ["rarity"] = 0,
             ["typ"] = "code",
@@ -12781,6 +12873,29 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 11498338321
+        },
+        ["Winter Snowfall"] = {
+            ["rarity"] = 0,
+            ["price"] = 2500,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 111821665
+        },
+        ["Zany Trail"] = {
+            ["rarity"] = 0,
+            ["price"] = 900,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "khankord",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 14538418946
         },
         ["Purple Subscriber"] = {
             ["rarity"] = 0,
@@ -12819,16 +12934,16 @@ data = {
             ["textc"] = Color3.fromRGB(165, 251, 255),
             ["pic"] = 281754128
         },
-        ["Yeti"] = {
+        ["Festive Lights Trail"] = {
             ["rarity"] = 0,
-            ["price"] = 1550,
-            ["cnpic"] = 0,
+            ["price"] = 999999,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 15603326346
+            ["cnpic"] = 0,
+            ["pic"] = 15603326714
         },
         ["uhhactually"] = {
             ["rarity"] = 0,
@@ -12867,15 +12982,6 @@ data = {
             ["typ"] = "points",
             ["pic"] = 22958466
         },
-        ["Yellow flame"] = {
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["rarity"] = 0,
-            ["Tradeable"] = true,
-            ["typ"] = "mission",
-            ["cnpic"] = 0,
-            ["pic"] = 497102508
-        },
         ["Yellow Ringed"] = {
             ["rarity"] = 0,
             ["price"] = 888,
@@ -12887,6 +12993,17 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 14223388033
+        },
+        ["Yellow Card"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 28657306
         },
         ["Azure Eye"] = {
             ["rarity"] = 0,
@@ -12915,31 +13032,16 @@ data = {
             ["textc"] = Color3.fromRGB(211, 255, 144),
             ["pic"] = 281754128
         },
-        ["Yellow Card"] = {
+        ["Goofy Spider"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 28657306
-        },
-        ["Golden Survivor"] = {
-            ["rarity"] = 0,
-            ["price"] = 123456678,
+            ["price"] = 810,
             ["typ"] = "points",
-            ["font"] = "ArialBold",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "Survivor",
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 215, 0),
-            ["pic"] = 281754128
+            ["pic"] = 15101785824
         },
         ["Worthy"] = {
             ["onsale"] = true,
@@ -12956,17 +13058,26 @@ data = {
             ["textc"] = Color3.fromRGB(192, 108, 108),
             ["pic"] = 281754128
         },
-        ["Raptor"] = {
-            ["onsale"] = true,
+        ["Epic Duck Award"] = {
             ["rarity"] = 0,
-            ["price"] = 6500,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["cnpic"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 108243941830352
+        },
+        ["Evil Snowman"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 281307624
+            ["pic"] = 126954548746507
         },
         ["Kiwi"] = {
             ["rarity"] = 0,
@@ -12979,17 +13090,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 16443585552
         },
-        ["Wooden Sword"] = {
+        ["Wolf"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 550,
+            ["price"] = 3200,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 280991799
+            ["pic"] = 2319366142
         },
         ["Legend"] = {
             ["rarity"] = 0,
@@ -13014,7 +13125,7 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 45862408
+            ["pic"] = 136873982877669
         },
         ["bearface"] = {
             ["rarity"] = 0,
@@ -13030,45 +13141,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 127),
             ["pic"] = 281754128
         },
-        ["Wispy Sparkles"] = {
-            ["rarity"] = 0,
-            ["price"] = 99999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 12117210579
-        },
-        ["Explorer"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 450,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["pic"] = 281754128,
-            ["textsc"] = Color3.fromRGB(202, 219, 255),
-            ["textc"] = Color3.fromRGB(0, 85, 255)
-        },
-        ["Groundhog"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 440,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 281380739
-        },
         ["Winter Fairy"] = {
             ["rarity"] = 0,
             ["price"] = 1600,
@@ -13080,15 +13152,32 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15358326100
         },
-        ["Vampire Puppy"] = {
-            ["Tradeable"] = true,
+        ["Winner"] = {
+            ["badge"] = "Winner",
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "badge",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "title",
             ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 135, 10),
+            ["textc"] = Color3.fromRGB(59, 53, 255),
+            ["pic"] = 281754128
+        },
+        ["Geek"] = {
+            ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 84911073388755
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 255, 255),
+            ["textc"] = Color3.fromRGB(0, 0, 0),
+            ["pic"] = 281754128
         },
         ["Wilted Leaves"] = {
             ["rarity"] = 0,
@@ -13101,39 +13190,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 301038003
         },
-        ["Steampunk Zapper"] = {
-            ["rarity"] = 0,
+        ["Vampire Puppy"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 1486047067
-        },
-        ["Carnagecopia"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 98345995
-        },
-        ["Suspect"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["Tradeable"] = true,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["cnpic"] = 0,
-            ["textc"] = Color3.fromRGB(143, 143, 143),
-            ["pic"] = 281754128
+            ["pic"] = 84911073388755
         },
         ["White sparkles"] = {
             ["rarity"] = 0,
@@ -13146,28 +13211,39 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1853284681
         },
-        ["Mini Steel"] = {
+        ["Subscriber"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 6276306157
+            ["textsc"] = Color3.fromRGB(255, 213, 0),
+            ["textc"] = Color3.fromRGB(0, 0, 0),
+            ["pic"] = 281754128
         },
-        ["Dragon"] = {
-            ["onsale"] = true,
+        ["Carnagecopia"] = {
             ["rarity"] = 0,
-            ["price"] = 8000,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "gear",
+            ["codenum"] = 156,
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 281307932
+            ["pic"] = 98345995
+        },
+        ["Neon Laser Launcher"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 18984886716
         },
         ["White Nova"] = {
             ["rarity"] = 0,
@@ -13180,15 +13256,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 17554323936
         },
-        ["Atticus, the Swift"] = {
+        ["Mini Steel"] = {
             ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
             ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
             ["cnpic"] = 0,
-            ["pic"] = 16536159144
+            ["pic"] = 6276306157
         },
         ["Weekly Refresh"] = {
             ["pid"] = 1247218786,
@@ -13216,6 +13293,16 @@ data = {
             ["textc"] = Color3.fromRGB(85, 0, 255),
             ["pic"] = 281754128
         },
+        ["Atticus, the Swift"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 16536159144
+        },
         ["Watchful Eye"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -13225,6 +13312,29 @@ data = {
             ["typ"] = "points",
             ["cnpic"] = 0,
             ["pic"] = 14379307732
+        },
+        ["Wally the Wombat"] = {
+            ["rarity"] = 0,
+            ["price"] = 10000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15940617932
+        },
+        ["Waffle"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 240,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 21054342
         },
         ["Zomeone"] = {
             ["rarity"] = 0,
@@ -13240,17 +13350,17 @@ data = {
             ["textc"] = Color3.fromRGB(203, 135, 0),
             ["pic"] = 281754128
         },
-        ["Waffle"] = {
-            ["onsale"] = true,
+        ["Vortex"] = {
             ["rarity"] = 0,
-            ["price"] = 240,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 21054342
+            ["pic"] = 16532985558
         },
         ["Meerkat"] = {
             ["onsale"] = true,
@@ -13264,17 +13374,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 281304147
         },
-        ["Sparkler"] = {
-            ["onsale"] = true,
+        ["Vitality"] = {
             ["rarity"] = 0,
-            ["price"] = 480,
+            ["price"] = 99999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
+            ["maker"] = "khankord",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 1287555634
+            ["pic"] = 16445540666
         },
         ["Musical Notes"] = {
             ["onsale"] = true,
@@ -13314,40 +13424,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15101745817
         },
-        ["Vortex"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16532985558
-        },
-        ["Vitality"] = {
-            ["rarity"] = 0,
-            ["price"] = 99999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "khankord",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16445540666
-        },
-        ["Little Kangaroo"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 16990074033
-        },
         ["Virtuoso"] = {
             ["rarity"] = 0,
             ["fontface"] = "rbxassetid://12187369046",
@@ -13362,6 +13438,42 @@ data = {
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
+        },
+        ["Virtual"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 750,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(0, 0, 255),
+            ["pic"] = 281754128
+        },
+        ["Little Kangaroo"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 16990074033
+        },
+        ["Vine Staff"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 181326974
         },
         ["Angelic"] = {
             ["onsale"] = true,
@@ -13419,14 +13531,16 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Vanish"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 540,
+        ["Vampire Bat"] = {
+            ["pricehidden"] = true,
+            ["price"] = 500,
             ["typ"] = "points",
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["rarity"] = 0,
             ["Tradeable"] = true,
-            ["pic"] = 16011786284
+            ["cnpic"] = 0,
+            ["pic"] = 5825944336
         },
         ["Kitty Ghost"] = {
             ["rarity"] = 0,
@@ -13439,28 +13553,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 9657788354
-        },
-        ["Vampiric Epic faces"] = {
-            ["rarity"] = 0,
-            ["price"] = 900,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 11428961014
-        },
-        ["Vampire Bat"] = {
-            ["pricehidden"] = true,
-            ["price"] = 500,
-            ["typ"] = "points",
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["rarity"] = 0,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 5825944336
         },
         ["Vacuum"] = {
             ["rarity"] = 0,
@@ -13486,6 +13578,34 @@ data = {
             ["incn"] = true,
             ["pic"] = 2347082992
         },
+        ["VIP"] = {
+            ["rarity"] = 0,
+            ["price"] = 123456678,
+            ["cnpic"] = 0,
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["typ"] = "points",
+            ["textsc"] = Color3.fromRGB(127, 77, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Untouchable"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "JosefinSans,Bold",
+            ["price"] = 1750,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
         ["Honey Badger"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
@@ -13498,17 +13618,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 281307091
         },
-        ["VIP"] = {
+        ["Unique"] = {
             ["rarity"] = 0,
-            ["price"] = 123456678,
-            ["cnpic"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "mission",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["textoverride"] = "",
-            ["typ"] = "points",
-            ["textsc"] = Color3.fromRGB(127, 77, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(170, 255, 255),
+            ["textc"] = Color3.fromRGB(142, 144, 255),
             ["pic"] = 281754128
         },
         ["Cowbell"] = {
@@ -13538,33 +13658,27 @@ data = {
             ["textc"] = Color3.fromRGB(0, 85, 127),
             ["pic"] = 281754128
         },
-        ["Untouchable"] = {
+        ["Ultra-Flat Spray Paint"] = {
             ["rarity"] = 0,
-            ["fontface"] = "JosefinSans,Bold",
-            ["price"] = 1750,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 68000000,
+            ["cnpic"] = 0,
+            ["typ"] = "points",
+            ["pic"] = 126614422
+        },
+        ["UFO"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 780,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Unique"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(170, 255, 255),
-            ["textc"] = Color3.fromRGB(142, 144, 255),
-            ["pic"] = 281754128
+            ["pic"] = 389703177
         },
         ["Saviour"] = {
             ["rarity"] = 0,
@@ -13581,15 +13695,17 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Ultra-Flat Spray Paint"] = {
+        ["Tyrannosaurus"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 68000000,
-            ["cnpic"] = 0,
+            ["price"] = 4200,
             ["typ"] = "points",
-            ["pic"] = 126614422
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 281306454
         },
         ["Green Balloon"] = {
             ["rarity"] = 0,
@@ -13611,30 +13727,6 @@ data = {
             ["incn"] = true,
             ["pic"] = 6888685495
         },
-        ["UFO"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 780,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 389703177
-        },
-        ["Tyrannosaurus"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 4200,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 281306454
-        },
         ["Twitter Birds"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -13645,30 +13737,18 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 301037936
         },
-        ["Aromatic"] = {
+        ["Narwhal"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["font"] = "IndieFlower",
-            ["incn"] = true,
-            ["Tradeable"] = true,
+            ["textoverride"] = "",
+            ["typ"] = "user",
+            ["cnpic"] = 0,
             ["_self"] = false,
             ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(120, 101, 181),
-            ["textc"] = Color3.fromRGB(255, 170, 255),
+            ["users"] = {["1084073"] = 1084073, ["_self"] = false},
+            ["textsc"] = Color3.fromRGB(30, 85, 162),
+            ["level"] = 1,
+            ["textc"] = Color3.fromRGB(61, 161, 211),
             ["pic"] = 281754128
-        },
-        ["Purple sparkles"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 496921540
         },
         ["Trusty"] = {
             ["onsale"] = true,
@@ -13684,6 +13764,36 @@ data = {
             ["textsc"] = Color3.fromRGB(124, 98, 6),
             ["textc"] = Color3.fromRGB(255, 255, 127),
             ["pic"] = 281754128
+        },
+        ["Disconnect"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 16267574025
+        },
+        ["Purple sparkles"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 496921540
+        },
+        ["Sign: This Is NOT Epic"] = {
+            ["rarity"] = 0,
+            ["price"] = 900,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 14688742409
         },
         ["Chipmunk"] = {
             ["Tradeable"] = true,
@@ -13709,16 +13819,16 @@ data = {
             ["textc"] = Color3.fromRGB(179, 25, 66),
             ["pic"] = 281754128
         },
-        ["Daily Refresh"] = {
-            ["pid"] = 1247218703,
-            ["price"] = 29,
-            ["typ"] = "",
+        ["Tornados"] = {
+            ["rarity"] = 0,
+            ["price"] = 270,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "product",
-            ["rarity"] = 0,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 1127302952
+            ["pic"] = 596987629
         },
         ["Beach Staff"] = {
             ["rarity"] = 0,
@@ -13785,26 +13895,27 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 21344245
         },
-        ["Torch"] = {
+        ["Tom's Beans"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 250,
+            ["price"] = 220,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 31596396
+            ["pic"] = 103838856
         },
-        ["Top of Tree"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Tiny Elephant"] = {
             ["rarity"] = 0,
-            ["price"] = 3500,
-            ["typ"] = "points",
+            ["_self"] = false,
+            ["cat"] = "pet",
             ["Tradeable"] = true,
-            ["pic"] = 15611777747
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2319366010
         },
         ["Flashbang"] = {
             ["rarity"] = 0,
@@ -13843,65 +13954,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 99059361489632
         },
-        ["Tiger Warrior Club"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 1014121078
-        },
-        ["Throwing Spork"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 800,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 107441224
-        },
-        ["Korblox Deathspeaker's Spell Book"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 59792268
-        },
-        ["Powerful Paintbrush"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 2249384717
-        },
-        ["Ethereal"] = {
-            ["rarity"] = 0,
-            ["price"] = 9223372036854776000,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["incn"] = true,
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "SpecialElite",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
         ["Throwing Bolts"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -13925,65 +13977,38 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 13457282560
         },
-        ["Robot Penguin"] = {
+        ["Korblox Deathspeaker's Spell Book"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 4088444769
-        },
-        ["Frost Potion"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 1000,
-            ["typ"] = "points",
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
             ["cnpic"] = 0,
-            ["pic"] = 41708537
+            ["pic"] = 59792268
         },
-        ["Air Balloon"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
+        ["Red Dragon"] = {
+            ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 8368784580
-        },
-        ["Red Foam Finger"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 120,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 27312287
-        },
-        ["Artist"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 120,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["pic"] = 608143770
+        },
+        ["Ethereal"] = {
+            ["rarity"] = 0,
+            ["price"] = 9223372036854776000,
+            ["typ"] = "points",
             ["Tradeable"] = true,
+            ["incn"] = true,
+            ["textoverride"] = "",
             ["_self"] = false,
             ["cat"] = "title",
-            ["textoverride"] = "",
+            ["font"] = "SpecialElite",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(65, 31, 0),
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
@@ -14012,6 +14037,91 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 10162085856
+        },
+        ["Robot Penguin"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 4088444769
+        },
+        ["Frigid"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187375194",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["typ"] = "points",
+            ["price"] = 1675,
+            ["textsc"] = Color3.fromRGB(0, 0, 127),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Air Balloon"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 8368784580
+        },
+        ["Red Foam Finger"] = {
+            ["rarity"] = 0,
+            ["price"] = 120,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 27312287
+        },
+        ["Artist"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 120,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(65, 31, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["The Lapin Twins"] = {
+            ["rarity"] = 0,
+            ["price"] = 1500,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "ellieberries",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 16313462349
+        },
+        ["The Christmas Creep"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 300,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 40317884
         },
         ["Egg Hammer"] = {
             ["rarity"] = 0,
@@ -14047,17 +14157,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 281305082
         },
-        ["The Lapin Twins"] = {
+        ["The Celebrator"] = {
             ["rarity"] = 0,
-            ["price"] = 1500,
+            ["price"] = 9999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "ellieberries",
+            ["cat"] = "gear",
+            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16313462349
+            ["pic"] = 14185740312
         },
         ["Koala"] = {
             ["onsale"] = true,
@@ -14097,17 +14207,14 @@ data = {
             ["textc"] = Color3.fromRGB(0, 255, 255),
             ["pic"] = 281754128
         },
-        ["The Christmas Creep"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 300,
-            ["typ"] = "points",
-            ["marked"] = true,
+        ["Terminate"] = {
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 40317884
+            ["pic"] = 16778714979
         },
         ["3rd Seasoneer"] = {
             ["rarity"] = 0,
@@ -14146,14 +14253,21 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 6218299445
         },
-        ["Terminate"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Eggionaire"] = {
+            ["pricehidden"] = true,
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 500,
             ["typ"] = "points",
             ["Tradeable"] = true,
-            ["pic"] = 16778714979
+            ["incn"] = true,
+            ["textoverride"] = "",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["font"] = "FredokaOne",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(110, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Cupcakes"] = {
             ["onsale"] = true,
@@ -14179,18 +14293,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088440879
         },
-        ["Roblox logos"] = {
-            ["onsale"] = true,
+        ["Tambourine"] = {
             ["rarity"] = 0,
-            ["price"] = 100,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["showatstand"] = true,
-            ["cat"] = "effect",
+            ["_self"] = false,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["_self"] = false,
-            ["pic"] = 16869928503
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 21341578
         },
         ["Robot Sheep"] = {
             ["onsale"] = true,
@@ -14204,19 +14315,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 633297578
         },
-        ["Redeemer"] = {
+        ["Tall Friend"] = {
             ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
+            ["price"] = 2345,
+            ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 124,
+            ["cat"] = "pet",
+            ["maker"] = "JPG_LARGE",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(28, 84, 84),
-            ["textc"] = Color3.fromRGB(85, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 14104499744
         },
         ["Idealist"] = {
             ["rarity"] = 0,
@@ -14233,15 +14342,16 @@ data = {
             ["textc"] = Color3.fromRGB(0, 255, 127),
             ["pic"] = 281754128
         },
-        ["Tambourine"] = {
+        ["Scrumptious Award"] = {
             ["rarity"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
-            ["Tradeable"] = true,
+            ["maker"] = "abrahamabugri",
             ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 21341578
+            ["pic"] = 17592044804
         },
         ["Emo"] = {
             ["rarity"] = 0,
@@ -14258,43 +14368,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Tall Friend"] = {
-            ["rarity"] = 0,
-            ["price"] = 2345,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "JPG_LARGE",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14104499744
-        },
-        ["Global Snowglobe"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 4000,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 11803576306
-        },
-        ["Metal Guitar"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 2900,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 60606208
-        },
         ["Sweetheart"] = {
             ["rarity"] = 0,
             ["price"] = 123456678,
@@ -14310,17 +14383,6 @@ data = {
             ["textc"] = Color3.fromRGB(204, 0, 0),
             ["pic"] = 281754128
         },
-        ["Funny Bone"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 3500,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 106709455161766
-        },
         ["Swedish"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -14335,6 +14397,18 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
+        ["Metal Guitar"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 2900,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 60606208
+        },
         ["Sussy"] = {
             ["rarity"] = 0,
             ["price"] = 9223372036854776000,
@@ -14348,6 +14422,42 @@ data = {
             ["cnpic"] = 0,
             ["textsc"] = Color3.fromRGB(255, 255, 255),
             ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Funny Bone"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 3500,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 106709455161766
+        },
+        ["Suspect"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "mission",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["Tradeable"] = true,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["cnpic"] = 0,
+            ["textc"] = Color3.fromRGB(143, 143, 143),
+            ["pic"] = 281754128
+        },
+        ["Survivor"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(0, 170, 0),
             ["pic"] = 281754128
         },
         ["Nunchucks"] = {
@@ -14394,20 +14504,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 10984933426
         },
-        [":-)"] = {
+        ["Sunshine"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 5000,
+            ["price"] = 830,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 0),
-            ["pic"] = 281754128
+            ["pic"] = 501099602
         },
         ["Ice Shards"] = {
             ["rarity"] = 0,
@@ -14432,27 +14539,22 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18582893792
         },
-        ["Superhero"] = {
+        ["Summer Vibe"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187370928",
-            ["price"] = 999999999,
+            ["price"] = 99999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "effect",
+            ["maker"] = "i_saturnx",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 0),
-            ["textc"] = Color3.fromRGB(0, 0, 255),
-            ["pic"] = 281754128
+            ["pic"] = 9766852959
         },
         ["Jingle Bells"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 420,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
@@ -14460,17 +14562,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 19397927
         },
-        ["Sunshine"] = {
+        ["Stop Hitting Yourself"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 830,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
+            ["price"] = 3500,
             ["cnpic"] = 0,
-            ["pic"] = 501099602
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 91492679
         },
         ["Touchdown Football"] = {
             ["rarity"] = 0,
@@ -14483,17 +14584,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 101921733
         },
-        ["Summer Vibe"] = {
+        ["Lovebird"] = {
             ["rarity"] = 0,
-            ["price"] = 99999999999,
+            ["price"] = 9999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "i_saturnx",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 9766852959
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 0, 0),
+            ["pic"] = 281754128
         },
         ["Giant Dinosaur Feet"] = {
             ["rarity"] = 0,
@@ -14518,40 +14621,38 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15382518526
         },
-        ["Stitch Bunny"] = {
+        ["Gingerbread Man"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["maker"] = "DuckXander",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15180016976
-        },
-        ["Fortune Cookie"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 61,
-            ["Tradeable"] = true,
-            ["typ"] = "code",
-            ["cnpic"] = 0,
-            ["pic"] = 35614338
-        },
-        ["Snowman"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 750,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
             ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 501099452
+            ["pic"] = 96939732325698
+        },
+        ["Snowman Egg"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15555727601
+        },
+        ["Steampunk Zapper"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 1486047067
         },
         ["Steampunk Falcon"] = {
             ["rarity"] = 0,
@@ -14658,16 +14759,7 @@ data = {
             ["textc"] = Color3.fromRGB(0, 0, 127),
             ["pic"] = 281754128
         },
-        ["Red Dragon"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["cnpic"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 608143770
-        },
+        ["_self"] = false,
         ["Spontaneous Combustion"] = {
             ["_self"] = false,
             ["cat"] = "death",
@@ -14748,15 +14840,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15110083292
         },
-        ["Fireballs"] = {
+        ["Pink Axolotl"] = {
             ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 203,
+            ["cat"] = "pet",
+            ["maker"] = "Felgrim",
             ["Tradeable"] = true,
-            ["typ"] = "code",
             ["cnpic"] = 0,
-            ["pic"] = 4088449455
+            ["pic"] = 9665090766
         },
         ["Speech Bubble"] = {
             ["rarity"] = 0,
@@ -14816,11 +14910,9 @@ data = {
             ["pic"] = 11193996508
         },
         ["Gingerbread Men"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 500,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
@@ -14839,6 +14931,19 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 8899368858
         },
+        ["Ghosts"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 430,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["showatstand"] = true,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["pic"] = 281722653
+        },
         ["Sparkles the Flying Unicorn"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -14849,18 +14954,6 @@ data = {
             ["maker"] = "Az0te",
             ["Tradeable"] = true,
             ["pic"] = 12285359511
-        },
-        ["Fireflies"] = {
-            ["rarity"] = 0,
-            ["price"] = 99999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16445541559
         },
         ["Skull Gun"] = {
             ["rarity"] = 0,
@@ -14921,16 +15014,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 84375242977241
         },
-        ["Space Sandwich"] = {
+        ["Spaghettificate"] = {
             ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 280,
-            ["cnpic"] = 0,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 1200,
             ["typ"] = "points",
-            ["pic"] = 12510145
+            ["Tradeable"] = true,
+            ["pic"] = 12923937667
         },
         ["Ghast"] = {
             ["rarity"] = 0,
@@ -15021,28 +15113,30 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Hampter"] = {
+        [":-)"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 1000000000000000000,
+            ["price"] = 5000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 9665656759
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 0),
+            ["pic"] = 281754128
         },
-        ["Soul Lantern"] = {
+        ["Fortune Cookie"] = {
             ["rarity"] = 0,
-            ["price"] = 700,
-            ["typ"] = "points",
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
+            ["codenum"] = 61,
             ["Tradeable"] = true,
+            ["typ"] = "code",
             ["cnpic"] = 0,
-            ["quest"] = "hallo2023,2",
-            ["pic"] = 14969435563
+            ["pic"] = 35614338
         },
         ["Fighter"] = {
             ["onsale"] = true,
@@ -15059,17 +15153,17 @@ data = {
             ["textc"] = Color3.fromRGB(170, 0, 0),
             ["pic"] = 281754128
         },
-        ["Sonic Boom"] = {
+        ["Soul Lantern"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 700,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16532985419
+            ["quest"] = "hallo2023,2",
+            ["pic"] = 14969435563
         },
         ["Bad Bird"] = {
             ["Tradeable"] = true,
@@ -15081,6 +15175,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 115380486067102
         },
+        ["Comic Thwack"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 1600,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 15933970266
+        },
         ["Song Bird"] = {
             ["rarity"] = 0,
             ["price"] = 1050,
@@ -15091,17 +15194,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 16302998724
-        },
-        ["Snowman Gun"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15627455350
         },
         ["Moonwalk Potion"] = {
             ["onsale"] = true,
@@ -15125,6 +15217,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 332327464
         },
+        ["Snowman Gun"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15627455350
+        },
         ["Protest Sign: Egg Hunt Nao"] = {
             ["_self"] = false,
             ["cat"] = "gear",
@@ -15143,17 +15246,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18248367615
         },
-        ["Snowman Egg"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15555727601
-        },
         ["Stellar"] = {
             ["rarity"] = 0,
             ["price"] = 9223372036854776000,
@@ -15169,15 +15261,16 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Camouflage"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Snowman"] = {
             ["rarity"] = 0,
-            ["price"] = 240,
+            ["price"] = 750,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
             ["Tradeable"] = true,
-            ["pic"] = 14638401784
+            ["cnpic"] = 0,
+            ["pic"] = 501099452
         },
         ["Snow Fiend"] = {
             ["rarity"] = 0,
@@ -15201,23 +15294,22 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 82897865
         },
-        ["Blue Trooper"] = {
+        ["Easter Aura"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 90,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "effect",
+            ["maker"] = "ydcj",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 6271465751
+            ["pic"] = 16814554846
         },
         ["Snowball"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 170,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = true,
             ["cat"] = "gear",
@@ -15345,19 +15437,19 @@ data = {
             ["typ"] = "points",
             ["pic"] = 101802352222245
         },
-        ["Frigid"] = {
+        ["Assassin"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187375194",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["font"] = "SciFi",
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["typ"] = "points",
-            ["price"] = 1675,
-            ["textsc"] = Color3.fromRGB(0, 0, 127),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 55, 55),
             ["pic"] = 281754128
         },
         ["Cool Dogs"] = {
@@ -15415,19 +15507,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 22595979
         },
-        ["Fairy"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 203, 0),
-            ["textc"] = Color3.fromRGB(255, 55, 55),
-            ["pic"] = 281754128
-        },
         ["Macaron Mobile"] = {
             ["rarity"] = 0,
             ["price"] = 9999999,
@@ -15439,6 +15518,16 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 14113973352
+        },
+        ["Ninja Frog"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 16536156856
         },
         ["Centurion"] = {
             ["rarity"] = 0,
@@ -15455,34 +15544,6 @@ data = {
             ["textc"] = Color3.fromRGB(166, 40, 40),
             ["pic"] = 281754128
         },
-        ["Natural"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187363887,Bold",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["typ"] = "points",
-            ["price"] = 1675,
-            ["textsc"] = Color3.fromRGB(85, 85, 0),
-            ["textc"] = Color3.fromRGB(85, 255, 0),
-            ["pic"] = 281754128
-        },
-        ["Candy Canes"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 250,
-            ["typ"] = "points",
-            ["marked"] = true,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 500048272
-        },
         ["Fortune Telling Eight Ball"] = {
             ["_self"] = false,
             ["cat"] = "gear",
@@ -15491,6 +15552,17 @@ data = {
             ["typ"] = "mission",
             ["cnpic"] = 0,
             ["pic"] = 25677656
+        },
+        ["Candy Canes"] = {
+            ["rarity"] = 0,
+            ["price"] = 250,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 500048272
         },
         ["Slurpee"] = {
             ["rarity"] = 0,
@@ -15501,6 +15573,18 @@ data = {
             ["cnpic"] = 0,
             ["typ"] = "points",
             ["pic"] = 85108372
+        },
+        ["Marshmallow Chirp"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 130,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 24784985
         },
         ["Metal Detector"] = {
             ["onsale"] = true,
@@ -15540,17 +15624,16 @@ data = {
             ["textc"] = Color3.fromRGB(0, 158, 0),
             ["pic"] = 281754128
         },
-        ["Marshmallow Chirp"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 130,
-            ["typ"] = "points",
+        ["Daily Refresh"] = {
+            ["pid"] = 1247218703,
+            ["price"] = 29,
+            ["typ"] = "",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
+            ["cat"] = "product",
+            ["rarity"] = 0,
             ["cnpic"] = 0,
-            ["pic"] = 24784985
+            ["pic"] = 1127302952
         },
         ["Tricky"] = {
             ["rarity"] = 0,
@@ -15612,27 +15695,17 @@ data = {
             ["typ"] = "points",
             ["pic"] = 15289765068
         },
-        ["Rock It Guitar"] = {
+        ["Earths"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
+            ["price"] = 830,
+            ["typ"] = "points",
+            ["showatstand"] = true,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 13023796
-        },
-        ["Festive Owl"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 15555727834
+            ["pic"] = 389703332
         },
         ["Sleepy"] = {
             ["rarity"] = 0,
@@ -15658,6 +15731,20 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088448414
         },
+        ["Boxer"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 0, 0),
+            ["textc"] = Color3.fromRGB(131, 0, 0),
+            ["pic"] = 281754128
+        },
         ["Super-G LS33 Disruptor"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -15680,17 +15767,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088445563
         },
-        ["Jerry the Jellyfish"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 13518413961
-        },
         ["2018 Fireworks"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -15700,6 +15776,18 @@ data = {
             ["typ"] = "code",
             ["cnpic"] = 0,
             ["pic"] = 1245324834
+        },
+        ["Skulls"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 380,
+            ["typ"] = "points",
+            ["showatstand"] = true,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cnpic"] = 0,
+            ["pic"] = 281701444
         },
         ["Halrog"] = {
             ["rarity"] = 0,
@@ -15758,17 +15846,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 45020883
         },
-        ["Chick Horde"] = {
-            ["rarity"] = 0,
-            ["price"] = 90,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16813071062
-        },
         ["Epic faces"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
@@ -15780,6 +15857,15 @@ data = {
             ["_self"] = false,
             ["cnpic"] = 0,
             ["pic"] = 281701809
+        },
+        ["Easter Eggs"] = {
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["price"] = 180,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 377646534
         },
         ["Christmas Bundle"] = {
             ["oname"] = "xmasbundle",
@@ -15793,15 +15879,6 @@ data = {
             ["cnpic"] = 0,
             ["incn"] = true,
             ["pic"] = 76202808104549
-        },
-        ["Easter Eggs"] = {
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["price"] = 180,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 377646534
         },
         ["Skeleton Foam Finger"] = {
             ["rarity"] = 0,
@@ -15823,6 +15900,16 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 14638400085
         },
+        ["ROBAR eXtreme Chocolate Crunch"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 38161386
+        },
         ["Drone"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
@@ -15835,15 +15922,20 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 972315898
         },
-        ["ROBAR eXtreme Chocolate Crunch"] = {
+        ["Sinister"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["fontface"] = "Sarpanch,Bold",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 38161386
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["typ"] = "points",
+            ["price"] = 650,
+            ["textsc"] = Color3.fromRGB(85, 85, 127),
+            ["textc"] = Color3.fromRGB(171, 57, 0),
+            ["pic"] = 281754128
         },
         ["Candy"] = {
             ["rarity"] = 0,
@@ -15856,17 +15948,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 500048216
         },
-        ["Plasmatic"] = {
+        ["Crow Feathers"] = {
             ["rarity"] = 0,
-            ["price"] = 99999999999,
+            ["price"] = 450,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16445541303
+            ["pic"] = 301038185
         },
         ["Monstrous"] = {
             ["rarity"] = 0,
@@ -15880,16 +15971,17 @@ data = {
             ["textc"] = Color3.fromRGB(54, 57, 62),
             ["pic"] = 281754128
         },
-        ["Crow Feathers"] = {
+        ["Fugitive"] = {
             ["rarity"] = 0,
-            ["price"] = 450,
-            ["typ"] = "points",
-            ["incn"] = true,
+            ["textoverride"] = "",
+            ["typ"] = "mission",
             ["_self"] = false,
-            ["cat"] = "effect",
+            ["cat"] = "title",
             ["Tradeable"] = true,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
             ["cnpic"] = 0,
-            ["pic"] = 301038185
+            ["textc"] = Color3.fromRGB(250, 118, 34),
+            ["pic"] = 281754128
         },
         ["Player"] = {
             ["onsale"] = true,
@@ -15906,17 +15998,16 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Fugitive"] = {
+        ["Simmering Star Wand"] = {
             ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
+            ["typ"] = "code",
+            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["Tradeable"] = true,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["cat"] = "gear",
+            ["codenum"] = 200,
+            ["maker"] = "Ramonfrar",
             ["cnpic"] = 0,
-            ["textc"] = Color3.fromRGB(250, 118, 34),
-            ["pic"] = 281754128
+            ["pic"] = 14755246698
         },
         ["Epiczza"] = {
             ["rarity"] = 0,
@@ -15940,19 +16031,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1019014340
         },
-        ["Sinister"] = {
+        ["Cthulhu"] = {
             ["rarity"] = 0,
-            ["fontface"] = "Sarpanch,Bold",
             ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["incn"] = true,
+            ["typ"] = "code",
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["typ"] = "points",
-            ["price"] = 650,
-            ["textsc"] = Color3.fromRGB(85, 85, 127),
-            ["textc"] = Color3.fromRGB(171, 57, 0),
+            ["codenum"] = 290,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 85, 0),
+            ["textc"] = Color3.fromRGB(0, 170, 0),
             ["pic"] = 281754128
         },
         ["Red Balloon Animal"] = {
@@ -15977,30 +16066,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1230443564
         },
-        ["Simmering Star Wand"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 200,
-            ["maker"] = "Ramonfrar",
-            ["cnpic"] = 0,
-            ["pic"] = 14755246698
-        },
-        ["Cthulhu"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 290,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 85, 0),
-            ["textc"] = Color3.fromRGB(0, 170, 0),
-            ["pic"] = 281754128
-        },
         ["Sign: This Is Epic"] = {
             ["rarity"] = 0,
             ["price"] = 900,
@@ -16011,28 +16076,6 @@ data = {
             ["Tradeable"] = true,
             ["typ"] = "points",
             ["pic"] = 14688742825
-        },
-        ["Orbs"] = {
-            ["rarity"] = 0,
-            ["price"] = 9999999,
-            ["cnpic"] = 0,
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 2306004672
-        },
-        ["Annoying Elf"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 68329773
         },
         ["Fiery Phoenix"] = {
             ["rarity"] = 0,
@@ -16055,6 +16098,52 @@ data = {
             ["Tradeable"] = true,
             ["typ"] = "points",
             ["pic"] = 15101856507
+        },
+        ["Shine"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 8369728149
+        },
+        ["Annoying Elf"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 68329773
+        },
+        ["Hyper"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 261,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 132, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 0),
+            ["pic"] = 281754128
+        },
+        ["Shark Launcher"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 650,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 82821715
         },
         ["Chimera"] = {
             ["onsale"] = true,
@@ -16104,76 +16193,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 10984933808
         },
-        ["Shine"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 8369728149
-        },
-        ["Hyper"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 261,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 132, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 0),
-            ["pic"] = 281754128
-        },
-        ["Blue Soul"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15101746034
-        },
-        ["Dr. Ishmael"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 16536156503
-        },
-        ["Shark Launcher"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 650,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 82821715
-        },
-        ["Normal"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 120,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
         ["Shark Attack"] = {
             ["_self"] = false,
             ["cat"] = "death",
@@ -16197,6 +16216,27 @@ data = {
             ["textc"] = Color3.fromRGB(249, 255, 174),
             ["pic"] = 281754128
         },
+        ["Blue Soul"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15101746034
+        },
+        ["Dr. Ishmael"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 16536156503
+        },
         ["Geolocator"] = {
             ["rarity"] = 0,
             ["typ"] = "code",
@@ -16207,6 +16247,52 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 15666388
+        },
+        ["Normal"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 120,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Prime Award"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["cnpic"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 14549376742
+        },
+        ["Selfie Stick"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 1127339132
+        },
+        ["Global Snowglobe"] = {
+            ["rarity"] = 0,
+            ["price"] = 4000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 11803576306
         },
         ["Balloon"] = {
             ["_self"] = false,
@@ -16232,16 +16318,16 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Selfie Stick"] = {
+        ["Epic Egg"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 90,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 1127339132
+            ["pic"] = 16813424109
         },
         ["T-Posing Noob"] = {
             ["rarity"] = 0,
@@ -16287,16 +16373,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 4088443305
         },
-        ["Epic Egg"] = {
+        ["Saxophone"] = {
             ["rarity"] = 0,
-            ["price"] = 90,
-            ["typ"] = "points",
-            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 16813424109
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 30257857
         },
         ["Mighty Ninjas"] = {
             ["rarity"] = 0,
@@ -16309,16 +16394,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 18724734282
         },
-        ["Scrumptious Award"] = {
+        ["Duck"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 1000000000000000000,
+            ["price"] = 200,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["maker"] = "abrahamabugri",
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 17592044804
+            ["pic"] = 281303967
         },
         ["Corrupted Aura"] = {
             ["pricehidden"] = true,
@@ -16333,56 +16419,51 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 11193090661
         },
-        ["Ghostly"] = {
+        ["Merry Snowflake"] = {
             ["rarity"] = 0,
-            ["price"] = 380,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["price"] = 50,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 11810365384
+        },
+        ["Epic Pumpkin"] = {
+            ["rarity"] = 0,
+            ["price"] = 1000000000000000000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["maker"] = "GreenPigXD",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(116, 116, 116),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 11428961189
         },
-        ["Lightblox Jar"] = {
+        ["Raptor"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 350,
+            ["price"] = 6500,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 115341569
+            ["pic"] = 281307624
         },
-        ["Saxophone"] = {
+        ["Satellite"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 30257857
-        },
-        ["Retro"] = {
-            ["rarity"] = 0,
-            ["price"] = 9223372036854776000,
+            ["price"] = 3500,
             ["typ"] = "points",
-            ["Tradeable"] = true,
             ["incn"] = true,
-            ["textoverride"] = "",
             ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "Fantasy",
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
+            ["pic"] = 501099213
         },
         ["Heckler"] = {
             ["rarity"] = 0,
@@ -16398,64 +16479,6 @@ data = {
             ["textsc"] = Color3.fromRGB(0, 0, 127),
             ["textc"] = Color3.fromRGB(85, 255, 0),
             ["pic"] = 281754128
-        },
-        ["Duck"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 200,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 281303967
-        },
-        ["Otherworldly Sceptre"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
-            ["cnpic"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["pic"] = 2213420348
-        },
-        ["Worthless"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["price"] = 999999999,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(118, 156, 195),
-            ["pic"] = 281754128
-        },
-        ["Satellite"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 3500,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 501099213
-        },
-        ["Halloween Sparkler"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 480,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 179407875
         },
         ["Cat"] = {
             ["onsale"] = true,
@@ -16477,6 +16500,69 @@ data = {
             ["typ"] = "mission",
             ["cnpic"] = 0,
             ["pic"] = 497102654
+        },
+        ["Worthless"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["price"] = 999999999,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 0, 0),
+            ["textc"] = Color3.fromRGB(118, 156, 195),
+            ["pic"] = 281754128
+        },
+        ["Paladin"] = {
+            ["rarity"] = 0,
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["incn"] = true,
+            ["textoverride"] = "",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["font"] = "JosefinSans",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(110, 187, 255),
+            ["pic"] = 281754128
+        },
+        ["Halloween Sparkler"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 480,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 179407875
+        },
+        ["Yellow Snowball"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 19703453
+        },
+        ["Roblox logos"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 100,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["showatstand"] = true,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["pic"] = 16869928503
         },
         ["Enigmatic"] = {
             ["rarity"] = 0,
@@ -16541,14 +16627,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 12802702123
         },
-        ["Cossack Bottle"] = {
+        ["Sakura Parasol"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["cnpic"] = 0,
             ["_self"] = false,
             ["cat"] = "gear",
-            ["codenum"] = 1,
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["cnpic"] = 0,
-            ["pic"] = 6551559689
+            ["maker"] = "popstarpiranhas",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 12602465017
         },
         ["Ominous"] = {
             ["rarity"] = 0,
@@ -16564,56 +16652,6 @@ data = {
             ["textsc"] = Color3.fromRGB(0, 0, 0),
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
-        },
-        ["Eggionaire"] = {
-            ["pricehidden"] = true,
-            ["rarity"] = 0,
-            ["price"] = 500,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["incn"] = true,
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "FredokaOne",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(110, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Pixel Cottontail"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "GhostedToast1",
-            ["Tradeable"] = true,
-            ["pic"] = 13120573343
-        },
-        ["Enlightened"] = {
-            ["rarity"] = 0,
-            ["price"] = 900,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 10984933720
-        },
-        ["Sakura Parasol"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["maker"] = "popstarpiranhas",
-            ["Tradeable"] = true,
-            ["typ"] = "points",
-            ["pic"] = 12602465017
         },
         ["Books"] = {
             ["rarity"] = 0,
@@ -16636,6 +16674,18 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 15555708892
+        },
+        ["Enlightened"] = {
+            ["rarity"] = 0,
+            ["price"] = 900,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 10984933720
         },
         ["Rudolph"] = {
             ["rarity"] = 0,
@@ -16677,6 +16727,42 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
+        ["Round Cat"] = {
+            ["rarity"] = 0,
+            ["price"] = 3300,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["maker"] = "Floofurious",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 14223912554
+        },
+        ["Rolling Pin"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 11845896
+        },
+        ["Rodis Winner 2023"] = {
+            ["rarity"] = 0,
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["textoverride"] = "",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["font"] = "TitilliumWeb",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
         ["Noble"] = {
             ["rarity"] = 0,
             ["textoverride"] = "",
@@ -16701,15 +16787,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 138579383549248
         },
-        ["Rolling Pin"] = {
+        ["Leafstorm Wand"] = {
             ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
-            ["Tradeable"] = true,
+            ["codenum"] = 200,
+            ["maker"] = "impjelly",
             ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 11845896
+            ["pic"] = 16158157232
         },
         ["Illumina"] = {
             ["oname"] = "illumina",
@@ -16774,14 +16861,16 @@ data = {
             ["textc"] = Color3.fromRGB(0, 0, 0),
             ["pic"] = 281754128
         },
-        ["Robot Spider"] = {
-            ["_self"] = false,
-            ["cat"] = "pet",
+        ["Rings"] = {
             ["rarity"] = 0,
+            ["price"] = 250,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["typ"] = "mission",
             ["cnpic"] = 0,
-            ["pic"] = 2319365585
+            ["pic"] = 332366256
         },
         ["April Showers"] = {
             ["onsale"] = true,
@@ -16795,54 +16884,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 111821665
         },
-        ["Ghosts"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 430,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["showatstand"] = true,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["pic"] = 281722653
-        },
-        ["Lightning Storm"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 900,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 106533200023407
-        },
-        ["Electricity"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 750,
-            ["typ"] = "points",
-            ["showatstand"] = true,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cnpic"] = 0,
-            ["pic"] = 281701192
-        },
-        ["Rings"] = {
-            ["rarity"] = 0,
-            ["price"] = 250,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 332366256
-        },
         ["Ricky"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
@@ -16853,6 +16894,61 @@ data = {
             ["maker"] = "friesny",
             ["Tradeable"] = true,
             ["pic"] = 13271167666
+        },
+        ["Crackerjack"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://12187370000",
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 85, 0),
+            ["pic"] = 281754128
+        },
+        ["Retro"] = {
+            ["rarity"] = 0,
+            ["price"] = 9223372036854776000,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["incn"] = true,
+            ["textoverride"] = "",
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["font"] = "Fantasy",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Redrune Raider"] = {
+            ["rarity"] = 0,
+            ["price"] = 1750,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 70462732
+        },
+        ["Redeemer"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 124,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(28, 84, 84),
+            ["textc"] = Color3.fromRGB(85, 255, 255),
+            ["pic"] = 281754128
         },
         ["Confused"] = {
             ["rarity"] = 0,
@@ -16892,20 +16988,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1145523477
         },
-        ["Crackerjack"] = {
+        ["RedCliff Eagle"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187370000",
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 85, 0),
-            ["pic"] = 281754128
+            ["pic"] = 4088443749
         },
         ["Lightning Cloud"] = {
             ["rarity"] = 0,
@@ -16919,17 +17011,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 13457429572
         },
-        ["Bee"] = {
+        ["Powerful Paintbrush"] = {
             ["rarity"] = 0,
-            ["price"] = 1000000000000000000,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "SDMittens",
+            ["_self"] = true,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 9657779239
+            ["pic"] = 2249384717
         },
         ["Hen"] = {
             ["rarity"] = 0,
@@ -16964,16 +17055,20 @@ data = {
             ["typ"] = "points",
             ["pic"] = 11810380047
         },
-        ["Redrune Raider"] = {
+        ["Aromatic"] = {
             ["rarity"] = 0,
-            ["price"] = 1750,
+            ["price"] = 999999999,
             ["typ"] = "points",
+            ["font"] = "IndieFlower",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
             ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 70462732
+            ["textsc"] = Color3.fromRGB(120, 101, 181),
+            ["textc"] = Color3.fromRGB(255, 170, 255),
+            ["pic"] = 281754128
         },
         ["Santa's Sleigh"] = {
             ["rarity"] = 0,
@@ -16985,16 +17080,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 11810373763
         },
-        ["RedCliff Eagle"] = {
+        ["Fireballs"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
+            ["cat"] = "effect",
+            ["codenum"] = 203,
             ["Tradeable"] = true,
+            ["typ"] = "code",
             ["cnpic"] = 0,
-            ["pic"] = 4088443749
+            ["pic"] = 4088449455
         },
         ["Yellow sparkles"] = {
             ["rarity"] = 0,
@@ -17006,17 +17100,16 @@ data = {
             ["incn"] = true,
             ["pic"] = 496920355
         },
-        ["Blue Balloon Animal"] = {
+        ["Dark Swirls"] = {
             ["rarity"] = 0,
-            ["price"] = 1200,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "abrahamabugri",
+            ["cat"] = "effect",
+            ["codenum"] = 200,
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 14113973642
+            ["pic"] = 4088448922
         },
         ["Turtle"] = {
             ["onsale"] = true,
@@ -17030,30 +17123,27 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 633297800
         },
-        ["Yellow Snowball"] = {
+        ["Plunger Launcher"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 9999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 19703453
-        },
-        ["Eggcellent"] = {
-            ["price"] = 360,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["incn"] = true,
-            ["textoverride"] = "",
             ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "Fantasy",
+            ["cat"] = "gear",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(67, 170, 83),
-            ["textc"] = Color3.fromRGB(196, 255, 213),
-            ["pic"] = 281754128
+            ["pic"] = 14185591040
+        },
+        ["Ostentatious Award"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["cnpic"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 146022817
         },
         ["Pirate Juice"] = {
             ["onsale"] = true,
@@ -17064,76 +17154,34 @@ data = {
             ["cat"] = "gear",
             ["Tradeable"] = true,
             ["typ"] = "points",
-            ["pic"] = 13117721
+            ["pic"] = 123769684438102
         },
-        ["Festive Lights Trail"] = {
+        ["Groundhog"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 999999,
+            ["price"] = 440,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15603326714
-        },
-        ["Dark Swirls"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 4088448922
-        },
-        ["Hot Headed"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16532985044
-        },
-        ["Narwhal"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "user",
-            ["cnpic"] = 0,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["users"] = {["1084073"] = 1084073, ["_self"] = false},
-            ["textsc"] = Color3.fromRGB(30, 85, 162),
-            ["level"] = 1,
-            ["textc"] = Color3.fromRGB(61, 161, 211),
-            ["pic"] = 281754128
-        },
-        ["Disco Potion"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 17581427327
-        },
-        ["Festive Dog"] = {
-            ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "pet",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["price"] = 999999999,
+            ["pic"] = 281380739
+        },
+        ["Noob"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 420,
             ["typ"] = "points",
             ["incn"] = true,
-            ["pic"] = 113082007672343
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 0),
+            ["textc"] = Color3.fromRGB(0, 85, 255),
+            ["pic"] = 281754128
         },
         ["Flurry Tree"] = {
             ["rarity"] = 0,
@@ -17146,6 +17194,48 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 11803576420
+        },
+        ["Red Balloons"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2306007203
+        },
+        ["Evolving"] = {
+            ["rarity"] = 0,
+            ["price"] = 520,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 15366382657
+        },
+        ["Festive Dog"] = {
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["cnpic"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 113082007672343
+        },
+        ["Barry the Bear"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 16468514941
         },
         ["Sporty"] = {
             ["onsale"] = true,
@@ -17162,16 +17252,15 @@ data = {
             ["textc"] = Color3.fromRGB(170, 255, 0),
             ["pic"] = 281754128
         },
-        ["Goofy Spider"] = {
-            ["rarity"] = 0,
-            ["price"] = 810,
-            ["typ"] = "points",
-            ["incn"] = true,
+        ["Disperse"] = {
+            ["onsale"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 900,
+            ["typ"] = "points",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15101785824
+            ["pic"] = 16268364779
         },
         ["Bauble Staff"] = {
             ["rarity"] = 0,
@@ -17195,16 +17284,14 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 726920046
         },
-        ["Evolving"] = {
-            ["rarity"] = 0,
-            ["price"] = 520,
-            ["cnpic"] = 0,
+        ["2nd Place Trophy"] = {
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
+            ["cat"] = "gear",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
             ["typ"] = "points",
-            ["pic"] = 15366382657
+            ["cnpic"] = 0,
+            ["pic"] = 12701460402
         },
         ["Piggybank"] = {
             ["rarity"] = 0,
@@ -17255,16 +17342,17 @@ data = {
             ["_self"] = false,
             ["pic"] = 500048740
         },
-        ["Beehive"] = {
+        ["Rainbow Sparkles"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 2650,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 200,
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 117466190
+            ["pic"] = 14223382203
         },
         ["Perfect"] = {
             ["rarity"] = 0,
@@ -17280,20 +17368,17 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 255),
             ["pic"] = 281754128
         },
-        ["Real"] = {
+        ["Dance Potion"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 750,
+            ["price"] = 2000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 255, 255),
-            ["textc"] = Color3.fromRGB(255, 0, 0),
-            ["pic"] = 281754128
+            ["pic"] = 27808126
         },
         ["Menacing Mage Energy Ball"] = {
             ["rarity"] = 0,
@@ -17316,14 +17401,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 26721793
         },
-        ["Ascend"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Compass"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 1000,
+            ["price"] = 180,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
             ["Tradeable"] = true,
-            ["pic"] = 15288986278
+            ["cnpic"] = 0,
+            ["pic"] = 14657127
         },
         ["Kooki the Kookaburra"] = {
             ["rarity"] = 0,
@@ -17347,7 +17435,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15366382152
         },
-        ["_self"] = false,
+        ["Fairy Wings"] = {
+            ["rarity"] = 0,
+            ["price"] = 2500,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 14688742712
+        },
         ["Face Off Potion"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
@@ -17381,14 +17479,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 122267946
         },
-        ["2nd Place Trophy"] = {
-            ["_self"] = false,
-            ["cat"] = "gear",
+        ["Magical Horseshoe"] = {
+            ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 999999999,
+            ["price"] = 920,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 12701460402
+            ["pic"] = 287437692
         },
         ["Diamonds"] = {
             ["onsale"] = true,
@@ -17403,90 +17504,10 @@ data = {
             ["_self"] = false,
             ["pic"] = 653921008
         },
-        ["Block Frog"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 123,
-            ["maker"] = "IlluminatedDawn",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 11995645959
-        },
-        ["Rainbow Sparkles"] = {
-            ["rarity"] = 0,
-            ["price"] = 2650,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Harsh_Here",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14223382203
-        },
-        ["Drop Robux"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 14638400800
-        },
-        ["Dance Potion"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 2000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 27808126
-        },
-        ["Compass"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 180,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14657127
-        },
-        ["Radiation"] = {
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["rarity"] = 0,
-            ["Tradeable"] = true,
-            ["typ"] = "mission",
-            ["cnpic"] = 0,
-            ["pic"] = 2306006637
-        },
-        ["Corruption"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16532984081
-        },
         ["Giver"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 100,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
@@ -17507,6 +17528,15 @@ data = {
             ["Tradeable"] = true,
             ["typ"] = "points",
             ["pic"] = 281307454
+        },
+        ["Drop Robux"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 14638400800
         },
         ["Protest Sign: Eggs are for eating"] = {
             ["_self"] = false,
@@ -17530,16 +17560,28 @@ data = {
             ["textc"] = Color3.fromRGB(255, 0, 0),
             ["pic"] = 281754128
         },
-        ["Banana Peel"] = {
+        ["Earth"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 740,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 596995858
+        },
+        ["Corruption"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = true,
-            ["cat"] = "gear",
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 28937264
+            ["pic"] = 16532984081
         },
         ["Blobby Fish"] = {
             ["rarity"] = 0,
@@ -17576,17 +17618,73 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 281307254
         },
-        ["Pink Coconut Drink"] = {
+        ["Pink Dolphin"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 999999999,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 200,
-            ["maker"] = "Ostralyen",
+            ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 18210505675
+            ["pic"] = 9665091751
+        },
+        ["Banana Peel"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 28937264
+        },
+        ["Prodigious Award"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["cnpic"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 11194082266
+        },
+        ["Motley Parrot"] = {
+            ["rarity"] = 0,
+            ["price"] = 840,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 15678313401
+        },
+        ["Power of the Crystals"] = {
+            ["rarity"] = 0,
+            ["price"] = 99999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 17581427785
+        },
+        ["Popular"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 0, 255),
+            ["pic"] = 281754128
         },
         ["Decoy Deploy"] = {
             ["rarity"] = 0,
@@ -17631,26 +17729,6 @@ data = {
             ["typ"] = "points",
             ["pic"] = 596993240
         },
-        ["Prodigious Award"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 1000000000000000000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 11194082266
-        },
-        ["Prime Award"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 1000000000000000000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 14549376742
-        },
         ["Popping Bubbles"] = {
             ["rarity"] = 0,
             ["price"] = 99999999999,
@@ -17662,6 +17740,28 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 11193090257
         },
+        ["Plasmatic"] = {
+            ["rarity"] = 0,
+            ["price"] = 99999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 16445541303
+        },
+        ["Ghost"] = {
+            ["onsale"] = true,
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 600,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 16267573670
+        },
         ["Haunted Sleeping Bag"] = {
             ["rarity"] = 0,
             ["_self"] = false,
@@ -17672,54 +17772,25 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 11329877791
         },
-        ["Imbecile"] = {
+        ["Double Cheezburger"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187375716",
-            ["textoverride"] = "",
+            ["price"] = 425,
             ["cnpic"] = 0,
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["typ"] = "points",
-            ["price"] = 1675,
-            ["textsc"] = Color3.fromRGB(85, 85, 127),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Abduct"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 5000,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 12940242620
-        },
-        ["Plunger Launcher"] = {
-            ["rarity"] = 0,
-            ["price"] = 9999999,
-            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
-            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14185591040
-        },
-        ["Fire Whirl"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
             ["typ"] = "points",
-            ["incn"] = true,
+            ["pic"] = 24686524
+        },
+        ["Firecracker"] = {
             ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "abrahamabugri",
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 9999999,
+            ["typ"] = "points",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 16532984547
+            ["pic"] = 15801567157
         },
         ["Plasma"] = {
             ["rarity"] = 0,
@@ -17731,6 +17802,29 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 4088451090
+        },
+        ["Goala Cola"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 28501643
+        },
+        ["Pink Coconut Drink"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 200,
+            ["maker"] = "Ostralyen",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 18210505675
         },
         ["Haggard"] = {
             ["rarity"] = 0,
@@ -17757,15 +17851,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 1032772069
         },
-        ["Ghost"] = {
+        ["Electricity"] = {
             ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
             ["rarity"] = 0,
-            ["price"] = 600,
+            ["price"] = 750,
             ["typ"] = "points",
+            ["showatstand"] = true,
+            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["pic"] = 16267573670
+            ["_self"] = false,
+            ["cnpic"] = 0,
+            ["pic"] = 281701192
         },
         ["Egg Beater"] = {
             ["rarity"] = 0,
@@ -17778,62 +17874,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 376899523
         },
-        ["Double Cheezburger"] = {
+        ["4-String Roblocaster"] = {
             ["rarity"] = 0,
-            ["price"] = 425,
-            ["cnpic"] = 0,
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
             ["Tradeable"] = true,
+            ["price"] = 999999999,
             ["typ"] = "points",
-            ["pic"] = 24686524
-        },
-        ["Battle Lion"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 4088439584
+            ["pic"] = 14115908
         },
-        ["Firecracker"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
-            ["rarity"] = 0,
-            ["price"] = 9999999,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 15801567157
-        },
-        ["Eggstaff"] = {
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 960,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 225549962
-        },
-        ["9th Seasoneer"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187376910",
-            ["price"] = 123456678,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Pink Dolphin"] = {
+        ["Blue Trooper"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
@@ -17842,7 +17893,55 @@ data = {
             ["cat"] = "pet",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 9665091751
+            ["pic"] = 6271465751
+        },
+        ["Lovely"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "rbxassetid://11322590111,Bold",
+            ["price"] = 9223372036854776000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(255, 97, 192),
+            ["textc"] = Color3.fromRGB(255, 189, 243),
+            ["pic"] = 281754128
+        },
+        ["Blue sparkles"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 496920984
+        },
+        ["Pedestrian"] = {
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 91013367981664
+        },
+        ["Peasant"] = {
+            ["rarity"] = 0,
+            ["textoverride"] = "",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["codenum"] = 261,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(61, 49, 20),
+            ["textc"] = Color3.fromRGB(170, 170, 127),
+            ["pic"] = 281754128
         },
         ["Equivocal"] = {
             ["rarity"] = 0,
@@ -17881,9 +17980,22 @@ data = {
             ["incn"] = true,
             ["pic"] = 6578275972
         },
-        ["Lovely"] = {
+        ["Fresh"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://11322590111,Bold",
+            ["textoverride"] = "",
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(0, 206, 175),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
+        },
+        ["Overseer"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "GrenzeGotisch,Bold,Italic",
             ["price"] = 9223372036854776000,
             ["typ"] = "points",
             ["incn"] = true,
@@ -17892,22 +18004,8 @@ data = {
             ["cat"] = "title",
             ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 97, 192),
-            ["textc"] = Color3.fromRGB(255, 189, 243),
-            ["pic"] = 281754128
-        },
-        ["Geek"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 255, 255),
-            ["textc"] = Color3.fromRGB(0, 0, 0),
+            ["textsc"] = Color3.fromRGB(0, 9, 0),
+            ["textc"] = Color3.fromRGB(0, 153, 0),
             ["pic"] = 281754128
         },
         ["Little Python"] = {
@@ -17920,14 +18018,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 16814852075
         },
-        ["Pedestrian"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Otherworldly Sceptre"] = {
             ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["Tradeable"] = true,
-            ["pic"] = 91013367981664
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["codenum"] = 156,
+            ["cnpic"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["pic"] = 2213420348
         },
         ["Bug Net"] = {
             ["onsale"] = true,
@@ -17972,15 +18071,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 13116120
         },
-        ["Guitars"] = {
+        ["Orbs"] = {
             ["rarity"] = 0,
+            ["price"] = 9999999,
+            ["cnpic"] = 0,
+            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["typ"] = "mission",
-            ["incn"] = true,
-            ["pic"] = 2306003124
+            ["typ"] = "points",
+            ["pic"] = 2306004672
         },
         ["!!!!!!!"] = {
             ["rarity"] = 0,
@@ -17992,42 +18092,39 @@ data = {
             ["incn"] = true,
             ["pic"] = 2306000205
         },
-        ["Peasant"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 261,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(61, 49, 20),
-            ["textc"] = Color3.fromRGB(170, 170, 127),
-            ["pic"] = 281754128
-        },
-        ["Partygoer"] = {
-            ["rarity"] = 0,
-            ["price"] = 100,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 85, 255),
-            ["textc"] = Color3.fromRGB(255, 150, 97),
-            ["pic"] = 281754128
-        },
-        ["Disconnect"] = {
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["Hot Headed"] = {
             ["rarity"] = 0,
             ["price"] = 999999999,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["maker"] = "Harsh_Here",
             ["Tradeable"] = true,
-            ["pic"] = 16267574025
+            ["cnpic"] = 0,
+            ["pic"] = 16532985044
+        },
+        ["Opulent Award"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["cnpic"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["pic"] = 146022866
+        },
+        ["Fire Extinguisher"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 2200,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 27787298
         },
         ["Simpleton"] = {
             ["rarity"] = 0,
@@ -18044,39 +18141,32 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 0),
             ["pic"] = 281754128
         },
-        ["Free"] = {
+        ["Dance Grenade"] = {
             ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["Tradeable"] = true,
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["codenum"] = 122,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(255, 0, 0),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Overseer"] = {
-            ["rarity"] = 0,
-            ["fontface"] = "GrenzeGotisch,Bold,Italic",
-            ["price"] = 9223372036854776000,
+            ["price"] = 50000000,
             ["typ"] = "points",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 9, 0),
-            ["textc"] = Color3.fromRGB(0, 153, 0),
-            ["pic"] = 281754128
+            ["pic"] = 65514581
+        },
+        ["Frog"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 270,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["typ"] = "points",
+            ["pic"] = 281304204
         },
         ["Red Stratobloxxer"] = {
             ["onsale"] = true,
             ["rarity"] = 0,
-            ["price"] = 750,
+            ["price"] = 780,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
@@ -18104,65 +18194,20 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 15603326534
         },
-        ["Opulent Award"] = {
+        ["Hyperborean"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["cnpic"] = 0,
-            ["price"] = 1000000000000000000,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["pic"] = 146022866
-        },
-        ["Decoder"] = {
-            ["rarity"] = 0,
+            ["fontface"] = "SpecialElite",
             ["textoverride"] = "",
-            ["typ"] = "code",
+            ["cnpic"] = 0,
             ["incn"] = true,
             ["Tradeable"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["codenum"] = 19,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 0, 0),
-            ["textc"] = Color3.fromRGB(0, 255, 0),
-            ["pic"] = 281754128
-        },
-        ["1st Seasoneer"] = {
-            ["rarity"] = 0,
-            ["price"] = 123456678,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["textoverride"] = "",
-            ["_self"] = false,
-            ["cat"] = "title",
-            ["font"] = "TitilliumWeb",
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(31, 31, 31),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["price"] = 1675,
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(99, 155, 185),
             ["pic"] = 281754128
-        },
-        ["Pixels"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["codenum"] = 203,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 4088450430
-        },
-        ["Moons"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 134514317558792
         },
         ["Noob Pop"] = {
             ["rarity"] = 0,
@@ -18186,17 +18231,65 @@ data = {
             ["typ"] = "points",
             ["pic"] = 15678313202
         },
-        ["Noise Maker"] = {
-            ["onsale"] = true,
+        ["Pixels"] = {
             ["rarity"] = 0,
-            ["price"] = 400,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["codenum"] = 203,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 4088450430
+        },
+        ["Moons"] = {
+            ["rarity"] = 0,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
+            ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 20056056
+            ["pic"] = 134514317558792
+        },
+        ["Hampter"] = {
+            ["rarity"] = 0,
+            ["price"] = 1000000000000000000,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 9665656759
+        },
+        ["Audacious"] = {
+            ["rarity"] = 0,
+            ["fontface"] = "LuckiestGuy",
+            ["price"] = 123456678,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(31, 31, 31),
+            ["textc"] = Color3.fromRGB(250, 255, 198),
+            ["pic"] = 281754128
+        },
+        ["Ninja"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 600,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 633295955
         },
         ["Space Aura"] = {
             ["rarity"] = 0,
@@ -18232,17 +18325,17 @@ data = {
             ["Tradeable"] = true,
             ["pic"] = 14638399408
         },
-        ["Ninja"] = {
-            ["onsale"] = true,
+        ["Burning Flames"] = {
             ["rarity"] = 0,
-            ["price"] = 600,
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "pet",
+            ["cat"] = "effect",
+            ["maker"] = "Maxocado_Avocado",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 633295955
+            ["pic"] = 18685676841
         },
         ["Baubillionaire"] = {
             ["pricehidden"] = true,
@@ -18335,39 +18428,6 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 14538419902
         },
-        ["Burning Flames"] = {
-            ["rarity"] = 0,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["maker"] = "Maxocado_Avocado",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 18685676841
-        },
-        ["Nessie"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 4088442395
-        },
-        ["Neon Laser Launcher"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "gear",
-            ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
-            ["cnpic"] = 0,
-            ["pic"] = 18984886716
-        },
         ["Leafy Ring"] = {
             ["rarity"] = 0,
             ["price"] = 900,
@@ -18394,16 +18454,6 @@ data = {
             ["textc"] = Color3.fromRGB(255, 205, 143),
             ["pic"] = 281754128
         },
-        ["Cyan flame"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "effect",
-            ["gid"] = 2649054,
-            ["cnpic"] = 0,
-            ["typ"] = "group",
-            ["rank"] = 1,
-            ["pic"] = 497101886
-        },
         ["Mythical"] = {
             ["rarity"] = 0,
             ["fontface"] = "Balthazar,Bold",
@@ -18419,6 +18469,47 @@ data = {
             ["textc"] = Color3.fromRGB(255, 255, 0),
             ["pic"] = 281754128
         },
+        ["Frigid Fox"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["Tradeable"] = true,
+            ["price"] = 999999999,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 16536159489
+        },
+        ["Egg Locater"] = {
+            ["rarity"] = 0,
+            ["_self"] = true,
+            ["cat"] = "gear",
+            ["Tradeable"] = true,
+            ["price"] = 950,
+            ["typ"] = "points",
+            ["cnpic"] = 0,
+            ["pic"] = 110335899
+        },
+        ["Cyan flame"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["gid"] = 2649054,
+            ["cnpic"] = 0,
+            ["typ"] = "group",
+            ["rank"] = 1,
+            ["pic"] = 497101886
+        },
+        ["Cups of tea"] = {
+            ["rarity"] = 0,
+            ["price"] = 350,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 596974802
+        },
         ["Christmas Puddings"] = {
             ["rarity"] = 0,
             ["typ"] = "code",
@@ -18430,29 +18521,24 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 2306002308
         },
-        ["Fresh"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["incn"] = true,
+        ["Confetti Explosion"] = {
             ["_self"] = false,
-            ["cat"] = "title",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(0, 206, 175),
-            ["textc"] = Color3.fromRGB(255, 255, 255),
-            ["pic"] = 281754128
-        },
-        ["Motley Parrot"] = {
+            ["cat"] = "death",
             ["rarity"] = 0,
-            ["price"] = 840,
+            ["price"] = 1000,
             ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 15678313401
+            ["pic"] = 17592705007
+        },
+        ["Abduct"] = {
+            ["onsale"] = true,
+            ["_self"] = false,
+            ["cat"] = "death",
+            ["rarity"] = 0,
+            ["price"] = 5000,
+            ["typ"] = "points",
+            ["Tradeable"] = true,
+            ["pic"] = 12940242620
         },
         ["Halo"] = {
             ["rarity"] = 0,
@@ -18477,40 +18563,45 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 80173776
         },
-        ["Cups of tea"] = {
-            ["rarity"] = 0,
-            ["price"] = 350,
+        ["Eggy"] = {
+            ["price"] = 540,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "effect",
             ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 596974802
-        },
-        ["Miner"] = {
-            ["rarity"] = 0,
-            ["textoverride"] = "",
-            ["typ"] = "mission",
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "title",
-            ["Tradeable"] = true,
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(105, 255, 122),
-            ["textc"] = Color3.fromRGB(74, 50, 0),
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 227, 10),
             ["pic"] = 281754128
         },
-        ["Flowers"] = {
+        ["Loaded"] = {
             ["rarity"] = 0,
-            ["price"] = 1600,
+            ["fontface"] = "rbxassetid://12187371840",
+            ["price"] = 999999999,
             ["typ"] = "points",
             ["incn"] = true,
+            ["Tradeable"] = true,
             ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
+            ["cnpic"] = 0,
+            ["textsc"] = Color3.fromRGB(239, 255, 92),
+            ["textc"] = Color3.fromRGB(0, 170, 0),
+            ["pic"] = 281754128
+        },
+        ["Flushed"] = {
+            ["rarity"] = 0,
+            ["price"] = 650,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["showatstand"] = true,
             ["cat"] = "effect",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 12727260482
+            ["_self"] = false,
+            ["pic"] = 14564234778
         },
         ["Ghost Dragon"] = {
             ["rarity"] = 0,
@@ -18523,15 +18614,20 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 501087884
         },
-        ["Merry Snowflake"] = {
+        ["Benevolent"] = {
             ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["price"] = 50,
+            ["fontface"] = "Merriweather,Bold",
+            ["price"] = 123456678,
             ["typ"] = "points",
+            ["incn"] = true,
+            ["Tradeable"] = true,
+            ["_self"] = false,
+            ["cat"] = "title",
+            ["textoverride"] = "",
             ["cnpic"] = 0,
-            ["pic"] = 11810365384
+            ["textsc"] = Color3.fromRGB(255, 255, 255),
+            ["textc"] = Color3.fromRGB(255, 255, 255),
+            ["pic"] = 281754128
         },
         ["Zombie Puppy"] = {
             ["Tradeable"] = true,
@@ -18543,16 +18639,15 @@ data = {
             ["incn"] = true,
             ["pic"] = 85203945657306
         },
-        ["Maraca"] = {
+        ["Liberty Torch"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
-            ["codenum"] = 122,
             ["Tradeable"] = true,
+            ["price"] = 1650,
+            ["typ"] = "points",
             ["cnpic"] = 0,
-            ["pic"] = 21339489
+            ["pic"] = 55267047
         },
         ["Hazardous"] = {
             ["rarity"] = 0,
@@ -18604,20 +18699,17 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 70434547
         },
-        ["Loaded"] = {
+        ["Jumbo Hamster"] = {
             ["rarity"] = 0,
-            ["fontface"] = "rbxassetid://12187371840",
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["typ"] = "code",
             ["incn"] = true,
-            ["Tradeable"] = true,
             ["_self"] = false,
-            ["cat"] = "title",
-            ["textoverride"] = "",
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["maker"] = "RookVanguard",
+            ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["textsc"] = Color3.fromRGB(239, 255, 92),
-            ["textc"] = Color3.fromRGB(0, 170, 0),
-            ["pic"] = 281754128
+            ["pic"] = 12052060873
         },
         ["Advisor"] = {
             ["rarity"] = 0,
@@ -18649,11 +18741,9 @@ data = {
             ["pic"] = 281754128
         },
         ["Hot Chocolate"] = {
-            ["onsale"] = true,
             ["rarity"] = 0,
             ["price"] = 250,
             ["typ"] = "points",
-            ["marked"] = true,
             ["incn"] = true,
             ["_self"] = false,
             ["cat"] = "gear",
@@ -18722,18 +18812,6 @@ data = {
             ["incn"] = true,
             ["pic"] = 103449055050641
         },
-        ["Jumbo Hamster"] = {
-            ["rarity"] = 0,
-            ["typ"] = "code",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["codenum"] = 200,
-            ["maker"] = "RookVanguard",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 12052060873
-        },
         ["Independence Day Bundle"] = {
             ["oname"] = "americabundle",
             ["pid"] = 845647259,
@@ -18746,6 +18824,19 @@ data = {
             ["cnpic"] = 0,
             ["incn"] = true,
             ["pic"] = 18258415294
+        },
+        ["Disco Balls"] = {
+            ["onsale"] = true,
+            ["rarity"] = 0,
+            ["price"] = 950,
+            ["typ"] = "points",
+            ["incn"] = true,
+            ["showatstand"] = true,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["_self"] = false,
+            ["pic"] = 500048517
         },
         ["Christmas Goat"] = {
             ["rarity"] = 0,
@@ -18769,18 +18860,6 @@ data = {
             ["Tradeable"] = true,
             ["cnpic"] = 0,
             ["pic"] = 21373945
-        },
-        ["Herbert T. Shark"] = {
-            ["rarity"] = 0,
-            ["price"] = 1200,
-            ["typ"] = "points",
-            ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["maker"] = "Bad_B0y",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 14886848571
         },
         ["Henry the Hedgehog"] = {
             ["rarity"] = 0,
@@ -18818,6 +18897,16 @@ data = {
             ["textc"] = Color3.fromRGB(221, 181, 255),
             ["pic"] = 281754128
         },
+        ["Basketballs"] = {
+            ["rarity"] = 0,
+            ["_self"] = false,
+            ["cat"] = "effect",
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["typ"] = "mission",
+            ["incn"] = true,
+            ["pic"] = 2306001433
+        },
         ["Yellow Anime Aura"] = {
             ["rarity"] = 0,
             ["price"] = 2700,
@@ -18839,15 +18928,16 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 255024513
         },
-        ["Disperse"] = {
-            ["onsale"] = true,
-            ["_self"] = false,
-            ["cat"] = "death",
+        ["8-Bit Fairy"] = {
             ["rarity"] = 0,
-            ["price"] = 900,
-            ["typ"] = "points",
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
             ["Tradeable"] = true,
-            ["pic"] = 16268364779
+            ["cnpic"] = 0,
+            ["pic"] = 4088439134
         },
         ["Moneybag"] = {
             ["onsale"] = true,
@@ -18873,6 +18963,17 @@ data = {
             ["incn"] = true,
             ["pic"] = 16008106541
         },
+        ["Battle Lion"] = {
+            ["rarity"] = 0,
+            ["typ"] = "code",
+            ["incn"] = true,
+            ["_self"] = false,
+            ["cat"] = "pet",
+            ["codenum"] = 200,
+            ["Tradeable"] = true,
+            ["cnpic"] = 0,
+            ["pic"] = 4088439584
+        },
         ["Freedom Eagle"] = {
             ["rarity"] = 0,
             ["price"] = 999,
@@ -18884,27 +18985,15 @@ data = {
             ["cnpic"] = 0,
             ["pic"] = 15477424295
         },
-        ["Frigid Fox"] = {
-            ["rarity"] = 0,
-            ["_self"] = false,
-            ["cat"] = "pet",
+        ["Eggstaff"] = {
             ["Tradeable"] = true,
-            ["price"] = 999999999,
-            ["typ"] = "points",
+            ["_self"] = false,
+            ["cat"] = "gear",
             ["cnpic"] = 0,
-            ["pic"] = 16536159489
-        },
-        ["Fox"] = {
-            ["onsale"] = true,
-            ["rarity"] = 0,
-            ["price"] = 4500,
+            ["price"] = 960,
             ["typ"] = "points",
             ["incn"] = true,
-            ["_self"] = false,
-            ["cat"] = "pet",
-            ["Tradeable"] = true,
-            ["cnpic"] = 0,
-            ["pic"] = 2319364522
+            ["pic"] = 225549962
         },
         ["Sleepy Penguin Friend"] = {
             ["Tradeable"] = true,
@@ -18948,16 +19037,17 @@ data = {
             ["typ"] = "code",
             ["pic"] = 11760369076
         },
-        ["Flower Crossbow"] = {
+        ["Abducting"] = {
             ["rarity"] = 0,
-            ["typ"] = "code",
+            ["price"] = 900,
+            ["typ"] = "points",
             ["incn"] = true,
             ["_self"] = false,
-            ["cat"] = "gear",
-            ["codenum"] = 156,
+            ["cat"] = "effect",
+            ["maker"] = "abrahamabugri",
             ["Tradeable"] = true,
             ["cnpic"] = 0,
-            ["pic"] = 225072599
+            ["pic"] = 10984933941
         },
         ["Balligator"] = {
             ["rarity"] = 0,
@@ -18970,8 +19060,8 @@ data = {
             ["pic"] = 16820821561
         }
     },
-    ["cammname"] = "Crystal Clear",
-    ["datetoday"] = {["day"] = 16, ["year"] = 2024, ["month"] = 12},
+    ["cammname"] = "Big Bomb Boom",
+    ["datetoday"] = {["year"] = 2025, ["day"] = 1, ["month"] = 3},
     ["guicolors"] = {
         ["maingrey"] = Color3.fromRGB(102, 102, 102),
         ["mainturquoisehover"] = Color3.fromRGB(107, 255, 174),
@@ -18990,10 +19080,10 @@ data = {
         ["maindarkbluehover"] = Color3.fromRGB(64, 64, 115),
         ["maindarkblue"] = Color3.fromRGB(38, 38, 115)
     },
-    ["mapname"] = "Village",
-    ["someoneout"] = 15233,
-    ["customspecdist"] = 20,
-    ["specialday"] = "christmas",
+    ["mapname"] = "",
+    ["someoneout"] = 10627,
+    ["customspecdist"] = 8,
+    ["specialday"] = "",
     ["roundon"] = true,
     ["minigamelist"] = {
         ["Only One Path"] = {
@@ -19004,20 +19094,15 @@ data = {
             ["Museum"] = "15458353614",
             ["Hallway Sector"] = "13385739887"
         },
-        ["Revolution Cube"] = {
-            [""] = "2040753157",
-            ["_self"] = 74,
-            ["Temple"] = "3559430214",
-            ["Clock Tower"] = "10235104994"
-        },
+        ["Sweeping Singe"] = {[""] = "10053286511", ["_self"] = 121, ["Nuclear"] = "13178668108"},
         ["Spiral Ascent"] = {
             [""] = "12505582918",
             ["_self"] = 84,
             ["Clockworks"] = "13650887251",
             ["Jungle"] = "12505583196"
         },
-        ["Kooky Karts"] = {[""] = "17294930266", ["_self"] = 131},
-        ["Teetering Turmoil"] = {[""] = "5295713874", ["_self"] = 104},
+        ["Kooky Karts"] = {[""] = "17294930266", ["_self"] = 131, ["Cosmic Road"] = "131821367191891"},
+        ["Trampoline Acrobat"] = {[""] = "15120250419", ["_self"] = 127},
         ["Castle Clash"] = {
             [""] = "13385670234",
             ["_self"] = 14,
@@ -19025,10 +19110,10 @@ data = {
             ["Atlantis"] = "16581431398"
         },
         ["Four Corners"] = {
-            ["Aquaria"] = "3559428141",
+            ["Docks"] = "1086645174",
             ["_self"] = 30,
-            ["Containment"] = "3553318044",
-            ["Docks"] = "1086645174"
+            ["Aquaria"] = "3559428141",
+            ["Containment"] = "3553318044"
         },
         ["Castle Climb"] = {[""] = "3559420745", ["_self"] = 89, ["Vineyard"] = "15426000425"},
         ["High-Rolling"] = {[""] = "1086647179", ["_self"] = 38, ["Space"] = "12283975440", ["Alps"] = "10235101772"},
@@ -19064,13 +19149,19 @@ data = {
             ["_self"] = 28,
             ["Springtime Valley"] = "6580718798",
             ["High Peak"] = "1086646883",
-            ["Fractured Fantasia"] = "14785268803",
-            ["Canyon"] = "1086643156"
+            ["Canyon"] = "1086643156",
+            ["Fractured Fantasia"] = "14785268803"
         },
         ["Flintlock Fight"] = {[""] = "13497679098", ["_self"] = 29, ["Western"] = "13497711536"},
         ["Hen Herding"] = {[""] = "6502051273", ["_self"] = 111},
         ["Football Fever"] = {[""] = "5978313081", ["_self"] = 110, ["Stadium"] = "14797240696"},
-        ["Colour Run"] = {[""] = "15630091086", ["_self"] = 128},
+        ["Bomberblox"] = {
+            [""] = "9343555465",
+            ["_self"] = 116,
+            ["Candylands"] = "18352476983",
+            ["Playset"] = "13385645308",
+            ["Badlands"] = "14963724280"
+        },
         ["Whack-a-Block"] = {
             [""] = "15215399808",
             ["_self"] = 70,
@@ -19081,10 +19172,10 @@ data = {
         },
         ["Lava Forecast"] = {
             [""] = "1086644291",
-            ["Ignotus"] = "10235103799",
+            ["_self"] = 44,
             ["Wasteland"] = "5546334191",
             ["Digsite"] = "13385728597",
-            ["_self"] = 44
+            ["Ignotus"] = "10235103799"
         },
         ["Train Trouble"] = {
             [""] = "1086653604",
@@ -19095,9 +19186,9 @@ data = {
         },
         ["Colossal Assault"] = {
             ["Volcanon"] = "2383523113",
-            ["The Arbigrok"] = "2383523657",
-            ["Dr Thanatos"] = "2383523402",
             ["Obseruvos"] = {["secret"] = true, ["_self"] = "14378738849"},
+            ["Dr Thanatos"] = "2383523402",
+            ["The Arbigrok"] = "2383523657",
             ["_self"] = 36
         },
         ["Slippery Sledding"] = {[""] = "1086652758", ["_self"] = 60, ["Frozen Passage"] = "1086645936"},
@@ -19116,7 +19207,7 @@ data = {
             ["Archipelago"] = "3559419197",
             ["Desert"] = "3559421307"
         },
-        ["Laser Tag"] = {[""] = "10235432403", ["_self"] = 43, ["Plastic Battlefield"] = "10235102976"},
+        ["The Block Chain"] = {["Energy Assault"] = "17446593621", ["_self"] = 28},
         ["Bomb Ball"] = {
             [""] = "1541732881",
             ["_self"] = 8,
@@ -19125,7 +19216,7 @@ data = {
             ["Valley"] = "1689037999"
         },
         ["Avalanche"] = {[""] = "5011313579", ["_self"] = 2, ["Neapolitan"] = "10235096693"},
-        ["Balcony Bolt"] = {[""] = "1086641836", ["_self"] = 4, ["Temple"] = "17057689872", ["Palace"] = "5546325799"},
+        ["Rolling Race"] = {[""] = "1086651298", ["_self"] = 56, ["Autumn"] = "4774948625", ["Canyon"] = "1194888891"},
         ["Trial Traversing"] = {
             [""] = "1086653733",
             ["_self"] = 67,
@@ -19136,29 +19227,17 @@ data = {
         },
         ["Rampant Rhythms"] = {[""] = "5978313347", ["_self"] = 109},
         ["Clear Side"] = {[""] = "1086643636", ["_self"] = 15},
-        ["Cloud Control"] = {
-            ["_self"] = 17,
-            ["Candylands"] = "14976702360",
-            ["Summit"] = "14028098852",
-            ["Blossom Isles"] = "16095752621",
-            ["Celestial"] = "16825754131",
-            ["Steampunk"] = "13385675675"
-        },
-        ["Backstreet Brawl"] = {
-            ["Desert"] = "13385643561",
-            ["_self"] = 7,
-            ["New York"] = "103620078092871",
-            ["Blox City"] = "1086642113"
-        },
+        ["Lights On"] = {["Hexagon"] = "16886750360", ["_self"] = 45, [""] = "2590639214"},
+        ["Hurdle Hurry"] = {[""] = "5670963636", ["_self"] = 105, ["Grotto"] = "13385724057"},
         ["Pyre Pit"] = {["Frostbite"] = "2843510410", ["_self"] = 83, [""] = "2824164882", ["Shrine"] = "13385744858"},
         ["Juggernaut"] = {[""] = "4479790292", ["_self"] = 95, ["Blossom Valley"] = "6580721063"},
-        ["Manic Mining"] = {[""] = "3192621831", ["_self"] = 46, ["Mystic"] = "13386628334", ["Taiga"] = "13386635400"},
+        ["Manic Mining"] = {["Taiga"] = "13386635400", ["_self"] = 46, ["Mystic"] = "13386628334", [""] = "3192621831"},
         ["Crystal Clear"] = {
             [""] = "1086644461",
             ["_self"] = 21,
             ["Settlement"] = "1086651537",
-            ["Cave"] = "6072513857",
             ["Village"] = "5896719603",
+            ["Cave"] = "6072513857",
             ["Daybreak Isles"] = "14416127472"
         },
         ["Backforth Dash"] = {
@@ -19179,10 +19258,9 @@ data = {
         ["Cliffside Chaos"] = {
             [""] = "1086643813",
             ["_self"] = 16,
-            ["Electric"] = "15475157134",
             ["Magma"] = "5004093663",
             ["Metrobyte"] = "18100065739",
-            ["Winter"] = "2647712312",
+            ["Electric"] = "15475157134",
             ["China"] = "2563235507",
             ["Blossom"] = "18140701862"
         },
@@ -19197,16 +19275,16 @@ data = {
         },
         ["Cube Factory"] = {[""] = "2269625806", ["_self"] = 22, ["Castle Hall"] = "13385692503"},
         ["Flee the Facility"] = {
-            [""] = "5978312813",
-            ["_self"] = 108,
             ["Aquatic Underpass"] = "13112508499",
+            ["_self"] = 108,
+            [""] = "5978312813",
             ["Meltdown"] = "9538544660"
         },
         ["Above Water"] = {[""] = "13497443450", ["_self"] = 1, ["Biohazard"] = "17901383484"},
         ["Eagle Observation"] = {
-            ["Arctic"] = "5546329173",
-            ["_self"] = 81,
             [""] = "2668228030",
+            ["_self"] = 81,
+            ["Arctic"] = "5546329173",
             ["Lunar"] = "10235099742"
         },
         ["Toxic Reactions"] = {
@@ -19216,7 +19294,12 @@ data = {
             ["Swamp"] = "6580721735",
             ["_self"] = 65
         },
-        ["Missile Command"] = {[""] = "4961156762", ["_self"] = 100},
+        ["Bowling Bustle"] = {
+            [""] = "2040747400",
+            ["_self"] = 73,
+            ["Venice"] = "15881451944",
+            ["Atlantis"] = "10235098423"
+        },
         ["Mower Mania"] = {
             [""] = "3107882313",
             ["_self"] = 85,
@@ -19224,14 +19307,13 @@ data = {
             ["Heritage Site"] = "13385734149",
             ["Autumn Village"] = "14608223826"
         },
-        ["Pipeworks"] = {
-            ["_self"] = 52,
-            ["Temple Duo"] = "13518075600",
-            ["Sewers Duo"] = "13518077602",
-            ["Corrosion"] = "13518078639",
-            ["Corrosion Duo"] = "13518079394",
-            ["Temple"] = "13518074729",
-            ["Sewers"] = "13518076448"
+        ["Desert Dehydration"] = {
+            ["Western"] = "17799039514",
+            ["Pit"] = "13385694607",
+            ["Highway"] = "15461698001",
+            ["Oasis"] = "13553021375",
+            ["Hotpot"] = "15846071843",
+            ["_self"] = 24
         },
         ["Haunted Hallways"] = {[""] = "5004091791", ["_self"] = 35, ["Lakeside"] = "10235100647"},
         ["Platform Peril"] = {
@@ -19240,11 +19322,10 @@ data = {
             ["Nuclear"] = "14651548578",
             ["Fusion"] = "4774949025"
         },
-        ["Minefield March"] = {[""] = "15602180067", ["_self"] = 129, ["Pirate Island"] = "17711440611"},
+        ["Aztec Adventure"] = {[""] = "1086641746", ["_self"] = 3, ["Savannah"] = "9538469930"},
         ["The Crusher"] = {
             ["Ancient Temple"] = "4567722687",
             ["_self"] = 62,
-            ["Christmas Trial"] = "94952272081808",
             ["Giant's Playroom"] = "14024305006",
             ["Deep Into the Sea"] = "4567745803",
             ["Autumn Grove"] = "4567723710",
@@ -19258,7 +19339,12 @@ data = {
             ["Glacier"] = "14001262606",
             ["Tropical"] = "13385690500"
         },
-        ["Crag Clamber"] = {[""] = "2824165378", ["_self"] = 82},
+        ["Round Race"] = {
+            ["Sunset Shores"] = "10235126459",
+            ["_self"] = 72,
+            ["Cybernetic"] = "11634915594",
+            [""] = "1689037199"
+        },
         ["Teamwork Trial"] = {
             ["_self"] = 77,
             ["Gulch"] = "2563273165",
@@ -19266,18 +19352,25 @@ data = {
             ["Lagoon"] = "8990802740",
             ["Grid"] = "2563273405"
         },
-        ["Orbit Snatcher"] = {[""] = "5696062971", ["_self"] = 107, ["Harbour"] = "18354074133"},
+        ["Shock Absorbers"] = {
+            [""] = "1086652068",
+            ["_self"] = 58,
+            ["Pathology"] = "18231720177",
+            ["Temple"] = "12529472769",
+            ["Sub-zero"] = "10097447648"
+        },
         ["Destroy the Statue"] = {
             [""] = "3428770952",
             ["_self"] = 25,
             ["Poisonous Lake"] = "13385702032",
-            ["Skylands"] = "13397256158",
-            ["Palace"] = "13397576718"
+            ["Palace"] = "13397576718",
+            ["Skylands"] = "13397256158"
         },
         ["Balloon Platoon"] = {
             [""] = "5392188900",
             ["Copper City"] = "10235097458",
             ["Crumbled Colosseum"] = "13361176816",
+            ["Sundae Summits"] = "126981088681114",
             ["Toy Battle"] = "15195973119",
             ["_self"] = 102
         },
@@ -19289,66 +19382,24 @@ data = {
             ["Microrealm"] = "78213398713050",
             ["_self"] = 50
         },
-        ["Blow Dryer Battle"] = {["Gearworks"] = "10235097838", ["_self"] = 6},
-        ["Collection Contention"] = {[""] = "11817597749", ["_self"] = 80},
+        ["Going Underground"] = {
+            [""] = "1086646468",
+            ["_self"] = 33,
+            ["Junkyard"] = "13545423795",
+            ["Grove"] = "2040749088"
+        },
         ["Nudge and Budge"] = {
             [""] = "5670963972",
             ["_self"] = 106,
             ["Workshop"] = "14066193404",
             ["Board Games"] = "13397260735"
         },
-        ["Race to the Top"] = {["Corruption"] = "98493136290435", ["_self"] = 132},
-        ["Uncertain Ground"] = {
-            [""] = "1086653829",
-            ["_self"] = 68,
-            ["Deepnest"] = "10235107486",
-            ["Darkened Realm"] = "14591100144",
-            ["Temple"] = "2040754829",
-            ["Sunset Bay"] = "16895208495"
-        },
-        ["Turntable Scurry"] = {[""] = "2040754651", ["_self"] = 75},
-        ["Rocket Rumble"] = {
-            [""] = "1086651196",
-            ["_self"] = 55,
-            ["Celestial"] = "13670104255",
-            ["Stratosphere"] = "11710060364"
-        },
-        ["Dodgeball"] = {[""] = "4614535649", ["_self"] = 93, ["Arctic"] = "5004176857", ["Downtown"] = "10235099437"},
-        ["Beat Block"] = {[""] = "9388891424", ["_self"] = 119, ["Cards"] = "16579095496"},
-        ["Treacherous Tiles"] = {
-            [""] = "4961155103",
-            ["_self"] = 99,
-            ["Honeycomb"] = "13385763093",
-            ["Ignis"] = "13385769345"
-        },
-        ["Marble Madness"] = {
-            ["Drought"] = "5004094699",
-            ["_self"] = 47,
-            ["Whitespace"] = "98100705242504",
-            ["Valley"] = "2040749729"
-        },
-        ["Trampoline Acrobat"] = {[""] = "15120250419", ["_self"] = 127},
-        ["Survive the Spheres"] = {["_self"] = 120, ["Coast"] = "13385758038", ["Party"] = "9444827375"},
-        ["Protect the Statue"] = {[""] = "1086650983", ["_self"] = 54, ["Atlantis"] = "2563233371"},
-        ["Just Jump"] = {
-            [""] = "1086647468",
-            ["Emerald Isles"] = "10235102393",
-            ["Beach"] = "10235102096",
-            ["Oasis"] = "10235102644",
-            ["_self"] = 39
-        },
-        ["Disc of Doom"] = {
-            [""] = "11446021290",
-            ["_self"] = 123,
-            ["Observatory"] = "15328352739",
-            ["Industrial Clockworks"] = "18358800070",
-            ["Volcanic"] = "13195367123"
-        },
-        ["Cannon Cooldown"] = {
-            [""] = "13385898420",
-            ["_self"] = 13,
-            ["Swamp"] = "13385666561",
-            ["Space"] = "13385665440"
+        ["Crag Clamber"] = {[""] = "2824165378", ["_self"] = 82},
+        ["Conveyor Conundrum"] = {
+            [""] = "1086644208",
+            ["_self"] = 19,
+            ["Cyber Factory"] = "15488954924",
+            ["Quarry"] = "10235099118"
         },
         ["Compactor Crash"] = {
             ["Crush"] = "13385688482",
@@ -19356,6 +19407,46 @@ data = {
             [""] = "1086644119",
             ["Submerged"] = "13497673991"
         },
+        ["Rocket Rumble"] = {
+            [""] = "1086651196",
+            ["_self"] = 55,
+            ["Celestial"] = "13670104255",
+            ["Stratosphere"] = "11710060364"
+        },
+        ["Dodgeball"] = {["Arctic"] = "5004176857", ["_self"] = 93, [""] = "4614535649", ["Downtown"] = "10235099437"},
+        ["Colour Run"] = {[""] = "15630091086", ["_self"] = 128},
+        ["Cloud Control"] = {
+            ["_self"] = 17,
+            ["Candylands"] = "14976702360",
+            ["Summit"] = "14028098852",
+            ["Blossom Isles"] = "16095752621",
+            ["Celestial"] = "16825754131",
+            ["Steampunk"] = "13385675675"
+        },
+        ["Marble Madness"] = {
+            ["Drought"] = "5004094699",
+            ["_self"] = 47,
+            ["Whitespace"] = "98100705242504",
+            ["Valley"] = "2040749729"
+        },
+        ["Revolution Cube"] = {
+            [""] = "2040753157",
+            ["_self"] = 74,
+            ["Temple"] = "3559430214",
+            ["Clock Tower"] = "10235104994"
+        },
+        ["Survive the Spheres"] = {["_self"] = 120, ["Coast"] = "13385758038", ["Party"] = "9444827375"},
+        ["Protect the Statue"] = {[""] = "1086650983", ["_self"] = 54, ["Atlantis"] = "2563233371"},
+        ["Romper Stomper"] = {[""] = "3107882577", ["_self"] = 86},
+        ["Disc of Doom"] = {
+            [""] = "11446021290",
+            ["_self"] = 123,
+            ["Observatory"] = "15328352739",
+            ["Industrial Clockworks"] = "18358800070",
+            ["Volcanic"] = "13195367123"
+        },
+        ["Teetering Turmoil"] = {[""] = "5295713874", ["_self"] = 104},
+        ["Race to the Top"] = {["Corruption"] = "98493136290435", ["_self"] = 132},
         ["King of the Hill"] = {
             ["Colony"] = "5546332507",
             ["_self"] = 71,
@@ -19371,6 +19462,61 @@ data = {
             ["Winter"] = "87333464441714",
             ["Desert"] = "13548927394"
         },
+        ["Balcony Bolt"] = {[""] = "1086641836", ["_self"] = 4, ["Temple"] = "17057689872", ["Palace"] = "5546325799"},
+        ["Just Jump"] = {
+            [""] = "1086647468",
+            ["Emerald Isles"] = "10235102393",
+            ["Beach"] = "10235102096",
+            ["Oasis"] = "10235102644",
+            ["_self"] = 39
+        },
+        ["Uncertain Ground"] = {
+            [""] = "1086653829",
+            ["_self"] = 68,
+            ["Deepnest"] = "10235107486",
+            ["Darkened Realm"] = "14591100144",
+            ["Temple"] = "2040754829",
+            ["Sunset Bay"] = "16895208495"
+        },
+        ["Hedge Way Out"] = {
+            [""] = "2563238226",
+            ["_self"] = 36,
+            ["Deep Woods"] = "9538373794",
+            ["Manor Gardens"] = "18140549514"
+        },
+        ["Turntable Scurry"] = {[""] = "2040754651", ["_self"] = 75},
+        ["Booksquash"] = {
+            [""] = "10054662472",
+            ["_self"] = 122,
+            ["Undersea"] = "11543952723",
+            ["Magical"] = "13385658196",
+            ["Playroom"] = "14023377974"
+        },
+        ["Big Bomb Boom"] = {[""] = "4967126705", ["_self"] = 101},
+        ["Missile Command"] = {[""] = "4961156762", ["_self"] = 100},
+        ["Bullet Evasion"] = {
+            ["Space"] = "5004097057",
+            ["_self"] = 11,
+            ["Stronghold"] = "90855598902288",
+            [""] = "1086642747"
+        },
+        ["Pipeworks"] = {
+            ["_self"] = 52,
+            ["Temple Duo"] = "13518075600",
+            ["Sewers Duo"] = "13518077602",
+            ["Corrosion"] = "13518078639",
+            ["Corrosion Duo"] = "13518079394",
+            ["Temple"] = "13518074729",
+            ["Sewers"] = "13518076448"
+        },
+        ["Minefield March"] = {["Pirate Island"] = "17711440611", ["_self"] = 129, [""] = "123413745043438"},
+        ["Bullet Bound"] = {
+            ["Facility"] = "13385660958",
+            ["Sewer"] = "15331488482",
+            ["Overloaded"] = "10235098135",
+            ["_self"] = 10,
+            ["Aquarium"] = "13385662304"
+        },
         ["Battleship Skirmish"] = {[""] = "4914139715", ["_self"] = 96},
         ["The Sweeper"] = {
             [""] = "1086653178",
@@ -19380,71 +19526,22 @@ data = {
             ["Warehouse"] = "10235105730",
             ["Woodland"] = "1373655717"
         },
-        ["The Block Chain"] = {["Energy Assault"] = "17446593621", ["_self"] = 28},
-        ["Hedge Way Out"] = {
-            [""] = "2563238226",
-            ["_self"] = 36,
-            ["Deep Woods"] = "9538373794",
-            ["Manor Gardens"] = "18140549514"
+        ["Cannon Cooldown"] = {
+            [""] = "13385898420",
+            ["_self"] = 13,
+            ["Swamp"] = "13385666561",
+            ["Space"] = "13385665440"
         },
-        ["Round Race"] = {
-            ["Sunset Shores"] = "10235126459",
-            ["_self"] = 72,
-            ["Cybernetic"] = "11634915594",
-            [""] = "1689037199"
-        },
-        ["Booksquash"] = {
-            [""] = "10054662472",
-            ["_self"] = 122,
-            ["Undersea"] = "11543952723",
-            ["Magical"] = "13385658196",
-            ["Playroom"] = "14023377974",
-            ["Santa's Workshop"] = "73208265283628"
-        },
-        ["Big Bomb Boom"] = {[""] = "4967126705", ["_self"] = 101},
-        ["Sweeping Singe"] = {[""] = "10053286511", ["_self"] = 121, ["Nuclear"] = "13178668108"},
-        ["Bullet Evasion"] = {["Space"] = "5004097057", ["_self"] = 11, [""] = "1086642747"},
-        ["Bowling Bustle"] = {
-            [""] = "2040747400",
-            ["_self"] = 73,
-            ["Venice"] = "15881451944",
-            ["Atlantis"] = "10235098423"
-        },
-        ["Desert Dehydration"] = {
-            ["_self"] = 24,
-            ["Pit"] = "13385694607",
-            ["Western"] = "17799039514",
-            ["Oasis"] = "13553021375",
-            ["Highway"] = "15461698001",
-            ["Hotpot"] = "15846071843"
-        },
-        ["Bullet Bound"] = {
-            ["Facility"] = "13385660958",
-            ["Sewer"] = "15331488482",
-            ["Overloaded"] = "10235098135",
-            ["_self"] = 10,
-            ["Aquarium"] = "13385662304"
-        },
-        ["Aztec Adventure"] = {[""] = "1086641746", ["_self"] = 3, ["Savannah"] = "9538469930"},
-        ["Romper Stomper"] = {[""] = "3107882577", ["_self"] = 86},
-        ["Solo Swordsman"] = {
-            [""] = "1086652896",
-            ["_self"] = 61,
-            ["Outpost"] = "1373654698",
-            ["Midnight Mill"] = "12285476321"
-        },
-        ["Shock Absorbers"] = {
-            [""] = "1086652068",
-            ["_self"] = 58,
-            ["Pathology"] = "18231720177",
-            ["Temple"] = "12529472769",
-            ["Sub-zero"] = "10097447648"
+        ["Cake Delivery"] = {
+            [""] = "1541733493",
+            ["_self"] = 12,
+            ["Skyline"] = "18100378204",
+            ["Harvest"] = "13548485900"
         },
         ["Hard-Pressed"] = {
             [""] = "1086646584",
             ["_self"] = 34,
             ["Futuristic Hangar"] = "13552384795",
-            ["Santa's Workshop"] = "11757039699",
             ["Molten Base"] = "10215760639",
             ["Nuclear"] = "14977309329"
         },
@@ -19456,31 +19553,24 @@ data = {
             ["Circus"] = "13397257710",
             ["Retro"] = "14023240170"
         },
-        ["Cake Delivery"] = {
-            [""] = "1541733493",
-            ["_self"] = 12,
-            ["Festive"] = "15618407988",
-            ["Skyline"] = "18100378204",
-            ["Harvest"] = "13548485900"
-        },
+        ["Orbit Snatcher"] = {[""] = "5696062971", ["_self"] = 107, ["Harbour"] = "18354074133"},
         ["Drawing the Line"] = {
             [""] = "3559423208",
             ["_self"] = 92,
             ["Vintage"] = "13385712581",
-            ["Daycare"] = "17767945032",
             ["Tea Party"] = "13385713575",
+            ["Daycare"] = "17767945032",
             ["Sewing"] = "15870475406"
         },
         ["Block Hunt"] = {[""] = "3428769460", ["_self"] = 90, ["Blizzard Castle"] = "4530956957"},
-        ["Rolling Race"] = {[""] = "1086651298", ["_self"] = 56, ["Autumn"] = "4774948625", ["Canyon"] = "1194888891"},
-        ["Ring Diver"] = {[""] = "3108045408", ["_self"] = 87},
-        ["Bomberblox"] = {
-            [""] = "9343555465",
-            ["_self"] = 116,
-            ["Candylands"] = "18352476983",
-            ["Playset"] = "13385645308",
-            ["Badlands"] = "14963724280"
+        ["Solo Swordsman"] = {
+            [""] = "1086652896",
+            ["_self"] = 61,
+            ["Outpost"] = "1373654698",
+            ["Midnight Mill"] = "12285476321"
         },
+        ["Blow Dryer Battle"] = {["Gearworks"] = "10235097838", ["_self"] = 6},
+        ["Freeze Affray"] = {[""] = "13497750487", ["_self"] = 78, ["Lodge"] = "13497754710"},
         ["Laser Guidance"] = {
             ["Vault"] = "10235103511",
             ["_self"] = 42,
@@ -19495,13 +19585,8 @@ data = {
             ["Grill"] = "13385747838",
             [""] = "1086652197"
         },
-        ["Going Underground"] = {
-            [""] = "1086646468",
-            ["_self"] = 33,
-            ["Junkyard"] = "13545423795",
-            ["Grove"] = "2040749088"
-        },
-        ["Freeze Affray"] = {[""] = "13497750487", ["_self"] = 78, ["Lodge"] = "13497754710"},
+        ["Ring Diver"] = {[""] = "3108045408", ["_self"] = 87},
+        ["Beat Block"] = {[""] = "9388891424", ["_self"] = 119, ["Cards"] = "16579095496"},
         ["Pivot Paintings"] = {["_self"] = 126, ["London"] = "16898549735", ["Fairground"] = "18100223950"},
         ["Blast Mining"] = {
             [""] = "10236489031",
@@ -19510,11 +19595,11 @@ data = {
             ["Prismarine"] = "10236491349",
             ["Badlands"] = "10236493524"
         },
-        ["Conveyor Conundrum"] = {
-            [""] = "1086644208",
-            ["_self"] = 19,
-            ["Cyber Factory"] = "15488954924",
-            ["Quarry"] = "10235099118"
+        ["Treacherous Tiles"] = {
+            [""] = "4961155103",
+            ["_self"] = 99,
+            ["Honeycomb"] = "13385763093",
+            ["Ignis"] = "13385769345"
         },
         ["Tile Takeover"] = {
             ["_self"] = 64,
@@ -19523,8 +19608,13 @@ data = {
             ["Matrix"] = "4774949320",
             ["Timekeeping Isles"] = "10235106067"
         },
-        ["Hide Hunt"] = {[""] = "8227921900", ["_self"] = 113},
-        ["Lights On"] = {[""] = "2590639214", ["_self"] = 45, ["Hexagon"] = "16886750360"},
+        ["Backstreet Brawl"] = {
+            ["Desert"] = "13385643561",
+            ["_self"] = 7,
+            ["New York"] = "103620078092871",
+            ["Blox City"] = "1086642113"
+        },
+        ["Laser Tag"] = {[""] = "10235432403", ["_self"] = 43, ["Plastic Battlefield"] = "10235102976"},
         ["Gear Battle"] = {
             ["Fantasy"] = "5546330759",
             ["_self"] = 31,
@@ -19539,7 +19629,7 @@ data = {
             ["Station"] = "5004093043",
             ["Submerged"] = "2922620315"
         },
-        ["Hurdle Hurry"] = {[""] = "5670963636", ["_self"] = 105, ["Grotto"] = "13385724057"},
+        ["Hide Hunt"] = {[""] = "72741134816657", ["_self"] = 113, ["Market"] = "97807147665021"},
         ["Dizzying Decisions"] = {
             [""] = "13385705957",
             ["_self"] = 26,
@@ -19678,16 +19768,6 @@ data = {
             ["desc"] = "Complete 3 daily missions and win an item.",
             ["pic"] = 8257129387
         },
-        ["It's Snowver"] = {
-            ["enabled"] = true,
-            ["_self"] = false,
-            ["badgenum"] = -10,
-            ["incn"] = true,
-            ["bid"] = 118453936935711,
-            ["cnpic"] = 8257829331,
-            ["desc"] = "Defeat the evil snowman.",
-            ["pic"] = 86977801788962
-        },
         ["Secret Finder"] = {
             ["enabled"] = true,
             ["_self"] = false,
@@ -19734,7 +19814,7 @@ data = {
             ["incn"] = true,
             ["bid"] = 1714791443096517,
             ["cnpic"] = 0,
-            ["desc"] = "Play Epic Minigames for 31 days in a row.",
+            ["desc"] = "Play Epic Minigames for 31 days.",
             ["pic"] = 125332097853788
         },
         ["Myth"] = {
@@ -19828,7 +19908,7 @@ data = {
             ["incn"] = true,
             ["bid"] = 2595546995247098,
             ["cnpic"] = 0,
-            ["desc"] = "Play Epic Minigames for 7 days in a row.",
+            ["desc"] = "Play Epic Minigames for 7 days.",
             ["pic"] = 88563739795299
         },
         ["Cannoneer"] = {
@@ -20061,7 +20141,8 @@ data = {
         },
         ["_self"] = false
     },
-    ["LoadedPlayers"] = 1457,
+    ["ccam"] = true,
+    ["LoadedPlayers"] = 581,
     ["calendarprizes"] = {
         ["19"] = {["detail"] = "2", ["_self"] = "choices"},
         ["18"] = {["detail"] = "Festive Owl", ["_self"] = "item"},
@@ -20078,30 +20159,29 @@ data = {
     },
     ["vipserverid"] = "",
     ["place72"] = 4968555438,
-    ["mname"] = "Crystal Clear",
+    ["place36"] = 3729611454,
     ["placeparty"] = 6882902529,
-    ["bestpartylobby"] = {["numplayers"] = 0, ["_self"] = ""},
+    ["bestpartylobby"] = {["numplayers"] = 9, ["_self"] = "9067a9ca-8577-4539-a425-741b877fcc94"},
     ["marktop"] = true,
     ["isstartplace"] = true,
-    ["currentsecond"] = 1734344631,
-    ["mpicid"] = 5896719603,
-    ["whocredit"] = "Map by HakertowRBX",
-    ["RotationSale"] = {["The Claw"] = 4, ["Shuriken"] = 1, ["Orinthian Falcon"] = 2, ["Caution Crazy"] = 3},
+    ["mininum"] = 101,
+    ["minstiltom"] = 691,
+    ["RotationSale"] = {["Song Bird"] = 2, ["Disestablishmentarianist"] = 4, ["White Divergent"] = 3, ["Slurpee"] = 1},
     ["largeservers"] = {
         ["Value"] = {
-            ["_self"] = "c4f006f6-0589-4c98-a586-e1dcf969ba0e",
-            ["serverlocation"] = "Frankfurt am Main, Germany",
-            ["playercount"] = 6
+            ["_self"] = "0d87a564-1622-4a01-9a1c-9b81d2861c65",
+            ["serverlocation"] = "Dallas, United States",
+            ["playercount"] = 35
         }
     },
     ["proservers"] = {
         ["Value"] = {
-            ["_self"] = "d737daa9-379c-47fd-b084-862cf033d931",
-            ["serverlocation"] = "Frankfurt am Main, Germany",
-            ["playercount"] = 9
+            ["_self"] = "283b3583-7035-4d6c-9d3e-ff620851b892",
+            ["serverlocation"] = "Dallas, United States",
+            ["playercount"] = 4
         }
     },
-    ["rplenabled"] = true,
+    ["bonusplace"] = 721345179,
     ["placebanland"] = 71355242830443,
     ["fullminigamelist"] = {
         ["Only One Path"] = {
@@ -20112,11 +20192,10 @@ data = {
             ["Museum"] = {["_self"] = "15458353614"},
             ["Hallway Sector"] = {["_self"] = "13385739887"}
         },
-        ["Revolution Cube"] = {
-            [""] = {["_self"] = "2040753157"},
-            ["_self"] = 74,
-            ["Temple"] = {["_self"] = "3559430214"},
-            ["Clock Tower"] = {["_self"] = "10235104994"}
+        ["Sweeping Singe"] = {
+            [""] = {["_self"] = "10053286511"},
+            ["_self"] = 121,
+            ["Nuclear"] = {["_self"] = "13178668108"}
         },
         ["Spiral Ascent"] = {
             [""] = {["_self"] = "12505582918"},
@@ -20124,8 +20203,12 @@ data = {
             ["Clockworks"] = {["_self"] = "13650887251"},
             ["Jungle"] = {["_self"] = "12505583196"}
         },
-        ["Kooky Karts"] = {[""] = {["_self"] = "17294930266"}, ["_self"] = 131},
-        ["Teetering Turmoil"] = {[""] = {["_self"] = "5295713874"}, ["_self"] = 104},
+        ["Kooky Karts"] = {
+            [""] = {["_self"] = "17294930266"},
+            ["_self"] = 131,
+            ["Cosmic Road"] = {["_self"] = "131821367191891"}
+        },
+        ["Trampoline Acrobat"] = {[""] = {["_self"] = "15120250419"}, ["_self"] = 127},
         ["Castle Clash"] = {
             [""] = {["isteamgame"] = true, ["_self"] = "13385670234"},
             ["_self"] = 14,
@@ -20169,10 +20252,10 @@ data = {
             ["Winter"] = {["isteamgame"] = true, ["_self"] = "4504122180"}
         },
         ["Brickbattle"] = {
-            ["Crossroads"] = {["_self"] = "4931079231"},
+            ["Chaos Canyon"] = {["_self"] = "5004089339"},
             ["_self"] = 97,
             ["Rocket Arena"] = {["_self"] = "5004095926"},
-            ["Chaos Canyon"] = {["_self"] = "5004089339"}
+            ["Crossroads"] = {["_self"] = "4931079231"}
         },
         ["Shark Survival"] = {
             [""] = {["_self"] = "1086651929"},
@@ -20207,7 +20290,13 @@ data = {
             ["_self"] = 110,
             ["Stadium"] = {["isteamgame"] = true, ["_self"] = "14797240696"}
         },
-        ["Colour Run"] = {[""] = {["_self"] = "15630091086"}, ["_self"] = 128},
+        ["Bomberblox"] = {
+            [""] = {["_self"] = "9343555465"},
+            ["_self"] = 116,
+            ["Candylands"] = {["_self"] = "18352476983"},
+            ["Playset"] = {["_self"] = "13385645308"},
+            ["Badlands"] = {["_self"] = "14963724280"}
+        },
         ["Whack-a-Block"] = {
             [""] = {["isteamgame"] = true, ["_self"] = "15215399808"},
             ["_self"] = 70,
@@ -20233,22 +20322,16 @@ data = {
         ["Colossal Assault"] = {
             ["Volcanon"] = {["_self"] = "2383523113"},
             ["_self"] = 76,
-            ["The Arbigrok"] = {["_self"] = "2383523657"},
-            ["Dr Thanatos"] = {["_self"] = "2383523402"}
+            ["Dr Thanatos"] = {["_self"] = "2383523402"},
+            ["The Arbigrok"] = {["_self"] = "2383523657"}
         },
-        ["Slippery Sledding"] = {
-            [""] = {["_self"] = "1086652758"},
-            ["_self"] = 60,
-            ["Frozen Passage"] = {["_self"] = "1086645936"}
+        ["Solo Swordsman"] = {
+            [""] = {["_self"] = "1086652896"},
+            ["_self"] = 61,
+            ["Outpost"] = {["_self"] = "1373654698"},
+            ["Midnight Mill"] = {["_self"] = "12285476321"}
         },
-        ["Gladiator Grounds"] = {
-            [""] = {["_self"] = "13385715802"},
-            ["_self"] = 32,
-            ["Historium"] = {["_self"] = "13385716936"},
-            ["Valhalla"] = {["_self"] = "13385718434"},
-            ["Sacred Tomb"] = {["_self"] = "14976037969"},
-            ["Ancient Ruins"] = {["_self"] = "16897581111"}
-        },
+        ["Beat Block"] = {[""] = {["_self"] = "9388891424"}, ["_self"] = 119, ["Cards"] = {["_self"] = "16579095496"}},
         ["Accurate Archery"] = {
             [""] = {["_self"] = "3428768865"},
             ["_self"] = 88,
@@ -20256,11 +20339,7 @@ data = {
             ["Archipelago"] = {["_self"] = "3559419197"},
             ["Desert"] = {["_self"] = "3559421307"}
         },
-        ["Laser Tag"] = {
-            [""] = {["_self"] = "10235432403"},
-            ["_self"] = 43,
-            ["Plastic Battlefield"] = {["_self"] = "10235102976"}
-        },
+        ["Battleship Skirmish"] = {[""] = {["isteamgame"] = true, ["_self"] = "4914139715"}, ["_self"] = 96},
         ["Bomb Ball"] = {
             [""] = {["_self"] = "1541732881"},
             ["_self"] = 8,
@@ -20269,11 +20348,11 @@ data = {
             ["Valley"] = {["_self"] = "1689037999"}
         },
         ["Avalanche"] = {[""] = {["_self"] = "5011313579"}, ["_self"] = 2, ["Neapolitan"] = {["_self"] = "10235096693"}},
-        ["Balcony Bolt"] = {
-            [""] = {["_self"] = "1086641836"},
-            ["_self"] = 4,
-            ["Temple"] = {["_self"] = "17057689872"},
-            ["Palace"] = {["_self"] = "5546325799"}
+        ["Rolling Race"] = {
+            [""] = {["isteamgame"] = true, ["_self"] = "1086651298"},
+            ["_self"] = 56,
+            ["Autumn"] = {["isteamgame"] = true, ["_self"] = "4774948625"},
+            ["Canyon"] = {["isteamgame"] = true, ["_self"] = "1194888891"}
         },
         ["Trial Traversing"] = {
             [""] = {["_self"] = "1086653733"},
@@ -20285,14 +20364,7 @@ data = {
         },
         ["Rampant Rhythms"] = {[""] = {["_self"] = "5978313347"}, ["_self"] = 109},
         ["Clear Side"] = {[""] = {["isteamgame"] = true, ["_self"] = "1086643636"}, ["_self"] = 15},
-        ["Cloud Control"] = {
-            ["_self"] = 17,
-            ["Candylands"] = {["isteamgame"] = true, ["_self"] = "14976702360"},
-            ["Summit"] = {["isteamgame"] = true, ["_self"] = "14028098852"},
-            ["Blossom Isles"] = {["isteamgame"] = true, ["_self"] = "16095752621"},
-            ["Celestial"] = {["isteamgame"] = true, ["_self"] = "16825754131"},
-            ["Steampunk"] = {["isteamgame"] = true, ["_self"] = "13385675675"}
-        },
+        ["Lights On"] = {[""] = {["_self"] = "2590639214"}, ["_self"] = 45, ["Hexagon"] = {["_self"] = "16886750360"}},
         ["Backstreet Brawl"] = {
             ["Desert"] = {["_self"] = "13385643561"},
             ["_self"] = 7,
@@ -20320,8 +20392,8 @@ data = {
             [""] = {["_self"] = "1086644461"},
             ["_self"] = 21,
             ["Settlement"] = {["_self"] = "1086651537"},
-            ["Cave"] = {["_self"] = "6072513857"},
             ["Village"] = {["_self"] = "5896719603"},
+            ["Cave"] = {["_self"] = "6072513857"},
             ["Daybreak Isles"] = {["_self"] = "14416127472"}
         },
         ["Backforth Dash"] = {
@@ -20350,11 +20422,10 @@ data = {
         ["Cliffside Chaos"] = {
             [""] = {["_self"] = "1086643813"},
             ["_self"] = 16,
-            ["Electric"] = {["_self"] = "15475157134"},
             ["Magma"] = {["_self"] = "5004093663"},
-            ["Metrobyte"] = {["_self"] = "18100065739"},
-            ["Winter"] = {["_self"] = "2647712312"},
             ["China"] = {["_self"] = "2563235507"},
+            ["Electric"] = {["_self"] = "15475157134"},
+            ["Metrobyte"] = {["_self"] = "18100065739"},
             ["Blossom"] = {["_self"] = "18140701862"}
         },
         ["_self"] = true,
@@ -20372,9 +20443,9 @@ data = {
             ["Castle Hall"] = {["isteamgame"] = true, ["_self"] = "13385692503"}
         },
         ["Flee the Facility"] = {
-            [""] = {["_self"] = "5978312813"},
-            ["_self"] = 108,
             ["Aquatic Underpass"] = {["_self"] = "13112508499"},
+            ["_self"] = 108,
+            [""] = {["_self"] = "5978312813"},
             ["Meltdown"] = {["_self"] = "9538544660"}
         },
         ["Above Water"] = {
@@ -20383,9 +20454,9 @@ data = {
             ["Biohazard"] = {["isteamgame"] = true, ["_self"] = "17901383484"}
         },
         ["Eagle Observation"] = {
-            ["Arctic"] = {["_self"] = "5546329173"},
-            ["_self"] = 81,
             [""] = {["_self"] = "2668228030"},
+            ["_self"] = 81,
+            ["Arctic"] = {["_self"] = "5546329173"},
             ["Lunar"] = {["_self"] = "10235099742"}
         },
         ["Toxic Reactions"] = {
@@ -20424,14 +20495,13 @@ data = {
             ["Fusion"] = {["_self"] = "4774949025"}
         },
         ["Minefield March"] = {
-            [""] = {["_self"] = "15602180067"},
+            ["Pirate Island"] = {["_self"] = "17711440611"},
             ["_self"] = 129,
-            ["Pirate Island"] = {["_self"] = "17711440611"}
+            [""] = {["_self"] = "123413745043438"}
         },
         ["The Crusher"] = {
             ["Ancient Temple"] = {["_self"] = "4567722687"},
             ["_self"] = 62,
-            ["Christmas Trial"] = {["_self"] = "94952272081808"},
             ["Giant's Playroom"] = {["_self"] = "14024305006"},
             ["Deep Into the Sea"] = {["_self"] = "4567745803"},
             ["Autumn Grove"] = {["_self"] = "4567723710"},
@@ -20445,7 +20515,12 @@ data = {
             ["Glacier"] = {["_self"] = "14001262606"},
             ["Tropical"] = {["_self"] = "13385690500"}
         },
-        ["Crag Clamber"] = {[""] = {["_self"] = "2824165378"}, ["_self"] = 82},
+        ["Round Race"] = {
+            ["Sunset Shores"] = {["_self"] = "10235126459"},
+            ["_self"] = 72,
+            ["Cybernetic"] = {["_self"] = "11634915594"},
+            [""] = {["_self"] = "1689037199"}
+        },
         ["Teamwork Trial"] = {
             ["_self"] = 77,
             ["Gulch"] = {["isteamgame"] = true, ["_self"] = "2563273165"},
@@ -20462,13 +20537,14 @@ data = {
             [""] = {["isteamgame"] = true, ["_self"] = "3428770952"},
             ["_self"] = 25,
             ["Poisonous Lake"] = {["isteamgame"] = true, ["_self"] = "13385702032"},
-            ["Skylands"] = {["isteamgame"] = true, ["_self"] = "13397256158"},
-            ["Palace"] = {["isteamgame"] = true, ["_self"] = "13397576718"}
+            ["Palace"] = {["isteamgame"] = true, ["_self"] = "13397576718"},
+            ["Skylands"] = {["isteamgame"] = true, ["_self"] = "13397256158"}
         },
         ["Balloon Platoon"] = {
             [""] = {["_self"] = "5392188900"},
             ["Copper City"] = {["_self"] = "10235097458"},
             ["Crumbled Colosseum"] = {["_self"] = "13361176816"},
+            ["Sundae Summits"] = {["_self"] = "126981088681114"},
             ["Toy Battle"] = {["_self"] = "15195973119"},
             ["_self"] = 102
         },
@@ -20480,24 +20556,34 @@ data = {
             ["Microrealm"] = {["_self"] = "78213398713050"},
             ["_self"] = 50
         },
-        ["Blow Dryer Battle"] = {["Gearworks"] = {["_self"] = "10235097838"}, ["_self"] = 6},
-        ["Collection Contention"] = {[""] = {["_self"] = "11817597749"}, ["_self"] = 80},
-        ["Nudge and Budge"] = {
-            [""] = {["_self"] = "5670963972"},
-            ["_self"] = 106,
-            ["Workshop"] = {["_self"] = "14066193404"},
-            ["Board Games"] = {["_self"] = "13397260735"}
+        ["Going Underground"] = {
+            [""] = {["_self"] = "1086646468"},
+            ["_self"] = 33,
+            ["Junkyard"] = {["_self"] = "13545423795"},
+            ["Grove"] = {["_self"] = "2040749088"}
         },
-        ["Race to the Top"] = {["Corruption"] = {["_self"] = "98493136290435"}, ["_self"] = 132},
-        ["Uncertain Ground"] = {
-            [""] = {["_self"] = "1086653829"},
-            ["_self"] = 68,
-            ["Deepnest"] = {["_self"] = "10235107486"},
-            ["Darkened Realm"] = {["_self"] = "14591100144"},
-            ["Temple"] = {["_self"] = "2040754829"},
-            ["Sunset Bay"] = {["_self"] = "16895208495"}
+        ["Freeze Affray"] = {
+            [""] = {["isteamgame"] = true, ["_self"] = "13497750487"},
+            ["_self"] = 78,
+            ["Lodge"] = {["isteamgame"] = true, ["_self"] = "13497754710"}
         },
-        ["Turntable Scurry"] = {[""] = {["_self"] = "2040754651"}, ["_self"] = 75},
+        ["Aztec Adventure"] = {
+            [""] = {["_self"] = "1086641746"},
+            ["_self"] = 3,
+            ["Savannah"] = {["_self"] = "9538469930"}
+        },
+        ["Balcony Bolt"] = {
+            [""] = {["_self"] = "1086641836"},
+            ["_self"] = 4,
+            ["Temple"] = {["_self"] = "17057689872"},
+            ["Palace"] = {["_self"] = "5546325799"}
+        },
+        ["Bowling Bustle"] = {
+            [""] = {["_self"] = "2040747400"},
+            ["_self"] = 73,
+            ["Atlantis"] = {["_self"] = "10235098423"},
+            ["Venice"] = {["_self"] = "15881451944"}
+        },
         ["Rocket Rumble"] = {
             [""] = {["_self"] = "1086651196"},
             ["_self"] = 55,
@@ -20505,17 +20591,24 @@ data = {
             ["Stratosphere"] = {["_self"] = "11710060364"}
         },
         ["Dodgeball"] = {
-            [""] = {["isteamgame"] = true, ["_self"] = "4614535649"},
-            ["_self"] = 93,
             ["Arctic"] = {["isteamgame"] = true, ["_self"] = "5004176857"},
+            ["_self"] = 93,
+            [""] = {["isteamgame"] = true, ["_self"] = "4614535649"},
             ["Downtown"] = {["isteamgame"] = true, ["_self"] = "10235099437"}
         },
-        ["Beat Block"] = {[""] = {["_self"] = "9388891424"}, ["_self"] = 119, ["Cards"] = {["_self"] = "16579095496"}},
-        ["Treacherous Tiles"] = {
-            [""] = {["_self"] = "4961155103"},
-            ["_self"] = 99,
-            ["Honeycomb"] = {["_self"] = "13385763093"},
-            ["Ignis"] = {["_self"] = "13385769345"}
+        ["Desert Dehydration"] = {
+            ["Western"] = {["_self"] = "17799039514"},
+            ["Pit"] = {["_self"] = "13385694607"},
+            ["Highway"] = {["_self"] = "15461698001"},
+            ["Oasis"] = {["_self"] = "13553021375"},
+            ["Hotpot"] = {["_self"] = "15846071843"},
+            ["_self"] = 24
+        },
+        ["Conveyor Conundrum"] = {
+            ["Cyber Factory"] = {["_self"] = "15488954924"},
+            ["_self"] = 19,
+            ["Quarry"] = {["_self"] = "10235099118"},
+            [""] = {["_self"] = "1086644208"}
         },
         ["Marble Madness"] = {
             ["Drought"] = {["isteamgame"] = true, ["_self"] = "5004094699"},
@@ -20523,7 +20616,12 @@ data = {
             ["Whitespace"] = {["isteamgame"] = true, ["_self"] = "98100705242504"},
             ["Valley"] = {["isteamgame"] = true, ["_self"] = "2040749729"}
         },
-        ["Trampoline Acrobat"] = {[""] = {["_self"] = "15120250419"}, ["_self"] = 127},
+        ["Cannon Cooldown"] = {
+            [""] = {["isteamgame"] = true, ["_self"] = "13385898420"},
+            ["_self"] = 13,
+            ["Swamp"] = {["isteamgame"] = true, ["_self"] = "13385666561"},
+            ["Space"] = {["isteamgame"] = true, ["_self"] = "13385665440"}
+        },
         ["Survive the Spheres"] = {
             ["_self"] = 120,
             ["Coast"] = {["_self"] = "13385758038"},
@@ -20534,32 +20632,20 @@ data = {
             ["_self"] = 54,
             ["Atlantis"] = {["_self"] = "2563233371"}
         },
-        ["Just Jump"] = {
-            [""] = {["_self"] = "1086647468"},
-            ["Emerald Isles"] = {["_self"] = "10235102393"},
-            ["Beach"] = {["_self"] = "10235102096"},
-            ["Oasis"] = {["_self"] = "10235102644"},
-            ["_self"] = 39
+        ["Ring Diver"] = {[""] = {["_self"] = "3108045408"}, ["_self"] = 87},
+        ["Revolution Cube"] = {
+            [""] = {["_self"] = "2040753157"},
+            ["_self"] = 74,
+            ["Temple"] = {["_self"] = "3559430214"},
+            ["Clock Tower"] = {["_self"] = "10235104994"}
         },
-        ["Disc of Doom"] = {
-            [""] = {["_self"] = "11446021290"},
-            ["_self"] = 123,
-            ["Observatory"] = {["_self"] = "15328352739"},
-            ["Industrial Clockworks"] = {["_self"] = "18358800070"},
-            ["Volcanic"] = {["_self"] = "13195367123"}
+        ["Cake Delivery"] = {
+            [""] = {["_self"] = "1541733493"},
+            ["_self"] = 12,
+            ["Skyline"] = {["_self"] = "18100378204"},
+            ["Harvest"] = {["_self"] = "13548485900"}
         },
-        ["Cannon Cooldown"] = {
-            [""] = {["isteamgame"] = true, ["_self"] = "13385898420"},
-            ["_self"] = 13,
-            ["Swamp"] = {["isteamgame"] = true, ["_self"] = "13385666561"},
-            ["Space"] = {["isteamgame"] = true, ["_self"] = "13385665440"}
-        },
-        ["Compactor Crash"] = {
-            ["Crush"] = {["_self"] = "13385688482"},
-            ["_self"] = 18,
-            [""] = {["_self"] = "1086644119"},
-            ["Submerged"] = {["_self"] = "13497673991"}
-        },
+        ["Race to the Top"] = {["Corruption"] = {["_self"] = "98493136290435"}, ["_self"] = 132},
         ["King of the Hill"] = {
             ["Colony"] = {["isteamgame"] = true, ["_self"] = "5546332507"},
             ["_self"] = 71,
@@ -20575,56 +20661,55 @@ data = {
             ["Winter"] = {["_self"] = "87333464441714"},
             ["Desert"] = {["_self"] = "13548927394"}
         },
-        ["Battleship Skirmish"] = {[""] = {["isteamgame"] = true, ["_self"] = "4914139715"}, ["_self"] = 96},
-        ["The Sweeper"] = {
-            [""] = {["_self"] = "1086653178"},
-            ["_self"] = 63,
-            ["Frosty"] = {["_self"] = "4509809567"},
-            ["Cake"] = {["_self"] = "2563272836"},
-            ["Warehouse"] = {["_self"] = "10235105730"},
-            ["Woodland"] = {["_self"] = "1373655717"}
+        ["Teetering Turmoil"] = {[""] = {["_self"] = "5295713874"}, ["_self"] = 104},
+        ["Dizzying Decisions"] = {
+            [""] = {["_self"] = "13385705957"},
+            ["_self"] = 26,
+            ["Sanctum"] = {["_self"] = "6117874368"},
+            ["Ancient Egypt"] = {["_self"] = "8742653334"}
         },
-        ["The Block Chain"] = {["Energy Assault"] = {["_self"] = "17446593621"}, ["_self"] = 28},
+        ["Cloud Control"] = {
+            ["Blossom Isles"] = {["isteamgame"] = true, ["_self"] = "16095752621"},
+            ["Candylands"] = {["isteamgame"] = true, ["_self"] = "14976702360"},
+            ["Summit"] = {["isteamgame"] = true, ["_self"] = "14028098852"},
+            ["Steampunk"] = {["isteamgame"] = true, ["_self"] = "13385675675"},
+            ["Celestial"] = {["isteamgame"] = true, ["_self"] = "16825754131"},
+            ["_self"] = 17
+        },
         ["Hedge Way Out"] = {
             [""] = {["_self"] = "2563238226"},
             ["_self"] = 36,
             ["Deep Woods"] = {["_self"] = "9538373794"},
             ["Manor Gardens"] = {["_self"] = "18140549514"}
         },
-        ["Round Race"] = {
-            ["Sunset Shores"] = {["_self"] = "10235126459"},
-            ["_self"] = 72,
-            ["Cybernetic"] = {["_self"] = "11634915594"},
-            [""] = {["_self"] = "1689037199"}
-        },
+        ["Colour Run"] = {[""] = {["_self"] = "15630091086"}, ["_self"] = 128},
         ["Booksquash"] = {
             [""] = {["_self"] = "10054662472"},
             ["_self"] = 122,
             ["Undersea"] = {["_self"] = "11543952723"},
             ["Magical"] = {["_self"] = "13385658196"},
-            ["Playroom"] = {["_self"] = "14023377974"},
-            ["Santa's Workshop"] = {["_self"] = "73208265283628"}
+            ["Playroom"] = {["_self"] = "14023377974"}
         },
         ["Big Bomb Boom"] = {[""] = {["_self"] = "4967126705"}, ["_self"] = 101},
-        ["Sweeping Singe"] = {
-            [""] = {["_self"] = "10053286511"},
-            ["_self"] = 121,
-            ["Nuclear"] = {["_self"] = "13178668108"}
+        ["Compactor Crash"] = {
+            [""] = {["_self"] = "1086644119"},
+            ["_self"] = 18,
+            ["Crush"] = {["_self"] = "13385688482"},
+            ["Submerged"] = {["_self"] = "13497673991"}
         },
-        ["Bullet Evasion"] = {["Space"] = {["_self"] = "5004097057"}, ["_self"] = 11, [""] = {["_self"] = "1086642747"}},
-        ["Bowling Bustle"] = {
-            [""] = {["_self"] = "2040747400"},
-            ["_self"] = 73,
-            ["Venice"] = {["_self"] = "15881451944"},
-            ["Atlantis"] = {["_self"] = "10235098423"}
+        ["Bullet Evasion"] = {
+            ["Space"] = {["_self"] = "5004097057"},
+            ["_self"] = 11,
+            ["Stronghold"] = {["_self"] = "90855598902288"},
+            [""] = {["_self"] = "1086642747"}
         },
-        ["Desert Dehydration"] = {
-            ["_self"] = 24,
-            ["Pit"] = {["_self"] = "13385694607"},
-            ["Western"] = {["_self"] = "17799039514"},
-            ["Oasis"] = {["_self"] = "13553021375"},
-            ["Highway"] = {["_self"] = "15461698001"},
-            ["Hotpot"] = {["_self"] = "15846071843"}
+        ["Crag Clamber"] = {[""] = {["_self"] = "2824165378"}, ["_self"] = 82},
+        ["Disc of Doom"] = {
+            [""] = {["_self"] = "11446021290"},
+            ["_self"] = 123,
+            ["Observatory"] = {["_self"] = "15328352739"},
+            ["Industrial Clockworks"] = {["_self"] = "18358800070"},
+            ["Volcanic"] = {["_self"] = "13195367123"}
         },
         ["Bullet Bound"] = {
             ["Facility"] = {["_self"] = "13385660958"},
@@ -20633,17 +20718,13 @@ data = {
             ["_self"] = 10,
             ["Aquarium"] = {["_self"] = "13385662304"}
         },
-        ["Aztec Adventure"] = {
-            [""] = {["_self"] = "1086641746"},
-            ["_self"] = 3,
-            ["Savannah"] = {["_self"] = "9538469930"}
-        },
-        ["Romper Stomper"] = {[""] = {["_self"] = "3107882577"}, ["_self"] = 86},
-        ["Solo Swordsman"] = {
-            [""] = {["_self"] = "1086652896"},
-            ["_self"] = 61,
-            ["Outpost"] = {["_self"] = "1373654698"},
-            ["Midnight Mill"] = {["_self"] = "12285476321"}
+        ["Gladiator Grounds"] = {
+            [""] = {["_self"] = "13385715802"},
+            ["_self"] = 32,
+            ["Historium"] = {["_self"] = "13385716936"},
+            ["Valhalla"] = {["_self"] = "13385718434"},
+            ["Sacred Tomb"] = {["_self"] = "14976037969"},
+            ["Ancient Ruins"] = {["_self"] = "16897581111"}
         },
         ["Shock Absorbers"] = {
             [""] = {["_self"] = "1086652068"},
@@ -20652,11 +20733,19 @@ data = {
             ["Temple"] = {["_self"] = "12529472769"},
             ["Sub-zero"] = {["_self"] = "10097447648"}
         },
+        ["Uncertain Ground"] = {
+            [""] = {["_self"] = "1086653829"},
+            ["_self"] = 68,
+            ["Deepnest"] = {["_self"] = "10235107486"},
+            ["Darkened Realm"] = {["_self"] = "14591100144"},
+            ["Temple"] = {["_self"] = "2040754829"},
+            ["Sunset Bay"] = {["_self"] = "16895208495"}
+        },
+        ["Turntable Scurry"] = {[""] = {["_self"] = "2040754651"}, ["_self"] = 75},
         ["Hard-Pressed"] = {
             [""] = {["_self"] = "1086646584"},
             ["_self"] = 34,
             ["Futuristic Hangar"] = {["_self"] = "13552384795"},
-            ["Santa's Workshop"] = {["_self"] = "11757039699"},
             ["Molten Base"] = {["_self"] = "10215760639"},
             ["Nuclear"] = {["_self"] = "14977309329"}
         },
@@ -20668,19 +20757,13 @@ data = {
             ["Circus"] = {["_self"] = "13397257710"},
             ["Retro"] = {["_self"] = "14023240170"}
         },
-        ["Cake Delivery"] = {
-            [""] = {["_self"] = "1541733493"},
-            ["_self"] = 12,
-            ["Festive"] = {["_self"] = "15618407988"},
-            ["Skyline"] = {["_self"] = "18100378204"},
-            ["Harvest"] = {["_self"] = "13548485900"}
-        },
+        ["Romper Stomper"] = {[""] = {["_self"] = "3107882577"}, ["_self"] = 86},
         ["Drawing the Line"] = {
             [""] = {["_self"] = "3559423208"},
             ["_self"] = 92,
             ["Vintage"] = {["_self"] = "13385712581"},
-            ["Daycare"] = {["_self"] = "17767945032"},
             ["Tea Party"] = {["_self"] = "13385713575"},
+            ["Daycare"] = {["_self"] = "17767945032"},
             ["Sewing"] = {["_self"] = "15870475406"}
         },
         ["Block Hunt"] = {
@@ -20688,19 +20771,20 @@ data = {
             ["_self"] = 90,
             ["Blizzard Castle"] = {["isteamgame"] = true, ["_self"] = "4530956957"}
         },
-        ["Rolling Race"] = {
-            [""] = {["isteamgame"] = true, ["_self"] = "1086651298"},
-            ["_self"] = 56,
-            ["Autumn"] = {["isteamgame"] = true, ["_self"] = "4774948625"},
-            ["Canyon"] = {["isteamgame"] = true, ["_self"] = "1194888891"}
+        ["Blow Dryer Battle"] = {["Gearworks"] = {["_self"] = "10235097838"}, ["_self"] = 6},
+        ["The Sweeper"] = {
+            [""] = {["_self"] = "1086653178"},
+            ["_self"] = 63,
+            ["Frosty"] = {["_self"] = "4509809567"},
+            ["Cake"] = {["_self"] = "2563272836"},
+            ["Warehouse"] = {["_self"] = "10235105730"},
+            ["Woodland"] = {["_self"] = "1373655717"}
         },
-        ["Ring Diver"] = {[""] = {["_self"] = "3108045408"}, ["_self"] = 87},
-        ["Bomberblox"] = {
-            [""] = {["_self"] = "9343555465"},
-            ["_self"] = 116,
-            ["Candylands"] = {["_self"] = "18352476983"},
-            ["Playset"] = {["_self"] = "13385645308"},
-            ["Badlands"] = {["_self"] = "14963724280"}
+        ["Nudge and Budge"] = {
+            [""] = {["_self"] = "5670963972"},
+            ["_self"] = 106,
+            ["Workshop"] = {["_self"] = "14066193404"},
+            ["Board Games"] = {["_self"] = "13397260735"}
         },
         ["Laser Guidance"] = {
             ["Vault"] = {["_self"] = "10235103511"},
@@ -20716,16 +20800,15 @@ data = {
             ["Grill"] = {["_self"] = "13385747838"},
             [""] = {["_self"] = "1086652197"}
         },
-        ["Going Underground"] = {
-            [""] = {["_self"] = "1086646468"},
-            ["_self"] = 33,
-            ["Junkyard"] = {["_self"] = "13545423795"},
-            ["Grove"] = {["_self"] = "2040749088"}
+        ["Slippery Sledding"] = {
+            [""] = {["_self"] = "1086652758"},
+            ["_self"] = 60,
+            ["Frozen Passage"] = {["_self"] = "1086645936"}
         },
-        ["Freeze Affray"] = {
-            [""] = {["isteamgame"] = true, ["_self"] = "13497750487"},
-            ["_self"] = 78,
-            ["Lodge"] = {["isteamgame"] = true, ["_self"] = "13497754710"}
+        ["Laser Tag"] = {
+            [""] = {["_self"] = "10235432403"},
+            ["_self"] = 43,
+            ["Plastic Battlefield"] = {["_self"] = "10235102976"}
         },
         ["Pivot Paintings"] = {
             ["_self"] = 126,
@@ -20739,11 +20822,11 @@ data = {
             ["Prismarine"] = {["_self"] = "10236491349"},
             ["Badlands"] = {["_self"] = "10236493524"}
         },
-        ["Conveyor Conundrum"] = {
-            [""] = {["_self"] = "1086644208"},
-            ["_self"] = 19,
-            ["Cyber Factory"] = {["_self"] = "15488954924"},
-            ["Quarry"] = {["_self"] = "10235099118"}
+        ["Treacherous Tiles"] = {
+            [""] = {["_self"] = "4961155103"},
+            ["_self"] = 99,
+            ["Honeycomb"] = {["_self"] = "13385763093"},
+            ["Ignis"] = {["_self"] = "13385769345"}
         },
         ["Tile Takeover"] = {
             ["_self"] = 64,
@@ -20752,14 +20835,18 @@ data = {
             ["Matrix"] = {["isteamgame"] = true, ["_self"] = "4774949320"},
             ["Timekeeping Isles"] = {["isteamgame"] = true, ["_self"] = "10235106067"}
         },
-        ["Hide Hunt"] = {[""] = {["_self"] = "8227921900"}, ["_self"] = 113},
-        ["Lights On"] = {[""] = {["_self"] = "2590639214"}, ["_self"] = 45, ["Hexagon"] = {["_self"] = "16886750360"}},
-        ["Gear Battle"] = {
-            ["Fantasy"] = {["_self"] = "5546330759"},
-            ["_self"] = 31,
-            ["Frosty Village"] = {["_self"] = "4905398549"},
-            ["Grasslands"] = {["_self"] = "13978407846"},
-            ["Drought"] = {["_self"] = "1689035743"}
+        ["The Block Chain"] = {["Energy Assault"] = {["_self"] = "17446593621"}, ["_self"] = 28},
+        ["Just Jump"] = {
+            [""] = {["_self"] = "1086647468"},
+            ["Emerald Isles"] = {["_self"] = "10235102393"},
+            ["Beach"] = {["_self"] = "10235102096"},
+            ["Oasis"] = {["_self"] = "10235102644"},
+            ["_self"] = 39
+        },
+        ["Hide Hunt"] = {
+            [""] = {["_self"] = "72741134816657"},
+            ["_self"] = 113,
+            ["Market"] = {["_self"] = "97807147665021"}
         },
         ["Bounce Out"] = {
             [""] = {["_self"] = "1086642559"},
@@ -20777,40 +20864,25 @@ data = {
             ["_self"] = 105,
             ["Grotto"] = {["_self"] = "13385724057"}
         },
-        ["Dizzying Decisions"] = {
-            [""] = {["_self"] = "13385705957"},
-            ["_self"] = 26,
-            ["Sanctum"] = {["_self"] = "6117874368"},
-            ["Ancient Egypt"] = {["_self"] = "8742653334"}
+        ["Gear Battle"] = {
+            ["Fantasy"] = {["_self"] = "5546330759"},
+            ["_self"] = 31,
+            ["Frosty Village"] = {["_self"] = "4905398549"},
+            ["Grasslands"] = {["_self"] = "13978407846"},
+            ["Drought"] = {["_self"] = "1689035743"}
         }
     },
     ["controller"] = "",
-    ["nextpic"] = "rbxassetid://5896719603",
-    ["bonusplace"] = 721345179,
-    ["notification"] = "The crystals will disappear in 60 seconds; grab one before anyone else",
-    ["minstiltom"] = 817,
+    ["nextpic"] = "rbxassetid://4967126705",
+    ["whocredit"] = "By TheSteelEagle & Siriologist",
+    ["mname"] = "Big Bomb Boom",
+    ["mpicid"] = 4967126705,
     ["mainplace"] = 277751860,
     ["placepartylobby"] = 6882896123,
-    ["place36"] = 3729611454,
-    ["mininum"] = 21,
-    ["raining"] = {
-        ["rainangle"] = CFrame.new(
-            0,
-            0,
-            0,
-            0.694633126,
-            -2.20239162e-05,
-            -0.719364107,
-            -0.269432783,
-            0.927201569,
-            -0.260198355,
-            0.667001307,
-            0.374562681,
-            0.644059062
-        ),
-        ["_self"] = false
-    },
-    ["songname"] = {["songvol"] = 20, ["_self"] = "Waterflame - Quick Fox"},
+    ["notification"] = "The game is ongoing...",
+    ["currentsecond"] = 1740832202,
+    ["raining"] = {["rainangle"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1), ["_self"] = false},
+    ["songname"] = {["songvol"] = 20, ["_self"] = "Waterflame - Viscid"},
     ["seasonalminigame"] = ""
 }
 function tts(tbl) local result = "{" local step = 0 for k, v in pairs(tbl) do if type(k) == "string" then result = result.."[\""..k.."\"]".."=" end if type(v) == "table" then step = step + 1 if step >= 100000 then m2g.Text = "Cancelled" warn("extracting cancelled",step) result=result.."}" return result end meta = tts(v) if meta ~= "}" then result = result..tts(v) else result = result.."{}" end elseif type(v) == "boolean" or type(v) == "number" or typeof(v) == "EnumItem" then result = result..tostring(v) elseif typeof(v) == "BrickColor" then result = result.."BrickColor.new(\""..tostring(v).."\")" elseif typeof(v) == "Vector3" then result = result.."Vector3.new("..tostring(v)..")" elseif typeof(v) == "CFrame" then result = result.."CFrame.new("..tostring(v)..")" elseif typeof(v) == "Color3" then result = result.."Color3.fromRGB("..tostring(math.floor(v.r*255))..","..tostring(math.floor(v.g*255))..","..tostring(math.floor(v.b*255))..")" elseif type(v) == "string" and (string.find(v,"\"") or string.find(v,"\n")) then result = result.."[["..tostring(v).."]]" result = string.gsub(result,"\n","\\n") else result = result.."\""..tostring(v).."\"" end result = result.."," end if result ~= "" then result = result:sub(1, result:len()-1) end result=result.."}" return result end
