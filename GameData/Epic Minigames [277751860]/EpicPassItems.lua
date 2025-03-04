@@ -35,14 +35,14 @@ data = {
                 ["C"] = {"Coins_200", "Common"},
                 ["B"] = {"Flower Crossbow", "Uncommon"},
                 ["E"] = {"Minigame Choice x2", "Uncommon"},
-                ["D"] = {"8th Seasoneer", "Rare"},
+                ["D"] = {"12th Seasoneer", "Rare"},
                 ["G"] = {"Minigame Choice x2", "Uncommon"},
                 ["F"] = {"Fireflies", "Rare"}
             },
             ["Leaderboards"] = {
-                ["Top5Alltime"] = {"Uber Award", "Legendary"},
+                ["Top5Alltime"] = {"Epic Duck Award", "Legendary"},
                 ["Silver"] = "2nd Place Trophy",
-                ["Top5Weekly"] = {"Barry the Bear", "Legendary"},
+                ["Top5Weekly"] = {"Chef Shrimp", "Legendary"},
                 ["Top50Weekly"] = {"Requiem", "Rare"},
                 ["Bronze"] = "3rd Place Trophy",
                 ["Top50Alltime"] = {"Plasmatic", "Rare"},
@@ -196,7 +196,7 @@ data = {
             }
         }
     },
-    ["getSeasonData"] = "function: 0x764adf96d9289681",
+    ["getSeasonData"] = "function: 0x2383d9bfe17d7651",
     ["rotationTimeStart"] = 1683158400,
     ["weeklyChallenges"] = {
         {
