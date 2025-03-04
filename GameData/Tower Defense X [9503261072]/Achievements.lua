@@ -178,14 +178,6 @@ data = {
         ["Rewards"] = {{["Amount"] = 75, ["Type"] = "Gold"}, {["Amount"] = 50, ["Type"] = "XP"}},
         ["PriorityInCategory"] = 1
     },
-    ["KillZombies4"] = {
-        ["ProgressNeeded"] = 1000000,
-        ["Name"] = "KillZombies4",
-        ["ReadProgressFromDataPath"] = "Kills",
-        ["_Category"] = "Kills",
-        ["Rewards"] = {{["Amount"] = 1250, ["Type"] = "Gold"}, {["Amount"] = 3000, ["Type"] = "XP"}},
-        ["PriorityInCategory"] = 15
-    },
     ["Level5"] = {
         ["_Category"] = "Level",
         ["ProgressNeeded"] = 990768,
@@ -195,6 +187,22 @@ data = {
         ["Rewards"] = {{["Amount"] = 1500, ["Type"] = "Gold"}, {["Amount"] = 1600, ["Type"] = "XP"}},
         ["ConvertProgressToLevel"] = true,
         ["PriorityInCategory"] = 20
+    },
+    ["KillZombies4"] = {
+        ["ProgressNeeded"] = 1000000,
+        ["Name"] = "KillZombies4",
+        ["ReadProgressFromDataPath"] = "Kills",
+        ["_Category"] = "Kills",
+        ["Rewards"] = {{["Amount"] = 1250, ["Type"] = "Gold"}, {["Amount"] = 3000, ["Type"] = "XP"}},
+        ["PriorityInCategory"] = 15
+    },
+    ["KillTutorialBoss"] = {
+        ["ProgressNeeded"] = 1,
+        ["Name"] = "KillTutorialBoss",
+        ["ReadProgressFromDataPath"] = "BossKillMap>Erad-B",
+        ["_Category"] = "Bosses",
+        ["Rewards"] = {{["Amount"] = 250, ["Type"] = "Gold"}, {["Amount"] = 150, ["Type"] = "XP"}},
+        ["PriorityInCategory"] = 1
     },
     ["Level7"] = {
         ["_Category"] = "Level",
@@ -206,16 +214,6 @@ data = {
         ["ConvertProgressToLevel"] = true,
         ["PriorityInCategory"] = 30
     },
-    ["Level6"] = {
-        ["_Category"] = "Level",
-        ["ProgressNeeded"] = 1346951,
-        ["Name"] = "Level6",
-        ["ReadProgressFromDataPath"] = "XP",
-        ["BadgeId"] = 2153897272,
-        ["Rewards"] = {{["Amount"] = 1850, ["Type"] = "Gold"}, {["Amount"] = 2400, ["Type"] = "XP"}},
-        ["ConvertProgressToLevel"] = true,
-        ["PriorityInCategory"] = 25
-    },
     ["Level2"] = {
         ["_Category"] = "Level",
         ["ProgressNeeded"] = 95150,
@@ -225,6 +223,16 @@ data = {
         ["Rewards"] = {{["Amount"] = 225, ["Type"] = "Gold"}, {["Amount"] = 400, ["Type"] = "XP"}},
         ["ConvertProgressToLevel"] = true,
         ["PriorityInCategory"] = 5
+    },
+    ["Level6"] = {
+        ["_Category"] = "Level",
+        ["ProgressNeeded"] = 1346951,
+        ["Name"] = "Level6",
+        ["ReadProgressFromDataPath"] = "XP",
+        ["BadgeId"] = 2153897272,
+        ["Rewards"] = {{["Amount"] = 1850, ["Type"] = "Gold"}, {["Amount"] = 2400, ["Type"] = "XP"}},
+        ["ConvertProgressToLevel"] = true,
+        ["PriorityInCategory"] = 25
     },
     ["Level4"] = {
         ["_Category"] = "Level",
@@ -318,7 +326,7 @@ data = {
         ["BadgeId"] = 2153897158,
         ["Rewards"] = {{["Amount"] = 275, ["Type"] = "Gold"}, {["Amount"] = 350, ["Type"] = "XP"}},
         ["_Category"] = "Bosses",
-        ["PriorityInCategory"] = 1
+        ["PriorityInCategory"] = 2
     },
     ["Win500"] = {
         ["ProgressNeeded"] = 500,
