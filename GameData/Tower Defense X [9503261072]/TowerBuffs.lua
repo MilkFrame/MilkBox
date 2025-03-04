@@ -7,6 +7,308 @@ data = {
         ["IgnoreStunImmunity"] = true,
         ["Percentage"] = 1
     },
+    ["Tutorial"] = {
+        ["EradBRageStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["PSmasherSlamDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["CrushaRageStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["CrushaSlamDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["EradBFlamethrowerBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 20,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        }
+    },
+    ["PlagueDoctor"] = {
+        ["PlagueDoctorDamageDebuff"] = {["IsDebuff"] = true, ["Type"] = "Damage", ["Time"] = 8, ["Percentage"] = 0.5},
+        ["PlagueDoctorRangeDebuff"] = {["IsDebuff"] = true, ["Type"] = "Range", ["Time"] = 8, ["Percentage"] = 0.45},
+        ["PlagueDoctorSmokeDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "SmokeDebuff",
+            ["Percentage"] = 0.2
+        },
+        ["BirdStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["PlagueDoctorStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["PlagueDoctorFirerateDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Firerate",
+            ["Time"] = 8,
+            ["Percentage"] = 0.7
+        }
+    },
+    ["NightmareCyberSantaSpamAttackDebuff"] = {
+        ["Type"] = "EradicatorMK2Minigun",
+        ["Time"] = 0.1,
+        ["IsDebuff"] = true,
+        ["DamagePerSecond"] = 1500,
+        ["Percentage"] = 0
+    },
+    ["SmasherSlam"] = {
+        ["Type"] = "Stun",
+        ["Time"] = 3,
+        ["IsDebuff"] = true,
+        ["EffectPositionOnHead"] = true,
+        ["Percentage"] = 1
+    },
+    ["ShotgunnerHealingFieldBuff"] = {
+        ["Type"] = "Heal",
+        ["Time"] = 0.1,
+        ["CustomVisualEffectName"] = "HealBuffQuick",
+        ["NotCountedAsFriendlyBuff"] = true,
+        ["Percentage"] = 0
+    },
+    ["JohnRageBuff"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage",
+        ["Time"] = 8,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "RageModeBuff",
+        ["Percentage"] = 0.5
+    },
+    ["MedicKritzLevel1"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage",
+        ["Time"] = inf,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "KritzBuff",
+        ["NotCountedAsFriendlyBuff"] = true,
+        ["DependentOnAbilityBeingActive"] = true,
+        ["Percentage"] = 1
+    },
+    ["JammerDisableAbilities"] = {
+        ["Type"] = "DisableAbilities",
+        ["Time"] = 0.2,
+        ["IsDebuff"] = true,
+        ["CustomVisualEffectName"] = "EMPDebuff",
+        ["Percentage"] = 0.5
+    },
+    ["SuperEncoreBuff"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Firerate",
+        ["Time"] = 7,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "EncoreBuff",
+        ["Percentage"] = 0.6
+    },
+    ["RevivedPlagueDoctor"] = {
+        ["RevivedBirdStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["RevivedPlagueDoctorRangeDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Range",
+            ["Time"] = 8,
+            ["Percentage"] = 0.6
+        },
+        ["RevivedPlagueDoctorSmokeDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "SmokeDebuff",
+            ["DamagePerSecond"] = 2,
+            ["Percentage"] = 0.4
+        },
+        ["RevivedPlagueDoctorToxicGasDebuff"] = {
+            ["Type"] = "Gas",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "SmokeDebuff",
+            ["DamagePerSecond"] = 85,
+            ["Percentage"] = 0.5
+        },
+        ["RevivedPlagueDoctorSlashStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 4.5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["RevivedPlagueDoctorDamageDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Damage",
+            ["Time"] = 11,
+            ["Percentage"] = 0.8
+        },
+        ["RevivedPlagueDoctorFirerateDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Firerate",
+            ["Time"] = 11,
+            ["Percentage"] = 0.75
+        },
+        ["RevivedPlagueDoctorStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        }
+    },
+    ["Tower Battles"] = {
+        ["NightmareVoidSpawnRageScreamStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["NightmareVoidConversionBuff"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidStompStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["TBToxicDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "ToxicDebuff",
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 0.25
+        },
+        ["NightmareVoidTowerDestructionFirerateDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Firerate",
+            ["Time"] = 8,
+            ["Percentage"] = 0.3
+        },
+        ["VoidConversionBuff"] = {
+            ["NotAllowedOnPathEntities"] = true,
+            ["Type"] = "Conversion",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidMeteoriteStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidSpawnRageScreamStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["NightmareVoidStompStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidTowerDestructionFirerateDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Firerate",
+            ["Time"] = 5,
+            ["Percentage"] = 0.2
+        },
+        ["NightmareVoidMeteoriteStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        }
+    },
+    ["ElfGuardianStunDebuff"] = {
+        ["Type"] = "Stun",
+        ["Time"] = 3,
+        ["IsDebuff"] = true,
+        ["EffectPositionOnHead"] = true,
+        ["Percentage"] = 1
+    },
+    ["RavageStunDebuff"] = {
+        ["Type"] = "Stun",
+        ["Time"] = 3,
+        ["IsDebuff"] = true,
+        ["EffectPositionOnHead"] = true,
+        ["Percentage"] = 1
+    },
+    ["CommanderCTA2"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage2",
+        ["Time"] = 14,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "CommanderBuff",
+        ["Percentage"] = 0.3
+    },
+    ["EMPDebuff"] = {
+        ["Type"] = "Stun",
+        ["Time"] = 5,
+        ["IsDebuff"] = true,
+        ["EffectPositionOnHead"] = true,
+        ["Percentage"] = 1
+    },
+    ["RebootSystemsDamageBuff"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage",
+        ["Time"] = 7,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "EncoreBuff",
+        ["Percentage"] = 0.25
+    },
     ["SnowPredatorFreeze"] = {
         ["Type"] = "Freeze",
         ["Time"] = 8,
@@ -53,57 +355,305 @@ data = {
             ["Percentage"] = 0.5
         }
     },
-    ["PlagueDoctor"] = {
-        ["PlagueDoctorDamageDebuff"] = {["IsDebuff"] = true, ["Type"] = "Damage", ["Time"] = 8, ["Percentage"] = 0.5},
-        ["PlagueDoctorFirerateDebuff"] = {
+    ["MedicGodModeLevel1"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Uber",
+        ["InstantHealAmount"] = 1000,
+        ["HealPerSecond"] = 500,
+        ["Time"] = inf,
+        ["NotCountedAsFriendlyBuff"] = true,
+        ["CustomVisualEffectName"] = "UberBuff",
+        ["DependentOnAbilityBeingActive"] = true,
+        ["IsDebuff"] = false,
+        ["Percentage"] = 1
+    },
+    ["MedicGodModeLevel2"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Uber",
+        ["InstantHealAmount"] = 2000,
+        ["HealPerSecond"] = 1000,
+        ["Time"] = inf,
+        ["NotCountedAsFriendlyBuff"] = true,
+        ["CustomVisualEffectName"] = "UberBuff",
+        ["DependentOnAbilityBeingActive"] = true,
+        ["IsDebuff"] = false,
+        ["Percentage"] = 1
+    },
+    ["ResurrectedCryoBlasterSnowDebuff"] = {
+        ["Type"] = "Firerate",
+        ["Time"] = 3,
+        ["IsDebuff"] = true,
+        ["CustomVisualEffectName"] = "SnowDebuff",
+        ["EffectPositionOnHead"] = true,
+        ["Percentage"] = 0.25
+    },
+    ["Christmas24"] = {
+        ["GingerDreadLaserEyeBurn"] = {
+            ["Type"] = "LaserDamage",
+            ["Time"] = 0.8,
             ["IsDebuff"] = true,
-            ["Type"] = "Firerate",
-            ["Time"] = 8,
-            ["Percentage"] = 0.7
+            ["DamagePerSecond"] = 43750,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
         },
-        ["PlagueDoctorSmokeDebuff"] = {
-            ["Type"] = "Firerate",
-            ["Time"] = 2,
+        ["GingerDreadLaserSweepBurn"] = {
+            ["Type"] = "LaserDamage",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "SmokeDebuff",
-            ["Percentage"] = 0.2
+            ["DamagePerSecond"] = 12500,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
         },
-        ["BirdStunDebuff"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 3,
+        ["UngiftedDeathRangeDebuff"] = {["IsDebuff"] = true, ["Type"] = "Range", ["Time"] = 4, ["Percentage"] = 0.25},
+        ["UngiftedDeathDamageDebuff"] = {["IsDebuff"] = true, ["Type"] = "Damage", ["Time"] = 4, ["Percentage"] = 0.25},
+        ["GeneralCelgarIceBreathFreeze"] = {
+            ["Type"] = "Freeze",
+            ["Time"] = 6,
             ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
+            ["NoVisualEffect"] = true,
             ["Percentage"] = 1
         },
-        ["PlagueDoctorStunDebuff"] = {
+        ["GeneralCelgarSnowballFreeze"] = {
+            ["Type"] = "Freeze",
+            ["Time"] = 4,
+            ["IsDebuff"] = true,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 1
+        },
+        ["GeneralCelgarRageStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 7,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["ElderWendigoRageStun"] = {
             ["Type"] = "Stun",
             ["Time"] = 5,
             ["IsDebuff"] = true,
             ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["PlagueDoctorRangeDebuff"] = {["IsDebuff"] = true, ["Type"] = "Range", ["Time"] = 8, ["Percentage"] = 0.45}
+        ["ResurrectedCryoRangerFreeze"] = {
+            ["Type"] = "Freeze",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 1
+        },
+        ["UngiftedDeathFirerateDebuff"] = {
+            ["IsDebuff"] = true,
+            ["Type"] = "Firerate",
+            ["Time"] = 4,
+            ["Percentage"] = 0.25
+        },
+        ["GingerDreadRageStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["GingerDreadSmashStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["ApexPredatorChristmas24Freeze"] = {
+            ["Type"] = "Freeze",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 1
+        },
+        ["GeneralCelgarIceBreathBurn"] = {
+            ["Type"] = "TakeDamage",
+            ["Time"] = 0.1,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 10000,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        }
     },
-    ["NightmareCyberSantaSpamAttackDebuff"] = {
-        ["Type"] = "EradicatorMK2Minigun",
-        ["Time"] = 0.1,
-        ["IsDebuff"] = true,
-        ["DamagePerSecond"] = 1500,
-        ["Percentage"] = 0
+    ["Halloween"] = {
+        ["EngineerNightmareToxicCloudDebuff"] = {
+            ["Type"] = "Gas",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "GasDebuff",
+            ["DamagePerSecond"] = 250,
+            ["Percentage"] = 0.5
+        },
+        ["WretchUnburrowStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["TarnishedClergymanTowerDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "PurpleSmokeDebuff",
+            ["Percentage"] = 0.2
+        },
+        ["CorruptedEradicatorMK2Burn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 500,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        },
+        ["EngineerEMPStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1,
+            ["IgnoreStunImmunity"] = true
+        },
+        ["CorruptedPredatorConversion"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = 20,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["CorruptedPredatorNightmareScreamStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["CorrApexPredSlamStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = false,
+            ["Percentage"] = 1
+        },
+        ["CorrApexPredLeech"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = inf,
+            ["IsDebuff"] = true,
+            ["RemoveIfHealedForTime"] = 0.8,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 1
+        },
+        ["EngineerNightmareEMPDisableAbilitiesDebuff"] = {
+            ["Type"] = "DisableAbilities",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "EngineerEMPDebuff",
+            ["Percentage"] = 1
+        },
+        ["HereticLightningDebuff"] = {
+            ["Type"] = "Damage",
+            ["Time"] = 1.9,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 200,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0
+        },
+        ["PsychoKnifeBleedDebuff"] = {
+            ["Type"] = "Damage",
+            ["Time"] = 5,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "PyschoBleedDebuff",
+            ["DamagePerSecond"] = 5,
+            ["Percentage"] = 0
+        },
+        ["EngineerEMPDisableAbilitiesDebuff"] = {
+            ["Type"] = "DisableAbilities",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "EngineerEMPDebuff",
+            ["Percentage"] = 1
+        },
+        ["WretchLandStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["CorruptedPredatorScreamStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 2,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = false,
+            ["Percentage"] = 1
+        },
+        ["EngineerNightmareEMPStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1,
+            ["IgnoreStunImmunity"] = true
+        },
+        ["CorruptedPredatorLeech"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = inf,
+            ["IsDebuff"] = true,
+            ["RemoveIfHealedForTime"] = 0.8,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 1
+        },
+        ["CorrApexPredConversion"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = 20,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["CorruptedPredatorNightmareConversion"] = {
+            ["Type"] = "Conversion",
+            ["Time"] = 20,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
+        },
+        ["EngineerToxicCloudDebuff"] = {
+            ["Type"] = "Gas",
+            ["Time"] = 10,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "GasDebuff",
+            ["DamagePerSecond"] = 60,
+            ["Percentage"] = 0.5
+        }
     },
-    ["SmasherSlam"] = {
-        ["Type"] = "Stun",
-        ["Time"] = 3,
-        ["IsDebuff"] = true,
-        ["EffectPositionOnHead"] = true,
-        ["Percentage"] = 1
-    },
-    ["ShotgunnerHealingFieldBuff"] = {
-        ["Type"] = "Heal",
-        ["Time"] = 0.1,
-        ["CustomVisualEffectName"] = "HealBuffQuick",
-        ["NotCountedAsFriendlyBuff"] = true,
-        ["Percentage"] = 0
+    ["Calamity"] = {
+        ["CalamityStompStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["CalamityRageStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        }
     },
     ["EradicatorMK4Gold"] = {
         ["EradicatorMK4GoldBurnDebuff"] = {
@@ -144,87 +694,6 @@ data = {
             ["Percentage"] = 0.5
         }
     },
-    ["EradicatorMKICGold"] = {
-        ["EradicatorMKICGoldSwordSpinStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 2.5,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["Percentage"] = 1
-        },
-        ["EradicatorMKICGoldRageStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 5.2,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["IgnoreStunImmunity"] = true,
-            ["Percentage"] = 1
-        },
-        ["EradicatorMKICGoldSwordSpinDamage"] = {
-            ["Type"] = "TakeDamage",
-            ["Time"] = 1,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 4000,
-            ["NoVisualEffect"] = true,
-            ["Percentage"] = 0.5
-        },
-        ["EradicatorMKICGoldSwordShockStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 2.5,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["Percentage"] = 1
-        },
-        ["EradicatorMKICGoldLaserCannonBurn"] = {
-            ["Type"] = "Burn",
-            ["Time"] = 2.85,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 10526.315789473683,
-            ["NoVisualEffect"] = true,
-            ["Percentage"] = 0.5
-        },
-        ["EradicatorMKICGoldLaserSweepBurn"] = {
-            ["Type"] = "Burn",
-            ["Time"] = 0.1,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 62500,
-            ["NoVisualEffect"] = true,
-            ["Percentage"] = 0.5
-        },
-        ["EradicatorMKICGoldSwordShockDamageDebuff"] = {
-            ["Type"] = "Damage",
-            ["Time"] = 16,
-            ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "EMPDebuff",
-            ["Percentage"] = 0.7
-        }
-    },
-    ["JohnRageBuff"] = {
-        ["EffectPositionAtFeet"] = true,
-        ["Type"] = "Damage",
-        ["Time"] = 8,
-        ["IsDebuff"] = false,
-        ["CustomVisualEffectName"] = "RageModeBuff",
-        ["Percentage"] = 0.5
-    },
-    ["Calamity"] = {
-        ["CalamityRageStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 6,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["IgnoreStunImmunity"] = true,
-            ["Percentage"] = 1
-        },
-        ["CalamityStompStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 6,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["IgnoreStunImmunity"] = true,
-            ["Percentage"] = 1
-        }
-    },
     ["NightmareCyberSantaTripleShotStun"] = {
         ["Type"] = "Stun",
         ["Time"] = 5,
@@ -233,44 +702,95 @@ data = {
         ["IgnoreStunImmunity"] = true,
         ["Percentage"] = 1
     },
-    ["Toilet"] = {
-        ["FartToiletStun"] = {
+    ["CryoHelicopterCrashFreeze"] = {
+        ["Type"] = "Freeze",
+        ["Time"] = 2,
+        ["IsDebuff"] = true,
+        ["NoVisualEffect"] = true,
+        ["Percentage"] = 1
+    },
+    ["Eradicator"] = {
+        ["EradicatorRageStun"] = {
             ["Type"] = "Stun",
-            ["Time"] = 3,
+            ["Time"] = 5.2,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["EradicatorSwordSlashStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 4.5,
             ["IsDebuff"] = true,
             ["EffectPositionOnHead"] = true,
             ["Percentage"] = 1
         },
-        ["EvilGasToiletFirerateDebuff"] = {
-            ["Type"] = "Firerate",
-            ["Time"] = 8,
+        ["EradicatorSwordShockDisableAbilities"] = {
+            ["Type"] = "DisableAbilities",
+            ["Time"] = 12,
             ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "DamageDebuff",
-            ["Percentage"] = 0.7
+            ["CustomVisualEffectName"] = "EMPDebuff",
+            ["Percentage"] = 0.75
         },
-        ["ToiletJohnBossMinigunDebuff"] = {
-            ["Type"] = "EradicatorMK2Minigun",
-            ["Time"] = 0.1,
+        ["EradicatorPartyStun"] = {
+            ["NoVisualEffect"] = true,
+            ["Type"] = "Stun",
+            ["Time"] = 4,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 1000,
-            ["Percentage"] = 0
+            ["IgnoreStunImmunity"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["DanceWhileActive"] = true,
+            ["Percentage"] = 1
+        },
+        ["EradicatorFlamethrowerBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 85,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        },
+        ["EradicatorSwordShockFirerateDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.77
         }
     },
-    ["EncoreBuff"] = {
-        ["EffectPositionAtFeet"] = true,
-        ["Type"] = "Firerate",
-        ["Time"] = 7,
-        ["IsDebuff"] = false,
-        ["CustomVisualEffectName"] = "EncoreBuff",
-        ["Percentage"] = 0.4
-    },
-    ["SuperEncoreBuff"] = {
-        ["EffectPositionAtFeet"] = true,
-        ["Type"] = "Firerate",
-        ["Time"] = 7,
-        ["IsDebuff"] = false,
-        ["CustomVisualEffectName"] = "EncoreBuff",
-        ["Percentage"] = 0.6
+    ["VoidApexPredator"] = {
+        ["VoidApexPredatorLaserEyeBurn"] = {
+            ["Type"] = "LaserDamage",
+            ["Time"] = 0.867,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 46000,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        },
+        ["VoidApexPredatorSlamStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidApexPredatorMissileStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 6,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["VoidApexPredatorFlamethrowerBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 3,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 800,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        }
     },
     ["HealingFieldBuff"] = {
         ["Type"] = "Heal",
@@ -280,60 +800,83 @@ data = {
         ["HealPerSecond"] = 500,
         ["Percentage"] = 0
     },
-    ["RevivedPlagueDoctor"] = {
-        ["RevivedPlagueDoctorToxicGasDebuff"] = {
-            ["Type"] = "Gas",
-            ["Time"] = 5,
+    ["Toilet"] = {
+        ["FartToiletStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
             ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "SmokeDebuff",
-            ["DamagePerSecond"] = 85,
-            ["Percentage"] = 0.5
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
         },
-        ["RevivedPlagueDoctorSlashStun"] = {
+        ["ToiletJohnBossMinigunDebuff"] = {
+            ["Type"] = "EradicatorMK2Minigun",
+            ["Time"] = 0.1,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 1000,
+            ["Percentage"] = 0
+        },
+        ["EvilGasToiletFirerateDebuff"] = {
+            ["Type"] = "Firerate",
+            ["Time"] = 8,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "DamageDebuff",
+            ["Percentage"] = 0.7
+        }
+    },
+    ["MedicKritzLevel2"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage",
+        ["Time"] = inf,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "KritzBuff",
+        ["NotCountedAsFriendlyBuff"] = true,
+        ["DependentOnAbilityBeingActive"] = true,
+        ["Percentage"] = 2
+    },
+    ["EradicatorMK2"] = {
+        ["EradicatorMK2RageStun"] = {
             ["Type"] = "Stun",
             ["Time"] = 4.5,
             ["IsDebuff"] = true,
             ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["RevivedPlagueDoctorSmokeDebuff"] = {
-            ["Type"] = "Firerate",
-            ["Time"] = 2,
+        ["CorruptedEradicatorMK2MinigunSweepDebuff"] = {
+            ["Type"] = "EradicatorMK2Minigun",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "SmokeDebuff",
-            ["DamagePerSecond"] = 2,
-            ["Percentage"] = 0.4
+            ["DamagePerSecond"] = 1800,
+            ["Percentage"] = 0
         },
-        ["RevivedPlagueDoctorRangeDebuff"] = {
+        ["EradicatorMK2MinigunDebuff"] = {
+            ["Type"] = "EradicatorMK2Minigun",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
-            ["Type"] = "Range",
-            ["Time"] = 8,
-            ["Percentage"] = 0.6
+            ["DamagePerSecond"] = 500,
+            ["Percentage"] = 0
         },
-        ["RevivedBirdStunDebuff"] = {
-            ["Type"] = "Stun",
+        ["EradicatorMK2FlamethrowerBurn"] = {
+            ["Type"] = "Burn",
             ["Time"] = 3,
             ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["Percentage"] = 1
+            ["DamagePerSecond"] = 260,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
         },
-        ["RevivedPlagueDoctorDamageDebuff"] = {
+        ["DreadnoughtContemptorStrafeDebuff"] = {
+            ["Type"] = "EradicatorMK2Minigun",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
-            ["Type"] = "Damage",
-            ["Time"] = 11,
-            ["Percentage"] = 0.8
+            ["DamagePerSecond"] = 700,
+            ["Percentage"] = 0
         },
-        ["RevivedPlagueDoctorFirerateDebuff"] = {
+        ["EradicatorMK2RageDamage"] = {
+            ["Type"] = "EradicatorMK2Rage",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
-            ["Type"] = "Firerate",
-            ["Time"] = 11,
-            ["Percentage"] = 0.75
-        },
-        ["RevivedPlagueDoctorStunDebuff"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 3,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
+            ["DamagePerSecond"] = 1751,
+            ["NoVisualEffect"] = true,
             ["Percentage"] = 1
         }
     },
@@ -361,11 +904,11 @@ data = {
             ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["EradicatorMKICSwordSpinDamage"] = {
-            ["Type"] = "TakeDamage",
-            ["Time"] = 1,
+        ["EradicatorMKICLaserCannonBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 2.85,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 1250,
+            ["DamagePerSecond"] = 2456.1403508771928,
             ["NoVisualEffect"] = true,
             ["Percentage"] = 0.5
         },
@@ -383,50 +926,47 @@ data = {
             ["CustomVisualEffectName"] = "EMPDebuff",
             ["Percentage"] = 0.7
         },
-        ["EradicatorMKICLaserCannonBurn"] = {
-            ["Type"] = "Burn",
-            ["Time"] = 2.85,
+        ["EradicatorMKICSwordSpinDamage"] = {
+            ["Type"] = "TakeDamage",
+            ["Time"] = 1,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 2456.1403508771928,
+            ["DamagePerSecond"] = 800,
             ["NoVisualEffect"] = true,
             ["Percentage"] = 0.5
         }
     },
-    ["EradicatorMK2"] = {
-        ["EradicatorMK2MinigunDebuff"] = {
-            ["Type"] = "EradicatorMK2Minigun",
-            ["Time"] = 0.1,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 500,
-            ["Percentage"] = 0
-        },
-        ["EradicatorMK2FlamethrowerBurn"] = {
-            ["Type"] = "Burn",
-            ["Time"] = 3,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 260,
-            ["NoVisualEffect"] = true,
-            ["Percentage"] = 0.5
-        },
-        ["EradicatorMK2RageStun"] = {
+    ["EncoreBuff"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Firerate",
+        ["Time"] = 7,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "EncoreBuff",
+        ["Percentage"] = 0.4
+    },
+    ["EradidogBarkDebuff"] = {
+        ["Type"] = "Stun",
+        ["Time"] = 2.5,
+        ["IsDebuff"] = true,
+        ["EffectPositionOnHead"] = true,
+        ["IgnoreStunImmunity"] = true,
+        ["Percentage"] = 1
+    },
+    ["CyberSantaSpamAttackDebuff"] = {
+        ["Type"] = "EradicatorMK2Minigun",
+        ["Time"] = 0.1,
+        ["IsDebuff"] = true,
+        ["DamagePerSecond"] = 150,
+        ["Percentage"] = 0
+    },
+    ["EradicatorMKICGold"] = {
+        ["EradicatorMKICGoldSwordSpinStun"] = {
             ["Type"] = "Stun",
-            ["Time"] = 4.5,
+            ["Time"] = 2.5,
             ["IsDebuff"] = true,
             ["EffectPositionOnHead"] = true,
-            ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["EradicatorMK2RageDamage"] = {
-            ["Type"] = "EradicatorMK2Rage",
-            ["Time"] = 0.1,
-            ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 1751,
-            ["NoVisualEffect"] = true,
-            ["Percentage"] = 1
-        }
-    },
-    ["Eradicator"] = {
-        ["EradicatorRageStun"] = {
+        ["EradicatorMKICGoldRageStun"] = {
             ["Type"] = "Stun",
             ["Time"] = 5.2,
             ["IsDebuff"] = true,
@@ -434,42 +974,59 @@ data = {
             ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["EradicatorSwordSlashStun"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 4.5,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["Percentage"] = 1
-        },
-        ["EradicatorSwordShockDisableAbilities"] = {
-            ["Type"] = "DisableAbilities",
-            ["Time"] = 12,
-            ["IsDebuff"] = true,
-            ["CustomVisualEffectName"] = "EMPDebuff",
-            ["Percentage"] = 0.75
-        },
-        ["EradicatorFlamethrowerBurn"] = {
+        ["EradicatorMKICGoldLaserCannonBurn"] = {
             ["Type"] = "Burn",
-            ["Time"] = 3,
+            ["Time"] = 2.85,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 85,
+            ["DamagePerSecond"] = 10526.315789473683,
             ["NoVisualEffect"] = true,
             ["Percentage"] = 0.5
         },
-        ["EradicatorSwordShockFirerateDebuff"] = {
-            ["Type"] = "Firerate",
-            ["Time"] = 6,
+        ["EradicatorMKICGoldLaserSweepBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 0.1,
             ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 62500,
             ["NoVisualEffect"] = true,
-            ["Percentage"] = 0.77
+            ["Percentage"] = 0.5
+        },
+        ["EradicatorMKICGoldSwordShockDamageDebuff"] = {
+            ["Type"] = "Damage",
+            ["Time"] = 16,
+            ["IsDebuff"] = true,
+            ["CustomVisualEffectName"] = "EMPDebuff",
+            ["Percentage"] = 0.7
+        },
+        ["EradicatorMKICGoldSwordSpinDamage"] = {
+            ["Type"] = "TakeDamage",
+            ["Time"] = 1,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 4000,
+            ["NoVisualEffect"] = true,
+            ["Percentage"] = 0.5
+        },
+        ["EradicatorMKICGoldSwordShockStun"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 2.5,
+            ["IsDebuff"] = true,
+            ["EffectPositionOnHead"] = true,
+            ["Percentage"] = 1
         }
     },
     ["ApexPredator"] = {
-        ["ApexPredatorLaserEyeBurn"] = {
-            ["Type"] = "LaserDamage",
-            ["Time"] = 0.867,
+        ["ApexPredatorSlamStunDebuff"] = {
+            ["Type"] = "Stun",
+            ["Time"] = 3,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 46000,
+            ["EffectPositionOnHead"] = true,
+            ["IgnoreStunImmunity"] = true,
+            ["Percentage"] = 1
+        },
+        ["ApexPredatorFlamethrowerBurn"] = {
+            ["Type"] = "Burn",
+            ["Time"] = 7,
+            ["IsDebuff"] = true,
+            ["DamagePerSecond"] = 200,
             ["NoVisualEffect"] = true,
             ["Percentage"] = 0.5
         },
@@ -481,51 +1038,14 @@ data = {
             ["IgnoreStunImmunity"] = true,
             ["Percentage"] = 1
         },
-        ["ApexPredatorFlamethrowerBurn"] = {
-            ["Type"] = "Burn",
-            ["Time"] = 3,
+        ["ApexPredatorLaserEyeBurn"] = {
+            ["Type"] = "LaserDamage",
+            ["Time"] = 0.867,
             ["IsDebuff"] = true,
-            ["DamagePerSecond"] = 800,
+            ["DamagePerSecond"] = 46000,
             ["NoVisualEffect"] = true,
             ["Percentage"] = 0.5
-        },
-        ["ApexPredatorSlamStunDebuff"] = {
-            ["Type"] = "Stun",
-            ["Time"] = 3,
-            ["IsDebuff"] = true,
-            ["EffectPositionOnHead"] = true,
-            ["IgnoreStunImmunity"] = true,
-            ["Percentage"] = 1
         }
-    },
-    ["ElfGuardianStunDebuff"] = {
-        ["Type"] = "Stun",
-        ["Time"] = 3,
-        ["IsDebuff"] = true,
-        ["EffectPositionOnHead"] = true,
-        ["Percentage"] = 1
-    },
-    ["CyberSantaSpamAttackDebuff"] = {
-        ["Type"] = "EradicatorMK2Minigun",
-        ["Time"] = 0.1,
-        ["IsDebuff"] = true,
-        ["DamagePerSecond"] = 150,
-        ["Percentage"] = 0
-    },
-    ["RavageStunDebuff"] = {
-        ["Type"] = "Stun",
-        ["Time"] = 3,
-        ["IsDebuff"] = true,
-        ["EffectPositionOnHead"] = true,
-        ["Percentage"] = 1
-    },
-    ["EradidogBarkDebuff"] = {
-        ["Type"] = "Stun",
-        ["Time"] = 2.5,
-        ["IsDebuff"] = true,
-        ["EffectPositionOnHead"] = true,
-        ["IgnoreStunImmunity"] = true,
-        ["Percentage"] = 1
     },
     ["RavageDamageDebuff"] = {
         ["Type"] = "TakeDamage",
@@ -535,26 +1055,27 @@ data = {
         ["NoVisualEffect"] = true,
         ["Percentage"] = 0
     },
-    ["EMPDebuff"] = {
-        ["Type"] = "Stun",
-        ["Time"] = 5,
-        ["IsDebuff"] = true,
-        ["EffectPositionOnHead"] = true,
-        ["Percentage"] = 1
-    },
-    ["JammerDisableAbilities"] = {
-        ["Type"] = "DisableAbilities",
-        ["Time"] = 0.2,
-        ["IsDebuff"] = true,
-        ["CustomVisualEffectName"] = "EMPDebuff",
-        ["Percentage"] = 0.5
-    },
-    ["RebootSystemsDamageBuff"] = {
+    ["CommanderCTA1"] = {
         ["EffectPositionAtFeet"] = true,
-        ["Type"] = "Damage",
-        ["Time"] = 7,
+        ["Type"] = "Damage2",
+        ["Time"] = 10,
         ["IsDebuff"] = false,
-        ["CustomVisualEffectName"] = "EncoreBuff",
-        ["Percentage"] = 0.2
+        ["CustomVisualEffectName"] = "CommanderBuff",
+        ["Percentage"] = 0.3
+    },
+    ["CommanderCTA3"] = {
+        ["EffectPositionAtFeet"] = true,
+        ["Type"] = "Damage2",
+        ["Time"] = 20,
+        ["IsDebuff"] = false,
+        ["CustomVisualEffectName"] = "CommanderBuff",
+        ["Percentage"] = 0.3
+    },
+    ["MobsterExtraDamageBuff"] = {
+        ["Type"] = "Damage",
+        ["Time"] = 10,
+        ["IsDebuff"] = false,
+        ["NoVisualEffect"] = true,
+        ["Percentage"] = 0.5
     }
 }
