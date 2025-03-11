@@ -1,4 +1,4 @@
---22 December 2024 4:00pm
+--22 December 2024 11:00pm
 data = {
     ["Player Leaderboard"] = {
         {1, "@0ce2n", "14h 28m", 131669714},
@@ -103,30 +103,30 @@ data = {
         {100, "@Jin3581", "2d 5h 37m", 364453390}
     },
     ["Experience Leaderboard"] = {
-        {1, "Dress To Impress", "1030522", 5203828273},
-        {2, "Sonic Speed Simulator", "972976", 3405618667},
-        {3, "Blade Ball", "867748", 4777817887},
-        {4, "Toilet Tower Defense", "738263", 4778845442},
-        {5, "Bee Swarm Simulator", "680233", 601130232},
-        {6, "PETS GO!", "655821", 6401952734},
-        {7, "Fisch", "631212", 5750914919},
-        {8, "RIVALS", "628377", 6035872082},
-        {9, "A Dusty Trip", "614308", 5650396773},
-        {10, "Welcome to Bloxburg", "591054", 88070565},
-        {11, "War Tycoon", "553374", 1526814825},
-        {12, "Greenville", "515751", 371263894},
-        {13, "Tower Defense Simulator", "497993", 1176784616},
-        {14, "Royale High", "479368", 321778215},
-        {15, "Bed Wars", "449135", 2619619496},
-        {16, "Heroes Battlegrounds", "441143", 4568630521},
-        {17, "Driving Empire", "436470", 1202096104},
-        {18, "Dragon Adventures", "431578", 1235188606},
-        {19, "Emergency Hamburg", "392270", 2992873140},
-        {20, "Warrior Cats", "344163", 1278035280},
-        {21, "Elemental Dungeons", "310508", 3825332406},
-        {22, "ER:LC", "305114", 903807016},
-        {23, "NFL Universe Football", "266881", 184199275},
-        {24, "Creatures of Sonaria", "202849", 1831550657}
+        {1, "Dress To Impress", "1,054,658", 5203828273},
+        {2, "Sonic Speed Simulator", "995,111", 3405618667},
+        {3, "Blade Ball", "899,822", 4777817887},
+        {4, "Toilet Tower Defense", "760,551", 4778845442},
+        {5, "PETS GO!", "716,577", 6401952734},
+        {6, "Bee Swarm Simulator", "698,878", 601130232},
+        {7, "Fisch", "687,073", 5750914919},
+        {8, "RIVALS", "646,927", 6035872082},
+        {9, "A Dusty Trip", "631,933", 5650396773},
+        {10, "Welcome to Bloxburg", "609,399", 88070565},
+        {11, "War Tycoon", "566,350", 1526814825},
+        {12, "Greenville", "532,838", 371263894},
+        {13, "Tower Defense Simulator", "513,008", 1176784616},
+        {14, "Royale High", "499,266", 321778215},
+        {15, "Heroes Battlegrounds", "481,181", 4568630521},
+        {16, "Bed Wars", "462,024", 2619619496},
+        {17, "Driving Empire", "450,998", 1202096104},
+        {18, "Dragon Adventures", "442,985", 1235188606},
+        {19, "Emergency Hamburg", "405,327", 2992873140},
+        {20, "Warrior Cats", "357,406", 1278035280},
+        {21, "Elemental Dungeons", "348,163", 3825332406},
+        {22, "ER:LC", "316,404", 903807016},
+        {23, "NFL Universe Football", "276,908", 184199275},
+        {24, "Creatures of Sonaria", "214,155", 1831550657}
     }
 }
 o="{"
